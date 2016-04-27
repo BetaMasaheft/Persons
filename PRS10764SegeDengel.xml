@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model
+href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"
+?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS10764SegeDengel" xml:lang="en" type="pers">
+
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ṣǝge Dǝngǝl</title>
+            <editor key="ES"/>  
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+               multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  This file is licensed under the Creative Commons
+                  Attribution-ShareAlike 4.0. </licence>
+            </availability>
+            
+            <date>2016-04-27</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file created from original data</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+
+            <language ident="gez"/>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="ES" when="2016-04-27-12:00">CREATED: person</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person sex="1"> 
+
+               <persName><roleName type="title">abba</roleName>Ṣǝge Dǝngǝl</persName>
+
+               <nationality type="Ethiopia post-Aksumite"/>   
+               <faith type="EOTC"/>   
+               <occupation type="ecclesiastic">abbot (mamhǝr)</occupation>
+               <floruit>1563–1597</floruit>
+               <residence>
+                  <placeName corresp="LOC1391AmbaGe">Gǝšǝn</placeName>
+               </residence>
+            </person>
+            
+            <listRelation>
+               <relation name="snap:SonOf" active="#PRS10764SegeDengel" passive="#PRS10766ZenaG"/>
+
+            </listRelation>
+                                    
+         </listPerson>
+         <listBibl type="mss"><bibl corresp="BLorient481#a12"/></listBibl>
+         
+         
+      </body>
+   </text>
+</TEI>
