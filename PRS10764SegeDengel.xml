@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"
 ?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS10764SegeDengel" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="pers"
+     xml:lang="en"
+     xml:id="PRS10764SegeDengel">
 
    <teiHeader>
       <fileDesc>
@@ -40,7 +45,8 @@ schematypens="http://relaxng.org/ns/structure/1.0"
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="ES" when="2016-04-27-12:00">CREATED: person</change>
+         <change who="PL" when="2016-04-28T11:27:02.252+02:00">batch updated according to requirements and issues.</change>
+         <change when="2016-04-27-12:00">CREATED: person</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -48,10 +54,11 @@ schematypens="http://relaxng.org/ns/structure/1.0"
          <listPerson>
             <person sex="1"> 
 
-               <persName><roleName type="title">abba</roleName>Ṣǝge Dǝngǝl</persName>
+               <persName>
+                  <roleName type="title">abba</roleName>Ṣǝge Dǝngǝl</persName>
 
-               <nationality type="Ethiopia post-Aksumite"/>   
-               <faith type="EOTC"/>   
+               <nationality type="notSpecified"/>   
+               <faith type=""/>   
                <occupation type="ecclesiastic">abbot (mamhǝr)</occupation>
                <floruit>1563–1597</floruit>
                <residence>
@@ -60,12 +67,16 @@ schematypens="http://relaxng.org/ns/structure/1.0"
             </person>
             
             <listRelation>
-               <relation name="snap:SonOf" active="#PRS10764SegeDengel" passive="#PRS10766ZenaG"/>
+               <relation name="snap:SonOf"
+                         active="#PRS10764SegeDengel"
+                         passive="#PRS10766ZenaG"/>
 
             </listRelation>
                                     
          </listPerson>
-         <listBibl type="mss"><bibl corresp="BLorient481#a12"/></listBibl>
+         <listBibl type="mss">
+            <bibl corresp="BLorient481#a12"/>
+         </listBibl>
          
          
       </body>
