@@ -1,5 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS4428Galawdew">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS4428Galawdew" xml:lang="en" type="pers">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -25,22 +29,32 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="Pietro Liuzzo" when="2016-03-21T16:59:56.911+01:00"> Created file from
+         <change who="PL" when="2016-03-21T16:59:56.911+01:00"> Created file from
                                                   google spreadsheet </change>
-         <change who="Eugenia Sokolinski" when="2016-02-09-12:00">CREATED: place</change>
+         <change who="ES" when="2016-02-09-12:00">CREATED: place</change>
+         
+         <change who="SG" when="2016-04-28">Added more information about the king</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  <forename/>
-                  <surname>Gälawdewos (Aṣnaf Sägäd)</surname>
-               </persName>
-               <occupation> aṣe </occupation>
+               <persName xml:lang="gez" type="normalized" xml:id="n1">Gälawdewos</persName>
+               <persName type="crownName">Aṣnaf Sägäd</persName>
+               <persName xml:lang="gez">ጌላውዴዎ</persName>
+               <persName xml:lang="en">Galawdewos</persName>
+               <occupation type="ruler">aṣe</occupation>
+               <birth>1522</birth>
+              <floruit when="1540" evidence="literature">He obtained the power at the age of 18 in 1540</floruit>
+               <death when="1559" evidence="internal">The reign lasted until 1559, for a total of 19 years.</death>
             </person>
+            
+         <listRelations>
+            <relation name="snap:BrotherOf" mutual="#PRS4428Galawdew #PRS7102Minas"/>
+         </listRelations>
          </listPerson>
+         
       </body>
    </text>
 </TEI>
