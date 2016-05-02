@@ -47,8 +47,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="en">Claudius</persName>
                <occupation type="ruler">emperor</occupation>
                <birth>1522</birth>
-               <floruit when="1540" evidence="literature">Galāwdewos became emperor at the age of 18 in 1540</floruit>
-               <death when="1559" evidence="internal">The reign lasted until <date>23 March 1559</date>, for a total of 19 years.</death>
+               <floruit when="1540" evidence="literature">Galāwdewos became emperor at the age of 18 in 1540. His reign was marked by a successful struggle against <persName corresp="PRS1522Ahmadb">Aḥmad b. Ibrāhīm al-Ġāzī</persName>.</floruit>
+               <death when="1559" evidence="internal">He died on <date>23 March 1559</date>, in battle with <persName corresp="PRS7623NurbM">Nūr b. Muǧāhīd</persName>.</death>
+               <residence></residence>
             </person>
             
          <listRelation>
@@ -56,9 +57,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <relation name="snap:SonOf" active="#PRS4428Galawdew" passive="#PRS6229LebnaDe"/>
             <relation name="snap:SonOf" active="#PRS4428Galawdew" passive="#PRS8275SablaD"/>
             <relation name="saws:isAttributedAuthorOf" active="#PRS4428Galawdew" passive="#LIT1252Confes"/>
+            
          </listRelation>
+            
+            
          </listPerson>
-         
+         <listBibl type="editions"> 
+            <bibl corresp="bm:Conzelman1895Galawdewos"><ref target="LIT3122Galaw">Chronicle of the reign of Galawdewos</ref>: edition and French translation</bibl>
+            <bibl corresp="bm:Solomon2016Galawdewos"><ref target="LIT3122Galaw">Chronicle of the reign of Galawdewos</ref>: edition and English translation</bibl>             
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl corresp="bm:Guidi1899Galawdewos"/>
+            <bibl corresp="bm:Kleiner2005Galaw"/>
+         </listBibl>
       </body>
    </text>
 </TEI>
