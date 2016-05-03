@@ -64,12 +64,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             
          </listPerson>
          <listBibl type="editions"> 
-            <bibl corresp="bm:Conzelman1895Galawdewos"><ref target="LIT3122Galaw">Chronicle of the reign of Galawdewos</ref>: edition and French translation</bibl>
-            <bibl corresp="bm:Solomon2016Galawdewos"><ref target="LIT3122Galaw">Chronicle of the reign of Galawdewos</ref>: edition and English translation</bibl>             
+            <bibl> <ptr target="bm:Conzelman1895Galawdewos"/><ref target="LIT3122Galaw">Chronicle of the reign of Galawdewos</ref>: edition and French translation</bibl>
+            <bibl> <ptr target="bm:Solomon2016Galawdewos"/><ref target="LIT3122Galaw">Chronicle of the reign of Galawdewos</ref>: edition and English translation</bibl>             
          </listBibl>
          <listBibl type="secondary">
-            <bibl corresp="bm:Guidi1899Galawdewos"/>
-            <bibl corresp="bm:Kleiner2005Galaw"/>
+            <bibl> <ptr target="bm:Guidi1899Galawdewos"/></bibl>
+            <bibl> <ptr target="bm:Kleiner2005Galaw"/></bibl>
          </listBibl>
       </body>
    </text>
