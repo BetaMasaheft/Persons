@@ -42,9 +42,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
 
                
-               <!-- VIAF ID:38323081 (Person) -->
-               
-               <persName xml:lang="gez" xml:id="n1">ኢየሱስ፡ ክርስቶስ፡</persName>
+               <persName ref="http://viaf.org/viaf/38323081/" xml:lang="gez" xml:id="n1">ኢየሱስ፡ ክርስቶስ፡</persName>
                <persName xml:lang="gez" type="normalized" corresp="#n1">Iyasus Krǝstos</persName>
                <persName xml:lang="gez" type="alt" xml:id="n2">ክርስቶስ፡</persName>
                <persName xml:lang="gez" corresp="#n2">Krǝstos</persName> 
@@ -57,8 +55,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <nationality type="Israel/Palestine"/>
                <occupation type="other">Son of God</occupation>
                <birth/>
-               <floruit from="-0004" to="0029" evidence="literature"/>
-               <death when="0029"/>
+               <floruit from="-0004" to="0029" evidence="literature">4 BCE - 29 CE</floruit>
+               <death when="0029">29 CE</death>
                <residence>Nazareth, Bethlehem, Egypt, Jerusalem</residence>
             </person>
             
@@ -66,8 +64,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="snap:SonOf" active="#PRS5684JesusCh" passive="#PRS6819Mary"/>
                <relation name="snap:SonOf" active="#PRS5684JesusCh" passive="#PRS3697egziabe"/>
                <relation name="partOf" active="#PRS5684JesusCh" passive="#PRS10775Trinity"/>
-               <relation name="subjectOf" active="#PRS5684JesusCh" passive="#LIT1560Gospel"/>
-               
+               <relation name="saws:P129i_is_subject_of" active="#PRS5684JesusCh" passive="#LIT1560Gospel"/>
+               <relation name="syriaca:born-at" active="#PRS5684JesusCh" passive="#LOC1907Bethle">
             </listRelation>
             
             
