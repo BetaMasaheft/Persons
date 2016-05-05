@@ -48,8 +48,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" type="normalized" corresp="#n1">Iyasus Krǝstos</persName>
                <persName xml:lang="gez" type="alt" xml:id="n2">ክርስቶስ፡</persName>
                <persName xml:lang="gez" corresp="#n2">Krǝstos</persName> 
-               <persName xml:lang="gez" xml:id="n3"><addName type="epithet">መድኃኔ፡ ዓለም</addName> </persName>
-               <persName type="crownName" corresp="#n3">Madḫane ʿĀlam</persName>
+               <persName xml:lang="gez" xml:id="MadhaneAlam"><addName type="epithet">መድኃኔ፡ ዓለም</addName> </persName>
+               <persName xml:lang="gez" corresp="#MadhaneAlam">Madḫane ʿĀlam</persName>
                <persName xml:lang="en">Jesus Christ</persName>
                <persName xml:lang="it">Gesù Cristo</persName>
                <persName xml:lang="de">Jesus Christus</persName>
@@ -57,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <nationality type="Israel/Palestine"/>
                <occupation type="other">Son of God</occupation>
                <birth/>
-               <floruit from="4 bce" to="0029" evidence="literature"/>
+               <floruit from="-0004" to="0029" evidence="literature"/>
                <death when="0029"/>
                <residence>Nazareth, Bethlehem, Egypt, Jerusalem</residence>
             </person>
