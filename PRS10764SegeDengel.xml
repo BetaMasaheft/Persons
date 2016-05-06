@@ -23,18 +23,17 @@ schematypens="http://relaxng.org/ns/structure/1.0"
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
-               multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
             <pubPlace>Hamburg</pubPlace>
-            
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
-                  This file is licensed under the Creative Commons
-                  Attribution-ShareAlike 4.0. </licence>
+                This file is licensed under the Creative Commons
+                Attribution-ShareAlike 4.0. </licence>
             </availability>
-            
             <date>2016-04-27</date>
          </publicationStmt>
          <sourceDesc>
+            <p>Hiob Ludolf Zentrum für Äthiopistik</p>
             <p>A TEI file created from original data</p>
          </sourceDesc>
       </fileDesc>
@@ -46,7 +45,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
       </profileDesc>
       <revisionDesc>
          <change who="ES" when="2016-05-02">updated nationality</change>
-         <change who="ES" when="2016-04-27-12:00">CREATED: person</change>
+         <change who="ES" when="2016-04-27">CREATED: person</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -54,9 +53,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"
          <listPerson>
             <person sex="1"> 
                <persName xml:lang="gez">ጽጌ፡ ድንግል፡</persName>   
-               <persName xml:lang="gez" type="normalized"><roleName type="title">abba</roleName>Ṣǝge Dǝngǝl</persName>
+               <persName xml:lang="gez" type="normalized">
+                  <roleName type="title">abba</roleName>Ṣǝge Dǝngǝl</persName>
 
-               <nationality type="Ethiopia post-Aksumite"></nationality>   
+               <nationality type="Ethiopia post-Aksumite"/>   
                <faith type="EOTC"/>   
                <occupation type="ecclesiastic">abbot (mamhǝr)</occupation>
                <floruit>1563–1597</floruit>
