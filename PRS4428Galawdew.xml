@@ -55,7 +55,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" type="alt" xml:id="n2">ጌላውዴዎስ፡</persName>
                <persName xml:lang="gez" corresp="#n2">Gelāwdewos</persName>
                <persName xml:lang="gez" xml:id="n3">አጽናድ፡ ሰገድ፡ </persName>
-               <persName type="crownName" corresp="#n3">ʾAṣnāf Sagad</persName>
+               <persName type="crownName" xml:lang="gez" corresp="#n3">ʾAṣnāf Sagad</persName>
                <persName xml:lang="en">Claudius</persName>
                <occupation type="ruler">emperor</occupation>
                <birth>1522</birth>
@@ -75,7 +75,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="saws:isAttributedAuthorOf"
                          active="#PRS4428Galawdew"
                          passive="#LIT1252Confes"/>
-               <relation name="contains" active="#PRS4428Galawdew" passive="#LIT3122Galaw"/>
+               <relation name="saws:saws:P129i_is_subject_of" active="#PRS4428Galawdew" passive="#LIT3122Galaw"/>
             
             </listRelation>
             
