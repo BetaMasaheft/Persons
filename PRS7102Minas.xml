@@ -50,12 +50,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+               <persName> Minas</persName>
+               <persName type= "regnalName">Admas Sägäd</persName>
+               <persName xml:lang="gez">ሚናስ</persName>
+               <persName xml:lang="en">Minas</persName>
+                  <occupation type="ruler"> aṣe </occupation>
+               <birth>1526</birth>
+               <floruit when="1559" evidence="internal"> he succeded his brother King Gälawdewos following his death in 1559</floruit>
+               <death when="1563" evidence="internal"> /<death>
+                  <listRelation>
+                     <relation type= "snap: brother of " mutual="#PRS7102Minas#PRS4428Galawdewos"/>
+                     <relation type ="wife"></relation>
+                     
+                     
                   
-                  Minas
-               </persName>
-               <persName type="alt">Admas Sägäd</persName>
-               <occupation> aṣe </occupation>
+           
+               
+                  
+               <
+               
             </person>
          </listPerson>
       </body>
