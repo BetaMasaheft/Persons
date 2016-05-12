@@ -57,19 +57,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <occupation type="ruler"> aṣe </occupation>
                <birth>1526</birth>
                <floruit when="1559" evidence="internal"> he succeded his brother King Gälawdewos following his death in 1559</floruit>
-               <death when="1563" evidence="internal"> /<death>
-                  <listRelation>
-                     <relation type= "snap: brother of " mutual="#PRS7102Minas#PRS4428Galawdewos"/>
-                     <relation type ="wife"></relation>
-                     
-                     
-                  
-           
-               
-                  
-               <
-               
+               <death when="1563" evidence="internal"> </death>
             </person>
+            
+            
+            <listRelation>
+                     <relation name="snap:BrotherOf" mutual="#PRS7102Minas #PRS4428Galawdewos"/>
+                     <relation name="bm:wifeOf"></relation>
+                  </listRelation>
+                     
+                  
          </listPerson>
       </body>
    </text>
