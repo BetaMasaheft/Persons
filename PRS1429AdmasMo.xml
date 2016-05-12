@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Admas Mogäsa</title>
+            <title>ʾAdmās Mogasā</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -49,14 +49,35 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  
-                  Admas Mogäsa
+            <person sex="2">
+               <persName xml:lang="gez" type="royalName" xml:id="n1">አድማስ፡ ሞገሳ
+                  <roleName type="title">ǝtege</roleName>
                </persName>
-               <persName type="alt">Śǝllus Ḫayle</persName>
-               <occupation> ǝtege </occupation>
-            </person>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAdmās Mogasā</persName>
+               <persName xml:lang="gez" xml:id="n2">ሥሉስ፡ ኃይሌ</persName>
+               <persName corresp="#n2">Śǝllus Ḫayle</persName>
+
+               <occupation type="ruler">queen </occupation>
+               <birth>1530</birth>
+               <floruit when="1563" evidence="internal"> she married to King <persName corresp="PRS7102Minas">Minas</persName> in <date>1552</date> and became the royal queen when he was entroned in <date>1559</date></floruit>
+               <death when="1597" evidence="internal"> she died during the reign of her <persName corresp="PRS8550sardaDe">son</persName> </death>
+               
+           </person> 
+            
+            <listRelation>
+               <relation name="bm:wifeOf" 
+                 active="#PRS1429AdmasMo"
+                 passive="#PRS7102Minas"/>
+               <relation name="snap:MotherOf"
+                  active="#PRS1429AdmasMo"
+                  passive="#PRS8550sardaDe"
+                  ></relation>
+               <relation name="snap:HouseholdOf"
+                  active="#PRS1429AdmasMo"
+                  passive="#PRS9038Susenyos"></relation>
+            </listRelation>
+            
+
          </listPerson>
       </body>
    </text>
