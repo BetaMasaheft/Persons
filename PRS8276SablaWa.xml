@@ -44,17 +44,47 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-05-18">CREATED: place, personal name, birth, death, list relation</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="2">
-               <persName>
-                  
-                  Säblä Wängel
-               </persName>
-               <occupation> ǝtege </occupation>
+               
+               <persName> SablaWangel </persName>
+               <persName xml:lang="gez">ሰብለ፡ ወንጌል</persName>
+               <roleName type="title">ǝtege</roleName>
+              
+               <occupation type= "ruler ">queen </occupation>
+               <birth>1500</birth>
+               <floruit when="1518" evidence="internal"> she married to King <persName corresp="PRS6229LebnaDe">Lǝbna Dǝngǝl</persName> in <date>1518</date> and became the royal queen when he was entroned in <date>1559</date></floruit>
+               <death when="1567" evidence="internal"> she died during the reign of her <persName corresp="PRS8550SardaDe">grandson</persName> </death>
+            </person>
+               
+               <listRelation>
+                     <relation name="bm:wifeOf" 
+                     active="#PRS8276SablaWa"
+                     passive="#PRS6229LebnaDe"
+                        ></relation>
+                  <relation name="snap:MotherOf"
+                     active="#PRS8276SablaWa"
+                      passive ="#PRS4121Fiqtor"
+                     ></relation> 
+                    <relation name="snap:MotherOf"
+                        active="#PRS8276SablaWa"
+                        passive="#PRS4428Galawdew"
+                       ></relation>
+                        <relation name= "snap:MotherOf"
+                            active="#PRS8276SablaWa"
+                             passive="##PRS7102Minas"
+                     ></relation>
+                  <relation name="snap:grandmotherOf"
+                     active="#PRS8276SablaWa"
+                     passive="PRS8550SardaDe"></relation>
+               </listRelation>
+               
+        
             </person>
          </listPerson>
       </body>
