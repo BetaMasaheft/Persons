@@ -40,23 +40,46 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+        
+         
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-05-18">batch updated according to requirements and issues.</change>
+         
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+               <persName>Śara Dǝngǝl (Malak Sagad) </persName>
+              
+               <persName xml:lang="gez"  xml:id="n1">ሠርፀ፡ ድንግል</persName>
+               <persName corresp = "#n1">Śara Dǝngǝl</persName>
+               <persName xml:lang="gez" type="royalName" xml:id="n2"> መላክ፡ ሰገድ</persName>
+               <persName corresp="#n2">Malak Sagad</persName>
+               <occupation type="ruler">aṣe  </occupation>
+               <birth>1550</birth> 
+               <floruit when="1563" evidence="internal"> he succeded his father king <persName corresp="PRS7102Minas"></persName>in <date>1563</date></floruit>
+               <death when= "1597" evidence="internal"> he died of fish poisoning </death>
+                  </person>  
                   
-                  Śärä Dǝngǝl (Mäläk Sägäd)
-               </persName>
-               <occupation> aṣe </occupation>
-            </person>
-         </listPerson>
-      </body>
+               <listRelation>
+            <relation name="bm:fatherOf" 
+               active="#PRS7102Minas"
+               passive="#PRS8550sardaDe"></relation>
+            <relation name="snap:motherOf"
+               active="#PRS1429AdmasMo"
+               passive="#PRS8550sardaDe"
+               ></relation>
+            <relation name="snap:uncleOF"
+               active="#PRS4428Galadew"
+               passive="#PRS8550sardaDe"></relation>
+         </listRelation>
+         
+         
+ </body>
    </text>
 </TEI>
