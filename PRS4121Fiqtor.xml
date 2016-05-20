@@ -44,6 +44,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-05-20">CREATED: place</change>
+         
       </revisionDesc>
    </teiHeader>
    <text>
@@ -52,14 +54,38 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName>
                   
-                  Fiqṭor
+                  <persName xml:lang="gez" xml:id="n1">ፊቅጦር፡</persName>
+                  <persName xml:lang="gez" type="normalized" corresp="#n1">Fiqṭor</persName>
                </persName>
+               <occupation type="other">Abeto (i.e the eldest son of King<persName corresp="PRS6229LebnaDe"> </persName></occupation>
+           
+               <birth> around 1518 </birth>
+               <death when="1539" evidence="internal" >He was killed by<persName corresp="PRS9707Utmanb"></persName>one of the war lords  of <persName corresp="PRS1522Ahmadb"></persName> in <date>1539</date></death>
+          
             </person>
-            <listRelation>
-               <relation name="sonOf">
-                  <desc> son Lǝbnä Dǝngǝl </desc>
-               </relation>
-            </listRelation>
+                <listRelation>
+                  <relation name="snap:SonOf" 
+                     active="#PRS4121Fiqṭor"
+                     passive="#PRS6229LebnaDe"
+                     </relation>
+                  <relation name="snap:SonOf" 
+                     active="#PRS4121Fiqṭor"
+                     passive ="#PRS8276SablaWa"
+                     </relation>
+                  <relation name="snap:BrotherOf
+                     active="#PRS4121Fiqṭor"
+                    passive="#PRS4428Galawdew" 
+                     </relation>
+                  <relation name= "snap:BrotherOf
+                     
+                     active="#PRS4121Fiqṭor"
+                     passive="#PRS7102Minas"
+                     </relation>
+                  <relation name= "snap:BrotherOf
+                     active="#PRS4121Fiqṭor"
+                     passive="#PRS10191Yaǝqob"
+                     </relation>
+                  
          </listPerson>
       </body>
    </text>
