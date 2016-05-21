@@ -44,6 +44,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-05-21">CREATED: place</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -54,14 +55,45 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                   Yaʿǝqob
                </persName>
-               <occupation> abet.</occupation>
+               <persName xml:lang="gez" xml:id="n1">ያዕቆብ፡</persName
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Yaʿǝqob</persName>
+              <persName xml:lang="en" corresp="#n1">Jacob</persName>
+             
+               <occupation type="other">Abeto (i.e the youngest son of King<persName corresp="PRS6229LebnaDe"</persName>
+               </occupation>
+   
+               <birth> around 1527 </birth>
+               <death when="1557" evidence="internal" >He died two years before the death of his brother King <persName corresp="#PRS4428Galawdew"></persName>who died in <date>1559</date></death>
+               
             </person>
             <listRelation>
-               <relation name="sonOf">
-                  <desc> son Lǝbnä Dǝngǝl </desc>
+               <relation name="snap:SonOf" 
+                  active="#PRS10191Yaeqob"
+                  passive="#PRS6229LebnaDe"
                </relation>
-            </listRelation>
-         </listPerson>
-      </body>
+               <relation name="snap:SonOf" 
+                  active="#PRS10191Yaeqob"
+                  passive ="#PRS8276SablaWa"
+               </relation>
+               <relation name="snap:BrotherOf
+                  active="#PRS10191Yaeqob"
+                  passive="#PRS4121Fiqṭor"
+               </relation>
+               <relation name= "snap:BrotherOf
+                  
+                  active="#PRS10191Yaeqob"
+                  passive="#PRS4428Galawdew" 
+                  
+               </relation>
+               <relation name= "snap:BrotherOf
+                  active="#PRS10191Yaeqob"
+                  passive="#PRS7102Minas"
+               </relation>
+               <relation name= "snap:grandfatherOf
+                  active="#PRS10191Yaeqob"
+                  passive="#PRS9038Susenyos"
+               
+               
+                     </body>
    </text>
 </TEI>
