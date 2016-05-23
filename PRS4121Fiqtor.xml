@@ -57,36 +57,49 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <persName xml:lang="gez" xml:id="n1">ፊቅጦር፡</persName>
                   <persName xml:lang="gez" type="normalized" corresp="#n1">Fiqṭor</persName>
                </persName>
-               <occupation type="other">Abeto (i.e the eldest son of King<persName corresp="PRS6229LebnaDe"> </persName></occupation>
+               <occupation type="other">abeto (i.e the eldest son of King<persName corresp="PRS6229LebnaDe">Lǝbna Dǝngǝl </persName></occupation>
            
                <birth> around 1518 </birth>
-               <death when="1539" evidence="internal" >He was killed by<persName corresp="PRS9707Utmanb"></persName>one of the war lords  of <persName corresp="PRS1522Ahmadb"></persName> in <date>1539</date></death>
+               <death when="1539" evidence="internal" >He was killed by<persName corresp="PRS9707Utmanb">ʿUṯmān b. Ǧawhar</persName>one of the war lords  of <persName corresp="PRS1522Ahmadb"> Aḥmad b. Ibrāhīm al-Ġāzī</persName> in <date>1539</date></death>
           
             </person>
-                <listRelation>
-                  <relation name="snap:SonOf" 
+                   
+        <listRelation>
+         <relation name="snap:SonOf" 
                      active="#PRS4121Fiqṭor"
                      passive="#PRS6229LebnaDe"
-                     </relation>
+                     ></relation>
                   <relation name="snap:SonOf" 
                      active="#PRS4121Fiqṭor"
                      passive ="#PRS8276SablaWa"
-                     </relation>
-                  <relation name="snap:BrotherOf
+                     ></relation>
+                   <relation name="snap:BrotherOf"
                      active="#PRS4121Fiqṭor"
                     passive="#PRS4428Galawdew" 
-                     </relation>
-                  <relation name= "snap:BrotherOf
+                     ></relation>
+                   <relation name= "snap:BrotherOf"
                      
                      active="#PRS4121Fiqṭor"
                      passive="#PRS7102Minas"
-                     </relation>
-                  <relation name= "snap:BrotherOf
+                      ></relation>
+                   <relation name= "snap:BrotherOf"
                      active="#PRS4121Fiqṭor"
                      passive="#PRS10191Yaǝqob"
-                     </relation>
-                  
-         </listPerson>
+                     ></relation>
+           
+        </listRelation>
+            
+            
+   </listPerson>
+         <listBibl type="secondary">
+            <bibl> 
+            <ptr target="bm:Chernetsov2005F"/>
+            </bibl>  
+            </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+              
+      
