@@ -34,17 +34,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
-            <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
-            <language ident="gez">Gǝʿǝz</language>
+
          </langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: place</change>
-         <change who="SG" when="2016-05-20">CREATED: place</change>
+         <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change who="SG" when="2016-05-20">completed the record</change>
          
       </revisionDesc>
    </teiHeader>
@@ -56,11 +54,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                   <persName xml:lang="gez" xml:id="n1">ፊቅጦር፡</persName>
                   <persName xml:lang="gez" type="normalized" corresp="#n1">Fiqṭor</persName>
+                  <persName><roleName type="title">abeto</roleName></persName>
                </persName>
-               <occupation type="other">abeto (i.e the eldest son of King<persName corresp="PRS6229LebnaDe">Lǝbna Dǝngǝl </persName></occupation>
+               <occupation type="ruler">prince</occupation>
            
-               <birth> around 1518 </birth>
-               <death when="1539" evidence="internal" >He was killed by<persName corresp="PRS9707Utmanb">ʿUṯmān b. Ǧawhar</persName>one of the war lords  of <persName corresp="PRS1522Ahmadb"> Aḥmad b. Ibrāhīm al-Ġāzī</persName> in <date>1539</date></death>
+               <birth when="1518" precision="medium"> around 1518 </birth>
+               <death when="1539" evidence="internal" >He was the eldest son of King<persName corresp="PRS6229LebnaDe">Lǝbna Dǝngǝl</persName>. He was killed by<persName corresp="PRS9707Utmanb">ʿUṯmān b. Ǧawhar</persName>, one of the war lords  of <persName corresp="PRS1522Ahmadb">Aḥmad b. Ibrāhīm al-Ġāzī</persName> in <date>1539</date></death>
           
             </person>
                    
