@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Minas</title>
+            <title>Minās</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -34,43 +34,69 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
-            <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
-            <language ident="gez">Gǝʿǝz</language>
+
          </langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change when="2016-05-12" who="SG">completed record</change>
+         <change when="2016-05-23" who="ES">revised record, name spelling corrected, biography completed, relations corrected, bibliography added</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName> Minas</persName>
-               <persName type= "regnalName">ʾAdmās Sagad</persName>
-               <persName xml:lang="gez">ሚናስ</persName>
-               <persName xml:lang="en">Minas</persName>
-		<persName xml:lang="gez">አድማስ፡ ሰገድ</persName>
-		<persName xml:lang="en">ʾAdmās Sagad</persName>
 
-		<occupation type="ruler"> aṣe </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ሚናስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Minās</persName>
+               <persName><roleName type="title">aṣe</roleName></persName>
+               <persName xml:lang="gez" xml:id="n2" type="birthName">ሜናስ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Menās</persName>
+               <persName xml:lang="gez" xml:id="n3" type="regnalName">አድማስ፡ ሰገድ፡</persName>
+		<persName xml:lang="gez" corresp="n3" type="normalized">ʾAdmās Sagad</persName>
+
+		<occupation type="ruler">Emperor</occupation>
                <birth>1526</birth>
-               <floruit when="1559" evidence="internal"> he succeded his brother King Gälawdewos following his death in 1559</floruit>
-               <death when="1563" evidence="internal"> </death>
+               <floruit when="1559" evidence="internal">As a boy, Minās was prisoner of <persName corresp="PRS1522Ahmadb">Aḥmad b. Ibrāhīm al-Ġāzī</persName>. He was then freed in a prisoner exchange in <date>1542</date>. He succeded his brother King <persName corresp="PRS4428Galawdewos">Galāwdewos</persName>. </floruit>
+               <death when="1563" evidence="internal">1 February 1563</death> 
             </person>
             
             
             <listRelation>
                      <relation name="snap:BrotherOf" mutual="#PRS7102Minas #PRS4428Galawdewos"/>
-                     <relation name="bm:wifeOf"></relation>
+               <relation name="snap:SonOf"
+                  active="#PRS7102Minas"
+                  passive="#PRS6229LebnaDe"/>
+               <relation name="snap:SonOf"
+                  active="#PRS7102Minas"
+                  passive="#PRS8275SablaD"/>
+               <relation name="snap:EmnityFor"
+                  active="#PRS7102Minas"
+                  passive="#PRS10343Yeshaq"></relation>
+               <relation name="snap:EmnityFor"
+                  active="#PRS7102Minas"
+                  passive="#PRS7692ozdemir"></relation>
                   </listRelation>
                      
                   
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Pereira1888"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Kropp1988"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Kleiner2007Minas"/>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
