@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Śärä Dǝngǝl (Mäläk Sägäd)</title>
+            <title>Śarḍa Dǝngǝl</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -34,9 +34,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
-            <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
-            <language ident="gez">Gǝʿǝz</language>
+
          </langUsage>
       </profileDesc>
       <revisionDesc>
@@ -45,40 +43,51 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="ES" when="2016-02-09">CREATED: person</change>
          <change who="SG" when="2016-05-18">batch updated according to requirements and issues.</change>
-         
+         <change who="ES" when="2016-05-23">validity issues corrected, spelling corrected, bibliography added.</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>Śara Dǝngǝl (Malak Sagad) </persName>
+
               
                <persName xml:lang="gez"  xml:id="n1">ሠርፀ፡ ድንግል</persName>
-               <persName corresp = "#n1">Śara Dǝngǝl</persName>
+               <persName corresp = "#n1" xml:lang="gez" type="normalized">
+                  <roleName type="title">aṣe</roleName> Śarḍa Dǝngǝl</persName>
+               
                <persName xml:lang="gez" type="royalName" xml:id="n2"> መላክ፡ ሰገድ</persName>
                <persName corresp="#n2">Malak Sagad</persName>
-               <occupation type="ruler">aṣe  </occupation>
+               <occupation type="ruler">Emperor</occupation>
                <birth>1550</birth> 
-               <floruit when="1563" evidence="internal"> he succeded his father king <persName corresp="PRS7102Minas"></persName>in <date>1563</date></floruit>
-               <death when= "1597" evidence="internal"> he died of fish poisoning </death>
+               <floruit when="1563" evidence="internal">Śarḍa Dǝngǝl succeded his father king <persName corresp="PRS7102Minas">Minas</persName>in <date>1563</date></floruit>
+               <death when= "1597" evidence="internal">He died of fish poisoning </death>
                   </person>  
                   
                <listRelation>
-            <relation name="bm:fatherOf" 
+            <relation name="snap:FatherOf" 
                active="#PRS7102Minas"
                passive="#PRS8550sardaDe"></relation>
-            <relation name="snap:motherOf"
+            <relation name="snap:MotherOf"
                active="#PRS1429AdmasMo"
                passive="#PRS8550sardaDe"
                ></relation>
-            <relation name="snap:uncleOF"
+            <relation name="snap:UncleOf"
                active="#PRS4428Galadew"
                passive="#PRS8550sardaDe"></relation>
          </listRelation>
+         </listPerson>
          
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Nosnitsin2010SD"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Kropp1999SD"/>
+            </bibl>
+         </listBibl>
          
  </body>
    </text>
