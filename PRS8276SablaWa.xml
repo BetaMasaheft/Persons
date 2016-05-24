@@ -34,8 +34,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
-            <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -43,8 +41,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: place</change>
-         <change who="SG" when="2016-05-18">CREATED: completed the record</change>
+         <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change who="SG" when="2016-05-18">completed the record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -52,14 +50,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="2">
                
-               <persName>
+
                   <persName xml:lang="gez" xml:id="n1" type="birthName">ሰብለ፡ ወንጌል፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Sabla Wangel</persName>
                <persName><roleName type="title">ǝtege</roleName></persName>
-               </persName>
+               
               <occupation type= "ruler ">queen </occupation>
-               <birth>1500</birth>
-               <floruit when="1518" evidence="internal"> She married to King <persName corresp="PRS6229LebnaDe">Lǝbna Dǝngǝl</persName> in <date>1518</date> </floruit>
+               <birth when="1500">1500</birth>
+               <floruit from="1518" evidence="internal"> She married King <persName corresp="PRS6229LebnaDe">Lǝbna Dǝngǝl</persName> in <date>1518</date> </floruit>
                <death when="1567" evidence="internal"> She died during the reign of her grandson King<persName corresp="PRS8550SardaDe">Śarḍa Dǝngǝl</persName> </death>
             </person>
                
@@ -87,11 +85,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     
                   <relation name="snap:GrandmotherOf"
                      active="#PRS8276SablaWa"
-                     passive="PRS8550SardaDe"
+                     passive="PRS8550sardaDe"
                      ></relation>
                 
-               </listRelation
-         ></listPerson>
+               </listRelation>
+         </listPerson>
+         
          <listBibl type="editions">
             <bibl>
                <ptr target="bm:Pereira1888"/>
@@ -100,16 +99,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <ptr target="bm:Kropp1988"/>
             </bibl>
             <bibl>
-            <ptr target="bm:Conzelman1895"/>
+               <ptr target="bm:Conzelman1895Galawdewos"/>
             </bibl>
             <bibl> 
-               <ptr target="bm:Solomon2016"/>
+               <ptr target="bm:Solomon2016Galawdewos"/>
             </bibl>
                
          </listBibl>
          <listBibl type="secondary">
             <bibl>
-               <ptr target="bm:Böll2010Säblä Wängel"/>
+               <ptr target="bm:Böll2010Säblä"/>
             </bibl>
          </listBibl>
          

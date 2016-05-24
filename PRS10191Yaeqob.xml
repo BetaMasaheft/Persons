@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Yaʿǝqob</title>
+            <title>Yāʿǝqob</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -34,8 +34,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
-            <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -43,7 +41,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="ES" when="2016-02-09">CREATED: person</change>
          <change who="SG" when="2016-05-21">completed the record</change>
     
       </revisionDesc>
@@ -60,7 +58,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </persName>
                
                <occupation type="ruler">prince</occupation>
-             <birth> around 1527 </birth>
+             <birth when="1557" cert="unknown">around 1527</birth>
                <death when="1557" evidence="internal" >He died two years before the death of his brother King <persName corresp="#PRS4428Galawdew">Galāwdewos</persName>who died in <date>1559</date></death>
                
             </person>
