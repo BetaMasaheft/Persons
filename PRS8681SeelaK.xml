@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Sǝʿǝlä Krǝstos</title>
+            <title>Śǝʿǝlä Krǝstos</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -43,7 +43,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-05-30">completed the record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,12 +51,65 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                  
-                  Sǝʿǝlä Krǝstos
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">ሥዕለ፡ክርስቶስ</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized"> Śǝʿǝla Krǝstos</persName>
+                  <persName><roleName type="title">ras</roleName></persName>
                </persName>
-               <occupation> ras </occupation>
+               <occupation type="political">governor or military commander </occupation>
+               <birth>1570</birth>
+               <floruit when="1607" evidence="internal">He was appointed as a governor of <placeName corresp= "Loc5932 Tegray">Tǝgray</placeName> by his brother King <persName corresp="PRS9038Susenyos">Susǝnyos</persName>in <date>1607</date> . He was one of the staunchest supporters of the Jesuit  mission and he was very close to a catholic father <persName corresp="PRS7699Paez" >Pedro Páez</persName>
+               </floruit>
+               <death when="1636" evidence="internal">1636</death> 
             </person>
+            <listRelation>
+               <relation name="snap:SonOf" 
+                  active="#PRS8681SeelaK"
+                  passive="PRS5045hamalmal"
+                  ></relation>
+               <relation name="snap:BrotherOf"
+                  active="#PRS8681SeelaK"
+                  passive="#PRS9038Susenyos"
+                  > </relation>
+               <relation name= "snap:BrotherOf"
+                  
+                  active ="#PRS8681SeelaK"
+                  passive= "#PRS10233Yamana"
+                  
+                  ></relation>
+               <relation name= "snap:BrotherOf"
+                  
+                  active ="#PRS8681SeelaK"
+                  passive= "#PRS10233Yamana"
+                  
+                  ></relation>
+               <relation name= "snap:AllianceWith"
+                  active ="#PRS8681SeelaK"
+                  passive= "# PRS7699Paez" 
+                  ></relation>
+                  
+           </listRelation>
          </listPerson>
+         
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Pereira1892Susenyos"/>
+            </bibl>
+            
+         </listBibl>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Pereira1900Susenyos"/>
+            </bibl>
+            
+         </listBibl>
+      <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Cohen2010Sǝʿǝla Krǝstos"/>
+            </bibl>  
+         </listBibl>
+         
+            
+               
       </body>
    </text>
 </TEI>
