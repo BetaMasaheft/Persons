@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Basilides (Fasilädäs)</title>
-            <author/>
+            <author cert="low">Kǝlstiyanos liqa ṗāṗāsāt za-hagara Rome ʿĀbāy</author>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
@@ -38,6 +38,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="it">Italiano</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
+         <abstract>
+            <p>According to BL orient 686 it was translated from Coptic by ʿabbā <persName role="translator">Simʿon</persName>  of <placeName>Dabra Entonyos</placeName> in <date type="translation">AM 6889 (AD 1396-1397)</date></p>
+         </abstract>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
@@ -54,8 +57,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                   Basilides (Fasilädäs)
                </persName>
-               <occupation> St. </occupation>
+               <occupation type="ecclesiastic">Saint, martyr</occupation>
+               <note type="commemoration"><date type="diesNatalis">11 Maskaram</date> in <ref type="mss" corresp="BLorient686">BL Orient. 686</ref></note>
             </person>
+            
+            <listRelation>
+               <relation name="saws:P129i_is_subject_of" active="#PRS2548Basilide" passive="#LIT1893Martyr "/>
+            </listRelation>
          </listPerson>
       </body>
    </text>

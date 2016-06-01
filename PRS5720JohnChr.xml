@@ -50,14 +50,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
+               <persName>               
                   John Chrysostom
                </persName>
-               <persName type="alt">Yoḥannǝs Afä Wärq</persName>
-               <occupation> St.</occupation>
-               <occupation>wr.</occupation>
+               <persName type="alt" xml:lang="gez">Yoḥannǝs Afä Wärq</persName>
+               <occupation type="ecclesiastic">saint</occupation>
+               <occupation type="literary">writer</occupation>
             </person>
+            
+            <listRelation>
+               <relation name="saws:isAttributedAuthorOf" active="#PRS5720JohnChr" passive="#LIT2085OntheL "/>
+            </listRelation>
+            
          </listPerson>
       </body>
    </text>

@@ -43,19 +43,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change when="2016-05-31" who="ES">updated record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
+               <persName>            
                   Mamas
                </persName>
-               <occupation> St. </occupation>
+               <occupation type="ecclesiastic">Saint, martyr</occupation>
+               <note type="commemoration"><date type="diesNatalis">5 Maskaram</date> in <ref type="mss" corresp="BLorient686">BL Orient. 686</ref></note>
             </person>
+            
+            <listRelation>
+               <relation name="saws:P129i_is_subject_of" active="#PRS6620Mamas" passive="#LIT1898Martyr "/>
+            </listRelation>
+
          </listPerson>
       </body>
    </text>

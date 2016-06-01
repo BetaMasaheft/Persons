@@ -55,9 +55,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   John the Baptist
                </persName>
                <persName type="alt">Yoḥannǝs Mäṭmǝq</persName>
-               <occupation> St. </occupation>
+               <occupation type="ecclesiastic">saint</occupation>
+               <nationality type="Israel/Palestine"/>
+               
+               <note type="commemoration">He is commemorated on <date type="commemoration">1 Maskaram</date></note>
             </person>
+            <listRelation>
+               <relation name="saws:P129i_is_subject_of" active="#PRS5741Johnthe" passive="#LIT2085OntheL "/>
+            </listRelation>
+            
          </listPerson>
+         
       </body>
    </text>
 </TEI>
