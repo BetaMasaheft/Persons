@@ -6,12 +6,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
      xml:lang="en"
-     xml:id="PRS5741Johnthe">
+     xml:id="PRS10791Klestiyanos">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>John the Baptist</title>
-            <author/>
+            <title>Kǝlstiyanos liqa ṗāṗāsāt za-hagara Rome ʿĀbāy</title>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
@@ -38,6 +37,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="it">Italiano</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
+         
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
@@ -50,22 +50,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName xml:lang="en">
+               <persName>
                   
-                  John the Baptist
+                  Kǝlstiyanos liqa ṗāṗāsāt za-hagara Rome ʿĀbāy
                </persName>
-               <persName type="alt" xml:lang="gez">Yoḥānnǝs Maṭmǝq</persName>
-               <occupation type="ecclesiastic">saint</occupation>
-               <nationality type="Israel/Palestine"/>
+               <occupation type="literary">author</occupation>
                
-               <note type="commemoration">He is commemorated on <date type="diesNatalis">1 Maskaram</date></note>
             </person>
-            <listRelation>
-               <relation name="saws:P129i_is_subject_of" active="#PRS5741Johnthe" passive="#LIT2085OntheL "/>
-            </listRelation>
             
+            <listRelation>
+               <relation name="saws:isAttributedAuthorOf" active="#PRS10791Klestiyanos" passive="#LIT1893Martyr "/>
+            </listRelation>
          </listPerson>
-         
       </body>
    </text>
 </TEI>
