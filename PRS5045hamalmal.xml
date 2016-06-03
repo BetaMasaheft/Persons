@@ -44,6 +44,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-06-03">updated record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -54,9 +55,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                   Ḥamälmal Wärq
                </persName>
-               <occupation> ite </occupation>
+               <occupation type="political"> ite </occupation>
             </person>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl><ptr target="bm:Kropp1988Serata"/></bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
