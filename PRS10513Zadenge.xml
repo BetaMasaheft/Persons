@@ -43,7 +43,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-06-13">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,13 +51,58 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                  
-                  Zädǝngǝl
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">ዘድንግል፡</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Zadǝngǝl</persName>
+                  <persName><roleName type="title">aṣe</roleName></persName>
+                  <persName xml:lang="gez" xml:id="n2" type="regnalName">አጽናፍ፡  ሰገድ፡</persName>
+                  <persName xml:lang="gez" corresp="n2" type="normalized">Aṣnāf Sagad II</persName>
                </persName>
-               <persName type="alt">Aṣnaf Sägäd II</persName>
-               <occupation> aṣe </occupation>
-            </person>
+               <occupation type="ruler">Emperor</occupation>
+               <birth></birth>
+               <floruit when="1603" evidence="internal">He became a king in <date>1603</date>. He introduced  a reform to form an organized army under his command and he also made a reform of land ownership to the peasants with a motto “Man is free, land
+                  is tributary”. He was a pro-catholicism and very close to <persName corresp="PRS7699Paez" >Pedro Páez </persName> </floruit>
+           <death when="1604" evidence="internal">October 1604</death>
+               
+     </person>
+            <listRelation>
+               <relation name="snap:GrandsonOf" 
+                  active="#PRS10513Zadenge"
+                  passive="#PRS7102Minas"
+                  ></relation>
+               <relation name="snap:NephewOf"
+                  active="#PRS10513Zadenge"
+                  passive="#PRS8550sardaDe"
+                  ></relation>
+          <relation name= "snap:AllianceWith"
+                  
+                  active="#PRS10513Zadenge"
+                  passive= "#PRS7699Paez" 
+                  
+                  ></relation>
+               
+            </listRelation>
          </listPerson>
+         
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Pereira1892Susenyos"/>
+            </bibl>
+            
+         </listBibl>
+         
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Pereira1900Susenyos"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Cohen2014Zadǝngǝl"/>
+           
+            </bibl>
+         </listBibl>
+         
       </body>
    </text>
+   
 </TEI>
