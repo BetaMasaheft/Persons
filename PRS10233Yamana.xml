@@ -43,7 +43,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="ES" when="2016-06-13">complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,12 +51,60 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                  
-                  Yämanä Krǝstos
-               </persName>
-               <occupation> ras </occupation>
+          <persName xml:lang="gez" xml:id="n1" type="birthName">የማነ፡ ክርስቶስ፡</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Yamana Krǝstos</persName>
+                  <persName xml:lang="gez" corresp="n2" type="birthName">the Jesuit sources call him“Emana” or “Imano”</persName>
+                     <persName><roleName type="title">ras</roleName></persName>
+                   </persName>
+               <occupation type="political">governor or military commander </occupation>
+               <birth></birth>
+        
+               <floruit when="1605" evidence="internal">He  refused to side with his brother King <persName corresp="PRS9038Susenyos">Susǝnyos</persName>in a struggle against the young King<persName corresp="PRS10198Yaeqob">Yāʿǝqob</persName>in<date>1605</date> 
+               </floruit>
+               <death when="1636" evidence="internal">1636</death> 
             </person>
+            <listRelation>
+               <relation name="snap:SonOf" 
+                  active="#PRS10233Yamana"
+                  passive="#PRS5045hamalmal"
+                  ></relation>
+               <relation name="snap:BrotherOf"
+                  active="#PRS10233Yamana"
+                  passive="#PRS9038Susenyos"
+                  > </relation>
+               <relation name= "snap:BrotherOf"
+                  
+                  active ="#PRS10233Yamana"
+                  passive= "#PRS8681SeelaK"
+                  
+                  ></relation>
+            
+               
+            </listRelation>
          </listPerson>
+         
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Pereira1892Susenyos"/>
+            </bibl>
+            
+         </listBibl>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Pereira1900Susenyos"/>
+            </bibl>
+            
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Martínez d’Alòs-Moner2014YamanaKrǝstos"/>
+            </bibl>  
+         </listBibl>
+         
+         
+         
       </body>
    </text>
 </TEI>
+
+           
