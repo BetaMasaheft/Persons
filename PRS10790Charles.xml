@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model
+href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"
+?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS00000xxxxxx" xml:lang="en" type="pers">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Charles II "le Chauve"</title>
+            <editor key="DR"/>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+               multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  This file is licensed under the Creative Commons
+                  Attribution-ShareAlike 4.0. </licence>
+            </availability>
+            <date>2016-06-03</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file created from original data</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="ar">Arabic</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DR" when="2016-06-03">CREATED: person</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person sex="1">
+               <persName>
+               Charles
+                  <surname></surname>
+                  <addName>le Chauve</addName>
+                  <addName>II</addName>
+               </persName>
+               <persName type="alt"></persName>
+               <nationality type="France">   </nationality>
+             
+               <occupation type="ruler"></occupation>
+               <birth>823</birth>
+               <death>877 </death>
+             
+            </person>
+            
+            <listRelation>
+               <relation  name="snap:GrandsonOf" active="#PRS10790Charles" passive="#PRS3086Charles"/>
+              
+            </listRelation>
+            
+         </listPerson>
+         
+         
+      </body>
+   </text>
+</TEI>
