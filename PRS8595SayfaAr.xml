@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Säyfä Arʿad</title>
+            <title>Sayfa Arʿad</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -43,7 +43,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-07-19">CREATED: place</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,14 +51,44 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                  
-                  Säyfä Arʿad
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">ሰይፈ፡ አርዐድ፡</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Sayfa Arʿad</persName>
+                  <persName><roleName type="title">aṣe</roleName></persName>
+                  <persName xml:lang="gez" xml:id="n2.1" type="regnalName">ንዋየ፡ ክርስቶስ፡</persName>
+                  <persName xml:lang="gez" corresp="n2.1" type="normalized">Nǝwaya Krǝstos</persName>
+                  <persName xml:lang="gez" xml:id="n2.2" type="regnalName">ቈስጠንጢኖስ</persName>
+                  <persName xml:lang="gez" corresp="n2.2" type="normalized"> Qwäsṭanṭinos</persName>
                </persName>
-               <persName type="alt">Nǝwayä Krǝstos</persName>
-               <persName type="alt"> Qwäsṭantinos</persName>
-               <occupation> aṣe </occupation>
-            </person>
+                  <occupation type="ruler">Emperor</occupation>
+               
+               <birth>unknown</birth> 
+               
+               <floruit when="1344" evidence="internal">He succeded his father King<persName corresp="PRS1854Amdase">ʿAmda Ṣǝyon</persName> in <date> 1344</date>. 
+  </floruit>
+               <death when="1371" evidence="internal">1371</death>
+        </person>
+            <listRelation>
+               <relation name="snap:SonOf" 
+                  active="#PRS8595SayfaAr"
+                  passive="#PRS1854Amdase"
+                  ></relation>
+               <relation name="snap:GrandsonOf"
+                  active="#PRS8595SayfaAr"
+                  passive="#PRS10111WedemR"
+                  ></relation>
+                </listRelation>
          </listPerson>
-      </body>
+         
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Basset1882Chronicle"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Derat2010SayfaArʿad"/>
+            </bibl>  
+         </listBibl>
+        </body>
    </text>
 </TEI>

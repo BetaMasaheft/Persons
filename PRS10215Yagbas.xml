@@ -43,7 +43,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-07-19">CREATED: place</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,12 +51,50 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                  
-                  Yagba Ṣǝyon
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">ያግባ፡ ጽዮን፡</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Yāgbā Ṣǝyon</persName>
+                     <persName><roleName type="title">aṣe</roleName></persName>
+                  <persName xml:lang="gez" xml:id="n2" type="regnalName">ሰሎሞን፡</persName>
+                  <persName xml:lang="gez" corresp="#n2" type="normalized">Salomon</persName>
                </persName>
-               <occupation> aṣe </occupation>
+               <occupation type="ruler">Emperor</occupation>
+               
+                     
+                  
+               <birth>unknown</birth>
+               <floruit when="1285" evidence="internal">He succeded his father  King<persName corresp="#PRS10303Yekunno">Yāgbā Ṣǝyon</persName> in <date> 1285</date>.  
+               </floruit>
+               <death when="1294" evidence="internal">1294</death>
+               
             </person>
+            
+            <listRelation>
+               <relation name="snap:SonOf" 
+                  active="#PRS10215Yagbas"
+                  passive="#PRS10303Yekunno"
+                  ></relation>
+               <relation name="snap:BrotherOf"
+                  active="#PRS10215Yagbas"
+                  passive="#PRS10111WedemR"
+                  ></relation>
+              </listRelation>
          </listPerson>
+         
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Basset1882Chronicle"/>
+            </bibl>
+            
+         </listBibl>
+         
+      
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target= "bm:Nosnitsin2014YagbǝaṢǝyon" />
+            </bibl>  
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+            
