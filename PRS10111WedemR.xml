@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Wǝdǝm Räʿad</title>
+            <title>Wǝdǝm Raʿad</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -43,7 +43,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-07-20">completed the record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,12 +51,48 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                  
-                  Wǝdǝm Räʿad
+                  <persName>
+                     <persName xml:lang="gez" xml:id="n1" type="birthName">ውድም፡ ረዐድ፡</persName>
+                     <persName xml:lang="gez" corresp="#n1" type="normalized">Wǝdǝm Raʿad</persName>
+                     <persName><roleName type="title">aṣe</roleName></persName>
+                  </persName>
+                  <persName xml:lang="gez" xml:id="n2" type="regnalName">unknown</persName>
                </persName>
-               <occupation> aṣe </occupation>
-            </person>
+                <occupation type="ruler">Emperor</occupation>
+                 <birth>unknown</birth>
+               <floruit when="1299" evidence="internal">He was entroned in <date>1299</date> following the five years (1294-1299) successive rule of the five sons of his brother King<persName corresp="PRS10215Yagbas">Yāgbā Ṣǝyon</persName> . 
+               </floruit>
+                     <death when="1314" evidence="internal">1314</death>
+                     </person>
+            <listRelation>
+               <relation name="snap:SonOf" 
+                  active="#PRS10111WedemR"
+                  passive="#PRS10303Yekunno"
+                  ></relation>
+               <relation name="snap:BrotherOf"
+                  active="#PRS10111WedemR"
+                  passive="#PRS10215Yagbas"
+                ></relation>
+               <relation name="snap:BrotherOf"
+                  active="#PRS10111WedemR"
+                  passive=  "#PRS1854Amdase"
+                  ></relation>
+            </listRelation>
          </listPerson>
-      </body>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Basset1882Chronicle"/>
+            </bibl>
+           </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target= "bm:Derat2010 WedemRaad" />
+            </bibl>  
+         </listBibl>
+         </body>
    </text>
 </TEI>
+
+     
+        
+     

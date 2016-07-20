@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Dawit II</title>
+            <title>Dāwit II</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -43,7 +43,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-07-20">Complete</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,14 +51,46 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                  
-                  Dawit II
-               </persName>
-               <persName type="alt">Dawit I</persName>
-               <persName type="alt"> Qwäsṭanṭinos IV</persName>
-               <occupation> aṣe </occupation>
+                     <persName xml:lang="gez" xml:id="n1" type="birthName">ዳዊት፡</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Dāwit I</persName>
+                     <persName><roleName type="title">aṣe</roleName></persName>
+                      <persName xml:lang="gez" xml:id="n2" type="regnalName">ቈስጠንጢኖስ</persName>
+                     <persName xml:lang="gez" corresp="n2" type="normalized">Qwäsṭanṭinos</persName>
+                  </persName>
+                  <occupation type="ruler">Emperor</occupation>
+                  <birth>unknown</birth>
+               <floruit when="1380" evidence="internal">He succeded his brother King<persName corresp="PRS7559NewayaM">Nǝwāya Māryām</persName> in <date>1380</date>. Numerous works said to have been translated during his reign.  
+                </floruit>
+                  <death when="1413" evidence="internal">1413</death>
             </person>
+               
+               <listRelation>
+                  <relation name="snap:SonOf" 
+                     active="#PRS3429DawitII"
+                     passive="#PRS8595SayfaAr"
+                     ></relation>
+                  <relation name="snap:BrotherOf"
+                     active="#PRS3429DawitII"
+                     passive="#PRS7559NewayaM"
+                      ></relation>
+               </listRelation>
          </listPerson>
-      </body>
+        <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Basset1882Chronicle"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Derat2005Dawit"/>
+            </bibl>  
+         </listBibl>
+        </body>
    </text>
 </TEI>
+
+
+           
+            
+                  
+         
