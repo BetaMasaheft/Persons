@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Zärʾa Yaʿǝqob</title>
+            <title>Zarʾa Yāʿǝqob</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -43,20 +43,76 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-07-21">complete the record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+           <persName>
+                        <persName xml:lang="gez" xml:id="n1" type="birthName">ዘርአ፡ ያዕቆብ፡</persName>
+                        <persName xml:lang="gez" corresp="#n1" type="normalized">Zarʾa Yāʿǝqob</persName>
+                        <persName><roleName type="title">aṣe</roleName></persName>
+                     <persName xml:lang="gez" xml:id="n2" type="regnalName">ቈስጠንጢኖስ፡</persName>
+                        <persName xml:lang="gez" corresp="#n2" type="normalized">Qwäsṭanṭinos</persName>
+                     </persName>
+                     <occupation type="ruler">Emperor</occupation>
+                     <birth>1399</birth>
+               <residence>He was born in Faṭagār</residence>
+            <floruit when="1434" evidence="internal">He was the fourth of Dawit’s sons to become a king and ascended to the throne after several years of chaos following the death of his brother King <persName corresp= "PRS10342Yeshaq">Yǝsḥaq</persName>and the short reigns of another brother King<persName corresp= "PRS9176TaklaMa">Takla Māryām</persName>in <date>1430-1433</date> as well  as three of his nephews.
+                He was the outstading ruler of the early Solomonic period (1270-1527). He played a remarkable role for the developement of Gǝʿǝz lietrature</floruit>
+                     <death when="1468" evidence="internal">1468</death>
+                  </person>
+            <listRelation>
+               <relation name="snap:SonOf" 
+                  active="#PRS10626ZaraY"
+                  passive="#PRS3429DawitII"
+                  ></relation>
+               <relation name="snap:BrotherOf"
+                  active="#PRS10626ZaraY"
+                  passive="#PRS10342Yeshaq"
+                  ></relation>
+               <relation name= "snap:BrotherOf"
                   
-                  Zärʾa Yaʿǝqob
-               </persName>
-               <occupation> aṣe </occupation>
-            </person>
+                  active ="#PRS10626ZaraY"
+                  passive="#PRS9176TaklaMa"
+                  ></relation>
+               <relation name= "snap:BrotherOf"
+                   active ="#PRS10626ZaraY"
+                  passive="#PRS9432Tewodros"
+                  ></relation>  
+               <relation name= "snap:FatherOf"
+                  active="#PRS10626ZaraY"
+                  passive= "#PRS2334BaedaM"
+                  ></relation>
+               <relation name="rel:enemyOf"
+                   active="#PRS10626ZaraY"
+                  passive= "#PRS3894estifano"
+                  ></relation>
+               <relation name= "bm:husbandOf"
+                  active="#PRS10626ZaraY"
+                  passive= "#PRS3706eleni"
+                  ></relation>
+              </listRelation>
          </listPerson>
-      </body>
+        <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Perruchon1893ZaraYaʿeqob"/>
+            </bibl>
+           </listBibl>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Basset1882Chronicle"/>
+            </bibl>
+         </listBibl> 
+        <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:KaplanundDerat2014ZaraYaʿǝqob"/>
+            </bibl>  
+         </listBibl>
+         </body>
    </text>
 </TEI>
+
+             

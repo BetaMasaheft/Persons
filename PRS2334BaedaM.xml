@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Bäʾǝdä Maryam I</title>
+            <title>Baʾǝdä Māryām I</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -43,7 +43,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-07-21">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,13 +51,50 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                  
-                  Bäʾǝdä Maryam I
+            <persName xml:lang="gez" xml:id="n1" type="birthName">በእደ፡ ማርያም፡</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Baʾǝda Māryām I</persName>
+                  <persName><roleName type="title">aṣe</roleName></persName>
+                  <persName xml:lang="gez" xml:id="n2" type="regnalName">unknown</persName>
                </persName>
-               <persName type="alt">Dawit III</persName>
-               <occupation> aṣe </occupation>
+          <occupation type="ruler">Emperor</occupation>
+            <birth>1448</birth>
+             <floruit when="1468" evidence="internal">He succeded his father King <persName corresp="PRS10626ZaraY">Zarʾa Yāʿǝqob</persName>. He reversed many of his father’s administrative decisions.
+             </floruit>
+               <death when="1478" evidence="internal">1478</death>
             </person>
+            <listRelation>
+               <relation name="snap:SonOf" 
+                  active="PRS2334BaedaM"
+                  passive="#PRS10626ZaraY"
+                  ></relation>
+               <relation name="bm:husbandOf"
+                  active="#PRS2334BaedaM"
+                  passive="#PRS8203Romna"
+                  ></relation>
+            <relation name= "snap:FatherOf"
+                 active="#PRS2334BaedaM"
+                  passive= "#PRS3874eskender"
+                    ></relation>
+            </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Perruchon1893ZaraYaʿeqob"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Basset1882Chronicle"/>
+            </bibl>
+         </listBibl> 
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Kaplan2003BaǝdaMaryam "/>
+            </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+    
