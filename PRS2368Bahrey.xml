@@ -43,7 +43,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-07-25">Complete record </change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,12 +51,53 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                  
-                  Baḥrǝy
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">ባህርይ፡</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Baḥrǝy</persName>
+         <persName><roleName type="title">abba</roleName></persName>
                </persName>
-               <occupation> abba</occupation>
+               <occupation type="ecclesiastic">writer, historian, ethnographer</occupation>
+               <birth></birth>
+               <residence>He was in Gamo monastery before he was driven by the Oromo incursion</residence>
+               <floruit when="1593" evidence="internal">He wrote the book Zenahu lagalla, in <date>1593</date> . 
+               </floruit>
+               <death ></death>
+               
             </person>
+            <listRelation>
+               <relation name="snap:AllianceWith"
+                  active="#PRS2368Bahrey"
+                  passive="#PRS8550sardaDe"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="#PRS2368Bahrey"
+                  passive="LIT2629Zenahu"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="#PRS2368Bahrey"
+                  passive="LIT2002Mazmur"
+                  ></relation>
+  </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Getachew2002ZenahuLagalla"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Baxter2003Baḥrǝy"/>
+            </bibl> 
+            <listBibl type="secondary">
+               <bibl> 
+                  <ptr target="bm:Getachew2014ZenahuLagalla"/>
+               </bibl>  
+            </listBibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+       

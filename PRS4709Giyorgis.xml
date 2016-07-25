@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Giyorgis of Sägla</title>
+            <title>Giyorgis of Sagla</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -43,7 +43,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="ES" when="2016-07-25">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,13 +51,74 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                  
-                  Giyorgis of Sägla
-               </persName>
-               <persName type="alt">Giyorgis of Gasǝḉḉa</persName>
-               <occupation> St</occupation>
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">ጊዮርጊስ፡</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Giyorgis Saglā, Giyorgis of Gasǝḉḉa</persName>
+                     <persName><roleName type="title">abba</roleName></persName>
+                  </persName>
+              <occupation type="ecclesiastic">writer</occupation>
+               <birth>unknown</birth>
+               <floruit when="1424" evidence="internal">He wrote his principal work, Maṣḥafa Mǝśṭir in <date>1424</date> . He was a tutor of emperors sons and their companion. He was educated in the monastery of Dabra Ḥayq Ǝsṭifanos
+               </floruit>
+               <death >1425</death>
             </person>
+               <listRelation>
+                  <relation name="snap:AllianceWith"
+                     active="#PRS4709Giyorgis"
+                     passive="#PRS10626ZaraY" 
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="#PRS4709Giyorgis"
+                     passive="#PRS10342Yeshaq"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="#PRS4709Giyorgis"
+                     passive="PRS3429DawitII"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="#PRS4709Giyorgis"
+                     passive="LIT1952Mashaf"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="#PRS4709Giyorgis"
+                     passive="#LIT1146Argano"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="#PRS4709Giyorgis"
+                     passive="#LIT1384Fekkar" 
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="#PRS4709Giyorgis"
+                     passive="#LIT2510Weddas"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="#PRS4709Giyorgis"
+                     passive="#LIT2508Weddas"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="#PRS4709Giyorgis"
+                     passive="#LIT1961Mashaf"
+                     ></relation>
+                  <relation name="saws:P129i_is_subject_of" 
+                     active="#PRS4709Giyorgis"
+                     passive="#LIT1456GadlaG"
+                     ></relation>
+               </listRelation>
          </listPerson>
-      </body>
+                  <listBibl type="editions">
+                     <bibl>
+                    <ptr target="bm:Colin1987GiyorgisSagla"/>
+                     </bibl>
+                  </listBibl>
+                 <listBibl type="secondary">
+                        <bibl> 
+                           <ptr target="bm:Colin2005GiyorgisSagla"/>
+                        </bibl>  
+                     </listBibl>
+                  <listBibl type="secondary">
+                     <bibl> 
+                        <ptr target="bm:Bausi2007MaṣḥafaMǝśṭir"/>
+                     </bibl>  
+                  </listBibl>
+                 </body>
    </text>
 </TEI>

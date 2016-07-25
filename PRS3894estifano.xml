@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ǝsṭifanos</title>
+            <title>Ǝsṭifānos</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -43,7 +43,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-07-22">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,13 +51,58 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                  
-                  Ǝsṭifanos
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">ሀድገ፡ አንበሳ፡</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Hadga Anbasā</persName>
+                  <persName xml:lang="gez" xml:id="n2" type="baptisalName">እስጢፋኖስ፡</persName>
+                  <persName xml:lang="gez" corresp="#n2" type="normalized">Ǝsṭifānos</persName>
+                  <persName><roleName type="title">abba</roleName></persName>
                </persName>
-               <persName type="alt">Hadgä Anbäsa</persName>
-               <occupation> St. </occupation>
+                  <occupation type="ecclesiastic">saint</occupation>
+                  <birth>1397/98</birth>
+               <residence>He was born in ʾAgama, Tǝgray</residence>
+               <floruit when="1416" evidence="internal">He was ordained deacon by abuna<persName corresp= "PRS2469Bartalom">Bartalomewos</persName>. He established a new monastic commiunity in <date>1428/29</date>
+                     </floruit>
+               <death when="1444" evidence="internal">He was tortured, flogged and imprisoned by the order of the King<persName corresp="PRS10626ZaraY">Zarʾa Yāʿǝqob</persName> and finally he died. </death>
             </person>
+            <listRelation>
+               <relation name="snap:AllianceWith"
+                  active="#PRS3894estifano"
+                  passive="#PRS2469Bartalom"
+                  ></relation>
+               <relation name="rel:enemyOf"
+                  active="#PRS3894estifano"
+                  passive= "#PRS10626ZaraY"
+                  ></relation>
+               <relation name="saws:P129i_is_subject_of" 
+                  active="#PRS3894estifano"
+                  passive="#LIT1437Gadlae"
+                  ></relation>
+               </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Getachew2006Ǝsṭifanos"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Getachew2004Ǝsṭifanos:"/>
+            </bibl>
+         </listBibl> 
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Getachew2011Ǝsṭifanos"/>
+            </bibl> 
+            <listBibl type="secondary">
+               <bibl> 
+                  <ptr target="bm:Kaplanundnosnistin2005Ǝsṭifanos"/>
+               </bibl>  
+            </listBibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+            
+                  
+                  

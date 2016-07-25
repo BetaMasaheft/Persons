@@ -43,7 +43,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-07-22">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,13 +51,88 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">አቡልፋትሕ፡</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Abū l-Fatḥ</persName>
+                  <persName xml:lang="gez" xml:id="n2" type="baptisalName">እንባቆም፡</persName>
+                  <persName xml:lang="gez" corresp="#n2" type="normalized">ʿƎnbaqom</persName>
                   
-                  ʿƎnbaqom
+                  <persName><roleName type="title">ǝḉḉage</roleName></persName>
                </persName>
-               <persName type="alt">Abū l-Fatḥ</persName>
-               <occupation> ǝḉḉ. </occupation>
+           <occupation type="ecclesiastic">ruler</occupation>
+               <birth>1470</birth>
+               <residence>He was born in Yemen</residence>
+               <floruit when="1489" evidence="internal">He arrived in Ethiopia in <date>1489</date> during the reign of King<persName corresp="PRS3874eskender">Ǝskǝndǝr</persName>. He was baptized by abuna <persName corresp="PRS7825Petros" >Ṗeṭros </persName>. ʿƎnbaqom contribution to Ethiopic lietrature was remarkable. 
+               </floruit>
+               <death when="1563" evidence="internal">He died during the reign of King<persName corresp="PRS7102Minas">Minas</persName></death>
             </person>
+               <listRelation>
+                  <relation name="snap:AllianceWith"
+                     active="#PRS3779enbaqom"
+                     passive="#PRS7825Petros" 
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="#PRS3779enbaqom"
+                     passive="#PRS4428Galawdewos"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="#PRS3779enbaqom"
+                     passive="#PRS7102Minas"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="#PRS3779enbaqom"
+                     passive="#PRS7102Minas"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="#PRS3779enbaqom"
+                     passive="#PRS1778Alvares"
+                     ></relation>
+                  
+                  <relation name="rel:enemyOf"
+                     active="#PRS3779enbaqom"
+                     passive= "#PRS1500Ahmad"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="#PRS3779enbaqom"
+                     passive="#LIT1109Anqasa"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="#PRS3779enbaqom"
+                     passive="#LIT1199Barala" 
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="#PRS3779enbaqom"
+                     passive="#LIT1691ApocryJohn" 
+                     ></relation>
+                  
+           
+                  <relation name="saws:P129i_is_subject_of" 
+                     active="#PRS3779enbaqom"
+                     passive="#LIT1437Gadlae"
+                     ></relation>
+               </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Ricci1969Ǝnbaqom"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Ricci1954Ǝnbaqom"/>
+            </bibl>
+         </listBibl> 
+         <listBibl type="secondary">
+               <bibl> 
+                  <ptr target="bm:Donzel2005Ǝnbaqom"/>
+               </bibl>  
+            </listBibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+               
+           
