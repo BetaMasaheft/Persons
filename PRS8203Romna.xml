@@ -43,20 +43,58 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-07-26">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
+            <person sex="2">
                <persName>
-                  
-                  Romna
-               </persName>
-               <occupation> ǝmmäbet </occupation>
+                     <persName xml:lang="gez" xml:id="n1" type="birthName">ሮምና</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Romna</persName>
+                  <persName><roleName type="title">ǝmmäbet</roleName></persName>
+                  </persName>
+               <occupation type="ruler">queen </occupation>
+               <birth>1471</birth>
+               <floruit when="1478" evidence="internal">She assumed  a regency to her son and young King<persName corresp="PRS3874eskender">Ǝskǝndǝr</persName>in<date>1494</date>. She developed a close relationship with the monastery of Dabra Libanos
+               </floruit>
+               <death>unknown</death>
             </person>
+            <listRelation>
+               <relation name="bm:wifeOf" 
+                  active="#PRS8203Romna"
+                  passive="#PRS2334BaedaM"
+                  ></relation>
+               <relation name="snap:MotherOf"
+                  active="#PRS8203Romna"
+                  passive="#PRS3874eskender"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  active="#PRS8203Romna"
+                  passive="#PRS6734MarhaKr"
+                  ></relation>
+         </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Kur1972MarḥaKrestos"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Perruchon1894Ǝskǝndǝr"/>
+            </bibl>
+         </listBibl> 
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Derat2010Romna"/>
+            </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+            
