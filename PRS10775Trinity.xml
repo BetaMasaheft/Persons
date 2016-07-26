@@ -10,82 +10,49 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Trinity</title>
-            <author/>
+            <title xml:id="t1">Trinity</title>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
-            multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+                                    multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
             <pubPlace>Hamburg</pubPlace>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
-                This file is licensed under the Creative Commons
-                Attribution-ShareAlike 4.0. </licence>
+                  <p>
+                                            This file is licensed under the Creative Commons
+                                            Attribution-ShareAlike 4.0. </p>
+               </licence>
             </availability>
-            <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
             <p>Prosopography of Ethiopian Written tradition</p>
             <p>A TEI file converted from the ETHIO-authority
-                                                  google spreadsheet</p>
+                                    google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
-
+            <language ident="ar">Arabic</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
-         <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
-         <change who="ES" when="2016-05-04">updated person</change>
+         <change who="PL" when="2016-07-26">Created XML record from Ethio authority google spreadsheet</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-
-            <personGrp >
-   
-
-               
-
-
-
-               <persName xml:lang="gez" xml:id="n1">ሥላሴ፡</persName>
-               <persName xml:lang="gez" type="normalized" corresp="#n1">Śǝllase</persName>
-               
-               <persName xml:lang="en">Trinity</persName>
-               <persName xml:lang="it">Trinità</persName>
-               <persName xml:lang="en">Dreieinigkeit</persName>
-
-
-
-
-            
-
-</personGrp>
-
-            
-            <listRelation>
-               <relation name="contains"
-                  active="#PRS10775Trinity"
-                  passive="#PRS5684JesusCh"/>
-               
-               <relation name="contains"
-                  active="#PRS10775Trinity"
-                  passive="#PRS3697egziabe"/>
-               
-               <relation name="contains"
-                  active="#PRS10775Trinity"
-                  passive="#PRS10774Paraq"/>
-            </listRelation>
-            
-            
-            
+            <person>
+               <persName>
+                  <forename/>
+                  <surname>Trinity</surname>
+               </persName>
+               <persName>Śəllase</persName>
+            </person>
          </listPerson>
       </body>
    </text>
