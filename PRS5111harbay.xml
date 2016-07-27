@@ -43,7 +43,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-07-27">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,13 +51,56 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                  
-                  Ḥarbay
-               </persName>
-               <persName type="alt"> Qǝddus Ḥarbe</persName>
-               <occupation> aṣe </occupation>
+        <persName xml:lang="gez" xml:id="n1" type="birthName">ሐርባይ፡</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized"> Ḥarbay</persName>
+                 <persName xml:lang="gez" xml:id="n1.1" type="birthName">ገብረ፡ ማርያም፡</persName>
+                  <persName xml:lang="gez" corresp="#n1.1" type="normalized">Gabra Māryām</persName>
+                     <persName xml:lang="gez" xml:id="n2" type="regnalName">ገብረ፡ መስቀል፡</persName>
+                     <persName xml:lang="gez" corresp="#n2" type="normalized">Gabra Masqal</persName>
+                     <persName><roleName type="title">aṣe</roleName></persName>
+                  </persName>
+                  <occupation type="ruler"> a saint king</occupation>
+                  <birth>unknown</birth>
+               <floruit when="1093" evidence="internal">He succeded his cousin a saint King<persName corresp="PRS10325Yemreha">Yǝmrǝḥannä Krǝstos" </persName>. 
+                     He was known for his refom polcy with the election of a metropolitan.
+                  </floruit>
+                  <death  when="1133" cert="low" evidence="internal">around 1133</death>
             </person>
+            <listRelation>
+               <relation name="snap:SonOf" 
+                  active="#PRS5111harbay" 
+                  passive="#PRS10594Zansey"
+                  ></relation>
+               <relation name="snap:BrotherOf"
+                  active= "#PRS5111harbay" 
+                  passive="#PRS6152Lalibala"
+                  ></relation>
+              </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Basset1882Chronicle"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Perruchon1892Lalibela"/>
+            </bibl>
+         </listBibl> 
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Fiaccadori2005Harbay"/>
+            </bibl>  
+            <listBibl type="secondary">
+               <bibl> 
+                  <ptr target="bm:Sergew1972Ethiopianhistory"/>
+               </bibl> 
+         </listBibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+                  
+   

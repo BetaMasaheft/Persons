@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Lalibäla</title>
+            <title>Lalibala</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -43,7 +43,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-07-27">Completed record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,14 +51,67 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                  
-                  Lalibäla
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">ላሊበላ፡</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Lālibalā</persName>
+                  <persName xml:lang="gez" xml:id="n2" type="regnalName">ገብረ፡ መስቀል፡</persName>
+                  <persName xml:lang="gez" corresp="#n2" type="normalized">Gabra Masqal</persName>
+                  <persName><roleName type="title">aṣe</roleName></persName>
                </persName>
-               <persName type="alt">Gäbrä Mäsqäl</persName>
-               <occupation> St. </occupation>
-               <occupation>king</occupation>
+               <occupation type="ruler"> a saint king</occupation>
+               <birth>unknown</birth>
+               <floruit when="1200" evidence="internal">He succeded his brother a saint King <persName corresp="PRS5111harbay" >Ḥarbay</persName>. 
+                  He was one of the best known Zagwe kings and one of the most famous Ethiopian rulers reputed as the builders of the roch hewn churches of Lalibelā town.
+               </floruit>
+               <death  when="1240" cert="low" evidence="internal">around 1240</death>
             </person>
+            <listRelation>
+               <relation name="snap:SonOf" 
+                  active="#PRS6152Lalibala"
+                  passive="#PRS10594Zansey"
+                  ></relation>
+               <relation name="bm:husbandOf"
+                  active= "#PRS6152Lalibala"
+                  passive="#PRS6859MasqalK"
+                  ></relation>
+               <relation name="snap:BrotherOf"
+                  active= "#PRS6152Lalibala"
+                  passive="#PRS5111harbay" 
+                  ></relation>
+               <relation name="saws:P129i_is_subject_of" 
+                  active=" #PRS6152Lalibala"
+                  passive="#LIT1470GadlaL"
+                  ></relation>
+               </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Basset1882Chronicle"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Perruchon1892Lalibela"/>
+            </bibl>
+         </listBibl> 
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Derat2007Lalibala"/>
+               
+            </bibl>  
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Sergew1972Ethiopianhistory"/>
+               
+            </bibl>  
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+        
+            

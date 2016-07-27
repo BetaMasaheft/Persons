@@ -43,7 +43,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-07-27">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,15 +51,59 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                  
-                  Aḥmad
-               </persName>
-               <occupation> imām </occupation>
-               <residence>
-                  <placeName>Zaylaʿ</placeName>
-               </residence>
+            <persName xml:lang="gez" xml:id="n1" type="birthName">አህመድ፡</persName>
+                     <persName xml:lang="gez" corresp="#n1" type="normalized">Aḥmad</persName>
+                     <persName xml:lang="gez" xml:id="n2" type="nickName">ግራኝ፡</persName>
+                  <persName xml:lang="gez" corresp="#n2" type="normalized">Graň</persName> 
+                  <persName><roleName type="title">imām </roleName></persName>
+                  </persName>
+                  <occupation type="ruler">leader</occupation>
+                  <birth>1506</birth>
+               <residence >He was born at a place called Hubat </residence>
+               
+               <floruit when="1527" evidence="internal">He overrun the Christian Kingdom in <date>1527</date>. He became victorious against the Christian King <persName corresp="PRS6229LebnaDe" >Lǝmna Dǝngǝl</persName>
+               </floruit>
+               <death when="1543" evidence="internal">He was killed by the forces of King<persName corresp="PRS4428Galawdew" >Galawdewos </persName> on <date> 22 February 1543</date></death>
             </person>
+            <listRelation>
+               <relation name="bm:husbandOf" 
+                  active="#PRS1500Ahmad"
+                  passive="#PRS3494Delwanba"
+                  ></relation>
+               <relation name="snap:FatherOf"
+                  active= "#PRS1500Ahmad"
+                  passive="#PRS7506Nasraddi"
+                  ></relation>
+             <relation name="rel:enemyOf"
+                  active="#PRS1500Ahmad"
+                  passive= "#PRS6229LebnaDe"  
+                  ></relation>
+               <relation name="rel:enemyOf"
+                  active="#PRS1500Ahmad"
+                  passive= "#PRS4428Galawdew"
+                  ></relation>
+               <relation name="saws:P129i_is_subject_of" 
+                  active="#PRS1500Ahmad"
+                  passive="#LIT1404Futuha" 
+                  ></relation>
+               </listRelation>
          </listPerson>
-      </body>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Basset1882Chronicle"/>
+            </bibl>
+         </listBibl>
+            <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Muth2003Aḥmad"/>
+            </bibl> 
+            </listBibl>
+        </body>
    </text>
 </TEI>
+
+
+
+                  
+                  
+                  
