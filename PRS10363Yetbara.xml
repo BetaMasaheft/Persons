@@ -10,7 +10,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Yǝtbaräk</title>
+            <title>Yǝtbārak</title>
+            <editor key="SG"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,6 +45,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-07-29">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,12 +53,63 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                  
-                  Yǝtbaräk
+                  <persName>Yǝtbārak</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ይትባረክ፡</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Yǝtbārak</persName>
+               <persName><roleName type="title">aṣe</roleName></persName>
                </persName>
-               <occupation> king </occupation>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="ruler">a saint king</occupation>
+               <birth>unknown</birth>
+               <floruit when="1240" evidence="internal">He succeded a saint King <persName corresp="PRS7437Naakkwe">Naʾakkwǝto Laʾab</persName>. 
+                  He was the last king of Zagwe dynasty.
+               </floruit>
+               <death  when="1268" cert="low" evidence="internal">around 1268</death>
             </person>
+            <listRelation>
+               <relation name="snap:SonOf" 
+                  active="#PRS10363Yetbara"
+                  passive="#PRS6152Lalibala"
+                  ></relation>
+               <relation name="snap:SonOf" 
+                  active="#PRS10363Yetbara"
+                  passive="#PRS6859MasqalK"
+                  ></relation>
+               <relation name="snap:CousinOf" 
+                  active="#PRS10363Yetbara"
+                  passive="#PRS7437Naakkwe"
+                  ></relation>
+            </listRelation>
          </listPerson>
-      </body>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Basset1882Chronicle"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Perruchon1892Lalibela"/>
+            </bibl>
+         </listBibl> 
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Marrassini2014Yetbarak"/>
+              </bibl>  
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Sergew1972Ethiopianhistory"/>
+               </bibl>  
+         </listBibl>
+        </body>
    </text>
 </TEI>
+
+
+
+
+               
+               
+               
+    

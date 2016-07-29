@@ -10,7 +10,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mäsqäl Kǝbra</title>
+            <title>Masqal Kǝbrā</title>
+            <editor key="SG"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,6 +45,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-07-29">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,16 +53,49 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="2">
                <persName>
-                  
-                  Mäsqäl Kǝbra
+                  <persName>Mäsqäl Kǝbrā</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">መስቀል፡ ክብራ፡</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Masqal Kǝbrā</persName>
+                  <persName><roleName type="title">baʿalta biḥat ("Lady of Biḥat")</roleName></persName>
                </persName>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="ruler">a queen</occupation>
+              <birth></birth>
+               <floruit >She was commemmorated as the saint in EOTC. She played a major role during the reign of her husband, King <persName ref="PRS6152Lalibala">Lālibalā </persName>.
+               </floruit>
+               <death  ></death>
             </person>
             <listRelation>
-               <relation name="wifeOf">
-                  <desc> wife Lalibäla </desc>
-               </relation>
+               <relation name="bm:wifeOf" 
+                  active="#PRS6859MasqalK"
+                  passive="#PRS6152Lalibala"
+                  ></relation>
+               <relation name="snap:MotherOf" 
+                  active="#PRS6859MasqalK"
+                  passive="#PRS10363Yetbara"
+                  ></relation>
+             <relation name="saws:P129i_is_subject_of" 
+                  active="#PRS6859MasqalK"
+                  passive="#LIT1481GadlaM"
+                  ></relation>
             </listRelation>
          </listPerson>
+       <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Perruchon1892Lalibela"/>
+            </bibl>
+         </listBibl> 
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:DeratundKur2007MasqalKebra"/>
+            </bibl>  
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Sergew1972Ethiopianhistory"/>
+            </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>

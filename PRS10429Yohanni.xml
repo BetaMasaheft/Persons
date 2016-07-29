@@ -10,7 +10,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Yoḥanni of Däbrä Dammo</title>
+            <title>Yoḥanni of Dabra Dāmmo</title>
+            <editor key="SG"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,6 +45,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-07-29">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,12 +53,42 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                  
-                  Yoḥanni of Däbrä Dammo
+                  <persName>Yoḥanni of Dabra Dāmmo</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ዮሐኒ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Yoḥanni</persName>
+                  <persName><roleName type="title">abbā</roleName></persName>
                </persName>
-               <occupation> St. </occupation>
+              <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="ecclesiastic">saint </occupation>
+               <birth></birth>
+               <floruit >He was the spiritual teacher of both of the prominnet monastic leardes of Ethiopia during the late 13th-early 14th century abuna<persName ref="PRS5633IyasusM"> Iyasus Moʿa</persName> of Dabra Ḥayq Ǝsṭifānos and  abba<persName ref="PRS5633IyasusM"> Iyasus Moa</persName> of Dabra Hayq 
+                  and  abuna <persName ref="PRS9155TaklaHa">Takla Haymānot</persName> of Dabra Libānos.
+               </floruit>
+               <death  ></death>
             </person>
+<!--            remember to add ordered by as soon as it is available-->
+            <listRelation>
+               <relation name="snap:AllianceWith"
+                  active="#PRS10429Yohanni"
+                  passive="#PRS5633IyasusM"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  active="#PRS10429Yohanni"
+                  passive="#PRS9155TaklaHa"
+                  ></relation>
+            </listRelation>
          </listPerson>
+             <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Kur1965IyasusMoa"/>
+            </bibl>
+         </listBibl>
+        <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Fridman2014Yohanni"/>
+            </bibl>  
+            </listBibl>
       </body>
    </text>
 </TEI>
