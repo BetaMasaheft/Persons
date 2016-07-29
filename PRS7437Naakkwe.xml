@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Näʾakkwǝto Läʾab (Atyab)</title>
+            <title>Naʾakkwǝto Laʾab (Atyab)</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -43,7 +43,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-07-28">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,12 +51,64 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                  
-                  Näʾakkwǝto Läʾab (Atyab)
-               </persName>
-               <occupation> aṣe </occupation>
+                     <persName xml:lang="gez" xml:id="n1" type="birthName">ነአኵቶ፡ ለአብ፡</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Naʾakkwǝto Laʾab</persName>
+                  <persName><roleName type="title">aṣe</roleName></persName>
+                  </persName>
+                  <occupation type="ruler">a saint king</occupation>
+                  <birth>1203</birth>
+               <floruit when="1225" evidence="internal">He succeded his uncle  a saint King <persName corresp="#PRS6152Lalibala" >Lalibala</persName>. 
+                    </floruit>
+                  <death  when="1250" cert="low" evidence="internal">around 1250</death>
             </person>
+            <listRelation>
+               <relation name="snap:SonOf" 
+                  active="#PRS7437Naakkwe"
+                  passive="#PRS5111harbay" 
+                  ></relation>
+         <relation name="snap:BrotherOf"
+                  active= "#PRS6152Lalibala"
+                  passive="#PRS5111harbay" 
+                  ></relation>
+               <relation name="snap:NieceOf"
+                  active= "#PRS7437Naakkwe"
+                  passive="#PRS6152Lalibala"
+                  ></relation>
+               <relation name="saws:P129i_is_subject_of" 
+                  active="#PRS7437Naakkwe"
+                  passive="#LIT1484GadlaN"
+                  ></relation>
+            </listRelation>
          </listPerson>
-      </body>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Basset1882Chronicle"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Perruchon1892Lalibela"/>
+            </bibl>
+         </listBibl> 
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Derat2007Naakkwǝto Laab"/>
+               
+            </bibl>  
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Sergew1972Ethiopianhistory"/>
+               </bibl>  
+         </listBibl>
+         </body>
    </text>
 </TEI>
+
+
+
+
+
+
+                  
+                
