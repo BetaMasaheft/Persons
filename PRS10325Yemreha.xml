@@ -1,12 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="pers"
-     xml:lang="en"
-     xml:id="PRS10325Yemreha">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS10325Yemreha">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -16,19 +11,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
-            multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+               multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
             <pubPlace>Hamburg</pubPlace>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
-                This file is licensed under the Creative Commons
-                Attribution-ShareAlike 4.0. </licence>
+                  This file is licensed under the Creative Commons
+                  Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
             <p>Prosopography of Ethiopian Written tradition</p>
-            <p>A TEI file converted from the ETHIO-authority
-                                                  google spreadsheet</p>
+            <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -42,7 +35,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
+            google spreadsheet </change>
          <change who="SG" when="2016-07-28">Complete record</change>
       </revisionDesc>
    </teiHeader>
@@ -50,56 +43,40 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                     <persName xml:lang="gez" corresp="n1" type="normalized">ይምርሐነ፡ ክርስቶስ፡</persName>
-                  <persName xml:lang="gez" corresp="#n1" type="normalized">Yǝmrǝḥanna Krǝstos</persName>
-                <persName><roleName type="title">aṣe</roleName></persName>
-                  </persName>
-                  <occupation type="ruler"> a saint king</occupation>
-                  <birth>unknown</birth>
+               
+                  <persName xml:lang="gez" corresp="n1" type="normalized">ይምርሐነ፡ ክርስቶስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized"> Yǝmrǝḥanna Krǝstos</persName>
+               <persName><roleName type="title">aṣe</roleName></persName>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               
+               <occupation type="ruler"> a saint king</occupation>
                <floruit when="1053" evidence="internal">He succeded his paternal uncle King <persName corresp="PRS9242tantawed">Ṭänṭäwǝdǝm</persName>. 
-                  </floruit>
-                  <death  when="1093" cert="low" evidence="internal">around 1093</death>
+               </floruit>
+               <death when="1093" cert="low" evidence="internal">around 1093</death>
             </person>
             <listRelation>
-               <relation name="snap:SonOf" 
-                  active="#PRS10325Yemreha"
-                  passive="#PRS4605Germase"
-                  ></relation>
-   <relation name="snap:NieceOf"
-                  active= "#PRS10325Yemreha"
-                  passive="#PRS9242tantawed"
-                  ></relation>
-               <relation name="saws:P129i_is_subject_of" 
-                  active="#PRS10325Yemreha"
-                  passive="#LIT1516GadlaY"
-                  ></relation>
-            </listRelation>
+                    <relation name="snap:SonOf" active="#PRS10325Yemreha" passive="#PRS4605Germase"/>
+                    <relation name="snap:NieceOf" active="#PRS10325Yemreha" passive="#PRS9242tantawed"/>
+                    <relation name="saws:P129i_is_subject_of" active="#PRS10325Yemreha" passive="#LIT1516GadlaY"/>
+                </listRelation>
          </listPerson>
          <listBibl type="editions">
             <bibl>
                <ptr target="bm:Basset1882Chronicle"/>
             </bibl>
-         </listBibl>
-         <listBibl type="editions">
             <bibl>
                <ptr target="bm:Marrassini1995YǝmrǝhannaKrǝstos"/>
             </bibl>
-         </listBibl> 
+         </listBibl>
          <listBibl type="secondary">
-            <bibl> 
+            <bibl>
                <ptr target="bm:Marrassini2014YǝmrǝhannaKrǝstos"/>
-               </bibl>  
-         </listBibl>
-         <listBibl type="secondary">
-            <bibl> 
+            </bibl>
+            <bibl>
                <ptr target="bm:Sergew1972Ethiopianhistory"/>
-               </bibl>  
+            </bibl>
          </listBibl>
-        </body>
+      </body>
    </text>
 </TEI>
-
-
-                  
-                 
