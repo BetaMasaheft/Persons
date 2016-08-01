@@ -10,7 +10,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Iyäsus Moʾa</title>
+            <title>Iyasus Moʾa</title>
+            <editor key="SG"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,6 +45,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-08-01">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,12 +53,53 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                  
-                  Iyäsus Moʾa
+               <persName>  Iyasus Moʾa</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ኢየሱስ፡ ሞአ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Iyasus Moʾa</persName>
+               <persName><roleName type="title">abuna</roleName></persName>
                </persName>
-               <occupation> St. </occupation>
-            </person>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="ecclesiastic">saint </occupation>
+               <birth>1214, at  a place called Dahna in Bagemǝdr</birth>
+               <floruit when="1248" evidence="internal">He became the first abbot of the monastery of <placeName ref="LOC2288DabraH">Dabra Ḥayq Ǝstifanos</placeName>. 
+               </floruit>
+               <death  >1293</death>
+            </person>  
+               <listRelation>
+                  <relation name="bm:ordainedBy"
+                  active="#PRS5633IyasusM"
+                  passive="#PRS10429Yohanni"
+                  ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="#PRS5633IyasusM"
+                     passive="#PRS9162TaklaHa"
+                     ></relation>
+                  <relation name="saws:P129i_is_subject_of" 
+                     active="#PRS5633IyasusM"
+                     passive="#LIT1467GadlaI"
+                      ></relation>
+               </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Kur1965IyasusMoa"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:KurundNosnitsin2007IyasusMoa"/>
+            </bibl>
+         </listBibl>
+               <listBibl type="secondary">
+                  <bibl> 
+                     <ptr target="bm:Taddesse1972Church"/>
+                     </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+                  
+            
+            

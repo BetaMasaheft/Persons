@@ -10,7 +10,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Täklä Haymanot</title>
+            <title>Takla Hāymanot</title>
+            <editor key="SG"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,20 +45,72 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-08-01">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Täklä Haymanot
-               </persName>
+               <persName>Takla Hymanot </persName>
                <persName type="alt">Fǝśśǝḥa Ṣǝyon</persName>
-               <occupation> St. </occupation>
-            </person>
+               <persName>
+                  <persName>Takla Hāymanot</persName>
+                  <persName xml:lang="gez" xml:id="n1" type="baptisalName">ፍሥሐ፡ ጽዮን፡</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Fǝśśǝḥa Ṣǝyon</persName>
+                  <persName xml:lang="gez" xml:id="n2" type="monasticName">ተክለ፡ ሃይማኖት፡</persName>
+                  <persName xml:lang="gez" corresp="#n2" type="normalized">Takla Hāymanot</persName>
+                  <persName xml:lang="en" corresp="#n2" type="normalized">"plant of the faith"</persName>
+                   <persName><roleName type="title">abuna</roleName></persName>
+               </persName>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="ecclesiastic">saint </occupation>
+               <birth>1215, at  a place called <placeName ref="LOC5652Sella">Ṣǝllališ</placeName></birth>
+               <floruit >He was the most important religious figure in the medieval Ethiopia who is crdited with evangelizing the vast regions of central and southern Ethiopia. 
+                  He was the founder of the monastery of <placeName ref="LOC2297DabraL">Dabra Libanos</placeName> at the begining of 14th century.
+               </floruit>
+               <death  >1313</death>
+            </person>  
+ 
+            <listRelation>
+               <relation name="bm:ordainedBy"
+                  active="#PRS9162TaklaHa"
+                  passive="PRS8032Qerellos"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  active="#PRS9162TaklaHa"
+                  passive="#PRS5633IyasusM"
+                  ></relation>
+               <relation name="saws:P129i_is_subject_of" 
+                  active="#PRS9162TaklaHa"
+                  passive="#LIT1507GadlaT"
+                  ></relation>
+            </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:ContiRossini1896TaklaHaymanot"/>
+            </bibl>
+         </listBibl>
+      
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Budge1906Taklahaymanot"/>
+            </bibl>
+         </listBibl>
+       <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Nosnitsin2010TaklaHaymanot"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Taddesse1972Church"/>
+            </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
