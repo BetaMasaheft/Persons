@@ -11,6 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Ǝsato</title>
+            <editor key="SG"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,22 +45,61 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-08-02">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="2">
-               <persName>
-                  
-                  Ǝsato
-               </persName>
-               <persName type="alt"> Gudit</persName>
-               <persName type="alt"> Gwǝdit</persName>
-               <persName type="alt"> Judith</persName>
-               <occupation> queen </occupation>
+               <persName>Ǝsato</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ጉዲት፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Gudit</persName>
+               <persName xml:lang="gez" xml:id="n2" type="birthName">ጕዲት፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized"> Gwǝdit</persName>
+               <persName xml:lang="gez" xml:id="n3" type="birthName">ዮዲት፡</persName>
+               <persName xml:lang="gez" corresp="#n3" type="normalized">Yodit (Judith)</persName>
+               <nationality type="Ethiopia"/>
+               <faith type="Judaism"/>
+               <occupation type="ruler">queen</occupation>
+               <birth></birth>
+               <floruit>She was a legendary queen said to have been the conquerer of the kingdom of <placeName ref="LOC1310Aksum">Aksum</placeName>. 
+               </floruit>
+               <death ></death>
             </person>
+            <listRelation>
+               <relation name= "rel:enemyOf" 
+                  active="#PRS3858esato"
+                  passive="#PRS3468Degnagan"
+                  ></relation>
+            </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Basset1882Chronicle"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Kaplan2005Esato "/>
+            </bibl>  
+         </listBibl>
+         <listBibl type="secondary">
+                  <bibl> 
+                     <ptr target="bm:Sergew1972Gudit"/>
+                  </bibl>   
+                  <listBibl type="secondary">
+                     <bibl> 
+                      <ptr target="bm:Sergew1972Ethiopianhistory"/>
+                        </bibl>  
+                  </listBibl>
+           </listBibl>
       </body>
    </text>
 </TEI>
+
+
+               
+               
+               
+               

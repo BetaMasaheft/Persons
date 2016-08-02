@@ -11,6 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Dǝgnaǧan</title>
+            <editor key="SG"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,22 +45,71 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-08-02">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Dǝgnaǧan
-               </persName>
-               <persName type="alt"> Dǝgna Zan; Dägazan</persName>
-               <persName type="alt"> Ǧǝnaǧan;  Gǝdažan</persName>
-               <persName type="alt"> Gǝdʿa Žan;  Gǝdažan</persName>
-               <occupation> king </occupation>
+               <persName>Dǝgnaǧan</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ድግናጃን</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Dǝgnāǧān</persName>
+               <persName xml:lang="gez" xml:id="n2" type="birthName">ደጋዛን፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Dägāzān</persName>
+               <persName xml:lang="gez" xml:id="n3" type="birthName">ጅናጃን፡</persName>
+               <persName xml:lang="gez" corresp="#n3" type="normalized">Ǧǝnāǧān</persName>
+               <persName xml:lang="gez" xml:id="n4" type="birthName" >ግዳዣን</persName>
+               <persName xml:lang="gez" corresp="#n4" type="normalized">Gǝdāžān</persName>
+               <persName xml:lang="gez" xml:id="n5" type="birthName" >ግድዓዣን</persName>
+               <persName xml:lang="gez" corresp="#n5" type="normalized">Gǝdʿa Žān</persName>
+               <persName xml:lang="gez" xml:id="n6" type="birthName" >ግዳዣን</persName>
+               <persName xml:lang="gez" corresp="#n6" type="normalized"> Gǝdāžān</persName>
+               <persName><roleName type="title">aṣe</roleName></persName>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="ruler">Emperor</occupation>
+               <birth></birth>
+               <floruit> 
+               </floruit>
+               <death ></death>
             </person>
+            <listRelation>
+               <relation name="snap:FatherOf" 
+                  active="#PRS3468Degnagan"
+                  passive="#PRS3493Delnaod"
+                  ></relation>
+               <relation name="snap:FatherOf" 
+                  active="#PRS3493Delnaod"
+                  passive="#PRS1915AnbasaW"
+                  ></relation>
+               <relation name= "rel:enemyOf" 
+                  active="#PRS3468Degnagan"
+                  passive="PRS3858esato"
+                  ></relation>
+            </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Basset1882Chronicle"/>
+            </bibl>
+         </listBibl>
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Munro-Hay2005Degnagan"/>
+            </bibl>  
+            <listBibl type="secondary">
+               <bibl> 
+                  <ptr target="bm:Sergew1972Ethiopianhistory"/>
+               </bibl> 
+            </listBibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+               
+               
+               
+               

@@ -11,6 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Makattar (Mäkättǝr)</title>
+            <editor key="SG"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +45,62 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-08-02">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Makattar (Mäkättǝr)
-               </persName>
-               <occupation> sulṭ. </occupation>
+               <persName> Makattar (Mäkättǝr)</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">መከትር፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Mäkättǝr</persName>
+               <persName><roleName type="title">sultan</roleName></persName>
+               <nationality type="Ethiopia"/>
+               <faith type="Islam"/>
+               <occupation type="ruler">sultan</occupation>
+               <birth></birth>
+               
+               <floruit> He was the last sultan of  the region of <placeName ref="LOC4732Mazaga">Mazagā</placeName> which annexed into the christian empire in <date>1559</date>
+               </floruit>
+               <death >1557</death>
             </person>
+               <listRelation>
+                  <relation name= "snap:BrotherOf"
+                     active="#PRS6537Makattar"
+                    passive="#PRS4406Gaewa"
+                      ></relation>
+                  <relation name= "snap:AllianceWith"
+                     active="#PRS6537Makattar"
+                     passive= "#PRS1500Ahmad"
+                     ></relation>
+                  <relation name= "rel:enemyOf" 
+                     active="#PRS6537Makattar"
+                     passive="#PRS4428Galawdew"
+                     ></relation>
+               </listRelation>
          </listPerson>
+        
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:ContiRossini1918Pawlos"/>
+            </bibl>
+         </listBibl>
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Nosnitsin2005Gaewa "/>
+            </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
