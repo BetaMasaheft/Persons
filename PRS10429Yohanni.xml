@@ -63,19 +63,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <occupation type="ecclesiastic">saint </occupation>
                <birth></birth>
                <floruit >He was the spiritual teacher of both of the prominnet monastic leardes of Ethiopia during the late 13th-early 14th century abuna<persName ref="PRS5633IyasusM"> Iyasus Moʿa</persName> of Dabra Ḥayq Ǝsṭifānos and  abba<persName ref="PRS5633IyasusM"> Iyasus Moa</persName> of Dabra Hayq 
-                  and  abuna <persName ref="PRS9155TaklaHa">Takla Haymānot</persName> of Dabra Libānos.
+                  and  abuna <persName ref="PRS9162TaklaHa">Takla Haymānot</persName> of Dabra Libānos.
                </floruit>
                <death  ></death>
             </person>
 <!--            remember to add ordered by as soon as it is available-->
             <listRelation>
-               <relation name="snap:AllianceWith"
+               <relation name="bm:ordainedBy"
                   active="#PRS10429Yohanni"
                   passive="#PRS5633IyasusM"
                   ></relation>
                <relation name="snap:AllianceWith"
                   active="#PRS10429Yohanni"
-                  passive="#PRS9155TaklaHa"
+                  passive="#PRS9162TaklaHa"
                   ></relation>
             </listRelation>
          </listPerson>
@@ -94,7 +94,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <ptr target="bm:Taddesse1972Church"/>
             </bibl>  
          </listBibl>
-         
-      </body>
+        </body>
    </text>
 </TEI>
