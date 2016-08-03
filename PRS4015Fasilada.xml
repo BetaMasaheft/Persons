@@ -10,7 +10,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Fasilädäs</title>
+            <title>Fāsiladas</title>
+            <editor key="SG"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,6 +45,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="ES" when="2016-08-03">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,15 +53,62 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                  
-                  Fasilädäs
-               </persName>
-               <persName type="alt"> Sǝlṭan Sägäd II</persName>
-               <persName type="alt"> Fasil</persName>
-               <persName type="alt">ʿAläm Sägäd</persName>
-               <occupation> aṣe </occupation>
-            </person>
+         <persName xml:lang="gez" xml:id="n1" type="birthName">ፋሲለደስ፡</persName>
+                     <persName xml:lang="gez" corresp="#n1" type="normalized">Fāsiladas</persName>
+                     <persName xml:lang="gez" xml:id="n2" type="birthName">ፋሲል፡</persName>
+                     <persName xml:lang="gez" corresp="#n2" type="normalized">Fāsil</persName>
+                     <persName><roleName type="title">aṣe</roleName></persName>
+                  <persName xml:lang="gez" xml:id="n3" type="regnalName">ስልጣን፡ ሰገድ፡</persName>
+                  <persName xml:lang="gez" corresp="#n3" type="normalized">Sǝlṭān Sagad I</persName>
+                     <persName xml:lang="gez" xml:id="n4" type="regnalName">ዓለም፡ ሰገድ፡</persName>
+                     <persName xml:lang="gez" corresp="#n3" type="normalized">ʿAlam Sagad</persName>
+                  </persName>
+                     <occupation type="ruler">Emperor</occupation>
+              <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+          <residence>Gondar</residence>
+           <birth>1603</birth>
+               <floruit when="1632" evidence="internal">He succeded his father King<persName ref="PRS9038Susenyos">Susǝnyos</persName> in <date> 1632</date>. He restored Orthodoxy  on <date> 18 June 1632</date>which was denounced during the reign of his father in favour of catholism. 
+                     </floruit>
+                  <death when="1667" evidence="internal">1667</death>
+                  </person>
+                  <listRelation>
+               <relation name="snap:SonOf" 
+                  active="#PRS4013FasilGa"
+                  passive="#PRS9038Susenyos"
+                  ></relation>
+               <relation name="snap:BrotherOf"
+                  active="#PRS4013FasilGa"
+                  passive="#PRS4435Galawdew"
+                  ></relation>
+               <relation name= "snap:BrotherOf"
+                  active ="#PRS4013FasilGa"
+                  passive= "#PRS10033Wangela"
+                  ></relation>
+               <relation name= "snap:FatherOf"
+                  active="#PRS4013FasilGa"
+                  passive= "PRS10375Yohanne"
+                 ></relation>
+     </listRelation>
          </listPerson>
-      </body>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Pereira1892Susenyos"/>
+            </bibl>
+            </listBibl>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Pereira1900Susenyos"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Donzel2005Fasiladas"/>
+            </bibl>  
+         </listBibl>
+         </body>
    </text>
 </TEI>
+
+               
+               

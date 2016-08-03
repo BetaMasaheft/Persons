@@ -10,7 +10,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Täklä Haymanot I</title>
+            <title>Takla Hāymānot I</title>
+            <editor key="SG"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,6 +45,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-08-03">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,13 +53,55 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                  
-                  Täklä Haymanot I
+                  <persName>Takla Hāymānot I</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ተክለ፡ ሃይማኖት፡</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Takla Hāymānot I</persName>
+               <persName><roleName type="title">aṣe</roleName></persName>
+               <persName xml:lang="gez" xml:id="n2" type="regnalName"></persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Läʿal Sägäd</persName>
                </persName>
-               <persName type="alt">Läʿal Sägäd</persName>
-               <occupation> aṣe</occupation>
+               <occupation type="ruler">Emperor</occupation>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <residence>Gondar</residence>
+               <birth></birth>
+               <floruit when="1706" evidence="internal">He succeded his father King<persName ref="PRS5616IyasuI">Iyāsu</persName> in <date> 1706</date>.
+                  He was the eldest son of King Iyāsu the great. He was known as ǝrgum, "damned" in the royal histriography because his father was killed by his order.
+               </floruit>
+               <death when="1708" evidence="internal">He was assasinated in Agaw Mǝdǝr in 1708</death>
             </person>
+            <listRelation>
+               <relation name="snap:SonOf" 
+                  active="PRS9152TaklaHa"
+                  passive="#PRS5616IyasuI"
+                  ></relation>
+               <relation name="snap:SonOf" 
+                  active="#PRS9152TaklaHa"
+                  passive="#PRS6578Malakota"
+                  ></relation>
+               <relation name="snap:BrotherOf"
+                  active="#PRS9152TaklaHa"
+                  passive= "#PRS3430DawitII"
+                  ></relation>
+              </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Guidi1903Yohannes"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Crummey2010TaklaHaymanot"/>
+            </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+               

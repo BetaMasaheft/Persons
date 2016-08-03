@@ -11,6 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Yoḥannǝs I </title>
+            <editor key="SG"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,6 +45,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-08-03">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,13 +53,57 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                  
-                  Yoḥannǝs I 
-               </persName>
-               <persName type="alt">Aʾǝlaf Sägäd</persName>
-               <occupation> aṣe </occupation>
+               <persName>Yoḥannǝs I </persName>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ዮሐንስ፡</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Yoḥannǝs I </persName>
+               <persName><roleName type="title">aṣe</roleName></persName>
+               <persName xml:lang="gez" xml:id="n3" type="regnalName">አዕላፍ፡ ሰገድ፡</persName>
+                  <persName xml:lang="gez" corresp="#n3" type="normalized">Aʾǝlāf Sagad</persName>
+         </persName>
+               <occupation type="ruler">Emperor</occupation>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <residence>Gondar</residence>
+               <birth>1603</birth>
+               <floruit when="1667" evidence="internal">He succeded his father King<persName ref="PRS4013FasilGa">Fāsiladas</persName> in <date> 1667</date>. His reign was marked by religious strife and almost constant war fare.
+                  Indeed, he was devoted to religious deeds so that he was often called Ṣadqu, "the righteous".
+               </floruit>
+               <death when="1682" evidence="internal"> 19 July 1682</death>
             </person>
+            <listRelation>
+               <relation name="snap:SonOf" 
+                  active="#PRS10375Yohanne"
+                  passive="#PRS4013FasilGa"
+                  ></relation>
+               <relation name="snap:GrandsonOf"
+                  active="#PRS10375Yohanne"
+                  passive="#PRS9038Susenyos"
+                  ></relation>
+           <relation name= "bm:husbandOf"
+                  active="#PRS10375Yohanne"
+                  passive= "#PRS8278SablaWa"
+                  ></relation>
+               <relation name="snap:FatherOf" 
+                  active="#PRS10375Yohanne"
+                  passive="#PRS5616IyasuI"
+                  ></relation>
+            </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Guidi1903Yohannes"/>
+            </bibl>
+         </listBibl>
+        <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Berry2014Yohannes"/>
+               
+            </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+    
