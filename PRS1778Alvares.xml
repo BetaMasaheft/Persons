@@ -11,6 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Alvares</title>
+            <editor key="SG"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +45,63 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-08-04">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                   Francisco
-                  Alvares
-               </persName>
-               <occupation> miss. </occupation>
+               <persName> Francisco Alvares </persName>
+          <occupation type="ecclesiastic">a priest</occupation>
+               <nationality type="Portugal"/>
+               <faith type="Catholicism"/>
+               <birth>1460</birth>
+               <residence>He was in the court of King<persName corresp="PRS6229LebnaDe">Lǝbna Dǝngǝl</persName> for six years</residence>
+               <floruit when="1520" evidence="internal">. He wrote a lengthy account of his eventual six year stay 1520-1526 in highland Ethiopia, the first comprehensive original work.
+              </floruit>
+               <death > He died before <date>1542</date></death>
             </person>
+            <listRelation>
+               <relation name="snap:AllianceWith"
+                  active="#PRS1778Alvares"
+                  passive="#PRS6679ManoelI" 
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  active="#PRS1778Alvares"
+                  passive="#PRS3779enbaqom"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  active="#PRS1778Alvares"
+                  passive="#PRS6229LebnaDe"
+                  ></relation>
+      </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Boavida2011Paez"/>
+            </bibl>
+         </listBibl>
+         
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Beckingham1961PresterJohn"/>
+            </bibl>
+         </listBibl>
+     
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Beckingham1961Alvares"/>
+            </bibl>  
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Kleiner2003Alvares"/>
+            </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+            

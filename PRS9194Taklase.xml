@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Täklä Śǝllase</title>
+            <title>Takla Śǝllāse</title>
+           
+           
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,6 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-08-04">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,14 +54,59 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                  
-                  Täklä Śǝllase
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">ተክለ፡ ሥላሴ፡</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Takla Śǝllāse</persName>
+                  <persName xml:lang="gez" xml:id="n2" type="nickName">ጢኖ፡</persName>
+                  <persName xml:lang="gez" corresp="#n2" type="normalized">Ṭino (it is Oromifa word which refered to a person of a small stature </persName>
+                  <persName><roleName type="title">azzāž, Ṣaḥāfe tǝʿǝzāz</roleName></persName>
                </persName>
-               <persName type="alt">Ṭinno</persName>
-               <occupation> aläqa;  ṣäḥ.t. </occupation>
-               <occupation> azzaž</occupation>
-            </person>
+               <occupation type="literary">royal chronicler</occupation>
+             <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <birth></birth>
+               <residence>He was in the court of Susǝnyos</residence>
+               <floruit when="1612" evidence="internal">He joined to  court of King<persName ref= "PRS9038Susenyos" >Susenyos</persName>until<date>1638</date>. He was one of the main royal chronicler of the king. He was an Oromo by origin.
+               </floruit>
+               <death >1638</death>
+               </person>
+            <listRelation>
+               <relation name="snap:AllianceWith"
+                  active="#PRS9194Taklase"
+                  passive="#PRS9038Susenyos" 
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  active="#PRS9194Taklase"
+                  passive="#PRS7699Paez"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  active="#PRS9194Taklase"
+                  passive="#PRS8681SeelaK"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  active="#PRS9194Taklase"
+                  passive="#PRS8681SeelaK"
+                  ></relation>
+               
+            </listRelation>
          </listPerson>
+            <listBibl type="editions">
+                  <bibl>
+                     <ptr target="bm:Pereira1892Susenyos"/>
+                  </bibl>
+                  </listBibl>
+               <listBibl type="editions">
+                  <bibl>
+                     <ptr target="bm:Pereira1900Susenyos"/>
+                  </bibl>
+               </listBibl>
+               <listBibl type="secondary">
+                  <bibl> 
+                     <ptr target="bm:Toubkis2010TakläaSellase"/>
+                  </bibl>  
+               </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
