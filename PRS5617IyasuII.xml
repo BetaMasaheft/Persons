@@ -11,6 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Iyasu II</title>
+            <editor key="SG"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +45,79 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-08-05">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
+               <persName>
                <persName>Iyasu II</persName>
-               <persName type="alt">Adyam Sägäd</persName>
-               <persName type="alt">Bǝrhan Sägäd</persName>
-               <persName type="alt">Qwaräñña Iyasu</persName>
-               <occupation> aṣe </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ኢያሱ፡</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Iyāsu II</persName>
+                  <persName xml:lang="gez" xml:id="n2" type="nickName">ቋረኛ፡ ኢያሱ፡</persName>
+                  <persName xml:lang="gez" corresp="#n2" type="normalized">Qwarañña Iyāsu</persName>
+               <persName><roleName type="title">aṣe</roleName></persName>
+               <persName xml:lang="gez" xml:id="n3.1" type="regnalName">አድያም፡ ሰገድ፡</persName>
+                  <persName xml:lang="gez" corresp="#n3.1" type="normalized">Adyām Sagad</persName>
+                  <persName xml:lang="gez" xml:id="n3.2" type="regnalName">ብርሃን፡ ሰገድ፡</persName>
+                  <persName xml:lang="gez" corresp="#n3.2" type="normalized">Bǝrhān Sagad</persName>
+               </persName>
+               <occupation type="ruler">Emperor</occupation>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <residence>Gondar</residence>
+               <birth>1723</birth>
+               <floruit when="1730" evidence="internal">He succeded his father King <persName ref="PRS2377Bakaffa">Bakāffā</persName> in <date>1730</date>. 
+                  He was seven years old when he became a king and his mother a famous Gondarian queen<persName ref="PRS2682BerhanM">Bǝrhān Mogasā</persName> was his a regent , 
+                  who exercised the real political power together with her brother rās <persName ref="PRS7585Niqolawo">Niqolāwos</persName>. 
+                   </floruit>
+               <death when="1755" evidence="internal"></death>
             </person>
+            <listRelation>
+               <relation name="snap:SonOf" 
+                  active="#PRS5617IyasuII"
+                  passive="#PRS2377Bakaffa"
+                  ></relation>
+           
+               <relation name="snap:FatherOf"
+                  active="#PRS5617IyasuII"
+                  passive= "#PRS5636IyoasI"
+                  ></relation>
+               <relation name="snap:SonOf"
+                  active="#PRS5617IyasuII"
+                  passive= "#PRS2682BerhanM"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  ></relation>
+            </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Basset1882Chronicle"/>
+            </bibl>
+         </listBibl> 
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Guidi1910Iyasu"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Budge1966Ethistory"/>
+            </bibl>  
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:NosnitsinundChernetsov2007Iyasu"/>
+            </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+              

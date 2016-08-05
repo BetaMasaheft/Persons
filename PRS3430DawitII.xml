@@ -11,6 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Dawit III</title>
+            <editor key="SG"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,6 +45,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-08-05">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,13 +53,63 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                  
-                  Dawit III
+               <persName>Dawit III</persName>
+             <persName xml:lang="gez" xml:id="n1" type="birthName">ዳዊት፡</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Dawit III</persName>
+                  <persName><roleName type="title">aṣe</roleName></persName>
+                  <persName xml:lang="gez" xml:id="n2" type="regnalName">አድባር፡ ሰገድ፡</persName>
+                  <persName xml:lang="gez" corresp="#n2" type="normalized">Adbār Sagad</persName>
                </persName>
-               <persName type="alt">Dawit II</persName>
-               <occupation> aṣe </occupation>
+               <occupation type="ruler">Emperor</occupation>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <residence>Gondar</residence>
+               <birth>in 1695</birth><age>He was 21 years of age when he became a king</age>
+               <floruit when="1716" evidence="internal">He succeded his brother King <persName ref="PRS9152TaklaHa">Takla Hāymānot I</persName> in <date> 1716</date>.
+                  He was often known by his nick name " the Singer".
+               </floruit>
+               <death when="1721" evidence="internal"> He died of in poison</death>
             </person>
+            <listRelation>
+               <relation name="snap:SonOf" 
+                  active="#PRS3430DawitII"
+                  passive="#PRS5616IyasuI"
+                  ></relation>
+               <relation name="snap:BrotherOf"
+                  active="#PRS3430DawitII"
+                  passive= "#PRS9152TaklaHa"
+                  ></relation>
+               <relation name="snap:BrotherOf"
+                  active="#PRS3430DawitII"
+                  passive="#PRS2377Bakaffa"
+                  ></relation>
+             </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Basset1882Chronicle"/>
+            </bibl>
+         </listBibl> 
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Guidi1903Yohannes"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Budge1966Ethistory"/>
+            </bibl>  
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Crummey2005Dawit"/>
+            </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+              

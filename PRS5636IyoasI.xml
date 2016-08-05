@@ -11,6 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Iyoʾas I</title>
+            <editor key="SG"/>  
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -51,12 +52,62 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                  
-                  Iyoʾas I
-               </persName>
-               <occupation> aṣe </occupation>
+               <persName>Iyoʾas I</persName><persName xml:lang="gez" xml:id="n1" type="birthName">ኢዮአስ፡</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Iyoʾas I</persName>
+                 <persName><roleName type="title">aṣe</roleName></persName>
+                  <persName xml:lang="gez" xml:id="n3.1" type="regnalName">አድያም፡ ሰገድ፡</persName>
+                  <persName xml:lang="gez" corresp="#n3.1" type="normalized">Adyām Sagad</persName>
+                 </persName>
+               <occupation type="ruler">Emperor</occupation>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <residence>Gondar</residence>
+               <birth>1749</birth>
+               <floruit when="1755" evidence="internal">He succeded his father King <persName ref="PRS5617IyasuII">Iyāsu II</persName> in <date>1755</date>. 
+                  He was seven years old when he became a king and his grand mother a famous Gondarian queen<persName ref="PRS2682BerhanM">Bǝrhān Mogasā</persName> was continued to act his a regent , 
+                  Throughout his reign, he was only a figurehead and the real political power was remained on the hand of the queen<persName ref="PRS2682BerhanM">Bǝrhān Mogasā</persName>. 
+               </floruit>
+               <death when="1769" evidence="internal"> He was murdered by<persName ref="PRS7091Mikael">Mikael</persName></death>
             </person>
+            <listRelation>
+               <relation name="snap:SonOf" 
+                  active="#PRS5636IyoasI"
+                  passive="#PRS5617IyasuII"
+                  ></relation>
+             <relation name="snap:GrandsonOf"
+                  active="#PRS5636IyoasI"
+                  passive= "#PRS2682BerhanM"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  ></relation>
+            </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Basset1882Chronicle"/>
+            </bibl>
+         </listBibl> 
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Guidi1910Iyasu"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Budge1966Ethistory"/>
+            </bibl>  
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:NatsoulasundNosnitsin2007Iyaoas"/>
+            </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+   
