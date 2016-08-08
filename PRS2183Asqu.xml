@@ -11,6 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Aṣqu</title>
+            <editor key="SG"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,6 +45,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-08-08">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,13 +53,55 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                  
-                  Aṣqu
+               <persName>Aṣqu</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">አጽቁ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Aṭqu</persName>
+               <persName><roleName type="title">liq </roleName></persName>
                </persName>
-               <persName type="alt">Aṭqu</persName>
-               <occupation> liq </occupation>
-            </person>
+               <occupation type="ecclesiastic">scribe</occupation>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <birth>1770</birth>
+               <residence>in </residence>
+               <floruit >He was a learned schoalr and judge of <placeName ref="LOC3577Gondar">Gondar</placeName> in the first half of 19th century.    
+                  He was in contact with many European travellers and scholars who visitted Gondar in his time.
+                  He copied the royal chronicles which were commisioned by <persName ref="#PRS8249Rüppell">Rüppell</persName> in<date> 1833</date>  
+                  and catalogued by <persName ref="#PRS4747Goldschm">Goldschmidt</persName>in <date> 1897</date >.
+               </floruit>
+               <death >1840s</death>
+             </person>
+            <listRelation>
+               <relation name="snap:AllianceWith"
+                  active="#PRS2183Asqu"
+                  passive="#PRS8249Rüppell"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  active="#PRS2183Asqu"
+                  passive="#PRS1071dAbbadi"
+                  ></relation>
+             </listRelation>
          </listPerson>
+      <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Rüppell1838Reise"/>
+            </bibl> 
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Goldschmidt1897catalogue"/>
+            </bibl> 
+         </listBibl>
+            <listBibl type="secondary">
+               <bibl> 
+                  <ptr target="bm:Pankhurst2003Atqu"/>
+               </bibl>  
+            </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+        

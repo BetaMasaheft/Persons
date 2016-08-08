@@ -11,6 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Bruce</title>
+            <editor key="SG"/>  
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +45,57 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-08-08">Complete record</change>
+         
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
+           
             <person sex="1">
                <persName>
-                   James
-                  Bruce
+               <persName>James Bruce</persName>
                </persName>
-               <occupation> trav. </occupation>
-            </person>
+            <occupation type="academic">traveller</occupation>
+                  <nationality type="notSpecified"/>
+                  <faith type="notSpecified"/>
+                  <birth>1730</birth>
+                  <residence>He was in Gondar from 1769-1772</residence>
+                  <floruit when="1769" evidence="internal">He arrived in Ethiopia motivated by the ambition to discover the source of Blue Nile<date> on September 1769</date>. 
+                     He was the most important foreignerS to visit Ethiopia  between the expulsion of the Jesuits in <date> 1632</date> and 
+                     the visit of <persName ref="PRS8442Salt">Henry Salt</persName> in<date> 1810</date> . 
+               </floruit>
+                  <death >1794<date>26 April 1794</date></death>
+               </person>
+               <listRelation>
+                  <relation name="snap:FriendshipFor"
+                     active="#PRS2916Bruce"
+                     passive="#PRS2682BerhanM"
+                     ></relation>
+            <relation name="saws:isAttributedAuthorOf"
+                    ></relation>
+               </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Bruce1791Travel"/>
+            </bibl>  
+         </listBibl>
+        
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Dillmann1848Catalogus"/>
+            </bibl>  
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Pankhurst2003Bruce"/>
+            </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+              

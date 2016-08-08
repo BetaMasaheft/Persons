@@ -11,6 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Ḫaylä Mikaʾel Ǝšäte (Ḫaylu Ǝšäte)</title>
+            <editor key="SG"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,6 +45,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-08-08">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,12 +53,59 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                  
-                  Ḫaylä Mikaʾel Ǝšäte (Ḫaylu Ǝšäte)
+                  <persName>Ḫāyla Mikaʾel Ǝšate (Ḫaylu Ǝšate)</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ኃይለ፡ ሚካኤል፡  እሸቴ፡</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Ḫāyla Mikaʾel Ǝšate </persName>
+                  <persName xml:lang="gez" xml:id="n2" type="birthName">ኃይሉ፡  እሸቴ፡</persName>
+                  <persName xml:lang="gez" corresp="#n2" type="normalized">Ḫāylu Ǝšate</persName>
+                  <persName><roleName type="title"> daǧǧāzmāč </roleName></persName>
                </persName>
-               <occupation> däǧǧ. </occupation>
+               <occupation type="political">governor</occupation>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <birth>1753</birth>
+               <residence> Māḥdara Māryam</residence>
+               <floruit >He was one of the most important noble during Zamana Masāfǝnt and commisioned to copying of the royal chronicles by his close freind and 
+                  secretary assistant (scribe)<persName ref="PRS1007Abagaz">Abagāz</persName> in<date> 1785</date> 
+                  at the monastrey of Māḥdara Māryām, where both the found asylum.  
+               </floruit>
+               <death >1809</death>
             </person>
+            <listRelation>
+               <relation name="snap:AllianceWith"
+                  active="#PRS5222haylaMi"
+                  passive="#PRS1007Abagaz"
+                  ></relation>
+               <relation name="snap:KinOf"
+                  active="#PRS5222haylaMi"
+                  passive="#PRS2682BerhanM"
+                  ></relation>
+              </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Kropp1989Haylu"/>
+            </bibl> 
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:ChernestsovundRed2005HayluEsate"/>
+            </bibl>  
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Solomon2016Galawdewos"/>
+            </bibl> 
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+    

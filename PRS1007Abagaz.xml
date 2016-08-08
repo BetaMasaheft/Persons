@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Abägaz</title>
+            <title>Abagāz</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,21 +44,58 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-08-08">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
+               <persName> Abagāz</persName>
                <persName>
-                  
-                  Abägaz
+                 <persName xml:lang="gez" xml:id="n1" type="birthName">አበጋዝ፡</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Abagāz</persName>
+                  <persName><roleName type="title"> abetohun</roleName></persName>
                </persName>
-               <nationality type="Ethiopia post-Aksumite">Christian Ethiopia</nationality>
-               <faith type="EOTC">EOTC</faith>
-               <occupation> abet</occupation>
+               <occupation type="ecclesiastic">abetohun</occupation>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <birth></birth>
+               <residence> Mvḥdara Māryam</residence>
+               <floruit >He was a learned schoalr and a scribe for the compilation of royal chronicles commisioned by daǧǧāzmāč <persName ref="PRS5222haylaMi">Ḫayla Mikaʾel Ǝšäte (Ḫaylu Ǝšäte)</persName> in<date> 1785</date> 
+                  at the monastrey of Māḥdara Māryām, where he found asylum.  
+               </floruit>
+               <death >1840s</death>
             </person>
+            <listRelation>
+               <relation name="snap:AllianceWith"
+                  active="#PRS1007Abagaz"
+                  passive="#PRS5222haylaMi"
+                  ></relation>
+            </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Kropp1989Haylu"/>
+            </bibl> 
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Chernestsov2003Abagaz"/>
+            </bibl>  
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Solomon2016Galawdewos"/>
+            </bibl> 
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
