@@ -10,7 +10,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mikaʾel Sǝḥul</title>
+            <title>Mikāʾel Sǝḥul</title>
+            <editor key="SG"/>  
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,6 +45,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-08-09">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,12 +53,65 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                  
-                  Mikaʾel Sǝḥul
-               </persName>
-               <occupation> ras </occupation>
-            </person>
+               <persName> Mikaʾel Sǝḥul</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ሚካኤል፡ ስሑል፡</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Mikāʾel Sǝḥul</persName>
+                  <persName><roleName type="title">ras</roleName></persName>
+                  </persName>
+               <occupation type="political">governor</occupation>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <residence>Gondar</residence>
+               <birth>1691, born at a place called<placeName ref="LOC2866EndaAb">Ǝndā Abbā Garimā</placeName></birth>
+               <floruit when=" 1769" evidence="internal">He became the strongest political figure in the Gondarine monarchy after he killed King<persName ref="PRS5636IyoasI">Iyoʾās I</persName> in <date> 1769</date>. 
+                  He was responsible for a long time political insecurity and lack of central goverment during the period of Zamana masāfǝnt
+                </floruit>
+               <death when="1777" evidence="internal"></death>
+            </person>   
+            <listRelation>
+               <relation name="rel:enemyOf" 
+                  active="#PRS7091Mikael"
+                  passive="#PRS5636IyoasI"
+                  ></relation>
+             
+               <relation name="bm:husbandOf"
+                  active="#PRS7091Mikael"
+                  passive="#PRS2167Aster"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  active="#PRS7091Mikael"
+                  passive="#PRS2682BerhanM"
+                  ></relation>
+               <relation name="snap:FriendshipFor"
+                  active="#PRS7091Mikael"
+                  passive="#PRS2916Bruce"
+                  ></relation>
+            </listRelation>
          </listPerson>
+        <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Guidi1910Iyasu"/>
+            </bibl>
+         </listBibl> 
+     <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Budge1966Ethistory"/>
+            </bibl>  
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Abbink2007MikaelSehul"/>
+            </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+  

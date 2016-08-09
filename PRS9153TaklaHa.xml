@@ -10,7 +10,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Täklä Haymanot II</title>
+            <title>Takla Hāymānot II</title>
+            <editor key="SG"/>  
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,6 +45,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-08-09">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,14 +53,56 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                  
-                  Täklä Haymanot II
+               <persName>Täklä Haymanot II </persName>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ተክለ፡ ሃይማኖት፡</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Takla Hāymānot II</persName>
+                 <persName><roleName type="title">aṣe</roleName></persName>
+                  <persName xml:lang="gez" xml:id="n2" type="regnalName">አድማስ፡ ሰገድ፡</persName>
+                  <persName xml:lang="gez" corresp="n2" type="normalized">Admās Sagad III</persName>
+                  <persName xml:lang="gez" xml:id="n3" type="regnalName">ጥበብ፡ ሰገድ፡</persName>
+                  <persName xml:lang="gez" corresp="n3" type="normalized">Ṭǝbab Sagad</persName>
                </persName>
-               <persName type="alt">Admas Sägäd III</persName>
-               <persName type="alt"> Ṭǝbäb Sägäd</persName>
-               <occupation> aṣe </occupation>
+               <occupation type="ruler">Emperor</occupation>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <residence>Gondar</residence>
+               <birth></birth>
+               <floruit when="1769" evidence="internal">He  was one of the the short lived puppet kings installed by  ras <persName ref="#PRS7091Mikael">Mikāʾel Sǝḥul</persName>on 
+                  <date> 17 October 1769</date> and  succeded his father King<persName ref="PRS10376Yohanne">Yoḥannǝs II</persName>
+              </floruit>
+               <death when="1777" evidence="internal"></death>
             </person>
+            <listRelation>
+               <relation name="snap:SonOf" 
+                  active="#PRS9153TaklaHa"
+                  passive="#PRS10376Yohanne"
+                  ></relation>
+               <relation name="snap:BrotherOf"
+                  active="#PRS9153TaklaHa"
+                  passive="#PRS9142TaklaGi"
+                  ></relation>
+            <relation name="snap:FatherOf" 
+                  active="#PRS9153TaklaHa"
+                  passive="#PRS8423Salomon"
+                  ></relation>
+            </listRelation>
          </listPerson>
+        
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Blundell1922Chronicle"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Crummey2010TaklaHaymanotII"/>
+            </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
