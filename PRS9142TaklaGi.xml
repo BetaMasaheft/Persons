@@ -10,7 +10,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Täklä Giyorgis I</title>
+            <title>Takla Giyorgis I</title>
+            <editor key="SG"/>  
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,6 +45,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-08-10">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,14 +53,62 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                  
-                  Täklä Giyorgis I
+               <persName> Takla Giyorgis I</persName>
+           <persName xml:lang="gez" xml:id="n1" type="birthName">ተክለ፡ ጊዮርጊስ፡</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Takla Giyorgis I</persName>
+               <persName><roleName type="title">aṣe</roleName></persName>
+               <persName xml:lang="gez" xml:id="n2" type="regnalName">ፍቅር፡ ሰገድ፡</persName>
+                  <persName xml:lang="gez" corresp="n2" type="normalized">Fǝqr Sagad</persName>
+               <persName xml:lang="gez" xml:id="n3" type="nickName">ፍጻሜ፡ መንግሥት፡</persName>
+                  <persName xml:lang="gez" corresp="n3" type="normalized">Fǝṣṣāme Mangǝśt</persName>
                </persName>
-               <persName type="alt"> Fǝqr Sägäd</persName>
-               <persName type="alt">Fǝṣṣame Mängǝśt</persName>
-               <occupation> aṣe </occupation>
+               <occupation type="ruler">Emperor</occupation>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <residence>Gondar</residence>
+               <birth></birth>
+               <floruit when="1777" evidence="internal">He  succeded a young King<persName ref="PRS8421Salomon">Salomon I</persName>in 
+                  <date>  1777</date>. He reigned for six distinct periods<date>1779-84,1788-89, 1794-95, 1795-96, 1798-99, 1800 </date>
+                 during the period of of Zamana Masāfǝnt.
+               </floruit>
+               <death when="1800" evidence="internal">He was buried at <placeName ref="LOC1310Aksum">Aksum</placeName></death>
             </person>
+            <listRelation>
+               <relation name="snap:SonOf" 
+                  active="PRS9142TaklaGi"
+                  passive="#PRS10376Yohanne"
+                  ></relation>
+               <relation name="snap:BrotherOf"
+                  active="PRS9142TaklaGi"
+                  passive="#PRS9153TaklaHa"
+                  ></relation>
+               
+      </listRelation>
          </listPerson>
+         
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Blundell1922Chronicle"/>
+            </bibl>
+         </listBibl>
+        
+         <listBibl type="editions">
+            <bibl>
+         <ptr target="bm:Budge1966Ethistory"/>
+         </bibl>  
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Crummey2010TaklaGiyorgisI"/>
+            </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+             
