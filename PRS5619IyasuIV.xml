@@ -10,7 +10,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Iyasu IV</title>
+            <title>Iyāsu IV</title>
+            <editor key="SG"/>  
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,6 +45,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-08-10">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,12 +53,52 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                  
-                  Iyasu IV
+              <persName>Iyasu IV</persName>
+            <persName xml:lang="gez" xml:id="n1" type="birthName">ኢያሱ፡</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Iyāsu IV</persName>
+          <persName><roleName type="title">aṣe</roleName></persName>
                </persName>
-               <occupation> aṣe </occupation>
+               <occupation type="ruler">Emperor</occupation>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <residence>Gondar</residence>
+               <birth></birth>
+               <floruit when="1831" evidence="internal">He reigned only for the seven months, in the year of <date>1831</date>. 
+                  He was a protégé of ras <persName ref="#PRS3617DoriGug">Dori</persName> and finally leaving his office, 
+                  he retired to the monastery of Waldǝbba 
+                 </floruit>
+               <death ></death>
             </person>
+            <listRelation>
+               <relation name="snap:SonOf" 
+                  active="#PRS5619IyasuIV"
+                  passive="#PRS8422Salomon"
+                  ></relation>
+               <relation name="snap:GrandsonOf" 
+                  active="#PRS5619IyasuIV"
+                  passive="#PRS9153TaklaHa"
+                  ></relation>
+               <relation name= "snap:AllianceWith"
+                  active="#PRS5619IyasuIV"
+                  passive="#PRS3617DoriGug"
+                  ></relation>
+        </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Blundell1922Chronicle"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Budge1966Ethistory"/>
+            </bibl>  
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Crummey2007IyasuIV"/>
+            </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
