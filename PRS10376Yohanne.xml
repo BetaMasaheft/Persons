@@ -11,6 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Yoḥannǝs II</title>
+            <editor key="SG"/>  
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +45,67 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
-      </revisionDesc>
+         <change who="SG" when="2016-08-09">Complete record</change>
+        </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
                <persName>
-                  
-                  Yoḥannǝs II
-               </persName>
-               <occupation> aṣe </occupation>
+               <persName>Yoḥannǝs II</persName>
+              <persName xml:lang="gez" xml:id="n1" type="birthName">ዮሐንስ፡</persName>
+                   <persName xml:lang="gez" corresp="#n1" type="normalized">Yoḥannǝs II </persName>
+                  <persName><roleName type="title">aṣe</roleName></persName>
+             </persName>
+                  <occupation type="ruler">Emperor</occupation>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <residence>Gondar</residence>
+                  <birth>1697</birth>
+               <floruit when="1769" evidence="internal">He  was one of the the short lived puppet kings installed by the ras <persName ref="#PRS7091Mikael">Mikāʾel Sǝḥul</persName> in <date> 1769</date>. 
+                  He was one of the oldest monarch of Solomonic dynasty, he was 70 years old when entroned.
+                     </floruit>
+                  <death when="1769" evidence="internal">15 October1769</death>
             </person>
+            <listRelation>
+               <relation name="snap:SonOf" 
+                  active="#PRS10376Yohanne"
+                  passive="#PRS5616IyasuI"
+                  ></relation>
+               <relation name="snap:BrotherOf"
+                  active="#PRS10376Yohanne"
+                  passive="PRS2377Bakāffā"
+                  ></relation>
+               <relation name="snap:BrotherOf"
+                     active="#PRS10376Yohanne"
+                     passive=" #PRS3430DawitII"
+                     ></relation>
+               <relation name="snap:BrotherOf"
+                  active="#PRS10376Yohanne"
+                  passive="#PRS9152TaklaHa"
+                  ></relation>
+               <relation name="snap:FatherOf" 
+                  active="#PRS10376Yohanne"
+                  passive="#PRS9153TaklaHa"
+                  ></relation>
+            </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Guidi1910Iyasu"/>
+            </bibl>
+         </listBibl>
+      <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Sophia2014YohannesII"/>
+              </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
