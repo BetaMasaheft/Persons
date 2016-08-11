@@ -10,7 +10,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Gugsa Märsa</title>
+            <title>Gugsā Marsā</title>
+            <editor key="SG"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,6 +45,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-08-11">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,12 +53,71 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                  
-                  Gugsa Märsa
+                  <persName>Gugsā Marsā</persName>
+           <persName xml:lang="gez" xml:id="n1" type="birthName">ጉግሳ፡ መርሳ፡</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Gugsā Marsā</persName>
+               <persName><roleName type="title">rās</roleName></persName>
                </persName>
-               <occupation> ras </occupation>
+               <occupation type="ruler">governor</occupation>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <residence><placeName ref="LOC2385DabraT">Dabǝra Tābor</placeName>which was founded by him in<date>around1802</date></residence>
+               <birth></birth>
+               <floruit when="1800" evidence="internal">He became one of the greatest ruler of  Warrasek (Yaǧǧ) in<date>1800</date> and he was said to be "Gugsa the Great". 
+                  He was a muslim and later converted to christianity. He acted as a king maker throughout his rule. 
+                  He had an important place in the history of land tenure system in the first quarter of nineteenth century.
+                </floruit>
+               <death >1825</death>
             </person>
+            <listRelation>
+               <relation name="snap:GrandsonOf" 
+                  active="#PRS4870GugsaMa"
+                  passive="#PRS4900Gwangul"
+                  ></relation>
+               <relation name="snap:FatherOf"
+                  active="#PRS4870GugsaMa"
+                  passive="#PRS6728Mareyye"
+                  ></relation>
+               <relation name="snap:FatherOf"
+                  active="#PRS4870GugsaMa"
+                  passive="#PRS3617DoriGug"
+                  ></relation>
+              
+               <relation name= "rel:enemyOf"
+                  active="#PRS4870GugsaMa"
+                  passive="#PRS9978Waldase"
+                  ></relation>
+               
+            </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Blundell1922Chronicle"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Budge1966Ethistory"/>
+            </bibl>  
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Crummey2000land"/>
+            </bibl>  
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Abir1970Princes"/>
+            </bibl>  
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:CrummeyundRed2005GugsaMarsa"/>
+            </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+           

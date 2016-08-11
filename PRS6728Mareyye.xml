@@ -10,7 +10,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Marǝyye Gugsa</title>
+            <title>Mārǝyye Gugsā</title>
+            <editor key="SG"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,6 +45,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-08-11">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,12 +53,61 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                  
-                  Marǝyye Gugsa
+                  <persName>Mārǝyye Gugsā</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ማርዬ፡ ጉግሳ፡</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Mārǝyye Gugsā</persName>
+               <persName><roleName type="title">rās</roleName></persName>
                </persName>
-               <occupation> ras </occupation>
+               <occupation type="ruler">governor</occupation>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <residence><placeName ref="LOC2385DabraT">Dabǝra Tābor</placeName></residence>
+               <birth></birth>
+               <floruit when="1828" evidence="internal">He succeded his brother, Yǝmām,  one of Warrasek (Yaǧǧ) ruler in<date> January 1828</date>. 
+                  He was intially apointed to rule <placeName ref="LOC3549Gojjam">Goǧǧām</placeName> but his violent and oppressive nature led to his removal. 
+                 </floruit>
+               <death when="1831" evidence="internal">He died in the battle of Dabra Abāy, 
+                  fighting against his  principal foe<persName ref="PRS8265Sabagadi">Sabāgādis (Subāgādis) Waldu</persName> 
+                  in <date> February 1831</date></death>
             </person>
+            <listRelation>
+               <relation name="snap:SonOf" 
+                  active="#PRS6728Mareyye"
+                  passive="#PRS4870GugsaMa"
+                  ></relation>
+               <relation name="snap:BrotherOf"
+                  active="#PRS6728Mareyye"
+                  passive="#PRS3617DoriGug"
+                  ></relation>
+               <relation name= "rel:enemyOf"
+                  active="#PRS6728Mareyye"
+                  passive="#PRS8265Sabagadi"
+                  ></relation>
+     </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Blundell1922Chronicle"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Budge1966Ethistory"/>
+            </bibl>  
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Abir1970Princes"/>
+            </bibl>  
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Crummey2007MareyyeGugsa"/>
+            </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+               

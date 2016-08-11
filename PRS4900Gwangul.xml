@@ -10,7 +10,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Gwangul</title>
+            <title>Gwāngul</title>
+            <editor key="SG"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,6 +45,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-08-11">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,15 +53,68 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                  
-                  Gwangul
+                  <persName>Gwāngul</persName>
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">ጉዋንጉል፡</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Guwāānguul which refers in Afan Oromo “Abbā Seru” </persName>
+                  <persName xml:lang="gez" xml:id="n2" type="birthName">ግዋንጉል፡</persName>
+                  <persName xml:lang="gez" corresp="#n2" type="normalized">Gwāngul</persName>
+                  <persName xml:lang="gez" xml:id="n3" type="birthName">ሴሩ፡  ግዋንጉል፡</persName>
+                  <persName xml:lang="gez" corresp="#n3" type="normalized">Seru Gwāngul</persName>
+               <persName><roleName type="title"></roleName></persName>
                </persName>
-               <persName type="alt">“Abba Seru” Guwaanguul </persName>
-               <persName type="alt">Gwangwǝl </persName>
-               <persName type="alt">Seru Gwangul</persName>
-               <occupation> leader </occupation>
+               <occupation type="ruler">governor</occupation>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <residence></residence>
+               <birth></birth>
+               <floruit when="1769" evidence="internal">He emerged as an active political leader at the begining of Zamana Masāfǝnt in<date> 1769</date>.
+                  He was the founder of Warrasek (Yaǧǧu) dynasty which dominated Ethiopia for half a century .</floruit>
+               <death when="1777" evidence="internal"></death>
             </person>
+            <listRelation>
+               <relation name="snap:GrandfatherOf" 
+                  active="#PRS4900Gwangul"
+                  passive="#PRS4870GugsaMa"
+                  ></relation>
+               <relation name="snap:FatherOf"
+                  active="#PRS4900Gwangul"
+                  passive="#PRS1719AliGwan"
+                  ></relation>
+               <relation name="snap:FatherOf"
+                  active="#PRS4900Gwangul"
+                  passive="#PRS1750Aligaz"
+                  ></relation> 
+               <relation name="snap:AllianceWith"
+                  active="#PRS4900Gwangul"
+                  passive="PRS9142TaklaGi"
+                  ></relation>
+              </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Blundell1922Chronicle"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Budge1966Ethistory"/>
+            </bibl>  
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Abir1970Princes"/>
+            </bibl>  
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:CrummeyundRed2005Gwangul"/>
+            </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+               
+               
