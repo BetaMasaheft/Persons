@@ -10,8 +10,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ali Gwangul</title>
-            <author/>
+            <title>Ali Gwāngul</title>
+            <editor key="SG"/>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
@@ -44,6 +44,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-08-12">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,14 +52,64 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                  
-                  Ali Gwangul
+                  <persName>Ali Gwangul</persName>
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">አሊ፡ ግዋንጉል፡</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Ali Gwāngul, Ali I</persName>
+             <persName xml:lang="gez" xml:id="n2" type="nickName">ትልቁ፡ ራስ፡ አሊ፡</persName>
+                  <persName xml:lang="gez" corresp="#n2" type="normalized">Ali the Great</persName>
+                  <persName><roleName type="title">rās</roleName></persName>
                </persName>
-               <persName type="alt">Ali I</persName>
-               <persName type="alt"> Ali the Great</persName>
-               <occupation> ras </occupation>
+               <occupation type="ruler">governor</occupation>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <residence></residence>
+               <birth></birth>
+               <floruit when="1784" evidence="internal">He was a powerful king maker and came to power in <date>1784</date> 
+                and nominated the puppet King<persName ref="PRS9142TaklaGi">Takla Giyorgis I</persName> to the throne.
+                  </floruit>
+               <death when="1788" evidence="internal"></death>
             </person>
+            <listRelation>
+               <relation name="snap:SonOf" 
+                  active="#PRS1719AliGwan"
+                  passive="#PRS4900Gwangul"
+                  ></relation>
+               <relation name="snap:CousinOf"
+                  active="#PRS1719AliGwan"
+                  passive="#PRS4870GugsaMa"
+                  ></relation>
+               <relation name="snap:BrotherOf"
+                  active="#PRS1719AliGwan"
+                  passive="#PRS1750Aligaz"
+                  ></relation> 
+           
+            </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Blundell1922Chronicle"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Budge1966Ethistory"/>
+            </bibl>  
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Abir1970Princes"/>
+            </bibl>  
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:CrummeyundRed2005Gwangul"/>
+            </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+              

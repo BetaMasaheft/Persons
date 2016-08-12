@@ -10,7 +10,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Wäldä Śǝllase</title>
+            <title>Walda Śǝllāse</title>
+            <editor key="SG"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,6 +45,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-08-12">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,12 +53,62 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                  
-                  Wäldä Śǝllase
+               <persName>Walda Śǝllase</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ወልደ፡ ሥላሴ፡</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Walda Śǝllāse</persName>
+                  <persName><roleName type="title">rās</roleName></persName>
                </persName>
-               <occupation> ras </occupation>
+               <occupation type="ruler">governor</occupation>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <residence><placeName ref="LOC1478Antalo">Anṭalo</placeName></residence>
+               <birth>1733</birth>
+               <floruit when="1781" evidence="internal">He emerged in the politics of Zamana Masāfǝnt in<date>1781</date>.
+                  He was the supporter of the King<persName ref="PRS9142TaklaGi">Takla Giyorgis I</persName>. He was the object of the first 19th century 
+                  European diplomatic probe into Ethiopia. He received <persName ref="PRS8442Salt">Henry Salt </persName><date>1781</date>.
+                 </floruit>
+               <death when="1815" evidence="internal"></death>
             </person>
+            <listRelation>
+               <relation name="snap:InLawFamilyRelationship"
+                  active="#PRS9978Waldase"
+                  passive="#PRS5332hezqeyas"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  active="#PRS9978Waldase"
+                  passive="#PRS9142TaklaGi"
+                  ></relation>
+           <relation name= "rel:enemyOf"
+                  active="#PRS9978Waldase"
+                  passive="PRS4870GugsaMa"
+                  ></relation>
+            </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Blundell1922Chronicle"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Budge1966Ethistory"/>
+            </bibl>  
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Abir1970Princes"/>
+            </bibl>  
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Crummey2010WaldaSelasse"/>
+            </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+               
