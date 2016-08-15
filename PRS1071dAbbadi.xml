@@ -54,11 +54,59 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <forename> Antoine</forename>
                   <surname>d’Abbadie [d’Arrast]</surname>
                </persName>
-               <nationality type="France">France</nationality>
-               <faith type="Catholic">Catholic</faith>
-               <occupation> sch. </occupation>
+               <occupation type="academic">traveller</occupation>
+               <nationality type="France"/>
+               <faith type="Catholicism"/>
+               <birth>1810</birth>
+               <residence>Dublin</residence>
+               <floruit when="1837" evidence="internal">He arrived in Ethiopia together with his younger brother <persName ref="PRS1072dAbbadi">  Arnauld  d’Abbadie</persName> in
+                  <date>1837</date>. He was a distinguished scholar in the fieLd of Ethiopian studies and a founder of Ethiopian studies in France in<date> 1849</date>. 
+                  He was the commissioner of the collection of royal chronicles (a copy of Daǧǧāzmāč Haylu compilation ) preserved in 
+                  <placeName ref="INS0303BNF">Bibliothèque nationale de France</placeName>
+               </floruit>
+                <death >1897</death>
             </person>
+          
+            <listRelation>
+               <relation name="snap:BrotherOf"
+                  active="#PRS1071dAbbadi"
+                  passive="#PRS1072dAbbadi"
+                  ></relation>
+               <relation name="snap:FriendshipFor"
+                  active="#PRS1071dAbbadi"
+                  passive="#PRS2183Asqu"
+                  ></relation>
+               <relation name="snap:FriendshipFor"
+                  active="#PRS1071dAbbadi"
+                  passive="#PRS4779GossuZa"
+                  ></relation>
+             
+                  <relation name="saws:isAttributedAuthorOf"
+                     
+                  ></relation>
+            </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:dAbbadie1980Douze"/>
+            </bibl>  
+         </listBibl>
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:dAbbadie1859Catalogue"/>
+            </bibl>  
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Zitelmann2003Abbadie"/>
+            </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+              
+          
