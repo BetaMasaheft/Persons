@@ -11,6 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Goššu Zäwde</title>
+            <editor key="SG"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,6 +45,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-08-15">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,12 +53,71 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                  
-                  Goššu Zäwde
+               <persName>Goššu Zäwde</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ጐሹ፡ ዘውዴ፡</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Goššu Zäwde</persName>
+                  <persName><roleName type="title">Daǧǧāzmāč</roleName></persName>
                </persName>
-               <occupation> däǧǧ. </occupation>
+               <occupation type="ruler">governor</occupation>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <residence></residence>
+               <birth>1780/90</birth>
+               <floruit when="1850" evidence="internal">He was the governor of <placeName ref="LOC3549Gojjam">Goǧǧām</placeName> and
+                  <placeName ref="LOC2488Damot">Damot</placeName> in<date>1850</date>and one of the major lords during the last decades of the 
+                  Zamana Masafǝnt. He was the commissioner of the collection of royal chronicles (a copy of Daǧǧāzmāč Haylu compilation ) preserved in 
+                  <placeName ref="INS0001BL">British Library</placeName> with<ref type="mss" corresp="BLorient821"/>.
+               </floruit>
+               <death >1852</death>
             </person>
+            <listRelation>
+               <relation name="snap:GrandsonOf" 
+                  active="#PRS4779GossuZa"
+                  passive="#PRS2682BerhanM"
+                  ></relation>
+    
+      <relation name= "rel:enemyOf"
+                  active="#PRS4779GossuZa"
+                  passive="#PRS4870GugsaMa"
+                  ></relation>
+               <relation name= "rel:enemyOf"
+                  active="#PRS4779GossuZa"
+                  passive="#PRS9430Tewodros"
+                  ></relation>
+               <relation name= "snap:FriendshipFor"
+                  active="#PRS4779GossuZa"
+                  passive="#PRS1072dAbbadi"
+                  ></relation>
+            </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Blundell1922Chronicle"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Budge1966Ethistory"/>
+            </bibl>  
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Girma2014Goggamchronicle"/>
+            </bibl>  
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Abir1970Princes"/>
+            </bibl>  
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Sokolinskaia2005GossuZawde"/>
+            </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+               
