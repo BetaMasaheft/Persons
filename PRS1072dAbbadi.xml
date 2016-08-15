@@ -11,6 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>d’Abbadie [d’Arrast]</title>
+            <editor key="SG"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,21 +45,62 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-08-15">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  <forename> Arnauld [Michel]</forename>
-                  <surname>d’Abbadie [d’Arrast]</surname>
-               </persName>
-               <nationality type="France">France</nationality>
-               <faith type="Catholic">Catholic</faith>
-               <occupation> sch.</occupation>
-            </person>
+                     <persName>
+                        <forename> Arnauld [Michel]</forename>
+                        <surname>d’Abbadie [d’Arrast]</surname>
+                     </persName>
+                     <occupation type="academic">traveller</occupation>
+                     <nationality type="France"/>
+                     <faith type="Catholicism"/>
+                     <birth>1815</birth>
+                     <residence>Dublin</residence>
+                     <floruit when="1837" evidence="internal">He arrived in Ethiopia together with his elder brother <persName ref="#PRS1071dAbbadi">Antoine d’Abbadie [d’Arrast]</persName> in
+                        <date>1837</date>. He was very close to <persName ref="PRS4779GossuZa">Goššu Zäwde</persName> 
+                        during his stay in Ethiopia and he secured also the research activities of his elder brother <persName ref="#PRS1071dAbbadi">Antoine d’Abbadie [d’Arrast]</persName>. 
+                        He was the commissioner of the collection of royal chronicles preserved in <placeName ref="INS0303BNF">Bibliothèque nationale de France</placeName> 
+                       
+                     </floruit>
+                     <death >1893</death>
+                  </person>
+                  <listRelation>
+                     <relation name="snap:BrotherOf"
+                        active="#PRS1072dAbbadi"
+                        passive="#PRS1071dAbbadi"
+                        ></relation>
+                 
+                     <relation name="snap:FriendshipFor"
+                        active="#PRS1071dAbbadi"
+                        passive="#PRS4779GossuZa"
+                        ></relation>
+                     <!--
+                     <relation name="saws:isAttributedAuthorOf"
+                        
+                        ></relation>-->
+                  </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:dAbbadie1980Douze"/>
+            </bibl>  
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Zitelmann2003Abbadie"/>
+            </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+                  
