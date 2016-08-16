@@ -57,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <residence>Gondar</residence>
                <birth>1797</birth>
                <floruit when="1840" evidence="internal">He was the last puppet King of Zamana
-                     Masāfǝnt<date>29 August 1840</date> and he was deposed a year later because of
+                     Masāfǝnt <date>29 August 1840</date> and he was deposed a year later because of
                   his support for daǧǧāzmāč <persName ref="PRS10102Webeha">Wǝbe Ḫayla
                      Māryām</persName> in <date> 1841</date>. He was a defacto hostage of
                      Emperor <persName ref="PRS9430Tewodros">Tewodros II</persName> for 13 years and
@@ -66,12 +66,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <death when="1873" evidence="internal"/>
             </person>
             <listRelation>
-               <relation name="snap:SonOf" active="#PRS10377Yohanne" passive="#PRS9142TaklaGi"/>
-               <relation name="bm:husbandOf" active="#PRS9142TaklaGi" passive="#PRS6643MananLi"/>
+               <relation name="snap:SonOf" active="#PRS10377Yohanne" passive="PRS9142TaklaGi"/>
+               <relation name="bm:husbandOf" active="#PRS9142TaklaGi" passive="PRS6643MananLi"/>
                <relation name="snap:FriendshipFor" active="#PRS10377Yohanne"
-                  passive="#PRS1071dAbbadi"/>
+                  passive="PRS1071dAbbadi"/>
                <relation name="snap:AllianceWith" active="#PRS10377Yohanne"
-                  passive="#PRS10102Webeha"/>
+                  passive="PRS10102Webeha"/>
 
             </listRelation>
          </listPerson>
