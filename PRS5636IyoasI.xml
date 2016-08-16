@@ -53,7 +53,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-               <persName>Iyoʾas I</persName><persName xml:lang="gez" xml:id="n1" type="birthName">ኢዮአስ፡</persName>
+               
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">ኢዮአስ፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Iyoʾas I</persName>
                  <persName><roleName type="title">aṣe</roleName></persName>
                   <persName xml:lang="gez" xml:id="n3.1" type="regnalName">አድያም፡ ሰገድ፡</persName>
@@ -88,21 +89,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <ptr target="bm:Basset1882Chronicle"/>
             </bibl>
          </listBibl> 
-         <listBibl type="editions">
+     
             <bibl>
                <ptr target="bm:Guidi1910Iyasu"/>
             </bibl>
-         </listBibl>
+        
          <listBibl type="secondary">
             <bibl> 
                <ptr target="bm:Budge1966Ethistory"/>
             </bibl>  
          </listBibl>
-         <listBibl type="secondary">
+        
             <bibl> 
                <ptr target="bm:NatsoulasundNosnitsin2007Iyaoas"/>
             </bibl>  
-         </listBibl>
+        
       </body>
    </text>
 </TEI>
