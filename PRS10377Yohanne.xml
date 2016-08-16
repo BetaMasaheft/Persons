@@ -3,10 +3,7 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="pers"
-     xml:lang="en"
-     xml:id="PRS10377Yohanne">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS10377Yohanne">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -16,20 +13,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
-            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
-            multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
+               Forschungsumgebung / beta maṣāḥǝft</publisher>
             <pubPlace>Hamburg</pubPlace>
             <availability>
-               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
-                This file is licensed under the Creative Commons
-                Attribution-ShareAlike 4.0. </licence>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
             </availability>
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
             <p>Prosopography of Ethiopian Written tradition</p>
-            <p>A TEI file converted from the ETHIO-authority
-                                                  google spreadsheet</p>
+            <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -41,9 +36,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
-         <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
+         <change who="PL" when="2016-04-28">batch updated according to requirements and
+            issues.</change>
+         <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-08-16">Complete record</change>
       </revisionDesc>
@@ -52,67 +47,51 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-                  <persName> Yoḥannǝs III</persName>
-                  <persName xml:lang="gez" xml:id="n1" type="birthName">ዮሐንስ፡</persName>
-                  <persName xml:lang="gez" corresp="#n1" type="normalized">Yoḥannǝs III</persName>
-                  <persName><roleName type="title">aṣe</roleName></persName>
-             <occupation type="ruler">Emperor</occupation>
+               <persName> Yoḥannǝs III</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ዮሐንስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Yoḥannǝs III</persName>
+               <persName><roleName type="title">aṣe</roleName></persName>
+               <occupation type="ruler">Emperor</occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <residence>Gondar</residence>
                <birth>1797</birth>
-               <floruit when="1840" evidence="internal">He was the last puppet King of Zamana Masāfǝnt<date>29 August 1840</date> and he was deposed 
-                  a year later because of his support for daǧǧāzmāč<persName ref="PRS10102Webeha">Wǝbe Ḫayla Māryām</persName>in 
-                  <date>  1841</date>. He was a defacto hostage of Emperor<persName ref="PRS9430Tewodros">Tewodros II</persName> for 13 years and
-                  detained at<placeName ref="LOC4547Maqdal">Maqdalā</placeName>
+               <floruit when="1840" evidence="internal">He was the last puppet King of Zamana
+                     Masāfǝnt<date>29 August 1840</date> and he was deposed a year later because of
+                  his support for daǧǧāzmāč <persName ref="PRS10102Webeha">Wǝbe Ḫayla
+                     Māryām</persName> in <date> 1841</date>. He was a defacto hostage of
+                     Emperor <persName ref="PRS9430Tewodros">Tewodros II</persName> for 13 years and
+                  detained at <placeName ref="LOC4547Maqdal">Maqdalā</placeName>.
                </floruit>
-               <death when="1873" evidence="internal"></death>
+               <death when="1873" evidence="internal"/>
             </person>
             <listRelation>
-               <relation name="snap:SonOf" 
-                  active="#PRS10377Yohanne"
-                  passive="#PRS9142TaklaGi"
-                  ></relation>
-               <relation name="bm:husbandOf"
-                  active="#PRS9142TaklaGi"
-                  passive="#PRS6643MananLi"
-                  ></relation>
-               <relation name="snap:FriendshipFor"
-                  active="#PRS10377Yohanne"
-                  passive="#PRS1071dAbbadi"
-                  ></relation>
-               <relation name="snap:AllianceWith"
-                  active="#PRS10377Yohanne"
-                  passive="#PRS10102Webeha"
-                  ></relation>
-               
+               <relation name="snap:SonOf" active="#PRS10377Yohanne" passive="#PRS9142TaklaGi"/>
+               <relation name="bm:husbandOf" active="#PRS9142TaklaGi" passive="#PRS6643MananLi"/>
+               <relation name="snap:FriendshipFor" active="#PRS10377Yohanne"
+                  passive="#PRS1071dAbbadi"/>
+               <relation name="snap:AllianceWith" active="#PRS10377Yohanne"
+                  passive="#PRS10102Webeha"/>
+
             </listRelation>
          </listPerson>
-         
+
          <listBibl type="editions">
             <bibl>
                <ptr target="bm:Blundell1922Chronicle"/>
             </bibl>
          </listBibl>
-         
+
          <listBibl type="editions">
             <bibl>
                <ptr target="bm:Budge1966Ethistory"/>
-            </bibl>  
+            </bibl>
          </listBibl>
          <listBibl type="secondary">
-            <bibl> 
+            <bibl>
                <ptr target="bm:Smidt2014YohannesIII"/>
-            </bibl>  
+            </bibl>
          </listBibl>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-            
