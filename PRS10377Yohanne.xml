@@ -47,7 +47,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName> Yoḥannǝs III</persName>
                <persName xml:lang="gez" xml:id="n1" type="birthName">ዮሐንስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Yoḥannǝs III</persName>
                <persName><roleName type="title">aṣe</roleName></persName>
@@ -55,7 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <residence>Gondar</residence>
-               <birth>1797</birth>
+               <birth when="1797" evidence="internal">1797</birth>
                <floruit when="1840" evidence="internal">He was the last puppet King of Zamana
                      Masāfǝnt <date>29 August 1840</date> and he was deposed a year later because of
                   his support for daǧǧāzmāč <persName ref="PRS10102Webeha">Wǝbe Ḫayla
@@ -77,15 +76,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </listPerson>
 
          <listBibl type="editions">
+         
             <bibl>
                <ptr target="bm:Blundell1922Chronicle"/>
             </bibl>
-         </listBibl>
-
-         <listBibl type="editions">
+         
             <bibl>
                <ptr target="bm:Budge1966Ethistory"/>
             </bibl>
+         
          </listBibl>
          <listBibl type="secondary">
             <bibl>
