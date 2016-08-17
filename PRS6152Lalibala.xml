@@ -50,16 +50,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+         
                   <persName xml:lang="gez" xml:id="n1" type="birthName">ላሊበላ፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Lālibalā</persName>
                   <persName xml:lang="gez" xml:id="n2" type="regnalName">ገብረ፡ መስቀል፡</persName>
                   <persName xml:lang="gez" corresp="#n2" type="normalized">Gabra Masqal</persName>
                   <persName><roleName type="title">aṣe</roleName></persName>
-               </persName>
+         
                <occupation type="ruler"> a saint king</occupation>
                <birth>1160</birth>
-               <floruit when="1133" evidence="internal">He succeded his brother a saint King <persName corresp="PRS5111harbay" >Ḥarbay</persName>. 
+               <floruit when="1133" evidence="internal">He succeded his brother a saint King <persName ref="PRS5111harbay" >Ḥarbay</persName>. 
                   He was one of the best known Zagwe kings and one of the most famous Ethiopian rulers reputed as the builders of the roch hewn churches of Lalibelā town.
                </floruit>
                <death  when="1173" cert="low" evidence="internal">around 1173</death>
@@ -87,19 +87,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <bibl>
                <ptr target="bm:Basset1882Chronicle"/>
             </bibl>
-         </listBibl>
-         <listBibl type="editions">
+       
+   
             <bibl>
                <ptr target="bm:Perruchon1892Lalibela"/>
             </bibl>
-         </listBibl> 
+         </listBibl>
+    
          <listBibl type="secondary">
             <bibl> 
                <ptr target="bm:Derat2007Lalibala"/>
                
             </bibl>  
-         </listBibl>
-         <listBibl type="secondary">
+    
             <bibl> 
                <ptr target="bm:Sergew1972Ethiopianhistory"/>
                

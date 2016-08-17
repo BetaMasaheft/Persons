@@ -50,14 +50,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+           
                      <persName xml:lang="gez" xml:id="n1" type="birthName">ነአኵቶ፡ ለአብ፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Naʾakkwǝto Laʾab</persName>
                   <persName><roleName type="title">aṣe</roleName></persName>
-                  </persName>
+               
                   <occupation type="ruler">a saint king</occupation>
                   <birth>1203</birth>
-               <floruit when="1225" evidence="internal">He succeded his uncle  a saint King <persName corresp="#PRS6152Lalibala" >Lalibala</persName>. 
+               <floruit when="1225" evidence="internal">He succeded his uncle a saint King <persName ref="PRS6152Lalibala" >Lalibalā</persName>. 
                     </floruit>
                   <death  when="1250" cert="low" evidence="internal">around 1250</death>
             </person>
@@ -84,19 +84,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <bibl>
                <ptr target="bm:Basset1882Chronicle"/>
             </bibl>
-         </listBibl>
-         <listBibl type="editions">
+    
+         
             <bibl>
                <ptr target="bm:Perruchon1892Lalibela"/>
             </bibl>
          </listBibl> 
          <listBibl type="secondary">
             <bibl> 
-               <ptr target="bm:Derat2007Naakkwǝto Laab"/>
+               <ptr target="bm:Derat2007NaakkwetoLaab"/>
                
             </bibl>  
-         </listBibl>
-         <listBibl type="secondary">
+     
+        
             <bibl> 
                <ptr target="bm:Sergew1972Ethiopianhistory"/>
                </bibl>  

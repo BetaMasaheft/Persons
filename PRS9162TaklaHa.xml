@@ -52,10 +52,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>Takla Hymanot </persName>
-               <persName type="alt">Fǝśśǝḥa Ṣǝyon</persName>
-               
-                  <persName>Takla Hāymanot</persName>
+             
                   <persName xml:lang="gez" xml:id="n1" type="baptisalName">ፍሥሐ፡ ጽዮን፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Fǝśśǝḥa Ṣǝyon</persName>
                   <persName xml:lang="gez" xml:id="n2" type="monasticName">ተክለ፡ ሃይማኖት፡</persName>
@@ -66,7 +63,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <occupation type="ecclesiastic">saint </occupation>
-               <birth>1215, at  a place called <placeName ref="LOC5652Sella">Ṣǝllališ</placeName></birth>
+               <birth>1215, at  a place called <placeName ref="LOC5652Sellal">Ṣǝllališ</placeName></birth>
                <floruit >He was the most important religious figure in the medieval Ethiopia who is crdited with evangelizing the vast regions of central and southern Ethiopia. 
                   He was the founder of the monastery of <placeName ref="LOC2297DabraL">Dabra Libanos</placeName> at the begining of 14th century.
                </floruit>
@@ -76,7 +73,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listRelation>
                <relation name="bm:ordainedBy"
                   active="#PRS9162TaklaHa"
-                  passive="PRS8032Qerellos"
+                  passive="#PRS8032Qerellos"
                   ></relation>
                <relation name="snap:AllianceWith"
                   active="#PRS9162TaklaHa"
@@ -92,10 +89,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <bibl>
                <ptr target="bm:ContiRossini1896TaklaHaymanot"/>
             </bibl>
-         </listBibl>
-      
-         <listBibl type="editions">
-            <bibl>
+       <bibl>
                <ptr target="bm:Budge1906Taklahaymanot"/>
             </bibl>
          </listBibl>
@@ -103,9 +97,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <bibl> 
                <ptr target="bm:Nosnitsin2010TaklaHaymanot"/>
             </bibl>
-         </listBibl>
-         <listBibl type="secondary">
-            <bibl> 
+   <bibl> 
                <ptr target="bm:Taddesse1972Church"/>
             </bibl>  
          </listBibl>

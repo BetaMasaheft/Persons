@@ -52,10 +52,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               
-               <persName> Motalami</persName>
-       
-               <persName xml:lang="gez" xml:id="n1" type="birthName">ሞተለሚ፡</persName>
+              <persName xml:lang="gez" xml:id="n1" type="birthName">ሞተለሚ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Motalami</persName>
                <persName xml:lang="gez" xml:id="n2" type="birthName">ሞተሎሜ፡</persName>
                   <persName xml:lang="gez" corresp="#n2" type="normalized">Motalome</persName>
@@ -78,22 +75,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   ></relation>
               </listRelation>
          </listPerson>
+         
          <listBibl type="editions">
             <bibl>
                <ptr target="bm:ContiRossini1896TaklaHaymanot"/>
             </bibl>
-         </listBibl>
-         <listBibl type="editions">
+         
             <bibl>
                <ptr target="bm:Budge1906Taklahaymanot"/>
             </bibl>
          </listBibl>
+         
+         
          <listBibl type="secondary">
             <bibl> 
                <ptr target="bm:Nosnitsin2007Motalami"/>
             </bibl>
-         </listBibl>
-         <listBibl type="secondary">
             <bibl> 
                <ptr target="bm:Taddesse1972Church"/>
             </bibl>  
