@@ -52,18 +52,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                
-               <persName>
+               
                  <persName xml:lang="gez" xml:id="n1" type="birthName">አበጋዝ፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Abagāz</persName>
-                  <persName><roleName type="title"> abetohun</roleName></persName>
-               </persName>
-               <occupation type="ecclesiastic">abetohun</occupation>
+               <persName><roleName type="title">ʾabetohun</roleName></persName>
+               
+               <occupation type="ecclesiastic">ʾabetohun</occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <birth></birth>
-               <residence> Mvḥdara Māryam</residence>
-               <floruit >He was a learned schoalr and a scribe for the compilation of royal chronicles commisioned by daǧǧāzmāč <persName ref="PRS5222haylaMi">Ḫayla Mikaʾel Ǝšäte (Ḫaylu Ǝšäte)</persName> in<date> 1785</date> 
-                  at the monastrey of Māḥdara Māryām, where he found asylum.  
+               <residence ref="LOC4432Mahdar"> Maḥdara Māryām</residence>
+               <floruit >He was a learned schoalr and a scribe for the compilation of royal chronicles commisioned by daǧǧāzmāč <persName ref="PRS5222haylaMi">Ḫāyla Mikāʾel Ǝšate</persName> in<date> 1785</date> 
+                  at the monastery of <placeName ref="LOC4432Mahdar">Māḥdara Māryām</placeName>, where he found asylum.  
                </floruit>
                <death >1840s</death>
             </person>
