@@ -52,21 +52,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+
                <persName>Yoḥannǝs II</persName>
               <persName xml:lang="gez" xml:id="n1" type="birthName">ዮሐንስ፡</persName>
                    <persName xml:lang="gez" corresp="#n1" type="normalized">Yoḥannǝs II </persName>
-                  <persName><roleName type="title">aṣe</roleName></persName>
-             </persName>
+               <persName><roleName type="title">ʾaṣe</roleName></persName>
+             
                   <occupation type="ruler">Emperor</occupation>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   <residence>Gondar</residence>
-                  <birth>1697</birth>
+                  <birth when="1697">1697</birth>
                <floruit when="1769" evidence="internal">He  was one of the the short lived puppet kings installed by the ras <persName ref="#PRS7091Mikael">Mikāʾel Sǝḥul</persName> in <date> 1769</date>. 
                   He was one of the oldest monarch of Solomonic dynasty, he was 70 years old when entroned.
                      </floruit>
-                  <death when="1769" evidence="internal">15 October1769</death>
+                  <death when="1769" evidence="internal">15 October 1769</death>
             </person>
             <listRelation>
                <relation name="snap:SonOf" 
