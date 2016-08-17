@@ -50,15 +50,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-       <persName>
+   
                      <persName xml:lang="gez" xml:id="n1" type="birthName">ቴዎድሮስ፡</persName>
                      <persName xml:lang="gez" corresp="#n1" type="normalized">Tewodros I</persName>
                      <persName><roleName type="title">aṣe</roleName></persName>
                      <persName xml:lang="gez" xml:id="n2" type="regnalName">unknown</persName>
-                  </persName>
+          
                      <occupation type="ruler">Emperor</occupation>
                   <birth>unknown</birth>
-               <floruit when="1413" evidence="internal">He succeded his father King<persName corresp="PRS3429DawitII">Dawit</persName>in <date>1413</date>. He is represented as a mystic king in christian tradition.
+               <floruit when="1413" evidence="internal">He succeded his father King<persName ref="PRS3429DawitII"> Dawit </persName>in <date>1413</date>. 
+                  He is represented as a mystic king in christian tradition.
                </floruit>
                <death when="1414" evidence="internal">He was killed nine months after his acscension to the throne in a military camapaign against the Adal sultanate</death>
             </person>  
@@ -80,7 +81,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </listBibl>
          <listBibl type="secondary">
             <bibl> 
-               <ptr target="bm:Derat2010Tewodros"/>
+               <ptr target="bm:Derat2010TewodrosI"/>
             </bibl>  
          </listBibl>
          </body>

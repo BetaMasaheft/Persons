@@ -50,19 +50,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="2">
- <persName>
+
                      <persName xml:lang="gez" xml:id="n1" type="birthName">እሌኒ፡</persName>
                      <persName xml:lang="gez" corresp="#n1" type="normalized">Ǝleni</persName>
                      <persName xml:lang="gez" xml:id="n2" type="royalname">አድማስ፡ ሞገሳ፡</persName>
                      <persName xml:lang="gez" corresp="#n2" type="normalized">Admās Mogasā</persName>
     <persName><roleName type="title">nǝgst</roleName></persName>
-                  </persName>
+   
                   <occupation type="political">queen</occupation>
                <birth>1431</birth>
-                     <floruit when="1443" evidence="internal">She was given in marriage to King<persName corresp="PRS10626ZaraY">Zarʾa Yāʿǝqob</persName> to confirm the vassalage of muslim state of Hadiyya and its ruler. 
-                     She was an important female Ethiopian ruler of the early medieval period. She served four subsequent reigns and she was aceptable figure in the court to be selected in<date>1508</date>as a regent to young  King<persName corresp= "PRS6229LebnaDe">Lǝbna Dǝngǝl</persName>
+                     <floruit when="1443" evidence="internal">She was given in marriage to King<persName ref="PRS10626ZaraY">Zarʾa Yāʿǝqob</persName> to confirm the vassalage of muslim state of Hadiyya and its ruler. 
+                     She was an important female Ethiopian ruler of the early medieval period. She served four subsequent reigns and she was aceptable figure in the court to be selected in<date>1508</date>as a regent to young  King<persName ref= "PRS6229LebnaDe">Lǝbna Dǝngǝl</persName>
                      </floruit>
-               <death when="1522" evidence="internal">She died during the reign of King <persName corresp= "PRS6229LebnaDe">Lǝbna Dǝngǝl</persName></death> 
+               <death when="1522" evidence="internal">She died during the reign of King <persName ref= "PRS6229LebnaDe">Lǝbna Dǝngǝl</persName></death> 
              </person>
             <listRelation>
                <relation name="bm:wifeOf" 

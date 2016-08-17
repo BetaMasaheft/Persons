@@ -51,23 +51,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                
-               <persName>
-                  <persName>
+    
                     
                      <persName xml:lang="gez" xml:id="n1" type="birthName">ዓምደ፡ ጽዮን፡</persName>
                      <persName xml:lang="gez" corresp="#n1" type="normalized">ʿAmda Ṣǝyon I</persName>
                      <persName xml:lang="en" corresp="#n1" type="normalized">Pillar of Zion</persName>
                      <persName><roleName type="title">aṣe</roleName></persName>
-                  </persName>
+               
                      <persName xml:lang="gez" xml:id="n2" type="regnalName">ገብረ፡ መስቀል፡</persName>
                   <persName xml:lang="gez" corresp="#n2" type="normalized">Gabra Masqal</persName>
                   <persName xml:lang="en" corresp="#n2" type="normalized">Servant of the Cross</persName>
-                  </persName>
+              
                  
                   <occupation type="ruler">Emperor</occupation>
                   
                   <birth>unknown</birth>
-               <floruit when="1314" evidence="internal">He succeded his father king<persName corresp="PRS10111WedemR">Wǝdǝm Räʿad</persName> in <date>1314</date>. He led several military campaigns to expand the territory of the christian kingdom but his largest camapign to Ifat in <date>1332</date> is well recorded in his chronicle.
+               <floruit when="1314" evidence="internal">He succeded his father king<persName ref="PRS10111WedemR">Wǝdǝm Räʿad</persName> in <date>1314</date>.
+                  He led several military campaigns to expand the territory of the christian kingdom but his largest camapign to Ifat in <date>1332</date> is well recorded in his chronicle.
           </floruit>
                   <death when="1344" evidence="internal">1344</death>
             </person>
@@ -95,12 +95,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <ptr target="bm:Kropp1994AmdeṢeyon"/>
               
             </bibl>
-           
-  </listBibl>
-         <listBibl type="editions">
+        
+      
          
          
-   <bibl>
+               <bibl>
                      <ptr target="bm:Marrassini1993AmdeṢeyon"/>
                      
             </bibl>

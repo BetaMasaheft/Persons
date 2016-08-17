@@ -43,18 +43,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
-         <change who="ES" when="2016-07-25">Complete record</change>
+         <change who="SG" when="2016-07-25">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+           
                   <persName xml:lang="gez" xml:id="n1" type="birthName">ጊዮርጊስ፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Giyorgis Saglā, Giyorgis of Gasǝḉḉa</persName>
                      <persName><roleName type="title">abba</roleName></persName>
-                  </persName>
+          
               <occupation type="ecclesiastic">writer</occupation>
                <birth>unknown</birth>
                <floruit when="1424" evidence="internal">He wrote his principal work, Maṣḥafa Mǝśṭir in <date>1424</date> . He was a tutor of emperors sons and their companion. He was educated in the monastery of Dabra Ḥayq Ǝsṭifanos
@@ -113,8 +113,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <bibl> 
                            <ptr target="bm:Colin2005GiyorgisSagla"/>
                         </bibl>  
-                     </listBibl>
-                  <listBibl type="secondary">
+                    
+              
                      <bibl> 
                         <ptr target="bm:Bausi2007MaṣḥafaMǝśṭir"/>
                      </bibl>  

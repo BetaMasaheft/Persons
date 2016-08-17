@@ -50,20 +50,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+             
                   <persName xml:lang="gez" xml:id="n1" type="birthName">አቡልፋትሕ፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Abū l-Fatḥ</persName>
                   <persName xml:lang="gez" xml:id="n2" type="baptisalName">እንባቆም፡</persName>
                   <persName xml:lang="gez" corresp="#n2" type="normalized">ʿƎnbaqom</persName>
                   
                   <persName><roleName type="title">ǝḉḉage</roleName></persName>
-               </persName>
+          
            <occupation type="ecclesiastic">ruler</occupation>
                <birth>1470</birth>
                <residence>He was born in Yemen</residence>
-               <floruit when="1489" evidence="internal">He arrived in Ethiopia in <date>1489</date> during the reign of King<persName corresp="PRS3874eskender">Ǝskǝndǝr</persName>. He was baptized by abuna <persName corresp="PRS7825Petros" >Ṗeṭros </persName>. ʿƎnbaqom contribution to Ethiopic lietrature was remarkable. 
+               <floruit when="1489" evidence="internal">He arrived in Ethiopia in <date>1489</date> during the reign of King<persName ref="PRS3874eskender">Ǝskǝndǝr</persName>. He was baptized by abuna <persName ref="PRS7825Petros" >Ṗeṭros </persName>. ʿƎnbaqom contribution to Ethiopic lietrature was remarkable. 
                </floruit>
-               <death when="1563" evidence="internal">He died during the reign of King<persName corresp="PRS7102Minas">Minas</persName></death>
+               <death when="1563" evidence="internal">He died during the reign of King<persName ref="PRS7102Minas">Minas</persName></death>
             </person>
                <listRelation>
                   <relation name="snap:AllianceWith"
@@ -115,8 +115,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <bibl>
                <ptr target="bm:Ricci1969Ǝnbaqom"/>
             </bibl>
-         </listBibl>
-         <listBibl type="editions">
+        
+        
             <bibl>
                <ptr target="bm:Ricci1954Ǝnbaqom"/>
             </bibl>

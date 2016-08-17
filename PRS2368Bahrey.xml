@@ -50,15 +50,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+            
                   <persName xml:lang="gez" xml:id="n1" type="birthName">ባህርይ፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Baḥrǝy</persName>
          <persName><roleName type="title">abba</roleName></persName>
-               </persName>
+          
                <occupation type="ecclesiastic">writer, historian, ethnographer</occupation>
                <birth></birth>
                <residence>He was in Gamo monastery before he was driven by the Oromo incursion</residence>
-               <floruit when="1593" evidence="internal">He wrote the book Zenahu lagalla, in <date>1593</date> . 
+               <floruit when="1593" evidence="internal">He wrote the book Zenahu lagalla in <date>1593</date> . 
                </floruit>
                <death ></death>
                
@@ -70,7 +70,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   ></relation>
                <relation name="saws:isAttributedAuthorOf"
                   active="#PRS2368Bahrey"
-                  passive="LIT2629Zenahu"
+                  passive="#LIT2629Zenahu"
                   ></relation>
                <relation name="saws:isAttributedAuthorOf"
                   active="#PRS2368Bahrey"
@@ -87,11 +87,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <bibl> 
                <ptr target="bm:Baxter2003Baḥrǝy"/>
             </bibl> 
-            <listBibl type="secondary">
+          
                <bibl> 
                   <ptr target="bm:Getachew2014ZenahuLagalla"/>
                </bibl>  
-            </listBibl>
+           
          </listBibl>
       </body>
    </text>

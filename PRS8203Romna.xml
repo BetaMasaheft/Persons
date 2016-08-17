@@ -50,14 +50,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="2">
-               <persName>
+       
                      <persName xml:lang="gez" xml:id="n1" type="birthName">ሮምና</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Romna</persName>
                   <persName><roleName type="title">ǝmmäbet</roleName></persName>
-                  </persName>
+              
                <occupation type="ruler">queen </occupation>
                <birth>1471</birth>
-               <floruit when="1478" evidence="internal">She assumed  a regency to her son and young King<persName corresp="PRS3874eskender">Ǝskǝndǝr</persName>in<date>1494</date>. She developed a close relationship with the monastery of Dabra Libanos
+               <floruit when="1478" evidence="internal">She assumed  a regency to her son and young King<persName ref="PRS3874eskender">Ǝskǝndǝr</persName>in<date>1494</date>. She developed a close relationship with the monastery of Dabra Libanos
                </floruit>
                <death>unknown</death>
             </person>
@@ -80,10 +80,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <bibl>
                <ptr target="bm:Kur1972MarḥaKrestos"/>
             </bibl>
-         </listBibl>
-         <listBibl type="editions">
+       
+     
             <bibl>
-               <ptr target="bm:Perruchon1894Ǝskǝndǝr"/>
+               <ptr target="bm:Perruchon1894EskEnder"/>
             </bibl>
          </listBibl> 
          <listBibl type="secondary">

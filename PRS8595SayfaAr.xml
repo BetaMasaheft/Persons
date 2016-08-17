@@ -50,7 +50,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+             
                   <persName xml:lang="gez" xml:id="n1" type="birthName">ሰይፈ፡ አርዐድ፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Sayfa Arʿad</persName>
                   <persName><roleName type="title">aṣe</roleName></persName>
@@ -58,12 +58,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <persName xml:lang="gez" corresp="n2.1" type="normalized">Nǝwaya Krǝstos</persName>
                   <persName xml:lang="gez" xml:id="n2.2" type="regnalName">ቈስጠንጢኖስ</persName>
                   <persName xml:lang="gez" corresp="n2.2" type="normalized"> Qwäsṭanṭinos</persName>
-               </persName>
+            
                   <occupation type="ruler">Emperor</occupation>
                
                <birth>unknown</birth> 
                
-               <floruit when="1344" evidence="internal">He succeded his father King<persName corresp="PRS1854Amdase">ʿAmda Ṣǝyon</persName> in <date> 1344</date>. 
+               <floruit when="1344" evidence="internal">He succeded his father King<persName ref="PRS1854Amdase">ʿAmda Ṣǝyon</persName> in <date> 1344</date>. 
   </floruit>
                <death when="1371" evidence="internal">1371</death>
         </person>
@@ -86,7 +86,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </listBibl>
          <listBibl type="secondary">
             <bibl> 
-               <ptr target="bm:Derat2010SayfaArʿad"/>
+               <ptr target="bm:Derat2010SayfaAread"/>
             </bibl>  
          </listBibl>
         </body>

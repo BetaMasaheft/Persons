@@ -50,7 +50,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+             
                   <persName xml:lang="gez" xml:id="n1" type="birthName">ይኩኖ፡ አምላክ፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Yǝkunno Amlāk</persName>
                   <persName xml:lang="en" corresp="#n1" type="normalized">There shall be to him sovereignty</persName>
@@ -59,14 +59,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                   <persName><roleName type="title">aṣe</roleName></persName>
                   
-               </persName>
+         
                <occupation type="ruler">Emperor</occupation>
                   
    
                <birth>unknown</birth>
                
                <floruit when="1270" evidence="internal">He became the first king of Solomonic dynasty <date>1270</date>.
-                  He was supported by the two important religious figures of 13th cnetury  <persName corresp="PRS5631IyasusM" >Iyasus Moʾa</persName> and <persName corresp="PRS9155TaklaHa" >Takla Haymanot</persName> to establish the new dynasty, "Solomonic dynasty" </floruit>
+                  He was supported by the two important religious figures of 13th cnetury  <persName ref="PRS5631IyasusM" > Iyasus Moʾa </persName> and <persName ref="PRS9155TaklaHa" >
+                     Takla Haymanot</persName> to establish the new dynasty, "Solomonic dynasty" </floruit>
                <death when="1285" evidence="internal">1632</death>
             </person>
                <listRelation>
@@ -100,11 +101,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </bibl>
             
          </listBibl>
-         
-       
-         <listBibl type="secondary">
+      <listBibl type="secondary">
             <bibl> 
-               <ptr target="bm:Nosnitsin2014YekunoAmlak"/>
+               <ptr target="bm:NosnitsinundDerat2014YekunoAmlak"/>
             </bibl>  
          </listBibl>  
          

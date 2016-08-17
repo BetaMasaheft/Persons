@@ -50,19 +50,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+           
                   <persName xml:lang="gez" xml:id="n1" type="birthName">ሀድገ፡ አንበሳ፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Hadga Anbasā</persName>
                   <persName xml:lang="gez" xml:id="n2" type="baptisalName">እስጢፋኖስ፡</persName>
                   <persName xml:lang="gez" corresp="#n2" type="normalized">Ǝsṭifānos</persName>
                   <persName><roleName type="title">abba</roleName></persName>
-               </persName>
+     
                   <occupation type="ecclesiastic">saint</occupation>
                   <birth>1397/98</birth>
                <residence>He was born in ʾAgama, Tǝgray</residence>
-               <floruit when="1416" evidence="internal">He was ordained deacon by abuna<persName corresp= "PRS2469Bartalom">Bartalomewos</persName>. He established a new monastic commiunity in <date>1428/29</date>
+               <floruit when="1416" evidence="internal">He was ordained deacon by abuna<persName ref= "PRS2469Bartalom">Bartalomewos</persName>. He established a new monastic commiunity in <date>1428/29</date>
                      </floruit>
-               <death when="1444" evidence="internal">He was tortured, flogged and imprisoned by the order of the King<persName corresp="PRS10626ZaraY">Zarʾa Yāʿǝqob</persName> and finally he died. </death>
+               <death when="1444" evidence="internal">He was tortured, flogged and imprisoned by the order of the King<persName ref="PRS10626ZaraY">Zarʾa Yāʿǝqob</persName> and finally he died. </death>
             </person>
             <listRelation>
                <relation name="snap:AllianceWith"
@@ -81,23 +81,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </listPerson>
          <listBibl type="editions">
             <bibl>
-               <ptr target="bm:Getachew2006Ǝsṭifanos"/>
+               <ptr target="bm:Getachew2006Estifanos"/>
             </bibl>
-         </listBibl>
-         <listBibl type="editions">
+    
+         
             <bibl>
-               <ptr target="bm:Getachew2004Ǝsṭifanos:"/>
+               <ptr target="bm:Getachew2004Estifanos"/>
             </bibl>
          </listBibl> 
          <listBibl type="secondary">
-            <bibl> 
-               <ptr target="bm:Getachew2011Ǝsṭifanos"/>
-            </bibl> 
-            <listBibl type="secondary">
+           
+     
                <bibl> 
                   <ptr target="bm:Kaplanundnosnistin2005Ǝsṭifanos"/>
                </bibl>  
-            </listBibl>
+        
          </listBibl>
       </body>
    </text>
