@@ -60,12 +60,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <occupation type="ecclesiastic">ʾabetohun</occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
-               <birth></birth>
+               <birth notBefore="1740"/>
                <residence ref="LOC4432Mahdar"> Maḥdara Māryām</residence>
-               <floruit >He was a learned schoalr and a scribe for the compilation of royal chronicles commisioned by daǧǧāzmāč <persName ref="PRS5222haylaMi">Ḫāyla Mikāʾel Ǝšate</persName> in<date> 1785</date> 
+               <floruit  when="1785">He was a learned schoalr and a scribe for the compilation of royal chronicles commisioned by daǧǧāzmāč <persName ref="PRS5222haylaMi">Ḫāyla Mikāʾel Ǝšate</persName> in<date>1785</date> 
                   at the monastery of <placeName ref="LOC4432Mahdar">Māḥdara Māryām</placeName>, where he found asylum.  
                </floruit>
-               <death >1840s</death>
+               <death notBefore="1840" notAfter="1850">1840s</death>
             </person>
             <listRelation>
                <relation name="snap:AllianceWith"
