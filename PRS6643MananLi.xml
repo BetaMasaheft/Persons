@@ -56,16 +56,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
              <persName xml:lang="gez" xml:id="n1" type="birthName"> መነን፡ ሊበን፡ አመዴ፡ </persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized"> Manan Liban Amade </persName>
                <persName><roleName type="title">ǝtege </roleName></persName>
-                <occupation type="ruler"> queen </occupation>
+                <occupation type="ruler">empress</occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
-               <residence> Dabra Tābor </residence>
+               <residence> <placeName ref="LOC2384DabraT"> DabraTābor </placeName></residence>
                <birth></birth>
-               <floruit when="1831" evidence="internal"> She was a major political fiugure in central Ethiopia of the 19th century. In <date> 1831 </date> 
-                  she became a regent to her young son  <persName ref="PRS1688AliAlul"> Ali Alula </persName> to rule the Yaǧǧu Warrasek dominion.
+               <floruit when="1831" evidence="internal"> She was a major political figure in central Ethiopia of the 19th century. In <date> 1831 </date> 
+                  she became a regent to her young son  <persName ref="PRS1688AliAlul"> Ali Alula </persName> to rule the Yaǧǧu Warrasek dominion. 
                 
                </floruit>
-               <death when="1873" evidence="internal"></death>
+               <death></death>
             </person>
             <listRelation>
                <relation name="snap:MotherOf" 
@@ -76,13 +76,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   active="#PRS6643MananLi"
                   passive="#PRS6292LibanAm"
                   ></relation>
+          
                <relation name="bm:wifeOf"
                   active="#PRS6643MananLi"
                   passive="#PRS1774Alula"
                   ></relation>
-            
-               
-            </listRelation>
+           
+        </listRelation>
          </listPerson>
          
         <listBibl type="editions">
@@ -91,7 +91,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </bibl>
             
             <bibl>
-               <ptr target="bm:Budge1966Ethistory"/>
+               <ptr target="bm:Abir1970Princes"/>
             </bibl>  
          </listBibl>
           <listBibl type="secondary">
