@@ -10,7 +10,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mänän Libän Amäde</title>
+            <title>Manan Liban Amade</title>
+            <editor key="SG"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +45,65 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-08-16">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="2">
-               <persName>
-                  
-                  Mänän Libän Amäde
-               </persName>
-               <occupation> ǝtege </occupation>
+               
+             <persName xml:lang="gez" xml:id="n1" type="birthName"> መነን፡ ሊበን፡ አመዴ፡ </persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized"> Manan Liban Amade </persName>
+               <persName><roleName type="title">ǝtege </roleName></persName>
+                <occupation type="ruler"> queen </occupation>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <residence> Dabra Tābor </residence>
+               <birth></birth>
+               <floruit when="1831" evidence="internal"> She was a major political fiugure in central Ethiopia of the 19th century. In <date> 1831 </date> 
+                  she became a regent to her young son  <persName ref="PRS1688AliAlul"> Ali Alula </persName> to rule the Yaǧǧu Warrasek dominion.
+                
+               </floruit>
+               <death when="1873" evidence="internal"></death>
             </person>
+            <listRelation>
+               <relation name="snap:MotherOf" 
+                  active="#PRS6643MananLi"
+                  passive="#PRS1688AliAlul"
+                  ></relation>
+               <relation name="snap:DaughterOf"
+                  active="#PRS6643MananLi"
+                  passive="#PRS6292LibanAm"
+                  ></relation>
+               <relation name="bm:wifeOf"
+                  active="#PRS6643MananLi"
+                  passive="#PRS1774Alula"
+                  ></relation>
+            
+               
+            </listRelation>
          </listPerson>
+         
+        <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Blundell1922Chronicle"/>
+            </bibl>
+            
+            <bibl>
+               <ptr target="bm:Budge1966Ethistory"/>
+            </bibl>  
+         </listBibl>
+          <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Crummey2007Manan"/>
+            </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+                  
+                  
