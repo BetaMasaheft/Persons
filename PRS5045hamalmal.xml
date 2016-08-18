@@ -51,7 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="2">
-               <persName>
+          
                   <persName xml:lang="gez" xml:id="n1" type="birthName">ሐመልማል፡ ወርቅ፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Ḥamalmāl Warq</persName>
                   <persName xml:lang="gez" xml:id="n2" type="birthName">ድንግል፡ ሞገሳ፡</persName>
@@ -59,11 +59,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <persName xml:lang="gez" corresp="n3" type="birthName">the Jesuit sources call her Amelmal</persName>
                   
                   <persName><roleName type="title">ite </roleName></persName>
-               </persName>
+        
                <occupation type="political">queen</occupation>
                
                <birth></birth>
-               <floruit when="1605" evidence="internal">She was active political figure and she mediated  between King<persName corresp="PRS9038Susenyos">Susǝnyos</persName>and King<persName corresp="PRS10198Yaeqob">Yāǝqob</persName>in<date>1605</date>.
+               <floruit when="1605" evidence="internal">She was active political figure and she mediated  between King
+                  <persName ref="PRS9038Susenyos">Susǝnyos</persName> and King <persName ref="PRS10198Yaeqob">Yāǝqob </persName>in<date>1605</date>.
                </floruit>
                <death when="1616" evidence="internal">1616</death> 
                
@@ -90,8 +91,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <ptr target="bm:Pereira1892Susenyos"/>
             </bibl>
             
-         </listBibl>
-         <listBibl type="editions">
             <bibl>
                <ptr target="bm:Pereira1900Susenyos"/>
             </bibl>
@@ -99,7 +98,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </listBibl>
          <listBibl type="secondary">
             <bibl> 
-               <ptr target="bm:Martínez d'Alòs-Moner2014HamalmalWarq"/>
+               <ptr target="bm:MartinezdAlos-Moner2014HamalmalWarq"/>
             </bibl>  
          </listBibl>
          
