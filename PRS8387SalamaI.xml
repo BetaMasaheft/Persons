@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Sälama II “The Translator”</title>
+            <title>Salāmā II “The Translator”</title>
+            <editor key="SG"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,21 +46,103 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-08-18">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Sälama II “The Translator”
-               </persName>
-               <persName type="alt">Sälama Mätärgwǝm</persName>
-               <occupation> St.</occupation>
-               <occupation> metr. </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ሰላማ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized"> Salāmā II</persName>
+               <persName xml:lang="gez" xml:id="n2.1" type="nickName">ሰላማ፡ መተርጕም፡</persName>
+               <persName xml:lang="gez" corresp="#n2.2" type="normalized">Salāmā Matargwǝm </persName>
+               <persName xml:lang="en"  corresp="#n2.3" type="normalized">Salāmā the Translator</persName>
+               <persName xml:lang="gez" xml:id="n4.1" type="nickName">ብርሃነ፡ አዜብ፡</persName>
+               <persName xml:lang="gez" corresp="#n4.2" type="normalized">Bǝrhāna ʿAzeb</persName>
+               <persName xml:lang="en"  corresp="#4.3" type="normalized">the light of the South</persName>
+               <persName><roleName type="title">abbā</roleName></persName>
+               <occupation type="ecclesiastic"> religious father</occupation>
+               
+               <nationality type="Egypt"/>
+               <faith type="EOTC"/>
+               <birth></birth>
+               <residence>He was born in Egypt</residence>
+               <floruit when="1348" evidence="internal">He succeded abuna <persName ref="PRS10200Yaeqob">Yāʿǝqob</persName><date>1348</date> who had been expelled 
+                  by King <persName ref="PRS8595SayfaAr">Sayfa Arʿad</persName>in<date>1344</date>. He was an important metropolitan for the development of Gǝʿǝz lietrature, 
+                  who translated hagiographies, homiles and other works from Egyptian Arabic into Gǝʿǝz . Apart his translation works, he is also credited with one original writing <title ref="LIT1644Homily"> Homily on the Deceased</title>
+               </floruit>
+               <death ></death>
             </person>
+            <listRelation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="#PRS8387SalamaI"
+                  passive="#LIT1462GadlaH"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="#PRS8387SalamaI"
+                  passive="LIT1010Abuqer"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="#PRS8387SalamaI"
+                  passive="#LIT2386Taamme"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="#PRS8387SalamaI"
+                  passive="#LIT2595Yestos"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="#PRS8387SalamaI"
+                  passive="#LIT1405GadlaA"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="#PRS8387SalamaI"
+                  passive="#LIT1628Homily"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="#PRS8387SalamaI"
+                  passive="#LIT1544Gebrah"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="#PRS8387SalamaI"
+                  passive="#LIT1399Filkes"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="#PRS8387SalamaI"
+                  passive="#LIT1790Letter"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="#PRS8387SalamaI"
+                  passive="#LIT1412GadlaA"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="#PRS8387SalamaI"
+                  passive="#LIT1517GadlaY"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="#PRS8387SalamaI"
+                  passive="#LIT3530OldTes"
+                  ></relation>
+               <relation name= "snap:AllianceWith"
+                  active="#PRS8387SalamaI"
+                  passive="#PRS4104Fileppos"
+                  ></relation>
+               
+             </listRelation>
          </listPerson>
+        <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Marrassini2010Salama"/>
+            </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+               
+        
