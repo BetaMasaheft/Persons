@@ -11,6 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Elsaʿ (Elisha)</title>
+            <editor key="SG"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +45,53 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-08-19">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+         <persName xml:lang="gez" xml:id="n1" type="birthName">ኤልሳዕ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Elsāʿ</persName>
+                  <persName><roleName type="title">ǝḉḉage</roleName></persName>
+                  <occupation type="ecclesiastic"> religious father</occupation>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+               <birth></birth>
+               <residence><placeName ref="LOC2297DabraL">Dabra Libānos</placeName></residence>
+               <floruit when="1313" evidence="internal">He was the second abbots of <placeName ref="LOC2297DabraL">Dabra Libānos</placeName>
+                  who succeded the most celebrated saint <persName ref="PRS9152TaklaHa">Takla Hāymānot I </persName> in <date>1313</date>. 
+                  He held the office only for three months before his death. He was succeded by abuna <persName ref="PRS4104Fileppos">Filǝṗṗos</persName>  the third, abbot of 
+                  <placeName ref="LOC2297DabraL">Dabra Libānos</placeName>
                   
-                  Elsaʿ (Elisha)
-               </persName>
-               <occupation> abba </occupation>
+               </floruit>
+               <death >1314</death>
             </person>
+            <listRelation>
+               
+               <relation name= "snap:AllianceWith"
+                  active="#PRS3742ElsaE"
+                  passive="#PRS9152TaklaHa"
+                  ></relation>
+            </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Turaev1908Fellipos"/>
+            </bibl>
+         </listBibl>
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Cerulli1943AbbotsDL"/>
+               <biblScope unit="page">232-233</biblScope>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Nosnitsin2005Elsa"/>
+            </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
