@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Yoḥannǝs Käma</title>
+            <title>Yoḥannǝs Kamā</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +44,53 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-08-22">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Yoḥannǝs Käma
-               </persName>
-               <occupation> ǝḉḉ. </occupation>
+  <persName xml:lang="gez" xml:id="n1" type="birthName">ዮሐንስ፡ ከማ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Yoḥannǝs Kamā</persName>
+                  <persName><roleName type="title">ǝḉḉage</roleName></persName>
+                  <occupation type="ecclesiastic"> religious father</occupation>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <birth></birth>
+                  <residence><placeName ref="LOC2297DabraL">Dabra Libānos</placeName></residence>
+               <floruit>He was the the seventh heads  of the monastery of <placeName ref="LOC2297DabraL">Dabra Libānos</placeName>
+                  who succeded his predecessor abuna <persName ref="PRS10421Yohanne">Yoḥannǝs Sǝwwur </persName> and a contemporary of King <persName ref="PRS10342Yeshaq">
+                     Yǝsḥaq</persName>. His tenure was remarkable for the development of the monastery of <placeName ref="LOC2297DabraL">Dabra Libānos</placeName> and its lietrature.
+               </floruit>
+               <death ></death>
             </person>
+            <listRelation>
+               <relation name= "snap:AllianceWith"
+                  active="#PRS10408Yohanne"
+                  passive="#PRS10342Yeshaq"
+                  ></relation>
+              
+              
+            </listRelation>
          </listPerson>
+     
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Cerulli1943AbbotsDL"/>
+               <biblScope unit="page">141-143</biblScope>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Ancel2014YohannesKama"/>
+            </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+                  
+            
