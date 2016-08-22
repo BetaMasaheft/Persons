@@ -10,7 +10,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ǝndrǝyas</title>
+            <title>ʿƎndrǝyās</title>
+            <editor key="SG"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +45,50 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-08-22">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Ǝndrǝyas
-               </persName>
-               <occupation> ǝḉḉ. </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">እንድርያስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʿƎndrǝyās</persName>
+               <persName><roleName type="title">ʿǝḉḉage</roleName></persName>
+               <occupation type="ecclesiastic"> religious father</occupation>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <birth></birth>
+               <residence><placeName ref="LOC2297DabraL">Dabra Libānos</placeName></residence>
+               <floruit>He was the the eight heads  of the monastery of <placeName ref="LOC2297DabraL">Dabra Libānos </placeName>who succeded his predecessor abuna 
+                  <persName ref="PRS10408Yohanne"> Yoḥannǝs Kamā </persName> and a contemporary of King <persName ref="PRS10626ZaraY">
+                     Zarʾa Yāʿǝqob</persName>.  </floruit>
+               <death >1462</death>
             </person>
+            <listRelation>
+               <relation name= "rel:enemyOf"
+                  active="#PRS3791endreyas"
+                  passive="#PRS10626ZaraY"
+                  ></relation>
+            </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Cerulli1943AbbotsDL"/>
+               <biblScope unit="page">143-145</biblScope>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Nosnitsin2005Ǝndrǝyas"/>
+            </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+               
+               
