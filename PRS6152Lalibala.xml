@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Lalibala</title>
+            <title>Lālibalā</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -55,12 +55,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Lālibalā</persName>
                   <persName xml:lang="gez" xml:id="n2" type="regnalName">ገብረ፡ መስቀል፡</persName>
                   <persName xml:lang="gez" corresp="#n2" type="normalized">Gabra Masqal</persName>
-                  <persName><roleName type="title">aṣe</roleName></persName>
+               <persName><roleName type="title">ʾaṣe</roleName></persName>
          
                <occupation type="ruler"> a saint king</occupation>
                <birth>1160</birth>
-               <floruit when="1133" evidence="internal">He succeded his brother a saint King <persName ref="PRS5111harbay" >Ḥarbay</persName>. 
-                  He was one of the best known Zagwe kings and one of the most famous Ethiopian rulers reputed as the builders of the roch hewn churches of Lalibelā town.
+               <floruit when="1133" evidence="internal">He succeded his brother a saint King <persName ref="PRS5111harbay" >Ḥarbāy</persName>. 
+                  He was one of the best known Zagwe kings and one of the most famous Ethiopian rulers reputed as the builders of the
+                  rock hewn churches of <placeName ref="LOC4244Laliba" >Lalibelā</placeName> town.
                </floruit>
                <death  when="1173" cert="low" evidence="internal">around 1173</death>
             </person>
@@ -78,7 +79,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   passive="#PRS5111harbay" 
                   ></relation>
                <relation name="saws:P129i_is_subject_of" 
-                  active=" #PRS6152Lalibala"
+                  active="#PRS6152Lalibala"
                   passive="#LIT1470GadlaL"
                   ></relation>
                </listRelation>

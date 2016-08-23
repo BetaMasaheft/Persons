@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Naʿod (Anbasa Baḍar)</title>
+            <title>Nāʿod (ʾAnbasā Baḍar)</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -53,17 +53,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
              
                   
                            <persName xml:lang="gez" xml:id="n1" type="birthName">ናዖድ፡</persName>
-                           <persName xml:lang="gez" corresp="#n1" type="normalized">Naʿod</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Nāʿod</persName>
                            <persName xml:lang="gez" xml:id="n2" type="regnalName">አንበሳ፡ በፀር፡</persName>
-                           <persName xml:lang="gez" corresp="#n2" type="normalized">Anbasā Baḍär</persName>
-                           <persName><roleName type="title">aṣe</roleName></persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAnbasā Baḍar</persName>
+               <persName><roleName type="title">ʾaṣe</roleName></persName>
                  
                         <occupation type="ruler">Emperor</occupation>
                         <birth>unknown</birth>
                         
-               <floruit when="1494" evidence="internal">He succeded his brother King<persName ref="PRS3874eskender" >Ǝskǝndǝr</persName>in<date>1494</date>.
+               <floruit when="1494" evidence="internal">He succeded his brother King<persName ref="PRS3874eskender" >ʾƎskǝndǝr</persName>in<date>1494</date>.
                         </floruit>
-               <death when="1508" evidence="internal">He died in Naḥase 1508 during a military expedition against Muslims  in Ifat</death>
+               <death when="1508" evidence="internal">He died in Naḥase 1508 during a military expedition against 
+                  Muslims  in Ifāt<placeName ref="LOC3921Ifat" >Ifāt</placeName>in<date>1494</date></death>
                      </person>
                      <listRelation>
                         <relation name="snap:SonOf" 
