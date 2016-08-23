@@ -56,18 +56,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
              
                   <persName xml:lang="gez" xml:id="n1" type="birthName">ተክለ፡ ሃይማኖት፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Takla Hāymānot I</persName>
-               <persName><roleName type="title">aṣe</roleName></persName>
+               <persName><roleName type="title">ʾaṣe </roleName></persName>
                   <persName xml:lang="gez" xml:id="n2" type="regnalName">ልዑል፡ሰገድ፡</persName>
-                  <persName xml:lang="gez" corresp="#n2" type="normalized">Lǝʿul Sägäd</persName>
+                  <persName xml:lang="gez" corresp="#n2" type="normalized">Lǝʿul Sagad</persName>
                <occupation type="ruler">Emperor</occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
-               <residence>Gondar</residence>
+               <residence><placeName ref="LOC3577Gondar"> Gondar</placeName></residence>
                <birth></birth>
-               <floruit when="1706" evidence="internal">He succeded his father King<persName ref="PRS5616IyasuI">Iyāsu</persName> in <date> 1706</date>.
-                  He was the eldest son of King Iyāsu the great. He was known as ǝrgum, "damned" in the royal histriography because his father was killed by his order.
+               <floruit when="1706" evidence="internal">He succeded his father King <persName ref="PRS5616IyasuI">Iyāsu</persName> in <date> 1706</date>.
+                  He was known as ʾǝrgum, "damned" in the royal histriography because his father was killed by his order.
                </floruit>
-               <death when="1708" evidence="internal">He was assasinated in Agaw Mǝdǝr in 1708</death>
+               <death when="1708" evidence="internal">He was assasinated in <placeName ref="LOC1241AgawMe">ʾAgaw Mǝdǝr </placeName>  in <date> 1708</date> </death>
             </person>
             <listRelation>
                <relation name="snap:SonOf" 

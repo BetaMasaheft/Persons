@@ -55,19 +55,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             
                <persName xml:lang="gez" xml:id="n1" type="birthName">ዮሐንስ፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Yoḥannǝs I </persName>
-               <persName><roleName type="title">aṣe</roleName></persName>
+               <persName><roleName type="title">ʾaṣe</roleName></persName>
                <persName xml:lang="gez" xml:id="n3" type="regnalName">አዕላፍ፡ ሰገድ፡</persName>
                   <persName xml:lang="gez" corresp="#n3" type="normalized">Aʾǝlāf Sagad</persName>
          
                <occupation type="ruler">Emperor</occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
-               <residence>Gondar</residence>
+               <residence><placeName ref="LOC3577Gondar"> Gondar</placeName></residence>
                <birth>1603</birth>
-               <floruit when="1667" evidence="internal">He succeded his father King <persName ref="PRS4013FasilGa">Fāsiladas</persName> in <date> 1667</date>. His reign was marked by religious strife and almost constant war fare.
-                  Indeed, he was devoted to religious deeds so that he was often called Ṣadqu, "the righteous".
+               <floruit when="1667" evidence="internal">He succeded his father King <persName ref="PRS4013FasilGa">Fāsiladas</persName> in <date> 1667</date>. 
+                  His reign was marked by religious strife and almost constant war fare.
+                  Indeed, he was devoted to religious deeds so that he was often called Ṣādqu, "the righteous".
                </floruit>
-               <death when="1682" evidence="internal"> 19 July 1682</death>
+               <death when="1682" evidence="internal"> in <date> 19 July 1682</date></death>
             </person>
             <listRelation>
                <relation name="snap:SonOf" 

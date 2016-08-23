@@ -57,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <persName xml:lang="gez" corresp="#n1" type="normalized">Fāsiladas</persName>
                      <persName xml:lang="gez" xml:id="n2" type="birthName">ፋሲል፡</persName>
                      <persName xml:lang="gez" corresp="#n2" type="normalized">Fāsil</persName>
-                     <persName><roleName type="title">aṣe</roleName></persName>
+               <persName><roleName type="title">ʾaṣe</roleName></persName>
                   <persName xml:lang="gez" xml:id="n3" type="regnalName">ስልጣን፡ ሰገድ፡</persName>
                   <persName xml:lang="gez" corresp="#n3" type="normalized">Sǝlṭān Sagad I</persName>
                      <persName xml:lang="gez" xml:id="n4" type="regnalName">ዓለም፡ ሰገድ፡</persName>
@@ -66,9 +66,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <occupation type="ruler">Emperor</occupation>
               <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
-          <residence>Gondar</residence>
+               <residence><placeName ref="LOC3577Gondar"> Gondar</placeName></residence>
            <birth>1603</birth>
-               <floruit when="1632" evidence="internal">He succeded his father King<persName ref="PRS9038Susenyos">Susǝnyos</persName> in <date> 1632</date>. He restored Orthodoxy  on <date> 18 June 1632</date>which was denounced during the reign of his father in favour of catholism. 
+               <floruit when="1632" evidence="internal">He succeded his father King <persName ref="PRS9038Susenyos"> Susǝnyos </persName> in <date> 1632 </date>. 
+                  He restored Orthodoxy  on <date> 18 June 1632</date>which was denounced during the reign of his father in favour of catholism. 
                      </floruit>
                   <death when="1667" evidence="internal">1667</death>
                   </person>
