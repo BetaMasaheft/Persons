@@ -56,13 +56,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
               
                <persName xml:lang="gez" xml:id="n1" type="birthName">መስቀል፡ ክብራ፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Masqal Kǝbrā</persName>
-                  <persName><roleName type="title">baʿalta biḥat ("Lady of Biḥat")</roleName></persName>
+               <persName><roleName type="title">baʿalta <placeName ref="LOC1914Bihat">biḥat</placeName> which refers "Lady of Biḥat"</roleName></persName>
            
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
-               <occupation type="ruler">a queen</occupation>
+               <occupation type="ruler"> queen</occupation>
               <birth></birth>
-               <floruit >She was commemmorated as the saint in EOTC. She played a major role during the reign of her husband, King <persName ref="PRS6152Lalibala">Lālibalā </persName>.
+               <floruit >She was the wife of King <persName ref="PRS6152Lalibala">Lālibalā </persName> who  played a major role during his reign. She was responsible 
+                  for the fall of the metropolitan<persName ref="PRS7073Mikael"> Mikāel II</persName> who had to return to Egypt after four years in Ethiopia. 
+                  She is also credited with the building of some churches at <placeName ref="LOC4244Laliba">Lālibalā </placeName>. 
                </floruit>
                <death  ></death>
             </person>
@@ -90,9 +92,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <bibl> 
                <ptr target="bm:DeratundKur2007MasqalKebra"/>
             </bibl>  
-   
-
-            <bibl> 
+  <bibl> 
                <ptr target="bm:Sergew1972Ethiopianhistory"/>
             </bibl>  
          </listBibl>

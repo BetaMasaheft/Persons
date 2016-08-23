@@ -11,6 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Aḥmad</title>
+            <editor key="SG"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -51,18 +52,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
            
-            <persName xml:lang="gez" xml:id="n1" type="birthName">አህመድ፡</persName>
-                     <persName xml:lang="gez" corresp="#n1" type="normalized">Aḥmad</persName>
+            <persName xml:lang="gez" xml:id="n1" type="birthName">አሕመድ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʿAḥmad</persName>
                      <persName xml:lang="gez" xml:id="n2" type="nickName">ግራኝ፡</persName>
-                  <persName xml:lang="gez" corresp="#n2" type="normalized">Grañ</persName> 
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Grāñ</persName> 
                   <persName><roleName type="title">imām </roleName></persName>
              
                   <occupation type="ruler">leader</occupation>
+               <nationality type="Ethiopia"/>
+               <faith type="Islam"/>
                   <birth>1506</birth>
-               <residence >He was born at a place called Hubat </residence>
-               <floruit when="1527" evidence="internal">He overrun the Christian Kingdom in <date>1527</date>. He became victorious against the Christian King <persName ref="PRS6229LebnaDe" >Lǝmna Dǝngǝl</persName>
+               
+               <residence >He was born at a place called <placeName ref="LOC3905Hubat" >Hubāt </placeName></residence>
+               <floruit when="1527" evidence="internal">He overrun the Christian Kingdom in <date>1527</date>. He became victorious against the Christian King <persName ref="PRS6229LebnaDe" >Lǝbna Dǝngǝl</persName>
                </floruit>
-               <death when="1543" evidence="internal">He was killed by the forces of King<persName ref="PRS4428Galawdew" >Galāwdewos </persName> on <date> 22 February 1543</date></death>
+               <death when="1543" evidence="internal">He was killed by the forces of King <persName ref="PRS4428Galawdew" > Galāwdewos </persName> on <date> 22 February 1543</date></death>
             </person>
             <listRelation>
              
