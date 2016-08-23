@@ -11,9 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Takla Śǝllāse</title>
-           
-           
-            <author/>
+          <author/>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
@@ -53,21 +51,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+            
                   <persName xml:lang="gez" xml:id="n1" type="birthName">ተክለ፡ ሥላሴ፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Takla Śǝllāse</persName>
                   <persName xml:lang="gez" xml:id="n2" type="nickName">ጢኖ፡</persName>
-                  <persName xml:lang="gez" corresp="#n2" type="normalized">Ṭino (it is Oromifa word which refered to a person of a small stature </persName>
-                  <persName><roleName type="title">azzāž, Ṣaḥāfe tǝʿǝzāz</roleName></persName>
-               </persName>
+                  <persName xml:lang="gez" corresp="#n2" type="normalized">Ṭino (it is an Oromifa word which refered to a person of a small stature </persName>
+               <persName><roleName type="title">ʾazzāž, Ṣaḥāfe tǝʿǝzāz</roleName></persName>
+    
                <occupation type="literary">royal chronicler</occupation>
              <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <birth></birth>
-               <residence>He was in the court of Susǝnyos</residence>
-               <floruit when="1612" evidence="internal">He joined to  court of King<persName ref= "PRS9038Susenyos" >Susenyos</persName>until<date>1638</date>. He was one of the main royal chronicler of the king. He was an Oromo by origin.
+               <residence>He was in the court of  King <persName ref= "PRS9038Susenyos" >Susenyos</persName></residence>
+               <floruit when="1612" evidence="internal">He joined to  court of King <persName ref= "PRS9038Susenyos" > Susenyos </persName>in <date>1612</date> and 
+                  he served in the royal court until <date>1628/29</date>. He was an Oromo by origin. He was one of the main royal chronicler of the king. 
+                  He was also the counsellor and intimate freind of King <persName ref= "PRS9038Susenyos" >Susenyos</persName>
+                  
                </floruit>
-               <death >1638</death>
+               <death > he died in <date>1638</date> probably at <placeName ref= "LOC3098Fogara" >Fogarā </placeName> where he lived for some years after he was dismissed  from the office </death>
                </person>
             <listRelation>
                <relation name="snap:AllianceWith"
