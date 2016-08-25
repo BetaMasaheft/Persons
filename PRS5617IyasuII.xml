@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Iyasu II</title>
+            <title>Iyāsu II</title>
             <editor key="SG"/>
             <author/>
          </titleStmt>
@@ -57,8 +57,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" xml:id="n1" type="birthName">ኢያሱ፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Iyāsu II</persName>
                   <persName xml:lang="gez" xml:id="n2" type="nickName">ቋረኛ፡ ኢያሱ፡</persName>
-                  <persName xml:lang="gez" corresp="#n2" type="normalized">Qwarañña Iyāsu</persName>
-               <persName><roleName type="title">aṣe</roleName></persName>
+                  <persName xml:lang="gez" corresp="#n2" type="normalized">Qwāraññā Iyāsu</persName>
+                  <persName><roleName type="title">ʾaṣe</roleName></persName>
                <persName xml:lang="gez" xml:id="n3.1" type="regnalName">አድያም፡ ሰገድ፡</persName>
                   <persName xml:lang="gez" corresp="#n3.1" type="normalized">Adyām Sagad</persName>
                   <persName xml:lang="gez" xml:id="n3.2" type="regnalName">ብርሃን፡ ሰገድ፡</persName>
@@ -67,10 +67,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <occupation type="ruler">Emperor</occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
-               <residence>Gondar</residence>
+               <residence><placeName ref="LOC3577Gondar"> Gondar </placeName></residence>
                <birth>1723</birth>
                <floruit when="1730" evidence="internal">He succeded his father King <persName ref="PRS2377Bakaffa">Bakāffā</persName> in <date>1730</date>. 
-                  He was seven years old when he became a king and his mother a famous Gondarian queen<persName ref="PRS2682BerhanM">Bǝrhān Mogasā</persName> was his a regent , 
+                  He was seven years old when he became a king and his mother a famous Gondarian queen <persName ref="PRS2682BerhanM">Bǝrhān Mogasā </persName> was his a regent , 
                   who exercised the real political power together with her brother rās <persName ref="PRS7585Niqolawo">Niqolāwos</persName>. 
                    </floruit>
                <death when="1755" evidence="internal"></death>
@@ -78,7 +78,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listRelation>
                <relation name="snap:SonOf" 
                   active="#PRS5617IyasuII"
-                  passive="#PRS2377Bakaffa"
+                  passive="#PRS2377Bakaf"                  
                   ></relation>
            
                <relation name="snap:FatherOf"
@@ -97,21 +97,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <bibl>
                <ptr target="bm:Basset1882Chronicle"/>
             </bibl>
-         </listBibl> 
+         
          
             <bibl>
-               <ptr target="bm:Guidi1910Iyasu"/>
+               <ptr target="bm:Guidi1954IyasuII"/>
             </bibl>
-        
+         </listBibl> 
          <listBibl type="secondary">
             <bibl> 
                <ptr target="bm:Budge1966Ethistory"/>
             </bibl>  
-         </listBibl>
+     
          
             <bibl> 
                <ptr target="bm:NosnitsinundChernetsov2007Iyasu"/>
-            </bibl>  
+            </bibl>
+         </listBibl>
         
       </body>
    </text>

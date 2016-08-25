@@ -6,7 +6,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
      xml:lang="en"
-     xml:id="PRS2377Bakāffā">
+     xml:id="PRS2377Bakaffa">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -66,7 +66,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <residence><placeName ref="LOC3577Gondar"> Gondar</placeName></residence>
                <birth></birth>
                <floruit when="1721" evidence="internal">He succeded his brother King <persName ref="PRS3430DawitII">Dāwit III</persName> in <date> May 1721</date>.
-                  He maintained relative peace and stablity than his father King<persName ref="PRS10375Yohanne">Yoḥannǝs I </persName>and his brother King <persName ref="PRS9152TaklaHa">Takla Hāymānot I</persName>.
+                  He maintained relative peace and stablity than his father King<persName ref="PRS5616IyasuI"> Iyāsu I </persName>and his brother King <persName ref="PRS9152TaklaHa">Takla Hāymānot I</persName>.
                    </floruit>
                <death when="1730" evidence="internal"></death>
             </person>
@@ -94,19 +94,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <bibl>
                <ptr target="bm:Basset1882Chronicle"/>
             </bibl>
-         </listBibl> 
+        
          <bibl>
-               <ptr target="bm:Guidi1903Yohannes"/>
+            <ptr target="bm:Guidi1961Yohannes"/>
             </bibl>
+         </listBibl> 
          <listBibl type="secondary">
             <bibl> 
                <ptr target="bm:Budge1966Ethistory"/>
+               <biblScope unit="page">443-449</biblScope>
             </bibl>  
-         </listBibl>
-        
-            <bibl> 
-               <ptr target="bm:Crummey2003Bakaffa"/>
+       <bibl> 
+          <ptr target="bm:Crummey2003Bakaffa"/>
             </bibl> 
+         </listBibl>
       </body>
    </text>
 </TEI>
