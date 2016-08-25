@@ -12,6 +12,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <titleStmt>
             <title>Aṣqu</title>
             <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -46,25 +47,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-08-08">Complete record</change>
+         <change who="SG" when="2016-08-25"> transcription, bibliography and addition to the content </change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+               
               
-               <persName xml:lang="gez" xml:id="n1" type="birthName">አጽቁ፡</persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized">Aṭqu</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birthName"> አጽቁ፡ </persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized"> Aṭqu </persName>
                <persName><roleName type="title">liq </roleName></persName>
-               </persName>
+
                <occupation type="ecclesiastic">scribe</occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <birth>1770</birth>
-               <residence>in </residence>
+               <residence> <placeName ref="LOC3577Gondar">Gondar</placeName></residence>
                <floruit >He was a learned schoalr and judge of <placeName ref="LOC3577Gondar">Gondar</placeName> in the first half of 19th century.    
-                  He was in contact with many European travellers and scholars who visitted Gondar in his time.
+                  He was in contact with many European travellers and scholars who visited <placeName ref="LOC3577Gondar">Gondar</placeName> in his time.
                   He copied the royal chronicles which were commisioned by <persName ref="PRS8249Rüppell">Rüppell</persName> in<date> 1833</date>  
                   and catalogued by <persName ref="PRS4747Goldschm">Goldschmidt</persName>in <date> 1897</date >.
                </floruit>
