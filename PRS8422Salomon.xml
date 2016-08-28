@@ -12,6 +12,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <titleStmt>
             <title>Salomon II</title>
             <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -46,27 +47,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-08-10">Complete record</change>
+         <change who="SG" when="2016-08-28">Correction to transcription</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+        
               
                   <persName xml:lang="gez" xml:id="n1" type="birthName">ሰሎሞን፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Salomon II</persName>
                   <persName xml:lang="gez" xml:id="n2" type="birthName">ገብረ፡ መድሕን፡</persName>
                   <persName xml:lang="gez" corresp="#n2" type="normalized">Gabra Madḫǝn</persName>
-                  <persName><roleName type="title">aṣe</roleName></persName>
-               </persName>
+               <persName><roleName type="title"> ʾaṣe </roleName></persName>
+      
                <occupation type="ruler">Emperor</occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
-               <residence>Gondar</residence>
+               <residence><placeName ref="LOC3577Gondar"> Gondar</placeName></residence>
                <birth></birth>
                <floruit when="1796" evidence="internal">He was one of  a puppet king of Zamana masāfǝnt, at a young age,  
-                  who had been  entrusted by rās  <persName ref="#PRS7091Mikael">Mikāʾel Sǝḥul</persName>to daǧǧāzmāč
+                  who had been  entrusted by rās  <persName ref="PRS7091Mikael">Mikāʾel Sǝḥul</persName>to daǧǧāzmāč
                   <persName ref="PRS9883WaldaGa">Walda Gabrǝʾel</persName>. 
                 </floruit>
                <death ></death>
@@ -90,8 +92,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <bibl>
                <ptr target="bm:Blundell1922Chronicle"/>
             </bibl>
-         </listBibl>
-         <listBibl type="editions">
+
+     
             <bibl>
                <ptr target="bm:Budge1966Ethistory"/>
             </bibl>  

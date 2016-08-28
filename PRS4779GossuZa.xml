@@ -10,8 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Goššu Zäwde</title>
+            <title>Goššu Zawde</title>
             <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -46,27 +47,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-08-15">Complete record</change>
+         <change who="SG" when="2016-08-15">Correction to bibliography and transcription</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-               <persName>Goššu Zäwde</persName>
+        
+               <persName>Goššu Zawde</persName>
                <persName xml:lang="gez" xml:id="n1" type="birthName">ጐሹ፡ ዘውዴ፡</persName>
-                  <persName xml:lang="gez" corresp="#n1" type="normalized">Goššu Zäwde</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Goššu Zawde</persName>
                   <persName><roleName type="title">Daǧǧāzmāč</roleName></persName>
-               </persName>
+          
                <occupation type="ruler">governor</occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <residence></residence>
                <birth>1780/90</birth>
                <floruit when="1850" evidence="internal">He was the governor of <placeName ref="LOC3549Gojjam">Goǧǧām</placeName> and
-                  <placeName ref="LOC2488Damot">Damot</placeName> in<date>1850</date>and one of the major lords during the last decades of the 
-                  Zamana Masafǝnt. He was the commissioner of the collection of royal chronicles (a copy of Daǧǧāzmāč Haylu compilation ) preserved in 
-                  <placeName ref="INS0001BL">British Library</placeName> with<ref type="mss" corresp="BLorient821"/>.
+                  <placeName ref="LOC2488Damot">Dāmot</placeName> in <date> 1850 </date> and one of the major lords during the last decades of the 
+                  Zamana Masāfǝnt. He was the commissioner of the collection of royal chronicles (a copy of Daǧǧāzmāč Ḫāylu compilation) preserved in 
+                  <placeName ref="INS0001BL"> British Library </placeName> with<ref type="mss" corresp="BLorient821"/>.
                </floruit>
                <death >1852</death>
             </person>

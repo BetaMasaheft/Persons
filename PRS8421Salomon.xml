@@ -12,6 +12,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <titleStmt>
             <title>Salomon I</title>
             <editor key="SG"/>  
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -46,24 +47,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-08-10">Complete record</change>
+         <change who="SG" when="2016-08-10">Correction to transacription </change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+     
               
                   <persName xml:lang="gez" xml:id="n1" type="birthName">ሰሎሞን፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Salomon I</persName>
-                  <persName><roleName type="title">aṣe</roleName></persName>
-                </persName>
+                  <persName><roleName type="title"> ʾaṣe </roleName></persName>
+                
                <occupation type="ruler">Emperor</occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
-               <residence>Gondar</residence>
+               <residence><placeName ref="LOC3577Gondar"> Gondar</placeName></residence>
                <birth></birth>
-               <floruit when="1777" evidence="internal">He was a puppet king brought from <placeName ref="LOC6157WahniA">Wahni Ambā</placeName>to replcae King<persName ref="PRS9153TaklaHa">Takla Hāymānot II</persName>in 
+               <floruit when="1777" evidence="internal">He was a puppet king brought from <placeName ref="LOC6157WahniA">Wahni ʾAmbā</placeName>to replcae King<persName ref="PRS9153TaklaHa">Takla Hāymānot II</persName>in 
                   <date>  1777</date> and ruled until<date>1779</date>.
                   </floruit>
                <death ></death>

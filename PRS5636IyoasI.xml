@@ -12,6 +12,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <titleStmt>
             <title>Iyoʾas I</title>
             <editor key="SG"/>  
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -46,6 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-08-05">Complete record</change>
+         <change who="SG" when="2016-08-28">Correction </change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -56,14 +58,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                   <persName xml:lang="gez" xml:id="n1" type="birthName">ኢዮአስ፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Iyoʾas I</persName>
-                 <persName><roleName type="title">aṣe</roleName></persName>
+                  <persName><roleName type="title">ʾ aṣe </roleName></persName>
                   <persName xml:lang="gez" xml:id="n3.1" type="regnalName">አድያም፡ ሰገድ፡</persName>
                   <persName xml:lang="gez" corresp="#n3.1" type="normalized">Adyām Sagad</persName>
                  </persName>
                <occupation type="ruler">Emperor</occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
-               <residence>Gondar</residence>
+               <residence><placeName ref="LOC3577Gondar"> Gondar</placeName></residence>
                <birth>1749</birth>
                <floruit when="1755" evidence="internal">He succeded his father King <persName ref="PRS5617IyasuII">Iyāsu II</persName> in <date>1755</date>. 
                   He was seven years old when he became a king and his grand mother a famous Gondarian queen<persName ref="PRS2682BerhanM">Bǝrhān Mogasā</persName> was continued to act his a regent , 

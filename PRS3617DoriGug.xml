@@ -10,8 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Dori Gugsa</title>
+            <title>Dori Gugsā</title>
             <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -46,25 +47,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-08-10">Complete record</change>
+         <change who="SG" when="2016-08-28">Correction of transcription, space </change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-             
-            <persName xml:lang="gez" xml:id="n1" type="birthName">ዶሪ፡ ጉግሳ፡</persName>
+      <persName xml:lang="gez" xml:id="n1" type="birthName">ዶሪ፡ ጉግሳ፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Dori Gugsā</persName>
                   <persName><roleName type="title">rās</roleName></persName>
-               </persName>
+           
                <occupation type="ruler">governor</occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
-               <residence>Gondar</residence>
+               <residence><placeName ref="LOC3577Gondar"> Gondar </placeName></residence>
                <birth></birth>
-               <floruit when="1831" evidence="internal">He was one of the rulers of Warrasek (Yaǧǧ) of<placeName ref="LOC2385DabraT">Dabǝra Tābor</placeName> 
-                  who succeded his brother rās<persName ref="PRS6728Mareyye">Mārǝye</persName>in<date>1831</date>. 
+               <floruit when="1831" evidence="internal">He was one of the rulers of Warrasek (Yaǧǧu) of <placeName ref="LOC2385DabraT">Dabǝra Tābor</placeName> 
+                  who succeded his brother rās<persName ref="PRS6728Mareyye"> Mārǝye </persName> in <date>1831</date>. 
             </floruit>
                <death ></death>
             </person>
@@ -88,8 +88,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <bibl>
                <ptr target="bm:Blundell1922Chronicle"/>
             </bibl>
-         </listBibl>
-         <listBibl type="editions">
+      
+         
             <bibl>
                <ptr target="bm:Budge1966Ethistory"/>
             </bibl>  
