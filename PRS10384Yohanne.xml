@@ -11,6 +11,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Yoḥannǝs [I]</title>
+            <editor key="SG"/>
+          <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,21 +46,62 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-08-29">Complete record </change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Yoḥannǝs [I]
-               </persName>
-               <occupation> ǝḉḉ.</occupation>
-               <occupation> martyr</occupation>
-               <death>d. 1559</death>
+               <persName xml:lang="gez" xml:id="n1" type="birthName"> ዮሐንስ፡ </persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Yoḥannǝs [I]</persName>
+               <persName><roleName type="title">ʿǝč̣č̣age</roleName></persName>
+               <occupation type="ecclesiastic">abbot </occupation>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <birth></birth>
+               <residence><placeName ref="LOC2297DabraL">Dabra Libānos</placeName></residence>
+               <floruit >He was the the fourteenth abbot of <placeName ref="LOC2297DabraL">Dabra Libānos</placeName> 
+                  and a contemporary of King  <persName ref="PRS4428Galawdew" > Galāwdewos</persName>. 
+               </floruit>
+               <death >He died on <date>23 March 1559</date> together with King  <persName ref="PRS4428Galawdew" > Galāwdewos</persName>  in the battle fighting against  
+                  <persName ref="PRS7623NurbM">Nūr b. Muǧāhīd</persName></death>
             </person>
+            <listRelation>
+               <relation name= "snap:AllianceWith"
+                  active="#PRS10384Yohanne"
+                  passive="#PRS4428Galawdew"
+                  ></relation>
+               <relation name= "snap:AllianceWith"
+                  active="#PRS10384Yohanne"
+                  passive="#PRS7828Petros"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="#PRS10384Yohanne"
+                  passive="#LIT1868Malkea"
+                  ></relation>
+
+ </listRelation>
          </listPerson>
+       <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Cerulli1944AbbotsDL"/>
+               <biblScope unit="page">137-182</biblScope>
+            </bibl>
+            <bibl>
+            <ptr target="bm:Ricci1969Ǝnbaqom"/>
+               <biblScope unit="page">134-242</biblScope>
+            </bibl> 
+            <bibl>
+            <ptr target="bm:Rossigno2014Yohannes"/>
+            </bibl> 
+            </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+                  
+                 
