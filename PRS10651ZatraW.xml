@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Zäträ Wängel</title>
+            <title>Zatra Wangel</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,56 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-08-30">Complete record </change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+        <persName xml:lang="gez" xml:id="n1" type="birthName"> ዘትረ፡  ወንጌል፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Zatra Wangel</persName>
+               <persName xml:lang="gez" xml:id="n2" type="birthName"> በትረ፡  ወንጌል፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized"> Batra Wangel</persName>
+                  <persName><roleName type="title">ʿǝč̣č̣age</roleName></persName>
+                  <occupation type="ecclesiastic">abbot </occupation>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <birth></birth>
+                  <residence><placeName ref="LOC2297DabraL">Dabra Libānos</placeName></residence>
+                  <floruit>He was the the sixteenth abbot of <placeName ref="LOC2297DabraL">Dabra Libānos</placeName> 
+                     and a contemporary of King  <persName ref="PRS8550sardaDe" >Śarḍa Dǝngǝl</persName> and a successor of 
+                     <persName ref="PRS10385Yohanne" >Yoḥannǝs [II]</persName>.
+                     
+                  </floruit>
+               <death when= "1591" evidence="internal"> He was buried at the church of <placeName ref="LOC1602Atrons">Atronsa Māryām</placeName> </death>
+               </person>
+               <listRelation>
+                  <relation name= "snap:AllianceWith"
+                     active="#PRS10651ZatraW"
+                     passive="#PRS8550sardaDe"
+                     ></relation>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
                   
-                  Zäträ Wängel
-               </persName>
-               <occupation> ǝḉḉ. </occupation>
-            </person>
+               </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Cerulli1944AbbotsDL"/>
+               <biblScope unit="page">137-182</biblScope>
+            </bibl>
+         <bibl>
+               <ptr target="bm:Ancel2014ZatraWangel"/>
+            </bibl> 
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+                  
+                 

@@ -11,6 +11,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Jacob of Serug</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,20 +46,94 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="ES" when="2016-08-30">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  
-                  Jacob of Serug
-               </persName>
-               <persName type="alt">James of Serug</persName>
-               <occupation> St. </occupation>
+            <person sex="1" sameAs="http://viaf.org/viaf/51661489">
+             <persName xml:lang="gez" xml:id="n1" type="birthName">ያዕቆብ፡ ዘሥሩግ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Yaʿǝqob zaśǝrug</persName>
+               <persName xml:lang="en" corresp="#n1" type="normalized">Jacob of Serug</persName>
+               <persName xml:lang="en" corresp="n2" type="alt">James of Serug</persName>
+               <persName xml:lang="en" xml:id="n3" type="nickName">The flute of the Holy Spirit</persName>
+               
+                  <persName><roleName type="title"></roleName></persName>
+                  <occupation type="ecclesiastic">writer </occupation>
+               <nationality type="Syria"/>
+               <faith type="Syriac"/>
+              
+               <birth> 451, he was born at a place called Kurtam near Baṭnān (Batnae) in <date> 451</date></birth>
+               <residence></residence>
+               <floruit >He became a monk at age of 22  in <date> 473</date>. In his final years, he became a bishop of his native Baṭnān in <date> 519</date>.
+                  He is best known for his extensive poetic output. It is believed that he composed 760 metrical homilies of which perhaps 250 have survived. 
+                  He also composed hymns and numerous letters. His several compositions are also extant in Ethiopic. These works were translated from Arabic into Gǝʿǝz during the reign of King <persName ref="PRS10626ZaraY"> Zarʾa Yāʿǝqob </persName>
+                  to be read on newly establsihed feasts  for various saints.
+               </floruit>
+               <death >521</death>
             </person>
+            <listRelation>
+             
+               <relation name="saws:isAttributedAuthorOf"
+                  active="#PRS5655Jacobof"
+                  passive="#LIT1633Homily"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="#PRS5655Jacobof"
+                  passive="#LIT1634Homily"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="#PRS5655Jacobof"
+                  passive="#LIT1667Homily"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="#PRS5655Jacobof"
+                  passive="LIT1666Homily"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="#PRS5655Jacobof"
+                  passive="#LIT1630Homily"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="#PRS5655Jacobof"
+                  passive="#LIT1631Homily"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="#PRS5655Jacobof"
+                  passive="#LIT1635Homily"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="#PRS5655Jacobof"
+                  passive="#LIT1617Homily"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="#PRS5655Jacobof"
+                  passive="#LIT1618Homily"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="#PRS5655Jacobof"
+                  passive="LIT1626Homily"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="#PRS5655Jacobof"
+                  passive="#LIT3402Chryso"
+                  ></relation>
+            </listRelation>
          </listPerson>
+  
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Witakowski2007Jacob"/>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Frederick1991Jacob"/>
+         </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+                 
