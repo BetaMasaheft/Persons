@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Bäträ Giyorgis</title>
+            <title>Batra Giyorgis</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,59 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-08-31">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+               <persName xml:lang="gez" xml:id="n1" type="birthName"> በትረ፡ ጊዮርጊስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Batra Giyorgis</persName>
+               <persName><roleName type="title">ʿǝč̣č̣age</roleName></persName>
+               <occupation type="ecclesiastic">abbot </occupation>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <birth> He was born at a place called  <placeName ref="LOC2100Calma"> Č̣alma</placeName></birth>
+               <residence><placeName ref="LOC2297DabraL">Dabra Libānos</placeName></residence>
+               <floruit when="1623" evidence="internal"> He was the the nineteenth abbot of <placeName ref="LOC2297DabraL"> Dabra Libānos</placeName>
+                  who succeded ʿǝč̣č̣age <persName ref="PRS10660Zawange" > Zawangel</persName> in<date>1623</date>. He was a contemporary of  
+                  King <persName ref="PRS9038Susenyos" > Susǝnyos</persName> and King  <persName ref="PRS4015Fasilada" > Fāsiladas</persName>. He persauded King  
+                  <persName ref="PRS4015Fasilada" > Fāsiladas</persName> to restore the national  faith and he succeded in this.
                   
-                  Bäträ Giyorgis
-               </persName>
-               <occupation> ǝḉḉ. </occupation>
+               </floruit>
+               <death when= "1667"  evidence="internal" ></death>
             </person>
+            <listRelation>
+               <relation name= "snap:FriendshipFor"
+                  active="#PRS2538BatraGi"
+                  passive="#PRS4013FasilGa"
+                  ></relation>
+               
+            </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Cerulli1944AbbotsDL"/>
+               <biblScope unit="page">137-182</biblScope>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Chernestsov2003BatraGiyorgis"/>
+            </bibl> 
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+         
+                  
+                  

@@ -6,11 +6,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
    type="pers"
    xml:lang="en"
-   xml:id="PRS11073Neway">
+   xml:id="PRS11080Qusqam">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:id="t1">Nǝwāya Māryām</title>
+            <title xml:id="t1">Qwusqwāmāwit</title>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
@@ -46,13 +46,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
+            <person sex="2">
                <persName xml:id="n1">
-                  Nǝwāya Māryām
+                  Qwusqwāmāwit
                </persName>
-               <occupation type="ecclesiastic">scribe</occupation>
+               
+               <note>donor</note>
+               <residence ref="INS0097AQG"/>
             </person>
+            <listRelation>
+               <relation name="bm:wifeOf" active="#PRS11080Qusqam" passive="#PRS11079WaldaG"/>
+            </listRelation>
          </listPerson>
+         
       </body>
    </text>
 </TEI>

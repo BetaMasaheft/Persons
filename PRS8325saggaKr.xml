@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ṣägga Krǝstos</title>
+            <title>Ṣaggā Krǝstos</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,53 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-08-31">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Ṣägga Krǝstos
-               </persName>
-               <occupation> ǝḉḉ. </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birthName"> ጸጋ፡ ክርስቶስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Ṣaggā Krǝstos</persName>
+               <persName><roleName type="title">ʿǝč̣č̣age</roleName></persName>
+               <occupation type="ecclesiastic">abbot </occupation>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <birth></birth>
+               <residence><placeName ref="LOC2297DabraL">Dabra Libānos</placeName></residence>
+               <floruit when="1680" evidence="internal"> He was the the twenty fifth abbot of <placeName ref="LOC2297DabraL"> Dabra Libānos </placeName>
+                  who succeded ʿǝč̣č̣age <persName ref="PRS8004QalaAw" >Qala ʿAwādi</persName> in<date>1680</date>. Then, two years later, he was dissmissed by King 
+                  <persName ref="PRS5616IyasuI" > Iyāsu I</persName> in<date>1680</date>. But  he was reappointed by King <persName ref="PRS5616IyasuI" > Iyāsu I</persName> on
+                  <date> 16 November 1693</date>. He remained in office until his death.
+            
+         </floruit>
+               <death when= "1696" evidence="internal"></death>
             </person>
+            <listRelation>
+             
+               <relation name= "snap:AllianceWith"
+                  active="#PRS8325saggaKr"
+                  passive="#PRS5616IyasuI"
+                  ></relation>
+               
+          </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Cerulli1944AbbotsDL"/>
+               <biblScope unit="page">137-182</biblScope>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Rossigno2010Sagakerstos"/>
+            </bibl> 
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+                  
+                  
