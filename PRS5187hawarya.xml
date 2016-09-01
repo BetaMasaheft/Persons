@@ -10,9 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ḥawāryā Krǝstos</title>
-            <editor key="SG"/>
-            <editor role="generalEditor" key="AB"/>
+            <title>Ḥawarya Krǝstos</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -46,70 +44,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
-         <change who="SG" when="2016-09-01">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName xml:lang="gez" xml:id="n1" type="birthName"> ሐዋርያ፡ ክርስቶስ፡</persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized">Ḥawāryā Krǝstos</persName>
-               <persName xml:lang="gez" xml:id="n2" type="birthName"> ሐዋርያ፡ ክሶስ፡</persName>
-               <persName xml:lang="gez" corresp="#n2" type="normalized">Ḥawāryā Kǝsos</persName>
-               <persName><roleName type="title">ṣaḥāfe tǝʿǝzāz</roleName></persName>
-               
-               <occupation type=" literary"> royal chronicler </occupation>
-               <nationality type="Ethiopia"/>
-               <faith type="EOTC"/>
-               <birth></birth>
-               <residence><placeName ref="LOC3577Gondar"> Gondar</placeName></residence>
-         
-              <floruit > He was a member of the Gondarine court and the royal chronicler. He also belonged to the higher clergy in the court of Gondarine rulers. Intially,
-                 he was the azzāž (official to administer court activities) in the court of King  <persName ref="PRS10375Yohanne">Yoḥannǝs I</persName> and
-                  towards the end of the reign of King <persName ref="PRS10375Yohanne">Yoḥannǝs I</persName> he was granted the title of ṣaḥāfe tǝʿǝzāz. 
-                 He was the author of <title ref="LIT3947ChronYohannes">Chronicle of Yohannǝs I</title>and also partly the  <title ref="LIT3950ChronIyasu">Chronicle of Iyāsu I</title> 
-                 
-               </floruit>
-               <death > He died in <date>04-05-1700</date>. He was killed in a battle between the royal army and the warriors of the Oromo Gudru. </death>
-               
+               <persName>
+                  
+                  Ḥawarya Krǝstos
+               </persName>
+               <occupation> ṣäḥ.t.</occupation>
             </person>
-            <listRelation>
-               <relation name="snap:AllianceWith"
-                  active="PRS5187hawarya"
-                  passive="PRS10375Yohanne"
-                  ></relation>
-               <relation name="snap:AllianceWith"
-                  active="PRS5187hawarya"
-                  passive="PRS5616IyasuI"
-                  ></relation>
-               <relation name="saws:isAttributedAuthorOf"
-                  active="PRS5187hawarya"
-                  passive="LIT3947ChronYohannes"
-                  ></relation>
-               <relation name="saws:isAttributedAuthorOf"
-                  active="PRS5187hawarya"
-                  passive="LIT3950ChronIyasu"
-                  ></relation>
-            
-            </listRelation>
          </listPerson>
-         <listBibl type="editions">
-            <bibl>
-               <ptr target="bm:Guidi1961Yohannes"/>
-            </bibl>
-    <bibl> 
-               <ptr target="bm:Chernestsov2005HawaryaKerstos"/>
-            </bibl>  
-            
-         </listBibl>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-                  
-              

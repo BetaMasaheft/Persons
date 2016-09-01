@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Giyorgis Walda ʿAmid</title>
+            <title>Giyorgis Wäldä ʿAmid</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,58 +44,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
-         <change who="SG" when="2016-09-01">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName xml:lang="gez" xml:id="n1" type="birthName"> ጊዮርጊስ፡ ወልደ፡ ዓሚድ፡ </persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized">Giyorgis Walda ʿAmid</persName>
-               <persName xml:lang="gez" xml:id="n2" type="alt"> ጊርጊስ፡ አልመኪን፡</persName>
-               <persName xml:lang="gez" corresp="#n2" type="normalized">Ǧirǧis al-Makīn</persName>
-               <persName><roleName type="title"></roleName></persName>
-               
-               <occupation type=" literary"> historian </occupation>
-               <nationality type="Egypt"/>
-               <faith type="Coptic"/>
-               <birth> He was born  in <date>1206</date> at Cairo</birth>
-        
-               
-               <floruit > He was a christian Arab historian whose works were incorporated into Ethiopian tradition. He wrote the  book <title ref="LIT1076alMagm"> al-Maǧmaʿ al-mubārak (Chronicle; Universal History) </title> in <date> between 1262-1268 </date>
-                  which was translated during the reign of King <persName ref="PRS6229LebnaDe">Lǝbna Dǝngǝl</persName> as ታሪከ፡ ወልደ፡ ዓሚድ (Tarika Walda ʿAmid). 
+               <persName>
                   
-              </floruit>
-               <death > 1273</death>
-               
+                  Giyorgis Wäldä ʿAmid
+               </persName>
+               <persName type="alt">Ǧirǧis al-Makīn</persName>
+               <occupation> hist. </occupation>
             </person>
-            <listRelation>
-              
-    
-               <relation name="saws:isAttributedAuthorOf"
-                  active="PRS4711Giyorgis"
-                  passive=" LIT1076alMagm"
-                  ></relation>
-         
-               
- </listRelation>
          </listPerson>
-         <listBibl type="secondary">
-            <bibl>
-         <ptr target="bm:Pietruschka2005WaldaAmid"/>
-            </bibl>  
-            
-         </listBibl>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-                  
-                  
