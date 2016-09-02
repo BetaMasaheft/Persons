@@ -11,6 +11,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Severus of Antioch</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,71 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-09-02">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Severus of Antioch
-               </persName>
-               <occupation> patriarch </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birthName"> ሳዊሮስ፡ </persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Sāwiros</persName>
+               
+               <occupation type="ecclesiastic">patriarch</occupation>
+               <nationality type="Greece"/>
+               <faith type="Syriac"/>
+               <birth> He was born in <date>465</date> at Sozopolis of Pisidia (Asia minor)</birth>
+               
+               <floruit >He was a patriarch of Antioch between <date> 512-581</date>. He was an anti- Chalcedonian theologian and he had many anti-Chalcedonian writings. 
+                  Some of his writings were translated  into Arabic and subsequently into Gǝʿǝz.
+               </floruit>
+               <death > He died on <date> 8 February 538</date> </death>
             </person>
+            <listRelation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="PRS8790Severus"
+                  passive="LIT2177Prayer"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="PRS8790Severus"
+                  passive="LIT2178Prayer"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="PRS8790Severus"
+                  passive="LIT1636Homily"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="PRS8790Severus"
+                  passive="LIT2177Prayer"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="PRS8790Severus"
+                  passive="LIT1665Homily"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="PRS8790Severus"
+                  passive="LIT3441Severus"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="PRS8790Severus"
+                  passive="LIT3442Severus"
+                  ></relation>
+            
+                 </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Witakowski2010Severos"/>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Knezevich1991Severus"/>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+                  
+                  
+               

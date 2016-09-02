@@ -11,6 +11,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Theophilos of Alexandria (Tewoflos)</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,76 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-09-02">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Theophilos of Alexandria (Tewoflos)
-               </persName>
-               <occupation> eccl. </occupation>
+               
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ቴዎፍሎስ፡ </persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Tewoflos</persName>
+               <persName xml:lang="gez" xml:id="n2" type="birthName">ቴዮፍሎስ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Teyoflos</persName>
+               <persName xml:lang="gez" xml:id="n3" type="birthName">ቴኦፊሎስ፡</persName>
+               <persName xml:lang="gez" corresp="#n3" type="normalized">Teʾofilos</persName>
+               
+         <occupation type="ecclesiastic">patriarch</occupation>
+               <nationality type="Egypt"/>
+               <faith type="Coptic"/>
+               <birth> 345</birth>
+               
+               <floruit >He was  a patriarch of Alexanderia from <date> 384/87-412</date>. He built several churches in Egypt while suppressing paganism and destroying temples. 
+                  He condemned the doctrine of <persName ref="PRS7672Origeno">Origen of Alexandria</persName> at a synod in Alexandria in <date> 400 </date>. He is venerated as a saint in Ethiopian Orthodox church as well as in Coptic and Syrian Orthodox churches. He has written extensively. 
+               </floruit>
+               <death > 412</death>
             </person>
+            <listRelation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="PRS9486Theophil"
+                  passive="LIT1586Hayman #two excerps- the first is concerning the faith (በእንተ፡ ሃይማኖት፡) is on the council of Nicaea and 
+                  the second is an extract from the twenty first Festal Letter on the incarnation "
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="PRS9486Theophil"
+                  passive="LIT1645Homily"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="PRS9486Theophil"
+                  passive="LIT1664Homily"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="PRS9486Theophil"
+                  passive="LIT1615Homily"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="PRS9486Theophil"
+                  passive="LIT2487Vision"
+                  ></relation>
+               <relation name="saws:P129i_is_subject_of" 
+                  active="PRS9486Theophil"
+                  passive="LIT2631Zenahu"
+                  ></relation>
+               
+          </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Witakowski2010Theophilos"/>
+            </bibl>  
+            
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+                  
+                  

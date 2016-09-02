@@ -11,6 +11,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Cyriacus of Antioch</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,20 +46,54 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-09-02">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Cyriacus of Antioch
-               </persName>
-               <persName type="alt">Kirakos</persName>
-               <occupation> patriarch</occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birthName"> ኪራኮስ፡ </persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Kirākos</persName>
+         <occupation type="ecclesiastic">patriarch</occupation>
+               <nationality type="Syria"/>
+               <faith type="Syriac"/>
+               <birth> </birth>
+               
+               <floruit >He was ordained as a patriarch of Antioch of the Syrian Orthodox church  in <date>793 </date>. 
+                  He wrote several types of lietrary works, some of which were translated into Gǝʿǝz.
+               </floruit>
+               <death > 817 </death>
             </person>
+            <listRelation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="PRS3250Cyriacus"
+                  passive="LIT2376Synoda"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="PRS3250Cyriacus"
+                  passive="LIT1586Hayman"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="PRS3250Cyriacus"
+                  passive="LIT3450Cyriac"
+                  ></relation>
+           </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Witakowski2003Cyriacus"/>
+            </bibl>  
+       
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+       
+                  
+                 
