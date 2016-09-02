@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>ʿƎnbaqom</title>
+            <title>ʿƎnbāqom</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,6 +44,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="SG" when="2016-07-22">Complete record</change>
+         <change who="SG" when="2016-09-02">Corrcetion to the transcription</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -52,18 +53,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
              
                   <persName xml:lang="gez" xml:id="n1" type="birthName">አቡልፋትሕ፡</persName>
-                  <persName xml:lang="gez" corresp="#n1" type="normalized">Abū l-Fatḥ</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Abū l-Fātḥ</persName>
                   <persName xml:lang="gez" xml:id="n2" type="baptisalName">እንባቆም፡</persName>
-                  <persName xml:lang="gez" corresp="#n2" type="normalized">ʿƎnbaqom</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">ʿƎnbāqom</persName>
                   
-                  <persName><roleName type="title">ǝḉḉage</roleName></persName>
+               <persName><roleName type="title"> ʿǝč̣č̣age</roleName></persName>
           
            <occupation type="ecclesiastic">ruler</occupation>
                <birth>1470</birth>
                <residence>He was born in Yemen</residence>
-               <floruit when="1489" evidence="internal">He arrived in Ethiopia in <date>1489</date> during the reign of King<persName ref="PRS3874eskender">Ǝskǝndǝr</persName>. He was baptized by abuna <persName ref="PRS7825Petros" >Ṗeṭros </persName>. ʿƎnbaqom contribution to Ethiopic lietrature was remarkable. 
+               <floruit when="1489" evidence="internal">He arrived in Ethiopia in <date>1489</date> during the reign of King<persName ref="PRS3874eskender">ʿƎskǝndǝr</persName>. 
+                  He was baptized by abuna <persName ref="PRS7825Petros" >Peṭros </persName>. ʿƎnbaqom contribution to Ethiopic lietrature was remarkable. 
                </floruit>
-               <death when="1563" evidence="internal">He died during the reign of King<persName ref="PRS7102Minas">Minas</persName></death>
+               <death when="1563" evidence="internal">He died during the reign of King<persName ref="PRS7102Minas">Minās</persName></death>
             </person>
                <listRelation>
                   <relation name="snap:AllianceWith"
