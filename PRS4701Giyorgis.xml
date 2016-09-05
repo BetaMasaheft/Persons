@@ -11,6 +11,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Giyorgis</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,50 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-09-05">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ጊዮርጊስ፡ </persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Giyorgis II</persName>
+               <persName><roleName type="title">ʾabuna</roleName></persName>
+               <occupation type="ecclesiastic"> metropolitan </occupation>
+               <nationality type="Egypt"/>
+               <faith type="Coptic"/>
+               <birth></birth>
+              
+               <floruit when="1215" evidence="internal" >He was a bishop of Zāgʷe period during  the reign of King <persName ref="PRS6152Lalibala"> Lālibalā </persName> who was consecrated by the then Egyptian  patriarch <persName ref="PRS5703JohnVI"> John VI </persName> in <date> 1215</date>.
                   
-                  Giyorgis
-               </persName>
-               <occupation> bishop </occupation>
+                  His name appears in the colophon of  <title ref="LIT1709Kebran">Kǝbra nagaśt</title> which states that the work had first been translated from Coptic into Arabic in the year <date> 1224-1225</date>
+                  during the reign of King <persName ref="PRS6152Lalibala">Lālibalā</persName> and the metropolitanate <persName ref="PRS4701Giyorgis">Giyorgis</persName>.  
+                  He was the successor of bishop <persName ref="PRS10344Yeshaq">Yǝsḥaq I </persName>.
+                 </floruit>
+               <death ></death>
             </person>
+            <listRelation>
+               <relation name= "snap:AllianceWith"
+                  active="PRS4701Giyorgis"
+                  passive="PRS6152Lalibala"
+                  ></relation>
+           </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Donzel2005Giyorgis"/>
+              </bibl>  
+            <bibl> 
+               <ptr target="bm:Tedeschi1991EthiopianPre"/>
+            </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+                  
+                  

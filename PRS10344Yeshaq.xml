@@ -11,6 +11,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Yǝsḥaq</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,56 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-09-05">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+              
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">ይስሐቅ፡ </persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Yǝsḥaq</persName>
+                  <persName><roleName type="title">ʾabbā</roleName></persName>
+                  <occupation type="ecclesiastic"> bishop </occupation>
+                  <nationality type="Egypt"/>
+                  <faith type="Coptic"/>
+                  <birth></birth>
                   
-                  Yǝsḥaq
-               </persName>
-               <occupation> bishop </occupation>
-            </person>
+                  <floruit when="1210" evidence="internal" >He was a bishop of of Zāgʷe period during  the reign of King <persName ref="PRS6152Lalibala"> Lālibalā </persName>
+                     who was consecrated by the then Egyptian  patriarch <persName ref="PRS5703JohnVI"> John VI </persName>in <date> 1210</date> .
+                     He was a successor of<persName ref="PRS7073Mikael">Mikaʾel II</persName> who had been dismissed from his position. 
+                    </floruit>
+                  <death ></death>
+               </person>
+               <listRelation>
+                  <relation name= "bm:ordainedBy "
+                     active="PRS10344Yeshaq"
+                     passive="PRS5703JohnVI"
+                     ></relation>
+                
+           <relation name= "snap:AllianceWith"
+                     active="PRS10344Yeshaq"
+                     passive="PRS6152Lalibala"
+                     ></relation>
+               </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Brita2014Yeshaq"/>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Tedeschi1991EthiopianPre"/>
+            </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+                  
+                 

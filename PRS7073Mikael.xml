@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mikaʾel [II]</title>
+            <title>Mikāʾel [II]</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -43,21 +45,64 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="ES" when="2016-09-05">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Mikaʾel [II]
-               </persName>
+               <persName xml:lang="gez" xml:id="n1" type="birthName"> ሚካኤል፡ </persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Mikāʾel II</persName>
                <persName type="alt">Kīyīl [Miḫāʾīl] b. al-Mulabbas</persName>
-               <occupation>metr.</occupation>
+               
+            <persName><roleName type="title">ʾabuna</roleName></persName>
+               <occupation type="ecclesiastic"> metropolitan </occupation>
+               <nationality type="Egypt"/>
+               <faith type="Coptic"/>
+               <birth></birth>
+               
+               <floruit when="1200" evidence="internal" >He was a 13th century metropolitan of the Ethiopian Orothodox Church and  a contemporary of King <persName ref="PRS6152Lalibala"> Lālibalā </persName> 
+                  who was consecrated by the then Egyptian  patriarch <persName ref="PRS5703JohnVI"> John VI </persName>in <date> 1200</date>. However, he was back in Cairo after five years 
+                  accusing <persName ref="PRS6859MasqalK">Masqal Kǝbrā</persName> who favoured to consecrate her brother <persName ref="PRS5261hayrun">Ḫayrūn</persName>, a bishop of the city of the King.
+                  He was a successor of<persName ref="PRS7072Mikael">Mikāʾel I</persName>. 
+               </floruit>
+               <death ></death>
             </person>
+            <listRelation>
+               <relation name= "bm:ordainedBy "
+                  active="PRS7073Mikael"
+                  passive="PRS5703JohnVI"
+                  ></relation>
+               
+               <relation name= "snap:AllianceWith"
+                  active="PRS7073Mikael"
+                  passive="PRS6152Lalibala"
+                  ></relation>
+               <relation name="rel:enemyOf"
+                  active="PRS7073Mikael"
+                  passive="PRS6859MasqalK"
+                  ></relation>
+            </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Nosnitsin2007Mikael"/>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Tedeschi1991EthiopianPre"/>
+            </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+                  
+               

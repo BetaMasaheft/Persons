@@ -11,6 +11,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Qerǝllos</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,66 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-09-05">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Qerǝllos
-               </persName>
-               <occupation> metr. </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birthName"> ቄርሎስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Qerǝllos</persName>
+          <persName><roleName type="title">ʾabuna</roleName></persName>
+               <occupation type="ecclesiastic"> metropolitan </occupation>
+               <nationality type="Egypt"/>
+               <faith type="Coptic"/>
+               <birth></birth>
+               
+               <floruit>He was a 13th-14th century metropolitan of the Ethiopian Orothodox Church and  a contemporary of King <persName ref="PRS10303Yekunno">Yǝkunno Amlāk</persName>. 
+                  He was most probably the successor of metropolitan <persName ref="PRS4701Giyorgis">Giyorgis II</persName>. 
+                 
+               </floruit>
+               <death ></death>
             </person>
+            <listRelation>
+               <relation name= "bm:hasOrdained "
+                  active="PRS8032Qerellos"
+                  passive="PRS9162TaklaHa" 
+                  ></relation>
+               
+               <relation name= "snap:AllianceWith"
+                  active="PRS8032Qerellos"
+                  passive="PRS10303Yekunno"
+                  ></relation>
+              
+            </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Budge1976Saints"/>
+               <biblScope unit="page">1242</biblScope>
+            </bibl>
+         
+         
+            <bibl> 
+               <ptr target="bm:Nosnitsin2010Qerellos"/>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Tedeschi1991EthiopianPre"/>
+            </bibl> 
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+               

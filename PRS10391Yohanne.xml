@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Yoḥannǝs [II / X]</title>
+            <title>Yoḥannǝs II </title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,67 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-09-05">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ዮሐንስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Yoḥannǝs II </persName>
+               <persName><roleName type="title">ʾabuna</roleName></persName>
+               <occupation type="ecclesiastic"> metropolitan </occupation>
+               <nationality type="Egypt"/>
+               <faith type="Coptic"/>
+               <birth></birth>
+               <floruit>He was an early 14th century metropolitan of the Ethiopian Orthodox Church and his episcopacy was between <date> 1310-1330 </date> which fits to  
+                  the last reign of King <persName ref="PRS10111WedemR">Wǝdǝm Raʿad</persName> and the first half of the the reign of King 
+                  <persName ref="PRS1854Amdase">ʾAmda Ṣǝyon I</persName>. He was the successor of ʾabuna <persName ref="PRS8032Qerellos">Qerǝllos ></persName>. 
+            
                   
-                  Yoḥannǝs [II / X]
-               </persName>
-               <occupation> metr. </occupation>
+            </floruit>
+               <death ></death>
             </person>
+            <listRelation>
+               <relation name="snap:AllianceWith"
+                  active="PRS10391Yohanne"
+                  passive= "PRS10111WedemR"
+                  ></relation>
+               
+               <relation name= "snap:AllianceWith"
+                  active="PRS10391Yohanne"
+                  passive="PRS1854Amdase"
+                  ></relation>      
+               <relation name="rel:enemyOf"
+                  active="PRS10391Yohanne"
+                  passive="PRS2528Basalota"
+                     ></relation>
+               
+            </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Ancel2014Yohannes"/>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Tedeschi1991EthiopianPre"/>
+            </bibl> 
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+                  
+                 
