@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Bärtälomewos</title>
+            <title>Bartalomewos</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,53 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-09-06">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Bärtälomewos
-               </persName>
-               <occupation> metr. </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birthName"> በርተሎሜዎስ፡ </persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Bartalomewos</persName>
+               <persName><roleName type="title">ʾabuna</roleName></persName>
+               <occupation type="ecclesiastic"> metropolitan </occupation>
+               <nationality type="Egypt"/>
+               <faith type="Coptic"/>
+               <birth></birth>
+               <floruit>  He was a 14th century metropolitan of the Ethiopian Orthodox Church who arrived in <date> 1398/99</date> 
+                  after ten year vacancy of the episcopal seat at <placeName ref="LOC1311AksumS">ʾAksum Ṣǝyon</placeName>. His episcopate covered the lengthy period  
+                  from the end of the reign of King <persName ref="PRS3429DawitII">Dāwit I</persName> and the entire reign of King <persName ref="PRS10342Yeshaq">Yǝsḥaq</persName>. 
+                  He was the successor of ʾabuna <persName ref="PRS8387SalamaI"> Salāmā II “The Translator”</persName>. 
+                   </floruit>
+               <death >1438</death>
             </person>
+            <listRelation>
+               <relation name="snap:AllianceWith"
+                  active="PRS2469Bartalom"
+                  passive= "PRS8538saraqaB"
+                  ></relation>
+               
+  <relation name= "snap:AllianceWith"
+                  active="PRS2469Bartalom"
+                  passive="PRS4104Fileppos"
+                  ></relation> 
+               
+      </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Luisini2003Bartalomewos"/>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Tedeschi1991EthiopianPre"/>
+               <biblScope unit="page">1012b-1013b</biblScope>
+            </bibl> 
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+              
+               

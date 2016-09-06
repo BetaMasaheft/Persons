@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mikaʾel [III]</title>
+            <title>Mikāʾel [III]</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,20 +46,55 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-09-06">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+               <persName xml:lang="gez" xml:id="n1" type="birthName"> ሚካኤል፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Mikāʾel [III]</persName>
+               <persName type="alt">Mikāʾel “the Senior”</persName>
+                  <persName><roleName type="title">ʾabuna</roleName></persName>
+                  <occupation type="ecclesiastic"> metropolitan </occupation>
+                  <nationality type="Egypt"/>
+                  <faith type="Coptic"/>
+                  <birth></birth>
+               <floruit>  He was one of the two metropolitans (Mikāʾel and Gabrǝʾel) of the Ethiopian Orthodox Church who arrived in Ethiopia in <date>1438</date> succeeding  ʾabuna
+                  <persName ref="PRS2469Bartalom">Bartalomewos</persName>. He held this  post simultaneously with ʾabuna <persName ref="PRS4372Gabreel">Gabrǝʾel</persName>. 
+                  Both were consecrated together by the Coptic patriarch <persName ref="PRS5706JohnXI">John XI</persName>. 
+                       </floruit>
+                  <death >1450</death>
+               </person>
+               <listRelation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS7074Mikael"
+                     passive= "PRS10626ZaraY"
+                     ></relation>
                   
-                  Mikaʾel [III]
-               </persName>
-               <persName type="alt">Mikaʾel “the Senior”</persName>
-               <occupation> metr.  </occupation>
-            </person>
+                  <relation name= "snap:AllianceWith"
+                     active="PRS7074Mikael"
+                     passive="PRS4372Gabreel"
+                     ></relation> 
+                  
+               </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Chernestsov2005Mikael"/>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Tedeschi1991EthiopianPre"/>
+               <biblScope unit="page">1013b-1014b</biblScope>
+            </bibl> 
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+                  
+              
