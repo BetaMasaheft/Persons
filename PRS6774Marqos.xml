@@ -11,7 +11,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Marqos [I]</title>
-            <author/>
+        <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+         <author/>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
@@ -44,20 +46,66 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-09-07">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ማርቆስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Marqos [I]</persName>
+               <persName><roleName type="title">ʾabuna</roleName></persName>
+               <occupation type="ecclesiastic"> metropolitan </occupation>
+               <nationality type="Egypt"/>
+               <faith type="Coptic"/>
+               <birth></birth>
+               
+               <floruit when="1520">He was a  metropolitan of the Ethiopian Orthodox Church who succeded  ʾabuna
+                  <persName ref="PRS4372Gabreel">Gabrǝʾel </persName>in <date>1520</date> and his tenure lasted to <date>1526</date> 
+                
                   
-                  Marqos [I]
-               </persName>
-               <occupation> metr. </occupation>
-               <death>d.1530</death>
+               </floruit>
+               <death> He died in <date>1529/30</date></death>
             </person>
+            <listRelation>
+              
+               
+               <relation name= "snap:FriendshipFor "
+                  active="PRS6774Marqos"
+                  passive="PRS1778Alvares"
+                  ></relation>
+               <relation name= "bm:hasOrdained"
+                  active="PRS6774Marqos"
+                  passive="PRS3779enbaqom"
+                  ></relation>
+               <relation name="bm:isAuthorOfEthiopicTranslation"
+                  active="PRS10350Yeshaq"
+                  passive="LIT2509Weddas"
+                  ></relation>
+            </listRelation>
          </listPerson>
+         
+         
+         
+         <listBibl type="secondary">
+            
+            
+            
+            <bibl> 
+               <ptr target="bm:KaplanundFiaccadori2007Marqos"/>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Tedeschi1991EthiopianPre"/>
+               <biblScope unit="page">1015a-1016a</biblScope>
+            </bibl> 
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+                  
+                  
