@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Aron of Däbrä Daret</title>
+            <title> ʾAron of Dabra Dāret </title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,24 +46,64 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-09-07">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Aron of Däbrä Daret
-               </persName>
-               <persName type="alt"> Ǝḉe Aron</persName>
-               <persName type="alt">Aron Mänkǝrawi</persName>
-               <occupation>St.</occupation>
-               <residence>
-                  <placeName> Däbrä Daret</placeName>
-               </residence>
-            </person>
+               <persName xml:lang="gez" xml:id="n1" type="birthName"> አሮን፡ </persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAron of Dabra Dāret</persName>
+               <persName xml:lang="gez" xml:id="n2" type="birthName"> አሮን፡ መንክራዊ፡ </persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAron Mankrāwi</persName>
+               <persName xml:lang="gez" xml:id="n3" type="birthName"> እጬ፡ አሮን፡ </persName>
+               <persName xml:lang="gez" corresp="#n3" type="normalized">ʾƎḉč̣e ʾAron</persName>
+               
+               <persName><roleName type="title"> ʾabbā </roleName></persName>
+               
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="ecclesiastic"> saint </occupation>
+               <birth> He was born perhaps in around <date  >1350</date> </birth>
+               <floruit >He joined the monastery of <placeName ref= "LOC2278DabraG"> Dabra Gwāl</placeName> and he became a monk.There, having witnessed his exceptional piety
+                  and wisdom, the monks elected him as archdeacon and bursar of  the community. He also took part in the l4th century controversy between the Ethiopian kings and monks. 
+                  He was the founder of the rock-hewn church of <placeName ref="LOC2230DabraA">Dabra Abuna  ʾAron </placeName> in the western
+                  part of <placeName ref="LOC6132Wadla"> Wādlā </placeName>
+               </floruit>
+               <death  > </death>
+            </person>  
+            <listRelation>
+               
+               <relation name="snap:AllianceWith"
+                  active="PRS2049Aronof"
+                  passive="PRS2528Basalota"
+                  ></relation>
+               <relation name="saws:P129i_is_subject_of" 
+                  active="PRS2049Aronof"
+                  passive="LIT1423GadlaA"
+                  ></relation>
+            </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Turaiev1908Aaron"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:SamuelundRed2003Aron"/>
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Taddesse1972Church"/>
+            </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+       
+                 
