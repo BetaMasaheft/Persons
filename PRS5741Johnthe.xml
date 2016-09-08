@@ -11,6 +11,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>John the Baptist</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,28 +46,77 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-09-08">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName xml:lang="en">
-                  
-                  John the Baptist
-               </persName>
-               <persName type="alt" xml:lang="gez">Yoḥānnǝs Maṭmǝq</persName>
-               <occupation type="ecclesiastic">saint</occupation>
+         <persName xml:lang="gez" xml:id="n1" type="birthName">ዮሐንስ፡ መጥምቅ፡ </persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Yoḥānnǝs Maṭmǝq</persName>
+               <persName xml:lang="en" xml:id="n2" type="birthName">John the Baptist</persName>
+               <occupation type="ecclesiastic">saint, prophet, martyer</occupation>
                <nationality type="Israel/Palestine"/>
-               
+                  <faith type="Coptic"/>
+                  <birth></birth>
                <note type="commemoration">He is commemorated on <date type="diesNatalis">1 Maskaram</date></note>
-            </person>
-            <listRelation>
-               <relation name="saws:P129i_is_subject_of" active="PRS5741Johnthe" passive="LIT2085OntheL "/>
-            </listRelation>
-            
+                  
+               <floruit > One of the most celebrated biblical figure in the history of christianity. It is believed that he baptised 
+                  <persName ref="PRS5684JesusCh">Jesus Christ</persName> in the bank of Jordan in <date>29 </date>. 
+              
+                  </floruit>
+                  <death ></death>
+               </person>
+               <listRelation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     ></relation>
+                  
+                  <relation name="saws:P129i_is_subject_of" 
+                     active="PRS5741Johnthe"
+                     passive="LIT2085OntheL "
+                     ></relation>
+                  <relation name="saws:P129i_is_subject_of" 
+                     active="PRS5741Johnthe"
+                     passive="LIT2085OntheL"
+                     ></relation>
+                  <relation name="saws:P129i_is_subject_of" 
+                     active="PRS5741Johnthe"
+                     passive="LIT2125OntheG"
+                     ></relation>
+                  
+                  <relation name="saws:P129i_is_subject_of" 
+                     active="PRS5741Johnthe"
+                     passive="LIT1658Homily"
+                     ></relation>
+                  <relation name="saws:P129i_is_subject_of" 
+                     active="PRS5741Johnthe"
+                     passive="LIT1623Homily"
+                     ></relation>
+                
+                  
+               </listRelation>
          </listPerson>
-         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Bausi2007John"/>
+            </bibl>  
+               <bibl> 
+                  <ptr target="bm:1991JohnBaptist"/>
+               </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+                  
+                 
