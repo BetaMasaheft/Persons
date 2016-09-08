@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Anorewos “the Elder”</title>
+            <title>ʾAnorewos “the Elder”</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,64 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-09-08">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+         
+               <persName xml:lang="gez" xml:id="n1" type="birthName"> አኖሬዎስ፡ </persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAnorewos</persName>
+               <persName><roleName type="title"> ʾabbā </roleName></persName>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="ecclesiastic"> saint </occupation>
+               <birth> He was born in <placeName ref="LOC4892Mugar"> Mugar </placeName>in the late 13th century or early 14th century </birth>
+               <floruit >He joined the monastery of  <placeName ref="LOC2297DabraL">Dabra Libānos</placeName> and he became a monk. There, having witnessed his exceptional piety
+                  and wisdom, the monks elected him as archdeacon and bursar of  the community. 
                   
-                  Anorewos “the Elder”
-               </persName>
-               <occupation> St. </occupation>
-            </person>
+               </floruit>
+               <death  > He died around 1374 and buried in <placeName ref="LOC2359DabraS">Dabra Ṣǝgāǧǧā</placeName></death>
+            </person>  
+            <listRelation>
+               
+               <relation name="snap:AllianceWith"
+                  active="PRS1955Anorewos"
+                  passive="PRS2528Basalota"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  active="PRS1955Anorewos"
+                  passive="PRS4104Fileppos"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  active="PRS1955Anorewos"
+                  passive="PRS9152TaklaHa"
+                  ></relation>
+               <relation name="saws:P129i_is_subject_of" 
+                  active="PRS1955Anorewos"
+                  passive="LIT1420GadlaA"
+                  ></relation>
+            </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:SamuelundRed2003Anorewos"/>
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Taddesse1972Church"/>
+            </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+          
+                  
+                  
