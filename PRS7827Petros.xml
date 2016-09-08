@@ -11,6 +11,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Ṗeṭros</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,60 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="ES" when="2016-09-08">CREATED: place</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Ṗeṭros
-               </persName>
-               <occupation> metr. </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ጴጥሮስ፡ </persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized"> Ṗeṭros</persName>
+               <persName><roleName type="title">ʾabuna</roleName></persName>
+               <occupation type="ecclesiastic"> metropolitan </occupation>
+               <nationality type="Egypt"/>
+               <faith type="Coptic"/>
+               <birth></birth>
+               
+               <floruit >He was a metropolitan of the Ethiopian Orthodox Church who arrived in <date>1551</date> and succeded  ʾabuna
+                  <persName ref="PRS10449YosabI">Yosāb I </persName>. He served in three successive reigns of King <persName ref="PRS4428Galawdew">Galāwdewos</persName> , 
+                  <persName ref="PRS7102Minas">Minās</persName>and during the first years of <persName ref="PRS8550sardaDe">Śarḍa Dǝngǝl</persName>.
+          </floruit>
+               <death> 1570 </death>
             </person>
+            <listRelation>
+               <relation name=  "snap:AllianceWith"
+                  
+                  active="PRS7827Petros"
+                  passive="PRS4428Galawdew"
+                  ></relation>
+               <relation name=  "snap:AllianceWith"
+                  
+                  active="PRS7827Petros"
+                  passive="PRS10449YosabI"
+                  ></relation>
+            </listRelation>
          </listPerson>
+         <listBibl type="editions"> 
+            <bibl> 
+               <ptr target="bm:Conzelman1895Galawdewos"/>
+               <biblScope unit="page"> 54, 153</biblScope>
+            </bibl>
+         </listBibl>
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Nosnitsin2010Petros"/>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Tedeschi1991EthiopianPre"/>
+               <biblScope unit="page">1018b-1019b</biblScope>
+            </bibl> 
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+      

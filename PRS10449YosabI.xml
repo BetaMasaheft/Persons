@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Yosab I</title>
+            <title>Yosāb I</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,20 +46,68 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+        <change who="SG" when="2016-09-08">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ዮሳብ፡ </persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Yosāb I </persName>
+               <persName><roleName type="title">ʾabuna</roleName></persName>
+               <occupation type="ecclesiastic"> metropolitan </occupation>
+               <nationality type="Egypt"/>
+               <faith type="Coptic"/>
+               <birth></birth>
+               
+               <floruit when="1547">He was a metropolitan of the Ethiopian Orthodox Church who succeded  ʾabuna
+                  <persName ref="PRS6774Marqos">Mārqos [I] </persName>in <date>1547</date> after a long vacancy of the Ethiopian Epis-copal throne. 
+                  He was a contemporary of King <persName ref="PRS4428Galawdew"> Galāwdewos </persName>. He was succeded by ʾabuna
+                  <persName ref="PRS7827Petros">Ṗeṭros</persName> who have been his coadjustor.
                   
-                  Yosab I
-               </persName>
-               <occupation> metr.</occupation>
-               <death>d. 1559</death>
+                 </floruit>
+               <death> He died in <date>1559</date></death>
             </person>
+            <listRelation>
+               
+               
+               <relation name=  "snap:AllianceWith"
+                
+                  active="PRS10449YosabI"
+                  passive="PRS4428Galawdew"
+                  ></relation>
+               <relation name=  "snap:AllianceWith"
+                  
+               active="PRS10449YosabI"
+                  passive="PRS7827Petros"
+                  ></relation>
+               </listRelation>
          </listPerson>
+         <listBibl type="editions"> 
+         <bibl> 
+            <ptr target="bm:Conzelman1895Galawdewos"/>
+            <biblScope unit="page">36, 144 </biblScope>
+         </bibl>
+         </listBibl>
+         
+ <listBibl type="secondary">
+           <bibl> 
+               <ptr target="bm:Ancel2014YosabI"/>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Tedeschi1991EthiopianPre"/>
+               <biblScope unit="page">1017b-1018b</biblScope>
+            </bibl> 
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+
+                  
+                
