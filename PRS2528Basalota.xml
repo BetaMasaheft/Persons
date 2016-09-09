@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Bäṣälotä Mikaʾel</title>
+            <title>Baṣalota Mikāʾel</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,78 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-09-09">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">በጸሎተ፡ ሚካኤል፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Baṣalota Mikāʾel</persName>
+               <persName><roleName type="title"> ʾabbā </roleName></persName>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="ecclesiastic"> saint </occupation>
+               <birth> He was born in <placeName ref="LOC5454Sagla">Saglā</placeName></birth>
+               <floruit >He was one of the most venerated saints of the Ethiopian Orthodox Church and moral reformer of the 14th century. He joined a monastery of 
+                  <placeName ref="LOC2278DabraG">Dabra Gwal</placeName> and he became a monk. He made reform efforts to monasticism, the church hierarchy and the monarchy. 
+                  He tried to break the existing custom according to which monks and nuns were allowed to live together. He made an effort to moral reform of the royal court. In this regard, 
+                  he reproved King <persName ref="PRS1854Amdase">ʿAmda Ṣǝyon I</persName>for his marriage to his father's widow and for keeping numerous cocubines. 
                   
-                  Bäṣälotä Mikaʾel
-               </persName>
-               <occupation> St. </occupation>
-            </person>
+               </floruit>
+               <death  > </death>
+            </person>  
+            <listRelation>
+               
+               <relation name="snap:AllianceWith"
+                  
+                  active="PRS2528Basalota"
+                  passive="PRS1955Anorewos"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  active="PRS2528Basalota"
+                  passive="PRS4104Fileppos"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  active="PRS2528Basalota"
+                  passive="PRS9152TaklaHa"
+                  ></relation>
+               <relation name= "saws:isSiblingOf"
+                  active="PRS2528Basalota"
+                  passive="PRS10111WedemR"
+                  ></relation>
+               <relation name="saws:P129i_is_subject_of" 
+                  active="PRS2528Basalota"
+                  passive="LIT1428GadlaB"
+                  ></relation>
+               
+            </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:ContiRossini1905Anorewos"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:SamuelundNosnitsin"/>
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Taddesse1972Church"/>
+            </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+                  
+                
