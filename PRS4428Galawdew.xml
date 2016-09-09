@@ -44,6 +44,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          
          <change who="SG" when="2016-04-28">Added more information about the king</change>
          <change when="2016-05-02" who="ES">names adjusted; fidel corrected; transcription corrected (note the transliteration rules); title adjusted as roleName; English name corrected; relations added</change>
+         <change when="2016-09-09" who="DR">minor correction</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -60,8 +61,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="en">Claudius</persName>
                <occupation type="ruler">emperor</occupation>
                <birth>1522</birth>
+<<<<<<< HEAD
                <floruit from="1540" to="1559" evidence="literature">Galāwdewos became emperor at the age of 18 in 1540.
                   His reign was marked by a successful struggle against <persName ref="PRS1522Ahmadb">Aḥmad b. Ibrāhīm al-Ġāzī</persName>.</floruit>
+=======
+               <floruit from="1540" to="1559" evidence="literature">Galāwdewos became emperor at the age of 18 in 1540. His reign was marked by a successful struggle against <persName ref="PRS1522Ahmadb">Aḥmad b. Ibrāhīm al-Ġāzī</persName>.</floruit>
+>>>>>>> 870e86e5fa9935daf31b9d89452dec32c60df007
                <death when="1559" evidence="internal">He died on <date>23 March 1559</date>, in battle with <persName ref="PRS7623NurbM">Nūr b. Muǧāhīd</persName>.</death>
                <residence/>
             </person>
@@ -86,10 +91,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listBibl type="editions"> 
             <bibl> 
                <ptr target="bm:Conzelman1895Galawdewos"/>
-           <note><ref type="work" corresp="LIT3122Galaw">Chronicle of the reign of Galāwdewos</ref>: edition and French translation <date notAfter="1543" cert="low" evidence="conjecture"/></note></bibl>
+           <note><title type="work" ref="LIT3122Galaw">Chronicle of the reign of Galāwdewos</title>: edition and French translation <date notAfter="1543" cert="low" evidence="conjecture"/></note></bibl>
             <bibl> 
                <ptr target="bm:Solomon2016Galawdewos"/>
-               <ref type="work" corresp="LIT3122Galaw">Chronicle of the reign of Galāwdewos</ref>: edition and English translation</bibl>             
+               <title type="work" ref="LIT3122Galaw">Chronicle of the reign of Galāwdewos</title>: edition and English translation</bibl>             
        </listBibl>
          <listBibl type="secondary">
             <bibl> 
