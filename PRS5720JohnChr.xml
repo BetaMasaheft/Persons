@@ -11,6 +11,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>John Chrysostom</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,25 +46,179 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-09-09">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>               
-                  John Chrysostom
-               </persName>
-               <persName type="alt" xml:lang="gez">Yoḥannǝs Afä Wärq</persName>
-               <occupation type="ecclesiastic">saint</occupation>
-               <occupation type="literary">writer</occupation>
-            </person>
+        
+               <person sex="1" sameAs="http://viaf.org/viaf/204677613 ">
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">ዮሐንስ፡ አፈ፡ ወርቅ፡</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Yoḥannǝs Afa Warq</persName>
+                  <persName xml:lang="en" corresp="#n1" type="normalized">John Chrysostom</persName>
+                  <persName xml:lang="en" corresp="n2" type="alt">James of Serug</persName>
+                  <persName xml:lang="en" xml:id="n3" type="nickName">Chrysostomos 'Golden mouthed' </persName>
+                  
+                  <persName><roleName type="title"></roleName></persName>
+                  <occupation type="ecclesiastic">writer </occupation>
+                  <occupation type="ecclesiastic">saint</occupation>
+                
+                  <nationality type="Greece"/>
+                  <faith type="Greek"/>
+                  
+                  <birth> 347, he was born at a place called Antioch  in <date> 347/350</date></birth>
+                  <residence></residence>
+                  <floruit >He was the bishop of Constantinople and regarded as the greatest preacher of the Greek church. He lived a hermit live in the years <date> 371-377</date>. 
+                     He was ordained  as a preist <date> 386</date> and then he preached in the church of Antioch for 12 years. Then , in  <date> 397</date> he became the patriarchate of Constantinople.
+                     He was an extraordinary writer whose works were also translated into Gǝʿǝz . 
+                    
+                  </floruit>
+                  <death >407</death>
+               </person>
+               <listRelation>
+                  
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS5720JohnChr" 
+                     passive="LIT2085OntheL "/>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS5720JohnChr" 
+                     passive="LIT2135OntheN"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS5720JohnChr" 
+                     passive="LIT2107OntheA"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS5720JohnChr"
+                     passive="LIT2150OntheW"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS5720JohnChr"
+                     passive="LIT2143OntheS"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS5720JohnChr"
+                     passive="LIT2141OntheS"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS5720JohnChr"
+                     passive="LIT2138OntheP"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS5720JohnChr"
+                     passive="LIT2140OntheR"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS5720JohnChr"
+                     passive="LIT2100OnPass"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS5720JohnChr"
+                     passive="LIT2120OntheE"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS5720JohnChr"
+                     passive="LIT2104OnStTh"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS5720JohnChr"
+                     passive="LIT2126OntheG"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS5720JohnChr"
+                     passive="LIT2116OntheC"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS5720JohnChr"
+                     passive="LIT2103OnSile"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS5720JohnChr"
+                     passive="LIT2152OnVisi"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS5720JohnChr"
+                     passive="LIT2089OnFast"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS5720JohnChr"
+                     passive="LIT2093OnHero"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS5720JohnChr"
+                     passive="LIT2147OntheV"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS5720JohnChr"
+                     passive="LIT2133OntheL"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS5720JohnChr"
+                     passive="LIT2122OntheF"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS5720JohnChr"
+                     passive="LIT2144OntheT"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS5720JohnChr"
+                     passive="LIT2101OnPeni"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS5720JohnChr"
+                     passive="LIT2094OnHoly"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS5720JohnChr"
+                     passive="LIT2086OnAdam"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS5720JohnChr"
+                     passive="LIT2098OnJuda"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS5720JohnChr"
+                     passive="LIT2108OntheA"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS5720JohnChr"
+                     passive="LIT2123OntheF"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS5720JohnChr"
+                     passive="LIT1652Homily"
+                     ></relation>
+                  
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS5720JohnChr"
+                     passive="LIT3175Commen"
+                     ></relation>
+                  
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS5720JohnChr"
+                     passive="LIT2456Tergwa"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS5720JohnChr"
+                     passive="LIT1371Exposi"
+  
             
-            <listRelation>
-               <relation name="saws:isAttributedAuthorOf" active="PRS5720JohnChr" passive="LIT2085OntheL "/>
-            </listRelation>
-            
+                     ></relation>
+               </listRelation>
          </listPerson>
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Witakowski2007JohnChry"/>
+            </bibl>  
+        
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+               
