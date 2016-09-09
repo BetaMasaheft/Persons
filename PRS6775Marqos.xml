@@ -11,6 +11,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Marqos [II]</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,20 +46,69 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-09-09">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+           
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">ማርቆስ፡</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Mārqos II</persName>
+                  <persName><roleName type="title">ʾabuna</roleName></persName>
+                  <occupation type="ecclesiastic"> metropolitan </occupation>
+                  <nationality type="Egypt"/>
+                  <faith type="Coptic"/>
+                  <birth></birth>
                   
-                  Marqos [II]
-               </persName>
-               <occupation> metr.</occupation>
-               <death>d. 1582</death>
-            </person>
+                  <floruit when="1576">He was a  metropolitan of the Ethiopian Orthodox Church who succeded  ʾabuna
+                     <persName ref="PRS7827Petros">Ṗeṭros</persName>in <date>1576</date> during the twentienth reign of  
+                     King <persName ref="PRS8550sardaDe">Śarḍa Dǝngǝl</persName>. There is no exact information about the end year of his  tenure but it is reported that he was dismissed by 
+                     King <persName ref="PRS8550sardaDe">Śarḍa Dǝngǝl</persName> and exiled to <placeName ref="LOC2522Daq">Daq</placeName> where he died.
+                     He was succeded by ʾabuna <persName ref="PRS6070Krestodo">Krǝstodolu I</persName>
+                     
+                     
+                  </floruit>
+                  <death> He died in <date>1588</date></death>
+               </person>
+               <listRelation>
+                  
+                  
+                  <relation name= "bm:ordainedBy "
+                     active="PRS6775Marqos"
+                     passive="PRS5709JohnXIV"
+                     ></relation>
+                  <relation name= "bm:hasOrdained"
+                     active="PRS6774Marqos"
+                     passive="PRS3779enbaqom"
+                     ></relation>
+               
+               </listRelation>
          </listPerson>
+         
+         
+         
+         <listBibl type="secondary">
+            
+            
+            
+            <bibl> 
+               <ptr target="bm:Cohen2007Marqos"/>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Tedeschi1991EthiopianPre"/>
+               <biblScope unit="page">1019a-b</biblScope>
+            </bibl> 
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+
+                  
+                  

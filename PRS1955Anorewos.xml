@@ -70,6 +70,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listRelation>
                
                <relation name="snap:AllianceWith"
+                  
                   active="PRS1955Anorewos"
                   passive="PRS2528Basalota"
                   ></relation>
@@ -87,6 +88,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   ></relation>
             </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:ContiRossini1905Anorewos"/>
+            </bibl>
+         </listBibl>
          <listBibl type="secondary">
             <bibl> 
                <ptr target="bm:SamuelundRed2003Anorewos"/>
