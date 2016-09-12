@@ -11,6 +11,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Marqos [III]</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,20 +46,86 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-09-12">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ማርቆስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized"> Marqos [III]</persName>
+               <persName><roleName type="title">ʾabuna</roleName></persName>
+               <occupation type="ecclesiastic"> metropolitan </occupation>
+               <nationality type="Egypt"/>
+               <faith type="Coptic"/>
+               <birth></birth>
+               
+               <floruit when="1636">He was a metropolitan of the Ethiopian Orthodox Church who succeded  ʾabuna
+                  <persName ref="PRS8740Semon">Sǝmʿon</persName>in <date>1636</date> during the reign of  
+                  King <persName ref="PRS4015Fasilada">Fāsiladas</persName>. He was consecrated in Cairo  in <date>1634</date> 
+                  by the Coptic Patriarch <persName ref="PRS6905Matthew">Matthew (Matewos) III</persName> and travelled to Ethiopia accampanied 
+                  with <persName ref="PRS5324Heyling">Heyling</persName>.
                   
-                  Marqos [III]
-               </persName>
-               <occupation> metr.</occupation>
-               <death>d. 1648</death>
+               </floruit>
+               <death> He died on <date> 1647/48</date> </death>
             </person>
+            <listRelation>
+               <relation name= "bm:ordainedBy "
+                  active="PRS6776Marqos"
+                  passive="PRS6905Matthew"
+                  ></relation>
+               <relation name=  "snap:FriendshipFor"
+                  
+                  active="PRS6776Marqos"
+                  passive="PRS5324Heyling"
+                  ></relation>
+               <relation name=  "snap:AllianceWith"
+                  
+                  active="PRS6776Marqos"
+                  passive="PRS4015Fasilada"
+                  ></relation>
+               <relation name=  "snap:AllianceWith"
+                  
+                  active="PRS6776Marqos"
+                  passive="PRS9848Walatta"
+                  ></relation>
+            
+               
+            </listRelation>
          </listPerson>
+         
+         <listBibl type="secondary">
+            
+            <bibl> 
+               <ptr target="bm:Wion2007MarqosIII"/>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Tedeschi1991EthiopianPre"/>
+               <biblScope unit="page">1022b -1023a</biblScope>
+            </bibl> 
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  
+                  
