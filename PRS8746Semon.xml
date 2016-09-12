@@ -11,6 +11,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Sǝmʿon</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,64 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-09-12">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Sǝmʿon
-               </persName>
-               <occupation> ras </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ስምዖን፡ </persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Sǝmʿon</persName>
+             <persName><roleName type="title"> rās </roleName></persName>
+               <occupation type="political"> governor</occupation>
+               <occupation type="ecclesiastic"> writer </occupation>
+               <nationality type="Ethiopia"/>
+               <faith type="Orthodox"/>
+               <birth></birth>
+               <floruit > He was an important official in the reign of King <persName ref="PRS6229LebnaDe"> Lǝbna Dǝngǝl</persName>. He was the governor of <placeName ref="LOC3737Hagara">Hagara Māryām</placeName>. He was also the founder of the church of 
+                  <placeName ref="LOC3736Hagara">Hagara Māryām </placeName>. Apart his political leadership, he was also a capable writer and scholar of Gǝʿǝz  lietrature. </floruit>
+               <death> </death>
+          
             </person>
+            
+            <listRelation>
+               <relation name= "snap:AllianceWith"
+                  
+                  active="PRS8746Semon" 
+                  passive= "PRS6229LebnaDe"
+                  
+                  ></relation>
+               
+               <relation name="snap:SonOf" 
+                  active="PRS8746Semon" 
+                  passive="PRS7458NagadaI"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="PRS8746Semon" 
+                  passive="LIT1950Mashaf"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="PRS8746Semon" 
+                  passive="LIT3983Dersan"
+                  ></relation>
+               
+               
+                </listRelation>
+            
+            
          </listPerson>
+         
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Getachew2010Semon"/>
+            </bibl>
+            
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+               
+                  
+                  
