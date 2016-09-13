@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mäzmurä Dǝngǝl</title>
+            <title>Mazmura Dǝngǝl</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +44,60 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-09-13">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+         <persName xml:lang="gez" xml:id="n1" type="birthName">መዝሙረ፡ ድንግል፡ </persName>
+          <persName xml:lang="gez" corresp="#n1" type="normalized">Mazmura Dǝngǝl</persName>
+       <persName><roleName type="title">ʾabbā</roleName></persName>
+         <occupation type=" ecclesiastic"> monk </occupation>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <birth></birth>
+    <floruit > He was a 15th century monk who believed to have been a disciple of <persName ref="PRS4709Giyorgis">Giyorgis of Saglā</persName>. 
+         He is also credited with the auhorship of a collection of hymns devoted to St. Mary <title ref="LIT3985Mazmura">Mazmura Dǝngǝl</title>.
+                     
+                  </floruit>
+                  <death ></death>
                   
-                  Mäzmurä Dǝngǝl
-               </persName>
-               <occupation> monk </occupation>
-            </person>
+               </person>
+               <listRelation>
+                
+                  <relation name="snap:AllianceWith"
+                     active="PRS6955Mazmura"
+                     passive="PRS4709Giyorgis"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS6955Mazmura"
+                     passive="LIT3985Mazmura"
+                     ></relation>
+              
+                  <relation name="saws:P129i_is_subject_of"
+                     active="PRS6955Mazmura"
+                     passive="LIT2622ZenaMa"
+                  ></relation>
+                  
+               </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+        
+            <bibl> 
+               <ptr target="bm:Raineri2010MazmuraDengel"/>
+            </bibl>  
+            
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+               
