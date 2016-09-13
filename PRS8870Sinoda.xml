@@ -7,10 +7,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS8870Sinoda">
+   
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Sinoda</title>
+            <title>Sinodā</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +47,68 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-09-13">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Sinoda
-               </persName>
-               <occupation> metr. </occupation>
-            </person>
+                     <persName xml:lang="gez" xml:id="n1" type="birthName">ክርስቶዶሉ፡</persName>
+                     <persName xml:lang="gez" corresp="#n1" type="normalized">Krǝstodolu [II]</persName>
+                     <persName><roleName type="title">ʾabuna</roleName></persName>
+                     <occupation type="ecclesiastic"> metropolitan </occupation>
+                     <nationality type="Egypt"/>
+                     <faith type="Coptic"/>
+                     <birth></birth>
+               <residence>He was at <placeName ref="LOC6376Yebaba">Yǝbābā</placeName></residence>
+                     
+               <floruit when="1671">He was a metropolitan of the Ethiopian Orthodox Church who was consecrated by Coptic Patriarch 
+                  <persName ref="PRS6906Matthew">Matthew (Mātewos) IV</persName> to replace ʾabuna 
+                  <persName ref="PRS6071Krestodo">Krǝstodolu [II]</persName> in <date>1671</date> who was imprisoned due to religious controversy. He was very ally  to the King in power until the end of his tenure in <date>1692</date>. 
+               
+                        .      
+                     </floruit>
+                     <death> He died in <date>1699</date> </death>
+                  </person>
+                  <listRelation>
+                     <relation name= "bm:ordainedBy "
+                        active="PRS8870Sinoda"
+                        passive="PRS6906Matthew"
+                        ></relation>
+                     <relation name=  "snap:AllianceWith"
+                        
+                        active="PRS8870Sinoda"
+                        passive="PRS10375Yohanne"
+                        ></relation>
+                     <relation name=  "snap:AllianceWith"
+                        
+                        active="PRS8870Sinoda"
+                        passive="PRS5616IyasuI"
+                        ></relation>
+                     
+                  </listRelation>
          </listPerson>
+      
+         
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Wion2010Sinoda"/>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Tedeschi1991EthiopianPre"/>
+               <biblScope unit="page">1025a-1026b</biblScope>
+            </bibl> 
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+
+     
+               

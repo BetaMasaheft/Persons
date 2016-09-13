@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Rǝtuʿa Haymanot</title>
+            <title>Rǝtuʿa Hāymānot</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,23 +46,106 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-09-13">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Rǝtuʿa Haymanot
-               </persName>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ርቱዐ፡ ሃይማኖት፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Rǝtuʿa Hāymānot</persName>
+               <persName><roleName type="title"> </roleName></persName>
+        
+               <occupation type="ecclesiastic"> writer </occupation>
+               <nationality type="Ethiopia"/>
+               <faith type="Orthodox"/>
+               <birth></birth>
+               <floruit > It is the pen name of several traditional scholars of the Ethiopian Orthodox Church. This name also used as an epithet of spritual learders such as 
+                  <persName ref="PRS5720JohnChr">John Chrysostom</persName>, 
+                  King <persName ref="PRS3429DawitII">Dāwit II</persName>, ʾabbā <persName ref="PRS4709Giyorgis"> 
+                     Giyorgis of Saglā</persName> and King 
+                  <persName ref="PRS10626ZaraY">Zarʾa Yāʿǝqob</persName>. It is the name of the author of several texts. </floruit>
+               <death> </death>
+               
             </person>
+            
             <listRelation>
-               <relation name="unspecified">
-                  <desc> wr. </desc>
-               </relation>
-            </listRelation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="PRS8121RetuaH"
+                  passive="LIT2131OntheI"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="PRS8121RetuaH"
+                  passive="LIT2113OntheB"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="PRS8121RetuaH"
+                  passive="LIT2095OnHowO"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="PRS8121RetuaH"
+                  passive="LIT2096OnHowO"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="PRS8121RetuaH"
+                  passive="LIT2092OnFast"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="PRS8121RetuaH"
+                  passive="LIT2090OnFast"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="PRS8121RetuaH"
+                  passive="LIT2091OnFast"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="PRS8121RetuaH"
+                  passive="LIT2118OntheD"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="PRS8121RetuaH"
+                  passive="LIT2109OntheA"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="PRS8121RetuaH"
+                  passive="LIT2137OntheP"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="PRS8121RetuaH"
+                  passive="LIT2129OntheH"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="PRS8121RetuaH"
+                  passive="LIT2145OntheT"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="PRS8121RetuaH"
+                  passive="LIT2110OntheA"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="PRS8121RetuaH"
+                  passive="LIT1640Homily"
+                  ></relation>
+              
+               
+             </listRelation>
+            
+            
          </listPerson>
+         
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Getachew2010RetuaHaymanot"/>
+            </bibl>
+            
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+                  
+               
