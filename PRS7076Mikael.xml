@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mikaʾel [IV]</title>
+            <title>Mikāʾel [IV]</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,64 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-09-13">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Mikaʾel [IV]
-               </persName>
-               <occupation> metr.</occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ሚካኤል፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Mikāʾel [IV]</persName>
+               <persName><roleName type="title">ʾabuna</roleName></persName>
+               <occupation type="ecclesiastic"> metropolitan </occupation>
+               <nationality type="Egypt"/>
+               <faith type="Coptic"/>
+               <birth></birth>
+               
+               <floruit when="1650">He was a metropolitan of the Ethiopian Orthodox Church who succeded ʾabuna
+                  <persName ref="PRS6776Marqos">Mārqos [III]</persName> in <date>1650</date> during the reign of  
+                  King <persName ref="PRS4015Fasilada">Fāsiladas</persName>. During his episcopate, a debate took place between Qǝbāt (Unictionists) and Kārrā (Unionists)
+                  on <date>23 June 1655</date>. His successor was ʾabuna <persName ref="PRS6071Krestodo">Krǝstodolu [II]</persName>.      
+                 </floruit>
+               <death> He died in <date>1663</date></death>
             </person>
+            <listRelation>
+             <relation name= "bm:ordainedBy "
+                  active="PRS7076Mikael"
+                  passive="PRS6905Matthew"
+                  ></relation>
+               <relation name=  "snap:AllianceWith"
+                  
+                  active="PRS7076Mikael"
+                  passive="PRS4015Fasilada"
+                  ></relation>
+            </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Basset1881Chronicle"/>
+               <biblScope unit="page">345</biblScope>
+               </bibl>
+         </listBibl>
+        <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Wion2007MikaelIV"/>
+            </bibl>  
+           <bibl> 
+               <ptr target="bm:Tedeschi1991EthiopianPre"/>
+               <biblScope unit="page">1023b-1024a</biblScope>
+            </bibl> 
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+              

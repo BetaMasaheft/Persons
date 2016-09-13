@@ -11,6 +11,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Krǝstodolu [II]</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,69 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-09-13">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Krǝstodolu [II]
-               </persName>
-               <occupation> metr.  </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ክርስቶዶሉ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Krǝstodolu [II]</persName>
+               <persName><roleName type="title">ʾabuna</roleName></persName>
+               <occupation type="ecclesiastic"> metropolitan </occupation>
+               <nationality type="Egypt"/>
+               <faith type="Coptic"/>
+               <birth></birth>
+               
+               <floruit when="1664">He was a metropolitan of the Ethiopian Orthodox Church who succeded  ʾabuna
+                  <persName ref="PRS7076Mikael">Mikāʾel [IV]</persName> in <date>1664</date> during the last years of  
+                  King <persName ref="PRS4015Fasilada">Fāsiladas</persName> and his successor  King <persName ref="PRS10375Yohanne">Yoḥannǝs I </persName>. 
+                .      
+               </floruit>
+               <death> He died in <date>1675/876</date> buried in <placeName ref="LOC3581GonjTe">Gonǧ Tewodros</placeName></death>
             </person>
+            <listRelation>
+               <relation name= "bm:ordainedBy "
+                  active="PRS6071Krestodo"
+                  passive="PRS6906Matthew"
+                  ></relation>
+               <relation name=  "snap:AllianceWith"
+                  
+                  active="PRS6071Krestodo"
+                  passive="PRS4015Fasilada"
+                  ></relation>
+               <relation name=  "snap:AllianceWith"
+                  
+                  active="PRS6071Krestodo"
+                  passive="PRS10375Yohanne"
+                  ></relation>
+               
+            </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Basset1881Chronicle"/>
+               <biblScope unit="page">347</biblScope>
+            </bibl>
+         </listBibl>
+         
+
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Donzel2007KrestodoluII"/>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Tedeschi1991EthiopianPre"/>
+               <biblScope unit="page">1024b-1025a</biblScope>
+            </bibl> 
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+                  
+                
