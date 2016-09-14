@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Dawit III</title>
+            <title>Dāwit III</title>
             <editor key="SG"/>
             <author/>
          </titleStmt>
@@ -52,17 +52,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+          
             <persName xml:lang="gez" xml:id="n1" type="birthName">ዳዊት፡</persName>
-                  <persName xml:lang="gez" corresp="#n1" type="normalized">Dawit III</persName>
-                  <persName><roleName type="title">aṣe</roleName></persName>
-                  <persName xml:lang="gez" xml:id="n2" type="regnalName">አድባር፡ ሰገድ፡</persName>
-                  <persName xml:lang="gez" corresp="#n2" type="normalized">Adbār Sagad</persName>
-               </persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Dāwit III</persName>
+               <persName><roleName type="title">ʾaṣe</roleName></persName>
+               <persName xml:lang="gez" xml:id="n2" type="regnalName">አድባር፡ ሰገድ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAdbār Sagad</persName>
+          
                <occupation type="ruler">Emperor</occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
-               <residence>Gondar</residence>
+               <residence><placeName ref="LOC3577Gondar"> Gondar</placeName></residence>
                <birth>in 1695</birth><age>He was 21 years of age when he became a king</age>
                <floruit when="1716" evidence="internal">He succeded his brother King <persName ref="PRS9152TaklaHa">Takla Hāymānot I</persName> in <date> 1716</date>.
                   He was often known by his nick name " the Singer".
