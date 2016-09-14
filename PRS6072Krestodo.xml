@@ -11,6 +11,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Krǝstodolu [III]</title>
+         
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +47,74 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-09-14">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Krǝstodolu [III]
-               </persName>
-               <occupation> metr.  </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ክርስቶዶሉ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Krǝstodolu III</persName>
+               <persName><roleName type="title">ʾabuna</roleName></persName>
+               <occupation type="ecclesiastic"> metropolitan </occupation>
+               <nationality type="Egypt"/>
+               <faith type="Coptic"/>
+               <birth></birth>
+               <residence><placeName ref="LOC3577Gondar"> Gondar</placeName></residence>
+               
+               <floruit when="1716">He was a metropolitan of the Ethiopian Orthodox Church who was consecrated by Coptic Patriarch 
+                  <persName ref="PRS11127PeterVI"> Peter VI</persName> succeded ʾabuna 
+                  <persName ref="PRS6777Marqos">Mārqos IV</persName> in <date>1716</date>. 
+                   </floruit>
+               <death> He died on <date>1735</date> </death>
             </person>
+            <listRelation>
+               <relation name= "bm:ordainedBy "
+                  active="PRS6777Marqos"
+                  passive="PRS5711JohnXVI"
+                  ></relation>
+               <relation name=  "snap:AllianceWith"
+                  
+                  active="PRS6777Marqos"
+                  passive="PRS5616IyasuI"
+                  ></relation>
+               <relation name=  "snap:AllianceWith"
+                  
+                  active="PRS6777Marqos"
+                  passive="PRS9152TaklaHa"
+                  ></relation>
+               <relation name=  "snap:AllianceWith"
+                  
+                  active="PRS6777Marqos"
+                  passive="PRS7925Poncet"
+                  ></relation>
+               
+            </listRelation>
          </listPerson>
+         
+         
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target= "bm:Chernestsov2007KrestodoluIII"/>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Tedeschi1991EthiopianPre"/>
+               <biblScope unit="page">1028a-b</biblScope>
+            </bibl> 
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+            
