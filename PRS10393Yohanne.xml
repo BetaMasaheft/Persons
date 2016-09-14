@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Yoḥannǝs [III / XIV]</title>
+            <title>Yoḥannǝs III </title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,75 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-09-14">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Yoḥannǝs [III / XIV]
-               </persName>
-               <occupation> metr. </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ዮሐንስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Yoḥannǝs III </persName>
+               <persName><roleName type="title">ʾabuna</roleName></persName>
+               <occupation type="ecclesiastic"> metropolitan </occupation>
+               <nationality type="Egypt"/>
+               <faith type="Coptic"/>
+               <birth></birth>
+               <residence><placeName ref="LOC3577Gondar"> Gondar</placeName></residence>
+               
+               <floruit when="1744">He was a metropolitan of the Ethiopian Orthodox Church who was consecrated by Coptic Patriarch 
+                  <persName ref="PRS5712JohnXVI"> John XVII</persName> and succeded ʾabuna 
+                  <persName ref="PRS6072Krestodo">Krǝstodolu III</persName> in <date>1744</date>. He was a contemporary of
+                  King <persName ref="PRS5617IyasuII">Iyāsu II</persName> and King <persName ref="PRS5636IyoasI">Iyoʾas I</persName>. He was succeded, eight years later by  ʾabuna 
+                  <persName ref="PRS10450YosabI">Yosāb II</persName> in <date>1770</date>.
+               </floruit>
+               <death> He died on <date> 15 November 1761</date> and buried at <placeName ref="LOC1582ASSaSa">ʾAṣṣāṣāme Qǝddus Mikāʾel</placeName> </death>
             </person>
+            <listRelation>
+               <relation name= "bm:ordainedBy "
+                  active="PRS10393Yohanne"
+                  passive="PRS5712JohnXVI"
+                  ></relation>
+               <relation name=  "snap:AllianceWith"
+                  
+                  active="PRS10393Yohanne"
+                  passive="PRS5617IyasuII"
+                  ></relation>
+               <relation name=  "snap:AllianceWith"
+                  
+                  active="PRS10393Yohanne"
+                  passive="PRS5636IyoasI"
+                  ></relation>
+               <relation name=  "snap:AllianceWith"
+                  
+                  active="PRS10393Yohanne"
+                  passive= "PRS2682BerhanM"
+                  ></relation>
+           </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target= "bm:Raineri2014YohannesIII"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Crummey1972Priests"/>
+               <biblScope unit="page">20-24</biblScope>
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Tedeschi1991EthiopianPre"/>
+               <biblScope unit="page">1028b-1030a</biblScope>
+            </bibl> 
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
