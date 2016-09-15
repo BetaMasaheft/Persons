@@ -6,11 +6,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
      xml:lang="en"
-     xml:id="PRS10450YosabI">
+     xml:id="PRS11137QerellosII">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Yosāb II</title>
+            <title>Qerǝllos II</title>
             <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
@@ -45,7 +45,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-09-15">CREATED: place</change>
          <change who="SG" when="2016-09-15">Complete record</change>
       </revisionDesc>
    </teiHeader>
@@ -53,56 +53,57 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName xml:lang="gez" xml:id="n1" type="birthName">ዮሳብ፡</persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized">Yosāb II</persName>
-               <persName><roleName type="title">ʾabuna</roleName></persName>
-               <occupation type="ecclesiastic"> metropolitan </occupation>
-               <nationality type="Egypt"/>
-               <faith type="Coptic"/>
-               <birth></birth>
-               <residence><placeName ref="LOC3577Gondar"> Gondar</placeName></residence>
-               
-               <floruit when="1770">He was a metropolitan of the Ethiopian Orthodox Church who succeded ʾabuna 
-                  <persName ref="PRS10393Yohanne">Yoḥannǝs III</persName> in <date>1770</date> and arrived in the reign of 
-                  King <persName ref="PRS9153TaklaHa">Takla Hāymānot II</persName> and when rās <persName ref="PRS7091Mikael">Mikāʾel Sǝḥul</persName>
-                  was chief of <placeName ref="LOC5932Tegray">Tǝgrāy</placeName> and the effective master of the Kingdom.  
-               </floruit>
-               <death> He died on <date>1803</date></death>
-            </person>
-            <listRelation>
+           <persName xml:lang="gez" xml:id="n1" type="birthName">ቄርሎስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Qerǝllos II</persName>
+                  <persName><roleName type="title">ʾabuna</roleName></persName>
+                  <occupation type="ecclesiastic"> metropolitan </occupation>
+                  <nationality type="Egypt"/>
+                  <faith type="Coptic"/>
+                  <birth></birth>
+                  <residence><placeName ref="LOC3577Gondar"> Gondar</placeName></residence>
+                  
+               <floruit when="1816">He was a metropolitan of the Ethiopian Orthodox Church who was consecrated by<persName ref="PRS11127PeterVI">PeterVI</persName> and 
+                  succeded ʾabuna <persName ref="PRS10450YosabI">Yosāb II</persName> in <date>1816</date>. He was consecrated following the second request 
+                  of <persName ref="PRS9978Waldase">Walda Śǝllāse</persName>, a lord of  <placeName ref="LOC5932Tegray">Tǝgrāy</placeName>.
+                  </floruit>
+                  <death> He died on <date>1828</date></death>
+               </person>
+               <listRelation>
                   <relation name=  "snap:AllianceWith"
-                  
-                  active="PRS10450YosabI"
-                  passive="PRS5618IyasuII"
-                  ></relation>
-               <relation name=  "snap:AllianceWith"
-                  
-                  active="PRS10450YosabI"
-                  passive="PRS2336BaedaM"
-                  ></relation>
-               <relation name=  "snap:AllianceWith"
-                  
-                  active="PRS10450YosabI"
-                  passive= "PRS2335BaedaM"
-                  ></relation>
-               <relation name=  "snap:AllianceWith"
-                  
-                  active="PRS10450YosabI"
-                  passive="PRS8423Salomon"
-                  ></relation>
-            </listRelation>
+                     
+                     active="PRS11137QerellosII"
+                     passive="PRS9978Waldase"
+                     ></relation>
+                  <relation name=  "bm:ordainedBy"
+                     
+                     active="PRS11137QerellosII"
+                     passive="PRS11127PeterVI"
+                     ></relation>
+                  <relation name=  "snap:AllianceWith"
+                     
+                     active="PRS11137QerellosII"
+                     passive= "PRS5637IyoasI"
+                     ></relation>
+                  <relation name=  "snap:AllianceWith"
+                     
+                     active="PRS11137QerellosII"
+                     passive="PRS8265Sabagadi"
+                     ></relation>
+                  <relation name=  "snap:AllianceWith"
+                     
+                     active="PRS11137QerellosII"
+                     passive="PRS4870GugsaMa"
+                     ></relation>
+               </listRelation>
          </listPerson>
          <listBibl type="secondary">
             <bibl> 
-               <ptr target= "bm:Ancel2014YosabII"/>
+               <ptr target= "bm:Crummey2010Qerellos"/>
             </bibl>
-            <bibl>
-               <ptr target="bm:Blundell1922Chronicle"/>
-               <biblScope unit="page">226, 275, 277, 303, 342, 357, 397, 421-22, 431, 433, 448-54, 458, 460, 464, 466, 474-75, 480</biblScope>
-            </bibl>
+       
             <bibl> 
                <ptr target="bm:Tedeschi1991EthiopianPre"/>
-               <biblScope unit="page">1030b-1032a</biblScope>
+               <biblScope unit="page">1032a-1033a</biblScope>
             </bibl> 
          </listBibl>
          
@@ -119,7 +120,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
 
 
-       
-                  
 
-               
+
+
+
+              
