@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Atnatewos</title>
+            <title>ʾAtnātewos</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,20 +46,72 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-09-15">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">አትናቴዎስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAtnātewos</persName>
+               <persName><roleName type="title">ʾabuna</roleName></persName>
+               <occupation type="ecclesiastic"> metropolitan </occupation>
+               <nationality type="Egypt"/>
+               <faith type="Coptic"/>
+               <birth></birth>
+               <residence><placeName ref="LOC3577Gondar"> Gondar</placeName> </residence>
+               
+               <floruit when="1867">He was the metropolitan of Ethiopian Orthodox Church who was consecrated by <persName ref="PRS3500Demetriu">Demetrius II of Alexandria</persName> 
+                  in <date>1867</date>.  He was the immediate successor of ʾabuna <persName ref="PRS8388SalamaI">Salāmā III</persName>. He was consecrated through the official request of 
+                  Emperor <persName ref="PRS10378Yohanne"> Yoḥannǝs IV</persName> whom he consecrated as King of Kings of Ethiopia in <date>1872 </date> at 
+                  <placeName ref="LOC1311AksumS">ʾAksum Ṣǝyon</placeName>. Following the conflict between  Emperor <persName ref="PRS10378Yohanne"> Yoḥannǝs IV</persName>
+                  and Egyptian, he leaned towards his land. This situation created a hostile relation between the two and later he formed an alliance with the strong rival of Emperor <persName ref="PRS10378Yohanne"> Yoḥannǝs IV
+                  </persName> King <persName ref="PRS7006Menilek">Mǝnilǝk II</persName>.
                   
-                  Atnatewos
-               </persName>
-               <persName type="alt">Atǝnatewos</persName>
-               <occupation> metr.</occupation>
+               </floruit>
+               <death> He died on <date>1876</date> and buried at <placeName ref="LOC1264Adwa">ʾAdwā</placeName></death>
             </person>
+            <listRelation>
+               <relation name=  "snap:AllianceWith"
+                  
+                  active="PRS2225Atnatewo"
+                  passive="PRS10378Yohanne"
+                  ></relation>
+               <relation name=  "bm:ordainedBy"
+                  
+                  active="PRS2225Atnatewo"
+                  passive="PRS3500Demetriu"
+                  ></relation>
+               <relation name="bm:hasOrdained"
+                  
+                  active="PRS2225Atnatewo"
+                  passive="PRS10378Yohanne"
+                  ></relation>
+               
+               <relation name=  "snap:AllianceWith"
+                  
+                  active="PRS2225Atnatewo"
+                  passive="PRS7006Menilek"
+                  ></relation>
+            </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target= "bm:Rubenson2003Atnatewos"/>
+            </bibl>
+            
+            <bibl> 
+               <ptr target="bm:Tedeschi1991EthiopianPre"/>
+               <biblScope unit="page">1036b-1037b</biblScope>
+            </bibl> 
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+
