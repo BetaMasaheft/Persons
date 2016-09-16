@@ -11,6 +11,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Matewos</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,21 +46,81 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-09-15">Complete record</change>
+         
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Matewos
-               </persName>
-               <occupation> bishop</occupation>
-               <occupation> metr. </occupation>
-               <death>d. 1926</death>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ማቴዎስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Mātewos</persName>
+               <persName><roleName type="title">ʾabuna</roleName></persName>
+               <occupation type="ecclesiastic"> metropolitan </occupation>
+               <nationality type="Egypt"/>
+               <faith type="Coptic"/>
+               <birth>1843</birth>
+               <residence></residence>
+               <floruit when="1889">He was the metropolitan of the Ethiopian Orthodox Church, consecrated by <persName ref="PRS3258CyrilIV"> Cyril IV</persName>  
+                  in <date>1889</date>. He arrived to Ethiopia in <date>1881</date> together with the other three bishops such as <persName ref="PRS6876Matewos">Mātewos</persName>, 
+                  <persName ref="PRS6404Luqas">Luqās</persName> and<persName ref="PRS7830Petros">Ṗeṭros IV</persName> requested by
+                  Emperor <persName ref="PRS10378Yohanne">Yoḥannǝs IV </persName>. He was a bishop of <placeName ref="LOC5597Sawa">Šäwa</placeName> from <date>1881</date> 
+                  to  <date>1881</date>. Following the death of  Emperor <persName ref="PRS10378Yohanne">Yoḥannǝs IV </persName> in <date>1889</date>, 
+                  when <persName ref="PRS7006Menilek">Mǝnilǝk II</persName> became Emperor he received permission from Coptic patriarch 
+                  <persName ref="PRS3258CyrilIV"> Cyril IV</persName> and he replaced  ʾabuna <persName ref="PRS7830Petros">Ṗeṭros IV</persName>as a metropolitan. 
+               </floruit>
+               <death> He died on <date> 20 October 1926</date></death>
             </person>
+            <listRelation>
+               <relation name=  "bm:ordainedBy"
+                  
+                  active="PRS6876Matewos"
+                  passive="PRS3258CyrilIV"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  
+                  active="PRS6876Matewos"
+                  passive= "PRS10378Yohanne"
+                  ></relation>
+               <relation name=  "snap:FriendshipFor"
+                  
+                  active="PRS6876Matewos"
+                  passive="PRS6404Luqas"
+                  ></relation>
+               <relation name=  "snap:FriendshipFor"
+                  
+                  active="PRS6876Matewos"
+                  passive="PRS7830Petros"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  
+                  active="PRS6876Matewos"
+                  passive="PRS7006Menilek"
+                  ></relation>
+         
+               
+            </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target= "bm:Kaplan2007Matewos"/>
+            </bibl>
+            
+            <bibl> 
+               <ptr target="bm:Tedeschi1991EthiopianPre"/>
+               <biblScope unit="page">1038b-1040a</biblScope>
+            </bibl> 
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+
+           
+                  
+                

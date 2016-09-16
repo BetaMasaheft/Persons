@@ -11,6 +11,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Qerǝllos</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,20 +46,76 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-09-16">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Qerǝllos
-               </persName>
-               <persName type="alt">Sidaros Ben Antoni</persName>
-               <occupation> metr.  </occupation>
+            <persName xml:lang="gez" xml:id="n1" type="birthName">ቄርሎስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Qerǝllos</persName>
+            <persName type="alt">Sidaros Ben Antoni</persName>
+            <persName><roleName type="title">ʾabuna</roleName></persName>
+            <occupation type="ecclesiastic"> metropolitan </occupation>
+            <nationality type="Egypt"/>
+            <faith type="Coptic"/>
+            <birth>1880</birth>
+            <residence><placeName ref="LOC1216AddisA">Addis Ababā</placeName></residence>
+               <floruit when="1929">He was the last Egyptian metropolitan of the Ethiopian Orthodox Church, consecrated by <persName ref="PRS5714JohnXIX">John XIX</persName>  
+                  in <date>1929</date> and he was also the first to be appointed over the first five Ethiopian Bishops. He annointed 
+                  <persName ref="PRS5226haylase">Ḫaylä Śǝllase I</persName> as king of kings of Ethiopia on <date> 2 November 1930</date> in 
+                  <placeName ref="LOC1216AddisA">Addis Ababā</placeName>.
+            </floruit>
+            <death> He died on <date>22 October 1950</date></death>
             </person>
+            <listRelation>
+               <relation name=  "bm:ordainedBy"
+                  
+                  active="PRS8033Qerellos"
+                  passive="PRS5714JohnXIX"
+                  ></relation>
+               <relation name=  "bm:hasOrdained"
+                  
+                  active="PRS8033Qerellos"
+                  passive="PRS5226haylase"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  
+                  active="PRS8033Qerellos"
+                  passive= "PRS5226haylase"
+                  ></relation>
+               <relation name=  "snap:FriendshipFor"
+                  
+                  active="PRS8033Qerellos"
+                  passive="PRS2533Baselyos"
+                  ></relation>
+               
+               
+            </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target= "bm:Mersha2010Qerllos"/>
+            </bibl>
+            
+            <bibl> 
+               <ptr target="bm:Tedeschi1991EthiopianPre"/>
+               <biblScope unit="page">1040a-1044a</biblScope>
+            </bibl> 
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+        
+                  
+                  
