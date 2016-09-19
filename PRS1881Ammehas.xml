@@ -11,6 +11,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Ammǝḫa Ṣǝyon</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,60 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-09-19">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Ammǝḫa Ṣǝyon
-               </persName>
-               <occupation> ʿaqqabe säʿat </occupation>
+            <persName xml:lang="gez" xml:id="n1" type="birthName">አምሐ፡ ጽዮን፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized"> ʾAmmǝḫa Ṣǝyon</persName>
+               <persName xml:lang="gez" xml:id="n2" type="birthName">አምሐ፡ ለጽዮን፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized"> ʾAmmǝḫa Laṣǝyon</persName>
+               <persName><roleName type="title">  ʿaqqābe saʿat</roleName></persName>
+            <occupation type="ecclesiastic"> abbot </occupation>
+            <nationality type="Ethiopia"/>
+            <faith type="EOTC"/>
+            <birth></birth>
+               <residence><placeName ref="LOC2288DabraH">Dabra Ḥayq Ǝsṭifānos</placeName></residence>
+               <floruit> He was the abbot of  <placeName ref="LOC2288DabraH">Dabra Ḥayq Ǝsṭifānos</placeName> during the reign of 
+                  King<persName ref="PRS10626ZaraY">Zarʾa Yāʿǝqob</persName> and he was in the royal court at 
+                  <placeName ref="LOC2246DabraB">Dabra Bǝrhan</placeName>serving the King as acounselleor. 
+            </floruit>
+               <death> after <date>1468</date> </death>
             </person>
+            <listRelation>
+               <relation name= "snap:AllianceWith"
+                  active="PRS1881Ammehas"
+                  passive="PRS10626ZaraY"
+                  ></relation>
+               <relation name= "snap:AllianceWith"
+                  active="PRS1881Ammehas"
+                  passive="PRS2334BaedaM"
+                  ></relation>
+          
+     
+            </listRelation>
          </listPerson>
+     
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Taddesse1979Abbots"/>
+               <biblScope unit="page">87-117</biblScope>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Derat2003AmmǝHaṢǝyon"/>
+            </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+         
+                  
+                  
