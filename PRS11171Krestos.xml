@@ -6,11 +6,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
      xml:lang="en"
-     xml:id="PRS10374Yohanne">
+     xml:id="PRS11171Krestos">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Yoḥannǝs</title>
+            <title>Krǝstos Moʾā</title>
             <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
@@ -18,8 +18,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
-               multimediale Forschungsumgebung / beta maṣ   
-               ḥǝft</publisher>
+            multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
             <pubPlace>Hamburg</pubPlace>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
@@ -54,31 +53,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName xml:lang="gez" xml:id="n1" type="birthName">ዮሐንስ፡</persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized">Yoḥannǝs</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ክርስቶስ፡ ሞአ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Krǝstos Moʾā</persName>
                <persName><roleName type="title"> ʿaqqābe saʿat</roleName></persName>
                <occupation type="ecclesiastic"> abbot </occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <birth></birth>
                <residence><placeName ref="LOC2288DabraH">Dabra Ḥayq Ǝsṭifānos</placeName></residence>
-               <floruit>He was the fourteenth century  abbot of  <placeName ref="LOC2288DabraH">Dabra Ḥayq Ǝsṭifānos</placeName> 
-                  during the reign of King <persName ref="PRS8595SayfaAr">Sayfa Arʿad</persName>. He was a very strong abbot who organized the monastery and the services of 
-                  individual members of the community during his term office. It is not known exactly when his term office started and nor when it came to an end. He was succeded by
-                  ʿaqqābe saʿat<persName ref="PRS11171Krestos">Krǝstos Moʾā</persName>. He had a land grant mentioned in <ref type="mss" corresp="NALE28" xml:id="NALE28"/>
-                  .
-                  
-               </floruit>
+               <floruit>He was the abbot of <placeName ref="LOC2288DabraH">Dabra Ḥayq Ǝsṭifānos</placeName> sometime in the reign 
+                  of King <persName ref="PRS8595SayfaAr">Sayfa Arʿad</persName>.
+                  He was the immediate successor of ʿaqqābe saʿat<persName ref="PRS10374Yohanne">Yoḥannǝs</persName>.
+        </floruit>
                <death> </death>
             </person>
             <listRelation>
                <relation name= "snap:AllianceWith"
-                  active="PRS10374Yohanne"
+                  active="PRS11171Krestos"
                   passive="PRS8595SayfaAr"
                   ></relation>
                <relation name="snap:AllianceWith"
-                  active="PRS10374Yohanne"
-                  passive="PRS6078Krestos"
+                  active="PRS11171Krestos"
+                  passive="PRS10374Yohanne"
                   ></relation>
                
                
@@ -87,10 +83,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          
          
          <listBibl type="secondary">
-            <bibl> 
-               <ptr target="bm:Sadwa1952Gospel"/>
-               <biblScope unit="page">20-23</biblScope>
-            </bibl>  
+       
             
             <bibl> 
                <ptr target="bm:Taddesse1970Abbots"/>
@@ -111,4 +104,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
 
 
+
+               
                
