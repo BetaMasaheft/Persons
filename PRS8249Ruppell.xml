@@ -55,7 +55,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
       
-               <persName>Eduard Rüppell </persName>
+               <persName>
+                  <forename>Eduard</forename>
+                  <surname>Rüppell</surname> </persName>
   
                   <occupation type="academic">traveller</occupation>
                   <nationality type="Germany"/>
@@ -77,7 +79,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </listPerson>
          <listBibl type="secondary">
             <bibl> 
-               <ptr target="bm:Rüppell1840Reise"/>
+               <ptr target="bm:Rueppell1838Reise"/>
+            </bibl>   
+            <bibl> 
+               <ptr target="bm:Rueppell1840Reise"/>
             </bibl>  
         
         <bibl> 
