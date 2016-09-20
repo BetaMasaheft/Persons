@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Krǝstos Täsfanä</title>
+            <title>Krǝstos Tasfāna</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,67 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-09-20">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+            <persName xml:lang="gez" xml:id="n1" type="birthName">ክርስቶስ፡ ተስፋነ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Krǝstos Tasfāna</persName>
+                 <persName><roleName type="title"> ʿaqqābe saʿat</roleName></persName>
+                  <occupation type="ecclesiastic"> abbot </occupation>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <birth></birth>
+                  <residence><placeName ref="LOC2288DabraH">Dabra Ḥayq Ǝsṭifānos</placeName></residence>
+                  <floruit when="1299"> He was one of the illustrious early abbots of  <placeName ref="LOC2288DabraH">Dabra Ḥayq Ǝsṭifānos</placeName> 
+                     succeded <persName ref="PRS10531Zaiyas">Zaʾiyasus</persName> in around <date>1299</date>. He lived in the vital period of 
+                     King<persName ref="PRS1854Amdase">ʾAmda Ṣǝyon I</persName>. He was very close to the King and
+                     the King<persName ref="PRS1854Amdase">ʾAmda Ṣǝyon I</persName>affectionately called him "my Father". 
+                     He was the owner of the manuscript of the <title ref="NALE28">Four Gospels</title>.
+                     
+                  </floruit>
+                  <death> <date>1339/40</date> </death>
+               </person>
+               <listRelation>
+                  <relation name= "snap:AllianceWith"
+                     active="PRS6080Krestos"
+                     passive="PRS1854Amdase"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS6080Krestos"
+                     passive="PRS10391Yohanne"
+                     ></relation>
                   
-                  Krǝstos Täsfanä
-               </persName>
-               <occupation> ʿaqqabe säʿat </occupation>
-            </person>
+                  
+               </listRelation>
          </listPerson>
+         
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Sadwa1952Gospel"/>
+              <biblScope unit="page">14-15</biblScope>
+               </bibl>  
+                
+      <bibl> 
+               <ptr target="bm:Taddesse1970Abbots"/>
+               <biblScope unit="page">87-117</biblScope>
+            </bibl>  
+         
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+                  
+                  
