@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Täsfa Giyorgis</title>
+            <title>Tasfā Giyorgis</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,60 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-09-21">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Täsfa Giyorgis
-               </persName>
-               <occupation> ʿaqqabe säʿat </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ተስፋ፡ ጊዮርጊስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Tasfā Giyorgis </persName>
+               <persName><roleName type="title"> ʿaqqābe saʿat</roleName></persName>
+               <occupation type="ecclesiastic"> abbot </occupation>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <birth></birth>
+               <residence><placeName ref="LOC2288DabraH">Dabra Ḥayq ʾƎsṭifānos</placeName></residence>
+               <floruit when="1478">He was the abbot of  <placeName ref="LOC2288DabraH">Dabra Ḥayq ʾƎsṭifānos</placeName> 
+                  during the reign of King <persName ref="PRS2334BaedaM"></persName>. 
+                 
+               </floruit>
+               <death> <date>1486</date> </death>
             </person>
+            <listRelation>
+               <relation name= "snap:AllianceWith"
+                  active="PRS9272TasfaGi"
+                  passive="PRS2334BaedaM"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  active="PRS9272TasfaGi"
+                  passive="PRS10626ZaraY"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  active="PRS9272TasfaGi"
+                  passive="PRS3874eskender"
+                  ></relation>
+               
+            </listRelation>
          </listPerson>
+         
+         
+         <listBibl type="secondary">
+            <bibl> 
+             
+               <ptr target="bm:Taddesse1970Abbots"/>
+               <biblScope unit="page">87-117</biblScope>
+            </bibl>  
+            
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+              
