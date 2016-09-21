@@ -53,21 +53,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
                <persName xml:lang="gez" xml:id="n1" type="birthName">ሚናስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Minās</persName>
-               <persName><roleName type="title">aṣe</roleName></persName>
+               <persName><roleName type="title">ʾaṣe</roleName></persName>
                <persName xml:lang="gez" xml:id="n2" type="birthName">ሜናስ፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">Menās</persName>
                <persName xml:lang="gez" xml:id="n3" type="regnalName">አድማስ፡ ሰገድ፡</persName>
-		<persName xml:lang="gez" corresp="n3" type="normalized">ʾAdmās Sagad</persName>
+		<persName xml:lang="gez" corresp="n3" type="normalized">ʾAdmCs Sagad</persName>
 
 		<occupation type="ruler">Emperor</occupation>
                <birth>1526</birth>
-               <floruit when="1559" evidence="internal">As a boy, Minās was prisoner of <persName corresp="PRS1522Ahmadb">Aḥmad b. Ibrāhīm al-Ġāzī</persName>. He was then freed in a prisoner exchange in <date>1542</date>. He succeded his brother King <persName corresp="PRS4428Galawdewos">Galāwdewos</persName>. </floruit>
+               <floruit when="1559" evidence="internal">As a boy, Minās was prisoner of <persName ref="PRS1522Ahmadb">Aḥmad b. Ibrāhīm al-Ġāzī</persName>.
+                  He was then freed in a prisoner exchange in <date>1542</date>. He succeded his brother King <persName ref="PRS4428Galawdew"> Galāwdewos </persName> </floruit>
                <death when="1563" evidence="internal">1 February 1563</death> 
             </person>
             
             
             <listRelation>
-                     <relation name="snap:BrotherOf" mutual="PRS7102Minas PRS4428Galawdewos"/>
+                     <relation name="snap:BrotherOf"
+                        active="PRS7102Minas" 
+                        passive="PRS4428Galawdewos"/>
                <relation name="snap:SonOf"
                   active="PRS7102Minas"
                   passive="PRS6229LebnaDe"/>
