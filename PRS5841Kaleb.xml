@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Kaleb</title>
+            <title>Kāleb</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,20 +46,78 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-09-22">complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">Kāleb</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ካሌብ፡</persName>
+            
+               <persName xml:lang="gez" xml:id="n2" type="reignalName">እለ፡ አጽብሐ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">ʾƎlla ʾAṣbǝḥa</persName>
+               <persName><roleName type="title">ʾaṣe</roleName></persName>
+            <occupation type="ruler">Emperor</occupation>
+             <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <birth></birth>
+               <residence><placeName ref="LOC1310Aksum">ʾAksum</placeName></residence>
                   
-                  Kaleb
-               </persName>
-               <persName type="alt">Ǝlla Aṣbǝḥa</persName>
-               <occupation> king</occupation>
+               <floruit>He was a king of  Aksum in the first half of the 6th century. He is also venerated as a saint in the Ethiopian Orthodx Church. He is largely known for his expedition against 
+                  
+                  </floruit>
+               <death when="" evidence="internal"></death>
             </person>
+            <listRelation>
+               <relation name="snap:SonOf" 
+                  active="PRS5841Kaleb"
+                  passive="PRS9357Tazena"
+                  ></relation>
+               <relation name="snap:GrandfatherOf"
+                  active="PRS10303Yekunno"
+                  passive="PRS1854Amdase"
+                  ></relation>
+               <relation name= "snap:AllianceWith"
+                  
+                  active="PRS10303Yekunno"
+                  passive= "PRS9162TaklaHa" 
+                  ></relation>
+               
+               <relation name= "snap:AllianceWith"
+                  
+                  active="PRS10303Yekunno"
+                  passive= "PRS5631IyasusM" 
+                  
+                  ></relation>
+               
+            </listRelation>
          </listPerson>
+         
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Basset1882Chronicle"/>
+               <biblScope unit="page"></biblScope>
+            </bibl>
+            <bibl>
+               
+        
+               
+               <ptr target="bm:Sergew1972Ethiopianhistory"/>
+               <biblScope unit="page"></biblScope>
+            </bibl>
+            
+  
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Fiaccadori2007Kaleb"/>
+            </bibl>  
+         </listBibl>  
+         
+         
+         
       </body>
    </text>
 </TEI>
