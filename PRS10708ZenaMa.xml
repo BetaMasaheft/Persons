@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Zena Marqos</title>
+            <title>Zenā Mārqos</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,70 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-09-23">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ዜና፡ ማርቆስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Zenā Mārqos</persName>
+               <persName><roleName type="title"> ʾabbā </roleName></persName>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="ecclesiastic"> saint </occupation>
+               <birth> He was born in <placeName ref="LOC4865Morat"> Morāt</placeName></birth>
+               <floruit >He was a 14th century Ethiopian saintly monk and a founder of the monastery of <placeName ref="LOC2249DabraB">Dabra Bǝśrāt</placeName>. 
+                  He is said to have subsequently evangelized  <placeName ref="LOC1095Adal">ʾAdāl</placeName>, <placeName ref="LOC3549Gojjam">Goǧǧām</placeName>
+                  and other pagan areas of the 14 century. He visited the churches of <placeName ref="LOC1311AksumS">ʾAksum Ṣǝyon</placeName> and 
+                  <placeName ref="LOC4243Laliba"> Lālibalā</placeName>.
                   
-                  Zena Marqos
-               </persName>
-               <occupation> St. </occupation>
-            </person>
+               </floruit>
+               <death  > </death>
+            </person>  
+            <listRelation>
+               
+               <relation name="bm:ordainedBy"
+                  
+                  active="PRS10708ZenaMa"
+                  passive="PRS8032Qerellos"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  active="PRS10708ZenaMa"
+                  passive="PRS8491Samuel"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  active="PRS10708ZenaMa"
+                  passive="PRS3932Ewostate"
+                  ></relation>
+               <relation name="saws:P129i_is_subject_of" 
+                  active="PRS10708ZenaMa"
+                  passive="LIT1530GadlaZ"
+                  ></relation>
+            </listRelation>
          </listPerson>
+      
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Kaplan1984Monastic"/>
+               <biblScope unit="page">47, 92, 130, 92</biblScope>
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Raineri2014ZenaMarqos"/>
+            </bibl>
+           
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+              

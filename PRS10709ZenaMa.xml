@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Zena Maryam</title>
+            <title>Zenā Māryām</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,59 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-09-23">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  
-                  Zena Maryam
-               </persName>
-               <occupation> St. </occupation>
-            </person>
+            <person sex="2">
+            <persName xml:lang="gez" xml:id="n1" type="birthName">ዜና፡ ማርያም፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Zenā Māryām</persName>
+            <persName><roleName type="title"></roleName></persName>
+            <nationality type="Ethiopia"/>
+            <faith type="EOTC"/>
+            <occupation type="ecclesiastic"> saint </occupation>
+               <birth> She was born at a place called <placeName ref="LOC4298Libo">Libo</placeName></birth>
+               <floruit > A female saint of 14th century and venerated as  the patron saint of the region of <placeName ref="LOC2951Enfraz">ʾƎnfrāz</placeName>.
+                  She spent her ascetic life in the cave of <placeName ref="LOC6247WasaEn">Waššā Ǝndrǝyās</placeName> for the <date dur="P25Y">25 years</date>.
+                  Then, she went to the monastery of <placeName ref="LOC3702Gwegwe">Gwǝgwǝben</placeName> in the lake <placeName ref="LOC5888Tana">Ṭānā</placeName>.
+             
+               
+            </floruit>
+            <death  > </death>
+            </person>  
+            <listRelation>
+               
+               <relation name="saws:P129i_is_subject_of" 
+                  active="PRS10709ZenaMa"
+                  passive="LIT1531GadlaZ"
+                  ></relation>
+            </listRelation>
          </listPerson>
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Cerulli1946ZenaMaryam"/>
+               <biblScope unit="page">122-56</biblScope>
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Boll2014ZenaMaryam"/>
+            </bibl>
+            
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+                  
+               
