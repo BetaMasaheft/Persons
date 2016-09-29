@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Krǝstos Śämra</title>
+            <title>Krǝstos Śamrā</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,58 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-09-29">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
+ <person sex="2">
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">ክርስቶስ፡ ሠምራ፡</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Krǝstos Śamrā</persName>
+                  <persName><roleName type="title">ʾƎmmat</roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <occupation type="ecclesiastic"> saint</occupation>
+                  <birth> </birth>
+                  <floruit > She was a female saint of Ethiopian in the 14th and 15th century. She spent 12 years praying in the lake<placeName ref="LOC5888Tana">Ṭanā</placeName> 
+                     
+                  </floruit>
+                  <death  > </death>
+               </person>  
+               <listRelation>
                   
-                  Krǝstos Śämra
-               </persName>
-               <occupation> St. </occupation>
-            </person>
+                      <relation name="saws:P129i_is_subject_of" 
+                         active="PRS6079Krestos"
+                         passive="LIT1469GadlaK"
+                     ></relation>
+           
+                  
+               </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Cerulli1956KrestosSamra"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Nosnitsin2007KrestosSamra"/>
+            </bibl>
+            
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+               
