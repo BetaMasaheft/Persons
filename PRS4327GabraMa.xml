@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Gäbrä Mäsqäl</title>
+            <title>Gabra Masqal</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,73 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-09-30">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+            
+               <persName xml:lang="gez" xml:id="n1" type="birthName">  Gabra Masqal</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">ገብረ፡ መስቀል፡</persName>
                   
-                  Gäbrä Mäsqäl
-               </persName>
-               <occupation> king </occupation>
-            </person>
+               <persName xml:lang="gez" xml:id="n2" type="reignalName">ቈስጠንጢኖስ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Qwasṭanṭinos</persName>
+        
+                  <persName><roleName type="title">ʾaṣe</roleName></persName>
+                  <occupation type="ruler">Emperor</occupation>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <birth></birth>
+                  <residence><placeName ref="LOC1310Aksum">ʾAksum</placeName></residence>
+                  
+               <floruit>He was the younger son of King <persName ref="PRS5841Kaleb">Kāleb</persName> and a holy king of Aksumite time reigned from <date>534</date> to 
+                  <date>548</date>. 
+                  </floruit>
+                  <death></death>
+               </person>
+               <listRelation>
+                  <relation name="snap:SonOf" 
+                     active="PRS4327GabraMa"
+                     passive="PRS5841Kaleb"
+                     ></relation>
+              
+                  <relation name="snap:AllianceWith"
+                     active="PRS4327GabraMa"
+                     passive="PRS10581Zamika"
+                     ></relation>
+                  <relation name="saws:P129i_is_subject_of" 
+                     active="PRS4327GabraMa"
+                     passive="LIT1453GadlaG"
+                     ></relation>
+                 </listRelation>
          </listPerson>
+         
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:ContiRossini1909Listes"/>
+               <biblScope unit="page"></biblScope>
+            </bibl>
+            <bibl>
+               
+       <ptr target="bm:Sergew1972Ethiopianhistory"/>
+               <biblScope unit="page">14, 40, 117, 118, 159, 160, 161, 163, 164, 166, 266</biblScope>
+            </bibl>
+            
+            
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:MunroHayRed2005GabraMasqal"/>
+            </bibl>  
+         </listBibl>  
+         
+         
+         
       </body>
    </text>
 </TEI>
+
+                
+             

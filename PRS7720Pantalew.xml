@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ṗänṭälewon</title>
+            <title>Ṗanṭalewon</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,76 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-09-30">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Ṗänṭälewon
-               </persName>
-               <occupation> St. </occupation>
-            </person>
+            <persName xml:lang="gez" xml:id="n1" type="monasticName">ጰንጠሌዎን፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Ṗanṭalewon</persName>
+                <persName><roleName type="title"> ʾabbā </roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <occupation type="ecclesiastic"> saint </occupation>
+                  <birth> </birth>
+               <floruit> He was one of the nine saints who evangelized the Aksumite population in the 5th- 6th century. He came to Ethiopia with his fellows during the reign of 
+                  King <persName ref="PRS3730ellaAm">ʾƎll ʿAmidā II</persName>.
+                     
+                  </floruit>
+                  <death  ></death>
+               </person>  
+               <listRelation>
+           <relation name="snap:FriendshipFor"
+                     active="PRS7720Pantalew"
+                     passive="PRS10581Zamika"
+                     ></relation>
+                 <relation name="snap:FriendshipFor"
+                     active="PRS7720Pantalew"
+                     passive="PRS4855Guba"
+                     ></relation>
+                  <relation name="snap:FriendshipFor"
+                     active="PRS7720Pantalew"
+                     passive="PRS1653Alef"
+                     ></relation>
+                  <relation name="snap:FriendshipFor"
+                     active="PRS7720Pantalew"
+                     passive="PRS10322Yemata"
+                     ></relation>
+                  <relation name="snap:FriendshipFor"
+                     active="PRS7720Pantalew"
+                     passive="PRS1467Afse"
+                     ></relation>
+                  <relation name="saws:P129i_is_subject_of" 
+                     active="PRS7720Pantalew"
+                     passive="LIT1532GadlaP"
+                     ></relation>
+               </listRelation>
          </listPerson>
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Brita2010Pantelewon"/>
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Sergew1972Ethiopianhistory"/>
+               <biblScope unit="page">59, 69, 115, 116, 117, 133, 143, 159, 206, 219</biblScope>
+            </bibl>
+            
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+                  
+               
