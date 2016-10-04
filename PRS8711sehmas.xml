@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ṣǝḥma</title>
+            <title>Ṣǝḥmā</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,20 +46,85 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-10-04">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+            <persName xml:lang="gez" xml:id="n1" type="monasticName">ጽሕማ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized"> Ṣǝḥmā</persName>
+               <persName xml:lang="gez" xml:id="n2" type="nickName">ጸሕማ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Ṣaḥmā</persName>
+                  <persName><roleName type="title">ʾabbā </roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <occupation type="ecclesiastic"> saint </occupation>
+                  <birth> </birth>
+                  <floruit > He was one of the Nine Saints, a group of foreign monks who arrived in Ethiopia in the 5th and 6th century. 
+                     After he arrived with the other saints, he is believed to have settled in the southeast of <placeName ref="LOC1264Adwa">ʾAdwā</placeName>.
+                  </floruit>
+                  <death  ></death>
+               </person>  
+               <listRelation>
+                  <relation name="snap:AllianceWith"
+                     
+                     active="PRS8711sehmas"
+                     passive="PRS3730ellaAm"
+                     ></relation>
+                  <relation name="snap:FriendshipFor"
+                     active="PRS8711sehmas"
+                     passive="PRS7720Pantalew"
+                     ></relation>
+                  <relation name="snap:FriendshipFor"
+                     active="PRS8711sehmas"
+                     passive="PRS4855Guba"
+                     ></relation>
+                  <relation name="snap:FriendshipFor"
+                     active="PRS8711sehmas"
+                     passive="PRS10581Zamika"
+                     ></relation>
+                  <relation name="snap:FriendshipFor"
+                     active="PRS8711sehmas"
+                     passive="PRS1467Afse"
+                     ></relation>
+                  <relation name="saws:P129i_is_subject_of" 
+                     active="PRS8711sehmas"
+                     passive="LIT1500Gadlas"
+                     ></relation>
                   
-                  Ṣǝḥma
-               </persName>
-               <persName type="alt">Ṣäḥma</persName>
-               <occupation> St. </occupation>
-            </person>
+                  
+               </listRelation>
          </listPerson>
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Brita2010Sehma"/>
+            </bibl>
+            
+            <bibl> 
+               <ptr target="bm:Sergew1972Ethiopianhistory"/>
+               <biblScope unit="page">115, 116, 119 </biblScope>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Tedeschi1991EthiopianSaints"/>
+               <biblScope unit="page">1047</biblScope>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+                  
+                 
