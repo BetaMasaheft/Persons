@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Liqanos</title>
+            <title>Liqānos</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,84 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-10-04">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+            <persName xml:lang="gez" xml:id="n1" type="monasticName">ሊቃኖስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Liqānos</persName>
+            <persName xml:lang="gez" xml:id="n2" type="nickName">ኮከበ፡ ገዳም፡</persName>
+            <persName xml:lang="gez" corresp="#n2" type="normalized">Kokaba gadām</persName>
+            <persName><roleName type="title">ʾabbā </roleName></persName>
+            <nationality type="Ethiopia"/>
+            <faith type="EOTC"/>
+            <occupation type="ecclesiastic"> saint </occupation>
+            <birth> </birth>
+            <floruit > He was one of the Nine Saints, a group of foreign monks who arrived in Ethiopia in the 5th and 6th century. He was a native of  <placeName ref="LOC2196Consta">Constantinople</placeName>
+               and came to Ethiopia from <placeName ref="LOC5374Rome">Rome</placeName> and <placeName ref="LOC2804Egypt">Egypt</placeName>. He led an ascetic life at 
+               <placeName ref="LOC2337DabraQ">Dabra Qwanaṣǝl</placeName>.
+            </floruit>
+            <death  ></death>
+            </person>  
+            <listRelation>
+               <relation name="snap:AllianceWith"
                   
-                  Liqanos
-               </persName>
-               <occupation> St. </occupation>
-            </person>
+                  active="PRS6318Liqanos"
+                  passive="PRS3730ellaAm"
+                  ></relation>
+               <relation name="snap:FriendshipFor"
+                  active="PRS6318Liqanos"
+                  passive="PRS7720Pantalew"
+                  ></relation>
+               <relation name="snap:FriendshipFor"
+                  active="PRS6318Liqanos"
+                  passive="PRS4855Guba"
+                  ></relation>
+               <relation name="snap:FriendshipFor"
+                  active="PRS6318Liqanos"
+                  passive="PRS10581Zamika"
+                  ></relation>
+               <relation name="snap:FriendshipFor"
+                  active="PRS6318Liqanos"
+                  passive="PRS1467Afse"
+                  ></relation>
+               <relation name="saws:P129i_is_subject_of" 
+                  active="PRS6318Liqanos"
+                  passive="LIT1474GadlaL"
+                  ></relation>
+               
+               
+            </listRelation>
          </listPerson>
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Brita2005Liqanos"/>
+            </bibl>
+    
+            <bibl> 
+               <ptr target="bm:Sergew1972Ethiopianhistory"/>
+               <biblScope unit="page">115, 116, 117 </biblScope>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Tedeschi1991EthiopianSaints"/>
+               <biblScope unit="page">1047</biblScope>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+         
+                  
+                  
