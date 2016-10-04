@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Gärima</title>
+            <title>Garimā</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,20 +46,86 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-10-04">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+               <persName xml:lang="gez" xml:id="n1" type="monasticName">ገሪማ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Garimā</persName>
+               <persName xml:lang="gez" xml:id="n2" type="baptisalName">ይስሐቅ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Yǝsḥaq</persName>
+               <persName><roleName type="title">ʾabbā </roleName></persName>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="ecclesiastic"> saint </occupation>
+               <birth> </birth>
+               <floruit > He was one of the Nine Saints, a group of foreign monks who arrived in Ethiopia in the 5th and 6th century. He was the son of a king whom he succeded and 
+                  reigned after him for seven years. Then, he recieved a call from ʾabbā <persName ref="PRS7720Pantalew">Ṗanṭalewon</persName> and
+                  he left his kingdom and went to <placeName ref="LOC1310Aksum">ʾAksum</placeName>. When the Nine Saints decided to disperse throughout the country, 
+                  he went to <placeName ref="LOC4388Madara">Madarā</placeName> where he remianed working miracles.
+                  The monastery of  <placeName ref="LOC2866EndaAb">ʾƎnda ʾAbba Garimā</placeName> is attributed to him.
+               </floruit>
+               <death  ></death>
+            </person>  
+            <listRelation>
+               <relation name="snap:AllianceWith"
                   
-                  Gärima
-               </persName>
-               <persName type="alt">Yǝsḥaq</persName>
-               <occupation> St. </occupation>
-            </person>
+                  active="PRS4523Garima"
+                  passive="PRS3730ellaAm"
+                  ></relation>
+               <relation name="snap:FriendshipFor"
+                  active="PRS4523Garima"
+                  passive="PRS7720Pantalew"
+                  ></relation>
+               <relation name="snap:FriendshipFor"
+                  active="PRS4523Garima"
+                  passive="PRS4855Guba"
+                  ></relation>
+               <relation name="snap:FriendshipFor"
+                  active="PRS4523Garima"
+                  passive="PRS10581Zamika"
+                  ></relation>
+          <relation name="snap:FriendshipFor"
+                  active="PRS4523Garima"
+                  passive="PRS1467Afse"
+                  ></relation>
+               <relation name="saws:P129i_is_subject_of" 
+                  active="PRS4523Garima"
+                  passive="LIT1285Dersan"
+                  ></relation>
+               
+               
+            </listRelation>
          </listPerson>
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Nosnitsin2005Garima"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Bausi2005EndaAbbaGarima"/>
+        
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Sergew1972Ethiopianhistory"/>
+               <biblScope unit="page">115, 116, 118, 284</biblScope>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Tedeschi1991EthiopianSaints"/>
+               <biblScope unit="page">1046</biblScope>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+                  
+                 
