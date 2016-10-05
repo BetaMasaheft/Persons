@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Yared</title>
+            <title>Yāred</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,21 +46,89 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-10-05">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+          <persName xml:lang="gez" xml:id="n1" type="birthName">ያሬድ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Yāred</persName>
+                  <persName xml:lang="gez" xml:id="n2" type="nickName"> ማሕሌታዊ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">māḥletāwi</persName>
+               <persName xml:lang="gez" xml:id="n3" type="birthName">ማሕሌታይ፡ </persName>
+               <persName xml:lang="gez" corresp="#n3" type="normalized">māḥletāy</persName>
+              <persName><roleName type="title"></roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <occupation type="ecclesiastic"> saint </occupation>
+               <birth> He was born in<placeName ref="LOC1310Aksum">ʾAksum</placeName> most probably in the first half of sixth century</birth>
+               <floruit > He was highly venerated saint of Ethiopian Orthodox Church. He received a traditional education from a priest of 
+                  <placeName ref="LOC1311AksumS">ʾAksum Ṣǝyon</placeName>, ʾabbā <persName ref="PRS11209Gedewon">  Gedewon </persName>.
+                  He is credited with the invention of Ethiopic sacred music and hymnody.
+                     
+                  </floruit>
+                  <death  ></death>
+               </person>  
+               <listRelation>
                   
-                  Yared
-               </persName>
-               <persName type="alt">maḥletawi</persName>
-               <persName type="alt"> maḥletay</persName>
-               <occupation> St. </occupation>
-            </person>
+                  <relation name="snap:AllianceWith"
+                     
+                     active="PRS10245Yared"
+                     passive="PRS4327GabraMa"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     
+                     active="PRS10245Yared"
+                     passive="PRS11209Gedewon"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS10245Yared"
+                     passive="LIT3178Deggwa"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS10245Yared"
+                     passive="LIT2610Zemmar"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS10245Yared"
+                     passive="LIT1990Mawase"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS10245Yared"
+                     passive="LIT1113Anqasa"
+                     ></relation>
+                 <relation name="saws:P129i_is_subject_of" 
+                     active="PRS10245Yared"
+                     passive="LIT1512GadlaY"
+                     ></relation>
+                    
+               </listRelation>
          </listPerson>
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Brita2014Yared"/>
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Sergew1972Ethiopianhistory"/>
+               <biblScope unit="page">104, 121, 151, 162, 163, 164, 165, 166, 168, 169, 170, 172, 173, 174</biblScope>
+            </bibl>
+            
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+                  
+                  
