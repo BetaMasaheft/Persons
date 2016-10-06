@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Isayǝyyas</title>
+            <title>Isayǝyyās</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,23 +46,79 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-10-06">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+           <persName xml:lang="gez" xml:id="n1" type="monasticName">ኢሳይያስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Isayǝyyās</persName>
+                  <persName><roleName type="title">ʾabbā </roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <occupation type="ecclesiastic"> abbot </occupation>
+               <birth> He was born at <placeName ref="LOC1236Agama">ʿAgama</placeName> in <date>1485</date></birth>
+                  <residence><placeName ref="LOC3653GundaG">Gunda Gunde</placeName></residence>
+               <floruit when="1555">He was  the sixth abbot of the monastery of <placeName ref="LOC3653GundaG">Gunda Gunde</placeName> and He became an abbot  in <date>1555</date> succeeding ʾabbā 
+                  <persName ref="PRS9192TaklaNa">Takla Nabiyāt</persName>. He was a relative of ʾabbā <persName ref="PRS3894estifano">ʾƎsṭifānos</persName>, the first leader of <persName ref="PRS11211Stephanites">Stephanites</persName>.
+                  He took the monastic habit at the age of 15 from the hands of <persName ref="PRS4322GabraMa">Gabra Maśiḥ</persName>. He was represented in the community as an interpreter of the Scriptures.
+                  </floruit>
+                  <death  > He died in <date>1572</date></death>
+               </person>  
+               <listRelation>
                   
-                  Isayǝyyas
-               </persName>
-            </person>
-            <listRelation>
-               <relation name="unspecified">
-                  <desc> abbot of Gundä Gunde </desc>
-               </relation>
-            </listRelation>
+                  <relation name="snap:AllianceWith"
+                     
+                     active="PRS5586Isayeyya"
+                     passive="PRS9192TaklaNa"
+                     ></relation>
+                  <relation name="bm:ordainedBy"
+                     
+                     active="PRS5586Isayeyya"
+                     passive="PRS6774Marqos"
+                     ></relation>
+                  <relation name="saws:P129i_is_subject_of" 
+                     active="PRS5586Isayeyya"
+                     passive="LIT1465GadlaI"
+                     ></relation>
+                  
+               </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Getachew2011Ǝsṭifanos"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Getachew2004Estifanos"/>
+            </bibl>
+     
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+              <ptr target="bm:BeylotBausi2007Isayeyyas"/>
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Kaplan1984Monastic"/>
+               <biblScope unit="page">42 </biblScope>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  
+                  
