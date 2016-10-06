@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Abäkäräzun</title>
+            <title>Abakarazun</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,25 +46,100 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-10-06">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+               
+            <persName xml:lang="gez" xml:id="n1" type="monasticName">አበከረዙን፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAbakarazun</persName>
+               <persName xml:lang="gez" xml:id="n2" type="monasticName">አበክረዙን፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAbakǝrazun</persName>
+               <persName xml:lang="gez" xml:id="n3" type="birthName">እስጢፋኖስ፡</persName>
+               <persName xml:lang="gez" corresp="#n3" type="normalized">ʾƎsṭifānos</persName>
+                  <persName><roleName type="title">ʾabbā </roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <occupation type="ecclesiastic"> abbot</occupation>
+               <birth> He was born at <placeName ref="LOC1310Aksum">ʾAksum</placeName>in <date>1394/95</date></birth>
+                  <residence><placeName ref="LOC3653GundaG">Gunda Gunde</placeName></residence>
+               <floruit > He was  a saint  and a follower of ʾabbā <persName ref="PRS3894estifano">ʾƎsṭifānos</persName> and he led the <persName ref="PRS11211Stephanites"></persName> 
+                  after the death of <persName ref="PRS3894estifano">ʾƎsṭifānos</persName>. He was succeeded by ʾabbā <persName ref="PRS4322GabraMa">Gabra Maśiḥ</persName> 
+                  as the head of the monastery of <placeName ref="LOC3653GundaG">Gunda Gunde</placeName> in <date>1476</date>.
+                     
+                  </floruit>
+                  <death  > he died in <date>1476</date></death>
+               </person>  
+               <listRelation>
                   
-                  Abäkäräzun
-               </persName>
-               <persName type="alt">Abäkǝräzun</persName>
-               <nationality type="Ethiopia post-Aksumite">Christian Ethiopia</nationality>
-               <faith type="EOTC">EOTC</faith>
-               <occupation> abba</occupation>
-               <residence>
-                  <placeName>Däbrä Gärzän</placeName>
-               </residence>
-            </person>
+                  <relation name="snap:AllianceWith"
+                     
+                     active="PRS1008Abakaraz"
+                     passive="PRS3946ezra"
+                     ></relation>
+                  <relation name="bm:ordainedBy"
+                     
+                     active="PRS1008Abakaraz"
+                     passive="PRS2469Bartalom"
+                     ></relation>
+                  <relation name="bm:ordainedBy"
+                     
+                     active="PRS1008Abakaraz"
+                     passive="PRS8484Samuel"
+                     ></relation>
+                  <relation name="rel:enemyOf"
+                     
+                     active="PRS1008Abakaraz"
+                     passive="PRS10626ZaraY"
+                     ></relation>
+                  <relation name="saws:P129i_is_subject_of" 
+                     active="PRS1008Abakaraz"
+                     passive="LIT1439Gadlae"
+                     ></relation>
+                  
+               </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Getachew2011Ǝsṭifanos"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Getachew2004Estifanos"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Getachew2006Estifanos"/>
+            </bibl>
+         </listBibl>
+         
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Beylot2003Abakarazun"/>
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Kaplan1984Monastic"/>
+               <biblScope unit="page">42, 48, 52-3, 73-4, 77-8, 133 </biblScope>
+               
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  
+                
