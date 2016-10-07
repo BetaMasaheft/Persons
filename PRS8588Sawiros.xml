@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Säwiros (Sāwīrus)</title>
+            <title>Sāwiros (Sāwīrus)</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -50,13 +52,53 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Säwiros (Sāwīrus)
-               </persName>
-               <occupation> metr.  </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ሳዊሮስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Sāwiros</persName>
+               <persName xml:lang="gez" xml:id="n2" type="birthName">ሳዊሩስ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Sāwīrus</persName>
+               <persName><roleName type="title">ʾabuna</roleName></persName>
+               <occupation type="ecclesiastic"> metropolitan </occupation>
+               <nationality type="Egypt"/>
+               <faith type="Coptic"/>
+               <birth></birth>
+               <floruit  notBefore="1077" notAfter="1092"> He was the metropolitan of <placeName ref="LOC3010Ethiop">Ethiopia</placeName> who succceded <persName ref="PRS10806Fiqtor">Fiqṭor</persName>,  who was probably his uncle. 
+                  He seems to have been grown in <placeName ref="LOC3010Ethiop">Ethiopia</placeName> and later returned to <placeName ref="LOC2804Egypt">Egypt</placeName> and consecrated by <persName ref="PRS3256CyrilII">Cyrill II</persName> . 
+                  He was successful in combatting the polygamous marital practices of the Ethiopian king  and his subjects. His successor was <persName ref="PRS11220Giyorgis"> Giyorgis</persName>. 
+              
+           </floruit>
+               <death > </death>
             </person>
+            <listRelation>
+               <relation name= "bm:ordainedBy "
+                  active="PRS8588Sawiros"
+                  passive="PRS3256CyrilII"
+                  ></relation>
+               <relation name=  "snap:NephewOf "
+                  
+                  active="PRS8588Sawiros"
+                  passive="PRS10806Fiqtor"
+                  ></relation>
+       
+         </listRelation>
          </listPerson>
+      
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Nosnitsin2010Sawiros"/>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Tedeschi1991EthiopianPre"/>
+               <biblScope unit="page">1005a-1006a</biblScope>
+            </bibl> 
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+
+                  
+                  

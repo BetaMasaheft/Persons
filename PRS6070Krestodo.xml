@@ -11,6 +11,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Krǝstodolu [I]</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,63 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-10-07">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+            <persName xml:lang="gez" xml:id="n1" type="birthName">ክርስቶዶሉ፡</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Krǝstodolu I</persName>
+                  <persName><roleName type="title">ʾabuna</roleName></persName>
+                  <occupation type="ecclesiastic"> metropolitan </occupation>
+                  <nationality type="Egypt"/>
+                  <faith type="Coptic"/>
+                  <birth></birth>
                   
-                  Krǝstodolu [I]
-               </persName>
-               <occupation> metr.  </occupation>
-            </person>
+                  <floruit when="1588">He was a metropolitan of the Ethiopian Orthodox Church who succeded  ʾabuna
+                     <persName ref="PRS6775Marqos">Mārqos II</persName> in <date>1588</date> during the reign of 
+                     King <persName ref="PRS8550sardaDe">Śarḍa Dǝngǝl</persName>. His  tenure continued to <date>1594</date>. 
+                         
+                  </floruit>
+                  <death> </death>
+               </person>
+               <listRelation>
+                  <relation name= "bm:ordainedBy "
+                     active="PRS6070Krestodo"
+                     passive="PRS6906Matthew"
+                     ></relation>
+                  <relation name=  "snap:AllianceWith"
+                     
+                     active="PRS6070Krestodo"
+                     passive="PRS8550sardaDe"
+                     ></relation>
+                  <relation name=  "snap:AllianceWith"
+                     
+                     active="PRS6070Krestodo"
+                     passive="PRS9500Thomas"
+                     ></relation>
+                  
+               </listRelation>
          </listPerson>
+    <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Donzel2007KrestodoluI"/>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Tedeschi1991EthiopianPre"/>
+               <biblScope unit="page">1020a</biblScope>
+            </bibl> 
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+
+                  
+                 
