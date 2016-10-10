@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Dägälhan</title>
+            <title>Dagalhān</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,21 +46,68 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="ES" when="2016-10-10">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+             <persName xml:lang="gez" xml:id="n1" type="birthName">ደገልሃን፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Dagalhān</persName>
+               <persName xml:lang="gez" xml:id="n2" type="birthName">ዴልሓን፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized"> Delḥān</persName>
+               <persName xml:lang="gez" xml:id="n3" type="birthName">ዴገልሓን፡</persName>
+               <persName xml:lang="gez" corresp="#n3" type="normalized">Degalḥān</persName>
+                  <persName><roleName type="title"> rās </roleName></persName>
+                  <occupation type="political"> governor</occupation>
+             
+                  <nationality type="Ethiopia"/>
+                  <faith type="Orthodox"/>
+                  <birth></birth>
+               <floruit > He was an important official in the reign of King <persName ref="PRS6229LebnaDe"> Lǝbna Dǝngǝl</persName>. 
+                  He was the governor of <placeName ref="LOC1743Bale">Bāle</placeName>. In <date> 1527</date> he led a punitive expedition against 
+                  <persName ref="PRS1500Ahmad">Aḥmad</persName> and he was victorious against him. 
+                     </floruit>
+                  <death> </death>
                   
-                  Dägälhan
-               </persName>
-               <persName type="alt">Degälḥan</persName>
-               <persName type="alt"> Delḥan</persName>
-               <occupation> ras </occupation>
-            </person>
-         </listPerson>
+               </person>
+               
+               <listRelation>
+                  <relation name= "snap:AllianceWith"
+                     
+                     active="PRS3287Dagalhan"
+                     passive= "PRS6229LebnaDe"
+                     
+                     ></relation>
+                <relation name="rel:enemyOf" 
+                     active= "PRS3287Dagalhan"
+                     passive="PRS1500Ahmad"
+                     ></relation>
+                  <relation name="bm:husbandOf" 
+                     active="PRS3287Dagalhan"
+                     passive="PRS1826AmataWe"
+                     ></relation>
+               </listRelation>
+              </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Kropp1988Shortchr"/>
+            </bibl>
+         </listBibl>
+         
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Chernestsov2005Dagalhan"/>
+            </bibl>
+            
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+                  
+                  
