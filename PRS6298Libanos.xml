@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Libanos</title>
+            <title>Libānos</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,20 +46,84 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-10-11">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Libanos
-               </persName>
-               <persName type="alt">Mäṭaʿ</persName>
-               <occupation> abba </occupation>
-            </person>
+            <persName xml:lang="gez" xml:id="n1" type="monasticName">ሊባኖስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Libānos</persName>
+                  <persName xml:lang="gez" xml:id="n2" type="birthName">መጣዕ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Maṭaʿ</persName>
+               <persName xml:lang="gez" xml:id="n3" type="birthName">ይስሪን፡</persName>
+               <persName xml:lang="gez" corresp="#n3" type="normalized">Yǝsrin </persName>
+                  <persName><roleName type="title">ʾabbā </roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <occupation type="ecclesiastic"> saint </occupation>
+                  <birth> </birth>
+               <floruit > He was one of the most important saints of the the Aksumite period and renowned as one
+                  of the early founders of the monasticism and asceticism in <placeName ref="LOC3010Ethiop">Ethiopia</placeName>. He came from 
+                  <placeName ref="LOC2196Consta">Constantinople</placeName> during the reign of King <persName ref="PRS3732ellaGab">ʾƎlla Gabaz</persName>. 
+                  He was chiefly active in <placeName ref="LOC5575Saraye">Sarāye </placeName> and <placeName ref="LOC1298Akkala">Akkala Guzāy</placeName>
+                  He was said to be the founder of the monastery of <placeName ref="LOC2296DabraL">Dabra Libānos</placeName>.
+                 
+                     
+                  </floruit>
+                  <death  ></death>
+               </person>  
+               <listRelation>
+                 <relation name="snap:AllianceWith"
+                     
+                     active="PRS6298Libanos"
+                     passive="PRS3732ellaGab"
+                     ></relation>
+                   <relation name="saws:P129i_is_subject_of" 
+                     active="PRS6298Libanos"
+                     passive="LIT1473GadlaL"
+                     ></relation>
+               </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Bausi2003Libanos"/>
+            </bibl>
+         </listBibl>
+            
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Bausi2007Libanos"/>
+            </bibl>
+           
+               <bibl> 
+                  <ptr target="bm:Bausi2005DabraLibanos"/>
+               </bibl>
+            <bibl> 
+               <ptr target="bm:Cerulli1945AbbotsDL"/>
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Sergew1972Ethiopianhistory"/>
+               <biblScope unit="page">115, 267, 278, 291</biblScope>
+            </bibl>
+       
+               
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+                  
+                 
