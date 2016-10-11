@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ṗawlos</title>
+            <title>Ṗāwlos</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,81 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-10-10">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+            
+                  <persName xml:lang="gez" xml:id="n1" type="monasticName">ጳውሎስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Ṗawlos</persName>
+                  <persName><roleName type="title">ʾabbā </roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <occupation type="ecclesiastic">monk, writer</occupation>
+                  <birth><date>1510</date></birth>
+                  <residence></residence>
+               <floruit > He was a sixteenth century Ethiopian monk who composed his  personal as well as political life  from  <date>1531</date> to <date>1578</date>. 
+                  He received a monastic habit in <date>1531/32</date> in the monastery of <placeName ref="LOC2228DabraA">Dabra ʿAbbāy</placeName>. After he travelling around different places  including 
+                  <placeName ref="LOC1310Aksum">ʾAksum</placeName>, <placeName ref="LOC2254DabraD">Dabra Dāmmo</placeName>, he settled in the monastery of <placeName ref="LOC1634Ayda">ʿAydā</placeName>
+                  . His account provides important historical details about  the war of <persName ref="PRS1500Ahmad">Aḥmad</persName>, 
+                  the capture of <placeName ref="PRS7102Minas">Minās</placeName>, the death of <persName ref="PRS4121Fiqtor">Fiqṭor</persName>, the incursion of <ref corresp="ETH1973Oromo">Oromo</ref>, 
+                  the death of <persName ref="PRS4406Gaewa">Gāʿǝwā</persName>  and the campiagn of <persName ref="PRS5043hamalmal">Ḥamalmāl</persName></floruit>
                   
-                  Ṗawlos
-               </persName>
-               <occupation> monk </occupation>
-            </person>
+                  <death when="1578"></death>
+               </person>  
+               <listRelation>
+                  
+                  <relation name="snap:AllianceWith"
+                     
+                     active="PRS7772Pawlos"
+                     passive="PRS6139LaekaM"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     
+                     active="PRS7772Pawlos"
+                     passive="PRS6229LebnaDe"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     
+                     active="PRS7772Pawlos"
+                     passive="PRS4428Galawdew"
+                     ></relation>
+               </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:ContiRossini1918Pawlos"/>
+               <biblScope unit="page">279-96</biblScope>
+            </bibl>
+   
+    
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Sokolinskaia2010Pawlos"/>
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Merid1971Thesis"/>
+               <biblScope unit="page">8, 165, 180, 197, 204, 208, 252, 324, 327</biblScope>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+                  
+                  
