@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Samuʾel of Däbrä Wägäg</title>
+            <title>Sāmuʾel of Dabra Wagag</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,71 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-10-12">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Samuʾel of Däbrä Wägäg
-               </persName>
-               <occupation> St. </occupation>
-            </person>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ሳሙኤል፡</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Sāmuʾel</persName>
+                  <persName><roleName type="title">ʾabbā</roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <occupation type="ecclesiastic">monk</occupation>
+               <birth>He was born in <placeName ref="LOC6471Zem">Zǝm</placeName></birth>
+               <floruit> He was a monastic leader and the founder of the monastery of <placeName ref="LOC2236DabraA">Dabra ʾAsabot</placeName>. 
+                  He was a diciple of <persName ref="PRS9152TaklaHa">Takla Hāymānot I</persName>.
+                  </floruit>
+                  <death></death>
+               </person>  
+               <listRelation>
+                  <relation name="bm:ordainedBy"
+                     active="PRS8485Samuel"
+                     passive="PRS8032Qerellos"
+                     ></relation>
+                  <relation name="snap:NephewOf"
+                     active="PRS8485Samuel"
+                     passive="PRS9152TaklaHa"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS8485Samuel"
+                     passive="PRS3429DawitII"
+                     ></relation>
+              
+                  <relation name="saws:P129i_is_subject_of" 
+                     active="PRS8485Samuel"
+                     passive="LIT1496GadlaS"
+                     ></relation>
+               </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Kur1968Samuel"/>
+            </bibl>
+         </listBibl>
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Kaplan2010Samuel"/>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  
+               

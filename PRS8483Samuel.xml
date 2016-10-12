@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Samuʾel of Däbrä Halleluya</title>
+            <title>Sāmuʾel of Dabra Halleluyā</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,80 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-10-12">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Samuʾel of Däbrä Halleluya
-               </persName>
-               <occupation> St. </occupation>
-            </person>
+            <persName xml:lang="gez" xml:id="n1" type="birthName">ሳሙኤል፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Sāmuʾel</persName>
+               <persName xml:lang="gez" xml:id="n2" type="monasticName">ነአኵቶ፡ ለአብ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Naʾakkwǝto Laʾab</persName>
+                  <persName><roleName type="title">ʾabuna </roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <occupation type="ecclesiastic">monk</occupation>
+               <birth>He was born in <placeName ref="LOC4568Maratt">Marattā</placeName></birth>
+               <floruit> He was a holy monk from <placeName ref="LOC5932Tegray">Tǝgrāy</placeName>
+                  who was a contemporary of King <persName ref="PRS1854Amdase">ʿAmda Ṣǝyon I</persName> and King <persName ref="PRS8595SayfaAr">Sayfa Arʿad</persName>. 
+                  His name and his activities are traditionally linked with the foundation of the monastery of <placeName ref="LOC2281DabraH">Dabra Halleluyā</placeName>. 
+                 </floruit>
+                  <death when="1375" ></death>
+               </person>  
+               <listRelation>
+              <relation name="snap:AllianceWith"
+                     active="PRS8483Samuel"
+                     passive="PRS1854Amdase"
+                     ></relation>
+                  <relation name="snap:NephewOf"
+                     active="PRS8483Samuel"
+                     passive="PRS1251Abiyae"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS8483Samuel"
+                     passive="PRS8595SayfaAr"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS8483Samuel"
+                     passive="PRS4113Filmona"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS8483Samuel"
+                     passive="PRS8491Samuel"
+                     ></relation>
+                  <relation name="saws:P129i_is_subject_of" 
+                     active="PRS8483Samuel"
+                     passive="LIT1495GadlaS"
+                     ></relation>
+               </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Colin1990Samuel"/>
+            </bibl>
+         </listBibl>
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:LeFrancois2010Samuel"/>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+                  
+                
