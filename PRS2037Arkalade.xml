@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Arkälädǝs (Arkälädis)</title>
+            <title>ʾArkaladǝs (ʾArkaladis)</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,71 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-10-13">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+            <persName xml:lang="gez" xml:id="n1" type="birthName">አርከለድስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾArkaladǝs </persName>
+               <persName xml:lang="gez" xml:id="n2" type="birthName">አርከለዲስ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">ʾArkaladis</persName>
+               <persName xml:lang="gez" xml:id="n3" type="birthName">አርከለዴስ፡</persName>
+               <persName xml:lang="gez" corresp="#n3" type="normalized">ʾArkalades </persName>
+                  <persName><roleName type="title">ʾabbā </roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <occupation type="ecclesiastic">abbot</occupation>
+                  <birth></birth>
+                  <floruit> He was an  Ethiopian saint who lived in the second half of fourteenth century. 
+                     He was the head of the monastery of <placeName ref="LOC2300DabraM">Dabra Madḫānit</placeName>, who succeeded
+                     <roleName type="title">ʾabbā </roleName> <persName ref="PRS1251Abiyae">ʿAbiya ʾƎgziʾ</persName>. 
+                    
+                  </floruit>
+                  <death ></death>
+               </person>  
+               <listRelation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS2037Arkalade"
+                     passive="PRS1251Abiyae"
+                     ></relation>
                   
-                  Arkälädǝs (Arkälädis)
-               </persName>
-               <occupation> abba </occupation>
-            </person>
+                  <relation name="saws:P129i_is_subject_of" 
+                     active="PRS2037Arkalade"
+                     passive="LIT1421GadlaA"
+                     ></relation>
+               </listRelation>
          </listPerson>
+         
+         
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Raineri2003Arkalades"/>
+            </bibl>
+            <bibl> 
+               <ptr target="bm:ContiRossini1938AbiyaEgzi"/>
+            </bibl>
+            
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               
