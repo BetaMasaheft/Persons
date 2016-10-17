@@ -11,6 +11,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Yosṭinos</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,71 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-10-17">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Yosṭinos
-               </persName>
-               <occupation> St. </occupation>
-            </person>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ዮስጢኖስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Yosṭinos</persName>
+               <persName><roleName type="title">ʾabuna</roleName></persName>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="ecclesiastic">saint</occupation>
+               <birth></birth>
+               <floruit> He was a saintly monk during the reign of King <persName ref="PRS10626ZaraY">Zarʾa Yāʿǝqob</persName>.
+                  He was a teacher of  King <persName ref="PRS10626ZaraY">Zarʾa Yāʿǝqob</persName>.
+                  He was a contemporary of a painter <persName ref="PRS4072Feresey">Fǝre Ṣǝyon</persName></floruit>
+               <death></death>
+            </person>  
+            <listRelation>
+          
+               <relation name="snap:AllianceWith"
+                  active="PRS10472Yostino"
+                  passive="PRS4072Feresey"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  active="PRS10472Yostino"
+                  passive="PRS10626ZaraY"
+                  ></relation>
+               
+               <relation name="saws:P129i_is_subject_of" 
+                  active="PRS10472Yostino"
+                  passive="LIT1524GadlaY"
+                  ></relation>
+            </listRelation>
          </listPerson>
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Getachew1983Yostinos"/>
+            </bibl>
+         
+        
+            <bibl> 
+               <ptr target="bm:Osvaldo2014Yostinos"/>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           
+                  
+                  
