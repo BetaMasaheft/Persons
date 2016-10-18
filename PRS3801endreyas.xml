@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ǝndrǝyas of Säffǝʾa</title>
+            <title>ʾƎndrǝyās of Saffǝʾa</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,53 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-10-18">Complete record </change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+             
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">እንድርያስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾƎndrǝyās</persName>
+               <persName><roleName type="title">ʾabuna</roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <occupation type="ecclesiastic">saint</occupation>
+               <birth>He was born in <placeName ref="LOC2350DabraS">Dabra Salodā</placeName></birth>
+               <floruit> He was a saintly monk lived during the reign of King <persName ref="PRS10626ZaraY">Zarʾa Yāʿǝqob</persName>. He spent most of his life in
+                  <placeName ref="LOC1945Bogos">Bogos</placeName>. He conducted most of his apostlic activities in <placeName ref="LOC2991Eritre">Eritrea</placeName></floruit>
+                  <death></death>
+               </person>  
+               <listRelation>
                   
-                  Ǝndrǝyas of Säffǝʾa
-               </persName>
-               <occupation> nǝburä ǝd </occupation>
-            </person>
+                  <relation name="snap:SonOf"
+                     active="PRS3801endreyas"
+                     passive="PRS10501Zaaman"
+                     ></relation>
+                  <relation name="snap:SonOf"
+                     active="PRS3801endreyas"
+                     passive="PRS1811AmataMa"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS3801endreyas"
+                     passive="PRS10626ZaraY"
+                     ></relation>
+             </listRelation>
          </listPerson>
+         
+         <listBibl type="secondary">
+       <bibl> 
+        <ptr target="bm:Raineri2005EndrEyas"/>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+               
