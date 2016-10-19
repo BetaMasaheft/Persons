@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mäbaʾa Ṣǝyon</title>
+            <title>Mabāʾa Ṣǝyon</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,20 +46,73 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-10-19">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Mäbaʾa Ṣǝyon
-               </persName>
-               <persName type="alt">Täklä Maryam</persName>
-               <occupation> St. </occupation>
-            </person>
+        <persName xml:lang="gez" xml:id="n1" type="monasticName">መባአ፡ ጽዮን፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Mabāʾa Ṣǝyon</persName>
+               <persName xml:lang="gez" xml:id="n2" type="monastciName">መብአ፡ ጽዮን፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Mabǝʾa Ṣǝyon</persName>
+               <persName xml:lang="gez" xml:id="n3" type="birthName">ተክለ፡ ማርያም፡</persName>
+               <persName xml:lang="gez" corresp="#n3" type="normalized">Takla Māryām</persName>
+               <persName><roleName type="title">ʾabuna</roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <occupation type="ecclesiastic">saint</occupation>
+                  <birth></birth>
+                  <residence></residence>
+               <floruit > He was a 15th century monk and saint. He was born from a certain nobleman <persName ref="PRS4948Habtase">Habta Ṣeyon</persName> 
+                  who was from a lineage of <roleName type="title">nǝbura ǝd</roleName><persName ref="PRS8487Samuel"> Sāmuʾel of ʾƎndagabṭan</persName>. 
+                  He was trained in chanting, writing and painting </floruit>
+                  <death ></death>
+               </person>  
+               <listRelation>
+                  <relation name="bm:ordainedBy"
+                     active="PRS6418Mabaas"
+                     passive="PRS4372Gabreel"
+                     ></relation>
+                  <relation name="snap:SonOf"
+                     active="PRS6418Mabaas"
+                     passive="PRS4948Habtase"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS6418Mabaas"
+                     passive="PRS8487Samuel"
+                     ></relation>
+              
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS6418Mabaas"
+                     passive="LIT1936Mashaf"
+                     ></relation>
+                
+       
+                
+        </listRelation>
+               
          </listPerson>
+       
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:HeldmanRaineri2007MabaaSeyon"/>
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Getachew1983monastic"/>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+                  
+                

@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mädḫaninä Ǝgziʾ</title>
+            <title>Madḫānina ʾƎgziʾ</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,76 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-10-19">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">መድኃኒነ፡ እግዚእ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Madḫānina ʾƎgziʾ</persName>
+                  <persName><roleName type="title">ʾabuna</roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <occupation type="ecclesiastic">saint</occupation>
+                  <birth></birth>
+                  <residence></residence>
+               <floruit > He was a medieval holy saint, a diciple of <roleName type="title">ʾabbā</roleName> 
+                  <persName ref="PRS9162TaklaHa">Takla Hāymānot</persName>, who lived during the reigns 
+                  of <persName ref="PRS10111WedemR">Wǝdǝm Raʿad</persName>, <persName ref="PRS1854Amdase">ʿAmda Ṣǝyon I</persName> and
+                  <persName ref="PRS8595SayfaAr">Sayfa Arʿad</persName>. He is credited with the foundation of the monastery of  
+                  <placeName ref="LOC2242DabraB">Dabra Bankwal</placeName>, near <placeName ref="LOC1310Aksum">ʾAksum</placeName> during the reign of King 
+                  <persName ref="PRS8595SayfaAr">Sayfa Arʿad</persName>. It is also reported that King <persName ref="PRS8595SayfaAr">Sayfa Arʿad</persName> visited him and
+                  richly endowned the monastery <placeName ref="LOC2242DabraB">Dabra Bankwal</placeName> with lands in <placeName ref="LOC5932Tegray">Tǝgray</placeName></floruit>
+                  <death when="1372"></death>
+               </person>  
+               <listRelation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS6445Madhanin"
+                     passive="PRS1854Amdase"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS6445Madhanin"
+                     passive="PRS9086Tadewos"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS6445Madhanin"
+                     passive="PRS8595SayfaAr"
+                     ></relation>
                   
-                  Mädḫaninä Ǝgziʾ
-               </persName>
-               <occupation> St. </occupation>
-            </person>
+               </listRelation>
+               
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               
+               <ptr target="bm:Allotedelafuye1958Filmona"/>
+               
+            </bibl>
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Raineri2007MadhaninaEgzi"/>
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Getachew1983monastic"/>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+                  
+                 
