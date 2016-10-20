@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Yoḥanni (of Däbrä ʿAśa)</title>
+            <title>Yoḥanni (of Dabra ʿAśā)</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,70 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-10-20">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Yoḥanni (of Däbrä ʿAśa)
-               </persName>
-               <occupation> St. </occupation>
-            </person>
+            <persName xml:lang="gez" xml:id="n1" type="birthName">ዮሐኒ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Yoḥanni </persName>
+               <persName><roleName type="title">ʾabbā</roleName></persName>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="ecclesiastic">abbot</occupation>
+               <birth></birth>
+               <floruit > He was a monk of medieval time born in <placeName ref="LOC5882Tamben">Tamben</placeName> where he built 42 churches.
+                  His life is known from his <title ref="LIT1521GadlaY">Gadla Yoḥanni za-Dabra ʿAśā</title>. He was born from a mother who was a wife of  a certain <roleName type="title">šum
+                  </roleName> of <placeName ref="LOC5882Tamben">Tamben</placeName>. Additional information of him is also evoked in a number of 
+                  hymnological compositions.</floruit>
+               <death></death>
+            </person>  
+            <listRelation>
+           
+               <relation name="snap:AllianceWith"
+                  active="PRS10428Yohanni"
+                  passive="PRS1886Ammoni"
+                  ></relation>
+           
+               <relation name="saws:P129i_is_subject_of" 
+                  active="PRS10428Yohanni"
+                  passive="LIT1521GadlaY"
+                  ></relation>
+            </listRelation>
+            
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Basset1884ViedAbba"/>
+            </bibl>
+         </listBibl>
+         
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Sokolinskaia2014Yohanni"/>
+            </bibl>
+    
+               <bibl> 
+                  <ptr target="bm:Kaplan1984Monastic"/>
+                  <biblScope unit="page">78, 133</biblScope>
+               </bibl>
+            
+            
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+            
