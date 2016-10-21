@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ḥǝṣan Moʾa</title>
+            <title>Ḥǝṣān Moʾa</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,67 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-10-21">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Ḥǝṣan Moʾa
-               </persName>
-               <occupation> St. </occupation>
-            </person>
+            <persName xml:lang="gez" xml:id="n1" type="birthName">ሕፃን፡ ሞኣ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Ḥǝṣān Moʾa</persName>
+          <persName xml:lang="gez" xml:id="n2" type="birthName">ገብረ፡ እግዚአብሔር፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Gabra Ǝgziʾabǝḥer</persName>
+                  <persName><roleName type="title">ʾabbā</roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <occupation type="ecclesiastic">saint</occupation>
+               <birth>He was born in a locality <placeName ref="LOC2555Dardar"> Dardarre </placeName> in the region of <placeName ref="LOC5846Tagula">Tagulat</placeName>.</birth>
+               <floruit notBefore="1468" notAfter="1478"> He was a holy monk  who was active during the reign of King <persName ref="PRS2334BaedaM"> Baʾǝda Māryām I</persName>.
+                  It is reported that he entered the monastery of <placeName ref="LOC2239DabraB"> Dabra Baggǝʿ</placeName> in <placeName ref="LOC5597Sawa"> Šawā</placeName> where he became a monk and 
+                  . He was a tutor of the royal prince in the court of King <persName ref="PRS2334BaedaM">Baʾǝda Māryām I</persName> and he was also appointed
+                  as <roleName type="title"> qala nǝgus</roleName> of King <persName ref="PRS2334BaedaM">Baʾǝda Māryām I</persName>.</floruit>
+               <death> </death>
+               </person>  
+               <listRelation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS5309hesanMo"
+                     passive="PRS2334BaedaM"
+                     ></relation>
+                 <relation name="snap:SonOf"
+                    active="PRS5309hesanMo"
+                    passive="PRS2039Arkalade"
+                    ></relation>
+                    <relation name="snap:SonOf"
+                       active="PRS5309hesanMo"
+                       passive="PRS9367Tebesey"
+                       ></relation>
+               </listRelation>
          </listPerson>
+  
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Kaplan2007HesanMoa"/>
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Kaplan1984Monastic"/>
+               <biblScope unit="page">137</biblScope>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+                  
+                  

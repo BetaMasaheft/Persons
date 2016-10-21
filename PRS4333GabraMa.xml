@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Gäbrä Mäsqäl of Gutämala (Lägaso)</title>
+            <title>Gabra Masqal of Gutamālā (Lagāso)</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,22 +46,68 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-10-21">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Gäbrä Mäsqäl of Gutämala (Lägaso)
-               </persName>
-               <occupation> abba </occupation>
-               <residence>
-                  <placeName>Gutämala (Lägaso)</placeName>
-               </residence>
-            </person>
+          <persName xml:lang="gez" xml:id="n1" type="birthName">ገብረ፡ መስቀል፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Gabra Masqal </persName>
+                  <persName><roleName type="title">ʾabbā</roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <occupation type="ecclesiastic">saint</occupation>
+               <residence>  <placeName ref="LOC3672Gutama">Gutamālā (Lagāso)</placeName> </residence>
+                  <birth></birth>
+               <floruit > He was a monk of 14th century born in <placeName ref="LOC6569Tegray">Tǝgrāy</placeName> and founded a hermitage
+                  at <placeName ref="LOC3672Gutama">Gutamālā (Lagāso)</placeName>.
+                  He was a disciple of and successor to <persName ref="PRS8485Samuel">Sāmuʾel of Dabra Wagag</persName>.  
+                  He was a contemporary of King <persName ref="PRS7559NewayaM">Nǝwāya Māryām</persName> and <persName ref="PRS3429DawitII">Dāwit II</persName>   </floruit>
+                  <death></death>
+               </person>  
+               <listRelation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS4333GabraMa"
+                     passive="PRS8485Samuel"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS4333GabraMa"
+                     passive="PRS7559NewayaM"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS4333GabraMa"
+                     passive="PRS3429DawitII"
+                     ></relation>
+                      </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Colin1990Samuel"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Raineri2005GabraMasqal"/>
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Kaplan1984Monastic"/>
+               <biblScope unit="page">136</biblScope>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+                  
+                 
