@@ -11,6 +11,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Yǝsḥāq</title>
+            <editor key="SG"/>   
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -50,16 +52,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-           <persName xml:lang="gez" xml:id="n1" type="birthName">ይስሓቅ፡</persName>
+          <persName xml:lang="gez" xml:id="n1" type="birthName">ይስሓቅ፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Yǝsḥāq</persName>
                   <persName><roleName type="title">ʾaṣe</roleName></persName>
                      <persName xml:lang="gez" xml:id="n2" type="regnalName">ገብረ፡ መስቀል፡</persName>
                   <persName xml:lang="gez" corresp="#n2" type="normalized">Gabra Masqal</persName>
-                  </persName>
+            
                   <occupation type="ruler">Emperor</occupation>
                   <birth>unknown</birth>
-               <floruit when="1414" evidence="internal">He succeded his brother King<persName corresp="PRS9432Tewodros">Tewodros</persName>in<date> 1414</date>. He was one of a powerful and confrontational leader who fought his enemies on several fronts.  He made also the earliest known contact of Ethiopia with a European leader.
+               <floruit when="1414" evidence="internal">He succeded his brother King<persName ref="PRS9432Tewodros">Tewodros</persName>in<date> 1414</date>. 
+                  He was one of a powerful and confrontational leader who fought his enemies on several fronts.  He made also the earliest known contact of Ethiopia with a European leader.
                   </floruit>
                <death when="1430" evidence="internal">1430</death>
                  </person>  

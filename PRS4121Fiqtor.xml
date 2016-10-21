@@ -11,6 +11,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Fiqṭor</title>
+            <editor key="SG"/>   
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -50,16 +52,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+        
                   
                   <persName xml:lang="gez" xml:id="n1">ፊቅጦር፡</persName>
                   <persName xml:lang="gez" type="normalized" corresp="#n1">Fiqṭor</persName>
                   <persName><roleName type="title">abeto</roleName></persName>
-               </persName>
+         
                <occupation type="ruler">prince</occupation>
            
                <birth when="1518" precision="medium"> around 1518 </birth>
-               <death when="1539" evidence="internal" >He was the eldest son of King<persName corresp="PRS6229LebnaDe">Lǝbna Dǝngǝl</persName>. He was killed by<persName corresp="PRS9707Utmanb">ʿUṯmān b. Ǧawhar</persName>, one of the war lords  of <persName corresp="PRS1522Ahmadb">Aḥmad b. Ibrāhīm al-Ġāzī</persName> in <date>1539</date></death>
+               <death when="1539" evidence="internal" >He was the eldest son of King<persName ref="PRS6229LebnaDe">Lǝbna Dǝngǝl</persName>. He was killed by<persName ref="PRS9707Utmanb">ʿUṯmān b. Ǧawhar</persName>, one of the war lords  of <persName ref="PRS1522Ahmadb">Aḥmad b. Ibrāhīm al-Ġāzī</persName> in <date>1539</date></death>
           
             </person>
                    
@@ -92,7 +94,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    </listPerson>
          <listBibl type="secondary">
             <bibl> 
-            <ptr target="bm:Chernetsov2005F"/>
+               <ptr target="bm:Chernestsov2005Fiqtor"/>
             </bibl>  
             </listBibl>
          
