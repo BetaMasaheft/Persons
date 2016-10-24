@@ -10,7 +10,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Adḫani</title>
+            <title>ʾAdḫāni</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +47,61 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-10-24">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Adḫani
-               </persName>
-               <occupation> St.</occupation>
-            </person>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">አድኃኒ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAdḫāni</persName>
+               <persName><roleName type="title">nǝbura ǝd </roleName></persName>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="ecclesiastic">saint</occupation>
+               <birth></birth>
+               <floruit when="1350"> He was a disciple of <roleName type="title">ʾabuna</roleName><persName ref="PRS9152TaklaHa"> Takla Hāymānot I </persName>
+                  and lived in the first half of 14th century. He was appointed as <roleName type="title">nǝbura ǝd </roleName> of <placeName ref="LOC2488Damot">Dāmot</placeName> by
+                  <roleName type="title">ʾabuna</roleName> <persName ref="PRS10200Yaeqob">Yāʿǝqob</persName>
+ 
+                     </floruit>
+               <death ></death>
+            </person>  
+            <listRelation>
+               <relation name="snap:AllianceWith"
+                  active="PRS1417Adhani"
+                  passive="PRS9152TaklaHa"
+                  ></relation>
+               <relation name="bm:ordainedBy"
+                  active="PRS1417Adhani"
+                  passive="PRS10200Yaeqob"
+                  ></relation>
+               <relation name="snap:BrotherOf"
+                  active="PRS1417Adhani"
+                  passive="PRS4104Fileppos"
+                  ></relation>
+               <relation name="saws:P129i_is_subject_of"
+                  active="PRS1417Adhani"
+                  passive="LIT1416GadlaA"
+                  ></relation>
+            </listRelation>
          </listPerson>
+            
+
+        <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Kaplan2003Adhani"/>
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Getachew1983monastic"/>
+               <biblScope unit="page">7-38</biblScope>
+            </bibl>
+            
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+                  
+                  

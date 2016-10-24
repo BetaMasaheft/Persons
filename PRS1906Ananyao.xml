@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ananya of Däbrä Ṣärabi</title>
+            <title>ʾAnānyā of Dabra Ṣarabi</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,73 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-10-24">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Ananya of Däbrä Ṣärabi
-               </persName>
-               <occupation> abba </occupation>
-            </person>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">አናንያ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAnānyā</persName>
+               <persName><roleName type="title">ʾabbā</roleName></persName>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="ecclesiastic">abbot</occupation>
+               <birth></birth>
+               <floruit > He was a monk of <placeName ref="LOC2358DabraS">Dabra Ṣarabi</placeName> in 
+                  <placeName ref="LOC6569Tegray">Tǝgrāy </placeName> in the 15th or 16th century. He was a member of <persName ref="PRS11207Ewostateans">ʾEwosṭāteans</persName>. 
+                  He came from the district of <placeName ref="LOC4564Maragw">Marāgwǝz</placeName> in the province of <placeName ref="LOC5575Saraye">Sarāye</placeName>
+                  and was initiated to monastic life by <roleName type="title">ʾabbā</roleName> <persName ref="PRS7769Pawlos">Ṗāwlos</persName>,
+                  abbot <placeName ref="LOC2358DabraS"> Dabra Ṣarabi</placeName>. He succeeded  <roleName type="title">ʾabbā</roleName>
+                  <persName ref="PRS7769Pawlos">Ṗāwlos</persName> after his death. He was succeeded by <roleName type="title">ʾabbā</roleName>
+                  <persName ref="PRS5643Iyosayas">Iyosayās</persName>.</floruit>
+               <death notBefore="1550" cert="medium"> His death attributed to the group of <persName ref="ETH1973Oromo">Oromo</persName></death>
+            </person>  
+            <listRelation>
+              <relation name="snap:AllianceWith"
+                  active="PRS1906Ananyao"
+                  passive="PRS7769Pawlos"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  active="PRS1906Ananyao"
+                  passive="PRS11207Ewostateans"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  active="PRS1906Ananyao"
+                  passive="PRS5643Iyosayas"
+                  ></relation>
+               <relation name="saws:P129i_is_subject_of"
+                  active="PRS1906Ananyao"
+                  passive="LIT1419GadlaA"
+                  ></relation>
+            </listRelation>
+            
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Lusini1990Ananya"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Luisini1991AnanyaMiracoli"/>
+            </bibl>
+         </listBibl>
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Luisini2003Ananya"/>
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Kaplan1984Monastic"/>
+               <biblScope unit="page">136</biblScope>
+            </bibl>
+            
+   </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+              
