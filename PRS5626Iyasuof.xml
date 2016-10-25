@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Iyasu of Ǧär Śǝllase</title>
+            <title>Iyāsu of Ǧar Śǝllāse</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,65 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-10-25">Complete record</change>
+         
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Iyasu of Ǧär Śǝllase
-               </persName>
-               <occupation> St. </occupation>
-            </person>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ኢያሱ፡ </persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Iyāsu of Ǧar Śǝllāse</persName>
+               <persName><roleName type="title">ʾabbā</roleName></persName>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="ecclesiastic">abbot</occupation>
+               <birth when="1468"></birth>
+               <floruit> He was a medieval monk and saint,  ordained by the metropolitan <roleName type="title">ʾabuna</roleName>
+                  <persName ref="PRS10350Yeshaq">Yǝsḥaq (II)</persName>. He was on of the ecclesiastics of the royal church (Kāhǝnāta Dabtarā) . He took his monastic habit from <roleName type="title">ʾǝč̣č̣age</roleName>
+                  <persName ref="PRS6734MarhaKr">Marḥa Krǝstos</persName>.  </floruit>
+               <death when="1508">
+      </death>
+            </person>  
+            <listRelation>
+               
+           <relation name="bm:ordainedBy"
+                  active="PRS5626Iyasuof"
+                  passive="PRS6734MarhaKr"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  active="PRS5626Iyasuof"
+                  passive="PRS4937HabtaMa"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  active="PRS5626Iyasuof"
+                  passive="PRS7481NaodA"
+                  ></relation>
+               <relation name="saws:P129i_is_subject_of"
+                  active="PRS5626Iyasuof"
+                  passive="LIT1466GadlaI"
+                  ></relation>
+            </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Raineri1990Habtamaryam"/>
+            </bibl>
+         </listBibl>
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Raineri2007Iyasu"/>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+               
