@@ -41,10 +41,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-07-26">Created XML record from Ethio authority google spreadsheet</change>
+         <change who="DR" when="2016-10-25">Bibliography added</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
+         <div type="bibliography">
+            <listBibl type="secondary">
+                  <bibl><ptr target="bm:Uhlig1988Palaographie"/><citedRange unit="page">393</citedRange></bibl>
+               <bibl><ptr target="bm:Pedersen1983Community"/><citedRange unit="page">162</citedRange></bibl>
+            </listBibl>
+         </div>
          <listPerson>
             <person sex="1">
                <persName>
