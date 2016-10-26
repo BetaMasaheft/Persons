@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Filǝṗṗos of Däbrä Bizän</title>
+            <title>Filǝṗṗos of Dabra Bizan</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,22 +46,76 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-10-26">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ፊልጶስ፡ </persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Filǝṗṗos </persName>
+                  <persName><roleName type="title">ʾabbā</roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <occupation type="ecclesiastic">abbot</occupation>
+               <birth notBefore="1322" notAfter="1323">He was born in <placeName ref="LOC6472Zema">Zǝmā</placeName> 
+                  during the reign of King<persName ref="PRS1854Amdase">ʿAmda Ṣǝyon I</persName>. </birth>
+               <floruit> He was a saint and prominent member of the <persName ref="PRS11207Ewostateans">ʾEwosṭāteans</persName>
+                  who lived in the 14th and 15th century.  He was the spiritual son of <persName ref="PRS2385Bakimos">Bakimos of Dabra Ṣarābi</persName>, 
+                  who was the pupil of <persName ref="PRS3932Ewostate">ʾEwosṭatewos</persName>. He was the founder of the monastery of 
+                  <placeName ref="LOC2251DabraB">Dabra Bizan</placeName> in <date>1373/74</date>, the strong hold of 
+                  <persName ref="PRS11207Ewostateans">ʾEwosṭāteans</persName>. During his tenure as an  abbot,  the monastery of  
+                  <placeName ref="LOC2251DabraB">Dabra Bizan</placeName> became prosperous. Due to his refusal to renounce the teaching of the
+                  two Sabbaths, he was imprisoned in <placeName ref="INS0327DHE"> Dabra Ḥayq ʾƎsṭifānos</placeName> and set free in <date> 1403/04</date>. 
+                  He was succeeded by <roleName type="title">ʾabbā </roleName><persName ref="PRS10371Yohanne">Yoḥannǝs</persName>, 
+                  the second abbot of <placeName ref="LOC2251DabraB">Dabra Bizan</placeName>. </floruit>
+                  <death when="1406"> He died at age of 84</death>
+               </person>  
+               <listRelation>
+                  <relation name="snap:SonOf"
+                     active="PRS4107Fileppos"
+                     passive="PRS10331Yerdea"
+                     ></relation>
+                 
+                 
+                  <relation name="snap:AllianceWith"
+                     active="PRS4107Fileppos"
+                     passive="PRS10371Yohanne"
+                     ></relation>
                   
-                  Filǝṗṗos of Däbrä Bizän
-               </persName>
-               <occupation> St. </occupation>
-               <residence>
-                  <placeName>Däbrä Bizän</placeName>
-               </residence>
-            </person>
+                  <relation name="snap:AllianceWith"
+                     active="PRS4107Fileppos"
+                     passive="PRS2469Bartalom"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS4107Fileppos"
+                     passive="PRS10342Yeshaq"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS4107Fileppos"
+                     passive="PRS8537saraqaB"
+                     ></relation>
+                  <relation name="saws:P129i_is_subject_of"
+                     active="PRS4107Fileppos"
+                     passive="LIT1444GadlaF"
+                     ></relation>
+               </listRelation>
          </listPerson>
+         
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Nosnitsin2005Fillipos"/>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+                  
+                

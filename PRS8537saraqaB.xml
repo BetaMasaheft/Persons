@@ -7,10 +7,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS8537saraqaB">
+
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Śäräqä Bǝrhan</title>
+            <title>Śaraqa Bǝrhān</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,22 +47,61 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-10-26">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+              <persName xml:lang="gez" xml:id="n1" type="birthName">ሠረቀ፡ ብርሃን፡ </persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Śaraqa Bǝrhān </persName>
+                  <persName><roleName type="title">ʾabbā</roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <occupation type="ecclesiastic">abbot</occupation>
+                  <residence ><placeName ref="LOC2251DabraB">Dabra Bizan</placeName></residence>
+                  <birth></birth>
+               <floruit when="1449"> He was the third abbot of the monastery of <placeName ref="LOC2251DabraB">Dabra Bizan</placeName>,
+                  who succeded  <roleName type="title">ʾabbā </roleName><persName ref="PRS10371Yohanne">Yoḥannǝs</persName> in <date>1449</date> </floruit>
+                  <death ></death>
+               </person>  
+               <listRelation>
+             
                   
-                  Śäräqä Bǝrhan
-               </persName>
-               <occupation>abbot</occupation>
-               <residence>
-                  <placeName>Däbrä Bizän</placeName>
-               </residence>
-            </person>
+                <relation name="snap:AllianceWith"
+                     active="PRS8537saraqaB"
+                     passive="PRS10371Yohanne"
+                     ></relation>
+                  
+                  <relation name="snap:AllianceWith"
+                     active="PRS8537saraqaB"
+                     passive="PRS4107Fileppos"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS8537saraqaB"
+                     passive="PRS10626ZaraY"
+                     ></relation>
+                  
+                 
+               </listRelation>
          </listPerson>
+         
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Bausi2014Yohannes"/>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+                  
+                  
