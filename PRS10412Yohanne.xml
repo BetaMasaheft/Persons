@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Yoḥannǝs Mǝśraqawi</title>
+            <title>Yoḥannǝs Mǝśrāqāwi</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,22 +46,54 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-10-27">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+              
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">ዮሐንስ፡ ምስራቃዊ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Yoḥannǝs Mǝśrāqāwi</persName>
+               <persName xml:lang="gez" xml:id="n2" type="alt">ዮሐንስ፡ ጸገሮ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Yoḥannǝs of Ṣagaro</persName>
+               <persName xml:lang="gez" xml:id="n3" type="alt">እጨ፡ ዮሐንስ፡ </persName>
+               <persName xml:lang="gez" corresp="#n3" type="normalized">ʾǝč̣č̣aYoḥannǝs</persName>
+               <persName xml:lang="gez" xml:id="n4" type="alt">John the Oriental</persName>
+                  <persName><roleName type="title">ʾabbā</roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <occupation type="ecclesiastic">saint</occupation>
+                  <residence ></residence>
+                  <birth ></birth>
+               <floruit>He was an Ethiopian saint credited with the evangelization of the the region of <placeName ref="LOC4544Manz">Manz</placeName></floruit>
+                  <death ></death>
+               </person>  
+               <listRelation>
                   
-                  Yoḥannǝs Mǝśraqawi
-               </persName>
-               <persName type="alt"> John the Oriental</persName>
-               <persName type="alt"> Yoḥannǝs of Ṣägäro</persName>
-               <persName type="alt">ǝḉḉa Yoḥannǝs</persName>
-               <occupation> St. </occupation>
-            </person>
+               
+                  <relation name="saws:P129i_is_subject_of"
+                     active="PRS10412Yohanne"
+                     passive="LIT1519GadlaY"
+                     ></relation>
+                  
+               </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Marrassini1981YohannesMisrakawi"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Marrassini2014YohannesMesrakawi"/>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+          
+                  
+                  
