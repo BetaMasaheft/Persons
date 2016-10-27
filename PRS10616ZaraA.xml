@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Zärʾa Abrǝham</title>
+            <title>Zarʾa ʾAbrǝham</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,65 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-10-27">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Zärʾa Abrǝham
-               </persName>
-               <occupation> St. </occupation>
-            </person>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ዘርአ፡ አብርሀም፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Zarʾa ʾAbrǝham</persName>
+               <persName><roleName type="title">ʾabbā</roleName></persName>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="ecclesiastic">saint</occupation>
+               <residence ></residence>
+               <birth ></birth>
+               <floruit> He was a saintly monk of  the spritual line of <roleName type="title">ʾabbā</roleName> 
+                  <persName ref="PRS1955Anorewos">ʾAnorewos “the Elder”</persName> in the 15th century. 
+                  He was born from  his father <persName ref="PRS1883Ammehas">ʾAmmǝḫa Ṣǝyon</persName> who was the head of the royal army and <persName ref="PRS10616ZaraA">Zarʾa ʾAbrǝham</persName> was raised to be a soldier 
+                  and assumed his father's position after the later death. However, he left his military role and became a warrior for God </floruit>
+               <death ></death>
+            </person>  
+            <listRelation>
+               <relation name="snap:SonOf"
+                  active="PRS10616ZaraA"
+                  passive="PRS1883Ammehas"
+                  ></relation>
+               <relation name="snap:SonOf"
+                  active="PRS10616ZaraA"
+                  passive="PRS9858Walatta"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  active="PRS10616ZaraA"
+                  passive="PRS1955Anorewos"
+                  ></relation>
+               
+               <relation name="snap:AllianceWith"
+                  active="PRS10616ZaraA"
+                  passive="PRS4070FereMik"
+                  ></relation>
+                <relation name="saws:P129i_is_subject_of"
+                  active="PRS10616ZaraA"
+                  passive="LIT1527GadlaZ"
+                  ></relation>
+               
+            </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Turaev1905ZaraAbreham"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Kaplan2014ZaraAbreham"/>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+                  
+                  
