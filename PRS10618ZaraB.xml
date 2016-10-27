@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Zärʾa Buruk</title>
+            <title>Zarʾa Buruk</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,68 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-10-27">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+            <persName xml:lang="gez" xml:id="n1" type="birthName">ዘርአ፡ ቡሩክ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Zarʾa Buruk</persName>
+               <persName xml:lang="gez" xml:id="n2" type="birthName">ዘርአ፡ ብሩክ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Zarʾabruk</persName>
+               <persName xml:lang="gez" xml:id="n3" type="baptismalName">ጸጋ፡ ክርስቶስ፡</persName>
+               <persName xml:lang="gez" corresp="#n3" type="normalized">Ṣaggā Krǝstos</persName>
+               <persName><roleName type="title">ʾabuna </roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <occupation type="ecclesiastic">saint</occupation>
+                  <residence ></residence>
+                  <birth notBefore="1630" notAfter="1640"></birth>
+               <floruit>He was a saintly figure from <placeName ref="LOC3549Gojjam">Goǧǧām</placeName>, a contemporary of <roleName type="title"> ʾaṣe </roleName><persName ref="PRS10375Yohanne">Yoḥannǝs I</persName> and  <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS5616IyasuI">Iyāsu I</persName>. Towards the end of his life, <persName ref="PRS10618ZaraB">Zarʾa Buruk</persName> appears to have been involved in the 
+                  Christological controversies of his time. As a result of his disagreeing with <roleName type="title"> ʾaṣe </roleName><persName ref="PRS5616IyasuI">Iyāsu I</persName>,  he was imprisoned for five years. 
+                  His centre  of veneration is the church dedicated to him, St. Michael at <placeName ref="LOC3403Gelgal">Gǝš ʾAbbāy</placeName>. 
+    </floruit>
+                  <death when="1700"></death>
+               </person>  
+               <listRelation>
+                  <relation name="snap:SonOf"
+                     active="PRS10618ZaraB"
+                     passive="PRS3306DamaKre"
+                     ></relation>
+                  <relation name="snap:SonOf"
+                     active="PRS10618ZaraB"
+                     passive="PRS6826MaryamM"
+                     ></relation>
+               
+                  <relation name="snap:AllianceWith"
+                     active="PRS10618ZaraB"
+                     passive="PRS10375Yohanne"
+                     ></relation>
                   
-                  Zärʾa Buruk
-               </persName>
-               <occupation> St. </occupation>
-            </person>
+                  <relation name="snap:AllianceWith"
+                     active="PRS10618ZaraB"
+                     passive="PRS5616IyasuI"
+                     ></relation>
+            
+                  
+               </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:ContiRossini1912ZaraBuruk"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Sokolinskaia2014ZaraBuruk"/>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+                  
+               
