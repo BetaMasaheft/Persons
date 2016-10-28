@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Absadi of Azäzo</title>
+            <title>ʾAbsādi  of ʾAzazo</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,45 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-10-28">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+         
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">አብሳዲ፡ </persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAbsādi </persName>
+                  <persName><roleName type="title">ʾabbā</roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <occupation type="ecclesiastic">saint</occupation>
+               <residence ><placeName ref="LOC6500ZozAmb">Zoz ʾAmbā</placeName></residence>
+               <birth >He was born in <placeName ref="LOC1669Azazo">ʾAzazo</placeName></birth>
+               <floruit> He was the founder of the monastery of <placeName ref="LOC6500ZozAmb">
+                  Zoz ʾAmbā</placeName> in the <placeName ref="LOC1002Salasa">Salāša</placeName> district
+                  in <placeName ref="LOC1713Bagemd">Bagemdǝr</placeName>. The chronology of his life is uncertain.  It is believed that at least ony copy of 
+                  <title ref="LIT4067GadlaAbsadi">Gadla ʾAbsādi of ʾAzzo</title>  is known to exist, but the text is still unpublsihed</floruit>
+                  <death when="1380"></death>
+               </person>  
+               <listRelation>
+                  <relation name="saws:P129i_is_subject_of"
+                     active="PRS1301Absadio"
+                     passive="LIT4067GadlaAbsadi"
+                     ></relation>
                   
-                  Absadi of Azäzo
-               </persName>
-               <occupation> St. </occupation>
-            </person>
+               </listRelation>
          </listPerson>
+      
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Luisini2003Absadi"/>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+                  
+                 

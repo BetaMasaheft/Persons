@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Zäwäldä Maryam</title>
+            <title>Zawalda Māryām</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,20 +46,66 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-10-28">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+            <persName xml:lang="gez" xml:id="n1" type="birthName">ዘወልደ፡ ማርያም፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Zawalda Māryām </persName>
+               <persName><roleName type="title">ʾǝč̣č̣age</roleName></persName>
+                  <occupation type="ecclesiastic"> abbot </occupation>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <birth ></birth>
+                  <residence></residence>
+               <floruit notBefore="1705" notAfter="1728"> 
+                  He was a monk of the monastery of <placeName ref="LOC4417Magwin">Magwinā</placeName>
+                  in northern <placeName ref="LOC3577Gondar">Gondar</placeName> and 
+                  <roleName type="title">ʾ
+                     ǝč̣č̣age</roleName> of <placeName ref="INS0336DabraL">Dabra Libānos</placeName> between <date>1725-1728</date>. 
+                  He succceeded <persName ref="PRS3669edaKres">ʾƎdā Krǝstos</persName> as the head of  <placeName ref="LOC4417Magwin">Magwinā</placeName> in<date>1706</date>, 
+                  which was an important  strong hold of the Unionist movement a time of great instablity, caused by the doctrinal controversies bewtween
+                  the Qǝbāt party and the Tawāḥdo supporters. He also played his role in to reconcile <roleName type="title">ʾaṣe </roleName>
+                  <persName ref="PRS9152TaklaHa">Takla Hāymānot I</persName> with <roleName type="title">ʾaṣe </roleName> <persName ref="PRS5616IyasuI">Iyāsu I</persName> in <date>1706</date>.
+                  He was appointed as the 34th <roleName type="title">ʾǝč̣č̣age</roleName> of  <placeName ref="INS0336DabraL">Dabra Libānos</placeName>   in <date> 1725</date>. 
+                  But he was deposed three years later in <date>1728</date>. </floruit>
+                  <death ></death>
+               </person>
+               <listRelation>
                   
-                  Zäwäldä Maryam
-               </persName>
-               <persName type="alt">Zäwäldä Maryam of Mägwina</persName>
-               <occupation> ǝḉḉ. </occupation>
-            </person>
+                  <relation name= "snap:AllianceWith"
+                     active="PRS10655Zawalda"
+                     passive="PRS3669edaKres"
+                     ></relation>
+                  <relation name= "snap:AllianceWith"
+                     active="PRS10655Zawalda"
+                     passive="PRS9152TaklaHa"
+                     ></relation>
+               </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Basset1882Chronicle"/>
+            </bibl>
+
+         </listBibl>
+         <listBibl type="secondary">
+      
+            <bibl> 
+               <ptr target="bm:Pisani2014ZawaladaMrayam"/>
+            </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+                  
+                 

@@ -57,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <persName xml:lang="gez" xml:id="n1" type="birthName">ዮሐንስ፡ ምስራቃዊ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Yoḥannǝs Mǝśrāqāwi</persName>
                <persName xml:lang="gez" xml:id="n2" type="alt">ዮሐንስ፡ ጸገሮ፡</persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized">Yoḥannǝs of Ṣagaro</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Yoḥannǝs of Ṣagaro</persName>
                <persName xml:lang="gez" xml:id="n3" type="alt">እጨ፡ ዮሐንስ፡ </persName>
                <persName xml:lang="gez" corresp="#n3" type="normalized">ʾǝč̣č̣aYoḥannǝs</persName>
                <persName xml:lang="gez" xml:id="n4" type="alt">John the Oriental</persName>
@@ -71,9 +71,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <death ></death>
                </person>  
                <listRelation>
+                  <relation name="snap:AllianceWith"
+                     
+                     active="PRS10412Yohanne"
+                     passive="PRS10408Yohanne"
+                     ></relation>
                   
-               
-                  <relation name="saws:P129i_is_subject_of"
+                           <relation name="saws:P129i_is_subject_of"
                      active="PRS10412Yohanne"
                      passive="LIT1519GadlaY"
                      ></relation>

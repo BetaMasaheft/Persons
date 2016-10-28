@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Gäbrä Nazrawi</title>
+            <title>Gabra Nāzrāwi</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +44,53 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-10-28">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Gäbrä Nazrawi
-               </persName>
-               <occupation> St. </occupation>
-            </person>
+            <persName xml:lang="gez" xml:id="n1" type="birthName">ገብረ፡ ናዝራዊ</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Gabra Nāzrāwi</persName>
+               <persName><roleName type="title">ʾabbā</roleName></persName>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="ecclesiastic">saint</occupation>
+               <residence> </residence>
+               <birth ></birth>
+               <floruit> He was a late 14th century lesser known monk. He was one of the eight pupils of <roleName type="title">ʾabuna</roleName>
+                  <persName ref="PRS3932Ewostate">Ewosṭatewos</persName> from <placeName ref="LOC5498Sallam">Ṣallamt</placeName>
+                  who came to <placeName ref="LOC5689Serell"></placeName>, a district of <placeName ref="LOC6186Walqay">Walqāyt</placeName>
+                  during the reign of <persName ref="PRS10111WedemR">Wǝdǝm Raʿad</persName>.</floruit>
+               <death ></death>
+            </person>  
+            <listRelation>
+               <relation name="snap:AllianceWith"
+                  active="PRS4349GabraNa"
+                  passive="PRS3932Ewostate"
+                  ></relation>
+               
+               <relation name="snap:AllianceWith"
+                  active="PRS4349GabraNa"
+                  passive="PRS10708ZenaMa"
+                  ></relation>
+        
+               
+            </listRelation>
          </listPerson>
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Nosnitsin2005GabraNazrawi
+                  "/>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+                  
+               
