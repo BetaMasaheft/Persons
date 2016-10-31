@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Sinoda</title>
+            <title>Sinodā</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,74 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-10-31">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+               
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">ሲኖዳ፡</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Sinodā</persName>
+               <persName><roleName type="title">ʾazzāž</roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <occupation type="literary"> chronicler</occupation>
+               <residence ref="LOC3577Gondar">Gondar</residence>
+                  <birth ></birth>
+               <floruit>He was 18th century royal historiographer. Following the death of his master <roleName type="title">ʾaṣe </roleName> 
+                  <persName ref="PRS5616IyasuI">Iyāsu I</persName> in <date>1706</date>, he refused to offer services to 
+                  <roleName type="title">ʾaṣe </roleName> <persName ref="PRS9152TaklaHa">Takla Hāymānot I</persName> shocked by the patricide. 
+                  However, in the same year <roleName type="title">ʾaṣe </roleName> <persName ref="PRS9152TaklaHa">Takla Hāymānot I </persName> was 
+                  killed and then he continued to serve as chronicler in the court for a short time. However, he resumed officially his pen as a hitoriographer during the reign
+                  of  <roleName type="title">ʾaṣe </roleName><persName ref="PRS2377Bakaffa">Bakāffā</persName>.  </floruit>
+                 <death when="1726"></death>
+               </person>  
+               <listRelation>
+                  <relation name="snap:AllianceWith"
+                     
+                     active="PRS8871Sinoda"
+                     passive="PRS5616IyasuI"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     
+                     active="PRS8871Sinoda"
+                     passive="PRS2377Bakaffa"
+                     ></relation>
                   
-                  Sinoda
-               </persName>
-               <occupation> azzaž  </occupation>
-            </person>
+                  <relation name="snap:FriendshipFor"
+                     
+                     active="PRS8871Sinoda"
+                     passive="PRS5941KenfaMi"
+                     ></relation>
+                  
+       
+                  
+               </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Guidi1961Yohannes"/>
+               
+            </bibl>
+            <bibl>
+               <ptr target="bm:Basset1882Chronicle"/>
+               
+            </bibl>
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:NosnitsinChernetsov2010Sinoda"/>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+                 
