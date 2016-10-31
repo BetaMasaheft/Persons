@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Zäkrǝstos</title>
+            <title>Zakrǝstos</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,80 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-10-31">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Zäkrǝstos
-               </persName>
-               <occupation> messianic monk (d. 1604) </occupation>
-            </person>
+        <persName xml:lang="gez" xml:id="n1" type="birthName">ዘክርስቶስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Zakrǝstos</persName>
+                  <persName><roleName type="title">ʾabbā</roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <occupation type="ecclesiastic">messianic monk </occupation>
+               <residence ><placeName ref="LOC6167Walaqa">Walaqā</placeName></residence>
+                  <birth ></birth>
+                  <floruit notBefore="1602" notAfter="1604">  He was an Ethiopian monk who intiated a short lived messianic movemnet from <date>1602-1618</date> 
+                     in <placeName ref="LOC6167Walaqa">Walaqā</placeName>. He was from a certain woman by the name called 
+                     <persName ref="PRS1825AmataWa">ʾAmata Wangel (Marʿata Wangel)</persName>. He was a monk who proclaimed himself  "Christ". 
+                     His seat was located on ʾambā in <placeName ref="LOC6167Walaqa">Walaqā</placeName>. Finally, he was executed due to his guilty of heresy by the order of<roleName type="title">ʾaṣe</roleName> 
+                     <persName ref="PRS10513Zadenge">Zadǝngǝl</persName> in <date>1604</date>. 
+                     However, his adherents continued to propagate his teaching which finally was supressed by <roleName type="title">ʾaṣe</roleName> <persName ref="PRS9038Susenyos">Susǝnyos</persName>.</floruit>
+                  <death when="1604"></death>
+               </person>  
+               <listRelation>
+                  <relation name="snap:SonOf"
+                     
+                     active="PRS10550Zakrest"
+                     passive="PRS1825AmataWa"
+                     ></relation>
+                  <relation name="rel:enemyOf"
+                     
+                     active="PRS10550Zakrest"
+                     passive="PRS10513Zadenge"
+                     ></relation>
+                  <relation name="rel:enemyOf"
+                     
+                     active="PRS10550Zakrest"
+                     passive="PRS10513Zadenge"
+                     ></relation>
+                  <relation name="rel:enemyOf"
+                     
+                     active="PRS10550Zakrest"
+                     passive="PRS2614BeelaK"
+                     ></relation>
+         
+                </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Pereira1892Susenyos"/>
+               
+            </bibl>
+            <bibl>
+               <ptr target="bm:Pereira1900Susenyos"/>
+               
+            </bibl>
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Krzyżanowska2014Zakrestos"/>
+            </bibl>
+        
+               <bibl> 
+                  <ptr target="bm:Getachew1985Zakrestos"/>
+               </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+                  
+                

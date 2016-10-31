@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Kǝnfä Mikaʾǝl</title>
+            <title>Kǝnfa Mikāʾǝl</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,71 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-10-31">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ክንፈ፡ ሚካኤል፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Kǝnfa Mikāʾǝl</persName>
+               <persName><roleName type="title">ṣaḥafe tǝʿǝzāz</roleName></persName>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="literary"> chronicler</occupation>
+               <residence ref="LOC3577Gondar">Gondar</residence>
+               <birth ></birth>
+               <floruit notBefore="1600" notAfter="1750"> He was<roleName type="title">ṣaḥafe tǝʿǝzāz</roleName> during the time of 
+                  <roleName type="title">ʾaṣe </roleName><persName ref="PRS2377Bakaffa">Bakāffā</persName>. 
+                  He continued to write the chronicle of <roleName type="title">ʾaṣe </roleName><persName ref="PRS2377Bakaffa">Bakāffā</persName>
+                  after the death of <roleName type="title">ʾazzāž </roleName><persName ref="PRS8869Sinoda">Sinodā</persName>. He wrote the
+                  last 14 chapters of the chronicle of  <roleName type="title">ʾaṣe </roleName><persName ref="PRS2377Bakaffa">Bakāffā</persName>, 
+                  recording events from mid-August 1726-January 1727.</floruit>
+               <death ></death>
+            </person>  
+            <listRelation>
+               <relation name="snap:AllianceWith"
                   
-                  Kǝnfä Mikaʾǝl
-               </persName>
-               <occupation> ṣäḥ.t. </occupation>
-            </person>
+                  active="PRS5941KenfaMi"
+                  passive="PRS5616IyasuI"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  
+                  active="PRS5941KenfaMi"
+                  passive="PRS2377Bakaffa"
+                  ></relation>
+               
+               <relation name="snap:FriendshipFor"
+                  
+                  active="PRS5941KenfaMi"
+                  passive="PRS8871Sinoda"
+                  ></relation>
+               
+         </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Guidi1961Yohannes"/>
+               
+            </bibl>
+    
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Nosnitsin20007KenfaMikael"/>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+            
+                  
+                  
