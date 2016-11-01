@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Gäbrä Iyäsus</title>
+            <title>Gabra Iyasus</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,20 +46,60 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-11-01">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Gäbrä Iyäsus
-               </persName>
-               <occupation> bale gärad</occupation>
-               <occupation> bitw. </occupation>
-            </person>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ገብረ፡ ኢየሱስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Gabra Iyasus</persName>
+               <persName><roleName type="title"> garād, bitwaddad</roleName></persName>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="political">governor</occupation>
+               <residence ></residence>
+               <birth ></birth>
+               <floruit  notBefore="1450" notAfter="1500">He was the governor of <placeName ref="LOC1743Bale">Bāle</placeName> during the 
+                  reign of <roleName type="title">ʾaṣe</roleName><persName ref="PRS2334BaedaM">Baʾǝda Māryām I</persName>.  
+                  He succeeded <roleName type="title">garād</roleName> <persName ref="PRS10595ZanZeg">Žān Zǝg</persName> of  
+                  <placeName ref="LOC1743Bale">Bāle</placeName>. </floruit>
+               <death ></death>
+            </person>  
+            <listRelation>
+               
+           
+               
+               <relation name="snap:AllianceWith"
+                  active="PRS4243GabraIy"
+                  passive="PRS2334BaedaM"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  active="PRS4243GabraIy"
+                  passive="PRS6494MahariK"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  active="PRS4243GabraIy"
+                  passive="PRS10595ZanZeg"
+                  ></relation>
+            </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Perruchon1893Zarayaeqob"/>
+            </bibl>
+            
+         </listBibl>
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Gori2005GabraIyasus"/>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+                  
+                  
