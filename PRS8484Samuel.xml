@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Samuʾel of Däbrä Qwäyäṣa</title>
+            <title>Sāmuʾel of Dabra Qwayaṣā</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,59 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-11-01">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Samuʾel of Däbrä Qwäyäṣa
-               </persName>
-               <occupation> St. </occupation>
-            </person>
+            <persName xml:lang="gez" xml:id="n1" type="birthName">ሳሙኤል፡ </persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Sāmuʾel </persName>
+               <persName><roleName type="title">ʾabbā</roleName></persName>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="ecclesiastic">saint</occupation>
+               <residence ></residence>
+               <birth > He was born at <placeName ref="LOC4545Maqala">Maqala</placeName></birth>
+               <floruit notBefore="1300" notAfter="1400"> He was a medieval Ethiopian saint known particularly as a disciple of <roleName type="title">ʾabuna</roleName> 
+                  <persName ref="PRS6445Madhanin">Madḫānina ʾƎgziʾ</persName> and the spiritual father of <roleName type="title">ʾabuna</roleName> 
+                  <persName ref="PRS3894estifano">ʾƎsṭifānos</persName>. He was the founder of the monastery of <placeName ref="LOC2338DabraQ">Dabra Qwayaṣā</placeName>. </floruit>
+               <death ></death>
+            </person>  
+            <listRelation>
+            <relation name="bm:ordainedBy"
+                  active="PRS8484Samuel"
+                  passive="PRS8387SalamaI"
+                  ></relation>
+               <relation name="bm:ordainedBy"
+                  active="PRS8484Samuel"
+                  passive="PRS6445Madhanin"
+                  ></relation>
+               
+               <relation name="snap:AllianceWith"
+                  active="PRS8484Samuel"
+                  passive="PRS3894estifano"
+                  ></relation>
+               
+               <relation name="saws:P129i_is_subject_of"
+                  active="PRS8484Samuel"
+                  passive="LIT4082GadlaS"
+                  ></relation>
+               
+            </listRelation>
          </listPerson>
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:LeCadre2010SamuelQwayasa"/>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+                  
+                  
