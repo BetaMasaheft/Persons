@@ -44,19 +44,29 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="DR" when="2016-11-02">Added information</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                   Hermann (Théodore)
-                  Zotenberg
+               <persName >
+                  <forename>Hermann (Théodore)</forename>
+                  <surname>Zotenberg</surname>
                </persName>
-               <occupation> sch. </occupation>
+               <occupation type="academic"> scholar and librarian</occupation>
+               <nationality type="France"/>
+<birth when="1834-01-26"/>               
+               <death when="1909-07-01"/>
             </person>
          </listPerson>
+         <div type="bibliography">
+            <listBibl type="secondary">
+               <bibl><ptr target="bm:Berthier2014EAEZotenberg"/></bibl>
+               <bibl><ptr target="bm:Freudenthal2010Zotenberg"/></bibl>
+            </listBibl>
+         </div>
       </body>
    </text>
 </TEI>
