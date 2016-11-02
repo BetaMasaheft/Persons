@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Dǝmyanos</title>
+            <title>Dǝmyānos</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,22 +46,63 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-11-02">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+               
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ድምያኖስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Dǝmyānos</persName>
+                  <persName><roleName type="title">ʾabbā</roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <occupation type="ecclesiastic">saint</occupation>
+                  <residence ></residence>
+                  <birth when="1381" cert="medium"></birth>
+               <floruit notBefore="1400" notAfter="1450"> He was the abbot of the monastery of <placeName ref="LOC2379DabraS">Dabra Sinā</placeName>
+                  in<placeName ref="LOC2991Eritre">Eritrea</placeName>. He was initiated into monastic life by 
+                  <persName ref="PRS7402Muse">Muse</persName>, a disciple of <persName ref="PRS1302Absadio">ʾAbsādi  of Dabra Māryām</persName>. 
+                  He wa succeeded by his  disciple  <persName ref="PRS11291Yonas">Yonās Dabra Sinā</persName>. </floruit>
+                  <death when="1441"></death>
+               </person>  
+               <listRelation>
+             
+                  <relation name="snap:AllianceWith"
+                     active="PRS3508Demyanos"
+                     passive="PRS11291Yonas"
+                     ></relation>
                   
-                  Dǝmyanos
-               </persName>
-               <occupation>abbot</occupation>
-               <residence>
-                  <placeName>Dabra Sina</placeName>
-               </residence>
-            </person>
+                  <relation name="snap:AllianceWith"
+                     active="PRS3508Demyanos"
+                     passive="PRS1302Absadio"
+                     ></relation>
+                  
+                  <relation name="saws:P129i_is_subject_of"
+                     active="PRS3508Demyanos"
+                     passive="LIT1433GadlaD"
+                     ></relation>
+                  
+               </listRelation>
          </listPerson>
+    
+      
+            
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Lusini2005Demyanos"/>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+                  
+                 
