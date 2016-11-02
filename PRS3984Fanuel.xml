@@ -7,10 +7,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS3984Fanuel">
+ 
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Fanuʾel</title>
+            <title>Fānuʾel</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +47,75 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-11-02">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Fanuʾel
-               </persName>
-               <occupation> wag šum </occupation>
-            </person>
+            <persName xml:lang="gez" xml:id="n1" type="birthName">ፋኑኤል፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Fānuʾel</persName>
+               <persName><roleName type="title">wāg šum</roleName></persName>
+                 <occupation type="military">leader</occupation>
+                  <birth></birth>
+               <floruit > He was an aristocrat of royal blood  who traced  his descent to <roleName type="title">ʾaṣe</roleName> 
+                  <persName ref="PRS8595SayfaAr">Sayfa Arʿad</persName>. It was during the turbulent period of<roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS6229LebnaDe">Lǝbna Dǝngǝl</persName>, <persName ref="PRS3984Fanuel">Fānuʾel</persName> 
+                  held the office of <roleName type="title"> wāg šum </roleName>. He was among a few prominent warlords who were luck  enough to survive during the onslaught led by  <roleName type="title">imām</roleName><persName ref="PRS1522Ahmadb">Aḥmad b. Ibrāhīm al-Ġāzī</persName>. 
+                  He was also an important warlord during the reign of <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS4428Galawdew">Galāwdewos</persName>.</floruit >   
+                  <death ></death>
+               </person>
+               
+               <listRelation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS3984Fanuel"
+                     passive="PRS4428Galawdew"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS3984Fanuel"
+                     passive="PRS6229LebnaDe"
+                     ></relation>
+                  <relation name="snap:FriendshipFor"
+                     active="PRS3984Fanuel"
+                     passive="PRS3287Dagalhan"
+                     ></relation>
+                  <relation name="snap:SonOf"
+                     active="PRS3984Fanuel"
+                     passive="PRS6460Magdalaw"
+                     ></relation>
+                  <relation name="saws:isSiblingOf"
+                     active="PRS3984Fanuel"
+                     passive="PRS8595SayfaAr"
+                     ></relation>
+                 
+               </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Conzelman1895Galawdewos"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Solomon2016Galawdewos"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Kropp1988Shortchr"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Chernestsov2005Fanuel"/>
+            </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+                  
+                  
