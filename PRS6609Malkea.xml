@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mälkǝʾa Krǝstos (d. 1633)</title>
+            <title>Malkǝʾa Krǝstos </title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,72 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-11-03">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+          <persName xml:lang="gez" xml:id="n1" type="birthName">መልክአ፡ ክርስቶስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Malkǝʾa Krǝstos </persName>
+                  <persName><roleName type="title">ʾabetohun</roleName></persName>
+                 <occupation type="military">officer</occupation>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                     <birth></birth>
+               <floruit> He was a prominent 17th century nobleman and high ranking officer of <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS9038Susenyos">Susǝnyos</persName>. He was the husband of <roleName type="title">ʾƎmmat</roleName>
+                  <persName ref="PRS9848Walatta">Walatta Ṗeṭros </persName>from whom he had three children. He was very loyal to  <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS9038Susenyos">Susǝnyos</persName> despite the king  inclanation to catholism. He involved in many anti-catholic rebels assisting the king but
+                  in the final years of <roleName type="title">ʾaṣe</roleName><persName ref="PRS9038Susenyos">Susǝnyos</persName> 
+                  <persName ref="PRS6609Malkea">Malkǝʾa Krǝstos</persName> was in tension with the king and in <date>1632 </date> he avoided campaigning against the rebels. 
+                  Finally, he was arrested, accused of treason and sentenced to death which substituted by exile.</floruit>
+               <death  when="1633"> He died of the second year of <roleName type="title">ʾaṣe</roleName> <persName ref="PRS4015Fasilada">Fāsiladas</persName>.</death>
+               </person>
+               <listRelation>
+                  <relation name="bm:husbandOf"
+                     active="PRS6609Malkea"
+                     passive="PRS9848Walatta"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS6609Malkea"
+                     passive="PRS9038Susenyos"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS6609Malkea"
+                     passive="PRS4015Fasilada"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS6609Malkea"
+                     passive="PRS6858Masqal"
+                     ></relation>
                   
-                  Mälkǝʾa Krǝstos (d. 1633)
-               </persName>
-               <occupation> abet. </occupation>
-            </person>
+          </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Pereira1892Susenyos"/>
+            </bibl>
+            
+            
+            <bibl>
+               <ptr target="bm:Pereira1900Susenyos"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Nosnitsin2007MalkeaKrestos"/>
+            </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+                  
+                 
