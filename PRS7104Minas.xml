@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Minas</title>
+            <title>Minās</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,22 +46,54 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-11-03">completed the record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Minas
-               </persName>
-               <occupation> bishop</occupation>
-               <residence>
-                  <placeName>Aksum </placeName>
-               </residence>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ሚናስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Minās</persName>
+              <persName><roleName type="title">ʾabbā</roleName></persName>
+               <occupation type="ecclesiastic"> bishop </occupation>
+               <nationality type="Egypt"/>
+               <faith type="EOTC"/>
+               <birth></birth>
+               <residence><placeName ref="LOC1310Aksum">ʾAksum </placeName></residence>
+               <floruit >He is known in a tradition as the second metropolitan of the Ethiopian Orthodox Church in <placeName ref="LOC1310Aksum">ʾAksum </placeName>
+                  after <persName ref="PRS8386SalamaI">Salāmā I Kaśāte Bǝrhān</persName>. He is represented as the second bishop 
+                  of  <placeName ref="LOC1310Aksum">ʾAksum </placeName>in the <title ref="LIT1417GadlaA">Gadla ʾAfṣe</title></floruit>
+               <death ></death>
             </person>
+            <listRelation>
+               
+    
+               
+               
+               <relation name= "snap:AllianceWith"
+                  
+                  active="PRS7104Minas"
+                  passive="PRS8386SalamaI" 
+                  ></relation>
+               
+            </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Nosnitsin2007Minas"/>
+            </bibl> 
+            <bibl> 
+               <ptr target="bm:Guidi1899ListeM"/>
+           
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+                  
+                  
