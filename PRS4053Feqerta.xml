@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Fǝqǝrtä Krǝstos</title>
+            <title>Fǝqǝrta Krǝstos</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,71 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-11-03">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="2">
-               <persName>
+            <persName xml:lang="gez" xml:id="n1" type="monasticName">ፍቅርተ፡ ክርስቶስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Fǝqǝrta Krǝstos</persName>
+               <persName xml:lang="gez" xml:id="n2" type="baptisalName">ማርያም፡ ጸዳላ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Māryām Ṣadālā</persName>
+               <persName xml:lang="gez" xml:id="n3" type="birthName">ሙዚት</persName>
+               <persName xml:lang="gez" corresp="#n3" type="normalized">Muzit</persName>
+               <persName xml:lang="gez" xml:id="n4" type="birthName">ምእዝት</persName>
+               <persName xml:lang="gez" corresp="#n4" type="normalized">Mǝʾǝzt</persName>
+               
+               <persName xml:lang="gez" xml:id="n5" type="nickName">እመሙዝ፡</persName>
+               <persName xml:lang="gez" corresp="#n5" type="normalized">ʾƎmmamuz</persName>
+               <persName><roleName type="title">ʾƎmmat</roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <occupation type="ecclesiastic">saint</occupation>
+                  <residence ></residence>
+                  <birth > </birth>
+               <floruit notBefore="1600" notAfter="1700"> She was a 17th century holy nun. She was born from noble family from her father 
+                  <persName ref="PRS6121Laba">Lābā</persName> and from her mother <persName ref="PRS10035Wangela">Wangelāwit</persName>. 
+                  It is believed that she was the founder of the monastery of <placeName ref="LOC2854Emmame">ʾƎmmamǝʾuz</placeName> in 
+                  <placeName ref="LOC4549Maqet">Maqet</placeName> <placeName ref="LOC6185Wallo">Wallo</placeName>.</floruit>
+                  <death ></death>
+               </person>  
+               <listRelation>
+                 
+           <relation name="snap:AllianceWith"
+                     active="PRS4053Feqerta"
+                     passive="PRS4015Fasilada"
+                     ></relation>
+                  <relation name="bm:wifeOf"
+                     active="PRS4053Feqerta"
+                     passive="PRS10619ZaraK"
+                     ></relation>
+                  <relation name="snap:FriendshipFor"
+                     active="PRS4053Feqerta"
+                     passive="PRS3768emmawata"
+                     ></relation>
                   
-                  Fǝqǝrtä Krǝstos
-               </persName>
-               <occupation> St. </occupation>
-            </person>
+                  <relation name="saws:P129i_is_subject_of"
+                     active="PRS4053Feqerta"
+                     passive="LIT1442GadlaF"
+                     ></relation>
+                  
+               </listRelation>
          </listPerson>
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Nosnitsin2005Fekertekrestos"/>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+                  
+                  
