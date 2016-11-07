@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Bǝḍuʿa Amlak</title>
+            <title>Bǝḍuʿa ʾAmlāk</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,20 +46,73 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-11-07">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+         <persName xml:lang="gez" xml:id="n1" type="birthName">ብፁዐ፡ አምላክ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Bǝḍuʿa  ʾAmlāk</persName>
+               <persName xml:lang="gez" xml:id="n2" type="alt">ብፁዕ፡ አምላክ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Bǝḍuʿǝ  ʾAmlāk</persName>
+               <persName xml:lang="gez" xml:id="n3" type="baptisalName">ብፁዕ፡ መንፈስ፡ ቅዱስ፡ </persName>
+               <persName xml:lang="gez" corresp="#n3" type="normalized">Bǝḍuʿǝ Manfas Qǝdus  </persName>
+                  <persName><roleName type="title">ʾabbā </roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <occupation type="ecclesiastic">saint</occupation>
+               <birth notBefore="1430" notAfter="1435" cert="low"> He was born at <placeName ref="LOC5922Tatya">Ṭaṭyā</placeName> probably between <date>1430-35</date>.</birth>
+                  <residence/>
+                 
+               <floruit notBefore="1400" notAfter="1500"> He was a 15th century monk and saint who is considered to be the founder of  
+                  the monastery of <placeName ref="LOC2935EndaSe">ʾƎnda Śǝllāse</placeName>. 
+                  He received his monastic garb at the monastery of <placeName ref="LOC2251DabraB">Dabra Bizan</placeName> 
+                  by <roleName type="title">ʾabbā </roleName> <persName ref="PRS7820Petros">Ṗeṭros</persName>. 
+                  Then, he went to <placeName ref="INS0105DD">Dabra Dammo ʾAbuna ʾAragāwi</placeName> for further education. 
+                  Up on its completion, he moved back to <placeName ref="LOC2991Eritre">Eritrea</placeName> and established himself  
+                  at <placeName ref="LOC4103Kodadu">Kodādu</placeName>. Finally, he founded the monatery of <placeName ref="LOC2935EndaSe">
+                     ʾƎndā Śǝllāse</placeName> at a place called <placeName ref="LOC5369Robra">Robrā</placeName>. 
+                  He was succeeded by <persName ref="PRS2392Bakwera">Bakwǝra Dǝngǝl</persName>. </floruit>
+                  <death/>
+               </person>
+               <listRelation>
+                 <relation name="bm:ordainedBy"
+                     active="PRS2748BeduaA"
+                     passive="PRS10342Yeshaq"
+                     ></relation>
+                  <relation name="snap:SonOf" 
+                     active="PRS2748BeduaA"
+                     passive="PRS10564Zamada"
+                     ></relation>
+                  <relation name="snap:SonOf"
+                     active="PRS2748BeduaA"
+                     passive="PRS10212Yafqera"
+                     ></relation>
                   
-                  Bǝḍuʿa Amlak
-               </persName>
-               <persName type="alt">Bǝḍuʿǝ Amlak</persName>
-               <occupation> St. </occupation>
-            </person>
+                  
+                  <relation name="saws:P129i_is_subject_of"
+                     active="PRS2748BeduaA"
+                     passive="LIT1430GadlaB"
+                     ></relation>
+                  
+               </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:ContiRossini1902BesuAmalak"/>
+            </bibl>
+         </listBibl>
+         
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:NosnitsinTsegay2003BesuaAmlak"/>
+            </bibl>
+         </listBibl>
       </body>
-   </text>
+   </text>   
 </TEI>
+
+                  
+                  
