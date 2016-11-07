@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Täklä Alfa</title>
+            <title>Takla ʾAlfā</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,77 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-11-07">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Täklä Alfa
-               </persName>
-               <occupation> St. </occupation>
-            </person>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ተክለ፡ አልፋ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Takla ʾAlfā</persName>
+               <persName xml:lang="gez" xml:id="n2" type="baptisalName">እንድርያስ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">ʾƎndrǝyās</persName>
+            
+               <persName><roleName type="title">ʾabbā </roleName></persName>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="ecclesiastic">saint</occupation>
+               <residence ></residence>
+               <birth ></birth>
+               <floruit notBefore="1500" notAfter="1550"> He was a saintly monk from <placeName ref="LOC3549Gojjam">Goǧǧam</placeName> who was the abbot of  monastery of
+                  <placeName ref="LOC2687DimaGi">Dimā Giyorgis</placeName>. When he was 30 years old, <persName ref="PRS9134TaklaAl">Takla ʾAlfā</persName> 
+                  was appointed as abbot of <placeName ref="LOC2687DimaGi">Dimā Giyorgis</placeName> by <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS6229LebnaDe">Lǝbna Dǝngǝl</persName> at the suggestion of <roleName type="title">ʾabuna</roleName>
+                  <persName ref="PRS6774Marqos">Mārqos [I]</persName>, the then metropolitan. 
+                  Thus, he headed the monastery of <placeName ref="LOC2687DimaGi">Dimā Giyorgis</placeName> during the turbulent periods of the wars of 
+                  <persName ref="PRS1500Ahmad">ʾAḥmad</persName>. </floruit>
+               <death >He died at the age of 80 and buried in the monastery of <placeName ref="LOC2687DimaGi">Dimā Giyorgis</placeName></death>
+            </person>  
+            <listRelation>
+               
+               
+               <relation name="snap:AllianceWith"
+                  active="PRS9134TaklaAl"
+                  passive="PRS6229LebnaDe"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  active="PRS9134TaklaAl"
+                  passive="PRS6774Marqos"
+                  ></relation>
+               
+               
+               
+               <relation name="saws:P129i_is_subject_of"
+                  active="PRS9134TaklaAl"
+                  passive="LIT1505GadlaT"
+                  ></relation>
+               
+            </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Cerulli11987TaklaAlfa"/>
+            </bibl>
+         </listBibl>
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Sokolinskaia2010TaklaAlfa"/>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+               
