@@ -10,9 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Galawdewos</title>
-            <editor key="SG"></editor>
-            <editor role="generalEditor" key="AB"/>
+            <title>Gälawdewos</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -46,58 +44,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
-         <change who="SG" when="2016-11-08">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-           <persName xml:lang="gez" xml:id="n1" type="birthName">ገላውዴዎስ፡</persName>
-                  <persName xml:lang="gez" corresp="#n1" type="normalized">Galāwdewos</persName>
-               <persName><roleName type="title">ʾabeto</roleName></persName>
-                  <nationality type="Ethiopia"/>
-                  <faith type="EOTC"/>
-               <occupation type="political">ʾalaqǝnnat </occupation>
-                  <birth> </birth>
-                   <floruit when="1706"  > He was the son of <roleName type="title">rās</roleName>
-                  <persName ref="PRS9900WaldaGi">Walda Giyorgis</persName>,  a prominent figure at the court of <roleName type="title">ʾaṣe </roleName> 
-                  <persName ref="PRS5616IyasuI">Iyāsu I</persName> of <placeName ref="LOC3577Gondar">Gondar</placeName>. 
-                  His father <persName ref="PRS9900WaldaGi">Walda Giyorgis</persName> appointed  him as his heir in <date>1706</date>. </floruit>
-                  <death></death>
-               </person>
-               <listRelation>
-                  <relation name="snap:SonOf" 
-                     active="PRS4436Galawdew"
-                     passive="PRS9900WaldaGi"
-                     ></relation>
-                  <relation name="snap:FatherOf"
-                     active="PRS4436Galawdew"
-                     passive="PRS9902WaldaGi"
-                     ></relation>
-                  <relation name="bm:husbandOf"
-                     active="PRS4436Galawdew"
-                     passive="PRS9860Walatta"
-                     ></relation>
-             </listRelation>
+               <persName>
+                  
+                  Gälawdewos
+               </persName>
+            </person>
+            <listRelation>
+               <relation name="sonOf">
+                  <desc> son Wäldä Giyorgis </desc>
+               </relation>
+            </listRelation>
          </listPerson>
-          <listBibl type="editions">
-            <bibl>
-               <ptr target="bm:Blundell1922Chronicle"/>
-            </bibl>
-      </listBibl>
-       <listBibl type="secondary">
-            <bibl>
-               <ptr target="bm:Crummey2005Galawdewos"/>
-            </bibl>
-         </listBibl>
       </body>
-   </text>   
+   </text>
 </TEI>
-
-
-
-
-
-                  
-                  
