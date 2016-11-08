@@ -10,7 +10,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Agnaṭǝyos (Agnaṭewos)</title>
+            <title>ʾAgnāṭǝyos </title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +47,53 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-11-08">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Agnaṭǝyos (Agnaṭewos)
-               </persName>
-               <occupation> ǝḉḉ. </occupation>
-            </person>
+            <persName xml:lang="gez" xml:id="n1" type="birthName">አግናጥዮስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAgnāṭǝyos </persName>
+                  <persName xml:lang="gez" xml:id="n2" type="birthName">አግናጤዎስ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAgnāṭewos</persName>
+               <persName><roleName type="title">ʾǝč̣č̣age</roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <occupation type="ecclesiastic">abbot</occupation>
+                  <birth></birth>
+                  <floruit when="1699">He was the 30th abbot of <placeName ref="INS2297DabraL">Dabrā Libānos</placeName>, appointed in <date>1699</date>. 
+                  He is known mostly for his participation in a church council at <placeName ref="LOC6376Yebaba">Yǝbābā</placeName> organized by 
+                     <roleName type="title">ʾaṣe </roleName><persName ref="PRS5616IyasuI">Iyāsu</persName> in <date>1699</date>. </floruit>
+                  <death/>
+               </person>
+               <listRelation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS1489Agnateyo"
+                     passive="PRS5616IyasuI"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS1489Agnateyo"
+                     passive="PRS2750BetaKre"
+                     ></relation>
+          </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            
+            <bibl>
+               <ptr target="bm:Nosnitsin2003Agnateyos"/>
+            </bibl>
+         </listBibl>
       </body>
-   </text>
+   </text>   
 </TEI>
+
+
+
+
+
+
+
+                  
+                
