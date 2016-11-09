@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Gäbrä Maryam</title>
+            <title>Gabra Māryām</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,57 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-11-09">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Gäbrä Maryam
-               </persName>
-               <occupation> ǝḉḉ. </occupation>
-            </person>
+            <persName xml:lang="gez" xml:id="n1" type="birthName">ገብረ፡ ማርያም፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Gabra Māryām</persName>
+               <persName><roleName type="title">ʾǝč̣č̣age</roleName></persName>
+                  <occupation type="ecclesiastic"> abbot </occupation>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <birth></birth>
+               <residence><placeName ref="LOC2297DabraL">Dabra Libānos </placeName></residence>
+               <floruit notBefore="1830" notAfter="1842">He was the 49th <roleName type="title">ʾǝč̣č̣age</roleName> of
+                  the monastery of <placeName ref="LOC2297DabraL">Dabra Libānos </placeName>. He was a native of 
+                  <placeName ref="LOC5597Sawa">Šawā</placeName>. <persName ref="PRS4312GabraMa">Gabra Māryām</persName> 
+                  is remembered as a pilgrims to <placeName ref="gn:281184">Jerusalem</placeName> and a messenger who brought in <date>1848</date>
+                  a letter from  a ruler of <placeName ref="LOC1713Bagemd">Bagemdǝr</placeName> <roleName type="title">rās</roleName>
+                  <persName ref="PRS1688AliAlul">ʾAli ʾAlulā </persName> to <persName ref="PRS4722Gobat">Gobat</persName>. </floruit>
+                  <death ></death>
+               </person>
+               <listRelation>
+                  <relation name= "snap:AllianceWith"
+                     active="PRS4312GabraMa"
+                     passive="PRS1688AliAlul"
+                     ></relation>
+                  <relation name= "snap:AllianceWith"
+                     active="PRS4312GabraMa"
+                     passive="PRS4722Gobat"
+                     ></relation>
+               </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Cerulli1945AbbotsDL"/>
+               <biblScope unit="page">143-171</biblScope>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Chernestsov2005GabraMaryam"/>
+            </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+                  
+                  
