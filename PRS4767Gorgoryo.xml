@@ -11,6 +11,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Gorgoryos</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,24 +46,63 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-11-10">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ጎርጎርዮስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Gorgoryos</persName>
+               <persName><roleName type="title">ʾabbā</roleName></persName>
+                  <occupation type="ecclesiastic"></occupation>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <birth></birth>
+                  <residence></residence>
+               <floruit>He was the traditional Ethiopian scholar and the main informant of the great scholar and father of Ethiopian studies <persName ref="PRS6378Ludolf"> Ludolf </persName>,  
+                  claimed to be a descendant of a famous Amhara  lineage from <placeName ref="LOC4461Makana">Makāna Śǝllāse</placeName>. 
+               When <persName ref="PRS4767Gorgoryo">Gorgoryos</persName> converted to catholic faith, the jesuit patriarch 
+                  <persName ref="PRS7002Mendes">Mendes</persName> appointed him as his secretary. Following the abdication of <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS9038Susenyos">Susǝnyos</persName>, <roleName type="title">ʾabbā</roleName>
+                  <persName ref="PRS4767Gorgoryo">Gorgoryos</persName> fled to <placeName ref="gn:3169070">Rome </placeName>,  in <date>1634</date>, where he met  
+                     <persName ref="PRS6378Ludolf">Ludolf</persName>, in <placeName ref="LOC3014Europe">Europe</placeName>.   
+                     He taught <persName ref="PRS6378Ludolf">Ludolf</persName> Gǝʿǝz and Amharic.</floruit>
+               <death ref="1658"></death>
+                   
                   
-                  Gorgoryos
-               </persName>
-               <occupation> abba</occupation>
-            </person>
-            <listRelation>
-               <relation name="unspecified">
-                  <desc> inf. Ludolf </desc>
-               </relation>
-            </listRelation>
+               
+               </person>
+               <listRelation>
+                  <relation name="snap:FriendshipFor"
+                     active="PRS4767Gorgoryo"
+                     passive="PRS6378Ludolf"
+                     ></relation>
+                  <relation name= "snap:AllianceWith"
+                     active="PRS4767Gorgoryo"
+                     passive="PRS9038Susenyos"
+                     ></relation>
+               </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Ludolf1691Commentarius"/>
+            </bibl>
+            <bibl>
+               
+        <ptr target="bm:Uhlig2005Gorgoryos"/>
+            </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+              

@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Wäldä Maryam</title>
+            <title>Walda Māryām</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,54 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-11-10">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+             <persName xml:lang="gez" xml:id="n1" type="birthName">ወልደ፡ ማርያም፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Walda Māryām</persName>
+                  <persName><roleName type="title">ʾǝč̣č̣age</roleName></persName>
+                  <occupation type="ecclesiastic"> abbot </occupation>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <birth></birth>
+                  <residence><placeName ref="LOC2297DabraL">Dabra Libānos </placeName></residence>
+                  <floruit notBefore="1800" notAfter="1850">He was the 49th <roleName type="title">ʾǝč̣č̣age</roleName>
+                     
+                     of the monastery of <placeName ref="LOC2297DabraL">Dabra Libānos </placeName>. He was originally from 
+                     <placeName ref="LOC6171Waldeb">Wāldǝbbā</placeName> a contemporary of <persName ref="PRS9429Tewodros">Tewodros I</persName>. </floruit>
+                  <death ></death>
+               </person>
+               <listRelation>
                   
-                  Wäldä Maryam
-               </persName>
-               <occupation> ǝḉḉ. </occupation>
-            </person>
+                  <relation name= "snap:AllianceWith"
+                     active="PRS9936WaldaMa"
+                     passive="PRS9429Tewodros"
+                     ></relation>
+                     <relation name="snap:AllianceWith"
+                        active="PRS9936WaldaMa"
+                        passive="PRS8388SalamaI"
+                     ></relation>
+               </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Cerulli1945AbbotsDL"/>
+               <biblScope unit="page">143-171</biblScope>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Crummey2010WaldaMaryam"/>
+            </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+                  
+                  
