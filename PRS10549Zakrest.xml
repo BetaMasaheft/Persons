@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Zäkrǝstos</title>
+            <title>Zakrǝstos</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,70 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-11-11">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+           <persName xml:lang="gez" xml:id="n1" type="birthName">ዘክርስቶስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Zakrǝstos</persName>
+               <persName><roleName type="title">daǧǧāzmāč</roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+               <occupation type="political">governor</occupation>
+                  <birth when="1620"> </birth>
                   
-                  Zäkrǝstos
-               </persName>
-               <occupation> däǧǧ. (d. 1654/55) </occupation>
-            </person>
+                  
+        <floruit notBefore="1620" notAfter="1654">He was an Ethiopian noble man married the daughter of <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS9038Susenyos">Susǝnyos</persName> by the name called <persName ref="PRS6576Malakota">Malakotāwit</persName>.
+                  He was a close aide of<persName ref="PRS9038Susenyos">Susǝnyos</persName> and <persName ref="PRS4015Fasilada">Fāsiladas</persName>.</floruit>
+                  <death  notBefore="1654" notAfter="1655"></death>
+               </person>
+               <listRelation>
+                  
+                  <relation name="bm:husbandOf"
+                     active="PRS10549Zakrest"
+                     passive="PRS6576Malakota"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS10549Zakrest"
+                     passive="PRS9038Susenyos"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS10549Zakrest"
+                     passive="PRS4015Fasilada"
+                     ></relation>
+            
+               </listRelation>
          </listPerson>
+         
+         
+         <listBibl type="editions">
+            
+            <bibl>
+               <ptr target="bm:Pereira1892Susenyos"/>
+            </bibl>
+            
+            <bibl>
+               <ptr target="bm:Pereira1900Susenyos"/>
+            </bibl>
+            
+         </listBibl>
+         
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Toubkis2014Zakrestos"/>
+            </bibl>
+         </listBibl>
       </body>
-   </text>
+   </text>   
 </TEI>
+
+
+
+
+
+                  
+                 

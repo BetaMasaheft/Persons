@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ḥǝzqǝyas</title>
+            <title>Ḥǝzqǝyās</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,68 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-11-11">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+              
+       <persName xml:lang="gez" xml:id="n1" type="birthName">ሕዝቅያስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Ḥǝzqǝyās</persName>
+               <persName><roleName type="title">rās</roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <occupation type="political">governor</occupation>
+                  <birth> </birth>
                   
-                  Ḥǝzqǝyas
-               </persName>
-               <occupation> ras</occupation>
-            </person>
+                  
+               <floruit notBefore="1669" notAfter="1711">He was an important official in the court of <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS5616IyasuI">Iyāsu I</persName>. He was also appointed <roleName type="title">rās</roleName> of 
+                  <placeName ref="LOC1713Bagemd">Bagemdǝr</placeName> by  <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS9449Tewoflos">Tewoflos</persName> but he dismissed him a year later. </floruit>
+               <death when="1711"> he was buried at <placeName ref="LOC5417Sadda">Ṣaddā</placeName></death>
+               </person>
+               <listRelation>
+                  
+              
+                  <relation name="snap:AllianceWith"
+                     active="PRS5335hezqeyas"
+                     passive="PRS5616IyasuI"
+                     ></relation>
+                  <relation name="snap:FatherOf"
+                     active="PRS5335hezqeyas"
+                     passive="PRS4292GabraMa"
+                     ></relation>
+                  
+               </listRelation>
          </listPerson>
+         
+         
+         <listBibl type="editions">
+            
+            <bibl>
+               <ptr target="bm:Guidi1961Yohannes"/>
+            </bibl>
+         </listBibl>
+            
+ 
+         
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Toubkis2007Hezgeyas"/>
+            </bibl>
+         </listBibl>
       </body>
-   </text>
+   </text>   
 </TEI>
+
+
+
+
+
+
+
+                  
+                
