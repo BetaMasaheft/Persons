@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Danǝʾel</title>
+            <title>Dānǝʾel</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,65 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-11-14">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+               
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">ዳንኤል፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Dānǝʾel</persName>
+                  <persName><roleName type="title">ʾabuna</roleName></persName>
+                  <occupation type="ecclesiastic">metropolitan</occupation>
                   
-                  Danǝʾel
-               </persName>
-               <occupation> metr. </occupation>
-            </person>
+                  <nationality type="Egypt"/>
+                  <faith type="Coptic"/>
+                  <birth></birth>
+                  
+               <floruit notBefore="0979" notAfter="1003">He was a metropolitan of <placeName ref="LOC3010Ethiop">Ethiopia</placeName> 
+                  consecrated by the coptic patriarch <persName ref="PRS7852Philothe">Philotheus</persName> between <date>979-1003</date>,
+                  after long absence to send metropolitan to <placeName ref="LOC3010Ethiop">Ethiopia</placeName> following 
+                  <roleName type="title">ʾabuna</roleName><persName ref="PRS11305PetrosI">Ṗeṭros I</persName> . </floruit>
+                  <death ></death>
+               </person>
+               <listRelation>
+                  
+                  
+                  <relation name="bm:ordainedBy"
+                     active="PRS3330Daneel"
+                     passive="PRS7852Philothe"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS3330Daneel"
+                     passive="PRS11305PetrosI"
+                     
+                     ></relation>
+                  
+               </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:MunroHay2005Daneel"/>
+               
+            </bibl>
+            
+            <bibl> 
+               <ptr target="bm:Tedeschi1991EthiopianPre"/>
+               <biblScope unit="page">1002a-b</biblScope>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+               

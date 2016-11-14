@@ -6,11 +6,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
      xml:lang="en"
-     xml:id="PRS10390Yohanne">
+     xml:id="PRS11305PetrosI">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Yoḥannǝs [I]</title>
+            <title>Ṗeṭros I</title>
             <editor key="SG"></editor>
             <editor role="generalEditor" key="AB"/>
             <author/>
@@ -45,48 +45,47 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: place</change>
-         <change who="SG" when="2016-11-14">Complete record</change>
+         <change who="SG" when="2016-11-14">CREATED: person</change>
+         <change who="SG" when="2016-11-14">Cmplete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-              <persName xml:lang="gez" xml:id="n1" type="birthName">ዮሐንስ፡</persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized">Yoḥannǝs [I]</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ጴጥሮስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Ṗeṭros I</persName>
                   <persName><roleName type="title">ʾabuna</roleName></persName>
-                  <occupation type="ecclesiastic"> metropolitan</occupation>
+               <occupation type="ecclesiastic">metropolitan</occupation>
+               
                <nationality type="Egypt"/>
                <faith type="Coptic"/>
-                  <birth></birth>
+               <birth></birth>
                
-               <floruit notBefore="0819" notAfter="0830"> He was the metropolitan of <placeName ref="LOC3010Ethiop">Ethiopia</placeName> during the 9th century. He was consecrated 
-                  by <persName ref="PRS5652Jacobof">Jacob of Alexandria</persName>, the 50th <roleName type="title">Patriarch</roleName> 
-                  of <placeName ref="LOC1338Alexan">Alexandria</placeName>.</floruit>
-                  <death ></death>
-               </person>
-               <listRelation>
-                  <relation name="bm:ordainedBy"
-                     active="PRS10390Yohanne"
-                     passive="PRS5652Jacobof"
-                     ></relation>
+               <floruit notBefore="0920" notAfter="0932">He was chosen and consecrated by the <persName ref="PRS3203CosmasI">Cosmas III</persName>. 
+                  He was succeeded by <roleName type="title">ʾabuna</roleName><persName ref="PRS3330Daneel">Dānǝʾel</persName>. </floruit>
+               <death ></death>
+            </person>
+            <listRelation>
+              
             
-             
-            <relation name="snap:AllianceWith"
-                     active="PRS10390Yohanne"
-                     passive="PRS11302SimeonII"
-                     ></relation>
+               <relation name="bm:ordainedBy"
+                  active="PRS11305PetrosI"
+                  passive="PRS3203CosmasI"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  active="PRS11305PetrosI"
+                  passive="PRS3330Daneel"
                   
-               </listRelation>
+                  ></relation>
+                        
+            </listRelation>
          </listPerson>
          <listBibl type="secondary">
-            <bibl> 
-               <ptr target="bm:Brita2014Yohannes"/>
-            </bibl> 
+           
             <bibl> 
                <ptr target="bm:Tedeschi1991EthiopianPre"/>
-               <biblScope unit="page">1001a-1001b</biblScope>
+               <biblScope unit="page">1001b-1002b</biblScope>
             </bibl>
          </listBibl>
       </body>
@@ -100,5 +99,4 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
 
 
-                  
-                  
+               
