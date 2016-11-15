@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Elyas</title>
+            <title>Elyās</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -50,13 +52,54 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Elyas
-               </persName>
-               <occupation> abba </occupation>
-            </person>
+         <persName xml:lang="gez" xml:id="n1" type="birthName">ኤልያስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Elyās</persName>
+             <persName><roleName type="title">ʾabbā</roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+               <occupation type="ecclesiastic">monk</occupation>
+                  <birth > </birth>
+             <floruit notBefore="1400" notAfter="1499"> He was  a monk of 15th century who had  a connection to the royal family. 
+                  He lived during the reigns of <roleName type="title">ʾaṣe</roleName> <persName ref="PRS10626ZaraY">Zarʾa Yāʿǝqob</persName>, <roleName type="title">ʾaṣe</roleName> 
+                  <persName ref="PRS2334BaedaM">Baʾǝda Māryām I</persName>, <roleName type="title">ʾaṣe</roleName> 
+                <persName ref="PRS3874eskender">ʾƎskǝndǝr</persName> and <roleName type="title">ʾaṣe</roleName> <persName ref="PRS7481NaodA">Nāʿod (ʾAnbasā Baḍar)
+                </persName>. 
+                     He is said to have clashed with the stephanite clergy and to have persecuted by their supporters.</floruit>
+                  <death ></death>
+               </person>
+               <listRelation>
+                  <relation name="snap:NephewOf"
+                     active="PRS3749Elyas"
+                     passive="PRS10626ZaraY"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS3749Elyas"
+                     passive="PRS7481NaodA"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS3749Elyas"
+                     passive="PRS3874eskender"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS3749Elyas"
+                     passive="PRS2334BaedaM"
+                     ></relation>
+              </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Kaplan2005Elyas"/>
+            </bibl>
+         </listBibl>
       </body>
-   </text>
+   </text>   
 </TEI>
+
+
+
+
+
+
+
+                  
+             

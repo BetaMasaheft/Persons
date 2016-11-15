@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ǝgziʾ Kǝbra</title>
+            <title>ʾƎgziʾ Kǝbrā</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,59 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-11-15">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="2">
-               <persName>
+            <persName xml:lang="gez" xml:id="n1" type="birthName">እግዚእ፡ ክብራ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾƎgziʾ Kǝbrā</persName>
+                  <persName><roleName type="title"> </roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <occupation type="political">queen</occupation>
+                  <birth ></birth>
+               <floruit notBefore="1300" notAfter="1400"> She was a spouse of <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS3429DawitII">Dāwit II</persName> and a mother of <roleName type="title">ʾaṣe</roleName> 
+                  <persName ref="PRS10626ZaraY">Zarʾa Yāʿǝqob</persName>. She was buried  in the church of <placeName ref="LOC2329DabraN">Dabra Nagwadgwad</placeName>.</floruit>
+                  <death >  </death>
+               </person>  
+               <listRelation>
+                  <relation name="bm:wifeOf"                    
+                     active="PRS3695egziKe"
+                     passive="PRS3429DawitII"
+                     ></relation>
+                  <relation name="snap:MotherOf"
+                     active="PRS3695egziKe"
+                     passive="PRS10626ZaraY"
+                     ></relation>
                   
-                  Ǝgziʾ Kǝbra
-               </persName>
-               <occupation> queen </occupation>
-            </person>
+                  
+               </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Perruchon1893Zarayaeqob"/>
+            </bibl>
+         </listBibl>
+         
+         
+         <listBibl type="secondary">
+            
+            <bibl> 
+               <ptr target="bm:Derat2005EgziKebra"/>
+            </bibl>
+            
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+                  
+                  
