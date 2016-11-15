@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Zännäb</title>
+            <title>Zannab</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,20 +46,79 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-11-15">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+             <persName xml:lang="gez" xml:id="n1" type="birthName">ዘነብ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Zannab</persName>
+               <persName><roleName type="title"> ʾalaqā, dabtarā, Ṣaḥāfe tǝʿǝzāz</roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <occupation type="ecclesiastic"> chronicler </occupation>
+               <birth when="1825">He was born at <placeName ref="LOC6381Yefat">Yǝfāt</placeName></birth>
+               <floruit > He was the secretary of <roleName type="title">ʾaṣe</roleName><persName ref="PRS9430Tewodros">Tewodros II</persName>, a missionary and writer. 
+                  He was converted to protestanism in <date>1858</date> by the influence of the missionaries, without officially leaving, 
+                  however, the Ethiopian Orthodox Church . He was also a tutor of the son of  <roleName type="title">ʾaṣe</roleName><persName ref="PRS9430Tewodros">
+                     Tewodros II</persName>, <roleName type="title">daǧǧāzmāč</roleName>
+                  <persName ref="PRS1625Alamayy">ʾAlamāyyahu Tewodros</persName>.  He was succeeded by <roleName type="title"> ʾalaqā </roleName><persName ref="PRS3808engedaW">ʾƎngǝdā Warq</persName> as a chief scribe. 
+                  </floruit>
+                  <death when="1876"> </death>
+               </person>  
+               <listRelation>
                   
-                  Zännäb
-               </persName>
-               <occupation> aläqa</occupation>
-               <occupation> däbtära;  ṣäḥ.t. </occupation>
-            </person>
+            
+                  <relation name="snap:AllianceWith"
+                     active="PRS10603Zannab"
+                     passive="PRS9430Tewodros"
+                     ></relation>
+                  <relation name="snap:FriendshipFor"
+                     active="PRS10603Zannab"
+                     passive="PRS4132Flad"
+                     ></relation>
+                  <relation name="snap:FriendshipFor"
+                     active="PRS10603Zannab"
+                     passive="PRS3808engedaW"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS10603Zannab"
+                     passive="LIT4087ChronicleTew"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS10603Zannab"
+                     passive="LIT1980Mashaf"
+                     ></relation>
+               </listRelation>
          </listPerson>
+         
+         <listBibl type="editions">
+            <bibl> 
+               <ptr target="bm:Moreno1942Tewodros"/>
+               
+            </bibl>
+         </listBibl>
+         <listBibl type="secondary">
+         
+            <bibl> 
+               <ptr target="bm:Smidt2014Zannab"/>
+            </bibl>
+            
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+                  
+                  
