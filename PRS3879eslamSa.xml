@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ǝslam Sägäd</title>
+            <title>ʾƎslām Sagad</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,20 +46,76 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-11-16">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+            <persName xml:lang="gez" xml:id="n1" type="birthName">እስላም፡ ሰገድ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾƎslām Sagad</persName>
+               <persName xml:lang="gez" xml:id="n2" type="alt">እስላሞ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">ʾƎslāmo</persName>
+               <persName><roleName type="title">rās, bitwaddad</roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <occupation type="political">governor </occupation>
+                  <birth> </birth>
                   
-                  Ǝslam Sägäd
-               </persName>
-               <persName type="alt">Ǝslamo</persName>
-               <occupation> ras </occupation>
-            </person>
+                  
+               <floruit notBefore="1508" notAfter="1531"> He was a war lord of <roleName type="title">ʾaṣe</roleName><persName ref="PRS6229LebnaDe">Lǝbna Dǝngǝl</persName>.
+                  He was also a governor of the most important frontier province of christian kingdom, <placeName ref="LOC3061Fataga">Faṭagār</placeName>
+                  where he was susccessful to repel the muslim raiders at first. But he was sent by <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS6229LebnaDe">Lǝbna Dǝngǝl</persName> to withstand the muslim forces in another area where he was killed by 
+                  <persName ref="PRS1324AbuBakr">Abū Bakr b. Yimāǧ Ahmad</persName>.
+               </floruit>
+                  <death when="1531"></death>
+               </person>
+               <listRelation>
+                  
+                  <relation name="snap:AllianceWith"
+                     active="PRS3879eslamSa"
+                     passive="PRS6229LebnaDe"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS3879eslamSa"
+                     passive="PRS3287Dagalhan"
+                     ></relation>
+                  <relation name="rel:enemyOf"
+                     active="PRS3879eslamSa"
+                     passive="PRS1324AbuBakr"
+                     ></relation>
+                   
+                  <relation name="rel:enemyOf"
+                     active="PRS3879eslamSa"
+                     passive="PRS1500Ahmad"
+                     ></relation>
+               </listRelation>
          </listPerson>
+         
+         
+         <listBibl type="editions">
+            
+            <bibl>
+               <ptr target="bm:Kropp1988Shortchr"/>
+            </bibl>
+           
+            
+         </listBibl>
+         
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Chernestsov2005EslamSagad"/>
+            </bibl>
+         </listBibl>
       </body>
-   </text>
+   </text>   
 </TEI>
+
+
+
+
+
+                  
+                 
