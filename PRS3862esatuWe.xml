@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ǝšätu Wǝbe</title>
+            <title>ʾƎšatu Wǝbe</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,62 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-11-16">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Ǝšätu Wǝbe
-               </persName>
-               <occupation> däǧǧ. </occupation>
-            </person>
+            <persName xml:lang="gez" xml:id="n1" type="birthName">እሸቱ፡ ውቤ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾƎšatu Wǝbe</persName>
+               <persName><roleName type="title">daǧǧāzmāč</roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <occupation type="political">governor</occupation>
+                  <birth></birth>
+                  <residence></residence>
+               <floruit >He was the son of <roleName type="title">daǧǧāzmāč</roleName> <persName ref="PRS10102Webeha">Wǝbe Ḫayla Māryām</persName>, 
+                  ruler of <placeName ref="LOC5671Semen">Sǝmen</placeName> and northern 
+                  <placeName ref="LOC3010Ethiop">Ethiopia</placeName> from about <date>1830-1855</date>.
+                  He was one of the four children of <roleName type="title">daǧǧāzmāč</roleName>
+                  <persName ref="PRS10102Webeha">Wǝbe Ḫayla Māryām</persName>. He fought on the side of his father in the battle of
+                  <placeName ref="LOC2550Darasg">Darasge</placeName>.</floruit>
+                  <death when="1855"></death>
+               </person>  
+               <listRelation>
+                  <relation name="snap:SonOf"
+                     active="PRS3862esatuWe"
+                     passive="PRS10102Webeha"
+                     ></relation>
+                  <relation name="rel:enemyOf"
+                     active="PRS3862esatuWe"
+                     passive="PRS9430Tewodros"
+                     ></relation>
+                   
+               </listRelation>
+               
          </listPerson>
+       
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Crummey2005EsatuWebe"/>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+                  
+                  
