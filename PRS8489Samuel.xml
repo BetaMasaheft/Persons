@@ -11,6 +11,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Samuʾel of Qalamūn</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,57 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-11-16">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+             <persName xml:lang="gez" xml:id="n1" type="birthName">ሳሙኤል፡ ዘቀልሞን፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Samuʾel of Qalamon</persName>
+                  <persName><roleName type="title">ʾabbā </roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <occupation type="ecclesiastic"></occupation>
+                  <birth notBefore="0597" notAfter="0598"> </birth>
+                  <residence/>
                   
-                  Samuʾel of Qalamūn
-               </persName>
-               <occupation> St. </occupation>
-            </person>
+                  <floruit >He is one of the most remarkable and venerated monatsic leaders and saints of the Coptic church.  
+                     He is also well known and venerated in the Ethiopian Orthodox Church. He was born  from the ecclesiastic family  and at age of 22 he joined a monastery. 
+                     Later he became an abbot of the monastery of <placeName ref="LOC6126WadinN">Wādī n-Naṭrūn</placeName>.
+                     He is well known in <placeName ref="LOC3010Ethiop">Ethiopia</placeName> as a fighter against the doctrine of chalcedon.</floruit>  
+                     <death notBefore="0695" notAfter="0696"></death>
+                       
+                     
+                  
+               </person>
+            <listRelation>
+               
+               <relation name="rel:enemyOf"
+                  active="PRS8489Samuel"
+                  passive="PRS3262Cyrusa"
+                  ></relation>
+          
+          
+            </listRelation>
          </listPerson>
+         
+         
+         
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:NosnitsinStork2010Samuel"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Alcock1991Samuel"/>
+            </bibl>
+         </listBibl>
       </body>
-   </text>
+   </text>   
 </TEI>
+
+
+
+                  
+               
