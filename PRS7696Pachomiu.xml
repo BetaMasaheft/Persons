@@ -11,6 +11,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Pachomius</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,56 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-11-18">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Pachomius
-               </persName>
-               <occupation> St. </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ጳኵሚስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ṗakʷǝmis</persName>
+               
+               <persName><roleName type="title">ʾabbā </roleName></persName>
+               <nationality type="Egypt"/>
+               <faith type="Coptic"/>
+               <occupation type="ecclesiastic">saint</occupation>
+               <birth when="0294"></birth>
+               <floruit > He was the founder of cenobitic monasticism. He was born of pagan parents in upper <placeName ref="LOC2804Egypt">Egypt</placeName>. 
+                  His first contact with christianity occurred in <date>312</date>, when he was a conscript in the Roman army. Then, 
+                  <persName ref="PRS7696Pachomiu">Pachomius</persName> came into contact with several well known ascetics and decided to pursue that path under 
+                  the guidance of the hermit named  <persName ref="PRS7703Palamon">Palamon</persName>. 
+                  Finally, he established his own monastery in <date>between 318 and 323</date>. 
+                  </floruit>
+               <death when="0356"></death>
             </person>
+            <listRelation>
+               <relation name="snap:AllianceWith"
+                  active="PRS7696Pachomiu"
+                  passive="PRS6298Libanos"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  active="PRS7696Pachomiu"
+                  passive="PRS2209Athanasi"
+                  ></relation>
+              </listRelation>
          </listPerson>
+         
+         
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Veilleux1991Pachomius"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Redand Wadi2010Pachomius"/>
+            </bibl>
+         </listBibl>
       </body>
-   </text>
+   </text>   
 </TEI>
+
+
+
+
+
+            

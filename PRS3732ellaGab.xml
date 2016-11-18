@@ -11,6 +11,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Ǝllä Gäbäz</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,22 +46,55 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-11-18">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+               
                   
-                  Ǝllä Gäbäz
-               </persName>
-               <persName type="alt"> Zägäbäz</persName>
-               <persName type="alt"> Zägäbäzä Aksum</persName>
-               <persName type="alt"> Wazen</persName>
-               <occupation> king </occupation>
-            </person>
+                  
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">እለ፡ ገበዝ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized"> ʾƎlla Gabaz</persName>
+               <persName xml:lang="gez" xml:id="n2" type="alt">ዘገበዘ፡ አክሱም፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Zagabaza ʾAksum</persName>
+               <persName xml:lang="gez" xml:id="n3" type="alt">ዋዜን፡</persName>
+               <persName xml:lang="gez" corresp="#n3" type="normalized"> Wāzen</persName>
+                  
+                  <persName><roleName type="title"></roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <occupation type="political">ruler</occupation>
+                  <birth></birth>
+                  
+                  
+                  <floruit>He was the king of Aksum </floruit>
+                  <death></death>
+                  
+               </person>
+               <listRelation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS3732ellaGab"
+                     passive="PRS5572Ioel"
+                     ></relation>
+                  
+                  
+               </listRelation>
          </listPerson>
+         
+         
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Fiaccadori2005EllaGabaz"/>
+            </bibl>
+         </listBibl>
       </body>
-   </text>
+   </text>   
 </TEI>
+
+
+
+                  
+                  
