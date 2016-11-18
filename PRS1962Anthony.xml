@@ -11,6 +11,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Anthony</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,20 +46,82 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-11-18">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">እንጦንስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾƎnṭonǝs</persName>
+           
+                  <persName><roleName type="title">ʾabbā </roleName></persName>
+                  <nationality type="Egypt"/>
+                  <faith type="EOTC"/>
+                  <occupation type="ecclesiastic">saint</occupation>
+                  <birth when="0251"></birth>
+                  <residence/>
                   
-                  Anthony
-               </persName>
-               <persName type="alt">Ǝnṭonǝs</persName>
-               <occupation> St. </occupation>
-            </person>
+               <floruit >  He is considered to have been the founder of monasticism, born from christian parents in <placeName ref="LOC5219Qimana">Qimān al-ʿArūs</placeName>.  
+                  At the gae of 20,  he started to practice ascetic life. He was an ardent supporter of <persName ref="PRS2209Athanasi">Athanasius</persName> 
+                  in his fight against Arianism. He is highly respected in the monasticism tradition of <placeName ref="LOC3010Ethiop">Ethiopia</placeName>. 
+                  The monastic houses of both <persName ref="PRS9162TaklaHa">Takla Hāymanot</persName> and <persName ref="PRS3932Ewostate">Ewosṭatewos</persName>
+                  trace themselves to <persName ref="PRS1962Anthony">Anthony</persName>. </floruit>
+                 <death when="0356"></death>
+               </person>
+               <listRelation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS1962Anthony"
+                     passive="PRS2209Athanasi"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS1962Anthony"
+                     passive="PRS6427Macarius"
+                     ></relation>
+               <relation name="saws:P129i_is_subject_of"
+                     active="PRS1962Anthony"
+                     passive="LIT4147GadlaAntonii"
+                     ></relation>
+                  <relation name="saws:P129i_is_subject_of"
+                     active="PRS1962Anthony"
+                     passive="LIT4148SalamAntonii"
+                     ></relation>
+                  <relation name="saws:P129i_is_subject_of"
+                     active="PRS1962Anthony"
+                     passive="LIT4149Malekt"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS1962Anthony"
+                     passive="LIT2434Teezaz"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS1962Anthony"
+                     passive="LIT2442Temher"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS1962Anthony"
+                     passive="LIT4150Salota"
+                     ></relation>
+                  
+        
+               </listRelation>
          </listPerson>
+    
+         
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Kaplanand Meinardus2003Anthony"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Guillaumont1991Antony"/>
+            </bibl>
+         </listBibl>
       </body>
-   </text>
+   </text>   
 </TEI>
+
+
+
+                  
+                  
