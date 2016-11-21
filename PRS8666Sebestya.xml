@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Sǝbǝstyanos</title>
+            <title>Sǝbǝstyānos</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,20 +46,92 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-11-21">complete record</change>
+       
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+          <persName xml:lang="gez" xml:id="n1" type="birthName">ስብስትያኖስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Sǝbǝstyānos</persName>
+               <persName xml:lang="gez" xml:id="n2" type="alt">ስብስቴ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Sǝbǝste</persName>
+               <persName><roleName type="title">marǝd ʾazmāč</roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <occupation type="political">ruler </occupation>
+                  <birth > </birth>
+                <floruit notBefore="1703" notAfter="1719"> He was the first <roleName type="title">marǝd ʾazmāč</roleName> of <placeName ref="LOC5597Sawa">
+                  Šawā </placeName>who succeded his father <persName ref="PRS7467NagasiK">Nagāśi Krǝstos Warada Qāl</persName>. 
+                   He built the town <placeName ref="LOC2729Doqaqi">Doqāqit</placeName> and governed all  <placeName ref="LOC5597Sawa">
+                     Šawā </placeName> from there.  Unlike his father, <persName ref="PRS8666Sebestya">Sǝbǝstyānos</persName> never sought the recognition 
+                  of the emeperors at <placeName ref="LOC3577Gondar"  >Gondar</placeName>. </floruit>
+                       
+                  <death when="1719"></death>
+               </person>
+               <listRelation>
                   
-                  Sǝbǝstyanos
-               </persName>
-               <persName type="alt">Sǝbǝste</persName>
-               <occupation> mär.az. </occupation>
-            </person>
+                  <relation name="bm:husbandOf"
+                     active="PRS8666Sebestya"
+                     passive="PRS9114Tagunsty"
+                     ></relation>
+                  
+                  <relation name="snap:SonOf"
+                     active="PRS8666Sebestya"
+                     passive="PRS7467NagasiK"
+                     ></relation>
+                  <relation name="snap:GrandsonOf"
+                  
+                     active="PRS7467NagasiK"
+                     passive="PRS3999Faris"
+                     ></relation>
+                  <relation name="snap:BrotherOf"
+                     active="PRS7467NagasiK"
+                     passive="PRS1590Akawa"
+                     ></relation>
+                  <relation name="snap:BrotherOf"
+                     active="PRS7467NagasiK"
+                     passive="PRS3327DanaNag"
+                     ></relation>
+                  <relation name="snap:BrotherOf"
+                     active="PRS7467NagasiK"
+                     passive="PRS8507sankoNa"
+                     ></relation>
+                  <relation name="snap:BrotherOf"
+                     active="PRS7467NagasiK"
+                     passive="PRS10438Yonael"
+                     ></relation>
+                  <relation name="snap:BrotherOf"
+                     active="PRS7467NagasiK"
+                     passive="PRS10063Warqitu"
+                     ></relation>
+                  <relation name="snap:BrotherOf"
+                     active="PRS7467NagasiK"
+                     passive="PRS10191Yaeqob"
+                     ></relation>
+                  
+                  
+               </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Darkwha1975Shewa"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Dege2010Sebstyanos"/>
+            </bibl>
+         </listBibl>
       </body>
-   </text>
+   </text>   
 </TEI>
+
+
+
+
+
+
+
+                  
+                 
