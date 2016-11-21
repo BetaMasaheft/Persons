@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ammǝḫa Iyäsus</title>
+            <title>ʾAmmǝḫā Iyasus</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,73 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-11-21">complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+            <persName xml:lang="gez" xml:id="n1" type="birthName">አምኃ፡ ኢየሱስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAmmǝḫā Iyasus</persName>
+                
+                  <persName><roleName type="title">marǝd ʾazmāč</roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <occupation type="political">ruler </occupation>
+                  <birth > </birth>
+                  <floruit notBefore="1743" notAfter="1775"> He was the fourth ruler of the Kingdom of <placeName ref="LOC5597Sawa">
+                     Šawā </placeName> from about <date>1743</date> to <date>1775</date>. He moved his capital from
+                     <placeName ref="LOC3776HarAmb">Ḥār ʾAmbā</placeName> to <placeName ref="LOC1464Ankoba">ʾAnkobar</placeName>
+                     He expanded the kingdom of <placeName ref="LOC5597Sawa">Šawā </placeName> further south annexing new territories. 
+                     He was succceeded by his son <roleName type="title">marǝd ʾazmāč</roleName><persName ref="PRS2110AsfaWas">ʾAsfā Wasa
+                        n </persName></floruit>
                   
-                  Ammǝḫa Iyäsus
-               </persName>
-               <occupation> mär.az. </occupation>
-            </person>
+                  <death ></death>
+               </person>
+               <listRelation>
+                  <relation name="snap:FatherOf"
+                     active="PRS1878AmmehaI"
+                     passive="PRS2110AsfaWas"
+                     ></relation>
+                    
+                  <relation name="snap:AllianceWith"
+                     active="PRS1878AmmehaI"
+                     passive="PRS9152TaklaHa"
+                     ></relation>
+             
+       </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:AsfaWossen1980Shawa"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Darkwha1975Shewa"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Bahru2003AmmehaIyasus"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Nosnistin2010Sawa"/>
+            </bibl>
+            
+         </listBibl>
       </body>
-   </text>
+   </text>   
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+                  
+                  

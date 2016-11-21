@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Abbǝyye</title>
+            <title>ʾAbbǝyye</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,72 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-11-21">complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+              <persName xml:lang="gez" xml:id="n1" type="birthName">አብዬ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAbbǝyye</persName>
+               <persName xml:lang="gez" xml:id="n2" type="alt">ቀዳሜ፡ ቃል፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Qadāme qāl</persName>
+               <persName xml:lang="gez" xml:id="n3" type="alt">ቀዳሜ፡ </persName>
+               <persName xml:lang="gez" corresp="#n3" type="normalized">Qadāme </persName>
+               <persName><roleName type="title">marǝd ʾazmāč</roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <occupation type="political">ruler </occupation>
+                  <birth > </birth>
+               <floruit notBefore="1719" notAfter="1743"> He was the third ruler of the kingdom of <placeName ref="LOC5597Sawa">
+                  Šawā </placeName> from about <date>1719</date> to <date>1743</date>, a period of  territorial expansion and administrative consolidation. 
+                  Like his predecessors, in alliance with the walasma rulers,  he continued a campaign against the <persName ref="ETH1973Oromo"> Oromo</persName> 
+                  of Karrayyu and pushed the border of the principlaity. It was during his rule  that the typical land tenure system of  <placeName ref="LOC5597Sawa">
+                     Šawā </placeName> was developed.  He was succeeded by <roleName type="title">marǝd ʾazmāč</roleName><persName ref="PRS1878AmmehaI">
+                        ʾAmmǝḫā Iyasus</persName></floruit>
                   
-                  Abbǝyye
-               </persName>
-               <occupation> mär.az. </occupation>
-            </person>
+                  <death ></death>
+               </person>
+               <listRelation>
+               <relation name="snap:SonOf"
+                     active="PRS1093Abbeyye"
+                     passive="PRS8666Sebestya"
+                     ></relation>
+                  <relation name="snap:GrandsonOf"
+                     
+                     active="PRS1093Abbeyye"
+                     passive="PRS7467NagasiK"
+                     ></relation>
+             
+             
+                  
+                  
+               </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Darkwha1975Shewa"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Ege2003Abbeye"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Nosnistin2010Sawa"/>
+            </bibl>
+            
+         </listBibl>
       </body>
-   </text>
+   </text>   
 </TEI>
+
+
+
+
+
+
+
+
+
+                  
+                 
