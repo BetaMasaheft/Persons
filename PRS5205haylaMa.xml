@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ḫaylä Mäläkot</title>
+            <title>Ḫāyla Malakot</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,85 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-11-22">complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+           <persName xml:lang="gez" xml:id="n1" type="birthName">ኃይለ፡ መለኮት፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Ḫāyla Malakot</persName>
+              <persName><roleName type="title"> nǝguś </roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <occupation type="political">king</occupation>
+                  <birth when="1827"> </birth>
+               <floruit notBefore="1847" notAfter="1855">He was <roleName type="title"> nǝguś </roleName> of <placeName ref="LOC5597Sawa">
+                  Šawā </placeName> from about <date>1827</date> to <date>1855</date>. He aspired to a central role in Ethiopian politics and he even took the title 
+                  <roleName type="title"> ʾaṣe</roleName>although he was not anointed. When <roleName type="title"> ʾaṣe</roleName> 
+                  <persName ref="PRS9430Tewodros">Tewodros II</persName> invaded <placeName ref="LOC6185Wallo"> Wallo</placeName>, 
+                  <persName ref="PRS5205haylaMa">Ḫāyla Malakot </persName> cooperated with the <placeName ref="LOC6185Wallo">Wallo</placeName> ruler, 
+                  <persName ref="PRS10062Warqitu">Warqitu</persName> but their plan failed. Then, <roleName type="title"> ʾaṣe </roleName> 
+                  <persName ref="PRS9430Tewodros">Tewodros II</persName> invaded <placeName ref="LOC5597Sawa">
+                     Šawā </placeName> and <persName ref="PRS5205haylaMa">Ḫāyla Malakot</persName> was defeated and seriously wounded.  </floruit>
                   
-                  Ḫaylä Mäläkot
-               </persName>
-               <occupation> nǝguś </occupation>
-            </person>
+               <death when="1855">He died in <date>1855</date> and buried <placeName ref="LOC2238DabraB">Dabra Baggǝʿ</placeName></death>
+               </person>
+               <listRelation>
+                  <relation name="snap:SonOf"
+                     active="PRS5205haylaMa"
+                     passive="PRS8346sahlase"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS5205haylaMa"
+                     passive="PRS10062Warqitu"
+                     ></relation>
+              <relation name="snap:BrotherOf"
+                     active="PRS5205haylaMa"
+                     passive="PRS8602Sayfusa"
+                     ></relation>
+                  <relation name="snap:FatherOf"
+                     active="PRS5205haylaMa"
+                     passive="PRS7006Menilek"
+                     ></relation>
+                  <relation name="snap:GrandfatherOf"
+                     active="PRS5205haylaMa"
+                     passive="PRS10671Zawditu"
+                     ></relation>
+                 </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:AsfaWossen1980Shawa"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Darkwha1975Shewa"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Ege2010HaylaMalakot"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Nosnistin2010Sawa"/>
+            </bibl>
+            
+         </listBibl>
       </body>
-   </text>
+   </text>   
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+                  
+                  

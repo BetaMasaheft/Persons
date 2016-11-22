@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Śahlä Śǝllase</title>
+            <title>Śahla Śǝllāse</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,92 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-11-22">complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Śahlä Śǝllase
-               </persName>
-               <occupation> nǝguś </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ሣህለ፡ ሥላሴ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Śahla Śǝllāse</persName>
+               <persName xml:lang="gez" xml:id="n3" type="horseName">አባ፡ ዲና፡</persName>
+               <persName xml:lang="gez" corresp="#n3" type="normalized">ʾAbbā Dinā</persName>
+               <persName><roleName type="title">marǝd ʾazmāč, nǝguś , rās</roleName></persName>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="political">king</occupation>
+               <birth when="1795"> </birth>
+               <floruit notBefore="1813" notAfter="1847">He was the king of <placeName ref="LOC5597Sawa">
+                  Šawā </placeName> from about <date>1813</date> to <date>1847</date>. When his father <persName ref="PRS10076WasanS">Wasan Sagad</persName> 
+                  died, he was 18 years old and that he was brought from the village of <placeName ref="LOC5495SallaD">Sallā Dǝngāy</placeName>. 
+                  <persName ref="PRS8346sahlase">Śahla Śǝllase</persName> showed a diplomatic skill and military ability from the very
+                  begining which enabled him to restore order and peace in  <placeName ref="LOC5597Sawa">
+                     Šawā </placeName>. <persName ref="PRS8346sahlase">Śahla Śǝllāse</persName> was made a <roleName type="title">rās</roleName>upon his assumption to power. 
+              His reign is characterized by the unprecedented arrival of Europeans, travelleres, missionaries as  well as diplomats and explorers in his court. 
+              He was succeeded by his first born son <persName ref="PRS5205haylaMa">Ḫayla Malakot</persName>. </floruit>
+               
+               <death when="1847"></death>
             </person>
+            <listRelation>
+               <relation name="snap:SonOf"
+                  active="PRS8346sahlase"
+                  passive="PRS10076WasanS"
+                  ></relation>
+               <relation name="snap:SonOf"
+                  active="PRS8346sahlase"
+                  passive="PRS10604Zannaba"
+                  ></relation>
+               <relation name="snap:BrotherOf"
+                  active="PRS8346sahlase"
+                  passive="PRS2393Bakweru"
+                  ></relation>
+               <relation name="snap:FatherOf"
+                  active="PRS8346sahlase"
+                  passive="PRS5205haylaMa"
+                  ></relation>
+               <relation name="snap:GrandfatherOf"
+                  active="PRS8346sahlase"
+                  passive="PRS5226haylase"
+                  ></relation>
+            
+               
+            </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:AsfaWossen1980Shawa"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Darkwha1975Shewa"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Shiferaw2010SahlaSellase"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Nosnistin2010Sawa"/>
+            </bibl>
+            
+         </listBibl>
       </body>
-   </text>
+   </text>   
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  
+              
