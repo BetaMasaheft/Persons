@@ -11,6 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title xml:id="t1">d'Avezac de Castera Macaya</title>
+            <editor key="DR"/>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
@@ -41,6 +42,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-11-17">Created XML record from Ethio authority google spreadsheet</change>
+         <change who="DR" when="2016-11-22">Adjustments</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,13 +53,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <forename>Marie-Armand </forename>
                   <surname>d'Avezac de Castera Macaya</surname>
                </persName>
-               <occupation>scholar, owner</occupation>
+               <occupation type="academic">scholar</occupation>
             </person>
             <listRelation>
-               <relation>father-in-law PRS11304Defremery</relation>
-               <relation name="lawd:hasAttestation"
-                         active="PRS11303Avezac"
-                         passive="BNFet150"><!--Please fix the relation of this item with BNFet150--></relation>
+               <relation name="bm:fatherInLawOf" active="PRS11303Avezac" passive="PRS11304Defremery"/>
             </listRelation>
          </listPerson>
       </body>

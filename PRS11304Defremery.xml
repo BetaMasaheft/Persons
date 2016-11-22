@@ -11,6 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title xml:id="t1">Defrémery</title>
+            <editor key="DR"/>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
@@ -41,6 +42,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-11-17">Created XML record from Ethio authority google spreadsheet</change>
+         <change who="DR" when="2016-11-22">Adjustments</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -48,17 +50,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                  <forename>Charles</forename>
+                  <forename>Charles-François</forename>
                   <surname>Defrémery</surname>
                </persName>
-               <persName>de Frémery</persName>
-               <occupation>donor</occupation>
+               <persName>
+                  <surname type="alt">de Frémery</surname>
+               </persName>
+               <occupation type="academic">scholar</occupation>
             </person>
             <listRelation>
-               <relation>son-in-law PRS11303Avezac</relation>
-               <relation name="lawd:hasAttestation"
-                         active="PRS11304Defremery"
-                         passive="BNFet150"><!--Please fix the relation of this item with BNFet150--></relation>
+               <relation name="bm:sonInLawOf" active="PRS11304Defremery" passive="PRS11303Avezac"/>
             </listRelation>
          </listPerson>
       </body>
