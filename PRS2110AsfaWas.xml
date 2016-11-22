@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Asfa Wäsän (Ammǝḫa Iyäsus)</title>
+            <title>ʾAsfā Wasan </title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,82 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-11-22">complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+           <persName xml:lang="gez" xml:id="n1" type="birthName">አስፋ፡ ወሰን፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAsfā Wasan </persName>
+                 <persName><roleName type="title">marǝd ʾazmāč</roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <occupation type="political">ruler </occupation>
+                  <birth > </birth>
+               <floruit notBefore="1775" notAfter="1808">He was the fifth ruler of the kingdom of <placeName ref="LOC5597Sawa">
+                  Šawā </placeName> from about <date>1775</date> to <date>1808</date>
+                  succeedding his father <roleName type="title">marǝd ʾazmāč</roleName> <persName ref="PRS1878AmmehaI">ʾAmmǝḫā Iyasus</persName>. 
+                  His reign was remarkable for the expansion of the  Šawān kingdom to include the <placeName ref="LOC6568Amhara">ʾAmhārā</placeName> 
+                  regions <placeName ref="LOC3389Gedem">Gǝdǝm</placeName>, <placeName ref="LOC3440Gesse">Gǝšše</placeName>, 
+                  <placeName ref="LOC2794Efrata">ʾƎfrātā</placeName>, <placeName ref="LOC1474AnSoki">ʾAnṣokiyā</placeName>, 
+                  <placeName ref="LOC4578Marhab">Marḥābete</placeName> and <placeName ref="LOC4865Morat">Morat</placeName>.
+                  His reign is also attributed to the introduction of tax on land and royal monopoly in such precious items as gold and ivory as well as the production of ṭaǧǧ.
+               </floruit>
                   
-                  Asfa Wäsän (Ammǝḫa Iyäsus)
-               </persName>
-               <occupation> mär.az. </occupation>
-            </person>
+                  <death ></death>
+               </person>
+               <listRelation>
+                  <relation name="snap:SonOf"
+                     active="PRS2110AsfaWas"
+                     passive="PRS1878AmmehaI"
+                     ></relation>
+                  <relation name="snap:FatherOf"
+                     active="PRS2110AsfaWas"
+                     passive="PRS10076WasanS"
+                     ></relation>
+                  <relation name="snap:GrandfatherOf"
+                     active="PRS2110AsfaWas"
+                     passive="PRS8346sahlase"
+                     ></relation>
+                  <relation name="snap:FatherOf"
+                     active="PRS2110AsfaWas"
+                     passive="PRS5638Iyoas"
+                     ></relation>
+           </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:AsfaWossen1980Shawa"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Darkwha1975Shewa"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Bahru2003AsfaWossen"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Nosnistin2010Sawa"/>
+            </bibl>
+            
+         </listBibl>
       </body>
-   </text>
+   </text>   
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+               

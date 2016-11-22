@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Wäsän Sägäd</title>
+            <title>Wasan Sagad</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,94 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-11-22">complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+            <persName xml:lang="gez" xml:id="n1" type="birthName">ወሰን፡ ሰገድ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Wasan Sagad</persName>
+               <persName xml:lang="gez" xml:id="n2" type="baptisalName">ወልደ፡ ጊዮርጊስ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Walda Giyorgis</persName>
+               <persName xml:lang="gez" xml:id="n3" type="horseName">አባ፡ ዳማ፡</persName>
+               <persName xml:lang="gez" corresp="#n3" type="normalized">ʾAbbā Dāmā</persName>
+                  <persName><roleName type="title">marǝd ʾazmāč</roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <occupation type="political">ruler </occupation>
+                  <birth > </birth>
+               <floruit notBefore="1808" notAfter="1813">He was the sixth ruler of the kingdom of <placeName ref="LOC5597Sawa">
+                  Šawā </placeName> from about <date>1808</date> to <date>1812/13</date>. He rebelled against his father 
+                  <roleName type="title">marǝd ʾazmāč</roleName><persName ref="PRS2110AsfaWas">ʾAsfā Wasan </persName>
+                     fearing the rivalry of his half-brother <persName ref="PRS5638Iyoas">Iyoʾas</persName>. But he was defeated and taken prisoner. 
+                  Later,<persName ref="PRS2110AsfaWas">ʾAsfā Wasan </persName> reconciled, releassed him from capitivity
+                  and declared him his official heir. Following the death of his father, <roleName type="title">marǝd ʾazmāč</roleName><persName ref="PRS2110AsfaWas">
+                     ʾAsfā Wasan (ʾAmmǝḫā  Iyasus) </persName>,  <persName ref="PRS10076WasanS">Wasan Sagad</persName> chose 
+                  <placeName ref="LOC5291Qwendi">Qwǝndi</placeName> instead of the seats of his father, 
+                  <placeName ref="LOC2246DabraB">Dabra Bǝrhan</placeName> and <placeName ref="LOC1464Ankoba">ʾAnkobar</placeName>. 
+         </floruit>
                   
-                  Wäsän Sägäd
-               </persName>
-               <occupation> mär.az.  </occupation>
-            </person>
+               <death notBefore="1812" notAfter="1813">He was murdered by one of his slaves at <placeName ref="LOC5291Qwendi">Qwǝndi</placeName> </death>
+               </person>
+               <listRelation>
+                  <relation name="snap:SonOf"
+                     active="PRS10076WasanS"
+                     passive="PRS2110AsfaWas"
+                     ></relation>
+                  <relation name="snap:SonOf"
+                     active="PRS10076WasanS"
+                     passive="PRS2216Atmocuno"
+                     ></relation>
+                  <relation name="snap:BrotherOf"
+                     active="PRS10076WasanS"
+                     passive="PRS5638Iyoas"
+                     ></relation>
+                  <relation name="snap:FatherOf"
+                     active="PRS10076WasanS"
+                     passive="PRS8346sahlase"
+                     ></relation>
+                  <relation name="bm:husbandOf"
+                     active="PRS10076WasanS"
+                     passive="PRS10604Zannaba"
+                     ></relation>
+     
+                   </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:AsfaWossen1980Shawa"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Darkwha1975Shewa"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Dege2010WasanSagad"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Nosnistin2010Sawa"/>
+            </bibl>
+            
+         </listBibl>
       </body>
-   </text>
+   </text>   
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  
+                  
