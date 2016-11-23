@@ -10,7 +10,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Libän Amäde “Abbaa Ǧǝrru”</title>
+            <title>Liban ʾAmade “ʾAbbāā Ǧirru”</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,20 +47,84 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-11-23">complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Libän Amäde “Abbaa Ǧǝrru”
-               </persName>
-               <persName type="alt">Liiban I</persName>
-               <occupation> imām </occupation>
-            </person>
+          <persName xml:lang="gez" xml:id="n1" type="birthName">ሊበን፡ አመዴ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Liban ʾAmade</persName>
+               <persName xml:lang="gez" xml:id="n2" type="horseName">አባ፡ ጂሩ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAbbāā Ǧirru</persName>
+     
+               
+               <persName><roleName type="title">imām</roleName></persName>
+            <nationality type="Ethiopia"/>
+            <faith type="Islam"/>
+            <occupation type="political">ruler</occupation>
+               <birth when="1785">He was born in <placeName ref="LOC1713Bagemd">Bagemdǝr</placeName></birth>
+               <residence > <placeName ref="LOC6242WarraH">Warra Himano</placeName></residence>
+            
+               <floruit notBefore="1803" notAfter="1825">He was a ruler of <placeName ref="LOC6242WarraH">Warra Himano</placeName> between <date>1803-1825</date>.
+                  During his child hood, <persName ref="PRS6292LibanAm">Liban ʾAmade </persName> received Christian education, when he was about 15 years. 
+                  Afterwards he converted to Islam under the influence of his father, whom he appointed him governorship of <placeName ref="LOC6132Wadla">Wādlā</placeName>, 
+                  <placeName ref="LOC2586Dawent">Dāwǝnt</placeName> and <placeName ref="LOC2449Dalant">Dalāntā</placeName>. 
+                  His reign is characterized by a state of latent warfare against the neigbouring Christian rulers. He married at least three women including Christians. </floruit>
+            
+            <death  when="1825">He died of an intestinal hernia complicated by intensive horse riding.</death>
+         </person>
+         <listRelation>
+            <relation name="snap:SonOf"
+               active="PRS6292LibanAm"
+               passive="PRS1787AmadeLi"
+               ></relation>
+            <relation name="snap:SonOf"
+               active="PRS6292LibanAm"
+               passive="PRS8708Sehin"
+               ></relation>
+  
+            <relation name="snap:FatherOf"
+               
+               active="PRS6292LibanAm"
+               passive="PRS1787AmadeLi"
+               ></relation>
+            <relation name="snap:FatherOf"
+               
+               active="PRS6292LibanAm"
+               passive="PRS6643MananLi"
+               ></relation>
+            <relation name="snap:FatherOf"
+               
+               active="PRS6292LibanAm"
+               passive="PRS1684AliAbb"
+               ></relation>
+            <relation name="snap:FatherOf"
+               
+               active="PRS6292LibanAm"
+               passive="PRS2551BasirLi"
+               ></relation>
+         </listRelation>
          </listPerson>
-      </body>
-   </text>
+         
+         
+         <listBibl type="secondary">
+            
+            
+            <bibl>
+               <ptr target="bm:Ficquet2007Amade"/>
+            </bibl>
+            
+
+ </listBibl>
+         </body>
+         </text>   
 </TEI>
+
+
+
+
+
+      
+      
