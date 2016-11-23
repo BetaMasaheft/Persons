@@ -51,10 +51,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                   Jacob
-                  Wemmers
+                  <forename>Jacob</forename>
+                  <surname>Wemmers</surname>
                </persName>
-               <occupation> sch. </occupation>
+               <birth when="1598-10-21"/>
+               <death when="1645-09-12"/>
+               <occupation type="academic">scholar</occupation>
             </person>
          </listPerson>
       </body>
