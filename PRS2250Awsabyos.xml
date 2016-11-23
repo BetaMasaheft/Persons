@@ -45,7 +45,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="ES" when="2016-02-09">CREATED: person</change>
          <change who="SG" when="2016-11-08">Complete record</change>
       </revisionDesc>
    </teiHeader>
@@ -70,12 +70,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <listRelation>
                   
                
-                  <relation name="snap:AllianceWith"
-                     active=
+                  <relation 
+                     name="snap:AllianceWith"
+                     active="PRS2250Awsabyos"
                      passive="PRS8491Samuel"
                      ></relation>
-                  <relation name="saws:P129i_is_subject_of" 
-                     active=
+                  <relation 
+                     name="saws:P129i_is_subject_of" 
+                     active="PRS2250Awsabyos"
                      passive="LIT1424GadlaA"
                      ></relation>
                      
