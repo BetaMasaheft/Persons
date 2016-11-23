@@ -10,10 +10,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Wärqitu</title>
+            <title>Warqitu</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
+            
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
             multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
@@ -44,19 +47,86 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-11-23">complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
+            <person sex="2">
+     
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ወርቂቱ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Warqitu</persName>
+                  <persName><roleName type="title">Wayzaro</roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="Islam"/>
+                  <occupation type="political">ruler</occupation>
+                
+               <floruit notBefore="1800" notAfter="1850"> She was a female leader and warrior in <placeName ref="LOC6185Wallo">Wallo</placeName>. 
+                  She was one of the wives of <persName ref="PRS1684AliAbb">ʾAli “ʾAbbā Bullā”</persName> of the Mammadočč dynasty which was the most 
+                  powerful ruling family in <placeName ref="LOC6185Wallo">Wallo</placeName> at the beginning of the 19th century.  
+                  After the death of her husband in <date>1852</date>, she emrged as an important political figure acting as a regent 
+                  to her young son <persName ref="PRS1782AmadeAl">ʾAmade ʾAli</persName>. She played an active part in the resistance of
+                  <placeName ref="LOC6185Wallo">Wallo</placeName> to <persName ref="PRS9434Tewodros">Tewodros II</persName>. </floruit>
                   
-                  Wärqitu
-               </persName>
-               <occupation> queen  </occupation>
-            </person>
+                  <death when="1868" cert="medium"></death>
+               </person>
+               <listRelation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS10062Warqitu"
+                     passive="PRS7006Menilek"
+                     ></relation>
+                  <relation name="bm:wifeOf"
+                     active="PRS10062Warqitu"
+                     passive="PRS1684AliAbb"
+                     ></relation>
+                  <relation name="snap:MotherOf"
+                     active="PRS10062Warqitu"
+                     passive="PRS1782AmadeAl"
+                     ></relation>
+                  <relation name="rel:enemyOf"
+                     
+                     active="PRS10062Warqitu"
+                     passive="PRS9434Tewodros"
+                     ></relation>
+                  <relation name="rel:enemyOf"
+                     
+                     active="PRS10062Warqitu"
+                     passive="PRS6864Mastawat"
+                     ></relation>
+          
+               </listRelation>
          </listPerson>
+      
+        
+         <listBibl type="secondary">
+ 
+      
+            <bibl>
+               <ptr target="bm:Ficquet2010Warqitu"/>
+            </bibl>
+       
+        <bibl>
+                  <ptr target="bm:Blanc1868Narrative"/>
+               </bibl>
+               
+            
+         </listBibl>
       </body>
-   </text>
+   </text>   
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  
