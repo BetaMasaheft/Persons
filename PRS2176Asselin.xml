@@ -44,6 +44,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="DR" when="2016-11-24">Additions</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,12 +52,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                   Jean-Louis
-                  Asselin de Cherville
+                  <forename>Jean-Louis</forename>
+                  <surname>Asselin de Cherville</surname>
                </persName>
-               <occupation> dipl. </occupation>
+               <occupation type="academic">scholar and diplomat, dragoman (not General Consul) of the French consulate in <placeName ref="gn:360630">Alexandria</placeName> </occupation>
             </person>
          </listPerson>
+         <div type="bibliography">
+            <listBibl type="secondary">
+               <bibl><ptr target="bm:Deherain1916Asselin"/></bibl>
+               <bibl><ptr target="bm:Messaoudi2008Asselin"/></bibl>
+            </listBibl>
+         </div>
       </body>
    </text>
 </TEI>

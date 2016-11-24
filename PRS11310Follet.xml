@@ -41,6 +41,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-11-17">Created XML record from Ethio authority google spreadsheet</change>
+         <change who="DR" when="2016-11-24">Adjustments</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -52,14 +53,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <surname>Follet</surname>
                </persName>
                <floruit>1685</floruit>
-               <!--From Time field, to be changed into DEATH, BIRTH, or whatever is actually relevant!-->
-               <occupation>priest</occupation>
+               <occupation type="ecclesiastic">priest</occupation>
             </person>
             <listRelation>
-               <relation name="syriaca:has-relation-to-place" active="PRS11310Follet">Bourron</relation>
+               <relation name="syriaca:has-relation-to-place" active="PRS11310Follet" passive="gn:3030876"/>
                <relation name="lawd:hasAttestation"
                          active="PRS11310Follet"
-                         passive="BNFet153"><!--Please fix the relation of this item with BNFet153--></relation>
+                         passive="BNFet153"/>
             </listRelation>
          </listPerson>
       </body>

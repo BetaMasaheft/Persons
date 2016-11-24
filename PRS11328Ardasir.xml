@@ -6,29 +6,29 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
      xml:lang="en"
-     xml:id="PRS3201CosimoI">
+     xml:id="PRS11328Ardasir">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Cosimo III</title>
-            <author/>
+            <title xml:id="t1">ʾArdašīr I</title>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
-            multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+                                    multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
             <pubPlace>Hamburg</pubPlace>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
-                This file is licensed under the Creative Commons
-                Attribution-ShareAlike 4.0. </licence>
+                  <p>
+                                            This file is licensed under the Creative Commons
+                                            Attribution-ShareAlike 4.0. </p>
+               </licence>
             </availability>
-            <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
             <p>Prosopography of Ethiopian Written tradition</p>
             <p>A TEI file converted from the ETHIO-authority
-                                                  google spreadsheet</p>
+                                    google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -40,22 +40,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
-         <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="DR" when="2016-11-24">Created record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>Cosimo III </persName>
-               <occupation type="ruler">Grand Duke of Tuscany </occupation>
-               <residence>
-                  <placeName ref="LOC3096Floren"/>
-               </residence>
+               <persName>ʾArdašīr I</persName>
+               <occupation type="ruler">king</occupation>
+               <nationality type="Iran/Persia"/>
             </person>
+            <listRelation>
+               <relation name="lawd:hasAttestation"
+                  active="PRS11329Yestir"
+                  passive="PRS11328Ardasir">
+               </relation>
+            </listRelation>
          </listPerson>
       </body>
    </text>
