@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Bäträ Maryam</title>
+            <title>Batra Māryām</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,63 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-11-24">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+          
                   
-                  Bäträ Maryam
-               </persName>
-               <occupation> St. </occupation>
-            </person>
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">በትረ፡ ማርያም፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Batra Māryām</persName>
+                  
+                  <persName><roleName type="title">ʾabbā </roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <occupation type="ecclesiastic">saint</occupation>
+               <floruit notBefore="1300" notAfter="1399">He was a 14th century saintly monk. He was born in <placeName ref="LOC4892Mugar">Mugār</placeName>
+                  and he entered in the monastery belonging to the community of <persName ref="PRS9162TaklaHa">Takla Hāymānot</persName> where he received monkhood. 
+                  After he had been ordained deacon, then priest, he became the administrator of the monastery of <placeName ref="LOC2341DabraS">Dabra Sablā</placeName>. 
+                  After he was attacked by the <persName ref="ETH1973Oromo">Oromo</persName>, <persName ref="PRS2540BatraMa">Batra Māryām</persName> was forced to flee to 
+                  through <placeName ref="LOC2488Damot">Dāmot</placeName>, <placeName ref="LOC3549Gojjam">Goǧǧām</placeName> and 
+                  <placeName ref="LOC2481Dambey">Dambǝyā</placeName>. Finally, he settled at the island of <placeName ref="LOC6411Zage"
+                     >Zage</placeName> where he established a community that cultivated the soil and built a church dedicated to Saint George. </floruit>
+                  
+               </person>
+               <listRelation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS2536BatraGe"
+                     passive="PRS1854Amdase"
+                     ></relation>
+                  
+                  <relation name="saws:P129i_is_subject_of"
+                     active="PRS2536BatraGe"
+                     passive="LIT1429GadlaB"
+                     ></relation>
+                  
+                  
+               </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Cerulli19944BatraMaryam"/>
+            </bibl>
+       
+            <bibl>
+               <ptr target="bm:Derat2003BatraMaryam"/>
+            </bibl>
+         </listBibl>
       </body>
-   </text>
+   </text>   
 </TEI>
+
+
+
+
+
+
+
+                  
+                

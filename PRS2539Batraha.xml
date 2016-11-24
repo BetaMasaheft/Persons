@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Bäträ Ḫayl</title>
+            <title>Batra Ḫāyl</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,64 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-11-24">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+               
+    <persName xml:lang="gez" xml:id="n1" type="birthName">በትረ፡ ኃይል፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Batra Ḫāyl</persName>
                   
-                  Bäträ Ḫayl
-               </persName>
-               <occupation> fit. </occupation>
-            </person>
+               <persName><roleName type="title"> fitāwrāri </roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <occupation type="political">officer</occupation>
+               <floruit when="1684"> He was an officer in the army of <roleName type="title">ʾaṣe </roleName>
+                  <persName ref="PRS5616IyasuI">Iyāsu I</persName>, appointed as <roleName type="title">grāzmāč</roleName> in <date>1684</date>. 
+                  In<date>1689</date> he became <roleName type="title">qaññāzmāč</roleName>. Some years before his death, he also achieved a title 
+               
+    <roleName type="title">fitāwrāri</roleName>.  </floruit>
+               <death when="1703"></death>
+                  
+               </person>
+               <listRelation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS2539Batraha"
+                     passive="PRS5616IyasuI"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS2539Batraha"
+                     passive="PRS2224Atnatewo"
+                     ></relation>
+                  
+         </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+       
+               <ptr target="bm:Guidi1961Yohannes"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="secondary">
+            
+            <bibl>
+               <ptr target="bm:Toubkis2003BatraHayl"/>
+            </bibl>
+         </listBibl>
       </body>
-   </text>
+   </text>   
 </TEI>
+
+
+
+
+
+
+
+
+
+                  
+                  
