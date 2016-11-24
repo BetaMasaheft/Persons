@@ -6,19 +6,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
      xml:lang="en"
-     xml:id="PRS7559NewayaM">
+     xml:id="PRS5111harbay">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Nǝwāya Māryām</title>
-            <editor key="SG"/>
-            <editor role="generalEditor" key="AB"/>
+            <title>Ḥarbāy</title>
             <author/>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
-               multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
             <pubPlace>Hamburg</pubPlace>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
@@ -45,56 +43,64 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
-         <change who="SG" when="2016-07-19">Complete record</change>
+         <change who="SG" when="2016-07-27">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-       
-                  <persName xml:lang="gez" xml:id="n1" type="birthName">ንዋየ፡ ማርያም፡</persName>
-                  <persName xml:lang="gez" corresp="#n1" type="normalized">Nǝwāya Māryām</persName>
-               <persName><roleName type="title">ʾaṣe</roleName></persName>
-                  
-                  <persName xml:lang="gez" xml:id="n2.1" type="regnalName">ውድም፡ አስፈሬ፡</persName>
-               <persName xml:lang="gez" corresp="#n2.1" type="normalized">Wǝdǝm ʾAsfare</persName>
-                  <persName xml:lang="gez" xml:id="n2.2" type="regnalName">ግርማ፡ አስፈሬ፡</persName>
-               <persName xml:lang="gez" corresp="#n2.2" type="normalized">Gǝrmā ʾAsfare</persName>
-    
-               <occupation type="ruler">Emperor</occupation>
-              
-               <floruit when="1371" evidence="internal">He succeded his father King<persName ref="PRS8595SayfaAr"> Sayfa ʾArʿad </persName> in <date> 1371</date>.
-</floruit>
-               <death when="1380" evidence="internal">1380</death>
-               
+        
+        <persName xml:lang="gez" xml:id="n1" type="birthName">ሐርባይ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized"> Ḥarbāy</persName>
+                 <persName xml:lang="gez" xml:id="n1.1" type="birthName">ገብረ፡ ማርያም፡</persName>
+                  <persName xml:lang="gez" corresp="#n1.1" type="normalized">Gabra Māryām</persName>
+                     <persName xml:lang="gez" xml:id="n2" type="regnalName">ገብረ፡ መስቀል፡</persName>
+                     <persName xml:lang="gez" corresp="#n2" type="normalized">Gabra Masqal</persName>
+               <persName><roleName type="title">ʾaṣe </roleName></persName>
+         
+                  <occupation type="ruler"> a saint king</occupation>
+                  <birth>unknown</birth>
+               <floruit when="1093" evidence="internal">He succeded his cousin, a saint King <persName ref="PRS10325Yemreha">Yǝmrǝḥanna Krǝstos </persName>. 
+                     He was known for his refom policy with the election of a metropolitan.
+                  </floruit>
+                  <death  when="1133" cert="low" evidence="internal">around 1133</death>
             </person>
-            
             <listRelation>
                <relation name="snap:SonOf" 
-                  active="PRS7559NewayaM"
-                  passive="PRS8595SayfaAr"
+                  active="PRS5111harbay" 
+                  passive="PRS10594Zansey"
                   ></relation>
                <relation name="snap:BrotherOf"
-                  active="PRS7559NewayaM"
-                  passive="PRS3429DawitII"
+                  active= "PRS5111harbay" 
+                  passive="PRS6152Lalibala"
                   ></relation>
-            </listRelation>
+              </listRelation>
          </listPerson>
-         
-<listBibl type="editions">
+         <listBibl type="editions">
             <bibl>
                <ptr target="bm:Basset1882Chronicle"/>
             </bibl>
-         </listBibl>
+
+    
+            <bibl>
+               <ptr target="bm:Perruchon1892Lalibela"/>
+            </bibl>
+         </listBibl> 
          <listBibl type="secondary">
             <bibl> 
-               <ptr target="bm:Derat2007NewayaMaryam"/>
+               <ptr target="bm:Fiaccadori2005Harbay"/>
             </bibl>  
+    
+               <bibl> 
+                  <ptr target="bm:Sergew1972Ethiopianhistory"/>
+               </bibl> 
+   
          </listBibl>
-         
       </body>
    </text>
 </TEI>
 
-            
+
+                  
+   

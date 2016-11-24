@@ -6,19 +6,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
      xml:lang="en"
-     xml:id="PRS7559NewayaM">
+     xml:id="PRS9175TaklaMa">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Nǝwāya Māryām</title>
-            <editor key="SG"/>
+            <title>Takla Māryām</title>
+            <editor key="SG"></editor>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
-               multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
             <pubPlace>Hamburg</pubPlace>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
@@ -45,56 +45,72 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
-         <change who="SG" when="2016-07-19">Complete record</change>
+         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-11-02">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-       
-                  <persName xml:lang="gez" xml:id="n1" type="birthName">ንዋየ፡ ማርያም፡</persName>
-                  <persName xml:lang="gez" corresp="#n1" type="normalized">Nǝwāya Māryām</persName>
-               <persName><roleName type="title">ʾaṣe</roleName></persName>
-                  
-                  <persName xml:lang="gez" xml:id="n2.1" type="regnalName">ውድም፡ አስፈሬ፡</persName>
-               <persName xml:lang="gez" corresp="#n2.1" type="normalized">Wǝdǝm ʾAsfare</persName>
-                  <persName xml:lang="gez" xml:id="n2.2" type="regnalName">ግርማ፡ አስፈሬ፡</persName>
-               <persName xml:lang="gez" corresp="#n2.2" type="normalized">Gǝrmā ʾAsfare</persName>
-    
-               <occupation type="ruler">Emperor</occupation>
-              
-               <floruit when="1371" evidence="internal">He succeded his father King<persName ref="PRS8595SayfaAr"> Sayfa ʾArʿad </persName> in <date> 1371</date>.
-</floruit>
-               <death when="1380" evidence="internal">1380</death>
-               
-            </person>
-            
+            <persName xml:lang="gez" xml:id="n1" type="birthName">ተክለ፡ ማርያም፡ </persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Takla Māryām</persName>
+               <persName xml:lang="gez" xml:id="n2" type="birthName">ሕዝበ፡ ናኝ፡ </persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Ḥǝzba Nañ</persName>
+            <persName><roleName type="title">ʾaṣe</roleName></persName>
+        <occupation type="ruler">Emperor</occupation>
+            <birth>unknown</birth>
+               <floruit notBefore="1430" notAfter="1433"> He was the younger brother and successor of <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS10342Yeshaq">Yǝsḥāq</persName>. He was the third son of  <roleName type="title">ʾaṣe</roleName> 
+                  <persName ref="PRS3429DawitII">Dāwit II</persName>. He was succeeded by his son <persName ref="PRS8560sarwaIy">Śarwa Iyasus</persName> in <date>1433</date>.</floruit>
+            <death >1433</death>
+            </person>  
             <listRelation>
                <relation name="snap:SonOf" 
-                  active="PRS7559NewayaM"
-                  passive="PRS8595SayfaAr"
-                  ></relation>
-               <relation name="snap:BrotherOf"
-                  active="PRS7559NewayaM"
+                  active="PRS9175TaklaMa"
                   passive="PRS3429DawitII"
                   ></relation>
+               
+               <relation name="snap:FatherOf"
+                  active="PRS9175TaklaMa"
+                  passive="PRS8560sarwaIy"
+                  ></relation>
+               <relation name="snap:BrotherOf"
+                  active="PRS9175TaklaMa"
+                  passive="PRS10342Yeshaq"
+                  ></relation>
+               <relation name="snap:BrotherOf"
+                  active="PRS9175TaklaMa"
+                  passive="PRS9432Tewodros"
+                  ></relation>
+               
             </listRelation>
          </listPerson>
-         
-<listBibl type="editions">
+         <listBibl type="editions">
             <bibl>
                <ptr target="bm:Basset1882Chronicle"/>
             </bibl>
          </listBibl>
          <listBibl type="secondary">
             <bibl> 
-               <ptr target="bm:Derat2007NewayaMaryam"/>
+               <ptr target="bm:Budge1966Ethistory"/>
+               <biblScope unit="page">303</biblScope>
+            </bibl> 
+            <bibl> 
+               <ptr target="bm:Derat2010Taklamaryam"/>
             </bibl>  
          </listBibl>
-         
       </body>
    </text>
 </TEI>
 
-            
+
+
+
+
+
+
+
+         
+                  
+                  

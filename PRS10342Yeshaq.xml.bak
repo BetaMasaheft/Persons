@@ -6,19 +6,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
      xml:lang="en"
-     xml:id="PRS7559NewayaM">
+     xml:id="PRS10342Yeshaq">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Nǝwāya Māryām</title>
-            <editor key="SG"/>
+            <title>Yǝsḥāq</title>
+            <editor key="SG"/>   
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
-               multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
             <pubPlace>Hamburg</pubPlace>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
@@ -45,56 +45,54 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
-         <change who="SG" when="2016-07-19">Complete record</change>
+         <change who="SG" when="2016-07-20">Complete the record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-       
-                  <persName xml:lang="gez" xml:id="n1" type="birthName">ንዋየ፡ ማርያም፡</persName>
-                  <persName xml:lang="gez" corresp="#n1" type="normalized">Nǝwāya Māryām</persName>
-               <persName><roleName type="title">ʾaṣe</roleName></persName>
-                  
-                  <persName xml:lang="gez" xml:id="n2.1" type="regnalName">ውድም፡ አስፈሬ፡</persName>
-               <persName xml:lang="gez" corresp="#n2.1" type="normalized">Wǝdǝm ʾAsfare</persName>
-                  <persName xml:lang="gez" xml:id="n2.2" type="regnalName">ግርማ፡ አስፈሬ፡</persName>
-               <persName xml:lang="gez" corresp="#n2.2" type="normalized">Gǝrmā ʾAsfare</persName>
-    
-               <occupation type="ruler">Emperor</occupation>
-              
-               <floruit when="1371" evidence="internal">He succeded his father King<persName ref="PRS8595SayfaAr"> Sayfa ʾArʿad </persName> in <date> 1371</date>.
-</floruit>
-               <death when="1380" evidence="internal">1380</death>
-               
-            </person>
+          <persName xml:lang="gez" xml:id="n1" type="birthName">ይስሓቅ፡</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Yǝsḥāq</persName>
+                  <persName><roleName type="title">ʾaṣe</roleName></persName>
+                     <persName xml:lang="gez" xml:id="n2" type="regnalName">ገብረ፡ መስቀል፡</persName>
+                  <persName xml:lang="gez" corresp="#n2" type="normalized">Gabra Masqal</persName>
             
-            <listRelation>
+                  <occupation type="ruler">Emperor</occupation>
+                  <birth>unknown</birth>
+               <floruit when="1414" evidence="internal">He succeded his brother King<persName ref="PRS9432Tewodros">Tewodros</persName>in<date> 1414</date>. 
+                  He was one of a powerful and confrontational leader who fought his enemies on several fronts.  He made also the earliest known contact of Ethiopia with a European leader.
+                  </floruit>
+               <death when="1430" evidence="internal">1430</death>
+                 </person>  
+          <listRelation>
                <relation name="snap:SonOf" 
-                  active="PRS7559NewayaM"
-                  passive="PRS8595SayfaAr"
+                  active="PRS10342Yeshaq"
+                  passive="PRS3429DawitII"
                   ></relation>
                <relation name="snap:BrotherOf"
-                  active="PRS7559NewayaM"
-                  passive="PRS3429DawitII"
+                  active="PRS10342Yeshaq"
+                  passive="PRS9432Tewodros"
                   ></relation>
             </listRelation>
          </listPerson>
-         
-<listBibl type="editions">
+        <listBibl type="editions">
             <bibl>
-               <ptr target="bm:Basset1882Chronicle"/>
+             <ptr target="bm:Basset1882Chronicle"/>
             </bibl>
          </listBibl>
          <listBibl type="secondary">
             <bibl> 
-               <ptr target="bm:Derat2007NewayaMaryam"/>
+             <ptr target="bm:Kaplan2014Yeshaq"/>
             </bibl>  
-         </listBibl>
-         
-      </body>
+               </listBibl>
+       </body>
    </text>
 </TEI>
 
-            
+
+
+
+
+
+

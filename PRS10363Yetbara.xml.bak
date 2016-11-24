@@ -6,19 +6,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
      xml:lang="en"
-     xml:id="PRS7559NewayaM">
+     xml:id="PRS10363Yetbara">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Nǝwāya Māryām</title>
+            <title>Yǝtbārak</title>
             <editor key="SG"/>
+   
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
-               multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
             <pubPlace>Hamburg</pubPlace>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
@@ -45,56 +46,72 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
-         <change who="SG" when="2016-07-19">Complete record</change>
+         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-07-29">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-       
-                  <persName xml:lang="gez" xml:id="n1" type="birthName">ንዋየ፡ ማርያም፡</persName>
-                  <persName xml:lang="gez" corresp="#n1" type="normalized">Nǝwāya Māryām</persName>
-               <persName><roleName type="title">ʾaṣe</roleName></persName>
-                  
-                  <persName xml:lang="gez" xml:id="n2.1" type="regnalName">ውድም፡ አስፈሬ፡</persName>
-               <persName xml:lang="gez" corresp="#n2.1" type="normalized">Wǝdǝm ʾAsfare</persName>
-                  <persName xml:lang="gez" xml:id="n2.2" type="regnalName">ግርማ፡ አስፈሬ፡</persName>
-               <persName xml:lang="gez" corresp="#n2.2" type="normalized">Gǝrmā ʾAsfare</persName>
-    
-               <occupation type="ruler">Emperor</occupation>
-              
-               <floruit when="1371" evidence="internal">He succeded his father King<persName ref="PRS8595SayfaAr"> Sayfa ʾArʿad </persName> in <date> 1371</date>.
-</floruit>
-               <death when="1380" evidence="internal">1380</death>
-               
+           
+                  <persName>Yǝtbārak</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ይትባረክ፡</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Yǝtbārak</persName>
+                  <persName><roleName type="title">ʾaṣe </roleName></persName>
+        
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="ruler">a saint king</occupation>
+               <birth>unknown</birth>
+               <floruit when="1240" evidence="internal">He succeded a saint King <persName ref="PRS7437Naakkwe">Naʾakkwǝto Laʾab</persName>. 
+                  He was the last king of Zagwe dynasty.
+               </floruit>
+               <death  when="1268" cert="low" evidence="internal">around 1268</death>
             </person>
-            
             <listRelation>
                <relation name="snap:SonOf" 
-                  active="PRS7559NewayaM"
-                  passive="PRS8595SayfaAr"
+                  active="PRS10363Yetbara"
+                  passive="PRS6152Lalibala"
                   ></relation>
-               <relation name="snap:BrotherOf"
-                  active="PRS7559NewayaM"
-                  passive="PRS3429DawitII"
+               <relation name="snap:SonOf" 
+                  active="PRS10363Yetbara"
+                  passive="PRS6859MasqalK"
+                  ></relation>
+               <relation name="snap:CousinOf" 
+                  active="PRS10363Yetbara"
+                  passive="PRS7437Naakkwe"
                   ></relation>
             </listRelation>
          </listPerson>
-         
-<listBibl type="editions">
+         <listBibl type="editions">
             <bibl>
                <ptr target="bm:Basset1882Chronicle"/>
             </bibl>
          </listBibl>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Perruchon1892Lalibela"/>
+            </bibl>
+         </listBibl> 
          <listBibl type="secondary">
             <bibl> 
-               <ptr target="bm:Derat2007NewayaMaryam"/>
-            </bibl>  
+               <ptr target="bm:Marrassini2014Yetbarak"/>
+              </bibl>  
          </listBibl>
-         
-      </body>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Sergew1972Ethiopianhistory"/>
+               </bibl>  
+         </listBibl>
+        </body>
    </text>
 </TEI>
 
-            
+
+
+
+               
+               
+               
+    

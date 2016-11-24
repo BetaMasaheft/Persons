@@ -6,11 +6,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
      xml:lang="en"
-     xml:id="PRS8596SayfaMi">
+     xml:id="PRS9432Tewodros">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Säyfa Mikaʾel</title>
+            <title>Tewodros</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -43,20 +43,53 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-07-20">Complete the record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Säyfa Mikaʾel
-               </persName>
-               <occupation> St. </occupation>
-            </person>
+   
+                     <persName xml:lang="gez" xml:id="n1" type="birthName">ቴዎድሮስ፡</persName>
+                     <persName xml:lang="gez" corresp="#n1" type="normalized">Tewodros I</persName>
+                     <persName><roleName type="title">ʾaṣe</roleName></persName>
+                     <persName xml:lang="gez" xml:id="n2" type="regnalName">unknown</persName>
+          
+                     <occupation type="ruler">Emperor</occupation>
+                  <birth>unknown</birth>
+               <floruit when="1413" evidence="internal">He succeded his father King<persName ref="PRS3429DawitII"> Dawit </persName>in <date>1413</date>. 
+                  He is represented as a mystic king in christian tradition.
+               </floruit>
+               <death when="1414" evidence="internal">He was killed nine months after his acscension to the throne in a military camapaign against the Adal sultanate</death>
+            </person>  
+                 <listRelation>
+               <relation name="snap:SonOf" 
+                  active="PRS9432Tewodros"
+                  passive="PRS3429DawitII"
+                  ></relation>
+               <relation name="snap:BrotherOf"
+                  active="PRS9432Tewodros"
+                  passive="PRS10342Yeshaq"
+                  ></relation>
+            </listRelation>
          </listPerson>
-      </body>
+        <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Basset1882Chronicle"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Derat2010TewodrosI"/>
+            </bibl>  
+         </listBibl>
+         </body>
    </text>
 </TEI>
+
+
+
+
+
+
