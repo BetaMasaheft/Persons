@@ -11,6 +11,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Yosṭos</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,20 +46,93 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-11-25">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+              
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">ዮስጦስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Yosṭos</persName>
+        
+                  <persName><roleName type="title">ʾaṣe</roleName></persName>
+               <persName xml:lang="gez" xml:id="n2" type="regnalName">ፀሐይ፡ ሰገድ፡</persName>
+               <persName xml:lang="gez" corresp="n2" type="normalized">Ḍaḥay Sagad</persName>
                   
-                  Yosṭos
-               </persName>
-               <persName type="alt">Ḍäḥay Sägäd</persName>
-               <occupation> aṣe </occupation>
-            </person>
+                  <occupation type="ruler">Emperor</occupation>
+                  
+                  <floruit notBefore="1711" notAfter="1716" >He was a Gondarine king from<date>1711</date> <date>1716</date>. 
+                     Prior to being crowned <persName ref="PRS10473Yostos">Yosṭos</persName>acted as a king maker. His reign was violent. 
+                  </floruit>
+                  <death ></death>
+                  
+               </person>
+               <listRelation>
+                  <relation name="snap:SonOf"
+                     active="PRS10473Yostos"
+                     passive="PRS3485DelbaIy"
+                     ></relation>
+                  <relation name="snap:SonOf"
+                     active="PRS10473Yostos"
+                     passive="PRS9836Walatta"
+                     ></relation>
+                  <relation name="snap:BrotherOf"
+                     active="PRS10473Yostos"
+                     passive="PRS8030Qerellos"
+                     ></relation>
+                  <relation name="snap:GreatGrandfatherOf"
+                     active="PRS10473Yostos"
+                     passive="PRS10375Yohanne"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS10473Yostos"
+                     passive="PRS9449Tewoflos"
+                     ></relation>
+                  <relation name= "snap:AllianceWith"
+                     
+                     active="PRS10473Yostos"
+                     passive="PRS1280Abranyos"
+                     
+                     ></relation>
+                  <relation name="rel:enemyOf"
+                     
+                     active="PRS10473Yostos"
+                     passive="PRS6578Malakota"
+                     
+                     ></relation>
+                  
+               </listRelation>
          </listPerson>
+         
+         
+         
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Kropp1981Kurzen"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Basset1882Chronicle"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Crummey2014Yostos"/>
+               
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Budge1966Ethistory"/>
+               
+            </bibl>
+         </listBibl>
+         
       </body>
    </text>
+   
 </TEI>
+
+
+
+                  
+                

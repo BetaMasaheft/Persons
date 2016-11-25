@@ -11,6 +11,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Tewoflos</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,20 +46,76 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-11-25">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Tewoflos
-               </persName>
-               <persName type="alt">Aśrar Sägäd</persName>
-               <occupation> aṣe </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ቴዎፍሎስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Tewoflos</persName>
+               <persName><roleName type="title">ʾaṣe</roleName></persName>
+               <persName xml:lang="gez" xml:id="n2" type="regnalName">አጽራር፡ ሰገድ፡</persName>
+               <persName xml:lang="gez" corresp="n2" type="normalized">ʾAśrār Sagad</persName>
+               
+               <occupation type="ruler">Emperor</occupation>
+               
+               <floruit notBefore="1708" notAfter="1711">He was a Gondarine king who succeeded his nephew 
+                  <persName ref="PRS9152TaklaHa">Takla Hāymānot I</persName> in<date>1708</date>. He came to throne at the instigation of one 
+                  of the court notable <persName ref="PRS10473Yostos">Yosṭos</persName> who later succeeded him. Shortly after his accession to power,
+                  <persName ref="PRS9449Tewoflos">Tewoflos </persName>issued a proclamation establishing the doctrine of Qǝbāt as an official teaching of the Ethiopian Orthodox Church.
+                  This procalamations was challenged by the Tawāḥǝdo party. He faced also the challenges of several pretenders. </floruit>
+               <death when="1711">He died of illness. </death>
+               
             </person>
+            <listRelation>
+               <relation name="snap:BrotherOf"
+                  active="PRS9449Tewoflos"
+                  passive="PRS5616IyasuI"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  active="PRS9449Tewoflos"
+                  passive="PRS10473Yostos"
+                  ></relation>
+               <relation name= "snap:AllianceWith"
+                  
+                  active="PRS9449Tewoflos"
+                  passive="PRS1280Abranyos"
+                  
+                  ></relation>
+               <relation name="rel:enemyOf"
+                  
+                  active="PRS9449Tewoflos"
+                  passive="PRS6578Malakota"
+                  
+                  ></relation>
+       
+            </listRelation>
          </listPerson>
+         
+   
+         
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Basset1882Chronicle"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Crummey29010Tewoflos"/>
+               
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Budge1966Ethistory"/>
+               
+            </bibl>
+         </listBibl>
+         
       </body>
    </text>
+   
 </TEI>
+
+                  
+                  
