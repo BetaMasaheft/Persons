@@ -37,26 +37,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="ar">Arabic</language>
             <language ident="it">Italiano</language>
             <language ident="gez">Gǝʿǝz</language>
+            <language ident="fr">French</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-11-17">Created XML record from Ethio authority google spreadsheet</change>
+         <change who="DR" when="2016-11-25">Adjustments</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  <forename/>
-                  <surname>ʾEbeselom</surname>
-               </persName>
-               <occupation>owner?</occupation>
+               <persName xml:id="n1" xml:lang="gez">ኤቤሴሎም</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">ʾEbeselom</persName>
+               <persName type="alt" resp="PRS10747Zotenbe" xml:lang="fr" xml:id="n2">Absalon</persName>
             </person>
             <listRelation>
                <relation name="lawd:hasAttestation"
                          active="PRS11290Ebeselom"
-                         passive="BNFet140"><!--Please fix the relation of this item with BNFet140--></relation>
+                         passive="BNFet140"/>
             </listRelation>
          </listPerson>
       </body>

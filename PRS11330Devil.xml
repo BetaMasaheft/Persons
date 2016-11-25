@@ -6,11 +6,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
      xml:lang="en"
-     xml:id="PRS11300KidanaI">
+     xml:id="PRS11330Devil">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:id="t1">Kidāna ʾIyasus</title>
+            <title xml:id="t1">Devil</title>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
@@ -40,24 +40,35 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="PL" when="2016-11-17">Created XML record from Ethio authority google spreadsheet</change>
-         <change who="DR" when="2016-11-25">Adjustments</change>
+         <change who="DR" when="2016-11-24">Created record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               <persName xml:id="n1" xml:lang="gez">ኪዳነ፡ ኢየሱስ፡</persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized">Kidāna ʾIyasus</persName>
-               <persName><roleName type="title">ʾabuna</roleName></persName>
+            <person>
+               <persName xml:id="n1" xml:lang="en">Devil</persName>
+               <persName xml:lang="gez" type="alt" xml:id="n2">ሰይጣን፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">sayṭān</persName>
+               <persName xml:lang="gez" type="alt" xml:id="n3">ዲያብሎስ፡</persName>
+               <persName xml:lang="gez" corresp="#n3" type="normalized">diyābǝlos</persName>
+               <persName xml:lang="gez" type="alt" xml:id="n4">መስቴማ፡</persName>
+               <persName xml:lang="gez" corresp="#n4" type="normalized">mastemā</persName>
+               <persName xml:lang="gez" type="alt" xml:id="n5">ቤልሖር፡</persName>
+               <persName xml:lang="gez" corresp="#n5" type="normalized">bǝlḥor</persName>
+               <persName xml:lang="gez" type="alt" xml:id="n6">ብርያል፡</persName>
+               <persName xml:lang="gez" corresp="#n6" type="normalized">bǝryāl</persName>
+               <persName xml:lang="gez" type="alt" xml:id="n7">ጋኔን</persName>
+               <persName xml:lang="gez" corresp="#n7" type="normalized">gānen</persName>
             </person>
-            <listRelation>
-               <relation name="lawd:hasAttestation"
-                         active="PRS11300KidanaI"
-                         passive="BNFet147"/>
-            </listRelation>
+        
          </listPerson>
+         
+         <div type="bibliography">
+            <listBibl type="secondary">
+               <bibl><ptr target="bm:Burtea2005EAEDevil"/></bibl>
+            </listBibl>
+         </div>
       </body>
    </text>
 </TEI>
