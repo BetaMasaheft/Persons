@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mäläkotawit</title>
+            <title>Malakotāwit</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,23 +46,82 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-11-25">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="2">
-               <persName>
+            <persName xml:lang="gez" xml:id="n1" type="birthName">መለኮታዊት፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Malakotāwit</persName>
+               <persName><roleName type="title">ʾǝtege</roleName></persName>
+                 
                   
-                  Mäläkotawit
-               </persName>
-            </person>
-            <listRelation>
-               <relation name="unspecified">
-                  <desc> Iyasu’s concubine </desc>
-               </relation>
-            </listRelation>
+                  <occupation type="political">queen</occupation>
+                  
+               <floruit >She was one of the cocubines of the <persName ref="PRS5616IyasuI">Iyāsu I</persName>  
+                  and the mother of his son and succeesor <persName ref="PRS9152TaklaHa">Takla Hāymānot I</persName>. She craved for power and wanted to take her chance 
+                  when  <persName ref="PRS5616IyasuI">Iyāsu I</persName> abdicated and <persName ref="PRS9152TaklaHa">Takla Hāymānot I </persName> assumed power. 
+                  Thus, she organized the assassination of <persName ref="PRS5616IyasuI">Iyāsu I</persName>
+                  by the hand of her brother <persName ref="PRS3530Dermen">Dǝrmǝn </persName>in <date>1706</date>. 
+               </floruit>
+               <death when="1708">she was hanged on a pole in the central square of <placeName ref="LOC3577Gondar">Gondar</placeName>. </death>
+                  
+               </person>
+               <listRelation>
+                  <relation name="bm:wifeOf"           
+                     active="PRS6578Malakota"
+                     passive="PRS5616IyasuI"
+                     ></relation>
+                  <relation name="snap:SisterOf"    
+                     active="PRS6578Malakota"
+                     passive="PRS3530Dermen"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS6578Malakota"
+                     passive="PRS4095Fesseha"
+                     ></relation>
+                  <relation name="snap:MotherOf"
+                     
+                     active="PRS6578Malakota"
+                     passive="PRS9152TaklaHa"
+                     
+                     ></relation>
+                  <relation name="rel:enemyOf"
+                     
+                     active="PRS6578Malakota"
+                     passive="PRS5616IyasuI"
+                     
+                     ></relation>
+                  
+               </listRelation>
          </listPerson>
+         
+         
+         
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Basset1882Chronicle"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Chernestsov2007Malakotawit"/>
+               
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Budge1966Ethistory"/>
+               
+            </bibl>
+         </listBibl>
+         
       </body>
    </text>
+   
 </TEI>
+
+
+
+                  
+                 
