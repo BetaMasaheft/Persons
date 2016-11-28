@@ -11,6 +11,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Nob</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,21 +46,67 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-11-28">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+              
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">ኖብ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Nob</persName>
+              
+               <persName><roleName type="title"> nǝbur ǝd, ʾabbā </roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+               <occupation type="ecclesiastic">abbot of Dabra Dāmmo </occupation>
                   
-                  Nob
-               </persName>
-               <faith type="EOTC">EOTC</faith>
-               <occupation> abbot of Däbrä Dammo</occupation>
-               <occupation> nǝburä ǝd </occupation>
-            </person>
+               <floruit when="1450">He was a monk from the monastery of <placeName ref="LOC2241DabraB">Dabra Bakwǝr</placeName> who was appointed 
+                  as <roleName type="title">nǝbura ǝd</roleName> of <placeName ref="INS0105DD">Dabra Dāmmo ʾAbuna ʾAragāwi</placeName> in <date>1450</date>. 
+                  However, soon after <date>1450</date><persName ref="PRS7596Nob"> Nob </persName> fellout of the favour with <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS10626ZaraY">Zarʾa Yāʿǝqob</persName> and demoted from<roleName type="title"> nǝbura ǝd </roleName>.</floruit>
+              
+               </person>  
+               <listRelation>
+                  
+                  
+                  <relation name="snap:AllianceWith"
+                     active="PRS7596Nob"
+                     passive="PRS10445Yonaso"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS7596Nob"
+                     passive="PRS1846AmdaMa"
+                     ></relation>
+                
+                  
+                  
+               </listRelation>
          </listPerson>
+         <listBibl type="editions">
+          <bibl>
+             <ptr target="bm:ContiRossini1940Pergamene"/>
+          </bibl>
+       </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:BoscTiesseDerat2007Nob"/>
+            </bibl>
+            
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+                  
+              
