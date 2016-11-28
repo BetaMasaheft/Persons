@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ǝnkoyye</title>
+            <title>ʾƎnkoyye</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,20 +46,75 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-11-28">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="2">
-               <persName>
-                  
-                  Ǝnkoyye
-               </persName>
-               <persName type="alt">Wälättä Qǝddusan</persName>
-               <occupation> wäyz. </occupation>
-            </person>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">እንኮዬ፡ </persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾƎnkoyye</persName>
+               
+               <persName xml:lang="gez" xml:id="n2" type="baptisalName">ወለተ፡ ቅዱሳን፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Walata Qǝdusān</persName>
+               <persName><roleName type="title">Wayzaro</roleName></persName>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="ecclesiastic"></occupation>
+               
+               <floruit >She was a mother of the famous political figure of the Gondarine time, <persName ref="PRS2682BerhanM">Bǝrhan Mogasā</persName> and
+                  <persName ref="PRS9931WaldaLe">Walda Lǝʿul</persName>. 
+               </floruit>
+               <death when="1757"></death>
+               
+            </person>  
+            <listRelation>
+               <relation name="snap:DaughterOf"
+                  active="PRS3813enkoyye"
+                  passive="PRS9820Waksos"
+                  ></relation>
+               <relation name="snap:DaughterOf"
+                  active="PRS3813enkoyye"
+                  passive="PRS10433Yolyana"
+                  ></relation>
+               <relation name="bm:wifeOf"
+                  active="PRS3813enkoyye"
+                  passive="PRS6647Manbar"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  active="PRS3813enkoyye"
+                  passive="PRS2377Bakaffa"
+                  ></relation>
+               <relation name="snap:NephewOf"
+                  active="PRS3813enkoyye"
+                  passive="PRS7585Niqolawo"
+                  ></relation>
+            </listRelation>
          </listPerson>
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Chernestsov2005Enkoyye"/>
+            </bibl>
+            
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  
+                  
