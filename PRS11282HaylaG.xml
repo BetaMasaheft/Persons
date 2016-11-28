@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:id="t1">Ḫāyla Giyorgis</title>
+            <title xml:id="t1">Ḫayla Giyorgis</title>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
@@ -41,23 +41,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-11-17">Created XML record from Ethio authority google spreadsheet</change>
+         <change who="DR" when="2016-11-28">Adjustments</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  <forename/>
-                  <surname>Ḫāyla Giyorgis</surname>
-               </persName>
-               <occupation>owner</occupation>
+                  <persName xml:id="n1" xml:lang="gez">ኀይለ፡ ጊዮርጊስ፡</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Ḫayla Giyorgis</persName>
             </person>
             <listRelation>
-               <relation>husband PRS11283Dina</relation>
+               <relation name="bm:husbandOf" active="PRS11282HaylaG" passive="PRS11283Dina"/> 
                <relation name="lawd:hasAttestation"
                          active="PRS11282HaylaG"
-                         passive="BNFet138"><!--Please fix the relation of this item with BNFet138--></relation>
+                         passive="BNFet138"/>
             </listRelation>
          </listPerson>
       </body>

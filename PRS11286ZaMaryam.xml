@@ -47,17 +47,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  <forename/>
-                  <surname>Za-Māryām</surname>
-               </persName>
-               <occupation>owner</occupation>
+               <persName xml:id="n1" xml:lang="gez" cert="low">ዘማርያም፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Za-Māryām</persName> <!--Only transcription provided by Zotenberg-->
             </person>
             <listRelation>
-               <relation>husband PRS11287SablaW</relation>
+               <relation name="bm:husbandOf" active="PRS11286ZaMaryam" passive="PRS11287SablaW"/>
                <relation name="lawd:hasAttestation"
                          active="PRS11286ZaMaryam"
-                         passive="BNFet139"><!--Please fix the relation of this item with BNFet139--></relation>
+                         passive="BNFet139"/>
             </listRelation>
          </listPerson>
       </body>

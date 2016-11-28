@@ -41,6 +41,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-11-17">Created XML record from Ethio authority google spreadsheet</change>
+         <change who="DR" when="2016-11-28">Adjustments</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,12 +52,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <forename>François</forename>
                   <surname>Gally-Passebosc</surname>
                </persName>
-               <occupation>donor, mil. </occupation>
+               <occupation type="military">chef de bataillon d'infanterie de marine, donor</occupation>
             </person>
             <listRelation>
                <relation name="lawd:hasAttestation"
                          active="PRS11284GallyPassebosc"
-                         passive="BNFet138"><!--Please fix the relation of this item with BNFet138--></relation>
+                         passive="BNFet138"/>
             </listRelation>
          </listPerson>
       </body>
