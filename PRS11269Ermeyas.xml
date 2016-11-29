@@ -37,27 +37,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="ar">Arabic</language>
             <language ident="it">Italiano</language>
             <language ident="gez">Gǝʿǝz</language>
+            <language ident="fr">French</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-11-17">Created XML record from Ethio authority google spreadsheet</change>
+         <change who="DR" when="2016-11-29">Adjustments</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  <forename/>
-                  <surname>ʾƎrmǝyās (Zotenberg: Jérémie)</surname>
-               </persName>
-               <occupation>owner</occupation>
+               <persName xml:id="n1" xml:lang="gez" cert="low">እርምያስ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1" cert="low">ʾƎrmǝyās</persName>
+               <persName xml:id="n2" xml:lang="fr" resp="PRS10747Zotenbe">Jérémie</persName>
             </person>
             <listRelation>
-               <relation>son of Yonās </relation>
+               <relation name="saws:isMemberOf" active="PRS11269Ermeyas" passive="PRS11332Houseof" cert="low">
+                  <desc><persName ref="PRS11269Ermeyas"/> is described as "son of Yonās" in <ref type="mss" corresp="BNFet137"/>.</desc></relation> 
                <relation name="lawd:hasAttestation"
                          active="PRS11269Ermeyas"
-                         passive="BNFet137"><!--Please fix the relation of this item with BNFet137--></relation>
+                         passive="BNFet137"/>
             </listRelation>
          </listPerson>
       </body>
