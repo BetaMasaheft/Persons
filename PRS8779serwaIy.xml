@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Śǝrwä Iyäsus</title>
+            <title>Śǝrwa Iyasus</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,20 +46,67 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-11-29">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Śǝrwä Iyäsus
-               </persName>
-               <persName type="alt">Mǝhǝrka Nañ</persName>
-               <occupation> aṣe </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ሥርወ፡ ኢየሱስ፡ </persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Śǝrwa Iyasus</persName>
+            <persName xml:lang="gez" xml:id="n2" type="regnalName">ምህርከ፡ ናኝ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Mǝhǝrka Nañ</persName>
+               
+               <persName><roleName type="title">ʾaṣe</roleName></persName>
+               
+               
+               <occupation type="ruler">Emperor</occupation>
+               
+           <floruit when="1434">He was a son and a successor of <roleName type="title">ʾaṣe</roleName><persName ref="PRS9175TaklaMa">Takla Māryām</persName>, 
+                  and only reigned for four months. His brother <roleName type="title">ʾaṣe</roleName><persName ref="PRS1843AmdaIy">ʿAmda Iyasus</persName> 
+              was his immediate successor. </floruit>
+               <death when="1434"></death>
             </person>
+            <listRelation>
+               <relation name="snap:SonOf"
+                  active="PRS8779serwaIy"
+                  passive="PRS9175TaklaMa"
+                  ></relation>
+               <relation name="snap:BrotherOf"
+                  active="PRS8779serwaIy"
+                  passive="PRS1843AmdaIy"                 
+                  ></relation>
+               <relation name="snap:GrandchildOf"
+                  active="PRS8779serwaIy"
+                  passive="PRS3429DawitII"
+                  ></relation>
+             
+               
+            </listRelation>
          </listPerson>
+         
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Basset1882Chronicle"/>
+            </bibl>
+            
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Derat2010SerwaIyasus"/>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Tadesse1972Succeession "/>
+            </bibl>  
+            
+         </listBibl>  
+         
+         
+         
       </body>
    </text>
 </TEI>
+
+                  
+                 
