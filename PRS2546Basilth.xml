@@ -11,6 +11,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Basil the Great</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,21 +46,81 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-11-29">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+              
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ባስልዮስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Basǝlyos</persName>
+               <persName xml:lang="en" xml:id="n2" type="alt"> Basil of Caesarea </persName>
+                  <persName><roleName type="title"> </roleName></persName>
+          
                   
-                  Basil the Great
-               </persName>
-               <persName type="alt">Basil of Caesarea</persName>
-               <persName type="alt">Basǝlyos</persName>
-               <occupation> St. </occupation>
-            </person>
+               <nationality type="Greece"/>
+               
+               
+               <faith type="Greek"/>
+               <occupation type="ecclesiastic">a saint, writer</occupation>
+                  <birth notBefore="0329" notAfter="0330">  </birth>
+                  <floruit > A  saint and doctor of church, was important figure in the 4th century strife against Arianism, an organizer of the monastic life and a profile writer.
+                     Excerpts of his works are extant in Ethiopic. <persName ref="PRS2546Basilth">Basil the Great</persName> came
+                     from a deeply Christian Greek family, many members of which are venerated as saints. He visited all most important monastic 
+                     centres in <placeName ref="LOC5833Syria">Syria</placeName> and <placeName ref="LOC4797Mesopo">Mesopotamia</placeName>, 
+                     <placeName ref="LOC5068Palest">Palestine</placeName> and <placeName ref="LOC2804Egypt">Egypt</placeName>.</floruit>
+                  
+               </person>  
+               <listRelation>
+                  <relation name="snap:BrotherOf"
+                     active="PRS2546Basilth"
+                     passive="PRS4824Gregory"
+                     ></relation>
+                  
+                  <relation name="snap:AllianceWith"
+                     active="PRS2546Basilth"
+                     passive="PRS4822Gregory"
+                     ></relation>
+                  <relation name="saws:isAttributedToAuthor"
+                     active="PRS2546Basilth"
+                     passive="LIT1032Agains"
+                     ></relation>
+                  <relation name="saws:isAttributedToAuthor"
+                     active="PRS2546Basilth"
+                     passive="LIT1624Homily"
+                     ></relation>
+                  <relation name="saws:isAttributedToAuthor"
+                     active="PRS2546Basilth"
+                     passive="LIT1632Homily"
+                     ></relation>
+                  <relation name="saws:isAttributedToAuthor"
+                     active="PRS2546Basilth"
+                     passive="LIT1611Homili"
+                     ></relation>
+          
+        
+               </listRelation>
          </listPerson>
+  
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Witakowski2003Basil"/>
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Muller1991Basil"/>
+            </bibl>
+           
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+                  
+                  
