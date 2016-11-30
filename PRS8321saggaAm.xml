@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ṣägga Amlak</title>
+            <title>Ṣaggā ʾAmlāk</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,68 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-11-30">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+              
                   
-                  Ṣägga Amlak
-               </persName>
-               <occupation> monk </occupation>
-            </person>
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">  ጸጋ፡ አምላክ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Ṣaggā ʾAmlāk</persName>
+                  <persName><roleName type="title">ʾabbā</roleName></persName>
+                  <nationality type="Ethiopia"/>
+               <faith type="Judaism"/>
+                  <occupation type="ecclesiastic"> monk  </occupation>
+                <floruit >He was the son of  <roleName type="title">ʾaṣe</roleName><persName ref="PRS10626ZaraY">Zarʾa Yāʿǝqob</persName>. 
+                  He became attracted to the teachings of <roleName type="title"> ʾabbā </roleName><persName ref="PRS8281Sabra">Sābrā</persName>
+                   and converted to the faith of  <persName ref="PRS11333BeteEsrael">Beta ʾƎsrāʿel</persName>. </floruit>
+               
+               </person>  
+               <listRelation>
+                  
+                  <relation name="snap:AllianceWith"
+                     
+                     active="PRS8321saggaAm"
+                     passive="PRS8281Sabra"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS8321saggaAm"
+                     passive="PRS8041Qozmos"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS8321saggaAm"
+                     passive="PRS8522Saquyan"
+                     ></relation>
+                  <relation name="snap:SonOf"
+                     active="PRS8321saggaAm"
+                     passive="PRS10626ZaraY"
+                     ></relation>
+                  
+               </listRelation>
          </listPerson>
+     
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Kaplan2010SaggaAmalak"/>
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Kaplan1991Falasha"/>
+            </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+                  
+                  

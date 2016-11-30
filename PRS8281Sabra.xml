@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Sabra</title>
+            <title>Sābrā</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,21 +46,69 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-11-30">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+               <persName xml:lang="gez" xml:id="n1" type="birthName"> ሳብራ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Sābrā</persName>
+               
+               <persName xml:lang="gez" xml:id="n2" type="alt"> ጽብራ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized"> Ṣǝbrā</persName>
+               <persName xml:lang="gez" xml:id="n3" type="alt">ጸብራ፡ </persName>
+               <persName xml:lang="gez" corresp="#n3" type="normalized">Ṣabrā</persName>
+               <persName xml:lang="gez" xml:id="n4" type="alt"> ስብራ፡</persName>
+               <persName xml:lang="gez" corresp="#n4" type="normalized">Sǝbrā</persName>
+               <persName><roleName type="title">ʾabbā</roleName></persName>
+               <nationality type="Ethiopia"/>
+               <faith type="Judaism"/>
+               <occupation type="ecclesiastic"> monk  </occupation>
+               <floruit > He was an important religious figure of <persName ref="PRS11333BeteEsrael">Beta ʾƎsrāʿel</persName> ,
+                  credited with being the founder of their monastic tradition and many aspects of their religious life. <persName ref="PRS8281Sabra">Sābrā</persName>
+                  is also remembered for introducing their laws of purity. He is said to have been from a native of <placeName ref="LOC5597Sawa">Šawā</placeName>. 
+                  He is also credited with having composed their religious music. </floruit>
+               
+            </person>  
+            <listRelation>
+               
+               <relation name="snap:AllianceWith"
                   
-                  Sabra
-               </persName>
-               <persName type="alt">Ṣäbra</persName>
-               <persName type="alt"> Ṣǝbra</persName>
-               <occupation> abba </occupation>
-            </person>
+                  active="PRS8281Sabra"
+                  passive="PRS8321saggaAm"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  active="PRS8281Sabra"
+                  passive="PRS8041Qozmos"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  active="PRS8281Sabra"
+                  passive="PRS8522Saquyan"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="PRS8281Sabra"
+                  passive="LIT1198Baqada"
+                  ></relation>
+               
+            </listRelation>
          </listPerson>
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Kaplan2010Sabara"/>
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Kaplan1991Falasha"/>
+            </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+                  
+                 
