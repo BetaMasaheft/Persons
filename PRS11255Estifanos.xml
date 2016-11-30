@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:id="t1">ʾƎsṭifānos (Zotenberg: Étienne)</title>
+            <title xml:id="t1">ʾƎsṭifānos</title>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
@@ -41,22 +41,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-11-17">Created XML record from Ethio authority google spreadsheet</change>
+         <change who="DR" when="2016-11-30">Adjustments</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  <forename/>
-                  <surname>ʾƎsṭifānos (Zotenberg: Étienne)</surname>
-               </persName>
-               <occupation>scribe</occupation>
+               <persName xml:id="n1" xml:lang="gez">እስጢፋኖስ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">ʾƎsṭifānos</persName>
             </person>
             <listRelation>
-               <relation name="lawd:hasAttestation"
+               <relation name="saws:hasWritten"
                          active="PRS11255Estifanos"
-                         passive="BNFet133"><!--Please fix the relation of this item with BNFet133--></relation>
+                         passive="BNFet133#p2"/>
             </listRelation>
          </listPerson>
       </body>
