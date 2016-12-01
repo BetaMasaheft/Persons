@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Śärṣä Krǝstos (Śärḍo)</title>
+            <title>Śarṣa Krǝstos (Śarḍo)</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,71 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-12-01">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+             
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">ሠርጸ፡ ክርስቶስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Śarṣa Krǝstos (Śarḍo)</persName>
+               <persName><roleName type="title">ṣaḥafe lām</roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <occupation type="political">ruler </occupation>
                   
-                  Śärṣä Krǝstos (Śärḍo)
-               </persName>
-               <occupation> däǧǧ. </occupation>
-            </person>
+               <floruit when="1621">He was a feudal lord during the reign of <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS9038Susenyos">Susǝnyos</persName>, appointed as <roleName type="title">ṣaḥafe lām</roleName> of 
+                  <placeName ref="LOC6568Amhara">ʾAmharā</placeName> and makbǝb of <placeName ref="LOC1602Atrons">ʾAtronsa Māryām</placeName> and 
+                  <placeName ref="LOC4544Manz">Manz</placeName> in <date>1621</date>.</floruit>
+                  
+               <death when="1631">He was captured by the army of <persName ref="PRS4013FasilGa">Fāsiladas</persName> and sent to
+                  <placeName ref="LOC2516Danqaz">Danqaz</placeName> where he was executed.</death>
+               </person>
+               <listRelation>
+                  <relation name="snap:SonOf"
+                     active="PRS8552sarsaKr"
+                     passive="PRS10233Yamana"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS8552sarsaKr"
+                     passive="PRS8681SeelaK"
+                     ></relation>
+                  <relation name="rel:enemyOf"
+                     active="PRS8552sarsaKr"
+                     passive="PRS4013FasilGa"
+                     ></relation>
+           
+          
+               </listRelation>
          </listPerson>
+        
+  
+         <listBibl type="secondary">
+          
+            <bibl>
+               <ptr target="bm:Martinez2010SarsaKrestos"/>
+            </bibl>
+            
+         </listBibl>
       </body>
-   </text>
+   </text>   
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  
+                 
