@@ -11,6 +11,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Giyorgis of Saglā</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,6 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="SG" when="2016-07-25">Complete record</change>
+         <change who="SG" when="2016-12-01">Correction</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -57,9 +60,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
           
               <occupation type="ecclesiastic">writer</occupation>
               
-               <floruit when="1424" evidence="internal">He wrote his principal work <title ref="LIT1952Mashaf">Maṣḥafa mǝśṭir</title> in <date>1424</date> . He was a tutor of emperors sons and their companion. He was educated in the monastery of Dabra Ḥayq Ǝsṭifanos
+               <floruit when="1424" evidence="internal">He wrote his principal work <title ref="LIT1952Mashaf">Maṣḥafa mǝśṭir</title> in <date>1424</date> . 
+                  He was a tutor of emperors’ sons and their companions. He was educated in the monastery of  <placeName ref="INS0327DHE">Dabra Ḥayq ʾƎsṭifānos.</placeName>
                </floruit>
-               <death >1425</death>
+               <death when="1425"></death>
             </person>
                <listRelation>
                   <relation name="snap:AllianceWith"

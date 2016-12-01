@@ -48,6 +48,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2016-07-22">Complete record</change>
          <change who="SG" when="2016-09-02">Corrcetion to the transcription</change>
          <change who="SG" when="2016-09-09">addition to relation</change>
+         <change who="SG" when="2016-12-01">addition </change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -56,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
              
                   <persName xml:lang="gez" xml:id="n1" type="birthName">አቡልፋትሕ፡</persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized">Abū l-Fātḥ</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAbū l-Fātḥ</persName>
                   <persName xml:lang="gez" xml:id="n2" type="baptisalName">እንባቆም፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">ʾƎnbāqom</persName>
                   
@@ -64,9 +65,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
           
            <occupation type="ecclesiastic">abbot</occupation>
                <birth>1470</birth>
-               <residence>He was born in Yemen</residence>
-               <floruit when="1489" evidence="internal">He arrived in Ethiopia in <date>1489</date> during the reign of King<persName ref="PRS3874eskender">ʾƎskǝndǝr</persName>. 
-                  He was baptized by abuna <persName ref="PRS7825Petros" >ṗeṭros </persName>. ʾƎnbāqom contribution to Ethiopic lietrature was remarkable. 
+               <residence>He was born in <placeName ref="gn:69543">Yemen</placeName>.</residence>
+               <floruit when="1489" evidence="internal">He arrived in <placeName ref="LOC3010Ethiop"> Ethiopia</placeName> in <date>1489</date> 
+                  during the reign of King<persName ref="PRS3874eskender">ʾƎskǝndǝr</persName>. 
+                  He was baptized by abuna <persName ref="PRS7825Petros" >ṗeṭros </persName>. <persName ref="PRS3779enbaqom">ʾƎnbāqom</persName> contribution to Ethiopic lietrature was remarkable. 
                </floruit>
                <death when="1563" evidence="internal">He died during the reign of King <persName ref="PRS7102Minas">Minās </persName>. </death>
             </person>
