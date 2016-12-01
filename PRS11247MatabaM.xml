@@ -41,23 +41,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-11-17">Created XML record from Ethio authority google spreadsheet</change>
+         <change who="DR" when="2016-12-01">Adjustments</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  <forename/>
-                  <surname>Māʿtaba Māryām</surname>
-               </persName>
-               <occupation>qāyəm</occupation>
+               <persName xml:lang="gez" xml:id="n1">ማዕተበ፡  ማርያም፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Māʿtaba Māryām </persName>
+               <occupation type="ecclesiastic">qāyəm of <placeName ref="INS0337MG"/></occupation>
+               <residence ref="INS0337MG"/>
             </person>
             <listRelation>
-               <relation name="syriaca:has-relation-to-place" active="PRS11247MatabaM">Ḥārat Zuwayla</relation>
+               <relation name="syriaca:has-relation-to-place" active="PRS11247MatabaM" ref="INS0319HZ"/>
                <relation name="lawd:hasAttestation"
                          active="PRS11247MatabaM"
-                         passive="BNFet131"><!--Please fix the relation of this item with BNFet131--></relation>
+                         passive="BNFet131"/>
             </listRelation>
          </listPerson>
       </body>

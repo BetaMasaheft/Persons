@@ -44,17 +44,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="DR" when="2016-12-01">Additions</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                   Pierre
-                  Séguier
+            <person sex="1" sameAs="http://viaf.org/viaf/41846468/">
+            <persName>
+               <forename>Pierre</forename>
+               <surname>Séguier</surname>
                </persName>
-               <occupation> sch. </occupation>
+               <occupation type="political">Chancellor</occupation>
+               <nationality type="France"/>
+               <birth when="1588">1588</birth>
+               <death when="1672">1672</death>
             </person>
          </listPerson>
       </body>

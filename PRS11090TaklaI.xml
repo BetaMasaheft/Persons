@@ -41,25 +41,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-11-17">Created XML record from Ethio authority google spreadsheet</change>
+         <change who="DR" when="2016-12-01">Adjustments</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  <forename/>
-                  <surname>Takla ʾIyasus</surname>
-               </persName>
-               <floruit>1561</floruit>
-               <!--From Time field, to be changed into DEATH, BIRTH, or whatever is actually relevant!-->
-               <occupation>abbot</occupation>
+                  <persName xml:lang="gez" xml:id="n1">ተክለ፡ ኢየሱስ፡</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Takla ʾIyasus </persName>
+               <floruit notBefore="1561" notAfter="1562"/>
+                  <occupation type="ecclesiastic">rayǝs</occupation>
+                  <residence ref="INS0319HZ"/>
             </person>
+               
             <listRelation>
-               <relation name="syriaca:has-relation-to-place" active="PRS11090TaklaI">Jerusalem</relation>
+               <relation name="syriaca:has-relation-to-place" active="PRS11090TaklaI" passive="gn:281184"/>
                <relation name="lawd:hasAttestation"
                          active="PRS11090TaklaI"
-                         passive="BNFet78"><!--Please fix the relation of this item with BNFet78--></relation>
+                         passive="BNFet78"/>       
             </listRelation>
          </listPerson>
       </body>

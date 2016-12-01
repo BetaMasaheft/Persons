@@ -44,19 +44,34 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="DR" when="2016-12-01">Additions</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
+            
             <person sex="1">
-               <persName>
-                  
-                  Sǝmʿon
-               </persName>
-               <occupation> nǝburä ǝd </occupation>
+               <persName xml:lang="gez" xml:id="n1"> ስምዖን፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized"> Sǝmʿon</persName>
+               <persName><roleName type="title" xml:lang="gez">nǝbura ʾǝd </roleName> of <placeName ref="INS0336EAG"/></persName>
+               <occupation type="ecclesiastic"/>  
+               <residence ref="INS0336EAG"/>
+               <floruit notBefore="1350" notAfter="1400">end of the 14th century</floruit>
             </person>
+            
+            <listRelation>
+               <relation name="lawd:hasAttestation" active="PRS8744Semon" passive="BNFet131"/>
+            </listRelation>
+            
          </listPerson>
+         
+         <div type="bibliography">
+            <listBibl type="secondary">
+               <bibl><ptr target="bm:Bausi2005EndaAbbaGarima"/><citedRange unit="page">285a</citedRange></bibl>
+            </listBibl>
+         </div>
+         
       </body>
    </text>
 </TEI>
