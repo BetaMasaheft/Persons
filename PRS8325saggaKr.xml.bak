@@ -6,11 +6,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
      xml:lang="en"
-     xml:id="PRS1291Abreham">
+     xml:id="PRS8325saggaKr">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>ʾAbrǝham</title>
+            <title>Ṣaggā Krǝstos</title>
             <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
@@ -46,34 +46,37 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
-         <change who="SG" when="2016-08-30">Complete record</change>
+         <change who="SG" when="2016-08-31">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName xml:lang="gez" xml:id="n1" type="birthName"> አብርሃም</persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAbrǝham</persName>
-           <persName><roleName type="title">ʿǝč̣č̣age</roleName></persName>
+               <persName xml:lang="gez" xml:id="n1" type="birthName"> ጸጋ፡ ክርስቶስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Ṣaggā Krǝstos</persName>
+               <persName><roleName type="title">ʿǝč̣č̣age</roleName></persName>
                <occupation type="ecclesiastic">abbot </occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <birth></birth>
-               <residence><placeName ref="INS0341">Dabra Libānos</placeName></residence>
-               <floruit when="1591" evidence="internal"> He was the the seventeenth abbot of <placeName ref="INS0341DL"> Dabra Libānos</placeName>
-                  who succeded ʿǝč̣č̣age <persName ref="PRS10651ZatraW" > Zatra Wangel</persName> in<date>1591</date>. He was a contemporary of both King  
-                  <persName ref="PRS8550sardaDe" >Śarḍa Dǝngǝl</persName> and King <persName ref="PRS9038Susenyos" > Susǝnyos</persName> 
-                  
-                </floruit>
-               <death when= "1612" evidence="internal">He died in the sixth year of  the reign of King <persName ref="PRS9038Susenyos">Susǝnyos</persName></death>
+               <residence><placeName ref="LOC2297DabraL">Dabra Libānos</placeName></residence>
+               <floruit when="1680" evidence="internal"> He was the the twenty fifth abbot of <placeName ref="LOC2297DabraL"> Dabra Libānos </placeName>
+                  who succeded ʿǝč̣č̣age <persName ref="PRS8004QalaAw" >Qala ʿAwādi</persName> in<date>1680</date>. Then, two years later, he was dissmissed by King 
+                  <persName ref="PRS5616IyasuI" > Iyāsu I</persName> in<date>1680</date>. But  he was reappointed by King <persName ref="PRS5616IyasuI" > Iyāsu I</persName> on
+                  <date> 16 November 1693</date>. He remained in office until his death.
+            
+         </floruit>
+               <death when= "1696" evidence="internal"></death>
             </person>
             <listRelation>
-               <relation name= "snap:FriendshipFor"
-                  active="PRS1291Abreham"
-                  passive="PRS9038Susenyos"
+             
+               <relation name= "snap:AllianceWith"
+                  active="PRS8325saggaKr"
+                  passive="PRS5616IyasuI"
                   ></relation>
-               </listRelation>
+               
+          </listRelation>
          </listPerson>
          <listBibl type="secondary">
             <bibl> 
@@ -81,16 +84,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <biblScope unit="page">137-182</biblScope>
             </bibl>
             <bibl>
-               <ptr target="bm:Nosnitsin2003Abreham"/>
+               <ptr target="bm:Rossigno2010Sagakerstos"/>
             </bibl> 
          </listBibl>
       </body>
    </text>
 </TEI>
-
-
-
-
 
 
 

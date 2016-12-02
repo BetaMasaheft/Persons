@@ -6,11 +6,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
      xml:lang="en"
-     xml:id="PRS1291Abreham">
+     xml:id="PRS3791endreyas">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>ʾAbrǝham</title>
+            <title>ʿƎndrǝyās</title>
             <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
@@ -46,43 +46,41 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
-         <change who="SG" when="2016-08-30">Complete record</change>
+         <change who="SG" when="2016-08-22">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName xml:lang="gez" xml:id="n1" type="birthName"> አብርሃም</persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAbrǝham</persName>
-           <persName><roleName type="title">ʿǝč̣č̣age</roleName></persName>
-               <occupation type="ecclesiastic">abbot </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">እንድርያስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʿƎndrǝyās</persName>
+               <persName><roleName type="title">ʾǝč̣č̣age</roleName></persName>
+               <occupation type="ecclesiastic"> abbot </occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <birth></birth>
-               <residence><placeName ref="INS0341">Dabra Libānos</placeName></residence>
-               <floruit when="1591" evidence="internal"> He was the the seventeenth abbot of <placeName ref="INS0341DL"> Dabra Libānos</placeName>
-                  who succeded ʿǝč̣č̣age <persName ref="PRS10651ZatraW" > Zatra Wangel</persName> in<date>1591</date>. He was a contemporary of both King  
-                  <persName ref="PRS8550sardaDe" >Śarḍa Dǝngǝl</persName> and King <persName ref="PRS9038Susenyos" > Susǝnyos</persName> 
-                  
-                </floruit>
-               <death when= "1612" evidence="internal">He died in the sixth year of  the reign of King <persName ref="PRS9038Susenyos">Susǝnyos</persName></death>
+               <residence><placeName ref="LOC2297DabraL">Dabra Libānos</placeName></residence>
+               <floruit>He was the the eight head  of the monastery of <placeName ref="LOC2297DabraL">Dabra Libānos </placeName>who succeded his predecessor ʾabuna 
+                  <persName ref="PRS10408Yohanne"> Yoḥannǝs Kamā </persName> and  he was a contemporary of King <persName ref="PRS10626ZaraY">
+                     Zarʾa Yāʿǝqob</persName>. </floruit>
+               <death >1462</death>
             </person>
             <listRelation>
-               <relation name= "snap:FriendshipFor"
-                  active="PRS1291Abreham"
-                  passive="PRS9038Susenyos"
+               <relation name= "rel:enemyOf"
+                  active="PRS3791endreyas"
+                  passive="PRS10626ZaraY"
                   ></relation>
-               </listRelation>
+            </listRelation>
          </listPerson>
          <listBibl type="secondary">
             <bibl> 
-               <ptr target="bm:Cerulli1944AbbotsDL"/>
-               <biblScope unit="page">137-182</biblScope>
-            </bibl>
-            <bibl>
-               <ptr target="bm:Nosnitsin2003Abreham"/>
-            </bibl> 
+               <ptr target="bm:Cerulli1943AbbotsDL"/>
+               <biblScope unit="page">143-145</biblScope>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Nosnitsin2005Endreryas"/>
+            </bibl>  
          </listBibl>
       </body>
    </text>
@@ -93,7 +91,5 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
 
 
-
-
-                  
-                  
+               
+               
