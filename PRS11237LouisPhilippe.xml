@@ -41,24 +41,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-11-17">Created XML record from Ethio authority google spreadsheet</change>
+         <change who="DR" when="2016-12-02">Adjustments</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  <forename/>
-                  <surname>Louis-Philippe I</surname>
-               </persName>
-               <floruit>1773-1850</floruit>
-               <!--From Time field, to be changed into DEATH, BIRTH, or whatever is actually relevant!-->
-               <occupation>king</occupation>
+            <person sex="1" sameAs="http://viaf.org/viaf/55392984/">
+               <persName>Louis-Philippe I</persName>
+               <birth when="1773">1773</birth>
+               <death when="1850">1850</death>
+               <occupation type="ruler">king</occupation>
+               <nationality type="France"/>
             </person>
             <listRelation>
-               <relation name="lawd:hasAttestation"
+               <relation name="saws:hasOwned"
                          active="PRS11237LouisPhilippe"
-                         passive="BNFet124"><!--Please fix the relation of this item with BNFet124--></relation>
+                         passive="BNFet124"/>
             </listRelation>
          </listPerson>
       </body>
