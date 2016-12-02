@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="pers"
+     xml:lang="en"
+     xml:id="PRS4120Fiqtor">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fiqṭor (Buqṭur)</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
+            <author/>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+            multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                This file is licensed under the Creative Commons
+                Attribution-ShareAlike 4.0. </licence>
+            </availability>
+            <date>2016-03-21</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Prosopography of Ethiopian Written tradition</p>
+            <p>A TEI file converted from the ETHIO-authority
+                                                  google spreadsheet</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="ar">Arabic</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
+         <change who="PL" when="2016-03-21"> Created file from
+                                                  google spreadsheet </change>
+         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-11-14">Complete record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person sex="1">
+               
+                  
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">ፊቅጦር፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Fiqṭor</persName>
+                  <persName><roleName type="title">ʾabuna</roleName></persName>
+                  <occupation type="ecclesiastic">metropolitan</occupation>
+                  
+                  <nationality type="Egypt"/>
+                  <faith type="Coptic"/>
+                  <birth></birth>
+                  
+               <floruit >He was the metropolitan of <placeName ref="LOC3010Ethiop">Ethiopia</placeName> who probably lived in the second half of the 11th century.
+               </floruit>
+               <death></death>
+               </person>
+               <listRelation>
+                  
+                  
+                  <relation name="snap:NephewOf"
+                     active="PRS4120Fiqtor"
+                     passive="PRS10806Fiqtor"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS4120Fiqtor"
+                     passive="PRS3330Daneel"
+                     
+                     ></relation>
+                  
+               </listRelation>
+         </listPerson>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:MunroHay2005Fiqtor"/>
+               
+            </bibl>
+            
+            <bibl> 
+               <ptr target="bm:Tedeschi1991EthiopianPre"/>
+               <biblScope unit="page">1002b-1003b</biblScope>
+            </bibl>
+         </listBibl>
+      </body>
+   </text>
+</TEI>
+
+
+
+
+
+
+
+
+
+
+                  
+                
+                

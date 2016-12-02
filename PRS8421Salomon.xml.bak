@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="pers"
+     xml:lang="en"
+     xml:id="PRS8421Salomon">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Salomon I</title>
+            <editor key="SG"/>  
+            <editor role="generalEditor" key="AB"/>
+            <author/>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+            multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                This file is licensed under the Creative Commons
+                Attribution-ShareAlike 4.0. </licence>
+            </availability>
+            <date>2016-03-21</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Prosopography of Ethiopian Written tradition</p>
+            <p>A TEI file converted from the ETHIO-authority
+                                                  google spreadsheet</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="ar">Arabic</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
+         <change who="PL" when="2016-03-21"> Created file from
+                                                  google spreadsheet </change>
+         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-08-10">Complete record</change>
+         <change who="SG" when="2016-08-10">Correction to transacription </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person sex="1">
+     
+              
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">ሰሎሞን፡</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Salomon I</persName>
+                  <persName><roleName type="title"> ʾaṣe </roleName></persName>
+                
+               <occupation type="ruler">Emperor</occupation>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <residence><placeName ref="LOC3577Gondar"> Gondar</placeName></residence>
+               <birth></birth>
+               <floruit when="1777" evidence="internal">He was a puppet king brought from <placeName ref="LOC6157WahniA">Wahni ʾAmbā</placeName>to replcae King<persName ref="PRS9153TaklaHa">Takla Hāymānot II</persName>in 
+                  <date>  1777</date> and ruled until<date>1779</date>.
+                  </floruit>
+               <death ></death>
+                  </person>
+            <listRelation>
+               <relation name= "snap:AllianceWith"
+                  active="PRS8421Salomon"
+                  passive= "PRS5258hayluYo"
+                ></relation>
+               <relation name="snap:AllianceWith"
+                  active="PRS8421Salomon"
+                  passive="PRS5950KenfuAd"
+                  ></relation>
+             </listRelation>
+         </listPerson>
+        <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Blundell1922Chronicle"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Budge1966Ethistory"/>
+            </bibl>  
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Crummey2010SalomonI"/>
+            </bibl>  
+         </listBibl>
+      </body>
+   </text>
+</TEI>
+
+
+            

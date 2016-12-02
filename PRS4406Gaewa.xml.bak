@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="pers"
+     xml:lang="en"
+     xml:id="PRS4406Gaewa">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Gāʿǝwā</title>
+            <editor key="SG"/>
+            <author/>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+            multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                This file is licensed under the Creative Commons
+                Attribution-ShareAlike 4.0. </licence>
+            </availability>
+            <date>2016-03-21</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Prosopography of Ethiopian Written tradition</p>
+            <p>A TEI file converted from the ETHIO-authority
+                                                  google spreadsheet</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="ar">Arabic</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
+         <change who="PL" when="2016-03-21"> Created file from
+                                                  google spreadsheet </change>
+         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-08-02">Complete record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person sex="2">
+               
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ጋዕዋ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Gāʿǝwā</persName>
+               <nationality type="Ethiopia"/>
+                <faith type="Islam"/>
+               <occupation type="ruler">queen</occupation>
+               <birth></birth>
+               <floruit>She was a 16th century female ruler in northern Ethiopia,  who was also most often refered as a queen of <placeName ref="LOC4732Mazaga">Mazagā</placeName>. 
+               </floruit>
+               <death >1559</death>
+            </person>
+            <listRelation>
+               <relation name= "snap:SisterOf"
+                  active="PRS4406Gaewa"
+                  passive="PRS6537Makattar"
+                  ></relation>
+               <relation name= "snap:AllianceWith"
+                  active="PRS4406Gaewa"
+                  passive= "PRS7692ozdemir" 
+                   ></relation>
+               <relation name= "rel:enemyOf" 
+                  active="PRS4406Gaewa"
+                  passive="PRS4428Galawdew"
+                  ></relation>
+            </listRelation>
+         </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Conzelman1895Galawdewos"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Solomon2016Galawdewos"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:ContiRossini1918Pawlos"/>
+            </bibl>
+         </listBibl>
+ 
+        <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Nosnitsin2005Gaewa"/>
+            </bibl>  
+         </listBibl>
+      
+      </body>
+   </text>
+</TEI>
+
+
+
+
+
+
+               
+              
+              

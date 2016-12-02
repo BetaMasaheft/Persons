@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="pers"
+     xml:lang="en"
+     xml:id="PRS6609Malkea">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Malkǝʾa Krǝstos </title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
+            <author/>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+            multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                This file is licensed under the Creative Commons
+                Attribution-ShareAlike 4.0. </licence>
+            </availability>
+            <date>2016-03-21</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Prosopography of Ethiopian Written tradition</p>
+            <p>A TEI file converted from the ETHIO-authority
+                                                  google spreadsheet</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="ar">Arabic</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
+         <change who="PL" when="2016-03-21"> Created file from
+                                                  google spreadsheet </change>
+         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-11-03">Complete record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person sex="1">
+          <persName xml:lang="gez" xml:id="n1" type="birthName">መልክአ፡ ክርስቶስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Malkǝʾa Krǝstos </persName>
+                  <persName><roleName type="title">ʾabetohun</roleName></persName>
+                 <occupation type="military">officer</occupation>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                     <birth></birth>
+               <floruit> He was a prominent 17th century nobleman and high ranking officer of <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS9038Susenyos">Susǝnyos</persName>. He was the husband of <roleName type="title">ʾƎmmat</roleName>
+                  <persName ref="PRS9848Walatta">Walatta Ṗeṭros </persName>from whom he had three children. He was very loyal to  <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS9038Susenyos">Susǝnyos</persName> despite the king  inclanation to catholism. He involved in many anti-catholic rebels assisting the king but
+                  in the final years of <roleName type="title">ʾaṣe</roleName><persName ref="PRS9038Susenyos">Susǝnyos</persName> 
+                  <persName ref="PRS6609Malkea">Malkǝʾa Krǝstos</persName> was in tension with the king and in <date>1632 </date> he avoided campaigning against the rebels. 
+                  Finally, he was arrested, accused of treason and sentenced to death which substituted by exile.</floruit>
+               <death  when="1633"> He died of the second year of <roleName type="title">ʾaṣe</roleName> <persName ref="PRS4015Fasilada">Fāsiladas</persName>.</death>
+               </person>
+               <listRelation>
+                  <relation name="bm:husbandOf"
+                     active="PRS6609Malkea"
+                     passive="PRS9848Walatta"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS6609Malkea"
+                     passive="PRS9038Susenyos"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS6609Malkea"
+                     passive="PRS4015Fasilada"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS6609Malkea"
+                     passive="PRS6858Masqal"
+                     ></relation>
+                  
+          </listRelation>
+         </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Pereira1892Susenyos"/>
+            </bibl>
+            
+            
+            <bibl>
+               <ptr target="bm:Pereira1900Susenyos"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Nosnitsin2007MalkeaKrestos"/>
+            </bibl>  
+         </listBibl>
+      </body>
+   </text>
+</TEI>
+
+
+
+
+
+
+                  
+                 

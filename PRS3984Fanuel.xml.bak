@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="pers"
+     xml:lang="en"
+     xml:id="PRS3984Fanuel">
+ 
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fānuʾel</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
+            <author/>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+            multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                This file is licensed under the Creative Commons
+                Attribution-ShareAlike 4.0. </licence>
+            </availability>
+            <date>2016-03-21</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Prosopography of Ethiopian Written tradition</p>
+            <p>A TEI file converted from the ETHIO-authority
+                                                  google spreadsheet</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="ar">Arabic</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
+         <change who="PL" when="2016-03-21"> Created file from
+                                                  google spreadsheet </change>
+         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-11-02">Complete record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person sex="1">
+            <persName xml:lang="gez" xml:id="n1" type="birthName">ፋኑኤል፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Fānuʾel</persName>
+               <persName><roleName type="title">wāg šum</roleName></persName>
+                 <occupation type="military">leader</occupation>
+                  <birth></birth>
+               <floruit > He was an aristocrat of royal blood  who traced  his descent to <roleName type="title">ʾaṣe</roleName> 
+                  <persName ref="PRS8595SayfaAr">Sayfa Arʿad</persName>. It was during the turbulent period of<roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS6229LebnaDe">Lǝbna Dǝngǝl</persName>, <persName ref="PRS3984Fanuel">Fānuʾel</persName> 
+                  held the office of <roleName type="title"> wāg šum </roleName>. He was among a few prominent warlords who were luck  enough to survive during the onslaught led by  <roleName type="title">ʾimām</roleName><persName ref="PRS1522Ahmadb">ʾAḥmad b. ʾIbrāhīm al-Ġāzī</persName>. 
+                  He was also an important warlord during the reign of <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS4428Galawdew">Galāwdewos</persName>.</floruit >   
+                  <death ></death>
+               </person>
+               
+               <listRelation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS3984Fanuel"
+                     passive="PRS4428Galawdew"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS3984Fanuel"
+                     passive="PRS6229LebnaDe"
+                     ></relation>
+                  <relation name="snap:FriendshipFor"
+                     active="PRS3984Fanuel"
+                     passive="PRS3287Dagalhan"
+                     ></relation>
+                  <relation name="snap:SonOf"
+                     active="PRS3984Fanuel"
+                     passive="PRS6460Magdalaw"
+                     ></relation>
+                  <relation name="saws:isSiblingOf"
+                     active="PRS3984Fanuel"
+                     passive="PRS8595SayfaAr"
+                     ></relation>
+                 
+               </listRelation>
+         </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Conzelman1895Galawdewos"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Solomon2016Galawdewos"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Kropp1988Shortchr"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Chernestsov2005Fanuel"/>
+            </bibl>  
+         </listBibl>
+      </body>
+   </text>
+</TEI>
+
+
+
+
+
+
+                  
+                  

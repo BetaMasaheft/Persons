@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="pers"
+     xml:lang="en"
+     xml:id="PRS5841Kaleb">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Kāleb</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            <author/>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+            multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                This file is licensed under the Creative Commons
+                Attribution-ShareAlike 4.0. </licence>
+            </availability>
+            <date>2016-03-21</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Prosopography of Ethiopian Written tradition</p>
+            <p>A TEI file converted from the ETHIO-authority
+                                                  google spreadsheet</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="ar">Arabic</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
+         <change who="PL" when="2016-03-21"> Created file from
+                                                  google spreadsheet </change>
+         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-09-22">complete record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person sex="1">
+               <persName xml:lang="gez" xml:id="n1" type="birthName">Kāleb</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ካሌብ፡</persName>
+            
+               <persName xml:lang="gez" xml:id="n2" type="reignalName">እለ፡ አጽብሐ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">ʾƎlla ʾAṣbǝḥa</persName>
+               <persName xml:lang="gez" xml:id="n3" type="reignalName">እለ፡ አጽበሐ፡</persName>
+               <persName xml:lang="gez" corresp="#n3" type="normalized">ʾƎlla ʾAṣbaḥa</persName>
+               <persName><roleName type="title">ʾaṣe</roleName></persName>
+            <occupation type="ruler">Emperor</occupation>
+             <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <birth></birth>
+               <residence><placeName ref="LOC1310Aksum">ʾAksum</placeName></residence>
+                  
+               <floruit>He was a king of  Aksum in the first half of the 6th century. He is also venerated as a saint in the Ethiopian Orthodx Church. He is largely known for his military expedition against 
+                  Yemen in <date>520</date>
+                  </floruit>
+               <death></death>
+            </person>
+            <listRelation>
+               <relation name="snap:SonOf" 
+                  active="PRS5841Kaleb"
+                  passive="PRS9357Tazena"
+                  ></relation>
+           
+               <relation name="saws:P129i_is_subject_of" 
+                  active="PRS5841Kaleb"
+                  passive="LIT2815RepCh99"
+                  ></relation>
+               <relation name="saws:P129i_is_subject_of" 
+                  active="PRS5841Kaleb"
+                  passive="LIT1704Kaleb"
+                  ></relation>
+         
+               
+               
+            </listRelation>
+         </listPerson>
+         
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Basset1882Chronicle"/>
+               <biblScope unit="page"></biblScope>
+            </bibl>
+            <bibl>
+               
+        
+               
+               <ptr target="bm:Sergew1972Ethiopianhistory"/>
+               <biblScope unit="page">14, 40, 42, 62, 81, 111-12, 117, 119, 123, 124, 125-27, 131-37, 139-40, 143, 145, 159-161, 164, 237</biblScope>
+            </bibl>
+            
+  
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Fiaccadori2007Kaleb"/>
+            </bibl>  
+         </listBibl>  
+         
+         
+         
+      </body>
+   </text>
+</TEI>
