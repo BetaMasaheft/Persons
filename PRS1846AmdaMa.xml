@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>ʿAmdä Mäsqäl</title>
+            <title>ʿAmda Masqal</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,20 +46,67 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="ES" when="2016-12-02">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+              
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">ዓምደ፡ መስቀል፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʿAmda Masqal</persName>
+               <persName xml:lang="gez" xml:id="n2" type="nickName">ዓምደ፡ ሰይጣን፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">ʿAmda Sayṭān</persName>
+                  <persName><roleName type="title">bitwaddad</roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <occupation type="political">courtier</occupation>
+            
+               <floruit notBefore="1400" notAfter="1450"> He was a prominent mid 15th century courtier of
+                  <persName ref="PRS10626ZaraY">Zarʾa Yāʿǝqob</persName>.  </floruit>
+           
+               </person>  
+               <listRelation>
                   
-                  ʿAmdä Mäsqäl
-               </persName>
-               <persName type="alt">ʿAmdä Säyṭan</persName>
-               <occupation> bitw. </occupation>
-            </person>
+                  
+                  <relation name="snap:AllianceWith"
+                     active="PRS1846AmdaMa"
+                     passive="PRS10626ZaraY"
+                     ></relation>
+                  <relation name="bm:husbandOf"
+                     active="PRS1846AmdaMa"
+                     passive="PRS2683BerhanZ"
+                     ></relation>
+                  </listRelation>
          </listPerson>
+         
+         <listBibl type="editions">
+            <bibl> 
+               <ptr target="bm:Perruchon1893Zarayaeqob"/>
+               
+            </bibl>
+         </listBibl>
+         <listBibl type="secondary">
+            
+            <bibl> 
+               <ptr target="bm:Pankhurst2003Amdamasqal"/>
+            </bibl>
+            
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+                  
