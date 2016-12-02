@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Zännäbä Wärq</title>
+            <title>Zannaba Warq</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,21 +44,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="DR" when="2016-12-01">Adjustments</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  
-                  Zännäbä Wärq
-               </persName>
+            <person sex="2">
+               <persName>Zannaba Warq</persName>
             </person>
             <listRelation>
-               <relation name="motherOf">
-                  <desc> moth. Śahlä Śǝllase  </desc>
-               </relation>
+               <relation name="snap:MotherOf" active="PRS10604Zannaba" passive="PRS8346sahlase"/>
             </listRelation>
          </listPerson>
       </body>
