@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="pers"
+     xml:lang="en"
+     xml:id="PRS6229LebnaDe">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lǝbna Dǝngǝl</title>
+            <author/>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+            multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                This file is licensed under the Creative Commons
+                Attribution-ShareAlike 4.0. </licence>
+            </availability>
+            <date>2016-03-21</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Prosopography of Ethiopian Written tradition</p>
+            <p>A TEI file converted from the ETHIO-authority
+                                                  google spreadsheet</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
+         <change who="PL" when="2016-03-21"> Created file from
+                                                  google spreadsheet </change>
+         <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change who="SG" when="2016-05-20">completed the entry</change>
+         <change when="2016-05-23" who="ES">various corrections</change>
+         
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person sex="1">
+
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">ልብነ፡ ድንግል፡</persName>
+                 <persName xml:lang="gez" type="normalized" corresp="#n1">
+                    <roleName type="title">ʾaṣe</roleName> Lǝbna Dǝngǝl</persName>
+                  <persName xml:lang="gez"  type="regnalName" xml:id="n2.1 ">ወናግ፡ ሰገድ፡</persName>
+                  <persName xml:lang="gez" type="normalized" corresp="#n2.1 ">Wanāg Sagad</persName>
+                  <persName xml:lang="gez"  type="regnalName" xml:id="n2.2 ">ዳዊት፡</persName>
+                  <persName xml:lang="gez" type="normalized" corresp="#n2.2">Dāwit <addName>II</addName></persName>
+                  <persName xml:lang="en" corresp="#n1">Incense of the Virgin</persName>
+                  <persName xml:lang="en" corresp="#n2.1">The Lion has submitted to him</persName>
+                  <persName xml:lang="en" corresp="#n2.2">David</persName>
+                  
+                  <persName xml:lang="gez" xml:id="n3" type="birthName">ንብለ፡ ድንግል፡</persName>
+                  <persName xml:lang="gez" type="normalized" corresp="#n3">Nǝbla Dǝngǝl</persName>
+                  <persName xml:lang="gez" xml:id="n4" type="birthName">ልምነ፡ ድንግል፡  </persName>
+                  <persName xml:lang="gez" type="normalized" corresp="#n4">Lǝmna Dǝngǝl</persName>
+                                    
+               
+                 <occupation type="ruler"> Emperor </occupation>
+              <birth when="1496">1496</birth>
+               <floruit when="1508" evidence="internal">He succeded his father King <persName ref="PRS7481NaodA">Nāʿod</persName> when he was 12 years old in <date>1508</date></floruit>
+               <death when="1540" evidence="internal">He died at <placeName ref="LOC2254DabraD">Dabra Dāmmo</placeName> </death>
+               <note><ref target="#n4">Lǝmna Dǝngǝl</ref> appears in Galawdewos’s letter to the Roman Pope, Paul III (1534-1549), cp. Raineri 2003, 57)</note>
+            </person>
+               
+            <listRelation>
+               <relation name="bm:husbandOf" 
+                     active="PRS6229LebnaDe"
+                        passive="PRS8276SablaWa"
+                  ></relation>
+               <relation name="snap:SonOf" active="PRS6229LebnaDe" passive="PRS7481NaodA"></relation>
+               <relation name="snap:SonOf" active="PRS6229LebnaDe" passive="PRS7482NaodMo"></relation>
+               <relation name="snap:FatherOf"
+                  active="PRS6229LebnaDe"
+                  passive ="PRS4121Fiqtor"
+                  ></relation> 
+               <relation name="snap:FatherOf"
+                  active="PRS6229LebnaDe"
+                  passive="PRS4428Galawdew"
+                  ></relation>
+               <relation name= "snap:FatherOf"
+                  active="PRS6229LebnaDe"
+                  passive="PRS7102Minas"
+                  ></relation>
+               <relation name= "snap:FatherOf"
+                  active="PRS6229LebnaDe"
+                  passive="PRS10191Yaǝqob"
+                  ></relation>
+               
+               <relation name="snap:GrandfatherOf"
+                  active="PRS6229LebnaDe"
+                  passive="PRS8550sardaDe"></relation>
+            </listRelation>
+            
+    
+         </listPerson>
+         
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Kleiner2007Lebna"/>
+            </bibl>
+            
+         </listBibl>
+      </body>
+   </text>
+</TEI>

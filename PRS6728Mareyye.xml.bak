@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="pers"
+     xml:lang="en"
+     xml:id="PRS6728Mareyye">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Mārǝyye Gugsā</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            <author/>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+            multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                This file is licensed under the Creative Commons
+                Attribution-ShareAlike 4.0. </licence>
+            </availability>
+            <date>2016-03-21</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Prosopography of Ethiopian Written tradition</p>
+            <p>A TEI file converted from the ETHIO-authority
+                                                  google spreadsheet</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="ar">Arabic</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
+         <change who="PL" when="2016-03-21"> Created file from
+                                                  google spreadsheet </change>
+         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-08-11">Complete record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person sex="1">
+        
+                
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ማርዬ፡ ጉግሳ፡</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Mārǝyye Gugsā</persName>
+               <persName><roleName type="title">rās</roleName></persName>
+             
+               <occupation type="ruler">governor</occupation>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <residence><placeName ref="LOC2385DabraT">Dabǝra Tābor</placeName></residence>
+               <birth></birth>
+               <floruit when="1828" evidence="internal">He succeded his brother, Yǝmām,  one of Warrasek (Yaǧǧu) ruler in<date> January 1828</date>. 
+                  He was intially apointed to rule <placeName ref="LOC3549Gojjam">Goǧǧām</placeName> but his violent and oppressive nature led to his removal. 
+                 </floruit>
+               <death when="1831" evidence="internal">He died in the battle of Dabra Abāy, 
+                  fighting against his  principal foe <persName ref="PRS8265Sabagadi"> Sabāgādis (Subāgādis) Waldu</persName> 
+                  in <date> February 1831</date></death>
+            </person>
+            <listRelation>
+               <relation name="snap:SonOf" 
+                  active="PRS6728Mareyye"
+                  passive="PRS4870GugsaMa"
+                  ></relation>
+               <relation name="snap:BrotherOf"
+                  active="PRS6728Mareyye"
+                  passive="PRS3617DoriGug"
+                  ></relation>
+               <relation name= "rel:enemyOf"
+                  active="PRS6728Mareyye"
+                  passive="PRS8265Sabagadi"
+                  ></relation>
+     </listRelation>
+         </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Blundell1922Chronicle"/>
+            </bibl>
+         </listBibl>
+
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Budge1966Ethistory"/>
+            </bibl>  
+       
+            <bibl> 
+               <ptr target="bm:Abir1970Princes"/>
+            </bibl>  
+        
+            <bibl> 
+               <ptr target="bm:Crummey2007MareyyeGugsa"/>
+            </bibl>  
+         </listBibl>
+      </body>
+   </text>
+</TEI>
+
+
+               

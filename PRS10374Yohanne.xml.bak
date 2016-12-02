@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="pers"
+     xml:lang="en"
+     xml:id="PRS10374Yohanne">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Yoḥannǝs</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            <author/>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+               multimediale Forschungsumgebung / beta maṣ   
+               ḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                This file is licensed under the Creative Commons
+                Attribution-ShareAlike 4.0. </licence>
+            </availability>
+            <date>2016-03-21</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Prosopography of Ethiopian Written tradition</p>
+            <p>A TEI file converted from the ETHIO-authority
+                                                  google spreadsheet</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="ar">Arabic</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
+         <change who="PL" when="2016-03-21"> Created file from
+                                                  google spreadsheet </change>
+         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-09-20">Complete record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person sex="1">
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ዮሐንስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Yoḥannǝs</persName>
+               <persName><roleName type="title"> ʿaqqābe saʿat</roleName></persName>
+               <occupation type="ecclesiastic"> abbot </occupation>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <birth></birth>
+               <residence><placeName ref="INS0327DHE">Dabra Ḥayq ʾƎsṭifānos</placeName></residence>
+               <floruit>He was the fourteenth century  abbot of  <placeName ref="INS0327DHE">Dabra Ḥayq ʾƎsṭifānos</placeName> 
+                  during the reign of King <persName ref="PRS8595SayfaAr">Sayfa Arʿad</persName>. He was a very strong abbot who organized the monastery and the services of 
+                  individual members of the community during his term office. It is not known exactly when his term office started and nor when it came to an end. He was succeded by
+                  ʿaqqābe saʿat<persName ref="PRS11171Krestos">Krǝstos Moʾā</persName>. He had a land grant mentioned in <ref type="mss" corresp="NALE28" xml:id="NALE28"/>
+                                    
+               </floruit>
+               <death> </death>
+            </person>
+            <listRelation>
+               <relation name= "snap:AllianceWith"
+                  active="PRS10374Yohanne"
+                  passive="PRS8595SayfaAr"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  active="PRS10374Yohanne"
+                  passive="PRS6078Krestos"
+                  ></relation>
+               
+               
+            </listRelation>
+         </listPerson>
+         
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Sadwa1952Gospel"/>
+               <biblScope unit="page">20-23</biblScope>
+            </bibl>  
+            
+            <bibl> 
+               <ptr target="bm:Taddesse1970Abbots"/>
+               <biblScope unit="page">87-117</biblScope>
+            </bibl>  
+            
+         </listBibl>
+      </body>
+   </text>
+</TEI>
+
+
+
+
+
+
+
+
+
+
+               
