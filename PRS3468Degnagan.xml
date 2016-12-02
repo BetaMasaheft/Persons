@@ -12,6 +12,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <titleStmt>
             <title>Dǝgnāǧān</title>
             <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -46,6 +47,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-08-02">Complete record</change>
+         <change who="SG" when="2016-02-02">correction, addition to content</change>
+         
       </revisionDesc>
    </teiHeader>
    <text>
@@ -56,7 +59,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" xml:id="n1" type="birthName">ድግናጃን</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Dǝgnāǧān</persName>
                <persName xml:lang="gez" xml:id="n2" type="birthName">ደጋዛን፡</persName>
-               <persName xml:lang="gez" corresp="#n2" type="normalized">Dägāzān</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Dagāzān</persName>
                <persName xml:lang="gez" xml:id="n3" type="birthName">ጅናጃን፡</persName>
                <persName xml:lang="gez" corresp="#n3" type="normalized">Ǧǝnāǧān</persName>
                <persName xml:lang="gez" xml:id="n4" type="birthName" >ግዳዣን</persName>
@@ -69,10 +72,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <occupation type="ruler">Emperor</occupation>
-               <birth></birth>
-               <floruit> 
+               
+               <floruit> He was a half legendary ruler of the Aksumit time. However, the time of his reign is uncertain. 
                </floruit>
-               <death ></death>
+             
             </person>
             <listRelation>
                <relation name="snap:FatherOf" 
