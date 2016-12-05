@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Alṭaš Iyasu</title>
+            <title>ʾAlṭāš Iyāsu</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,78 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-12-05">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
+           
+               <person sex="2">
+             
+                  <persName xml:lang="gez" xml:id="n2" type="alt">አልጣሽ፡ ኢያሱ፡</persName>
+                  <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAlṭāš Iyāsu</persName>
+                  <persName><roleName type="title">wayzaro</roleName></persName>
+                  <occupation type="political">Princess </occupation>
                   
-                  Alṭaš Iyasu
-               </persName>
-               <occupation> wäyz. </occupation>
-            </person>
+                  <floruit notBefore="1700" notAfter="1799"> She was the the youngest daughter of <persName ref="PRS2682BerhanM">Bǝrhan Mogasā</persName> and 
+                     <roleName type="title">grāzmāč</roleName><persName ref="PRS5621Iyasu">Iyāsu</persName>.  She was a prominent members of the the Gondarine aristocracy.
+                  </floruit>
+                  
+               </person>
+               <listRelation>
+                  <relation name="snap:DaughterOf"
+                     active="PRS1769Altas"
+                     passive="PRS2682BerhanM"
+                     ></relation>
+                  <relation name="snap:DaughterOf"
+                     active="PRS1769Altas"
+                     passive="PRS5621Iyasu"
+                     ></relation>
+                  <relation name="snap:SisterOf"
+                     active="PRS1769Altas"
+                     passive="PRS2167Aster"
+                     ></relation>
+                  <relation name="snap:SisterOf"
+                     active="PRS1769Altas"
+                     passive="PRS9827Walatta"
+                     ></relation>
+              
+                  <relation name="bm:wifeOf"
+                     active="PRS1769Altas"
+                     passive="PRS11335Waldaha"
+                     ></relation>
+                  <relation name="snap:MotherOf"
+                     active="PRS1769Altas"
+                     passive="PRS10273Yawebda"
+                     ></relation>
+             
+                  
+               </listRelation>
          </listPerson>
+         
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Guidi1954IyasuII"/>
+            </bibl>
+         </listBibl>
+            
+            <listBibl type="secondary">
+               <bibl> 
+                  <ptr target="bm:Budge1966Ethistory"/>
+               </bibl>  
+        
+            
+            <bibl> 
+               <ptr target="bm:Crummey2003Altas"/>
+            </bibl> 
+         </listBibl>
+            
       </body>
    </text>
 </TEI>
+
+
+            
+            
+                  
