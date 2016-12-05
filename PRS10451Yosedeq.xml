@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Yosedeq Wäldä Abib</title>
+            <title>Yosedeq Walda Abib</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,78 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-12-05">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Yosedeq Wäldä Abib
-               </persName>
-               <occupation> däǧǧ. </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="alt">ዮስዴቅ፡ ወልደ፡ አቢብ፡ </persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Yosedeq Walda ʿAbib</persName>
+               <persName><roleName type="title">daǧǧāzmāč̣</roleName></persName>
+               <occupation type="political">ruler </occupation>
+               
+               <floruit notBefore="1751" notAfter="1759"> He was the governor of <placeName ref="LOC3549Gojjam">Goǧǧām</placeName> 
+                  from <date>1751</date> to <date>1759</date>. His early life history is obscure, but he descended from <persName ref="ETH1126Amhara">ʿAmhārā</persName>, 
+                  <persName ref="ETH1973Oromo">Oromo</persName> and <persName ref="ETH1499Gafat">Gāfāt</persName>. 
+                  <persName ref="PRS10451Yosedeq">Yosedeq Walda ʿAbib</persName> was in hostile relation with <persName ref="PRS5617IyasuII">Iyāsu II</persName>
+                  after he demoted his father <persName ref="PRS9873WaldaAb">Walda ʿAbib</persName> in <date>1749</date>,  but later he made peaceful relation through 
+                  marriage alliance with the king, marrying the half siter of <persName ref="PRS5617IyasuII">Iyāsu II</persName>, 
+                  <persName ref="PRS9827Walatta">Walatta ʾƎsrāʾel</persName> and daughter of <persName ref="PRS2682BerhanM">Bǝrhan Mogasā</persName>. 
+                     Then, he was appointed as the governor of <placeName ref="LOC3549Gojjam">Goǧǧām</placeName> in <date>1751</date>. 
+                
+               
+      </floruit>
+               
             </person>
+            <listRelation>
+               <relation name="bm:husbandOf"
+                  active="PRS10451Yosedeq"
+                  passive="PRS9827Walatta"
+                  ></relation>
+               <relation name="snap:SonOf"
+                  active="PRS10451Yosedeq"
+                  passive="PRS9873WaldaAb"
+                  ></relation>
+
+               <relation name="snap:AllianceWith"
+       
+                     active="PRS10451Yosedeq"
+                     passive="PRS5617IyasuII"
+                     ></relation>
+               
+               
+            </listRelation>
          </listPerson>
+         
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Girma2014Goggamchronicle"/>
+            </bibl>
+         </listBibl>
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Budge1966Ethistory"/>
+            </bibl>  
+            
+            
+            <bibl> 
+               <ptr target="bm:Girma2014YosedeqWaldaAbib"/>
+            </bibl> 
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+                  
+                  
