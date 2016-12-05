@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ṣägga Krǝstos</title>
+            <title>Ṣaggā Krǝstos</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,21 +44,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="DR" when="2016-12-05">Information added</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Ṣägga Krǝstos
-               </persName>
+               <persName xml:id="n1" xml:lang="gez">ጸጋ፡ ክርስቶስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Ṣaggā Krǝstos</persName>
                <persName type="alt">Saga Christos</persName>
                <persName type="alt"> Zagachristo</persName>
-               <occupation> trav. </occupation>
+               <persName type="alt"> Athanasio</persName>
+               <occupation type="other"> traveller </occupation>
+               <birth when="1608" cert="low">ca. 1608</birth>
+               <death when="1638-04-22">22nd April 1638</death>
             </person>
          </listPerson>
+         
+         <listBibl type="secondary">
+            <bibl><ptr target="bm:Martinez2014EAESaggaK"/></bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>

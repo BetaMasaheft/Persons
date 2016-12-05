@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ṗeṭros Abdä Säyd</title>
+            <title>Ṗeṭros ʾAbda Sayd</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,18 +44,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="DR" when="2016-12-05">Adjustments</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Ṗeṭros Abdä Säyd
-               </persName>
-               <occupation> trav. </occupation>
+               <persName xml:id="n1" xml:lang="gez">ጴጥሮስ፡ አበደ፡ ሰይድ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Ṗeṭros ʾAbda Sayd</persName>
+               <persName xml:id="n2" xml:lang="gez">ጴጥሮስ፡ ወልደ፡ አበደስዩድ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n2">Ṗeṭros walda ʾAbada Sǝyud</persName>
+               <occupation type="other"> traveller, translator </occupation>
             </person>
+            <listRelation>
+               <relation name="lawd:hasAttestation"
+                  active="PRS7834PetrosA"
+                  passive="BNFet122"/>
+            </listRelation>
          </listPerson>
       </body>
    </text>

@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:id="t1">Zotenberg: Eustathe</title>
+            <title xml:id="t1">ʾEwosṭātewos (Zotenberg: Eustathe)</title>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
@@ -35,28 +35,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="fr">French</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-11-17">Created XML record from Ethio authority google spreadsheet</change>
+         <change who="DR" when="2016-12-05">Adjustments</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  <forename/>
-                  <surname>Zotenberg: Eustathe</surname>
-               </persName>
-               <occupation>owner</occupation>
+               <persName xml:id="n1" xml:lang="gez" cert="low">ኤዎስጣቴዎስ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1" cert="low">ʾEwosṭātewos</persName>
+               <persName xml:id="n2" xml:lang="fr" resp="PRS10747Zotenbe">Eustathe</persName>
             </person>
             <listRelation>
-               <relation name="lawd:hasAttestation"
+               <relation name="saws:hasOwned"
                          active="PRS11240Eustathe"
-                         passive="BNFet125"><!--Please fix the relation of this item with BNFet125--></relation>
+                         passive="BNFet125"/>
             </listRelation>
          </listPerson>
       </body>

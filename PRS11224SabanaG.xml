@@ -41,22 +41,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-11-17">Created XML record from Ethio authority google spreadsheet</change>
+         <change who="DR" when="2016-12-05">Adjustments</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="2">
-               <persName>
-                  <forename/>
-                  <surname>Sabana Giyorgis</surname>
-               </persName>
+               <persName xml:id="n1" xml:lang="gez">ሰበነ፡ ጊዮርጊስ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Sabana Giyorgis</persName>
             </person>
             <listRelation>
-               <relation>wife PRS11223Susenyos</relation>
+               <relation name="bm:wifeOf" active="PRS11224SabanaG" passive="PRS11223Susenyos"/> 
                <relation name="lawd:hasAttestation"
                          active="PRS11224SabanaG"
-                         passive="BNFet122"><!--Please fix the relation of this item with BNFet122--></relation>
+                         passive="BNFet122"/>
             </listRelation>
          </listPerson>
       </body>
