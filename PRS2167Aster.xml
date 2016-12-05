@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Aster</title>
+            <title>ʾAster</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,20 +46,85 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-12-05">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="2">
-               <persName>
-                  
-                  Aster
-               </persName>
-               <persName type="alt">Aster Iyasu</persName>
-               <occupation> wäyz. </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">አስቴር፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAster</persName>
+               <persName xml:lang="gez" xml:id="n2" type="alt">አስቴር፡ ኢያሱ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAster Iyāsu</persName>
+               <persName><roleName type="title">wayzaro</roleName></persName>
+               <occupation type="political">Princess </occupation>
+               
+               <floruit notBefore="1700" notAfter="1799"> She was the the second daughters of <persName ref="PRS2682BerhanM">Bǝrhan Mogasā</persName> and 
+                  <roleName type="title">grazmāč</roleName><persName ref="PRS5621Iyasu">Iyāsu</persName>.  She was a prominent members of the the Gondarine aristocracy.
+           </floruit>
+            
             </person>
+            <listRelation>
+               <relation name="snap:DaughterOf"
+                  active="PRS2167Aster"
+                  passive="PRS2682BerhanM"
+                  ></relation>
+               <relation name="snap:DaughterOf"
+                  active="PRS2167Aster"
+                  passive="PRS5621Iyasu"
+                  ></relation>
+               <relation name="snap:SisterOf"
+                  active="PRS2167Aster"
+                  passive="PRS1770AltasIy"
+                  ></relation>
+               <relation name="snap:SisterOf"
+                  active="PRS2167Aster"
+                  passive="PRS9827Walatta"
+                  ></relation>
+               <relation name="bm:wifeOf"
+                  active="PRS2167Aster"
+                  passive="PRS7445Naccoof"
+                  ></relation>
+               <relation name="bm:wifeOf"
+                  active="PRS2167Aster"
+                  passive="PRS10236Yamarya"
+                  ></relation>
+               <relation name="bm:wifeOf"
+                  active="PRS2167Aster"
+                  passive="PRS7091Mikael"
+                  ></relation>
+               <relation name="snap:FriendshipFor"
+                  active="PRS2167Aster"
+                  passive="PRS2916Bruce"
+                  ></relation>
+               
+            </listRelation>
          </listPerson>
+         
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Guidi1954IyasuII"/>
+            </bibl>
+            
+            
+            
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Crummey2003Aster"/>
+            </bibl>  
+         </listBibl>
+         
+         
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+
+                  
+                

@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Askal</title>
+            <title>ʾAskāl</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,56 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-12-05">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Askal
-               </persName>
-               <occupation> officer</occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">አስካል፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAskāl</persName>
+             <occupation type="political">officer</occupation>
+               
+       <floruit when="1602">He was an officer of <roleName type="title">ʾaṣe</roleName><persName ref="PRS9038Susenyos">Susǝnyos</persName> , 
+                  who shared the challenge and the success of him, in the time before he came to power and during his reign.  He joined the rebel group of  <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS9038Susenyos">Susǝnyos</persName> in <date>1602</date>. Though he was from humble background, he reached the 
+          peak of his career when he was appoinetd as the governor of <placeName ref="LOC6194Wambar">Wambarmā</placeName> in <date>1618</date>. </floruit>
+               <death when="1637"></death> 
             </person>
+            <listRelation>
+               <relation name="snap:AllianceWith"
+                  active="PRS2137Askal"
+                  passive="PRS9038Susenyos"
+                  ></relation>
+               
+            </listRelation>
          </listPerson>
+         
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Pereira1892Susenyos"/>
+            </bibl>
+            
+            
+         <bibl>
+               <ptr target="bm:Pereira1900Susenyos"/>
+            </bibl>
+            
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Chernestsov2003Askal"/>
+            </bibl>  
+         </listBibl>
+         
+         
+         
       </body>
    </text>
 </TEI>
+
+
+
+                  
+                 
