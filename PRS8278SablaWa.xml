@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Säblä Wängel</title>
+            <title>Sabla Wangel</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,23 +46,61 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-12-06">CREATED: place</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="2">
-               <persName>
-                  
-                  Säblä Wängel
-               </persName>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ሰብለ፡ ወንጌል፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized"> Sabla Wangel</persName>
+               <persName><roleName type="title">ʾƎtege</roleName></persName>
+               
+               
+               <occupation type="political">Queen</occupation>
+               
+               <birth></birth>
+               <floruit > </floruit>
+               <death when="1690">1690</death>
+               
             </person>
+            
             <listRelation>
-               <relation name="motherOf">
-                  <desc> moth. Iyasu I </desc>
-               </relation>
+               <relation name="snap:MotherOf"
+                  active="PRS8278SablaWa"
+                  passive="PRS5616IyasuI"
+                  ></relation>
+               <relation name="bm:wifeOf"
+                  active="PRS8278SablaWa"
+                  passive="PRS10375Yohanne"
+                  ></relation>
+               <relation name="snap:DaughterOf"
+                  active="PRS8278SablaWa"
+                  passive="PRS4325GabraMa"
+                  ></relation>
+               
             </listRelation>
          </listPerson>
+         
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Guidi1961Yohannes"/>
+            </bibl>
+         </listBibl>
+            
+            
+           
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Boll2010Sablawangel"/>
+            </bibl>  
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+              
+                  
+               
