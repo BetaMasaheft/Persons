@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mikaʾel Arägawi</title>
+            <title>Mikāʾel ʾAragāwi</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,20 +46,66 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-12-06">complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+     <persName xml:lang="gez" xml:id="n1" type="birthName">ሚካኤል፡ አረጋዊ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized"> Mikāʾel ʾAragāwi</persName>
+                  <persName><roleName type="title">Wayzaro</roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="Christianity"/>
+               <occupation  type="ecclesiastic">missionary</occupation>
+               <birth  notBefore="1848" notAfter="1849">He was born at <placeName ref="LOC2481Dambey">Dambǝyā</placeName>.</birth>
                   
-                  Mikaʾel Arägawi
-               </persName>
-               <persName type="alt">Mikaʾel Orgawi</persName>
-               <occupation> miss. </occupation>
-            </person>
+               <floruit notBefore="1850" notAfter="1931">He was a prominent Ethiopian missionary who worked among the 
+                  <persName ref="ETH1274Betaes">Beta ʾƎsrāʾel</persName> during the second half of 19th century and the beginning of 20th century as representative 
+                  of the London society for promoting Chrisitianity among the Jews. His father gave him at the age of seven to <persName ref="PRS4132Flad">Flad</persName> to raise him.
+                  Then, <persName ref="PRS4132Flad">Flad</persName> sent him to an orphanage in <placeName ref="gn:2921044">Germany </placeName> in <date>1866</date>. 
+                  After he completed his education in <date>1873</date>, he returned to <placeName ref="LOC3010Ethiop">Ethiopia</placeName> as a missionary where he served until his death. </floruit>
+                  
+                  <death when="1931"></death>
+               </person>
+               <listRelation>
+                  <relation name="snap:SonOf"
+                     active="PRS7081Mikael"
+                     passive="PRS4957HabtuGa"
+                     ></relation>
+                  <relation name="snap:SonOf"
+                     active="PRS7081Mikael"
+                     passive="PRS9212TaklitA"
+                     ></relation>
+                  <relation name="snap:FriendshipFor"
+                     active="PRS7081Mikael"
+                     passive="PRS4132Flad"
+                     ></relation>
+                     </listRelation>
          </listPerson>
+         
+         
+         <listBibl type="secondary">
+            
+            
+            <bibl>
+               <ptr target="bm:Kaplan1991Falasha"/>
+            </bibl>
+            
+            <bibl>
+               <ptr target="bm:Weil2007Mikael"/>
+            </bibl>
+            
+            
+         </listBibl>
       </body>
-   </text>
+   </text>   
 </TEI>
+
+
+
+
+
+                  
+                

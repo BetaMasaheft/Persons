@@ -11,6 +11,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Eutychius</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,22 +47,56 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-12-06">complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+            <persName xml:lang="gez" xml:id="n1" type="birthName">አውጣኪዮስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAwṭākiyos</persName>
+               <persName xml:lang="gez" xml:id="n2" type="birthName">አውጣኬ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAwṭāke</persName>
+               <persName xml:lang="gez" xml:id="n3" type="alt">አውጣኪ፡</persName>
+               <persName xml:lang="gez" corresp="#n3" type="normalized">ʾAwṭāki</persName>
+                  <persName><roleName type="title"></roleName></persName>
+            
+                     <occupation type="ecclesiastic">patriarch </occupation>
+                
                   
-                  Eutychius
-               </persName>
-               <persName type="alt"> Awṭakiyos</persName>
-               <persName type="alt"> Eutyches</persName>
-               <persName type="alt"> Awṭake; Aftikis</persName>
-               <occupation> patriarch </occupation>
+                  <floruit >He was the first proponent of monophysitism, whose theological claims were endorsed at the council of Ephesus in <date>449</date>
+                     by the <roleName type="title">patriarch</roleName> of <placeName ref="LOC1338Alexan">Alexandria</placeName>. 
+                  </floruit>
             </person>
+               <listRelation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS3919Eutychiu"
+                     passive="PRS3591Dioscoru"
+                     ></relation>
+   
+                  
+               </listRelation>
          </listPerson>
+         
+         
+         <listBibl type="secondary">
+            
+       
+            
+            <bibl>
+               <ptr target="bm:Lourie2003Eutychius"/>
+            </bibl>
+            
+            
+         </listBibl>
       </body>
-   </text>
+   </text>   
 </TEI>
+
+
+
+
+
+                  
+                  
