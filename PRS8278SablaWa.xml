@@ -46,7 +46,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
-         <change who="SG" when="2016-12-06">CREATED: place</change>
+         <change who="SG" when="2016-12-06">Complete record</change>
+         <change who="SG" when="2016-12-07">addition to content</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -59,10 +60,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                
                <occupation type="political">Queen</occupation>
+               <residence ref="LOC3577Gondar">Gondar</residence>
                
-               <birth></birth>
-               <floruit > </floruit>
-               <death when="1690">1690</death>
+              
+               <floruit > She was a wife of <persName ref="PRS10375Yohanne">Yoḥannǝs I </persName> and mother of <persName ref="PRS5616IyasuI">Iyāsu I</persName>.
+                  <persName ref="PRS8278SablaWa">Sabla Wangel</persName> acted as patroness of the church in several ways. She was well-read in theological books and therefore strongly supported 
+                  the production of manuscripts. Some sources credit her with the impulse to translate <title ref="LIT4017Mashafa">Maṣḥafa faws manfasāwi</title>
+                  from Arabic in <date>1687</date>. She also donated manuscripts and books to the monastery of <placeName ref="INS0341DL">Dabra Libānos</placeName> and other monasteries.
+               </floruit>
+               <death when="1690">She died of an infectious disease.</death>
                
             </person>
             
@@ -79,7 +85,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   active="PRS8278SablaWa"
                   passive="PRS4325GabraMa"
                   ></relation>
-               
+               <relation name="bm:isAuthorOfEthiopicTranslation"
+                  active="PRS8278SablaWa"
+                  passive="LIT4017Mashafa"
+                  ></relation>
+              <relation name="snap:AllianceWith"
+                 active="PRS8278SablaWa"
+                 passive="PRS8870Sinoda"
+                 ></relation>
+                
             </listRelation>
          </listPerson>
          
