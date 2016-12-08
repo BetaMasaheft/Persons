@@ -47,6 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-11-15">Complete record</change>
+         <change who="SG" when="2016-12-08">addition of title, </change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -55,15 +56,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="2">
             <persName xml:lang="gez" xml:id="n1" type="birthName">እግዚእ፡ ክብራ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾƎgziʾ Kǝbrā</persName>
-                  <persName><roleName type="title"> </roleName></persName>
+               <persName><roleName type="title">ʾƎtege</roleName></persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   <occupation type="political">queen</occupation>
-                  <birth ></birth>
+                 
                <floruit notBefore="1300" notAfter="1400"> She was a spouse of <roleName type="title">ʾaṣe</roleName>
                   <persName ref="PRS3429DawitII">Dāwit II</persName> and a mother of <roleName type="title">ʾaṣe</roleName> 
                   <persName ref="PRS10626ZaraY">Zarʾa Yāʿǝqob</persName>. She was buried  in the church of <placeName ref="LOC2329DabraN">Dabra Nagwadgwad</placeName>.</floruit>
-                  <death >  </death>
+                 
                </person>  
                <listRelation>
                   <relation name="bm:wifeOf"                    
