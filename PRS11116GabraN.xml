@@ -52,14 +52,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <surname>Gabra Nolāwi</surname>
                </persName>
                <floruit>1508</floruit>
-               <!--From Time field, to be changed into DEATH, BIRTH, or whatever is actually relevant!-->
-               <occupation>magābi </occupation>
+               <occupation type="ecclesiastic">maggābi </occupation>
             </person>
             <listRelation>
                <relation name="syriaca:has-relation-to-place" active="PRS11116GabraN">Cairo/Jerusalem?</relation>
                <relation name="lawd:hasAttestation"
                          active="PRS11116GabraN"
-                         passive="BNFet80"><!--Please fix the relation of this item with BNFet80--></relation>
+                         passive="BNFet80"/>
             </listRelation>
          </listPerson>
       </body>
