@@ -49,8 +49,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
 
-               
-               <persName ref="http://viaf.org/viaf/38323081/" xml:lang="gez" xml:id="n1">ኢየሱስ፡ ክርስቶስ፡</persName>
+               <persName ref="http://viaf.org/viaf/38323081/" xml:lang="en" xml:id="n1">Jesus Christ</persName>          
+               <persName xml:lang="gez" corresp="#n1">ኢየሱስ፡ ክርስቶስ፡</persName>
                <persName xml:lang="gez" type="normalized" corresp="#n1">Iyasus Krǝstos</persName>
                <persName xml:lang="gez" type="alt" xml:id="n2">ክርስቶስ፡</persName>
                <persName xml:lang="gez" corresp="#n2">Krǝstos</persName> 
@@ -58,10 +58,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <addName type="epithet">መድኃኔ፡ ዓለም</addName> 
                </persName>
                <persName xml:lang="gez" corresp="#MadhaneAlam">Madḫane ʿĀlam</persName>
-               <persName xml:lang="en">Jesus Christ</persName>
-               <persName xml:lang="it">Gesù Cristo</persName>
-               <persName xml:lang="de">Jesus Christus</persName>
-               <persName xml:lang="gr">Ἰησοῦς Χριστός</persName>
+               <persName xml:lang="en" corresp="#MadhaneAlam">Saviour of the World</persName>
+               
+
+               
+               <persName xml:lang="it" corresp="#n1">Gesù Cristo</persName>
+               <persName xml:lang="de" corresp="#n1">Jesus Christus</persName>
+               <persName xml:lang="gr" corresp="#n1">Ἰησοῦς Χριστός</persName>
                <nationality type="Israel/Palestine"/>
                <occupation type="other">Son of God</occupation>
                <birth/>
