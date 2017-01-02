@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Anbäs</title>
+            <title>ʾAnbas</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,45 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-01-02">complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Anbäs
-               </persName>
-               <occupation> St. (2 Taḫśaś)</occupation>
-            </person>
+            <persName xml:lang="gez" xml:id="n1" type="birthName">አንበስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAnbas</persName>
+                  <persName><roleName type="title"> ʾabbā </roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <occupation type="ecclesiastic"> saint </occupation>
+               
+               <floruit>He was a medieval saint whose name is mentioned in the <title ref="LIT4032SenkessarS">Sǝnkǝssār</title> on 2 Taḥǝssās as a saint coming from west, died on that day. 
+                  Nothing else is said about him.           
+                  </floruit>
+               
+               </person>  
+            
          </listPerson>
+       
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Zanetti2003Anbas2"/>
+            </bibl>
+       
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+                  
+                 
