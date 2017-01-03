@@ -6,11 +6,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
      xml:lang="en"
-     xml:id="PRS11350FereMa">
+     xml:id="PRS11354GabraK">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:id="t1">Fǝre Masqal</title>
+            <title xml:id="t1">Gabra Krǝstos</title>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
@@ -40,7 +40,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="MV" when="2016-12-20">Created XML record.</change>
+         <change who="MV" when="2017-01-03">Created XML record.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -53,9 +53,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </persName>
             </person>
             <listRelation>
-               <relation name="lawd:hasAttestation"
-                  active="BAVet32"
-                  passive="PRS11350FereMa"></relation>
+               <relation name="saws:hasOwned"
+                  active="PRS11354GabraK"
+                  passive="BAVet37"/>
             </listRelation>
          </listPerson>
       </body>
