@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Lǝʿul Sägäd Aṭnäf</title>
+            <title>Lǝʿul Sagad ʾAṭnāf</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,72 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-01-03">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ልዑል፡ ሰገድ፡ አጥናፍ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Lǝʿul Sagad ʾAṭnāf</persName>
+               <persName xml:lang="gez" xml:id="n2" type="horseName">አባ፡ በላይ፡ </persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAbbā Balāy</persName>
+               <persName><roleName type="title">daǧǧāzmāč</roleName></persName>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="political"> governor</occupation>
+               
+             
+               <floruit >He was an important early 20th century politician who belonged to the powerful Addisge 
+                  family of <placeName ref="LOC5597Sawa">Šawā</placeName>. Following the victory of  <placeName ref="LOC1263Adwa">ʾAdwā</placeName>in recognition 
+                  of his bravery <roleName type="title"> ʾaṣe</roleName><persName ref="PRS7006Menilek">Mǝnilǝk II</persName>
+                  bestowed the  title of <roleName type="title">ligābā</roleName>. </floruit>
+               <death when="1916" >He died in the battle of <placeName ref="LOC5446Sagale">Sagale</placeName> in<date>1916</date>.  </death >  
+            </person>  
+            <listRelation>
+               <relation name="bm:husbandOf"
                   
-                  Lǝʿul Sägäd Aṭnäf
-               </persName>
-               <occupation> ras </occupation>
-            </person>
+                  active="PRS6274LeulSa"
+                  passive="PRS6642MananAs"
+                  ></relation>
+               <relation name="snap:BrotherOf"
+                  
+                  active="PRS6274LeulSa"
+                  passive="PRS1057AbbabaA"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  
+                  active="PRS6274LeulSa"
+                  passive="PRS7006Menilek"
+                  ></relation>
+               
+               <relation name="snap:NephewOf"
+                  
+                  active="PRS6274LeulSa"
+                  passive="PRS9265Tasamma"
+                  ></relation>
+               
+            </listRelation>
          </listPerson>
+       
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Rubinkowska2007LeulSagad"/>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+                  
+                  

@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Qǝbʾa Krǝstos</title>
+            <title>Qǝbʾā  Krǝstos</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,23 +46,64 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-01-03">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ቅብአ፡ ክርስቶስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Qǝbʾā  Krǝstos</persName>
+             <persName><roleName type="title">daǧǧāzmāč</roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <occupation type="political"> governor</occupation>
+                 <floruit notBefore="1618" notAfter="1629"> He was a noble and a successful military leader loyal to <roleName type="title"> ʾaṣe
+               </roleName> <persName ref="PRS9038Susenyos">Susǝnyos</persName> who 
+                  led a series military operations against a <placeName ref="LOC3109Funj">Funj</placeName> king, <persName ref="PRS3845erubat">ʾƎrubāt</persName>
+                  in <date>1618</date>. He also led  several military campaigns against those rebellions to the power of <roleName type="title"> ʾaṣe
+                  </roleName> <persName ref="PRS9038Susenyos">Susǝnyos</persName>. <persName ref="PRS8027QebaKr">Qǝbʾā  Krǝstos</persName>
+                  was one of the first to have converted to Catholicism at the court.</floruit>
+            </person>  
+      <listRelation>
+                 
+   <relation name="snap:AllianceWith"
+                     
+                     active="PRS8027QebaKr"
+                     passive="PRS9038Susenyos"
+                     ></relation>
                   
-                  Qǝbʾa Krǝstos
-               </persName>
-            </person>
-            <listRelation>
-               <relation name="unspecified">
-                  <desc> relative of Yonaʾel </desc>
-               </relation>
-            </listRelation>
+   </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Pereira1892Susenyos"/>
+            </bibl>
+          <bibl>
+               <ptr target="bm:Pereira1900Susenyos"/>
+            </bibl>
+         </listBibl>
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Toubkis2010Qabakrestos"/>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+                  
+                 
