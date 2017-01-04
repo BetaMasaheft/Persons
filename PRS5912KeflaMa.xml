@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Kǝflä Maryam</title>
+            <title>Kǝfla Māryām</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,83 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-01-04">complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+             <persName xml:lang="gez" xml:id="n1" type="birthName">ክፍለ፡ ማርያም፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Kǝfla Māryām</persName>
+               <persName xml:lang="gez" xml:id="n2" type="birthName">ክፍሌ</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Kǝfle</persName>
+               <persName><roleName type="title">liqa maṣāne, ʾazzāž</roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <occupation type="political"></occupation>
+               <birth notBefore="1641" notAfter="1642"> He was born at <placeName ref="LOC1516ArbaAm">ʾArbā ʾAmbā</placeName>.</birth>
+               <floruit>He was a nobleman, renowned legal authority and judge of the high court in <placeName ref="LOC3577Gondar"> Gondar</placeName>
+                  who lived during the prosperous times of <placeName ref="LOC6554GondarineK">Gondarine Kingdom</placeName>. 
+                  After his death , the office of <roleName type="title">liqa maṣāne</roleName>
+                  was inherited by his son <roleName type="title">ʾazzāž</roleName><persName ref="PRS4699Giyorgis">Giyorgis</persName>.</floruit> 
                   
-                  Kǝflä Maryam
-               </persName>
-               <occupation> liqä mäṣane</occupation>
-            </person>
+               <death when="1726"> He died at <placeName ref="LOC3577Gondar"> Gondar</placeName> in <date
+                  >1726</date>.</death>
+               </person>
+               <listRelation>
+                  <relation name="snap:FatherOf"
+                     active="PRS5912KeflaMa"
+                     passive="PRS9154TaklaHa"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS5912KeflaMa"
+                     passive="PRS5616IyasuI"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS5912KeflaMa"
+                     passive="PRS2377Bakaffa"
+                     ></relation>
+                  <relation name="snap:FriendshipFor"
+                     active="PRS5912KeflaMa"
+                     passive="PRS2183Asqu"
+                     ></relation>
+                  
+                  <relation name="bm:husbandOf"
+                     active="PRS5912KeflaMa"
+                     passive="PRS3877eskender"
+                     ></relation>
+                  <relation name="saws:P129i_is_subject_of"
+                     active="PRS5912KeflaMa"
+                     passive="LIT2627Zenaze"
+                     ></relation>
+               </listRelation>
          </listPerson>
+                     <listBibl type="secondary">
+            
+            <bibl>
+               <ptr target="bm:Nosnistin2007KeflaMaryam"/>
+            </bibl>
+            
+         </listBibl>
       </body>
-   </text>
+   </text>   
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  
+               
