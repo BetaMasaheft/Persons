@@ -6,11 +6,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
      xml:lang="en"
-     xml:id="PRS11356Gasquet">
+     xml:id="PRS11363Galawde">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:id="t1">Aidan Gasquet</title>
+            <title xml:id="t1">Galawdewos</title>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
@@ -40,23 +40,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="MV" when="2017-01-03">Created XML record.</change>
+         <change who="MV" when="2017-01-05">Created XML record.</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  <forename>Aidan</forename>
-                  <surname>Gasquet</surname>
-               </persName>
-               <occupation>librarian of the BAV</occupation>
+               <persName xml:id="n1" xml:lang="gez">ገላውደዎስ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1" cert="low">Tewodros</persName>
+               <occupation type="other">scribe</occupation>
+            <floruit notBefore="1500" notAfter="1600"> 
+            </floruit>
             </person>
             <listRelation>
-               <relation name="lawd:hasAttestation"
-                         active="PRS11356Gasquet"
-                         passive="BAVet36"></relation>
+               <relation name="saws:hasWritten"
+                  active="PRS11363Galawde"
+                         passive="BAVet38"></relation>
             </listRelation>
          </listPerson>
       </body>
