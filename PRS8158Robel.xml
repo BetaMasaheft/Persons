@@ -11,6 +11,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Robel</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,74 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-01-09">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+              
+                  <persName xml:lang="gez" xml:id="n1" type="birthName"> ሮቤል፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Robel</persName>
                   
-                  Robel
-               </persName>
-               <occupation> tǝgre mäkwännǝn </occupation>
-            </person>
+               <persName><roleName type="title">tǝgre makwannǝn  </roleName></persName>
+                  
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+               <occupation type="political"> governor</occupation>
+                  <birth  notBefore="1475" notAfter="1485"> </birth>
+               <floruit notBefore="1524" notAfter="1527"> He was the leading Tǝgrāyān lord of his time, appointed by<roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS6229LebnaDe">Lǝbna Dǝngǝl</persName> as <roleName type="title">tǝgre makwannǝn  </roleName> in <date>1524</date>. He was  succeeded by 
+                  <persName ref="PRS9171TaklaIy">Takla Iyasus</persName> in <date>1527</date>. However, even after  having been suplanted as 
+                  <roleName type="title">tǝgre makwannǝn </roleName><persName ref="PRS8158Robel">Robel</persName> continued to play a leading role in his native
+                  province, as a defacto leader of <placeName ref="LOC6569Tegray">Tǝgrāy </placeName> nobles in run-up the battle of 
+                  <placeName ref="LOC5667Sember">Šǝmbǝrā Kwǝre</placeName>.   </floruit>
+               <death when="1529">He was killed in the battle of <placeName ref="LOC5667Sember">Šǝmbǝrā Kwǝre</placeName> by the muslim forces in <date>1529</date>.</death>
+                  
+                  
+               </person>  
+               <listRelation>
+                  
+                  <relation name="snap:FatherOf"
+                     active="PRS8158Robel"
+                     passive="PRS1429AdmasMo"
+                     ></relation>
+                  <relation name="snap:BrotherOf"
+                     active="PRS8158Robel"
+                     passive="PRS9675UqbaMi"
+                     ></relation>
+                  
+                  <relation name="snap:AllianceWith"
+                     active="PRS8158Robel"
+                     passive="PRS6229LebnaDe"
+                     ></relation>
+                  <relation name="snap:GrandfatherOf"
+                     active="PRS8158Robel"
+                     passive="PRS8550sardaDe"
+                     ></relation>
+              
+               </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Basset1882Chronicle"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Kleiner2010Robel"/>
+            </bibl>
+          
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+                  
+                  
