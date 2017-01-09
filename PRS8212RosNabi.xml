@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ros Näbiyat (Rās Banyāt)</title>
+            <title>Ros Nabiyāt (Rās Bānyāt)</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,78 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-01-09">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+              
                   
-                  Ros Näbiyat (Rās Banyāt)
-               </persName>
-               <occupation> azzaž </occupation>
-            </person>
+                  <persName xml:lang="gez" xml:id="n1" type="birthName"> ሮስ፡ ነቢያት፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Ros Nabiyāt</persName>
+               <persName xml:lang="gez" xml:id="n2" type="birthName"> ራስ፡ ባንየት፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Rās Bānyāt</persName>
+                  
+               <persName><roleName type="title">ʾazzāž , bāḥǝr Nagāš, bǝḥt waddad </roleName></persName>
+                  
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <occupation type="political"> governor</occupation>
+                 
+               <floruit > He was a prominent member of the ruling elite and nobility of the Ethiopian Empire on the eve of the Muslim invasion 
+                  of <persName ref="PRS1500Ahmad">ʾAḥmad</persName>. He appears in the historiography of sixteenth century with various titles. 
+                  He is mentioned as <roleName type="title">ʾazzāž </roleName> and governor of <placeName ref="LOC5399Sabal">Šabal</placeName>, 
+                  a small region in  <placeName ref="LOC3549Gojjam">Goǧǧām</placeName>,   in <date>1510</date>. He was appointed as 
+                  <roleName type="title">bāḥǝr Nagāš </roleName> probably in <date>1524</date>, holding that office for two years. 
+                  He appears as the only <roleName type="title">bǝḥt waddad</roleName> in the 18th year of the reign of <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS6229LebnaDe">Lǝbna Dǝngǝl</persName>,
+                  in <date>1526</date>. During the Muslim war, <persName ref="PRS8212RosNabi">Ros Nābiyāt (Rās Bānyāt) </persName>
+                     was the first  commander of the strategic province of <placeName ref="LOC2582Dawaro">Dawāro</placeName> where he was defeated. 
+                     He also led several battles to defend the Christian kingdom from Muslims attacks.
+                   
+                  </floruit>
+                  <death ></death>
+                  
+                  
+               </person>  
+               <listRelation>
+                  
+                  <relation name="snap:AllianceWith"
+                     active="PRS8212RosNabi"
+                     passive="PRS6229LebnaDe"
+                     ></relation>
+                  <relation name="rel:enemyOf"
+                     active="PRS8212RosNabi"
+                     passive="PRS1500Ahmad"
+                     ></relation>
+                  
+                  
+               </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Basset1882Chronicle"/>
+            </bibl>
+            
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Nosnistin2010RosNabiyat"/>
+            </bibl>
+            
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+                  
+                  
