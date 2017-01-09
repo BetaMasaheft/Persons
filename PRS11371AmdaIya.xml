@@ -6,11 +6,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
      xml:lang="en"
-     xml:id="PRS11369MekhaMa">
+     xml:id="PRS11371AmdaIya">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:id="t1">Mǝkḥa Māryām</title>
+            <title xml:id="t1">ʿAmda ʾIyasus</title>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
@@ -40,23 +40,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="MV" when="2017-01-06">Created XML record.</change>
+         <change who="MV" when="2017-01-09">Created XML record.</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName xml:id="n1" xml:lang="gez">ምክሐ፡ ማርያም፡</persName>
-               <persName xml:lang="gez" type="normalized" corresp="#n1" cert="low">Mǝkḥa Māryām</persName>
+               <persName xml:id="n1" xml:lang="gez">ዐምደ፡ ኢየሱስ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1" cert="low">ʿAmda ʾIyasus</persName>
                <occupation type="other"></occupation>
-            <floruit notBefore="1541"> 
-            </floruit>
             </person>
             <listRelation>
-               <relation name="saws:hasOwned"
-                  active="PRS11369MekhaMa"
-                         passive="BAVet38">
+               <relation name="lawd:hasAttestation"
+                  active="BAVet39"
+                         passive="PRS11371AmdaIya">
                </relation>
             </listRelation>
          </listPerson>
