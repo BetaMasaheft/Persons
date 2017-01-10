@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>ʿAmdä Mikaʾel</title>
+            <title>ʾAmda Mikāʾel</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,88 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-01-09">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  ʿAmdä Mikaʾel
-               </persName>
-               <occupation> ras bitw. </occupation>
-            </person>
+               <persName xml:lang="gez" xml:id="n1" type="birthName"> ዐምደ፡ ሚካኤል፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAmda Mikāʾel</persName>
+               <persName xml:lang="gez" xml:id="n2" type="birthName"> ዐምዱ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAmdu</persName>
+               <persName xml:lang="gez" xml:id="n3" type="birthName"> ዐምዶ፡</persName>
+               <persName xml:lang="gez" corresp="#n3" type="normalized">ʾAmdo</persName>
+               
+               
+               <persName><roleName type="title">rās bitwaddad</roleName></persName>
+               
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="political"> governor</occupation>
+               
+               
+               <floruit notBefore="1450" notAfter="1508">.<persName ref="PRS1848AmdaMi">ʾAmda Mikāʾel</persName>
+                  was an influential political figure from the reign of <roleName type="title">ʾaṣe</roleName> <persName ref="PRS10626ZaraY">Zarʾa Yāʿǝqob</persName> 
+                  to that of <roleName type="title">ʾaṣe</roleName><persName ref="PRS7481NaodA">Nāʿod (ʾAnbasā Baḍar)</persName>. 
+                  He was appointed as <roleName type="title">malkaññā</roleName> by <roleName type="title">ʾaṣe</roleName> 
+                  <persName ref="PRS10626ZaraY">Zarʾa Yāʿǝqob</persName> over all of <placeName ref="LOC3061Fataga">Faṭagār</placeName>.
+                  <persName ref="PRS1848AmdaMi">ʾAmda Mikāʾel</persName> is most remembered for the role he played in determining the successors 
+                  to <roleName type="title">ʾaṣe</roleName><persName ref="PRS2334BaedaM">Baʾǝda Māryām I</persName>,  
+                  <roleName type="title">ʾaṣe</roleName><persName ref="PRS3874eskender">ʾƎskǝndǝr</persName>, 
+                  <roleName type="title">ʾaṣe</roleName><persName ref="PRS1855Amdase">ʾAmda Ṣǝyon II</persName><roleName type="title">ʾaṣe</roleName>  
+                 and <persName ref="PRS7481NaodA">Nāʿod (ʾAnbasā Baḍar)</persName>. </floruit>
+          
+               
+               
+            </person>  
+            <listRelation>
+               
+               <relation name="snap:AllianceWith"
+                  active="PRS1848AmdaMi"
+                  passive="PRS10626ZaraY"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  active="PRS1848AmdaMi"
+                  passive="PRS2334BaedaM"
+                  ></relation>
+               
+               
+               
+               
+            </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Perruchon1893Zarayaeqob"/>
+            </bibl>
+            
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Getachew2014AmdaMikael"/>
+            </bibl>
+          
+            <bibl> 
+               <ptr target="bm:Getachew2005Amdu"/>
+            </bibl>
+            
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+                  
+               
