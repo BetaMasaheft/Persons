@@ -35,9 +35,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
-            <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
-            <language ident="gez">Gǝʿǝz</language>
+
          </langUsage>
       </profileDesc>
       <revisionDesc>
@@ -51,15 +49,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
 
                <persName xml:lang="en" xml:id="n1">Nebuchadnezzar II</persName>
+               <persName xml:lang="heb" corresp="#n1">Nəḇūḵaḏneṣṣar</persName>
                
                   
                   <nationality type="Babylon"/>
                   
-                  <birth ></birth>
+               <birth when="-0634"/>
                   <residence></residence>
-               <floruit notBefore="-0634" notAfter="-0562"> 
+               <floruit notBefore="-0605" notAfter="-0562"> 
                  </floruit>
-                  <death ></death>
+               <death when="-0562"/>
                </person>
                
          </listPerson>
