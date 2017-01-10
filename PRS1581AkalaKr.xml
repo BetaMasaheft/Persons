@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Akalä Krǝstos</title>
+            <title>Akāla Krǝstos</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,76 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-01-09">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Akalä Krǝstos
-               </persName>
-               <occupation>abba</occupation>
-            </person>
+               <persName xml:lang="gez" xml:id="n1" type="birthName"> አካለ፡ ክርስቶስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Akāla Krǝstos</persName>
+               <persName xml:lang="gez" xml:id="n2" type="birthName"> አካለ፡ ክሶስ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Akāla Kǝsos</persName>
+            
+               
+               <persName><roleName type="title">ʾabbā</roleName></persName>
+               
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="ecclesiastic"> </occupation>
+               
+               
+               <floruit >He was a father of the Qǝbāt school of theology. <persName ref="PRS1581AkalaKr">Akāla Krǝstos</persName> represented 
+                  Qǝbāt at the council of  <placeName ref="LOC1542Aringo">Aringo</placeName>, 
+                  convened by <roleName type="title">ʾaṣe </roleName><persName ref="PRS5616IyasuI">Iyāsu I</persName> in <date>1682</date> 
+                  to reconcile the doctrinal differences with Tawaḥǝdo. 
+               </floruit>
+               <death >He died in <date>1707</date>.</death>
+               
+               
+            </person>  
+            <listRelation>
+               
+               <relation name="snap:AllianceWith"
+                  active="PRS1581AkalaKr"
+                  passive="PRS5616IyasuI"
+                  ></relation>
+           
+               
+               
+            </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Basset1882Chronicle"/>
+            </bibl>
+            
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Abreham2014AkaleKrestos"/>
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Boll2010Synod"/>
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Taddesse1988Agaw"/>
+            </bibl>
+            
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+                  
+                  
