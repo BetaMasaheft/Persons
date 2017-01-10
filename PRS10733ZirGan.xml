@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Zir Ganela</title>
+            <title>Zir Gānelā</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,98 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-01-10">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="2">
-               <persName>
-                  
-                  Zir Ganela
-               </persName>
-               <occupation> princess </occupation>
-            </person>
+               <persName xml:lang="gez" xml:id="n1" type="birthName"> ዚር፡ ጋኔላ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Zir Gānelā</persName>
+               <persName xml:lang="gez" xml:id="n2" type="monasticName"> በርባራ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Barbārā</persName>
+             
+               
+               
+          
+               
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="ecclesiastic"> abbess</occupation>
+               
+               
+               <floruit notBefore="1300" notAfter="1450"> <persName  ref="PRS10733ZirGan">Zir Gānelā</persName> 
+                  is the name of the patroness of the de luxe iluminated manuscript of the <title ref="LIT1560Gospel">Four Gospels</title>
+                  which was commissioned for an unnamed monastery where <persName ref="PRS10733ZirGan">Zir Gānelā</persName> was abbess. 
+                  <persName  ref="PRS10733ZirGan">Zir Gānelā</persName> was a member of royal family who rejected the fleeting world and became a nun. 
+                  She entered a monastic life at the middle age, as she had two sons and two daughters. </floruit>
+            
+               
+               
+            </person>  
+            <listRelation>
+               
+               <relation name="snap:DaughterOf"
+                  active="PRS10733ZirGan"
+                  passive="PRS8595SayfaAr"
+                  ></relation>
+               <relation name="snap:MotherOf"
+                  active="PRS10733ZirGan"
+                  passive="PRS2327BadlaA"
+                 ></relation>
+               <relation name="snap:MotherOf"
+                  active="PRS10733ZirGan"
+                  passive="PRS9394Tensae"
+                  ></relation>
+               <relation name="snap:MotherOf"
+                  active="PRS10733ZirGan"
+                  passive="PRS3960Falasit"
+                  ></relation>
+               <relation name="snap:MotherOf"
+                  active="PRS10733ZirGan"
+                  passive="PRS10593Zansel"
+                  ></relation>
+               <relation name="snap:GranddaughterOf"
+                  active="PRS10733ZirGan"
+                  passive="PRS1854Amdase"
+                  ></relation>
+               
+               
+               
+               
+            </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Turaiev1908Aaron"/>
+            </bibl>
+            
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Grebaut1928ZirGanela"/>
+            </bibl>
+           
+            <bibl> 
+               <ptr target="bm:Heldman2014ZirGanela"/>
+            </bibl>
+            
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+                  
+                  
