@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>ʿAmdä Ṣǝyon II</title>
+            <title>  ʿAmda Ṣǝyon II</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,24 +46,60 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-01-10">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  ʿAmdä Ṣǝyon II
-               </persName>
-               <occupation> aṣe</occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ዓምደ፡ ጽዮን፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">  ʿAmda Ṣǝyon II</persName>
+               <persName><roleName type="title">ʾaṣe</roleName></persName>
+               <persName xml:lang="gez" xml:id="n2" type="regnalName">unknown</persName>
+               
+               <occupation type="ruler">Emperor</occupation>
+              
+               <floruit when="1494"> He was the son of <roleName type="title">ʾaṣe</roleName><persName ref="PRS3874eskender">ʾƎskǝndǝr</persName>,
+                  crowned in <date>1494</date> at the age of seven even younger. His short reign of only six or seven months was characterized by continued civil war and bloodshed, 
+                  with one faction at the court favouring him and another his uncle <roleName type="title">ʾaṣe</roleName><persName ref="PRS7481NaodA">Nāʿod (ʾAnbasā Baḍar)</persName>.
+               </floruit>
+            
             </person>
             <listRelation>
-               <relation name="sonOf">
-                  <desc> son Ǝskǝndǝr </desc>
-               </relation>
-            </listRelation>
+               <relation name="snap:SonOf" 
+                  active="PRS1855Amdase"
+                  passive="PRS3874eskender"
+                  ></relation>
+               <relation name="snap:NephewOf"
+                  active="PRS1855Amdase"
+                  passive="PRS7481NaodA"
+                  ></relation>
+                </listRelation>
          </listPerson>
+         
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Basset1881EtudesI"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Basset1881EtudesII"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Perruchon1894Eskender"/>
+            </bibl>
+         </listBibl> 
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Kaplan2003AmdeseyonII"/>
+            </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
