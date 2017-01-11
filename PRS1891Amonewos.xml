@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Amonewos</title>
+            <title>ʾAmonewos</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,20 +46,76 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-01-11">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+          
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">አሞኔዎስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAmonewos</persName>
+               <persName xml:lang="gez" xml:id="n2" type="alt">አሞንዮስ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAmonyos</persName>
+             
+                  <persName><roleName type="title">grāzmāč, qaññāzmāč</roleName></persName>
                   
-                  Amonewos
-               </persName>
-               <persName type="alt">Amonyos</persName>
-               <occupation> abba </occupation>
-            </person>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <occupation type="political">officer</occupation>
+                 <floruit >He was a favourite officer of <roleName type="title">ʾaṣe </roleName> 
+                     <persName ref="PRS5616IyasuI">Iyāsu I</persName>.  He was active in the <date>1680</date>s as a 
+                     <roleName type="title">grāzmāč</roleName> in the royal army and in the later <date>1690</date>s as <roleName type="title"> blatten getā</roleName> at the court.
+                        Three years later, in <date>1700</date>, he was appointed <roleName type="title">baǧǝrond</roleName> of the throne hall. 
+                  </floruit>
+               <death when="1703"> He died of poison. </death>
+                  
+                  
+                  
+               </person>  
+               <listRelation>
+                  
+                  <relation name="snap:AllianceWith"
+                     active="PRS1891Amonewos"
+                     passive="PRS5616IyasuI"
+                     ></relation>
+                  
+                  
+                  
+                  
+               </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Guidi1961Yohannes"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Basset1882Chronicle"/>
+            </bibl>
+            
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Berry2003Amonewos"/>
+            </bibl>
+            
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               
