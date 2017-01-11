@@ -10,7 +10,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Arkä Śǝllus (ʿArke)</title>
+            <title>ʾArka Śǝllus (ʾArke)</title>
+            
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +47,63 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-01-11">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+               <persName xml:lang="gez" xml:id="n1" type="birthName"> አርከ፡ ሥሉስ፡ </persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾArka Śǝllus</persName>
+               <persName xml:lang="gez" xml:id="n2" type="birthName">  ʾArke</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">አርኬ፡</persName>
+               
+        
+               
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="literary"> writer</occupation>
+               <birth > </birth>
+               <floruit notBefore="1468" notAfter="1478"> He was a writer and  disciple of <persName ref="PRS4709Giyorgis">Giyorgis of Saglā</persName>
+                  lived during the reign of  <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS2334BaedaM">Baʾǝda Māryām I</persName>.
+               </floruit>
+               
+            </person>  
+            <listRelation>
+               
+               <relation name="snap:AllianceWith"
+                  active="PRS2036Arkasel"
+                  passive="PRS2334BaedaM"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="PRS2036Arkasel"
+                  passive="LIT1326egziab"
                   
-                  Arkä Śǝllus (ʿArke)
-               </persName>
-               <occupation> wr. </occupation>
-            </person>
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="PRS2036Arkasel"
+                  passive="LIT2001Mazmur"
+                  
+                  ></relation>
+            </listRelation>
          </listPerson>
+       
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Raineri2003ArkaSellus"/>
+            </bibl>
+         
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+                  
+                  
