@@ -11,6 +11,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>ʿArse</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,67 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-01-11">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  ʿArse
-               </persName>
-               <occupation> graz. </occupation>
-            </person>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ዐርሴ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʿArse</persName>
+               <persName><roleName type="title">grāzmāč, qaññāzmāč</roleName></persName>
+               
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="political">officer</occupation>
+               
+               
+               <floruit notBefore="1695" notAfter="1708">He was an officer of <roleName type="title">ʾaṣe </roleName> 
+                  <persName ref="PRS5616IyasuI">Iyāsu I</persName>. He was <roleName type="title">qaññāzmāč</roleName>  in <date>1695</date> and   
+                  <roleName type="title">grāzmāč</roleName> in <date>1696</date>.</floruit>
+           
+               
+               
+            </person>  
+            <listRelation>
+               
+               <relation name="snap:AllianceWith"
+                  active="PRS2065Arse"
+                  passive="PRS5616IyasuI"
+                  ></relation>
+               
+               
+               
+               
+            </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Basset1882Chronicle"/>
+            </bibl>
+            
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Toubkis2003Arse"/>
+            </bibl>
+            
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+                  
+                  
