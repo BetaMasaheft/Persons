@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Bǝlen Sägädä</title>
+            <title>Bǝlen Sagada</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,22 +46,66 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-01-16">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+               
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">ብሌን፡ ሰገደ፡ </persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Bǝlen Sagada</persName>
+               <persName xml:lang="gez" xml:id="n2" type="alt"> ብሌን፡ አስገደ</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Bǝlen ʾAsgada</persName>
+               <persName xml:lang="gez" xml:id="n3" type="alt">ምሌን፡ ሰገደ፡</persName>
+               <persName xml:lang="gez" corresp="#n3" type="normalized">Mǝlen Sagada</persName>
                   
-                  Bǝlen Sägädä
-               </persName>
-               <persName type="alt">Bǝlen Sägäd</persName>
-               <persName type="alt">Bǝlen Asgädä</persName>
-               <persName type="alt">Mǝlen Sägädä</persName>
-               <occupation> aqaṣen </occupation>
-            </person>
+               <persName><roleName type="title">aqāṣen </roleName></persName>
+                  
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <occupation type="political">ruler</occupation>
+                  
+               <floruit notBefore="1300" notAfter="1455">It is the name of  a representative of the <persName ref="PRS1426Adkama"> ʾAdkama </persName>  kingship, rulers of 
+                  <placeName ref="LOC5575Saraye">Sarāye</placeName> during the 14th and 15th century, who was acive in <date>1455</date>. 
+                  He contributed to the construction of the the monastery of <placeName ref="LOC2362DabraS">Dabra Ṣǝge</placeName>, established by the monk of 
+                  <persName ref="PRS10445Yonaso">Yonās of Bur </persName>. In <date>1489</date> his name was also associated with the foundation of the
+                  second monastery of  the same <persName ref="PRS10445Yonaso">Yonās of Bur </persName>, <placeName ref="LOC2257DabraD">Dabra Dǝḫuḫan</placeName>. </floruit>
+                  
+               </person>  
+               <listRelation>
+                  
+                  <relation name="snap:SonOf"
+                     active="PRS2634BelenSa"
+                     passive="PRS2345Bagadas"
+                     ></relation>
+                  <relation name="snap:SonOf"
+                     active="PRS2634BelenSa"
+                     passive="PRS6459Magdalaw"
+                     ></relation>
+                
+               </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Luisini1996Absadi"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Luisini2003Belensaggad"/>
+            </bibl>
+     
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+                  
+                  
