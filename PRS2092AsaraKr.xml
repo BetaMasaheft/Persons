@@ -10,8 +10,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Aśärä Krǝstos</title>
-            <author/>
+            <title>ʾAśara Krǝstos</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
@@ -44,19 +46,60 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-01-16">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Aśärä Krǝstos
-               </persName>
-               <occupation> qes ḥaḍe </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">አሠረ፡ ክርስቶስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAśara Krǝstos</persName>
+               <persName><roleName type="title">qes ḥaḍe, ʿaqqābe saʿat </roleName></persName>
+               <occupation type="ecclesiastic"> priest </occupation>
+               
+               <nationality type="Ethiopia"/>
+               <faith type="Orthodox"/>
+               
+               <floruit notBefore="1682" notAfter="1690">He was father confessor of <roleName type="title">ʾaṣe</roleName><persName ref="PRS10375Yohanne">Yoḥannǝs I </persName>
+                  and appointed as <roleName type="title">ʿaqqābe saʿat </roleName> in <date>1682</date>. He remained an active loyal servant of the royal court until his death.</floruit>
+               <death  when="1690"> </death>
+               
             </person>
+            
+            <listRelation>
+               <relation name= "snap:AllianceWith"
+                  
+                  active="PRS2092AsaraKr"
+                  passive="PRS10375Yohanne"
+                  ></relation>
+               <relation name= "snap:AllianceWith"
+                  
+                  active="PRS2092AsaraKr"
+                  passive="PRS5616IyasuI"
+                  
+                  ></relation>
+               
+            </listRelation>
          </listPerson>
+         
+         
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Chernestsov2003Asara Krestos"/>
+            </bibl>
+            
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+                  
+                  
