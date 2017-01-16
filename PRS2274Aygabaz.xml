@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Aygäbäz</title>
+            <title>ʾAygabaz</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,67 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-01-16">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Aygäbäz
-               </persName>
-               <occupation> ṭǝqaqqǝn blatt. </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">አይገበዝ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAygabaz</persName>
+               <persName><roleName type="title">ṭǝqāqqǝn blatten getā</roleName></persName>
+               <occupation type="political">courtier</occupation>
+               
+               <nationality type="Ethiopia"/>
+               <faith type="Orthodox"/>
+               
+               <floruit when="1669"> He was a dignitary of <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS5616IyasuI">Iyāsu I</persName> with the title <roleName type="title">ṭǝqāqqǝn blatten getā </roleName>.
+                  In this function, he together with <roleName type="title">blatten getā </roleName> <persName ref="PRS4287GabraLe">Gabra Lǝʾul</persName>, 
+                  undertook an expedition against <placeName ref="LOC1843BeniSa">Beni Šāngul</placeName>. 
+               </floruit>
+            
+               
             </person>
+            
+            <listRelation>
+               <relation name= "snap:AllianceWith"
+                  
+                  active="PRS2274Aygabaz"
+                  passive="PRS5616IyasuI"
+                  ></relation>
+               <relation name= "snap:AllianceWith"
+                  
+                  active="PRS2274Aygabaz"
+                  passive="PRS4287GabraLe"
+                  ></relation>
+               
+            </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Guidi1961Yohannes"/>
+            </bibl>
+         </listBibl>
+         
+         
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Toubkis2003Aygabaz"/>
+            </bibl>
+            
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+                  
+                  
