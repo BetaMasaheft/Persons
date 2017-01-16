@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Asbo</title>
+            <title>ʾAsbo</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,69 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-01-16">Complete record</change>
+         
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+               
+         <persName xml:lang="gez" xml:id="n1" type="birthName">አስቦ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAsbo</persName>
+               <persName><roleName type="title"> daǧǧāzmāč</roleName></persName>
+                  <occupation type="political"> governor</occupation>
                   
-                  Asbo
-               </persName>
-               <occupation> däǧǧ. </occupation>
-            </person>
+                  <nationality type="Ethiopia"/>
+                  <faith type="Orthodox"/>
+                  
+               <floruit notBefore="1500" notAfter="1600">He was the governor of <placeName ref="LOC2488Damot">Dāmot</placeName> at the end of 16th century.
+                  It was the time of massive <persName ref="ETH1973Oromo">Oromo</persName> offensive and governors of the
+                  most endangered areas had to play the role of the vanguard  regiment and to hold the enemy in check until the arival of the royal army from the centre.
+                  In this regard, <persName ref="PRS2102Asbo">ʾAsbo</persName> fullfilled this task successfully and is known in history as a commander who routed an  
+                  <persName ref="ETH1973Oromo">Oromo</persName> raid and rescued from  <persName ref="ETH1973Oromo">Oromo</persName> capitivity a noble youth - the future
+                  <roleName type="title">ʾaṣe</roleName> <persName ref="PRS9038Susenyos"> Susǝnyos </persName> to whom he was loyal until his death.
+                  </floruit>
+                  <death when="1607" cert="medium"> </death>
+                  
+               </person>
+               
+               <listRelation>
+                  <relation name= "snap:AllianceWith"
+                     
+                     active="PRS2102Asbo"
+                     passive="PRS9038Susenyos"
+                     ></relation>
+                     <relation name= "snap:AllianceWith"
+                        
+                        active="PRS2102Asbo"
+                        passive="PRS1429AdmasMo"
+                     
+                     ></relation>
+                  <relation name="rel:enemyOf" 
+                     active= "PRS2102Asbo"
+                     passive="PRS10198Yaeqob"
+                     ></relation>
+             
+               </listRelation>
          </listPerson>
+        
+         
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Chernestsov2003Asbo"/>
+            </bibl>
+            
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+                  
+                  
