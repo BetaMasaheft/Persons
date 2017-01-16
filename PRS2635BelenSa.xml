@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Bǝlen Sägädä</title>
+            <title>Bǝlen Sagada</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,24 +46,62 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-01-16">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Bǝlen Sägädä
-               </persName>
-               <persName type="alt">Bǝlen Sägäd</persName>
-            </person>
+               <persName xml:lang="gez" xml:id="n1" type="birthName"> ብሌን፡ ሰገደ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Bǝlen Sagada</persName>
+               <persName xml:lang="gez" xml:id="n2" type="alt">ብሌን፡ ሰገድ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Bǝlen Sagad</persName>
+             
+               
+               <persName><roleName type="title">aqāṣen </roleName></persName>
+               
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="political">ruler</occupation>
+               
+               <floruit notBefore="1300" notAfter="1350">It is the name of  a representative of the <persName ref="PRS1426Adkama">ʾAdkama </persName>kingship, rulers of 
+                  <placeName ref="LOC5575Saraye">Sarʾye</placeName> during the 14th and 15th century. He lived during the second half of 14th century during, is known 
+                  by genealogies and by the long  colophon of an <title ref="LIT2083Octate">Octateuch</title> preseved in the monastery of <placeName ref="LOC2317DabraM">Dabra Māryām</placeName>.
+                  </floruit>
+               
+            </person>  
             <listRelation>
-               <relation name="fatherOf">
-                  <desc> fath. Säräqä Bǝrhan </desc>
-               </relation>
+               
+               <relation name="snap:FatherOf"
+                  active="PRS2634BelenSa"
+                  passive="PRS8539saraqaB"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  active="PRS2634BelenSa"
+                  passive="PRS3429DawitII"
+                  ></relation>
+                  
+         
             </listRelation>
          </listPerson>
+  
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Luisini2003Belensaggad"/>
+            </bibl>
+            
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+                  
+                  
