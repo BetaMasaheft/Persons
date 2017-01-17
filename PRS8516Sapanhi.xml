@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Säpänhi</title>
+            <title>Sapanhi</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,22 +46,68 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-01-17">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Säpänhi
-               </persName>
-               <persName type="alt"> Scipinao</persName>
-               <persName type="alt">Šipinihi</persName>
-               <persName type="alt"> Shipenao</persName>
-               <occupation> king </occupation>
-            </person>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ሰፐንሂ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Sapanhi</persName>
+               <persName xml:lang="gez" xml:id="n2" type="alt">ሺፒኒሂ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Šipinihi</persName>
+               <persName xml:lang="gez" xml:id="n3" type="alt">ስሂፔናኦ</persName>
+               <persName xml:lang="gez" corresp="#n3" type="normalized">Shipenao</persName>
+             
+               
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation  type="political">ruler </occupation>
+              
+               
+               <floruit notBefore="1530" notAfter="1570">He was an important mid-16th century  king or governor of the prosperous 
+                  pre <persName ref="ETH1973Oromo">Oromo</persName> <placeName ref="LOC2966Ennary">ʾƎnnāryā</placeName> state
+                  during the time of <roleName type="title">ʾaṣe</roleName><persName ref="PRS4428Galawdew">Galāwdewos</persName>
+                  and <roleName type="title">ʾaṣe</roleName><persName ref="PRS8550sardaDe">Śarḍa Dǝngǝl</persName>. He was an adherent of the traditional local religion and strong ally 
+                  of the christian emperors to fight against the  <persName ref="ETH1973Oromo">Oromo</persName> raids. He was succeeded by
+                  <persName ref="PRS6120Laasonh">Laʾasonhi</persName> 
+                  </floruit>
+               <death when="1570"></death>
+               
+            </person>  
+            <listRelation>
+               
+               <relation name="snap:AllianceWith"
+                  active="PRS8516Sapanhi"
+                  passive="PRS4428Galawdew"
+                  ></relation>
+               
+            </listRelation>
          </listPerson>
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Lange1982Gonga"/>
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Abbink2010Sapanhi"/>
+            </bibl>
+            
+            
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+                  
+                
