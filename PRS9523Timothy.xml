@@ -11,6 +11,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Timothy II (Aeluros Ailouros)</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,23 +46,67 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-01-18">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+       
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">ጢሞቴዎስ፡</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Timothy III</persName>
+                  <persName xml:lang="en" xml:id="n2" type="alt">Ailourous</persName>
+                  <persName><roleName type="title">patriarch</roleName></persName>
                   
-                  Timothy II (Aeluros Ailouros)
-               </persName>
-               <occupation> patriarch of Alexandria</occupation>
-               <death>d. 477</death>
-               <residence>
-                  <placeName>Alexandria</placeName>
-               </residence>
+                  <occupation type="ecclesiastic">patriarch</occupation>
+                  
+                  <birth></birth>
+                  <floruit notBefore="0457" notAfter="0477"> He was an anti-Chalcedonian patriarch of <placeName ref="LOC1338Alexan">Alexandria</placeName>. 
+                     He was a monk in the monastery of <placeName ref="LOC5153Qalamu">Qalamūn</placeName>, 
+                     who was brought by force to <placeName ref="LOC1338Alexan">Alexandria</placeName> and consecrated presbyter during the pontificate 
+                     of patriarch <persName ref="PRS3255CyrilI">Cyril I (of Alexandria)</persName>. Some of his works were translated into Gǝʿǝz. </floruit>
+                  <death when="0477"></death>
+                  
             </person>
+            
+            <listRelation>
+               <relation name="snap:AllianceWith"
+                  active="PRS9524Timothy"
+                  passive="PRS3591Dioscoru"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"  
+                  active="PRS9524Timothy"
+                  passive="LIT1789Letter"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"  
+                  active="PRS9524Timothy"
+                  passive="LIT1637Homily"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"  
+                  active="PRS9524Timothy"
+                  passive="LIT1643Homily"
+                  ></relation>
+               
+            </listRelation>
          </listPerson>
+         
+         
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Witakowski2010TimothyIII"/>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Spanel1991Timothy"/>
+            </bibl>  
+            
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+                  

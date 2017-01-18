@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Rädaʾi</title>
+            <title>Radāʾi</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,21 +46,68 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-01-18">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Rädaʾi
-               </persName>
-               <persName type="alt">Rädaʾt</persName>
-               <persName type="alt"> Raday</persName>
-               <occupation> mil. </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ረዳኢ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Radāʾi</persName>
+               <persName xml:lang="gez" xml:id="n2" type="alt">ረዳእት፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Radāʾt</persName>
+               <persName xml:lang="gez" xml:id="n3" type="alt">ረዳይ፡</persName>
+               <persName xml:lang="gez" corresp="#n3" type="normalized"> Radāy</persName>
+               <nationality type="Ethiopia"/>
+               <faith type="Judaism"/>
+               
+               
+               <occupation type="political">leader</occupation>
+               
+               
+               
+               <floruit notBefore="1559" notAfter="1579">He was a 16th century <persName ref="ETH1274Betaes">Beta ʾƎsraʾel</persName> leader from 
+                  <placeName ref="LOC5671Semen">Sǝmen</placeName>. 
+                  He strongly resisted the rule of  <roleName type="title">ʾaṣe</roleName> <persName ref="PRS7102Minas">Minās</persName> and 
+                  <roleName type="title">ʾaṣe</roleName><persName ref="PRS8550sardaDe">Śarḍa Dǝngǝl</persName>.
+               </floruit>
+               <death when="1579"></death> 
+               
             </person>
+            <listRelation>
+               <relation name="snap:BrotherOf"
+                  active="PRS8058Radai"
+                  passive="PRS5842Kalef"
+                  ></relation>
+               <relation name="snap:BrotherOf"
+                  active="PRS8058Radai"
+                  passive="PRS4903Gwasen"
+                  ></relation>
+                       </listRelation>
          </listPerson>
+       
+            
+            
+   
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Kaplan1991Falasha"/>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Weil2010Radai"/>
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Harvey1907SarsaDengel"/>
+            </bibl> 
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+                  
+                  
