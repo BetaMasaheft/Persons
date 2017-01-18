@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Gwäšǝn</title>
+            <title>Gwašǝn</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,20 +46,70 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-01-18">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Gwäšǝn
-               </persName>
-               <persName type="alt">Gošǝn</persName>
-               <occupation> leader </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ጐሸን፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Gwašǝn</persName>
+               <persName xml:lang="gez" xml:id="n2" type="alt">ጎሸን፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Gošǝn</persName>
+               <nationality type="Ethiopia"/>
+               <faith type="Judaism"/>
+               
+               
+               <occupation type="political">leader</occupation>
+               
+               
+               
+               <floruit >He was a <persName ref="ETH1274Betaes">Beta ʾƎsrāʾel</persName> leader during the reign of  
+                
+                  <roleName type="title">ʾaṣe</roleName><persName ref="PRS8550sardaDe">Śarḍa Dǝngǝl</persName>. In <date>1586-87</date>, he led unsuccessful raid 
+                  in <placeName ref="LOC6144Wagara">Wagarā</placeName> against  <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS8550sardaDe">Śarḍa Dǝngǝl</persName> which ended with the capitivity of hundreds of <persName ref="ETH1274Betaes">Beta ʾƎsrāʾel</persName>, 
+                  massacre of a number of  them and the enslavement of women and children. 
+               </floruit>
+               <death when="1587"> He died in <date>1587 </date> at <placeName ref="LOC6234WarqAm">Warq ʾAmbā</placeName>. </death> 
+               
             </person>
+            <listRelation>
+               <relation name="snap:BrotherOf"
+                  active="PRS4903Gwasen"
+                  passive="PRS5842Kalef"
+                  ></relation>
+               <relation name="snap:BrotherOf"
+                  active="PRS4903Gwasen"
+                  passive="PRS8058Radai"
+                  ></relation>
+            </listRelation>
          </listPerson>
+         
+         
+         
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Kaplan1991Falasha"/>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Weil2005Gwasen"/>
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Harvey1907SarsaDengel"/>
+            </bibl> 
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+                  
+                 
