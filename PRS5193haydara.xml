@@ -10,7 +10,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ḥaydära</title>
+            <title>Ḥaydarā</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,20 +47,83 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-01-19">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+               
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">ሐይደራ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Ḥaydarā</persName>
+               
+                  <nationality type="Ethiopia"/>
+                  <faith type="Islam"/>
                   
-                  Ḥaydära
-               </persName>
-               <persName type="alt">Ḫaydära</persName>
-               <occupation> ruler </occupation>
-            </person>
+                  
+                  <occupation type="political">ruler</occupation>
+                  
+                  
+                  
+               <floruit notBefore="1330" notAfter="1339"> He was the ruler of <placeName ref="LOC2582Dawaro">Dawāro</placeName>, tributory to the Christian king <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS1854Amdase">ʿAmda Ṣǝyon I</persName> in the <date>1330</date>s. He allied in conspiracy with the rebelious 
+                  <persName ref="PRS10010Walasma">Walāšmāʿ</persName> ruler of <placeName ref="LOC3921Ifat">Ifāt</placeName>, 
+                  <persName ref="PRS8282sabraddi">Ṣabraddīn I Muḥammad b. Dalḥūy</persName>. However, <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS1854Amdase">ʿAmda Ṣǝyon I</persName> foiled the plot of <persName ref="PRS5193haydara">Ḥaydarā </persName> and  
+                  his ally, <persName ref="PRS8282sabraddi">Ṣabraddīn I Muḥammad b. Dalḥūy</persName> and led a military campaign in <date>1332</date> . 
+                  The forces of <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS1854Amdase">ʿAmda Ṣǝyon I</persName>
+                  captured <persName ref="PRS5193haydara">Ḥaydarā </persName> and bounded him in chains and ravaged the whole 
+                  <placeName ref="LOC2582Dawaro">Dawāro</placeName> region. Then after, <placeName ref="LOC2582Dawaro">Dawāro</placeName> region was placed under territorial domain of <persName ref="PRS4470gamaladd">Ǧamāladdīn [II] b. Dalḥūy b. Manṣūr</persName>
+                  as a tributary of  the Christian kingdom. </floruit>
+              
+                  
+               </person>
+               <listRelation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS5193haydara"
+                     passive="PRS8282sabraddi"
+                     ></relation>
+                  <relation name="snap:BrotherOf"
+                     active="PRS8058Radai"
+                     passive="PRS4903Gwasen"
+                     ></relation>
+               </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Kropp1994AmdaSeyon"/>
+               
+            </bibl>
+            <bibl>
+               <ptr target="bm:Marrassini1993AmdaSeyon"/>
+               
+            </bibl>
+           
+            <bibl>
+               <ptr target="bm:Huntingford1965AmdaSeyon"/>
+               
+            </bibl>
+         </listBibl>
+         
+         
+         
+         
+         <listBibl type="secondary">
+        
+            <bibl> 
+               <ptr target="bm:Muth2005Haydara"/>
+            </bibl> 
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+               
