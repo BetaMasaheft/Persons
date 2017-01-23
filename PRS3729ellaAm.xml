@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ǝllä ʿAmida (Ǝllä Aläda) I</title>
+            <title>ʾƎlla ʿAmidā I</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,17 +44,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change when="2017-01-23" who="ES">updated record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Ǝllä ʿAmida (Ǝllä Aläda) I
-               </persName>
-               <occupation> king </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">እለ፡ ዐሚዳ ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾƎlla ʿAmidā </persName>
+               <persName xml:lang="gez" xml:id="n2" type="birthName">እሌ፡ ዐሚዳ ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">ʾƎlle ʿAmidā </persName>
+               <persName xml:lang="gez" xml:id="n3" type="birthName">እለ፡ ዐለዳ ፡</persName>
+               <persName xml:lang="gez" corresp="#n3" type="normalized">ʾƎlla ʿAladā </persName>
+               
+               <occupation type="ruler">King</occupation>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <birth></birth>
+               <residence><placeName ref="LOC1310Aksum">ʾAksum</placeName></residence>
+               <floruit >He was a king of  ʾAksum. 
+               </floruit>
+               <death></death>
             </person>
          </listPerson>
       </body>
