@@ -11,6 +11,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Wasan Sagad</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -45,16 +47,90 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="DR" when="2016-12-01">Adjustments</change>
+         <change who="SG" when="2017-01-23">complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>Wasan Sagad</persName>
-               <occupation type="ruler">rās</occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ወሰን፡ ሰገድ፡ </persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Wasan Sagad</persName>
+              
+               <persName><roleName type="title">rās</roleName></persName>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="political">ruler </occupation>
+               <birth  notBefore="1470" notAfter="1479"> He was born in 1470s at <placeName ref="LOC3061Fataga">Faṭagār</placeName>. </birth>
+               <floruit  notBefore="1494" notAfter="1531"> He was a powerful noble during the reigns of  <roleName type="title">ʾaṣe</roleName> 
+                  <persName ref="PRS7481NaodA">Nāʿod</persName> and <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS6229LebnaDe">Lǝbna Dǝngǝl</persName>. In the time of <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS6229LebnaDe">Lǝbna Dǝngǝl</persName>, <persName ref="PRS10077WasanS">Wasan Sagad</persName>
+                  became a leading member of the court council who held the title of <roleName type="title">grā bitwaddad</roleName>. 
+                  However, <persName ref="PRS10077WasanS">Wasan Sagad</persName> lost the dignity of  <roleName type="title">rās  bitwaddad</roleName>
+                  in <date>1524</date> when <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS6229LebnaDe">Lǝbna Dǝngǝl</persName> in a suprise reshuffle of several leading state offices.
+                  But he remained loyal to <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS6229LebnaDe">Lǝbna Dǝngǝl</persName>
+                  and fought against the muslim leader <persName ref="PRS1500Ahmad">ʾAḥmad</persName> in <date> 1529</date>. During such turbulent time, 
+                  he was also very concerned with personal safety of <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS6229LebnaDe">Lǝbna Dǝngǝl</persName>.  </floruit>
+               
+               <death when="1531"> He died at the battle of <placeName ref="LOC2054Bwsat">B-w-sāt</placeName> in 
+                  <placeName ref="LOC3061Fataga">Faṭagār</placeName>. </death>
             </person>
+            <listRelation>
+               <relation name="snap:BrotherOf"
+                  active="PRS10077WasanS"
+                  passive="PRS10023WanagZ"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  active="PRS10077WasanS"
+                  passive="PRS3879eslamSa"
+                  ></relation>
+               <relation name="snap:IntimateRelationshipWith"
+                  active="PRS10077WasanS"
+                  passive="PRS7482NaodMo"
+                  ></relation>
+               
+            </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Basset1882Chronicle"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="secondary">
+   
+            <bibl>
+               <ptr target="bm:Red2010WasanSagad"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Kleiner2009WasanSagad"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Getachew1984LebneDengel"/>
+            </bibl>
+            
+         </listBibl>
       </body>
-   </text>
+   </text>   
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               
