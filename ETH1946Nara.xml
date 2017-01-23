@@ -36,6 +36,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-10-18+02:00"> Created file from google
                                 spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: ethnic</change>
+         <change when="2017-01-23" who="ES">updated record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -45,8 +46,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:id="n1">
                   <orgName>Nara</orgName>
                </persName>
-               <persName xml:id="n2">
-                  <orgName>“Barya”</orgName>
+               <persName xml:id="n2" xml:lang="gez">
+                  <orgName>ባርያ</orgName>
+               </persName>
+               <persName corresp="#n2" type="normalized" xml:lang="gez">
+                  <orgName>Bāryā</orgName>
                </persName>
             </personGrp>
          </listPerson>
