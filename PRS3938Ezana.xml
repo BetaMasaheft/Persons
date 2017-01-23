@@ -47,6 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-10-10">Complete record</change>
+         <change when="2017-01-23" who="ES">Bibliography added, nationality corrected</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -58,12 +59,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                   <persName><roleName type="title">ʾaṣe</roleName></persName>
                   <occupation type="ruler">Emperor</occupation>
-                  <nationality type="Ethiopia"/>
-                  <faith type="EOTC"/>
+                  <nationality type="Aksumite"/>
+                  <faith type="Aksumite EOTC"/>
                   <birth><date cert="medium">325</date></birth>
                   <residence><placeName ref="LOC1310Aksum">ʾAksum</placeName></residence>
-               <floruit >He was a king of  ʾAksum reigned between <date>330</date> and <date>365/70</date>.
-                     He was the first Aksumite king who was converted to Christianity. The prosperity and power of Aksum reached its zenith during his time. 
+               <floruit >He was a king of  <placeName ref="LOC1310Aksum">ʾAksum</placeName> reigned between <date>330</date> and <date>365/70</date>.
+                  He was the first Aksumite king who was converted to Christianity. The prosperity and power of <placeName ref="LOC1310Aksum">ʾAksum</placeName> reached its zenith during his time. 
                      </floruit>
                   <death></death>
                </person>
@@ -86,15 +87,33 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 
          </listRelation>
          </listPerson>
+         
+         <listBibl type="text">
+            <bibl>
+               <ptr target="bm:Schneider1976Ezana"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Uhlig2013Ezana"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:RIE1"/>
+            </bibl>
+         </listBibl>
          <listBibl type="secondary">
             <bibl>
         
       <ptr target="bm:Sergew1972Ethiopianhistory"/>
-<biblScope unit="page">12, 13, 15, 27, 31, 44, 69, 78, 81, 91, 92, 93, 94, 95, 100, 103, 104, 105, 107, 108, 109, 112, 123, 124, 126, 143, 267 </biblScope>
+<biblScope unit="page">12-13, 15, 27, 31, 44, 69, 78, 81, 91-95, 100, 103-105, 107-109, 112, 123-124, 126, 143, 267 </biblScope>
            </bibl> 
            <bibl> 
                <ptr target="bm:AvanziniEtAl2007EnAeInscriptions"/>
             </bibl> 
+            <bibl>
+               <ptr target="bm:Hahn2005Ezana"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:MunroHay1988Ezana"/>
+            </bibl>
          </listBibl>  
        </body>
    </text>
