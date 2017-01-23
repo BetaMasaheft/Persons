@@ -3,59 +3,51 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="pers"
-     xml:lang="en"
-     xml:id="ETH2262halen">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ETH2271Sarane" type="pers">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ḥalen</title>
+            <title>Ṣarane</title>
             <author/>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
-            multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+                                    multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
             <pubPlace>Hamburg</pubPlace>
             <availability>
-               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
-                This file is licensed under the Creative Commons
-                Attribution-ShareAlike 4.0. </licence>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is licensed under the Creative Commons
+                                        Attribution-ShareAlike 4.0. </licence>
             </availability>
             <date>2017-01-23</date>
          </publicationStmt>
          <sourceDesc>
-            <p>Prosopography of Ethiopian Written tradition</p>
-            
+            <p>A TEI file converted from the ETHIO-authority google
+                                    spreadsheet</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
-            <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
 
-         <change when="2017-01-23" who="ES">created record</change>
+         <change when="2017-01-23" who="ES">created file</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <personGrp role="militaryUnit">
-               <persName xml:lang="gez" xml:id="n1" >ሐሌን ፡</persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized">Ḥalen</persName>
-               <persName xml:lang="gez" xml:id="n2" >ሐልን ፡</persName>
-               <persName xml:lang="gez" corresp="#n2" type="normalized">Ḥalǝn</persName>
-               
-               <note>Clan name</note>
-               
-               <note >Military unit</note>
-
+            <personGrp role="ethnic">
+               <persName xml:id="n1" xml:lang="gez">
+                  <orgName>ጸረኔ  </orgName>
+               </persName>
+               <persName corresp="#n1" type="normalized">
+                  <orgName>Ṣarane </orgName>
+               </persName>
+               <note>tribe name?</note>
             </personGrp>
          </listPerson>
       </body>
