@@ -41,21 +41,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-11-17">Created XML record from Ethio authority google spreadsheet</change>
+         <change who="DR" when="2017-01-23">small additions</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  <forename/>
-                  <surname>Ṗeṭros ʾƎlsadamanti</surname>
-               </persName>
+            <person sex="1" sameAs="http://viaf.org/viaf/51664698/">
+               <persName>Ṗeṭros ʾƎlsadamanti</persName>
                <persName>Buṭrus as-Sadamanti</persName>
-               <nationality>Armenian</nationality>
-               <occupation>author</occupation>
+               <nationality type="Armenia"/>
+               <occupation type="ecclesiastic">author, monk</occupation>
             </person>
          </listPerson>
+         <div type="bibliography">
+            <listBibl type="secondary">
+               <bibl><ptr target="bm:Mai1831ScriptorumIV"/><citedRange unit="page">248; 250</citedRange></bibl>
+               <bibl><ptr target="bm:Wansleben1677Histoire"/><citedRange unit="page">336</citedRange></bibl>
+              <!-- Compare Ancien fonds arabe 84, fol. 116v-->
+            </listBibl>
+         </div>
       </body>
    </text>
 </TEI>
