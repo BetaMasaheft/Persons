@@ -6,12 +6,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
      xml:lang="en"
-     xml:id="ETH2269Sera">
+     xml:id="PRS11396Alita">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Damawa </title>
-            <author/>
+            <title>ʾAlitā </title>
+            <editor key="ES"></editor>
+            <editor role="generalEditor" key="AB"/>
+           <author/>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
@@ -27,14 +29,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </publicationStmt>
          <sourceDesc>
             <p>Prosopography of Ethiopian Written tradition</p>
-            
+            <p>A TEI file converted from the ETHIO-authority
+                                                  google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
-            <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -46,19 +48,31 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
-            <personGrp role="militaryUnit">
-               <persName xml:lang="gez" xml:id="n1" >ደመወ፡</persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized">Damawa</persName>
-
-               <note >Military unit</note>
-
-            </personGrp>
+            <person sex="1">
+               <persName xml:lang="gez" xml:id="n1" type="birthName">አሊታ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAlitā</persName>
+                                 
+                  <occupation type="ruler">a tribe chief</occupation>
+                  <nationality type="Aksumite"/>
+                  <faith type="Aksumite"/>
+                  
+                  
+               <floruit >A tribal chief during the 4th century. 
+                     </floruit>
+                  <death></death>
+               </person>
+               
          </listPerson>
+         
          <listBibl type="text">
             <bibl>
                <ptr target="bm:RIE1"/>
             </bibl>
          </listBibl>
-      </body>
+           
+       </body>
    </text>
 </TEI>
+
+                  
+               
