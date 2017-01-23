@@ -10,8 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>ʿAstär</title>
+            <title>ʿAstar</title>
             <author/>
+            <editor key="ES"></editor>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
@@ -44,19 +45,32 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change when="2017-01-23" who="ES">updated record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  ʿAstär
-               </persName>
-               <occupation> rel. </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ዐስተር ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʿAstar</persName>
+               
+               <occupation type="ecclesiastic">deity of Sabaic pantheon</occupation>
+               
+               <faith type="Aksumite"/>
+               
+               
+               
+               <death></death>
             </person>
+            
          </listPerson>
+         
+         <listBibl type="text">
+            <bibl>
+               <ptr target="bm:RIE1"/>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
