@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Naʿod Mogäsa</title>
+            <title>Nāʿod Mogasā</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,89 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-01-23">complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  
-                  Naʿod Mogäsa
-               </persName>
-               <occupation> ǝtege </occupation>
+            <person sex="2">
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ናዖድ፡ ሞገሳ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Nāʿod Mogasā</persName>
+               
+               <persName><roleName type="title">ʾǝtege </roleName></persName>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="political">empress </occupation>
+             
+               <floruit notBefore="1494" notAfter="1524">  She was a wife of <roleName type="title">ʾaṣe</roleName> 
+                  <persName ref="PRS7481NaodA">Nāʿod</persName> and a mother of <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS6229LebnaDe">Lǝbna Dǝngǝl</persName>. <persName ref="PRS7482NaodMo">Nāʿod Mogasā</persName>
+                  was a member of the regency council of her son <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS6229LebnaDe">Lǝbna Dǝngǝl</persName> a long with <persName ref="PRS3706eleni">ʾƎleni</persName>.  
+                  She is credited with the foundation of at least three royal churches: <placeName ref="LOC3444Getese">Getesemane Māryām</placeName>
+                  in <placeName ref="LOC3549Gojjam">Goǧǧām</placeName>, the church of <placeName ref="LOC1701Badeqe">Bādǝqe</placeName>, 
+                  near the royal residence situated in <placeName ref="LOC3061Fataga">Faṭagār</placeName>,
+                  which was destroyed by the armies of <persName ref="PRS1500Ahmad">ʾAḥmad</persName>
+                  and the church of <placeName ref="LOC1901BetaSa">Beta Samāyāt</placeName> in <placeName ref="LOC6568Amhara">ʾAmharā</placeName>, where she was buried. </floruit>
+               
+               <death notAfter="1524">  </death>
             </person>
+            <listRelation>
+               <relation name="snap:MotherOf"
+                  active="PRS7482NaodMo"
+                  passive="PRS6229LebnaDe"
+                  ></relation>
+               <relation name="bm:wifeOf"
+                  active="PRS7482NaodMo"
+                  passive="PRS7481NaodA"
+                  
+                  
+                  ></relation>
+               <relation name="snap:IntimateRelationshipWith"
+                  active="PRS7482NaodMo"
+                  passive="PRS10077WasanS"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  active="PRS7482NaodMo"
+                  passive="PRS3706eleni"
+                  ></relation>
+               
+            </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            
+            <bibl>
+               <ptr target="bm:Basset1882Chronicle"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="secondary">
+            
+       
+            <bibl>
+               <ptr target="bm:Derat2007NaodMogasa"/>
+            </bibl>
+            
+         </listBibl>
       </body>
-   </text>
+   </text>   
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  
+              
