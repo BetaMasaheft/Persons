@@ -6,12 +6,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
      xml:lang="en"
-     xml:id="PRS3329Daneel">
+     xml:id="PRS11403Haw">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>haḍānī Danǝʾel</title>
-            <author/>
+            <title>Ḥawāre</title>
+            <editor key="ES"></editor>
+            <editor role="generalEditor" key="AB"/>
+           <author/>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
@@ -23,7 +25,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 This file is licensed under the Creative Commons
                 Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2016-03-21</date>
+            <date>2017-01-24</date>
          </publicationStmt>
          <sourceDesc>
             <p>Prosopography of Ethiopian Written tradition</p>
@@ -34,33 +36,43 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
-            <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
-         <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: place</change>
-         <change when="2017-01-24" who="ES">updated record</change>
+
+         <change when="2017-01-24" who="ES">created record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName><roleName type="title">haḍānī</roleName></persName>
-               <persName xml:id="n1">ዳንኤል፡</persName>
-               <persName corresp="#n1" type="normalized">Dānǝʾel</persName>
-               <persName xml:id="n2">ደኒኤል፡</persName>
-               <persName corresp="#n2" type="normalized">Daniʾel</persName>
-               <persName xml:id="n3">ደነአል፡</persName>
-               <persName corresp="#n3" type="normalized">D-N-ʾ-L</persName>
-               <occupation type="ruler">king</occupation>
-            </person>
+               <persName xml:lang="gez" xml:id="n1">ሐዋሬ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Ḥawāre</persName>
+                                 
+               <occupation type="military">an officer in Nobā troops</occupation>
+                  
+                  
+                  
+                  
+               <floruit> 4th century. 
+                     </floruit>
+                  
+               </person>
+               
          </listPerson>
-      </body>
+         
+         <listBibl type="text">
+            <bibl>
+               <ptr target="bm:RIE1"/>
+            </bibl>
+         </listBibl>
+           
+       </body>
    </text>
 </TEI>
+
+                  
+               
