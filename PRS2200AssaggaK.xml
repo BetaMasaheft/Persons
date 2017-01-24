@@ -10,7 +10,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Assäggaḵäñ</title>
+            <title>ʾAssaggāḵañ</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +47,68 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-01-24">complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+               
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">አሰጋኸኝ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAssaggāḵañ</persName>
+               <persName xml:lang="gez" xml:id="n2" type="birthName">አሰጋኸኝ፡ ዘዋድላ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAssaggāḵañ Zawdlā</persName>
                   
-                  Assäggaḵäñ
-               </persName>
-               <occupation> däbtära </occupation>
-            </person>
+         
+                  <nationality type="Ethiopia"/>
+                  <faith type="Catholicism"/>
+               <occupation type="political">dabtarā </occupation>
+                 
+               <floruit notBefore="1800" notAfter="1850"> He was one of the well-known Catholic converts and a learned man of the traditional church school. 
+                  <persName ref="PRS2200AssaggaK">ʾAssaggāḵañ</persName> was a scribe to some manuscripts collected by <persName ref="PRS1071dAbbadi">d’Abbadie </persName>.</floruit>
+                  
+                
+               </person>
+               <listRelation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS2200AssaggaK"
+                     passive="PRS1071dAbbadi"
+                     ></relation>
+                   </listRelation>
          </listPerson>
+          <listBibl type="secondary">
+            
+      
+            <bibl>
+               <ptr target="bm:Amsalu2003Assagakan"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:ContiRossini1924Assaggakan"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Fusella1953Assaggakan"/>
+            </bibl>
+         </listBibl>
       </body>
-   </text>
+   </text>   
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  
+                 

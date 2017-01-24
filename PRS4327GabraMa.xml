@@ -47,6 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-09-30">Complete record</change>
+         <change who="SG" when="2017-01-24">nationality corrected</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -62,15 +63,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         
                   <persName><roleName type="title">ʾaṣe</roleName></persName>
                   <occupation type="ruler">Emperor</occupation>
-                  <nationality type="Ethiopia"/>
-                  <faith type="EOTC"/>
+               <nationality type="Aksumite"/>
+               <faith type="Aksumite EOTC"/>
                 
                   <residence><placeName ref="LOC1310Aksum">ʾAksum</placeName></residence>
                   
-               <floruit>He was the younger son of King <persName ref="PRS5841Kaleb">Kāleb</persName> and a holy king of Aksumite time reigned from <date>534</date> to 
+               <floruit notBefore="0534" notAfter="0548">He was the younger son of King <persName ref="PRS5841Kaleb">Kāleb</persName> and a holy king of Aksumite time reigned from <date>534</date> to 
                   <date>548</date>. 
                   </floruit>
-                  <death></death>
+           
                </person>
                <listRelation>
                   <relation name="snap:SonOf" 

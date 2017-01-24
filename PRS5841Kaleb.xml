@@ -47,6 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-09-22">complete record</change>
+         <change who="SG" when="2016-01-24">nationality corrected</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -62,15 +63,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" corresp="#n3" type="normalized">ʾƎlla ʾAṣbaḥa</persName>
                <persName><roleName type="title">ʾaṣe</roleName></persName>
             <occupation type="ruler">Emperor</occupation>
-             <nationality type="Ethiopia"/>
-               <faith type="EOTC"/>
+               <nationality type="Aksumite"/>
+               <faith type="Aksumite EOTC"/>
              
                <residence><placeName ref="LOC1310Aksum">ʾAksum</placeName></residence>
                   
                <floruit>He was a king of  Aksum in the first half of the 6th century. He is also venerated as a saint in the Ethiopian Orthodx Church. He is largely known for his military expedition against 
-                  Yemen in <date>520</date>
+                  <placeName ref="gn:69543">Yemen</placeName>  in <date>520</date>.
                   </floruit>
-               <death></death>
+               
             </person>
             <listRelation>
                <relation name="snap:SonOf" 
