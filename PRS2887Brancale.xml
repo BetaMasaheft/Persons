@@ -11,6 +11,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Brancaleone</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,6 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-01-24">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,12 +54,74 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                   Nicolò
-                  Brancaleone
-               </persName>
-               <occupation> art. </occupation>
-            </person>
+                  <forename>Nicolò </forename>
+                  
+                  <surname>Brancaleone</surname> </persName>
+               <persName xml:lang="gez" xml:id="n1" type="alt">ማርቆርዮስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Mārqoryos </persName>
+               <persName xml:lang="gez" xml:id="n2" type="alt">መርቆሬዎስ፡ አፍርንጋዊ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Marqorewos ʾAfrǝngāwi </persName>
+           
+                 
+                  
+                  
+               <nationality  type="Italy"/>
+                  <faith type="notSpecified"/>
+                  <occupation type="literary">painter</occupation>
+                  
+               <floruit notBefore="1482" notAfter="1530">He was a venetian  
+                  painter worked in the court of <roleName type="title">ʾaṣe</roleName><persName ref="PRS6229LebnaDe">Lǝbna Dǝngǝl</persName> 
+                  during the 15th  and early 16th century. He also served as a painter for the ruling elite class which revealed in several accounts in a manuscript of 
+                  <title ref="LIT2384Taamme">Taʾammǝra Māryām</title> copied for the <placeName ref="LOC3736Hagara">Hāgara Māryām</placeName>. </floruit>
+                  
+                  
+               </person>
+               <listRelation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS2887Brancale"
+                     passive="PRS1462Afnin"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS2887Brancale"
+                     passive="PRS6229LebnaDe"
+                     ></relation>
+                  
+               </listRelation>
          </listPerson>
+         
+         <listBibl type="secondary">
+            
+            <bibl>
+               <ptr target="bm:Heldman2003Brancaleone"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:ChojnackI2000Painting"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Spencer1974Luke"/>
+            </bibl>
+            
+         </listBibl>
       </body>
-   </text>
+   </text>   
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  
