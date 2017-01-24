@@ -53,17 +53,47 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-              
-                  
-                Timothy III (Salophakiolos)
-               </persName>
-               <occupation> patriarch of Alexandria</occupation>
-               <death>d. 481</death>
-               <residence>
-                  <placeName>Alexandria</placeName>
-               </residence>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ጢሞቴዎስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Timothy III (Salophakiolos)</persName>
+       
+               <persName><roleName type="title">patriarch</roleName></persName>
+               
+               <occupation type="ecclesiastic">patriarch</occupation>
+               <residence ref="LOC1338Alexan">Alexandria</residence>
+               
+            
+               <floruit notBefore="0460" notAfter="0482">He was a chalcedonain patriarch of <placeName ref="LOC1338Alexan">Alexandria</placeName> from <date>460-482</date> </floruit>
+               <death when="0482"></death>
+               
             </person>
+            
+            <listRelation>
+              
+               <relation name="saws:isAttributedAuthorOf"  
+                  active="PRS9524Timothy"
+                  passive="PRS10714Zeno"
+                  ></relation>
+               
+            </listRelation>
          </listPerson>
+         
+         
+         
+         <listBibl type="secondary">
+              
+            <bibl> 
+               <ptr target="bm:Frend1991TimothySalofaciolus"/>
+            </bibl>  
+            
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+              
+                  
+              
