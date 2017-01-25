@@ -10,7 +10,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Gäbrä Śǝllase Wäldä Arägay</title>
+            <title>Gabra Śǝllāse Walda ʾAragāy</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +47,79 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-01-25">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+                   <persName xml:lang="gez" xml:id="n1" type="birthName">ገብረ፡ ሥላሴ፡ ወልደ፡ አረጋይ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Gabra Śǝllāse Walda ʾAragāy</persName>
                   
-                  Gäbrä Śǝllase Wäldä Arägay
-               </persName>
-               <occupation> ṣäḥ.t. </occupation>
-            </person>
+               <persName><roleName type="title">Ṣaḥāfe tǝʿǝzāz</roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  
+                  <occupation type="literary"> chronicler</occupation>
+               <residence> <placeName ref="LOC1216AddisA">ʾAddis ʾAbabā</placeName></residence>
+
+               <birth when="1844">He was born at <placeName ref="LOC2246DabraB">Dabra Bǝrhan</placeName> in <date>1844</date>. </birth>
+                  
+               <floruit notBefore="1870" notAfter="1912"> He was <roleName type="title">ʾaṣe</roleName> <persName ref="PRS7006Menilek">Mǝnilǝk II</persName>'s private secretary and minister of Pen. 
+                  He was also served as the dean of the churches of <placeName ref="LOC2981Entott">ʾƎnṭoṭṭo Rāguʾel</placeName> near
+                  <placeName ref="LOC1216AddisA">ʾAddis ʾAbabā</placeName> and <placeName ref="LOC1219AddisA">ʾAddis ʾAlam Māryām</placeName>. 
+                  He began his career as a clerk in the court of <roleName type="title">wayzaro</roleName><persName ref="PRS2342Bafana">Bāfanā</persName> 
+                  and was transffered to the service of the king in the late<date>1870</date>s. In <date>1889</date>, he promoted to the position of Ṣaḥāfe tǝʿǝzāz and 
+                  was thereafter regarded as one of the most influencial officials of <roleName type="title">ʾaṣe</roleName><persName ref="PRS7006Menilek">Mǝnilǝk II</persName>. </floruit>
+               <death when="1912">He died at <placeName ref="LOC1216AddisA">ʾAddis ʾAbabā</placeName> in <date>1912</date>. </death>
+                  
+               </person>
+               <listRelation>
+                  <relation name="snap:SonOf" 
+                     active="PRS4359Gabrase"
+                     passive="PRS9877WaldaAr"
+                     ></relation>
+                  <relation name="snap:SonOf" 
+                     active="PRS4359Gabrase"
+                     passive="PRS9832Walatta"
+                     ></relation>
+                  <relation name="snap:AllianceWith"                  
+                     active="PRS4359Gabrase"
+                     passive="PRS7006Menilek"
+                     ></relation>
+                  <relation name="snap:AllianceWith"                  
+                     active="PRS4359Gabrase"
+                     passive="PRS4721GobanaD"
+                     ></relation>
+               </listRelation>
          </listPerson>
+
+         <listBibl type="secondary">
+
+            <bibl>
+               <ptr target="bm:Bairu2005GabraSellase"/>
+            </bibl>          
+            <bibl> 
+               <ptr target="bm:Marcus1975MenelikII"/>
+            </bibl>  
+            
+            <bibl>
+               <ptr target="bm:Bairu1967Portraits"/>
+               <biblScope unit="page" >133-138</biblScope>
+               
+             
+            </bibl>
+          
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+                  
+                  
