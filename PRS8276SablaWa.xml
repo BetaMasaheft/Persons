@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Säblä Wängel</title>
+            <title>Sabla Wangel</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -43,6 +45,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
          <change who="SG" when="2016-05-18">completed the record</change>
+         <change who="SG" when="2017-01-25">Correction to transcription, addition to the content</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -53,12 +56,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
                   <persName xml:lang="gez" xml:id="n1" type="birthName">ሰብለ፡ ወንጌል፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Sabla Wangel</persName>
-               <persName><roleName type="title">ǝtege</roleName></persName>
+               <persName><roleName type="title">ʾǝtege</roleName></persName>
                
               <occupation type= "ruler ">queen </occupation>
                <birth when="1500">1500</birth>
-               <floruit notBefore="1518" evidence="internal"> She married King <persName corresp="PRS6229LebnaDe">Lǝbna Dǝngǝl</persName> in <date>1518</date> </floruit>
-               <death when="1567" evidence="internal"> She died during the reign of her grandson King<persName corresp="PRS8550sardaDe">Śarḍa Dǝngǝl</persName> </death>
+               <floruit notBefore="1518" evidence="internal"> She was a dominant female dynast of her time. 
+                  She married <roleName type="title">ʾaṣe</roleName> <persName ref="PRS6229LebnaDe">Lǝbna Dǝngǝl</persName> in <date>1518</date>.
+                  She came from a noble <placeName ref="LOC3549Gojjam">Goǧǧām</placeName> <persName ref="ETH1126Amhara">ʾAmhārā</persName>.
+                  She played a prominant role in the court politics after the death of her husband <roleName type="title">ʾaṣe</roleName><persName ref="PRS6229LebnaDe">Lǝbna Dǝngǝl</persName></floruit>
+               <death when="1567" evidence="internal"> She died during the reign of her grandson <roleName type="title">ʾaṣe</roleName><persName ref="PRS8550sardaDe">Śarḍa Dǝngǝl</persName>.  </death>
             </person>
                
                <listRelation>
@@ -93,10 +99,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          
          <listBibl type="editions">
             <bibl>
-               <ptr target="bm:Pereira1888"/>
+               <ptr target="bm:Pereira1888Minas"/>
             </bibl>
             <bibl>
-               <ptr target="bm:Kropp1988"/>
+               <ptr target="bm:Kropp1988Shortchr"/>
             </bibl>
             <bibl>
                <ptr target="bm:Conzelman1895Galawdewos"/>
