@@ -11,6 +11,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Dǝmeṭros</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,72 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-01-25">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Dǝmeṭros
-               </persName>
-               <occupation> aṣe </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ድሜጥሮስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Dǝmeṭros</persName>
+        
+               <persName><roleName type="title">ʾaṣe</roleName></persName>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               
+               <occupation type="ruler">Emperor</occupation>
+               <residence> <placeName ref="LOC3577Gondar">Gondar</placeName></residence>
+               
+               
+               <floruit >He was one of the puppet rulers of the Zamana masāfǝnt. When <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS8423Salomon">Salomon III</persName> was deposed, <roleName type="title">daǧǧāzmāč</roleName> 
+                  <persName ref="PRS4871GugsaMe">Gugsā Mǝrč̣ā</persName>  and <roleName type="title">daǧǧāzmāč</roleName> 
+                  <persName ref="PRS1774Alula">ʾAlulā</persName> made <persName ref="PRS3501Demetros">Dǝmeṭros</persName> an emperor at 
+                  <placeName ref="LOC3577Gondar">Gondar</placeName> in 
+                     <date>1799</date>. Then, he immediately rewarded his benefactors by appointing them to important positions. He was deposed in March <date>1800</date>
+                  and succeeded by <roleName type="title">ʾaṣe</roleName> <persName ref="PRS9142TaklaGi">Takla Giyorgis I</persName>.  
+                  <persName ref="PRS3501Demetros">Dǝmeṭros</persName> was restored in June <date>1800</date> and again deposed in <date>1801</date>.
+               </floruit>
+          
             </person>
+            <listRelation>
+               <relation name="snap:SonOf" 
+                  active="PRS3501Demetros"
+                  passive="PRS2054Arqadewo"
+                  ></relation>
+               <relation name="snap:AllianceWith"                  
+                  active="PRS3501Demetros"
+                  passive="PRS4871GugsaMe"
+                  ></relation>
+               <relation name="snap:AllianceWith"                  
+                  active="PRS3501Demetros"
+                  passive="PRS1774Alula"
+                  ></relation>
+            </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Budge1966Ethistory"/>
+               <biblScope unit="page" >480</biblScope>
+            </bibl>
+            
+            
+            <bibl>
+               <ptr target="bm:Blundell1922Chronicle"/>
+            </bibl>
+         </listBibl> 
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Kaplan2005Demetros"/>
+            </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+                  
+                  
