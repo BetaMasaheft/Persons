@@ -64,7 +64,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <residence> <placeName ref="LOC3577Gondar">Gondar</placeName></residence>
                
                
-               <floruit >He was one of the puppet rulers of the Zamana masāfǝnt. When <roleName type="title">ʾaṣe</roleName>
+               <floruit  notBefore="1799" notAfter="1801">He was one of the puppet rulers of the Zamana masāfǝnt. When <roleName type="title">ʾaṣe</roleName>
                   <persName ref="PRS8423Salomon">Salomon III</persName> was deposed, <roleName type="title">daǧǧāzmāč</roleName> 
                   <persName ref="PRS4871GugsaMe">Gugsā Mǝrč̣ā</persName>  and <roleName type="title">daǧǧāzmāč</roleName> 
                   <persName ref="PRS1774Alula">ʾAlulā</persName> made <persName ref="PRS3501Demetros">Dǝmeṭros</persName> an emperor at 
@@ -91,10 +91,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </listRelation>
          </listPerson>
          <listBibl type="editions">
-            <bibl>
-               <ptr target="bm:Budge1966Ethistory"/>
-               <biblScope unit="page" >480</biblScope>
-            </bibl>
+            
             
             
             <bibl>
@@ -105,6 +102,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <bibl> 
                <ptr target="bm:Kaplan2005Demetros"/>
             </bibl>  
+
+            <bibl>
+               <ptr target="bm:Budge1966Ethistory"/>
+               <biblScope unit="page" >480</biblScope>
+            </bibl>
          </listBibl>
       </body>
    </text>

@@ -11,6 +11,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Dǝmeṭros</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,20 +46,62 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-01-25">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Dǝmeṭros
-               </persName>
+               
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">ድሜጥሮስ፡</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Dǝmeṭros</persName>
                <persName type="alt">Demetrius</persName>
-               <occupation> ras </occupation>
-            </person>
+             
+                  
+                  <persName><roleName type="title">rās</roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  
+                  <occupation type="political">governor</occupation>
+           
+          <floruit  notBefore="1689" notAfter="1711">He was a confidant of <roleName type="title">ʾaṣe</roleName><persName ref="PRS5616IyasuI">Iyāsu I</persName>
+                  helping a plan attacks on <persName ref="ETH1973Oromo">Oromo</persName> and participating in his camapaigns into <placeName ref="LOC5597Sawa">Šawā</placeName>.
+                  </floruit>
+                  
+               </person>
+               <listRelation>
+                  <relation  name="snap:AllianceWith"
+                     active="PRS3502Demetros"
+                     passive="PRS5616IyasuI"
+                     ></relation>
+                  <relation name="snap:AllianceWith"                  
+                     active="PRS3502Demetros"
+                     passive="PRS9449Tewoflos"
+                     ></relation>
+                  
+               </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Guidi1961Yohannes"/>
+            
+            </bibl>
+            
+         </listBibl> 
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Berry2005Demetros"/>
+            </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+               
