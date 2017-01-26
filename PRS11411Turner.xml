@@ -6,11 +6,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
      xml:lang="en"
-     xml:id="PRS11375Baldassa">
+     xml:id="PRS11411Turner">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:id="t1">Ioan de Baldassare</title>
+            <title xml:id="t1">Turner</title>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
@@ -40,20 +40,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="MV" when="2017-01-10">Created XML record.</change>
+         <change who="DR" when="2017-01-26">Created XML record.</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               <persName xml:id="n1" xml:lang="sp">Ioan de Baldassare</persName>
-               <occupation type="other"></occupation>
+            <person sex="1" sameAs="http://viaf.org/viaf/2842796">
+               <certainty locus="value" match="../@sameAs" assertedValue="http://viaf.org/viaf/2842796" cert="low"/>
+              <persName> 
+                 <forename>Turner</forename>
+               <surname>J. N. </surname>
+              </persName>
+               <floruit when="1801">Received <ref type="mss" corresp="BDLaethf1"/> in <placeName ref="gn:350203">Rosetta</placeName> in 
+                  <date>1801</date> from
+                  <persName ref="PRS11410Murray"/>.
+                  <!--The identification with Tomkyns Hilgrove Turner is very uncertain (could J. N. be a misreading for T. H.?)--></floruit>
             </person>
             <listRelation>
                <relation name="lawd:hasAttestation"
-                  active="PRS11375Baldassa"
-                  passive="BAVet40#a1">
+                  active="PRS11411Turner"
+                  passive="BDLaethf1">
                </relation>
             </listRelation>
          </listPerson>

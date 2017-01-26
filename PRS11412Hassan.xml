@@ -6,11 +6,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
      xml:lang="en"
-     xml:id="PRS11375Baldassa">
+     xml:id="PRS11412Hassan">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:id="t1">Ioan de Baldassare</title>
+            <title xml:id="t1">Ḥassān Bey</title>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
@@ -40,20 +40,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="MV" when="2017-01-10">Created XML record.</change>
+         <change who="DR" when="2017-01-26">Created XML record.</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               <persName xml:id="n1" xml:lang="sp">Ioan de Baldassare</persName>
-               <occupation type="other"></occupation>
+            <person sex="1" sameAs="http://viaf.org/viaf/316444613">
+               <certainty locus="value" match="../@sameAs" assertedValue="http://viaf.org/viaf/316444613" cert="low"/>
+               <persName xml:id="n1" xml:base="ar" type="normalized"> Ḥassān <roleName type="title">Bey</roleName></persName>
+               <persName type="alt" xml:id="n2" xml:base="ar"> Ḥasan <roleName type="title">Bey</roleName></persName>
+               <persName type="alt" xml:id="n3" xml:base="en"> Hafsan <roleName type="title">Bey</roleName></persName>
+        
+               <floruit when="1801">Took <ref type="mss" corresp="BDLaethf1"/> from an Ethiopian in Upper Egypt and
+                  gave it to <persName ref="PRS11410Murray"/> before 
+                  <date>September 1801</date>.</floruit>
             </person>
             <listRelation>
                <relation name="lawd:hasAttestation"
-                  active="PRS11375Baldassa"
-                  passive="BAVet40#a1">
+                  active="PRS11412Hassan"
+                  passive="BDLaethf1">
                </relation>
             </listRelation>
          </listPerson>
