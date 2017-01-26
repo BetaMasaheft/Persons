@@ -6,11 +6,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
      xml:lang="en"
-     xml:id="PRS11412Hassan">
+     xml:id="PRS11417WalattaGiyorgis">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:id="t1">Ḥassān Bey</title>
+            <title xml:id="t1">Walatta Giyorgis</title>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
@@ -40,25 +40,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="DR" when="2017-01-26">Created XML record.</change>
+         <change who="DR" when="2017-01-26">Created XML record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1" sameAs="http://viaf.org/viaf/316444613">
-               <certainty locus="value" match="../@sameAs" assertedValue="http://viaf.org/viaf/316444613" cert="low"/>
-               <persName xml:id="n1" xml:lang="ar" type="normalized"> Ḥassān <roleName type="title">Bey</roleName></persName>
-               <persName type="alt" xml:id="n2" xml:base="ar"> Ḥasan <roleName type="title">Bey</roleName></persName>
-               <persName type="alt" xml:id="n3" xml:base="en"> Hafsan <roleName type="title">Bey</roleName></persName>
-        
-               <floruit when="1801">Took <ref type="mss" corresp="BDLaethf1"/> from an Ethiopian in Upper Egypt and
-                  gave it to <persName ref="PRS11410Murray"/> before 
-                  <date>September 1801</date>.</floruit>
+            <person sex="2">
+               <persName xml:id="n1" xml:lang="gez"> ወለተ፡ ጊዮርጊስ፡</persName>
+               <persName corresp="#n1" type="normalized"> Walatta Giyorgis</persName>
             </person>
             <listRelation>
-               <relation name="lawd:hasAttestation"
-                  active="PRS11412Hassan"
+               <relation name="saws:hasOwned"
+                  active="PRS11417WalattaGiyorgis"
                   passive="BDLaethf1">
                </relation>
             </listRelation>
