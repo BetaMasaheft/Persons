@@ -46,6 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="SG" when="2016-07-26">Complete record</change>
+         <change who="SG" when="2017-01-27">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -60,9 +61,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName><roleName type="title">ʾaṣe</roleName></persName>
              
                   <occupation type="ruler">Emperor</occupation>
-                  <birth>1471</birth>
+               <birth when="1471"></birth>
                   
-               <floruit when="1478" evidence="internal">He succeeded his father King <persName ref="PRS2334BaedaM" >Bāʾǝda Māryām I</persName>in<date>1478</date>.
+               <floruit when="1478" evidence="internal">He succeeded his father <roleName type="title">ʾaṣe</roleName> <persName ref="PRS2334BaedaM" >Bāʾǝda Māryām I</persName>in<date>1478</date>.
                      </floruit>
                   <death when="1494" evidence="internal">1494</death>
             </person>

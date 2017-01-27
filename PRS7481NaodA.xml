@@ -46,6 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="SG" when="2016-07-26">Complete record</change>
+         <change who="SG" when="2017-01-27">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -63,10 +64,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <occupation type="ruler">Emperor</occupation>
                        
                         
-               <floruit when="1494" evidence="internal">He succeeded his brother King<persName ref="PRS3874eskender" >ʾƎskǝndǝr</persName>in<date>1494</date>.
+               <floruit when="1494" evidence="internal">He succeeded his brother <roleName type="title">ʾaṣe</roleName><persName ref="PRS3874eskender" >ʾƎskǝndǝr</persName>in<date>1494</date>.
                         </floruit>
-               <death when="1508" evidence="internal">He died in Naḥase 1508 during a military expedition against 
-                  Muslims  in Ifāt<placeName ref="LOC3921Ifat" >Ifāt</placeName>in<date>1494</date></death>
+               <death when="1508" evidence="internal">He died in <date>1508</date>during a military expedition against 
+                  Muslims  in Ifāt<placeName ref="LOC3921Ifat" >Ifāt</placeName>in<date>1508</date></death>
                      </person>
                      <listRelation>
                         <relation name="snap:SonOf" 
