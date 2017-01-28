@@ -6,11 +6,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
      xml:lang="en"
-     xml:id="PRS11409TersitaW">
+     xml:id="PRS11421AsrataM">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:id="t1">Tǝrsita Wald</title>
+            <title xml:id="t1">ʾAśrāta Mǝḥrat</title>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
@@ -40,21 +40,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="MV" when="2017-01-25">Created XML record.</change>
+         <change who="MV" when="2017-01-28">Created XML record.</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName xml:id="n1" xml:lang="gez">ትርሲተ፡ ወልድ፡</persName>
-               <persName xml:lang="gez" type="normalized">Tǝrsita Wald</persName>
+               <persName xml:id="n1" xml:lang="gez">አሥራተ፡ ምሕረት፡</persName>
+               <persName xml:lang="gez" type="normalized">ʾAśrāta Mǝḥrat</persName>
                <occupation type="other"/>
             </person>
             <listRelation>
-               <relation name="lawd:hasAttestation"
-                  active="PRS11409TersitaW"
-                  passive="BAVet48">
+               <relation name="saws:hasWritten"
+                  active="PRS11421AsrataM"
+                  passive="BAVet49">
                </relation>
             </listRelation>
          </listPerson>
