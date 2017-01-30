@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Aṣmä Giyorgis Gäbrä Mäsiḥ</title>
+            <title>ʾAṣma Giyorgis Gabra Masiḥ</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,81 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-01-30">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+             
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">አጽመ፡ ጊዮርጊስ፡ ገብረ፡ መሲሕ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAṣma Giyorgis Gabra Masiḥ</persName>
+               <persName xml:lang="gez" xml:id="n2" type="birthName">አለቃ፡ አጽሜ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAlaqā ʾAṣme</persName>
+               <persName xml:lang="gez" xml:id="n3" type="birthName">አለቃ፡ አጥሜ፡</persName>
+               <persName xml:lang="gez" corresp="#n3" type="normalized">ʾAlaqā ʾAṭme</persName>
+                  <persName><roleName type="title">ʾalaqā</roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="Catholicism"/>
+               
+                  <occupation type="literary">writer</occupation>
                   
-                  Aṣmä Giyorgis Gäbrä Mäsiḥ
-               </persName>
-               <occupation> aläqa </occupation>
-            </person>
+               <birth when="1850">He was born at <placeName ref="LOC3806HarrAm">Ḥārr ʾAmbā</placeName> in 
+                  <placeName ref="LOC5597Sawa">Šawā</placeName> in <date>1820</date>.   </birth>
+               <floruit notBefore="1850" notAfter="1915">He was one of the prolific writer of the <persName ref="PRS7006Menilek">Mǝnilǝk II</persName> era. 
+                  He wrote a number of works on historical and religious themes but the most famous one is 
+                  <title ref="LIT2537Yagall">Yagāllā tārik yašawā mangǝśt</title>. He was educated by his father who was a clergyman, as well as by his maternal uncle,
+                  the famous church scholar <roleName type="title">ʾalaqā</roleName><persName ref="PRS9198Taklase">Takla Ṣǝyon ʾƎnyaw</persName>.
+                  Later he came in contact with catholic missionaries at <placeName ref="LOC1464Ankoba">ʾAnkobar</placeName> from whom he learnt French and Latin. 
+                  He rendered his services to both the Ethiopian goverment and Catholic church as a soldier, scribe, judge, dragoman and teacher. </floruit>
+               <death when="1915"> He died at <placeName ref="LOC3806HarrAm">Ḥārr ʾAmbā</placeName>. </death>
+               </person>  
+               <listRelation>
+                  
+                  
+                  <relation name="snap:AllianceWith"
+                     active="PRS2152AsmaGiy"
+                     passive="PRS7006Menilek"
+                     ></relation>
+                  <relation name="snap:NephewOf"
+                     active="PRS2152AsmaGiy"
+                     passive="PRS9198Taklase"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS2152AsmaGiy"
+                     passive="LIT4330yagallaT"
+                     ></relation>
+                     
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS2152AsmaGiy"
+                     passive="LIT2568Yamare"
+                     ></relation>
+                  
+                  
+               </listRelation>
          </listPerson>
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Bairu2003AsmaGiyorgis"/>
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Bairu1967Portraits"/>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+                  
+                 

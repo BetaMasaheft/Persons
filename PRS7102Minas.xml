@@ -47,6 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change when="2016-05-12" who="SG">completed record</change>
          <change when="2016-05-23" who="ES">revised record, name spelling corrected, biography completed, relations corrected, bibliography added</change>
          <change when="2017-01-27" who="SG"> addition to the content</change>
+         <change when="2017-01-30" who="SG"> addition to relation</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -63,9 +64,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 		<persName xml:lang="gez" corresp="n3" type="normalized">ʾAdmās Sagad</persName>
 
 		<occupation type="ruler">Emperor</occupation>
-               <birth>1526</birth>
+               <birth when="1526"></birth>
                <floruit when="1559" evidence="internal">As a boy, Minās was prisoner of <persName ref="PRS1522Ahmadb">ʾAḥmad b. ʾIbrāhīm al-Ġāzī</persName>.
-                  He was then freed in a prisoner exchange in <date>1542</date>. He succeeded his brother <roleName type="title">ʾaṣe</roleName><persName ref="PRS4428Galawdew"> Galāwdewos </persName> </floruit>
+                  He was then freed in a prisoner exchange in <date>1542</date>. He succeeded his brother <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS4428Galawdew"> Galāwdewos </persName>.  </floruit>
                <death when="1563" evidence="internal">1 February 1563</death> 
             </person>
             
@@ -82,7 +84,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   passive="PRS8275SablaD"/>
                <relation name="snap:EmnityFor"
                   active="PRS7102Minas"
-                  passive="PRS10343Yeshaq"></relation>
+                  passive="PRS10343Yeshaq"
+                  ></relation>
+               <relation name="saws:P129i_is_subject_of"
+                  active="PRS7102Minas"
+                  passive="LIT4330Minas"
+                  ></relation>
+           
                <relation name="snap:EmnityFor"
                   active="PRS7102Minas"
                   passive="PRS7692ozdemir"></relation>
@@ -95,7 +103,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <ptr target="bm:Pereira1888Minas"/>
             </bibl>
             <bibl>
-               <ptr target="bm:Kropp1988"/>
+               <ptr target="bm:Kropp1988Shortchr"/>
             </bibl>
          </listBibl>
          <listBibl type="secondary">
