@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Täklä Ṣǝyon Ǝnyäw</title>
+            <title>Takla Ṣǝyon ʾƎnyaw</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,68 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-1-30">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Täklä Ṣǝyon Ǝnyäw
-               </persName>
-               <occupation> aläqa </occupation>
-            </person>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ተክለ፡ ጽዮን፡ እንየው፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Takla Ṣǝyon ʾƎnyaw </persName>
+               <persName><roleName type="title">ʾalaqā</roleName></persName>
+               <nationality type="Ethiopia"/>
+               <faith type="Orthodox"/>
+               <occupation type="ecclesiastic">scholar</occupation>
+        
+               <birth  when="1820"> He was born at <placeName ref="LOC3806HarrAm">Ḥārr ʾAmbā</placeName> in 
+                  <placeName ref="LOC5597Sawa">Šawā</placeName> in <date>1820</date>. </birth>
+               <floruit notBefore="1820" notAfter="1881"> He was a famous 19th century <title ref="LIT4329Andemta">ʾAndǝmtā</title> scholar. 
+                  <persName ref="PRS9198Taklase">Takla Ṣǝyon ʾƎnyaw</persName> was an advocate of the Sost lǝdat doctrine (Saggā).
+                  He took a monastic vow at the monastery of <placeName ref="LOC2259DabraD">Dabra Dǝmāḥ s. Dimā Giyorgis</placeName>
+                
+                in <placeName ref="LOC3549Gojjam">Goǧǧām</placeName> without accepting the Tawaḥǝdo doctrine. <persName ref="PRS9198Taklase">Takla Ṣǝyon ʾƎnyaw</persName>
+                  is cited as one of the informants for an author of   
+                  <title ref="LIT4330yagallaT">YagāllāTārik</title>, <persName ref="PRS2152AsmaGiy">ʾAṣma Giyorgis Gabra Masiḥ</persName>. </floruit>
+               <death when="1881">He died at <placeName ref="gn:281184">Jerusalem</placeName> where he was buried. </death>
+            </person>  
+            <listRelation>
+               <relation name="snap:AllianceWith"
+                  active="PRS9197Taklase"
+                  passive="PRS6860Massaja"
+                  ></relation>
+               
+               <relation name="snap:AllianceWith"
+                  active="PRS9197Taklase"
+                  passive="PRS7006Menilek"
+                  ></relation>
+               <relation name="snap:CousinOf"
+                  active="PRS9197Taklase"
+                  passive="PRS2152AsmaGiy"
+                  ></relation>
+            
+               
+            </listRelation>
          </listPerson>
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Mersha2010TaklaSeyon"/>
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Cowley1974OldTestament"/>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+               
