@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:id="t1">Tanṣǝʾa Krǝstos (probably Tanśǝʾa Krǝstos)</title>
+            <title xml:id="t1">Tanśǝʾa Krǝstos</title>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
@@ -47,16 +47,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  <forename/>
-                  <surname>Tanṣǝʾa Krǝstos (probably Tanśǝʾa Krǝstos)</surname>
+               <persName>Tanśǝʾa Krǝstos
                </persName>
-               <occupation>owner</occupation>
             </person>
             <listRelation>
-               <relation name="lawd:hasAttestation"
+               <relation name="saws:hasOwned"
                          active="PRS11018TanseaK"
-                         passive="BNFet53"><!--Please fix the relation of this item with BNFet53--></relation>
+                         passive="BNFet53"/>
             </listRelation>
          </listPerson>
       </body>
