@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Tayyä Gäbrä Maryam</title>
+            <title>Tāyya Gabra Māryām</title>
+            <editor key="SG"/>  
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,76 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-01-31">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Tayyä Gäbrä Maryam
-               </persName>
-               <occupation> aläqa </occupation>
-            </person>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ታየ፡ ገብረ፡ ማርያም፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Tāyya Gabra Māryām</persName>
+               
+               <persName><roleName type="title">ʾalaqā</roleName></persName>
+               <nationality type="Ethiopia"/>
+               <faith type="Protestantism"/>
+               
+               <occupation type="literary">writer</occupation>
+               
+               <birth when="1860"></birth>
+               <floruit >He was a Protestant educated traditional Ethiopian scholar. </floruit>
+               <death when="1924">  </death>
+            </person>  
+            <listRelation>
+               
+               
+               <relation name="snap:AllianceWith"
+                  active="PRS9347TayyaGa"
+                  passive="PRS7006Menilek"
+                  ></relation>
+            
+               <relation name="saws:isAttributedAuthorOf"
+                  active="PRS9347TayyaGa"
+                  passive="LIT1603Histor"
+                  ></relation>
+               
+               
+               
+            </listRelation>
          </listPerson>
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Gori1999Tayya"/>
+               <biblScope unit="page">65-112</biblScope>
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Aleme1971Taye"/>
+               <biblScope unit="page">14-30</biblScope>
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Aren1999Tayya"/>
+               <biblScope unit="19-58"></biblScope>
+            </bibl>
+            
+            <bibl> 
+               <ptr target="bm:Ezra2010Tayya"/>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+                  
+                 
