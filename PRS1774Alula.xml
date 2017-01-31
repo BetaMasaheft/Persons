@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Alula</title>
+            <title>ʾAlulā</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,26 +46,91 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-01-31">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Alula
-               </persName>
-               <persName type="alt">Alula “Gugsa”</persName>
-               <occupation> däǧǧ.</occupation>
-               <occupation> fit. </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">አሉላ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAlulā</persName>
+               <persName xml:lang="gez" xml:id="n2" type="alt">አሉላ፡ ጉግሳ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAlulā “Gugsā”</persName>
+          
+               
+               <persName><roleName type="title">daǧǧāzmāč</roleName></persName>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="political">ruler </occupation>
+               
+               <floruit >He was one of the most influencial political figure during the time of Zamana masāfǝnt 
+                  who involved in a number of battles  to support the rule of his father, <persName ref="PRS4870GugsaMa">Gugsā Marsā</persName>. In return, he was named governor of <placeName ref="LOC2488Damot">Dāmot</placeName>
+                  and <placeName ref="LOC3549Gojjam">Goǧǧām</placeName>. </floruit>
+               
+               <death when="1822">  </death>
             </person>
             <listRelation>
-               <relation name="fatherOf">
-                  <desc>fath. Ali Alula </desc>
-               </relation>
+               <relation name="snap:SonOf"
+                  active="PRS1774Alula"
+                  passive="PRS4870GugsaMa"
+                  ></relation>
+               <relation name="snap:SonOf"
+                  active="PRS1774Alula"
+                  passive="PRS1821Amatase"
+                  ></relation>
+               <relation name="snap:GrandsonOf"
+                  active="PRS1774Alula"
+                  passive="PRS9142TaklaGi"
+                  ></relation>
+               
+               <relation name="bm:husbandOf"
+                  active="PRS1774Alula"
+                  passive="PRS6643MananLi"
+                  ></relation>
+               <relation name="snap:FatherOf"
+                  active="PRS1774Alula"
+                  passive="PRS1688AliAlul"
+                  ></relation>
+               
             </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Blundell1922Chronicle"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="secondary">
+            
+            <bibl>
+               <ptr target="bm:Ficquet2014AlulaGugsa"/>
+            </bibl>
+            
+            <bibl>
+               <ptr target="bm:Rueppell1840Reise"/>
+              <biblScope unit="page">363-402</biblScope>
+            </bibl>
+      
+            
+         </listBibl>
       </body>
-   </text>
+   </text>   
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  
+                 
