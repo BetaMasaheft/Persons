@@ -11,6 +11,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Tewodros I</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,69 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-01-31">complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+               
                   
-                  Tewodros I
-               </persName>
-               <occupation> aṣe </occupation>
-            </person>
+                  
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">ቴዎድሮስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Tewodros I</persName>
+           
+                  <persName><roleName type="title">ʾaṣe</roleName></persName>
+                  
+                  <occupation type="ruler">Emperor</occupation>
+                  
+                  
+               <floruit notBefore="1413" notAfter="1414"> He was one of the sons of <roleName type="title">ʾaṣe</roleName> <persName ref="PRS3429DawitII">Dāwit II</persName> and
+                  <roleName type="title">ʾǝtege</roleName><persName ref="PRS8795seyonMo">Ṣǝyon Mogasā</persName>. He succeeded his father  <roleName type="title">ʾaṣe</roleName> 
+                  <persName ref="PRS3429DawitII">Dāwit II</persName> in <date>1413</date> and  reigned only for only  nine months. In <title ref="LIT1385Fekkar">Fǝkkāre ʾIyasus</title>, 
+                  he is represented as a "king of the east" who will reign during 40 years of peace before the end of the world.
+                  </floruit>
+                  <death when="1413"></death>
+               </person>
+               <listRelation>
+                  <relation name="snap:SonOf" 
+                     active="PRS9429Tewodros"
+                     passive="PRS3429DawitII"
+                     ></relation>
+                  <relation name="snap:SonOf" 
+                     active="PRS9429Tewodros"
+                     passive="PRS8795seyonMo"
+                     ></relation>
+                  <relation name="snap:BrotherOf"
+                     active="PRS9429Tewodros"
+                     passive="PRS7559NewayaM"
+                     ></relation>
+         
+                  
+               </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Basset1882Chronicle"/>
+            </bibl>
+            
+          </listBibl> 
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Derat2010TewodrosI"/>
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Tadesse1974Succession"/>
+               <biblScope unit="page">501-535</biblScope>
+            </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+                  
+                 
