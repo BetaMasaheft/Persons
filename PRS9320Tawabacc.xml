@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Täwabäčč Ali</title>
+            <title>Tawābačč ʾAli</title>
+            <editor key="SG"/>  
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,72 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-02-01"> Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  
-                  Täwabäčč Ali
-               </persName>
-               <occupation> wäyz. </occupation>
-            </person>
+            <person sex="2">
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ተዋበች፡ አሊ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Tawābačč ʾAli</persName>
+             
+               <persName><roleName type="title">ʾǝtege</roleName></persName>
+               <occupation type="political">queen</occupation>
+               
+               <floruit notBefore="1845" notAfter="1858"> She was the daughter of <roleName type="title">rās</roleName><persName ref="PRS1688AliAlul">ʾAli ʾAlulā </persName> 
+                  who became the first wife of <persName ref="PRS9434Tewodros">Tewodros (II)</persName> in <date>1845</date>.
+                  It was a political marriage designed to curb <persName ref="PRS9434Tewodros">Tewodros (II)</persName>'s ambition as his rise increasingly threatened the rule of  
+                  <roleName type="title">rās</roleName><persName ref="PRS1688AliAlul">ʾAli ʾAlulā </persName>'s mother  
+                  <persName ref="PRS6643MananLi">Manan Liban  ʾAmade</persName> over 
+                  <placeName ref="LOC2481Dambey">Dambǝyā</placeName> and the western Ethiopian borderlands. 
+                  <roleName type="title">ʾaṣe</roleName><persName ref="PRS9434Tewodros">Tewodros (II)</persName> 
+                  is said to have been remained faithful to <persName ref="PRS9320Tawabacc">Tawābačč ʾAli</persName>
+                  during her life time and reluctant to re-marry following her death. </floruit>
+               <death when="1858"></death>
+            </person>  
+            <listRelation>
+               <relation name="bm:wifeOf"
+                  active="PRS9320Tawabacc"
+                  passive="PRS9434Tewodros"
+                  ></relation>
+               
+               <relation name="snap:DaughterOf"
+                  active="PRS9320Tawabacc"
+                  passive="PRS1688AliAlul"
+                  ></relation>
+               <relation name="snap:GranddaughterOf"
+                  active="PRS9320Tawabacc"
+                  passive="PRS6643MananLi"
+                  ></relation>
+               
+            </listRelation>
          </listPerson>
+   
+         <listBibl type="secondary">
+            
+            <bibl> 
+               <ptr target="bm:Crummey2010Tawabacc"/>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Crummey1988Imperial"/>
+               <biblScope unit="page">13-43</biblScope>
+            </bibl> 
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
