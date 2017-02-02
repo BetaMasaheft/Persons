@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Aster Gannoo</title>
+            <title>ʾAster Gānnoo</title>
             <editor key="SG"></editor>
             <editor role="generalEditor" key="AB"/>
             <author/>
@@ -46,20 +46,68 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
-         <change who="SG" when="2017-01-31">complete record</change>
+         <change who="SG" when="2017-02-02">complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="2">
-               <persName>
+               
+                  <persName xml:lang="gez" xml:id="n1" type="alt">አስቴር፡ ጋኖ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAster Gānnoo</persName>
+               <persName xml:lang="gez" xml:id="n2" type="alt">አስቴር፡ ገኖ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAster Gano</persName>
+               <persName xml:lang="gez" xml:id="n3" type="birthName">ሰልባን፡ ጋኖ፡</persName>
+               <persName xml:lang="gez" corresp="#n3" type="normalized">Salbāān Gānnoo</persName>
+               <nationality type="Ethiopia"/>
+               <faith type="Protestantism"/>
+               <occupation type="literary">translator, missionary</occupation>
+               
+           
+     
+               <birth when="1872"> She was born in <placeName ref="LOC3924Illuba">Illubābor</placeName> in <date>1872</date>.</birth>
+               <floruit notBefore="1893" notAfter="1962"> She was a pioneer <persName  ref="ETH1973Oromo">Oromo</persName> 
+                  woman who worked with <persName ref="PRS7660Onesimos">Onesimos Nasib</persName> on the translation of the <title ref="LIT1219Bible">Bible</title>
+                  into <persName  ref="ETH1973Oromo">Oromo</persName> language. 
+                  </floruit>
+               <death when="1962"> she died at <placeName ref="LOC4964Naqamt">Naqamtee</placeName> in <date>1962</date>.</death>
+               </person>  
+               <listRelation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS2170AsterGa"
+                     passive="PRS7660Onesimos"
+                     ></relation>
                   
-                  Aster Gannoo
-               </persName>
-               <occupation> miss. </occupation>
-            </person>
+                  
+               </listRelation>
          </listPerson>
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Mekuria1995Onesimos"/>
+            </bibl>  
+            
+            
+     <bibl> 
+               <ptr target="bm:KebededUnseth2003Aster"/>
+          
+            </bibl> 
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+                  
+               
