@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ṭaytu Bǝṭul</title>
+            <title>Ṭāytu Bǝṭul</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,20 +46,92 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-02-02">complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="2">
-               <persName>
-                  
-                  Ṭaytu Bǝṭul
-               </persName>
-               <persName type="alt">Wälättä Mikaʾel</persName>
-               <occupation> ǝtege </occupation>
-            </person>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ጣይቱ፡ ብጡል፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Ṭāytu Bǝṭul</persName>
+               <persName xml:lang="gez" xml:id="n2" type="baptismalName">ወለተ፡ ሚካኤል፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Walatta Mikāʾel</persName>
+               <persName xml:lang="gez" xml:id="n3" type="regnalName">ብርሃን፡ ዘኢትዮጵያ፡</persName>
+               <persName xml:lang="gez" corresp="#n3" type="normalized">Bǝrhān  Zaʾityoṗyā</persName>
+               
+               <persName><roleName type="title">ʾǝtege</roleName></persName>
+               <occupation type="political">queen</occupation>
+               <birth when="1853">She was born at <placeName ref="LOC3577Gondar">Gondar</placeName>. </birth>
+               <floruit notBefore="1883" notAfter="1910"> She was the wife of   <roleName type="title">ʾaṣe</roleName><persName ref="PRS7006Menilek">Mǝnilǝk II</persName> and
+                  an influencial politician in his court. She married <roleName type="title">ʾaṣe</roleName><persName ref="PRS7006Menilek">Mǝnilǝk II</persName>,  her fifth husband,  
+                  in  <date>1883</date> in the church cermony that took place in <placeName ref="LOC1464Ankoba">ʾAnkobar</placeName>. 
+                  She was coronated as <roleName type="title">ʾǝtege</roleName> on <date>03-10-1889</date>, 
+                  two days after  <roleName type="title">ʾaṣe</roleName><persName ref="PRS7006Menilek">Mǝnilǝk II</persName>'s  coronation as emperor. 
+                  She did not have children with <roleName type="title">ʾaṣe</roleName><persName ref="PRS7006Menilek">Mǝnilǝk II</persName> and was probably a barren. 
+                  <roleName type="title">ʾǝtege</roleName><persName ref="PRS9345taytuBe">Ṭāytu Bǝṭul</persName> was recognized in 
+                  <placeName ref="LOC3010Ethiop">Ethiopia</placeName> as an outstanding beauty  and a clever and educated women. 
+                  <roleName type="title">ʾǝtege</roleName><persName ref="PRS9345taytuBe">Ṭāytu Bǝṭul</persName> was active both in domestic and foreign policy. 
+            
+               </floruit>
+               <death when="1918"> She died in <placeName ref="LOC2976Entott">ʾƎnṭoṭṭo</placeName> in <date>1918</date>. </death>
+            </person>  
+            <listRelation>
+               <relation name="bm:wifeOf"
+                  active="PRS9345taytuBe"
+                  passive="PRS7006Menilek"
+                  ></relation>
+               
+               <relation name="snap:DaughterOf"
+                  active="PRS9345taytuBe"
+                  passive="PRS2755Betulha"
+                  ></relation>
+               <relation name="snap:DaughterOf"
+                  active="PRS9345taytuBe"
+                  passive="PRS10272Yawebda"
+                  ></relation>
+               <relation name="snap:GranddaughterOf"
+                  active="PRS9345taytuBe"
+                  passive="PRS5213haylaMa"
+                  ></relation>
+               <relation name="snap:SisterOf"
+                  active="PRS9345taytuBe"
+                  passive="PRS1776AlulaBe"
+                  ></relation>
+               
+            </listRelation>
          </listPerson>
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Marcus1975MenelikII"/>
+            </bibl>  
+            
+            
+            <bibl> 
+               <ptr target="bm:Rubinkowska2010Taytu"/>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Bairu1972Marriage"/>
+               <biblScope unit="page">13-21</biblScope>
+            </bibl> 
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  
+                  
