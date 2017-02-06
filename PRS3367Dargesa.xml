@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Darge Śahlä Śǝllase (Abba Gersa)</title>
+            <title>Darge Śahla Śǝllāse (ʾAbbā Gersā)</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,90 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-02-06">complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+            
                   
-                  Darge Śahlä Śǝllase (Abba Gersa)
-               </persName>
-               <occupation> ras </occupation>
-            </person>
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">ዳርጌ፡ ሣህለ፡ ሥላሴ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Dārge Śāhla Śǝllāse </persName>
+               <persName xml:lang="gez" xml:id="n2" type="horseName">አባ፡ ጌርሳ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized"> ʾAbbā Gersā</persName>
+               <persName><roleName type="title">rās</roleName></persName>
+                  
+              
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  
+                  
+                  <occupation type="political"></occupation>
+                  
+                  <birth when="1827"></birth>
+               <floruit notBefore="1847" notAfter="1900">He was a prince, royal councillor and provincial governor. He was the son of 
+                  <persName ref="PRS8346sahlase">Śahla Śǝllāse</persName>, born and brought up at <placeName ref="LOC1465Ankoba">ʾAnkobar</placeName>. 
+                  He emerged as a prominent military leader immediately after the death of his father, <persName ref="PRS8346sahlase">Śahla Śǝllāse</persName>. 
+                   In<date>1847-49</date>,  he campaigned in <placeName ref="LOC5482Salale">Salāle</placeName> 
+                  and the neigbouring districts of <persName ref="ETH1012Abbicu">ʾAbbičuu</persName>. A few years later, he was captured
+                  by <roleName type="title">ʾaṣe</roleName><persName ref="PRS9434Tewodros">Tewodros (II)</persName> and 
+                  was confined at <placeName ref="LOC4547Maqdal">Maqdalā</placeName>. After his release by the British in <date>1868</date>, he returned to 
+                  <placeName ref="LOC5597Sawa">Šawā</placeName> and submitted to <roleName type="title">ʾaṣe</roleName> 
+                  <persName ref="PRS7006Menilek">Mǝnilǝk II</persName> to whom he was loyal until his death. </floruit>
+                  <death when="1900"></death>
+                  
+               </person>
+               
+               <listRelation>
+                  <relation name="snap:SonOf"
+                     active="PRS3367Dargesa"
+                     passive="PRS8346sahlase"
+                     ></relation>
+                  <relation name="snap:SonOf"
+                     active="PRS3367Dargesa"
+                     passive="PRS10072Warraye"
+                     ></relation>
+                  <relation name="snap:BrotherOf"
+                     active="PRS3367Dargesa"
+                     passive="PRS5205haylaMa"
+                     ></relation>
+                  <relation name="snap:BrotherOf"
+                     active="PRS3367Dargesa"
+                     passive="PRS8602Sayfusa"
+                     ></relation>
+                  <relation name="snap:CousinOf"
+                     active="PRS3367Dargesa"
+                     passive="PRS7006Menilek"
+                     ></relation>
+                      
+           
+                  
+               </listRelation>
          </listPerson>
+ <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Bairu2005Darge"/>
+            </bibl> 
+            <bibl> 
+               <ptr target="bm:Bairu1975Darge"/>
+               <biblScope unit="page">17-37</biblScope>
+            </bibl> 
+            <bibl> 
+               <ptr target="bm:Bairu1974RasDarge"/>
+               <biblScope unit="page">1-9</biblScope>
+            </bibl> 
+            
+            
+            <bibl> 
+               <ptr target="bm:Bianchi1884Galla"/>
+            </bibl>  
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+                  
+                  
