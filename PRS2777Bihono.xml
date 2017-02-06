@@ -11,6 +11,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Bihono</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,89 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-02-06">complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Bihono
-               </persName>
-               <occupation> rebel </occupation>
-            </person>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ቢሆኖ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Bihono</persName>
+               
+               <persName xml:lang="gez" xml:id="n2" type="birthName">ቢሆኖ፡ ኃያል፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Bihono Ḫāyyāl</persName>
+               
+        
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               
+               <occupation type="other">rebel</occupation>
+               
+          
+                  <floruit   notBefore="1629" notAfter="1632"> He was the commander of the rebel forces of  <roleName type="title">ʾabetohun</roleName>
+                     <persName ref="PRS6609Malkea">Malkǝʾa Krǝstos</persName>, 
+                     who led anti-Catholic rebellion against <persName ref="PRS9038Susenyos">Susǝnyos</persName> between <date>1629-1632</date> from a regional 
+                     base <placeName ref="LOC4259Lasta">Lāstā</placeName> and <placeName ref="LOC6135Wag">Wāg</placeName>. As a commander, 
+                     <persName ref="PRS2777Bihono">Bihono</persName> was  noted for his a brilliant  military victories against the royal army. </floruit>
+               <death when="1632"> He died fighting against the royal army of <roleName type="title">ʾaṣe</roleName> <persName ref="PRS9038Susenyos">Susǝnyos</persName> at 
+                  <placeName ref="LOC6268WaynaD">Waynā Dagā</placeName> in <date>1632</date>. </death>
+            </person>  
+            <listRelation>
+               
+               
+               <relation name="snap:AllianceWith"
+                  active="PRS2777Bihono"
+                  passive="PRS6609Malkea"
+                  ></relation>
+               <relation name="rel:enemyOf"
+                  active="PRS2777Bihono"
+                  passive="PRS9038Susenyos"
+                  ></relation>
+               
+               
+            </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Pereira1892Susenyos"/>
+            </bibl>
+            
+            
+            
+            
+            <bibl>
+               <ptr target="bm:Pereira1900Susenyos"/>
+            </bibl>
+         </listBibl>
+         
+         
+         <listBibl type="secondary">
+                        <bibl> 
+               <ptr target="bm:Wudu1995Wag"/>
+               <biblScope unit="48-52"></biblScope>
+            </bibl>
+            
+            <bibl> 
+               <ptr target="bm:Wudu2003Bihono"/>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  
+                  
