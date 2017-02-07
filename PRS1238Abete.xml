@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Abete</title>
+            <title>ʾAbete</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,20 +46,82 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-02-07">complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Abete
-               </persName>
-               <persName type="alt">Abetye</persName>
-               <occupation> blatten geta </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">አቤቴ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAbete</persName>
+               <persName xml:lang="gez" xml:id="n2" type="alt">አቤትዬ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAbetye</persName>
+               <persName><roleName type="title">blātten getā </roleName></persName>
+               
+               
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               
+               
+               <occupation type="political"> courtier</occupation>
+               
+               
+               <floruit notBefore="1689" notAfter="1701">He was a high ranking dignitary at the court of <roleName type="title">ʾaṣe </roleName>
+                  <persName ref="PRS5616IyasuI">Iyāsu the Great</persName> during the period between <date>1689-1701</date>. <persName ref="PRS1238Abete">ʾAbete
+                  </persName> was very close to  <roleName type="title">ʾaṣe </roleName>
+                  <persName ref="PRS5616IyasuI">Iyāsu the Great</persName> so the king <roleName type="title">ʾaṣe </roleName>
+                  <persName ref="PRS5616IyasuI">Iyāsu the Great</persName> entrusted to him important responsibilities. He became   <roleName type="title">grāzmāč</roleName> in <date>1690</date> and <roleName type="title">daǧǧāmāč</roleName> in <date>1700</date>.
+                  In the same year, he reached the zenith of his career, being appointed <roleName type="title">blātten getā </roleName> by the emperor.
+                  While a <roleName type="title">grāzmāč</roleName>, he participated in a campaign against the <persName ref="ETH1973Oromo">Oromo</persName>
+                  conducted in <placeName ref="LOC3549Gojjam">Goǧǧam</placeName> under the command of <roleName type="title">blātten getā </roleName>
+                  <persName ref="PRS10383Yohanne">Yoḥannǝs</persName>
+               </floruit>
+               <death ref="1701">He died and buried at <placeName ref="LOC2248DabraB">Dabra Bǝrhān Śǝllāse</placeName> in<date>1701</date>.</death>
+               
+               
             </person>
+            
+            <listRelation>
+               <relation name="snap:AllianceWith"
+                  active="PRS1238Abete"
+                  passive="PRS5616IyasuI"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  active="PRS1238Abete"
+                  passive="PRS10383Yohanne"
+                  ></relation>
+               
+               
+               
+               
+            </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Guidi1961Yohannes"/>
+            </bibl>
+         </listBibl>
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Annequin1976Abete"/>
+            </bibl>  
+            
+            
+            
+            <bibl> 
+               <ptr target="bm:Toubkis2003Abre"/>
+            </bibl>  
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+
+                  
+                
