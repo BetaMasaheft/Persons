@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Abre</title>
+            <title>ʾAbre</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,70 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-02-07">complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Abre
-               </persName>
-               <occupation> noble </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">አብሬ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAbre</persName>
+               <persName><roleName type="title">fitāwrāri</roleName></persName>
+               
+               
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               
+               
+               <occupation type="political"> courtier</occupation>
+               
+         
+               <floruit notBefore="1696" notAfter="1712">He was a dignitary at the court of <roleName type="title">ʾaṣe </roleName>
+                  <persName ref="PRS5616IyasuI">Iyāsu the Great</persName> during the period between <date>1696-1712</date>. 
+                  He belonged to the royal army, fulfilling the function of <roleName type="title">fitāwrāri</roleName> in <date>1699</date>
+                  and then he was introduced into the circle revolving around the royal persons. He supported the coming to power of <roleName type="title">ʾaṣe </roleName>
+                  <persName ref="PRS5616IyasuI">Iyāsu the Great</persName>'s son <roleName type="title">ʾaṣe </roleName>
+                  <persName ref="PRS9152TaklaHa">Takla Hāymānot I</persName>. He openly conspired against <roleName type="title">ʾaṣe </roleName>
+                  <persName ref="PRS10473Yostos">Yosṭos</persName> in around <date>1712</date> and was imprisoned. </floruit>
+          
+               
             </person>
+            
+            <listRelation>
+               <relation name="snap:AllianceWith"
+                  active="PRS1283Abre"
+                  passive="PRS5616IyasuI"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  active="PRS1283Abre"
+                  passive="PRS3995Fares"
+                  ></relation>
+               
+               
+               
+               
+            </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Guidi1961Yohannes"/>
+            </bibl>
+         </listBibl>
+         
+         <listBibl type="secondary">
+            
+            
+            <bibl> 
+               <ptr target="bm:Toubkis2003Abre"/>
+            </bibl>  
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+                  
+                  
