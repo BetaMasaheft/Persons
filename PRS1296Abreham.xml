@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Abrǝham</title>
+            <title>ʾAbrǝham</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,22 +46,58 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-02-07">complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Abrǝham
-               </persName>
-               <occupation> St.</occupation>
-               <residence>
-                  <placeName> of Qata </placeName>
+              
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">አብርሃም</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAbrǝhām</persName>
+                  <persName><roleName type="title">ʾabbā </roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <occupation type="ecclesiastic">saint</occupation>
+           
+               <residence> He was a native of <placeName ref="LOC5191Qata">Qātā</placeName>.
                </residence>
-            </person>
+                  
+               <floruit notBefore="1314" notAfter="1344"> He was a monk who lived during the reign of <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS1854Amdase">ʿAmda Ṣǝyon I</persName>.
+                  He established his own community at <placeName ref="LOC2905EndaKi">ʾƎndā Kidāna Mǝḥrat</placeName>
+                  in the province of <placeName ref="LOC2947Endart">ʾƎndartā</placeName>. </floruit>
+                  <death/>
+               </person>
+               <listRelation>
+                  
+                  
+                  
+                  <relation name="saws:P129i_is_subject_of"
+                     active="PRS1296Abreham"
+                     passive="LIT1411GadlaA"
+                     ></relation>
+                  
+               </listRelation>
          </listPerson>
+         
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Ellero1941Enderta"/>
+               <biblScope unit="page">146-72</biblScope>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Luisini2003Abreham"/>
+              
+            </bibl>
+            
+         </listBibl>
       </body>
-   </text>
+   </text>   
 </TEI>
+
+
+
+                  
+                 
