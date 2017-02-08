@@ -46,6 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="SG" when="2016-06-13">Complete record</change>
+         <change who="SG" when="2017-02-08">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -61,8 +62,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                <occupation type="ruler">Emperor</occupation>
            
-               <floruit when="1603" evidence="internal">He became a king in <date>1603</date>. He introduced  a reform to form an organized army under his command and he also made a reform of land ownership to the peasants with a motto “Man is free, land
-                  is tributary”. He was a pro-Catholicism and very close to <persName corresp="PRS7699Paez">Pedro Páez </persName> </floruit>
+               <floruit when="1603" evidence="internal">He became a king in <date>1603</date>. 
+                  He introduced  a reform to form an organized army under his command and he also made a reform of land ownership to the peasants with a motto “Man is free, land
+                  is tributary”. He was a pro-Catholicism and very close to <persName ref="PRS7699Paez">Pedro Páez </persName> </floruit>
            <death when="1604" evidence="internal">October 1604</death>
                
      </person>

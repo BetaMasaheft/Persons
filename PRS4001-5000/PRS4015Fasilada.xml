@@ -12,6 +12,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <titleStmt>
             <title>Fāsiladas</title>
             <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -45,7 +46,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
-         <change who="ES" when="2016-08-03">Complete record</change>
+         <change who="SG" when="2016-08-03">Complete record</change>
+         <change who="SG" when="2017-02-08">Correction, addition to the content </change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -67,9 +69,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
               <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <residence><placeName ref="LOC3577Gondar"> Gondar</placeName></residence>
-           <birth>1603</birth>
-               <floruit when="1632" evidence="internal">He succeeded his father King <persName ref="PRS9038Susenyos"> Susǝnyos </persName> in <date> 1632 </date>. 
-                  He restored Orthodoxy  on <date> 18 June 1632</date>which was denounced during the reign of his father in favour of catholism. 
+           <birth when="1603"></birth>
+               <floruit notAfter="1632"  notBefore="1667">He succeeded his father <roleName type="title">ʾaṣe</roleName><persName ref="PRS9038Susenyos"> Susǝnyos </persName> in <date> 1632 </date>. 
+                  He restored Orthodoxy  on <date> 18 June 1632</date>which was denounced during the reign of his father in favour of catholicism. 
                      </floruit>
                   <death when="1667" evidence="internal">1667</death>
                   </person>
