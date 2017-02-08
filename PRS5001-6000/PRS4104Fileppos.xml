@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="pers"
+     xml:lang="en"
+     xml:id="PRS4104Fileppos">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Filǝṗṗos</title>
+            <editor key="SG"/>
+            <author/>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+            multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                This file is licensed under the Creative Commons
+                Attribution-ShareAlike 4.0. </licence>
+            </availability>
+            <date>2016-03-21</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Prosopography of Ethiopian Written tradition</p>
+            <p>A TEI file converted from the ETHIO-authority
+                                                  google spreadsheet</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="ar">Arabic</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
+         <change who="PL" when="2016-03-21"> Created file from
+                                                  google spreadsheet </change>
+         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-08-19">Complete record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person sex="1">
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ፊሊጶስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized"> Filǝṗṗos </persName>
+               <persName><roleName type="title">ʿǝč̣č̣age</roleName></persName>
+               <occupation type="ecclesiastic"> abbot </occupation>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <birth>1274</birth>
+               <residence><placeName ref="INS0341DL">Dabra Libānos</placeName></residence>
+               <floruit when="1314" evidence="internal">He was the the third abbot of <placeName ref="INS0341DL">Dabra Libānos</placeName> who succeeded his predecessor 
+                  abuna<persName ref="PRS3742ElsaE"> Elsāʿ</persName>in <date>1314</date>. He expanded Christianity in <placeName ref="LOC5597Sawa">Šawā</placeName>
+                  and in the provinces further to the south dispatching 11 pupils of abuna <persName ref="PRS9152TaklaHa"> Takla Hāymānot I</persName>. 
+                  He also openly reproached  King <persName ref="PRS1854Amdase">ʿAmda Ṣǝyon I</persName> for his  marital practices and  his interferences to the church matters. 
+                  He also received suffering during King <persName ref="PRS8595SayfaAr">Sayfa Arʿad</persName>, the son and successor of King <persName ref="PRS1854Amdase">
+                     ʿAmda Ṣǝyon I</persName> and spent some time in custody at <placeName ref="LOC6510Zway">Zwāy </placeName> and was expelled from one province to another.  
+                  His Gadl <title ref ="LIT1445GadlaF">Gadla Filǝṗṗos (za-Dabra Libānos)</title> was supposed to have been written during the tenure of <persName ref ="PRS10408Yohanne">Yoḥannǝs  Kamā</persName> the seventh abbot of 
+                  <placeName ref="INS0341DL">Dabra Libānos</placeName>  
+                  </floruit>
+               <death >1348>He died at the  gae of 74 and was buried at a place called <placeName ref="LOC3775Haqqal">Ḥaqqalet</placeName></death>
+            </person>
+            <listRelation>
+               <relation name= "snap:AllianceWith"
+                  active="PRS4104Fileppos"
+                  passive="PRS8387SalamaI"
+                  ></relation>
+               <relation name= "snap:AllianceWith"
+                  active="PRS4104Fileppos"
+                  passive="PRS10200Yaeqob"
+                  ></relation>
+               <relation name="saws:P129i_is_subject_of" 
+                  active="PRS4104Fileppos"
+                  passive="LIT1445GadlaF"
+                  ></relation>
+                </listRelation>
+         </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Turaiev1908Aaron"/>
+            </bibl>
+         </listBibl>
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Cerulli1943AbbotsDL"/>
+               <biblScope unit="page">226-253</biblScope>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:KaplanundRed2005Feleppos"/>
+            </bibl>  
+         </listBibl>
+      </body>
+   </text>
+</TEI>
+
+
+               
+         

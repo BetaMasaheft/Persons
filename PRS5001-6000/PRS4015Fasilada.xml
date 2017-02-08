@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="pers"
+     xml:lang="en"
+     xml:id="PRS4015Fasilada">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fāsiladas</title>
+            <editor key="SG"/>
+            <author/>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+            multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                This file is licensed under the Creative Commons
+                Attribution-ShareAlike 4.0. </licence>
+            </availability>
+            <date>2016-03-21</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Prosopography of Ethiopian Written tradition</p>
+            <p>A TEI file converted from the ETHIO-authority
+                                                  google spreadsheet</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="ar">Arabic</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
+         <change who="PL" when="2016-03-21"> Created file from
+                                                  google spreadsheet </change>
+         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="ES" when="2016-08-03">Complete record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person sex="1">
+            
+         <persName xml:lang="gez" xml:id="n1" type="birthName">ፋሲለደስ፡</persName>
+                     <persName xml:lang="gez" corresp="#n1" type="normalized">Fāsiladas</persName>
+                     <persName xml:lang="gez" xml:id="n2" type="birthName">ፋሲል፡</persName>
+                     <persName xml:lang="gez" corresp="#n2" type="normalized">Fāsil</persName>
+               <persName><roleName type="title">ʾaṣe</roleName></persName>
+                  <persName xml:lang="gez" xml:id="n3" type="regnalName">ስልጣን፡ ሰገድ፡</persName>
+                  <persName xml:lang="gez" corresp="#n3" type="normalized">Sǝlṭān Sagad I</persName>
+                     <persName xml:lang="gez" xml:id="n4" type="regnalName">ዓለም፡ ሰገድ፡</persName>
+                     <persName xml:lang="gez" corresp="#n3" type="normalized">ʿAlam Sagad</persName>
+      
+                     <occupation type="ruler">Emperor</occupation>
+              <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <residence><placeName ref="LOC3577Gondar"> Gondar</placeName></residence>
+           <birth>1603</birth>
+               <floruit when="1632" evidence="internal">He succeeded his father King <persName ref="PRS9038Susenyos"> Susǝnyos </persName> in <date> 1632 </date>. 
+                  He restored Orthodoxy  on <date> 18 June 1632</date>which was denounced during the reign of his father in favour of catholism. 
+                     </floruit>
+                  <death when="1667" evidence="internal">1667</death>
+                  </person>
+                  <listRelation>
+               <relation name="snap:SonOf" 
+                  active="PRS4013FasilGa"
+                  passive="PRS9038Susenyos"
+                  ></relation>
+               <relation name="snap:BrotherOf"
+                  active="PRS4013FasilGa"
+                  passive="PRS4435Galawdew"
+                  ></relation>
+               <relation name= "snap:BrotherOf"
+                  active ="PRS4013FasilGa"
+                  passive= "PRS10033Wangela"
+                  ></relation>
+               <relation name= "snap:FatherOf"
+                  active="PRS4013FasilGa"
+                  passive= "PRS10375Yohanne"
+                 ></relation>
+     </listRelation>
+         </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Pereira1892Susenyos"/>
+            </bibl>
+            </listBibl>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Pereira1900Susenyos"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Donzel2005Fasiladas"/>
+            </bibl>  
+         </listBibl>
+         </body>
+   </text>
+</TEI>
+
+               
+               

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="pers"
+     xml:lang="en"
+     xml:id="PRS4900Gwangul">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Gwāngul</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            <author/>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+            multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                This file is licensed under the Creative Commons
+                Attribution-ShareAlike 4.0. </licence>
+            </availability>
+            <date>2016-03-21</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Prosopography of Ethiopian Written tradition</p>
+            <p>A TEI file converted from the ETHIO-authority
+                                                  google spreadsheet</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="ar">Arabic</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
+         <change who="PL" when="2016-03-21"> Created file from
+                                                  google spreadsheet </change>
+         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-08-11">Complete record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person sex="1">
+        
+                 
+                  <persName xml:lang="gez" xml:id="n1" type="birthName"> ጉዋንጉል፡</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Guwāānguul which refers in Afan Oromo “Abbā Seru” </persName>
+                  <persName xml:lang="gez" xml:id="n2" type="birthName">ግዋንጉል፡</persName>
+                  <persName xml:lang="gez" corresp="#n2" type="normalized">Gwāngul</persName>
+                  <persName xml:lang="gez" xml:id="n3" type="birthName">ሴሩ፡  ግዋንጉል፡</persName>
+                  <persName xml:lang="gez" corresp="#n3" type="normalized">Seru Gwāngul</persName>
+               <persName><roleName type="title"></roleName></persName>
+
+               <occupation type="ruler">governor</occupation>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <residence></residence>
+             
+               <floruit when="1769" evidence="internal">He emerged as an active political leader at the begining of Zamana Masāfǝnt in<date> 1769</date>.
+                  He was the founder of Warrasek (Yaǧǧu) dynasty which dominated Ethiopia for half a century .</floruit>
+               <death when="1777" evidence="internal"></death>
+            </person>
+            <listRelation>
+               <relation name="snap:GrandfatherOf" 
+                  active="PRS4900Gwangul"
+                  passive="PRS4870GugsaMa"
+                  ></relation>
+               <relation name="snap:FatherOf"
+                  active="PRS4900Gwangul"
+                  passive="PRS1719AliGwan"
+                  ></relation>
+               <relation name="snap:FatherOf"
+                  active="PRS4900Gwangul"
+                  passive="PRS1750Aligaz"
+                  ></relation> 
+               <relation name="snap:AllianceWith"
+                  active="PRS4900Gwangul"
+                  passive="PRS9142TaklaGi"
+                  ></relation>
+              </listRelation>
+         </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Blundell1922Chronicle"/>
+            </bibl>
+         </listBibl>
+            <listBibl type="secondary">
+  
+            <bibl>
+               <ptr target="bm:Budge1966Ethistory"/>
+            </bibl>  
+ 
+   
+            <bibl> 
+               <ptr target="bm:Abir1970Princes"/>
+            </bibl>  
+       
+            <bibl> 
+               <ptr target="bm:CrummeyundRed2005Gwangul"/>
+            </bibl>  
+         </listBibl>
+      </body>
+   </text>
+</TEI>
+
+
+
+               
+               

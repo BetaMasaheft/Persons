@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="pers"
+     xml:lang="en"
+     xml:id="PRS4113Filmona">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Filmonā</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
+            <author/>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+            multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                This file is licensed under the Creative Commons
+                Attribution-ShareAlike 4.0. </licence>
+            </availability>
+            <date>2016-03-21</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Prosopography of Ethiopian Written tradition</p>
+            <p>A TEI file converted from the ETHIO-authority
+                                                  google spreadsheet</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="ar">Arabic</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
+         <change who="PL" when="2016-03-21"> Created file from
+                                                  google spreadsheet </change>
+         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2016-10-18">Complete record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person sex="1">
+         <persName xml:lang="gez" xml:id="n1" type="birthName">ፊልሞና፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Filmonā</persName>
+                  <persName><roleName type="title">ʾabuna</roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <occupation type="ecclesiastic">abbot</occupation>
+                
+               <floruit when="1350"> He was a holy monk from <placeName ref="LOC6569Tegray">Tǝgrāy</placeName> who was active in the 
+                  regions of <placeName ref="LOC2947Endart">ʾƎndartā</placeName> and <placeName ref="LOC5882Tamben">Tamben</placeName>.
+                  He lived in the second half of fourteenth century during the reigns of<persName ref="PRS1854Amdase">ʿAmda Ṣǝyon I</persName>
+                  and <persName ref="PRS8595SayfaAr">Sayfa Arʿad</persName>. He was the nephew and disciple of <persName ref="PRS9086Tadewos"> 
+                     Tādewos</persName> and the founder of the monastery of <placeName ref="LOC2237DabraA">Dabra ʾAysamā</placeName>. 
+                  His succcessor was <persName ref="PRS3800endreyas">ʾƎndrǝyās of Dabra ʿAysamā</persName> </floruit>
+                  <death></death>
+               </person>  
+               <listRelation>
+                  <relation name="snap:NephewOf"
+                     active="PRS4113Filmona"
+                     passive="PRS9086Tadewos"
+                     ></relation>
+                  <relation name="bm:ordainedBy"
+                     active="PRS4113Filmona"
+                     passive="PRS8387SalamaI"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS4113Filmona"
+                     passive="PRS1854Amdase"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS4113Filmona"
+                     passive="PRS3800endreyas"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS4113Filmona"
+                     passive="PRS8595SayfaAr"
+                     ></relation>
+               </listRelation>
+                   
+         </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Allotedelafuye1958Filmona"/>
+            </bibl>
+         </listBibl>
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Kaplan2005Filmona"/>
+            </bibl>
+               
+              
+         </listBibl>
+      </body>
+   </text>
+</TEI>
+
+
+
+
+
+
+
+
+                  
+               
