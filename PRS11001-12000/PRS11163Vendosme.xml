@@ -51,9 +51,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <forename>Jacques</forename>
                   <surname>de Vendosme</surname>
                </persName>
-               <floruit>1632</floruit>
-               <!--From Time field, to be changed into DEATH, BIRTH, or whatever is actually relevant!-->
-               <occupation>priest</occupation>
+               <floruit when="1632"/>
+               <occupation type="ecclesiastic">priest</occupation>
             </person>
             <listRelation>
                <relation name="syriaca:has-relation-to-place" active="PRS11163Vendosme">Nazareth</relation>
