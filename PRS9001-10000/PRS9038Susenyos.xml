@@ -46,6 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="SG" when="2016-05-30">completed the record</change>
+         <change who="SG" when="2017-02-09">correction to date </change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -53,12 +54,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
         
-                  <persName xml:lang="gez" xml:id="n1" type="birthName">ሱስንዮስ፡</persName>
-                  <persName xml:lang="gez" corresp="#n1" type="normalized">Susǝnyos</persName>
+                  <persName xml:lang="gez" xml:id="n1" type="birthName"> ሱስንዮስ፡</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized"> Susǝnyos</persName>
                <persName><roleName type="title">ʾaṣe</roleName></persName>
               
-            <persName xml:lang="gez" xml:id="n2" type="regnalName">ስልጣን፡ ሰገድ፡</persName>
-                  <persName xml:lang="gez" corresp="n2" type="normalized">Sǝlṭan Sagad I</persName>
+            <persName xml:lang="gez" xml:id="n2" type="regnalName"> ስልጣን፡ ሰገድ፡</persName>
+               <persName xml:lang="gez" corresp="n2" type="normalized"> Sǝlṭān Sagad I</persName>
                <nationality type="Ethiopia"/>
                <faith type="Catholicism"/>
                
@@ -71,7 +72,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   having received communion from a Catholic Father,
                   <persName ref="PRS7699Paez">Pedro
                   Páez </persName> </floruit>
-               <death when="1632" evidence="internal">1632</death>
+               <death when="1632" evidence="internal"></death>
               
             </person>
             
