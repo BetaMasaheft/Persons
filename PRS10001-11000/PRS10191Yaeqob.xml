@@ -11,6 +11,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Yāʿǝqob</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -43,6 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
          <change who="SG" when="2016-05-21">completed the record</change>
+         <change who="SG" when="2017-02-11">correction</change>
     
       </revisionDesc>
    </teiHeader>
@@ -50,16 +54,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
- 
-               <persName xml:lang="gez" xml:id="n1">ያዕቆብ፡</persName>
-               <persName xml:lang="gez" type="normalized" corresp="#n1">Yāʿǝqob</persName>
+               
+               <persName xml:lang="gez" xml:id="n1" type="birthName"> ያዕቆብ፡</persName>
+            
+               <persName xml:lang="gez" type="normalized" corresp="#n1"> Yāʿǝqob</persName>
               <persName xml:lang="en" corresp="#n1">Jacob</persName>
                <persName><roleName type="title">ʾabeto</roleName></persName>
                
                
                <occupation type="ruler">prince</occupation>
-             <birth when="1557" cert="unknown">around 1527</birth>
-               <death when="1557" evidence="internal">He died two years before the death of his brother King <persName ref="PRS4428Galawdew">Galāwdewos</persName>who died in <date>1559</date></death>
+             <birth when="1527" cert="medium"> around 1527</birth>
+               <death when="1557" evidence="internal">He died two years before the death of his brother 
+                  <roleName type="title">ʾaṣe</roleName> <persName ref="PRS4428Galawdew">Galāwdewos</persName>who died in <date>1559</date></death>
                
             </person>
             <listRelation>
