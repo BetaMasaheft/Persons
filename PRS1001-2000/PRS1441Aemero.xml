@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Aʾǝmǝro</title>
+            <title>ʾAʾǝmǝro</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,60 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-02-13">complete record </change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Aʾǝmǝro
-               </persName>
-               <occupation> däbtära </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birthName"> አእምሮ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAʾǝmǝro</persName>
+               <persName xml:lang="gez" xml:id="n2" type="alt">ʾAʾǝmǝro of Gondar</persName>
+         
+               <persName><roleName type="title">Dabtarā</roleName></persName>
+               
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               
+               
+               <occupation type="literary">scholar</occupation>
+               
+              
+               <floruit notBefore="1885" notAfter="1888"> He was a famous Dabtarā, master of Qǝne poetry and leading singer. 
+                  <persName ref="PRS1441Aemero">ʾAʾǝmǝro </persName> was a learned clergyman who was said to have 
+                  served the <placeName ref="LOC1676Baata">Baʾatā</placeName> church in <placeName ref="LOC3577Gondar">Gondar</placeName> 
+                  during the last quarter of the 19th century. He was taken captive together with his wife by the Mahdists in <date>1888</date> when they overran the town 
+                  of<placeName ref="LOC4637Matamm">Matammā</placeName>. </floruit>
+           
+               
             </person>
+            
+            <listRelation>
+               <relation name="snap:AllianceWith"
+                  active="PRS1441Aemero"
+                  passive="PRS6164Lammaha"
+                  ></relation>
+            
+               
+            </listRelation>
          </listPerson>
+         
+   
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Bairu2003Aemero"/>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Heruy1917Mattama"/>
+            </bibl>  
+            
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+          
+                  
+                  
