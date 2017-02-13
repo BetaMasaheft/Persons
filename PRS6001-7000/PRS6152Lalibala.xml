@@ -11,6 +11,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Lālibalā</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,6 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="SG" when="2016-07-27">Completed record</change>
+         <change who="SG" when="2017-02-13">addition</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -58,9 +61,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName><roleName type="title">ʾaṣe</roleName></persName>
          
                <occupation type="ruler"> a saint king</occupation>
-               <birth>1160</birth>
-               <floruit when="1133" evidence="internal">He succeeded his brother a saint King <persName ref="PRS5111harbay">Ḥarbāy</persName>. 
-                  He was one of the best known Zagwe kings and one of the most famous Ethiopian rulers reputed as the builders of the
+               <birth when="1160"> </birth>
+               <floruit when="1133" evidence="internal">He succeeded his brother a saint king <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS5111harbay">Ḥarbāy</persName>. 
+                  He was one of the best known Zāgʷe kings and one of the most famous Ethiopian rulers reputed as the builders of the
                   rock hewn churches of <placeName ref="LOC4244Laliba">Lalibalā</placeName> town.
                </floruit>
                <death  when="1173" cert="low" evidence="internal">around 1173</death>
