@@ -6,11 +6,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
      xml:lang="en"
-     xml:id="PRS11434KeflaDengel">
+     xml:id="PRS11435GabraMaryam">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:id="t1">son of the anonymous donor <persName ref="PRS11433Anonym"></persName></title>
+            <title xml:id="t1">Gabra Māryām</title>
             
          </titleStmt>
          <publicationStmt>
@@ -41,22 +41,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="DN" when="2017-02-10">Created XML record</change>
+         <change who="DR" when="2017-02-13">Created XML record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName xml:lang="gez" xml:id="n1" >ክፍለ፡ ድንግል፡</persName>
-               <persName  xml:lang="gez" type="normalized" corresp="#n1"> Kǝfla Dǝngǝl</persName>
+               <persName xml:lang="gez" xml:id="n1" >ገብረ፡ ማርያም፡</persName>
+               <persName  xml:lang="gez" type="normalized" corresp="#n1">Gabra Māryām</persName>
             </person>
             <listRelation>
-               <relation name="snap:SonOf"
-                  active="RS11434KeflaDengel"
-                  passive="PRS11433Anonym">
-               </relation>
-               <relation name="lawd:hasAttestation" active="RS11434KeflaDengel" passive="IVefiopsk3"/>
+               <relation name="saws:hasOwned" active="PRS11435GabraMaryam" passive="BDLaethc7"/>
             </listRelation>
          </listPerson>
       </body>
