@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ǝsṭäzya</title>
+            <title>ʾƎsṭazyā</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,77 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-02-13">complete record </change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Ǝsṭäzya
-               </persName>
-               <occupation> aläqa </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">እስጠዝያ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾƎsṭazyā</persName>
+               <persName xml:lang="gez" xml:id="n2" type="baptisalName">ገብረ፡ እግዚአብሔር፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Gabra ʾƎgziʾabǝḥer </persName>
+            
+               
+               <persName><roleName type="title">ʾalaqā</roleName></persName>
+               
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               
+               
+               <occupation type="literary"> traditional painter </occupation>
+               <birth when="1872"></birth>
+               
+               
+               <floruit notBefore="1882" notAfter="1942"> He was a traditional Ethiopian painter. He received a traditional church education
+                  in <placeName ref="INS0354DB">Dabra Bizan</placeName>.  
+                  After his ordination as a deacon, <persName ref="PRS3887estazya">ʾƎsṭazyā</persName> continued his education in qǝne bet and Zemā bet. 
+                  He studied church painting in the same monastery, possibly under the guidance of <persName ref="PRS4228GabraGi">Gabra Giyorgis</persName> from 
+                  <placeName ref="LOC3549Gojjam">Goǧǧām</placeName>.
+                  It seems that <persName ref="PRS3887estazya">ʾƎsṭazyā</persName>'s main interest was monumental wall-painting. 
+                  He painted murals in the churches of <placeName ref="LOC5932Tegray">Tǝgrāy</placeName>, 
+                  <placeName ref="LOC3577Gondar">Gondar</placeName>and <placeName ref="LOC2991Eritre">Eritrea</placeName>. </floruit>
+               <death when="1942"></death>
+               
+               
             </person>
+            
+            <listRelation>
+               <relation name="snap:AllianceWith"
+                  active="PRS3887estazya"
+                  passive="PRS4228GabraGi"
+                  ></relation>
+               <relation name="bm:husbandOf"
+                  active="PRS3887estazya"
+                  passive="PRS9845Walatta"
+                  ></relation>
+               <relation name="snap:FatherOf"
+                  active="PRS3887estazya"
+                  passive="PRS4091Fessame"
+                  ></relation>
+               
+               
+            </listRelation>
          </listPerson>
+         
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:BalickaWitakowska2005Estazya"/>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Girma1997Esterzia"/>
+            </bibl>  
+            
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+                  
+                  

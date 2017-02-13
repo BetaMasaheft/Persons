@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Lämma Ḫäylu Wäldä Tariq</title>
+            <title>Lammā Ḫaylu Walda Tārik</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,83 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-02-13">complete record </change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+              
+                  <persName xml:lang="gez" xml:id="n1" type="birthName"> ለማ፡ ኀይሉ፡ ወልደ፡ ታሪክ፡ </persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Lammā Ḫaylu Walda Tārik</persName>
+               
                   
-                  Lämma Ḫäylu Wäldä Tariq
-               </persName>
-               <occupation> aläqa </occupation>
+               <persName><roleName type="title">ʾalaqā</roleName></persName>
+                  
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+               <occupation type="literary">scholar</occupation>
+               <birth  when="1868"> He was born at <placeName ref="LOC4549Maqet">Maqet</placeName> in <date>1868</date>. </birth>
+               
+               
+               <floruit notBefore="1883" notAfter="1967"> He was an outstanding Ethiopian traditional church scholar. 
+                  <persName ref="PRS6164Lammaha">Lammā Ḫaylu Walda Tārik</persName>
+                  began his education at the age of tweleve when on his own initiative he learned to read and write at the monastery of 
+                  <placeName ref="LOC2230DabraA">Dabra ʾAbuna ʾAron</placeName> in <placeName ref="LOC4549Maqet">Maqet</placeName>. 
+                  In <date>1874</date>, he consecrated deacon at <placeName ref="LOC2385DabraT">Dabra Tābor</placeName>. 
+                  He spent more than 20 years wandering to various centres of traditional education. Then after, in <date>1883 </date> 
+                  he came to <placeName ref="LOC1216AddisA">ʾAddis ʾAbabā</placeName> where he established good contacts with kings and nobilities.
+                  Before the Italian war of <date>1935-1936</date>, <roleName type="title">ʾalaqā</roleName>
+                  <persName ref="PRS6164Lammaha">Lammā Ḫaylu Walda Tārik</persName> participated in the translation of the 
+                  <title ref="LIT2072NewTes">New Testament</title> into Amharic commissioned by <persName ref="PRS5226haylase">Ḫayla Śǝllāse I</persName>, 
+                  which was printed privately outside <placeName ref="LOC3010Ethiop">Ethiopia</placeName>. </floruit>
+               <death when="1967"> </death>
+               
+               
             </person>
+            
+            <listRelation>
+               <relation name="snap:SonOf"
+                  active="PRS6164Lammaha"
+                  passive="PRS5249hayluLa"
+                  ></relation>
+               <relation name="snap:SonOf"
+                  active="PRS6164Lammaha"
+                  passive="PRS9251TariqAt"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  active="PRS6164Lammaha"
+                  passive="PRS1441Aemero"
+                  ></relation>
+               <relation name="snap:FatherOf"
+                  active="PRS6164Lammaha"
+                  passive="PRS6671Mangestu"
+                  ></relation>
+               
+               
+            </listRelation>
          </listPerson>
+         
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Mangestu1959Tezzta"/>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Asfaw2003LammaHaylu"/>
+            </bibl>  
+            
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+                  
+                  
+                  
+                 
