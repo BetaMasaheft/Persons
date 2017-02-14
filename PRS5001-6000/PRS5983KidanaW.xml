@@ -56,29 +56,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
               
                   <persName xml:lang="gez" xml:id="n1" type="birthName">ኪዳነ፡ ወልድ፡ ክፍሌ፡ </persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Kidāna Wald Kǝfle</persName>
-                  <persName xml:lang="gez" xml:id="n2" type="alt"></persName>
+             
                   
-                  <persName><roleName type="title">Dabtarā</roleName></persName>
+               <persName><roleName type="title">ʾalaqā</roleName></persName>
                   
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   
                   
-                  <occupation type="literary">scholar</occupation>
+                  <occupation type="literary"> scholar</occupation>
                <birth notBefore="1869" notAfter="1872"></birth>
                   
                   
-               <floruit>He was a celebrated Ethiopian theologian, grammarian and lexicographer. 
-                  Kidāna Wald Kǝfle was born to a family of respected ecclesiastics. 
-                  While still very young, <persName ref="PRS5983KidanaW">Kidāna Wald Kǝfle</persName>
+               <floruit notBefore="1892" notAfter="1944">He was a celebrated Ethiopian theologian, grammarian and lexicographer. 
+                  Kidāna Wald Kǝfle was born to a family of respected ecclesiastics. While still very young, he
                   was taught calligraphy by his grandfather <roleName type="title">mamhǝr</roleName><persName ref="PRS10276Yawnatu"/>. 
-                  At the age of 20 he left for <placeName ref="LOC3957Jerusa">Jerusalem</placeName>,  in <date>1890</date>, where he lived for 30 years. 
-                  In <placeName ref="gn:281184"/>, <persName ref="PRS5983KidanaW"/>
-                  was earning a  living by copying manuscripts.  In <placeName ref="LOC3957Jerusa">Jerusalem</placeName> 
-                  he also learned traditional exegesis (Andǝmtā) from a renowned traditional scholar <persName ref="PRS5907KeflaGi"/>. 
-                  <persName ref="PRS5983KidanaW">Kidāna Wald Kǝfle</persName> remianed with <persName ref="PRS5907KeflaGi"/> until 
-                  the later's death in <date>1908</date>. After he returned to <placeName ref="LOC3010Ethiop">Ethiopia</placeName> in <date>1920</date>, 
-                  he prepared several Geez texts with their Amharic commentaries for the publication. Som of these are <ref type="work" corresp="LIT4018Mashafa"/>.</floruit>
+                  At the age of 20 he left for <placeName ref="LOC3957Jerusa"/>,  in <date>1890</date>, where he lived for 30 years. 
+                  In <placeName ref="gn:281184"/>, Kidāna Wald Kǝfle
+                  was earning a  living by copying manuscripts.  In <placeName ref="gn:281184"/>
+                  he also learned traditional exegesis (ʾAndǝmtā) from a renowned traditional scholar <persName ref="PRS5907KeflaGi"/>. 
+                 Kidāna Wald Kǝfle remained with <persName ref="PRS5907KeflaGi"/> until 
+                  the later's death in <date>1908</date>. After he returned to <placeName ref="LOC3010Ethiop"/> in <date>1920</date>, 
+                  he prepared several Gǝʿǝz texts with their Amharic commentaries for the publication. </floruit>
                <death when="1944"></death>
                   
                   
@@ -103,9 +102,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          
          
          <listBibl type="secondary">
-      <!--      <bibl> 
-               <ptr target=""/>
-            </bibl>  -->
+     
             <bibl> 
                <ptr target="bm:BayeRed2007KidanaWold"/>
             </bibl>  

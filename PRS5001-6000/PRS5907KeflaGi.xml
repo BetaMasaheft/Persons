@@ -11,6 +11,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Kǝfla Giyorgis</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,18 +46,86 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-02-14">complete record </change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName xml:id="n1">
-                  Kǝfla Giyorgis
-               </persName>
-               <occupation>dabtarā/mam.</occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ክፍለ፡ ጊዮርጊስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Kǝfla Giyorgis</persName>
+               
+               
+               <persName><roleName type="title">mamhǝr</roleName></persName>
+               
+               <nationality type="Ethiopia"/>
+               <faith type="Catholicism"/>
+               
+               
+               <occupation type="literary"> scholar</occupation>
+               <birth when="1825"> He was born in <placeName ref="LOC1464Ankoba"/> in <date>1825</date>. </birth>
+               
+               
+               <floruit notBefore="1845" notAfter="1908">He was a renown Ethiopian scholar and theologian. 
+                  He studied at various traditional schools in <placeName ref="LOC2393DabraW"/> , <placeName ref="LOC3577Gondar"/> and 
+                  <placeName ref="LOC1464Ankoba"/>. He was a follower of śost lǝdat. Since the situation of the followers of śost lǝdat deteriorated 
+                  after the council of <placeName ref="LOC1980BoruMe"/> in <date>1878</date>,  he exiled
+                  to <placeName ref="LOC4002Karan"/> where he taught Gǝʿǝz in the catholic Mission. In <date>1887</date>, 
+                  Kǝfla Giyorgis left <placeName ref="LOC4002Karan"/> for <placeName ref="gn:3169070"/> where 
+                  he was invited to teach Gǝʿǝz at the Ethiopian college in <placeName ref="gn:3164670"/> where he had an opportunity to learn Latin and Italian, and he became an informant 
+                  and consultant to <persName ref="PRS4876Guidi"/>. Having left <placeName ref="gn:3169070"/> in <date>1897</date>, he went to <placeName ref="LOC3957Jerusa"/>
+                  where he encountered <persName ref="PRS5983KidanaW"/> who became his disciple.  During the elven years they spent, Kǝfla Giyorgis taught 
+                  <persName ref="PRS5983KidanaW"/> sharing with him his vast theological knowledge. 
+               </floruit>
+               <death when="1908"> He died in <placeName ref="gn:281184"/> in <date>1908</date>. </death>
+               
+               
             </person>
+            
+            <listRelation>
+               <relation name="snap:FriendshipFor"
+                  active="PRS5907KeflaGi"
+                  passive="PRS9198Taklase"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  active="PRS5907KeflaGi"
+                  passive="PRS4876Guidi"
+                  ></relation>
+               <relation name="snap:FriendshipFor"            
+                  active="PRS5907KeflaGi"
+                  passive="PRS5983KidanaW"
+                  ></relation>
+               <relation name="snap:FriendshipFor"
+                  active="PRS5907KeflaGi"
+                  passive="PRS9973WaldaSa"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  active="PRS5907KeflaGi"
+                  passive="PRS6324Littmann"
+                  ></relation>
+               
+      
+               
+            </listRelation>
          </listPerson>
+         
+         
+         <listBibl type="secondary">
+            
+            <bibl> 
+               <ptr target="bm:WolkNosnistin2007KeflaGiyorgis"/>
+            </bibl>  
+            
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+               
