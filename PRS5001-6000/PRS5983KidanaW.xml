@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Kidanä Wäld Kǝfle</title>
+            <title>Kidāna Wald Kǝfle</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,78 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-02-14">complete record </change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+              
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">ኪዳነ፡ ወልድ፡ ክፍሌ፡ </persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Kidāna Wald Kǝfle</persName>
+                  <persName xml:lang="gez" xml:id="n2" type="alt"></persName>
                   
-                  Kidanä Wäld Kǝfle
-               </persName>
-               <occupation> sch. </occupation>
-            </person>
+                  <persName><roleName type="title">Dabtarā</roleName></persName>
+                  
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  
+                  
+                  <occupation type="literary">scholar</occupation>
+               <birth notBefore="1869" notAfter="1872"></birth>
+                  
+                  
+               <floruit>He was a celebrated Ethiopian theologian, grammarian and lexicographer. 
+                  <persName ref="PRS5983KidanaW">Kidāna Wald Kǝfle</persName> was born to a family of respected ecclesiastics. 
+                  While still very young, <persName ref="PRS5983KidanaW">Kidāna Wald Kǝfle</persName>
+                  was taught calligraphy by his grandfather <roleName type="title">mamhǝr</roleName><persName ref="PRS10276Yawnatu"> Yawnatu</persName>. 
+                  At the age of 20 he left for <placeName ref="LOC3957Jerusa">Jerusalem</placeName>,  in <date>1890</date>, where he lived for 30 years. 
+                  In <placeName ref="LOC3957Jerusa">Jerusalem</placeName>, <persName ref="PRS5983KidanaW">Kidāna Wald Kǝfle</persName>
+                  was earning a  living by copying manuscripts.  In <placeName ref="LOC3957Jerusa">Jerusalem</placeName> 
+                  he also learned traditional exegesis (Andǝmtā) from a renowned traditional scholar <persName ref="PRS5907KeflaGi">Kǝfla Giyorgis</persName>. 
+                  <persName ref="PRS5983KidanaW">Kidāna Wald Kǝfle</persName> remianed with<persName ref="PRS5907KeflaGi">Kǝfla Giyorgis</persName> until 
+                  the later's death in <date>1908</date>. After he returned to <placeName ref="LOC3010Ethiop">Ethiopia</placeName> in <date>1920</date>, 
+                  he prepared several Geez texts with their Amharic commentaries for the publication. Som of these are <ref type="work" corresp="LIT4018Mashafa"/>.</floruit>
+               <death when="1944"></death>
+                  
+                  
+               </person>
+               
+               <listRelation>
+                  <relation name="snap:SonOf"
+                     active="PRS5983KidanaW"
+                     passive="PRS3280DabruYa"
+                     ></relation>
+                  <relation name="snap:GrandfatherOf"
+                     active="PRS5983KidanaW"
+                     passive="PRS10276Yawnatu"
+                     ></relation>
+                  <relation name="snap:FriendshipFor"            
+                     active="PRS5983KidanaW"
+                     passive="PRS5907KeflaGi"
+                     ></relation>
+                  
+               </listRelation>
          </listPerson>
+         
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target=""/>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:BayeRed2007KidanaWold"/>
+            </bibl>  
+            
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+                  
+                
