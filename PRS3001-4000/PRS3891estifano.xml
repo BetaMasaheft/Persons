@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ǝsṭifanos</title>
+            <title>ʾƎsṭifānos</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,72 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-02-15">complete record </change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+        <persName xml:lang="gez" xml:id="n1" type="birthName">እስጢፋኖስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾƎsṭifānos</persName>
+              
+                     
+               <persName><roleName type="title">ʾafa nǝguś </roleName></persName>
+                     
+                     <nationality type="Ethiopia"/>
+                     <faith type="EOTC"/>
+                     
+                     
+                     <occupation type="political"> official</occupation>
+                     
+                     
+               <floruit notBefore="1865" notAfter="1922"> He was one of the few learned officials of <roleName type="title">ʾaṣe</roleName><persName ref="PRS7006Menilek"/>.
+                  He was small in size and physically frail, but he exercised an immense influence both in political and ecclesiastical affairs. 
+                  He started his career as a clerk in the court of <persName ref="PRS2342Bafana"/> from where he transfered to the service of 
+                  <persName ref="PRS7006Menilek"/> in <date>1870</date>'s. In <date>1893</date>, he raised to the position
+                  of liqa kāhǝnāt of the state and head of <placeName ref="LOC2364DabraS"/> church of <placeName ref="LOC1216AddisA"/>. He continued to serve during the reign of 
+                  <persName ref="PRS5620IyasuV"/> and the first seven years of the reign of <persName ref="PRS10671Zawditu"/>. </floruit>
+               <death when="1922"> He died of illness and buried at the <placeName ref="LOC6064Urael"/> <placeName ref="LOC1216AddisA"/>.</death>
+                     
+                     
+                  </person>
                   
-                  Ǝsṭifanos
-               </persName>
-               <occupation> afä nǝguś </occupation>
-            </person>
+                  <listRelation>
+                     <relation name="snap:AllianceWith"
+                        active="PRS3891estifano"
+                        passive="PRS7006Menilek"
+                        ></relation>
+                     <relation name="snap:AllianceWith"
+                        active="PRS3891estifano"
+                        passive="PRS2342Bafana"
+                        ></relation>
+                     <relation name="snap:AllianceWith"
+                        active="PRS3891estifano"
+                        passive="PRS5620IyasuV"
+                        ></relation>
+                     <relation name="snap:AllianceWith"
+                        active="PRS3891estifano"
+                        passive="PRS10671Zawditu"
+                        ></relation>
+                     
+                  </listRelation>
          </listPerson>
+         
+         
+         <listBibl type="secondary">
+         
+            <bibl> 
+               <ptr target="bm:Bairu2005Estifanos"/>
+            </bibl>  
+            
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+                  
