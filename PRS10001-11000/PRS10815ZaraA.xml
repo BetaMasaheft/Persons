@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:id="t1">Zärʾa Abrǝham</title>
+            <title xml:id="t1">Zarʾa ʾAbrǝhām</title>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
@@ -41,18 +41,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-07-26">Created XML record from Ethio authority google spreadsheet</change>
+         <change who="DR" when="2017-02-15">Adjustments</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  <forename/>
-                  <surname>Zärʾa Abrǝham</surname>
-               </persName>
-               <occupation>donates altar cloth</occupation>
+               <persName  xml:lang="gez"  xml:id="n1">ዘርአ፡ አብርሃም፡</persName>
+               <persName  xml:lang="gez"  corresp="#n1">Zarʾa ʾAbrǝhām</persName>
             </person>
+            <listRelation>
+               <relation name="lawd:hasAttestation" active="PRS10815ZaraA" passive="BNFet32#a4"/>
+            </listRelation>
          </listPerson>
       </body>
    </text>
