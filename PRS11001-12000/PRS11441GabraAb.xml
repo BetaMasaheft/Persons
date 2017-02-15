@@ -6,11 +6,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
      xml:lang="en"
-     xml:id="PRS10940Bakimes">
+     xml:id="PRS11441GabraAb">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:id="t1">Bakimǝs</title>
+            <title xml:id="t1">Gabra ʾAb</title>
+            
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
@@ -40,21 +41,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="PL" when="2016-07-26">Created XML record from Ethio authority google spreadsheet</change>
-         <change who="DR" when="2017-02-15">Adjustments</change>
+         <change who="DR" when="2017-02-15">Created XML record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName  xml:lang="gez"  xml:id="n1">በኪምስ፡</persName>
-               <persName  xml:lang="gez"  corresp="#n1">Bakimǝs</persName>
-               <persName  xml:lang="ar"  xml:id="n2" type="normalized">Bākīmūs</persName>
-               <occupation type="ecclesiastic"><roleName type="title">Abbot</roleName> of <placeName ref="INS0308DQ"/></occupation>
+               <persName  xml:lang="gez"  xml:id="n1">ገብረ፡ አብ፡</persName>
+               <persName  xml:lang="gez"  corresp="#n1">Gabra ʾAb</persName>
             </person>
             <listRelation>
-               <relation name="lawd:hasAttestation" active="PRS10940Bakimes" passive="BNFet32#a24"/>
+               <relation name="saws:hasOwned" active="PRS11441GabraAb" passive="BDLaethe8#p1"/>
             </listRelation>
          </listPerson>
       </body>
