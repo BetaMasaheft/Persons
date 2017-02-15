@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:id="t1">Gäbrä Mikaʾel</title>
+            <title xml:id="t1">Gabra Mikāʾel</title>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
@@ -41,18 +41,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-07-26">Created XML record from Ethio authority google spreadsheet</change>
+         <change who="DR" when="2017-02-15">Adjustments</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  <forename/>
-                  <surname>Gäbrä Mikaʾel</surname>
-               </persName>
-               <occupation>priest</occupation>
+               <persName  xml:lang="gez"  xml:id="n1">ገብረ፡ ሚከኤል፡</persName>
+               <persName  xml:lang="gez"  corresp="#n1">Gabra Mikāʾel</persName>
+               <occupation type="ecclesiastic">priest</occupation>
             </person>
+            <listRelation>
+               <relation name="lawd:hasAttestation" active="PRS10946GabraM" passive="BNFet32#a6"/>
+            </listRelation>
          </listPerson>
       </body>
    </text>

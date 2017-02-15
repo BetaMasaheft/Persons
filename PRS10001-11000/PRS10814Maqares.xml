@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:id="t1">Maqarǝs</title>
+            <title xml:id="t1">Maqārǝs</title>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
@@ -41,18 +41,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-07-26">Created XML record from Ethio authority google spreadsheet</change>
+         <change who="DR" when="2017-02-15">Adjustments</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  <forename/>
-                  <surname>Maqarǝs</surname>
-               </persName>
-               <occupation>abbot Däbrä Qwesqwam</occupation>
+               <persName  xml:lang="gez"  xml:id="n1">መቃርስ፡</persName>
+               <persName  xml:lang="gez"  corresp="#n1" type="normalized">Maqārǝs</persName>
+               <occupation type="ecclesiastic">Abbot of <placeName ref="INS0308DQ"/></occupation>
             </person>
+            <listRelation>
+               <relation name="lawd:hasAttestation" active="PRS10814Maqares" passive="BNFet32#a3"/>
+            </listRelation>
          </listPerson>
       </body>
    </text>

@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:id="t1">Zäkaryas</title>
+            <title xml:id="t1">Zakāryās</title>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
@@ -41,19 +41,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-07-26">Created XML record from Ethio authority google spreadsheet</change>
+         <change who="DR" when="2017-02-15">Adjustments</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  <forename/>
-                  <surname>Zäkaryas</surname>
-               </persName>
-               <persName>Zakarī b. Manr</persName>
-               <occupation>neighbour Däbrä Qwesquam</occupation>
+               <persName  xml:lang="gez"  xml:id="n1">ዘካርያስ፡</persName>
+               <persName  xml:lang="gez"  corresp="#n1" type="normalized">Zakāryās</persName>
+               <persName  xml:lang="ar"  xml:id="n2">زكرى ابن منصور</persName>
+               <persName  xml:lang="ar"  corresp="#n2" type="normalized">[Z]akarī b. Manṣūr</persName>
             </person>
+            <listRelation>
+               <relation name="bm:husbandOf" active="PRS10935Zakarya" passive="PRS10939Melah"/>
+               <relation name="lawd:hasAttestation" active="PRS10935Zakarya" passive="BNFet32#a24"/>
+            </listRelation>
          </listPerson>
       </body>
    </text>
