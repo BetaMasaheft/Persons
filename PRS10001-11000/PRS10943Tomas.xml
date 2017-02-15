@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:id="t1">Tomas</title>
+            <title xml:id="t1">Tomās</title>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
@@ -41,20 +41,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-07-26">Created XML record from Ethio authority google spreadsheet</change>
+         <change who="DR" when="2017-02-15">Adjustments</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  <forename/>
-                  <surname>Tomas</surname>
-               </persName>
-               <floruit>1350</floruit>
-               <!--From Time field!-->
-               <occupation>prior (qessa gabaz) Däbrä Qwesquam</occupation>
+               <persName  xml:lang="gez"  xml:id="n1">ቶማስ፡</persName>
+               <persName  xml:lang="gez"  corresp="#n1">Tomās</persName>
+               <occupation type="ecclesiastic"><roleName type="title">qessa gabaz</roleName> of <placeName ref="INS0308DQ"/></occupation>
+               <floruit when="1350"/>
             </person>
+            <listRelation>
+               <relation name="lawd:hasAttestation" active="PRS10943Tomas" passive="BNFet32#a19"/>
+            </listRelation>
          </listPerson>
       </body>
    </text>
