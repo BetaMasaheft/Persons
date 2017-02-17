@@ -47,6 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-10-05">Complete record</change>
+         <change who="SG" when="2017-02-17"> correction to date, addition of the title </change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -59,17 +60,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" corresp="#n2" type="normalized">māḥletāwi</persName>
                <persName xml:lang="gez" xml:id="n3" type="birthName">ማሕሌታይ፡ </persName>
                <persName xml:lang="gez" corresp="#n3" type="normalized">māḥletāy</persName>
-              <persName><roleName type="title"></roleName></persName>
+               <persName><roleName type="title"> kǝdus </roleName></persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   <occupation type="ecclesiastic"> saint </occupation>
-               <birth> He was born in<placeName ref="LOC1310Aksum">ʾAksum</placeName> most probably in the first half of sixth century</birth>
+               <birth when="0550" cert="medium"> He was born in<placeName ref="LOC1310Aksum">ʾAksum</placeName> 
+                  most probably in the first half of sixth century </birth>
                <floruit > He was highly venerated saint of Ethiopian Orthodox Church. He received a traditional education from a priest of 
-                  <placeName ref="LOC1311AksumS">ʾAksum Ṣǝyon</placeName>, ʾabbā <persName ref="PRS11209Gedewon">  Gedewon </persName>.
+                  <placeName ref="LOC1311AksumS">ʾAksum Ṣǝyon</placeName>, <roleName type="title">ʾabbā </roleName><persName ref="PRS11209Gedewon">  Gedewon </persName>.
                   He is credited with the invention of Ethiopic sacred music and hymnody.
                      
                   </floruit>
-                  <death  ></death>
+                
                </person>  
                <listRelation>
                   
