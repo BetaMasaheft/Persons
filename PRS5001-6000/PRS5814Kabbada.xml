@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Käbbädä Mikaʾel</title>
+            <title>Kabbada Mikāʾel</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,145 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-02-20">complete record </change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Käbbädä Mikaʾel
-               </persName>
-               <occupation> wr. </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ከበደ፡ ሚካኤል፡ </persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Kabbada Mikāʾel</persName>
+             
+               
+        
+               
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               
+               
+               <occupation type="literary">writer</occupation>
+               <occupation type="political">director, ambassador</occupation>
+               <residence ref="LOC1216AddisA">ʾAddis Ababā</residence>
+               <birth notBefore="1914" notAfter="1915">He was born at <placeName ref="LOC1465Ankoba">ʾAnkobar</placeName> 
+                  in<date>1914</date> or <date>1915</date>.</birth>
+               
+               
+               <floruit notBefore="1941" notAfter="1974"> He was one of the most prominent Ethiopian authors of the 20th century. He began his public career after the liberation 
+                  in <date>1941</date>. From<date> 1945-1957</date>, he was employed at the Ministry of Foreign Affairs and the Minsitry of education, and
+                  received the high level positions of Director of the National Library of Ethiopia, General Director of the Ministry of Education, and Vice Minister of Posts. 
+                  In <date>1954</date>, he accompanied <roleName type="title">ʾaṣe</roleName><persName ref="PRS5226haylase"/> 
+                  on official tour to <placeName ref="gn:6252001"/>, and published the account about the journey. He was a member 
+                  and the head of the Antiquities Department of the Goverment, took an active part in establishing Archaeological Museum, and was a 
+                  member of the editorial board of the Annales d'Ethiopie. He was Ethiopia's ambassador extraordinary to the <placeName ref="gn:3164670"/>
+                  at the opening of the Second Ecumenical council in <date>1962</date>. After the revolution of <date>1974</date>
+                  Kabbada Mikāʾel had to leave public service. His houses were confiscated, and he lived in hotles in <placeName ref="LOC1216AddisA"/> in misery till his death. 
+                  He was married but had no children.</floruit>
+               <death when="1998"></death>
+               
+               
             </person>
+            
+            <listRelation>
+               <relation name="snap:SonOf"
+                  active="PRS5814Kabbada"
+                  passive="PRS2080AsadaMi"
+                  ></relation>
+               <relation name="snap:SonOf"
+                  active="PRS5814Kabbada"
+                  passive="PRS2281Aytaggad"
+                  ></relation>
+               <relation name="snap:SonOf"
+                  active="PRS5814Kabbada"
+                  passive="PRS9964Waldasa"
+                  ></relation>
+               <relation name="snap:FriendshipFor"
+                  active="PRS5814Kabbada"
+                  passive="PRS6563Makwanne"
+                  ></relation>
+               <relation name="snap:FriendshipFor"
+                  active="PRS5814Kabbada"
+                  passive="PRS5226haylase"
+                  ></relation>
+               
+               <relation name="saws:isAttributedAuthorOf"
+                  active="PRS5814Kabbada"
+                  passive="LIT1215Berhan"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="PRS5814Kabbada"
+                  passive="LIT2424Tarike"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="PRS5814Kabbada"
+                  passive="LIT2586Yatenb"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="PRS5814Kabbada"
+                  passive="LIT1163AtoBal"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="PRS5814Kabbada"
+                  passive="LIT1106Anibal"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="PRS5814Kabbada"
+                  passive="LIT1044Akeab"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="PRS5814Kabbada"
+                  passive="LIT2398Talall"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="PRS5814Kabbada"
+                  passive="LIT2441Telleq"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="PRS5814Kabbada"
+                  passive="LIT2520Yaalam"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="PRS5814Kabbada"
+                  passive="LIT1543gapane"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="PRS5814Kabbada"
+                  passive="LIT4515AseKaleb"
+                  ></relation>
+               <relation name="bm:isAuthorOfEthiopicTranslation"
+                  active="PRS5814Kabbada"
+                  passive="LIT1706Kayeqe"
+                  ></relation>
+               <relation name="bm:isAuthorOfEthiopicTranslation"
+                  active="PRS5814Kabbada"
+                  passive="LIT4513Romewonna"
+                  ></relation>
+                
+            </listRelation>
          </listPerson>
+         
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Balashova2007Kabbada"/>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Bahru2002Pioneers"/>
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Shiferaw2000Amharic"/>
+               <biblScope unit="page">27-73</biblScope>
+               
+            </bibl>  
+            
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+                  
+                
