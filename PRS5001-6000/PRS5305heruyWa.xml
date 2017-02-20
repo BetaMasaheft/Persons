@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ḫǝruy Wäldä Śǝllase</title>
+            <title>Ḫǝruy Walda Śǝllāse</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,125 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-02-20">complete record </change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+           
+                  <persName xml:lang="gez" xml:id="n1" type="birthName"> ገብረ፡ መስቀል፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Gabra Masqal</persName>
+               <persName xml:lang="gez" xml:id="n2" type="alt"> ኅሩይ፡ ወልደ፡ ሥላሴ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Ḫǝruy Walda Śǝllāse</persName>
+               <persName><roleName type="title"> blātten getā </roleName></persName>
                   
-                  Ḫǝruy Wäldä Śǝllase
-               </persName>
-               <occupation> blatten geta </occupation>
-            </person>
+                  
+                  
+                  
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  
+                  
+                 
+                  <occupation type="political"> civil servant</occupation>
+               <occupation type="literary"> writer </occupation>
+              
+               <birth when="1878">He was born at <placeName ref="LOC4578Marhab"/> 
+                     in <date>1878</date>. </birth>
+                  
+                  
+               <floruit notBefore="1914" notAfter="1938">He was a prominent politician and a leading intellectual of the <persName ref="PRS5226haylase"/> I era . 
+                  His personality was shaped by both traditional and modern education. He received a traditional education in the areas of <placeName ref="LOC4544Manz"/> 
+                  and <placeName ref="LOC5482Salale"/>. Then, he joined the famous school of <placeName ref="LOC2981Entott"/>
+                  where he met his mentor and teacher <persName ref="PRS9897WaldaGi"/> who gave him the name Ḫǝruy by which he has come to be known in history.    
+               
+                  Later Ḫǝruy acquainted with foreign ideas and languages. He learned English at Swedish mission school in northern outskirts of <placeName ref="LOC1216AddisA"
+                  />. He was also able to acquire some French through association with a French veterinary team. He was also frequently travelling abroad. He served as a secretary of  
+                  <placeName ref="LOC1216AddisA"/> municipality from <date>1914-15</date>, as acting mayor of <placeName ref="LOC1216AddisA"/> from 1919-1921, 
+                  as chief judge of special court from<date>1922-1926</date>, as a director-general of foreign minister from<date>1927-30</date> and finally as a 
+                  foreign minister from <date>1931-36</date>.
+                  Ḫǝruy  has left  his mark on national life, not only as a diligent civil servant but also as a prolific writer. He has to his name over 20 books and booklets. 
+                  
+               </floruit>
+               <death when="1938"> He died in exile at <placeName ref="gn:6269131"> England </placeName> in <date>1938</date>.</death>
+                  
+                  
+               </person>
+               
+               <listRelation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS5305heruyWa"
+                     passive="PRS4359Gabrase"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS5305heruyWa"
+                     passive="PRS9897WaldaGi"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS5305heruyWa"
+                     passive="PRS5226haylase"
+                     ></relation>
+                  <relation name="snap:FriendshipFor"
+                     active="PRS5305heruyWa"
+                     passive="PRS10056Warqena"
+                     ></relation>
+                  
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS5305heruyWa"
+                     passive="LIT1677Ityopy"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS5305heruyWa"
+                     passive="LIT2555Yaityo"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS5305heruyWa"
+                     passive="LIT2554Yaityo"
+                     ></relation>
+                  
+                  
+                  
+               </listRelation>
          </listPerson>
+         
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Lamma1971Heruy"/>
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Bahru2007Heruy"/>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Bahru2002Pioneers"/>
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Fusella1987Heruy"/>
+               <biblScope unit="page">23-67</biblScope>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Fusella1984Heruy"/>
+               <biblScope unit="page">15-52</biblScope>
+            </bibl> 
+            
+            <bibl> 
+               <ptr target="bm:Shiferaw2000Amharic"/>
+               <biblScope unit="page">27-73</biblScope>
+               
+            </bibl>  
+            
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+                  
+                
