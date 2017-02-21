@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Gäbrä Ḥǝywät Baykädañ</title>
+            <title>Gabra Ḥǝywat Bāykadāñ</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,20 +46,88 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-02-21">complete record </change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+              
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">ገብረ፡ ሕይወት፡ ባይከዳኝ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Gabra Ḥǝywat Bāykadāñ</persName>
+               <persName xml:lang="gez" xml:id="n2" type="alt">“Gabrihet Soernej”</persName>
                   
-                  Gäbrä Ḥǝywät Baykädañ
-               </persName>
-               <persName type="alt">“Gabrihet Soernej”</persName>
-               <occupation> näggadras </occupation>
-            </person>
+               <persName><roleName type="title">naggādrās </roleName></persName>
+                  
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  
+                  
+                  <occupation type="other"> civil servant </occupation>
+               <occupation type="academic"> scholar</occupation>
+               <birth when="1886">He was born in the district of <placeName ref="LOC1263Adwa"/> in <date>1886</date>.</birth>
+                  
+                  
+               <floruit notBefore="1907" notAfter="1919"> He was the most incisive and profound of the Ethiopian reformist intellectuals of the early 20th century. At his early age,
+                  he travelled to <placeName ref="gn:2782113"/> where he was adopted by a family and got medical education in <placeName ref="gn:2921044"/>. 
+                  Returning to <placeName ref="LOC3010Ethiop"/>, he served the Imperial government. However, he was unhappy to the general adualtion of the post-ʾAdwā 
+                  <placeName ref="LOC3010Ethiop"/>, 
+                  he pinned his hopes for <placeName ref="LOC3010Ethiop"/>'s progress and he wrote his book <title ref="LIT1160AteMen"/> as a recipe for reform that the young prince, 
+                  <persName ref="PRS5620IyasuV"/> would adopt. During the early reign of <persName ref="PRS5226haylase"/>,
+                  he was an inspector of the Addis Ababa-Djibouti railway in <date>1916</date>. He also published his second major work <title ref="LIT1874Manges"/>, 
+                  a treatise on the political economy of <placeName ref="LOC3010Ethiop"/>. </floruit>
+                 <death when="1919"></death>
+                  
+               </person>
+               
+               <listRelation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS4239Gabrahe"
+                     passive="PRS6841MasasaW"
+                     ></relation>
+                   <relation name="snap:AllianceWith"
+                     active="PRS4239Gabrahe"
+                     passive="PRS5226haylase"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"             
+                     active="PRS4239Gabrahe"
+                     passive="LIT1874Manges"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"             
+                     active="PRS4239Gabrahe"
+                     passive="LIT1160AteMen"
+                     ></relation>
+                  
+                  
+               </listRelation>
          </listPerson>
+         
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Bahru2005GabraheywatBaykadan"/>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:GabraḤǝywat1960Mangest"/>
+            </bibl> 
+            <bibl> 
+               <ptr target="bm:Bahru2002Pioneers"/>
+            </bibl> 
+            
+            <bibl> 
+               <ptr target="bm:Shiferaw1994GabraHeywat"/>
+               <biblScope unit="page">106-120</biblScope>
+            </bibl>  
+            
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+                  
+                  
