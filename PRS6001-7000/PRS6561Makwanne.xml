@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mäkwännǝn Ǝndalkaččäw</title>
+            <title>Makwannǝn ʾƎndālkāččaw</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,110 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-02-21"> complete record </change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Mäkwännǝn Ǝndalkaččäw
-               </persName>
-               <occupation> ras </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">መኰንን፡ እንዳልካቸው፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Makwannǝn ʾƎndālkāččaw</persName>
+          
+               
+               <persName><roleName type="title"> rās bitwadad</roleName></persName>
+               
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               
+               
+               <occupation type="political"> minister </occupation>
+               <occupation type="literary">writer</occupation>
+               <birth when="1890"> He was born in <placeName ref="LOC1249Addisg"/> in <date>1890</date>. </birth>
+               
+               
+               <floruit notBefore="1916" notAfter="1963"> He was both an accomplished politician and writer. He received a traditional education at <placeName ref="INS0341DL"/> and 
+                  was then educated at the Emperor's court. From <date>1916</date> until the the time of Italian invasion, he served in various government posts. 
+                  After the liberation, he embarked on a rapid career in the government. In May <date>1941</date>, he became the Minister of the Interior and Chairman of the Council of Ministers. 
+                  In the following year, he was appointed a Prime Minister. In <date>1944</date>, he became the President of the Assembly established to renegotiate the agreement between 
+                  <placeName ref="LOC3010Ethiop"/> and <placeName ref="gn:2635167"/>. </floruit>
+               
+               <death when="1963"> He died in <placeName ref="LOC1216AddisA"/> in <date>1963</date>. </death>
+               
             </person>
+            
+            <listRelation>
+               <relation name="snap:SonOf"
+                  active="PRS6561Makwanne"
+                  passive="PRS3785endalkac"
+                  ></relation>
+               <relation name="snap:SonOf"
+                  active="PRS6561Makwanne"
+                  passive="PRS1259AbonasT"
+                  ></relation>
+               <relation name="bm:husbandOf"
+                  active="PRS6561Makwanne"
+                  passive="PRS10675Zawditu"
+                  ></relation>
+               <relation name="snap:FriendshipFor"
+                  active="PRS6561Makwanne"
+                  passive="PRS5226haylase"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"             
+                  active="PRS6561Makwanne"
+                  passive="LIT2531YadeKo"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"             
+                  active="PRS6561Makwanne"
+                  passive="LIT1839Malkam"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"             
+                  active="PRS6561Makwanne"
+                  passive="LIT1148Arremu"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"             
+                  active="PRS6561Makwanne"
+                  passive="LIT1051Alamwa"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"             
+                  active="PRS6561Makwanne"
+                  passive="LIT2530Yadamd"
+                  ></relation>
+               
+               
+               
+               
+            </listRelation>
          </listPerson>
+         
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:TshehaiBerhane-Sellassie1977Makonnen"/>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Balashova2007Makonnan"/>
+            </bibl> 
+            <bibl> 
+               <ptr target="bm:Bahru2002Pioneers"/>
+            </bibl> 
+            
+            <bibl> 
+               <ptr target="bm:Fellman1996Makonnen"/>
+               <biblScope unit="page">194-95</biblScope>
+               
+            </bibl>  
+            
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+                  
+                 
