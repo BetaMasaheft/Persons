@@ -10,7 +10,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Afäwärq Gäbrä Iyäsus</title>
+            <title>ʾAfawarq Gabra ʾIyasus</title>
+
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +47,112 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-02-22"> complete record </change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Afäwärq Gäbrä Iyäsus
-               </persName>
-               <occupation> näggadras </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birthName"> አፈወርቅ፡ ገብረ፡ ኢየሱስ፡ </persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAfawarq Gabra ʾIyasus</persName>
+               <persName xml:lang="it" xml:id="n2" type="alt">Afevork Ghevre-Jesus</persName>
+               
+               
+               <persName><roleName type="title"> naggādrās </roleName></persName>
+               
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               
+               
+               
+               <occupation type="literary"> writer </occupation>
+               <birth when="1868"> He was born at <placeName ref="LOC6411Zage"/> in <date>1868</date>. </birth>
+               
+               
+               <floruit notBefore="1889" notAfter="1947"> He was a painter, novelist, grammarian, poet, educator and public servant, is considered the pioneer of Amharic prose fiction.
+                  He received traditional education from his grand father <persName ref="PRS3515Denqe"/> at <placeName ref="LOC6307WerraK"/>
+                  Monastery in <placeName ref="LOC6411Zage"/>. He also studied in <placeName ref="gn:3175395"/> from <date>1887-1889</date> . When 
+                  <roleName type="title"> rās </roleName> <persName ref="PRS6554Makwanne"/> was in his diplomatic mission to 
+                  <placeName ref="gn:3175395"/> ʾAfawarq Gabra ʾIyasus served him as an interpreter, and returned with him to <placeName ref="LOC3010Ethiop"/>.
+                  He served the Imperial government in various positions: in <date>1922</date> Custom Director to <placeName ref="LOC2658DerreD"/> with 
+                  <roleName type="title"> naggādrās </roleName>, in <date>1924</date> President of the Special Arbitration Court,  in <date>1932</date> 
+                  <placeName ref="LOC3010Ethiop"/> representative in <placeName ref="gn:3175395"/>. When Ethiopia was liberated in <date>1941</date>, 
+                  he was accused of treason for siding with the Italians during the war 
+                  and was arrested later sentenced to death. But <roleName type="title">ʾaṣe</roleName><persName ref="PRS5226haylase"/> commuted the sentence to life imprisonment.</floruit>
+               
+               <death when="1947"></death>
+               
             </person>
+            
+            <listRelation>
+               <relation name="snap:GrandsonOf"            
+                  active="PRS1451Afawarq"
+                  passive="PRS3515Denqe"
+                  ></relation>
+               <relation name="snap:StepFamilyRelationship"       
+                  active="PRS1451Afawarq"
+                  passive="PRS9345taytuBe"
+                  ></relation>
+               <relation name="snap:AllianceWith"       
+                  active="PRS1451Afawarq"
+                  passive="PRS7006Menilek"
+                  ></relation>
+                   <relation name="saws:isAttributedAuthorOf"             
+                  active="PRS1451Afawarq"
+                  passive="LIT1756Lebbwa"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"             
+                  active="PRS1451Afawarq"
+                  passive="LIT1255Dagmaw"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"             
+                  active="PRS1451Afawarq"
+                  passive="LIT2018Minas"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"             
+                  active="PRS1451Afawarq"
+                  passive="LIT2018Minas"
+                    ></relation>
+               <relation name="saws:isAttributedAuthorOf"             
+                  active="PRS1451Afawarq"
+                  passive="LIT1747Klewop"
+                  ></relation>
+               
+               
+               
+               
+            </listRelation>
          </listPerson>
+         
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Yonas2003AfawarqGabraIyasus"/>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Bahru2002Pioneers"/>
+            </bibl> 
+
+            <bibl> 
+               <ptr target="bm:HaylaGiyorgis1972Afawarq"/>
+            </bibl> 
+            
+            
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+                  
+                 
