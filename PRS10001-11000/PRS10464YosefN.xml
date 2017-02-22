@@ -11,6 +11,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Yosef Nǝguśe</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,79 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-02-22"> complete record </change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ዮሴፍ፡ ንጉሤ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Yosef Nǝguśe </persName>
+               
+               
+               <persName><roleName type="title"> grāzmāč, ʾalaqā</roleName></persName>
+               
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               
+               
+               
+               <occupation type="literary"> secretary </occupation>
+               
+               
+               
+               <floruit notBefore="1868" notAfter="1900"> He was one of the two secretaries of <roleName type="title">ʾaṣe</roleName> <persName ref="PRS7006Menilek"/>.
+                  In the court of <roleName type="title">ʾaṣe</roleName> <persName ref="PRS7006Menilek"/>, he was an indispensible assistant to the emepror. 
+                  While <roleName type="title"> Ṣaḥāfe tǝʿǝzāz</roleName> <persName ref="PRS4359Gabrase"/> was in charge of the home affairs and the correspondence in Amharic,
+                  Yosef thanks to his knowledge of French, was responsible for relation with foreigners and served <persName ref="PRS7006Menilek"/> as a kind of foreign secretary. 
+                  In <date>1889</date>, he involved in the translation of the Amharic version of  Italo-Ethiopian Treaty of Freindship and Commerce. 
                   
-                  Yosef Nǝguśe
-               </persName>
-               <occupation> grazmač </occupation>
+                    </floruit>
+               
+               <death when="1900">He died at <placeName ref="LOC2976Entott"/> in <date>1900</date>.</death>
+               
             </person>
+            
+            <listRelation>
+               <relation name="snap:AllianceWith"            
+                  active="PRS10464YosefN"
+                  passive="PRS7006Menilek"
+                  ></relation>
+               <relation name="snap:FriendshipFor"         
+                  active="PRS10464YosefN"
+                  passive="PRS4359Gabrase"
+                  ></relation>
+               
+               
+               
+            </listRelation>
          </listPerson>
+         
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:ChernestsovRed2014Yosef"/>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Bahru2002Pioneers"/>
+            </bibl> 
+            
+            
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+                  
+                  
