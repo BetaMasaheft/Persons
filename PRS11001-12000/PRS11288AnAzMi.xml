@@ -11,6 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title xml:id="t1">The Three Children</title>
+            
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
@@ -41,19 +42,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-11-17">Created XML record from Ethio authority google spreadsheet</change>
+         <change when="2017-02-23" who="ES">corrected record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person>
-               <persName>
-                  <forename/>
-                  <surname>The Three Children</surname>
-               </persName>
-            </person>
+            <personGrp>
+               
+               
+               
+
+               
+               <persName xml:lang="en">Three Youths in the Furnace</persName>
+               <persName xml:lang="en">Three Children</persName>
+               
+               <death>Anania, Azaria, Misael saved by the Lord from the furnace, commemorated on 2 Taḫśāś</death>
+               
+            </personGrp>
             <listRelation>
-               <relation>Anania, Azaria, Misael saved by Lord from the furnace, commemorated on 2 Tahsas</relation>
+               <relation name="snap:Group" active="PRS11288AnAzMi" passive="PRS11435Azaria PRS11434Anania PRS11436Misael"></relation>
                <relation name="lawd:hasAttestation"
                          active="PRS11288AnAzMi"
                          passive="IVvostochn615"><!--Please fix the relation of this item with IVvostochn615--></relation>
