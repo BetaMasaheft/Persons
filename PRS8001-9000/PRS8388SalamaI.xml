@@ -47,6 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-09-15">Complete record</change>
+         <change who="SG" when="2017-02-23">Corrections </change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -59,15 +60,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <occupation type="ecclesiastic"> metropolitan </occupation>
                <nationality type="Egypt"/>
                <faith type="Coptic"/>
-               <birth>1820</birth>
+               <birth when="1820"></birth>
                <residence><placeName ref="LOC3577Gondar"> Gondar</placeName> </residence>
                
-               <floruit when="1841">He was the 107th metropolitan of the Ethiopian Orthodox Church who was consecrated by<persName ref="PRS2965ButrusV"> Buṭrus VII </persName> at the age of 
-                  21  in <date>1841</date> and  succeeded ʾabuna <persName ref="PRS11137QerellosII">Qerǝllos II</persName>after the church remained without a metropolitan for nearly 13 years.
-                  His first 14 years is characterized by disunity and conflict. But when Emperor <persName ref="PRS9430Tewodros">Tewodros I</persName> assumed the throne the he enjoyed relative peace and authority but it was shor lived. 
+               <floruit notBefore="1841" notAfter="1867">He was the 107th metropolitan of the Ethiopian Orthodox Church who was consecrated by 
+                  <persName ref="PRS2965ButrusV"> Buṭrus VII </persName> at the age of 
+                  21  in <date>1841</date> and  succeeded ʾabuna <persName ref="PRS11137QerellosII"> Qerǝllos II </persName> after the church remained without a metropolitan for nearly 13 years.
+                  His first 14 years is characterized by disunity and conflict. But when <roleName type="title">ʾaṣe</roleName> 
+                  <persName ref="PRS9430Tewodros">Tewodros I</persName> assumed the throne he enjoyed relative peace and authority but it was short lived. 
                 
                </floruit>
-               <death> He died on <date>1867</date></death>
+               <death when="1867"> He died on <date>1867</date>.</death>
             </person>
             <listRelation>
                <relation name=  "snap:AllianceWith"

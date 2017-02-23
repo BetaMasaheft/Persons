@@ -47,6 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-09-15">Complete record</change>
+         <change who="SG" when="2017-02-23"> some changes</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -62,12 +63,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
              
                <residence><placeName ref="LOC3577Gondar"> Gondar</placeName></residence>
                
-               <floruit when="1770">He was a metropolitan of the Ethiopian Orthodox Church who succeeded ʾabuna 
+               <floruit notBefore="1770" notAfter="1803">He was a metropolitan of the Ethiopian Orthodox Church who succeeded ʾabuna 
                   <persName ref="PRS10393Yohanne">Yoḥannǝs III</persName> in <date>1770</date> and arrived in the reign of 
-                  King <persName ref="PRS9153TaklaHa">Takla Hāymānot II</persName> and when rās <persName ref="PRS7091Mikael">Mikāʾel Sǝḥul</persName>
+                  <roleName type="title">ʾaṣe</roleName> <persName ref="PRS9153TaklaHa">Takla Hāymānot II</persName> and when 
+                  <roleName type="title">rās </roleName> <persName ref="PRS7091Mikael">Mikāʾel Sǝḥul</persName>
                   was chief of <placeName ref="LOC6569Tegray">Tǝgrāy</placeName> and the effective master of the Kingdom.  
                </floruit>
-               <death> He died on <date>1803</date></death>
+               <death when="1803"> He died in <date>1803</date>. </death>
             </person>
             <listRelation>
                   <relation name=  "snap:AllianceWith"

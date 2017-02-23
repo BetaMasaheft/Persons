@@ -11,6 +11,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Dillmann</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,6 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-02-15">correction to date </change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,12 +54,44 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                   Christian Friedrich August
-                  Dillmann
-               </persName>
-               <occupation> sch. </occupation>
+                  <forename> Christian Friedrich August</forename>
+                  <surname>Dillmann</surname> </persName>
+               
+               <occupation type="academic">scholar</occupation>
+               <nationality type="Germany"/>
+               <faith type=""/>
+               <birth></birth>
+               <floruit> He was one of the most prominent Ethiopisants of the 19th century 
+               </floruit>
+               <death ><date></date> </death>
             </person>
+            <listRelation>
+               <relation name="snap:AllianceWith"
+                  active="PRS3562Dillmann"
+                  passive=
+                  ></relation>
+            </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target=""/>
+            </bibl>   
+            <bibl> 
+               <ptr target=""/>
+            </bibl>  
+            
+            <bibl> 
+               <ptr target=""/>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Kleiner2005Dillmann"/>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+               

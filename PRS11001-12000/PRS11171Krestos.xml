@@ -47,6 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-09-20">Complete record</change>
+         <change who="SG" when="2017-02-23">Correction</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -61,11 +62,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <faith type="EOTC"/>
              
                <residence><placeName ref="INS0327DHE">Dabra Ḥayq ʾƎsṭifānos</placeName></residence>
-               <floruit>He was the abbot of <placeName ref="INS0327DHE">Dabra Ḥayq ʾƎsṭifānos</placeName> sometime in the reign 
-                  of King <persName ref="PRS8595SayfaAr">Sayfa Arʿad</persName>.
+               <floruit notBefore="1344" notAfter="1371">He was the abbot of <placeName ref="INS0327DHE">Dabra Ḥayq ʾƎsṭifānos</placeName> sometime in the reign 
+                  of <roleName type="title">ʾaṣe</roleName> <persName ref="PRS8595SayfaAr">Sayfa ʾArʿad</persName>.
                   He was the immediate successor of ʿaqqābe saʿat<persName ref="PRS10374Yohanne">Yoḥannǝs</persName>.
         </floruit>
-               <death> </death>
+           
             </person>
             <listRelation>
                <relation name= "snap:AllianceWith"

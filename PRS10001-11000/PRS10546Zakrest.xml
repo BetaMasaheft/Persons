@@ -47,6 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-09-20">Complete record</change>
+         <change who="SG" when="2017-02-23">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -61,11 +62,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <faith type="EOTC"/>
              
                <residence><placeName ref="INS0327DHE">Dabra Ḥayq ʾƎsṭifānos</placeName></residence>
-               <floruit when="1297"> He was the abbot of  <placeName ref="INS0327DHE">Dabra Ḥayq ʾƎsṭifānos</placeName> 
+               <floruit  notBefore="1297" notAfter="1299"> He was the abbot of <placeName ref="INS0327DHE">Dabra Ḥayq ʾƎsṭifānos</placeName> 
                   who succeeded <persName ref="PRS10531Zaiyas"> Zaʾiyasus</persName> in <date>1297</date> 
                   and continued to serve the monastery until <date>1299</date>. 
              </floruit>
-               <death> </death>
+         
             </person>
             <listRelation>
                <relation name= "snap:AllianceWith"

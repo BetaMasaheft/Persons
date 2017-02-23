@@ -47,6 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-09-15">Complete record</change>
+         <change who="SG" when="2017-02-23">Correction</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -62,15 +63,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
              
                <residence><placeName ref="LOC3577Gondar"> Gondar</placeName> </residence>
                
-               <floruit when="1867">He was the metropolitan of Ethiopian Orthodox Church who was consecrated by <persName ref="PRS3500Demetriu">Demetrius II of Alexandria</persName> 
-                  in <date>1867</date>.  He was the immediate successor of ʾabuna <persName ref="PRS8388SalamaI">Salāmā III</persName>. He was consecrated through the official request of 
-                  Emperor <persName ref="PRS10378Yohanne"> Yoḥannǝs IV</persName> whom he consecrated as King of Kings of Ethiopia in <date>1872 </date> at 
-                  <placeName ref="LOC1311AksumS">ʾAksum Ṣǝyon</placeName>. Following the conflict between  Emperor <persName ref="PRS10378Yohanne"> Yoḥannǝs IV</persName>
-                  and Egyptian, he leaned towards his land. This situation created a hostile relation between the two and later he formed an alliance with the strong rival of Emperor <persName ref="PRS10378Yohanne"> Yoḥannǝs IV
+               <floruit notBefore="1867" notAfter="1876">He was the metropolitan of Ethiopian Orthodox Church who was consecrated by <persName ref="PRS3500Demetriu">Demetrius II of Alexandria</persName> 
+                  in <date>1867</date>.  He was the immediate successor of ʾabuna <persName ref="PRS8388SalamaI"> Salāmā III</persName>. He was consecrated through the official request of 
+                  <roleName type="title">ʾaṣe</roleName> <persName ref="PRS10378Yohanne"> Yoḥannǝs IV</persName> whom he consecrated as King of Kings of Ethiopia in <date>1872 </date> at 
+                  <placeName ref="LOC1311AksumS">ʾAksum Ṣǝyon</placeName>. Following the conflict between <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS10378Yohanne"> Yoḥannǝs IV</persName>
+                  and Egyptian, he leaned towards his land. This situation created a hostile relation between the two and later he formed an alliance with the strong rival of 
+                  <roleName type="title">ʾaṣe</roleName><persName ref="PRS10378Yohanne"> Yoḥannǝs IV
                   </persName> King <persName ref="PRS7006Menilek">Mǝnilǝk II</persName>.
                   
                </floruit>
-               <death> He died on <date>1876</date> and buried at <placeName ref="LOC1264Adwa">ʾAdwā</placeName></death>
+               <death when="1876"> He died on <date>1876</date> and buried at <placeName ref="LOC1264Adwa">ʾAdwā</placeName>.</death>
             </person>
             <listRelation>
                <relation name=  "snap:AllianceWith"

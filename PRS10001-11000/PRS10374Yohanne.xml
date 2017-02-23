@@ -48,6 +48,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-09-20">Complete record</change>
+         <change who="SG" when="2017-02-23"> Correction</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -62,13 +63,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <faith type="EOTC"/>
              
                <residence><placeName ref="INS0327DHE">Dabra Ḥayq ʾƎsṭifānos</placeName></residence>
-               <floruit>He was the fourteenth century  abbot of  <placeName ref="INS0327DHE">Dabra Ḥayq ʾƎsṭifānos</placeName> 
-                  during the reign of King <persName ref="PRS8595SayfaAr">Sayfa Arʿad</persName>. He was a very strong abbot who organized the monastery and the services of 
+               <floruit notBefore="1300" notAfter="1400"> He was the fourteenth century abbot of <placeName ref="INS0327DHE">Dabra Ḥayq ʾƎsṭifānos</placeName> 
+                  during the reign of <roleName type="title">ʾaṣe</roleName> <persName ref="PRS8595SayfaAr">Sayfa Arʿad</persName>. 
+                  He was a very strong abbot who organized the monastery and the services of 
                   individual members of the community during his term office. It is not known exactly when his term office started and nor when it came to an end. He was succeeded by
                   ʿaqqābe saʿat<persName ref="PRS11171Krestos">Krǝstos Moʾā</persName>. He had a land grant mentioned in <ref type="mss" corresp="NALE28" xml:id="NALE28"/>
                                     
                </floruit>
-               <death> </death>
+        
             </person>
             <listRelation>
                <relation name= "snap:AllianceWith"

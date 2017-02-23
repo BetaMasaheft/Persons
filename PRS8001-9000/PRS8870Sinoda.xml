@@ -48,6 +48,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-09-13">Complete record</change>
+         <change who="SG" when="2017-02-23">Correction</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -63,14 +64,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                    
                <residence>He was at <placeName ref="LOC6376Yebaba">Yǝbābā</placeName></residence>
                      
-               <floruit when="1671">He was a metropolitan of the Ethiopian Orthodox Church who was consecrated by Coptic Patriarch 
+               <floruit  notBefore="1671" notAfter="1692">He was a metropolitan of the Ethiopian Orthodox Church who was consecrated by Coptic Patriarch 
                   <persName ref="PRS6906Matthew">Matthew (Mātewos) IV</persName> to replace ʾabuna 
                   <persName ref="PRS6071Krestodo">Krǝstodolu [II]</persName> in <date>1671</date> who was imprisoned due to religious controversy.
                   He was very ally  to the King in power until the end of his tenure in <date>1692</date>. 
                
                         .      
                      </floruit>
-                     <death> He died in <date>1699</date> </death>
+                     <death when="1699"> He died in <date>1699</date> </death>
                   </person>
                   <listRelation>
                      <relation name= "bm:ordainedBy "

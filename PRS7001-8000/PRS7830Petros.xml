@@ -48,6 +48,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-09-15">Complete record</change>
          <change who="SG" when="2016-12-08">Correction to transliteration</change>
+         <change who="SG" when="2017-02-23"> some corrections</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -62,7 +63,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <faith type="Coptic"/>
           
                <residence><placeName ref="LOC1114AddiAb"> ʾAddi ʾAbun</placeName> </residence>
-            <floruit when="1882">He was the metropolitan of the Ethiopian Orthodox Church, consecrated by <persName ref="PRS3258CyrilIV"> Cyril IV</persName>  
+            <floruit notBefore="1882" notAfter="1917">He was the metropolitan of the Ethiopian Orthodox Church, consecrated by <persName ref="PRS3258CyrilIV"> Cyril IV</persName>  
                   in <date>1882</date> together with the other three bishops: <persName ref="PRS6876Matewos">Mātewos</persName>, <persName ref="PRS6404Luqas">Luqās</persName> and 
                   <persName ref="PRS11150Marqos">Mārqos</persName>.  He was the successor of ʾabuna <persName ref="PRS2225Atnatewo">ʾAtnātewos</persName> four years after the death of the later.
           </floruit>
