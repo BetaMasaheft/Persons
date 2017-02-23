@@ -47,6 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-09-08">Complete record</change>
+         <change when="2017-02-23" who="ES">corrections in title faith</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -54,26 +55,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                
-               <persName xml:lang="en" xml:id="n1" type="birthName">John the Baptist</persName>
+               <persName xml:lang="en" xml:id="n1" type="main">John the Baptist</persName>
                
-         <persName xml:lang="gez" xml:id="n2" type="birthName">ዮሐንስ፡ መጥምቅ፡ </persName>
+         <persName xml:lang="gez" xml:id="n2">ዮሐንስ፡ መጥምቅ፡ </persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">Yoḥānnǝs Maṭmǝq</persName>
                
-               <occupation type="ecclesiastic">saint, prophet, martyer</occupation>
+               <occupation type="ecclesiastic">saint, prophet, martyr</occupation>
                <nationality type="Israel/Palestine"/>
-                  <faith type="Coptic"/>
+                  <faith type="Judaism"/>
                 
                <note type="commemoration">He is commemorated on <date type="diesNatalis">1 Maskaram</date></note>
                   
-               <floruit > One of the most celebrated biblical figure in the history of christianity. It is believed that he baptised 
-                  <persName ref="PRS5684JesusCh">Jesus Christ</persName> in the bank of Jordan in <date>29 </date>. 
+               <floruit > One of the most celebrated biblical figure in the history of Christianity. It is believed that he baptised 
+                  <persName ref="PRS5684JesusCh">Jesus Christ</persName> on the river Jordan in <date>29 </date>. 
               
                   </floruit>
                   <death ></death>
                </person>
                <listRelation>
-                  <relation name="saws:isAttributedAuthorOf"
-                     ></relation>
+                  
                   
                   <relation name="saws:P129i_is_subject_of" 
                      active="PRS5741Johnthe"
