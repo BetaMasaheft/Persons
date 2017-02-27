@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Gǝrmaččäw Täklä Ḥawaryat</title>
+            <title>Gǝrmāččaw Takla Ḥawāryāt</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,84 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-02-27">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ግርማቸው፡ ተክለ፡ ሐዋርያት፡ </persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Gǝrmāččaw Takla Ḥawāryāt</persName>
+          
+               
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               
+               
+               <occupation type="literary"> writer </occupation>
+               <occupation type="political">statesman</occupation>
+               <birth when="1915">He was born at <placeName ref="LOC3875Hirna"/> in <date>1915</date>. </birth>
+              
+               
+               
+               <floruit notBefore="1941" notAfter="1974"> He was a novelist, play writer and a prominent member of the government. 
+                  His father <roleName type="title"> baǧǝrond</roleName> 
+                  <persName ref="PRS9149Taklaha"/> instilled in him the values of discipline, hard work and patriotism. 
+                  He was fluent in French, received his Bachelor degree in <date>1935</date>. When <placeName ref="gn:3175395"/> 
+                  occupied <placeName ref="gn:337996"/>, in <date>1935</date> he fled to <placeName ref="gn:223816"/>. In early <date>1937</date>,
+                     he decided to return to <placeName ref="LOC1216AddisA"/> and was soon arrested together with many other educated Ethiopians, following the attempt on 
+                  <persName ref="PRS4803Graziani"/>.Then, he was sent to <placeName ref="gn:3175395"/> and spent six years in prison.
+                        After liberation, he served the imperial government in various posts until the revolution,
+                        <date>1974</date>. 
                   
-                  Gǝrmaččäw Täklä Ḥawaryat
-               </persName>
-               <occupation> wr. </occupation>
+               </floruit>
+               <death when="1987"></death>
+               
+               
             </person>
+            <listRelation>
+               <relation name="snap:SonOf"
+                  active="PRS4609Germacca"
+                  passive="PRS9149Taklaha"
+                  ></relation>
+             
+               <relation name="saws:isAttributedAuthorOf"
+                  active="PRS4609Germacca"
+                  passive="LIT1144Araya"
+                  ></relation>
+               
+               
+               
+               
+               
+               
+               
+            </listRelation>
          </listPerson>
+         
+         
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Bahru2002Pioneers"/>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Kendie2005Germaccaw"/>
+            </bibl>  
+            
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+                  
+                  
