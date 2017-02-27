@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Täklä Iyäsus Waqǧǝra</title>
+            <title>Takla Iyasus Wāqǧǝrā </title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,21 +46,80 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-02-27">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+               <persName xml:lang="gez" xml:id="n1" type="birthName"> ነገሮ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized"> Nagaroo </persName>
+          
+               <persName xml:lang="gez" xml:id="n2" type="baptisalName"> ተክለ፡ ኢየሱስ፡ ዋቅጅራ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Takla Iyasus Wāqǧǝrā</persName>
+               <persName xml:lang="gez" xml:id="n3" type="alt"> ተክሌ፡</persName>
+               <persName xml:lang="gez" corresp="#n3" type="normalized">Takle</persName>
                   
-                  Täklä Iyäsus Waqǧǝra
-               </persName>
-               <persName type="alt">Täkle</persName>
-               <occupation> chronicler</occupation>
-               <occupation> aläqa </occupation>
-            </person>
+               <persName><roleName type="title"> ʾalaqā </roleName></persName>
+                  
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  
+                  
+               <occupation type="literary"> chronicler</occupation>
+               <birth notBefore="1867" notAfter="1868"></birth>
+                  
+                  
+                  <floruit notBefore="1889" notAfter="1936"> He was a church educated artist, historian and genealogist who flourished under the patronage of 
+                     <persName ref="PRS9158TaklaHa"/> of <placeName ref="LOC3549Gojjam"/>. He received a traditional church education at 
+                     <placeName ref="LOC2687DimaGi"/>. He went into <persName ref="PRS9158TaklaHa"/> service in <date>1889</date> 
+                           and worked with the master painter <persName ref="PRS5236haylu"/> on murals , illuminations and engravings in the palace as well as in
+                           the churches and monasteries of <placeName ref="LOC3549Gojjam"/>.        
+                  
+                  </floruit>
+               <death when="1936"></death>
+                  
+                  
+               </person>
+            <listRelation>
+               <relation name="snap:SonOf"
+                  active="PRS9173TaklaIy"
+                  passive="PRS9789Waaqger"
+                  ></relation>
+               <relation name="snap:SonOf"
+                  active="PRS9173TaklaIy"
+                  passive="PRS4427Galanee"
+                  ></relation>
+               
+               
+                  
+                  
+               </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Girma2014Goggamchronicle"/>
+            </bibl>
+         </listBibl>
+         
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Molvaer1998Tewodros"/>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Girma2010TaklaIyaus"/>
+            </bibl>  
+            
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+                  
+                  
