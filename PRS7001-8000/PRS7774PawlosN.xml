@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ṗawlos Noñño</title>
+            <title>Ṗāwlos Noñño</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,20 +46,85 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-02-28"> Complete record </change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+         <persName xml:lang="gez" xml:id="n1" type="birthName">ጳውሎስ፡ ኞኞ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized"> Ṗāwlos  Ñoñño</persName>
+               <persName xml:lang="gez" xml:id="n2" type="alt"> አማረ፡ ኞኞ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAmāra Ñoñño</persName>
+           <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
                   
-                  Ṗawlos Noñño
-               </persName>
-               <persName type="alt">Amare Noñño</persName>
-               <occupation> wr. </occupation>
-            </person>
+                  
+                  <occupation type="literary"> writer </occupation>
+               <birth  when="1933"> He was born at <placeName ref="LOC5255Qulleb"/> in <date>1933</date>. </birth>
+                  
+                  
+               <floruit notBefore="1960" notAfter="1992">He was a popular journalist and writer. He published a short fictions and other six works of historical nature. </floruit>
+               <death  when="1992" > He died at <placeName ref="LOC1216AddisA"/></death>
+                  
+                  
+               </person>
+               <listRelation>
+                  <relation name="snap:SonOf"
+                     active="PRS7774PawlosN"
+                     passive="PRS9365Tebalcal"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS7774PawlosN"
+                     passive="LIT1203Baseto"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS7774PawlosN"
+                     passive="LIT2525Yaarad"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS7774PawlosN"
+                     passive="LIT2540Yageta"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS7774PawlosN"
+                     passive="LIT1306Debleq"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS7774PawlosN"
+                     passive="LIT2557Yaityo"
+                     ></relation>
+                  
+                  
+                  
+                  
+                  
+               </listRelation>
          </listPerson>
+         
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Asfaw2010Pawlos"/>
+            </bibl>  
+            <bibl>
+               <ptr target="bm:Kane1975Amharic"/>
+            </bibl>
+            
+            
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+                  
+            
