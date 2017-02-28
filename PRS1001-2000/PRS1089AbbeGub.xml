@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Abbe Gubäñña</title>
+            <title> ʾAbbe Gubaññā </title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,102 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-02-28"> Complete record </change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+           
+                  <persName xml:lang="gez" xml:id="n1" type="birthName"> አቤ፡ ጉበኛ፡ </persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized"> ʾAbbe Gubaññā </persName>
                   
-                  Abbe Gubäñña
-               </persName>
-               <occupation> wr. </occupation>
-            </person>
+                  
+                                   
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  
+                  
+                  <occupation type="literary"> writer</occupation>
+               <birth when="1933">He was born at <placeName ref="LOC1071Acafar"/> in <date>1933</date>. </birth>
+                  
+                  
+                  <floruit notBefore="1958"  notAfter="1980"> He was an important 20th century  author. After he received a traditional education, he joined the modern government school.
+                     He then worked as a journalist at the Ministry of Information, beginning in <date>1958/59</date>, and later an employee at the Ministry of Health, 
+                     after which he opted to earn his living by writing. He became a versatile writer. He published 21 books in Amharic and two in English.
+                  </floruit>
+                  <death when="1980" ></death>
+                  
+                  
+               </person>
+               <listRelation>
+                  <relation name="snap:SonOf"
+                     active="PRS1089AbbeGub"
+                     passive="PRS4857Gubanna"
+                     ></relation>
+                  <relation name="snap:SonOf"
+                     active="PRS1089AbbeGub"
+                     passive="PRS10290Yegardu"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS1089AbbeGub"
+                     passive="LIT2576Yaroma"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS1089AbbeGub"
+                     passive="LIT1054Alewwa"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS1089AbbeGub"
+                     passive="LIT2571Yapatr"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS1089AbbeGub"
+                     passive="LIT2008Melkea"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS1089AbbeGub"
+                     passive="LIT1749Kresty"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS1089AbbeGub"
+                     passive="LIT1257Damyal"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS1089AbbeGub"
+                     passive="LIT2175Polati"
+                     ></relation>
+                  
+                  
+                  
+                   
+                  
+                  
+                  
+               </listRelation>
          </listPerson>
+         
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Fekade2003Abbe"/>
+            </bibl>  
+            <bibl>
+               <ptr target="bm:Kane1975Amharic"/>
+            </bibl>
+            
+            
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+                  
+                  
