@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Bǝrhanu Zäryǝhun</title>
+            <title>Bǝrhānu Zaryǝhun</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,111 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-02-28"> Complete record </change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+             
                   
-                  Bǝrhanu Zäryǝhun
-               </persName>
-               <occupation> wr. </occupation>
-            </person>
+                  <persName xml:lang="gez" xml:id="n1" type="birthName"> ብርሃኑ፡ ዘርይሁን፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized"> Bǝrhānu Zaryǝhun </persName>
+                  
+                  
+                  
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  
+                  
+                  <occupation type="literary"> writer</occupation>
+               <birth notBefore="1933" notAfter="1934">He was born at <placeName ref="LOC3577Gondar"/> between <date>1933-1934</date> . </birth>
+                  
+                  
+               <floruit notBefore="1959"  notAfter="1987"> He was a prominent Amharic writer. He received his elementary education
+                  in <placeName ref="LOC3577Gondar"/>, then graduated from <placeName ref="LOC1216AddisA"/> Technical School in <date>1956/57</date> 
+                  specializing in radio mechanics. 
+                  But he left his field of specialization and turned to journalism, made swift progress from a curb reporter up to the editor in chief until <date>1966/67</date>. 
+                  He authored novels and plays. </floruit>
+               <death  when="1987" > He died at <placeName ref="LOC1216AddisA"/> in <date>1987</date>.</death>
+                  
+                  
+               </person>
+               <listRelation>
+                    <relation name="saws:isAttributedAuthorOf"
+                       active="PRS2705Berhanu"
+                       passive="LIT1669Hulatt"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS2705Berhanu"
+                     passive="LIT1263Delkam"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS2705Berhanu"
+                     passive="LIT2526Yabada"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS2705Berhanu"
+                     passive="LIT1094Amanue"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS2705Berhanu"
+                     passive="LIT2588Yatewo"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS2705Berhanu"
+                     passive="LIT1216Berram"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS2705Berhanu"
+                     passive="LIT1823Maebal"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS2705Berhanu"
+                     passive="LIT2023Moras"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS2705Berhanu"
+                     passive="LIT2426tatann"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS2705Berhanu"
+                     passive="LIT1004AbbaNa"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS2705Berhanu"
+                     passive="LIT2582Yatang"
+                     ></relation>
+                       </listRelation>
          </listPerson>
+         
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Balashova2003Berhanu"/>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Molvaer1997Black"/>
+            </bibl>  
+            
+            <bibl>
+               <ptr target="bm:Kane1975Amharic"/>
+            </bibl>
+            
+            
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+                  
+               
