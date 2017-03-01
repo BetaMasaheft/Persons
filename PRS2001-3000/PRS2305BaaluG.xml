@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Bäʿalu Gǝrma (Bäʿalu Ǧämnadas)</title>
+            <title>Baʿalu Gǝrmā </title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,113 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-03-01">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+               
                   
-                  Bäʿalu Gǝrma (Bäʿalu Ǧämnadas)
-               </persName>
-               <occupation> wr. </occupation>
-            </person>
+                  <persName xml:lang="gez" xml:id="n1" type="birthName"> በዓሉ፡ ግርማ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Baʿalu Gǝrmā</persName>
+               <persName xml:lang="gez" xml:id="n2" type="alt"> በዓሉ፡ ጀምናዳስ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Baʿalu Ǧamnādās</persName>
+               
+                  
+                  
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  
+                  
+                  <occupation type="literary"> writer </occupation>
+                  
+                  <birth when="1938"> </birth>
+                  
+                  
+                  
+                  <floruit notBefore="1958" notAfter="1984">He was the well known journalist and novelist. He was also the editor of the 
+                     Newspapers such as Addis Reporter, Manan and Addis Zaman. In his final years, he was one of the top officials of the military government 
+                     who served as a Permanent Secretary at the Ministry of Information. 
+                  </floruit>
+                  <death when="1984">He died at <placeName ref="LOC1216AddisA"/> in <date>1984</date>.</death>
+                  
+                  
+               </person>
+               <listRelation>
+                  
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS2305BaaluG"
+                     passive="LIT1703Kadmas"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS2305BaaluG"
+                     passive="LIT2547Yahell"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS2305BaaluG"
+                     passive="LIT2572Yaqayy"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS2305BaaluG"
+                     passive="LIT1260Darasi"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS2305BaaluG"
+                     passive="LIT2161Oromay"
+                     ></relation>
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+               </listRelation>
          </listPerson>
+         
+         
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Fekade2003Bealu"/>
+            </bibl>  
+                        <bibl> 
+               <ptr target="bm:Molvaer1997Black"/>
+            </bibl>  
+            
+            <bibl>
+               <ptr target="bm:Kane1975Amharic"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Fekade1988Intellectual"/>
+            </bibl>
+            
+            
+            
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+                  
+               
