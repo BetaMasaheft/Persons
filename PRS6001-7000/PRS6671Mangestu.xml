@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mängǝśtu Lämma</title>
+            <title>Mangǝśtu Lammā</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,144 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-03-06">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+         
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">መንግስቱ፡ ለማ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Mangǝśtu Lammā</persName>
                   
-                  Mängǝśtu Lämma
-               </persName>
-               <occupation> wr. </occupation>
-            </person>
+                  
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  
+                  
+                  <occupation type="literary">writer</occupation>
+              
+               <birth when="1928">He was born at <placeName ref="LOC3786Harar"/> in<date>1928</date>. </birth>
+                  
+                  
+                  
+                  <floruit notBefore="1953" notAfter="1988">He was the prominent Ethiopian author, poet and playwright. At his childhood,
+                     he received a traditional church education and modern education in the elementary school opened by the the Italians for natives. 
+                     After liberation, he continued his modern education at a government school. Then, he joined Kotabe Secondary School. He completed his graduate studies in 
+                     <placeName ref="gn:2635167"/> and he returned to<placeName ref="LOC3010Ethiop"/> in <date>1953/54</date>.
+                     He served at Civil Aviation, Ministry of Foreign Affairs, Ministry of Culture and later transfered to <placeName ref="LOC1216AddisA"/>
+                     University to teach at the Department of Theatre Arts.
+                     
+                  </floruit>
+               <death when="1988">He died at<placeName ref="LOC1216AddisA"/> in <date>1988</date>.</death>
+                  
+                  
+               </person>
+               <listRelation>
+                  <relation name="snap:SonOf"
+                     active="PRS6671Mangestu"
+                     passive="PRS6164Lammaha"
+                     ></relation>
+                  
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS6671Mangestu"
+                     passive="LIT2524Yaandg"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS6671Mangestu"
+                     passive="LIT2524Yaandg"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS6671Mangestu"
+                     passive="LIT2541Yagete"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS6671Mangestu"
+                     passive="LIT2528Yabbat"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS6671Mangestu"
+                     passive="LIT2560Yalacc"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS6671Mangestu"
+                     passive="Ṭälfo bäkise"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS6671Mangestu"
+                     passive="LIT2430tayyaq"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS6671Mangestu"
+                     passive="LIT2288sarako"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS6671Mangestu"
+                     passive="LIT2313semmiy"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS6671Mangestu"
+                     passive="LIT2519Yaalam"
+                     ></relation>
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+               </listRelation>
          </listPerson>
+         
+         
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Bahru2002Pioneers"/>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Fekade2007Mangestu"/>
+            </bibl> 
+            <bibl> 
+               <ptr target="bm:Pankhurst1988Mangestu"/>
+            <biblScope unit="page">199-213</biblScope>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Tasfaye1988Mangestu"/>
+               <biblScope unit="page">195-197</biblScope>
+            </bibl>  
+            
+            
+            
+            
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+               
