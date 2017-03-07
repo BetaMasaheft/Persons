@@ -6,7 +6,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
      xml:lang="en"
-     xml:id="PRS11229TaklaBe">
+     xml:id="PRS11473TaklaBe">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -40,7 +40,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="PL" when="2016-11-17">Created XML record from Ethio authority google spreadsheet</change>
+         <change who="MV" when="2017-03-07">Created XML record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -49,12 +49,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName  xml:lang="gez" xml:id="n1">ተክለ፡ ብርሃን፡</persName>
                <persName  xml:lang="gez" type="normalized" corresp="#n1">Takla Bǝrhān</persName>
-               <occupation type="ecclesiastic">priest</occupation>
             </person>
             <listRelation>
-               <relation name="lawd:hasAttestation"
-                         active="PRS11229TaklaBe"
-                         passive="BAVet5"><!--Please fix the relation of this item with BAVet5--></relation>
+               <relation name="saws:hasOwned" active="PRS11473TaklaBe" passive="BAVet62"/>
             </listRelation>
          </listPerson>
       </body>
