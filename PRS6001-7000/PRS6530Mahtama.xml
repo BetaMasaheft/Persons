@@ -10,7 +10,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Maḫtämä Śǝllase Wäldä Mäsqäl</title>
+            <title>Māḫtama Śǝllāse Walda Masqal</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +47,77 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-03-07">completed the record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+           <persName xml:lang="gez" xml:id="n1" type="birthName"> ማኅተመ፡ ሥላሴ፡ ወልደ፡ መስቀል፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Māḫtama Śǝllāse Walda Masqal</persName>
+               <persName><roleName type="title">Blātten getā</roleName></persName>
                   
-                  Maḫtämä Śǝllase Wäldä Mäsqäl
-               </persName>
-               <occupation> blatt. </occupation>
-            </person>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                <occupation type="literary">writer</occupation>
+               <occupation type="political"> government official</occupation>
+                  
+               <birth when="1904">He was born at <placeName ref="LOC2008Bulga"/> in <date>1904</date>.</birth>
+               <floruit notBefore="1921" notAfter="1978"> He was the most prominent writer and government official during the reign of <persName ref="PRS5226haylase"/>. 
+                  He started to work for the government in <date>1921</date>. Two years later, he was sent abroad by the government for further studies.
+                  He went first to <placeName ref="LOC2085Cairo"/> and then <placeName ref="gn:3017382"/> where he studied for six years. 
+                  He served the Imperial government as a senior aid to <persName ref="PRS2112AsfaWas"/> 
+                  from<date>1933</date> to <date>1935</date>, as Director General of the Ministry of Agriculture in <date>1946</date>, 
+                  later Minister  of Agriculture  in <date>1954</date>, Minister of finance in <date>1958</date> and he became Minsiter of Public Works in <date>1961</date>. </floruit>
+               <death when="1978"> He died at <placeName ref="LOC1216AddisA"/> in <date>1978</date>.</death>
+                  
+               </person>
+               
+               <listRelation>
+                  <relation name="snap:SonOf"
+                     active="PRS6530Mahtama"
+                     passive="PRS9942WaldaMa"
+                     ></relation>
+                  <relation name="snap:SonOf"
+                     active="PRS6530Mahtama"
+                     passive="PRS3390DastaAy"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS6530Mahtama"
+                     passive="PRS5226haylase"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS6530Mahtama"
+                     passive="LIT2607Zekran"
+                     ></relation>
+                  
+                  
+                     
+       
+                  
+               </listRelation>
          </listPerson>
+         
+ 
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Milkias2007Mahtama"/>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Sergew1980Writers"/>
+               <biblScope unit="page">85-93</biblScope>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Vanderlidern1966Law"/>
+               <biblScope unit="page">227-83</biblScope>
+            </bibl>  
+            
+            
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+               
