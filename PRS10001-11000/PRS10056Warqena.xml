@@ -10,7 +10,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Wärqǝnäh Ǝšäte</title>
+            <title>Warqǝnah ʾƎšate</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,21 +47,66 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-03-07">completed the record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+        
                   
-                  Wärqǝnäh Ǝšäte
-               </persName>
-               <persName type="alt">Charles Martin</persName>
-               <occupation> azzaž</occupation>
-               <occupation> ḥakim </occupation>
-            </person>
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">ወርቅነህ፡ እሸቴ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Warqǝnah ʾƎšate</persName>
+               <persName><roleName type="title">ʾazzāž, ḥakim</roleName></persName>
+                  
+                  
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                
+               <occupation type="political">statesman</occupation>
+               <occupation type="literary">Writer</occupation>
+                  
+                  
+               <birth when="1865"> He was born at <placeName ref="LOC3577Gondar"/> in <date>1865</date>. </birth>
+                  <floruit notBefore="1899" notAfter="1952"> He was a statesman, diplomat, administrator and author. He was the first Ethiopian's western trained physician 
+                     who significantly influenced modern medicine, education and modern economic development. </floruit>
+                  <death when="1952"> He died at <placeName ref="LOC1216AddisA"/> in <date>1952</date>.</death>
+                  
+               </person>
+               
+               <listRelation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS10056Warqena"
+                     passive="PRS5226haylase"
+                     ></relation>
+                  
+                  
+                  
+               </listRelation>
          </listPerson>
+         
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Garretson2010Warqenah"/>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Bahru2002Pioneers"/>
+             
+            </bibl> 
+            <bibl> 
+               <ptr target="bm:Greenfield1965Ethiopia"/>
+               
+            </bibl> 
+            
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+                  
+                  
