@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="gez" xml:id="t1"/>
+                <title xml:lang="gez" xml:id="t1">Ḫayla Śǝllāse</title>
             </titleStmt>
             <publicationStmt>
                 <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
@@ -22,15 +22,6 @@
             <p>A digital born TEI file</p>
         </encodingDesc>
         <profileDesc>
-            <creation/>
-            <abstract>
-                <p/>
-            </abstract>
-            <textClass>
-                <keywords>
-                    <term key=""/>
-                </keywords>
-            </textClass>
             <langUsage>
                 <language ident="en">English</language>
                 <language ident="ar">Arabic</language>
@@ -44,7 +35,15 @@
     </teiHeader>
     <text>
         <body>
-            <div type="bibliography"/>
+            <listPerson>
+                <person sex="1">
+                    <persName  xml:lang="gez" xml:id="n1">ኀይለ፡ ሥላሴ፡</persName>
+                    <persName  xml:lang="gez" type="normalized" corresp="#n1">Ḫayla Śǝllāse</persName>
+                </person>
+                <listRelation>
+                    <relation name="saws:hasWritten" active="PRS11473HaylaS" passive="BDLaethe4"/>
+                </listRelation>
+            </listPerson>
         </body>
     </text>
 </TEI>
