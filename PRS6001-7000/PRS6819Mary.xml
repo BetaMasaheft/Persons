@@ -50,14 +50,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="2">
-               <persName>
+               <persName xml:id="n1">
                   
                   Mary
                </persName>
-               <persName type="alt"> Maryam</persName>
-               <persName type="alt">Madonna</persName>
-               <persName type="alt"> Holy Virgin; Dǝngǝl</persName>
-               <occupation> St.</occupation>
+               <persName xml:lang="gez" corresp="#n1"> Maryam</persName>
+               
+               <persName xml:id="n2">Holy Virgin</persName>
+               <persName corresp="#n2">Dǝngǝl</persName>
+               
+               <persName xml:id="n3">Madonna</persName>
+
+               <occupation type="ecclesiastic"> Saint</occupation>
             </person>
          </listPerson>
       </body>
