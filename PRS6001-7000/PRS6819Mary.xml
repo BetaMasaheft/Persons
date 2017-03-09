@@ -50,14 +50,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="2">
-               <persName xml:id="n1">
+               <persName xml:id="n1" type="main">
                   
                   Mary
                </persName>
-               <persName xml:lang="gez" corresp="#n1"> Maryam</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized"> Maryam</persName>
                
                <persName xml:id="n2">Holy Virgin</persName>
-               <persName corresp="#n2">Dǝngǝl</persName>
+               <persName corresp="#n2" type="normalized">Dǝngǝl</persName>
                
                <persName xml:id="n3">Madonna</persName>
 
