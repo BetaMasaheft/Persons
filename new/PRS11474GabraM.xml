@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="gez" xml:id="t1">Gabra Masqal</title>
+                <title xml:id="t1">Gabra Masqal</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DR"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -47,9 +47,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName>Gabra Masqal</persName>
+                    <persName  xml:lang="gez" xml:id="n1">ገብረ፡ መስቀል፡</persName>
+                    <persName  xml:lang="gez" type="normalized" corresp="#n1">Gabra Masqal</persName>
+                    <persName><roleName type="title">ʾalaqā</roleName></persName>
                     <faith type="EOTC "/>
+                    <floruit notBefore="1907" notAfter="1908"/>
                 </person>
+                <listRelation>
+                    <relation name="saws:isCopierOf" active="PRS11474GabraM" passive="BDLaethe14"/>
+                    <relation name="syriaca:has-relation-to-place" active="PRS11474GabraM" passive="LOC4519Mandaf"/>
+                    <relation name="syriaca:has-relation-to-place" active="PRS11474GabraM" passive="INS0354DB"/>
+                </listRelation>
             </listPerson>
         </body>
     </text>
