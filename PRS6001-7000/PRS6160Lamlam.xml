@@ -10,7 +10,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Lämläm</title>
+            <title>Lamlam</title>
+            <editor role="generalEditor" key="AB"/>
+            <editor key="SG"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +47,71 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-03-13">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Lämläm
-               </persName>
-               <occupation> aläqa </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ለምለም፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Lamlam</persName>
+               
+               
+               <persName><roleName type="title">ʾalaqā</roleName></persName>
+               
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               
+               
+               <occupation type="literary">chronicler</occupation>
+             
+               
+               
+               <floruit notBefore="1860"  notAfter="1904">He was an Ehiopian clergy man and historiographer, received a traditional church education.  
+                 
+               </floruit>
+               <death notBefore="1902" notAfter="1904"></death>
+               
+               
             </person>
+            <listRelation>
+               <relation name="snap:FriendshipFor"
+                  active="PRS6160Lamlam"
+                  passive="PRS7146MondonV"
+                  ></relation>
+               <relation name="saws:isAttributedAuthorOf"
+                  active="PRS6160Lamlam"
+                  passive="LIT2577YaseTa"
+                  ></relation>
+               
+               
+               
+               
+               
+            </listRelation>
          </listPerson>
+         
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Nosnistin2007Lamlam"/>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Orlowska2005Yohannes"/>
+               <biblScope unit="313-320"></biblScope>
+            </bibl>  
+            
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+                  
+               
