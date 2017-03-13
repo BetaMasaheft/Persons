@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="gez" xml:id="t1">Gǝrmā ʾIyasus </title>
+                <title>Gǝrmā ʾIyasus </title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DR"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -48,9 +48,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName>Gǝrmā ʾIyasus </persName>
+                    <persName  xml:lang="gez" xml:id="n1">ግርማ፡ ኢየሱስ፡</persName>
+                    <persName  xml:lang="gez" type="normalized" corresp="#n1">Gǝrmā ʾIyasus</persName>
                     <faith type="Ethiopian "/>
                 </person>
+                <listRelation>
+                    <relation name="saws:hasOwned" active="PRS11476GermaI" passive="BDLaethg2"/>
+                </listRelation>
             </listPerson>
         </body>
     </text>
