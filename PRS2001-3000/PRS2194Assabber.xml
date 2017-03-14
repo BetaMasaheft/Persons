@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Aššabbǝr Gäbrä Ḥǝywät</title>
+            <title>Aššabbǝr Gabra Ḥǝywat</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,95 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-03-14">Complete record</change>
+         
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+          
                   
-                  Aššabbǝr Gäbrä Ḥǝywät
-               </persName>
-               <occupation> bälambaras </occupation>
-            </person>
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">አሽብር፡ ገብረ፡ ሕይወት፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAššabbǝr Gabra Ḥǝywat</persName>
+               <persName><roleName type="title">bālāmbārās</roleName></persName>
+                  
+                  
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  
+                  
+                  <occupation type="literary">writer</occupation>
+               <occupation type="political">statesman</occupation>
+                  
+                  <birth notBefore="1907" notAfter="1908"> </birth>
+                  
+                  
+                  
+               <floruit notBefore="1925" notAfter="1974">He was an Ethiopian Diplomat and drama author. After he graduated from traditional school, 
+                  he was sent to <placeName ref="gn:357994"/>. He subsequently went to <placeName ref="gn:3017382"/> and then to <placeName ref="LOC5830Switze"/> where he studied law.
+                  After the end of World War II he obtained some posts in the Ethiopian diplomatic services and received the title <roleName type="title">bālāmbārās</roleName>. 
+               
+                  </floruit>
+        
+                  
+                  
+               </person>
+               <listRelation>
+                  <relation name="snap:SonOf"
+                     active="PRS2194Assabber"
+                     passive="PRS4239Gabrahe"
+                     ></relation>
+                  <relation name="snap:SonOf"
+                     active="PRS2194Assabber"
+                     passive="PRS2172AsterMa"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"             
+                     active="PRS2194Assabber"
+                     passive="LIT2559YakidaLIT2559Yakida"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"             
+                     active="PRS2194Assabber"
+                     passive="LIT2570Yanege"
+                     ></relation>
+                  
+                  
+                  
+                  
+               </listRelation>
          </listPerson>
+         
+         
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Balashova2003Assabber"/>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Kane1975Amharic"/>
+            </bibl>  
+            
+            
+            
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  
+                  
