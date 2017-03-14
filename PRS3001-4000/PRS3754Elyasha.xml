@@ -10,7 +10,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Elyas Ḫaylu</title>
+            <title>Elyās Ḫāylu</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +47,77 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-03-14">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+          
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">ኤልያስ፡ ኃይሉ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Elyās Ḫāylu</persName>
                   
-                  Elyas Ḫaylu
-               </persName>
-               <occupation> aläqa </occupation>
-            </person>
+                  
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  
+                  
+                  <occupation type="literary">artist</occupation>
+          
+                  <birth  when="1861"></birth>
+                  
+                  
+                  
+               <floruit notBefore="1881" notAfter="1930">He was one of the Ethiopia's most prominent artists during the reign of 
+                  <roleName type="title">ʾaṣe</roleName><persName ref="PRS7006Menilek"/>. He was one of the the first Ethiopia to go abroad to study painting, 
+                  in<placeName ref="gn:3017382"/>. His painting include illustration for a copy of <title ref="LIT2384Taamme"/>. Elyās Ḫāylu also decorated many churches and he was one of the 
+                  first Ethiopian artists to depict <roleName type="title">ʾaṣe</roleName><persName ref="PRS7006Menilek"/>'s victory at the battle of 
+                  <placeName ref="LOC1263Adwa"/>. 
+                  </floruit>
+                  <death notAfter="1930"></death>
+                  
+                  
+               </person>
+               <listRelation>
+                  <relation name="snap:FatherOf"
+                     active="PRS3754Elyasha"
+                     passive="PRS4219Gabraeg"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS3754Elyasha"
+                     passive="PRS7006Menilek"
+                     ></relation>
+                  
+                  
+                  
+               </listRelation>
          </listPerson>
+         
+         
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Pankhurst2005Elyas"/>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Pankhurst1989Art"/>
+            </bibl>  
+            
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+                  
+              
