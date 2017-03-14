@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="gez" xml:id="t1">ʾAbsālom</title>
+                <title>Absalom</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DR"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -48,9 +48,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName>ʾAbsālom</persName>
-                    <faith type="Ethiopian "/>
+                    <persName xml:lang="en" resp="PRS9619Uhlig">Absalom</persName>
                 </person>
+                <listRelation>
+                    <relation name="saws:hasOwned" active="PRS11478Absalom" passive="BDLindinst4"/>
+                </listRelation>
             </listPerson>
         </body>
     </text>
