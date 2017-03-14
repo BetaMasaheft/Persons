@@ -10,7 +10,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Gäbrä Ǝgziʾabǝḥer Elyas</title>
+            <title>Gabra ʾƎgziʾabǝḥer Elyās</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +48,82 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-03-14">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Gäbrä Ǝgziʾabǝḥer Elyas
-               </persName>
-               <occupation> wr. </occupation>
+               
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ገብረ፡ እግዚአብሔር፡ ኤልያስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Gabra ʾƎgziʾabǝḥer Elyās</persName>
+               
+               
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               
+               
+               <occupation type="literary">artist</occupation>
+               
+               <birth when="1892">He was born at <placeName ref="LOC2976Entott"/>in<date>1892</date>. </birth>
+               
+               
+               
+               <floruit notBefore="1912" notAfter="1969">He was a painter, poet, polemicist and historian. 
+                  He received a traditional church education at the age of five in <placeName ref="LOC2981Entott"/>. After he attended traditional eduaction in various churches,
+                  he became a teacher of qǝne. Then, he worked as assistant head in the customs and later as a caligrapher and illustrator at the Minsitry of Pen. 
+                
+                  He was also a court historian writing the royal chronicle for the period <date>1908-1934</date> covering the rules of
+                  <roleName type="title">lǝg</roleName><persName ref="PRS5620IyasuV"/> and<persName ref="PRS10671Zawditu"/>. 
+                 
+               </floruit>
+               <death when="1969">He died at <placeName ref="LOC4977Nazare"/> in <date>1969</date>. </death>
+               
+               
             </person>
+            <listRelation>
+               <relation name="snap:SonOf"
+                  active="PRS4219Gabraeg"
+                  passive="PRS3754Elyasha"
+                  ></relation>
+               <relation name="snap:SonOf"
+                  active="PRS4219Gabraeg"
+                  passive="PRS1816AmataMi"
+                  ></relation>
+               
+               
+               
+               
+            </listRelation>
          </listPerson>
+         
+         
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Molvaer2005GabraEgzihabher"/>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Pankhurst1989Art"/>
+            </bibl>  
+            
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+                  
+                  
