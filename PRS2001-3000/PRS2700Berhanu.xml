@@ -11,6 +11,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Bǝrhanu Dǝnqe</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +47,100 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-03-15">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+           
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">ብርሃኑ፡ ድንቄ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Bǝrhanu Dǝnqe</persName>
+                  <persName><roleName type="title"></roleName></persName>
                   
-                  Bǝrhanu Dǝnqe
-               </persName>
-               <occupation> wr. </occupation>
-            </person>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  
+                  
+                  
+                  <occupation type="academic">writer</occupation>
+                  <birth when="1918"></birth>
+                  
+                  
+                  
+                  <floruit notBefore="1940"  notAfter="1974"> He was a 20th century Ethiopian writer and diplomat. He attended both traditional church and western education.
+                     He served the Imperial government in various positions. 
+                  </floruit>
+                  <death when="1992"></death>
+                  
+                  
+               </person>
+               <listRelation>
+                  <relation name="snap:SonOf"
+                     active="PRS2700Berhanu"
+                     passive="PRS3514Denqe"
+                     ></relation>
+                  
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS2700Berhanu"
+                     passive="LIT2551Yaityo"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS2700Berhanu"
+                     passive="LIT2069Negest"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS2700Berhanu"
+                     passive="LIT4557yahesanat"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS2700Berhanu"
+                     passive="LIT4556Ewnetn" 
+                     ></relation>
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+               </listRelation>
          </listPerson>
+         
+         
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Bairu2003Berhanu"/>
+            </bibl> 
+            
+            
+            
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  
+                  
