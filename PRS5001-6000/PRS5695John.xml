@@ -44,23 +44,40 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change when="2017-03-15" who="ES">updated names relations</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+               <persName ref="http://viaf.org/viaf/40648922/" xml:id="n1">John <addName>the Evangelist</addName></persName>
+               
+               <persName xml:id="n2">
                   
-                  John
+                  John <addName>the Apostle</addName>
                </persName>
-               <persName type="alt"> John the Evangelist; John Son of Zebedee; Yoḥannǝs Wäldä Nägwädgwad </persName>
-               <persName type="alt">Yoḥannǝs Wäldä Zäbǝdewos</persName>
-               <persName type="alt">John Son of Thunder</persName>
+               
+               <persName xml:id="n3">Yoḥannǝs Walda Nagwadgwād</persName>
+               <persName corresp="#n3">John Son of Thunder</persName>
+               
+               <persName  xml:id="n4">Yoḥannǝs Walda Zabǝdewos </persName>
+               <persName corresp="#n4">John Son of Zebedee</persName>
+               
+               <nationality type="Israel/Palestine"/>
+               
+               <floruit notBefore="0015" notAfter="0100" evidence="literature">15 - 100 CE</floruit>
+
                <occupation type="ecclesiastic">Saint</occupation>
                <occupation type="ecclesiastic">Apostle</occupation>
                <occupation type="ecclesiastic">Evangelist</occupation>
+               
+               <note>The traditional identification of John the Evangelist with John the Apostle is not sure</note>
             </person>
+            
+            <listRelation>
+               <relation name="snap:AllianceWith" active="PRS5695John" passive="PRS5684JesusCh"></relation>
+            </listRelation>
          </listPerson>
       </body>
    </text>
