@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS11485KidanaM" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS11486Rigaud" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Kidāna Māryām</title>
+                <title>Rigaud</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DR"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -48,12 +48,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ኪዳነ፡ ማርያም፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Kidāna Māryām</persName>
-                    <faith type="EOTC "/>
+                    <persName>
+                        <forename>John</forename>
+                        <surname>Rigaud</surname>
+                        <roleName type="title">Rev.</roleName>
+                    </persName>
+                    <faith type="Protestantism "/>
                 </person>
                 <listRelation>
-                    <relation name="saws:hasOwned" active="PRS11485KidanaM" passive="BDLaethf5"/>
+                    <relation name="saws:hasOwned" active="PRS11486Rigaud" passive="BDLaethf6"/>
                 </listRelation>
             </listPerson>
         </body>
