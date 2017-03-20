@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Bäʾǝdä Maryam III</title>
+            <title>Baʾǝda Māryām III</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,64 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-03-20">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+               
                   
-                  Bäʾǝdä Maryam III
-               </persName>
-               <occupation> aṣe </occupation>
-            </person>
+                  
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">በእደ፡ ማርያም፡</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Baʾǝda Māryām III </persName>
+                  <persName><roleName type="title">ʾaṣe</roleName></persName>
+                  <persName xml:lang="gez" xml:id="n2" type="regnalName">unknown</persName>
+                  
+                  <occupation type="ruler">Emperor</occupation>
+                  
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <residence><placeName ref="LOC3577Gondar"> Gondar</placeName></residence>
+                  
+                  
+               <floruit when="1826"> He was one of rulers of the Zamana Masāfǝnt. He was  
+                  placed on the throne by <roleName type="title"> daǧǧāzmāč </roleName><persName ref="PRS5213haylaMa"/> 
+                  at mount<placeName ref="LOC4543Manta"/> in <date>1826</date>. He was succeeded by <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS4661Gigar"/> in <date>1826</date>. </floruit>
+                  
+               </person>
+               <listRelation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS2336BaedaM"
+                     passive="PRS5213haylaMa"
+                     ></relation>
+                  
+                  
+                  
+               </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Blundell1922Chronicle"/>
+            </bibl>
+            
+            
+         </listBibl> 
+         <listBibl type="secondary">
+             
+            <bibl> 
+               <ptr target="bm:Kaplan2003BaedaMaryamIII"/>
+               
+            </bibl>  
+            
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+                 
