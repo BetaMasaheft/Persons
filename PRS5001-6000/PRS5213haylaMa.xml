@@ -10,7 +10,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ḫaylä Maryam Gäbre</title>
+            <title>Ḫayla Māryām Gabre</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +48,69 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-03-20">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Ḫaylä Maryam Gäbre
-               </persName>
-               <occupation> däǧǧ. </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ኀይለ፡ ማርያም፡ገብሬ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Ḫayla Māryām Gabre</persName>
+               <persName><roleName type="title"> daǧǧāzmāč </roleName></persName>
+               
+               
+               <occupation type="political">governor</occupation>
+               
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               
+               
+               
+               <floruit notBefore="1815" notAfter="1826">He was a prominent, albeit secondary player in national political struggles. He ruled over 
+                  <placeName ref="LOC6144Wagara"/> and <placeName ref="LOC6186Walqay"/>. He was a protector of the monastery of <placeName ref="INS0316Waldb"/> where he was buried.</floruit>
+               <death when="1826"></death>
+               
             </person>
+            <listRelation>
+               <relation name="snap:SonOf"
+                  active="PRS5213haylaMa"
+                  passive="PRS4371GabreTa"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  active="PRS5213haylaMa"
+                  passive="PRS4870GugsaMa"
+                  ></relation>
+               <relation name="bm:husbandOf"
+                  active="PRS5213haylaMa"
+                  passive="PRS5363hirutGu"
+                  ></relation>
+               
+               
+               
+            </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Blundell1922Chronicle"/>
+            </bibl>
+            
+            
+         </listBibl> 
+         <listBibl type="secondary">
+             
+            <bibl> 
+               <ptr target="bm:Crummey2005Haylamaryam"/>
+               
+            </bibl>  
+            
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+                  
+                 
