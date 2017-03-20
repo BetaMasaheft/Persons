@@ -49,6 +49,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-08-08">Complete record</change>
+         <change who="SG" when="2017-03-20">Correction</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -66,13 +67,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <occupation type="political">governor</occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
-               <birth>1753</birth>
-               <residence> Māḥdara Māryām</residence>
-               <floruit>He was one of the most important noble during Zamana Masāfǝnt and commisioned for the copying of the royal chronicles by his close friend and 
+               <birth when="1753"></birth>
+               <residence ><placeName ref="LOC4432Mahdar"/></residence>
+               <floruit notBefore="1773" notAfter="1810">He was one of the most important noble during Zamana Masāfǝnt and commisioned for the copying of the royal chronicles by his close friend and 
                   secretary assistant (scribe)<persName ref="PRS1007Abagaz">ʾAbagāz</persName> in<date> 1785</date> 
-                  at the monastrey of Māḥdara Māryām, where both they found asylum.  
+                  at the monastrey of <placeName ref="LOC4432Mahdar"/>, where both they found asylum.  
                </floruit>
-               <death>1809</death>
+               <death notBefore="1809" notAfter="1810"></death>
             </person>
             <listRelation>
                <relation name="snap:AllianceWith"

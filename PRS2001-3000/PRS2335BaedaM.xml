@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Bäʾǝdä Maryam II</title>
+            <title>Baʾǝda Māryām II</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,68 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-03-20">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+            
                   
-                  Bäʾǝdä Maryam II
-               </persName>
-               <occupation> aṣe </occupation>
-            </person>
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">በእደ፡ ማርያም፡</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Baʾǝda Māryām II </persName>
+                  <persName><roleName type="title">ʾaṣe</roleName></persName>
+                  <persName xml:lang="gez" xml:id="n2" type="regnalName">unknown</persName>
+                  
+                  <occupation type="ruler">Emperor</occupation>
+           
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <residence><placeName ref="LOC3577Gondar"> Gondar</placeName></residence>
+               
+           
+               <floruit notBefore="1794" notAfter="1795">He was one of a series of nominal ruler during the Zamana Masāfǝnt 
+                  who replaced <roleName type="title">ʾaṣe</roleName><persName ref="PRS9142TaklaGi"/>. 
+                  He was succeeded by <persName ref="PRS8422Salomon"/>.</floruit>
+                 
+               </person>
+               <listRelation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS2335BaedaM"
+                     passive="PRS5222haylaMi"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS2335BaedaM"
+                     passive="PRS1750Aligaz"
+                     ></relation>
+                  
+                  
+                  
+               </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Blundell1922Chronicle"/>
+            </bibl>
+            
+        
+         </listBibl> 
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:TekleSadik1984Hailu"/>
+               <biblScope unit="page">189-214</biblScope>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Kaplan2003BaedaMaryamII"/>
+             
+            </bibl>  
+            
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+                 
