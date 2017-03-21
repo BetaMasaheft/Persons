@@ -45,6 +45,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-08-04">Complete record</change>
+         <change who="SG" when="2017-03-21">Correction</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -68,7 +69,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   He was also the counsellor and intimate freind of King <persName ref="PRS9038Susenyos">Susenyos</persName>
                   
                </floruit>
-               <death> he died in <date>1638</date> probably at <placeName ref="LOC3098Fogara">Fogarā </placeName> where he lived for some years after he was dismissed  from the office </death>
+               <death when="1638"> he died in <date>1638</date> probably at <placeName ref="LOC3098Fogara"/> where he lived for some years after he was dismissed  
+                  from the office </death>
                </person>
             <listRelation>
                <relation name="snap:AllianceWith"
