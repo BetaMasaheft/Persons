@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Täklä Ṣadǝq Mäkwǝriya</title>
+            <title>Takla Ṣādǝq Makwǝriyā</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,13 +46,96 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-02-21">complete record </change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ተክለ፡ ጻድቅ፡ መኵሪያ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Takla Ṣādǝq Makwǝriyā</persName>
+           
+               
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               
+               
+               
+               <occupation type="academic">writer</occupation>
+               <occupation type="political">statesman</occupation>
+               
+               <birth when="1913">He was born at <placeName ref="LOC1553Assage"/> in <date>1913</date>.</birth>
+               
+               
+               
+               <floruit notBefore="1942" >He was an eminent scholar, prolific Ethiopian historian and a statesman. He received both a church education and a modern education.
+                  He served the Imperial government in various posts from <date>1941-1974</date>. He also served the Military regime, as a Minister of Culture, Sports and Youth, in its eraly years. 
+                  But he retired soon from civil service and devoted his time to various initiatives he considered valuable.
+                  
+               </floruit>
+               <death when="2000" >He died at <placeName ref="LOC1216AddisA"/> in <date>2000</date>.</death>
+               
+               
+            </person>
+            <listRelation>
+               <relation name="snap:SonOf"
+                  active="PRS9193Taklasa"
+                  passive="PRS6572Makweriy"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  active="PRS9193Taklasa"
+                  passive="PRS9970Waldasa"
+                  ></relation>
+               
+               
+               
+               
+               
+               
+               
+               
+            </listRelation>
+         </listPerson>
+         
+         
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Ricci1992Dignatario"/>
+            </bibl> 
+            <bibl> 
+               <ptr target="bm:Wolk2010TaklaSadeq"/>
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Pankhurst2010TaklaSadiq"/>
+               <biblScope unit="page">201-210</biblScope>
+            </bibl> 
+            
+            
+            
+            
+         </listBibl>
+         
+      </body>
+   </text>
+</TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                   
                   Täklä Ṣadǝq Mäkwǝriya
                </persName>
