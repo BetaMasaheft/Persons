@@ -52,10 +52,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <occupation type="other"/>
             </person>
             <listRelation>
-               <relation name="saws:hasWritten"
-                  active="PRS11423Bakimos"
-                  passive="BAVet50"> <!--saws:isCopierof? 2017-03-09 DR-->
+               <relation name="saws:hasWritten"  active="PRS11423Bakimos"   passive="BAVet50">
+                  <!--saws:isCopierof? 2017-03-09 DR-->
                </relation>
+               <relation name="lawd:hasAttestation" active="PRS11423Bakimos" passive="BAVet66#a20"/>
+               <relation name="saws:isMemberOf" active="PRS11423Bakimos" passive="PRS11232HouseSam"> 
+                  <!-- As stated in BAVet66#a20, MV 2017-03-21 --></relation>
             </listRelation>
          </listPerson>
       </body>
