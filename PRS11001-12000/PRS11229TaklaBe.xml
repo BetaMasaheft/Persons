@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:id="t1">Takla Bǝrhān</title>
+            <title xml:id="t1">Takla Bǝrhān Walda Qʷayyaṣā</title>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
@@ -41,20 +41,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-11-17">Created XML record from Ethio authority google spreadsheet</change>
+         <change who="MV" when="2017-03-21">Added occupation and relation</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName  xml:lang="gez" xml:id="n1">ተክለ፡ ብርሃን፡</persName>
-               <persName  xml:lang="gez" type="normalized" corresp="#n1">Takla Bǝrhān</persName>
+               <persName  xml:lang="gez" xml:id="n1">ተክለ፡ ብርሃን፡ ወልደ፡ ቈየጻ፡</persName>
+               <persName  xml:lang="gez" type="normalized" corresp="#n1">Takla Bǝrhān Walda Qʷayyaṣā</persName>
                <occupation type="ecclesiastic">priest</occupation>
+               <residence>
+                  <placeName ref="INS0302SantoSte"> Santo Stefano dei Mori </placeName>
+               </residence>
             </person>
             <listRelation>
-               <relation name="lawd:hasAttestation"
-                         active="PRS11229TaklaBe"
-                         passive="BAVet5"><!--Please fix the relation of this item with BAVet5--></relation>
+               <relation name="lawd:hasAttestation" active="PRS11495SarsaMa" passive="BAVet5#a1"/>
+               <relation name="lawd:hasAttestation" active="PRS11495SarsaMa" passive="BAVet66#a8"/>
             </listRelation>
          </listPerson>
       </body>

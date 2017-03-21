@@ -54,10 +54,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                   Yaʿǝqob
                </persName>
-               <occupation> monk</occupation>
+               <occupation type="ecclesiastic"> monk</occupation>
                <residence>
-                  <placeName> Santo Stefano dei Mori </placeName>
+                  <placeName ref="INS0302SantoSte"> Santo Stefano dei Mori </placeName>
                </residence>
+               <!-- Could it be the same as PRS11228Yaeqob? MV - 2017-03-21 -->
             </person>
          </listPerson>
       </body>
