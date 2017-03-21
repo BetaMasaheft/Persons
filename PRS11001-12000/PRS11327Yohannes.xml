@@ -41,22 +41,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-11-17">Created XML record from Ethio authority google spreadsheet</change>
+         <change who="MV" when="2017-03-07">Added occupation and relation</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  <forename/>
-                  <surname>Yoḥannǝs</surname>
-               </persName>
-               <occupation type="other">qaysa gabaz </occupation>
-            </person>
+               <person sex="1">
+                  <persName  xml:lang="gez" xml:id="n1">ዮሐንስ፡</persName>
+                  <persName  xml:lang="gez" type="normalized" corresp="#n1">Yoḥannǝs</persName>
+                  <occupation type="other"><roleName type="title">qaysa gabaz</roleName></occupation>
+                  <faith type="EOTC "/>
+                  <residence>
+                     <placeName ref="INS0302SantoSte"> Santo Stefano dei Mori </placeName>
+                  </residence>
+               </person>
             <listRelation>
                <relation name="lawd:hasAttestation"
                          active="PRS11327Yohannes"
-                         passive="BAVet24"><!--Please fix the relation of this item with BAVet24--></relation>
+                         passive="BAVet24#a8"><!--Please fix the relation of this item with BAVet24--></relation>
             </listRelation>
          </listPerson>
       </body>
