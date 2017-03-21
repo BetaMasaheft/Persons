@@ -47,16 +47,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  <forename/>
-                  <surname>Yāʿǝqob</surname>
-               </persName>
-               <occupation>scribe</occupation>
+               <persName  xml:lang="gez" xml:id="n1">ያዕቆብ፡</persName>
+               <persName  xml:lang="gez" type="normalized" corresp="#n1">Yāʿǝqob</persName>
+               <occupation type="literary">scribe</occupation>
+               <residence>
+                  <placeName ref="INS0302SantoSte"> Santo Stefano dei Mori </placeName>
+               </residence>
             </person>
             <listRelation>
-               <relation>perhaps the same as PRS11228Yaeqob?</relation>
-               <relation name="lawd:hasAttestation" active="PRS11249Yaeqob" passive="BAVet8"><!--Please fix the relation of this item with BAVet8--></relation>
-               Sscribe of BAVet24 - possibly the same mentioned in BAVet66 (= PRS11228Yaeqob)
+               <relation name="lawd:hasAttestation" active="PRS11249Yaeqob" passive="BAVet8"/>
+               <relation name="saws:hasWritten" active="PRS11249Yaeqob" passive="BAVet24"/>
+               <relation name="saws:isMemberOf" active="PRS11500Endreyas" passive="PRS11207Ewostateans"/>
+               <!--It is not clear whether this Yāʿǝqob is the same as PRS11228Yaeqob, mentioned in BAVet66 and possibly in BAVet5. They both are Ewostateans, 
+                  they both lived in the 16ht century in Santo Stefano dei Mori . 
+               The owner of BAVet8 is also called Takla Māryām (for whom a record also exists: PRS9181TaklaMa) and Yāʿǝqob the Elder. -->
             </listRelation>
          </listPerson>
       </body>
