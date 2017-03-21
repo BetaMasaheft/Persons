@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Täsfa Gäbrä Śǝllase</title>
+            <title>Tasfā Gabra Śǝllāse</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,78 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-03-21">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+          
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">ተስፋ፡ ገብረ፡ ሥላሴ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Tasfā Gabra Śǝllāse</persName>
+               <persName><roleName type="title">qaññāzmāč</roleName></persName>
                   
-                  Täsfa Gäbrä Śǝllase
-               </persName>
-               <occupation> publ. </occupation>
-            </person>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  
+                  
+                  
+                  <occupation type="academic">publisher</occupation>
+                  
+               <birth notBefore="1902" notAfter="1903">He was born at <placeName ref="LOC1307Akreme"/> in <date>1902</date> or <date>1903</date>.</birth>
+                  
+                  
+                  
+                  <floruit notBefore="1916" notAfter="2000">He was a prominent Ethiopian publisher. 
+                  </floruit>
+                  <death when="2000"></death>
+                  
+                  
+               </person>
+               <listRelation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS5816Kabbada"
+                     passive="PRS5226haylase"
+                     ></relation>
+                  
+                  
+                  
+                  
+                  
+                  
+               </listRelation>
          </listPerson>
+         
+         
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Mersha2010TasfaGabrasellase"/>
+            </bibl> 
+            
+            
+            
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  
+              
