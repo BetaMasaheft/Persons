@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Tǝwkǝltä Maryam</title>
+            <title>Tǝwkǝlta Māryām</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,18 +44,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="MV" when="2017-03-21">Added relation and occupation</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Tǝwkǝltä Maryam
-               </persName>
-               <occupation> rays </occupation>
+               <persName xml:lang="gez" xml:id="n1">ትውክልተ፡ ማርያም፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Tǝwkǝlta Māryām</persName>
+               <faith type="EOTC "/>
+               <occupation type="ecclesiastic"><roleName type="title">rāyǝs</roleName> of Santo Stefano dei Mori</occupation>
             </person>
+            <listRelation>
+               <relation name="lawd:hasAttestation" active="PRS9425Tewkelta" passive="BAVet66#a18"/>
+            </listRelation>
          </listPerson>
       </body>
    </text>
