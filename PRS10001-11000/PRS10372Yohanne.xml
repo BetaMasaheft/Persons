@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Yoḥannǝs</title>
+            <title>Yoḥannǝs Walda Qanṭorāre</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,18 +44,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change when="2017-03-21" who="MV">Added occupation and relation</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Yoḥannǝs
-               </persName>
-               <occupation> abbot of Santo Stefano dei Mori </occupation>
+               <persName xml:lang="gez" xml:id="n1">ዮሐንስ፡ ወልደ፡ ቀንጦራሬ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Yoḥannǝs Walda Qanṭorāre</persName>
+               <faith type="EOTC "/>
+               <occupation type="ecclesiastic"><roleName type="title">rāyǝs</roleName> of Santo Stefano dei Mori</occupation>
             </person>
+            <listRelation>
+               <relation name="lawd:hasAttestation" active="PRS10372Yohanne" passive="BAVet5#a1"/>
+               <relation name="lawd:hasAttestation" active="PRS10372Yohanne" passive="BAVet66#a1"/>
+               <relation name="lawd:hasAttestation" active="PRS10372Yohanne" passive="BAVet66#a9"/>
+            </listRelation>
          </listPerson>
       </body>
    </text>
