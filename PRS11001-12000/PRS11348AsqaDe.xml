@@ -47,10 +47,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  <forename/>
-                  <surname></surname>
-               </persName>
+               <persName  xml:lang="gez" xml:id="n1">ዐጽቀ፡ ድንግል፡</persName>
+               <persName  xml:lang="gez" type="normalized" corresp="#n1">ʿAṣqa Dǝngǝl</persName>
+               <faith type="EOTC "/>
             </person>
             <listRelation>
                <relation name="saws:hasOwned"
