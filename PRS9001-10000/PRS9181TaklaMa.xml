@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Täklä Maryam</title>
+            <title>Takla Māryām</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -50,12 +50,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Täklä Maryam
-               </persName>
-               <occupation> rays </occupation>
+               <persName xml:lang="gez" xml:id="n1">ተክለ፡ ማርያም፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Takla Māryām</persName>
+               <faith type="EOTC "/>
+               <occupation type="ecclesiastic"><roleName type="title">rāyǝs</roleName> of Santo Stefano dei Mori</occupation>
+            <residence>
+               <placeName ref="INS0302SantoSte"> Santo Stefano dei Mori </placeName>
+            </residence>
             </person>
+            <!-- Mentioned as rāyǝs in EAE IV:530a. It might be the same person as Yāʿǝqob (so in BAVet8#p1_i2, s. also e6). - MV 2017-03-22 -->
          </listPerson>
       </body>
    </text>

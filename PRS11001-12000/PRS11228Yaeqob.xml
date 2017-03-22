@@ -11,6 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title xml:id="t1">Yāʿǝqob</title>
+            <title xml:id="t2">Takla Māryām</title>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
@@ -50,18 +51,30 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName  xml:lang="gez" xml:id="n1">ያዕቆብ፡</persName>
                <persName  xml:lang="gez" type="normalized" corresp="#n1">Yāʿǝqob</persName>
+               <persName  xml:lang="gez" xml:id="n2">ተክለ፡ ማርያም፡</persName>
+               <persName  xml:lang="gez" type="normalized" corresp="#n2">Takla Māryām</persName>
                <occupation type="ecclesiastic">priest</occupation>
+               <occupation type="literary">scribe</occupation>
                <residence>
                   <placeName ref="INS0302SantoSte"> Santo Stefano dei Mori </placeName>
                </residence>
             </person>
             <listRelation>
-               <relation name="lawd:hasAttestation" active="PRS11495SarsaMa" passive="BAVet5#a1"/>
-               <relation name="lawd:hasAttestation" active="PRS11495SarsaMa" passive="BAVet66#a8"/>
-               <relation name="lawd:hasAttestation" active="PRS11495SarsaMa" passive="BAVet66#a12"/>
-               <relation name="lawd:hasAttestation" active="PRS11495SarsaMa" passive="BAVet66#a18"/>
-               <relation name="lawd:hasAttestation" active="PRS11495SarsaMa" passive="BAVet66#a20"/>
-               <relation name="saws:isMemberOf" active="PRS11500Endreyas" passive="PRS11207Ewostateans"/>
+               <relation name="lawd:hasAttestation" active="PRS11228Yaeqob" passive="BAVet5#a1"/>
+               <relation name="saws:hasOwned" active="PRS11228Yaeqob" passive="BAVet8"/>
+               <relation name="saws:hasWritten" active="PRS11228Yaeqob" passive="BAVet24"/>
+               <relation name="saws:hasOwned" active="PRS11228Yaeqob" passive="BAVet36"/>
+               <relation name="lawd:hasAttestation" active="PRS11228Yaeqob" passive="BAVet66#a8"/>
+               <relation name="lawd:hasAttestation" active="PRS11228Yaeqob" passive="BAVet66#a12"/>
+               <relation name="lawd:hasAttestation" active="PRS11228Yaeqob" passive="BAVet66#a18"/>
+               <relation name="lawd:hasAttestation" active="PRS11228Yaeqob" passive="BAVet66#a20"/>
+               <relation name="saws:isMemberOf" active="PRS11228Yaeqob" passive="PRS11207Ewostateans"/>
+               <!-- 
+                  Possibly called also Takla Māryām (for whom a record also exists: PRS9181TaklaMa), as in BAVet8, BAVet24#i17 BAVet24#a9, BAVet36#i1.2.
+                  It is clearly stated in BAVet36#e2 (ያዕቆብ፡ ወአሐዱ፡ ስሙ፡ ተክለ፡ ማርያም፡).
+                  Called Yāʿǝqob the Elder (አባ፡ ያዕቆብ፡ አርጋዊ፡ [sic]) in BAVet8#a1. 
+               MV - 2017-03-22
+               -->
             </listRelation>
          </listPerson>
       </body>
