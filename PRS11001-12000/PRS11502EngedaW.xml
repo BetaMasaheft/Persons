@@ -1,13 +1,13 @@
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS11500Endreyas" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS11502EngedaW" xml:lang="en" type="pers">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>ʾƎndrǝyās</title>
+            <title>ʾƎngǝdā Warq</title>
             <editor role="generalEditor" key="AB"/>
-            <editor key="MV"/>
+            <editor key="DR"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
@@ -41,23 +41,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="MV" when="2017-03-21">Created entity</change>
+         <change who="DR" when="2017-03-22">Created entity</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName xml:lang="gez" xml:id="n1">እንድርያስ፡</persName>
-               <persName xml:lang="gez" type="normalized" corresp="#n1">ʾƎndrǝyās</persName>
+               <persName xml:lang="gez" xml:id="n1">እንግዳ፡ ወርቅ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">ʾƎngǝdā Warq</persName>
                <faith type="EOTC "/>
-               <residence>
-                  <placeName ref="INS0302SantoSte"> Santo Stefano dei Mori </placeName>
-               </residence>
             </person>
             <listRelation>
-               <relation name="saws:hasWritten" active="PRS11500Endreyas" passive="BAVet8#a1"/>
-               <relation name="saws:isMemberOf" active="PRS11500Endreyas" passive="PRS11207Ewostateans"/>
+               <relation name="saws:hasOwned" active="PRS11502EngedaW" passive="BDLaethg8"/>
             </listRelation>
          </listPerson>
       </body>
