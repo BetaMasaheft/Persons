@@ -6,11 +6,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
      xml:lang="en"
-     xml:id="PRS11453BahaylaMa">
+     xml:id="PRS11503Arkaledes">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:id="t1">Ba-Ḫayla Māryām</title>
+            <title xml:id="t1">ʾArkaledǝs</title>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
@@ -40,22 +40,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="MV" when="2017-02-21">Created XML record</change>
+         <change who="MV" when="2017-03-22">Created XML record.</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName  xml:lang="gez" xml:id="n1">በኀይለ፡ ማርያም፡</persName>
-               <persName  xml:lang="gez" type="normalized" corresp="#n1">Ba-Ḫayla Māryām</persName>
+               <persName xml:id="n1" xml:lang="gez">አርከሌድስ፡</persName>
+               <persName xml:lang="gez" type="normalized">ʾArkaledǝs</persName>
                <faith type="EOTC "/>
-               <residence>
-                  <placeName ref="INS0302SantoSte" cert="high"> Santo Stefano dei Mori </placeName>
-               </residence>
+               <occupation type="ecclesiastic">ʾabbā</occupation>
             </person>
             <listRelation>
-               <relation name="saws:hasOwned" active="PRS11453BahaylaMa" passive="BAVet54"/>
+               <relation name="saws:hasOwned"  active="PRS11503Arkaledes"  passive="BAVet46"/>
+               <relation name="saws:isCopierOf"  active="PRS11503Arkaledes"  passive="BAVet46"/>
             </listRelation>
          </listPerson>
       </body>
