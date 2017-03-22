@@ -6,11 +6,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
      xml:lang="en"
-     xml:id="PRS11424Zaiyasus">
+     xml:id="PRS11501Bakimos">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:id="t1">Za-ʾIyasus</title>
+            <title xml:id="t1">Bakimos</title>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
@@ -41,21 +41,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </profileDesc>
       <revisionDesc>
          <change who="MV" when="2017-02-03">Created XML record.</change>
+         <change who="MV" when="2017-03-22">Corrected relation</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName xml:id="n1" xml:lang="gez">ዘኢያሱስ፡</persName>
-               <persName xml:lang="gez" type="normalized">Za-ʾIyasus</persName>
+               <persName xml:id="n1" xml:lang="gez">በኪሞስ፡</persName>
+               <persName xml:lang="gez" type="normalized">Bakimos</persName>
+               <faith type="EOTC "/>
                <occupation type="other"/>
+               <residence>
+                  <placeName ref="INS0302SantoSte"> Santo Stefano dei Mori </placeName>
+               </residence>
             </person>
             <listRelation>
-               <relation name="saws:hasWritten"
-                  active="PRS11424Zaiyasus"
-                  passive="BAVet50"> <!--saws:isCopierof? 2017-03-09 DR-->
+               <relation name="saws:hasOwned"  active="PRS11501Bakimos"   passive="BAVet50">
                </relation>
+               <relation name="lawd:hasAttestation" active="PRS11501Bakimos" passive="BAVet66#a20"/>
+               <relation name="saws:isMemberOf" active="PRS11501Bakimos" passive="PRS11232HouseSam"> 
+                  <!-- As stated in BAVet66#a20, MV 2017-03-21 --></relation>
             </listRelation>
          </listPerson>
       </body>

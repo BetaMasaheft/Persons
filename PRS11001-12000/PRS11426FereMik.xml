@@ -41,6 +41,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </profileDesc>
       <revisionDesc>
          <change who="MV" when="2017-02-06">Created XML record.</change>
+         <change who="MV" when="2017-03-22">Corrected relation</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -49,12 +50,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:id="n1" xml:lang="gez">ፍሬ፡ ሚካኤል፡</persName>
                <persName xml:lang="gez" type="normalized">Fǝre Mikāʾel</persName>
-               <occupation type="other"/>
+               <faith type="EOTC "/>
             </person>
             <listRelation>
-               <relation name="saws:hasWritten"
+               <relation name="saws:isCopierOf"
                   active="PRS11426FereMik"
-                  passive="BAVet51"> <!--saws:isCopierof? 2017-03-09 DR-->
+                  passive="BAVet51">
                </relation>
             </listRelation>
          </listPerson>
