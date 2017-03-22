@@ -41,21 +41,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </profileDesc>
       <revisionDesc>
          <change who="MV" when="2016-12-20">Created XML record.</change>
+         <change who="MV" when="2017-03-22">Added relation other information</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  <forename/>
-                  <surname></surname>
-               </persName>
+               <persName xml:lang="gez" xml:id="n1">ተወልደ፡ መድኅን፡፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Tawalda Madḫǝn</persName>
+               <faith type="EOTC "/>
+               <occupation type="ecclesiastic"><roleName type="title">ʾabbā</roleName></occupation>
+               <residence>
+                  <placeName ref="INS0302SantoSte"> Santo Stefano dei Mori </placeName>
+               </residence>
             </person>
             <listRelation>
-               <relation name="saws:hasOwned"
-                  active="PRS11351TawaldaM"
-                  passive="BAVet32 BAVet53"/>
+               <relation name="saws:hasOwned" active="PRS11351TawaldaM" passive="BAVet32"/>
+               <relation name="saws:hasOwned" active="PRS11351TawaldaM" passive="BAVet53"/>
+               <relation name="saws:isMemberOf" active="PRS11351TawaldaM" passive="PRS11232HouseSam"/>
             </listRelation>
          </listPerson>
       </body>

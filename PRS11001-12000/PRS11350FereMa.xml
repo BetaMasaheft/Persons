@@ -41,21 +41,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </profileDesc>
       <revisionDesc>
          <change who="MV" when="2016-12-20">Created XML record.</change>
+         <change who="MV" when="2017-03-22">Added relation other information</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  <forename/>
-                  <surname></surname>
-               </persName>
+               <persName xml:lang="gez" xml:id="n1">ፍሬ፡ መስቀል፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Fǝre Masqal</persName>
+               <faith type="EOTC "/>
+               <residence>
+                  <placeName ref="INS0302SantoSte"> Santo Stefano dei Mori </placeName>
+               </residence>
             </person>
             <listRelation>
-               <relation name="lawd:hasAttestation"
-                  active="BAVet32"
-                  passive="PRS11350FereMa"></relation>
+               <relation name="lawd:hasAttestation" active="PRS11350FereMa" passive="BAVet32#a3"/>
             </listRelation>
          </listPerson>
       </body>
