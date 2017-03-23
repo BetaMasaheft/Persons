@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS11505TawaldaM.xml" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS11507GabraW.xml" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Tawalda Madḫǝn</title>
+                <title>Gabra Wāḥǝd</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DR"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -48,16 +48,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ተወልደ፡ መድኅን፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Tawalda Madḫǝn</persName>
+                    <persName xml:lang="gez" xml:id="n1">ገብረ፡ ዋሕድ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra Wāḥǝd</persName>
                     <faith type="EOTC "/>
                     <birth/>
                     <death/>
                     <floruit/>
                 </person>
                 <listRelation>
-                    <relation name="saws:hasOwned" active="PRS11488TawaldaM" passive="BDLaethf13"/>
-                    <relation name="bm:husbandOf" active="PRS11505TawaldaM" passive="PRS11506SeertaY.xml"/>
+                    <relation name="saws:isCopierOf" active="PRS11507GabraW" passive="BDLaethf13"/>
                 </listRelation>
             </listPerson>
         </body>
