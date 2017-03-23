@@ -10,7 +10,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Bazen</title>
+            <title>Bāzen</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +48,44 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-03-23">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Bazen
-               </persName>
-               <occupation> king </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ባዜን፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Bāzen</persName>
+            
+               
+               <nationality type="Aksumite"/>
+               <faith type="Aksumite"/>
+               
+               
+               <occupation type="ruler">king </occupation>
+               
+           
+               <floruit >He was a king of <placeName ref="LOC1310Aksum"/> at the time of <persName ref="PRS5684JesusCh"/>'s  birth. </floruit>
+            
+               
             </person>
-         </listPerson>
+            
+              </listPerson>
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Hahn2003Bazen"/>
+            </bibl>  
+            
+            <bibl> 
+               <ptr target="bm:Phillipson1998Aksum"/>
+            </bibl>  
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+                  
+               

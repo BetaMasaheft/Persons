@@ -10,7 +10,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Täklä Haymanot</title>
+            <title>Takla Hāymānot</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,21 +48,104 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-03-23">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+               
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">አዳል፡ተሰማ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAdāl Tasammā</persName>
+                  <persName xml:lang="gez" xml:id="n2" type="horseName">አባ፡ ጤና</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAbbā  Ṭenā</persName>
+            
+               <persName xml:lang="gez" xml:id="n3" type="regnalName">ተክለ፡ ሃይማኖት፡</persName>
+               <persName xml:lang="gez" corresp="#3" type="normalized">Takla Hāymānot</persName>
+               <persName><roleName type="title"> nǝguś</roleName></persName>
+               
+               
+               
+                  <occupation type="ruler">king</occupation>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+               <residence ><placeName ref="LOC2310DabraM"/></residence>
+               <birth when="1850">He was born at <placeName ref="LOC2421DagaDa"/> in <date>1850</date></birth>
+               <floruit notBefore="1855" notAfter="1901">He was a notable of <placeName ref="LOC2488Damot"/> and <placeName ref="LOC3549Gojjam"/> proper who dominated the political arena in his home region 
+                  in the last quarter of the 19th century. He was a powerful rival to <roleName type="title">ʾaṣe</roleName><persName ref="PRS7006Menilek"/>
+                  to whom he surredered himself after the death of <persName ref="PRS10378Yohanne"/>. 
+                  </floruit>
+               <death when="1901"> He died at <placeName ref="LOC2310DabraM"/> in <date>1901</date></death>
+               </person>
+               <listRelation>
+                  <relation name="snap:SonOf" 
+                     active="PRS9158TaklaHa"
+                     passive="PRS9263Tasamma"
+                     ></relation>
+                  <relation name="snap:SonOf" 
+                     active="PRS9158TaklaHa"
+                     passive="PRS6974Meellad"
+                     ></relation>
+                  <relation name="snap:FatherOf"
+                     active="PRS9158TaklaHa"
+                     passive="PRS5251hayluTa"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS9158TaklaHa"
+                     passive="PRS10378Yohanne"
+                     ></relation>
+                  <relation name="rel:enemyOf"
+                     active="PRS9158TaklaHa"
+                     passive="PRS9093TadlaGw"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS9158TaklaHa"
+                     passive="PRS9143TaklaGi"
+                     ></relation>
+                  <relation name="bm:husbandOf"
+                     active="PRS9158TaklaHa"
+                     passive="PRS6181Laqacc"
+                     ></relation>
+                  <relation name="snap:FatherOf"
+                     active="PRS9158TaklaHa"
+                     passive="PRS2602Bazzabbe"
+                     ></relation>
                   
-                  Täklä Haymanot
-               </persName>
-               <persName type="alt">Adal Täsämma</persName>
-               <persName type="alt"> Abba Ṭena</persName>
-               <occupation> nǝguś </occupation>
-            </person>
+                  
+                  
+                  
+                  
+               </listRelation>
          </listPerson>
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Bairu2010TaklaHaymanot"/>
+               
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Bairu1973TaklaHaymanot"/>
+               <biblScope unit="page">29-55</biblScope>
+               
+            </bibl>  
+            
+            
+            <bibl> 
+               <ptr target="bm:Tsega2006Ethnic"/>
+               
+            </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+                  
+                 
