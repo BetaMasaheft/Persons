@@ -10,7 +10,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ǝngǝda</title>
+            <title>ʾƎngǝdā</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,20 +48,99 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-03-23">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+            
                   
-                  Ǝngǝda
-               </persName>
-               <occupation> aläqa</occupation>
-               <occupation> art. </occupation>
-            </person>
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">እንግዳ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾƎngǝdā</persName>
+               <persName><roleName type="title">ʾalaqā </roleName></persName>
+                  
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  
+                  
+                  
+                  <occupation type="art">artist</occupation>
+                 
+                  
+                  
+                  
+               <floruit notBefore="1855" notAfter="1890">He was an artist emerged during the reign of  <roleName type="title">ʾaṣe</roleName><persName ref="PRS9430Tewodros"/>.
+                  He was also later employed by <roleName type="title">ʾaṣe</roleName><persName ref="PRS10378Yohanne"/> and  <roleName type="title">nǝguś
+                  </roleName> <persName ref="PRS9158TaklaHa"/> and was still active in the  early years of <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS7006Menilek"/>.
+                  </floruit>
+                  
+                  
+                  
+               </person>
+               <listRelation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS3802engeda"
+                     passive="PRS10378Yohanne"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS3802engeda"
+                     passive="PRS7006Menilek"
+                     ></relation>
+                  
+                  
+                  <relation name="snap:AllianceWith"
+                     active="PRS3802engeda"
+                     passive="PRS9158TaklaHa"
+                     ></relation>
+                  
+                  
+                  
+                  
+                  
+                  
+               </listRelation>
          </listPerson>
+         
+         
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Chojnacki1978Art"/>
+            </bibl> 
+            <bibl> 
+               <ptr target="bm:Pankhurst1966Art"/>
+            </bibl> 
+            <bibl> 
+               <ptr target="bm:Girma2005Engeda"/>
+            </bibl> 
+            
+            
+            
+            
+            
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  
+               
