@@ -10,7 +10,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mikaʾel ʿAli</title>
+            <title>Mikāʾel ʿAli</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,23 +47,84 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-03-27">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+               
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">መሐመድ አሊ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Maḥammad ʾAli</persName>
+                  <persName xml:lang="gez" xml:id="n2" type="horseName">አባ፡ ሻንቆ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAbbā Šānqo</persName>
+                  <persName xml:lang="gez" xml:id="n3" type="baptisalName">ሚካኤል፡</persName>
+               <persName xml:lang="gez" corresp="#n3" type="normalized">Mikāʾel of Wallo </persName>
+               <persName><roleName type="title">imām</roleName></persName>
+               <persName><roleName type="title">nǝguś</roleName></persName>
                   
-                  Mikaʾel ʿAli
-               </persName>
-               <persName type="alt"> Mäḥammäd ʿAli</persName>
-               <persName type="alt">Mikaʾel of Wällo </persName>
-               <persName type="alt">Abba Šanqo</persName>
-               <occupation> imām</occupation>
-               <occupation> nǝguś</occupation>
-            </person>
+                  <occupation type="ruler">king</occupation>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+               <residence ><placeName ref="LOC2575Dase"/></residence>
+               <birth notBefore="1847" notAfter="1850">He was born at <placeName ref="LOC6242WarraH"/>between<date>1847-1850</date>.</birth>
+               <floruit  notBefore="1870" notAfter="1916">He was an important ruler of <placeName ref="LOC6185Wallo"/> and the entire northern Ethiopia. 
+                  He was born Muslim and later converted to Christianity in <date>1878</date>, at the council of <placeName ref="LOC1980BoruMe"/> and assumed the baptisal name Mikaʾel. 
+                  He was in alliance with <persName ref="PRS10378Yohanne"/>until his death in <date>1889</date> at the battle of 
+                  <placeName ref="LOC4637Matamm"/>. However, after the  death of <persName ref="PRS10378Yohanne"/>, 
+                  he declared his submission to <persName ref="PRS7006Menilek"/>to whom he was loyal till the end of his rule. He was one of the military commanders of the 
+                  battle of <placeName ref="LOC1263Adwa"
+                     /></floruit>
+               <death when="1916">He was killed at the battle of <placeName ref="LOC5446Sagale"/> in <date>1916</date>. </death>
+               </person>
+               <listRelation>
+                  <relation name="snap:GrandsonOf"
+                     active="PRS7079Mikael"
+                     passive="PRS6292LibanAm"
+                     ></relation>
+                  
+                  <relation name="snap:FatherOf"
+                     active="PRS7079Mikael"
+                     passive="PRS5620IyasuV"
+                     ></relation>
+                  <relation name="snap:NephewOf"
+                     active="PRS7079Mikael"
+                     passive="PRS6643MananLi"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS7079Mikael"
+                     passive="PRS7006Menilek"
+                     ></relation>
+                  
+                  
+                   </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:RubinkowskaSmidt2007Mikael"/>
+               
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Asnake1983Wallo"/>
+               
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Ficquet2003Boru"/>
+               
+            </bibl>  
+            
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+                  
+                 
