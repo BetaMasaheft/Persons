@@ -54,17 +54,30 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" xml:id="n1">ዮሐንስ፡ ወልደ፡ ቀንጦራሬ፡</persName>
                <persName xml:lang="gez" type="normalized" corresp="#n1">Yoḥannǝs Walda Qanṭorāre</persName>
                <faith type="EOTC "/>
+               <occupation type="ecclesiastic"><roleName type="title">qaysa gabaz</roleName> of Santo Stefano dei Mori</occupation>
                <occupation type="ecclesiastic"><roleName type="title">rāyǝs</roleName> of Santo Stefano dei Mori</occupation>
                <residence>
                   <placeName ref="INS0302SantoSte"> Santo Stefano dei Mori </placeName>
                </residence>
+               <!-- Pehaps the same as PRS4683GiovanB (= Giovan Battista l'Abissino) -->
+               <!-- bm:Fiaccadori1989Aethiopica -->
             </person>
             <listRelation>
                <relation name="lawd:hasAttestation" active="PRS10372Yohanne" passive="BAVet5#a1"/>
+               <relation name="saws:hasOwned" active="PRS10372Yohanne" passive="BAVet15"/>
+               <relation name="saws:hasOwned" active="PRS10372Yohanne" passive="BAVet35"/>
                <relation name="lawd:hasAttestation" active="PRS10372Yohanne" passive="BAVet66#a1"/>
                <relation name="lawd:hasAttestation" active="PRS10372Yohanne" passive="BAVet66#a9"/>
             </listRelation>
          </listPerson>
+         <div type="bibliography">
+            <listBibl type="secondary">
+               <bibl>
+                  <ptr target="bm:Fiaccadori1989Aethiopica"/>
+                  <citedRange unit="item">148-149</citedRange>
+               </bibl>
+            </listBibl>
+         </div>
       </body>
    </text>
 </TEI>
