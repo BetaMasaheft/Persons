@@ -10,7 +10,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ebana</title>
+            <title>ʿEbānā</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,21 +47,52 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-03-28">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+              
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ዔባና፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʿEbānā</persName>
+               <persName xml:lang="gez" xml:id="n2" type="alt">ዔስባዔል፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">ʿEsbāel</persName>
+               <persName xml:lang="gez" xml:id="n3" type="alt">አናዔብ፡</persName>
+               <persName xml:lang="gez" corresp="#n3" type="normalized">ʾAnāeb</persName>
+               
                   
-                  Ebana
-               </persName>
-               <persName type="alt"> Esbael</persName>
-               <persName type="alt">Anaeb</persName>
-               <occupation> king </occupation>
-            </person>
+                  <occupation type="ruler">king</occupation>
+                  <nationality type="Aksumite"/>
+                  <faith type="Christianity"/>
+                  
+               <floruit notBefore="0400" notAfter="0450">He was an early 5th century king of <placeName ref="LOC1310Aksum"/> known from his coinage.</floruit>
+                  
+               </person>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Hahn2005Ebana"/>
+               
+            </bibl>  
+            
+            <bibl> 
+               <ptr target="bm:MunroHay1979Kings"/>
+               <biblScope unit="page">21-30</biblScope>
+               
+            </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+                  
+                  
