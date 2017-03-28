@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ǝllä Śahǝl</title>
+            <title>ʾƎlla Śāhǝl</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,21 +46,53 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-03-28">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+              
                   
-                  Ǝllä Śahǝl
-               </persName>
-               <persName type="alt">Zä Ǝllä Śahäl</persName>
-               <persName type="alt"> Qwäsṭanṭinos</persName>
-               <occupation> king </occupation>
-            </person>
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">እለ፡ ሣህል፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾƎlla Śāhǝl</persName>
+               <persName xml:lang="gez" xml:id="n2" type="alt">ዘእለ፡ ሣህል፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Za ʾƎlla Śāhāl</persName>
+               <persName xml:lang="gez" xml:id="n3" type="alt">ቈስጠንጢኖስ፡</persName>
+               <persName xml:lang="gez" corresp="#n3" type="normalized"> Qwasṭanṭinos</persName>
+                  
+                  
+                  <occupation type="ruler">king</occupation>
+                  <nationality type="Aksumite"/>
+                  <faith type="Christianity"/>
+                  
+                  
+               </person>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:MunroHay2003EllaSahel"/>
+               
+            </bibl>  
+            
+            <bibl> 
+               <ptr target="bm:MunroHay1979Kings"/>
+               <biblScope unit="page">21-30</biblScope>
+               
+            </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+                  
