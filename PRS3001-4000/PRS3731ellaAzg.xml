@@ -10,7 +10,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ǝllä Azgwagwa</title>
+            <title>ʾƎlla ʾAzgwāgwā</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +47,53 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-03-28">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+               
                   
-                  Ǝllä Azgwagwa
-               </persName>
-               <occupation> king </occupation>
-            </person>
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">እለ፡ አዝጓጓ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾƎlla ʾAzgwāgwā</persName>
+                  
+                  
+                  <occupation type="ruler">king</occupation>
+                  <nationality type="Aksumite"/>
+               <faith type="Aksumite"/>
+                  
+               <floruit notBefore="0320" notAfter="0340">He was a king of <placeName ref="LOC1310Aksum"/> who succeeded King <persName ref="PRS3729ellaAm"/>
+                  during whose reign <persName ref="PRS8386SalamaI"/> arrived in <placeName ref="LOC3010Ethiop"/>.
+                  He was succeeded by the famous brother kings <persName ref="PRS1284Abrehaa"/>. </floruit>
+                  
+               </person>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:MunroHayRed2003EllaAzgwagwa"/>
+               
+            </bibl>  
+            
+            <bibl> 
+               <ptr target="bm:Dillmann1880Konig"/>
+               <biblScope unit="page">1-51</biblScope>
+               
+            </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+                  
+                

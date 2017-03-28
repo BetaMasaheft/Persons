@@ -48,6 +48,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-10-10">Complete record</change>
          <change when="2017-01-23" who="ES">Bibliography added, nationality corrected</change>
+         <change when="2017-03-28" who="SG">updated record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -57,16 +58,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" xml:id="n1" type="birthName">ዔዛና፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʿEzānā</persName>
                
-                  <persName><roleName type="title">ʾaṣe</roleName></persName>
-                  <occupation type="ruler">Emperor</occupation>
+          
+                  <occupation type="ruler">king</occupation>
                   <nationality type="Aksumite"/>
                   <faith type="Aksumite EOTC"/>
                   <birth><date cert="medium">325</date></birth>
                   <residence><placeName ref="LOC1310Aksum">ʾAksum</placeName></residence>
-               <floruit>He was a king of  <placeName ref="LOC1310Aksum">ʾAksum</placeName> reigned between <date>330</date> and <date>365/70</date>.
+               <floruit notBefore="0330" notAfter="0370">He was a king of  <placeName ref="LOC1310Aksum">ʾAksum</placeName> reigned between <date>330</date> and <date>365/70</date>.
                   He was the first Aksumite king who was converted to Christianity. The prosperity and power of <placeName ref="LOC1310Aksum">ʾAksum</placeName> reached its zenith during his time. 
                      </floruit>
-                  <death></death>
+          
                </person>
                <listRelation>
                   <relation name="snap:AllianceWith"
