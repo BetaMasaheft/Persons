@@ -10,7 +10,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ǝllä Ṣäḥam</title>
+            <title>ʾƎlla Ṣaḥām</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,22 +47,71 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-03-28">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+           
                   
-                  Ǝllä Ṣäḥam
-               </persName>
-               <persName type="alt">Ǝllä Ḍäḥam</persName>
-               <persName type="alt"> Zäʾǝllä Saham</persName>
-               <persName type="alt"> Zäṣäḥam</persName>
-               <occupation> king </occupation>
-            </person>
+                  
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">እለ፡ ጸሓም፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾƎlla Ṣaḥām</persName>
+               <persName xml:lang="gez" xml:id="n2" type="alt">እለ፡ ፀሓም፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">ʾƎlla  Ḍaḥām</persName>
+               <persName xml:lang="gez" xml:id="n3" type="alt">ዘእለ፡ጻሕም፡</persName>
+               <persName xml:lang="gez" corresp="#n3" type="normalized">Zaʾǝlla Sāhǝm</persName>
+               <persName xml:lang="gez" xml:id="n4" type="alt">ዘጻሕማ፡</persName>
+               <persName xml:lang="gez" corresp="#n4" type="normalized"> Zaṣaḥām</persName>
+               
+               
+               
+                  
+                  
+                  <occupation type="ruler">king</occupation>
+               <nationality type="Aksumite"/>
+               <faith type="Christianity"/>
+                  
+               <floruit notBefore="0600" notAfter="0630">He was the Christian king of <placeName ref="LOC1310Aksum"/> who received the Muslim emigrants in <date>615/616</date>.   </floruit>
+                  
+               </person>
          </listPerson>
+      
+         
+            
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Fiaccadori2003EllaSaham"/>
+               
+            </bibl>  
+            
+            <bibl> 
+               <ptr target="bm:Dillmann1880Konig"/>
+               <biblScope unit="page">1-51</biblScope>
+               
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Fiaccadori2002Christians"/>
+               <biblScope unit="page">243-252</biblScope>
+               
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+                  
+                  
