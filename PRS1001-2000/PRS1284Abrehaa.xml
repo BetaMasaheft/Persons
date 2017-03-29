@@ -10,7 +10,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Abrǝha and Aṣbǝḥa</title>
+            <title>ʾAbrǝhā and ʾAṣbǝḥa</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,20 +47,68 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-03-29">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+               
                   
-                  Abrǝha and Aṣbǝḥa
-               </persName>
-               <persName type="alt">Ǝllä Aṣbǝḥa</persName>
-               <occupation> kings </occupation>
-            </person>
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">አብርሃ፤ አጽብሐ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAbrǝhā and ʾAṣbǝḥa</persName>
+               <persName xml:lang="gez" xml:id="n2" type="alt">እለ፡ አጽብሐ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">ʾƎlla ʾAṣbǝḥa</persName>
+                  
+                  
+                  
+                  
+                  
+                  <occupation type="ruler">kings</occupation>
+                  <nationality type="Aksumite"/>
+                  <faith type="Christianity"/>
+                  
+               <floruit >They were joint rulers of <placeName ref="LOC1310Aksum"/> and brothers who adopted Christianity under <persName ref="PRS8386SalamaI"/> 
+                  around <date>340</date>. </floruit>
+                  
+               </person>
          </listPerson>
+         
+         
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:MunroHay2003AbrehaAs"/>
+               
+            </bibl>  
+            
+            <bibl> 
+               <ptr target="bm:ContiRossini1909Listes"/>
+               <biblScope unit="page">263-320</biblScope>
+               
+               
+            </bibl>
+            
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  
+                 

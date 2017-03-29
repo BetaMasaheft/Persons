@@ -10,7 +10,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Wazena</title>
+            <title>Wāzenā</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,20 +48,71 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-03-29">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Wazena
-               </persName>
-               <persName type="alt">WZN</persName>
-               <occupation> ruler </occupation>
+               
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ዋዜና፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Wāzenā</persName>
+               <persName xml:lang="gez" xml:id="n2" type="alt">ወዘነ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Wazana</persName>
+               
+               <persName xml:lang="gez" xml:id="n3" type="alt">ዘወዘነ፡</persName>
+               <persName xml:lang="gez" corresp="#n3" type="normalized">Za-Wazana</persName>
+               
+               
+               
+               
+               <occupation type="ruler">king</occupation>
+               <nationality type="Aksumite"/>
+               <faith type="Christianity"/>
+               
+               <floruit notBefore="0590" notAfter="0650">He was the king of <placeName ref="LOC1310Aksum"/> in the late 6th and early 7th century. 
+                  He was possibly the successor of <persName ref="PRS3730ellaAm"/> and a predecessor of <persName ref="PRS3732ellaGab"/>. </floruit>
+               
             </person>
          </listPerson>
+         
+         
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Fiaccadori2005Wazena"/>
+               
+            </bibl>  
+            
+            <bibl> 
+               <ptr target="bm:Mordini1949Wazena"/>
+               <biblScope unit="page">7-11</biblScope>
+               
+               
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Fiaccadori2002Christians"/>
+               <biblScope unit="page">243-252</biblScope>
+               
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  
+                  
