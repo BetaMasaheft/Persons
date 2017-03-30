@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:id="t1">Aidan Gasquet</title>
+            <title xml:id="t1">Francis Aidan Gasquet</title>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
@@ -41,6 +41,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </profileDesc>
       <revisionDesc>
          <change who="MV" when="2017-01-03">Created XML record.</change>
+         <change who="MV" when="2017-03-30">Added occupation</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -48,15 +49,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                  <forename>Aidan</forename>
+                  <forename>Francis Aidan</forename>
                   <surname>Gasquet</surname>
                </persName>
-               <occupation>librarian of the BAV</occupation>
+               <birth>1846</birth>
+               <death>1929</death>
+               <faith type="Catholicism"/>
+               <occupation type="ecclesiastic">Cardinal</occupation>
+               <occupation type="academic">Librarian of the <ref type="ins" corresp="INS0003BAV">Biblioteca Apostolica Vaticana</ref>.</occupation>
             </person>
             <listRelation>
                <relation name="lawd:hasAttestation"
                          active="PRS11356Gasquet"
-                         passive="BAVet36"></relation>
+                         passive="BAVet36 BAVet76"></relation>
             </listRelation>
          </listPerson>
       </body>
