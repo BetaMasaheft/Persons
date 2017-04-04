@@ -11,6 +11,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Cerulli</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,6 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-04-04">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,12 +55,47 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                   Enrico
-                  Cerulli
-               </persName>
-               <occupation> sch. </occupation>
+                  <forename>Enrico</forename>
+                  <surname>Cerulli</surname> </persName>
+               
+               <occupation type="academic">scholar</occupation>
+               <nationality type="Italy"/>
+               <faith type="notSpecified"/>
+               <birth when="1898">He was born at <placeName ref="gn:3172394"/> in <date>1898</date>.</birth>
+               <floruit  notBefore="1920" notAfter="1988">He was an outstanding scholar in the field of Ethiopian Studies. He graduated from <placeName ref="gn:3172394"/>
+                  University with his major in law. At the same time, he attended lectures in Ethio-Semetic languages as well as in Arabic and Islamic deciplines. He served the Italian government 
+                  in various positions. He carried out his scientific work in parallel to his official appointments. His works are seminal and cover vast range of topics of Ethiopian Studies. </floruit>
+               <death when="1988">He died at <placeName ref="gn:3169070"/> in <date>1988</date>.</death>
             </person>
+            <listRelation>
+               <relation name="snap:AllianceWith"
+                  active="PRS3076Cerulli"
+                  passive="PRS3182ContiRo"
+                  ></relation>
+               
+               
+            </listRelation>
          </listPerson>
+         
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Ricci1990Cerulli"/>
+            
+               <biblScope unit="page">5-19</biblScope>
+               
+            </bibl>   
+            
+            <bibl> 
+               <ptr target="bm:Ricci2003Cerulli"/>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
