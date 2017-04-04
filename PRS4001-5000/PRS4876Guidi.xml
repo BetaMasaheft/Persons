@@ -11,6 +11,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Guidi</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,6 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-04-04">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,12 +55,62 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                   Ignazio
-                  Guidi
-               </persName>
-               <occupation> sch. </occupation>
+                  <forename> Ignazio</forename>
+                  <surname> Guidi</surname> </persName>
+               
+               <occupation type="academic">scholar</occupation>
+               <nationality type="Italy"/>
+               <faith type="notSpecified"/>
+               <birth when="1844">He was born at <placeName ref="gn:3169070"/> in <date>1844</date>.</birth>
+               <floruit > He was an outstanding Italian scholar, a Professor of Hebrew and Semetic languages at the 
+                  University of <placeName ref="gn:3169070"/> from <date>1876-1919</date>. From <date>1885-1919</date>,  
+                  he held the chair of History and Languages of Abyssinia in the same University. He was a brilliant Orientalist on account of his masterly knowledge 
+                  of ancient Near Eastern languages and civilizations. In his later years,  he devoted himself to Ethiopian Studies. 
+                  Having fully mastered Gǝʿǝz and Amharic, he published Amharic grammar entitled Grammatica elementare della linqua amarica in <date>1952</date>. 
+                  He also edited and published several Amharic and Geez texts. </floruit>
+               <death when="1935">He died at <placeName ref="gn:3169070"/> in <date>1935</date>.</death>
             </person>
+            <listRelation>
+               <relation name="snap:AllianceWith"
+                  active="PRS4876Guidi"
+                  passive="PRS3182ContiRo"
+                  ></relation>
+               <relation name="snap:FriendshipFor"
+                  active="PRS4876Guidi"
+                  passive="PRS5907KeflaGi"
+                  ></relation>
+               
+               
+            </listRelation>
          </listPerson>
+         
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:ContiRossini1935Guidi"/>
+               <biblScope unit="page">471-481
+               </biblScope>
+               
+            </bibl>   
+            <bibl> 
+               <ptr target="bm:Guidi1897FethaNagastEdition"/>
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Guidi1899FethaNagastTranslation"/>
+            </bibl>
+            
+            
+            <bibl> 
+               <ptr target="bm:Ricci2005Guidi"/>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+                  
