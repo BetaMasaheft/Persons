@@ -11,6 +11,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Nöldeke</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +47,68 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-04-05">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                   Theodor
-                  Nöldeke
-               </persName>
-               <occupation> sch. </occupation>
-            </person>
+          
+                  <persName>
+                     <forename> Theodor</forename>
+                     <surname>Nöldeke</surname> </persName>
+                  
+                  <occupation type="academic">scholar</occupation>
+                  <nationality type="Germany "/>
+                  <faith type="notSpecified"/>
+                  <birth when="1836"></birth>
+               <floruit notBefore="1853" notAfter="1930">He was a scholar of Oriental Studies. He studied classical Philology in 
+                  <placeName ref="gn:2918632"/> from <date>1853-56</date>. Between<date>1856-1860</date>, he studied Oriental manuscripts 
+                  in <placeName ref="gn:2879139"/>, <placeName ref="gn:2761369"/>, <placeName ref="gn:2751773"/>, <placeName ref="gn:2918752"/> and 
+                  <placeName ref="gn:2950159"/>. He had  several publications in the fileds of Ethiopian studies.</floruit>
+                  <death when="1930" ></death>
+               </person>
+               <listRelation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS7604Noldeke"
+                     passive="PRS6324Littmann"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS7604Noldeke"
+                     passive="PRS2908Brockelm"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS7604Noldeke"
+                     passive="PRS3931Ewald"
+                     ></relation>
+                  
+                  
+               </listRelation>
          </listPerson>
+         
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Voigt2007Noldeke"/>
+               
+               
+               
+            </bibl>   
+            
+            <bibl> 
+               <ptr target="bm:Bobzin1999Noldeke"/>
+               <biblScope unit="page">311-312</biblScope>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+                   
