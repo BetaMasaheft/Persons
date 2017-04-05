@@ -11,6 +11,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Praetorius</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
+            
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +48,80 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-04-05">Complete record</change>
+         
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                   Franz
-                  Praetorius
-               </persName>
-               <occupation> sch. </occupation>
-            </person>
+           
+                  <persName>
+                     <forename> Franz</forename>
+                     <surname>  Praetorius</surname> </persName>
+                  
+                  <occupation type="academic">scholar</occupation>
+                  <nationality type="Germany "/>
+                  <faith type="notSpecified"/>
+               <birth when="1847">He was born at <placeName ref="gn:2950159"/> in <date>1847</date>.</birth>
+               <floruit notBefore="1865" notAfter="1927">He was an eminent German Orientalist and Semitist. He studied Oriental languages between <date>1865-1867</date>.
+                  Praetorius is considered the most important linquist in the 19th century Ethiopian Studies. </floruit>
+               <death when="1927">He died at <placeName ref="gn:3081368"></placeName> in <date>1927</date>.</death>
+               </person>
+               <listRelation>
+                  
+                  <relation name="snap:AllianceWith"
+                     active="PRS7939Praetori"
+                     passive="PRS6324Littmann"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS7939Praetori"
+                     passive="PRS8172Rodiger"
+                     ></relation>
+                  
+                  <relation name="snap:AllianceWith"
+                     active="PRS7939Praetori"
+                     passive="PRS8649Schrenze"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS7939Praetori"
+                     passive="PRS7812Peterman"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS7939Praetori"
+                     passive="PRS4138Fleische"
+                     ></relation>
+                  
+                  
+                  
+               </listRelation>
          </listPerson>
+         
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Voigt2010Praetorius"/>
+               
+               
+               
+            </bibl>   
+            
+            <bibl> 
+               <ptr target="bm:Littmann1927Praetorius"/>
+               <biblScope unit="page">78-81</biblScope>
+            </bibl>
+              </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+                   

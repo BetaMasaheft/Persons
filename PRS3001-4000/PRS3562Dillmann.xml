@@ -46,7 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
-         <change who="SG" when="2017-02-15">correction to date </change>
+         <change who="SG" when="2017-04-05">complete record </change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -59,34 +59,54 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                <occupation type="academic">scholar</occupation>
                <nationality type="Germany"/>
-               <!--<faith type=""/>-->
-               <birth></birth>
-               <floruit> He was one of the most prominent Ethiopisants of the 19th century 
+               <faith type="Christianity"/>
+               <birth when="1823"></birth>
+               <floruit notBefore="1840" notAfter="1894">He was one of the most prominent Ethiopisants of the 19th century. 
+                  He is also referred as the founder of modern day Ethiopian Studies. Dillmann was a Protestant theologian by training. He received his PhD from
+                  <placeName ref="gn:2820860"/> University in <date>1846</date>. Thereafter, he devoted his life entirely to scholarly work in the field of Ethiopian Studies and Old Testament Studies. 
                </floruit>
-               <death><date></date> </death>
+               <death when="1894"></death>
             </person>
-            <!--<listRelation>
-               <relation name="snap:AllianceWith"
+            <listRelation>
+           <relation name="snap:AllianceWith"
                   active="PRS3562Dillmann"
-                  passive=
-                 ></relation>
-            </listRelation>-->
+                  passive="PRS6324Littmann"
+              ></relation>
+            </listRelation>
          </listPerson>
-         <listBibl type="secondary">
-           <!-- <bibl> 
-               <ptr target=""/>
+         
+         
+               <listBibl type="secondary">
+                  <bibl> 
+                     <ptr target="bm:Kleiner2005Dillmann"/>
+                     
+                     
             </bibl>   
-            <bibl> 
-               <ptr target=""/>
-            </bibl>  
-            
-            <bibl> 
-               <ptr target=""/>
-            </bibl>  -->
-            <bibl> 
-               <ptr target="bm:Kleiner2005Dillmann"/>
-            </bibl>
-         </listBibl>
+                  
+                  <bibl> 
+                     <ptr target="bm:BausiSokolinski2016Traces"/>
+                  
+                  </bibl>
+                  <bibl> 
+                     <ptr target="bm:Dillmann1865Lexicon"/>
+                   
+                  </bibl>
+                  <bibl> 
+                     <ptr target="bm:Dillmann1850Jubilaeen"/>
+                     
+                  </bibl>
+                  
+                  <bibl> 
+                     <ptr target="bm:Dillmann1884Amda"/>
+                     
+                  </bibl>
+                  <bibl> 
+                     <ptr target="bm:Dillmann1859Kufale"/>
+                     
+                  </bibl>
+                  
+               </listBibl>
+               
       </body>
    </text>
 </TEI>
@@ -94,4 +114,4 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
 
 
-               
+
