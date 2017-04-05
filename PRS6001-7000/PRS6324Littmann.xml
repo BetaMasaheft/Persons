@@ -11,6 +11,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Littmann</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,6 +48,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-04-04">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,12 +56,64 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                   Enno
-                  Littmann
-               </persName>
-               <occupation> sch. </occupation>
+                  <forename>Enno</forename>
+                  <surname> Littmann</surname> </persName>
+               
+               <occupation type="academic">scholar</occupation>
+               <nationality type="Germany "/>
+               <faith type="notSpecified"/>
+               <birth when="1875">He was born at <placeName ref="gn:2820860"/> in <date>1875</date>.</birth>
+               <floruit notBefore="1894" notAfter="1958">He was a German Semitist and Orientalist who during his life time ranked among the leading scholars in these fields.
+                  He was the one who led the Imperial sponsored Deutsche Aksum-Expedition to Ethiopia in <date>1906</date>. </floruit>
+               <death  when="1958"></death>
             </person>
+            <listRelation>
+               <relation name="snap:AllianceWith"
+                  active="PRS6324Littmann"
+                  passive="PRS7604Noldeke"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  active="PRS6324Littmann"
+                  passive="PRS3562Dillmann"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  active="PRS6324Littmann"
+                  passive="PRS7939Praetori"
+                  ></relation>
+               
+               
+               
+            </listRelation>
          </listPerson>
+         
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Littmann2005Littmann"/>
+               
+               
+               
+            </bibl>   
+            
+            <bibl> 
+               <ptr target="bm:Paret1959Littmann"/>
+               <biblScope unit="page">9-14</biblScope>
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Biesterfeldt1958Littmann"/>
+               <biblScope unit="page">1-101</biblScope>
+            </bibl>
+            
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+               
