@@ -11,6 +11,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Halévy</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,6 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-04-10">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,12 +54,62 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                   Joseph
-                  Halévy
-               </persName>
-               <occupation> sch.</occupation>
+             
+                  <forename>Joseph</forename>
+                  <surname> Halévy</surname> </persName>
+                  
+                  <occupation type="academic">scholar</occupation>
+                  <nationality type="Turkey"/>
+                  <faith type="notSpecified"/>
+                  <birth when="1827"></birth>
+               <floruit notBefore="1868" notAfter="1917">He was a leading 19th century Semiticist. He spent most of his adult life in <placeName ref="gn:3017382"/> where he lead a 
+                  distinguished career as Orientalist and archaeologist, publishing numerous studies on Semitic languages and epigraphy as well as on the Bible. In <date>1868</date>, 
+                  he came to <placeName ref="LOC3010Ethiop"/> to investigate the situation of <persName ref="ETH1274Betaes"/> and documented a report on 
+                  the circumstance of <persName ref="ETH1274Betaes"/> in those days. In his report, he also  provided a useful information  about <placeName ref="LOC3010Ethiop"/> 
+                  during the last years of <persName ref="PRS9430Tewodros"/>.
+                  In <date>1879</date>, he began teaching Gǝʿǝz in <placeName ref="gn:2988507"/>. In <date>1893</date>, he founded the Revue sémitique d'épigraphie et d'histoire ancienne
+               in which he published much of his work. </floruit>
+                  <death when="1917"></death>
             </person>
+            <listRelation>
+               <relation name="snap:AllianceWith"
+                  active="PRS5012Halevy"
+                  passive="PRS7798Perrucho"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  active="PRS5012Halevy"
+                  passive="PRS3959Faitlovi"
+                  ></relation>
+               
+               
+            </listRelation>
          </listPerson>
+         
+         
+         <listBibl type="secondary">
+            
+            <bibl> 
+               <ptr target="bm:Kaplan2005Halevy"/>
+               
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Bertrand2000Halevy"/>
+               <biblScope unit="page">369-376</biblScope>
+            </bibl>
+               
+            
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+                 

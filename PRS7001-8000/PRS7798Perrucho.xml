@@ -11,6 +11,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Perruchon</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,6 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-04-10">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,12 +55,67 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                   Jules
-                  Perruchon
-               </persName>
-               <occupation> sch. </occupation>
+                  <forename>Jules</forename>
+                  <surname>  Perruchon</surname> </persName>
+               
+               <occupation type="academic">scholar</occupation>
+               <nationality type="France"/>
+               <faith type="notSpecified"/>
+               <birth when="1853"></birth>
+               <floruit notBefore="1888" notAfter="1907">He was a French Philologist of Gǝʿǝz, studied under the direction of <persName ref="PRS5012Halevy"/>.
+                  Over 20 years he published and translated a great number of historical Gǝʿǝz texts into French. </floruit>
+               <death when="1907"></death>
             </person>
+            <listRelation>
+               <relation name="snap:AllianceWith"
+                  active="PRS7798Perrucho"
+                  passive="PRS5012Halevy"
+                  ></relation>
+               
+            </listRelation>
          </listPerson>
+         
+         
+         <listBibl type="secondary">
+            
+            <bibl> 
+               <ptr target="bm:Wion2010Perruchon"/>
+              
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Halevy1907Perruchon"/>
+               <biblScope unit="page">344-345</biblScope>
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Perruchon1889Amda"/>
+               
+               
+               
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Perruchon1893Zarayaeqob"/>
+               
+               
+               
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Perruchon1894Eskender"/>
+               
+               
+               
+            </bibl>   
+            
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+               
