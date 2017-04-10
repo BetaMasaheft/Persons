@@ -11,6 +11,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Faitlovitch</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,6 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-04-10">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,12 +54,63 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                   Jacques
-                  Faitlovitch
-               </persName>
-               <occupation> sch./miss. </occupation>
+                  
+                  <forename>Jacques</forename>
+                  <surname>Faitlovitch</surname> </persName>
+               
+               <occupation type="academic">scholar</occupation>
+               <nationality type="Poland"/>
+               <faith type="notSpecified"/>
+               <birth when="1881"></birth>
+               <floruit notBefore="1904" notAfter="1955">He was a scholar and activist on behalf of <persName ref="ETH1274Betaes"/>. 
+                  He studied Oriental languages in <placeName ref="gn:3017382"/> under <persName ref="PRS5012Halevy"/>
+                  who stimulated his interest on <persName ref="ETH1274Betaes"/>.   </floruit>             
+                  <death when="1955">He died at <placeName ref="gn:293397"/> in <date>1955</date>. </death>
             </person>
+            <listRelation>
+               <relation name="snap:AllianceWith"
+                  active="PRS3959Faitlovi"
+                  passive="PRS5012Halevy"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  active="PRS3959Faitlovi"
+                  passive="PRS9057Taammer"
+                  ></relation>
+               
+               <relation name="snap:AllianceWith"
+                  active="PRS3959Faitlovi"
+                  passive="PRS10435YonaBo"
+                  ></relation>
+               
+            </listRelation>
          </listPerson>
+         
+         
+         <listBibl type="secondary">
+            
+            <bibl> 
+               <ptr target="bm:Kaplan2005Faitlovitch"/>
+               
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Kaplan1991Falasha"/>
+             
+            </bibl>
+            
+            
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+              
