@@ -11,6 +11,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Esteves Pereira</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +47,100 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-04-10">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                   Francisco Maria
-                  Esteves Pereira
-               </persName>
-               <occupation> sch. </occupation>
-            </person>
+         
+                  <persName>
+                     
+                     <forename>Francisco Maria</forename>
+                     <surname> Esteves Pereira</surname> </persName>
+                  
+                  <occupation type="academic">scholar</occupation>
+                  <nationality  type="Portugal"/>
+                  <faith type="notSpecified"/>
+                  <birth when="1854"></birth>
+                  <floruit notBefore="1882" notAfter="1924">He was a renowned Portuguese scholar who gave important contribution to Ethiopian Studies. 
+                     He edited and translated a number of biblical, hagiographic and historical Gǝʿǝz texts. </floruit>
+               <death  when="1924">He died at <placeName ref="gn:2267057"/></death>
+               </person>
+               <listRelation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS3890Esteves"
+                     passive="PRS2555Basset"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS3890Esteves"
+                     passive="PRS3182ContiRo"
+                     ></relation>
+                  
+                  <relation name="snap:AllianceWith"
+                     active="PRS3890Esteves"
+                     passive="PRS4747Goldschm"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS3890Esteves"
+                     passive="PRS4876Guidi"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS3890Esteves"
+                     passive="PRS6324Littmann"
+                     ></relation>
+                  
+                  
+                  <relation name="snap:AllianceWith"
+                     active="PRS3890Esteves"
+                     passive="PRS7146MondonV"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS3890Esteves"
+                     passive="PRS7798Perrucho"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS3890Esteves"
+                     passive="PRS4451Gallin"
+                     ></relation>
+                  
+                  
+               </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Pereira1892Susenyos"/>
+            </bibl>
+            
+            <bibl>
+               <ptr target="bm:Pereira1900Susenyos"/>
+            </bibl>
+         </listBibl>
+            
+         
+         
+         <listBibl type="secondary">
+            
+            <bibl> 
+               <ptr target="bm:BoavidaRed2005Pereira"/>
+               
+            </bibl>
+            
+            
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+               
