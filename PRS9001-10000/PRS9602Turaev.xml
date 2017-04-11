@@ -11,6 +11,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Turaev</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,6 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-04-11">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -52,11 +55,89 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName>
                   <forename>Boris Aleksandrovič</forename>
-                  <surname>Turaev</surname>
-               </persName>
-               <occupation type="academic"> sch. </occupation>
+                  <surname>Turaev</surname> </persName>
+               
+               <occupation type="academic">scholar</occupation>
+               <nationality type="Russia/USSR"/>
+               <faith type="Orthodox"/>
+               <birth when="1868"></birth>
+               
+               <floruit notBefore="1891" notAfter="1920">He was a renowned Russian Orientalist born to provincial gentry.  
+                  He studied Egyptology  in the historico-philological faculty of St. <placeName ref="gn:536203"/> University and completed the course in <date>1891</date>.
+                  Then, he was retained as a post-graduate student, was sent for studies abroad for one year. He worked in the museums of <placeName ref="gn:2950159"/>, 
+                  <placeName ref="gn:2988507"/>, <placeName ref="gn:2643743"/>,  and also <placeName ref="gn:3175395"/> collecting the material for his Magister Thesis.
+                  After his return in <date>1896</date>, he lectured on the history of the Ancient Orient and Egyptology at St. <placeName ref="gn:536203"/> University as assistant Professor. 
+                  In <date>1898</date>, he obtained his Magister of General History. Turaev published his first work in the field of Ethiopian Studies in <date>1897</date>
+                  and since then he produced writings devoted to Ethiopian topics every year. He edited and translated several Gǝʿǝz  texts. </floruit>
+               <death when="1920">He died at <placeName ref="gn:536203"/></death>
             </person>
+            <listRelation>
+               <relation name="snap:AllianceWith"
+                  active="PRS9602Turaev"
+                  passive="PRS3836Erman"
+                  ></relation>
+               
+               
+               
+            </listRelation>
          </listPerson>
+         
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Chernestsov2010Turaev"/>
+               
+               
+               
+            </bibl>   
+            
+            <bibl> 
+               <ptr target="bm:Turaev1936Chronicles"/>
+               
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Turaev1905FereMikael"/>
+               
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Turaev1905ZaraAbreham"/>
+               
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Turaev1906Ewostatewos"/>
+               
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Turaev1906rukopisi"/>
+               
+            </bibl>
+            
+            <bibl> 
+               <ptr target="bm:Turaev1899Orationes"/>
+               
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Turaev1895Saatat"/>
+               
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Turaev1936Chronicles"/>
+               
+            </bibl>
+            
+            
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+          
