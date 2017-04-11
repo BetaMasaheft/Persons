@@ -11,6 +11,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Wright</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
+            
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,6 +48,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-04-11">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,12 +56,75 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                   William
-                  Wright
-               </persName>
-               <occupation> sch. </occupation>
+                  <forename>William</forename>
+                  <surname>Wright</surname> </persName>
+               
+               <occupation type="academic">scholar</occupation>
+               <nationality type="UnitedKingdom"/>
+               <faith type="notSpecified"/>
+               <birth when="1830" ></birth>
+               <floruit notBefore="1852" notAfter="1889">He was a British Orientalist. The son of the Scottish officer in the service of the East India Company. 
+                  He studied Syriac and other Semitic languages. He became a Professor of Arabic between <date>1855-56</date> at the University College 
+                  <placeName ref="gn:2643743"/> and other colleges. He published an excellent catalogue of the Ethiopic Manuscripts from the  British Museum in <date>1877</date> 
+                  consisting chiefly in the collection from <placeName ref="LOC4547Maqdal"/>. </floruit>
+               <death when="1889">He died at <placeName ref="gn:2653941">. </placeName>
+               </death>
             </person>
+            <listRelation>
+               <relation name="snap:AllianceWith"
+                  active="PRS10171Wright"
+                  passive="PRS7604Noldeke"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  active="PRS10171Wright"
+                  passive="PRS3562Dillmann"
+                  ></relation>
+               
+               
+               
+            </listRelation>
          </listPerson>
+         
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Witakowski2010Wright"/>
+               
+               
+               
+            </bibl>   
+            <bibl> 
+               <ptr target="bm:Wright1877BM"/>
+              
+               
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Wright1865Contributions"/>
+               
+               
+            </bibl>
+            
+            
+            <bibl> 
+               <ptr target="bm:Wright1869Homilies"/>
+               
+               
+            </bibl>
+            
+            
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+            
