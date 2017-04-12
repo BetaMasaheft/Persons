@@ -11,6 +11,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Fusella</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,83 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-04-12">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                   Luigi
-                  Fusella
-               </persName>
-               <occupation> sch. </occupation>
-            </person>
+          
+                  <persName>
+                     <forename> Luigi</forename>
+                     <surname> Fusella</surname> </persName>
+                  
+                  <occupation type="academic">scholar</occupation>
+                  <nationality type="Italy"/>
+               <faith type="notSpecified"/>
+               <birth  when="1914">He was born at <placeName ref="gn:3172394"/>.</birth>
+                  <floruit notBefore="1930" notAfter="1992">He was  the son of a renowned musician and an acclaimed violinist, was a professional lawyer and followed his legal career 
+                     until the end of his life. Parallel to this, he was passionately devoted to Amharic language and lietrature in which he achieved a deepened proficiency at the school of Francesco Gallina and 
+                     then he started to teaching in the Istituto Orientale of <placeName ref="gn:3172394"/> where he was later to hold a chair of Gǝʿǝz language and literature. 
+                     He was widely reputed on account of his noteworthy literary production on the Amharic language and literature. He edited and translated Amahric texts into Italian. </floruit>
+               <death when="1992">He died at <placeName ref="gn:3172394"/>.</death>
+               </person>
+               <listRelation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS4199Fusella"
+                     passive="PRS1451Afawarq"
+                     ></relation>
+               </listRelation>
          </listPerson>
+         
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Ricci1992Fusella"/>
+               
+               
+            </bibl>   
+            
+            <bibl> 
+               <ptr target="bm:Ricci1992Fusella"/>
+               <biblScope unit="page">229-232</biblScope>
+               
+               
+            </bibl>   
+            <bibl> 
+               <ptr target="bm:Fusella1987Heruy"/>
+              
+               
+            </bibl>   
+            <bibl> 
+               <ptr target="bm:Fusella1953Assaggakan"/>
+               
+               
+               
+            </bibl>   
+            <bibl> 
+               <ptr target="bm:Fusella1961 MenelikII"/>
+               
+               
+               
+            </bibl>   
+            <bibl> 
+               <ptr target="bm:Fusella1951Libwoled"/>
+               
+               
+               
+            </bibl>   
+            
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+               
