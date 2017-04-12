@@ -11,6 +11,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Chaîne</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,6 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-04-12">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,12 +55,51 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                   Marius
-                  Chaîne
-               </persName>
-               <occupation> sch. </occupation>
+                  <forename> Marius</forename>
+                  <surname> Chaîne</surname> </persName>
+               
+               <occupation type="academic">scholar</occupation>
+               <nationality type="France"/>
+               <faith type="notSpecified"/>
+               <birth when="1873"></birth>
+               <floruit notBefore="1897" notAfter="1960">He was a French Ethiopianist and Coptologist. He studied Gǝʿǝz under <persName ref="PRS5012Halevy"/> 
+                  at the École Pratique des Hautes Études, before turning to Coptic. The works of Chaîne are characterized by their will to provide tools 
+                  for further research such as grammar, catalogues, translations  
+                  and comparative study of calendars.</floruit>
+               <death when="1960"></death>
             </person>
+            <listRelation>
+               <relation name="snap:AllianceWith"
+                  active="PRS3082Chaîne"
+                  passive="PRS5012Halevy"
+                  ></relation>
+            </listRelation>
          </listPerson>
+         
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Ficquet2003Chaine"/>
+               
+               
+            </bibl>   
+            
+            <bibl> 
+               <ptr target="bm:Chaine1912Catalogue"/>
+               
+               
+               
+            </bibl>   
+              </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+               
