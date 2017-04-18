@@ -9,7 +9,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Hǝndamalakot</title>
+            <title>Hǝnda Malakot</title>
             <editor key="MV"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -41,20 +41,22 @@ schematypens="http://relaxng.org/ns/structure/1.0"
       </profileDesc>
       <revisionDesc>
          <change who="MV" when="2016-05-26">CREATED: person record</change>
+         <change who="MV" when="2017-04-18">Added relation</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>Hǝndamalakot</persName>
-             
-               <death> </death>
-               <floruit></floruit>
-               <residence/>
+               <persName xml:id="n1" xml:lang="gez">ህንደ፡ መለኮት፡</persName>
+               <persName xml:lang="gez" type="normalized">Hǝnda Malakot</persName>
+               <faith type="EOTC "/>
+               <occupation type="other"/>
             </person>
             <listRelation>
-               <relation name="saws:hasOwned" active="PRS10765Hend" passive="BLadd11292"/>
+               <relation name="saws:hasOwned" 
+                  active="PRS10765Hend" 
+                  passive="BLadd11292"/>
             </listRelation>
          </listPerson>                 
       </body>
