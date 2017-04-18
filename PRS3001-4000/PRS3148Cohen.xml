@@ -11,6 +11,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Cohen</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,6 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-04-18">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,12 +54,49 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                   Marcel
-                  Cohen
-               </persName>
-               <occupation> sch. </occupation>
+             
+                     <forename>Marcel</forename>
+                     <surname>Cohen</surname> </persName>
+                  
+                  <occupation type="academic">scholar</occupation>
+                  <nationality type="France"/>
+                  <faith type="notSpecified"/>
+               <birth when="1884" >He was born at <placeName ref="gn:2988507"/> in <date>1884</date>. </birth>
+                  <floruit notBefore="1908" notAfter="1974">He was a distinguished French linquist, born from a middle class Jewish family. He devoted to comparative
+                     Semitic linquistics and prepared himself for this work in the areas of Oriental studies and linquistics. He attended Amharic course under 
+                     <persName ref="PRS7146MondonV"/> and later, he published couplets amharique du choa in <date>1924</date>. </floruit>
+                  <death when="1974"></death>
             </person>
+            <listRelation>
+               <relation name="snap:FriendshipFor"
+                  active="PRS3148Cohen"
+                  passive="PRS8999Strelcyn"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  active="PRS3148Cohen"
+                  passive="PRS7146MondonV"
+                  ></relation>
+               
+               
+            </listRelation>
          </listPerson>
+         
+         
+         <listBibl type="secondary">
+            
+            <bibl> 
+               <ptr target="bm:Rouaud2003Cohen"/>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+                   
