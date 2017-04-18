@@ -11,6 +11,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Gallina</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
+            
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,6 +48,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-04-18">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,12 +56,58 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                   Francesco
-                  Gallina
-               </persName>
-               <occupation> sch</occupation>
+                  <forename>Francesco</forename>
+                  <surname>Gallina</surname> </persName>
+               
+               <occupation type="academic">scholar</occupation>
+               <nationality type="Italy"/>
+               <faith type="notSpecified"/>
+               <birth when="1861"></birth>
+               <floruit notBefore="1880" notAfter="1942"> He was an Italian Orientalist. He began studying engineering but shifted soon towards Oriental
+                  Studies becoming a student of <persName ref="PRS4876Guidi"/>.  From <date>1891</date>, he held the chair of Amharic language and lietrature
+                  at the Real Istituto Orientale di Napoli, where he continued teaching well after his retirement. He was a teacher of the well known scholars in Ethiopian studies including <persName ref="PRS3076Cerulli"/>, 
+                  and <persName ref="PRS4199Fusella"/>. He edited several well known Amharic texts. </floruit>
+               <death when="1942" >He died at <placeName ref="gn:3172394"/>.</death>
             </person>
+            <listRelation>
+               <relation name="snap:AllianceWith"
+                  active="PRS4451Gallina"
+                  passive="PRS4876Guidi"
+                  ></relation>
+               
+               <relation name="snap:AllianceWith"
+                  active="PRS4451Gallina"
+                  passive="PRS3076Cerulli"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  active="PRS4451Gallina"
+                  passive="PRS4199Fusella"
+                  ></relation>
+               
+            </listRelation>
          </listPerson>
+         
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Cerulli1942Gallina"/>
+               
+               <biblScope unit="page">347-348</biblScope>
+               
+            </bibl>   
+            
+            <bibl> 
+               <ptr target="bm:Yaqob2005Gallina"/>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+               
