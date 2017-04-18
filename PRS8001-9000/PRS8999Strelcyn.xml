@@ -11,6 +11,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Strelcyn</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,6 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-04-18">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,12 +55,66 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                   Stefan
-                  Strelcyn
-               </persName>
-               <occupation> sch. </occupation>
+              
+                  <forename>Stefan</forename>
+                  <surname> Strelcyn</surname> </persName>
+                  
+                  <occupation type="academic">scholar</occupation>
+                  <nationality type="Poland "/>
+                  <faith type="notSpecified"/>
+                  <birth when="1918"></birth>
+                  <floruit notBefore="1935" notAfter="1981"> He was an eminent Polish Semitist and Ethiopisant. He was an all rounded scholar both in the field of Semitic studies and Ethiopian Studies.
+                     But he attained unequalled competence in the study of magical and medical texts, together with their parallel fields of plant names and of Old Amharic. 
+                     He also achieved excellence in cataloguing manuscripts.  </floruit>
+               <death when="1981">He died at <placeName ref="gn:2643123"/> in <date>1981</date>.</death>
             </person>
+            <listRelation>
+               <relation name="bm:husbandOf"
+                  active="PRS8999Strelcyn"
+                  passive="PRS11544Maria" 
+                  ></relation>
+               
+               <relation name="snap:AllianceWith"
+                  active="PRS8999Strelcyn"
+                  passive="PRS6784Marrassi"
+                  ></relation>
+               
+               <relation name="snap:FriendshipFor"
+                  active="PRS8999Strelcyn"
+                  passive="PRS3148Cohen"
+                  ></relation>
+               
+            </listRelation>
          </listPerson>
+         
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Marrassini1983Strelcyn"/>
+               
+               <biblScope unit="page">87</biblScope>
+               
+            </bibl>   
+            <bibl> 
+               <ptr target="bm:Ullendorff1981Strelcyn"/>
+               
+               <biblScope unit="page">479-490</biblScope>
+               
+            </bibl>   
+            
+            <bibl> 
+               <ptr target="bm:Marrassini2005Strelcyn"/>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+                   
