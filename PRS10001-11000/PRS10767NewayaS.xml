@@ -41,20 +41,22 @@ schematypens="http://relaxng.org/ns/structure/1.0"
       </profileDesc>
       <revisionDesc>
          <change who="MV" when="2016-05-26">CREATED: person record</change>
+         <change who="MV" when="2017-04-18">Added relation</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>Nǝwāya Śǝllus</persName>
-             
-               <death> </death>
-               <floruit></floruit>
-               <residence/>
+               <persName xml:id="n1" xml:lang="gez">ንዋየ፡ ሥሉስ፡</persName>
+               <persName xml:lang="gez" type="normalized">Nǝwāya Śǝllus</persName>
+               <faith type="EOTC "/>
+               <occupation type="other"/>
             </person>
             <listRelation>
-               <relation name="saws:hasOwned" active="PRS10767NewayaS" passive="BLadd11621"/>
+               <relation name="saws:hasOwned" 
+                  active="PRS10767NewayaS" 
+                  passive="BLadd11621"/>
             </listRelation>
          </listPerson>                 
       </body>

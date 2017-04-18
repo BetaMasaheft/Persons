@@ -47,16 +47,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  <forename/>
-                  <surname>Yāʿǝqob (Dillmann: Jacobus)</surname>
-               </persName>
-               <occupation>scribe</occupation>
+               <persName xml:id="n1" xml:lang="gez">ያዕቆብ፡</persName>
+               <persName xml:lang="gez" type="normalized">Yāʿǝqob</persName>
+               <persName xml:lang="la" resp="PRS3562Dillmann">Yāʿǝqob</persName>
+               <faith type="EOTC "/>
+               <occupation type="other"/>
             </person>
             <listRelation>
-               <relation name="lawd:hasAttestation"
+               <relation name="saws:isCopierOf"
                          active="PRS11108Yaeqob"
-                         passive="BLadd11620"><!--Please fix the relation of this item with BLadd11620--></relation>
+                         passive="BLadd11620"></relation>
             </listRelation>
          </listPerson>
       </body>
