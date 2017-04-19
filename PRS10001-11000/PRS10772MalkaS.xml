@@ -40,20 +40,23 @@ schematypens="http://relaxng.org/ns/structure/1.0"
       </profileDesc>
       <revisionDesc>
          <change who="MV" when="2016-05-26">CREATED: person record</change>
+         <change who="MV" when="2017-04-19">Minor additions</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>Malka Ṣedeq</persName>
-             
-               <death> </death>
-               <floruit></floruit>
-               <residence/>
+               <persName xml:id="n1" xml:lang="gez">መልከ፡ ጼዴቅ፡</persName>
+               <persName xml:lang="gez" type="normalized">Malka Ṣedeq</persName>
+               <persName xml:lang="la" resp="PRS3562Dillmann">Melchisedek</persName>
+               <faith type="EOTC "/>
+               <occupation type="other"/>
             </person>
             <listRelation>
-               <relation name="saws:hasWritten" active="PRS10772MalkaS" passive="BLadd16188"/> <!--saws:isCopierof? 2017-03-09 DR-->
+               <relation name="saws:isCopierOf" 
+                  active="PRS10772MalkaS" 
+                  passive="BLadd16188"/>
             </listRelation>
          </listPerson>                 
       </body>

@@ -40,23 +40,26 @@ schematypens="http://relaxng.org/ns/structure/1.0"
       </profileDesc>
       <revisionDesc>
          <change who="MV" when="2016-05-26">CREATED: person record</change>
-         <change who="MV" when="2016-12-02">minor correction</change>
-         
+         <change who="MV" when="2016-12-02">Minor corrections</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>Habta Śǝllāse</persName>
+               <persName xml:id="n1" xml:lang="gez">ሀብተ፡ ሥላሴ፡</persName>
+               <persName xml:lang="gez" type="normalized">Habta Śǝllāse</persName>
+               <persName xml:lang="la" resp="PRS3562Dillmann">Hábta Selâsieh</persName>
+               <faith type="EOTC "/>
                <occupation type="ecclesiastic">dabtarā</occupation>
-             
                <death> </death>
                <floruit>1839</floruit>
                <residence/>
             </person>
             <listRelation>
-               <relation name="saws:hasOwned" active="PRS10781Habtas" passive="BLadd16189"/>
+               <relation name="saws:hasOwned" 
+                  active="PRS10781Habtas" 
+                  passive="BLadd16189"/>
             </listRelation>
          </listPerson>                 
       </body>

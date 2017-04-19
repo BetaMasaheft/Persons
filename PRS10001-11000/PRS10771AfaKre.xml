@@ -40,17 +40,18 @@ schematypens="http://relaxng.org/ns/structure/1.0"
       </profileDesc>
       <revisionDesc>
          <change who="MV" when="2016-05-26">CREATED: person record</change>
+         <change who="MV" when="2017-04-19">Minor additions</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>ʾAfa Krǝstos</persName>
-             
-               <death> </death>
-               <floruit></floruit>
-               <residence/>
+               <persName xml:id="n1" xml:lang="gez">አፈ፡ ክርስቶስ፡</persName>
+               <persName xml:lang="gez" type="normalized">ʾAfa Krǝstos</persName>
+               <persName xml:lang="la" resp="PRS3562Dillmann">Afa-Christôs</persName>
+               <faith type="EOTC "/>
+               <occupation type="other"/>
             </person>
             <listRelation>
                <relation name="snap:FatherOf" active="PRS10771AfaKre" passive="PRS10769KesadaQ"></relation>

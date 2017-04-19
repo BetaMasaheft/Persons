@@ -40,17 +40,18 @@ schematypens="http://relaxng.org/ns/structure/1.0"
       </profileDesc>
       <revisionDesc>
          <change who="MV" when="2016-05-26">CREATED: person record</change>
+         <change who="MV" when="2017-04-19">Minor additions</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="2">
-               <persName>Birut Ḥāwit</persName>
-               <birth/>
-               <death/> 
-               <floruit/>
-               <residence/>
+               <persName xml:id="n1" xml:lang="gez">ቢሩት፡ ሓዊት፡</persName>
+               <persName xml:lang="gez" type="normalized">Birut Ḥāwit</persName>
+               <persName xml:lang="la" resp="PRS3562Dillmann">Biruthâwit</persName>
+               <faith type="EOTC "/>
+               <occupation type="other"/>
             </person>
             <listRelation>
                <relation name="bm:wifeOf" active="PRS10770BirutH" passive="PRS10769KesadaQ"></relation>
