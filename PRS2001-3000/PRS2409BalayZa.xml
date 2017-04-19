@@ -10,7 +10,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Bälay Zälläqä</title>
+            <title>Balāy Zallaqa</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +47,88 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-04-19">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+              
+                  <persName xml:lang="gez" xml:id="n1" type="birthName">በላይ፡ ዘለቀ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Balāy Zallaqa</persName>
+               <persName xml:lang="gez" xml:id="n2" type="horseName">አባ፡ ኮስትር፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAbbā Kostǝr</persName>
+               
+              
+               <persName><roleName type="title">daǧǧāzmāč</roleName></persName>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               
+               
+               <occupation type="military"> leader</occupation>
+               
+               <birth when="1909"></birth>
+               
+               
+               
+               <floruit notBefore="1935" notAfter="1945">He was an outstanding leader of patriots in <placeName ref="LOC3549Gojjam"/>
+                  who participated in the resistance against the Italian during the occupation.
                   
-                  Bälay Zälläqä
-               </persName>
-               <occupation> däǧǧ. </occupation>
+               </floruit>
+               <death when="1945">He was hanged with his brother <persName ref="PRS3689eggegu"/> and other rebels <date>1945</date>. </death>
+               
+               
             </person>
+            <listRelation>
+               <relation name="snap:SonOf"
+                  active="PRS2409BalayZa"
+                  passive="PRS10561Zallaqa"
+                  ></relation>
+               <relation name="snap:SonOf"
+                  active="PRS2409BalayZa"
+                  passive="PRS9344taytuAs"
+                  ></relation>
+               
+               <relation name="snap:BrotherOf"
+                  active="PRS2409BalayZa"
+                  passive="PRS3689eggegu"
+                  ></relation>
+               
+               
+               
+               
+               
+               
+               
+               
+            </listRelation>
          </listPerson>
+         
+         
+         
+         <listBibl type="secondary">
+            
+            <bibl> 
+               <ptr target="bm:Aberra2003BalayZallaqa"/>
+            </bibl> 
+              </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+                  
+                  
+               
