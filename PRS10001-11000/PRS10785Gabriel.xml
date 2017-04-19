@@ -41,17 +41,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-07-26">Created XML record from Ethio authority google spreadsheet</change>
+         <change who="MV" when="2017-04-19">Minor additions</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  <forename/>
-                  <surname>Gabrǝʾel</surname>
-               </persName>
+               <persName xml:id="n1" xml:lang="gez">ገብርኤል፡</persName>
+               <persName xml:lang="gez" type="normalized">Gabrǝʾel</persName>
+               <faith type="EOTC "/>
+               <occupation type="other"/>
             </person>
+            <listRelation>
+               <relation name="lawd:hasAttestation" 
+                  active="PRS10785Gabriel" 
+                  passive="BLadd16190"/>
+            </listRelation>
          </listPerson>
       </body>
    </text>
