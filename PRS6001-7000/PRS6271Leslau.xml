@@ -11,6 +11,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Leslau</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,6 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-04-19">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,12 +55,55 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                   Wolf
-                  Leslau
-               </persName>
-               <occupation> sch. </occupation>
+                  
+                  <forename>Wolf</forename>
+                  <surname> Leslau</surname></persName>
+               
+               <occupation type="academic">scholar</occupation>
+               <nationality type="Poland"/>
+               <faith type="notSpecified"/>
+               <birth when="1906" ></birth>
+               <floruit notBefore="1930" notAfter="2006">He was one of the most prominent ethiopisants of the 20th century. He published over 300 books, articles and reviews. 
+                  He was an accomplished lexicographer and philologist. His interests lay mostly in the field of descriptive and comparative linquistics, but also philology and ethnography. </floruit>
+               <death when="2006" > He died four days after his 100th birthday in <date>2006</date>. </death>
             </person>
+            <listRelation>
+               
+               <relation name="snap:FriendshipFor"
+                  active="PRS6271Leslau"
+                  passive="PRS9622Ullendor"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  active="PRS6271Leslau"
+                  passive="PRS3148Cohen"
+                  ></relation>
+               
+               
+            </listRelation>
          </listPerson>
+         
+         
+         <listBibl type="secondary">
+            
+            <bibl> 
+               <ptr target="bm:Devens2007Leslau"/>
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Muller2007Leslau"/>
+            </bibl>
+            
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+               
