@@ -11,6 +11,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Ullendorff</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,6 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-04-19">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,12 +55,52 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                   Edward
-                  Ullendorff
-               </persName>
+                  <forename>Edward</forename>
+                  <surname>  Ullendorff</surname> </persName>
+               
                <occupation type="academic">scholar</occupation>
+               <nationality  type="UnitedKingdom"/>
+               <faith type="notSpecified"/>
+               <birth when="1920">He was born at <placeName ref="gn:2950159"/> in <date>1920</date>.</birth>
+               <floruit notBefore="1942" notAfter="2011">He was a leading British ethiopisant during the second half of the 20th century.  
+                  He had over 600 works in the field of Ethiopian studies and Semitic studies, on philological and linquistic as well as non-linquistic themes. </floruit>
+               <death  when="2011">He died at <placeName ref="gn:2640729"></placeName>. </death>
             </person>
+            <listRelation>
+               <relation name="snap:AllianceWith"
+                  active="PRS9622Ullendor"
+                  passive="PRS7921Polotsky"
+                  ></relation>
+               
+               
+               
+            </listRelation>
          </listPerson>
+         
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Appleyard2014Ullendorf"/>
+               
+               
+               
+            </bibl>   
+            
+            <bibl> 
+               <ptr target="bm:Appleyard2010Ullendorf"/>
+               <biblScope unit="page">9-14</biblScope>
+            </bibl>
+            
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+             
