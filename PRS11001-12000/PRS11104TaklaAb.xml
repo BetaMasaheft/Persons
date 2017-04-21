@@ -41,23 +41,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-11-17">Created XML record from Ethio authority google spreadsheet</change>
+         <change who="MV" when="2017-04-21">Added relation</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  <forename/>
-                  <surname>Takla ʾAb</surname>
-               </persName>
-               <persName>Warqu</persName>
+               <persName xml:id="n1" xml:lang="gez">ተክለ፡ አብ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Takla ʾAb</persName>
+               <persName xml:id="n2" xml:lang="gez">ወርቁ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n2">Warqu</persName>
+               <faith type="EOTC"/>
+               <occupation type="other"/>
             </person>
             <listRelation>
-               <relation>father of PRS11103WaldaG</relation>
-               <relation name="lawd:hasAttestation"
+               <relation name="snap:FatherOf"
+                  active="PRS11104TaklaAb"
+                  passive="PRS11103WaldaG"></relation>
+              <relation name="lawd:hasAttestation"
                          active="PRS11104TaklaAb"
-                         passive="BLadd16228"><!--Please fix the relation of this item with BLadd16228--></relation>
+                         passive="BLadd16228"></relation>
             </listRelation>
          </listPerson>
       </body>
