@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS11553WaldaK" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS11556WaldaS" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="gez" xml:id="t1">ወልደ፡ ካህን፡</title>
+                <title xml:lang="gez">ወልደ፡ ሥላሴ፡</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DR"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -41,21 +41,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="DR" when="2017-04-24">Created entity</change>
+            <change who="DR" when="2017-04-25">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ወልደ፡ ካህን፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walda Kāhǝn</persName>
+                    <persName xml:lang="gez" xml:id="n1">ወልደ፡ ሥላሴ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walda Śǝllāse</persName>
                     <faith type="EOTC"/>
                 </person>
                 <listRelation>
-                    <relation name="saws:hasOwned" active="PRS11553WaldaK" passive="BDLaeth10 BDLaeth11"/>
-                    <relation name="bm:husbandOf" active="PRS11553WaldaK" passive="PRS11554WalattaM"/>
-                    <relation name="snap:FatherOf" active="PRS11553WaldaK" passive="PRS11555WalattaI"/>
+                    <relation name="saws:isCopierOf" active="PRS11556WaldaS" passive="BDLaeth11"/>
+                    <relation name="saws:isCopierOf" active="PRS11556WaldaS" passive="BDLaeth10" cert="low"/>
                 </listRelation>
             </listPerson>
         </body>
