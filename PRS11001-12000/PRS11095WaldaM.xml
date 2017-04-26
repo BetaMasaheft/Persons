@@ -41,22 +41,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-11-17">Created XML record from Ethio authority google spreadsheet</change>
+         <change who="MV" when="2017-04-26">Added relation and other information</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  <forename/>
-                  <surname>Walda Māryām</surname>
-               </persName>
-               <occupation>scribe</occupation>
+               <persName xml:id="n1" xml:lang="gez">ወልደ፡ ማርያም፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Walda Māryām</persName>
+               <faith type="EOTC"/>
+               <occupation type="other"/>
+               <floruit notBefore="1839" notAfter="1847">1839-1847</floruit>
             </person>
             <listRelation>
-               <relation name="lawd:hasAttestation"
-                         active="PRS11095WaldaM"
-                         passive="BLadd16255"><!--Please fix the relation of this item with BLadd16255--></relation>
+               <relation name="saws:isCopierOf"
+                  active="PRS11095WaldaM"
+                  passive="BLadd16255"/>
             </listRelation>
          </listPerson>
       </body>
