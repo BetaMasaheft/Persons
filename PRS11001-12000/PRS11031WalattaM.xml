@@ -41,22 +41,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-11-17">Created XML record from Ethio authority google spreadsheet</change>
+         <change who="MV" when="2017-04-20">Added relation</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="2">
-               <persName>
-                  <forename/>
-                  <surname>Walatta Mikāʾel ʾAzanagāš</surname>
-               </persName>
+               <persName xml:id="n1" xml:lang="gez">ወለተ፡ ሚካኤል፡ አዘነጋሽ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Walatta Mikāʾel ʾAzanagāš</persName>
+               <faith type="EOTC"/>
+               <occupation type="other"/>
             </person>
             <listRelation>
-               <relation>daughter of ʾArkaladis Nǝgdu</relation>
+               <relation name="snap:DaughterOf" 
+                  active="PRS11031WalattaM" 
+                  passive="PRS11029Arkala"/>
                <relation name="lawd:hasAttestation"
-                         active="PRS11031WalattaM"
-                         passive="BLadd16201"><!--Please fix the relation of this item with BLadd16201--></relation>
+                  active="PRS11031WalattaM"
+                  passive="BLadd16201"></relation>
             </listRelation>
          </listPerson>
       </body>

@@ -41,25 +41,35 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-11-17">Created XML record from Ethio authority google spreadsheet</change>
+         <change who="MV" when="2017-04-20">Added relation</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  <forename/>
-                  <surname>ʾArkaladis Nǝgdu</surname>
-               </persName>
-               <occupation>owner</occupation>
+               <persName xml:id="n1" xml:lang="gez">አርከለዲስ፡ ንግዱ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">ʾArkaladis Nǝgdu</persName>
+               <faith type="EOTC"/>
+               <occupation type="other"/>
             </person>
             <listRelation>
-               <relation>husband of Walatta Gabrǝʾel Ṭāytu</relation>
-               <relation name="lawd:hasAttestation"
-                         active="PRS11029Arkala"
-                         passive="BLadd16201"><!--Please fix the relation of this item with BLadd16201--></relation>
+               <relation name="saws:hasOwned" 
+                  active="PRS11029Arkala" 
+                  passive="BLadd16201"/>
+               <relation name="bm:husbandOf" 
+                  active="PRS11029Arkala" 
+                  passive="PRS11030WalattaG"/>
+               <relation name="snap:FatherOf" 
+                  active="PRS11029Arkala" 
+                  passive="PRS11031WalattaM 
+                  PRS11032EsetaM 
+                  PRS11033WaldaKi 
+                  PRS11034WaldaMa 
+                  PRS11035WalattaM 
+                  PRS11036Makbeba"/>
             </listRelation>
-         </listPerson>
+         </listPerson>                 
       </body>
    </text>
 </TEI>

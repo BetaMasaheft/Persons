@@ -41,6 +41,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-11-17">Created XML record from Ethio authority google spreadsheet</change>
+         <change who="MV" when="2017-04-26">Added relation and other information</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -48,17 +49,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName xml:id="n1" xml:lang="gez">ገብረ፡ ሕይወት፡</persName>
-               <persName xml:lang="gez" type="normalized">Gabra Ḥǝywat</persName>
-               <faith type="EOTC "/>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra Ḥǝywat</persName>
+               <faith type="EOTC"/>
                <occupation type="other"/>
+               <floruit notBefore="1839" notAfter="1847">1839-1847</floruit>
             </person>
             <listRelation>
                <relation name="saws:isCopierOf"
                   active="PRS11042GabraH"
-                  passive="BLadd16194"/>
-               <relation name="lawd:hasAttestation"
-                         active="PRS11042GabraH"
-                         passive="BLadd16250"><!--Please fix the relation of this item with BLadd16250--></relation>
+                  passive="BLadd16194 BLadd16250"/>
+               <!-- Gabra Ḥǝywat was <persName ref="PRS6064Krapf">Johann Ludwig Krapf</persName>'s scribe -->
             </listRelation>
          </listPerson>
       </body>
