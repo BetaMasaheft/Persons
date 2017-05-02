@@ -10,7 +10,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ayyälä Ḫayle</title>
+            <title>ʾAyyala Ḫāyle</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +48,93 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-05-02">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+          
                   
-                  Ayyälä Ḫayle
-               </persName>
-               <occupation> wähni azzaž </occupation>
-            </person>
+                  <persName xml:lang="gez" xml:id="n1" type="birth">አየለ፡ ኃይሌ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAyyala Ḫāyle</persName>
+                  
+                  
+                  
+               <persName><roleName type="title"> wahni ʾazzāž </roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  
+                  
+                  <occupation type="military"> leader</occupation>
+                  
+                  <birth when="1905"/>
+                  
+                  
+                  
+                  <floruit notBefore="1920" notAfter="1942">He was  a resistance fighter and a government official.
+                     
+                  </floruit>
+                  <death ></death>
+                  
+                  
+               </person>
+               <listRelation>
+                  <relation name="snap:SonOf"
+                     active="PRS2287Ayyalah"
+                     passive="PRS5235hayleWa"
+                     ></relation>
+                  <relation name="snap:SonOf"
+                     active="PRS2287Ayyalah"
+                     passive="PRS7373Mulunas"
+                     ></relation>
+                  
+                  <relation name="snap:AllianceWith"
+                     active="PRS2287Ayyalah"
+                     passive="PRS1056AbbabaA"
+                     ></relation>
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+               </listRelation>
          </listPerson>
+         
+         
+         
+         <listBibl type="secondary">
+            
+            <bibl> 
+               <ptr target="bm:Ahmed1994Yefat"/>
+            </bibl> 
+            <bibl> 
+               <ptr target="bm:Ahmed2003Ayyala"/>
+            </bibl> 
+            
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  
+                 
