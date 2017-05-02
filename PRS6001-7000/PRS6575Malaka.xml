@@ -10,7 +10,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mälʾakä Ḍäḥay Iyasu</title>
+            <title>Malʾaka Ḍaḥay ʾIyāsu</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +47,84 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-05-02">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+             
+                  <persName xml:lang="gez" xml:id="n1" type="birth">መልአከ፡ ፀሐይ፡ ኢያሱ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Malʾaka Ḍaḥay ʾIyāsu</persName>
+            
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
                   
-                  Mälʾakä Ḍäḥay Iyasu
-               </persName>
-               <occupation> mil. </occupation>
-            </person>
+                  
+                  <occupation type="political">leader</occupation>
+                  
+                  <birth when="1916"/>
+                  
+                  
+                  
+               <floruit notBefore="1937" notAfter="1938">He was the illigitmate son of <roleName type="title">lǝǧ</roleName>
+                  <persName ref="PRS5620IyasuV"/> who was born probably soon after <persName ref="PRS5620IyasuV"/> had been deposed as emperor.
+                  His existence and whereabout were kept secret 
+                  until the Italian occupation of Ethiopia, in <date>1935</date>. Following the occupation in <date>1935</date> and <persName ref="PRS5226haylase"/> fled the country 
+                  in <date>1936</date>, the freedom fighters, feeling the need for a leader from the Imperial family to unite the resistance movement, they considered him to crown.Thus, 
+                  he was crowned emperor in <date>1937</date>. However, his tenure was shortlived and died a year later. 
+                     
+                  </floruit>
+                  <death when="1938"/>
+                  
+                  
+               </person>
+               <listRelation>
+                  <relation name="snap:SonOf"
+                     active="PRS6575Malaka"
+                     passive="PRS5620IyasuV"
+                     ></relation>
+                  <relation name="snap:SonOf"
+                     active="PRS6575Malaka"
+                     passive="PRS2078AsadaMa"
+                     ></relation>
+                  
+                  
+               </listRelation>
          </listPerson>
+         
+         
+         
+         <listBibl type="secondary">
+            
+             
+            <bibl> 
+               <ptr target="bm:Molvaer2007MalakaSahay"/>
+            </bibl> 
+            
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               
