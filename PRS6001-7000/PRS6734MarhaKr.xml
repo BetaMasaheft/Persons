@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
@@ -51,9 +51,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
            
-                  <persName xml:lang="gez" xml:id="n1" type="birthName">ይምርሐነ፡ ክርስቶስ፡</persName>
+                  <persName xml:lang="gez" xml:id="n1" type="birth">ይምርሐነ፡ ክርስቶስ፡</persName>
                     <persName xml:lang="gez" corresp="#n1" type="normalized">Yǝmrǝḥanna Krǝstos</persName>
-                  <persName xml:lang="gez" xml:id="n2" type="baptismalName">መርሐ፡  ክርስቶስ፡</persName>
+
+                  <persName xml:lang="gez" xml:id="n2" type="baptisal">መርሐ፡  ክርስቶስ፡</persName>
+
                   <persName xml:lang="gez" corresp="#n2" type="normalized">Marḥa Krǝstos</persName>
                         
                <persName><roleName type="title">ʾǝč̣č̣age</roleName></persName>

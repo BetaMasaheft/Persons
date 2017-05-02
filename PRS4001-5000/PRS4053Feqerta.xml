@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
@@ -53,16 +53,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="2">
-            <persName xml:lang="gez" xml:id="n1" type="monasticName">ፍቅርተ፡ ክርስቶስ፡</persName>
+            <persName xml:lang="gez" xml:id="n1" type="monastic">ፍቅርተ፡ ክርስቶስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Fǝqǝrta Krǝstos</persName>
-               <persName xml:lang="gez" xml:id="n2" type="baptismalName">ማርያም፡ ጸዳላ፡</persName>
+
+               <persName xml:lang="gez" xml:id="n2" type="baptisal">ማርያም፡ ጸዳላ፡</persName>
+
                <persName xml:lang="gez" corresp="#n2" type="normalized">Māryām Ṣadālā</persName>
-               <persName xml:lang="gez" xml:id="n3" type="birthName">ሙዚት</persName>
+               <persName xml:lang="gez" xml:id="n3" type="birth">ሙዚት</persName>
                <persName xml:lang="gez" corresp="#n3" type="normalized">Muzit</persName>
-               <persName xml:lang="gez" xml:id="n4" type="birthName">ምእዝት</persName>
+               <persName xml:lang="gez" xml:id="n4" type="birth">ምእዝት</persName>
                <persName xml:lang="gez" corresp="#n4" type="normalized">Mǝʾǝzt</persName>
                
-               <persName xml:lang="gez" xml:id="n5" type="nickName">እመሙዝ፡</persName>
+               <persName xml:lang="gez" xml:id="n5" type="nick">እመሙዝ፡</persName>
                <persName xml:lang="gez" corresp="#n5" type="normalized">ʾƎmmamuz</persName>
                <persName><roleName type="title">ʾƎmmat</roleName></persName>
                   <nationality type="Ethiopia"/>
