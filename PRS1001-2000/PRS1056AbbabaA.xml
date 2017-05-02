@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Abbäbä Arägay</title>
+            <title>ʾAbbaba ʾAragāy</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,21 +46,99 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-05-02">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">አበበ፡ አረጋይ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAbbaba ʾAragāy</persName>
+                  <persName><roleName type="title">rās</roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
                   
-                  Abbäbä Arägay
-               </persName>
-               <nationality type="Ethiopia post-Aksumite">Christian Ethiopia</nationality>
-               <faith type="EOTC">EOTC</faith>
-               <occupation> ras</occupation>
-            </person>
+                  
+                  <occupation type="military">leader</occupation>
+                  
+                  <birth when="1903"/>
+                  
+                  
+                  
+               <floruit notBefore="1930" notAfter="1960">He was one of the oustanding Ethiopian patriots during the Italian occupation, <date>1935-1941</date>. 
+                  He was a native of <placeName ref="LOC3433Jerru"/> in <placeName ref="LOC6574NorthSawa"/>. ʾAbbaba ʾAragāy 
+                  joined the city guards of <placeName ref="LOC1216AddisA"/> when they were established in <date>1930</date>. Following the Italians triumphant entry into the capital,<date>1936</date>, 
+                  he organized a center of  armed resistance in his native district and soon emerged as the leader of patriotic forces in <placeName ref="LOC6574NorthSawa"/>.
+                  He participated in the ill coordinated offensive of July <date>1936</date>. He was promoted to the rank of <roleName type="title">rās</roleName>by 
+                  <persName ref="PRS6575Malaka"/> who had been elected nǝgus by the patriots of <placeName ref="LOC2008Bulga"/>. 
+                  He was also made honorary chairman of the Association of the patriots of Old Ethiopia, created for the purpose of fostering unity among the disperate patriotic groups. 
+                  He welcomed the triumphant entry of <persName ref="PRS5226haylase"/> at the head of 15,000 troops in <date>1941</date>. 
+                  He was soon appointed as mayor of <placeName ref="LOC1216AddisA"/>. He served also the Imperial government as Minister of Defence and Minister of Inetrior.
+                   </floruit>
+               <death when="1960">He was one of the ministers and dignitaries killed in the course of the abortive Coup d'état in <date>1960</date>.</death>
+                  
+                  
+               </person>
+               <listRelation>
+                  <relation name="snap:SonOf"
+                     active="PRS1056AbbabaA"
+                     passive="PRS2141AskalaG"
+                     ></relation>
+                  <relation name="snap:SonOf"
+                     active="PRS1056AbbabaA"
+                     passive="PRS2000AragayB"
+                     ></relation>
+                  
+                  <relation name="snap:AllianceWith"
+                     active="PRS1056AbbabaA"
+                     passive="PRS2287Ayyalah"
+                     ></relation>
+                  
+                  <relation name="snap:AllianceWith"
+                     active="PRS1056AbbabaA"
+                     passive="PRS6575Malaka"
+                     ></relation>
+                  
+      </listRelation>
          </listPerson>
+         
+         
+         
+         <listBibl type="secondary">
+            
+            <bibl> 
+               <ptr target="bm:Salome1968Patriots"/>
+               <biblScope unit="page">63-91</biblScope>
+            </bibl> 
+            <bibl> 
+               <ptr target="bm:Bahru2003Abbaba"/>
+            </bibl> 
+            <bibl> 
+               <ptr target="bm:Bahru1991Modernhis"/>
+            </bibl> 
+            
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  
+                 

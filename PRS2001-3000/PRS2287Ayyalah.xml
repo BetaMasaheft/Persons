@@ -56,7 +56,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
           
-                  
                   <persName xml:lang="gez" xml:id="n1" type="birth">አየለ፡ ኃይሌ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAyyala Ḫāyle</persName>
                   
@@ -67,16 +66,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <faith type="EOTC"/>
                   
                   
-                  <occupation type="military"> leader</occupation>
+                  <occupation type="military">leader</occupation>
                   
                   <birth when="1905"/>
                   
                   
                   
-                  <floruit notBefore="1920" notAfter="1942">He was  a resistance fighter and a government official.
+               <floruit notBefore="1920" notAfter="1942">He was a resistance fighter and a government official. 
+                  
                      
                   </floruit>
-                  <death ></death>
+                  <death  when="1942">He died of pneumonia, at the age of 37. </death>
                   
                   
                </person>
