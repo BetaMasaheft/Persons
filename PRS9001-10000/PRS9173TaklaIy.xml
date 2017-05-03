@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Takla Iyasus Wāqǧǝrā </title>
+            <title>Takla ʾIyasus Wāqǧǝrā </title>
             <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
@@ -47,6 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2017-02-27">Complete record</change>
+         <change who="SG" when="2017-05-03">Correction</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -56,9 +57,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" xml:id="n1" type="birth"> ነገሮ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized"> Nagaroo </persName>
 
-               <persName xml:lang="gez" xml:id="n2" type="baptisal"> ተክለ፡ ኢየሱስ፡ ዋቅጅራ፡</persName>
+               <persName xml:lang="gez" xml:id="n2" type="baptismal"> ተክለ፡ ኢየሱስ፡ </persName>
 
-               <persName xml:lang="gez" corresp="#n2" type="normalized">Takla Iyasus Wāqǧǝrā</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Takla ʾIyasus </persName>
                <persName xml:lang="gez" xml:id="n3" type="alt"> ተክሌ፡</persName>
                <persName xml:lang="gez" corresp="#n3" type="normalized">Takle</persName>
                   
@@ -69,7 +70,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                   
                <occupation type="literary"> chronicler</occupation>
-               <birth notBefore="1867" notAfter="1868"></birth>
+               <birth notBefore="1867" notAfter="1868"/>
                   
                   
                   <floruit notBefore="1889" notAfter="1936"> He was a church educated artist, historian and genealogist who flourished under the patronage of 
@@ -79,7 +80,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                            the churches and monasteries of <placeName ref="LOC3549Gojjam"/>.        
                   
                   </floruit>
-               <death when="1936"></death>
+               <death when="1936"/>
                   
                   
                </person>
