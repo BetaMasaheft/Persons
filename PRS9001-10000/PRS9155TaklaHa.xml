@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Täklä Haymanot</title>
+            <title>Takla Hāymānot</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,74 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-05-03">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+       
                   
-                  Täklä Haymanot
-               </persName>
-               <occupation> ǝḉḉ. </occupation>
-            </person>
+                  <persName xml:lang="gez" xml:id="n1" type="baptismal">ተክለ፡ ሃይማኖት፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Takla Hāymānot</persName>
+               <persName xml:lang="gez" xml:id="n2" type="birth">መኵሪያ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Makʷǝriya</persName>
+               <persName xml:lang="gez" xml:id="n3" type="alt">መላኩ፡</persName>
+               <persName xml:lang="gez" corresp="#n3" type="normalized">Malāku</persName>
+               
+                  <persName><roleName type="title">ʾabuna</roleName></persName>
+                  <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="ecclesiastic">Patriarch</occupation>
+               <birth when="1917">He was born at <placeName ref="LOC4432Mahdar"/> in <date>1917</date>.</birth>
+
+               <floruit notBefore="1976" notAfter="1988">He was the third  Patriarch of Ethiopian  Orthodox  Tawāḥdo Church from <date>1976</date> to <date>1988</date>. 
+                  He attended the traditional church education in the monastery of <placeName ref="LOC4432Mahdar"/> where he served as a diyāqon until to become a hermit.
+                  In <date>1933-34</date> he went to<placeName ref="LOC6165Walamo"/> to <placeName ref="LOC2305DabraM"/> monastery where he took the monastic order. He
+                  was ordained priest under <roleName type="title">ʾabuna</roleName><persName ref="PRS8033Qerellos"/> in <placeName ref="LOC1216AddisA"/>.
+                  Because of his calligraphic skills he was the scribe of the monastery. 
+                  It is evident that most of the manuscripts kept at <placeName ref="LOC2305DabraM"/> were copied by Takla Hāymānot. 
+                  He was the most successful true religious leader of the church confronting the Marxist military regime.</floruit> 
+                  
+               <death when="1988">He died at <placeName ref="LOC1216AddisA"/> in <date>1988</date>. </death>
+               </person>
+               <listRelation>
+                  
+                  <relation name="snap:SonOf"
+                     active="PRS9155TaklaHa"
+                     passive="PRS9956WaldaMi"
+                     ></relation>
+                  
+                  <relation name="snap:SonOf"
+                     active="PRS9155TaklaHa"
+                     passive="PRS10674Zawditu"
+                     ></relation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS9155TaklaHa"
+                     passive="PRS9920WaldaIy"
+                     ></relation>
+                  
+               </listRelation>
          </listPerson>
+          
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Mersha2010TaklaHaymanot"/>
+            </bibl> 
+            <bibl> 
+               <ptr target="bm:BeideMaryam1982Patriarchen"/>
+            </bibl>  
+            
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+                  
+                  
