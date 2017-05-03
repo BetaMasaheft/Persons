@@ -27,8 +27,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </publicationStmt>
          <sourceDesc>
             <p>Prosopography of Ethiopian Written tradition</p>
-            <p>A TEI file converted from the ETHIO-authority
-                                                  google spreadsheet</p>
+            
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -43,22 +42,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="ES" when="2016-02-09">CREATED</change>
+         <change when="2017-05-03" who="ES">updated name relation</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Saf Sägäd
-               </persName>
+               <persName xml:lang="gez" xml:id="n1">ሳፍ፡ ሰገድ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Sāf Sagad</persName>
+               <persName xml:lang="gez" corresp="#n1"/>
+               <floruit>14th century</floruit>
+               <note>Son and horseman of <persName ref="PRS1854Amdase"></persName></note>
+
             </person>
             <listRelation>
-               <relation name="brotherOf">
-                  <desc> br. Säyfä Arʿad </desc>
-               </relation>
+               <relation name="snap:SonOf" active="PRS8311SafSaga" passive="PRS1854Amdase"></relation>
+               <relation name="snap:BrotherOf" active="PRS8311SafSaga" passive="PRS8595SayfaAr"></relation>
+               <relation name="lawd:hasAttestation" active="PRS8311SafSaga" passive="LIT4275ChronAmdS"/>
             </listRelation>
          </listPerson>
       </body>
