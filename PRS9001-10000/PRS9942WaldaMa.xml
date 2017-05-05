@@ -10,8 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Wäldä Mäsqäl</title>
-            <author/>
+            <title xml:id="t1">Walda Masqal</title>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
@@ -44,18 +43,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="MV" when="2017-05-05">Added relations.</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Wäldä Mäsqäl
-               </persName>
-               <occupation> ṣäḥ.t. </occupation>
+               <persName xml:id="n1" xml:lang="gez">ወልደ፡ መስቀል፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Walda Masqal</persName>
+               <faith type="EOTC"/>
+               <occupation type="other">ṣaḥāfe tǝʾǝzāz</occupation>
             </person>
+            <listRelation>
+               <relation name="lawd:hasAttestation"
+                  active="PRS9942WaldaMa"
+                  passive="BAVet81">
+               </relation>
+               <relation name="snap:FatherOf"
+                  active="PRS9942WaldaMa"
+                  passive="PRS6530Mahtama">
+               </relation>
+            </listRelation>
          </listPerson>
       </body>
    </text>
