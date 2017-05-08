@@ -11,6 +11,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Cyril of Jerusalem</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,25 +47,72 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-05-08">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+              
+               <persName xml:lang="gez" xml:id="n1" type="birth">ቂርሎስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Qerǝllos</persName>
+               <persName xml:lang="gez" xml:id="n2" type="alt">ጌርሎስ</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Gerǝllos</persName>
                   
-                  Cyril of Jerusalem
-               </persName>
-               <persName type="alt"> Qerǝllos</persName>
-               <persName type="alt">Gerǝllos</persName>
-               <occupation> St.</occupation>
-               <occupation> bishop </occupation>
-               <residence>
-                  <placeName>Jerusalem</placeName>
-               </residence>
-            </person>
+          
+                  <nationality type="Israel/Palestine"/>
+                  <faith type="Orthodox"/>
+               <occupation type="ecclesiastic">bishop </occupation>
+               <birth when="0315"/>
+              
+                  
+               <floruit notBefore="0348" notAfter="0387">He was a bishop of <placeName ref="gn:281184"/>from <date>348</date>onwards.
+                  He is venerated as a saint in both Orthodox and Catholic churches. He was the author of some religious writings.</floruit>
+                  <death when="0387"/>
+               </person>
+               <listRelation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS3261Cyrilof"
+                     passive="LIT1777Letter"
+                     ></relation>
+                  
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS3261Cyrilof"
+                     passive="LIT1235Cathed"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS3261Cyrilof"
+                     passive="LIT1661Homily"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS3261Cyrilof"
+                     passive="LIT1662Homily"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS3261Cyrilof"
+                     passive="LIT1639Homily"
+                     ></relation>
+                  
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS3261Cyrilof"
+                     passive="LIT1654Homily"
+                     ></relation>
+                  
+                  
+               </listRelation>
          </listPerson>
+         
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Witakowski2003CyrilofJer"/>
+            </bibl>
+         </listBibl>
       </body>
-   </text>
+   </text>   
 </TEI>
+
+
+
+                  
+                
