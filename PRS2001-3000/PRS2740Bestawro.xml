@@ -10,7 +10,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Bǝsṭawros</title>
+            <title>Bǝsṭāwros</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +48,51 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-05-08">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+               
+                  <persName xml:lang="gez" xml:id="n1" type="birth">ብስጣውሮስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Bǝsṭāwros</persName>
+               <persName><roleName type="title">ʿaqqabe saʿat </roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <occupation type="ecclesiastic">abbot</occupation>
+                 
                   
-                  Bǝsṭawros
-               </persName>
-               <occupation> ʿaqqabe säʿat </occupation>
-            </person>
+               <floruit notBefore="1682" notAfter="1706">He was <roleName type="title">ʿaqqabe saʿat </roleName> of <placeName ref="INS0327DHE"/>
+                  during the reign of <persName ref="PRS5616IyasuI"/>. He was a native of <placeName ref="LOC4547Maqdal"/>, 
+                  he entered <placeName ref="INS0327DHE"/> after his wife and father were killed during the persecutions. </floruit>
+           
+               </person>
+               <listRelation>
+                  <relation name="snap:SonOf"
+                     
+                     active="PRS2740Bestawro"
+                     passive="PRS4101FettaDe"
+                     ></relation>
+                  <relation name="snap:SonOf"
+                     
+                     active="PRS2740Bestawro"
+                     passive="PRS11624SeyonMogasa"
+                     ></relation>
+                  
+                    </listRelation>
          </listPerson>
+         
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Raineri2003Bestawros"/>
+            </bibl>
+         </listBibl>
       </body>
-   </text>
+   </text>   
 </TEI>
+
+
+
+               
