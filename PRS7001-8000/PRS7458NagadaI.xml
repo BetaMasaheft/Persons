@@ -10,7 +10,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Nägädä Iyäsus</title>
+            <title>Nagada ʾIyasus</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,23 +47,98 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-05-08">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+             
                   
-                  Nägädä Iyäsus
-               </persName>
-            </person>
-            <listRelation>
-               <relation name="unspecified">
-                  <desc> ʿaqqabe säʿat </desc>
-               </relation>
-            </listRelation>
+                  
+                  <persName xml:lang="gez" xml:id="n1" type="birth">ነገደ፡ ኢየሱስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Nagada ʾIyasus</persName>
+                  
+                  
+                  
+               <persName><roleName type="title">ʿaqqabe saʿat </roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  
+                  
+                  <occupation type="ecclesiastic">abbot</occupation>
+             
+                  
+                  
+                  
+                  
+                  
+               <floruit notBefore="1508" notAfter="1534">He was <roleName type="title">ʿaqqabe saʿat </roleName>during the reign of <persName ref="PRS6229LebnaDe"/>.  
+                  He was a contemporary of portuguese mission and met <persName ref="PRS1778Alvares"/> in the court of  <persName ref="PRS6229LebnaDe"/>. 
+                  He held also a high position at the royal court and <persName ref="PRS1778Alvares"/> reports that one of Nagada ʾIyasus 's sons married the Emperor 's sister 
+                  <persName ref="PRS11622RomanaWarq"/> 
+                  </floruit>
+               <death when="1534">He was killed by <persName ref="PRS1500Ahmad"/>'s soldiers  in <date>1534</date>.</death>
+                  
+                  
+               </person>
+               <listRelation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS7458NagadaI"
+                     passive="PRS6229LebnaDe"
+                     ></relation>
+                  
+                  <relation name="snap:AllianceWith"
+                     active="PRS7458NagadaI"
+                     passive="PRS1778Alvares"
+                     ></relation>
+                  
+                  
+                  <relation name="bm:fatherInLawOf"
+                     active="PRS7458NagadaI"
+                     passive="PRS11622RomanaWarq"
+                     ></relation>
+                  
+                  
+                  
+                  
+                  
+                  
+               </listRelation>
          </listPerson>
+         
+         
+         
+         <listBibl type="secondary">
+            
+            <bibl> 
+               <ptr target="bm:Derat2007NagadaIyasus"/>
+            </bibl> 
+            <bibl> 
+               <ptr target="bm:Taddesse1970Abbots"/>
+               <biblScope unit="page">87-117</biblScope>
+            </bibl> 
+            
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               
