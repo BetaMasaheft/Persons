@@ -11,6 +11,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Solomon</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,20 +47,73 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-05-09">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+         
                   
-                  Solomon
-               </persName>
-               <persName type="alt">Sälomon</persName>
-               <occupation> king  </occupation>
-            </person>
+                  <persName xml:lang="gez" xml:id="n1" type="birth">ሰሎሞን፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Salomon</persName>
+               
+           
+                  
+                  <nationality type="Israel/Palestine"/>
+                  <faith type="Judaism"/>
+                  
+                  
+                  <occupation type="ruler">king</occupation>
+                  
+            
+               
+               <floruit notBefore=" 0970 " notAfter="0931">He was the son and heir of the Biblical King <persName ref="PRS3418DavidBe"/>, figures prominently in Ethiopian Gǝʿǝz lietrature.
+                  He is best known as the major protagonsit in the <title ref="LIT1709Kebran"/>. In the textual tradition of Gǝʿǝz lietrature, Solomon is credited with personally writing five Biblical books. </floruit>
+                  <death when="0931" cert="medium"></death>
+                  
+               </person>
+               
+               <listRelation>
+                  <relation name="snap:SonOf"
+                     active="PRS8925Solomon"
+                     passive="PRS3418DavidBe"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS8925Solomon"
+                     passive="LIT2396Tagsas"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS8925Solomon"
+                     passive="LIT2195Prover"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS8925Solomon"
+                     passive="LIT2433tebaba"
+                     ></relation>
+                  
+                  
+               </listRelation>
          </listPerson>
+         
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Bezold1905KebraN"/>
+            </bibl>
+            
+            
+            
+            
+             </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Kaplan2010Solomon"/>
+            </bibl>  
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+              
