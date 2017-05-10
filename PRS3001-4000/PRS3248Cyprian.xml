@@ -11,6 +11,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Cyprian of Carthage</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,21 +47,59 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-05-09">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+         
+                  <persName xml:lang="gez" xml:id="n1" type="birth">ቆጵርያኖስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Qoṗrǝyānos</persName>
+        
+               <persName xml:lang="en" xml:id="n2" type="alt">Thascius Caecilius</persName>
+               <persName xml:lang="en" xml:id="n3" type="alt">Cyprianus</persName>
                   
-                  Cyprian of Carthage
-               </persName>
-               <persName type="alt">Thascius Caecilius </persName>
-               <persName type="alt">Cyprianus</persName>
-               <occupation> St.</occupation>
-            </person>
+                  
+                  <occupation type="ecclesiastic">bishop</occupation>
+                  
+                  <nationality type="Egypt"/>
+                  <faith type="Coptic"/>
+                  
+                  
+                  <birth when="0200"/>
+                  
+                  
+                  <floruit notBefore="0246" notAfter="0258">He was one of the main fathers of the church of the 3rd century. 
+                     He was born in North Africa of pagan parents and later converted to Christianity in <date>246</date>. 
+                     Two years later, in <date>248</date> he became bishop of <placeName ref="LOC2130Cartha"/></floruit>
+                  <death when="0258"></death>
+                  
+               </person>
+               
+               
          </listPerson>
+         
+         
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Bausi2003Cyprian"/>
+            </bibl>
+            
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+               
