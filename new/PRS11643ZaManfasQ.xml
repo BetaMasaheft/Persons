@@ -2,13 +2,13 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" 
-    xml:id="PRS11641WaldaMa" 
+    xml:id="PRS11643ZaManfasQ" 
     xml:lang="en" 
     type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Walda Māryām</title>
+                <title>Za-Manfas Qǝddus</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="MV"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -51,18 +51,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ወልደ፡ ማርያም፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walda Māryām</persName>
+                    <persName xml:lang="gez" xml:id="n1">ዘመንፈስ፡ ቅዱስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Za-Manfas Qǝddus</persName>
                     <faith type="EOTC"/>
-                    <occupation type="ecclesiastic">liqa kāhǝnāt</occupation>
-                    <occupation type="other">illustrator</occupation>
+                    <occupation type="other"/>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" 
-                        active="PRS11641WaldaMa" 
+                    <relation name="saws:hasOwned"
+                        active="PRS11643ZaManfasQ" 
                         passive="BAVet91">
-                        <desc>Walda Māryām illustrated the miniatures of <ref type="mss" corresp="BAVet91"/>, as stated in <ref type="item" corresp="BAVet91#a1"/></desc>
-                    </relation>
+                       </relation>
                 </listRelation>
             </listPerson>
         </body>
