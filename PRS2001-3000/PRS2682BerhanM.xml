@@ -47,18 +47,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-08-05">Complete record</change>
          <change who="DR" when="2017-03-27">Minor correction</change>
+         <change who="DR" when="2017-05-12">Baptismal name added</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="2">
-              
                <persName xml:lang="gez" xml:id="n1" type="birth">ብርሃን፡ ሞገሳ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Bǝrhān Mogasā</persName>
                <persName xml:lang="gez" xml:id="n2" type="birth">ምንትዋብ፡</persName>
                   <persName xml:lang="gez" corresp="#n2" type="normalized">Mǝntǝwwāb</persName>
-               
+               <persName xml:lang="gez" xml:id="n3" type="baptismal">ወለተ፡ ጊዮርጊስ፡</persName>
+               <persName xml:lang="gez" corresp="#n3" type="normalized">Walatta Giyorgis</persName>
                <occupation type="ruler">queen</occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
