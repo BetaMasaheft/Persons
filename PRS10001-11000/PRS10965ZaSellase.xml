@@ -24,7 +24,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>
-                                            This file is licensed under the Creative Commons
+                         This file is licensed under the Creative Commons
                                             Attribution-ShareAlike 4.0. </p>
                </licence>
             </availability>
@@ -52,41 +52,40 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <person sex="1">
+         
                   
-                  <persName xml:lang="gez" xml:id="n1" type="birth">መልአከ፡ ፀሐይ፡ ኢያሱ፡</persName>
-                  <persName xml:lang="gez" corresp="#n1" type="normalized">Malʾaka Ḍaḥay ʾIyāsu</persName>
-                  
+                  <persName xml:lang="gez" xml:id="n1" type="birth">ዘሥላሴ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Za-Śǝllāse</persName>
+               <persName xml:lang="gez" xml:id="n2" type="alt">ዛሞ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Zāmmo</persName>
+               
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   
+      <occupation type="political">noble</occupation>
                   
-                  <occupation type="political">leader</occupation>
-                  
-                  <birth when="1916"/>
-                  
+          
                   
                   
-                  <floruit notBefore="1937" notAfter="1938">He was the illigitmate son of <roleName type="title">lǝǧ</roleName>
-                     <persName ref="PRS5620IyasuV"/> who was born probably soon after <persName ref="PRS5620IyasuV"/> had been deposed as emperor.
-                     His existence and whereabout were kept secret 
-                     until the Italian occupation of Ethiopia, in <date>1935</date>. Following the occupation in <date>1935</date> and <persName ref="PRS5226haylase"/> fled the country 
-                     in <date>1936</date>, the freedom fighters, feeling the need for a leader from the Imperial family to unite the resistance movement, they considered him to crown.Thus, 
-                     he was crowned emperor in <date>1937</date>. However, his tenure was shortlived and died a year later. 
-                     
+                  
+               <floruit notBefore="1563" notAfter="1608">He was a noble man in the early 17th century. He married one or even two daughters of 
+                  <persName ref="PRS8550sardaDe"/>and <persName ref="PRS6829Maryams"/>. 
+                  He was also actively involved in the succession dispute that ensued in the early 17th century. He fought with 
+                  <roleName type="title">ʾaṣe</roleName><persName ref="PRS9038Susenyos"></persName> but was defeated.
+                  
                   </floruit>
-                  <death when="1938"/>
+                  <death when="1608"/>
                   
                   
                </person>
                <listRelation>
-                  <relation name="snap:SonOf"
-                     active="PRS6575Malaka"
-                     passive="PRS5620IyasuV"
+                  <relation name="bm:sonInLawOf"
+                     active="PRS10965ZaSellase"
+                     passive="PRS8550sardaDe"
                      ></relation>
-                  <relation name="snap:SonOf"
-                     active="PRS6575Malaka"
-                     passive="PRS2078AsadaMa"
+                  <relation name="bm:sonInLawOf"
+                     active="PRS10965ZaSellase"
+                     passive="PRS6829Maryams"
                      ></relation>
                   
                   
@@ -99,9 +98,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             
             
             <bibl> 
-               <ptr target="bm:Molvaer2007MalakaSahay"/>
+               <ptr target="bm:Toubkis2014ZaSellase"/>
             </bibl> 
-            
+            <bibl> 
+               <ptr target="bm:Pankhurst2003Bruce"/>
+            </bibl>
          </listBibl>
          
       </body>
@@ -124,12 +125,4 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
 
 
-               <persName>
-                  <forename/>
-                  <surname>Za-Śǝllāse</surname>
-               </persName>
-            </person>
-         </listPerson>
-      </body>
-   </text>
-</TEI>
+               
