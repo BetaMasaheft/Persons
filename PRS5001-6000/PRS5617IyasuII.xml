@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Iyāsu II</title>
+            <title>ʾIyāsu II</title>
             <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
@@ -56,9 +56,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             
           
                <persName xml:lang="gez" xml:id="n1" type="birth">ኢያሱ፡</persName>
-                  <persName xml:lang="gez" corresp="#n1" type="normalized">Iyāsu II</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">ʾIyāsu II</persName>
                   <persName xml:lang="gez" xml:id="n2" type="nick">ቋረኛ፡ ኢያሱ፡</persName>
-                  <persName xml:lang="gez" corresp="#n2" type="normalized">Qwāraññā Iyāsu</persName>
+                  <persName xml:lang="gez" corresp="#n2" type="normalized">Qʷāraññā ʾIyāsu</persName>
                   <persName><roleName type="title">ʾaṣe</roleName></persName>
                <persName xml:lang="gez" xml:id="n3.1" type="regnal">አድያም፡ ሰገድ፡</persName>
                   <persName xml:lang="gez" corresp="#n3.1" type="normalized">ʾAdyām Sagad</persName>
@@ -71,7 +71,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <residence><placeName ref="LOC3577Gondar"> Gondar </placeName></residence>
                <birth>1723</birth>
                <floruit when="1730" evidence="internal">He succeeded his father King <persName ref="PRS2377Bakaffa">Bakāffā</persName> in <date>1730</date>. 
-                  He was seven years old when he became a king and his mother a famous Gondarian queen <persName ref="PRS2682BerhanM">Bǝrhān Mogasā </persName> was his a regent , 
+                  He was seven years old when he became a king and his mother, a famous Gondarian queen <persName ref="PRS2682BerhanM">Bǝrhān Mogasā </persName>, was his regent, 
                   who exercised the real political power together with her brother rās <persName ref="PRS7585Niqolawo">Niqolāwos</persName>. 
                    </floruit>
                <death when="1755" evidence="internal"></death>
@@ -91,7 +91,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   passive="PRS2682BerhanM"
                  ></relation>
                <relation name="saws:isAttributedAuthorOf"
-                 ></relation>
+                 ></relation> <!--relation incomplete-->
             </listRelation>
          </listPerson>
          <listBibl type="editions">

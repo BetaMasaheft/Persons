@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Iyāsu I</title>
+            <title>ʾIyāsu I</title>
             <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
@@ -47,6 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-08-03">Complete record</change>
+         <change who="DR" when="2017-05-12">Added name</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -54,10 +55,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
             <persName xml:lang="gez" xml:id="n1" type="birth">ኢያሱ፡</persName>
-                  <persName xml:lang="gez" corresp="#n1" type="normalized">Iyāsu the Great</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">ʾIyāsu I</persName>
                <persName><roleName type="title">ʾaṣe </roleName></persName>
                      <persName xml:lang="gez" xml:id="n2" type="regnal">አድያም፡ ሰገድ፡</persName>
-                  <persName xml:lang="gez" corresp="#n2" type="normalized">Adyām Sagad </persName>
+                  <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAdyām Sagad </persName>
+               <persName xml:lang="en" type="alt">ʾIyāsu the Great</persName>
                   <occupation type="ruler">Emperor</occupation>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>

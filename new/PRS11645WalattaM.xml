@@ -6,11 +6,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
      xml:lang="en"
-     xml:id="PRS11356Gasquet">
+     xml:id="PRS11645WalattaM">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:id="t1">Francis Aidan Gasquet</title>
+            <title xml:id="t1">Walatta Madḫǝn</title>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
@@ -40,34 +40,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="MV" when="2017-01-03">Created XML record.</change>
-         <change who="MV" when="2017-03-30">Added occupation</change>
+         <change who="MV" when="2017-05-12">Created XML record.</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  <forename>Francis Aidan</forename>
-                  <surname>Gasquet</surname>
-               </persName>
-               <birth>1846</birth>
-               <death>1929</death>
-               <faith type="Catholicism"/>
-               <occupation type="ecclesiastic">Cardinal</occupation>
-               <occupation type="academic">Librarian of the <ref type="ins" corresp="INS0003BAV">Biblioteca Apostolica Vaticana</ref>.</occupation>
+            <person sex="2">
+               <persName xml:id="n1" xml:lang="gez">ወለተ፡ መድኅን፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Walatta Madḫǝn</persName>
+               <faith type="EOTC"/>
+               <occupation type="other"/>
             </person>
             <listRelation>
-               <relation name="lawd:hasAttestation"
-                         active="PRS11356Gasquet"
-                         passive="BAVet36"></relation>
-               <relation name="lawd:hasAttestation"
-                  active="PRS11356Gasquet"
-                  passive="BAVet76"></relation>
-               <relation name="lawd:hasAttestation"
-                  active="PRS11356Gasquet"
-                  passive="BAVet93"></relation>
+               <relation name="saws:hasOwned"
+                  active="PRS11645WalattaM"
+                  passive="BAVet94">
+               </relation>
             </listRelation>
          </listPerson>
       </body>
