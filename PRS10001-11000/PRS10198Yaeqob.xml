@@ -54,9 +54,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-  
+               <persName xml:lang="gez" xml:id="n1" type="birth">ያዕቆብ፡ </persName>
                  
-                     <persName xml:lang="gez" xml:id="n1">ያዕቆብ፡</persName>
+            
                      <persName xml:lang="gez" type="normalized" corresp="#n1"><roleName type="title">ʾaṣe</roleName> Yāʿǝqob</persName>
                      <persName xml:lang="en" corresp="#n1">Jacob</persName>
                   <persName xml:lang="gez"  type="regnal" xml:id="n2">መልክአ፡ ሰገድ፡</persName>
@@ -64,12 +64,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                  
                <occupation type="ruler"> Emperor </occupation>
-               <birth when="1587">1587</birth>
+               <birth when="1587"/>
                <floruit notBefore="1597" notAfter="1607">He succeeded his father <roleName type="title">ʾaṣe</roleName>
                   <persName ref="PRS8550sardaDe">Śarḍa Dǝngǝl</persName> when he was 15 years old in <date>1597</date>. 
                   He was overthrown in <date> 1603</date> and two years later he entroned again in<date>1605</date>.</floruit>
                <death when="1607" evidence="internal">He died in battle fighting against his power rival <roleName type="title">ʾaṣe</roleName>
-                  <persName ref="PRS9038Susenyos">Susǝnyos</persName> who died in <date>10 March 1607</date>. </death>
+                  <persName ref="PRS9038Susenyos">Susǝnyos</persName>,  in <date>10 March 1607</date>. </death>
             </person>
             <listRelation>
           <relation name="snap:SonOf" 

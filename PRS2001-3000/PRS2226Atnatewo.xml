@@ -10,7 +10,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Atnatewos</title>
+            <title>ʾAtnātewos</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +47,74 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-05-15">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">አትናቴዎስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAtnātewos</persName>
+               <persName><roleName type="title">rās bitwadad</roleName></persName>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               
+               <occupation type="political">governor</occupation>
+               
+               
+               
+               
+               
+               <floruit notBefore="1597" notAfter="1617">He was a son of <persName ref="PRS10077WasanS"/> who was a prominent war lord of<roleName type="title">ʾaṣe</roleName> 
+                  <persName ref="PRS7481NaodA"/>. After the death of <roleName type="title">ʾaṣe</roleName> 
+                  <persName ref="PRS8550sardaDe"/>his widow<persName ref="PRS6829Maryams"/> made 
+                  him the guardian of the young king <persName ref="PRS10198Yaeqob"/>. 
                   
-                  Atnatewos
-               </persName>
-               <occupation> ras bitw.</occupation>
+               </floruit>
+               <death when="1617"/>
+               
+               
             </person>
+            <listRelation>
+               <relation name="snap:SonOf"
+                  active="PRS2226Atnatewo"
+                  passive="PRS10077WasanS"
+                  ></relation>
+               
+               
+            </listRelation>
          </listPerson>
+         
+         
+         
+         <listBibl type="secondary">
+            
+            
+            <bibl> 
+               <ptr target="bm:Chernestsov2003Atnatewos"/>
+            </bibl> 
+              </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              
