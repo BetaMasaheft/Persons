@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Arius (Aryos)</title>
+            <title>Arius (ʾAryos)</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +44,87 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="201 7-05-15">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+             
+               <persName xml:lang="gez" xml:id="n1" type="birth">አርዮስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAryos</persName>
                   
-                  Arius (Aryos)
-               </persName>
-               <occupation> theol. </occupation>
-            </person>
+                  
+                  <occupation type="ecclesiastic">leader </occupation>
+                  
+                  <nationality type="Egypt"/>
+                  <faith type="Christianity"/>
+                  
+                  
+                  <birth when="0270"/>
+                  
+                  
+               <floruit notBefore="0300" notAfter="0336">He was a controversial church leader, hardly played any direct role in Ethiopian church history.
+                  Neither Arius's own writings nor his actual doctrine reached Ethiopia in any depth. The teachings of his followers do not seem to have become known there either. 
+                  However, Arius himself as infidel and events from his protracted conflict with religious fathers  are often mentioned in<title ref="LIT2316Senkes"/>, 
+                  <title ref="LIT1949Mashaf"/>, <title ref="LIT1921Mashaf"/> and <title ref="LIT1994Mazgab"/> and refuted his heresy. </floruit>
+               <death when="0336">Both in <title ref="LIT2316Senkes"/> and <title ref="LIT1949Mashaf"/> is mentioned that his death was disgusting
+                  (his intestines are said to have come out of his belly). </death>
+                  
+               </person>
+               
+               <listRelation>
+                  <relation name="rel:enemyOf"
+                     
+                     active="PRS2033AriusA"
+                     passive="PRS2209Athanasi"
+                     ></relation>
+                  <relation name="rel:enemyOf"
+                     
+                     active="PRS2033AriusA"
+                     passive="PRS7806PeterI"
+                     ></relation>
+                  <relation name="rel:enemyOf"
+                     
+                     active="PRS2033AriusA"
+                     passive="PRS1658Alexande"
+                     ></relation>
+                  
+                  
+                  
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS2209Athanasi"
+                     passive="LIT1611Homili"
+                     ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                     active="PRS2209Athanasi"
+                     passive="LIT2042Nagarb"
+                     ></relation>
+                  
+                  
+               </listRelation>
          </listPerson>
+         
+         
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Nosnistin2003Arius"/>
+            </bibl>
+            
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+             
