@@ -10,7 +10,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Iyasu III</title>
+            <title>ʾIyāsu III</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,20 +47,63 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-05-17">complete record </change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Iyasu III
-               </persName>
-               <persName type="alt">Bäʿalä Ṣäggab</persName>
-               <occupation> aṣe </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ኢያሱ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾIyāsu</persName>
+               <persName xml:lang="gez" xml:id="n2" type="regnal">በዓለ፡ ጸጋብ</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Baʿala Ṣaggāb</persName>
+               
+               
+             
+               <persName><roleName type="title">ʾaṣe</roleName></persName>
+               
+            
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               
+               
+               <occupation type="ruler">Emperor</occupation>
+               
+              
+               <floruit notBefore="1784" notAfter="1788">He was a puppet king of the early Zamana Masāfǝnt who was entroned by powerful 
+                  <roleName type="title">rās </roleName> <persName ref="PRS5258hayluYo"></persName> in <date>1784</date>.</floruit>
+               <death when="1788"></death>
+               
             </person>
+            
+            <listRelation>
+               <relation name="snap:SonOf" 
+                  active="PRS5618IyasuII"
+                  passive="PRS2182Asqu"
+                  ></relation>
+                  
+               <relation name="snap:GrandsonOf"
+                  active="PRS5618IyasuII"
+                  passive="PRS5617IyasuII"
+                  ></relation>
+               <relation name="snap:GrandsonOf"
+                  active="PRS5618IyasuII"
+                  passive="PRS2682BerhanM"
+                  ></relation>
+               
+            </listRelation>
          </listPerson>
+         
+          <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Crummey2007IyasuIII"/>
+            </bibl>  
+              </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+                  
+               
