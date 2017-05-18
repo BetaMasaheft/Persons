@@ -47,6 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-11-01">Complete record</change>
+         <change who="SG" when="2017-05-18">correction and addition</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -59,22 +60,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                <occupation type="military">rās</occupation>
-                  <residence></residence>
-                  <birth></birth>
+               <birth notBefore="1510" notAfter="1525"></birth>
+                  
+                  
                <floruit notBefore="1510" notAfter="1525">He was a great Šawān lord of royal descent in the mid 16th century Solomonic kingdom. He was the 
                   first cousin of <roleName type="title">ʾaṣe</roleName> <persName ref="PRS4428Galawdew">Galāwdewos</persName> and <roleName type="title">ʾaṣe</roleName> 
                   <persName ref="PRS7102Minas">Minās</persName>. He was an important military lords in successive Kings:<roleName type="title">ʾaṣe</roleName> 
                   <persName ref="PRS4428Galawdew">Galāwdewos</persName>, <roleName type="title">ʾaṣe</roleName> 
                   <persName ref="PRS7102Minas">Minās</persName>, <roleName type="title">ʾaṣe</roleName> <persName ref="PRS8275SablaD">Śarḍa Dǝngǝl</persName> and </floruit>
-                  <death></death>
+                 
                </person>  
                <listRelation>
                   
-                  <relation name="snap:SonOf"
+                  <relation name="snap:NephewOf"
+                     active="PRS5043hamalmal"
+                     passive="PRS6229LebnaDe"
+                    ></relation>
+                  <relation name="snap:GrandchildOf"
                      active="PRS5043hamalmal"
                      passive="PRS7481NaodA"
-                    ></relation>
-                  
+                     ></relation>
                   <relation name="bm:ordainedBy"
                      active="PRS5043hamalmal"
                      passive="PRS4428Galawdew"
