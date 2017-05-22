@@ -47,6 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-11-14">Complete record</change>
+         <change who="SG" when="2017-05-22">minor changes</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -66,19 +67,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                <floruit>He was the metropolitan of <placeName ref="LOC3010Ethiop">Ethiopia</placeName> who probably lived in the second half of the 11th century.
                </floruit>
-               <death></death>
+               <death when="1077" cert="medium"></death>
+               
                </person>
                <listRelation>
                   
                   
-                  <relation name="snap:NephewOf"
+                  <relation name="snap:CousinOf"
                      active="PRS4120Fiqtor"
-                     passive="PRS10806Fiqtor"
-                    ></relation>
-                  <relation name="snap:AllianceWith"
-                     active="PRS4120Fiqtor"
-                     passive="PRS3330Daneel"
-                     
+                     passive="PRS8588Sawiros"
                     ></relation>
                   
                </listRelation>
