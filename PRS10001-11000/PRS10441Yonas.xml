@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Yonas</title>
+            <title>Yonās</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,65 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-05-23">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+            
+                  <persName xml:lang="gez" xml:id="n1" type="birth">ዮናስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Yonās</persName>
+                <persName><roleName type="title">ʾaṣe</roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <occupation type="political">ruler</occupation>
+               <residence><placeName ref="LOC3577Gondar"> Gondar</placeName></residence>
                   
-                  Yonas
-               </persName>
-               <occupation> aṣe </occupation>
-            </person>
+               <floruit notBefore="1797" notAfter="1798">He was one of the short-lived kings on the Solomonic throne during the Zamana Masāfǝnt. 
+                  He was a rival claimant to <persName ref="PRS9142TaklaGi"/>and a pawn in the rivalry between <persName ref="PRS9142TaklaGi"/> 
+                  and<persName ref="PRS9811Wahdu"/>. Finally, he was deposed from the throne by<persName ref="PRS9142TaklaGi"/> in <date>1798</date>. 
+                  Sources confirmed that he spent his last years as a monk in <placeName ref="LOC4244Laliba"/>. </floruit>
+               <death when="1832">He died being over76 years old.</death>
+                  
+               </person>
+               <listRelation>
+                  <relation name="snap:SonOf" 
+                     active="PRS10441Yonas"
+                     passive="PRS6195Latsun"
+                     ></relation>
+                  <relation name="snap:SonOf"
+                     active="PRS10441Yonas"
+                     passive="PRS2675Berceqqo"
+                     ></relation>
+                  <relation name="snap:GrandchildOf"
+                     active="PRS10441Yonas"
+                     passive="PRS6195Latsun"
+                     ></relation>
+                  
+                  
+               </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Blundell1922Chronicle"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Crummey2014Yonas"/>
+            </bibl>
+         </listBibl>
       </body>
-   </text>
+   </text>   
 </TEI>
+
+
+
+
+
+
+
+                  
+                  
