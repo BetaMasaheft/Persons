@@ -10,7 +10,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Alula Ǝngǝda</title>
+            <title>ʾAlulā ʾƎngǝdā</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,21 +47,83 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-05-24">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Alula Ǝngǝda
-               </persName>
-               <persName type="alt">“Abba Nägga”</persName>
-               <persName type="alt"> Alula Qubbi</persName>
-               <occupation> ras (šaläqa) </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birth">አሉላ፡ እንግዳ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAlulā ʾƎngǝdā</persName>
+               <persName xml:lang="gez" xml:id="n2" type="horse">አባ፡ ነጋ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAbbā Naggā</persName>
+               <persName xml:lang="gez" xml:id="n3" type="nick">ወዲ፡ ቁቢ፡</persName>
+               <persName xml:lang="gez" corresp="#n3" type="normalized">Waddi Qubbi</persName>
+               
+               
+               <persName><roleName type="title">rās</roleName></persName>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="political">governor</occupation>
+               <birth when="1847"></birth>
+               
+               <floruit notAfter="1870" notBefore="1897">He was one of the the most important Ethiopia's national hero. He started as an aškar in the court of <persName ref="PRS2010Arayas"/>
+                  and was transferred to the service of <roleName type="title">dāǧǧāzmāč</roleName>Kāśā Mǝrč̣ā after <persName ref="PRS2010Arayas"/> was imprisoned by 
+                  <persName ref="PRS9430Tewodros"/>. After Kāśā captured power as <roleName type="title">ʾaṣe</roleName><persName ref="PRS10378Yohanne"/>
+                  he had become his favourite administrator and chief soldier. He then started making his name as a brilliant military tactician in the battles 
+                  of <placeName ref="LOC3655Gundat"/> in <date>1875</date> and <placeName ref="LOC3660Gura"/> in <date>1876</date> against the invading Egyptian expeditions. 
+                  For the next 20 years he played a major role in Ethiopia's history from social obscurity to political prominence. </floruit>
+               
+               <death when="1897">He died at<placeName ref="LOC1310Aksum"/> in <date>1897</date>.</death>
             </person>
+            <listRelation>
+               <relation  name="snap:AllianceWith"
+                  active="PRS1777Alulaen"
+                  passive="PRS10378Yohanne"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  active="PRS1777Alulaen"
+                  passive="PRS7006Menilek"
+                  ></relation>
+               
+            </listRelation>
          </listPerson>
+                  <listBibl type="secondary">
+                  
+                     <bibl>
+                        <ptr target="   bm:Erlich2003Alula"/>
+                        <biblScope unit="page">1-46, 287-327</biblScope>
+                     </bibl>
+                     
+            <bibl>
+               <ptr target="bm:Erlich1976Alula"/>
+               <biblScope unit="page">1-46, 287-327</biblScope>
+            </bibl>
+            
+            
+            
+         </listBibl>
       </body>
-   </text>
+   </text>   
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  
+                  
