@@ -10,7 +10,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Wälättä Qirqos</title>
+            <title>Walatta Qirqos</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,23 +47,50 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-05-29">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="2">
-               <persName>
+           
                   
-                  Wälättä Qirqos
-               </persName>
-            </person>
-            <listRelation>
-               <relation name="wifeOf">
-                  <desc> wife Ḥǝzqǝyas</desc>
-               </relation>
-            </listRelation>
+                  <persName xml:lang="gez" xml:id="n1" type="birth">ወለተ፡ ቂርቆስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Walatta Qirqos</persName>
+               <persName><roleName type="title">ʾǝtege</roleName></persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <occupation type="political">Queen</occupation>
+                  
+                 
+               <floruit>She was a 17th-18th century noble woman, the spouse of <persName ref="PRS5332hezqeyas"/>.  </floruit>
+                  
+               </person>  
+               <listRelation>
+                  
+                  <relation name="bm:wifeOf"
+                     active="PRS9851Walatta"
+                     passive="PRS5332hezqeyas"
+                     ></relation>
+                  
+               </listRelation>
          </listPerson>
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Boll2010WalattaQirqos"/>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+                  
+                
