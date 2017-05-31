@@ -59,11 +59,33 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName type="alt"> Wansleb</persName>
                <persName type="alt">Vansleb</persName>
                <occupation type="academic"> scholar </occupation>
+               <birth when="1635-11-01"/>               
+               <death when="1679-06-13"/>
+               <faith type="Protestantism"/>
+               <faith type="Catholicism"/>
+               <floruit><persName ref="PRS10036Wansleb"/> was born the son of a Lutheran pastor and began studying theology, philosophy and Oriental languages at Königsberg in <date>1654</date>.
+                  He became a student of <persName ref="PRS6378Ludolf"/> and was sent to London to take care of the edition of <persName ref="PRS6378Ludolf"/>'s Lexicon and Grammatica.
+                  His cooperation with <persName ref="PRS6378Ludolf"/> continued after his return to Germany and he also copied Gǝʿǝz manuscripts throughout Europe. It was <persName ref="PRS10036Wansleb"/>
+                  who started alone the mission to Ethiopia prepared by <persName ref="PRS6378Ludolf"/> and financed by <persName ref="PRS3841ErnstI"/>. In <date>1664</date> he reached
+               Egypt, where he established links with the Coptic church. For security reasons he refrained from continuing his journey to Ethiopia and instead collected in Egypt information concerning Ethiopia.
+               He was also able to copy Ethiopian manuscripts in <placeName ref="INS0308DQ"/>, which he brought with him back to Europe.</floruit>
             </person>
          </listPerson>
          <div type="bibliography">
             <listBibl type="secondary">
                <bibl><ptr target="bm:BausiSmidt2010Wansleben"/></bibl>
+               <bibl><ptr target="bm:Bausi2015Wansleben"/></bibl>
+            </listBibl>
+            <listBibl type="relations">
+               <bibl/>
+               <relation name="snap:ProfessionalRelationship" active="PRS10036Wansleb" passive="PRS6378Ludolf"/>
+               <relation name="saws:isCopierOf" active="PRS10036Wansleb" passive="BNFet1"/>
+               <relation name="saws:isCopierOf" active="PRS10036Wansleb" passive="BNFet118"/>
+               <relation name="saws:isCopierOf" active="PRS10036Wansleb" passive="BNFet153"/>
+               <relation name="saws:isCopierOf" active="PRS10036Wansleb" passive="BNFet2"/>
+               <relation name="saws:isCopierOf" active="PRS10036Wansleb" passive="BNFet76"/>
+               <relation name="saws:isCopierOf" active="PRS10036Wansleb" passive=""/>
+               <relation name="saws:isCopierOf" active="PRS10036Wansleb" passive=""/>
             </listBibl>
          </div>
       </body>
