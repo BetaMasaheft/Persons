@@ -59,8 +59,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName type="alt"> Wansleb</persName>
                <persName type="alt">Vansleb</persName>
                <occupation type="academic"> scholar </occupation>
-               <birth when="1635-11-01"/>               
-               <death when="1679-06-13"/>
+               <birth when="1635-11-01" notBefore="1635-11-01"/>               
+               <death when="1679-06-13" notBefore="1679-06-13"/>
                <faith type="Protestantism"/>
                <faith type="Catholicism"/>
                <floruit><persName ref="PRS10036Wansleb"/> was born the son of a Lutheran pastor and began studying theology, philosophy and Oriental languages at Königsberg in <date>1654</date>.
@@ -68,7 +68,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   His cooperation with <persName ref="PRS6378Ludolf"/> continued after his return to Germany and he also copied Gǝʿǝz manuscripts throughout Europe. It was <persName ref="PRS10036Wansleb"/>
                   who started alone the mission to Ethiopia prepared by <persName ref="PRS6378Ludolf"/> and financed by <persName ref="PRS3841ErnstI"/>. In <date>1664</date> he reached
                Egypt, where he established links with the Coptic church. For security reasons he refrained from continuing his journey to Ethiopia and instead collected in Egypt information concerning Ethiopia.
-               He was also able to copy Ethiopian manuscripts in <placeName ref="INS0308DQ"/>, which he brought with him back to Europe.</floruit>
+               He was also able to copy Ethiopian manuscripts in <placeName ref="INS0308DQ"/>, which he brought with him back to Europe. Her returned to Italy in <date>1665</date>, staying first in 
+               Florence and then in Rome, where he continued to copy Gǝʿǝz manuscripts. He converted to Catholicism and became a Dominican priest. This conversion put an end to his friendly relation
+               with <persName ref="PRS6378Ludolf"/>, who was deeply offended by it. In <date>1671</date>, <persName ref="PRS10036Wansleb"/> moved to Paris and undertook a new mission to the
+                  Orient from <date>1671</date> to <date>1676</date>, in which he again only arrived as far as Egypt, visiting and reporting on the White Monastery
+                  and the monastery of <placeName ref="INS0320DAA">St. Anthony</placeName>. Though he shipped during this journey almost 600 manuscripts in various languages to France, the mission
+                  was considered a failure and <persName ref="PRS10036Wansleb"/> lived poorly after his return to Paris in <date>1677</date>. His most important work, 
+               the Histoire de l'Église d'Alexandrie was published in 1677.</floruit>
             </person>
          </listPerson>
          <div type="bibliography">
@@ -84,8 +90,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="saws:isCopierOf" active="PRS10036Wansleb" passive="BNFet153"/>
                <relation name="saws:isCopierOf" active="PRS10036Wansleb" passive="BNFet2"/>
                <relation name="saws:isCopierOf" active="PRS10036Wansleb" passive="BNFet76"/>
-               <relation name="saws:isCopierOf" active="PRS10036Wansleb" passive=""/>
-               <relation name="saws:isCopierOf" active="PRS10036Wansleb" passive=""/>
             </listBibl>
          </div>
       </body>
