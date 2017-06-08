@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:id="t1">Ya-Māryām Ganze</title>
+            <title xml:id="t1">Yamāryām Ganze</title>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
@@ -41,6 +41,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-11-17">Created XML record from Ethio authority google spreadsheet</change>
+         <change who="DR" when="2017-06-08">Update</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -49,14 +50,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName>
                   <forename/>
-                  <surname>Ya-Māryām Ganze</surname>
+                  <surname>Yamāryām Ganze</surname>
                </persName>
-               <occupation>owner</occupation>
             </person>
             <listRelation>
-               <relation name="lawd:hasAttestation"
+               <relation name="saws:hasOwned"
                          active="PRS11055YaMaryam"
-                         passive="BNFet65"><!--Please fix the relation of this item with BNFet65--></relation>
+                         passive="BNFet65"/>
             </listRelation>
          </listPerson>
       </body>
