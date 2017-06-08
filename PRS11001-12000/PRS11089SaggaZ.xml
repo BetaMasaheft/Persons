@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:id="t1">Ṣaggā Za-ʾAb</title>
+            <title xml:id="t1">Ṣaggā Zaʾab</title>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
@@ -41,6 +41,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-11-17">Created XML record from Ethio authority google spreadsheet</change>
+         <change who="DR" when="2017-06-08">Update</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -49,15 +50,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName>
                   <forename/>
-                  <surname>Ṣaggā Za-ʾAb</surname>
+                  <surname>Ṣaggā Zaʾab</surname>
                </persName>
-               <occupation>abbot</occupation>
+               <occupation type="ecclesiastic">abbot</occupation>
             </person>
             <listRelation>
-               <relation name="syriaca:has-relation-to-place" active="PRS11089SaggaZ">Jerusalem?</relation>
+               <relation name="syriaca:has-relation-to-place" active="PRS11089SaggaZ" passive="LOC3957Jerusa" cert="low"/>
                <relation name="lawd:hasAttestation"
                          active="PRS11089SaggaZ"
-                         passive="BNFet35"><!--Please fix the relation of this item with BNFet35--></relation>
+                         passive="BNFet35"/>
             </listRelation>
          </listPerson>
       </body>
