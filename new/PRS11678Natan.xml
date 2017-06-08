@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="gez" xml:id="t1">Nātān</title>
+                <title>Nātān</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DR"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -48,14 +48,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Nātān</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
-                    <faith type=""/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <persName xml:lang="gez" xml:id="n1">ናታን፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Nātān</persName>
                 </person>
-            </listPerson><!---->
+          
+            <listRelation>
+                <relation name="saws:isCopierOf"
+                    active="PRS11678Natan"
+                    passive="BDLbruce73"/>
+            </listRelation>
+            </listPerson>
         </body>
     </text>
 </TEI>
