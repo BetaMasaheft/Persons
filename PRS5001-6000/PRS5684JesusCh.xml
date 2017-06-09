@@ -42,16 +42,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-05-04">updated person</change>
+         <change when="2017-06-09" who="DR">Correction</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-
-               <persName ref="http://viaf.org/viaf/38323081/" xml:lang="en" xml:id="n1">Jesus Christ</persName>          
+            <person sex="1" sameAs="Q302">
+               <persName xml:lang="en" xml:id="n1">Jesus Christ</persName>          
                <persName xml:lang="gez" corresp="#n1">ኢየሱስ፡ ክርስቶስ፡</persName>
-               <persName xml:lang="gez" type="normalized" corresp="#n1">Iyasus Krǝstos</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">ʾIyasus Krǝstos</persName>
                <persName xml:lang="gez" type="alt" xml:id="n2">ክርስቶስ፡</persName>
                <persName xml:lang="gez" corresp="#n2">Krǝstos</persName> 
                <persName xml:lang="gez" xml:id="MadhaneAlam">
