@@ -45,12 +45,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
          <change who="DR" when="2016-11-24">Adjustments</change>
+         <change who="DR" when="2017-05-31">Additions</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
+            <person sex="1" sameAs="Q3180611">
                <persName>
                   <forename>Johann-Michael</forename>
                   <surname>Wansleben</surname>
@@ -63,18 +64,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <death when="1679-06-13"/>
                <faith type="Protestantism"/>
                <faith type="Catholicism"/>
-               <floruit><persName ref="PRS10036Wansleb"/> was born the son of a Lutheran pastor and began studying theology, philosophy and Oriental languages at Königsberg in <date>1654</date>.
+              
+               <floruit><persName ref="PRS10036Wansleb"/> was born the son of a Lutheran pastor and began studying theology, philosophy and Oriental languages at <placeName ref="gn:554234">Königsberg</placeName> in <date>1654</date>.
                   He became a student of <persName ref="PRS6378Ludolf"/> and was sent to London to take care of the edition of <persName ref="PRS6378Ludolf"/>'s Lexicon and Grammatica.
                   His cooperation with <persName ref="PRS6378Ludolf"/> continued after his return to Germany and he also copied Gǝʿǝz manuscripts throughout Europe. It was <persName ref="PRS10036Wansleb"/>
                   who started alone the mission to Ethiopia prepared by <persName ref="PRS6378Ludolf"/> and financed by <persName ref="PRS3841ErnstI"/>. In <date>1664</date> he reached
-               Egypt, where he established links with the Coptic church. For security reasons he refrained from continuing his journey to Ethiopia and instead collected in Egypt information concerning Ethiopia.
-               He was also able to copy Ethiopian manuscripts in <placeName ref="INS0308DQ"/>, which he brought with him back to Europe. Her returned to Italy in <date>1665</date>, staying first in 
-               Florence and then in Rome, where he continued to copy Gǝʿǝz manuscripts. He converted to Catholicism and became a Dominican priest. This conversion put an end to his friendly relation
+                  <placeName ref="gn:357994">Egypt</placeName>, where he established links with the Coptic church. For security reasons he refrained from continuing his journey to Ethiopia and instead collected in Egypt information concerning Ethiopia.
+                  He was also able to copy Ethiopian manuscripts in <placeName ref="INS0308DQ"/>, which he brought with him back to Europe. He returned to <placeName ref="gn:3175395">Italy</placeName> in <date>1665</date>, staying first in 
+                  <placeName ref="gn:3176959">Florence</placeName> and then in <placeName ref="gn:3169070">Rome</placeName>, where he continued to copy Gǝʿǝz manuscripts. He converted to Catholicism and became a Dominican priest. This conversion put an end to his friendly relation
                with <persName ref="PRS6378Ludolf"/>, who was deeply offended by it. In <date>1671</date>, <persName ref="PRS10036Wansleb"/> moved to Paris and undertook a new mission to the
-                  Orient from <date>1671</date> to <date>1676</date>, in which he again only arrived as far as Egypt, visiting and reporting on the White Monastery
-                  and the monastery of <placeName ref="INS0320DAA">St. Anthony</placeName>. Though he shipped during this journey almost 600 manuscripts in various languages to France, the mission
-                  was considered a failure and <persName ref="PRS10036Wansleb"/> lived poorly after his return to Paris in <date>1677</date>. His most important work, 
-               the Histoire de l'Église d'Alexandrie was published in 1677.</floruit>
+                  Orient from <date>1671</date> to <date>1676</date>, in which he again only arrived as far as Egypt, visiting and reporting on the <placeName ref="LOC2594Dayral"/>
+                  and the monastery of <placeName ref="INS0320DAA">St Anthony</placeName>. Though he shipped during this journey almost 600 manuscripts in various languages to <placeName ref="gn:3017382">France</placeName>, the mission
+                  was considered a failure and <persName ref="PRS10036Wansleb"/> lived poorly after his return to <placeName ref="gn:2988507">Paris</placeName> in <date>1677</date>. His most important work, 
+                  the Histoire de l'Église d'Alexandrie, was published in <date>1677</date>. Until his death he lived in <placeName ref="gn:3030876">Bourron</placeName>.</floruit>
             </person>
          </listPerson>
          <div type="bibliography">
@@ -90,6 +92,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="saws:isCopierOf" active="PRS10036Wansleb" passive="BNFet153"/>
                <relation name="saws:isCopierOf" active="PRS10036Wansleb" passive="BNFet2"/>
                <relation name="saws:isCopierOf" active="PRS10036Wansleb" passive="BNFet76"/>
+             <!--  add BBb49
+               Cambridge Dd. 11.38
+               Frankfurt Ff. H. Ludolf II, 22
+               BNCF Magl. III 1
+               BNCF Magl. III 2
+               BNCF Magl. III 3
+               BNCF Magl. III 4
+               BNCF Magl. III 83-->
             </listBibl>
          </div>
       </body>
