@@ -40,24 +40,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="PL" when="2016-11-17">Created XML record from Ethio authority google spreadsheet</change>
+         <change who="PL" when="2016-11-17">Created XML record from Ethio authority google spreadsheet</change> 
+         <change who="MV" when="2017-06-22">Update</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  <forename/>
-                  <surname>Zenā Gabrǝʾel</surname>
-               </persName>
-               <occupation>owner</occupation>
+               <persName  xml:lang="gez" xml:id="n1">ዜና፡ ገብርኤል፡</persName>
+               <persName  xml:lang="gez" type="normalized" corresp="#n1">Zenā Gabrǝʾel</persName>
+               <faith type="EOTC"/>
             </person>
             <listRelation>
-               <relation>husband PRS11298SeyonM</relation>
+               <relation name="bm:husbandOf"
+                  active="PRS11297ZenaG"
+                  passive="PRS11298SeyonM"></relation>
                <relation name="lawd:hasAttestation"
                          active="PRS11297ZenaG"
-                         passive="BNFet146"><!--Please fix the relation of this item with BNFet146--></relation>
+                         passive="BNFet146"></relation>
             </listRelation>
          </listPerson>
       </body>
