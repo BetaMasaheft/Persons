@@ -40,22 +40,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="PL" when="2016-11-17">Created XML record from Ethio authority google spreadsheet</change>
+         <change who="PL" when="2016-11-17">Created XML record from Ethio authority google spreadsheet</change> 
+         <change who="MV" when="2017-06-22">Update</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  <forename/>
-                  <surname>Tanśǝʾa Wald</surname>
-               </persName>
+               <persName  xml:lang="gez" xml:id="n1">ተንሥአ፡ ወልድ፡</persName>
+               <persName  xml:lang="gez" type="normalized" corresp="#n1">Tanśǝʾa Wald</persName>
+               <faith type="EOTC"/>
             </person>
             <listRelation>
                <relation name="lawd:hasAttestation"
                          active="PRS11299TanseaW"
-                         passive="BAVet16"><!--Please fix the relation of this item with BAVet16--></relation>
+                         passive="BAVet16 BABet29"></relation>
             </listRelation>
          </listPerson>
       </body>
