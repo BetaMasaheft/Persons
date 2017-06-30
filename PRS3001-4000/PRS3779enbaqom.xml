@@ -55,24 +55,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
+               
+               <persName xml:lang="gez" xml:id="n1" type="baptismal">እንባቆም፡</persName>
+               
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾƎnbāqom</persName>
              
-                  <persName xml:lang="gez" xml:id="n1" type="birth">አቡልፋትሕ፡</persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAbū l-Fātḥ</persName>
+                  <persName xml:lang="ar" xml:id="n2" type="birth">أبو الفتح</persName>
+               <persName xml:lang="gez" corresp="#n2">አቡልፋትሕ፡</persName>
+               <persName xml:lang="ar" corresp="#n2" type="normalized">ʾAbū l-Fatḥ</persName>
 
-                  <persName xml:lang="gez" xml:id="n2" type="baptismal">እንባቆም፡</persName>
-
-               <persName xml:lang="gez" corresp="#n2" type="normalized">ʾƎnbāqom</persName>
+               
                   
                <persName><roleName type="title"> ʾǝč̣č̣age</roleName></persName>
           
            <occupation type="ecclesiastic">abbot</occupation>
                <birth>1470</birth>
                <residence>He was born in <placeName ref="gn:69543">Yemen</placeName>.</residence>
-               <floruit when="1489" evidence="internal">He arrived in <placeName ref="LOC3010Ethiop"> Ethiopia</placeName> in <date>1489</date> 
+               <floruit when="1489" evidence="internal">He arrived in <placeName ref="LOC3010Ethiop">Ethiopia</placeName> in <date>1489</date> 
                   during the reign of King <persName ref="PRS3874eskender">ʾƎskǝndǝr</persName>. 
-                  He was baptized by abuna <persName ref="PRS7825Petros">ṗeṭros </persName>. <persName ref="PRS3779enbaqom">ʾƎnbāqom</persName> contribution to Ethiopic literature was remarkable. 
+                  He was baptized by abuna <persName ref="PRS7825Petros">Ṗeṭros </persName>. <persName ref="PRS3779enbaqom">ʾƎnbāqom's</persName> contribution to Ethiopic literature was remarkable. 
                </floruit>
-               <death when="1563" evidence="internal">He died during the reign of King <persName ref="PRS7102Minas">Minās </persName>. </death>
+               <death when="1563" evidence="internal">He died during the reign of King <persName ref="PRS7102Minas">Minās</persName>. </death>
             </person>
                <listRelation>
                   <relation name="snap:AllianceWith"
