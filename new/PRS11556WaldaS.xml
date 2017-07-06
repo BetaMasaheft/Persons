@@ -42,6 +42,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="DR" when="2017-04-25">Created entity</change>
+            <change who="DR" when="2017-06-27">IDs corrected</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -50,11 +51,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ወልደ፡ ሥላሴ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Walda Śǝllāse</persName>
-                    <faith type="EOTC"/>
                 </person>
                 <listRelation>
-                    <relation name="saws:isCopierOf" active="PRS11556WaldaS" passive="BDLaeth11"/>
-                    <relation name="saws:isCopierOf" active="PRS11556WaldaS" passive="BDLaeth10" cert="low"/>
+                    <relation name="saws:isCopierOf" active="PRS11556WaldaS" passive="BDLbruce77"/>
+                    <relation name="saws:isCopierOf" active="PRS11556WaldaS" passive="BDLbruce76" cert="low"/>
                 </listRelation>
             </listPerson>
         </body>

@@ -10,7 +10,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Käbbädä Täfäri</title>
+            <title>Kabbada Tafari</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +47,92 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-06-21">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Käbbädä Täfäri
-               </persName>
-               <occupation> wag šum </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ከበደ፡ ተፈሪ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Kabbada Tafari</persName>
+               <persName><roleName type="title">wag šum </roleName></persName>
+               
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               
+               
+               
+               <occupation type="political">governor</occupation>
+               
+          
+               
+               
+               
+               <floruit notBefore="1874" notAfter="1935">He was <roleName type="title">wag šum </roleName> in the late 19th-early 20th century. 
+                  He succeeded his father <persName ref="PRS9104TafariW"/> at a young age in <date>1874</date> but was removed from office in <date>1876</date>. 
+                  He was reappointed two decades later, in <date>1905</date> but removed a year later due to a quarrel with the local people who lodged an appeal,
+                  against him at<persName ref="PRS7006Menilek"/> 's court for maladministration and harsh treatment. He was reappointed for the third time in<date>1917</date>, 
+                  and continued to administer <placeName ref="LOC6135Wag"/> until the Italian invasion, in <date>1935</date>.
+               </floruit>
+          
+               
+               
             </person>
+            <listRelation>
+               <relation name="snap:SonOf"
+                  active="PRS5815Kabbada"
+                  passive="PRS9104TafariW"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  active="PRS5815Kabbada"
+                  passive="PRS7006Menilek"
+                  ></relation>
+               <relation name="snap:AllianceWith"
+                  active="PRS5815Kabbada"
+                  passive="PRS5226haylase"
+                  ></relation>
+               
+               
+               
+               
+               
+               
+               
+               
+               
+            </listRelation>
          </listPerson>
+         
+         
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Wudu2007KabbadaTafari"/>
+            </bibl> 
+            
+            <bibl> 
+               <ptr target="bm:Wudu1995Wag"/>
+            </bibl> 
+            
+            
+            
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

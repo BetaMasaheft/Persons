@@ -42,6 +42,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="DR" when="2017-05-03">Created entity</change>
+            <change who="DR" when="2017-06-27">IDs corrected</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -50,10 +51,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">አምደ፡ ኢየሱስ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAmda ʾIyasus</persName>
-                    <faith type="EOTC"/>
                 </person>
                 <listRelation>
-                    <relation name="saws:hasOwned" active="PRS11612AmdaI" passive="BDLaeth19"/>
+                    <relation name="saws:hasOwned" active="PRS11612AmdaI" passive="BDLlaudor204"/>
                 </listRelation>
             </listPerson>
         </body>
