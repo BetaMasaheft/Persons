@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Hāylā Māryām Dasaālāñ</title>
+                <title>Hāylā Māryām Dasālāñ</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="SG"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -48,16 +48,35 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Hāylā Māryām Dasaālāñ</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">Hāylā Māryām Dasālāñ</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">ሃይለ ፡ ማርያም፡ ደሳለኝ</persName>
                     <faith type="Anglican"/>
                     <occupation type="ruler"/>
+                    <occupation type="other">engineer</occupation>
+                    <occupation type="academic">lecturer</occupation>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <birth when="1965-07-19"></birth>
+                    <residence> <placeName ref="LOC1216AddisA"/></residence>
+                    <floruit notBefore="2010"> He served as the deputy prime minister and minister of foreign affairs to the EPRDF starting in 
+                        <date>2010</date> to <date>2012</date>. He then succeeded the late Prime Minister <persName ref="PRS6616MallasZ"/>in <date>2012</date>. 
+                        He represents one of the coalition parties of EPRDF, the Southern People's and Nations and Nationalities Party. </floruit>
+        
                 </person>
-            </listPerson><!---->
-        </body>
+                <listRelation>
+                    <relation name="bm:husbandOf" active="#PRS11686Hailemariam" passive="PRS11687Roman"> 
+
+                    </relation>
+                    <relation name="snap:AllianceWith" active="#PRS11686Hailemariam" passive="PRS6616MallasZ"/>
+                        
+                       </listRelation> 
+                
+            </listPerson>
+        <listBibl type="secondary">
+          <bibl> 
+              <ptr target="bm:Brune2014Mallas"/>
+          </bibl>
+            
+        </listBibl>
+                </body>
     </text>
 </TEI>
