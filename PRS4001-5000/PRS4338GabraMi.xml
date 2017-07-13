@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Gäbrä Mikaʾel</title>
+            <title>Gabra Mikāʾel</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,18 +44,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="MV" when="2017-07-13">Edited</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Gäbrä Mikaʾel
-               </persName>
-               <occupation> abba </occupation>
+               <persName  xml:lang="gez" xml:id="n1">ገብረ፡ ሚካኤል፡</persName>
+               <persName  xml:lang="gez" type="normalized" corresp="#n1">Gabra Mikāʾel</persName>
+               <occupation type="ecclesiastic">ʾabbā</occupation>
             </person>
+            <listRelation>
+               <relation name="saws:hasOwned" active="PRS4338GabraMi" passive="BAVet106"/>
+            </listRelation>
          </listPerson>
       </body>
    </text>
