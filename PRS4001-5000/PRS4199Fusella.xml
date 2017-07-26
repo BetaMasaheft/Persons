@@ -47,6 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2017-04-12">Complete record</change>
+         <change who="SG" when="2017-07-26">Correction to relation</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -69,7 +70,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <death when="1992">He died at <placeName ref="gn:3172394"/>.</death>
                </person>
                <listRelation>
-                  <relation name="snap:AllianceWith"
+                  <relation name="snap:ProfessionalRelationship"
                      active="PRS4199Fusella"
                      passive="PRS1451Afawarq"
                      ></relation>
