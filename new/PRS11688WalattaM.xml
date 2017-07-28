@@ -48,17 +48,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="2">
-                    <persName xml:lang="gez" xml:id="n1">Walatta Māryām</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
-                    <faith type=""/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <persName xml:lang="gez" xml:id="n1">ወለተ፡ ማርያም፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walatta Māryām</persName>
                 </person>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="PRS11688WalattaM" passive="BDLbruce93"/>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
+            <div type="bibliography">
+                <listBibl type="secondary">
+                    <bibl><ptr target="bm:Wion2009LibAks"/><citedRange unit="page">158</citedRange></bibl>
+                </listBibl>
+            </div>
         </body>
     </text>
 </TEI>
