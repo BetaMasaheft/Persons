@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="gez" xml:id="t1">Takla Māryām</title>
+                <title>Takla Māryām</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="ES"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,14 +42,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="ES" when="2017-05-24">Created entity</change>
+            <change who="DR" when="2017-07-28">Corrected name</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Takla Māryām</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ተክለ፡ ማርያም፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Takla Māryām</persName>
                     <faith type="EOTC"/>
                     
                     <nationality type="post-Aksumite Ethiopia"/>
@@ -58,7 +59,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <floruit notBefore="1675"></floruit>
                 </person>
                 <listRelation>
-                    <relation name="saws:isCopierOf" active="PRS11660TaklaMaryam"   passive="BLorient510"/>
+                    <relation name="saws:isCopierOf" active="PRS11660TaklaMaryam" passive="BLorient510"/>
                 </listRelation>
             </listPerson><!---->
         </body>

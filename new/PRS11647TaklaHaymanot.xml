@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="gez" xml:id="t1">Takla Hāymanot</title>
+                <title>Takla Hāymanot</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="ES"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,14 +42,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="ES" when="2017-05-15">Created entity</change>
+            <change who="DR" when="2017-07-28">Corrected name</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Takla Hāymanot</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ተክለ፡ ሃይማኖት፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Takla Hāymanot</persName>
                     <faith type="EOTC"/>
                     <occupation type="ecclesiastic">scribe</occupation>
                     <nationality type="post-Aksumite"/>
@@ -61,7 +62,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <relation name="saws:isCopierOf" active="PRS11647TaklaHaymanot" passive="BLorient829a"/>
                     
                 </listRelation>
-            </listPerson><!--scribe of BL Orient 829a-->
+            </listPerson>
         </body>
     </text>
 </TEI>
