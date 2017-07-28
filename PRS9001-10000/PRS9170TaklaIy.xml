@@ -10,8 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Täklä Iyäsus</title>
-            <author/>
+            <title>Takla ʾIyasus</title>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
@@ -48,6 +47,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    </teiHeader>
    <text>
       <body>
+         <listPerson>
+            <person sex="1">
+               <persName xml:lang="gez" xml:id="n1">ተክለ፡ ኢየሱስ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Takla ʾIyasus</persName>
+            </person>
+            <listRelation>
+               <relation name="lawd:hasAttestation" active="PRS9170TaklaIy" passive="BNFet114"/>
+            </listRelation>
+         </listPerson>
          <listPerson>
             <person sex="1">
                <persName>
