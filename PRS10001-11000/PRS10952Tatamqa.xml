@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:id="t1">Täṭämqä Mädḫǝn</title>
+            <title xml:id="t1">Taṭamqa Madḫǝn</title>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
@@ -41,18 +41,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-07-26">Created XML record from Ethio authority google spreadsheet</change>
+         <change who="DR" when="2017-07-28">Updated</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  <forename/>
-                  <surname>Täṭämqä Mädḫǝn</surname>
-               </persName>
-               <occupation>abbot </occupation>
+               <persName xml:lang="gez" xml:id="n1">ተጠምቀ፡ መድኅን፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Taṭamqa Madḫǝn</persName>
+               <occupation type="ecclesiastic">abbot </occupation>
             </person>
+            <listRelation>
+               <relation name="lawd:hasAttestation" active="PRS10952Tatamqa" passive="BNFet35"/>
+            </listRelation>
          </listPerson>
       </body>
    </text>
