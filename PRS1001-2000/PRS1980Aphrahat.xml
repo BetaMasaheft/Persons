@@ -47,82 +47,63 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
-         <change who="SG" when="2017-05-10">Complete record</change>
+         <change who="SG" when="2017-08-02">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
+               <persName xml:lang="gez" xml:id="n1" type="baptismal ">ያዕቆብ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Yāʿǝqob</persName>
+               <persName xml:lang="en" xml:id="n2" type="baptismal ">Jacob </persName>
+            
+               
+               
+               <persName xml:lang="en" xml:id="n3" type="birth">Aphrahat</persName>
+              
+               
+               
+               
          
-                  <persName xml:lang="gez" xml:id="n1" type="birth"></persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized">Aphrahat</persName>
                   
                   
+              <occupation type="ecclesiastic">Church father</occupation>
                   
-                  <occupation type="ecclesiastic"> bishop</occupation>
-                  
-                  <nationality type="Egypt"/>
-                  <faith type="Coptic"/>
-                  
-                  
-                  <birth when="0295"/>
+                 <nationality type="Syria"/>
+                  <faith type="Syriac"/>
                   
                   
-                  <floruit></floruit>
-                  <death> </death>
+              <birth when="0270"/>
+                  
+                  
+                  <floruit notBefore="0270" notAfter="0345">He was a Syriac Church Father and author of a series of 23 treaties which cover most of the theological 
+                     reflections of the Persian Christian of the time. His theology is based exclusively on the Bible and is free from Greek influence, but absorbed elements of the Jewish exegetical tradition. 
+                     His work was translated into Armenian, Georgian and Arabic. In Ethiopian tradition, neither the name Aphrahat nor the title of his work are known. 
+                     However, at least two of his treaties are known in Gǝʿǝz: <title ref="LIT1275Dersan"/>and <title ref="LIT2041Nagarb"/>. </floruit>
+                  <death when="0345"/>
                   
                </person>
                
                <listRelation>
-                  <relation name="bm:hasOrdained"
-                     
-                     active="PRS2209Athanasi"
-                     passive="PRS8386SalamaI"
-                     ></relation>
                   
                   
                   <relation name="saws:isAttributedAuthorOf"
-                     active="PRS2209Athanasi"
-                     passive="LIT1611Homili"
+                     active="PRS1980Aphrahat"
+                     passive="LIT1275Dersan"
                      ></relation>
                   <relation name="saws:isAttributedAuthorOf"
-                     active="PRS2209Athanasi"
-                     passive="LIT2042Nagarb"
+                     active="PRS1980Aphrahat"
+                     passive="LIT2041Nagarb"
                      ></relation>
                   
-                  <relation name="saws:isAttributedAuthorOf"
-                     active="PRS2209Athanasi"
-                     passive="LIT2287Saqoqa"
-                     ></relation>
-                  <relation name="saws:isAttributedAuthorOf"
-                     active="PRS2209Athanasi"
-                     passive="LIT2263salota"
-                     ></relation>
-                  <relation name="saws:isAttributedAuthorOf"
-                     active="PRS2209Athanasi"
-                     passive="LIT2263salota"
-                     ></relation>
-                  <relation name="saws:isAttributedAuthorOf"
-                     active="PRS2209Athanasi"
-                     passive="LIT1628Homily"
-                     ></relation>
-                  <relation name="saws:isAttributedAuthorOf"
-                     active="PRS2209Athanasi"
-                     passive="LIT1353Epistu"
-                     ></relation>
-                  <relation name="saws:isAttributedAuthorOf"
-                     active="PRS2209Athanasi"
-                     passive="LIT1353Epistu"
-                     ></relation>
-                  
-               </listRelation>
+                    </listRelation>
          </listPerson>
          
          
          <listBibl type="secondary">
             <bibl>
-               <ptr target=""/>
+               <ptr target="bm:Witakowski2003EAEAphrahat"/>
             </bibl>
             
          </listBibl>
