@@ -47,6 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-09-29">Complete record</change>
+         <change who="SG" when="2017-08-08">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -59,11 +60,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   <occupation type="ecclesiastic"> saint</occupation>
-                  <birth> </birth>
-                  <floruit> She was a female saint of Ethiopian in the 14th and 15th century. She spent 12 years praying in the lake <placeName ref="LOC5888Tana">Ṭanā</placeName> 
-                     
+        
+                  <floruit notBefore="1300" notAfter="1400"> She was a female saint of Ethiopian in the 14th and 15th century.
+                     She spent 12 years praying in the lake <placeName ref="LOC5888Tana">Ṭanā</placeName>. 
+                     She was a native of <placeName ref="LOC5597Sawa"/> and bore eight sons and two daughters. 
                   </floruit>
-                  <death> </death>
+         
                </person>  
                <listRelation>
                   
@@ -71,7 +73,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          active="PRS6079Krestos"
                          passive="LIT1469GadlaK"
                     ></relation>
-           
+                  <relation name="snap:DaughterOf"
+                     active="PRS6079Krestos"
+                     passive="PRS3711eleni"
+                     ></relation>
+                  <relation name="snap:DaughterOf"
+                     active="PRS6079Krestos"
+                     passive="PRS3368Dargwani"
+                     ></relation>
+                  
+                  
                   
                </listRelation>
          </listPerson>
