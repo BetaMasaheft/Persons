@@ -11,6 +11,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Sisinios</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,21 +47,49 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-08-08">Complet record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Sisinios
-               </persName>
-               <persName type="alt"> Sisinnius</persName>
-               <persName type="alt">Susǝnyos</persName>
-               <occupation> St </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ሱስንዮስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Susǝnyos</persName>
+               <persName xml:lang="ger" xml:id="n2" type="alt">Sisinnius</persName>
+               <persName xml:lang="gez" xml:id="n3" type="alt">Sisinios</persName>
+              
+               
+               <occupation type="ecclesiastic">saint</occupation>
+               
+               <floruit notBefore="0284" notAfter="0316">He was one of the so-called equestrian saints, died as a martyr in <placeName ref="LOC1481Antioc">Antioch</placeName>
+                  during the persecution of <persName ref="PRS3581Diocleti">Diocletian</persName> from <date>284 </date> to <date>316</date>. 
+                  His name largely appears in official ecclesiastical literature and magic scrolls. <persName ref="PRS9039Susenyos">Susǝnyos II</persName> 
+                  is also depicted on the walls of churches with the other equestrian saints. </floruit>
+               <death notBefore="0284" notAfter="0316"></death>
+               
+               
             </person>
+            
+            <listRelation>
+               <relation name="ecrm:P129i_is_subject_of"
+                  active="PRS8886Sisinios"
+                  passive="LIT1763Legend"
+                  ></relation>
+            </listRelation>
          </listPerson>
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Burtea2005Susenyos"/>
+            </bibl>  
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+                  
+                 

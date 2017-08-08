@@ -47,7 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
-         <change who="SG" when="2016-12-07">Complete record</change>
+         <change who="SG" when="2017-08-08">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -55,36 +55,29 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
               
-                <persName xml:lang="gez" xml:id="n1" type="birth">ሱስንዮስ፡</persName>
-                  <persName xml:lang="gez" corresp="#n1" type="normalized">Susǝnyos</persName>
-                  <occupation type="ecclesiastic">saint</occupation>
-                  
-               <floruit notBefore="0284" notAfter="0316">He was one of the so-called equestrian saints, died as a martyr in <placeName ref="LOC1481Antioc">Antioch</placeName>
-                  during the persecution of <persName ref="PRS3581Diocleti">Diocletian</persName> from <date>284 </date> to <date>316</date>. 
-                  His name largely appears in official ecclesiastical literature and magic scrolls. <persName ref="PRS9039Susenyos">Susǝnyos II</persName> 
-                  is also depicted on the walls of churches with the other equestrian saints. </floruit>
-               <death notBefore="0284" notAfter="0316"></death>
-                 
-                  
-               </person>
+              
+               <persName xml:lang="gez" xml:id="n1" type="birth">ወልደ፡ ጊዮርጊስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized"> Walda Giyorgis</persName>
+               <persName><roleName type="title">ʾaṣe</roleName></persName>
                
-               <listRelation>
-                  <relation name="ecrm:P129i_is_subject_of"
-                     active="PRS9038Susenyos"
-                     passive="LIT1763Legend"
-                    ></relation>
-               </listRelation>
+               <persName xml:lang="gez" xml:id="n2" type="regnal">ሱስንዮስ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Susǝnyos</persName>
+               <nationality type="Ethiopia"/>
+           <faith type="EOTC"/> 
+               <occupation type="ruler">Emperor</occupation>
+               
+               <birth></birth>
+               <floruit >
+               </floruit>
+               <death ></death>
+            </person>
          </listPerson>
-                 
-         <listBibl type="secondary">
-            <bibl> 
-               <ptr target="bm:Burtea2005Susenyos"/>
-            </bibl>  
-         </listBibl>
-         
+               
       </body>
    </text>
 </TEI>
 
-                  
-                  
+      
+           
+         
+     
