@@ -6,11 +6,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
      xml:lang="en"
-     xml:id="PRS11698KidanaMa">
+     xml:id="PRS11701WalattaAE">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:id="t1">Kidāna Māryām</title>
+            <title xml:id="t1">Walatta ʿAbiya ʾƎgziʾ</title>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
@@ -40,20 +40,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="MV" when="2017-08-07">Created entity</change>
+         <change who="MV" when="2017-08-09">Created entity</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               <persName  xml:lang="gez" xml:id="n1">ኪዳነ፡ ማርያም፡</persName>
-               <persName  xml:lang="gez" type="normalized" corresp="#n1">Kidāna Māryām</persName>
+            <person sex="2">
+               <persName  xml:lang="gez" xml:id="n1">ወለተ፡ ዐቢየ፡ እግዚ፡</persName>
+               <persName  xml:lang="gez" type="normalized" corresp="#n1">Walatta ʿAbiya ʾƎgziʾ</persName>
                <faith type="EOTC"/>
             </person>
             <listRelation>
-               <relation name="saws:hasOwned" active="PRS11698KidanaMa" passive="BAVet99"/>
-               <!-- possibly the same individual mentioned in ms. BAVet101 -->
+               <relation name="saws:hasOwned" active="PRS11701WalattaAE" passive="BAVet101"/>
             </listRelation>
          </listPerson>
       </body>
