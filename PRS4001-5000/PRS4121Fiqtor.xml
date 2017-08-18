@@ -61,7 +61,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <occupation type="ruler">prince</occupation>
            
                <birth when="1518" precision="medium"> around 1518 </birth>
-               <death when="1539" evidence="internal">He was the eldest son of King <persName ref="PRS6229LebnaDe">Lǝbna Dǝngǝl</persName>. He was killed by <persName ref="PRS9707Utmanb">ʿUṯmān b. Ǧawhar</persName>, one of the war lords  of <persName ref="PRS1522Ahmadb">ʾAḥmad b. ʾIbrāhīm al-Ġāzī</persName> in <date>1539</date></death>
+               <floruit notBefore="1518" notAfter="1539">He was the eldest son of King <persName ref="PRS6229LebnaDe">
+                  Lǝbna Dǝngǝl</persName>. He died childless. Immediately afterward his brother <persName ref="PRS7102Minas"/> was confined 
+                  to <placeName ref="LOC1390AmbaGe"/> which was later stormed by the Muslims, its inhabitants were massacred. 
+                  </floruit>
+               <death when="1539" evidence="internal"> He was killed by <persName ref="PRS9707Utmanb">ʿUṯmān b. Ǧawhar</persName>, one of the war lords 
+                  of <persName ref="PRS1522Ahmadb">ʾAḥmad b. ʾIbrāhīm al-Ġāzī</persName> in <date>1539</date></death>
           
             </person>
                    
@@ -87,6 +92,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      active="PRS4121Fiqṭor"
                      passive="PRS10191Yaǝqob"
                     ></relation>
+           
            
         </listRelation>
             
