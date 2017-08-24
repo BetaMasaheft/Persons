@@ -34,7 +34,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </abstract>
             <langUsage>
                 <language ident="en">English</language>
-              <language ident="amh">Amharic</language>
+              <language ident="am">Amharic</language>
                 <language ident="gez">Gǝʿǝz</language>
             </langUsage>
         </profileDesc>
@@ -47,7 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Hāylā Māryām Dasālāñ</persName>
+                    <persName xml:lang="gez" xml:id="n1">Hāylā Māryām Dasālāñ</persName> <!--gemination? DR 2017-08-24-->
                     <persName xml:lang="gez" type="normalized" corresp="#n1">ሃይለ ፡ ማርያም፡ ደሳለኝ</persName>
                     <faith type="Anglican"/>
                     <occupation type="ruler"/>
@@ -62,10 +62,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
        
                 </person>
                 <listRelation>
-                    <relation name="bm:husbandOf" active="#PRS11686Hailemariam" passive="PRS11687Roman"> 
+                    <relation name="bm:husbandOf" active="PRS11686Hailemariam" passive="PRS11687Roman"> 
 
                     </relation>
-                    <relation name="snap:AllianceWith" active="#PRS11686Hailemariam" passive="PRS6616MallasZ"/>
+                    <relation name="snap:AllianceWith" active="PRS11686Hailemariam" passive="PRS6616MallasZ"/>
                        
                        </listRelation> 
                 
