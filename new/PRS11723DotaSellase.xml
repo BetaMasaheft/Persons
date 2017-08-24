@@ -58,8 +58,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <floruit/>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS11723DotaSellase" passive=""/>
-                    <relation name="bm:wifeOf" active="PRS11722GabraMaryam" passive=""/>
+                           <relation name="bm:wifeOf" active="PRS11723DotaSellase" passive="PRS11722GabraMaryam"/>
+                        <relation name="lawd:hasAttestation" active="PRS11723DotaSellase" passive="IVefiopsk11"/>
+                    <relation name="snap:MotherOf" active="PRS11723DotaSellase" passive="PRS11720WahibaSellase"/>
                 </listRelation>
             </listPerson><!---->
         </body>
