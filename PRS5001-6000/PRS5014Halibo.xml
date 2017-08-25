@@ -11,6 +11,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Halibo</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,20 +47,62 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-08-25">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+              
+                  <persName xml:lang="gez" xml:id="n1" type="birth">ሀሊቦ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Halibo</persName>
+               <persName xml:lang="gez" xml:id="n2" type="alt">ሀሊበ፡ ወንጌል፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Haliba Wangel</persName>
+               
+               <persName><roleName type="title">azzāž </roleName></persName>
+                  <occupation type="military">leader</occupation>
                   
-                  Halibo
-               </persName>
-               <persName type="alt">Halibä Wängel</persName>
-               <occupation> azzaž </occupation>
-            </person>
+               <floruit notBefore="1574" notAfter="1596">He was a trusted <roleName type="title">azzāž </roleName>at the court of <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS8550sardaDe"/>. As such he was appointed commander of a newly organized guard regiment qʷǝrbān in <date>1574</date>
+                  and served loyally his sovereign both as war lord and diplomat.  A year later, in <date>1575</date>, he was sent as a head of delegation of high ecclesiastics to bahǝr nagāš 
+                  <persName ref="PRS10343Yeshaq"/> to pledge loyality to the emperor. He is also known to have taken part with his regiment in a successful campaign of the Emperor against the 
+                  <persName ref="ETH1274Betaes"/>prince <persName ref="PRS5842Kalef"/> in October <date>1597</date>.
+               </floruit>   
+                 
+               </person>
+               
+               <listRelation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS5014Halibo"
+                     passive="PRS8550sardaDe"
+                     ></relation>
+                  <relation name="rel:enemyOf"
+                     active="PRS5014Halibo"
+                     passive="PRS5842Kalef"
+                     ></relation>
+                  
+               </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Kropp1988LebnaI"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Chernestsov2005Halibo"/>
+            </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+             
