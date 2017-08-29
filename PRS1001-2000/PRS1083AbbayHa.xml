@@ -10,7 +10,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Abbay Habtä Ṣǝyon</title>
+            <title>ʾAbbāy Habta Ṣǝyon</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +47,64 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-08-29">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+              
                   
-                  Abbay Habtä Ṣǝyon
-               </persName>
-               <occupation> baḥ.n. </occupation>
-            </person>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ʾAbbāy Habta Ṣǝyon</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">አባይ፡ ሀብተ፡ ጽዮን፡</persName>
+               <persName><roleName type="title">baḥǝra nagāš</roleName></persName>
+                  <occupation type="political">leader</occupation>
+               <nationality type="Eritrea"/>
+               <faith type="EOTC"/>
+               <birth when="1869"/>
+                  
+                  
+               <floruit notBefore="1889" notAfter="1914">He was among the last notables of <placeName ref="LOC3764Hamase"/>
+                  to hold the office of <roleName type="title">baḥǝra nagāš</roleName>. He was officially promoted by the Italians, he inherited the office from his uncle 
+                  <persName ref="PRS4907Gwerade"/>. The decline of this office lead to the loss of effective executive power, but ʾAbbāy  became the spokesperson and the head 
+                  of the indigeneous population of  <placeName ref="LOC1579Asmara"/>, concentrated in its old quarters. It seems that thanks to his services the relationships with the 
+                  Italian colonial adminsitration, tense from time to time, stayed harmonious on the whole.</floruit>
+               <death when="1914">He died at <placeName ref="LOC1579Asmara"/> in <date>1914</date>. </death>
+                  
+               </person>
+               <listRelation>
+                  <relation name="snap:NephewOf"
+                     active="PRS1083AbbayHa"
+                     passive="PRS4907Gwerade"
+                     ></relation>
+                  <relation name="snap:FatherOf"
+                     active="PRS1083AbbayHa"
+                     passive="PRS5106haragot"
+                     ></relation>
+                  
+                  
+                    </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Smidt2003Abbay"/>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:KebreAb2005HaragotAbbay"/>
+            </bibl>  
+            
+            
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+               
