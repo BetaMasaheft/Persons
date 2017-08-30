@@ -47,6 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-11-22">complete record</change>
+         <change who="SG" when="2017-08-30">correction</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -61,9 +62,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <occupation type="political">king</occupation>
-               <birth when="1795"> </birth>
-               <floruit notBefore="1813" notAfter="1847">He was the king of <placeName ref="LOC5597Sawa">
-                  Šawā </placeName> from about <date>1813</date> to <date>1847</date>. When his father <persName ref="PRS10076WasanS">Wasan Sagad</persName> 
+               <birth when="1795"/>
+               <floruit notBefore="1813" notAfter="1847">He was the king of <placeName ref="LOC5597Sawa"/> from about <date>1813</date> to <date>1847</date>. 
+                  When his father <persName ref="PRS10076WasanS">Wasan Sagad</persName> 
                   died, he was 18 years old and that he was brought from the village of <placeName ref="LOC5495SallaD">Sallā Dǝngāy</placeName>. 
                   <persName ref="PRS8346sahlase">Śahla Śǝllase</persName> showed a diplomatic skill and military ability from the very
                   begining which enabled him to restore order and peace in  <placeName ref="LOC5597Sawa">
@@ -71,7 +72,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
               His reign is characterized by the unprecedented arrival of Europeans, travelleres, missionaries as  well as diplomats and explorers in his court. 
               He was succeeded by his first born son <persName ref="PRS5205haylaMa">Ḫayla Malakot</persName>. </floruit>
                
-               <death when="1847"></death>
+               <death when="1847"/>
             </person>
             <listRelation>
                <relation name="snap:SonOf"
