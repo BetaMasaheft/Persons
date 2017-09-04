@@ -35,12 +35,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
-
+            <language ident="he">Hebrew</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
          
          <change when="2017-01-09" who="ES">Created record</change>
+         
       </revisionDesc>
    </teiHeader>
    <text>
@@ -49,7 +50,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
 
                <persName xml:lang="en" xml:id="n1">Nebuchadnezzar II</persName>
-               <persName xml:lang="heb" corresp="#n1">Nǝḇūḵaḏneṣṣar</persName>
+               <persName xml:lang="he" corresp="#n1" type="normalized">Nǝḇūḵaḏneṣṣar</persName>
                
                   
                   <nationality type="Babylon"/>
