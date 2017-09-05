@@ -6,7 +6,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
      xml:lang="en"
-     xml:id="PRS11656GabraH">
+     xml:id="PRS11713GabraH">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -40,7 +40,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="MV" when="2017-05-19">Created record</change>
+         <change who="MV" when="2017-09-05">Created record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -53,10 +53,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <occupation type="other"/>
             </person>
             <listRelation>
-               <relation name="saws:isCopierOf"
-                  active="PRS11656GabraH"
-                  passive="BAVet82"/>
-               <!-- Possibly the same person as PRS11713GabraH (owner or anyway mentioned in BAVet108) [MV 2017-09-05] -->
+               <relation name="lawd:hasAttestation"
+                  active="PRS11713GabraH"
+                  passive="BAVet108"/>
+               <!-- Possibly owner of BAVet108 -->
+               <!-- Possibly the same person as PRS11656GabraH (scribe of BAVet82) -->
             </listRelation>
          </listPerson>
       </body>
