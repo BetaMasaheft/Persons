@@ -10,7 +10,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Gäbru</title>
+            <title>Gabru</title>
+            <editor role="generalEditor" key="AB"/>
+            
+            
+            <editor key="SG"/>            
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,20 +49,68 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-09-13">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Gäbru
-               </persName>
-               <persName type="alt">Gäbrä Krǝstos</persName>
-               <occupation> wag šum </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ገብሩ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Gabru</persName>
+               <persName xml:lang="gez" xml:id="n2" type="alt">ገብረ፡ ክርስቶስ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Gabra Krǝstos</persName>
+               
+               
+               
+               <persName><roleName type="title">wag šum </roleName></persName>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               
+               <occupation type="political">governor</occupation>
+         
+               
+          
+               
+               <floruit notBefore="1877" notAfter="1882">He was aTǝgryan who was appointed by <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS10378Yohanne"/>over<placeName ref="LOC6135Wag"/>. He replaced<roleName type="title">wag šum</roleName>
+                  <persName ref="PRS5815Kabbada"/>who was removed from office for not accompanying the Emperor in his wars against the Egyptians. Shortly after his appointment, 
+                  there was a rebellion led by the relatives of <persName ref="PRS9143TaklaGi"/>. The rebellion occurred in <date>1878</date>when he had accompanied 
+                  <persName ref="PRS10378Yohanne"/>into<placeName ref="LOC5597Sawa"/>, but it was easily suppressed. Gabru was then transferred to
+                  <placeName ref="LOC2481Dambey"/>in <date>1882</date>. He fought and defeated the Mahdist forces near<placeName ref="LOC5159Qallab"/>in July <date>1885</date>.
+                   </floruit>
+               <death when="1885"/>
+               
             </person>
+            <listRelation>
+              <relation name="snap:AllianceWith"
+                 active="PRS4395GabruG"
+                 passive="PRS10378Yohanne"
+                 ></relation>
+                 
+                        </listRelation>
          </listPerson>
+         
+         <listBibl type="secondary">
+            
+            <bibl>
+               <ptr target="bm:Wudu2005Gabru"/>
+            </bibl>          
+            <bibl> 
+               <ptr target="bm:Wudu1995Wag"/>
+            </bibl>  
+            
+            
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+              
