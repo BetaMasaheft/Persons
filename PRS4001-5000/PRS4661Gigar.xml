@@ -58,8 +58,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" xml:id="n1" type="birth">ጊጋር፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Gigār</persName>
                <persName><roleName type="title">ʾaṣe</roleName></persName>
-               <persName xml:lang="gez" xml:id="n2" type="regnal">unknown</persName>
-               
                <occupation type="ruler">Emperor</occupation>
                
                <nationality type="Ethiopia"/>
@@ -68,11 +66,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                
                <floruit notBefore="1821" notAfter="1830">He was one of the nominal kings of the Zamana Masāfǝnt, who was placed on the throne by 
-                  <persName ref="PRS4870GugsaMa"/>and deposed by <persName ref="PRS3617DoriGug"/> in <date>1830</date>. 
-                  He was a monk before he was enthroned. Gigār made a number of land grants which are recorded both in the <title ref="LIT1913Mashaf"/>
-                  and in the marginalia of the manuscripts in the <placeName ref="INS00001BL"/>. He also made grants directly to the churches 
+                  <persName ref="PRS4870GugsaMa"/> and deposed by <persName ref="PRS3617DoriGug"/> in <date>1830</date>. 
+                  He was a monk before he was enthroned. Gigār made a number of land grants which are recorded both in the <ref type="work" corresp="LIT1913Mashaf"/>
+                  and in the marginalia of the manuscripts in the <placeName ref="INS00001BL"/> <!--which ones? DR 2017-09-15-->. He also made grants directly to the churches 
                   like <placeName ref="LOC2248DabraB"/> and <placeName ref="LOC3407GemjaB"/>.</floruit>
-               
             </person>
             <listRelation>
                <relation name="snap:BrotherOf"
@@ -84,9 +81,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   passive="PRS4870GugsaMa"
                   ></relation>
                
-               
-               
-               
             </listRelation>
          </listPerson>
          <listBibl type="editions">
@@ -95,7 +89,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </bibl>
             <bibl>
                <ptr target="bm:Wright1877BM"/>
-            
             </bibl>
             
             
