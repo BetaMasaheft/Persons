@@ -10,9 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ḥāgos Tafari</title>
-            <editor key="SG"/>
-            <editor role="generalEditor" key="AB"/>
+            <title>Ḥagos Täfäri</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -46,63 +44,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
-         <change who="SG" when="2017-09-18">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName xml:lang="gez" xml:id="n1" type="birth">ሓጎስ፡ ተፈሪ፡</persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized">Ḥāgos Tafari</persName>
-               <persName><roleName type="title">daǧǧāzmāč</roleName></persName>
-               <occupation type="political">officer</occupation>
-               <nationality type="Ethiopia"/>
-               <faith type="EOTC"/>
-         
-             
-               <floruit notBefore="1890" notAfter="1930">He was one of the leading officials of<placeName ref="LOC1236Agama"/>in the late 19th and early 20th century. 
-                  Very little is known about the background of Ḥāgos Tafari. In the early <date>1890</date>'s he began to play active role as an officer of 
-                  <roleName type="title">rās</roleName><persName ref="PRS8668SebhatA"/>. This alliance was, however, short lived and soon joined the supporters of
-                  <roleName type="title">šum ʿagama</roleName><persName ref="PRS9296Tasfayh"/>. He repeatedly switched alliance between the two until the Italian arrived in the region.
-                  At time he offered both <roleName type="title">rās</roleName><persName ref="PRS8668SebhatA"/> and 
-                  <roleName type="title">šum ʿagama</roleName><persName ref="PRS9296Tasfayh"/>his services and fought against the Italians. 
-                  Finally, he recalled to <placeName ref="LOC1216AddisA"/> and sentenced to confinement at <placeName ref="LOC1402AmbaSe"/>. Nothing is known about him thereafter.          
-               </floruit>
-     
+               <persName>
+                  
+                  Ḥagos Täfäri
+               </persName>
+               <occupation> däǧǧ. </occupation>
             </person>
-            <listRelation>
-               <relation name="snap:AllianceWith"
-                  active="PRS4997hagosTa"
-                  passive="PRS8668SebhatA"
-                  ></relation>
-               <relation name="snap:AllianceWith"
-                  active="PRS4997hagosTa"
-                  passive="PRS9296Tasfayh"
-                  ></relation>
-               
-            </listRelation>
          </listPerson>
-         <listBibl type="secondary">
-            <bibl>
-               <ptr target="bm:Bairu2005HagostTafari"/>
-            </bibl> 
-         </listBibl>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-
-                  
-                 
