@@ -10,7 +10,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Sǝbḥat Arägawi</title>
+            <title>Sǝbḥat ʾAragāwi</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +47,82 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-09-18">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Sǝbḥat Arägawi
-               </persName>
-               <occupation> ras </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ስብሐት፡ አረጋዊ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Sǝbḥat ʾAragāwi</persName>
+               <persName><roleName type="title">rās</roleName></persName>
+               <occupation type="political">governor</occupation>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <birth when="1844"/>
+               
+               
+               <floruit notBefore="1875" notAfter="1914 ">He was a Tǝgrayan warrior prince and governor of <placeName ref="LOC1236Agama"/>. 
+                  Following the death of his father <persName ref="PRS1999Aragawi"/> in <date>1873</date>, he rebelled against <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS10378Yohanne"/> opposing his policy of partitioning <placeName ref="LOC1236Agama"/> into several districts run by distantly related even 
+                  completely unrelated chiefs. Therefore, Sǝbḥat ʾAragāwi opted to rebel joining his <persName ref="ETH1723Irob"/>kinsmen in the escarpments and 
+                  he posed a serious challenge against <roleName type="title">ʾaṣe</roleName>
+                     <persName ref="PRS10378Yohanne"/>. In response, <roleName type="title">ʾaṣe</roleName>
+                        <persName ref="PRS10378Yohanne"/>the emperor appointed his brother <persName ref="PRS9887WaldaGa"/>over <placeName ref="LOC1236Agama"/>. 
+                           This appeased Sǝbḥat ʾAragāwi and he started a frequent the Emperor's court. 
+                           But his friendly relation with <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS10378Yohanne"/> was short lived and continued to challenge <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS10378Yohanne"/>'s goverment. He also rebelled in alliance with his former rival <persName ref="PRS6668Mangasa"/>against
+                                 <persName ref="PRS7006Menilek"/>which led to his captivity and exile to <placeName ref="LOC3786Harar"/> for another decade. In <date>1908</date>, 
+                                 he was restored to his governorship of <placeName ref="LOC1236Agama"/>which he ruled until <date>1914</date>.
+                 
+               </floruit>
+               <death when="1914">He died in the battle of <placeName ref="LOC1305Akora"/></death>
+               
             </person>
+            <listRelation>
+               <relation name="snap:BrotherOf"
+                  active="PRS8668SebhatA"
+                  passive="PRS9887WaldaGa"
+                  ></relation>
+               <relation name="snap:SonOf"
+                  active="PRS8668SebhatA"
+                  passive="PRS1999Aragawi"
+                  ></relation>
+               
+      <relation name="snap:AllianceWith"
+                  active="PRS8668SebhatA"
+                  passive="PRS4997hagosTa"
+                  ></relation>
+               
+            </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Tsegay2010SebhatAragawi"/>
+            </bibl> 
+            <bibl>
+               <ptr target="bm:Tsegay1996Agama"/>
+            </bibl> 
+            
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              
