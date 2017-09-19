@@ -64,13 +64,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <residence></residence>
-               <birth>1780/90</birth>
+               <birth notBefore="1780" notAfter="1790"></birth>
                <floruit when="1850" evidence="internal">He was the governor of <placeName ref="LOC3549Gojjam">Goǧǧām</placeName> and
                   <placeName ref="LOC2488Damot">Dāmot</placeName> in <date> 1850 </date> and one of the major lords during the last decades of the 
                   Zamana Masāfǝnt. He was the commissioner of the collection of royal chronicles (a copy of Daǧǧāzmāč Ḫāylu compilation) preserved in 
                   <placeName ref="INS0001BL">British Library </placeName> with<ref type="mss" corresp="BLorient821"/>.
                </floruit>
-               <death>1852</death>
+               <death when="1852"/>
             </person>
             <listRelation>
                <relation name="snap:GrandsonOf" 
