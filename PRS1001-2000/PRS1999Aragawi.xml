@@ -10,7 +10,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Arägawi Säbagadis</title>
+            <title>ʾAragāwi Sabagādis</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +48,65 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-09-19">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Arägawi Säbagadis
-               </persName>
-               <occupation> šum ʿagame </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birth">አረጋዊ፡ ሰባጋዲስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAragāwi Sabagādis</persName>
+               <persName><roleName type="title"> šum ʿagame, daǧǧāzmāč</roleName></persName>
+               <occupation type="political">governor</occupation>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+     
+               
+               
+               <floruit notBefore="1831" notAfter="1873">He was a son of <roleName type="title">daǧǧāzmāč</roleName><persName ref="PRS8265Sabagadi"/>. 
+                  ʾAragāwi Sabagādis inherited claims to the governorship of <placeName ref="LOC6569Tegray"></placeName>after the defeat and death of his father in<date>1831</date>, 
+                  but was only able to establish himself in <placeName ref="LOC1236Agama"/>, which he held as his own against <persName ref="PRS8265Sabagadi"/> successor
+                  <roleName type="title">daǧǧāzmāč</roleName><persName ref="PRS10102Webeha"/>in the <date>1840</date>'s and <date>1850</date> 's . 
+                  ʾAragāwi Sabagādis was a strong opponent
+                  of the early Catholic missionaries, but eventually developed friendly relations with them and with the French counsul at <placeName ref="LOC4631Massaw"/>             
+               </floruit>
+               <death when="1973"/>
+               
             </person>
+            <listRelation>
+               <relation name="snap:SonOf"
+                  active="PRS1999Aragawi"
+                  passive="PRS8265Sabagadi"
+                  ></relation>
+               
+               <relation name="snap:FatherOf"
+                  active="PRS1999Aragawi"
+                  passive="PRS9887WaldaGa"
+                  ></relation>
+               <relation name="snap:FatherOf"
+                  active="PRS1999Aragawi"
+                  passive="PRS8668SebhatA"
+                  ></relation>
+               
+               
+            </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Rubenson2003Aragawi"/>
+            </bibl> 
+            <bibl>
+               <ptr target="bm:Tsegay1996Agama"/>
+            </bibl> 
+            
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+               

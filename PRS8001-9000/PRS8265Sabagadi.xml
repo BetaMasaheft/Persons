@@ -12,6 +12,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <titleStmt>
             <title>Sabāgādis (Subāgādis) Waldu</title>
             <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -62,11 +63,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                <residence><placeName ref="LOC1236Agama">Agāme</placeName></residence>
-                  <birth>1780/85</birth>
-               <floruit when="1822" evidence="internal">He became the governor of <placeName ref="LOC6569Tegray">Tǝgrāy</placeName>
-                  succeding <roleName type="title">rās </roleName><persName ref="PRS9978Waldase">Walda Śǝllāse</persName> in <date> 1822</date>
-                 and he continued to rule until his death <date> 1831</date> </floruit>
-                  <death when="1831" evidence="internal">He died in the battle of Dabra Abāy, 
+               <birth notBefore="1780" notAfter="1785"/>
+               <floruit notBefore="1822" notAfter="1833">He became the governor of <placeName ref="LOC6569Tegray">Tǝgrāy</placeName>
+                  succeeding <roleName type="title">rās </roleName><persName ref="PRS9978Waldase">Walda Śǝllāse</persName> in <date> 1822</date>
+                 and he continued to rule until his death <date> 1831</date>.  </floruit>
+               <death when="1831" evidence="internal">He died in the battle of <placeName ref="LOC2228DabraA"/> 
                      fighting against his  principal foe <persName ref="PRS6728Mareyye">Mārǝyye Gugsā</persName> 
                      in <date> February 1831</date></death>
             </person>
@@ -88,8 +89,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   passive="PRS4779GossuZa"
                  ></relation>
                <relation name="rel:enemyOf"
-                  active="PRS6728Mareyye"
-                  passive="PRS8265Sabagadi"
+                  active="PRS8265Sabagadi"
+                  passive="PRS6728Mareyye"
                  ></relation>
             </listRelation>
          </listPerson>
