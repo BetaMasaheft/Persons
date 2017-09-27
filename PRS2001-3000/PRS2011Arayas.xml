@@ -10,7 +10,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Arʾaya Śǝllase Dǝmṣa</title>
+            <title>ʾArǝʾaya Śǝllāse Dǝmṣu</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +47,62 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-09-27">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Arʾaya Śǝllase Dǝmṣa
-               </persName>
-               <occupation> ras </occupation>
-            </person>
+               <persName xml:lang="gez" xml:id="n1" type="birth">አርአያ፡ ሥላሴ፡ ድምጹ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾArǝʾaya Śǝllāse Dǝmṣu</persName>
+               <persName><roleName type="title">rās</roleName></persName>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="political">governor</occupation>
+               <birth when="1810"/>
+               
+               
+               <floruit notBefore="1829" notAfter="1889">He was a maternal uncle of <roleName type="title">ʾaṣe</roleName><persName ref="PRS10378Yohanne"/>. 
+                  He had aspired to rule over <placeName ref="LOC6569Tegray"/>after the death of <roleName type="title">daǧǧāzmāč</roleName><persName ref="PRS8265Sabagadi">
+                     at the battle of <placeName ref="LOC4676MayEsl"/>in<placeName ref="LOC5749Sire"/> in <date>1829</date>. But <roleName type="title">daǧǧāzmāč</roleName>
+                     <persName ref="PRS10102Webeha"/>incorporated <placeName ref="LOC6569Tegray"/>with <placeName ref="LOC5498Sallam"/>, 
+                     <placeName ref="LOC6144Wagara"/>, <placeName ref="LOC5443Sagade"/>. He held a high commands under his nephew
+                     <persName ref="PRS10378Yohanne"/>successively as governor of <placeName ref="LOC2947Endart"/>, <placeName ref="LOC1298Akkala"/>and 
+                     <placeName ref="LOC2481Dambey"/>.
+                        
+                        
+                        
+                     
+                  </persName></floruit>
+               <death when="1889">He died at the battle of <placeName ref="LOC4637Matamm"/>.</death>
+               
+            </person>  
+            <listRelation>
+               
+               <relation name="snap:UncleOf"
+                  active="PRS2011Arayas"
+                  passive="PRS10378Yohanne"
+                  ></relation>
+                         </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Bairu1977Yohannes"/>
+            </bibl>
+            
+         </listBibl>
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Zewde2003ArayaSellase"/>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+                  
+                  
