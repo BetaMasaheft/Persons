@@ -10,7 +10,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Zoskalēs</title>
+            <title>Zoskāles</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -37,6 +40,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="ar">Arabic</language>
             <language ident="it">Italiano</language>
             <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Greek</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
@@ -44,19 +48,63 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-09-04">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Zoskalēs
-               </persName>
-               <occupation> king </occupation>
-            </person>
-         </listPerson>
+               <persName xml:lang="grc" xml:id="n1" type="birth">Ζωσκάλης</persName>
+               <persName xml:lang="grc" corresp="#n1" type="normalized">Zoskāles</persName>
+               <persName xml:lang="gez" xml:id="n2" type="alt">ዘሐቅሌ</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Zaḥaqǝle</persName>
+               
+               <persName xml:lang="gez" xml:id="n3" type="alt">ዘሐቅሊ</persName>
+               <persName xml:lang="gez" corresp="#n3" type="normalized">Zaḥaqǝli</persName>
+               
+               
+               <nationality type="Aksumite"/>
+               <faith type="Aksumite"/>
+               
+               <occupation  type="ruler">king</occupation>
+              
+               <floruit  notBefore="0001" notAfter="0100">He was an ancient king in the Horn of Africa whose rule extend to shore of the <placeName ref="LOC5339RedSea"/>
+                  towards the middle of first century. He is mentioned in the Greek Periplus of the Eritrean Sea as the ruler of the port of <placeName ref="LOC1261Adulis"/>. 
+                  Zoskales appears to have been an important supplier of ivory, tortoise shell, and rhinoceros horn, mostly from the interior regions to<placeName ref="LOC2804Egypt"/> and
+                  <placeName ref="Q2277"/>. His kingdom provided a market for various imports, among them clothing, glass, brass, copper, iron, as well as axes, adzes, knives, 
+                  drinking vessels, Roman money, wine and olive oil. 
+                 
+               </floruit>
+            
+            </person>  
+             </listPerson>
+         
+         <listBibl type="secondary">
+            
+            <bibl> 
+               <ptr target="bm:Fiaccadori2014Zoskales"/>
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Bowersock2013Adulis"/>
+            </bibl>
+            
+            
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+                  
+                  
