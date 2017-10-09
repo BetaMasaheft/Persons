@@ -48,6 +48,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-09-08">Complete record</change>
          <change who="SG" when="2017-08-25">Correction and addition</change>
+         <change who="DR" when="2017-10-09">Corrected transliteration</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -55,19 +56,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ኤዎስጣቴዎስ፡</persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾEwosṭatewos</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾEwosṭātewos</persName>
                <persName xml:lang="gez" xml:id="n2" type="birth">ዮስጣቴዎስ፡</persName>
-               <persName xml:lang="gez" corresp="#n2" type="normalized">Yosṭatewos</persName>
-               <persName xml:lang="gez" xml:id="n3" type="birth">Maʿǝqaba ʿƎgzi</persName>
-               <persName xml:lang="gez" corresp="#n2" type="normalized">ማዕቀበ፡ እግዚእ፡</persName>
-               <persName><roleName type="title">ʾabbā </roleName></persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Yosṭātewos</persName>
+               <persName xml:lang="gez" xml:id="n3" type="birth">ማዕቀበ፡ እግዚእ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Māʿǝqaba ʾƎgziʾ</persName>
+               <persName><roleName type="title">ʾabbā</roleName></persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
-               <occupation type="ecclesiastic"> saint </occupation>
-               <birth when="1273"> He was born in <date>15 July 1273</date> at <placeName ref="LOC4047Kelett">Kǝlǝtta Awlǝʿalo</placeName>.</birth>
-               <floruit notBefore="1273" notAfter="1352">He was one of the most famous saints of Ethiopia and is known as the champion of the Jewish Sabbath in the Ethiopian Orthodox Church.
-                  
-               </floruit>
+               <occupation type="ecclesiastic">saint</occupation>
+               <birth when="1273">He was born in <date>15 July 1273</date> at <placeName ref="LOC4047Kelett">Kǝlǝtta ʾAwlǝʿalo</placeName>.</birth>
+               <floruit notBefore="1273" notAfter="1352">He was one of the most famous saints of Ethiopia and is known as the champion of the Jewish Sabbath in the Ethiopian Orthodox Church.</floruit>
                <death when="1352" cert="medium"/>
             </person>  
             <listRelation>
