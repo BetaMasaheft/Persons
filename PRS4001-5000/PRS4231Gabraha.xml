@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Gabra Ḥannā </title>
+            <title>Gabra Ḥannā</title>
             <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
@@ -47,6 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2017-02-27">Complete record</change>
+         <change who="DR" when="2017-10-09">Corrected name id</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -54,9 +55,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ገብረ፡ ሐና፡</persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized">Gabra Ḥannā </persName>
-               <persName type="alt">ገብረ፡ ሐና፡ ገብረ፡ ማርያም፡</persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized">Gabra Ḥannā  Gabra Māryām</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Gabra Ḥannā</persName>
+               <persName type="alt" xml:id="n2">ገብረ፡ ሐና፡ ገብረ፡ ማርያም፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Gabra Ḥannā  Gabra Māryām</persName>
                <persName><roleName type="title">ʾalaqā </roleName></persName>
                
                
@@ -64,7 +65,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <faith type="EOTC"/>
                
                
-               <occupation type="literary"> scholar </occupation>
+               <occupation type="literary">scholar</occupation>
          
                <birth notBefore="1805" notAfter="1821">He was born at <placeName ref="LOC3098Fogara"/> between <date>1805-1821</date>. </birth>
                
