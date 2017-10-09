@@ -45,19 +45,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="DR" when="2017-10-09">Corrected name ids</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName xml:id="n1" xml:lang="en">
-                  
-                  Basilides
-               </persName> 
-               <persName xml:lang="gez" corresp="#n1">ፋሲለደስ፡</persName>
-               <persName xml:lang="gez" type="normalized" corresp="#n1">Fāsiladas</persName>
-               <persName xml:lang="gez" xml:id="n2"><roleName type="title">ሊቀ ፡ ሐራ ፡ </roleName>ወልደ ፡ አውዶክስዮስ ፡ እኍሁ ፡ ለጸድ ሪከስ ፡ ወልደ ፡ አውማንዩስ ፡ መኩንነ ፡ አን ጸኪያ ፡፡</persName>
+               <persName xml:id="n1" xml:lang="en">Basilides</persName> 
+               <persName xml:lang="gez" xml:id="n2">ፋሲለደስ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n2">Fāsiladas</persName>
+               <!--<persName xml:lang="gez" xml:id="n3"><roleName type="title">ሊቀ ፡ ሐራ ፡ </roleName>ወልደ ፡ አውዶክስዮስ ፡ እኍሁ ፡ ለጸድ ሪከስ ፡ ወልደ ፡ አውማንዩስ ፡ መኩንነ ፡ አን ጸኪያ ፡፡</persName>--> <!--this is not a name 2017-10-09 DR-->
                <occupation type="ecclesiastic">Saint, martyr</occupation>
                <note type="commemoration"><date type="diesNatalis">11 Maskaram</date> in <ref type="mss" corresp="BLorient686">BL Orient. 686</ref></note>
             </person>

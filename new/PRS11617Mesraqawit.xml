@@ -42,26 +42,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="ES" when="2017-05-03">Created entity</change>
+            <change who="DR" when="2017-10-09">Corrected transliteration and persName</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="2">
-                    <persName xml:lang="gez" xml:id="n1">Mǝśrāqāwit</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
-                    <persName xml:lang="gez" xml:id="n2">Mǝśrāwit</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n2"/>
+                    <persName xml:lang="gez" xml:id="n1"></persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Mǝśrāqāwit</persName>
+                    <persName xml:lang="gez" xml:id="n2"></persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n2">Mǝśrāwit</persName>
                     <faith type="EOTC"/>
                     <occupation type="ruler">queen</occupation>
                     <birth/>
                     <death/>
                     <floruit>14th century</floruit>
-                    <note>possibly wife or daugther of Amda Seyon</note>
+                    <note>possibly wife or daugther of ʿAmda Ṣǝyon</note>
                 </person>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="PRS11617Mesraqawit" passive="LIT4275ChronAmdS"/>
-                    <relation name="snap:DaughterOf" active="PRS11617Mesraqawit" passive="PRS11618Dambeya"></relation>
+                    <relation name="snap:DaughterOf" active="PRS11617Mesraqawit" passive="PRS11618Dambeya"/> <!--not ʿAmda Ṣǝyon? 2017-10-09 DR-->
                 </listRelation>
             </listPerson><!--queen  (AS chronicle)-->
         </body>
