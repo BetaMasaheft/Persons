@@ -10,7 +10,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Fänta</title>
+            <title>Fantā</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +47,57 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-09-09">Complete record </change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+            
                   
-                  Fänta
-               </persName>
-               <occupation> däbtära </occupation>
-            </person>
+                  <persName xml:lang="gez" xml:id="n1" type="birth">ፈንታ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Fantā</persName>
+               <persName><roleName type="title">dabtarā</roleName></persName>
+               
+                  
+              
+                 <faith type="EOTC"/>
+                  
+                  
+                 <occupation type="literary">secretary</occupation>
+            
+                  
+               <floruit notBefore="1840" notAfter="1860">He was known to the misssionary of  <persName ref="PRS4722Gobat"/>and the travellers 
+                  <persName ref="PRS4089Ferret"/>and <persName ref="PRS4444Galinier"/>and particularly as correspondent of the French traveller and scholar
+                  <persName ref="PRS1071dAbbadi"/>. As a secretary at the court of <persName ref="PRS8346sahlase"/> in <date>1848</date> he wrote several letters to
+                  <persName ref="PRS4722Gobat"/>, then Anglican Bishop of <placeName ref="LOC3957Jerusa"/>, seeking his intervention on behalf of the Ethiopian monks in the Holy city.
+                  Between <date>1853</date> and <date>1854</date>he wrote five letters to <persName ref="PRS1071dAbbadi"/>containing valuable news about contemporary Ethiopian Politics.
+               </floruit>
+             
+                  
+               </person>
+               
+               <listRelation>
+                  <relation name="snap:ProfessionalRelationship"
+                     active="PRS3976Fanta"
+                     passive="PRS1071dAbbadi"
+                     ></relation>
+                  
+               </listRelation>
          </listPerson>
+         
+            
+            
+            
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Crummey2005Fanta"/>
+            </bibl>  
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+               
