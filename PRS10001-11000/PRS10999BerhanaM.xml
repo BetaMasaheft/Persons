@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:id="t1">Bǝrhāna Masqal (probably same as PRS10974BerhanaM)</title>
+            <title xml:id="t1">Bǝrhāna Masqal</title>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
@@ -41,18 +41,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-07-26">Created XML record from Ethio authority google spreadsheet</change>
+         <change who="DR" when="2017-10-10">Updated name and relation</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  <forename/>
-                  <surname>Bǝrhāna Masqal (probably same as PRS10974BerhanaM)</surname>
-               </persName>
-               <occupation>donator</occupation>
+               <persName xml:lang="gez" xml:id="n1" evidence="conjecture">ብርሃነ፡ መስቀል፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Bǝrhāna Masqal</persName>
+               <occupation type="other">donor</occupation>
             </person>
+            <listRelation>
+               <relation name="lawd:hasAttestation" active="PRS10999BerhanaM" passive="BNFet45"/>
+               <relation name="syriaca:possibly-identical" mutual="PRS10999BerhanaM PRS10974BerhanaM"></relation>
+            </listRelation>
          </listPerson>
       </body>
    </text>

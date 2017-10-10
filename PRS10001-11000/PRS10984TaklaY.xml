@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:id="t1">Takla Yoḥannǝs wäldä Qänṭorare</title>
+            <title xml:id="t1">Takla Yoḥannǝs walda Qanṭorāre</title>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
@@ -41,18 +41,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-07-26">Created XML record from Ethio authority google spreadsheet</change>
+         <change who="DR" when="2017-10-10">Updated name and relation</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  <forename/>
-                  <surname>Takla Yoḥannǝs wäldä Qänṭorare</surname>
-               </persName>
-               <occupation>donator</occupation>
+               <persName xml:lang="gez" xml:id="n1" evidence="conjecture">ተክለ፡ ዮሐንስ፡ ወልደ፡ ቀንጦራሬ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Takla Yoḥannǝs walda Qanṭorāre</persName>
+               <occupation type="other">donor</occupation>
             </person>
+            <listRelation>
+               <relation name="lawd:hasAttestation" active="PRS10984TaklaY" passive="BNFet35"/>
+            </listRelation>
          </listPerson>
       </body>
    </text>

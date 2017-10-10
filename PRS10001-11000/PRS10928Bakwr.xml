@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:id="t1">Bäkwrä Giyorgis</title>
+            <title xml:id="t1">Bakʷra Giyorgis</title>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
@@ -41,18 +41,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-07-26">Created XML record from Ethio authority google spreadsheet</change>
+         <change who="DR" when="2017-10-10">Updated name and relation</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  <forename/>
-                  <surname>Bäkwrä Giyorgis</surname>
-               </persName>
-               <occupation>donator</occupation>
+               <persName xml:lang="gez" xml:id="n1" evidence="conjecture">በኵረ፡ ጊዮርጊስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Bakʷra Giyorgis</persName>
+               <occupation type="other">donor</occupation>
             </person>
+            <listRelation>
+               <relation name="lawd:hasAttestation" active="PRS10928Bakwr" passive="BNFet32 BNFet46"/>
+            </listRelation>
          </listPerson>
       </body>
    </text>
