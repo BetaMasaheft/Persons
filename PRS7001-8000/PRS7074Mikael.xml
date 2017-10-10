@@ -57,15 +57,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Mikāʾel [III]</persName>
                <persName type="alt">Mikāʾel “the Senior”</persName>
                   <persName><roleName type="title">ʾabuna</roleName></persName>
-                  <occupation type="ecclesiastic"> metropolitan </occupation>
+                  <occupation type="ecclesiastic">metropolitan</occupation>
                   <nationality type="Egypt"/>
                   <faith type="Coptic"/>
                 
-               <floruit>  He was one of the two metropolitans (Mikāʾel and Gabrǝʾel) of the Ethiopian Orthodox Church who arrived in Ethiopia in <date>1438</date> succeeding  ʾabuna
+               <floruit notBefore="1438" notAfter="1450">He was one of the two metropolitans (Mikāʾel and Gabrǝʾel) of the Ethiopian Orthodox Church who arrived in Ethiopia in <date>1438</date> succeeding  ʾabuna
                   <persName ref="PRS2469Bartalom">Bartalomewos</persName>. He held this  post simultaneously with ʾabuna <persName ref="PRS4372Gabreel">Gabrǝʾel</persName>. 
                   Both were consecrated together by the Coptic patriarch <persName ref="PRS5706JohnXI">John XI</persName>. 
                        </floruit>
-                  <death>1450</death>
+                  <death when="1450"/>
                </person>
                <listRelation>
                   <relation name="snap:AllianceWith"
