@@ -10,7 +10,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mikaʾel</title>
+            <title>Mikāʾel</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,24 +47,77 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-10-10">Complete record </change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+            
                   
-                  Mikaʾel
-               </persName>
-               <persName type="alt">Mikaʾel II</persName>
-               <persName type="alt">Kǝflä Gärima Wäldä Kidan</persName>
-               <occupation> bishop</occupation>
-               <residence>
-                  <placeName>Gondär;  Jerusalem</placeName>
-               </residence>
-            </person>
+                  
+                  <persName xml:lang="gez" xml:id="n1" type="birth">ክፍሌ፡ ገሪማ፡ ወልደ፡ ኪዳን፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Kǝfle Garimā Walda Kidān</persName>
+               <persName xml:lang="gez" xml:id="n2" type="baptismal">ሚካኤል፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Mikāʾel II</persName>
+               
+              
+               <persName><roleName type="title">ʾabbā</roleName></persName>
+               <occupation type="ecclesiastic">bishop</occupation>
+                  
+                  
+                  
+                  <faith type="EOTC"/>
+                  
+                  
+          
+               <residence ref="LOC3577Gondar"/>
+               <residence ref="LOC3957Jerusa"/>
+               <birth when="1886">He was born at <placeName ref="LOC1390AmbaGe"/></birth>
+                  
+               <floruit notBefore="1946" notAfter="1959">He was the bishop of <placeName ref="LOC3577Gondar"/> from <date>1946</date> to <date>1959</date>.
+                  He became a monk and was consecrated priest in <date>1924</date>by <roleName type="title">ʾabuna</roleName><persName ref="PRS6876Matewos"/>.
+                  In <date>1924-25</date> he made a pilgrimage to <placeName ref="LOC3957Jerusa"/>where he stayed for six months. In <date>1935</date>, 
+                  he was appointed head of the Ethiopian monasteries in <placeName ref="LOC3957Jerusa"/>. After the liberation of the country from Italian colonial rule, 
+                  he was ordained as bishop of <placeName ref="LOC3577Gondar"/>in <date>1946</date>where he served until his death.
+                  </floruit>
+               <death when="1959">He died at <placeName ref="LOC1390AmbaGe"/></death>
+                  
+                  
+               </person>
+               
+               <listRelation>
+                  <relation name="snap:SonOf"
+                     active="PRS7071Mikael"
+                     passive="PRS9923WaldaKi"
+                     ></relation>
+                  <relation name="snap:SonOf"
+                     active="PRS7071Mikael"
+                     passive="PRS3405DastaWa"
+                     ></relation>
+                  
+                  
+                  
+               </listRelation>
          </listPerson>
+         
+         
+         
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Mersha2004Patriarchs"/>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Mersha2007Mikael"/>
+            </bibl>  
+            
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+               
