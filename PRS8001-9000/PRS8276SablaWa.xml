@@ -47,6 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2016-05-18">completed the record</change>
          <change who="SG" when="2017-01-25">Correction to transcription, addition to the content</change>
          <change who="SG" when="2017-05-03">Correction</change>
+         <change who="SG" when="2017-10-11">Update</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -59,12 +60,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Sabla Wangel</persName>
                <persName><roleName type="title">ʾǝtege</roleName></persName>
                
-              <occupation type="ruler">queen </occupation>
+              <occupation type="ruler">queen</occupation>
                <birth when="1500"/>
-               <floruit notBefore="1518" evidence="internal">She was a dominant female in the dynasty of her time. 
-                  She married <roleName type="title">ʾaṣe</roleName> <persName ref="PRS6229LebnaDe">Lǝbna Dǝngǝl</persName> in <date>1518</date>.
-                  She came from a noble <placeName ref="LOC3549Gojjam">Goǧǧām</placeName> <persName ref="ETH1126Amhara">ʾAmhārā</persName>.
-                  She played a prominant role in the court politics after the death of her husband <roleName type="title">ʾaṣe</roleName><persName ref="PRS6229LebnaDe">Lǝbna Dǝngǝl</persName></floruit>
+               <floruit notBefore="1518" notAfter="1567">She was a dominant political figure in the dynasty of her time. 
+                  She married <roleName type="title">ʾaṣe</roleName><persName ref="PRS6229LebnaDe">Lǝbna Dǝngǝl</persName> in <date>1518</date>.
+                  She came from a noble <placeName ref="LOC3549Gojjam">Goǧǧām</placeName><persName ref="ETH1126Amhara">ʾAmhārā</persName>.
+                  She played a prominant role in the court politics after the death of her husband <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS6229LebnaDe">Lǝbna Dǝngǝl</persName></floruit>
                <death when="1567" evidence="internal"> She died during the reign of her grandson <roleName type="title">ʾaṣe</roleName><persName ref="PRS8550sardaDe">Śarḍa Dǝngǝl</persName>.  </death>
             </person>
                
