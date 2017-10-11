@@ -47,6 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="SG" when="2016-07-21">Complete record</change>
          <change who="DR" when="2017-06-08">Update</change>
+         <change who="SG" when="2017-06-08">Update</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -59,7 +60,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName><roleName type="title">ʾaṣe</roleName></persName>
           
           <occupation type="ruler">Emperor</occupation>
-            <birth>1448</birth>
+            <birth when="1448"/>
              <floruit when="1468" evidence="internal">He succeeded his father King <persName ref="PRS10626ZaraY">Zarʾa Yāʿǝqob</persName>.
                 He reversed many of his father’s administrative decisions.
              </floruit>
