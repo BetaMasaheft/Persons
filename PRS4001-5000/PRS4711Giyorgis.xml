@@ -48,6 +48,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-09-01">Complete record</change>
          <change who="SG" when="2017-02-13">addition</change>
+         <change who="DR" when="2017-10-11">Added Arabic name</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -58,33 +59,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Giyorgis Walda ʿAmid</persName>
                <persName xml:lang="gez" xml:id="n2" type="alt">ጊርጊስ፡ አልመኪን፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">Ǧirǧis al-Makīn</persName>
-         
+               <persName xml:lang="ar" xml:id="n3" type="alt">جرجس المكين بن العميد</persName>
+               <persName xml:lang="ar" corresp="#n3" type="normalized">Ǧirǧis al-Makīn b. al-ʿAmīd</persName>
                
-               <occupation type="literary"> historian </occupation>
+               <occupation type="literary">historian</occupation>
                <nationality type="Egypt"/>
                <faith type="Coptic"/>
-               <birth when="1206"> He was born in <date>1206</date> at <placeName ref="gn:360630">Cairo</placeName></birth>
+               <birth when="1206">He was born in <date>1206</date> at <placeName ref="gn:360630">Cairo</placeName>.</birth>
         
                
-               <floruit  notBefore="1206" notAfter="1273">He was a christian Arab historian whose works were incorporated into Ethiopian tradition. 
-                  He wrote the  book <title ref="LIT1076alMagm">al-Maǧmaʿ al-mubārak (Chronicle; Universal History) </title> in <date> between 1262-1268 </date>
+               <floruit  notBefore="1206" notAfter="1273">He was a Christian Arab historian whose works were incorporated into Ethiopian tradition. 
+                  He wrote the  book  <ref type="work" corresp="LIT4723TarikaWaldaAmid">al-Maǧmaʿ al-mubārak</ref> in <date> between 1262-1268 </date>
                   which was translated during the reign of <roleName type="title">ʾaṣe</roleName> <persName ref="PRS6229LebnaDe">Lǝbna Dǝngǝl</persName>
-                  as ታሪከ፡ ወልደ፡ ዓሚድ (Tarika Walda ʿAmid). 
+                  as <foreign xml:lang="gez">ታሪከ፡ ወልደ፡ ዓሚድ</foreign>. 
                   
               </floruit>
                <death when="1273"> </death>
                
             </person>
-            <listRelation>
-              
-    
-               <relation name="saws:isAttributedAuthorOf"
-                  active="PRS4711Giyorgis"
-                  passive="LIT1076alMagm"
-                 ></relation>
-         
-               
- </listRelation>
          </listPerson>
          <listBibl type="secondary">
             <bibl>
