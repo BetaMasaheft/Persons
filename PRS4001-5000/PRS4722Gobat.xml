@@ -3,36 +3,31 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="pers"
-     xml:lang="en"
-     xml:id="PRS4722Gobat">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS4722Gobat">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Gobat</title>
             <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
-            
-            
+
+
             <author/>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
-            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
-            multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
+               Forschungsumgebung / beta maṣāḥǝft</publisher>
             <pubPlace>Hamburg</pubPlace>
             <availability>
-               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
-                This file is licensed under the Creative Commons
-                Attribution-ShareAlike 4.0. </licence>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
             </availability>
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
             <p>Prosopography of Ethiopian Written tradition</p>
-            <p>A TEI file converted from the ETHIO-authority
-                                                  google spreadsheet</p>
+            <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -44,83 +39,82 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
-         <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
+         <change who="PL" when="2016-04-28">batch updated according to requirements and
+            issues.</change>
+         <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2017-09-09">Complete record </change>
-         
+
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-              
-                  <persName>
-                     <forename>Samuel</forename>
-                     <surname>Gobat</surname>
-                  </persName>
-                  <occupation type="ecclesiastic">Missionary</occupation>
+
+               <persName>
+                  <forename>Samuel</forename>
+                  <surname>Gobat</surname>
+               </persName>
+               <occupation type="ecclesiastic">Missionary</occupation>
                <nationality type="notSpecified"/>
                <faith type="Protestantism"/>
-                  <birth when="1799"></birth>
-           
-               <floruit notBefore="1825" notAfter="1879">He was a famous Protestant missionary  in <placeName ref="LOC3010Ethiop"/> in the 19th century. 
-                  He started his career in<date>1825</date>when he was sent to<placeName ref="LOC4325London"/>, at the age of 22  for a mission to <placeName ref="LOC3010Ethiop"/>. 
-                  As part of his preparation to<placeName ref="LOC3010Ethiop"/>, Gobat studied Gǝʿǝz and also learnt Amharic from Ethiopian monk.
-                     He arrived in<date>1830</date> in <placeName ref="LOC1212Addigr"/>together with his colleque<persName ref="PRS6096Kugler"/>
-                     where they were cordially received by the ruler of<placeName ref="LOC6569Tegray"/>, <persName ref="PRS8265Sabagadi"/>. 
-                     Then in March <date>1830</date>, he travelled to <placeName ref="LOC3577Gondar"/>
-                     inorder to see the country and distribute the Amharic Bibles the missionaries had brought with them. He committed himself to persuading the priests and lay people of 
-                     the need to reform the Orthodox Church. The reform he advocated comprised the institutionalizing of theological education,
-                     the renewal of the establishment of several Ethiopian held bishoprics, the removal of images from the Ethiopian churches and the abolition of the veneration of saints. 
-                     He left <placeName ref="LOC3577Gondar"/> in <date>1830</date> and returned to<placeName ref="LOC1264Adwa"/>, <placeName ref="LOC6569Tegray"/>
-                     where the circumstances were less favourable for his mission. When his health deteriorated during <date>1832</date>, he returned to 
-                     <placeName ref="LOC4325London"/>. There he managed for his plan to renew missionary activity in<placeName ref="LOC3010Ethiop"/>.  
-                  In <date>1846</date> he was chosen as bishop for the newly established Anglican Lutheran bishopric of <placeName ref="LOC3957Jerusa"/>which included 
-                  <placeName ref="LOC3010Ethiop"/> as well . Thus, he was asked by <persName ref="PRS1688AliAlul"/> in <date>1850</date> to supervise the Ethiopian convent in
-                  <placeName ref="LOC3957Jerusa"/>. </floruit>
-                  <death when="1879"></death>
-               </person>
-               
-               <listRelation>
-                  <relation name="snap:FriendshipFor"
-                     active="PRS4722Gobat"
-                     passive="PRS6096Kugler"
-                     ></relation>
-                  <relation name="snap:AllianceWith"
-                     active="PRS4722Gobat"
-                     passive="PRS5592Isenberg"
-                     ></relation>
-                  
-                                </listRelation>
+               <birth when="1799"/>
+
+               <floruit notBefore="1825" notAfter="1879">He was a famous Protestant missionary in
+                     <placeName ref="LOC3010Ethiop"/> in the 19th century. He started his career
+                     in<date>1825</date>, when he was sent to <placeName ref="LOC4325London"/>, at
+                  the age of 22 for a mission to <placeName ref="LOC3010Ethiop"/>. As part of his
+                  preparation to <placeName ref="LOC3010Ethiop"/>, Gobat studied Gǝʿǝz and also
+                  learnt Amharic from Ethiopian monk. He arrived in <date>1830</date> in <placeName
+                     ref="LOC1212Addigr"/> together with his colleague <persName ref="PRS6096Kugler"/>
+                  where they were cordially received by the ruler of<placeName ref="LOC6569Tegray"
+                  />, <persName ref="PRS8265Sabagadi"/>. Then in March <date>1830</date>, he
+                  travelled to <placeName ref="LOC3577Gondar"/> in order to see the country and
+                  distribute the Amharic Bibles the missionaries had brought with them. He committed
+                  himself to persuading the priests and laypeople of the need to reform the
+                  Orthodox Church. The reform he advocated comprised the institutionalizing of
+                  theological education, the renewal of the establishment of several Ethiopian held
+                  bishoprics, the removal of images from the Ethiopian churches and the abolition of
+                  the veneration of saints. He left <placeName ref="LOC3577Gondar"/> in
+                     <date>1830</date> and returned to <placeName ref="LOC1264Adwa"/>, <placeName
+                     ref="LOC6569Tegray"/> where the circumstances were less favourable for his
+                  mission. When his health deteriorated during <date>1832</date>, he returned to
+                     <placeName ref="LOC4325London"/>. There he managed for his plan to renew
+                  missionary activity in<placeName ref="LOC3010Ethiop"/>. In <date>1846</date>, he
+                  was chosen as bishop for the newly established Anglican Lutheran bishopric of
+                     <placeName ref="LOC3957Jerusa"/> which included <placeName ref="LOC3010Ethiop"/>
+                  as well. Thus, he was asked by <persName ref="PRS1688AliAlul"/> in
+                     <date>1850</date> to supervise the Ethiopian convent in <placeName
+                     ref="LOC3957Jerusa"/>. </floruit>
+               <death when="1879"/>
+            </person>
+
+            <listRelation>
+               <relation name="snap:FriendshipFor" active="PRS4722Gobat" passive="PRS6096Kugler"/>
+               <relation name="snap:AllianceWith" active="PRS4722Gobat" passive="PRS5592Isenberg"/>
+
+            </listRelation>
          </listPerson>
          <listBibl type="text">
             <bibl>
                <ptr target="bm:Gobat1834Abyssinia"/>
             </bibl>
-            
-            <bibl> 
+
+            <bibl>
                <ptr target="bm:Gobat1834Journal"/>
-            </bibl>  
-            <bibl> 
+            </bibl>
+            <bibl>
                <ptr target="bm:Gobat1884Evangelischer"/>
             </bibl>
-             
+
          </listBibl>
-         
+
          <listBibl type="secondary">
-            <bibl> 
+            <bibl>
                <ptr target="bm:Strebel2005Gobat"/>
-            </bibl>  
+            </bibl>
          </listBibl>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-              
