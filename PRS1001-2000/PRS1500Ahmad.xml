@@ -11,8 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>ʾAḥmad</title>
-            <editor key="SG"/>
-            <editor role="generalEditor" key="AB"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -45,7 +44,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
-         <change who="SG" when="2016-07-27">Complete record</change>
+         
       </revisionDesc>
    </teiHeader>
    <text>
@@ -55,52 +54,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
            
             <persName xml:lang="gez" xml:id="n1" type="birth">አሕመድ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAḥmad</persName>
-                     <persName xml:lang="gez" xml:id="n2" type="nick">ግራኝ፡</persName>
-               <persName xml:lang="gez" corresp="#n2" type="normalized">Grāñ</persName> 
-                  <persName><roleName type="title">ʾimām</roleName></persName>
-             
-                  <occupation type="ruler">leader</occupation>
+                     
                <nationality type="Ethiopia"/>
                <faith type="Islam"/>
-               <birth when="1506">He was born at a place called <placeName ref="LOC3905Hubat">Hubāt </placeName></birth>
+               <birth ></birth>
                
               
-               <floruit notBefore="1527" notAfter="1543">He overrun the Christian Kingdom starting from <date>1527</date> to <date>1543</date>.
-                  He became victorious against the Christian King <persName ref="PRS6229LebnaDe">Lǝbna Dǝngǝl</persName>
-               </floruit>
-               <death when="1543" evidence="internal">He was killed by the forces of King <persName ref="PRS4428Galawdew">Galāwdewos</persName> on <date> 22 February 1543</date></death>
+               <floruit>  </floruit>
+               <death></death>
             </person>
-            <listRelation>
-             
-               <relation name="snap:FatherOf"
-                  active="PRS1500Ahmad"
-                  passive="PRS7506Nasraddi"
-                 ></relation>
-             <relation name="rel:enemyOf"
-                  active="PRS1500Ahmad"
-                  passive="PRS6229LebnaDe"  
-                 ></relation>
-               <relation name="rel:enemyOf"
-                  active="PRS1500Ahmad"
-                  passive="PRS4428Galawdew"
-                 ></relation>
-               <relation name="ecrm:P129i_is_subject_of" 
-                  active="PRS1500Ahmad"
-                  passive="LIT1404Futuha" 
-                 ></relation>
-               </listRelation>
-         </listPerson>
-         <listBibl type="editions">
-            <bibl>
-               <ptr target="bm:Basset1882Chronicle"/>
-            </bibl>
-         </listBibl>
-            <listBibl type="secondary">
-            <bibl> 
-               <ptr target="bm:Muth2003Ahmad"/>
-            </bibl> 
-            </listBibl>
-        </body>
+              </listPerson>
+         </body>
    </text>
 </TEI>
 
