@@ -10,7 +10,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Tänśe (Tǝnsaʾe) Mammo</title>
+            <title>Tanśe (Tǝnsāʾe) Māmmo</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +48,71 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-10-16">Complete record </change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Tänśe (Tǝnsaʾe) Mammo
-               </persName>
-               <occupation> rebel </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ተንሤ፡ ማሞ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Tanśe Māmmo</persName>
+               <persName xml:lang="gez" xml:id="n2" type="birth">ትንሳኤ፡ ማሞ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Tǝnsāʾe Māmmo</persName>
+               
+               <persName><roleName type="title">bitwaddad, daǧǧāzmāč
+               </roleName></persName>
+               
+               
+               
+               <faith type="EOTC"/>
+               
+               
+               <occupation type="political">governor</occupation>
+               
+               
+               <floruit notBefore="1722"  notAfter="1733">He was a nobleman who in late<date>1732</date> led a revolt against<persName ref="PRS5617IyasuII"/>
+                  and the<placeName ref="LOC5284Qwara"/>faction at court. He was one of <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS2377Bakaffa"/> favoured officials, serving as <roleName type="title">bitwaddad</roleName> in <date>1722</date> and as 
+                  <roleName type="title">daǧǧāzmāč
+                  </roleName>and governor of <placeName ref="LOC2488Damot"/>. In <date>1731</date>, <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS5617IyasuII"/>appointed him <roleName type="title">ʿazzāž</roleName> of <placeName ref="LOC6376Yebaba"/>.
+                  He was angered by the maneuvering at the court upon <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS2377Bakaffa"/> death in which <persName ref="PRS2682BerhanM"/>, wife of <persName ref="PRS2377Bakaffa"/>, <persName ref="PRS5617IyasuII"/>'s mother, 
+                  and her <placeName ref="LOC5284Qwara"/>n relatives hastily and secretly crowned <persName ref="PRS5617IyasuII"/>, seizing control of throne and state. 
+                  The rebellion he led lasted from <date>19 December 1732</date>to <date>2 January 1733</date>and involved an eightdays of siege of the royal compound. 
+                  Tanśe and his allied group were finally defeated by <placeName ref="LOC5284Qwara"/>s forces. He was captured and publically hanged in <date>1733</date>.
+                 </floruit>
+               <death when="1733"></death>
+               
+               
             </person>
+            
+            <listRelation>
+               <relation name="rel:enemyOf"
+                  active="PRS9239TanseT"
+                  passive="PRS5617IyasuII"
+                  ></relation>
+               
+            </listRelation>
          </listPerson>
+         
+         
+         
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Berry2010Tanse"/>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Kropp1982Tanse"/>
+            </bibl>  
+            
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+               
