@@ -81,17 +81,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   passive="PRS10178WZBW"
                  ></relation>
                </listRelation>
-            </listPerson>
-         <listBibl type="editions">
-            <bibl>
-               <ptr target="bm:Brita2010Christanization"/>
-            </bibl>
-         </listBibl>
-     <listBibl type="secondary">
+         </listPerson>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:ContiRossini1928StoriadEtiopia"/>
+               <citedRange>158-159</citedRange>
+            </bibl> 
+            <bibl> 
+               <ptr target="bm:Brita2010Christianization"/>
+               <citedRange>50 n. 148</citedRange>
+            </bibl> 
             <bibl> 
                <ptr target="bm:Fridman2014YohanniSina"/>
             </bibl>
-    </listBibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
