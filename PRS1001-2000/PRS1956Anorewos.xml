@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>ʾAnorewos “the Younger”</title>
+            <title>ʾAnorewos "the Younger"</title>
             <editor key="SG"></editor>
             <editor role="generalEditor" key="AB"/>
             <author/>
@@ -82,7 +82,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      active="PRS1956Anorewos"
                      passive="PRS10708ZenaMa"
                     ></relation>
-            
+                  <relation name="ecrm:P129i_is_subject_of" 
+                     active="PRS1956Anorewos"
+                     passive="LIT4728GadlaAn"
+                     ></relation>
                   
            </listRelation>
          </listPerson>
@@ -93,12 +96,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <bibl>
                <ptr target="bm:Kaplan2003Anorewos"/>
             </bibl>
+            <bibl> 
+               <ptr target="bm:Taddesse1972Church"/>
+               <citedRange>176</citedRange>
+            </bibl>  
          </listBibl>
       </body>
    </text>   
 </TEI>
-
-
-
-                  
-                 
