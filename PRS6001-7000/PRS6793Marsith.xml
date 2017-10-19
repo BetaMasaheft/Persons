@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Märsit Ḫaylä</title>
+            <title>Marṣit Ḫāyla</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,21 +44,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="DR" when="2017-10-13">Added names</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="2">
-               <persName>
-                  
-                  Märsit Ḫaylä
-               </persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">መርጺት፡ ኃይለ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Marṣit Ḫāyla</persName>
+               <persName xml:lang="gez" xml:id="n2" type="birth">መርጺት፡ ኃይሉ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Marṣit Ḫāylu</persName>
+               <persName xml:lang="gez" xml:id="n3" type="birth">ምርጺት፡ ኃይሉ፡</persName>
+               <persName xml:lang="gez" corresp="#n3" type="normalized">Mǝrṣit Ḫāylu</persName>
             </person>
             <listRelation>
-               <relation name="daughterOf">
-                  <desc> daugh. Ḫaylä Mikƾaʾel Ǝ󠅡šäte </desc>
-               </relation>
+               <relation name="snap:DaughterOf" active="PRS6793Marsith" passive="PRS5222haylaMi"/>
             </listRelation>
          </listPerson>
       </body>
