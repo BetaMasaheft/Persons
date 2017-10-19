@@ -10,7 +10,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ḫayla Maryam Kaḥśay</title>
+            <title>Ḫāyla Māryām Kāḥśāy</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +47,83 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-10-19">Complete record</change>
+         
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Ḫaylä Maryam Kaḥśay
-               </persName>
-               <occupation> abunä </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ኃይለ፡ ማርያም፡  ካሕሣይ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Ḫāyla Māryām Kāḥśāy</persName>
+               <persName><roleName type="title">ʾabbā</roleName></persName>
+               <nationality type="Ethiopia"/>
+               <faith type="Catholicism"/>
+               
+               
+               
+               
+               
+               <occupation type="ecclesiastic">Catholic bishop</occupation>
+               <birth notBefore="1894" notAfter="1895">He was born at <placeName ref="LOC1212Addigr"/></birth>
+                              
+               
+               
+               
+               <floruit notBefore="1925" notAfter="1970">He was a Catholic bishop and the first native eparch of <placeName ref="LOC3010Ethiop"/>.               
+               </floruit>
+               <death when="1970"/>
+               
+               
             </person>
+            <listRelation>
+               <relation name="snap:SonOf"
+                  active="PRS5215haylaMa"
+                  passive="PRS9823Walatta"
+                  ></relation>
+               
+               <relation name="snap:SonOf"
+                  active="PRS5215haylaMa"
+                  passive="PRS5834KahsayD"
+                  ></relation>
+               
+               
+               
+               
+               
+               
+               
+               
+            </listRelation>
          </listPerson>
+         
+         
+         
+         <listBibl type="secondary">
+            
+            <bibl> 
+               <ptr target="bm:Mahoney2005HaylaMary"/>
+            </bibl> 
+              </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              
