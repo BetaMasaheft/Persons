@@ -10,7 +10,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Wäldä Lǝʿul</title>
+            <title>Walda Lǝʿul</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +47,66 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-10-18">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Wäldä Lǝʿul
-               </persName>
-               <occupation> ras </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ወልደ፡ ልዑል፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Walda Lǝʿul</persName>
+               <persName><roleName type="title">rās </roleName></persName>
+               <occupation type="political">courtier</occupation>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               
+               
+               <floruit notBefore="1730" notAfter="1760">He was a major figure in the court of politics of<placeName ref="LOC3577Gondar"/>from
+                  <date>1730</date>s to <date>1760</date>s, a brother of <persName ref="PRS2682BerhanM"/> and leading members of 
+                  Qwaraññā faction which dominated the palace and state during those decades. He first achieved prominence during the reign of <persName ref="PRS2377Bakaffa"/>
+                  of whom he was a favourite. </floruit>
+               <death when="1767"/>
             </person>
+            <listRelation>
+               <relation name="snap:AllianceWith"
+                  active="PRS9931WaldaLe"
+                  passive="PRS2377Bakaffa"
+                  ></relation>
+               <relation name="snap:BrotherOf"
+                  active="PRS9931WaldaLe"
+                  passive="PRS2682BerhanM"
+                  ></relation>
+               
+            </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Guidi1961YohannesV"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Guidi1961YohannesT"/>
+            </bibl>
+            
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Crummey2010WaldaLeul"/>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:BoscTiesse2004Queen"/>
+               <citedRange unit="page">294-318</citedRange>
+            </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+              
