@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Buruk Amlak</title>
+            <title>Buruk ʾAmlāk</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +44,36 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="MV" when="2017-10-20">Minor editing</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Buruk Amlak
-               </persName>
-               <occupation> St </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ቡሩክ፡ አምላክ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Buruk ʾAmlāk</persName>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="ecclesiastic">saint</occupation>
             </person>
+            <listRelation>
+               <relation name="ecrm:P129i_is_subject_of"
+                  active="PRS2955BurukAm"
+                  passive="LIT1431GadlaB">
+               </relation>
+            </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:ContiRossini1938BurukAmlak"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Lusini2003BurukAmlak"/>
+            </bibl>
+         </listBibl>
       </body>
-   </text>
+   </text>   
 </TEI>

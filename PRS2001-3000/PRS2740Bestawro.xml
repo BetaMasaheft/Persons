@@ -80,10 +80,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      active="PRS2740Bestawro"
                      passive="PRS11624SeyonMogasa"
                      ></relation>
-                  
+                  <relation name="ecrm:P129i_is_subject_of"
+                     active="PRS2740Bestawro"
+                     passive="LIT4737GadlaBe">
+                  </relation>
                     </listRelation>
          </listPerson>
-         
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Amsalu2010Bestawros"/>
+            </bibl>
+         </listBibl>
          <listBibl type="secondary">
             <bibl>
                <ptr target="bm:Raineri2003Bestawros"/>
