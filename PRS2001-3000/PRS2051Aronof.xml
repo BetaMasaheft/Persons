@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Aron of Kǝtur</title>
+            <title>ʾAron za-Kǝtur</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -51,12 +51,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                  
                   Aron of Kǝtur
                </persName>
-               <occupation> St </occupation>
+               <occupation type="ecclesiastic">St</occupation>
             </person>
+            <listRelation>
+            <relation name="ecrm:P129i_is_subject_of" 
+               active="PRS2051Aronof"
+               passive="LIT4731GadlaAr"
+               ></relation>
+               </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:KRZ"/>
+               <citedRange>66</citedRange>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
