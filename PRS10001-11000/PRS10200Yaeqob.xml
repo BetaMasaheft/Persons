@@ -47,6 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-09-06">Complete record</change>
+         <change who="SG" when="2017-10-21">Corrections</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -56,21 +57,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" xml:id="n1" type="birth">ያዕቆብ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Yāʿǝqob</persName>
                <persName><roleName type="title">ʾabuna</roleName></persName>
-               <occupation type="ecclesiastic"> metropolitan </occupation>
+               <occupation type="ecclesiastic">metropolitan</occupation>
                <nationality type="Egypt"/>
                <faith type="Coptic"/>
              
-               <floruit>  He was a 14th century metropolitan of the Ethiopian Orthodox Church who arrived in <date> 1337</date> during the reign of 
+               <floruit notBefore="1337" notAfter="1345"> He was a 14th century metropolitan of the Ethiopian Orthodox Church who arrived in <date> 1337</date> during the reign of 
                   <persName ref="PRS1854Amdase">ʾAmda Ṣǝyon I</persName>. He was the successor of ʾabuna <persName ref="PRS10391Yohanne">Yoḥannǝs II</persName>.  
                   His name appears in five hagiographies of the medieval saints including <title ref="LIT1428GadlaB">Gadla Baṣalota Mikāʾel</title>, 
                   <title ref="LIT1445GadlaF">Gadla Filǝṗṗos (za-Dabra Libānos)</title>,<title ref="LIT1420GadlaA">Gadla ʾAnorewos </title>,
                   <title ref="LIT1423GadlaA">Gadla ʾAron (za-Dabra Dāret)</title> and <title ref="LIT1496GadlaS">Gadla Sāmuʾel (Dabra Wagag)</title>. 
                   He devoted  together with some of the leaders of the local monasticism to evangelize non-chrisitian regions of <placeName ref="LOC5597Sawa">Šawā</placeName>, <placeName ref="LOC3061Fataga">Faṭagār</placeName>, 
                   <placeName ref="LOC6136Waj">Waǧ</placeName>,<placeName ref="LOC2488Damot">Dāmot</placeName>, <placeName ref="LOC2966Ennary">Ǝnnāryā</placeName> and  
-                  <placeName ref="LOC3921Ifat">Ifāt</placeName>. He was in conflict with King  <persName ref="PRS1854Amdase">ʾAmda Ṣǝyon I</persName> because 
+                  <placeName ref="LOC3921Ifat">Ifāt</placeName>. He was in conflict with King <persName ref="PRS1854Amdase">ʾAmda Ṣǝyon I</persName> because 
                  of  his marriage with the wife of his father. Finally, he was expelled to Egypt in around <date>1345</date>.
                  </floruit>
-               <death></death>
+              
             </person>
             <listRelation>
                <relation name="snap:AllianceWith"
