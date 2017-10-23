@@ -55,7 +55,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               
              <persName xml:lang="gez" xml:id="n1" type="monastic">እንጦንስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾƎnṭonǝs</persName>
                   <persName xml:lang="gez" xml:id="n2" type="birth">አመንኩ፡ እግዚእ፡</persName>
@@ -65,8 +64,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <faith type="EOTC"/>
                   <occupation type="ecclesiastic">abbot</occupation>
                <birth> He was born in <placeName ref="LOC5575Saraye">Sarāye</placeName></birth>
-               <residence> <placeName ref="LOC2388DabraT">DabraTambuk</placeName></residence>
-               <floruit> He was a monk of 14th century and was consecrated as a deacon by <roleName type="title">ʾabuna </roleName> 
+               <residence> <placeName ref="LOC2388DabraT">Dabra Tambuk</placeName></residence>
+               <floruit> He was a monk of 14th century and was consecrated as a deacon by <roleName type="title">ʾabuna</roleName> 
                   <persName ref="PRS10200Yaeqob">Yāʿǝqob</persName>. 
                   He became a monk after the soldiers abducted his wife. He took the monastic habit from <roleName type="title">ʾabbā</roleName>
                   <persName ref="PRS5635Iyesanan">ʾIyǝsanano ʾƎgziʾ</persName>. He was the spritual father of <persName ref="PRS8483Samuel">Sāmuʾel of Dabra Halleluyā</persName>.
@@ -87,11 +86,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      active="PRS3821entones"
                      passive="PRS8483Samuel"
                     ></relation>
-                 
+                  <relation name="ecrm:P129i_is_subject_of"
+                     active="PRS3821entones"
+                     passive="LIT4745GadlaEn"
+                     ></relation>
                </listRelation>
          </listPerson>
     
-     
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Raineri1996Antonio"/>
+            </bibl>
+         </listBibl>
          <listBibl type="secondary">
             <bibl> 
                <ptr target="bm:Raineri2005Entones"/>
@@ -100,19 +106,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                  
