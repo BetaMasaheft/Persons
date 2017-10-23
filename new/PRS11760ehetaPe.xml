@@ -6,11 +6,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
      xml:lang="en"
-     xml:id="PRS3698ehetaKr">
+     xml:id="PRS11760ehetaPe">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>ʾƎḫǝta Krǝstos</title>
+            <title>ʾƎḫǝta Ṗeṭros</title>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -40,37 +41,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
-         <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: place</change>
-         <change who="MV" when="2017-10-23">Edited</change>
+         <change who="MV" when="2017-10-23">Created record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="2">
-               <persName xml:lang="gez" xml:id="n1" type="birth">እኅተ፡ ክርስቶስ፡</persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾƎḫǝta Krǝstos</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">እኅተ፡ ጴጥሮስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾƎḫǝta Ṗeṭros</persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <occupation type="ecclesiastic">saint</occupation>
             </person>
             <listRelation>
                <relation name="snap:AllianceWith"
-                  active="PRS3698ehetaKr"
+                  active="PRS11760ehetaPe"
                   passive="PRS9848Walatta"/>
                <relation name="ecrm:P129i_is_subject_of"
-                  active="PRS3698ehetaKr"
-                  passive="LIT1434Gadlae"/>
+                  active="PRS11760ehetaPe"
+                  passive="LIT4741GadlaEh"/>
             </listRelation>
          </listPerson>
-         <listBibl type="secondary">
-            <bibl> 
-               <ptr target="bm:Zanetti2005EhetaKrestos"/>
-            </bibl>
-         </listBibl>
       </body>
    </text>
 </TEI>
