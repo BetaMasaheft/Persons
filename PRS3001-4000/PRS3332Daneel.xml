@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Danǝʾel of Däbrä Maryam</title>
+            <title>Dānǝʾel za-Dabra Māryām</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +44,39 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="MV" when="2017-10-23">Edited</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Danǝʾel of Däbrä Maryam
-               </persName>
-               <occupation> St </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ዳንኤል፡ ዘደብረ፡ ማርያም፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Dānǝʾel za-Dabra Māryām</persName>
+               <persName xml:lang="gez" xml:id="n2" type="alt">ዳንኤል፡ ዘገርዓልታ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Dānǝʾel za-Garʿāltā</persName>
+               <persName><roleName type="title">ʾabbā </roleName></persName>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="ecclesiastic">saint</occupation>
             </person>
+            <listRelation>
+               <relation name="ecrm:P129i_is_subject_of"
+                  active="PRS3332Daneel"
+                  passive="LIT1432GadlaD"/>
+            </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Lusini1990Danel"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Lusini1994HistoricalElements"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Lusini2005Daneel"/>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
