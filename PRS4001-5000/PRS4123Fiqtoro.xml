@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Fiqṭor of Däbrä Maryam</title>
+            <title>Fiqṭor of Dabra Māryām</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,23 +44,34 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="MV" when="2017-10-24">Minor additions</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Fiqṭor of Däbrä Maryam
-               </persName>
-            </person>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ፊቅጦር፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Fiqṭor</persName>
+               <persName><roleName type="title">ʾabbā</roleName></persName>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="ecclesiastic">abbot</occupation>
+               <birth></birth>
+               <floruit/>
+               <death/>
+            </person>  
             <listRelation>
-               <relation name="unspecified">
-                  <desc> disc. Täwäldä Mädḫǝn </desc>
-               </relation>
+               <relation name="ecrm:P129i_is_subject_of"
+                  active="PRS4123Fiqtoro"
+                  passive="LIT1447GadlaF"/>
             </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Tedros2009TawaldaMadehnVittore"/>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
