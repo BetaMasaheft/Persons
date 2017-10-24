@@ -95,15 +95,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                </listRelation>
          </listPerson>
-         
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Caquot1961EzraGundaGunde"/>
+            </bibl>
+         </listBibl>
          <listBibl type="secondary">
             <bibl> 
                <ptr target="bm:BeylotRed2005Ezra"/>
             </bibl>
             <bibl> 
                <ptr target="bm:Kaplan1984Monastic"/>
-               <citedRange unit="page">42, 53, 86, 133, </citedRange>
-               
+               <citedRange unit="page">42, 53, 86, 133</citedRange>
             </bibl>
          </listBibl>
       </body>
