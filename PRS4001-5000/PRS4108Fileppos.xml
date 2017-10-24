@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Filǝṗṗos of Däbrä Libanos</title>
+            <title>Filǝṗṗos of Dabra Libānos</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,22 +44,45 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="MV" when="2017-10-24">Minor additions</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Filǝṗṗos of Däbrä Libanos
-               </persName>
-               <occupation> St </occupation>
-               <residence>
-                  <placeName>Däbrä Libanos</placeName>
-               </residence>
-            </person>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ፊልጶስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Filǝṗṗos</persName>
+               <persName><roleName type="title">ʾabbā</roleName></persName>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="ecclesiastic">abbot</occupation>
+               <birth>He was born in <placeName ref="LOC6472Zema">Zǝmā</placeName>.</birth>
+               <floruit/>
+               <death/>
+            </person>  
+            <listRelation>
+               <relation name="ecrm:P129i_is_subject_of"
+                  active="PRS4108Fileppos"
+                  passive="LIT1445GadlaF"/>
+            </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Turaiev1908Aaron"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Cerulli1943AbbotsDL"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Getatchew1990Fileppos"/>
+            </bibl>
+            <bibl> 
+               <ptr target="bm:KaplanundRed2005Feleppos"/>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
