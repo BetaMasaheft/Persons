@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>ʿƎqbä Ǝgziʾ</title>
+            <title>ʿƎqba ʾƎgziʾ</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -50,11 +50,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  ʿƎqbä Ǝgziʾ
-               </persName>
-               <occupation> abbot </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ዕቅበ፡ እግዚእ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʿƎqba ʾƎgziʾ</persName>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="ecclesiastic">abbot</occupation>
             </person>
          </listPerson>
       </body>

@@ -6,11 +6,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
      xml:lang="en"
-     xml:id="PRS11760ehetaPe">
+     xml:id="PRS11761equbaE">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>ʾƎḫǝta Ṗeṭros</title>
+            <title>ʾƎquba ʾƎgziʾ</title>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
@@ -39,28 +39,31 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="MV" when="2017-10-23">Created record</change>
+         <change who="MV" when="2017-10-24">Created record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="2">
-               <persName xml:lang="gez" xml:id="n1" type="birth">እኅተ፡ ጴጥሮስ፡</persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾƎḫǝta Ṗeṭros</persName>
+            <person sex="1">
+               <persName xml:lang="gez" xml:id="n1" type="birth">ዕቁበ፡ እግዚእ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʿƎquba ʾƎgziʾ</persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <occupation type="ecclesiastic">saint</occupation>
             </person>
             <listRelation>
-               <relation name="snap:AllianceWith"
-                  active="PRS11760ehetaPe"
-                  passive="PRS9848Walatta"/>
                <relation name="ecrm:P129i_is_subject_of"
-                  active="PRS11760ehetaPe"
-                  passive="LIT4741GadlaEh"/>
+                  active="PRS11761equbaE"
+                  passive="LIT4746GadlaEq"/>
             </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:KRZ"/>
+               <citedRange>69</citedRange>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
