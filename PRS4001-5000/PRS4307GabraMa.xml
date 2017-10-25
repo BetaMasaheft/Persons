@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Gäbrä Märʿawi</title>
+            <title>Gabra Marʿāwi</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,23 +44,38 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="MV" when="2017-10-25">Small additions</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Gäbrä Märʿawi
-               </persName>
-            </person>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ገብረ፡ መርዓዊ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Gabra Marʿāwi</persName>
+               <faith type="EOTC"/>
+               <occupation type="ecclesiastic">saint</occupation>
+               <residence/>
+               <floruit/>
+               <death/>
+            </person>  
             <listRelation>
-               <relation name="unspecified">
-                  <desc> disc. Zena Marqos </desc>
-               </relation>
+               <listRelation>
+                  <relation name="bm:ordainedBy"
+                     active="PRS4307GabraMa"
+                     passive=""/>Zena Marqos
+                  <relation name="ecrm:P129i_is_subject_of" 
+                     active="PRS4307GabraMa"
+                     passive="LIT4752GadlaGM"/>
+               </listRelation>
             </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target=""/>
+               <citedRange unit="page"></citedRange>
+            </bibl> 
+         </listBibl>
       </body>
    </text>
 </TEI>
