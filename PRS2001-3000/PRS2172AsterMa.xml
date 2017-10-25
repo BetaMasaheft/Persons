@@ -10,7 +10,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Aster Mängäša</title>
+            <title>ʾAster Mangašā</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,20 +47,69 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-10-25">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="2">
-               <persName>
+        
+                  <persName xml:lang="gez" xml:id="n1" type="birth">አስቴር፡ መንገሻ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAster Mangašā</persName>
+                  <persName xml:lang="gez" xml:id="n2" type="alt">ሮማነ፡ ወርቅ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Romāna Warq</persName>
                   
-                  Aster Mängäša
-               </persName>
-               <persName type="alt">Romanä Wärq</persName>
-               <occupation> wäyz. </occupation>
-            </person>
+               <persName><roleName type="title">wayzaro</roleName></persName>
+                  
+                  
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  
+                  
+                  <occupation type="other">housewife</occupation>
+                  <birth when="1902"/>
+                  
+                  
+                  <floruit notBefore="1918" notAfter="1936">She was a daughter of 
+                     <roleName type="title">rās</roleName><persName ref="PRS6665Mangasa"/>and a niece of <persName ref="PRS9345taytuBe"/>. 
+                     She was an intelligent and well educated woman, noted not least because of her three marriages. 
+                     <persName ref="PRS9345taytuBe"/> arranged her marriage to <persName ref="PRS5620IyasuV"/> on <date>16 May 1909</date>.
+                     Later she married also to <roleName type="title">rās</roleName><persName ref="PRS4624Getaccaw"/> in<date>1918</date>with whom she had two childern. 
+                     After her divorce from <roleName type="title">rās</roleName><persName ref="PRS4624Getaccaw"/>, she married
+                     <roleName type="title">bālāmbārās</roleName><persName ref="PRS2194Assabber"></persName>.</floruit>
+                  <death when="1936">
+                  </death>
+                  
+               </person>
+               
+               <listRelation>
+                  <relation name="snap:DaughterOf"
+                     active="PRS2172AsterMa"
+                     passive="PRS6665Mangasa"
+                     ></relation>
+                  <relation name="snap:DaughterOf"
+                     active="PRS2172AsterMa"
+                     passive="PRS5831KafayWa"
+                     ></relation>
+                  
+                  
+               </listRelation>
          </listPerson>
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Zewde20003Aster"/>
+            </bibl>  
+            
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+
+               

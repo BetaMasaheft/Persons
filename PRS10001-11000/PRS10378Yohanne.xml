@@ -54,9 +54,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ካሣ፡ ምርጫ፡</persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized">Kaśa Mǝrč̣a</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Kaśā Mǝrč̣ā</persName>
                <persName xml:lang="gez" xml:id="n2" type="horse">አባ፡ በዝብዝ፡</persName>
-               <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAbba Bazbbǝz</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAbbā Bazbbǝz</persName>
                <persName xml:lang="gez" xml:id="n3" type="horse">ወርሳው፡</persName>
                <persName xml:lang="gez" corresp="#n3" type="normalized">Warrǝsāw</persName>
                   <persName><roleName type="title">ʾaṣe</roleName></persName>
@@ -66,9 +66,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <occupation type="ruler">Emperor</occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
-               <residence></residence>
+           
                <birth notBefore="1831" notAfter="1837"></birth>
-               <floruit when="1872"></floruit>
+               <floruit notBefore=" 1872" notAfter="1889"></floruit>
                <death when="1889"> He died at the battle of <placeName ref="LOC4637Matamm">Matammā</placeName></death>
             </person>
             <listRelation>
