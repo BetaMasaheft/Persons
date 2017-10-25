@@ -10,7 +10,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Bäšah Abboye</title>
+            <title>Baššāh ʾAbboye</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,20 +47,73 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-10-25">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Bäšah Abboye
-               </persName>
-               <persName type="alt">Bäššah Abboye</persName>
-               <occupation> däǧǧ. </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birth">በሻህ፡ አቦዬ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Baššāh ʾAbboye</persName>
+               <persName xml:lang="gez" xml:id="n2" type="horse">አባ፡ ደፋር፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAbbā Daffār</persName>
+               
+               <persName><roleName type="title">daǧǧāzmāč</roleName></persName>
+               
+               
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               
+               
+               <occupation type="political">governor</occupation>
+               <birth when="1850"/>
+               
+               
+               <floruit notBefore="1875" notAfter="1896">He was a military commander and provincial governor. His early life is obscure. 
+                  But he appeared first in the historical sources as a
+                  distinguished horse man and skilled fighter in the clashes between the armies of<persName ref="PRS10378Yohanne"/>and
+                  <persName ref="PRS7006Menilek"></persName> in <date>1877</date>. In <date>1880</date>s, he commanded a military division of his own and conquered the 
+                  <placeName ref="LOC3457Gibe"/>of <placeName ref="LOC3395Geeraa"/>.</floruit>
+               <death when="1896">He was killed in action at the battle of <placeName ref="LOC1263Adwa"/>. </death>
+               
             </person>
+            
+            <listRelation>
+               <relation name="snap:BrotherOf"
+                  active="PRS2525BasahAb"
+                  passive="PRS9904WaldaGi"
+                  ></relation>
+               <relation name="snap:SonOf"
+                  active="PRS2525BasahAb"
+                  passive="PRS1098Abboyye"
+                  ></relation>
+               <relation name="snap:SonOf"
+                  active="PRS2525BasahAb"
+                  passive="PRS2261Ayahluse"
+                  ></relation>
+               
+               <relation name="snap:SonOf"
+                  active="PRS2525BasahAb"
+                  passive="PRS2261Ayahluse"
+                  ></relation>
+               
+               
+            </listRelation>
          </listPerson>
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Bairu2003Basah"/>
+            </bibl>  
+            
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+               

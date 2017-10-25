@@ -9,6 +9,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <titleStmt>
             <title>Yoḥannǝs III</title>
             <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -41,7 +44,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-08-16">Complete record</change>
-         <change who="SG" when="2016-09-02"> correction transcription</change>
+         <change who="SG" when="2016-09-02">correction transcription</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -54,16 +57,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <occupation type="ruler">Emperor</occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
-               <residence><placeName ref="LOC3577Gondar"> Gondar</placeName></residence>
-               <birth when="1797" evidence="internal">1797</birth>
-               <floruit when="1840" evidence="internal">He was the last puppet King of Zamana
-                     Masāfǝnt <date>29 August 1840</date> and he was deposed a year later because of
-                  his support for daǧǧāzmāč <persName ref="PRS10102Webeha">Wǝbe Ḫayla
+               <residence><placeName ref="LOC3577Gondar">Gondar</placeName></residence>
+               <birth when="1797"/>
+               <floruit notBefore="1840" notAfter="1873">He was the last puppet King of Zamana
+                     Masāfǝnt on <date>29 August 1840</date>and he was deposed a year later because of
+                  his support for <roleName type="title">daǧǧāzmāč </roleName><persName ref="PRS10102Webeha">Wǝbe Ḫayla
                      Māryām</persName> in <date> 1841</date>. He was a defacto hostage of
                      Emperor <persName ref="PRS9430Tewodros">Tewodros II</persName> for 13 years and
                   detained at <placeName ref="LOC4547Maqdal">Maqdalā</placeName>.
                </floruit>
-               <death when="1873" evidence="internal"/>
+               <death when="1873"/>
             </person>
             <listRelation>
                <relation name="snap:SonOf" active="PRS10377Yohanne" passive="PRS9142TaklaGi"/>
