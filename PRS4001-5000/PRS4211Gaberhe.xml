@@ -44,19 +44,38 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="MV" when="2016-02-09">Small additions</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Gabǝr Ḫer
-               </persName>
-               <occupation> abba </occupation>
-            </person>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ገብር፡ ኄር፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Gabǝr Ḫer</persName>
+               <persName><roleName type="title">ʾabbā</roleName></persName>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="ecclesiastic">saint</occupation>
+               <residence/>
+               <floruit> </floruit>
+            </person>  
+            <listRelation>
+               <relation name="ecrm:P129i_is_subject_of" 
+                  active="PRS4211Gaberhe"
+                  passive="LIT4756GadlaGH"/>
+            </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Lusini1993Monachesimo"/>
+               <citedRange>112</citedRange>
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Lusini2007Marqorewos"/>
+               <citedRange>788b</citedRange>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
