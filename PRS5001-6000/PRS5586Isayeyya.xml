@@ -62,7 +62,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <birth when="1485"> He was born at <placeName ref="LOC1236Agama">ʿAgama</placeName> in <date>1485</date>. </birth>
                   <residence><placeName ref="LOC3653GundaG">Gunda Gunde</placeName></residence>
                <floruit when="1555">He was  the sixth abbot of the monastery of <placeName ref="LOC3653GundaG">Gunda Gunde</placeName> and He became an abbot  in <date>1555</date> succeeding ʾabbā 
-                  <persName ref="PRS9192TaklaNa">Takla Nabiyāt</persName>. He was a relative of ʾabbā <persName ref="PRS3894estifano">ʾƎsṭifānos</persName>, the first leader of <persName ref="PRS11211Stephanites">Stephanites</persName>.
+                  <persName ref="PRS9192TaklaNa">Takla Nabiyāt</persName>. He was a relative of <roleName type="title">ʾabbā </roleName> <persName ref="PRS3894estifano">ʾƎsṭifānos</persName>, the first leader of <persName ref="PRS11211Stephanites">Stephanites</persName>.
                   He took the monastic habit at the age of 15 from the hands of <persName ref="PRS4322GabraMa">Gabra Maśiḥ</persName>. He was represented in the community as an interpreter of the Scriptures.
                   </floruit>
                   <death> He died in <date>1572</date></death>
@@ -77,7 +77,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <relation name="bm:ordainedBy"
                      
                      active="PRS5586Isayeyya"
-                     passive="PRS6774Marqos"></relation>
+                     passive="PRS6774Marqos"/>
                   <relation name="ecrm:P129i_is_subject_of" 
                      active="PRS5586Isayeyya"
                      passive="LIT1465GadlaI"
@@ -87,12 +87,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </listPerson>
          <listBibl type="editions">
             <bibl>
-               <ptr target="bm:Getatchew2011Estifanos"/>
+               <ptr target="bm:Ferenc1976Isaie"/>
             </bibl>
-            <bibl>
-               <ptr target="bm:Getachew2004Estifanos"/>
-            </bibl>
-     
          </listBibl>
          <listBibl type="secondary">
             <bibl> 
@@ -106,18 +102,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-
-                  
-                  

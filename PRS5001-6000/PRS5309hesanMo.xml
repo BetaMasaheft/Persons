@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ḥǝṣān Moʾa</title>
+            <title>Ḥǝḍān Moʾa</title>
             <editor key="SG"></editor>
             <editor role="generalEditor" key="AB"/>
             <author/>
@@ -54,7 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-            <persName xml:lang="gez" xml:id="n1" type="birth">ሕፃን፡ ሞኣ፡</persName>
+            <persName xml:lang="gez" xml:id="n1" type="birth">ሕፃን፡ ሞአ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Ḥǝḍān Moʾa</persName>
           <persName xml:lang="gez" xml:id="n2" type="birth">ገብረ፡ እግዚአብሔር፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">Gabra ʾƎgziʾabǝḥer</persName>
@@ -66,7 +66,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <floruit notBefore="1468" notAfter="1478">He was a holy monk  who was active during the reign of King <persName ref="PRS2334BaedaM">Baʾǝda Māryām I</persName>.
                   It is reported that he entered the monastery of <placeName ref="LOC2239DabraB">Dabra Baggǝʿ</placeName> in <placeName ref="LOC5597Sawa">Šawā</placeName> where he became a monk and 
                   . He was a tutor of the royal prince in the court of King <persName ref="PRS2334BaedaM">Baʾǝda Māryām I</persName> and he was also appointed
-                  as <roleName type="title">qala nǝgus</roleName> of King <persName ref="PRS2334BaedaM">Baʾǝda Māryām I</persName>.</floruit>
+                  as <roleName type="title">qāla nǝguś</roleName> of King <persName ref="PRS2334BaedaM">Baʾǝda Māryām I</persName>.</floruit>
                <death> </death>
                </person>  
                <listRelation>
@@ -82,6 +82,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                        active="PRS5309hesanMo"
                        passive="PRS9367Tebesey"
                       ></relation>
+            <relation name="ecrm:P129i_is_subject_of" 
+               active="PRS5309hesanMo"
+               passive="LIT1463Gadlah"
+               ></relation>
                </listRelation>
          </listPerson>
   
