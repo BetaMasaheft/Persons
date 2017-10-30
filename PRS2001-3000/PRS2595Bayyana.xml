@@ -10,7 +10,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Bäyyänä Zahlay</title>
+            <title>Bayyana Zāhlāy</title>
+            <editor key="SG"></editor>
+            <editor role="generalEditor" key="AB"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +47,67 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-10-30">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Bäyyänä Zahlay
-               </persName>
-               <occupation> däǧǧ. </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birth">በየነ፡ ዛህላይ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Bayyana Zāhlāy</persName>
+               <persName><roleName type="title">daǧǧāzmāč</roleName></persName>
+               
+               
+             <nationality type="Eritrea"/>
+              
+               <birth when="1900">He was born at<placeName ref="LOC5999Tokond"/>, southern <placeName ref="LOC1298Akkala"/> in <date>1900</date>.</birth>
+               
+               
+               <occupation type="political">governor</occupation>
+               
+               
+               <floruit notBefore="1925" notAfter="1974">He was an important <placeName ref="LOC2991Eritre"/>n politician. He inherited the chieftainship 
+                  from his father in <date>1925</date> and became the chief administrator of the <placeName ref="LOC1188AddiQa"/> district. 
+                  He was also elecetd as a representative of the <placeName ref="LOC1188AddiQa"/> district to the <placeName ref="LOC2991Eritre"/>n assembly in <date>1952</date>.</floruit>
+         
+               
+               
             </person>
+            
+            <listRelation>
+               <relation name="snap:SonOf"
+                  active="PRS2595Bayyana"
+                  passive="PRS10527Zahlay"
+                  ></relation>
+               
+               <relation name="snap:SonOf"
+                  active="PRS2595Bayyana"
+                  passive="PRS10672Zawditu"
+                  ></relation>
+               
+               
+               
+            </listRelation>
          </listPerson>
+         
+         
+         <listBibl type="secondary">
+            
+            
+            <bibl> 
+               <ptr target="bm:Mussie2003Bayyana"/>
+            </bibl>  
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+               
