@@ -64,10 +64,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <floruit> He was a medieval holy saint, a diciple of <roleName type="title">ʾabbā</roleName> 
                   <persName ref="PRS9162TaklaHa">Takla Hāymānot</persName>, who lived during the reigns 
                   of <persName ref="PRS10111WedemR">Wǝdǝm Raʿad</persName>, <persName ref="PRS1854Amdase">ʿAmda Ṣǝyon I</persName> and
-                  <persName ref="PRS8595SayfaAr">Sayfa Arʿad</persName>. He is credited with the foundation of the monastery of  
-                  <placeName ref="LOC2242DabraB">Dabra Bankwal</placeName>, near <placeName ref="LOC1310Aksum">ʾAksum</placeName> during the reign of King 
-                  <persName ref="PRS8595SayfaAr">Sayfa Arʿad</persName>. It is also reported that King <persName ref="PRS8595SayfaAr">Sayfa Arʿad</persName> visited him and
-                  richly endowned the monastery <placeName ref="LOC2242DabraB">Dabra Bankwal</placeName> with lands in <placeName ref="LOC6569Tegray">Tǝgray</placeName></floruit>
+                  <persName ref="PRS8595SayfaAr">Sayfa ʾArʿad</persName>. He is credited with the foundation of the monastery of  
+                  <placeName ref="LOC2242DabraB">Dabra Bankʷal</placeName>, near <placeName ref="LOC1310Aksum">ʾAksum</placeName> during the reign of King 
+                  <persName ref="PRS8595SayfaAr">Sayfa ʾArʿad</persName>. It is also reported that King <persName ref="PRS8595SayfaAr">Sayfa ʾArʿad</persName> visited him and
+                  richly endowned the monastery <placeName ref="LOC2242DabraB">Dabra Bankʷal</placeName> with lands in <placeName ref="LOC6569Tegray">Tǝgray</placeName></floruit>
                   <death when="1372"></death>
                </person>  
                <listRelation>
@@ -83,15 +83,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      active="PRS6445Madhanin"
                      passive="PRS8595SayfaAr"
                     ></relation>
-                  
+                  <relation name="ecrm:P129i_is_subject_of" 
+                     active="PRS6445Madhanin"
+                     passive="LIT1476GadlaM"
+                     ></relation>
                </listRelation>
                
          </listPerson>
          <listBibl type="editions">
             <bibl>
-               
-               <ptr target="bm:Allotedelafuye1958Filmona"/>
-               
+               <ptr target="bm:Colin2010MadhaninaEgzi"/>
             </bibl>
          </listBibl>
          <listBibl type="secondary">
@@ -105,17 +106,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-                  
-                 
