@@ -12,6 +12,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <titleStmt>
             <title>Filǝṗṗos</title>
             <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -55,12 +56,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" xml:id="n1" type="birth">ፊሊጶስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Filǝṗṗos</persName>
                <persName><roleName type="title">ʿǝč̣č̣age</roleName></persName>
-               <occupation type="ecclesiastic"> abbot </occupation>
+               <occupation type="ecclesiastic">abbot</occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
-               <birth>1274</birth>
+               <birth when="1274"/>
                <residence><placeName ref="INS0341DL">Dabra Libānos</placeName></residence>
-               <floruit when="1314" evidence="internal">He was the third abbot of <placeName ref="INS0341DL">Dabra Libānos</placeName> who succeeded his predecessor 
+               <floruit notBefore="1314" notAfter="1348">He was the third abbot of <placeName ref="INS0341DL">Dabra Libānos</placeName> who succeeded his predecessor 
                   ʾabuna <persName ref="PRS3742ElsaE">Elsāʿ</persName>in <date>1314</date>. He expanded Christianity in <placeName ref="LOC5597Sawa">Šawā</placeName>
                   and in the provinces further to the south dispatching 11 pupils of ʾabuna <persName ref="PRS9152TaklaHa">Takla Hāymānot I</persName>. 
                   He also openly reproached  King <persName ref="PRS1854Amdase">ʿAmda Ṣǝyon I</persName> for his  marital practices and  his interferences to the church matters. 
@@ -69,7 +70,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   His Gadl <title ref="LIT1445GadlaF">Gadla Filǝṗṗos (za-Dabra Libānos)</title> was supposed to have been written during the tenure of <persName ref="PRS10408Yohanne">Yoḥannǝs  Kamā</persName> the seventh abbot of 
                   <placeName ref="INS0341DL">Dabra Libānos</placeName>  
                   </floruit>
-               <death>1348>He died at the  gae of 74 and was buried at a place called <placeName ref="LOC3775Haqqal">Ḥaqqalet</placeName></death>
+               <death when="1348">He died at the  gae of 74 and was buried at a place called <placeName ref="LOC3775Haqqal">Ḥaqqalet</placeName> nin <date>1348</date>.</death>
             </person>
             <listRelation>
                <relation name="snap:AllianceWith"
