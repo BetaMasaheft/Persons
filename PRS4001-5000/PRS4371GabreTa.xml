@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Gäbre Täsfa</title>
+            <title>Gabre Tasfā</title>
             <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             
@@ -47,6 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-10-30">complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -54,68 +55,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
          
-                  <persName xml:lang="gez" xml:id="n1" type="birth">ገላውዴዎስ፡</persName>
-                  <persName xml:lang="gez" type="normalized" corresp="#n1">
-                     <roleName type="title">ʾaṣe</roleName> Galāwdewos</persName>
-                  <persName xml:lang="gez" type="alt" xml:id="n2">ጌላውዴዎስ፡</persName>
-                  <persName xml:lang="gez" corresp="#n2">Gelāwdewos</persName>
-                  <persName xml:lang="gez" xml:id="n3">አጽናፍ፡ ሰገድ፡</persName>
-                  <persName type="regnal" corresp="#n3">ʾAṣnāf Sagad</persName>
-                  <persName xml:lang="en">Claudius</persName>
-                  <occupation type="ruler">emperor</occupation>
-                  <birth when="1522"></birth>
-                  <floruit notBefore="1540" notAfter="1559" evidence="literature">Galāwdewos became emperor at the age of 18 in <date>1540</date>.
-                     His reign was marked by a successful struggle against <persName ref="PRS1522Ahmadb">ʾAḥmad b. ʾIbrāhīm al-Ġāzī</persName>.</floruit>
-                  <death when="1559" evidence="internal">He died on <date>23 March 1559</date>, in battle with <persName ref="PRS7623NurbM">Nūr b. Muǧāhīd</persName>.</death>
-                  <residence/>
-                  <nationality type="Ethiopia"/>
-                  <faith type="EOTC"/>
-               </person>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ገብሬ፡ ተስፋ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Gabre Tasfā</persName>
+               <persName><roleName type="title">rās</roleName></persName>
                
-               <listRelation>
-                  <relation name="snap:BrotherOf" mutual="PRS4428Galawdew PRS7102Minas"/>
-                  <relation name="snap:SonOf"
-                     active="PRS4428Galawdew"
-                     passive="PRS6229LebnaDe"/>
-                  <relation name="snap:SonOf"
-                     active="PRS4428Galawdew"
-                     passive="PRS8275SablaD"/>
-                  <relation name="saws:isAttributedAuthorOf"
-                     active="PRS4428Galawdew"
-                     passive="LIT1252Confes"/>
-                  <relation name="ecrm:P129i_is_subject_of" active="PRS4428Galawdew" passive="LIT3122Galaw"/>
-                  
-               </listRelation>
+               <occupation type="ruler">governor</occupation>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <floruit ></floruit>
+               <death when="1816"></death>
+            </person>
+         
                
-               
+        
          </listPerson>
-         <listBibl type="editions"> 
-            <bibl> 
-               <ptr target="bm:Conzelman1895Galawdewos"/>
-               <note><ref type="work" corresp="LIT3122Galaw">Chronicle of the reign of Galāwdewos</ref>: edition and French translation <date notAfter="1543" cert="low" evidence="conjecture"/></note></bibl>
-            <bibl> 
-               <ptr target="bm:Solomon2016Galawdewos"/>
-               <ref type="work" corresp="LIT3122Galaw">Chronicle of the reign of Galāwdewos</ref>: edition and English translation</bibl>             
-         </listBibl>
          <listBibl type="secondary">
             <bibl> 
-               <ptr target="bm:Guidi1899Galawdewos"/>
-            </bibl>
-            <bibl> 
-               <ptr target="bm:Kleiner2005Galaw"/>
-            </bibl>
+               <ptr target="bm:Chernestsov2005Gabre"/>
+            </bibl>  
          </listBibl>
       </body>
    </text>
 </TEI>
 
-               <persName>
-                  
-                  Gäbre Täsfa
-               </persName>
-               <occupation> ras </occupation>
-            </person>
-         </listPerson>
-      </body>
-   </text>
-</TEI>
+
