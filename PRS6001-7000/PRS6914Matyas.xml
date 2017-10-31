@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Matyās</title>
+            <title>Mātyās</title>
             <editor key="SG"></editor>
             <editor role="generalEditor" key="AB"/>
             <author/>
@@ -54,7 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ማትያስ፡</persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized">Matyās</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Mātyās</persName>
               <persName xml:lang="gez" xml:id="n2" type="birth">ጥሪተ፡ እግዚዕ፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">Ṭǝrita ʾƎgziʾ</persName>
                <persName><roleName type="title">ʾabbā</roleName></persName>
@@ -64,8 +64,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
              
                <floruit> He was a monk of the 14th-15th century, considered to be by several hagiographic sources to have been the founder of the monastic community at 
                   <placeName ref="LOC1111Addeqe">ʿAddǝqe</placeName> of <placeName ref="LOC2991Eritre">Eritrea</placeName>. Though the date and place of birth is unknown clearly, 
-                  he entered the monastery of <placeName ref="LOC2317DabraM">Dabra Māryām</placeName> of <placeName ref="LOC5271Qwahay">Qwaḥayn</placeName>, which was founded by 
-                  <roleName type="title">ʾabbā</roleName> <persName ref="PRS1302Absadio">ʾAbsādi of Dabra Māryām</persName> in <date>1390/91</date>. He spent then the whole life in this monastery.</floruit>
+                  he entered the monastery of <placeName ref="LOC2317DabraM">Dabra Māryām</placeName> of <placeName ref="LOC5271Qwahay">Qʷaḥayn</placeName>, which was founded by 
+                  <roleName type="title">ʾabbā</roleName> <persName ref="PRS1302Absadio">ʾAbsādi of Dabra Māryām</persName> in <date>1390/91</date>. 
+                  He spent then the whole life in this monastery.</floruit>
                <death></death>
             </person>  
             <listRelation>
@@ -81,6 +82,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   active="PRS6914Matyas"
                   passive="PRS4123Fiqtoro"
                  ></relation>
+               <relation name="ecrm:P129i_is_subject_of" 
+                  active="PRS6914Matyas"
+                  passive="LIT1482GadlaM"
+                  ></relation>
             </listRelation>
          </listPerson>
          <listBibl type="editions">
@@ -90,24 +95,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </listBibl>
          <listBibl type="secondary">
             <bibl> 
+               <ptr target="bm:Lusini1993Monachesimo"/>
+               <citedRange>124-126</citedRange>
+            </bibl>
+            <bibl> 
                <ptr target="bm:Lusini2007Matyas"/>
             </bibl>
          </listBibl>
       </body>
    </text>
-</TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-
-                  
-                  
+</TEI>        
