@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mäsqäl Bezanä (Krǝstos Bezanä)</title>
+            <title>Masqal Bezāna (Krǝstos Bezāna)</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -50,13 +50,29 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Mäsqäl Bezanä (Krǝstos Bezanä)
-               </persName>
-               <occupation> St </occupation>
-            </person>
+               <persName xml:lang="gez" xml:id="n1">መስቀል፡ ቤዛነ፡</persName>
+               <persName xml:lang="gez" corresp="#n1">Masqal Bezāna</persName>
+               <persName xml:lang="gez" xml:id="n2" type="alt">ክርስቶስ፡ ቤዛነ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Krǝstos Bezāna</persName>
+               <persName><roleName type="title">ʾabbā</roleName></persName>
+               <occupation type="ecclesiastic">saint</occupation>
+               <birth></birth>
+               <residence><placeName ref="LOC2383DabraT">Dabra Taʾāmina</placeName></residence>
+               <floruit/>
+               <death></death>
+            </person>  
+            <listRelation>
+               <relation name="ecrm:P129i_is_subject_of" 
+                  active="PRS6857MasqalB"
+                  passive="LIT1480GadlaM"
+                  ></relation>
+            </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:BausiBalickaWitakowska2005DabraTaamina"/>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>

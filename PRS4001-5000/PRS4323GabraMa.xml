@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Gäbrä Mäśiḥ</title>
+            <title>Gabra Maśiḥ</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -50,16 +50,29 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Gäbrä Mäśiḥ
-               </persName>
-               <occupation> St II</occupation>
-               <residence>
-                  <placeName> of Gundä Gunde</placeName>
-               </residence>
-            </person>
+               <persName xml:lang="gez" xml:id="n1" type="monastic">ገብረ፡ መሢሕ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Gabra Maśiḥ</persName>
+               <persName><roleName type="title">ʾabbā</roleName></persName>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="ecclesiastic"> abbot</occupation>
+               <birth></birth>
+               <residence><placeName ref="LOC3653GundaG">Gunda Gunde</placeName></residence>
+               <floruit/>
+               <death></death>
+            </person>  
+            <listRelation>
+               <relation name="ecrm:P129i_is_subject_of" 
+                  active="PRS4323GabraMa"
+                  passive="LIT4779GadlaGM"
+                  ></relation>
+            </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Kaplan2005GabraMasihII"/>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
