@@ -44,19 +44,34 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="MV" when="2017-11-01">Additions</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Muse
-               </persName>
-               <occupation> metr. </occupation>
+               <persName xml:lang="gez" xml:id="n1">ሙሴ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Muse</persName>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="ecclesiastic">metropolitan</occupation>
+               <birth/>
+               <floruit></floruit>             
+               <death></death>
             </person>
+            <listRelation>
+               <relation name="ecrm:P129i_is_subject_of"
+                  active="PRS7409Muse"
+                  passive="LIT1483GadlaM"
+                  ></relation>
+            </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Fiaccadori2007MuseI"/>
+            </bibl>
+         </listBibl>
       </body>
-   </text>
-</TEI>
+   </text>   
+</TEI>  
