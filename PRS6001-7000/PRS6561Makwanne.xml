@@ -57,7 +57,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Makʷannǝn ʾƎndālkāččaw</persName>
           
                
-               <persName><roleName type="title">rās bitwadad</roleName></persName>
+               <persName>
+                  <roleName type="title">rās bitwadad</roleName>
+               </persName>
                
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
@@ -72,7 +74,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   was then educated at the Emperor's court. From <date>1916</date> until the time of Italian invasion, he served in various government posts. 
                   After the liberation, he embarked on a rapid career in the government. In May <date>1941</date>, he became the Minister of the Interior and Chairman of the Council of Ministers. 
                   In the following year, he was appointed a Prime Minister. In <date>1944</date>, he became the President of the Assembly established to renegotiate the agreement between 
-                  <placeName ref="LOC3010Ethiop"/> and <placeName ref="gn:2635167"/>. </floruit>
+                  <placeName ref="LOC3010Ethiop"/> and <placeName ref="Q145"/>. </floruit>
                
                <death when="1963"> He died in <placeName ref="LOC1216AddisA"/> in <date>1963</date>. </death>
                
@@ -80,41 +82,30 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             
             <listRelation>
                <relation name="snap:SonOf"
-                  active="PRS6561Makwanne"
-                  passive="PRS3785endalkac"
-                 ></relation>
-               <relation name="snap:SonOf"
-                  active="PRS6561Makwanne"
-                  passive="PRS1259AbonasT"
-                 ></relation>
+                         active="PRS6561Makwanne"
+                         passive="PRS3785endalkac"/>
+               <relation name="snap:SonOf" active="PRS6561Makwanne" passive="PRS1259AbonasT"/>
                <relation name="bm:husbandOf"
-                  active="PRS6561Makwanne"
-                  passive="PRS10675Zawditu"
-                 ></relation>
+                         active="PRS6561Makwanne"
+                         passive="PRS10675Zawditu"/>
                <relation name="snap:FriendshipFor"
-                  active="PRS6561Makwanne"
-                  passive="PRS5226haylase"
-                 ></relation>
-               <relation name="saws:isAttributedAuthorOf"             
-                  active="PRS6561Makwanne"
-                  passive="LIT2531YadeKo"
-                 ></relation>
-               <relation name="saws:isAttributedAuthorOf"             
-                  active="PRS6561Makwanne"
-                  passive="LIT1839Malkam"
-                 ></relation>
-               <relation name="saws:isAttributedAuthorOf"             
-                  active="PRS6561Makwanne"
-                  passive="LIT1148Arremu"
-                 ></relation>
-               <relation name="saws:isAttributedAuthorOf"             
-                  active="PRS6561Makwanne"
-                  passive="LIT1051Alamwa"
-                 ></relation>
-               <relation name="saws:isAttributedAuthorOf"             
-                  active="PRS6561Makwanne"
-                  passive="LIT2530Yadamd"
-                 ></relation>
+                         active="PRS6561Makwanne"
+                         passive="PRS5226haylase"/>
+               <relation name="saws:isAttributedAuthorOf"
+                         active="PRS6561Makwanne"
+                         passive="LIT2531YadeKo"/>
+               <relation name="saws:isAttributedAuthorOf"
+                         active="PRS6561Makwanne"
+                         passive="LIT1839Malkam"/>
+               <relation name="saws:isAttributedAuthorOf"
+                         active="PRS6561Makwanne"
+                         passive="LIT1148Arremu"/>
+               <relation name="saws:isAttributedAuthorOf"
+                         active="PRS6561Makwanne"
+                         passive="LIT1051Alamwa"/>
+               <relation name="saws:isAttributedAuthorOf"
+                         active="PRS6561Makwanne"
+                         passive="LIT2530Yadamd"/>
                
                
                
@@ -145,11 +136,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-                  
-                 

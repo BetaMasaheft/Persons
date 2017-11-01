@@ -55,33 +55,29 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
              
                   
-            <persName xml:lang="gez" xml:id="n1" type="birth">ናዖድ፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ናዖድ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Nāʿod</persName>
                            <persName xml:lang="gez" xml:id="n2" type="regnal">አንበሳ፡ በፀር፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAnbasā Baḍar</persName>
-               <persName><roleName type="title">ʾaṣe</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾaṣe</roleName>
+               </persName>
                  
                         <occupation type="ruler">Emperor</occupation>
                        
                         
-               <floruit when="1494" evidence="internal">He succeeded his brother <roleName type="title">ʾaṣe</roleName><persName ref="PRS3874eskender">ʾƎskǝndǝr</persName> in<date>1494</date>.
+               <floruit when="1494" evidence="internal">He succeeded his brother <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS3874eskender">ʾƎskǝndǝr</persName> in<date>1494</date>.
                         </floruit>
                <death when="1508" evidence="internal">He died in <date>1508</date> during a military expedition against 
                   Muslims  in  <placeName ref="LOC3921Ifat">Ifāt</placeName> in <date>1508</date>.</death>
                      </person>
                      <listRelation>
-                        <relation name="snap:SonOf" 
-                           active="PRS7481NaodA"
-                           passive="PRS2334BaedaM"
-                          ></relation>
+                        <relation name="snap:SonOf" active="PRS7481NaodA" passive="PRS2334BaedaM"/>
                         <relation name="snap:BrotherOf"
-                           active="PRS7481NaodA"
-                           passive="PRS3874eskender" 
-                          ></relation>
-                        <relation name="snap:FatherOf"
-                           active="PRS7481NaodA"
-                           passive="PRS6229LebnaDe"
-                          ></relation>
+                         active="PRS7481NaodA"
+                         passive="PRS3874eskender"/>
+                        <relation name="snap:FatherOf" active="PRS7481NaodA" passive="PRS6229LebnaDe"/>
                         
                      </listRelation>
                   </listPerson>
@@ -103,7 +99,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-                  
-                  

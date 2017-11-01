@@ -54,13 +54,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" type="normalized" corresp="#n1">Sāf Sagad</persName>
                <persName xml:lang="gez" corresp="#n1"/>
                <floruit>14th century</floruit>
-               <note>Son and horseman of <persName ref="PRS1854Amdase"></persName></note>
+               <note>Son and horseman of <persName ref="PRS1854Amdase"/>
+               </note>
 
             </person>
             <listRelation>
-               <relation name="snap:SonOf" active="PRS8311SafSaga" passive="PRS1854Amdase"></relation>
-               <relation name="snap:BrotherOf" active="PRS8311SafSaga" passive="PRS8595SayfaAr"></relation>
-               <relation name="lawd:hasAttestation" active="PRS8311SafSaga" passive="LIT4275ChronAmdS"/>
+               <relation name="snap:SonOf" active="PRS8311SafSaga" passive="PRS1854Amdase"/>
+               <relation name="snap:BrotherOf"
+                         active="PRS8311SafSaga"
+                         passive="PRS8595SayfaAr"/>
+               <relation name="lawd:hasAttestation"
+                         active="PRS8311SafSaga"
+                         passive="LIT4275ChronAmdS"/>
             </listRelation>
          </listPerson>
       </body>

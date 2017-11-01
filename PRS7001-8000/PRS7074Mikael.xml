@@ -56,7 +56,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" xml:id="n1" type="birth">ሚካኤል፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Mikāʾel [III]</persName>
                <persName type="alt">Mikāʾel “the Senior”</persName>
-                  <persName><roleName type="title">ʾabuna</roleName></persName>
+                  <persName>
+                  <roleName type="title">ʾabuna</roleName>
+               </persName>
                   <occupation type="ecclesiastic">metropolitan</occupation>
                   <nationality type="Egypt"/>
                   <faith type="Coptic"/>
@@ -69,14 +71,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </person>
                <listRelation>
                   <relation name="snap:AllianceWith"
-                     active="PRS7074Mikael"
-                     passive="PRS10626ZaraY"
-                    ></relation>
+                         active="PRS7074Mikael"
+                         passive="PRS10626ZaraY"/>
                   
                   <relation name="snap:AllianceWith"
-                     active="PRS7074Mikael"
-                     passive="PRS4372Gabreel"
-                    ></relation> 
+                         active="PRS7074Mikael"
+                         passive="PRS4372Gabreel"/> 
                   
                </listRelation>
          </listPerson>
@@ -93,8 +93,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-                  
-              

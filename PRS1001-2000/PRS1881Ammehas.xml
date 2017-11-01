@@ -54,16 +54,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-            <persName xml:lang="gez" xml:id="n1" type="birth">አምኃ፡ ጽዮን፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">አምኃ፡ ጽዮን፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAmmǝḫā Ṣǝyon</persName>
                <persName xml:lang="gez" xml:id="n2" type="birth">አምኃ፡ ለጽዮን፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAmmǝḫā  Laṣǝyon</persName>
-               <persName><roleName type="title">ʿaqqābe saʿat</roleName></persName>
-            <occupation type="ecclesiastic"> abbot </occupation>
-            <nationality type="Ethiopia"/>
-            <faith type="EOTC"/>
+               <persName>
+                  <roleName type="title">ʿaqqābe saʿat</roleName>
+               </persName>
+               <occupation type="ecclesiastic"> abbot </occupation>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
           
-               <residence><placeName ref="INS0327DHE">Dabra Ḥayq ʾƎsṭifānos</placeName></residence>
+               <residence>
+                  <placeName ref="INS0327DHE">Dabra Ḥayq ʾƎsṭifānos</placeName>
+               </residence>
                <floruit> He was the abbot of  <placeName ref="INS0327DHE">Dabra Ḥayq ʾƎsṭifānos</placeName> during the reign of 
                   King <persName ref="PRS10626ZaraY">Zarʾa Yāʿǝqob</persName> and he was in the royal court at 
                   <placeName ref="LOC2246DabraB">Dabra Bǝrhan</placeName>serving the King as a counsellor. 
@@ -72,13 +76,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </person>
             <listRelation>
                <relation name="snap:AllianceWith"
-                  active="PRS1881Ammehas"
-                  passive="PRS10626ZaraY"
-                 ></relation>
+                         active="PRS1881Ammehas"
+                         passive="PRS10626ZaraY"/>
                <relation name="snap:AllianceWith"
-                  active="PRS1881Ammehas"
-                  passive="PRS2334BaedaM"
-                 ></relation>
+                         active="PRS1881Ammehas"
+                         passive="PRS2334BaedaM"/>
           
      
             </listRelation>
@@ -97,10 +99,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-         
-                  
-                  

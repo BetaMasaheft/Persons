@@ -57,7 +57,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAʾǝmǝro</persName>
                <persName xml:lang="gez" xml:id="n2" type="alt">ʾAʾǝmǝro of Gondar</persName>
          
-               <persName><roleName type="title">Dabtarā</roleName></persName>
+               <persName>
+                  <roleName type="title">Dabtarā</roleName>
+               </persName>
                
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
@@ -77,9 +79,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             
             <listRelation>
                <relation name="snap:AllianceWith"
-                  active="PRS1441Aemero"
-                  passive="PRS6164Lammaha"
-                 ></relation>
+                         active="PRS1441Aemero"
+                         passive="PRS6164Lammaha"/>
             
                
             </listRelation>
@@ -99,7 +100,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-          
-                  
-                  

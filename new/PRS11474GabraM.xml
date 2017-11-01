@@ -1,7 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS11474GabraM" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="PRS11474GabraM"
+     xml:lang="en"
+     type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -47,16 +52,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName  xml:lang="gez" xml:id="n1">ገብረ፡ መስቀል፡</persName>
-                    <persName  xml:lang="gez" type="normalized" corresp="#n1">Gabra Masqal</persName>
-                    <persName><roleName type="title">ʾalaqā</roleName></persName>
+                    <persName xml:lang="gez" xml:id="n1">ገብረ፡ መስቀል፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra Masqal</persName>
+                    <persName>
+                  <roleName type="title">ʾalaqā</roleName>
+               </persName>
                     <faith type="EOTC"/>
                     <floruit notBefore="1907" notAfter="1908"/>
                 </person>
                 <listRelation>
                     <relation name="saws:isCopierOf" active="PRS11474GabraM" passive="BDLaethe14"/>
-                    <relation name="syriaca:has-relation-to-place" active="PRS11474GabraM" passive="LOC4519Mandaf"/>
-                    <relation name="syriaca:has-relation-to-place" active="PRS11474GabraM" passive="INS0354DB"/>
+                    <relation name="syriaca:has-relation-to-place"
+                         active="PRS11474GabraM"
+                         passive="LOC4519Mandaf"/>
+                    <relation name="syriaca:has-relation-to-place"
+                         active="PRS11474GabraM"
+                         passive="INS0354DB"/>
                 </listRelation>
             </listPerson>
         </body>

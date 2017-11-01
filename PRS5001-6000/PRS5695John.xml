@@ -54,12 +54,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1" sameAs="Q328804">
                <persName xml:id="n1">John</persName>
-               <persName xml:id="Evangelist"><addName type="epithet">the Evangelist</addName></persName>
-               <persName xml:id="Apostle"><addName type="epithet">the Apostle</addName></persName>
+               <persName xml:id="Evangelist">
+                  <addName type="epithet">the Evangelist</addName>
+               </persName>
+               <persName xml:id="Apostle">
+                  <addName type="epithet">the Apostle</addName>
+               </persName>
                <persName xml:id="n3">Yoḥannǝs Walda Nagʷadgʷād</persName>
                <persName corresp="#n3">John Son of Thunder</persName>
                
-               <persName  xml:id="n4">Yoḥannǝs Walda Zabǝdewos</persName>
+               <persName xml:id="n4">Yoḥannǝs Walda Zabǝdewos</persName>
                <persName corresp="#n4">John Son of Zebedee</persName>
                
                <nationality type="Israel/Palestine"/>

@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Endybis</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -57,21 +57,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" xml:id="n1" type="birth">ኤንድቢስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾEndybis</persName>
                   
-                  <persName><roleName type="title"></roleName></persName>
+                  <persName>
+                  <roleName type="title"/>
+               </persName>
                   <nationality type="Aksumite"/>
                   <faith type="Aksumite"/>
                   <occupation type="political">ruler</occupation>
                 
-           <floruit notBefore="0200" notAfter="0230">He was a late 3rd century Aksumite ruler  who was the first to issue currency. In his reign, the intiatives of starting 
+               <floruit notBefore="0200" notAfter="0230">He was a late 3rd century Aksumite ruler  who was the first to issue currency. In his reign, the intiatives of starting 
               the productiton of coins might originate within the framework of internatioinal trading on the Indian routres. </floruit>
               
                   
                </person>
                <listRelation>
                   <relation name="snap:AllianceWith"
-                     active="PRS3812Endybis"
-                     passive="PRS3732ellaGab"
-                    ></relation>
+                         active="PRS3812Endybis"
+                         passive="PRS3732ellaGab"/>
                   
                   
                </listRelation>
@@ -86,9 +87,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>   
 </TEI>
-
-
-
-
-                  
-                 

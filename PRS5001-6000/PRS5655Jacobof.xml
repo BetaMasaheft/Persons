@@ -53,13 +53,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1" sameAs="Q947711">
-             <persName xml:lang="gez" xml:id="n1" type="birth">ያዕቆብ፡ ዘሥሩግ፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ያዕቆብ፡ ዘሥሩግ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Yāʿǝqob zaśǝrug</persName>
                <persName xml:lang="en" corresp="#n1" type="normalized">Jacob of Serug</persName>
                <persName xml:lang="en" corresp="n2" type="alt">James of Serug</persName>
                <persName xml:lang="en" xml:id="n3" type="nick">The flute of the Holy Spirit</persName>
                
-                  <persName><roleName type="title"></roleName></persName>
+                  <persName>
+                  <roleName type="title"/>
+               </persName>
                   <occupation type="ecclesiastic">writer </occupation>
                <nationality type="Syria"/>
                <faith type="Syriac"/>
@@ -73,54 +75,43 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   These works were translated from Arabic into Gǝʿǝz during the reign of King <persName ref="PRS10626ZaraY">Zarʾa Yāʿǝqob</persName>
                   to be read on newly establsihed feasts  for various saints.
                </floruit>
-               <death when="0521"></death>
+               <death when="0521"/>
             </person>
             <listRelation>
              
                <relation name="saws:isAttributedAuthorOf"
-                  active="PRS5655Jacobof"
-                  passive="LIT1633Homily"
-                 ></relation>
+                         active="PRS5655Jacobof"
+                         passive="LIT1633Homily"/>
                <relation name="saws:isAttributedAuthorOf"
-                  active="PRS5655Jacobof"
-                  passive="LIT1634Homily"
-                 ></relation>
+                         active="PRS5655Jacobof"
+                         passive="LIT1634Homily"/>
                <relation name="saws:isAttributedAuthorOf"
-                  active="PRS5655Jacobof"
-                  passive="LIT1667Homily"
-                 ></relation>
+                         active="PRS5655Jacobof"
+                         passive="LIT1667Homily"/>
                <relation name="saws:isAttributedAuthorOf"
-                  active="PRS5655Jacobof"
-                  passive="LIT1666Homily"
-                 ></relation>
+                         active="PRS5655Jacobof"
+                         passive="LIT1666Homily"/>
                <relation name="saws:isAttributedAuthorOf"
-                  active="PRS5655Jacobof"
-                  passive="LIT1630Homily"
-                 ></relation>
+                         active="PRS5655Jacobof"
+                         passive="LIT1630Homily"/>
                <relation name="saws:isAttributedAuthorOf"
-                  active="PRS5655Jacobof"
-                  passive="LIT1631Homily"
-                 ></relation>
+                         active="PRS5655Jacobof"
+                         passive="LIT1631Homily"/>
                <relation name="saws:isAttributedAuthorOf"
-                  active="PRS5655Jacobof"
-                  passive="LIT1635Homily"
-                 ></relation>
+                         active="PRS5655Jacobof"
+                         passive="LIT1635Homily"/>
                <relation name="saws:isAttributedAuthorOf"
-                  active="PRS5655Jacobof"
-                  passive="LIT1617Homily"
-                 ></relation>
+                         active="PRS5655Jacobof"
+                         passive="LIT1617Homily"/>
                <relation name="saws:isAttributedAuthorOf"
-                  active="PRS5655Jacobof"
-                  passive="LIT1618Homily"
-                 ></relation>
+                         active="PRS5655Jacobof"
+                         passive="LIT1618Homily"/>
                <relation name="saws:isAttributedAuthorOf"
-                  active="PRS5655Jacobof"
-                  passive="LIT1626Homily"
-                 ></relation>
+                         active="PRS5655Jacobof"
+                         passive="LIT1626Homily"/>
                <relation name="saws:isAttributedAuthorOf"
-                  active="PRS5655Jacobof"
-                  passive="LIT3402Chryso"
-                 ></relation>
+                         active="PRS5655Jacobof"
+                         passive="LIT3402Chryso"/>
             </listRelation>
          </listPerson>
   
@@ -130,12 +121,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </bibl>  
             <bibl> 
                <ptr target="bm:Frederick1991Jacob"/>
-         </bibl>  
+            </bibl>  
          </listBibl>
       </body>
    </text>
 </TEI>
-
-
-
-                 

@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Nāʿod Mogasā</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -56,7 +56,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" xml:id="n1" type="birth">ናዖድ፡ ሞገሳ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Nāʿod Mogasā</persName>
                
-               <persName><roleName type="title">ʾǝtege </roleName></persName>
+               <persName>
+                  <roleName type="title">ʾǝtege </roleName>
+               </persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <occupation type="political">empress </occupation>
@@ -76,23 +78,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </person>
             <listRelation>
                <relation name="snap:MotherOf"
-                  active="PRS7482NaodMo"
-                  passive="PRS6229LebnaDe"
-                 ></relation>
-               <relation name="bm:wifeOf"
-                  active="PRS7482NaodMo"
-                  passive="PRS7481NaodA"
-                  
-                  
-                 ></relation>
+                         active="PRS7482NaodMo"
+                         passive="PRS6229LebnaDe"/>
+               <relation name="bm:wifeOf" active="PRS7482NaodMo" passive="PRS7481NaodA"/>
                <relation name="snap:IntimateRelationshipWith"
-                  active="PRS7482NaodMo"
-                  passive="PRS10077WasanS"
-                 ></relation>
+                         active="PRS7482NaodMo"
+                         passive="PRS10077WasanS"/>
                <relation name="snap:AllianceWith"
-                  active="PRS7482NaodMo"
-                  passive="PRS3706eleni"
-                 ></relation>
+                         active="PRS7482NaodMo"
+                         passive="PRS3706eleni"/>
                
             </listRelation>
          </listPerson>
@@ -113,22 +107,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>   
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                  
-              

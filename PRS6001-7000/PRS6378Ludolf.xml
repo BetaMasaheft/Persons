@@ -63,13 +63,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </persName>
                <occupation type="academic"> scholar</occupation>
                <nationality type="Germany"/>
-               <faith type="Protestantism"></faith>
+               <faith type="Protestantism"/>
                <birth when="1624-06-24">24th June 1624</birth>               
                <death when="1704-04-08">8th April 1704</death>
-               <floruit><persName ref="PRS6378Ludolf"/> was the founder of Ethiopian studies in Europe. He studied medicine, law and Oriental languages at Erfurt and then at Leiden,
-                  and subsequently travelled widely across Europe. In <date>1649</date> he travelled to <placeName ref="gn:3169070">Rome</placeName> 
+               <floruit>
+                  <persName ref="PRS6378Ludolf"/> was the founder of Ethiopian studies in Europe. He studied medicine, law and Oriental languages at Erfurt and then at Leiden,
+                  and subsequently travelled widely across Europe. In <date>1649</date> he travelled to <placeName ref="Q220">Rome</placeName> 
                   at the bequest of <persName ref="PRS3110Christin"/>, where he came into contact with the Ethiopian monks 
-                  living at <placeName ref="INS0302SanStefano"/>. One of them, <roleName type="title">ʾabbā</roleName> <persName ref="PRS4767Gorgoryo"/>, became Ludolf's teacher and main informant.
+                  living at <placeName ref="INS0302SanStefano"/>. One of them, <roleName type="title">ʾabbā</roleName> 
+                  <persName ref="PRS4767Gorgoryo"/>, became Ludolf's teacher and main informant.
                   After returning to Erfurt, <persName ref="PRS6378Ludolf"/> entered in <date>1652</date> the service of <persName ref="PRS3841ErnstI"/>, who suggested to invite <persName ref="PRS4767Gorgoryo"/> to his castle. During this stay, 
                   <persName ref="PRS6378Ludolf"/> worked on his Gǝʿǝz and Amharic dictionaries, and later would use recordings of their conversations for his historical and theological works. Beside his political activities as 
                court counsellor, he continued his studies of the Ethiopian culture, history and languages. In <date>1661</date>, he published his Gǝʿǝz dictionary and grammar, which were edited by 
@@ -83,29 +85,63 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </listPerson>
          <div type="bibliography">
             <listBibl type="secondary">
-               <bibl><ptr target="bm:Uhlig2007EAELudolf"/></bibl>
-               <bibl><ptr target="bm:Bausi2015Wansleben"/></bibl>
-               <bibl><ptr target="bm:Ludolf1701Psalterium"/></bibl>
-               <bibl><ptr target="bm:Ludolf1699Lexicon"/></bibl>
-               <bibl><ptr target="bm:Ludolf1702Grammatica"/></bibl>
-               <bibl><ptr target="bm:Ludolf1698Lexicon"/></bibl>
-               <bibl><ptr target="bm:Ludolf1698Grammatica"/></bibl>
-               <bibl><ptr target="bm:Ludolf1691Commentarius"/></bibl>
-               <bibl><ptr target="bm:Ludolf1681Historia"/></bibl>
-               <bibl><ptr target="bm:Ludolf1661Confessio"/></bibl>
-               <bibl><ptr target="bm:Ludolf1661Lexicon"/></bibl>
-               <bibl><ptr target="bm:Ludolf1661Grammatica"/></bibl>
-               <bibl><ptr target="bm:Ludolf1699Lexicon"/></bibl>
-               <bibl><ptr target="bm:Ludolf1676Sciagraphia"/></bibl>
+               <bibl>
+                  <ptr target="bm:Uhlig2007EAELudolf"/>
+               </bibl>
+               <bibl>
+                  <ptr target="bm:Bausi2015Wansleben"/>
+               </bibl>
+               <bibl>
+                  <ptr target="bm:Ludolf1701Psalterium"/>
+               </bibl>
+               <bibl>
+                  <ptr target="bm:Ludolf1699Lexicon"/>
+               </bibl>
+               <bibl>
+                  <ptr target="bm:Ludolf1702Grammatica"/>
+               </bibl>
+               <bibl>
+                  <ptr target="bm:Ludolf1698Lexicon"/>
+               </bibl>
+               <bibl>
+                  <ptr target="bm:Ludolf1698Grammatica"/>
+               </bibl>
+               <bibl>
+                  <ptr target="bm:Ludolf1691Commentarius"/>
+               </bibl>
+               <bibl>
+                  <ptr target="bm:Ludolf1681Historia"/>
+               </bibl>
+               <bibl>
+                  <ptr target="bm:Ludolf1661Confessio"/>
+               </bibl>
+               <bibl>
+                  <ptr target="bm:Ludolf1661Lexicon"/>
+               </bibl>
+               <bibl>
+                  <ptr target="bm:Ludolf1661Grammatica"/>
+               </bibl>
+               <bibl>
+                  <ptr target="bm:Ludolf1699Lexicon"/>
+               </bibl>
+               <bibl>
+                  <ptr target="bm:Ludolf1676Sciagraphia"/>
+               </bibl>
             </listBibl>
             <listBibl type="relations">
                <bibl/>
-               <relation name="bm:husbandOf" active="PRS6378Ludolf" passive="PRS3570Dimpler"></relation>
-               <relation name="bm:husbandOf" active="PRS6378Ludolf" passive="PRS7358Müller"></relation>
-               <relation name="bm:husbandOf" active="PRS6378Ludolf" passive="PRS6270Lersner"></relation>
-               <relation name="snap:FriendshipFor" active="PRS6378Ludolf" passive="PRS4767Gorgoryo"/>
-               <relation name="snap:ProfessionalRelationship" active="PRS6378Ludolf" passive="PRS10036Wansleb"/>
-               <relation name="snap:ProfessionalRelationship" active="PRS6378Ludolf" passive="PRS3841ErnstI"/>
+               <relation name="bm:husbandOf" active="PRS6378Ludolf" passive="PRS3570Dimpler"/>
+               <relation name="bm:husbandOf" active="PRS6378Ludolf" passive="PRS7358Müller"/>
+               <relation name="bm:husbandOf" active="PRS6378Ludolf" passive="PRS6270Lersner"/>
+               <relation name="snap:FriendshipFor"
+                         active="PRS6378Ludolf"
+                         passive="PRS4767Gorgoryo"/>
+               <relation name="snap:ProfessionalRelationship"
+                         active="PRS6378Ludolf"
+                         passive="PRS10036Wansleb"/>
+               <relation name="snap:ProfessionalRelationship"
+                         active="PRS6378Ludolf"
+                         passive="PRS3841ErnstI"/>
             </listBibl>
          </div>
       </body>

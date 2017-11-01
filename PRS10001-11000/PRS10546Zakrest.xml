@@ -56,13 +56,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ዘክርስቶስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Zakrǝstos</persName>
-               <persName><roleName type="title">ʿaqqābe saʿat</roleName></persName>
+               <persName>
+                  <roleName type="title">ʿaqqābe saʿat</roleName>
+               </persName>
                <occupation type="ecclesiastic"> abbot </occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
              
-               <residence><placeName ref="INS0327DHE">Dabra Ḥayq ʾƎsṭifānos</placeName></residence>
-               <floruit  notBefore="1297" notAfter="1299">He was the abbot of <placeName ref="INS0327DHE">Dabra Ḥayq ʾƎsṭifānos</placeName> 
+               <residence>
+                  <placeName ref="INS0327DHE">Dabra Ḥayq ʾƎsṭifānos</placeName>
+               </residence>
+               <floruit notBefore="1297" notAfter="1299">He was the abbot of <placeName ref="INS0327DHE">Dabra Ḥayq ʾƎsṭifānos</placeName> 
                   who succeeded <persName ref="PRS10531Zaiyas">Zaʾiyasus</persName> in <date>1297</date> 
                   and continued to serve the monastery until <date>1299</date>. 
              </floruit>
@@ -70,13 +74,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </person>
             <listRelation>
                <relation name="snap:AllianceWith"
-                  active="PRS10546Zakrest"
-                  passive="PRS10531Zaiyas"
-                 ></relation>
+                         active="PRS10546Zakrest"
+                         passive="PRS10531Zaiyas"/>
                <relation name="snap:AllianceWith"
-                  active="PRS10546Zakrest"
-                  passive="PRS10111WedemR"
-                 ></relation>
+                         active="PRS10546Zakrest"
+                         passive="PRS10111WedemR"/>
                
                
             </listRelation>
@@ -92,13 +94,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-         
-                  
-                  

@@ -10,7 +10,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:id="t1">son of the anonymous donor <persName ref="PRS11433Anonym"></persName></title>
+            <title xml:id="t1">son of the anonymous donor <persName ref="PRS11433Anonym"/>
+            </title>
             
          </titleStmt>
          <publicationStmt>
@@ -49,14 +50,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1">ክፍለ፡ ድንግል፡</persName>
-               <persName  xml:lang="gez" type="normalized" corresp="#n1">Kǝfla Dǝngǝl</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Kǝfla Dǝngǝl</persName>
             </person>
             <listRelation>
                <relation name="snap:SonOf"
-                  active="RS11434KeflaDengel"
-                  passive="PRS11433Anonym">
+                         active="RS11434KeflaDengel"
+                         passive="PRS11433Anonym">
                </relation>
-               <relation name="lawd:hasAttestation" active="RS11434KeflaDengel" passive="IVefiopsk3"/>
+               <relation name="lawd:hasAttestation"
+                         active="RS11434KeflaDengel"
+                         passive="IVefiopsk3"/>
             </listRelation>
          </listPerson>
       </body>

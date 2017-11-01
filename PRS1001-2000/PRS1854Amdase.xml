@@ -55,7 +55,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" xml:id="n1" type="birth">ዓምደ፡ ጽዮን፡</persName>
                      <persName xml:lang="gez" corresp="#n1" type="normalized">ʿAmda Ṣǝyon I</persName>
                      <persName xml:lang="en" corresp="#n1" type="normalized">Pillar of Zion</persName>
-                     <persName><roleName type="title">ʾaṣe</roleName></persName>
+                     <persName>
+                  <roleName type="title">ʾaṣe</roleName>
+               </persName>
                
                      <persName xml:lang="gez" xml:id="n2" type="regnal">ገብረ፡ መስቀል፡</persName>
                   <persName xml:lang="gez" corresp="#n2" type="normalized">Gabra Masqal</persName>
@@ -71,16 +73,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <death when="1344" evidence="internal">1344</death>
             </person>
             <listRelation>
-               <relation name="snap:SonOf" 
-                  active="PRS1854Amdase"
-                  passive="PRS10111WedemR"></relation>
+               <relation name="snap:SonOf" active="PRS1854Amdase" passive="PRS10111WedemR"/>
                <relation name="snap:GrandsonOf"
-                  active="PRS1854Amdase"
-                  passive="PRS10303Yekunno"></relation>
+                         active="PRS1854Amdase"
+                         passive="PRS10303Yekunno"/>
                <relation name="snap:FatherOf"
-                  
-                  active="PRS1854Amdase"
-                  passive="PRS8595SayfaAr"></relation>
+                         active="PRS1854Amdase"
+                         passive="PRS8595SayfaAr"/>
                
             </listRelation>
                  </listPerson>
@@ -90,8 +89,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <ptr target="bm:Kropp1994AmdaSeyon"/>
               
             </bibl>
-   <bibl>
-      <ptr target="bm:Marrassini1993AmdaSeyon"/>
+            <bibl>
+               <ptr target="bm:Marrassini1993AmdaSeyon"/>
                      
             </bibl>
            <bibl>

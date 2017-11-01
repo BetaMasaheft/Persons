@@ -60,15 +60,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName type="alt">Demetrius</persName>
              
                   
-                  <persName><roleName type="title">rās</roleName></persName>
+                  <persName>
+                  <roleName type="title">rās</roleName>
+               </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   
                   <occupation type="political">governor</occupation>
            
-               <floruit  notBefore="1689" notAfter="1711">He was a governor of <placeName ref="LOC5597Sawa">Šawā</placeName> who apprehended a rebel 
+               <floruit notBefore="1689" notAfter="1711">He was a governor of <placeName ref="LOC5597Sawa">Šawā</placeName> who apprehended a rebel 
                   who had sought refurge in 
-                  <placeName ref="LOC5597Sawa">Šawā</placeName> among the Tulama <persName ref="ETH1973Oromo">Oromo</persName>. He was a confidant of <roleName type="title">ʾaṣe</roleName><persName ref="PRS5616IyasuI">ʾIyāsu I</persName>
+                  <placeName ref="LOC5597Sawa">Šawā</placeName> among the Tulama <persName ref="ETH1973Oromo">Oromo</persName>. He was a confidant of <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS5616IyasuI">ʾIyāsu I</persName>
                   helping a plan attacks on <persName ref="ETH1973Oromo">Oromo</persName> and participating in his campaigns into 
                   <placeName ref="LOC5597Sawa">Šawā</placeName>. By the <date>1693</date>, he held the title of <roleName type="title">ṣa
                      hafe lam</roleName>; he was also <roleName type="title">daǧǧāzmāč</roleName>. By the end of the decade, however,  he had lost a favour at the court. But 
@@ -78,18 +81,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                </person>
                <listRelation>
-                  <relation  name="snap:AllianceWith"
-                     active="PRS3502Demetros"
-                     passive="PRS5616IyasuI"
-                    ></relation>
-                  <relation name="snap:AllianceWith"                  
-                     active="PRS3502Demetros"
-                     passive="PRS9449Tewoflos"
-                    ></relation>
-                  <relation name="snap:ClaimedFamilyRelationship"                 
-                     active="PRS3502Demetros"
-                     passive="PRS8346sahlase"
-                     ></relation>
+                  <relation name="snap:AllianceWith"
+                         active="PRS3502Demetros"
+                         passive="PRS5616IyasuI"/>
+                  <relation name="snap:AllianceWith"
+                         active="PRS3502Demetros"
+                         passive="PRS9449Tewoflos"/>
+                  <relation name="snap:ClaimedFamilyRelationship"
+                         active="PRS3502Demetros"
+                         passive="PRS8346sahlase"/>
                </listRelation>
          </listPerson>
          <listBibl type="editions">
@@ -107,11 +107,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-               

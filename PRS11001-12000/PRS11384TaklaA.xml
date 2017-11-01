@@ -49,15 +49,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName xml:id="n1" xml:lang="gez">ተክለ፡ አልፋ፡</persName>
-               <persName xml:lang="gez" type="normalized"  corresp="#n1">Takla ʾAlfā</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Takla ʾAlfā</persName>
                <faith type="EOTC"/>            
-               <occupation type="other"></occupation>
+               <occupation type="other"/>
                <!-- Floruit 1596, cp. colophon of BAVet44 -->
             </person>
             <listRelation>
-               <relation name="saws:isCopierOf"
-                  active="PRS11384TaklaA"
-                  passive="BAVet44"/>
+               <relation name="saws:isCopierOf" active="PRS11384TaklaA" passive="BAVet44"/>
             </listRelation>
          </listPerson>
       </body>

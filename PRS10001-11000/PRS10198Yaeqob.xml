@@ -56,9 +56,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ያዕቆብ፡</persName>
-                     <persName xml:lang="gez" type="normalized" corresp="#n1"><roleName type="title">ʾaṣe</roleName> Yāʿǝqob</persName>
+                     <persName xml:lang="gez" type="normalized" corresp="#n1">
+                  <roleName type="title">ʾaṣe</roleName> Yāʿǝqob</persName>
                      <persName xml:lang="en" corresp="#n1">Jacob</persName>
-                  <persName xml:lang="gez"  type="regnal" xml:id="n2">መልክአ፡ ሰገድ፡</persName>
+                  <persName xml:lang="gez" type="regnal" xml:id="n2">መልክአ፡ ሰገድ፡</persName>
                   <persName xml:lang="gez" type="normalized" corresp="#n2">Malkǝʾa Sagad</persName>
                   
                  
@@ -71,18 +72,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <persName ref="PRS9038Susenyos">Susǝnyos</persName>,  in <date>10 March 1607</date>. </death>
             </person>
             <listRelation>
-          <relation name="snap:SonOf" 
-            active="PRS10198Yaeqob"
-            passive="PRS8550sardaDe"
-           ></relation>
-               <relation name="snap:SonOf" 
-                  active="PRS10198Yaeqob"
-                  passive="PRS6829Maryams"
-                 ></relation> 
-         <relation name="snap:GrandfatherOf"
-               active="PRS10198Yaeqob"
-               passive="PRS7102Minas"
-              ></relation> 
+               <relation name="snap:SonOf" active="PRS10198Yaeqob" passive="PRS8550sardaDe"/>
+               <relation name="snap:SonOf" active="PRS10198Yaeqob" passive="PRS6829Maryams"/> 
+               <relation name="snap:GrandfatherOf"
+                         active="PRS10198Yaeqob"
+                         passive="PRS7102Minas"/> 
             </listRelation>
            </listPerson>
          <listBibl type="editions">

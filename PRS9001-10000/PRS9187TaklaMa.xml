@@ -58,7 +58,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                   <persName xml:lang="gez" xml:id="n1" type="birth">ተክለ፡ ማርያም፡ ሰምሃራይ፡ ሰሊም፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Takla Māryām Samhārāy Sallim</persName>
-               <persName><roleName type="title">ʾabbā</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾabbā</roleName>
+               </persName>
                   
                   <nationality type="Eritrea"/>
                   <faith type="Catholicism"/>
@@ -73,65 +75,49 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <floruit notBefore="1883" notAfter="1942">He was an important Eritrean  Catholic scholar.
                   He joined the Catholic Seminary of <placeName ref="LOC4002Karan"/> in <date>1883</date>. In <date>1893</date>,
                   he was ordained in <placeName ref="LOC4002Karan"/>by <persName ref="PRS3231Crouzet"/> and became parish priest in <placeName ref="LOC3754HalibM"/>. 
-                  In the following years, he became an active missionary who introduced Catholicism in his native area <placeName ref="LOC5620SebSal"
-                  />. In <date>1899</date>, Takla Māryām was the delegate of the Vicariate of <placeName ref="gn:338010"/> to the worldwide exposition hosted in
-                  <placeName ref="gn:3165524"/>. In <date>1910</date>, he was transferred to <placeName ref="LOC3957Jerusa"/> </floruit>
-               <death when="1942">He died at <placeName ref="gn:3169070"/> in <date>1942</date>.</death>
+                  In the following years, he became an active missionary who introduced Catholicism in his native area <placeName ref="LOC5620SebSal"/>. In <date>1899</date>, Takla Māryām was the delegate of the Vicariate of <placeName ref="Q986"/> to the worldwide exposition hosted in
+                  <placeName ref="Q495"/>. In <date>1910</date>, he was transferred to <placeName ref="LOC3957Jerusa"/> 
+               </floruit>
+               <death when="1942">He died at <placeName ref="Q220"/> in <date>1942</date>.</death>
                   
                   
                </person>
                <listRelation>
-                  <relation name="snap:SonOf"
-                     active="PRS9187TaklaMa"
-                     passive="PRS5321heyarDa"
-                     ></relation>
-                  <relation name="snap:SonOf"
-                     active="PRS9187TaklaMa"
-                     passive="PRS8453Samharay"
-                     ></relation>
+                  <relation name="snap:SonOf" active="PRS9187TaklaMa" passive="PRS5321heyarDa"/>
+                  <relation name="snap:SonOf" active="PRS9187TaklaMa" passive="PRS8453Samharay"/>
                   <relation name="snap:AllianceWith"
-                     active="PRS9187TaklaMa"
-                     passive="PRS9169TaklaHa"
-                     ></relation>
+                         active="PRS9187TaklaMa"
+                         passive="PRS9169TaklaHa"/>
                   <relation name="snap:AllianceWith"
-                     active="PRS9187TaklaMa"
-                     passive="PRS5907KeflaGi"
-                     ></relation>
+                         active="PRS9187TaklaMa"
+                         passive="PRS5907KeflaGi"/>
                   
                   
                   <relation name="saws:isAttributedAuthorOf"
-                     active="PRS9187TaklaMa"
-                     passive="LIT4606Temher"
-                     ></relation>
+                         active="PRS9187TaklaMa"
+                         passive="LIT4606Temher"/>
                   <relation name="saws:isAttributedAuthorOf"
-                     active="PRS9187TaklaMa"
-                     passive="LIT4607Sawasew"
-                     ></relation>
+                         active="PRS9187TaklaMa"
+                         passive="LIT4607Sawasew"/>
                   <relation name="saws:isAttributedAuthorOf"
-                     active="PRS9187TaklaMa"
-                     passive="LIT4608Fidal"
-                     ></relation>
+                         active="PRS9187TaklaMa"
+                         passive="LIT4608Fidal"/>
                   <relation name="saws:isAttributedAuthorOf"
-                     active="PRS9187TaklaMa"
-                     passive="LIT4609Sawasew" 
-                     ></relation>
+                         active="PRS9187TaklaMa"
+                         passive="LIT4609Sawasew"/>
                   <relation name="saws:isAttributedAuthorOf"
-                     active="PRS9187TaklaMa"
-                     passive="LIT4611Marha" 
-                     ></relation>
+                         active="PRS9187TaklaMa"
+                         passive="LIT4611Marha"/>
                   
                   <relation name="saws:isAttributedAuthorOf"
-                     active="PRS9187TaklaMa"
-                     passive="LIT4612Mamhera" 
-                     ></relation>
+                         active="PRS9187TaklaMa"
+                         passive="LIT4612Mamhera"/>
                   <relation name="saws:isAttributedAuthorOf"
-                     active="PRS9187TaklaMa"
-                     passive="LIT4613Melmede" 
-                     ></relation>
+                         active="PRS9187TaklaMa"
+                         passive="LIT4613Melmede"/>
                   <relation name="saws:isAttributedAuthorOf"
-                     active="PRS9187TaklaMa"
-                     passive="LIT2475tomare" 
-                     ></relation>
+                         active="PRS9187TaklaMa"
+                         passive="LIT2475tomare"/>
                   
                   
                   
@@ -168,19 +154,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                  
-               

@@ -56,7 +56,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
               
                   <persName xml:lang="gez" xml:id="n1" type="birth">ይስሐቅ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Yǝsḥaq</persName>
-                  <persName><roleName type="title">ʾabuna </roleName></persName>
+                  <persName>
+                  <roleName type="title">ʾabuna </roleName>
+               </persName>
                   <occupation type="ecclesiastic"> bishop </occupation>
                   <nationality type="Egypt"/>
                   <faith type="Coptic"/>
@@ -70,14 +72,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </person>
                <listRelation>
                   <relation name="bm:ordainedBy"
-                     active="PRS10344Yeshaq"
-                     passive="PRS5703JohnVI"
-                    ></relation>
+                         active="PRS10344Yeshaq"
+                         passive="PRS5703JohnVI"/>
                 
-           <relation name="snap:AllianceWith"
-                     active="PRS10344Yeshaq"
-                     passive="PRS6152Lalibala"
-                    ></relation>
+               <relation name="snap:AllianceWith"
+                         active="PRS10344Yeshaq"
+                         passive="PRS6152Lalibala"/>
                </listRelation>
          </listPerson>
          <listBibl type="secondary">
@@ -91,11 +91,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-                  
-                 

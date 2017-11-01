@@ -55,7 +55,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       
                   <persName xml:lang="gez" xml:id="n1" type="birth">ሥዕለ፡ ክርስቶስ፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Śǝʿǝla Krǝstos</persName>
-               <persName><roleName type="title">rās</roleName></persName>
+               <persName>
+                  <roleName type="title">rās</roleName>
+               </persName>
           
                <occupation type="political">governor or military commander </occupation>
                <birth>1570</birth>
@@ -66,30 +68,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <death when="1636" evidence="internal">1636</death> 
             </person>
             <listRelation>
-               <relation name="snap:SonOf" 
-                  active="PRS8681SeelaK"
-                  passive="PRS5045hamalmal"
-                 ></relation>
+               <relation name="snap:SonOf" active="PRS8681SeelaK" passive="PRS5045hamalmal"/>
                <relation name="snap:BrotherOf"
-                  active="PRS8681SeelaK"
-                  passive="PRS9038Susenyos"
-                 > </relation>
+                         active="PRS8681SeelaK"
+                         passive="PRS9038Susenyos"> </relation>
                <relation name="snap:BrotherOf"
-                  
-                  active="PRS8681SeelaK"
-                  passive="PRS10233Yamana"
-                  
-                 ></relation>
+                         active="PRS8681SeelaK"
+                         passive="PRS10233Yamana"/>
                <relation name="snap:BrotherOf"
-                  
-                  active="PRS8681SeelaK"
-                  passive="PRS10233Yamana"
-                  
-                 ></relation>
+                         active="PRS8681SeelaK"
+                         passive="PRS10233Yamana"/>
                <relation name="snap:AllianceWith"
-                  active="PRS8681SeelaK"
-                  passive="PRS7699Paez" 
-                 ></relation>
+                         active="PRS8681SeelaK"
+                         passive="PRS7699Paez"/>
                   
            </listRelation>
          </listPerson>
@@ -106,7 +97,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </bibl>
             
          </listBibl>
-      <listBibl type="secondary">
+         <listBibl type="secondary">
             <bibl> 
                <ptr target="bm:Cohen2010SeelaKrestos"/>
             </bibl>  

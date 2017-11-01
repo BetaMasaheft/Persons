@@ -55,7 +55,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ዐርሴ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʿArse</persName>
-               <persName><roleName type="title">grāzmāč, qaññāzmāč</roleName></persName>
+               <persName>
+                  <roleName type="title">grāzmāč, qaññāzmāč</roleName>
+               </persName>
                
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
@@ -72,9 +74,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listRelation>
                
                <relation name="snap:AllianceWith"
-                  active="PRS2065Arse"
-                  passive="PRS5616IyasuI"
-                 ></relation>
+                         active="PRS2065Arse"
+                         passive="PRS5616IyasuI"/>
                
                
                
@@ -96,17 +97,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-                  
-                  

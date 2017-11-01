@@ -56,7 +56,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ወልደ፡ ልዑል፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Walda Lǝʿul</persName>
-               <persName><roleName type="title">rās </roleName></persName>
+               <persName>
+                  <roleName type="title">rās </roleName>
+               </persName>
                <occupation type="political">courtier</occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
@@ -70,13 +72,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </person>
             <listRelation>
                <relation name="snap:AllianceWith"
-                  active="PRS9931WaldaLe"
-                  passive="PRS2377Bakaffa"
-                  ></relation>
+                         active="PRS9931WaldaLe"
+                         passive="PRS2377Bakaffa"/>
                <relation name="snap:BrotherOf"
-                  active="PRS9931WaldaLe"
-                  passive="PRS2682BerhanM"
-                  ></relation>
+                         active="PRS9931WaldaLe"
+                         passive="PRS2682BerhanM"/>
                
             </listRelation>
          </listPerson>
@@ -101,12 +101,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-              

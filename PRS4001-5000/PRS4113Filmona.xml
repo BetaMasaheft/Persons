@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Filmonā</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -54,9 +54,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-         <persName xml:lang="gez" xml:id="n1" type="birth">ፊልሞና፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ፊልሞና፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Filmonā</persName>
-                  <persName><roleName type="title">ʾabuna</roleName></persName>
+                  <persName>
+                  <roleName type="title">ʾabuna</roleName>
+               </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   <occupation type="ecclesiastic">abbot</occupation>
@@ -71,28 +73,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </person>  
                <listRelation>
                   <relation name="snap:NephewOf"
-                     active="PRS4113Filmona"
-                     passive="PRS9086Tadewos"
-                    ></relation>
+                         active="PRS4113Filmona"
+                         passive="PRS9086Tadewos"/>
                   <relation name="bm:ordainedBy"
-                     active="PRS4113Filmona"
-                     passive="PRS8387SalamaI"
-                    ></relation>
+                         active="PRS4113Filmona"
+                         passive="PRS8387SalamaI"/>
                   <relation name="snap:AllianceWith"
-                     active="PRS4113Filmona"
-                     passive="PRS1854Amdase"
-                    ></relation>
+                         active="PRS4113Filmona"
+                         passive="PRS1854Amdase"/>
                   <relation name="snap:AllianceWith"
-                     active="PRS4113Filmona"
-                     passive="PRS3800endreyas"
-                    ></relation>
+                         active="PRS4113Filmona"
+                         passive="PRS3800endreyas"/>
                   <relation name="snap:AllianceWith"
-                     active="PRS4113Filmona"
-                     passive="PRS8595SayfaAr"
-                    ></relation>
+                         active="PRS4113Filmona"
+                         passive="PRS8595SayfaAr"/>
                   <relation name="ecrm:P129i_is_subject_of"
-                     active="PRS4113Filmona"
-                     passive="LIT1446GadlaF"/>
+                         active="PRS4113Filmona"
+                         passive="LIT1446GadlaF"/>
                </listRelation>
                    
          </listPerson>

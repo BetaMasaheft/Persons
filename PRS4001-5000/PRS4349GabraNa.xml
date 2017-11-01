@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Gabra Nāzrāwi</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             
             <author/>
@@ -55,30 +55,32 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-            <persName xml:lang="gez" xml:id="n1" type="birth">ገብረ፡ ናዝራዊ፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ገብረ፡ ናዝራዊ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Gabra Nāzrāwi</persName>
-               <persName><roleName type="title">ʾabbā</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾabbā</roleName>
+               </persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <occupation type="ecclesiastic">saint</occupation>
          
                <floruit notBefore="1300" notAfter="1399">He was a late 14th century lesser known monk. He was one of the eight pupils of <roleName type="title">ʾabuna</roleName>
                   <persName ref="PRS3932Ewostate">ʾEwosṭatewos</persName>from <placeName ref="LOC5498Sallam">Ṣallamt</placeName>
-                  who came to <placeName ref="LOC5689Serell"></placeName>, a district of <placeName ref="LOC6186Walqay">Walqāyt</placeName>
+                  who came to <placeName ref="LOC5689Serell"/>, a district of <placeName ref="LOC6186Walqay">Walqāyt</placeName>
                   during the reign of <persName ref="PRS10111WedemR">Wǝdǝm Raʿad</persName>.</floruit>
                
             </person>  
             <listRelation>
                <relation name="snap:AllianceWith"
-                  active="PRS4349GabraNa"
-                  passive="PRS3932Ewostate"></relation>
+                         active="PRS4349GabraNa"
+                         passive="PRS3932Ewostate"/>
                
                <relation name="snap:AllianceWith"
-                  active="PRS4349GabraNa"
-                  passive="PRS10708ZenaMa"></relation>
-               <relation name="ecrm:P129i_is_subject_of" 
-                  active="PRS4349GabraNa"
-                  passive="LIT4755GadlaGN"/>
+                         active="PRS4349GabraNa"
+                         passive="PRS10708ZenaMa"/>
+               <relation name="ecrm:P129i_is_subject_of"
+                         active="PRS4349GabraNa"
+                         passive="LIT4755GadlaGN"/>
             </listRelation>
          </listPerson>
          
@@ -89,4 +91,4 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </listBibl>
       </body>
    </text>
-</TEI>      
+</TEI>

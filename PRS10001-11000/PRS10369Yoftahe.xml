@@ -58,7 +58,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Yoftāhe Nǝguśe</persName>
                   
                   
-               <persName><roleName type="title">qaññ getā </roleName></persName>
+               <persName>
+                  <roleName type="title">qaññ getā </roleName>
+               </persName>
                   
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
@@ -66,10 +68,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
             
                   <occupation type="literary"> writer </occupation>
-               <birth  notBefore="1892" notAfter="1893"> He was born in <placeName ref="LOC2272DabraG"/> between <date>1892-1893</date>. </birth>
+               <birth notBefore="1892" notAfter="1893"> He was born in <placeName ref="LOC2272DabraG"/> between <date>1892-1893</date>. </birth>
                   
                   
-                  <floruit notBefore="1906"  notAfter="1947">
+                  <floruit notBefore="1906" notAfter="1947">
                      He was a prolific writer with a pronounced background in traditional church education and a pioneer of Ethiopian theatre and Amharic drama. 
                      He was first appointed as <roleName type="title">mač̣ane</roleName> and <roleName type="title">qaññgetā</roleName>, later the head of 
                      <placeName ref="LOC2646DemahG"/>. In <date>1917/1918</date> he became <roleName type="title">dabtarā</roleName> and later  
@@ -82,22 +84,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </person>
                
                <listRelation>
-                  <relation name="saws:isAttributedAuthorOf"             
-                     active="PRS10369Yoftahe"
-                     passive="LIT1562Gwabaz"
-                    ></relation>
-                  <relation name="saws:isAttributedAuthorOf"             
-                     active="PRS10369Yoftahe"
-                     passive="LIT2450teqemy"
-                    ></relation>
-                  <relation name="saws:isAttributedAuthorOf"             
-                     active="PRS10369Yoftahe"
-                     passive="LIT2550Yahoda"
-                    ></relation>
-                  <relation name="saws:isAttributedAuthorOf"             
-                     active="PRS10369Yoftahe"
-                     passive="LIT1028Affaga"
-                    ></relation>
+                  <relation name="saws:isAttributedAuthorOf"
+                         active="PRS10369Yoftahe"
+                         passive="LIT1562Gwabaz"/>
+                  <relation name="saws:isAttributedAuthorOf"
+                         active="PRS10369Yoftahe"
+                         passive="LIT2450teqemy"/>
+                  <relation name="saws:isAttributedAuthorOf"
+                         active="PRS10369Yoftahe"
+                         passive="LIT2550Yahoda"/>
+                  <relation name="saws:isAttributedAuthorOf"
+                         active="PRS10369Yoftahe"
+                         passive="LIT1028Affaga"/>
                   
                   
                   
@@ -120,13 +118,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-                  
-                 

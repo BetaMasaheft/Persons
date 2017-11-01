@@ -53,7 +53,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    
                      <persName xml:lang="gez" xml:id="n1" type="birth">ቴዎድሮስ፡</persName>
                      <persName xml:lang="gez" corresp="#n1" type="normalized">Tewodros I</persName>
-                     <persName><roleName type="title">ʾaṣe</roleName></persName>
+                     <persName>
+                  <roleName type="title">ʾaṣe</roleName>
+               </persName>
                      <occupation type="ruler">Emperor</occupation>
                  
                <floruit when="1413" evidence="internal">He succeeded his father King <persName ref="PRS3429DawitII">Dāwit</persName> in <date>1413</date>. 
@@ -62,14 +64,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <death when="1414" evidence="internal">He was killed nine months after his ascension to the throne in a military camapaign against the Adal sultanate.</death>
             </person>  
                  <listRelation>
-               <relation name="snap:SonOf" 
-                  active="PRS9432Tewodros"
-                  passive="PRS3429DawitII"
-                 ></relation>
+               <relation name="snap:SonOf" active="PRS9432Tewodros" passive="PRS3429DawitII"/>
                <relation name="snap:BrotherOf"
-                  active="PRS9432Tewodros"
-                  passive="PRS10342Yeshaq"
-                 ></relation>
+                         active="PRS9432Tewodros"
+                         passive="PRS10342Yeshaq"/>
             </listRelation>
          </listPerson>
         <listBibl type="editions">
@@ -85,9 +83,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </body>
    </text>
 </TEI>
-
-
-
-
-
-

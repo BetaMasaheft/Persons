@@ -59,7 +59,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Lālibalā</persName>
                   <persName xml:lang="gez" xml:id="n2" type="regnal">ገብረ፡ መስቀል፡</persName>
                   <persName xml:lang="gez" corresp="#n2" type="normalized">Gabra Masqal</persName>
-               <persName><roleName type="title">ʾaṣe</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾaṣe</roleName>
+               </persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
          
@@ -74,22 +76,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
              
             </person>
             <listRelation>
-               <relation name="snap:SonOf" 
-                  active="PRS6152Lalibala"
-                  passive="PRS10594Zansey"
-                 ></relation>
+               <relation name="snap:SonOf" active="PRS6152Lalibala" passive="PRS10594Zansey"/>
                <relation name="bm:husbandOf"
-                  active="PRS6152Lalibala"
-                  passive="PRS6859MasqalK"
-                 ></relation>
+                         active="PRS6152Lalibala"
+                         passive="PRS6859MasqalK"/>
                <relation name="snap:BrotherOf"
-                  active="PRS6152Lalibala"
-                  passive="PRS5111harbay" 
-                 ></relation>
-               <relation name="ecrm:P129i_is_subject_of" 
-                  active="PRS6152Lalibala"
-                  passive="LIT1470GadlaL"
-                 ></relation>
+                         active="PRS6152Lalibala"
+                         passive="PRS5111harbay"/>
+               <relation name="ecrm:P129i_is_subject_of"
+                         active="PRS6152Lalibala"
+                         passive="LIT1470GadlaL"/>
                </listRelation>
          </listPerson>
          <listBibl type="editions">
@@ -118,9 +114,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-        
-            

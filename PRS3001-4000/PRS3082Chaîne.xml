@@ -56,23 +56,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName>
                   <forename> Marius</forename>
-                  <surname> Chaîne</surname> </persName>
+                  <surname> Chaîne</surname> 
+               </persName>
                
                <occupation type="academic">scholar</occupation>
                <nationality type="France"/>
                <faith type="notSpecified"/>
-               <birth when="1873"></birth>
+               <birth when="1873"/>
                <floruit notBefore="1897" notAfter="1960">He was a French Ethiopianist and Coptologist. He studied Gǝʿǝz under <persName ref="PRS5012Halevy"/> 
                   at the École Pratique des Hautes Études, before turning to Coptic. The works of Chaîne are characterized by their will to provide tools 
                   for further research such as grammar, catalogues, translations  
                   and comparative study of calendars.</floruit>
-               <death when="1960"></death>
+               <death when="1960"/>
             </person>
             <listRelation>
                <relation name="snap:AllianceWith"
-                  active="PRS3082Chaîne"
-                  passive="PRS5012Halevy"
-                  ></relation>
+                         active="PRS3082Chaîne"
+                         passive="PRS5012Halevy"/>
             </listRelation>
          </listPerson>
          
@@ -95,11 +95,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-               

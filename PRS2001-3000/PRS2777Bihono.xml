@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Bihono</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -66,25 +66,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <occupation type="other">rebel</occupation>
                
           
-                  <floruit   notBefore="1629" notAfter="1632">He was the commander of the rebel forces of  <roleName type="title">ʾabetohun</roleName>
+                  <floruit notBefore="1629" notAfter="1632">He was the commander of the rebel forces of  <roleName type="title">ʾabetohun</roleName>
                      <persName ref="PRS6609Malkea">Malkǝʾa Krǝstos</persName>, 
                      who led anti-Catholic rebellion against <persName ref="PRS9038Susenyos">Susǝnyos</persName> between <date>1629-1632</date> from a regional 
                      base <placeName ref="LOC4259Lasta">Lāstā</placeName> and <placeName ref="LOC6135Wag">Wāg</placeName>. As a commander, 
                      <persName ref="PRS2777Bihono">Bihono</persName> was  noted for his a brilliant  military victories against the royal army. </floruit>
-               <death when="1632"> He died fighting against the royal army of <roleName type="title">ʾaṣe</roleName> <persName ref="PRS9038Susenyos">Susǝnyos</persName> at 
+               <death when="1632"> He died fighting against the royal army of <roleName type="title">ʾaṣe</roleName> 
+                  <persName ref="PRS9038Susenyos">Susǝnyos</persName> at 
                   <placeName ref="LOC6268WaynaD">Waynā Dagā</placeName> in <date>1632</date>. </death>
             </person>  
             <listRelation>
                
                
                <relation name="snap:AllianceWith"
-                  active="PRS2777Bihono"
-                  passive="PRS6609Malkea"
-                 ></relation>
-               <relation name="rel:enemyOf"
-                  active="PRS2777Bihono"
-                  passive="PRS9038Susenyos"
-                 ></relation>
+                         active="PRS2777Bihono"
+                         passive="PRS6609Malkea"/>
+               <relation name="rel:enemyOf" active="PRS2777Bihono" passive="PRS9038Susenyos"/>
                
                
             </listRelation>
@@ -116,19 +113,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                  
-                  

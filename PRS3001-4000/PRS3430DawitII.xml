@@ -55,35 +55,35 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
           
-            <persName xml:lang="gez" xml:id="n1" type="birth">ዳዊት፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ዳዊት፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Dāwit III</persName>
-               <persName><roleName type="title">ʾaṣe</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾaṣe</roleName>
+               </persName>
                <persName xml:lang="gez" xml:id="n2" type="regnal">አድባር፡ ሰገድ፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAdbār Sagad</persName>
           
                <occupation type="ruler">Emperor</occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
-               <residence><placeName ref="LOC3577Gondar">Gondar</placeName></residence>
-               <birth when="1695"/><age>He was 21 years of age when he became a king</age>
-               <floruit  notBefore="1716" notAfter="1721">He succeeded his brother King <persName ref="PRS9152TaklaHa">Takla Hāymānot I</persName> in <date> 1716</date>.
+               <residence>
+                  <placeName ref="LOC3577Gondar">Gondar</placeName>
+               </residence>
+               <birth when="1695"/>
+               <age>He was 21 years of age when he became a king</age>
+               <floruit notBefore="1716" notAfter="1721">He succeeded his brother King <persName ref="PRS9152TaklaHa">Takla Hāymānot I</persName> in <date> 1716</date>.
                   He was often known by his nickname "the Singer".
                </floruit>
                <death when="1721" evidence="internal">He died of in poison</death>
             </person>
             <listRelation>
-               <relation name="snap:SonOf" 
-                  active="PRS3430DawitII"
-                  passive="PRS5616IyasuI"
-                 ></relation>
+               <relation name="snap:SonOf" active="PRS3430DawitII" passive="PRS5616IyasuI"/>
                <relation name="snap:BrotherOf"
-                  active="PRS3430DawitII"
-                  passive="PRS9152TaklaHa"
-                 ></relation>
+                         active="PRS3430DawitII"
+                         passive="PRS9152TaklaHa"/>
                <relation name="snap:BrotherOf"
-                  active="PRS3430DawitII"
-                  passive="PRS2377Bakaffa"
-                 ></relation>
+                         active="PRS3430DawitII"
+                         passive="PRS2377Bakaffa"/>
              </listRelation>
          </listPerson>
          <listBibl type="editions">
@@ -109,8 +109,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-              

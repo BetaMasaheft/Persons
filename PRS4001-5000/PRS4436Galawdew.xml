@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Galawdewos</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -54,9 +54,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-           <persName xml:lang="gez" xml:id="n1" type="birth">ገላውዴዎስ፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ገላውዴዎስ፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Galāwdewos</persName>
-               <persName><roleName type="title">ʾabeto</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾabeto</roleName>
+               </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                <occupation type="political">ʾalaqǝnnat </occupation>
@@ -68,26 +70,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                </person>
                <listRelation>
-                  <relation name="snap:SonOf" 
-                     active="PRS4436Galawdew"
-                     passive="PRS9900WaldaGi"
-                    ></relation>
+                  <relation name="snap:SonOf" active="PRS4436Galawdew" passive="PRS9900WaldaGi"/>
                   <relation name="snap:FatherOf"
-                     active="PRS4436Galawdew"
-                     passive="PRS9902WaldaGi"
-                    ></relation>
+                         active="PRS4436Galawdew"
+                         passive="PRS9902WaldaGi"/>
                   <relation name="bm:husbandOf"
-                     active="PRS4436Galawdew"
-                     passive="PRS9860Walatta"
-                    ></relation>
+                         active="PRS4436Galawdew"
+                         passive="PRS9860Walatta"/>
              </listRelation>
          </listPerson>
           <listBibl type="editions">
             <bibl>
                <ptr target="bm:Blundell1922Chronicle"/>
             </bibl>
-      </listBibl>
-       <listBibl type="secondary">
+         </listBibl>
+         <listBibl type="secondary">
             <bibl>
                <ptr target="bm:Crummey2005Galawdewos"/>
             </bibl>
@@ -95,10 +92,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>   
 </TEI>
-
-
-
-
-
-                  
-                  

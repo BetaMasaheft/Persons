@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Marqorewos</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             
             <author/>
@@ -56,28 +56,30 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="monastic">መርቆሬዎስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Marqorewos</persName>
-           <persName><roleName type="title">ʾabuna</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾabuna</roleName>
+               </persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <occupation type="ecclesiastic">saint</occupation>
-               <birth> He was born in <placeName ref="LOC6195Wambar">Wambartā</placeName></birth>
-               <residence></residence>
+               <birth> He was born in <placeName ref="LOC6195Wambar">Wambartā</placeName>
+               </birth>
+               <residence/>
                <floruit> He was  a monk, active during the 14th and 15th century. He was the founder of the Eritrean monastery of 
-                  <placeName  ref="LOC2258DabraD">Dabra Dǝmāḥ</placeName> in between <date>1340-1350</date>. He played an important role for the expansion of 
+                  <placeName ref="LOC2258DabraD">Dabra Dǝmāḥ</placeName> in between <date>1340-1350</date>. He played an important role for the expansion of 
                      Christianity mainly in the areas of <placeName ref="LOC3517GizeMe">Gize Mǝdǝr</placeName>. 
                  </floruit>
-               <death></death>
+               <death/>
             </person>  
             <listRelation>
          
                <relation name="snap:BrotherOf"
-                  active="PRS6768Marqorew"
-                  passive="PRS1302Absadio"
-                 ></relation>
+                         active="PRS6768Marqorew"
+                         passive="PRS1302Absadio"/>
                <relation name="ecrm:P129i_is_subject_of"
-                  active="PRS6768Marqorew"
-                  passive="LIT1479GadlaM"/>
-          </listRelation>
+                         active="PRS6768Marqorew"
+                         passive="LIT1479GadlaM"/>
+            </listRelation>
             
          </listPerson>
          <listBibl type="editions">
@@ -100,4 +102,4 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </listBibl>
       </body>
    </text>
-</TEI>            
+</TEI>

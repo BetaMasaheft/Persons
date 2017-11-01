@@ -1,7 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS11617Mesraqawit" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="PRS11617Mesraqawit"
+     xml:lang="en"
+     type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -49,9 +54,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="2">
-                    <persName xml:lang="gez" xml:id="n1"></persName>
+                    <persName xml:lang="gez" xml:id="n1"/>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Mǝśrāqāwit</persName>
-                    <persName xml:lang="gez" xml:id="n2"></persName>
+                    <persName xml:lang="gez" xml:id="n2"/>
                     <persName xml:lang="gez" type="normalized" corresp="#n2">Mǝśrāwit</persName>
                     <faith type="EOTC"/>
                     <occupation type="ruler">queen</occupation>
@@ -61,10 +66,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <note>possibly wife or daugther of ʿAmda Ṣǝyon</note>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS11617Mesraqawit" passive="LIT4275ChronAmdS"/>
-                    <relation name="snap:DaughterOf" active="PRS11617Mesraqawit" passive="PRS11618Dambeya"/> <!--not ʿAmda Ṣǝyon? 2017-10-09 DR-->
+                    <relation name="lawd:hasAttestation"
+                         active="PRS11617Mesraqawit"
+                         passive="LIT4275ChronAmdS"/>
+                    <relation name="snap:DaughterOf"
+                         active="PRS11617Mesraqawit"
+                         passive="PRS11618Dambeya"/> 
+               <!--not ʿAmda Ṣǝyon? 2017-10-09 DR-->
                 </listRelation>
-            </listPerson><!--queen  (AS chronicle)-->
+            </listPerson>
+         <!--queen  (AS chronicle)-->
         </body>
     </text>
 </TEI>

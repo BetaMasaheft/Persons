@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Wasan Sagad</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -53,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-            <persName xml:lang="gez" xml:id="n1" type="birth">ወሰን፡ ሰገድ፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ወሰን፡ ሰገድ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Wasan Sagad</persName>
 
                <persName xml:lang="gez" xml:id="n2" type="baptismal">ወልደ፡ ጊዮርጊስ፡</persName>
@@ -61,17 +61,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" corresp="#n2" type="normalized">Walda Giyorgis</persName>
                <persName xml:lang="gez" xml:id="n3" type="horse">አባ፡ ዳማ፡</persName>
                <persName xml:lang="gez" corresp="#n3" type="normalized">ʾAbbā Dāmā</persName>
-                  <persName><roleName type="title">marǝd ʾazmāč</roleName></persName>
+                  <persName>
+                  <roleName type="title">marǝd ʾazmāč</roleName>
+               </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   <occupation type="political">ruler </occupation>
               
                <floruit notBefore="1808" notAfter="1813">He was the sixth ruler of the kingdom of <placeName ref="LOC5597Sawa">
                   Šawā</placeName> from about <date>1808</date> to <date>1812/13</date>. He rebelled against his father 
-                  <roleName type="title">marǝd ʾazmāč</roleName><persName ref="PRS2110AsfaWas">ʾAsfā Wasan</persName>
+                  <roleName type="title">marǝd ʾazmāč</roleName>
+                  <persName ref="PRS2110AsfaWas">ʾAsfā Wasan</persName>
                      fearing the rivalry of his half-brother <persName ref="PRS5638Iyoas">ʾIyoʾas</persName>. But he was defeated and taken prisoner. 
                   Later,<persName ref="PRS2110AsfaWas">ʾAsfā Wasan</persName> reconciled, released him from captivity
-                  and declared him his official heir. Following the death of his father, <roleName type="title">marǝd ʾazmāč</roleName><persName ref="PRS2110AsfaWas">
+                  and declared him his official heir. Following the death of his father, <roleName type="title">marǝd ʾazmāč</roleName>
+                  <persName ref="PRS2110AsfaWas">
                      ʾAsfā Wasan (ʾAmmǝḫā  ʾIyasus) </persName>,  <persName ref="PRS10076WasanS">Wasan Sagad</persName> chose 
                   <placeName ref="LOC5291Qwendi">Qwǝndi</placeName> instead of the seats of his father, 
                   <placeName ref="LOC2246DabraB">Dabra Bǝrhan</placeName> and <placeName ref="LOC1464Ankoba">ʾAnkobar</placeName>. 
@@ -80,26 +84,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <death notBefore="1812" notAfter="1813">He was murdered by one of his slaves at <placeName ref="LOC5291Qwendi">Qwǝndi</placeName>.</death>
                </person>
                <listRelation>
-                  <relation name="snap:SonOf"
-                     active="PRS10076WasanS"
-                     passive="PRS2110AsfaWas"
-                    ></relation>
-                  <relation name="snap:SonOf"
-                     active="PRS10076WasanS"
-                     passive="PRS2216Atmocuno"
-                    ></relation>
+                  <relation name="snap:SonOf" active="PRS10076WasanS" passive="PRS2110AsfaWas"/>
+                  <relation name="snap:SonOf" active="PRS10076WasanS" passive="PRS2216Atmocuno"/>
                   <relation name="snap:BrotherOf"
-                     active="PRS10076WasanS"
-                     passive="PRS5638Iyoas"
-                    ></relation>
+                         active="PRS10076WasanS"
+                         passive="PRS5638Iyoas"/>
                   <relation name="snap:FatherOf"
-                     active="PRS10076WasanS"
-                     passive="PRS8346sahlase"
-                    ></relation>
+                         active="PRS10076WasanS"
+                         passive="PRS8346sahlase"/>
                   <relation name="bm:husbandOf"
-                     active="PRS10076WasanS"
-                     passive="PRS10604Zannaba"
-                    ></relation>
+                         active="PRS10076WasanS"
+                         passive="PRS10604Zannaba"/>
      
                    </listRelation>
          </listPerson>
@@ -123,19 +118,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>   
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                  
-                  

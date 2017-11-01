@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Dagalhān</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -53,13 +53,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-             <persName xml:lang="gez" xml:id="n1" type="birth">ደገልሃን፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ደገልሃን፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Dagalhān</persName>
                <persName xml:lang="gez" xml:id="n2" type="birth">ዴልሓን፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">Delḥān</persName>
                <persName xml:lang="gez" xml:id="n3" type="birth">ዴገልሓን፡</persName>
                <persName xml:lang="gez" corresp="#n3" type="normalized">Degalḥān</persName>
-                  <persName><roleName type="title">rās </roleName></persName>
+                  <persName>
+                  <roleName type="title">rās </roleName>
+               </persName>
                   <occupation type="political"> governor</occupation>
              
                   <nationality type="Ethiopia"/>
@@ -75,19 +77,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                <listRelation>
                   <relation name="snap:AllianceWith"
-                     
-                     active="PRS3287Dagalhan"
-                     passive="PRS6229LebnaDe"
-                     
-                    ></relation>
-                <relation name="rel:enemyOf" 
-                     active="PRS3287Dagalhan"
-                     passive="PRS1500Ahmad"
-                    ></relation>
-                  <relation name="bm:husbandOf" 
-                     active="PRS3287Dagalhan"
-                     passive="PRS1826AmataWe"
-                    ></relation>
+                         active="PRS3287Dagalhan"
+                         passive="PRS6229LebnaDe"/>
+                <relation name="rel:enemyOf" active="PRS3287Dagalhan" passive="PRS1500Ahmad"/>
+                  <relation name="bm:husbandOf"
+                         active="PRS3287Dagalhan"
+                         passive="PRS1826AmataWe"/>
                </listRelation>
               </listPerson>
          <listBibl type="editions">
@@ -105,9 +100,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-                  
-                  

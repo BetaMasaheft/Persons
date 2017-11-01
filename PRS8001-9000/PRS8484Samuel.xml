@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Sāmuʾel of Dabra Qwayaṣā</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -53,38 +53,36 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-            <persName xml:lang="gez" xml:id="n1" type="birth">ሳሙኤል፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ሳሙኤል፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Sāmuʾel</persName>
-               <persName><roleName type="title">ʾabbā</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾabbā</roleName>
+               </persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <occupation type="ecclesiastic">saint</occupation>
-               <residence></residence>
+               <residence/>
                <birth> He was born at <placeName ref="LOC4545Maqala">Maqala</placeName>.</birth>
                <floruit notBefore="1300" notAfter="1400">He was a medieval Ethiopian saint known particularly as a disciple of <roleName type="title">ʾabuna</roleName> 
                   <persName ref="PRS6445Madhanin">Madḫānina ʾƎgziʾ</persName> and the spiritual father of <roleName type="title">ʾabuna</roleName> 
                   <persName ref="PRS3894estifano">ʾƎsṭifānos</persName>. He was the founder of the monastery of <placeName ref="LOC2338DabraQ">Dabra Qwayaṣā</placeName>. </floruit>
-               <death></death>
+               <death/>
             </person>  
             <listRelation>
-            <relation name="bm:ordainedBy"
-                  active="PRS8484Samuel"
-                  passive="PRS8387SalamaI"
-                 ></relation>
                <relation name="bm:ordainedBy"
-                  active="PRS8484Samuel"
-                  passive="PRS6445Madhanin"
-                 ></relation>
+                         active="PRS8484Samuel"
+                         passive="PRS8387SalamaI"/>
+               <relation name="bm:ordainedBy"
+                         active="PRS8484Samuel"
+                         passive="PRS6445Madhanin"/>
                
                <relation name="snap:AllianceWith"
-                  active="PRS8484Samuel"
-                  passive="PRS3894estifano"
-                 ></relation>
+                         active="PRS8484Samuel"
+                         passive="PRS3894estifano"/>
                
                <relation name="ecrm:P129i_is_subject_of"
-                  active="PRS8484Samuel"
-                  passive="LIT4082GadlaS"
-                 ></relation>
+                         active="PRS8484Samuel"
+                         passive="LIT4082GadlaS"/>
                
             </listRelation>
          </listPerson>
@@ -97,8 +95,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-                  
-                  

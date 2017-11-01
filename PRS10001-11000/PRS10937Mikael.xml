@@ -48,15 +48,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
                <person sex="1">
-                  <persName  xml:lang="gez"  xml:id="n1">ሚካኤል፡</persName>
-                  <persName  xml:lang="gez"  corresp="#n1" type="normalized">Mikāʾel</persName>
-                  <persName  xml:lang="ar"  xml:id="n2">ميخاييل</persName>
-                  <persName  xml:lang="ar"  corresp="#n2" type="normalized">Mīḫāʾīl</persName>
+                  <persName xml:lang="gez" xml:id="n1">ሚካኤል፡</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Mikāʾel</persName>
+                  <persName xml:lang="ar" xml:id="n2">ميخاييل</persName>
+                  <persName xml:lang="ar" corresp="#n2" type="normalized">Mīḫāʾīl</persName>
                </person>
                <listRelation>
                   <relation name="snap:SonOf" active="PRS10937Mikael" passive="PRS10939Melah"/>
                   <relation name="snap:SonOf" active="PRS10937Mikael" passive="PRS10935Zakarya"/>
-                  <relation name="lawd:hasAttestation" active="PRS10937Mikael" passive="BNFet32#a24"/>
+                  <relation name="lawd:hasAttestation"
+                         active="PRS10937Mikael"
+                         passive="BNFet32#a24"/>
                </listRelation>
          </listPerson>
       </body>

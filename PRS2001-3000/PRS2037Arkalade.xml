@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>ʾArkaladǝs (ʾArkaladis)</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -53,34 +53,35 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-            <persName xml:lang="gez" xml:id="n1" type="birth">አርከለድስ፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">አርከለድስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾArkaladǝs</persName>
                <persName xml:lang="gez" xml:id="n2" type="birth">አርከለዲስ፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">ʾArkaladis</persName>
                <persName xml:lang="gez" xml:id="n3" type="birth">አርከለዴስ፡</persName>
                <persName xml:lang="gez" corresp="#n3" type="normalized">ʾArkalades</persName>
-                  <persName><roleName type="title">ʾabbā </roleName></persName>
+                  <persName>
+                  <roleName type="title">ʾabbā </roleName>
+               </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   <occupation type="ecclesiastic">abbot</occupation>
                 
                   <floruit> He was an  Ethiopian saint who lived in the second half of fourteenth century. 
                      He was the head of the monastery of <placeName ref="LOC2300DabraM">Dabra Madḫānit</placeName>, who succeeded
-                     <roleName type="title">ʾabbā </roleName> <persName ref="PRS1251Abiyae">ʿAbiya ʾƎgziʾ</persName>. 
+                     <roleName type="title">ʾabbā </roleName> 
+                  <persName ref="PRS1251Abiyae">ʿAbiya ʾƎgziʾ</persName>. 
                     
                   </floruit>
             
                </person>  
                <listRelation>
                   <relation name="snap:AllianceWith"
-                     active="PRS2037Arkalade"
-                     passive="PRS1251Abiyae"
-                    ></relation>
+                         active="PRS2037Arkalade"
+                         passive="PRS1251Abiyae"/>
                   
-                  <relation name="ecrm:P129i_is_subject_of" 
-                     active="PRS2037Arkalade"
-                     passive="LIT1421GadlaA"
-                    ></relation>
+                  <relation name="ecrm:P129i_is_subject_of"
+                         active="PRS2037Arkalade"
+                         passive="LIT1421GadlaA"/>
                </listRelation>
          </listPerson>
          
@@ -98,19 +99,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-               

@@ -58,12 +58,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Lammā Ḫaylu Walda Tārik</persName>
                
                   
-               <persName><roleName type="title">ʾalaqā</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾalaqā</roleName>
+               </persName>
                   
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                <occupation type="literary">scholar</occupation>
-               <birth  when="1868"> He was born at <placeName ref="LOC4549Maqet">Maqet</placeName> in <date>1868</date>. </birth>
+               <birth when="1868"> He was born at <placeName ref="LOC4549Maqet">Maqet</placeName> in <date>1868</date>. </birth>
                
                
                <floruit notBefore="1883" notAfter="1967">He was an outstanding Ethiopian traditional church scholar. 
@@ -83,22 +85,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </person>
             
             <listRelation>
-               <relation name="snap:SonOf"
-                  active="PRS6164Lammaha"
-                  passive="PRS5249hayluLa"
-                 ></relation>
-               <relation name="snap:SonOf"
-                  active="PRS6164Lammaha"
-                  passive="PRS9251TariqAt"
-                 ></relation>
+               <relation name="snap:SonOf" active="PRS6164Lammaha" passive="PRS5249hayluLa"/>
+               <relation name="snap:SonOf" active="PRS6164Lammaha" passive="PRS9251TariqAt"/>
                <relation name="snap:AllianceWith"
-                  active="PRS6164Lammaha"
-                  passive="PRS1441Aemero"
-                 ></relation>
+                         active="PRS6164Lammaha"
+                         passive="PRS1441Aemero"/>
                <relation name="snap:FatherOf"
-                  active="PRS6164Lammaha"
-                  passive="PRS6671Mangestu"
-                 ></relation>
+                         active="PRS6164Lammaha"
+                         passive="PRS6671Mangestu"/>
                
                
             </listRelation>
@@ -118,11 +112,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-                  
-                  
-                  
-                 

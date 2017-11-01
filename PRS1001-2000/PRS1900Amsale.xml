@@ -57,13 +57,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
           
                   <persName xml:lang="gez" xml:id="n1" type="birth">አምሳሌ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAmsale</persName>
-               <persName><roleName type="title">daǧǧāzmāč</roleName></persName>
+               <persName>
+                  <roleName type="title">daǧǧāzmāč</roleName>
+               </persName>
                  <occupation type="political">courtier</occupation>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   
                  
-               <floruit notBefore="1696" notAfter="1710">He was a dignitary at <roleName type="title">ʾaṣe</roleName><persName ref="PRS5616IyasuI"/>'s court. 
+               <floruit notBefore="1696" notAfter="1710">He was a dignitary at <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS5616IyasuI"/>'s court. 
                   In <date>1696</date>, he was an <roleName type="title">ʾaggāfāri</roleName>of <placeName ref="LOC5671Semen"/>. 
                   In <date>1704</date>, he bears the title of <roleName type="title">daǧǧāzmāč</roleName> and it seems that starting from this period and up to his death, 
                   he held the most important position at the king's court. 
@@ -73,9 +76,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </person>
                <listRelation>
                   <relation name="snap:AllianceWith"
-                     active="PRS1900Amsale"
-                     passive="PRS5616IyasuI"
-                     ></relation>
+                         active="PRS1900Amsale"
+                         passive="PRS5616IyasuI"/>
                   
                </listRelation>
          </listPerson>
@@ -99,11 +101,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-              

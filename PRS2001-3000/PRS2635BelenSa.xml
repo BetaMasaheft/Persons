@@ -59,7 +59,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" corresp="#n2" type="normalized">Bǝlen Sagad</persName>
              
                
-               <persName><roleName type="title">aqāṣen </roleName></persName>
+               <persName>
+                  <roleName type="title">aqāṣen </roleName>
+               </persName>
                
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
@@ -74,13 +76,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listRelation>
                
                <relation name="snap:FatherOf"
-                  active="PRS2634BelenSa"
-                  passive="PRS8539saraqaB"
-                 ></relation>
+                         active="PRS2634BelenSa"
+                         passive="PRS8539saraqaB"/>
                <relation name="snap:AllianceWith"
-                  active="PRS2634BelenSa"
-                  passive="PRS3429DawitII"
-                 ></relation>
+                         active="PRS2634BelenSa"
+                         passive="PRS3429DawitII"/>
                   
          
             </listRelation>
@@ -95,13 +95,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-                  
-                  

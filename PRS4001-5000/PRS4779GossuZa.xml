@@ -58,13 +58,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName>Goššu Zawde</persName>
                <persName xml:lang="gez" xml:id="n1" type="birth">ጐሹ፡ ዘውዴ፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Goššu Zawde</persName>
-                  <persName><roleName type="title">Daǧǧāzmāč</roleName></persName>
+                  <persName>
+                  <roleName type="title">Daǧǧāzmāč</roleName>
+               </persName>
           
                <occupation type="ruler">governor</occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
-               <residence></residence>
-               <birth notBefore="1780" notAfter="1790"></birth>
+               <residence/>
+               <birth notBefore="1780" notAfter="1790"/>
                <floruit when="1850" evidence="internal">He was the governor of <placeName ref="LOC3549Gojjam">Goǧǧām</placeName> and
                   <placeName ref="LOC2488Damot">Dāmot</placeName> in <date> 1850 </date> and one of the major lords during the last decades of the 
                   Zamana Masāfǝnt. He was the commissioner of the collection of royal chronicles (a copy of Daǧǧāzmāč Ḫāylu compilation) preserved in 
@@ -73,23 +75,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <death when="1852"/>
             </person>
             <listRelation>
-               <relation name="snap:GrandsonOf" 
-                  active="PRS4779GossuZa"
-                  passive="PRS2682BerhanM"
-                 ></relation>
+               <relation name="snap:GrandsonOf"
+                         active="PRS4779GossuZa"
+                         passive="PRS2682BerhanM"/>
     
-      <relation name="rel:enemyOf"
-                  active="PRS4779GossuZa"
-                  passive="PRS4870GugsaMa"
-                 ></relation>
+               <relation name="rel:enemyOf" active="PRS4779GossuZa" passive="PRS4870GugsaMa"/>
                <relation name="rel:enemyOf"
-                  active="PRS4779GossuZa"
-                  passive="PRS9430Tewodros"
-                 ></relation>
+                         active="PRS4779GossuZa"
+                         passive="PRS9430Tewodros"/>
                <relation name="snap:FriendshipFor"
-                  active="PRS4779GossuZa"
-                  passive="PRS1072dAbbadi"
-                 ></relation>
+                         active="PRS4779GossuZa"
+                         passive="PRS1072dAbbadi"/>
             </listRelation>
          </listPerson>
          <listBibl type="editions">
@@ -120,6 +116,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-               

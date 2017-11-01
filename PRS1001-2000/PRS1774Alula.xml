@@ -59,7 +59,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAlulā “Gugsā”</persName>
           
                
-               <persName><roleName type="title">daǧǧāzmāč</roleName></persName>
+               <persName>
+                  <roleName type="title">daǧǧāzmāč</roleName>
+               </persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <occupation type="political">ruler </occupation>
@@ -72,27 +74,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          
             </person>
             <listRelation>
-               <relation name="snap:SonOf"
-                  active="PRS1774Alula"
-                  passive="PRS4870GugsaMa"
-                 ></relation>
-               <relation name="snap:SonOf"
-                  active="PRS1774Alula"
-                  passive="PRS1821Amatase"
-                 ></relation>
+               <relation name="snap:SonOf" active="PRS1774Alula" passive="PRS4870GugsaMa"/>
+               <relation name="snap:SonOf" active="PRS1774Alula" passive="PRS1821Amatase"/>
                <relation name="snap:GrandsonOf"
-                  active="PRS1774Alula"
-                  passive="PRS9142TaklaGi"
-                 ></relation>
+                         active="PRS1774Alula"
+                         passive="PRS9142TaklaGi"/>
                
-               <relation name="bm:husbandOf"
-                  active="PRS1774Alula"
-                  passive="PRS6643MananLi"
-                 ></relation>
-               <relation name="snap:FatherOf"
-                  active="PRS1774Alula"
-                  passive="PRS1688AliAlul"
-                 ></relation>
+               <relation name="bm:husbandOf" active="PRS1774Alula" passive="PRS6643MananLi"/>
+               <relation name="snap:FatherOf" active="PRS1774Alula" passive="PRS1688AliAlul"/>
                
             </listRelation>
          </listPerson>
@@ -117,21 +106,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>   
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                  
-                 

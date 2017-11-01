@@ -50,13 +50,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName>
                   <surname>d'Ossari</surname>
                </persName>
-               <persName><roleName type="title">chevalier</roleName></persName>
+               <persName>
+                  <roleName type="title">chevalier</roleName>
+               </persName>
                <floruit when="1679"/>
             </person>
             <listRelation>
                <relation name="lawd:hasAttestation"
-                  active="PRS11316DOssari"
-                  passive="BNFet153">
+                         active="PRS11316DOssari"
+                         passive="BNFet153">
                </relation>
             </listRelation>
          </listPerson>

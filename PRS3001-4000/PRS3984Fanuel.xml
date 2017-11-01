@@ -12,7 +12,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Fānuʾel</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -55,42 +55,38 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-            <persName xml:lang="gez" xml:id="n1" type="birth">ፋኑኤል፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ፋኑኤል፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Fānuʾel</persName>
-               <persName><roleName type="title">wāg šum</roleName></persName>
+               <persName>
+                  <roleName type="title">wāg šum</roleName>
+               </persName>
                  <occupation type="military">leader</occupation>
                 
-               <floruit notBefore="1508"  notAfter="1549">He was an aristocrat of royal blood  who traced  his descent to <roleName type="title">ʾaṣe</roleName> 
+               <floruit notBefore="1508" notAfter="1549">He was an aristocrat of royal blood  who traced  his descent to <roleName type="title">ʾaṣe</roleName> 
                   <persName ref="PRS8595SayfaAr">Sayfa Arʿad</persName>. It was during the turbulent period of<roleName type="title">ʾaṣe</roleName>
                   <persName ref="PRS6229LebnaDe">Lǝbna Dǝngǝl</persName>, <persName ref="PRS3984Fanuel">Fānuʾel</persName> 
                   held the office of <roleName type="title">wāg šum </roleName>. He was among a few prominent warlords who were luck enough to survive during the onslaught led by  
-                  <roleName type="title">ʾimām</roleName><persName ref="PRS1522Ahmadb">ʾAḥmad b. ʾIbrāhīm al-Ġāzī</persName>. 
+                  <roleName type="title">ʾimām</roleName>
+                  <persName ref="PRS1522Ahmadb">ʾAḥmad b. ʾIbrāhīm al-Ġāzī</persName>. 
                   He was also an important warlord during the reign of <roleName type="title">ʾaṣe</roleName>
                   <persName ref="PRS4428Galawdew">Galāwdewos</persName>.</floruit>   
-                  <death  when="1549"/>
+                  <death when="1549"/>
                </person>
                
                <listRelation>
                   <relation name="snap:AllianceWith"
-                     active="PRS3984Fanuel"
-                     passive="PRS4428Galawdew"
-                    ></relation>
+                         active="PRS3984Fanuel"
+                         passive="PRS4428Galawdew"/>
                   <relation name="snap:AllianceWith"
-                     active="PRS3984Fanuel"
-                     passive="PRS6229LebnaDe"
-                    ></relation>
+                         active="PRS3984Fanuel"
+                         passive="PRS6229LebnaDe"/>
                   <relation name="snap:FriendshipFor"
-                     active="PRS3984Fanuel"
-                     passive="PRS3287Dagalhan"
-                    ></relation>
-                  <relation name="snap:SonOf"
-                     active="PRS3984Fanuel"
-                     passive="PRS6460Magdalaw"
-                    ></relation>
+                         active="PRS3984Fanuel"
+                         passive="PRS3287Dagalhan"/>
+                  <relation name="snap:SonOf" active="PRS3984Fanuel" passive="PRS6460Magdalaw"/>
                   <relation name="saws:isSiblingOf"
-                     active="PRS3984Fanuel"
-                     passive="PRS8595SayfaAr"
-                    ></relation>
+                         active="PRS3984Fanuel"
+                         passive="PRS8595SayfaAr"/>
                  
                </listRelation>
          </listPerson>
@@ -113,11 +109,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-                  
-                  

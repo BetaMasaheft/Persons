@@ -57,16 +57,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                   <persName xml:lang="gez" xml:id="n1" type="birth">ልብድዮስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Lǝbdǝyos</persName>
-                  <persName><roleName type="title">ʾabbā </roleName></persName>
+                  <persName>
+                  <roleName type="title">ʾabbā </roleName>
+               </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   <occupation type="ecclesiastic"> saint </occupation>
                   
                <floruit notBefore="1632" notAfter="1667">He was a saintly monk of the 17th century active during the reign of  <roleName type="title">ʾaṣe
-               </roleName> <persName ref="PRS4015Fasilada">Fāsiladas</persName>. He is credited with the foundation of 
+               </roleName> 
+                  <persName ref="PRS4015Fasilada">Fāsiladas</persName>. He is credited with the foundation of 
                   the monastery of  <placeName ref="LOC2879EndaAb">ʾƎndā  ʾAbuna Lǝbdǝyos</placeName>.
                   He is thus believed to have been involved in the re-establishment of Ethiopian Orthodox Christianity after the conversion of  <roleName type="title">ʾaṣe
-                  </roleName> <persName ref="PRS9038Susenyos">Susǝnyos</persName> to Catholicism.<persName ref="PRS6225Lebdeyos">Lǝbdǝyos</persName> 
+                  </roleName> 
+                  <persName ref="PRS9038Susenyos">Susǝnyos</persName> to Catholicism.<persName ref="PRS6225Lebdeyos">Lǝbdǝyos</persName> 
                   is also considered to be the founder of the monastery of <placeName ref="LOC2874EndaAb">ʾƎndā ʾAbbā  Ṭaʿǝma Krǝstos</placeName> of
                   <placeName ref="LOC6171Waldeb">Wāldǝbbā</placeName>, where a cross that is believed to have belonged to 
                   <persName ref="PRS6225Lebdeyos">Lǝbdǝyos</persName> is venerated.</floruit>
@@ -75,15 +79,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <listRelation>
                   
                   <relation name="snap:AllianceWith"
-                     
-                     active="PRS6225Lebdeyos"
-                     passive="PRS4015Fasilada"
-                    ></relation>
+                         active="PRS6225Lebdeyos"
+                         passive="PRS4015Fasilada"/>
               
-                  <relation name="ecrm:P129i_is_subject_of" 
-                     active="PRS6225Lebdeyos"
-                     passive="LIT1472GadlaL"
-                    ></relation>
+                  <relation name="ecrm:P129i_is_subject_of"
+                         active="PRS6225Lebdeyos"
+                         passive="LIT1472GadlaL"/>
                </listRelation>
          </listPerson>
       
@@ -97,10 +98,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-                  
-                 

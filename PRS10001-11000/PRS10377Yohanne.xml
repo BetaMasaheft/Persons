@@ -3,7 +3,10 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS10377Yohanne">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="pers"
+     xml:lang="en"
+     xml:id="PRS10377Yohanne">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -53,15 +56,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ዮሐንስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Yoḥannǝs III</persName>
-               <persName><roleName type="title">ʾaṣe</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾaṣe</roleName>
+               </persName>
                <occupation type="ruler">Emperor</occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
-               <residence><placeName ref="LOC3577Gondar">Gondar</placeName></residence>
+               <residence>
+                  <placeName ref="LOC3577Gondar">Gondar</placeName>
+               </residence>
                <birth when="1797"/>
                <floruit notBefore="1840" notAfter="1873">He was the last puppet King of Zamana
                      Masāfǝnt on <date>29 August 1840</date>and he was deposed a year later because of
-                  his support for <roleName type="title">daǧǧāzmāč </roleName><persName ref="PRS10102Webeha">Wǝbe Ḫayla
+                  his support for <roleName type="title">daǧǧāzmāč </roleName>
+                  <persName ref="PRS10102Webeha">Wǝbe Ḫayla
                      Māryām</persName> in <date> 1841</date>. He was a defacto hostage of
                      Emperor <persName ref="PRS9430Tewodros">Tewodros II</persName> for 13 years and
                   detained at <placeName ref="LOC4547Maqdal">Maqdalā</placeName>.
@@ -70,8 +78,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </person>
             <listRelation>
                <relation name="snap:SonOf" active="PRS10377Yohanne" passive="PRS9142TaklaGi"/>
-               <relation name="snap:FriendshipFor" active="PRS10377Yohanne" passive="PRS1071dAbbadi"/>
-               <relation name="snap:AllianceWith" active="PRS10377Yohanne" passive="PRS10102Webeha"/>
+               <relation name="snap:FriendshipFor"
+                         active="PRS10377Yohanne"
+                         passive="PRS1071dAbbadi"/>
+               <relation name="snap:AllianceWith"
+                         active="PRS10377Yohanne"
+                         passive="PRS10102Webeha"/>
 
             </listRelation>
          </listPerson>

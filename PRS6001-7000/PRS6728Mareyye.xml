@@ -57,34 +57,34 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 
                <persName xml:lang="gez" xml:id="n1" type="birth">ማርዬ፡ ጉግሳ፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Mārǝyye Gugsā</persName>
-               <persName><roleName type="title">rās</roleName></persName>
+               <persName>
+                  <roleName type="title">rās</roleName>
+               </persName>
              
                <occupation type="ruler">governor</occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
-               <residence><placeName ref="LOC2385DabraT">Dabǝra Tābor</placeName></residence>
+               <residence>
+                  <placeName ref="LOC2385DabraT">Dabǝra Tābor</placeName>
+               </residence>
              
                <floruit when="1828" evidence="internal">He succeeded his brother, Yǝmām,  one of Warrasek (Yaǧǧu) ruler in<date> January 1828</date>. 
                   He was intially apointed to rule <placeName ref="LOC3549Gojjam">Goǧǧām</placeName> but his violent and oppressive nature led to his removal. 
                  </floruit>
                <death when="1831" evidence="internal">He died in the battle of Dabra Abāy, 
                   fighting against his  principal foe <persName ref="PRS8265Sabagadi">Sabāgādis (Subāgādis) Waldu</persName> 
-                  in <date> February 1831</date></death>
+                  in <date> February 1831</date>
+               </death>
             </person>
             <listRelation>
-               <relation name="snap:SonOf" 
-                  active="PRS6728Mareyye"
-                  passive="PRS4870GugsaMa"
-                 ></relation>
+               <relation name="snap:SonOf" active="PRS6728Mareyye" passive="PRS4870GugsaMa"/>
                <relation name="snap:BrotherOf"
-                  active="PRS6728Mareyye"
-                  passive="PRS3617DoriGug"
-                 ></relation>
+                         active="PRS6728Mareyye"
+                         passive="PRS3617DoriGug"/>
                <relation name="rel:enemyOf"
-                  active="PRS6728Mareyye"
-                  passive="PRS8265Sabagadi"
-                 ></relation>
-     </listRelation>
+                         active="PRS6728Mareyye"
+                         passive="PRS8265Sabagadi"/>
+            </listRelation>
          </listPerson>
          <listBibl type="editions">
             <bibl>
@@ -108,6 +108,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-               

@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Yāsāy</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -53,20 +53,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-           <persName xml:lang="gez" xml:id="n1" type="birth">ያሳይ፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ያሳይ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Yāsāy</persName>
                <persName xml:lang="gez" xml:id="n2" type="birth">ይሳይ፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">Yǝsāy</persName>
                <persName xml:lang="gez" xml:id="n3" type="birth">አሳይ፡</persName>
                <persName xml:lang="gez" corresp="#n3" type="normalized">ʾAsāy</persName>
-                  <persName><roleName type="title">ʾabbā </roleName></persName>
+                  <persName>
+                  <roleName type="title">ʾabbā </roleName>
+               </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   <occupation type="ecclesiastic"> saint </occupation>
               
                <floruit notBefore="1300" notAfter="1399">He was a saintly monk and contemporary of <persName ref="PRS1854Amdase">ʿAmda Ṣǝyon I</persName>. 
                   He is considered to have been the founder of the monastery of <placeName ref="LOC4518Mandab">Mandābbā Madḫāne ʾAlam</placeName>.
-                  He was one of the seven disciples of <roleName type="title">ʾabuna</roleName> <persName ref="PRS6445Madhanin">Madḫānina ʾƎgziʾ</persName>.
+                  He was one of the seven disciples of <roleName type="title">ʾabuna</roleName> 
+                  <persName ref="PRS6445Madhanin">Madḫānina ʾƎgziʾ</persName>.
                   He was the spritual father of <persName ref="PRS7598Nob">Nob</persName>, <persName ref="PRS3895estifano">ʾƎsṭifanos of Maqdasa Māryām</persName>, 
                   <persName ref="PRS8752senana">Ṣǝnʿana Krǝstos of Dabra Zayt</persName> and some others. </floruit>
              
@@ -75,15 +78,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
               
                   <relation name="snap:AllianceWith"
-                     active="PRS10253Yasay"
-                     passive="PRS1854Amdase"
-                    ></relation>
+                         active="PRS10253Yasay"
+                         passive="PRS1854Amdase"/>
                 
           
-                  <relation name="ecrm:P129i_is_subject_of" 
-                     active="PRS10253Yasay"
-                     passive="LIT1513GadlaY"
-                    ></relation>
+                  <relation name="ecrm:P129i_is_subject_of"
+                         active="PRS10253Yasay"
+                         passive="LIT1513GadlaY"/>
                </listRelation>
          </listPerson>
  
@@ -96,14 +97,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-                  
-               

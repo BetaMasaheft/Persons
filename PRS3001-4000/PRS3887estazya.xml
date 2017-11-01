@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
@@ -61,7 +61,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" corresp="#n2" type="normalized">Gabra ʾƎgziʾabǝḥer</persName>
             
                
-               <persName><roleName type="title">ʾalaqā</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾalaqā</roleName>
+               </persName>
                
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
@@ -79,24 +81,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   It seems that <persName ref="PRS3887estazya">ʾƎsṭazyā</persName>'s main interest was monumental wall-painting. 
                   He painted murals in the churches of <placeName ref="LOC5932Tegray">Tǝgrāy</placeName>, 
                   <placeName ref="LOC3577Gondar">Gondar</placeName>and <placeName ref="LOC2991Eritre">Eritrea</placeName>. </floruit>
-               <death when="1942"></death>
+               <death when="1942"/>
                
                
             </person>
             
             <listRelation>
                <relation name="snap:AllianceWith"
-                  active="PRS3887estazya"
-                  passive="PRS4228GabraGi"
-                 ></relation>
+                         active="PRS3887estazya"
+                         passive="PRS4228GabraGi"/>
                <relation name="bm:husbandOf"
-                  active="PRS3887estazya"
-                  passive="PRS9845Walatta"
-                 ></relation>
+                         active="PRS3887estazya"
+                         passive="PRS9845Walatta"/>
                <relation name="snap:FatherOf"
-                  active="PRS3887estazya"
-                  passive="PRS4091Fessame"
-                 ></relation>
+                         active="PRS3887estazya"
+                         passive="PRS4091Fessame"/>
                
                
             </listRelation>
@@ -116,9 +115,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-                  
-                  

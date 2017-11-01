@@ -53,8 +53,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <occupation type="other">donor</occupation>
             </person>
             <listRelation>
-               <relation name="lawd:hasAttestation" active="PRS10999BerhanaM" passive="BNFet45"/>
-               <relation name="syriaca:possibly-identical" mutual="PRS10999BerhanaM PRS10974BerhanaM"></relation>
+               <relation name="lawd:hasAttestation"
+                         active="PRS10999BerhanaM"
+                         passive="BNFet45"/>
+               <relation name="syriaca:possibly-identical"
+                         mutual="PRS10999BerhanaM PRS10974BerhanaM"/>
             </listRelation>
          </listPerson>
       </body>

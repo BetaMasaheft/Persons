@@ -54,7 +54,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
            
                      <persName xml:lang="gez" xml:id="n1" type="birth">ነአኵቶ፡ ለአብ፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Naʾakkʷǝto Laʾab</persName>
-               <persName><roleName type="title">ʾaṣe</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾaṣe</roleName>
+               </persName>
                
                   <occupation type="ruler">a saint king</occupation>
                <nationality type="Ethiopia"/>
@@ -62,25 +64,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <birth>1203</birth>
                <floruit when="1225" evidence="internal">He succeeded his uncle a saint King <persName ref="PRS6152Lalibala">Lalibalā</persName>. 
                     </floruit>
-                  <death  when="1250" cert="low" evidence="internal">around 1250</death>
+                  <death when="1250" cert="low" evidence="internal">around 1250</death>
             </person>
             <listRelation>
-               <relation name="snap:SonOf" 
-                  active="PRS7437Naakkwe"
-                  passive="PRS5111harbay" 
-                 ></relation>
-         <relation name="snap:BrotherOf"
-                  active="PRS6152Lalibala"
-                  passive="PRS5111harbay" 
-                 ></relation>
+               <relation name="snap:SonOf" active="PRS7437Naakkwe" passive="PRS5111harbay"/>
+               <relation name="snap:BrotherOf"
+                         active="PRS6152Lalibala"
+                         passive="PRS5111harbay"/>
                <relation name="snap:NieceOf"
-                  active="PRS7437Naakkwe"
-                  passive="PRS6152Lalibala"
-                 ></relation>
-               <relation name="ecrm:P129i_is_subject_of" 
-                  active="PRS7437Naakkwe"
-                  passive="LIT1484GadlaN"
-                 ></relation>
+                         active="PRS7437Naakkwe"
+                         passive="PRS6152Lalibala"/>
+               <relation name="ecrm:P129i_is_subject_of"
+                         active="PRS7437Naakkwe"
+                         passive="LIT1484GadlaN"/>
             </listRelation>
          </listPerson>
          <listBibl type="editions">
@@ -107,11 +103,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </body>
    </text>
 </TEI>
-
-
-
-
-
-
-                  
-                

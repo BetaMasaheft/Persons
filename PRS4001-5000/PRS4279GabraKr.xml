@@ -53,13 +53,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-             <persName xml:lang="gez" xml:id="n1" type="birth">ገብረ፡ ክርስቶስ፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ገብረ፡ ክርስቶስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Gabra Krǝstos</persName>
-                  <persName><roleName type="title">ʾabbā</roleName></persName>
+                  <persName>
+                  <roleName type="title">ʾabbā</roleName>
+               </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   <occupation type="ecclesiastic">monk</occupation>
-               <birth> <placeName ref="LOC4865Morat"> Morāt</placeName></birth>
+               <birth> 
+                  <placeName ref="LOC4865Morat"> Morāt</placeName>
+               </birth>
                <floruit notBefore="1350" notAfter="1400">He was a monk and a diciple of ʾabbā <persName ref="PRS10708ZenaMa">Zenā Mārqos</persName>,  who was the  head of the 
                   monastery of <placeName ref="LOC2249DabraB">Dabra Bǝśrāt</placeName>, in the first half of the fourteenth century. 
                   It is believed that he was  appointed as the nǝbura ʾǝd of <placeName ref="LOC2647Dembi">Dǝmbi</placeName> by  
@@ -69,38 +73,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </person>  
                <listRelation>
                 <relation name="bm:ordainedBy"
-                    active="PRS4279GabraKr"
-                     passive="PRS10200Yaeqob"
-                    ></relation>
+                         active="PRS4279GabraKr"
+                         passive="PRS10200Yaeqob"/>
                   <relation name="snap:AllianceWith"
-                     active="PRS4279GabraKr"
-                     passive="PRS10708ZenaMa"
-                    ></relation>
+                         active="PRS4279GabraKr"
+                         passive="PRS10708ZenaMa"/>
                   <relation name="snap:AllianceWith"
-                     active="PRS4279GabraKr"
-                     passive="PRS3932Ewostate"
-                    ></relation>
+                         active="PRS4279GabraKr"
+                         passive="PRS3932Ewostate"/>
                
                </listRelation>
          </listPerson>
          
          <listBibl type="secondary">
             <bibl> 
-       <ptr target="bm:Chernestsov2005GabraKrestos"/>
+               <ptr target="bm:Chernestsov2005GabraKrestos"/>
             </bibl>
             </listBibl>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-                  
-                  

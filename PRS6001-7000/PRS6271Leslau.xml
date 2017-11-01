@@ -57,7 +57,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName>
                   
                   <forename>Wolf</forename>
-                  <surname> Leslau</surname></persName>
+                  <surname> Leslau</surname>
+               </persName>
                
                <occupation type="academic">scholar</occupation>
                <nationality type="Poland"/>
@@ -70,13 +71,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listRelation>
                
                <relation name="snap:FriendshipFor"
-                  active="PRS6271Leslau"
-                  passive="PRS9622Ullendor"
-                  ></relation>
+                         active="PRS6271Leslau"
+                         passive="PRS9622Ullendor"/>
                <relation name="snap:AllianceWith"
-                  active="PRS6271Leslau"
-                  passive="PRS3148Cohen"
-                  ></relation>
+                         active="PRS6271Leslau"
+                         passive="PRS3148Cohen"/>
                
                
             </listRelation>
@@ -96,14 +95,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-               

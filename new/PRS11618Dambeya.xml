@@ -1,7 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS11618Dambeya" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="PRS11618Dambeya"
+     xml:lang="en"
+     type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -56,11 +61,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <floruit/>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS11618Dambeya" passive="LIT4275ChronAmdS"/>
-                    <relation name="snap:MotherOf" active="PRS11618Dambeya" passive="PRS11617Mesraqawit">                    </relation>
-                    <relation name="syriaca:possibly-identical" active="PRS11618Dambeya" passive="PRS10589ZanMan"></relation>
+                    <relation name="lawd:hasAttestation"
+                         active="PRS11618Dambeya"
+                         passive="LIT4275ChronAmdS"/>
+                    <relation name="snap:MotherOf"
+                         active="PRS11618Dambeya"
+                         passive="PRS11617Mesraqawit">                    </relation>
+                    <relation name="syriaca:possibly-identical"
+                         active="PRS11618Dambeya"
+                         passive="PRS10589ZanMan"/>
                 </listRelation>
-            </listPerson><!--queen? (possibly same as Žān Mangaśā? or actually the name of the region Dambeya?) mother of Mǝsraqāwit / Mǝsrāwit-->
+            </listPerson>
+         <!--queen? (possibly same as Žān Mangaśā? or actually the name of the region Dambeya?) mother of Mǝsraqāwit / Mǝsrāwit-->
         </body>
     </text>
 </TEI>

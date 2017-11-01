@@ -60,7 +60,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAḥmad an-Naǧāšī</persName>
                <persName xml:lang="gez" xml:id="n2" type="alt">ነጋሺ፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">Naǧāšī</persName>
-                  <persName><roleName type="title">nǝguś</roleName></persName>
+                  <persName>
+                  <roleName type="title">nǝguś</roleName>
+               </persName>
                   
                   <occupation type="ruler">king</occupation>
                   <nationality type="Aksumite"/>
@@ -75,9 +77,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </person>
                <listRelation>
                   <relation name="snap:AllianceWith"
-                     active="PRS1509Ahmadan"
-                     passive="PRS7216Muhammad"
-                     ></relation>
+                         active="PRS1509Ahmadan"
+                         passive="PRS7216Muhammad"/>
                   
                </listRelation>
          </listPerson>
@@ -95,6 +96,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-               

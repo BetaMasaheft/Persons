@@ -55,7 +55,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
        
                   <persName xml:lang="gez" xml:id="n1" type="birth">ንዋየ፡ ማርያም፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Nǝwāya Māryām</persName>
-               <persName><roleName type="title">ʾaṣe</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾaṣe</roleName>
+               </persName>
                   
                   <persName xml:lang="gez" xml:id="n2.1" type="regnal">ውድም፡ አስፈሬ፡</persName>
                <persName xml:lang="gez" corresp="#n2.1" type="normalized">Wǝdǝm ʾAsfare</persName>
@@ -71,18 +73,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </person>
             
             <listRelation>
-               <relation name="snap:SonOf" 
-                  active="PRS7559NewayaM"
-                  passive="PRS8595SayfaAr"
-                 ></relation>
+               <relation name="snap:SonOf" active="PRS7559NewayaM" passive="PRS8595SayfaAr"/>
                <relation name="snap:BrotherOf"
-                  active="PRS7559NewayaM"
-                  passive="PRS3429DawitII"
-                 ></relation>
+                         active="PRS7559NewayaM"
+                         passive="PRS3429DawitII"/>
             </listRelation>
          </listPerson>
          
-<listBibl type="editions">
+         <listBibl type="editions">
             <bibl>
                <ptr target="bm:Basset1882Chronicle"/>
             </bibl>
@@ -96,5 +94,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-            

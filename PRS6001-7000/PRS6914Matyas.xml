@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Mātyās</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -57,7 +57,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Mātyās</persName>
               <persName xml:lang="gez" xml:id="n2" type="birth">ጥሪተ፡ እግዚዕ፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">Ṭǝrita ʾƎgziʾ</persName>
-               <persName><roleName type="title">ʾabbā</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾabbā</roleName>
+               </persName>
                <nationality type="Egypt"/>
                <faith type="Coptic"/>
                <occupation type="ecclesiastic">saint</occupation>
@@ -65,27 +67,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <floruit> He was a monk of the 14th-15th century, considered to be by several hagiographic sources to have been the founder of the monastic community at 
                   <placeName ref="LOC1111Addeqe">ʿAddǝqe</placeName> of <placeName ref="LOC2991Eritre">Eritrea</placeName>. Though the date and place of birth is unknown clearly, 
                   he entered the monastery of <placeName ref="LOC2317DabraM">Dabra Māryām</placeName> of <placeName ref="LOC5271Qwahay">Qʷaḥayn</placeName>, which was founded by 
-                  <roleName type="title">ʾabbā</roleName> <persName ref="PRS1302Absadio">ʾAbsādi of Dabra Māryām</persName> in <date>1390/91</date>. 
+                  <roleName type="title">ʾabbā</roleName> 
+                  <persName ref="PRS1302Absadio">ʾAbsādi of Dabra Māryām</persName> in <date>1390/91</date>. 
                   He spent then the whole life in this monastery.</floruit>
-               <death></death>
+               <death/>
             </person>  
             <listRelation>
                <relation name="snap:AllianceWith"
-                  active="PRS10430Yohanni"
-                  passive="PRS4327GabraMa"
-                 ></relation>
+                         active="PRS10430Yohanni"
+                         passive="PRS4327GabraMa"/>
                <relation name="snap:FriendshipFor"
-                  active="PRS6914Matyas"
-                  passive="PRS9327Tawalda"
-                 ></relation>
+                         active="PRS6914Matyas"
+                         passive="PRS9327Tawalda"/>
                <relation name="snap:FriendshipFor"
-                  active="PRS6914Matyas"
-                  passive="PRS4123Fiqtoro"
-                 ></relation>
-               <relation name="ecrm:P129i_is_subject_of" 
-                  active="PRS6914Matyas"
-                  passive="LIT1482GadlaM"
-                  ></relation>
+                         active="PRS6914Matyas"
+                         passive="PRS4123Fiqtoro"/>
+               <relation name="ecrm:P129i_is_subject_of"
+                         active="PRS6914Matyas"
+                         passive="LIT1482GadlaM"/>
             </listRelation>
          </listPerson>
          <listBibl type="editions">
@@ -104,4 +103,4 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </listBibl>
       </body>
    </text>
-</TEI>        
+</TEI>

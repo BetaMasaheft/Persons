@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Yoḥanni of Dabra Sinā</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -55,31 +55,31 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ዮሐኒ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Yoḥanni</persName>
-               <persName><roleName type="title">ʾabbā</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾabbā</roleName>
+               </persName>
                <nationality type="Egypt"/>
                <faith type="Coptic"/>
                <occupation type="ecclesiastic">saint</occupation>
              
-               <floruit> According to the tradition, he was a saint of an Aksumite time who came from <placeName ref="gn:357994">Egypt</placeName>
+               <floruit> According to the tradition, he was a saint of an Aksumite time who came from <placeName ref="Q79">Egypt</placeName>
                   with his followers in the reign of either King  <persName ref="PRS5841Kaleb">Kāleb</persName> or 
                   <persName ref="PRS4327GabraMa">Gabra Masqal</persName>, or during the reign of a historical son of King  <persName ref="PRS5841Kaleb">Kāleb</persName> 
                   , <persName ref="PRS10178WZBW">WʿZB (Waʿzeb)</persName>. He is said to be the founder of the monastery of <placeName ref="LOC2379DabraS">Dabra Sinā</placeName> in 
-                  <placeName ref="LOC2991Eritre">Eritrea</placeName> </floruit>
-               <death></death>
+                  <placeName ref="LOC2991Eritre">Eritrea</placeName> 
+               </floruit>
+               <death/>
             </person>  
             <listRelation>
-             <relation name="snap:AllianceWith"
-                  active="PRS10430Yohanni"
-                  passive="PRS4327GabraMa"
-                 ></relation>
                <relation name="snap:AllianceWith"
-                  active="PRS10430Yohanni"
-                  passive="PRS5841Kaleb"
-                 ></relation>
+                         active="PRS10430Yohanni"
+                         passive="PRS4327GabraMa"/>
                <relation name="snap:AllianceWith"
-                  active="PRS10430Yohanni"
-                  passive="PRS10178WZBW"
-                 ></relation>
+                         active="PRS10430Yohanni"
+                         passive="PRS5841Kaleb"/>
+               <relation name="snap:AllianceWith"
+                         active="PRS10430Yohanni"
+                         passive="PRS10178WZBW"/>
                </listRelation>
          </listPerson>
          <listBibl type="secondary">
@@ -98,16 +98,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-                  
-                  

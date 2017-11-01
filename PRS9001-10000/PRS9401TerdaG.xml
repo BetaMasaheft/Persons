@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Tǝrdāʾ Gabaz</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -57,13 +57,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                   <persName xml:lang="gez" xml:id="n1" type="birth">ትርዳእ፡ ገበዝ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Tǝrdāʾ Gabaz</persName>
-                  <persName><roleName type="title"></roleName></persName>
+                  <persName>
+                  <roleName type="title"/>
+               </persName>
                   <nationality type="post-Aksumite"/>
                   <faith type="Christianity"/>
                   <occupation type="political">ruler</occupation>
             
                  
-               <floruit><persName ref="PRS9401TerdaG">Tǝrdāʾ Gabaz</persName> was  a legendary princess connected with  the transition from the
+               <floruit>
+                  <persName ref="PRS9401TerdaG">Tǝrdāʾ Gabaz</persName> was  a legendary princess connected with  the transition from the
                   ruling house of <placeName ref="LOC1310Aksum">ʾAksum</placeName> to the new dynasty of the Zāgʷe through her marriage into this family.
                   She was the likely daughter and successor of the last Aksumite king, <persName ref="PRS5327hezbaNa">Ḥǝzba Nāñ</persName>. </floruit>
                
@@ -71,9 +74,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <listRelation>
                   
                   <relation name="snap:DaughterOf"
-                     active="PRS9401TerdaG"
-                     passive="PRS5327hezbaNa"
-                    ></relation>
+                         active="PRS9401TerdaG"
+                         passive="PRS5327hezbaNa"/>
                   
                </listRelation>
          </listPerson>
@@ -86,11 +88,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-               

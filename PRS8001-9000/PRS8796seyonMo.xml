@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Ṣǝyon Mogasā</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -58,26 +58,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Ṣǝyon Mogasā</persName>
                   <persName xml:lang="gez" xml:id="n2" type="birth">ዣን፡ ከለላ፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">Žān Kallalā</persName>
-               <persName><roleName type="title">ʾǝtege</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾǝtege</roleName>
+               </persName>
                   <occupation type="political">queen</occupation>
                 
-               <floruit> She was a wife of <roleName type="title">ʾaṣe</roleName> <persName ref="PRS10626ZaraY">Zarʾa Yāʿǝqob</persName>. 
+               <floruit> She was a wife of <roleName type="title">ʾaṣe</roleName> 
+                  <persName ref="PRS10626ZaraY">Zarʾa Yāʿǝqob</persName>. 
                   She revolted against the emperor in <date>1460</date>. As a consquence she was beaten with rods and died shortly thereafter. 
                   Following her death the emperor took <persName ref="PRS3706eleni">ʾƎleni</persName>.
                   <persName ref="PRS8796seyonMo">Ṣǝyon Mogasā</persName> was buried secretly by her children at a church 
                   near <placeName ref="LOC2246DabraB">Dabra Bǝrhan</placeName>. </floruit>
-                  <death when="1462"></death>
+                  <death when="1462"/>
                </person>  
                <listRelation>
-                  <relation name="bm:wifeOf"
-                     active="PRS8796seyonMo"
-                     passive="PRS10626ZaraY"
-                    ></relation>
+                  <relation name="bm:wifeOf" active="PRS8796seyonMo" passive="PRS10626ZaraY"/>
                   
                   <relation name="snap:MotherOf"
-                     active="PRS8796seyonMo"
-                     passive="PRS2334BaedaM"
-                    ></relation>
+                         active="PRS8796seyonMo"
+                         passive="PRS2334BaedaM"/>
                   
                </listRelation>
          </listPerson>
@@ -99,16 +98,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-                  
-                  

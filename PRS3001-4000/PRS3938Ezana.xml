@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>ʿEzānā</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
            <author/>
          </titleStmt>
@@ -62,8 +62,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <occupation type="ruler">king</occupation>
                   <nationality type="Aksumite"/>
                   <faith type="Aksumite EOTC"/>
-                  <birth><date cert="medium">325</date></birth>
-                  <residence><placeName ref="LOC1310Aksum">ʾAksum</placeName></residence>
+                  <birth>
+                  <date cert="medium">325</date>
+               </birth>
+                  <residence>
+                  <placeName ref="LOC1310Aksum">ʾAksum</placeName>
+               </residence>
                <floruit notBefore="0330" notAfter="0370">He was a king of  <placeName ref="LOC1310Aksum">ʾAksum</placeName> reigned between <date>330</date> and <date>365/70</date>.
                   He was the first Aksumite king who was converted to Christianity. The prosperity and power of <placeName ref="LOC1310Aksum">ʾAksum</placeName> reached its zenith during his time. 
                      </floruit>
@@ -71,19 +75,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </person>
                <listRelation>
                   <relation name="snap:AllianceWith"
-                     
-                     active="PRS3938Ezana"
-                     passive="PRS8386SalamaI"></relation>
+                         active="PRS3938Ezana"
+                         passive="PRS8386SalamaI"/>
                      <relation name="snap:BrotherOf"
-                        
-                        active="PRS3938Ezana"
-                        passive="PRS4968hadefan"></relation>
-                     <relation name="snap:SonOf" 
-                        
-                        active="PRS3938Ezana"
-                        passive="PRS3729ellaAm"></relation>
+                         active="PRS3938Ezana"
+                         passive="PRS4968hadefan"/>
+                     <relation name="snap:SonOf" active="PRS3938Ezana" passive="PRS3729ellaAm"/>
                 
-         </listRelation>
+            </listRelation>
          </listPerson>
          
          <listBibl type="text">
@@ -100,8 +99,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listBibl type="secondary">
             <bibl>
         
-      <ptr target="bm:Sergew1972Ethiopianhistory"/>
-<citedRange unit="page">12-13, 15, 27, 31, 44, 69, 78, 81, 91-95, 100, 103-105, 107-109, 112, 123-124, 126, 143, 267 </citedRange>
+               <ptr target="bm:Sergew1972Ethiopianhistory"/>
+               <citedRange unit="page">12-13, 15, 27, 31, 44, 69, 78, 81, 91-95, 100, 103-105, 107-109, 112, 123-124, 126, 143, 267 </citedRange>
            </bibl> 
            <bibl> 
                <ptr target="bm:AvanziniEtAl2007EnAeInscriptions"/>
@@ -116,6 +115,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
        </body>
    </text>
 </TEI>
-
-                  
-               

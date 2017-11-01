@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Ḫāyla Malakot</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -53,9 +53,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-           <persName xml:lang="gez" xml:id="n1" type="birth">ኃይለ፡ መለኮት፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ኃይለ፡ መለኮት፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Ḫāyla Malakot</persName>
-              <persName><roleName type="title">nǝguś </roleName></persName>
+              <persName>
+                  <roleName type="title">nǝguś </roleName>
+               </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   <occupation type="political">king</occupation>
@@ -69,29 +71,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <persName ref="PRS9430Tewodros">Tewodros II</persName> invaded <placeName ref="LOC5597Sawa">
                      Šawā </placeName> and <persName ref="PRS5205haylaMa">Ḫāyla Malakot</persName> was defeated and seriously wounded.  </floruit>
                   
-               <death when="1855">He died in <date>1855</date> and buried <placeName ref="LOC2238DabraB">Dabra Baggǝʿ</placeName></death>
+               <death when="1855">He died in <date>1855</date> and buried <placeName ref="LOC2238DabraB">Dabra Baggǝʿ</placeName>
+               </death>
                </person>
                <listRelation>
-                  <relation name="snap:SonOf"
-                     active="PRS5205haylaMa"
-                     passive="PRS8346sahlase"
-                    ></relation>
+                  <relation name="snap:SonOf" active="PRS5205haylaMa" passive="PRS8346sahlase"/>
                   <relation name="snap:AllianceWith"
-                     active="PRS5205haylaMa"
-                     passive="PRS10062Warqitu"
-                    ></relation>
+                         active="PRS5205haylaMa"
+                         passive="PRS10062Warqitu"/>
               <relation name="snap:BrotherOf"
-                     active="PRS5205haylaMa"
-                     passive="PRS8602Sayfusa"
-                    ></relation>
+                         active="PRS5205haylaMa"
+                         passive="PRS8602Sayfusa"/>
                   <relation name="snap:FatherOf"
-                     active="PRS5205haylaMa"
-                     passive="PRS7006Menilek"
-                    ></relation>
+                         active="PRS5205haylaMa"
+                         passive="PRS7006Menilek"/>
                   <relation name="snap:GrandfatherOf"
-                     active="PRS5205haylaMa"
-                     passive="PRS10671Zawditu"
-                    ></relation>
+                         active="PRS5205haylaMa"
+                         passive="PRS10671Zawditu"/>
                  </listRelation>
          </listPerson>
          <listBibl type="editions">
@@ -114,17 +110,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>   
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-                  
-                  

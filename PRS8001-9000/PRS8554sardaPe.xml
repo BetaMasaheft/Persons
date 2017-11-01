@@ -57,7 +57,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" xml:id="n1" type="birth">ሠርፀ፡ ጴጥሮስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Śarḍa Ṗeṭros</persName>
           
-               <persName><roleName type="title">ʾabbā </roleName></persName>
+               <persName>
+                  <roleName type="title">ʾabbā </roleName>
+               </persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <occupation type="ecclesiastic"> saint </occupation>
@@ -68,29 +70,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   destroyed by the Muslims during the reign of King <persName ref="PRS8595SayfaAr">Sayfa Arʿad</persName>
                   
                </floruit>
-               <death></death>
+               <death/>
             </person>  
             <listRelation>
                
                <relation name="snap:AllianceWith"
-                  
-                  active="PRS8554sardaPe"
-                  passive="PRS3429DawitII"
-                 ></relation>
+                         active="PRS8554sardaPe"
+                         passive="PRS3429DawitII"/>
                <relation name="snap:AllianceWith"
-                  
-                  active="PRS8554sardaPe"
-                  passive="PRS2334BaedaM"
-                 ></relation>
+                         active="PRS8554sardaPe"
+                         passive="PRS2334BaedaM"/>
                <relation name="snap:AllianceWith"
-                  
-                  active="PRS8554sardaPe"
-                  passive="PRS10626ZaraY"
-                 ></relation>
-               <relation name="ecrm:P129i_is_subject_of" 
-                  active="PRS8554sardaPe"
-                  passive="LIT1498Gadlas"
-                 ></relation>
+                         active="PRS8554sardaPe"
+                         passive="PRS10626ZaraY"/>
+               <relation name="ecrm:P129i_is_subject_of"
+                         active="PRS8554sardaPe"
+                         passive="LIT1498Gadlas"/>
                
             </listRelation>
          </listPerson>
@@ -107,14 +102,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-

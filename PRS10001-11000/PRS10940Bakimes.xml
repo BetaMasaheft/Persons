@@ -48,13 +48,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName  xml:lang="gez"  xml:id="n1">በኪምስ፡</persName>
-               <persName  xml:lang="gez"  corresp="#n1">Bakimǝs</persName>
-               <persName  xml:lang="ar"  xml:id="n2" type="normalized">Bākīmūs</persName>
-               <occupation type="ecclesiastic"><roleName type="title">Abbot</roleName> of <placeName ref="INS0308DQ"/></occupation>
+               <persName xml:lang="gez" xml:id="n1">በኪምስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1">Bakimǝs</persName>
+               <persName xml:lang="ar" xml:id="n2" type="normalized">Bākīmūs</persName>
+               <occupation type="ecclesiastic">
+                  <roleName type="title">Abbot</roleName> of <placeName ref="INS0308DQ"/>
+               </occupation>
             </person>
             <listRelation>
-               <relation name="lawd:hasAttestation" active="PRS10940Bakimes" passive="BNFet32#a24"/>
+               <relation name="lawd:hasAttestation"
+                         active="PRS10940Bakimes"
+                         passive="BNFet32#a24"/>
             </listRelation>
          </listPerson>
       </body>

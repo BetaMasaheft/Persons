@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
@@ -57,15 +57,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
                <persName xml:lang="gez" xml:id="n1" type="birth">ሚናስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Minās</persName>
-               <persName><roleName type="title">ʾaṣe</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾaṣe</roleName>
+               </persName>
                <persName xml:lang="gez" xml:id="n2" type="birth">ሜናስ፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">Menās</persName>
                <persName xml:lang="gez" xml:id="n3" type="regnal">አድማስ፡ ሰገድ፡</persName>
-		<persName xml:lang="gez" corresp="n3" type="normalized">ʾAdmās Sagad</persName>
+		             <persName xml:lang="gez" corresp="n3" type="normalized">ʾAdmās Sagad</persName>
 
-		<occupation type="ruler">Emperor</occupation>
+		             <occupation type="ruler">Emperor</occupation>
                <birth when="1526"/>
-               <floruit notBefore="1559" notAfter="1563">He was the third son of <roleName type="title">ʾaṣe</roleName> <persName ref="PRS6229LebnaDe"></persName>.
+               <floruit notBefore="1559" notAfter="1563">He was the third son of <roleName type="title">ʾaṣe</roleName> 
+                  <persName ref="PRS6229LebnaDe"/>.
                   As a boy, Minās was prisoner of <persName ref="PRS1522Ahmadb">ʾAḥmad b. ʾIbrāhīm al-Ġāzī</persName>.
                   He was then freed in a prisoner exchange in <date>1544</date>. He succeeded his brother <roleName type="title">ʾaṣe</roleName>
                   <persName ref="PRS4428Galawdew">Galāwdewos</persName> in <date>1559</date>.  </floruit>
@@ -75,26 +78,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             
             <listRelation>
                      <relation name="snap:BrotherOf"
-                        active="PRS7102Minas" 
-                        passive="PRS4428Galawdew"/>
-               <relation name="snap:SonOf"
-                  active="PRS7102Minas"
-                  passive="PRS6229LebnaDe"/>
-               <relation name="snap:SonOf"
-                  active="PRS7102Minas"
-                  passive="PRS8275SablaD"/>
+                         active="PRS7102Minas"
+                         passive="PRS4428Galawdew"/>
+               <relation name="snap:SonOf" active="PRS7102Minas" passive="PRS6229LebnaDe"/>
+               <relation name="snap:SonOf" active="PRS7102Minas" passive="PRS8275SablaD"/>
                <relation name="snap:EmnityFor"
-                  active="PRS7102Minas"
-                  passive="PRS10343Yeshaq"
-                 ></relation>
+                         active="PRS7102Minas"
+                         passive="PRS10343Yeshaq"/>
                <relation name="ecrm:P129i_is_subject_of"
-                  active="PRS7102Minas"
-                  passive="LIT4330Minas"
-                 ></relation>
+                         active="PRS7102Minas"
+                         passive="LIT4330Minas"/>
            
                <relation name="snap:EmnityFor"
-                  active="PRS7102Minas"
-                  passive="PRS7692ozdemir"></relation>
+                         active="PRS7102Minas"
+                         passive="PRS7692ozdemir"/>
                   </listRelation>
                      
                   

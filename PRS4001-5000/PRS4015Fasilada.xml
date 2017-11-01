@@ -56,11 +56,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
             
-         <persName xml:lang="gez" xml:id="n1" type="birth">ፋሲለደስ፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ፋሲለደስ፡</persName>
                      <persName xml:lang="gez" corresp="#n1" type="normalized">Fāsiladas</persName>
                      <persName xml:lang="gez" xml:id="n2" type="birth">ፋሲል፡</persName>
                      <persName xml:lang="gez" corresp="#n2" type="normalized">Fāsil</persName>
-               <persName><roleName type="title">ʾaṣe</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾaṣe</roleName>
+               </persName>
                   <persName xml:lang="gez" xml:id="n3" type="regnal">ስልጣን፡ ሰገድ፡</persName>
                   <persName xml:lang="gez" corresp="#n3" type="normalized">Sǝlṭān Sagad I</persName>
                      <persName xml:lang="gez" xml:id="n4" type="regnal">ዓለም፡ ሰገድ፡</persName>
@@ -69,33 +71,32 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <occupation type="ruler">Emperor</occupation>
               <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
-               <residence><placeName ref="LOC3577Gondar">Gondar</placeName></residence>
-           <birth when="1603"/>
-               <floruit notAfter="1632"  notBefore="1667">He succeeded his father <roleName type="title">ʾaṣe</roleName><persName ref="PRS9038Susenyos">Susǝnyos</persName> in <date> 1632 </date>. 
+               <residence>
+                  <placeName ref="LOC3577Gondar">Gondar</placeName>
+               </residence>
+               <birth when="1603"/>
+               <floruit notAfter="1632" notBefore="1667">He succeeded his father <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS9038Susenyos">Susǝnyos</persName> in <date> 1632 </date>. 
                   He had grown up during the time of bitter religious controversy when his father <roleName type="title">ʾaṣe</roleName>
                   <persName ref="PRS9038Susenyos"/> helped the Jesuits for about 20 years in an attempt to introduce Roman Catholicism. 
                   However, he restored Orthodoxy on <date>18 June 1632</date>, which had been denounced during the reign of his father in favour of Catholicism. 
                      </floruit>
-                  <death when="1667"></death>
+                  <death when="1667"/>
                   </person>
                   <listRelation>
-               <relation name="snap:SonOf" 
-                  active="PRS4015Fasilada"
-                  passive="PRS9038Susenyos"
-                 ></relation>
+               <relation name="snap:SonOf"
+                         active="PRS4015Fasilada"
+                         passive="PRS9038Susenyos"/>
                <relation name="snap:BrotherOf"
-                  active="PRS4015Fasilada"
-                  passive="PRS4435Galawdew"
-                 ></relation>
+                         active="PRS4015Fasilada"
+                         passive="PRS4435Galawdew"/>
                <relation name="snap:BrotherOf"
-                  active="PRS4015Fasilada"
-                  passive="PRS10033Wangela"
-                 ></relation>
+                         active="PRS4015Fasilada"
+                         passive="PRS10033Wangela"/>
                <relation name="snap:FatherOf"
-                  active="PRS4015Fasilada"
-                  passive="PRS10375Yohanne"
-                ></relation>
-     </listRelation>
+                         active="PRS4015Fasilada"
+                         passive="PRS10375Yohanne"/>
+            </listRelation>
          </listPerson>
          <listBibl type="editions">
             <bibl>
@@ -115,6 +116,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </body>
    </text>
 </TEI>
-
-               
-               

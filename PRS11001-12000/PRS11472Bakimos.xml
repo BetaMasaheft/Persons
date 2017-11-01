@@ -47,12 +47,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName  xml:lang="gez" xml:id="n1">በኪሞስ፡</persName>
-               <persName  xml:lang="gez" type="normalized" corresp="#n1">Bakimos</persName>
+               <persName xml:lang="gez" xml:id="n1">በኪሞስ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Bakimos</persName>
             </person>
             <listRelation>
-               <relation name="saws:hasWritten" active="PRS11472Bakimos" passive="BAVet61#i9"/>
-               <relation name="saws:isAttributedAuthorOf" active="PRS11472Bakimos" passive="LIT4540Bakimos"/>
+               <relation name="saws:hasWritten"
+                         active="PRS11472Bakimos"
+                         passive="BAVet61#i9"/>
+               <relation name="saws:isAttributedAuthorOf"
+                         active="PRS11472Bakimos"
+                         passive="LIT4540Bakimos"/>
             </listRelation>
          </listPerson>
       </body>

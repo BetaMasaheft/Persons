@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Yāgbā Ṣǝyon</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -56,7 +56,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                   <persName xml:lang="gez" xml:id="n1" type="birth">ያግባ፡ ጽዮን፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Yāgbā Ṣǝyon</persName>
-               <persName><roleName type="title">ʾaṣe</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾaṣe</roleName>
+               </persName>
                   <persName xml:lang="gez" xml:id="n2" type="regnal">ሰሎሞን፡</persName>
                   <persName xml:lang="gez" corresp="#n2" type="normalized">Salomon</persName>
                <occupation type="ruler">Emperor</occupation>
@@ -70,14 +72,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </person>
             
             <listRelation>
-               <relation name="snap:SonOf" 
-                  active="PRS10215Yagbas"
-                  passive="PRS10303Yekunno"
-                 ></relation>
+               <relation name="snap:SonOf" active="PRS10215Yagbas" passive="PRS10303Yekunno"/>
                <relation name="snap:BrotherOf"
-                  active="PRS10215Yagbas"
-                  passive="PRS10111WedemR"
-                 ></relation>
+                         active="PRS10215Yagbas"
+                         passive="PRS10111WedemR"/>
               </listRelation>
          </listPerson>
          
@@ -96,4 +94,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-            

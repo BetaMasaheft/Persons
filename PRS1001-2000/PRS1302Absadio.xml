@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>ʾAbsādi of Dabra Māryām</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -53,41 +53,43 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-            <persName xml:lang="gez" xml:id="n1" type="birth">አብሳዲ፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">አብሳዲ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAbsādi</persName>
-                  <persName><roleName type="title">ʾabbā</roleName></persName>
+                  <persName>
+                  <roleName type="title">ʾabbā</roleName>
+               </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   <occupation type="ecclesiastic">saint</occupation>
-               <residence><placeName ref="LOC2313DabraM">Dabra Māryām</placeName></residence>
-               <birth>He was born in the province of <placeName ref="LOC2947Endart">ʾƎndartā</placeName></birth>
+               <residence>
+                  <placeName ref="LOC2313DabraM">Dabra Māryām</placeName>
+               </residence>
+               <birth>He was born in the province of <placeName ref="LOC2947Endart">ʾƎndartā</placeName>
+               </birth>
                <floruit>He was a monk of the monastery of <placeName ref="LOC2313DabraM">Dabra Māryām</placeName> in the 14th century and was a leader of 
                   <persName ref="PRS11207Ewostateans">ʾEwosṭāteans</persName> movement. He was a pupil of <persName ref="PRS3932Ewostate">ʾEwosṭatewos</persName> of 
                   <placeName ref="LOC2358DabraS">Dabra Ṣārbi</placeName>. He is still venerated as a saint in <placeName ref="LOC2991Eritre">Eritrea</placeName> and 
                   <placeName ref="LOC5932Tegray">Tǝgrāy</placeName>. He is represented as "the great masters" of the monastery of <placeName ref="LOC2313DabraM">Dabra Māryām</placeName>
-                  together with <roleName type="title">ʾabbā</roleName> <persName ref="PRS2050Aronof">ʾAron of Galilā</persName> in the entry of <title ref="LIT2375Synaxa">Sǝnkǝssār </title>
+                  together with <roleName type="title">ʾabbā</roleName> 
+                  <persName ref="PRS2050Aronof">ʾAron of Galilā</persName> in the entry of <title ref="LIT2375Synaxa">Sǝnkǝssār </title>
                   </floruit>
-                  <death when="1380"></death>
+                  <death when="1380"/>
                </person>  
                <listRelation>
                   <relation name="snap:BrotherOf"
-                     active="PRS1302Absadio"
-                     passive="PRS6768Marqorew"
-                    ></relation>
+                         active="PRS1302Absadio"
+                         passive="PRS6768Marqorew"/>
                   
                   <relation name="snap:AllianceWith"
-                     active="PRS1302Absadio"
-                     passive="PRS2050Aronof"
-                    ></relation>
+                         active="PRS1302Absadio"
+                         passive="PRS2050Aronof"/>
                   
                   <relation name="snap:AllianceWith"
-                     active="PRS1302Absadio"
-                     passive="PRS3932Ewostate"
-                    ></relation>
+                         active="PRS1302Absadio"
+                         passive="PRS3932Ewostate"/>
                   <relation name="ecrm:P129i_is_subject_of"
-                     active="PRS1302Absadio"
-                     passive="LIT1413GadlaA"
-                    ></relation>
+                         active="PRS1302Absadio"
+                         passive="LIT1413GadlaA"/>
                   
                </listRelation>
          </listPerson>
@@ -104,4 +106,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-             

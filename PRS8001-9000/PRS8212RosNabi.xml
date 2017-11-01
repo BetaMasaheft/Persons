@@ -60,7 +60,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" xml:id="n2" type="birth">ራስ፡ ባንየት፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">Rās Bānyāt</persName>
                   
-               <persName><roleName type="title">ʾazzāž , bāḥǝr Nagāš, bǝḥt waddad </roleName></persName>
+               <persName>
+                  <roleName type="title">ʾazzāž , bāḥǝr Nagāš, bǝḥt waddad </roleName>
+               </persName>
                   
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
@@ -78,20 +80,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      He also led several battles to defend the Christian kingdom from Muslims attacks.
                    
                   </floruit>
-                  <death></death>
+                  <death/>
                   
                   
                </person>  
                <listRelation>
                   
                   <relation name="snap:AllianceWith"
-                     active="PRS8212RosNabi"
-                     passive="PRS6229LebnaDe"
-                    ></relation>
-                  <relation name="rel:enemyOf"
-                     active="PRS8212RosNabi"
-                     passive="PRS1500Ahmad"
-                    ></relation>
+                         active="PRS8212RosNabi"
+                         passive="PRS6229LebnaDe"/>
+                  <relation name="rel:enemyOf" active="PRS8212RosNabi" passive="PRS1500Ahmad"/>
                   
                   
                </listRelation>
@@ -111,13 +109,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-                  
-                  

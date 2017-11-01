@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Lǝʿul Sagad ʾAṭnāf</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -57,7 +57,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Lǝʿul Sagad ʾAṭnāf</persName>
                <persName xml:lang="gez" xml:id="n2" type="horse">አባ፡ በላይ፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAbbā Balāy</persName>
-               <persName><roleName type="title">daǧǧāzmāč</roleName></persName>
+               <persName>
+                  <roleName type="title">daǧǧāzmāč</roleName>
+               </persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <occupation type="political"> governor</occupation>
@@ -65,32 +67,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
              
                <floruit>He was an important early 20th century politician who belonged to the powerful Addisge 
                   family of <placeName ref="LOC5597Sawa">Šawā</placeName>. Following the victory of  <placeName ref="LOC1263Adwa">ʾAdwā</placeName>in recognition 
-                  of his bravery <roleName type="title">ʾaṣe</roleName><persName ref="PRS7006Menilek">Mǝnilǝk II</persName>
+                  of his bravery <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS7006Menilek">Mǝnilǝk II</persName>
                   bestowed the  title of <roleName type="title">ligābā</roleName>. </floruit>
                <death when="1916">He died in the battle of <placeName ref="LOC5446Sagale">Sagale</placeName> in<date>1916</date>.  </death>  
             </person>  
             <listRelation>
-               <relation name="bm:husbandOf"
-                  
-                  active="PRS6274LeulSa"
-                  passive="PRS6642MananAs"
-                 ></relation>
+               <relation name="bm:husbandOf" active="PRS6274LeulSa" passive="PRS6642MananAs"/>
                <relation name="snap:BrotherOf"
-                  
-                  active="PRS6274LeulSa"
-                  passive="PRS1057AbbabaA"
-                 ></relation>
+                         active="PRS6274LeulSa"
+                         passive="PRS1057AbbabaA"/>
                <relation name="snap:AllianceWith"
-                  
-                  active="PRS6274LeulSa"
-                  passive="PRS7006Menilek"
-                 ></relation>
+                         active="PRS6274LeulSa"
+                         passive="PRS7006Menilek"/>
                
                <relation name="snap:NephewOf"
-                  
-                  active="PRS6274LeulSa"
-                  passive="PRS9265Tasamma"
-                 ></relation>
+                         active="PRS6274LeulSa"
+                         passive="PRS9265Tasamma"/>
                
             </listRelation>
          </listPerson>
@@ -103,15 +96,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-                  
-                  

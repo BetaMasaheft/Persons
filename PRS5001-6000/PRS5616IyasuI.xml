@@ -54,47 +54,42 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-            <persName xml:lang="gez" xml:id="n1" type="birth">ኢያሱ፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ኢያሱ፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">ʾIyāsu I</persName>
-               <persName><roleName type="title">ʾaṣe </roleName></persName>
+               <persName>
+                  <roleName type="title">ʾaṣe </roleName>
+               </persName>
                      <persName xml:lang="gez" xml:id="n2" type="regnal">አድያም፡ ሰገድ፡</persName>
                   <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAdyām Sagad</persName>
                <persName xml:lang="en" type="alt">ʾIyāsu the Great</persName>
                   <occupation type="ruler">Emperor</occupation>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
-               <residence><placeName ref="LOC3577Gondar"> Gondar</placeName></residence>
+               <residence>
+                  <placeName ref="LOC3577Gondar"> Gondar</placeName>
+               </residence>
                   <birth>1658/59</birth>
                <floruit when="1682" evidence="internal">He succeeded his father King <persName ref="PRS10375Yohanne">Yoḥannǝs I</persName> in <date> 1682</date>.
              </floruit>
-               <death when="1706" evidence="internal">He was persecuted by the order of his own son King <persName ref="PRS9152TaklaHa">Takla Hāymānot I</persName></death>
+               <death when="1706" evidence="internal">He was persecuted by the order of his own son King <persName ref="PRS9152TaklaHa">Takla Hāymānot I</persName>
+               </death>
             </person>
             <listRelation>
-               <relation name="snap:SonOf" 
-                  active="PRS5616IyasuI"
-                  passive="PRS10375Yohanne"
-                 ></relation>
-               <relation name="snap:SonOf" 
-                  active="PRS5616IyasuI"
-                  passive="PRS8278SablaWa"
-                 ></relation>
+               <relation name="snap:SonOf" active="PRS5616IyasuI" passive="PRS10375Yohanne"/>
+               <relation name="snap:SonOf" active="PRS5616IyasuI" passive="PRS8278SablaWa"/>
                <relation name="bm:husbandOf"
-                  active="PRS5616IyasuI"
-                  passive="PRS6578Malakota"
-                 ></relation>
-         <relation name="snap:FatherOf" 
-                  active="PRS5616IyasuI"
-                  passive="PRS9152TaklaHa"
-                 ></relation>
-               <relation name="snap:FatherOf" 
-                  active="PRS5616IyasuI"
-                  passive="PRS3430DawitII"
-                 ></relation>
-               <relation name="snap:FatherOf" 
-                  active="PRS5616IyasuI"
-                  passive="PRS2377Bakaffa"
-                 ></relation>
-       </listRelation>
+                         active="PRS5616IyasuI"
+                         passive="PRS6578Malakota"/>
+               <relation name="snap:FatherOf"
+                         active="PRS5616IyasuI"
+                         passive="PRS9152TaklaHa"/>
+               <relation name="snap:FatherOf"
+                         active="PRS5616IyasuI"
+                         passive="PRS3430DawitII"/>
+               <relation name="snap:FatherOf"
+                         active="PRS5616IyasuI"
+                         passive="PRS2377Bakaffa"/>
+            </listRelation>
          </listPerson>
          <listBibl type="editions">
             <bibl>
@@ -112,9 +107,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-                

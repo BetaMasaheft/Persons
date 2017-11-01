@@ -58,29 +58,32 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                   <persName xml:lang="gez" xml:id="n1" type="birth">በእደ፡ ማርያም፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Baʾǝda Māryām II</persName>
-                  <persName><roleName type="title">ʾaṣe</roleName></persName>
+                  <persName>
+                  <roleName type="title">ʾaṣe</roleName>
+               </persName>
                   
                   <occupation type="ruler">Emperor</occupation>
            
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
-               <residence><placeName ref="LOC3577Gondar"> Gondar</placeName></residence>
+               <residence>
+                  <placeName ref="LOC3577Gondar"> Gondar</placeName>
+               </residence>
                
            
                <floruit notBefore="1794" notAfter="1795">He was one of a series of nominal ruler during the Zamana Masāfǝnt 
-                  who replaced <roleName type="title">ʾaṣe</roleName> <persName ref="PRS9142TaklaGi"/>. 
+                  who replaced <roleName type="title">ʾaṣe</roleName> 
+                  <persName ref="PRS9142TaklaGi"/>. 
                   He was succeeded by <persName ref="PRS8422Salomon"/>.</floruit>
                  
                </person>
                <listRelation>
                   <relation name="snap:AllianceWith"
-                     active="PRS2335BaedaM"
-                     passive="PRS5222haylaMi"
-                     ></relation>
+                         active="PRS2335BaedaM"
+                         passive="PRS5222haylaMi"/>
                   <relation name="snap:AllianceWith"
-                     active="PRS2335BaedaM"
-                     passive="PRS1750Aligaz"
-                     ></relation>
+                         active="PRS2335BaedaM"
+                         passive="PRS1750Aligaz"/>
                   
                   
                   
@@ -107,7 +110,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-                 

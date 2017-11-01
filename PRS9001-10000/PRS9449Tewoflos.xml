@@ -55,7 +55,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ቴዎፍሎስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Tewoflos</persName>
-               <persName><roleName type="title">ʾaṣe</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾaṣe</roleName>
+               </persName>
                <persName xml:lang="gez" xml:id="n2" type="regnal">አጽራር፡ ሰገድ፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAṣrār Sagad</persName>
                
@@ -73,25 +75,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </person>
             <listRelation>
                <relation name="snap:BrotherOf"
-                  active="PRS9449Tewoflos"
-                  passive="PRS5616IyasuI"
-                 ></relation>
+                         active="PRS9449Tewoflos"
+                         passive="PRS5616IyasuI"/>
                <relation name="snap:AllianceWith"
-                  active="PRS9449Tewoflos"
-                  passive="PRS10473Yostos"
-                 ></relation>
+                         active="PRS9449Tewoflos"
+                         passive="PRS10473Yostos"/>
                <relation name="snap:AllianceWith"
-                  
-                  active="PRS9449Tewoflos"
-                  passive="PRS1280Abranyos"
-                  
-                 ></relation>
+                         active="PRS9449Tewoflos"
+                         passive="PRS1280Abranyos"/>
                <relation name="rel:enemyOf"
-                  
-                  active="PRS9449Tewoflos"
-                  passive="PRS6578Malakota"
-                  
-                 ></relation>
+                         active="PRS9449Tewoflos"
+                         passive="PRS6578Malakota"/>
        
             </listRelation>
          </listPerson>
@@ -118,6 +112,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    </text>
    
 </TEI>
-
-                  
-                  

@@ -64,37 +64,30 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <occupation type="ruler">queen</occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
-               <residence> <placeName ref="LOC3577Gondar"></placeName>Gondar</residence>
+               <residence> 
+                  <placeName ref="LOC3577Gondar"/>Gondar</residence>
              
                <floruit notBefore="1730" notAfter="1775">She was the most powerful political figure during the Gondarine time and she assumed a regency  
                   both during the reign of her son King <persName ref="PRS5617IyasuII">ʾIyāsu II</persName> and grandson King <persName ref="PRS5636IyoasI">ʾIyoʾas I</persName>. 
                    
                </floruit>
-               <death when="1775" evidence="internal"></death>
+               <death when="1775" evidence="internal"/>
             </person>
             <listRelation>
                <relation name="snap:MotherOf"
-                  active="PRS2682BerhanM"
-                  passive="PRS5617IyasuII"
-                 ></relation>
+                         active="PRS2682BerhanM"
+                         passive="PRS5617IyasuII"/>
                <relation name="snap:GrandmotherOf"
-                  active="PRS2682BerhanM"
-                  passive="PRS5636IyoasI"
-                 ></relation>
-               <relation name="bm:wifeOf"
-                  active="PRS2682BerhanM"
-                  passive="PRS2377Bakaffa"
-                  ></relation>
+                         active="PRS2682BerhanM"
+                         passive="PRS5636IyoasI"/>
+               <relation name="bm:wifeOf" active="PRS2682BerhanM" passive="PRS2377Bakaffa"/>
                <relation name="snap:AllianceWith"
-                  active="PRS2682BerhanM"
-                  passive="PRS7091Mikael"
-                 ></relation>
+                         active="PRS2682BerhanM"
+                         passive="PRS7091Mikael"/>
                <relation name="snap:FriendshipFor"
-                  active="PRS2682BerhanM"
-                  passive="PRS2916Bruce"
-                 ></relation>
-               <relation name="saws:isAttributedAuthorOf"
-                 ></relation>
+                         active="PRS2682BerhanM"
+                         passive="PRS2916Bruce"/>
+               <relation name="saws:isAttributedAuthorOf"/>
             </listRelation>
          </listPerson>
          <listBibl type="editions">
@@ -122,10 +115,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-               
-          

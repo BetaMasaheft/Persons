@@ -57,7 +57,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       
                <persName>
                   <forename>Eduard</forename>
-                  <surname>Rüppell</surname> </persName>
+                  <surname>Rüppell</surname> 
+               </persName>
   
                   <occupation type="academic">traveller</occupation>
                   <nationality type="Germany"/>
@@ -68,14 +69,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   commisioned to be copied by his field assistant and scribe <persName ref="PRS2183Asqu">ʾAṣqu</persName> and preserved in 
                      the <placeName ref="INS0317Frank">Frankfurt Stadt- und Universitätsbibliothek </placeName>
                </floruit>
-                  <death>1884<date>10 December 1884</date> </death>
+                  <death>1884<date>10 December 1884</date> 
+               </death>
             </person>
             <listRelation>
                <relation name="snap:AllianceWith"
-                  active="PRS8249Ruppell"
-                  passive="PRS2183Asqu"
-                 ></relation>
-       </listRelation>
+                         active="PRS8249Ruppell"
+                         passive="PRS2183Asqu"/>
+            </listRelation>
          </listPerson>
          <listBibl type="secondary">
             <bibl> 
@@ -85,17 +86,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <ptr target="bm:Rueppell1840Reise"/>
             </bibl>  
         
-        <bibl> 
+            <bibl> 
                <ptr target="bm:Goldschmidt1897catalogue"/>
             </bibl>  
-      <bibl> 
-         <ptr target="bm:Red2010Ruppell"/>
+            <bibl> 
+               <ptr target="bm:Red2010Ruppell"/>
             </bibl>
          </listBibl>
       </body>
    </text>
 </TEI>
-
-
-
-               

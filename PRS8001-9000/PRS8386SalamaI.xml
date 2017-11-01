@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Salāmā I Kaśāte Bǝrhān</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -57,8 +57,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Salāmā Kaśāte Bǝrhān</persName>
                <persName xml:lang="gez" xml:id="n2" type="birth">ፍሬምናጦስ፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">Fǝremnāṭos</persName>
-               <persName xml:lang="grek"  corresp="#3" type="normalized">Frumentius</persName>
-               <persName><roleName type="title">ʾabuna</roleName></persName>
+               <persName xml:lang="grek" corresp="#3" type="normalized">Frumentius</persName>
+               <persName>
+                  <roleName type="title">ʾabuna</roleName>
+               </persName>
                   <occupation type="ecclesiastic"> saint, bishop </occupation>
                   <nationality type="Egypt"/>
                   <faith type="EOTC"/>
@@ -68,29 +70,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   He introdcuced Christianity to
                   <placeName ref="LOC1310Aksum">ʾAksum</placeName>. He is considered as a saint not only in Ethiopian Orthodox church but also 
                   in Roman Catholic and Greek Orthodox Churches. </floruit>
-                  <death notBefore="0356" cert="high"></death>
+                  <death notBefore="0356" cert="high"/>
                </person>
             <listRelation>
                
                <relation name="bm:ordainedBy"
-                  
-                  active="PRS8386SalamaI"
-                  passive="PRS2209Athanasi"
-                 ></relation>
-               <relation name="ecrm:P129i_is_subject_of" 
-                  active="PRS8386SalamaI"
-                  passive="LIT1612Homily"
-                  ></relation>
-               <relation name="ecrm:P129i_is_subject_of" 
-                  active="PRS8386SalamaI"
-                  passive="LIT1492GadlaS"
-                 ></relation>
+                         active="PRS8386SalamaI"
+                         passive="PRS2209Athanasi"/>
+               <relation name="ecrm:P129i_is_subject_of"
+                         active="PRS8386SalamaI"
+                         passive="LIT1612Homily"/>
+               <relation name="ecrm:P129i_is_subject_of"
+                         active="PRS8386SalamaI"
+                         passive="LIT1492GadlaS"/>
                     
-     <relation name="snap:AllianceWith"
-                  
-                  active="PRS8386SalamaI" 
-                  passive="PRS3938Ezana"
-                 ></relation>
+               <relation name="snap:AllianceWith"
+                         active="PRS8386SalamaI"
+                         passive="PRS3938Ezana"/>
                   
                </listRelation>
          </listPerson>
@@ -99,14 +95,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <ptr target="bm:Fiaccadori2010SalamaI"/>
             </bibl> 
             <bibl> 
-               <ptr target="bm:Sergew1972Ethiopianhistory"/>"/>
+               <ptr target="bm:Sergew1972Ethiopianhistory"/>"/&gt;
                <citedRange unit="page">92, 103, 119, 171</citedRange>
             </bibl>
          </listBibl>
       </body>
    </text>
 </TEI>
-
-
-                  
-                  

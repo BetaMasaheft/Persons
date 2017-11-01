@@ -53,14 +53,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-            <persName xml:lang="gez" xml:id="n1" type="birth">ክርስቶስ፡ ተስፋነ፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ክርስቶስ፡ ተስፋነ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Krǝstos Tasfāna</persName>
-                 <persName><roleName type="title">ʿaqqābe saʿat</roleName></persName>
+                 <persName>
+                  <roleName type="title">ʿaqqābe saʿat</roleName>
+               </persName>
                   <occupation type="ecclesiastic"> abbot </occupation>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                 
-               <residence><placeName ref="INS0327DHE">Dabra Ḥayq ʾƎsṭifānos</placeName></residence>
+               <residence>
+                  <placeName ref="INS0327DHE">Dabra Ḥayq ʾƎsṭifānos</placeName>
+               </residence>
                <floruit when="1299">He was one of the illustrious early abbots of  <placeName ref="INS0327DHE">Dabra Ḥayq ʾƎsṭifānos</placeName> 
                      succeeded <persName ref="PRS10531Zaiyas">Zaʾiyasus</persName> in around <date>1299</date>. He lived in the vital period of 
                      King <persName ref="PRS1854Amdase">ʾAmda Ṣǝyon I</persName>. He was very close to the King and
@@ -68,17 +72,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      He was the owner of the manuscript of the <title ref="NALE28">Four Gospels</title>.
                      
                   </floruit>
-                  <death> <date>1339/40</date> </death>
+                  <death> 
+                  <date>1339/40</date> 
+               </death>
                </person>
                <listRelation>
                   <relation name="snap:AllianceWith"
-                     active="PRS6080Krestos"
-                     passive="PRS1854Amdase"
-                    ></relation>
+                         active="PRS6080Krestos"
+                         passive="PRS1854Amdase"/>
                   <relation name="snap:AllianceWith"
-                     active="PRS6080Krestos"
-                     passive="PRS10391Yohanne"
-                    ></relation>
+                         active="PRS6080Krestos"
+                         passive="PRS10391Yohanne"/>
                   
                   
                </listRelation>
@@ -91,7 +95,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
               <citedRange unit="page">14-15</citedRange>
                </bibl>  
                 
-      <bibl> 
+            <bibl> 
                <ptr target="bm:Taddesse1970Abbots"/>
                <citedRange unit="page">87-117</citedRange>
             </bibl>  
@@ -100,13 +104,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-                  
-                  

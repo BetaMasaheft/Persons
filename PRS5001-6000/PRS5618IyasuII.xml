@@ -60,7 +60,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" corresp="#n2" type="normalized">Baʿāla Ṣaggāb</persName>
                
              
-               <persName><roleName type="title">ʾaṣe</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾaṣe</roleName>
+               </persName>
                
             
                <nationality type="Ethiopia"/>
@@ -71,25 +73,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
               
                <floruit notBefore="1784" notAfter="1788">He was a puppet king of the early Zamana Masāfǝnt who was enthroned by the powerful 
-                  <roleName type="title">rās</roleName> <persName ref="PRS5258hayluYo"/> in <date>1784</date>.</floruit>
-               <death when="1788"></death>
+                  <roleName type="title">rās</roleName> 
+                  <persName ref="PRS5258hayluYo"/> in <date>1784</date>.</floruit>
+               <death when="1788"/>
                
             </person>
             
             <listRelation>
-               <relation name="snap:SonOf" 
-                  active="PRS5618IyasuII"
-                  passive="PRS2182Asqu"
-                  ></relation>
+               <relation name="snap:SonOf" active="PRS5618IyasuII" passive="PRS2182Asqu"/>
                   
                <relation name="snap:GrandsonOf"
-                  active="PRS5618IyasuII"
-                  passive="PRS5617IyasuII"
-                  ></relation>
+                         active="PRS5618IyasuII"
+                         passive="PRS5617IyasuII"/>
                <relation name="snap:GrandsonOf"
-                  active="PRS5618IyasuII"
-                  passive="PRS2682BerhanM"
-                  ></relation>
+                         active="PRS5618IyasuII"
+                         passive="PRS2682BerhanM"/>
                
             </listRelation>
          </listPerson>
@@ -103,6 +101,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-                  
-               

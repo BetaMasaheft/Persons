@@ -55,7 +55,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ጴጥሮስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Ṗeṭros</persName>
-               <persName><roleName type="title">ʾabuna</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾabuna</roleName>
+               </persName>
                <occupation type="ecclesiastic"> metropolitan </occupation>
                <nationality type="Egypt"/>
                <faith type="Coptic"/>
@@ -69,15 +71,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </person>
             <listRelation>
                <relation name="snap:AllianceWith"
-                  
-                  active="PRS7827Petros"
-                  passive="PRS4428Galawdew"
-                 ></relation>
+                         active="PRS7827Petros"
+                         passive="PRS4428Galawdew"/>
                <relation name="snap:AllianceWith"
-                  
-                  active="PRS7827Petros"
-                  passive="PRS10449YosabI"
-                 ></relation>
+                         active="PRS7827Petros"
+                         passive="PRS10449YosabI"/>
             </listRelation>
          </listPerson>
          <listBibl type="editions"> 
@@ -100,6 +98,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-      

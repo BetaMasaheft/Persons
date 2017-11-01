@@ -60,7 +60,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">ʾIyāsu II</persName>
                   <persName xml:lang="gez" xml:id="n2" type="nick">ቋረኛ፡ ኢያሱ፡</persName>
                   <persName xml:lang="gez" corresp="#n2" type="normalized">Qʷāraññā ʾIyāsu</persName>
-                  <persName><roleName type="title">ʾaṣe</roleName></persName>
+                  <persName>
+                  <roleName type="title">ʾaṣe</roleName>
+               </persName>
                <persName xml:lang="gez" xml:id="n3.1" type="regnal">አድያም፡ ሰገድ፡</persName>
                   <persName xml:lang="gez" corresp="#n3.1" type="normalized">ʾAdyām Sagad</persName>
                   <persName xml:lang="gez" xml:id="n3.2" type="regnal">ብርሃን፡ ሰገድ፡</persName>
@@ -69,28 +71,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <occupation type="ruler">Emperor</occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
-               <residence><placeName ref="LOC3577Gondar">Gondar</placeName></residence>
+               <residence>
+                  <placeName ref="LOC3577Gondar">Gondar</placeName>
+               </residence>
               <birth when="1723"/>
                <floruit when="1730" evidence="internal">He succeeded his father King <persName ref="PRS2377Bakaffa">Bakāffā</persName> in <date>1730</date>. 
                   He was seven years old when he became a king and his mother, the famous Gondarian queen <persName ref="PRS2682BerhanM">Bǝrhān Mogasā</persName>, was his regent, 
-                  who exercised the real political power together with her brother <roleName type="title">rās</roleName> <persName ref="PRS7585Niqolawo">Niqolāwos</persName>. 
+                  who exercised the real political power together with her brother <roleName type="title">rās</roleName> 
+                  <persName ref="PRS7585Niqolawo">Niqolāwos</persName>. 
                    </floruit>
-               <death when="1755" evidence="internal"></death>
+               <death when="1755" evidence="internal"/>
             </person>
             <listRelation>
-               <relation name="snap:SonOf" 
-                  active="PRS5617IyasuII"
-                  passive="PRS2377Bakaffa"                  
-                 ></relation>
+               <relation name="snap:SonOf" active="PRS5617IyasuII" passive="PRS2377Bakaffa"/>
            
                <relation name="snap:FatherOf"
-                  active="PRS5617IyasuII"
-                  passive="PRS5636IyoasI"
-                 ></relation>
-               <relation name="snap:SonOf"
-                  active="PRS5617IyasuII"
-                  passive="PRS2682BerhanM"
-                 ></relation>
+                         active="PRS5617IyasuII"
+                         passive="PRS5636IyoasI"/>
+               <relation name="snap:SonOf" active="PRS5617IyasuII" passive="PRS2682BerhanM"/>
                 </listRelation>
          </listPerson>
          <listBibl type="editions">
@@ -117,8 +115,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-              

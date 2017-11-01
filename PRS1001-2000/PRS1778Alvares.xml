@@ -53,29 +53,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>Francisco Alvares</persName>
-          <occupation type="ecclesiastic">a priest</occupation>
+               <occupation type="ecclesiastic">a priest</occupation>
                <nationality type="Portugal"/>
                <faith type="Catholicism"/>
                <birth>1460</birth>
                <residence>He was in the court of King <persName ref="PRS6229LebnaDe">Lǝbna Dǝngǝl</persName> for six years</residence>
                <floruit when="1520" evidence="internal">He wrote a lengthy account of his eventual six year stay <date> 1520-1526 </date> in highland Ethiopia, the first comprehensive original work.
               </floruit>
-               <death> He died before <date>1542</date></death>
+               <death> He died before <date>1542</date>
+               </death>
             </person>
             <listRelation>
                <relation name="snap:AllianceWith"
-                  active="PRS1778Alvares"
-                  passive="PRS6679ManoelI" 
-                 ></relation>
+                         active="PRS1778Alvares"
+                         passive="PRS6679ManoelI"/>
                <relation name="snap:AllianceWith"
-                  active="PRS1778Alvares"
-                  passive="PRS3779enbaqom"
-                 ></relation>
+                         active="PRS1778Alvares"
+                         passive="PRS3779enbaqom"/>
                <relation name="snap:AllianceWith"
-                  active="PRS1778Alvares"
-                  passive="PRS6229LebnaDe"
-                 ></relation>
-      </listRelation>
+                         active="PRS1778Alvares"
+                         passive="PRS6229LebnaDe"/>
+            </listRelation>
          </listPerson>
          <listBibl type="editions">
             <bibl>
@@ -85,10 +83,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <ptr target="bm:Boavida2011PaezII"/>
             </bibl>
          </listBibl>
-       <bibl>
+         <bibl>
                <ptr target="bm:Beckingham1961PresterJohn"/>
             </bibl>
-      <listBibl type="secondary">
+         <listBibl type="secondary">
             <bibl> 
                <ptr target="bm:Beckingham1961Alvares"/>
             </bibl>  
@@ -101,6 +99,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-            

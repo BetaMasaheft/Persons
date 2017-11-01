@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Isaac of Nineveh</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -57,7 +57,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                <persName xml:lang="gez" xml:id="n1" type="birth">ማር፡ ይስሐቅ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Mār Yǝṣḥaq</persName>
-               <persName><roleName type="title">ʾabbā </roleName></persName>
+               <persName>
+                  <roleName type="title">ʾabbā </roleName>
+               </persName>
                <nationality type="Syria"/>
                <faith type="Syriac"/>
                <occupation type="ecclesiastic">bishop</occupation>
@@ -71,13 +73,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </person>  
             <listRelation>
                <relation name="saws:isAttributedAuthorOf"
-                  active="PRS5581Isaacof"
-                  passive="LIT1948Mashaf"
-                 ></relation>
+                         active="PRS5581Isaacof"
+                         passive="LIT1948Mashaf"/>
                <relation name="saws:isAttributedAuthorOf"
-                  active="PRS5581Isaacof"
-                  passive="LIT4160Salota"
-                 ></relation>
+                         active="PRS5581Isaacof"
+                         passive="LIT4160Salota"/>
             </listRelation>
          </listPerson>
          
@@ -90,17 +90,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-
-               

@@ -55,23 +55,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
               <persName xml:lang="gez" xml:id="n1" type="birth">እንግዳ፡ ወርቅ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾƎngǝdā Warq</persName>
-                  <persName><roleName type="title">ʾalaqā, Ṣaḥāfe tǝʿǝzāz</roleName></persName>
+                  <persName>
+                  <roleName type="title">ʾalaqā, Ṣaḥāfe tǝʿǝzāz</roleName>
+               </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   <occupation type="ecclesiastic">chronicler</occupation>
-                  <birth></birth>
-               <floruit>He was the chief secretary of <roleName type="title">ʾaṣe</roleName><persName ref="PRS9430Tewodros">Tewodros II</persName>.</floruit>
+                  <birth/>
+               <floruit>He was the chief secretary of <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS9430Tewodros">Tewodros II</persName>.</floruit>
                <death when="1868"> He was executed along other prisoners in <placeName ref="LOC4547Maqdal">Maqdalā</placeName>. </death>
                </person>  
                <listRelation>
-          <relation name="snap:AllianceWith"
-                     active="PRS3808engedaW"
-                     passive="PRS9430Tewodros"
-                    ></relation>
+               <relation name="snap:AllianceWith"
+                         active="PRS3808engedaW"
+                         passive="PRS9430Tewodros"/>
                   <relation name="snap:FriendshipFor"
-                     active="PRS3808engedaW"
-                     passive="PRS10603Zannab"
-                    ></relation>
+                         active="PRS3808engedaW"
+                         passive="PRS10603Zannab"/>
             
               
                </listRelation>
@@ -88,17 +89,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-                  
-                  

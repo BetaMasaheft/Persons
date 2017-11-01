@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Ṗeṭros I</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -55,7 +55,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ጴጥሮስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Ṗeṭros I</persName>
-                  <persName><roleName type="title">ʾabuna</roleName></persName>
+                  <persName>
+                  <roleName type="title">ʾabuna</roleName>
+               </persName>
                <occupation type="ecclesiastic">metropolitan</occupation>
                
                <nationality type="Egypt"/>
@@ -63,21 +65,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
              
                
                <floruit notBefore="0920" notAfter="0932">He was chosen and consecrated by the <persName ref="PRS3203CosmasI">Cosmas III</persName>. 
-                  He was succeeded by <roleName type="title">ʾabuna</roleName><persName ref="PRS3330Daneel">Dānǝʾel</persName>. </floruit>
-               <death></death>
+                  He was succeeded by <roleName type="title">ʾabuna</roleName>
+                  <persName ref="PRS3330Daneel">Dānǝʾel</persName>. </floruit>
+               <death/>
             </person>
             <listRelation>
               
             
                <relation name="bm:ordainedBy"
-                  active="PRS11305PetrosI"
-                  passive="PRS3203CosmasI"
-                 ></relation>
+                         active="PRS11305PetrosI"
+                         passive="PRS3203CosmasI"/>
                <relation name="snap:AllianceWith"
-                  active="PRS11305PetrosI"
-                  passive="PRS3330Daneel"
-                  
-                 ></relation>
+                         active="PRS11305PetrosI"
+                         passive="PRS3330Daneel"/>
                         
             </listRelation>
          </listPerson>
@@ -91,12 +91,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-               

@@ -58,7 +58,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʿAmda Masqal</persName>
                <persName xml:lang="gez" xml:id="n2" type="nick">ዓምደ፡ ሰይጣን፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">ʿAmda Sayṭān</persName>
-                  <persName><roleName type="title">bitwaddad</roleName></persName>
+                  <persName>
+                  <roleName type="title">bitwaddad</roleName>
+               </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   <occupation type="political">courtier</occupation>
@@ -71,13 +73,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                   
                   <relation name="snap:AllianceWith"
-                     active="PRS1846AmdaMa"
-                     passive="PRS10626ZaraY"
-                    ></relation>
-                  <relation name="bm:husbandOf"
-                     active="PRS1846AmdaMa"
-                     passive="PRS2683BerhanZ"
-                    ></relation>
+                         active="PRS1846AmdaMa"
+                         passive="PRS10626ZaraY"/>
+                  <relation name="bm:husbandOf" active="PRS1846AmdaMa" passive="PRS2683BerhanZ"/>
                   </listRelation>
          </listPerson>
          
@@ -97,16 +95,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-                  

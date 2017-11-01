@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Takla Śǝllāse</title>
-          <author/>
+            <author/>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
@@ -57,13 +57,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Takla Śǝllāse</persName>
                   <persName xml:lang="gez" xml:id="n2" type="nick">ጢኖ፡</persName>
                   <persName xml:lang="gez" corresp="#n2" type="normalized">Ṭino (it is an Oromifa word which refers to a person of a small stature)</persName>
-               <persName><roleName type="title">ʾazzāž, Ṣaḥāfe tǝʿǝzāz</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾazzāž, Ṣaḥāfe tǝʿǝzāz</roleName>
+               </persName>
     
                <occupation type="literary">royal chronicler</occupation>
-             <nationality type="Ethiopia"/>
+               <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
              
-               <residence>He was in the court of  King <persName ref="PRS9038Susenyos">Susǝnyos</persName></residence>
+               <residence>He was in the court of  King <persName ref="PRS9038Susenyos">Susǝnyos</persName>
+               </residence>
                <floruit when="1612" evidence="internal">He joined to  court of King <persName ref="PRS9038Susenyos">Susǝnyos</persName>in <date>1612</date> and 
                   he served in the royal court until <date>1628/29</date>. He was an Oromo by origin. He was one of the main royal chronicler of the king. 
                   He was also the counsellor and intimate friend of King <persName ref="PRS9038Susenyos">Susǝnyos</persName>
@@ -74,21 +77,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </person>
             <listRelation>
                <relation name="snap:AllianceWith"
-                  active="PRS9194Taklase"
-                  passive="PRS9038Susenyos" 
-                 ></relation>
+                         active="PRS9194Taklase"
+                         passive="PRS9038Susenyos"/>
                <relation name="snap:AllianceWith"
-                  active="PRS9194Taklase"
-                  passive="PRS7699Paez"
-                 ></relation>
+                         active="PRS9194Taklase"
+                         passive="PRS7699Paez"/>
                <relation name="snap:AllianceWith"
-                  active="PRS9194Taklase"
-                  passive="PRS8681SeelaK"
-                 ></relation>
+                         active="PRS9194Taklase"
+                         passive="PRS8681SeelaK"/>
                <relation name="snap:AllianceWith"
-                  active="PRS9194Taklase"
-                  passive="PRS8681SeelaK"
-                 ></relation>
+                         active="PRS9194Taklase"
+                         passive="PRS8681SeelaK"/>
                
             </listRelation>
          </listPerson>
@@ -110,6 +109,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-

@@ -55,12 +55,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ማርቆስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Mārqos IV</persName>
-               <persName><roleName type="title">ʾabuna</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾabuna</roleName>
+               </persName>
                <occupation type="ecclesiastic"> metropolitan </occupation>
                <nationality type="Egypt"/>
                <faith type="Coptic"/>
              
-               <residence><placeName ref="LOC3577Gondar"> Gondar</placeName></residence>
+               <residence>
+                  <placeName ref="LOC3577Gondar"> Gondar</placeName>
+               </residence>
                
                <floruit when="1692">He was a metropolitan of the Ethiopian Orthodox Church who was consecrated by the Coptic Patriarch 
                   <persName ref="PRS5711JohnXVI">John XVI</persName> to replace ʾabuna 
@@ -68,28 +72,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   Indeed, he arrived in Ethiopia  in <date>1689 </date> when <persName ref="PRS8870Sinoda">Sinodā</persName> was still in his episcopate. However, King <persName ref="PRS5616IyasuI">ʾIyāsu I</persName> was 
                   dissatisfied with ʾabuna <persName ref="PRS8870Sinoda">Sinodā </persName> and requested <persName ref="PRS5711JohnXVI">John XVI</persName> to consecrate <persName ref="PRS6777Marqos">Mārqos IV</persName> instead of him.
                   His successor was <persName ref="PRS6072Krestodo">Krǝstodolu [III]</persName>.</floruit>
-               <death>He died on <date>5 July 1716</date></death>
+               <death>He died on <date>5 July 1716</date>
+               </death>
             </person>
             <listRelation>
                <relation name="bm:ordainedBy"
-                  active="PRS6777Marqos"
-                  passive="PRS5711JohnXVI"
-                 ></relation>
+                         active="PRS6777Marqos"
+                         passive="PRS5711JohnXVI"/>
                <relation name="snap:AllianceWith"
-                  
-                  active="PRS6777Marqos"
-                  passive="PRS5616IyasuI"
-                 ></relation>
+                         active="PRS6777Marqos"
+                         passive="PRS5616IyasuI"/>
                <relation name="snap:AllianceWith"
-                  
-                  active="PRS6777Marqos"
-                  passive="PRS9152TaklaHa"
-                 ></relation>
+                         active="PRS6777Marqos"
+                         passive="PRS9152TaklaHa"/>
                <relation name="snap:AllianceWith"
-                  
-                  active="PRS6777Marqos"
-                  passive="PRS7925Poncet"
-                 ></relation>
+                         active="PRS6777Marqos"
+                         passive="PRS7925Poncet"/>
                
             </listRelation>
          </listPerson>
@@ -109,12 +107,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-      
-                

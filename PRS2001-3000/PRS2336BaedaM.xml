@@ -59,26 +59,30 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                   <persName xml:lang="gez" xml:id="n1" type="birth">በእደ፡ ማርያም፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Baʾǝda Māryām III</persName>
-                  <persName><roleName type="title">ʾaṣe</roleName></persName>
+                  <persName>
+                  <roleName type="title">ʾaṣe</roleName>
+               </persName>
                   
                   <occupation type="ruler">Emperor</occupation>
                   
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
-                  <residence><placeName ref="LOC3577Gondar">Gondar</placeName></residence>
+                  <residence>
+                  <placeName ref="LOC3577Gondar">Gondar</placeName>
+               </residence>
                   
                   
                <floruit when="1826">He was one of rulers of the Zamana Masāfǝnt. He was  
-                  placed on the throne by <roleName type="title">daǧǧāzmāč</roleName> <persName ref="PRS5213haylaMa"/> 
+                  placed on the throne by <roleName type="title">daǧǧāzmāč</roleName> 
+                  <persName ref="PRS5213haylaMa"/> 
                   at mount <placeName ref="LOC4543Manta"/> in <date>1826</date>. He was succeeded by <roleName type="title">ʾaṣe</roleName>
                   <persName ref="PRS4661Gigar"/> in <date>1826</date>. </floruit>
                   
                </person>
                <listRelation>
                   <relation name="snap:AllianceWith"
-                     active="PRS2336BaedaM"
-                     passive="PRS5213haylaMa"
-                     ></relation>
+                         active="PRS2336BaedaM"
+                         passive="PRS5213haylaMa"/>
                   
                   
                   
@@ -102,8 +106,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-                 

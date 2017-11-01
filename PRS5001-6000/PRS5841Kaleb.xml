@@ -61,12 +61,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" corresp="#n2" type="normalized">ʾƎlla ʾAṣbǝḥa</persName>
                <persName xml:lang="gez" xml:id="n3" type="reignal">እለ፡ አጽበሐ፡</persName>
                <persName xml:lang="gez" corresp="#n3" type="normalized">ʾƎlla ʾAṣbaḥa</persName>
-               <persName><roleName type="title">ʾaṣe</roleName></persName>
-            <occupation type="ruler">Emperor</occupation>
+               <persName>
+                  <roleName type="title">ʾaṣe</roleName>
+               </persName>
+               <occupation type="ruler">Emperor</occupation>
                <nationality type="Aksumite"/>
                <faith type="Christianity"/>
              
-               <residence><placeName ref="LOC1310Aksum">ʾAksum</placeName></residence>
+               <residence>
+                  <placeName ref="LOC1310Aksum">ʾAksum</placeName>
+               </residence>
                   
                <floruit>He was a king of  Aksum in the first half of the 6th century. He is also venerated as a saint in the Ethiopian Orthodox Church. He is largely known for his military expedition against 
                   <placeName ref="gn:69543">Yemen</placeName>  in <date>520</date>.
@@ -74,19 +78,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
             </person>
             <listRelation>
-               <relation name="snap:SonOf" 
-                  active="PRS5841Kaleb"
-                  passive="PRS9357Tazena"
-                 ></relation>
+               <relation name="snap:SonOf" active="PRS5841Kaleb" passive="PRS9357Tazena"/>
            
-               <relation name="ecrm:P129i_is_subject_of" 
-                  active="PRS5841Kaleb"
-                  passive="LIT2815RepCh99"
-                 ></relation>
-               <relation name="ecrm:P129i_is_subject_of" 
-                  active="PRS5841Kaleb"
-                  passive="LIT1704Kaleb"
-                 ></relation>
+               <relation name="ecrm:P129i_is_subject_of"
+                         active="PRS5841Kaleb"
+                         passive="LIT2815RepCh99"/>
+               <relation name="ecrm:P129i_is_subject_of"
+                         active="PRS5841Kaleb"
+                         passive="LIT1704Kaleb"/>
          
                
                
@@ -96,7 +95,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listBibl type="editions">
             <bibl>
                <ptr target="bm:Basset1882Chronicle"/>
-               <citedRange unit="page"></citedRange>
+               <citedRange unit="page"/>
             </bibl>
             <bibl>
                

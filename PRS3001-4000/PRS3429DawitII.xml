@@ -53,29 +53,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-           <persName xml:lang="gez" xml:id="n1" type="birth">ዳዊት፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ዳዊት፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Dāwit I</persName>
-               <persName><roleName type="title">ʾaṣe</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾaṣe</roleName>
+               </persName>
                       <persName xml:lang="gez" xml:id="n2" type="regnal">ቈስጠንጢኖስ</persName>
                      <persName xml:lang="gez" corresp="n2" type="normalized">Qʷasṭanṭinos</persName>
            
                   <occupation type="ruler">Emperor</occupation>
                  
-               <floruit notBefore="1380" notAfter="1413">He succeeded his brother <roleName type="title">ʾaṣe</roleName><persName ref="PRS7559NewayaM">Nǝwāya Māryām</persName> in <date>1380</date>.
+               <floruit notBefore="1380" notAfter="1413">He succeeded his brother <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS7559NewayaM">Nǝwāya Māryām</persName> in <date>1380</date>.
                   Numerous works said to have been translated during his reign.  
                 </floruit>
                   <death when="1413" evidence="internal">1413</death>
             </person>
                
                <listRelation>
-                  <relation name="snap:SonOf" 
-                     active="PRS3429DawitII"
-                     passive="PRS8595SayfaAr"
-                    ></relation>
+                  <relation name="snap:SonOf" active="PRS3429DawitII" passive="PRS8595SayfaAr"/>
                   <relation name="snap:BrotherOf"
-                     active="PRS3429DawitII"
-                     passive="PRS7559NewayaM"
-                     ></relation>
+                         active="PRS3429DawitII"
+                         passive="PRS7559NewayaM"/>
                </listRelation>
          </listPerson>
         <listBibl type="editions">
@@ -91,9 +90,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </body>
    </text>
 </TEI>
-
-
-           
-            
-                  
-         

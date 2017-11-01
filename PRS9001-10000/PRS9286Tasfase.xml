@@ -57,60 +57,54 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Tasfā Ṣǝyon</persName>
                <persName xml:lang="gez" xml:id="n2" type="monastic">ጴጥሮስ፡</persName>
                <persName xml:lang="gez" corresp="#n2.1" type="normalized">ṗeṭros</persName>
-               <persName xml:lang="it" corresp="#n2.2"  type="normalized">Petrus Aethiops</persName>
+               <persName xml:lang="it" corresp="#n2.2" type="normalized">Petrus Aethiops</persName>
              
-               <persName><roleName type="title">ʾabbā, Professor </roleName></persName>
+               <persName>
+                  <roleName type="title">ʾabbā, Professor </roleName>
+               </persName>
                
                <nationality type="Ethiopia"/>
             
                
                <occupation type="ecclesiastic">monk, scholar</occupation>
-               <birth notBefore="1508" notAfter="1510"></birth>
+               <birth notBefore="1508" notAfter="1510"/>
                
-               <floruit>He was an Ethiopian monk renowned for his activity in <placeName ref="gn:3169070">Rome</placeName> at 
+               <floruit>He was an Ethiopian monk renowned for his activity in <placeName ref="Q220">Rome</placeName> at 
                   <placeName ref="INS0302SanStefano">Santo Stefano dei Mori</placeName> in <date>1536</date>.
                   He was the most learned medieval Ethiopian scholar and  an expert in Amharic, Gǝʿǝz, Arabic, Italian and Latin.  
                   He played a pivotal role in the two-year long preparation of one of the most important Ethiopic <title ref="LIT2463Testam">Testamentum Novum</title> 
                   which was printed in two volumes. Very little is known about his career and education in <placeName ref="LOC3010Ethiop">Ethiopia</placeName>. 
                   But he was born from noble parents and his life was severely troubled by the Muslim wars waged by <persName ref="PRS1500Ahmad">ʾAḥmad</persName> 
-                  against the Christian kingdom of Ethiopia. He spent a few years as a pilgrim in <placeName ref="gn:281184">Jerusalem</placeName> and then he moved to 
-                  <placeName ref="gn:3169070">Rome</placeName> where he lived for 12 years.</floruit>
-               <death notBefore="1550" notAfter="1552"></death>
+                  against the Christian kingdom of Ethiopia. He spent a few years as a pilgrim in <placeName ref="Q1218">Jerusalem</placeName> and then he moved to 
+                  <placeName ref="Q220">Rome</placeName> where he lived for 12 years.</floruit>
+               <death notBefore="1550" notAfter="1552"/>
             </person>
             
             <listRelation>
                <relation name="saws:isSiblingOf"
-                  active="PRS9286Tasfase"
-                  passive="PRS9162TaklaHa"
-                 ></relation>
+                         active="PRS9286Tasfase"
+                         passive="PRS9162TaklaHa"/>
                <relation name="snap:AllianceWith"
-                  active="PRS9286Tasfase"
-                  passive="PRS4428Galawdew"
-                 ></relation>
+                         active="PRS9286Tasfase"
+                         passive="PRS4428Galawdew"/>
                <relation name="snap:FriendshipFor"
-                  active="PRS9286Tasfase"
-                  passive="PRS7750PaulIII"
-                 ></relation>
+                         active="PRS9286Tasfase"
+                         passive="PRS7750PaulIII"/>
                <relation name="snap:FriendshipFor"
-                  active="PRS9286Tasfase"
-                  passive="PRS7936Postel"
-                 ></relation>
+                         active="PRS9286Tasfase"
+                         passive="PRS7936Postel"/>
                <relation name="snap:FriendshipFor"
-                  active="PRS9286Tasfase"
-                  passive="PRS4851Gualtier"
-                 ></relation>
+                         active="PRS9286Tasfase"
+                         passive="PRS4851Gualtier"/>
                <relation name="snap:FriendshipFor"
-                  active="PRS9286Tasfase"
-                  passive="PRS7184Mosesof"
-                 ></relation>
+                         active="PRS9286Tasfase"
+                         passive="PRS7184Mosesof"/>
                <relation name="snap:FriendshipFor"
-                  active="PRS9286Tasfase"
-                  passive="PRS5549Ignatius"
-                 ></relation>
+                         active="PRS9286Tasfase"
+                         passive="PRS5549Ignatius"/>
                <relation name="bm:isAuthorOfEthiopicTranslation"
-                  active="PRS9286Tasfase"
-                  passive="LIT2463Testam"
-                 ></relation>
+                         active="PRS9286Tasfase"
+                         passive="LIT2463Testam"/>
              
                
             </listRelation>
@@ -124,13 +118,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-                  
-                  

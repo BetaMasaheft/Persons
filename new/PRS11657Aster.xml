@@ -1,7 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS11657Aster" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="PRS11657Aster"
+     xml:lang="en"
+     type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -50,7 +55,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person sex="2">
                     <persName xml:lang="gez" xml:id="n1" type="birth">አስቴር፡</persName>
                     <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAster</persName>
-                    <persName><roleName type="title">ʾǝtege</roleName></persName>
+                    <persName>
+                  <roleName type="title">ʾǝtege</roleName>
+               </persName>
                     <nationality type="Ethiopia"/>
                     <faith type="EOTC"/>
                     <occupation type="political">Queen</occupation>
@@ -59,23 +66,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     
                 </person>
                 <listRelation>
-                    <relation name="bm:wifeOf"
-                        active="PRS11657Aster"
-                        passive="PRS10441Yonas"
-                        ></relation>
+                    <relation name="bm:wifeOf" active="PRS11657Aster" passive="PRS10441Yonas"/>
                     
                       </listRelation>
             </listPerson>
            </body>
     </text>   
 </TEI>
-
-
-
-
-
-
-
-                
-               
-                    

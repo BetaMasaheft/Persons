@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
@@ -64,7 +64,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
                   <persName xml:lang="gez" corresp="#n2" type="normalized">Tasfā ʾIyasus</persName>
                   
-               <persName><roleName type="title">ʾaṣe</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾaṣe</roleName>
+               </persName>
                   
          
                <occupation type="ruler">Emperor</occupation>
@@ -76,31 +78,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   He was supported by  two important religious figures of the 13th century, <persName ref="PRS5633IyasusM">ʾIyasus Moʾ a</persName> and 
                   <persName ref="PRS9162TaklaHa">
                      Takla Hāymānot</persName> to establish the new dynasty, "Solomonic dynasty".</floruit>
-               <death when="1285" evidence="internal"></death>
+               <death when="1285" evidence="internal"/>
             </person>
                <listRelation>
-                  <relation name="snap:FatherOf" 
-                     active="PRS10303Yekunno"
-                     passive="PRS10111WedemR"
-                    ></relation>
+                  <relation name="snap:FatherOf"
+                         active="PRS10303Yekunno"
+                         passive="PRS10111WedemR"/>
                   <relation name="snap:GrandfatherOf"
-                     active="PRS10303Yekunno"
-                     passive="PRS1854Amdase"
-                    ></relation>
+                         active="PRS10303Yekunno"
+                         passive="PRS1854Amdase"/>
                   <relation name="snap:AllianceWith"
-                     
-                     active="PRS10303Yekunno"
-                     passive="PRS9162TaklaHa" 
-                    ></relation>
+                         active="PRS10303Yekunno"
+                         passive="PRS9162TaklaHa"/>
                  
                   <relation name="snap:AllianceWith"
-                     
-                     active="PRS10303Yekunno"
-                     passive="PRS5631IyasusM" 
-                     
-                    ></relation>
+                         active="PRS10303Yekunno"
+                         passive="PRS5631IyasusM"/>
                  
-          </listRelation>
+            </listRelation>
          </listPerson>
          
          <listBibl type="editions">
@@ -109,7 +104,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </bibl>
             
          </listBibl>
-      <listBibl type="secondary">
+         <listBibl type="secondary">
             <bibl> 
                <ptr target="bm:NosnitsinundDerat2014YekunoAmlak"/>
             </bibl>  

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
@@ -60,7 +60,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" xml:id="n2" type="baptismal">ይስሐቅ፡</persName>
 
                <persName xml:lang="gez" corresp="#n2" type="normalized">Yǝsḥaq</persName>
-               <persName><roleName type="title">ʾabbā </roleName></persName>
+               <persName>
+                  <roleName type="title">ʾabbā </roleName>
+               </persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <occupation type="ecclesiastic"> saint </occupation>
@@ -71,34 +73,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   he went to <placeName ref="LOC4388Madara">Madarā</placeName> where he remianed working miracles.
                   The monastery of  <placeName ref="INS0336EAG">ʾƎndā ʾAbbā Garimā</placeName> is attributed to him.
                </floruit>
-               <death></death>
+               <death/>
             </person>  
             <listRelation>
                <relation name="snap:AllianceWith"
-                  
-                  active="PRS4523Garima"
-                  passive="PRS3730ellaAm"
-                 ></relation>
+                         active="PRS4523Garima"
+                         passive="PRS3730ellaAm"/>
                <relation name="snap:FriendshipFor"
-                  active="PRS4523Garima"
-                  passive="PRS7720Pantalew"
-                 ></relation>
+                         active="PRS4523Garima"
+                         passive="PRS7720Pantalew"/>
                <relation name="snap:FriendshipFor"
-                  active="PRS4523Garima"
-                  passive="PRS4855Guba"
-                 ></relation>
+                         active="PRS4523Garima"
+                         passive="PRS4855Guba"/>
                <relation name="snap:FriendshipFor"
-                  active="PRS4523Garima"
-                  passive="PRS10581Zamika"
-                 ></relation>
-          <relation name="snap:FriendshipFor"
-                  active="PRS4523Garima"
-                  passive="PRS1467Afse"
-                 ></relation>
-               <relation name="ecrm:P129i_is_subject_of" 
-                  active="PRS4523Garima"
-                  passive="LIT1285Dersan"
-                 ></relation>
+                         active="PRS4523Garima"
+                         passive="PRS10581Zamika"/>
+               <relation name="snap:FriendshipFor"
+                         active="PRS4523Garima"
+                         passive="PRS1467Afse"/>
+               <relation name="ecrm:P129i_is_subject_of"
+                         active="PRS4523Garima"
+                         passive="LIT1285Dersan"/>
                
                
             </listRelation>
@@ -124,11 +119,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-                  
-                 

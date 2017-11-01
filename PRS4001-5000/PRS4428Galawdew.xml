@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
@@ -61,7 +61,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName type="regnal" corresp="#n3">ʾAṣnāf Sagad</persName>
                <persName xml:lang="en">Claudius</persName>
                <occupation type="ruler">emperor</occupation>
-               <birth when="1522"></birth>
+               <birth when="1522"/>
                <floruit notBefore="1540" notAfter="1559" evidence="literature">Galāwdewos became emperor at the age of 18 in <date>1540</date>.
                   His reign was marked by a successful struggle against <persName ref="PRS1522Ahmadb">ʾAḥmad b. ʾIbrāhīm al-Ġāzī</persName>.</floruit>
                <death when="1559" evidence="internal">He died on <date>23 March 1559</date>, in battle with <persName ref="PRS7623NurbM">Nūr b. Muǧāhīd</persName>.</death>
@@ -72,16 +72,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             
             <listRelation>
                <relation name="snap:BrotherOf" mutual="PRS4428Galawdew PRS7102Minas"/>
-               <relation name="snap:SonOf"
-                         active="PRS4428Galawdew"
-                         passive="PRS6229LebnaDe"/>
-               <relation name="snap:SonOf"
-                         active="PRS4428Galawdew"
-                         passive="PRS8275SablaD"/>
+               <relation name="snap:SonOf" active="PRS4428Galawdew" passive="PRS6229LebnaDe"/>
+               <relation name="snap:SonOf" active="PRS4428Galawdew" passive="PRS8275SablaD"/>
                <relation name="saws:isAttributedAuthorOf"
                          active="PRS4428Galawdew"
                          passive="LIT1252Confes"/>
-               <relation name="ecrm:P129i_is_subject_of" active="PRS4428Galawdew" passive="LIT3122Galaw"/>
+               <relation name="ecrm:P129i_is_subject_of"
+                         active="PRS4428Galawdew"
+                         passive="LIT3122Galaw"/>
             
             </listRelation>
             
@@ -90,11 +88,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listBibl type="editions"> 
             <bibl> 
                <ptr target="bm:Conzelman1895Galawdewos"/>
-           <note><ref type="work" corresp="LIT3122Galaw">Chronicle of the reign of Galāwdewos</ref>: edition and French translation <date notAfter="1543" cert="low" evidence="conjecture"/></note></bibl>
+               <note>
+                  <ref type="work" corresp="LIT3122Galaw">Chronicle of the reign of Galāwdewos</ref>: edition and French translation <date notAfter="1543" cert="low" evidence="conjecture"/>
+               </note>
+            </bibl>
             <bibl> 
                <ptr target="bm:Solomon2016Galawdewos"/>
                <ref type="work" corresp="LIT3122Galaw">Chronicle of the reign of Galāwdewos</ref>: edition and English translation</bibl>             
-       </listBibl>
+         </listBibl>
          <listBibl type="secondary">
             <bibl> 
                <ptr target="bm:Guidi1899Galawdewos"/>

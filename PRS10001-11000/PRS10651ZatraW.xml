@@ -54,28 +54,33 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-        <persName xml:lang="gez" xml:id="n1" type="birth">ዘትረ፡  ወንጌል፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ዘትረ፡  ወንጌል፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Zatra Wangel</persName>
                <persName xml:lang="gez" xml:id="n2" type="birth">በትረ፡  ወንጌል፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">Batra Wangel</persName>
-                  <persName><roleName type="title">ʿǝč̣č̣age</roleName></persName>
+                  <persName>
+                  <roleName type="title">ʿǝč̣č̣age</roleName>
+               </persName>
                   <occupation type="ecclesiastic">abbot </occupation>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                 
-                  <residence><placeName ref="INS0341DL">Dabra Libānos</placeName></residence>
+                  <residence>
+                  <placeName ref="INS0341DL">Dabra Libānos</placeName>
+               </residence>
                   <floruit>He was the sixteenth abbot of <placeName ref="INS0341DL">Dabra Libānos</placeName> 
-                     and a contemporary of <roleName type="title">ʾaṣe</roleName><persName ref="PRS8550sardaDe">Śarḍa Dǝngǝl</persName> and a successor of 
+                     and a contemporary of <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS8550sardaDe">Śarḍa Dǝngǝl</persName> and a successor of 
                      <persName ref="PRS10385Yohanne">Yoḥannǝs [II]</persName>.
                      
                   </floruit>
-               <death when="1591" evidence="internal"> He was buried at the church of <placeName ref="LOC1602Atrons">ʾAtronsa Māryām</placeName> </death>
+               <death when="1591" evidence="internal"> He was buried at the church of <placeName ref="LOC1602Atrons">ʾAtronsa Māryām</placeName> 
+               </death>
                </person>
                <listRelation>
                   <relation name="snap:AllianceWith"
-                     active="PRS10651ZatraW"
-                     passive="PRS8550sardaDe"
-                    ></relation>
+                         active="PRS10651ZatraW"
+                         passive="PRS8550sardaDe"/>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
                   
                </listRelation>
@@ -85,18 +90,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <ptr target="bm:Cerulli1944AbbotsDL"/>
                <citedRange unit="page">137-182</citedRange>
             </bibl>
-         <bibl>
+            <bibl>
                <ptr target="bm:Ancel2014ZatraWangel"/>
             </bibl> 
          </listBibl>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-                  
-                 

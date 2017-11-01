@@ -1,7 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS11505TawaldaM" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="PRS11505TawaldaM"
+     xml:lang="en"
+     type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -54,7 +59,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </person>
                 <listRelation>
                     <relation name="saws:hasOwned" active="PRS11505TawaldaM" passive="BDLaethf13"/>
-                    <relation name="bm:husbandOf" active="PRS11505TawaldaM" passive="PRS11506SeertaY.xml"/>
+                    <relation name="bm:husbandOf"
+                         active="PRS11505TawaldaM"
+                         passive="PRS11506SeertaY.xml"/>
                 </listRelation>
             </listPerson>
         </body>

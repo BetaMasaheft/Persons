@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
@@ -58,44 +58,40 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
                   <persName xml:lang="gez" xml:id="n1" type="birth">ሰብለ፡ ወንጌል፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Sabla Wangel</persName>
-               <persName><roleName type="title">ʾǝtege</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾǝtege</roleName>
+               </persName>
                
               <occupation type="ruler">queen</occupation>
                <birth when="1500"/>
                <floruit notBefore="1518" notAfter="1567">She was a dominant political figure in the dynasty of her time. 
-                  She married <roleName type="title">ʾaṣe</roleName><persName ref="PRS6229LebnaDe">Lǝbna Dǝngǝl</persName> in <date>1518</date>.
-                  She came from a noble <placeName ref="LOC3549Gojjam">Goǧǧām</placeName><persName ref="ETH1126Amhara">ʾAmhārā</persName>.
+                  She married <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS6229LebnaDe">Lǝbna Dǝngǝl</persName> in <date>1518</date>.
+                  She came from a noble <placeName ref="LOC3549Gojjam">Goǧǧām</placeName>
+                  <persName ref="ETH1126Amhara">ʾAmhārā</persName>.
                   She played a prominant role in the court politics after the death of her husband <roleName type="title">ʾaṣe</roleName>
-                  <persName ref="PRS6229LebnaDe">Lǝbna Dǝngǝl</persName></floruit>
-               <death when="1567" evidence="internal"> She died during the reign of her grandson <roleName type="title">ʾaṣe</roleName><persName ref="PRS8550sardaDe">Śarḍa Dǝngǝl</persName>.  </death>
+                  <persName ref="PRS6229LebnaDe">Lǝbna Dǝngǝl</persName>
+               </floruit>
+               <death when="1567" evidence="internal"> She died during the reign of her grandson <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS8550sardaDe">Śarḍa Dǝngǝl</persName>.  </death>
             </person>
                
                <listRelation>
-                     <relation name="bm:wifeOf" 
-                     active="PRS8276SablaWa"
-                     passive="PRS6229LebnaDe"
-                       ></relation>
+                     <relation name="bm:wifeOf" active="PRS8276SablaWa" passive="PRS6229LebnaDe"/>
                   <relation name="snap:MotherOf"
-                     active="PRS8276SablaWa"
-                      passive="PRS4121Fiqtor"
-                    ></relation> 
+                         active="PRS8276SablaWa"
+                         passive="PRS4121Fiqtor"/> 
                     <relation name="snap:MotherOf"
-                        active="PRS8276SablaWa"
-                        passive="PRS4428Galawdew"
-                      ></relation>
-                        <relation name="snap:MotherOf"
-                            active="PRS8276SablaWa"
-                            passive="PRS7102Minas"
-                          ></relation>
+                         active="PRS8276SablaWa"
+                         passive="PRS4428Galawdew"/>
+                        <relation name="snap:MotherOf" active="PRS8276SablaWa" passive="PRS7102Minas"/>
                            <relation name="snap:MotherOf"
-                              active="PRS8276SablaWa"
-                              passive="PRS10191Yaeqob"
-                             ></relation>
+                         active="PRS8276SablaWa"
+                         passive="PRS10191Yaeqob"/>
                     
                   <relation name="snap:GrandmotherOf"
-                     active="PRS8276SablaWa"
-                     passive="PRS8550sardaDe"
-                    ></relation>
+                         active="PRS8276SablaWa"
+                         passive="PRS8550sardaDe"/>
                 
                </listRelation>
          </listPerson>

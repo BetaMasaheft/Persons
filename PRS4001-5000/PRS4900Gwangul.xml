@@ -61,34 +61,32 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <persName xml:lang="gez" corresp="#n2" type="normalized">Gwāngul</persName>
                   <persName xml:lang="gez" xml:id="n3" type="birth">ሴሩ፡  ግዋንጉል፡</persName>
                   <persName xml:lang="gez" corresp="#n3" type="normalized">Seru Gwāngul</persName>
-               <persName><roleName type="title"></roleName></persName>
+               <persName>
+                  <roleName type="title"/>
+               </persName>
 
                <occupation type="ruler">governor</occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
-               <residence></residence>
+               <residence/>
              
                <floruit when="1769" evidence="internal">He emerged as an active political leader at the begining of Zamana Masāfǝnt in<date> 1769</date>.
                   He was the founder of Warrasek (Yaǧǧu) dynasty which dominated Ethiopia for half a century.</floruit>
-               <death when="1777" evidence="internal"></death>
+               <death when="1777" evidence="internal"/>
             </person>
             <listRelation>
-               <relation name="snap:GrandfatherOf" 
-                  active="PRS4900Gwangul"
-                  passive="PRS4870GugsaMa"
-                 ></relation>
+               <relation name="snap:GrandfatherOf"
+                         active="PRS4900Gwangul"
+                         passive="PRS4870GugsaMa"/>
                <relation name="snap:FatherOf"
-                  active="PRS4900Gwangul"
-                  passive="PRS1719AliGwan"
-                 ></relation>
+                         active="PRS4900Gwangul"
+                         passive="PRS1719AliGwan"/>
                <relation name="snap:FatherOf"
-                  active="PRS4900Gwangul"
-                  passive="PRS1750Aligaz"
-                 ></relation> 
+                         active="PRS4900Gwangul"
+                         passive="PRS1750Aligaz"/> 
                <relation name="snap:AllianceWith"
-                  active="PRS4900Gwangul"
-                  passive="PRS9142TaklaGi"
-                 ></relation>
+                         active="PRS4900Gwangul"
+                         passive="PRS9142TaklaGi"/>
               </listRelation>
          </listPerson>
          <listBibl type="editions">
@@ -114,8 +112,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-               
-               

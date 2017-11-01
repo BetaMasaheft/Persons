@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Yoḥannǝs [I]</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -55,7 +55,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
               <persName xml:lang="gez" xml:id="n1" type="birth">ዮሐንስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Yoḥannǝs [I]</persName>
-                  <persName><roleName type="title">ʾabuna</roleName></persName>
+                  <persName>
+                  <roleName type="title">ʾabuna</roleName>
+               </persName>
                   <occupation type="ecclesiastic"> metropolitan</occupation>
                <nationality type="Egypt"/>
                <faith type="Coptic"/>
@@ -64,19 +66,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <floruit notBefore="0819" notAfter="0830">He was the metropolitan of <placeName ref="LOC3010Ethiop">Ethiopia</placeName> during the 9th century. He was consecrated 
                   by <persName ref="PRS5652Jacobof">Jacob of Alexandria</persName>, the 50th <roleName type="title">Patriarch</roleName> 
                   of <placeName ref="LOC1338Alexan">Alexandria</placeName>.</floruit>
-                  <death></death>
+                  <death/>
                </person>
                <listRelation>
                   <relation name="bm:ordainedBy"
-                     active="PRS10390Yohanne"
-                     passive="PRS5652Jacobof"
-                    ></relation>
+                         active="PRS10390Yohanne"
+                         passive="PRS5652Jacobof"/>
             
              
-            <relation name="snap:AllianceWith"
-                     active="PRS10390Yohanne"
-                     passive="PRS11302SimeonII"
-                    ></relation>
+               <relation name="snap:AllianceWith"
+                         active="PRS10390Yohanne"
+                         passive="PRS11302SimeonII"/>
                   
                </listRelation>
          </listPerson>
@@ -92,13 +92,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-                  
-                  

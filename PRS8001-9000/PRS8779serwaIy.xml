@@ -56,34 +56,33 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ሥርወ፡ ኢየሱስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Śǝrwa ʾIyasus</persName>
-            <persName xml:lang="gez" xml:id="n2" type="regnal">ምህርከ፡ ናኝ፡</persName>
+               <persName xml:lang="gez" xml:id="n2" type="regnal">ምህርከ፡ ናኝ፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">Mǝhǝrka Nāñ</persName>
                
-               <persName><roleName type="title">ʾaṣe</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾaṣe</roleName>
+               </persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                
                
                <occupation type="ruler">Emperor</occupation>
                
-           <floruit notBefore="1433" notAfter="1434">He was a son and a successor of <roleName type="title">ʾaṣe</roleName><persName ref="PRS9175TaklaMa">Takla Māryām</persName>, 
-              and only reigned for four months. His brother <roleName type="title">ʾaṣe</roleName><persName ref="PRS1843AmdaIy">ʿAmda ʾIyasus</persName> 
+               <floruit notBefore="1433" notAfter="1434">He was a son and a successor of <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS9175TaklaMa">Takla Māryām</persName>, 
+              and only reigned for four months. His brother <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS1843AmdaIy">ʿAmda ʾIyasus</persName> 
               was his immediate successor. </floruit>
-               <death when="1434"></death>
+               <death when="1434"/>
             </person>
             <listRelation>
-               <relation name="snap:SonOf"
-                  active="PRS8779serwaIy"
-                  passive="PRS9175TaklaMa"
-                 ></relation>
+               <relation name="snap:SonOf" active="PRS8779serwaIy" passive="PRS9175TaklaMa"/>
                <relation name="snap:BrotherOf"
-                  active="PRS8779serwaIy"
-                  passive="PRS1843AmdaIy"                 
-                 ></relation>
+                         active="PRS8779serwaIy"
+                         passive="PRS1843AmdaIy"/>
                <relation name="snap:GrandchildOf"
-                  active="PRS8779serwaIy"
-                  passive="PRS3429DawitII"
-                 ></relation>
+                         active="PRS8779serwaIy"
+                         passive="PRS3429DawitII"/>
              
                
             </listRelation>
@@ -110,6 +109,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-                  
-                 

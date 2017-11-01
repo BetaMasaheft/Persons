@@ -61,7 +61,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" corresp="#n3" type="normalized">ʾAmdo</persName>
                
                
-               <persName><roleName type="title">rās bitwaddad</roleName></persName>
+               <persName>
+                  <roleName type="title">rās bitwaddad</roleName>
+               </persName>
                
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
@@ -69,14 +71,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                
                <floruit notBefore="1450" notAfter="1508">.<persName ref="PRS1848AmdaMi">ʾAmda Mikāʾel</persName>
-                  was an influential political figure from the reign of <roleName type="title">ʾaṣe</roleName> <persName ref="PRS10626ZaraY">Zarʾa Yāʿǝqob</persName> 
-                  to that of <roleName type="title">ʾaṣe</roleName><persName ref="PRS7481NaodA">Nāʿod (ʾAnbasā Baḍar)</persName>. 
+                  was an influential political figure from the reign of <roleName type="title">ʾaṣe</roleName> 
+                  <persName ref="PRS10626ZaraY">Zarʾa Yāʿǝqob</persName> 
+                  to that of <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS7481NaodA">Nāʿod (ʾAnbasā Baḍar)</persName>. 
                   He was appointed as <roleName type="title">malkaññā</roleName> by <roleName type="title">ʾaṣe</roleName> 
                   <persName ref="PRS10626ZaraY">Zarʾa Yāʿǝqob</persName> over all of <placeName ref="LOC3061Fataga">Faṭagār</placeName>.
                   <persName ref="PRS1848AmdaMi">ʾAmda Mikāʾel</persName> is most remembered for the role he played in determining the successors 
-                  to <roleName type="title">ʾaṣe</roleName><persName ref="PRS2334BaedaM">Baʾǝda Māryām I</persName>,  
-                  <roleName type="title">ʾaṣe</roleName><persName ref="PRS3874eskender">ʾƎskǝndǝr</persName>, 
-                  <roleName type="title">ʾaṣe</roleName><persName ref="PRS1855Amdase">ʾAmda Ṣǝyon II</persName><roleName type="title">ʾaṣe</roleName>  
+                  to <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS2334BaedaM">Baʾǝda Māryām I</persName>,  
+                  <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS3874eskender">ʾƎskǝndǝr</persName>, 
+                  <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS1855Amdase">ʾAmda Ṣǝyon II</persName>
+                  <roleName type="title">ʾaṣe</roleName>  
                  and <persName ref="PRS7481NaodA">Nāʿod (ʾAnbasā Baḍar)</persName>. </floruit>
           
                
@@ -85,13 +93,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listRelation>
                
                <relation name="snap:AllianceWith"
-                  active="PRS1848AmdaMi"
-                  passive="PRS10626ZaraY"
-                 ></relation>
+                         active="PRS1848AmdaMi"
+                         passive="PRS10626ZaraY"/>
                <relation name="snap:AllianceWith"
-                  active="PRS1848AmdaMi"
-                  passive="PRS2334BaedaM"
-                 ></relation>
+                         active="PRS1848AmdaMi"
+                         passive="PRS2334BaedaM"/>
                
                
                
@@ -117,17 +123,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-                  
-               

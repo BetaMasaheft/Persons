@@ -55,22 +55,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName>
                   <forename>Lazarus</forename>
-                  <surname> Goldschmidt</surname> </persName>
+                  <surname> Goldschmidt</surname> 
+               </persName>
                
                <occupation type="academic">scholar</occupation>
                <nationality type="notSpecified"/>
                <faith type="notSpecified"/>
-               <birth when="1871">He was born at <placeName ref="gn:597427"/> in <date>1871</date>.</birth>
+               <birth when="1871">He was born at <placeName ref="Q37"/> in <date>1871</date>.</birth>
                <floruit notBefore="1892">He was a versatile Jewish Semitist who in his early career  made a number of contributions to Ethiopian Studies. 
                   He studied Gǝʿǝz under the guidance of the most celebrated Ethiopicist scholar, <persName ref="PRS3562Dillmann"/>. Between <date>1892-1897</date>, 
                   he published four works  in quick succession  on Ethiopian Studies. Then after <date>1897</date>, he turned away from Ethiopian Studies. </floruit>
-               <death when="1950"></death>
+               <death when="1950"/>
             </person>
             <listRelation>
                <relation name="snap:AllianceWith"
-                  active="PRS4747Goldschm"
-                  passive="PRS3562Dillmann"
-                  ></relation>
+                         active="PRS4747Goldschm"
+                         passive="PRS3562Dillmann"/>
                
                
                
@@ -95,13 +95,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-            

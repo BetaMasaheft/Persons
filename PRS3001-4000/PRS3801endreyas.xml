@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>ʾƎndrǝyās of Saffǝʾa</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -57,33 +57,29 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
              
                   <persName xml:lang="gez" xml:id="n1" type="birth">እንድርያስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾƎndrǝyās</persName>
-               <persName><roleName type="title">ʾabuna</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾabuna</roleName>
+               </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   <occupation type="ecclesiastic">saint</occupation>
-               <birth>He was born in <placeName ref="LOC2350DabraS">Dabra Salodā</placeName></birth>
+               <birth>He was born in <placeName ref="LOC2350DabraS">Dabra Salodā</placeName>
+               </birth>
                <floruit>He was a saintly monk lived during the reign of King <persName ref="PRS10626ZaraY">Zarʾa Yāʿǝqob</persName>. He spent most of his life in
-                  <placeName ref="LOC1945Bogos">Bogos</placeName>. He conducted most of his apostlic activities in <placeName ref="LOC2991Eritre">Eritrea</placeName></floruit>
+                  <placeName ref="LOC1945Bogos">Bogos</placeName>. He conducted most of his apostlic activities in <placeName ref="LOC2991Eritre">Eritrea</placeName>
+               </floruit>
                  
                </person>  
                <listRelation>
                   
-                  <relation name="snap:SonOf"
-                     active="PRS3801endreyas"
-                     passive="PRS10501Zaaman"
-                    ></relation>
-                  <relation name="snap:SonOf"
-                     active="PRS3801endreyas"
-                     passive="PRS1811AmataMa"
-                    ></relation>
+                  <relation name="snap:SonOf" active="PRS3801endreyas" passive="PRS10501Zaaman"/>
+                  <relation name="snap:SonOf" active="PRS3801endreyas" passive="PRS1811AmataMa"/>
                   <relation name="snap:AllianceWith"
-                     active="PRS3801endreyas"
-                     passive="PRS10626ZaraY"
-                    ></relation>
+                         active="PRS3801endreyas"
+                         passive="PRS10626ZaraY"/>
                   <relation name="ecrm:P129i_is_subject_of"
-                     active="PRS3801endreyas"
-                     passive="LIT4744GadlaEn"
-                     ></relation>
+                         active="PRS3801endreyas"
+                         passive="LIT4744GadlaEn"/>
              </listRelation>
          </listPerson>
          
@@ -98,9 +94,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-               

@@ -54,34 +54,30 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
           
-          <persName xml:lang="gez" xml:id="n1" type="birth">እስክንድር፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">እስክንድር፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾƎskǝndǝr</persName>
                      <persName xml:lang="gez" xml:id="n2" type="regnal">ቈስጠንጢኖስ፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">Qʷasṭanṭinos</persName>
-               <persName><roleName type="title">ʾaṣe</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾaṣe</roleName>
+               </persName>
              
                   <occupation type="ruler">Emperor</occupation>
-               <birth when="1471"></birth>
+               <birth when="1471"/>
                   
-               <floruit when="1478" evidence="internal">He succeeded his father <roleName type="title">ʾaṣe</roleName> <persName ref="PRS2334BaedaM">Baʾǝda Māryām I</persName> in <date>1478</date>.
+               <floruit when="1478" evidence="internal">He succeeded his father <roleName type="title">ʾaṣe</roleName> 
+                  <persName ref="PRS2334BaedaM">Baʾǝda Māryām I</persName> in <date>1478</date>.
                      </floruit>
                   <death when="1494" evidence="internal">1494</death>
             </person>
             <listRelation>
-               <relation name="snap:SonOf" 
-                  active="PRS3874eskender"
-                  passive="PRS2334BaedaM"
-                 ></relation>
-               <relation name="snap:SonOf"
-                  active="PRS3874eskender" 
-                  passive="PRS8203Romna"
-                 ></relation>
+               <relation name="snap:SonOf" active="PRS3874eskender" passive="PRS2334BaedaM"/>
+               <relation name="snap:SonOf" active="PRS3874eskender" passive="PRS8203Romna"/>
                <relation name="snap:BrotherOf"
-                  active="PRS3874eskender" 
-                  passive="PRS7481NaodA"
-                 ></relation>
+                         active="PRS3874eskender"
+                         passive="PRS7481NaodA"/>
                
-       </listRelation>
+            </listRelation>
          </listPerson>
          <listBibl type="editions">
             <bibl>
@@ -102,10 +98,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-         
-                  
- 

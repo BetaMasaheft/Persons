@@ -54,9 +54,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="2">
-            <persName xml:lang="gez" xml:id="n1" type="birth">እግዚእ፡ ክብራ፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">እግዚእ፡ ክብራ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾƎgziʾ Kǝbrā</persName>
-               <persName><roleName type="title">ʾƎtege</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾƎtege</roleName>
+               </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   <occupation type="political">queen</occupation>
@@ -67,14 +69,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                  
                </person>  
                <listRelation>
-                  <relation name="bm:wifeOf"                    
-                     active="PRS3695egziKe"
-                     passive="PRS3429DawitII"
-                    ></relation>
-                  <relation name="snap:MotherOf"
-                     active="PRS3695egziKe"
-                     passive="PRS10626ZaraY"
-                    ></relation>
+                  <relation name="bm:wifeOf" active="PRS3695egziKe" passive="PRS3429DawitII"/>
+                  <relation name="snap:MotherOf" active="PRS3695egziKe" passive="PRS10626ZaraY"/>
                   
                   
                </listRelation>
@@ -96,10 +92,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-                  
-                  

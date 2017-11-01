@@ -49,13 +49,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                   <persName xml:lang="gez" xml:id="n1">ተክለ፡ ኢየሱስ፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Takla ʾIyasus</persName>
-               <occupation type="ecclesiastic"><foreign xml:lang="gez">rayǝs</foreign> of <placeName ref="INS0337MG"/></occupation>
+               <occupation type="ecclesiastic">
+                  <foreign xml:lang="gez">rayǝs</foreign> of <placeName ref="INS0337MG"/>
+               </occupation>
             </person>
                
             <listRelation>
-               <relation name="syriaca:has-relation-to-place" active="PRS11090TaklaI" passive="INS0337MG"/>
+               <relation name="syriaca:has-relation-to-place"
+                         active="PRS11090TaklaI"
+                         passive="INS0337MG"/>
                <relation name="lawd:hasAttestation"
-                  active="PRS11334TaklaI"
+                         active="PRS11334TaklaI"
                          passive="BNFet131"/>       
             </listRelation>
          </listPerson>

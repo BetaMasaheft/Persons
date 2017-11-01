@@ -56,7 +56,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
               
                <persName xml:lang="gez" xml:id="n1" type="birth">መስቀል፡ ክብራ፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Masqal Kǝbrā</persName>
-               <persName><roleName type="title">baʿalta <placeName ref="LOC1914Bihat">biḥat</placeName> which refers "Lady of Biḥat"</roleName></persName>
+               <persName>
+                  <roleName type="title">baʿalta <placeName ref="LOC1914Bihat">biḥat</placeName> which refers "Lady of Biḥat"</roleName>
+               </persName>
            
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
@@ -66,24 +68,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   for the fall of the metropolitan <persName ref="PRS7073Mikael">Mikāʿel II</persName> who had to return to Egypt after four years in Ethiopia. 
                   She is also credited with the building of some churches at <placeName ref="LOC4244Laliba">Lālibalā</placeName>. 
                </floruit>
-               <death></death>
+               <death/>
             </person>
             <listRelation>
-               <relation name="bm:wifeOf" 
-                  active="PRS6859MasqalK"
-                  passive="PRS6152Lalibala"
-                 ></relation>
-               <relation name="snap:MotherOf" 
-                  active="PRS6859MasqalK"
-                  passive="PRS10363Yetbara"
-                 ></relation>
-             <relation name="ecrm:P129i_is_subject_of" 
-                  active="PRS6859MasqalK"
-                  passive="LIT1481GadlaM"
-                 ></relation>
+               <relation name="bm:wifeOf" active="PRS6859MasqalK" passive="PRS6152Lalibala"/>
+               <relation name="snap:MotherOf"
+                         active="PRS6859MasqalK"
+                         passive="PRS10363Yetbara"/>
+               <relation name="ecrm:P129i_is_subject_of"
+                         active="PRS6859MasqalK"
+                         passive="LIT1481GadlaM"/>
             </listRelation>
          </listPerson>
-       <listBibl type="editions">
+         <listBibl type="editions">
             <bibl>
                <ptr target="bm:Perruchon1892Lalibela"/>
             </bibl>
@@ -92,7 +89,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <bibl> 
                <ptr target="bm:DeratundKur2007MasqalKebra"/>
             </bibl>  
-  <bibl> 
+            <bibl> 
                <ptr target="bm:Sergew1972Ethiopianhistory"/>
             </bibl>  
          </listBibl>

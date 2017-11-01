@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Bāsǝlyos (Bāsǝlwos)</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -60,7 +60,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" corresp="#n2" type="normalized">Bāsǝlwos</persName>
                   <persName xml:lang="gez" xml:id="n3" type="alt">ገብረ፡ ጊዮርጊስ፡</persName>
                <persName xml:lang="gez" corresp="#n3" type="normalized">Gabra Giyorgis</persName>
-                  <persName><roleName type="title">ʾabuna</roleName></persName>
+                  <persName>
+                  <roleName type="title">ʾabuna</roleName>
+               </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   <occupation type="ecclesiastic">Patriarch</occupation>
@@ -68,28 +70,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                   <floruit notBefore="1914" notAfter="1970">He was an outstanding church scholar, administrator and the first Ethiopian Patriarch. 
                      He was ordained priest in <date>1914</date>. In <date>1934</date>, he was made <roleName type="title">ʾǝč̣č̣age</roleName>
-                     becoming the 59th abbot of <placeName ref="INS0341DL"/>. During the Italian invasion he was in exile in <placeName ref="gn:293198"/> and 
-                     later after the liberation he returned back to Ethiopia. In <date>1949</date>, he was consecrated as a bishop in <placeName ref="gn:361058"></placeName>.
-                     In <date>1956</date>, following the death of <persName ref="PRS8033Qerellos"/> <roleName type="title">ʾabuna</roleName> 
+                     becoming the 59th abbot of <placeName ref="INS0341DL"/>. During the Italian invasion he was in exile in <placeName ref="Q1218"/> and 
+                     later after the liberation he returned back to Ethiopia. In <date>1949</date>, he was consecrated as a bishop in <placeName ref="Q87"/>.
+                     In <date>1956</date>, following the death of <persName ref="PRS8033Qerellos"/> 
+                  <roleName type="title">ʾabuna</roleName> 
                      Bāsǝlyos became the first Patriarch of Ethiopian Orthodox  Tawāḥdo Church. </floruit> 
                   
                <death when="1970">He died at <placeName ref="LOC1216AddisA"/> in <date>1970</date>. </death>
                </person>
                <listRelation>
                   
-                  <relation name="snap:SonOf"
-                     active="PRS2533Baselyos"
-                     passive="PRS9966Waldasa"
-                     ></relation>
+                  <relation name="snap:SonOf" active="PRS2533Baselyos" passive="PRS9966Waldasa"/>
                   
-                  <relation name="snap:SonOf"
-                     active="PRS2533Baselyos"
-                     passive="PRS9842Walatta"
-                     ></relation>
+                  <relation name="snap:SonOf" active="PRS2533Baselyos" passive="PRS9842Walatta"/>
                   <relation name="snap:AllianceWith"
-                     active="PRS2533Baselyos"
-                     passive="PRS5226haylase"
-                     ></relation>
+                         active="PRS2533Baselyos"
+                         passive="PRS5226haylase"/>
                   
                </listRelation>
          </listPerson>
@@ -106,14 +102,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-             
-                  
-                  

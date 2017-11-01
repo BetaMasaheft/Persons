@@ -47,16 +47,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-                  <persName  xml:lang="gez" xml:id="n1">ፍሬ፡ ሚካኤል፡</persName>
-                  <persName  xml:lang="gez" type="normalized" corresp="#n1">Fǝre Mikāʾel</persName>
+                  <persName xml:lang="gez" xml:id="n1">ፍሬ፡ ሚካኤል፡</persName>
+                  <persName xml:lang="gez" type="normalized" corresp="#n1">Fǝre Mikāʾel</persName>
                <faith type="EOTC"/>
                <residence>
                   <placeName ref="INS0302SanStefano"> Santo Stefano dei Mori </placeName>
                </residence>
             </person>
             <listRelation>
-               <relation name="lawd:hasAttestation" active="PRS11225FereMi" passive="BAVet5#a1"/>
-               <relation name="saws:isMemberOf" active="PRS11225FereMi" passive="PRS11208HouseTakla"/>
+               <relation name="lawd:hasAttestation"
+                         active="PRS11225FereMi"
+                         passive="BAVet5#a1"/>
+               <relation name="saws:isMemberOf"
+                         active="PRS11225FereMi"
+                         passive="PRS11208HouseTakla"/>
             </listRelation>
          </listPerson>
       </body>

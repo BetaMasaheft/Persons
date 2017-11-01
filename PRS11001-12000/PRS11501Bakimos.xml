@@ -57,10 +57,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </residence>
             </person>
             <listRelation>
-               <relation name="saws:hasOwned"  active="PRS11501Bakimos"   passive="BAVet50">
+               <relation name="saws:hasOwned" active="PRS11501Bakimos" passive="BAVet50">
                </relation>
-               <relation name="lawd:hasAttestation" active="PRS11501Bakimos" passive="BAVet66#a18"/>
-               <relation name="saws:isMemberOf" active="PRS11501Bakimos" passive="PRS11232HouseSam"> 
+               <relation name="lawd:hasAttestation"
+                         active="PRS11501Bakimos"
+                         passive="BAVet66#a18"/>
+               <relation name="saws:isMemberOf"
+                         active="PRS11501Bakimos"
+                         passive="PRS11232HouseSam"> 
                   <!-- As stated in BAVet66#a20, MV 2017-03-21 --></relation>
             </listRelation>
          </listPerson>

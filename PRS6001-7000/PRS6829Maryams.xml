@@ -61,7 +61,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" xml:id="n2" type="regnal">መላክ፡ ሞገሳ፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">Malāk Mogasā</persName>
                
-               <persName><roleName type="title">ʾǝtege</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾǝtege</roleName>
+               </persName>
                
                
                <nationality type="Ethiopia"/>
@@ -75,7 +77,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                <floruit notBefore="1563" notAfter="1607">She was the wife of <persName ref="PRS8550sardaDe"/>and was crowned as a queen. 
                   After the death of her husband,<persName ref="PRS8550sardaDe"/>, she continued to rule in co-regency with
-                  <roleName type="title">rās</roleName><persName ref="PRS2224Atnatewo"/>, which lasted for the seven years.
+                  <roleName type="title">rās</roleName>
+                  <persName ref="PRS2224Atnatewo"/>, which lasted for the seven years.
                   
                </floruit>
                <death when="1607"/>
@@ -83,31 +86,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
             </person>
             <listRelation>
-               <relation name="bm:wifeOf"
-                  active="PRS6829Maryams"
-                  passive="PRS8550sardaDe"
-                  ></relation>
-               <relation  name="bm:motherInLawOf"
-                  active="PRS6829Maryams"
-                  passive="PRS10965ZaSellase"
-                  ></relation>
+               <relation name="bm:wifeOf" active="PRS6829Maryams" passive="PRS8550sardaDe"/>
+               <relation name="bm:motherInLawOf"
+                         active="PRS6829Maryams"
+                         passive="PRS10965ZaSellase"/>
                
                <relation name="snap:MotherOf"
-                  active="PRS6829Maryams"
-                  passive="PRS1812AmataMa"
-                  ></relation>
+                         active="PRS6829Maryams"
+                         passive="PRS1812AmataMa"/>
                <relation name="snap:MotherOf"
-                  active="PRS6829Maryams"
-                  passive="PRS6083Krestosa"
-                  ></relation>
+                         active="PRS6829Maryams"
+                         passive="PRS6083Krestosa"/>
                <relation name="snap:MotherOf"
-                  active="PRS6829Maryams"
-                  passive="PRS9831Walatta"
-                  ></relation>
+                         active="PRS6829Maryams"
+                         passive="PRS9831Walatta"/>
                <relation name="snap:MotherOf"
-                  active="PRS6829Maryams"
-                  passive="PRS5044hamalmal"
-                  ></relation>
+                         active="PRS6829Maryams"
+                         passive="PRS5044hamalmal"/>
                
             </listRelation>
          </listPerson>
@@ -128,23 +123,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                  
-                 

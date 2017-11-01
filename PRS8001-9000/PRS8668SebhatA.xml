@@ -56,7 +56,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ስብሐት፡ አረጋዊ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Sǝbḥat ʾAragāwi</persName>
-               <persName><roleName type="title">rās</roleName></persName>
+               <persName>
+                  <roleName type="title">rās</roleName>
+               </persName>
                <occupation type="political">governor</occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
@@ -83,18 +85,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </person>
             <listRelation>
                <relation name="snap:BrotherOf"
-                  active="PRS8668SebhatA"
-                  passive="PRS9887WaldaGa"
-                  ></relation>
-               <relation name="snap:SonOf"
-                  active="PRS8668SebhatA"
-                  passive="PRS1999Aragawi"
-                  ></relation>
+                         active="PRS8668SebhatA"
+                         passive="PRS9887WaldaGa"/>
+               <relation name="snap:SonOf" active="PRS8668SebhatA" passive="PRS1999Aragawi"/>
                
-      <relation name="snap:AllianceWith"
-                  active="PRS8668SebhatA"
-                  passive="PRS4997hagosTa"
-                  ></relation>
+               <relation name="snap:AllianceWith"
+                         active="PRS8668SebhatA"
+                         passive="PRS4997hagosTa"/>
                
             </listRelation>
          </listPerson>
@@ -110,19 +107,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-              

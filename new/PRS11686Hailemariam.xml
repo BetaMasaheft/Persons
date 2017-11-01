@@ -1,7 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS11686Hailemariam" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="PRS11686Hailemariam"
+     xml:lang="en"
+     type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -48,36 +53,43 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPerson>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ሃይለ ፡ ማርያም፡ ደሳለኝ</persName> 
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Hāylā Māryām Dasālāñ</persName><!--gemination? DR 2017-08-24-->
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Hāylā Māryām Dasālāñ</persName>
+               <!--gemination? DR 2017-08-24-->
                     <faith type="Anglican"/>
                     <occupation type="ruler"/>
                     <occupation type="other">engineer</occupation>
                     <occupation type="other">lecturer</occupation>
                     <nationality type="Ethiopia"/>
-                    <birth when="1965-07-19"></birth>
-                    <residence><placeName ref="LOC1216AddisA"/></residence>
+                    <birth when="1965-07-19"/>
+                    <residence>
+                  <placeName ref="LOC1216AddisA"/>
+               </residence>
                     <floruit notBefore="2010">He served as the deputy prime minister and minister of foreign affairs to the EPRDF starting in 
                         <date>2010</date> to <date>2012</date>. He then succeeded the late Prime Minister <persName ref="PRS6616MallasZ"/>in <date>2012</date>. 
                         He represents one of the coalition parties of EPRDF, the Southern People's and Nations and Nationalities Party. </floruit>
        
                 </person>
                 <listRelation>
-                    <relation name="bm:husbandOf" active="PRS11686Hailemariam" passive="PRS11687Roman"> 
+                    <relation name="bm:husbandOf"
+                         active="PRS11686Hailemariam"
+                         passive="PRS11687Roman"> 
 
                     </relation>
-                    <relation name="snap:AllianceWith" active="PRS11686Hailemariam" passive="PRS6616MallasZ"/>
+                    <relation name="snap:AllianceWith"
+                         active="PRS11686Hailemariam"
+                         passive="PRS6616MallasZ"/>
                        
                        </listRelation> 
                 
             </listPerson>
         <listBibl type="secondary">
-          <bibl> 
+            <bibl> 
               <ptr target="bm:Brune2014Mallas"/>
-          </bibl>
+            </bibl>
               
               <bibl>
               <ptr target="bm:BBC2015hailemariam"/>
-          </bibl>
+            </bibl>
             
         </listBibl>
                 </body>

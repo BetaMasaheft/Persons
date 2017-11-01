@@ -58,7 +58,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                   <persName xml:lang="gez" xml:id="n1" type="birth">ፈንታ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Fantā</persName>
-               <persName><roleName type="title">dabtarā</roleName></persName>
+               <persName>
+                  <roleName type="title">dabtarā</roleName>
+               </persName>
                
                   
               
@@ -80,9 +82,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                <listRelation>
                   <relation name="snap:ProfessionalRelationship"
-                     active="PRS3976Fanta"
-                     passive="PRS1071dAbbadi"
-                     ></relation>
+                         active="PRS3976Fanta"
+                         passive="PRS1071dAbbadi"/>
                   
                </listRelation>
          </listPerson>
@@ -103,5 +104,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-               

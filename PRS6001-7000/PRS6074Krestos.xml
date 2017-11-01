@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Krǝstos Bezāna</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -53,9 +53,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-             <persName xml:lang="gez" xml:id="n1" type="birth">ክርስቶስ፡ ቤዛነ፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ክርስቶስ፡ ቤዛነ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Krǝstos Bezāna</persName>
-                   <persName><roleName type="title">ʾabbā</roleName></persName>
+                   <persName>
+                  <roleName type="title">ʾabbā</roleName>
+               </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   <occupation type="ecclesiastic">saint</occupation>
@@ -69,18 +71,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </person>
                <listRelation>
                   <relation name="snap:AllianceWith"
-                     active="PRS6074Krestos"
-                     passive="PRS6445Madhanin"
-                    ></relation>
+                         active="PRS6074Krestos"
+                         passive="PRS6445Madhanin"/>
                   <relation name="snap:AllianceWith"
-                 
-                     active="PRS6074Krestos"
-                     passive="PRS9086Tadewos"
-                    ></relation>
+                         active="PRS6074Krestos"
+                         passive="PRS9086Tadewos"/>
                    <relation name="ecrm:P129i_is_subject_of"
-                     active="PRS6074Krestos"
-                     passive="LIT4122GadlaKrestos"
-                    ></relation>
+                         active="PRS6074Krestos"
+                         passive="LIT4122GadlaKrestos"/>
                   
                </listRelation>
          </listPerson>
@@ -94,4 +92,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>   
 </TEI>
-   

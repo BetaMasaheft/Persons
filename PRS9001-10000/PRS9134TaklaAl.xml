@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Takla ʾAlfā</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -62,7 +62,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
                <persName xml:lang="gez" corresp="#n2" type="normalized">ʾƎndrǝyās</persName>
             
-               <persName><roleName type="title">ʾabbā </roleName></persName>
+               <persName>
+                  <roleName type="title">ʾabbā </roleName>
+               </persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <occupation type="ecclesiastic">saint</occupation>
@@ -75,26 +77,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <persName ref="PRS6774Marqos">Mārqos [I]</persName>, the then metropolitan. 
                   Thus, he headed the monastery of <placeName ref="LOC2687DimaGi">Dimā Giyorgis</placeName> during the turbulent periods of the wars of 
                   <persName ref="PRS1500Ahmad">ʾAḥmad</persName>. </floruit>
-               <death>He died at the age of 80 and buried in the monastery of <placeName ref="LOC2687DimaGi">Dimā Giyorgis</placeName></death>
+               <death>He died at the age of 80 and buried in the monastery of <placeName ref="LOC2687DimaGi">Dimā Giyorgis</placeName>
+               </death>
             </person>  
             <listRelation>
                
                
                <relation name="snap:AllianceWith"
-                  active="PRS9134TaklaAl"
-                  passive="PRS6229LebnaDe"
-                 ></relation>
+                         active="PRS9134TaklaAl"
+                         passive="PRS6229LebnaDe"/>
                <relation name="snap:AllianceWith"
-                  active="PRS9134TaklaAl"
-                  passive="PRS6774Marqos"
-                 ></relation>
+                         active="PRS9134TaklaAl"
+                         passive="PRS6774Marqos"/>
                
                
                
                <relation name="ecrm:P129i_is_subject_of"
-                  active="PRS9134TaklaAl"
-                  passive="LIT1505GadlaT"
-                 ></relation>
+                         active="PRS9134TaklaAl"
+                         passive="LIT1505GadlaT"/>
                
             </listRelation>
          </listPerson>
@@ -112,15 +112,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-               

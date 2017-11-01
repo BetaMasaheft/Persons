@@ -59,7 +59,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         
                <persName>James Bruce</persName>
        
-            <occupation type="academic">traveller</occupation>
+               <occupation type="academic">traveller</occupation>
                   <nationality type="Scotland"/>
                   <faith type="notSpecified"/>
                   <birth/>
@@ -72,11 +72,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </person>
                <listRelation>
                   <relation name="snap:FriendshipFor"
-                     active="PRS2916Bruce"
-                     passive="PRS2682BerhanM"
-                    ></relation>
-            <relation name="saws:isAttributedAuthorOf"
-                   ></relation>
+                         active="PRS2916Bruce"
+                         passive="PRS2682BerhanM"/>
+               <relation name="saws:isAttributedAuthorOf"/>
                </listRelation>
          </listPerson>
          <listBibl type="secondary">
@@ -98,6 +96,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-              

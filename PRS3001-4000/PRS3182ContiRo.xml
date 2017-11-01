@@ -57,33 +57,33 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName>
                   <forename>Carlo</forename>
-                  <surname>Conti Rossini</surname> </persName>
+                  <surname>Conti Rossini</surname> 
+               </persName>
                
                <occupation type="academic">scholar</occupation>
                <nationality type="Italy"/>
                <faith type="notSpecified"/>
-               <birth when="1872">He was born at <placeName ref="gn:3170831"/> in <date>1872</date>.</birth>
-               <floruit  notBefore="1890" notAfter="1949">He was one of the most prominent Ethiopianists of the 20th century. 
+               <birth when="1872">He was born at <placeName ref="Q1216"/> in <date>1872</date>.</birth>
+               <floruit notBefore="1890" notAfter="1949">He was one of the most prominent Ethiopianists of the 20th century. 
                   He started his career as a civil servant in the Treasury of the Italian government. He represented the Treasury in 
                   <placeName ref="LOC5076Paris"/> in the years <date>1908-1910</date> and as a financial expert attended international conferences. 
                   In <date>1914</date>, he became the Secretary-General in the Italian Administration. A decade later, he was named Councillor of the State. 
-                  From<date>1920-1949</date>, he held the chair of History  and Languages of Abyssinia in the University of <placeName ref="gn:3169070"/>
+                  From<date>1920-1949</date>, he held the chair of History  and Languages of Abyssinia in the University of <placeName ref="Q220"/>
                   faculity of Humanities, succeeding his teacher <persName ref="PRS4876Guidi"/>. Besides his official engagements as a civil servant,
                   he profoundly developed his scientific work in the field of the humanities. He won an important place in editing of Ethiopic texts.</floruit>
-               <death when="1949"></death>
+               <death when="1949"/>
             </person>
             <listRelation>
                <relation name="snap:ProfessionalRelationship"
-                  active="PRS3182ContiRo"
-                  passive="PRS4876Guidi"
-                  ></relation>
+                         active="PRS3182ContiRo"
+                         passive="PRS4876Guidi"/>
             </listRelation>
          </listPerson>
          
          
          <listBibl type="secondary">
             <bibl> 
-            <ptr target="bm:Ricci1983ContiRossini"/>
+               <ptr target="bm:Ricci1983ContiRossini"/>
                <citedRange unit="page">527-529</citedRange>
             </bibl>   
             <bibl> 
@@ -101,9 +101,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-               

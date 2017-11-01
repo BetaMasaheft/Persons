@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Takla Ṣǝyon ʾƎnyaw</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -56,12 +56,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ተክለ፡ ጽዮን፡ እንየው፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Takla Ṣǝyon ʾƎnyaw</persName>
-               <persName><roleName type="title">ʾalaqā</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾalaqā</roleName>
+               </persName>
                <nationality type="Ethiopia"/>
                <faith type="Orthodox"/>
                <occupation type="ecclesiastic">scholar</occupation>
         
-               <birth  when="1820"> He was born at <placeName ref="LOC3806HarrAm">Ḥārr ʾAmbā</placeName> in 
+               <birth when="1820"> He was born at <placeName ref="LOC3806HarrAm">Ḥārr ʾAmbā</placeName> in 
                   <placeName ref="LOC5597Sawa">Šawā</placeName> in <date>1820</date>. </birth>
                <floruit notBefore="1820" notAfter="1881">He was a famous 19th century <title ref="LIT4329Andemta">ʾAndǝmtā</title> scholar. 
                   <persName ref="PRS9198Taklase">Takla Ṣǝyon ʾƎnyaw</persName> was an advocate of the Sost lǝdat doctrine (Saggā).
@@ -70,26 +72,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 in <placeName ref="LOC3549Gojjam">Goǧǧām</placeName> without accepting the Tawaḥǝdo doctrine. <persName ref="PRS9198Taklase">Takla Ṣǝyon ʾƎnyaw</persName>
                   is cited as one of the informants for an author of   
                   <title ref="LIT2537Yagall">Ya-gāllā Tārik</title>, <persName ref="PRS2152AsmaGiy">ʾAṣma Giyorgis Gabra Masiḥ</persName>. </floruit>
-               <death when="1881">He died at <placeName ref="gn:281184">Jerusalem</placeName> where he was buried. </death>
+               <death when="1881">He died at <placeName ref="Q1218">Jerusalem</placeName> where he was buried. </death>
             </person>  
             <listRelation>
                <relation name="snap:AllianceWith"
-                  active="PRS9197Taklase"
-                  passive="PRS6860Massaja"
-                 ></relation>
+                         active="PRS9197Taklase"
+                         passive="PRS6860Massaja"/>
                <relation name="snap:AllianceWith"
-                  active="PRS9197Taklase"
-                  passive="PRS5907KeflaGi"
-                 ></relation>
+                         active="PRS9197Taklase"
+                         passive="PRS5907KeflaGi"/>
                
                <relation name="snap:AllianceWith"
-                  active="PRS9197Taklase"
-                  passive="PRS7006Menilek"
-                 ></relation>
+                         active="PRS9197Taklase"
+                         passive="PRS7006Menilek"/>
                <relation name="snap:CousinOf"
-                  active="PRS9197Taklase"
-                  passive="PRS2152AsmaGiy"
-                 ></relation>
+                         active="PRS9197Taklase"
+                         passive="PRS2152AsmaGiy"/>
             
                
             </listRelation>
@@ -106,13 +104,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-               

@@ -57,7 +57,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
               
                   <persName xml:lang="gez" xml:id="n1" type="birth">ገብረ፡ የሱስ፡ ኀይሉ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Gabra Yasus Ḥaylu</persName>
-               <persName><roleName type="title">ʾabbā</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾabbā</roleName>
+               </persName>
                   
                   
                   <nationality type="Ethiopia"/>
@@ -80,22 +82,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </person>
                <listRelation>
                   <relation name="snap:AllianceWith"
-                     active="PRS4253GabraIy"
-                     passive="PRS11477Tasfase"
-                     ></relation>
+                         active="PRS4253GabraIy"
+                         passive="PRS11477Tasfase"/>
                   
                   <relation name="saws:isAttributedAuthorOf"
-                     active="PRS4253GabraIy"
-                     passive="LIT2073Nezeta"
-                     ></relation>
+                         active="PRS4253GabraIy"
+                         passive="LIT2073Nezeta"/>
                   <relation name="saws:isAttributedAuthorOf"
-                     active="PRS4253GabraIy"
-                     passive="LIT2066Nayfid"
-                     ></relation>
+                         active="PRS4253GabraIy"
+                         passive="LIT2066Nayfid"/>
                   <relation name="saws:isAttributedAuthorOf"
-                     active="PRS4253GabraIy"
-                     passive="LIT2067Nayhad"
-                     ></relation>
+                         active="PRS4253GabraIy"
+                         passive="LIT2067Nayhad"/>
                   
                   
                   
@@ -125,14 +123,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-                 

@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Śahla Śǝllāse</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -58,7 +58,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Śahla Śǝllāse</persName>
                <persName xml:lang="gez" xml:id="n3" type="horse">አባ፡ ዲና፡</persName>
                <persName xml:lang="gez" corresp="#n3" type="normalized">ʾAbbā Dinā</persName>
-               <persName><roleName type="title">marǝd ʾazmāč, nǝguś , rās</roleName></persName>
+               <persName>
+                  <roleName type="title">marǝd ʾazmāč, nǝguś , rās</roleName>
+               </persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <occupation type="political">king</occupation>
@@ -75,26 +77,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <death when="1847"/>
             </person>
             <listRelation>
-               <relation name="snap:SonOf"
-                  active="PRS8346sahlase"
-                  passive="PRS10076WasanS"
-                 ></relation>
-               <relation name="snap:SonOf"
-                  active="PRS8346sahlase"
-                  passive="PRS10604Zannaba"
-                 ></relation>
+               <relation name="snap:SonOf" active="PRS8346sahlase" passive="PRS10076WasanS"/>
+               <relation name="snap:SonOf" active="PRS8346sahlase" passive="PRS10604Zannaba"/>
                <relation name="snap:BrotherOf"
-                  active="PRS8346sahlase"
-                  passive="PRS2393Bakweru"
-                 ></relation>
+                         active="PRS8346sahlase"
+                         passive="PRS2393Bakweru"/>
                <relation name="snap:FatherOf"
-                  active="PRS8346sahlase"
-                  passive="PRS5205haylaMa"
-                 ></relation>
+                         active="PRS8346sahlase"
+                         passive="PRS5205haylaMa"/>
                <relation name="snap:GrandfatherOf"
-                  active="PRS8346sahlase"
-                  passive="PRS5226haylase"
-                 ></relation>
+                         active="PRS8346sahlase"
+                         passive="PRS5226haylase"/>
             
                
             </listRelation>
@@ -119,20 +112,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>   
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                  
-              

@@ -55,7 +55,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ኪራኮስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Kirākos</persName>
-         <occupation type="ecclesiastic">patriarch</occupation>
+               <occupation type="ecclesiastic">patriarch</occupation>
                <nationality type="Syria"/>
                <faith type="Syriac"/>
                <birth> </birth>
@@ -67,17 +67,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </person>
             <listRelation>
                <relation name="saws:isAttributedAuthorOf"
-                  active="PRS3250Cyriacus"
-                  passive="LIT2376Synoda"
-                 ></relation>
+                         active="PRS3250Cyriacus"
+                         passive="LIT2376Synoda"/>
                <relation name="saws:isAttributedAuthorOf"
-                  active="PRS3250Cyriacus"
-                  passive="LIT1586Hayman"
-                 ></relation>
+                         active="PRS3250Cyriacus"
+                         passive="LIT1586Hayman"/>
                <relation name="saws:isAttributedAuthorOf"
-                  active="PRS3250Cyriacus"
-                  passive="LIT3450Cyriac"
-                 ></relation>
+                         active="PRS3250Cyriacus"
+                         passive="LIT3450Cyriac"/>
            </listRelation>
          </listPerson>
          <listBibl type="secondary">
@@ -89,11 +86,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-       
-                  
-                 

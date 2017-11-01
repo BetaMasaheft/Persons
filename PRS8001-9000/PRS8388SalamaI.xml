@@ -56,12 +56,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ሰላማ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Salāmā III</persName>
-               <persName><roleName type="title">ʾabuna</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾabuna</roleName>
+               </persName>
                <occupation type="ecclesiastic"> metropolitan </occupation>
                <nationality type="Egypt"/>
                <faith type="Coptic"/>
-               <birth when="1820"></birth>
-               <residence><placeName ref="LOC3577Gondar"> Gondar</placeName> </residence>
+               <birth when="1820"/>
+               <residence>
+                  <placeName ref="LOC3577Gondar"> Gondar</placeName> 
+               </residence>
                
                <floruit notBefore="1841" notAfter="1867">He was the 107th metropolitan of the Ethiopian Orthodox Church who was consecrated by 
                   <persName ref="PRS2965ButrusV">Buṭrus VII</persName> at the age of 
@@ -74,31 +78,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </person>
             <listRelation>
                <relation name="snap:AllianceWith"
-                  
-                  active="PRS8388SalamaI"
-                  passive="PRS10102Webeha"
-                 ></relation>
+                         active="PRS8388SalamaI"
+                         passive="PRS10102Webeha"/>
                <relation name="bm:ordainedBy"
-                  
-                  active="PRS8388SalamaI"
-                  passive="PRS2965ButrusV"
-                 ></relation>
+                         active="PRS8388SalamaI"
+                         passive="PRS2965ButrusV"/>
                <relation name="bm:hasOrdained"
-                  
-                  active="PRS8388SalamaI"
-                  passive="PRS9430Tewodros"
-                 ></relation>
+                         active="PRS8388SalamaI"
+                         passive="PRS9430Tewodros"/>
                <relation name="snap:AllianceWith"
-                  
-                  active="PRS8388SalamaI"
-                  passive="PRS1688AliAlul"
-                 ></relation>
+                         active="PRS8388SalamaI"
+                         passive="PRS1688AliAlul"/>
                
                <relation name="snap:AllianceWith"
-                  
-                  active="PRS8388SalamaI"
-                  passive="PRS9430Tewodros"
-                 ></relation>
+                         active="PRS8388SalamaI"
+                         passive="PRS9430Tewodros"/>
             </listRelation>
          </listPerson>
          <listBibl type="secondary">
@@ -115,8 +109,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-                  
-                  

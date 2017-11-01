@@ -62,15 +62,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" corresp="#n3" type="normalized">Waddi Qubbi</persName>
                
                
-               <persName><roleName type="title">rās</roleName></persName>
+               <persName>
+                  <roleName type="title">rās</roleName>
+               </persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <occupation type="political">governor</occupation>
-               <birth when="1847"></birth>
+               <birth when="1847"/>
                
                <floruit notAfter="1870" notBefore="1897">He was one of the most important Ethiopia's national hero. He started as an aškar in the court of <persName ref="PRS2010Arayas"/>
                   and was transferred to the service of <roleName type="title">dāǧǧāzmāč</roleName>Kāśā Mǝrč̣ā after <persName ref="PRS2010Arayas"/> was imprisoned by 
-                  <persName ref="PRS9430Tewodros"/>. After Kāśā captured power as <roleName type="title">ʾaṣe</roleName><persName ref="PRS10378Yohanne"/>
+                  <persName ref="PRS9430Tewodros"/>. After Kāśā captured power as <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS10378Yohanne"/>
                   he had become his favourite administrator and chief soldier. He then started making his name as a brilliant military tactician in the battles 
                   of <placeName ref="LOC3655Gundat"/> in <date>1875</date> and <placeName ref="LOC3660Gura"/> in <date>1876</date> against the invading Egyptian expeditions. 
                   For the next 20 years he played a major role in Ethiopia's history from social obscurity to political prominence. </floruit>
@@ -78,14 +81,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <death when="1897">He died at <placeName ref="LOC1310Aksum"/> in <date>1897</date>.</death>
             </person>
             <listRelation>
-               <relation  name="snap:AllianceWith"
-                  active="PRS1777Alulaen"
-                  passive="PRS10378Yohanne"
-                  ></relation>
                <relation name="snap:AllianceWith"
-                  active="PRS1777Alulaen"
-                  passive="PRS7006Menilek"
-                  ></relation>
+                         active="PRS1777Alulaen"
+                         passive="PRS10378Yohanne"/>
+               <relation name="snap:AllianceWith"
+                         active="PRS1777Alulaen"
+                         passive="PRS7006Menilek"/>
                
             </listRelation>
          </listPerson>
@@ -107,23 +108,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>   
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                  
-                  

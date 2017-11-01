@@ -55,7 +55,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ስምዖን፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Sǝmʿon</persName>
-             <persName><roleName type="title">rās </roleName></persName>
+               <persName>
+                  <roleName type="title">rās </roleName>
+               </persName>
                <occupation type="political"> governor</occupation>
                <occupation type="ecclesiastic"> writer </occupation>
                <nationality type="Ethiopia"/>
@@ -69,24 +71,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             
             <listRelation>
                <relation name="snap:AllianceWith"
-                  
-                  active="PRS8746Semon" 
-                  passive="PRS6229LebnaDe"
-                  
-                 ></relation>
+                         active="PRS8746Semon"
+                         passive="PRS6229LebnaDe"/>
                
-               <relation name="snap:SonOf" 
-                  active="PRS8746Semon" 
-                  passive="PRS7458NagadaI"
-                 ></relation>
+               <relation name="snap:SonOf" active="PRS8746Semon" passive="PRS7458NagadaI"/>
                <relation name="saws:isAttributedAuthorOf"
-                  active="PRS8746Semon" 
-                  passive="LIT1950Mashaf"
-                 ></relation>
+                         active="PRS8746Semon"
+                         passive="LIT1950Mashaf"/>
                <relation name="saws:isAttributedAuthorOf"
-                  active="PRS8746Semon" 
-                  passive="LIT3983Dersan"
-                 ></relation>
+                         active="PRS8746Semon"
+                         passive="LIT3983Dersan"/>
                
                
                 </listRelation>
@@ -103,7 +97,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-               
-                  
-                  

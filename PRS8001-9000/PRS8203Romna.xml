@@ -53,10 +53,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
        
                      <persName xml:lang="gez" xml:id="n1" type="birth">ሮምና</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Romnā</persName>
-               <persName><roleName type="title">ʾǝmmabet</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾǝmmabet</roleName>
+               </persName>
               
                <occupation type="ruler">queen </occupation>
-               <birth when="1471"></birth>
+               <birth when="1471"/>
                <floruit when="1478" evidence="internal">She assumed  a regency to her son and young 
                   King <persName ref="PRS3874eskender">ʾƎskǝndǝr</persName>in<date>1494</date>. 
                   She developed a close relationship with the monastery of <placeName ref="INS0341DL">Dabra Libānos</placeName>
@@ -64,19 +66,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         
             </person>
             <listRelation>
-               <relation name="bm:wifeOf" 
-                  active="PRS8203Romna"
-                  passive="PRS2334BaedaM"
-                 ></relation>
+               <relation name="bm:wifeOf" active="PRS8203Romna" passive="PRS2334BaedaM"/>
                <relation name="snap:MotherOf"
-                  active="PRS8203Romna"
-                  passive="PRS3874eskender"
-                 ></relation>
+                         active="PRS8203Romna"
+                         passive="PRS3874eskender"/>
                <relation name="snap:AllianceWith"
-                  active="PRS8203Romna"
-                  passive="PRS6734MarhaKr"
-                 ></relation>
-         </listRelation>
+                         active="PRS8203Romna"
+                         passive="PRS6734MarhaKr"/>
+            </listRelation>
          </listPerson>
          <listBibl type="editions">
             <bibl>
@@ -96,7 +93,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-            

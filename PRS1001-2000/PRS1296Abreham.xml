@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>ʾAbrǝham</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -56,7 +56,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
               
                   <persName xml:lang="gez" xml:id="n1" type="birth">አብርሃም</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAbrǝhām</persName>
-                  <persName><roleName type="title">ʾabbā </roleName></persName>
+                  <persName>
+                  <roleName type="title">ʾabbā </roleName>
+               </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   <occupation type="ecclesiastic">saint</occupation>
@@ -75,9 +77,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                   
                   <relation name="ecrm:P129i_is_subject_of"
-                     active="PRS1296Abreham"
-                     passive="LIT1411GadlaA"
-                    ></relation>
+                         active="PRS1296Abreham"
+                         passive="LIT1411GadlaA"/>
                   
                </listRelation>
          </listPerson>
@@ -96,8 +97,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>   
 </TEI>
-
-
-
-                  
-                 

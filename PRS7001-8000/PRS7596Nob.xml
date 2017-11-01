@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Nob</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -57,14 +57,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <persName xml:lang="gez" xml:id="n1" type="birth">ኖብ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Nob</persName>
               
-               <persName><roleName type="title">nǝbur ǝd, ʾabbā </roleName></persName>
+               <persName>
+                  <roleName type="title">nǝbur ǝd, ʾabbā </roleName>
+               </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                <occupation type="ecclesiastic">abbot of Dabra Dāmmo </occupation>
                   
                <floruit when="1450">He was a monk from the monastery of <placeName ref="LOC2241DabraB">Dabra Bakwǝr</placeName> who was appointed 
                   as <roleName type="title">nǝbura ʾǝd</roleName> of <placeName ref="INS0105DD">Dabra Dāmmo ʾAbuna ʾAragāwi</placeName> in <date>1450</date>. 
-                  However, soon after <date>1450</date><persName ref="PRS7596Nob">Nob</persName> fell out of the favour with <roleName type="title">ʾaṣe</roleName>
+                  However, soon after <date>1450</date>
+                  <persName ref="PRS7596Nob">Nob</persName> fell out of the favour with <roleName type="title">ʾaṣe</roleName>
                   <persName ref="PRS10626ZaraY">Zarʾa Yāʿǝqob</persName> and demoted from<roleName type="title">nǝbura ʾǝd</roleName>.</floruit>
               
                </person>  
@@ -72,23 +75,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                   
                   <relation name="snap:AllianceWith"
-                     active="PRS7596Nob"
-                     passive="PRS10445Yonaso"
-                    ></relation>
+                         active="PRS7596Nob"
+                         passive="PRS10445Yonaso"/>
                   <relation name="snap:AllianceWith"
-                     active="PRS7596Nob"
-                     passive="PRS1846AmdaMa"
-                    ></relation>
+                         active="PRS7596Nob"
+                         passive="PRS1846AmdaMa"/>
                 
                   
                   
                </listRelation>
          </listPerson>
          <listBibl type="editions">
-          <bibl>
-             <ptr target="bm:ContiRossini1940Pergamene"/>
-          </bibl>
-       </listBibl>
+            <bibl>
+               <ptr target="bm:ContiRossini1940Pergamene"/>
+            </bibl>
+         </listBibl>
          <listBibl type="secondary">
             <bibl> 
                <ptr target="bm:BoscTiesseDerat2007Nob"/>
@@ -98,15 +99,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-                  
-              

@@ -55,7 +55,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ሚካኤል፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Mikāʾel [IV]</persName>
-               <persName><roleName type="title">ʾabuna</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾabuna</roleName>
+               </persName>
                <occupation type="ecclesiastic"> metropolitan </occupation>
                <nationality type="Egypt"/>
                <faith type="Coptic"/>
@@ -66,18 +68,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   King <persName ref="PRS4015Fasilada">Fāsiladas</persName>. During his episcopate, a debate took place between Qǝbāt (Unictionists) and Kārrā (Unionists)
                   on <date>23 June 1655</date>. His successor was ʾabuna <persName ref="PRS6071Krestodo">Krǝstodolu [II]</persName>.      
                  </floruit>
-               <death> He died in <date>1663</date></death>
+               <death> He died in <date>1663</date>
+               </death>
             </person>
             <listRelation>
-             <relation name="bm:ordainedBy"
-                  active="PRS7076Mikael"
-                  passive="PRS6905Matthew"
-                 ></relation>
+               <relation name="bm:ordainedBy"
+                         active="PRS7076Mikael"
+                         passive="PRS6905Matthew"/>
                <relation name="snap:AllianceWith"
-                  
-                  active="PRS7076Mikael"
-                  passive="PRS4015Fasilada"
-                 ></relation>
+                         active="PRS7076Mikael"
+                         passive="PRS4015Fasilada"/>
             </listRelation>
          </listPerson>
          <listBibl type="editions">
@@ -99,11 +99,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-              

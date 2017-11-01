@@ -55,7 +55,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">አውናብዮስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAwnābyos</persName>
-              <persName><roleName type="title">śǝyyuma</roleName></persName>
+              <persName>
+                  <roleName type="title">śǝyyuma</roleName>
+               </persName>
                <occupation type="political"> governor</occupation>
                
                <nationality type="Ethiopia"/>
@@ -72,15 +74,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             
             <listRelation>
                <relation name="snap:AllianceWith"
-                  
-                  active="PRS2246Awnabyos"
-                  passive="PRS9038Susenyos"
-                  
-                 ></relation>
-               <relation name="snap:SonOf"
-                  active="PRS2246Awnabyos"
-                  passive="PRS10436Yonael"
-                 ></relation>
+                         active="PRS2246Awnabyos"
+                         passive="PRS9038Susenyos"/>
+               <relation name="snap:SonOf" active="PRS2246Awnabyos" passive="PRS10436Yonael"/>
                
             </listRelation>
          </listPerson>
@@ -89,7 +85,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <ptr target="bm:Pereira1892Susenyos"/>
             </bibl>
             
-         <bibl>
+            <bibl>
                <ptr target="bm:Pereira1900Susenyos"/>
             </bibl>
          </listBibl>
@@ -104,8 +100,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-                  
-                  

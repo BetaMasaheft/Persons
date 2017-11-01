@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Bāḥrǝy</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -56,7 +56,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             
                   <persName xml:lang="gez" xml:id="n1" type="birth">ባህርይ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Bāḥrǝy</persName>
-               <persName><roleName type="title">ʾabbā</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾabbā</roleName>
+               </persName>
           
                <occupation type="ecclesiastic">writer, historian, ethnographer</occupation>
             
@@ -69,18 +71,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </person>
             <listRelation>
                <relation name="snap:AllianceWith"
-                  active="PRS2368Bahrey"
-                  passive="PRS8550sardaDe"
-                 ></relation>
+                         active="PRS2368Bahrey"
+                         passive="PRS8550sardaDe"/>
                <relation name="saws:isAttributedAuthorOf"
-                  active="PRS2368Bahrey"
-                  passive="LIT2629Zenahu"
-                 ></relation>
+                         active="PRS2368Bahrey"
+                         passive="LIT2629Zenahu"/>
                <relation name="saws:isAttributedAuthorOf"
-                  active="PRS2368Bahrey"
-                  passive="LIT2002Mazmur"
-                 ></relation>
-  </listRelation>
+                         active="PRS2368Bahrey"
+                         passive="LIT2002Mazmur"/>
+            </listRelation>
          </listPerson>
          <listBibl type="editions">
             <bibl>
@@ -100,8 +99,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-       

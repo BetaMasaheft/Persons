@@ -56,7 +56,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName>
                   <forename>Nicolò </forename>
                   
-                  <surname>Brancaleone</surname> </persName>
+                  <surname>Brancaleone</surname> 
+               </persName>
                <persName xml:lang="gez" xml:id="n1" type="alt">ማርቆርዮስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Mārqoryos</persName>
                <persName xml:lang="gez" xml:id="n2" type="alt">መርቆሬዎስ፡ አፍርንጋዊ፡</persName>
@@ -65,12 +66,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                  
                   
                   
-               <nationality  type="Italy"/>
+               <nationality type="Italy"/>
                   <faith type="notSpecified"/>
                   <occupation type="literary">painter</occupation>
                   
                <floruit notBefore="1482" notAfter="1530">He was a venetian  
-                  painter worked in the court of <roleName type="title">ʾaṣe</roleName><persName ref="PRS6229LebnaDe">Lǝbna Dǝngǝl</persName> 
+                  painter worked in the court of <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS6229LebnaDe">Lǝbna Dǝngǝl</persName> 
                   during the 15th  and early 16th century. He also served as a painter for the ruling elite class which revealed in several accounts in a manuscript of 
                   <title ref="LIT2384Taamme">Taʾammǝra Māryām</title> copied for the <placeName ref="LOC3736Hagara">Hāgara Māryām</placeName>. </floruit>
                   
@@ -78,13 +80,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </person>
                <listRelation>
                   <relation name="snap:AllianceWith"
-                     active="PRS2887Brancale"
-                     passive="PRS1462Afnin"
-                    ></relation>
+                         active="PRS2887Brancale"
+                         passive="PRS1462Afnin"/>
                   <relation name="snap:AllianceWith"
-                     active="PRS2887Brancale"
-                     passive="PRS6229LebnaDe"
-                    ></relation>
+                         active="PRS2887Brancale"
+                         passive="PRS6229LebnaDe"/>
                   
                </listRelation>
          </listPerson>
@@ -105,23 +105,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>   
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                  

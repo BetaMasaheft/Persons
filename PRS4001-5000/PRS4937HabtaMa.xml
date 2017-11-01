@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Habta Māryām</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -53,9 +53,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-             <persName xml:lang="gez" xml:id="n1" type="birth">ሀብተ፡ ማርያም፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ሀብተ፡ ማርያም፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Habta Māryām</persName>
-               <persName><roleName type="title">ʾabbā</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾabbā</roleName>
+               </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   <occupation type="ecclesiastic">saint</occupation>
@@ -63,29 +65,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <floruit> He was a medieval Holy monk of Ethiopia. He was the son of <persName ref="PRS10470Yostena">Yosṭenā</persName>
                   and <persName ref="PRS4064FereBur">Fǝre Buruk</persName>, who were a well to do land owner  in <placeName ref="LOC5597Sawa">Šawā</placeName>. 
                   While he was a boy, he went to the monastery of <placeName ref="LOC2830EllaAd">ʾƎlla ʾAdbār</placeName> where he kept practicing ascetic discipline and working miracle.
-                  He was ordained by <roleName type="title">ʾabuna</roleName><persName ref="PRS10350Yeshaq">Yǝsḥaq</persName> in<date>1480/81</date>. 
+                  He was ordained by <roleName type="title">ʾabuna</roleName>
+                  <persName ref="PRS10350Yeshaq">Yǝsḥaq</persName> in<date>1480/81</date>. 
                   He was a prominent  member of the community of the monastery of <placeName ref="INS0341DL">Dabra Libānos</placeName>
                   in the time of <persName ref="PRS6734MarhaKr">Marḥa Krǝstos</persName> and <persName ref="PRS7825Petros">Ṗeṭros</persName>
        
                   </floruit>
-                  <death when="1497"></death>
+                  <death when="1497"/>
                </person>  
                <listRelation>
                   
                   <relation name="bm:ordainedBy"
-                     active="PRS4937HabtaMa"
-                     passive="PRS10350Yeshaq"
-                    ></relation>
+                         active="PRS4937HabtaMa"
+                         passive="PRS10350Yeshaq"/>
                   <relation name="snap:AllianceWith"
-                     active="PRS4937HabtaMa"
-                     passive="PRS7481NaodA"
-                     
-                    ></relation>
+                         active="PRS4937HabtaMa"
+                         passive="PRS7481NaodA"/>
                   
-                  <relation name="ecrm:P129i_is_subject_of" 
-                     active="PRS4937HabtaMa"
-                     passive="LIT1459GadlaH"
-                    ></relation>
+                  <relation name="ecrm:P129i_is_subject_of"
+                         active="PRS4937HabtaMa"
+                         passive="LIT1459GadlaH"/>
                </listRelation>
          </listPerson>
          <listBibl type="editions">
@@ -96,30 +95,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          
          <listBibl type="secondary">
     
-         <bibl> 
+            <bibl> 
                <ptr target="bm:RaineriRed2005Haylamaryam"/>
             </bibl>
          </listBibl>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                  
-                 

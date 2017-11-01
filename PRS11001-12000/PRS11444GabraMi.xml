@@ -48,8 +48,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName xml:lang="gez" xml:id="n1"><roleName type="title">አባ፡</roleName>ገብረ፡ ሚካኤል፡</persName>
-               <persName  xml:lang="gez" type="normalized" corresp="#n1"><roleName type="title">ʾabbā</roleName> Gabra Mikāʾel</persName>
+               <persName xml:lang="gez" xml:id="n1">
+                  <roleName type="title">አባ፡</roleName>ገብረ፡ ሚካኤል፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">
+                  <roleName type="title">ʾabbā</roleName> Gabra Mikāʾel</persName>
                <floruit when="1888"/>
             </person>
             <listRelation>

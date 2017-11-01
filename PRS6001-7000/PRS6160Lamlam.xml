@@ -58,7 +58,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Lamlam</persName>
                
                
-               <persName><roleName type="title">ʾalaqā</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾalaqā</roleName>
+               </persName>
                
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
@@ -68,23 +70,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
              
                
                
-               <floruit notBefore="1860"  notAfter="1904">He was an Ehiopian clergyman and historiographer, received a traditional church education
+               <floruit notBefore="1860" notAfter="1904">He was an Ehiopian clergyman and historiographer, received a traditional church education
                   and studied the <!--<title ref=""></title>-->
                  
                </floruit>
-               <death notBefore="1902" notAfter="1904"></death>
+               <death notBefore="1902" notAfter="1904"/>
                
                
             </person>
             <listRelation>
                <relation name="snap:FriendshipFor"
-                  active="PRS6160Lamlam"
-                  passive="PRS7146MondonV"
-                  ></relation>
+                         active="PRS6160Lamlam"
+                         passive="PRS7146MondonV"/>
                <relation name="saws:isAttributedAuthorOf"
-                  active="PRS6160Lamlam"
-                  passive="LIT2577YaseTa"
-                  ></relation>
+                         active="PRS6160Lamlam"
+                         passive="LIT2577YaseTa"/>
                
                
                
@@ -108,11 +108,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-                  
-               

@@ -56,14 +56,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
           
                  
-           <persName xml:lang="gez" xml:id="n1" type="birth">ጉግሳ፡ መርሳ፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ጉግሳ፡ መርሳ፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Gugsā Marsā</persName>
-               <persName><roleName type="title">rās</roleName></persName>
+               <persName>
+                  <roleName type="title">rās</roleName>
+               </persName>
  
                <occupation type="ruler">governor</occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
-               <residence><placeName ref="LOC2385DabraT"> Dabǝra Tābor </placeName> which was founded by him in <date> around 1802 </date></residence>
+               <residence>
+                  <placeName ref="LOC2385DabraT"> Dabǝra Tābor </placeName> which was founded by him in <date> around 1802 </date>
+               </residence>
              
                <floruit when="1800" evidence="internal">He became one of the greatest ruler of  Warrasek (Yaǧǧu) in<date>1800</date> and he was said to be "Gugsā the Great". 
                   He was a Muslim and later converted to Christianity. He acted as a kingmaker throughout his rule. 
@@ -72,23 +76,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <death>1825</death>
             </person>
             <listRelation>
-               <relation name="snap:GrandsonOf" 
-                  active="PRS4870GugsaMa"
-                  passive="PRS4900Gwangul"
-                 ></relation>
+               <relation name="snap:GrandsonOf"
+                         active="PRS4870GugsaMa"
+                         passive="PRS4900Gwangul"/>
                <relation name="snap:FatherOf"
-                  active="PRS4870GugsaMa"
-                  passive="PRS6728Mareyye"
-                 ></relation>
+                         active="PRS4870GugsaMa"
+                         passive="PRS6728Mareyye"/>
                <relation name="snap:FatherOf"
-                  active="PRS4870GugsaMa"
-                  passive="PRS3617DoriGug"
-                 ></relation>
+                         active="PRS4870GugsaMa"
+                         passive="PRS3617DoriGug"/>
               
-               <relation name="rel:enemyOf"
-                  active="PRS4870GugsaMa"
-                  passive="PRS9978Waldase"
-                 ></relation>
+               <relation name="rel:enemyOf" active="PRS4870GugsaMa" passive="PRS9978Waldase"/>
                
             </listRelation>
          </listPerson>
@@ -120,7 +118,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-           

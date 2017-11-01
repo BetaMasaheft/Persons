@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Strelcyn</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             
             <author/>
@@ -57,32 +57,30 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName>
               
                   <forename>Stefan</forename>
-                  <surname> Strelcyn</surname> </persName>
+                  <surname> Strelcyn</surname> 
+               </persName>
                   
                   <occupation type="academic">scholar</occupation>
                   <nationality type="Poland"/>
                   <faith type="notSpecified"/>
-                  <birth when="1918"></birth>
+                  <birth when="1918"/>
                   <floruit notBefore="1935" notAfter="1981">He was an eminent Polish Semitist and Ethiopisant. He was an all rounded scholar both in the field of Semitic studies and Ethiopian Studies.
                      But he attained unequalled competence in the study of magical and medical texts, together with their parallel fields of plant names and of Old Amharic. 
                      He also achieved excellence in cataloguing manuscripts.  </floruit>
-               <death when="1981">He died at <placeName ref="gn:2643123"/> in <date>1981</date>.</death>
+               <death when="1981">He died at <placeName ref="Q18125"/> in <date>1981</date>.</death>
             </person>
             <listRelation>
                <relation name="bm:husbandOf"
-                  active="PRS8999Strelcyn"
-                  passive="PRS11544Maria" 
-                  ></relation>
+                         active="PRS8999Strelcyn"
+                         passive="PRS11544Maria"/>
                
                <relation name="snap:AllianceWith"
-                  active="PRS8999Strelcyn"
-                  passive="PRS6784Marrassi"
-                  ></relation>
+                         active="PRS8999Strelcyn"
+                         passive="PRS6784Marrassi"/>
                
                <relation name="snap:FriendshipFor"
-                  active="PRS8999Strelcyn"
-                  passive="PRS3148Cohen"
-                  ></relation>
+                         active="PRS8999Strelcyn"
+                         passive="PRS3148Cohen"/>
                
             </listRelation>
          </listPerson>
@@ -109,12 +107,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-                   

@@ -58,16 +58,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" xml:id="n2" type="birth">ሀብቴ፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">Habte</persName>
                
-               <persName><roleName type="title">ʾaqqābe saʾāt </roleName></persName>
+               <persName>
+                  <roleName type="title">ʾaqqābe saʾāt </roleName>
+               </persName>
                
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <occupation type="ecclesiastic"> </occupation>
                
-               <floruit notBefore="1790"  notAfter="1810">He was a prominent late 18th to early 19th century traditional scholar 
+               <floruit notBefore="1790" notAfter="1810">He was a prominent late 18th to early 19th century traditional scholar 
                   , a native of either <placeName ref="LOC3549Gojjam">Goǧǧām</placeName> or <placeName ref="LOC6569Tegray">Tǝgrāy </placeName>. 
                   He taught in <placeName ref="LOC3577Gondar">Gondar </placeName> where he was elevated to the rank of <roleName type="title">ʾaqqābe saʾāt</roleName>
-                  during the rule of <roleName type="title">ʾaṣe</roleName><persName ref="PRS9153TaklaHa">Takla Hāymānot II</persName>.
+                  during the rule of <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS9153TaklaHa">Takla Hāymānot II</persName>.
                   He was a highly talented scholar whose brilliance attested in 
                   the book of <title ref="LIT1949Mashaf">Maṣḥafa mǝkr</title>, authored by <persName ref="PRS11347TaklaHay">Takla Hāymānot of Mamsāḥ</persName>.</floruit>
                <death notBefore="1784" notAfter="1788">He died during the tenure of <roleName type="title">rās </roleName>
@@ -78,9 +81,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listRelation>
                
                <relation name="saws:isAttributedAuthorOf"
-                  active="PRS5821Kabte"
-                  passive="LIT1967Mashaf"
-                 ></relation>
+                         active="PRS5821Kabte"
+                         passive="LIT1967Mashaf"/>
                
                
                
@@ -101,13 +103,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-                  
-                  

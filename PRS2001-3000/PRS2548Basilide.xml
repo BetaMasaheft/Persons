@@ -57,11 +57,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" type="normalized" corresp="#n2">Fāsiladas</persName>
                <!--<persName xml:lang="gez" xml:id="n3"><roleName type="title">ሊቀ ፡ ሐራ ፡ </roleName>ወልደ ፡ አውዶክስዮስ ፡ እኍሁ ፡ ለጸድ ሪከስ ፡ ወልደ ፡ አውማንዩስ ፡ መኩንነ ፡ አን ጸኪያ ፡፡</persName>--> <!--this is not a name 2017-10-09 DR-->
                <occupation type="ecclesiastic">Saint, martyr</occupation>
-               <note type="commemoration"><date type="diesNatalis">11 Maskaram</date> in <ref type="mss" corresp="BLorient686">BL Orient. 686</ref></note>
+               <note type="commemoration">
+                  <date type="diesNatalis">11 Maskaram</date> in <ref type="mss" corresp="BLorient686">BL Orient. 686</ref>
+               </note>
             </person>
             
             <listRelation>
-               <relation name="ecrm:P129i_is_subject_of" active="PRS2548Basilide" passive="LIT1893Martyr"/>
+               <relation name="ecrm:P129i_is_subject_of"
+                         active="PRS2548Basilide"
+                         passive="LIT1893Martyr"/>
             </listRelation>
          </listPerson>
       </body>

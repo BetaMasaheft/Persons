@@ -58,7 +58,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                <persName xml:lang="gez" xml:id="n1" type="birth">ʾAbbāy Habta Ṣǝyon</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">አባይ፡ ሀብተ፡ ጽዮን፡</persName>
-               <persName><roleName type="title">baḥǝra nagāš</roleName></persName>
+               <persName>
+                  <roleName type="title">baḥǝra nagāš</roleName>
+               </persName>
                   <occupation type="political">leader</occupation>
                <nationality type="Eritrea"/>
                <faith type="EOTC"/>
@@ -75,13 +77,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </person>
                <listRelation>
                   <relation name="snap:NephewOf"
-                     active="PRS1083AbbayHa"
-                     passive="PRS4907Gwerade"
-                     ></relation>
+                         active="PRS1083AbbayHa"
+                         passive="PRS4907Gwerade"/>
                   <relation name="snap:FatherOf"
-                     active="PRS1083AbbayHa"
-                     passive="PRS5106haragot"
-                     ></relation>
+                         active="PRS1083AbbayHa"
+                         passive="PRS5106haragot"/>
                   
                   
                     </listRelation>
@@ -99,12 +99,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-               

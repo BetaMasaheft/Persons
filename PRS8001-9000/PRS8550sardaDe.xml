@@ -56,30 +56,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
 
               
-               <persName xml:lang="gez"  xml:id="n1">ሠርፀ፡ ድንግል</persName>
+               <persName xml:lang="gez" xml:id="n1">ሠርፀ፡ ድንግል</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Śarḍa Dǝngǝl</persName>
-               <persName><roleName type="title">ʾaṣe</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾaṣe</roleName>
+               </persName>
                
                <persName xml:lang="gez" type="royal" xml:id="n2">መላክ፡ ሰገድ</persName>
                <persName corresp="#n2">Malāk Sagad</persName>
                <occupation type="ruler">Emperor</occupation>
-               <birth when="1550"></birth> 
+               <birth when="1550"/> 
                <floruit when="1563" evidence="internal">Śarḍa Dǝngǝl succeeded his father king <persName ref="PRS7102Minas">Minās</persName> in <date>1563</date>.</floruit>
                <death when="1597" evidence="internal">He died of fish poisoning. </death>
                   </person>  
                   
                <listRelation>
-            <relation name="snap:SonOf"
-               active="PRS8550sardaDe"
-               passive="PRS7102Minas"></relation>
-                  <relation name="snap:SonOf"
-                     active="PRS8550sardaDe"
-                     passive="PRS1429AdmasMo"
-              ></relation>
-            <relation name="snap:NephewOf"
-               active="PRS8550sardaDe"
-               passive="PRS4428Galawdew"></relation>
-         </listRelation>
+               <relation name="snap:SonOf" active="PRS8550sardaDe" passive="PRS7102Minas"/>
+                  <relation name="snap:SonOf" active="PRS8550sardaDe" passive="PRS1429AdmasMo"/>
+               <relation name="snap:NephewOf"
+                         active="PRS8550sardaDe"
+                         passive="PRS4428Galawdew"/>
+            </listRelation>
          </listPerson>
          
          <listBibl type="secondary">
@@ -91,6 +88,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </bibl>
          </listBibl>
          
- </body>
+      </body>
    </text>
 </TEI>

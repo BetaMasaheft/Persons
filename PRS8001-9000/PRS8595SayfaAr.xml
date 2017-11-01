@@ -55,7 +55,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
              
                   <persName xml:lang="gez" xml:id="n1" type="birth">ሰይፈ፡ አርዐድ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Sayfa ʾArʿad</persName>
-                  <persName><roleName type="title">ʾaṣe</roleName></persName>
+                  <persName>
+                  <roleName type="title">ʾaṣe</roleName>
+               </persName>
                   <persName xml:lang="gez" xml:id="n2.1" type="regnal">ንዋየ፡ ክርስቶስ፡</persName>
                   <persName xml:lang="gez" corresp="#n2.1" type="normalized">Nǝwāya Krǝstos</persName>
                   <persName xml:lang="gez" xml:id="n2.2" type="regnal">ቈስጠንጢኖስ</persName>
@@ -67,17 +69,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                <floruit notBefore="1344" notAfter="1371">He succeeded his father King <persName ref="PRS1854Amdase">ʿAmda Ṣǝyon</persName> in <date> 1344</date>. 
   </floruit>
-               <death when="1371" evidence="internal"></death>
-        </person>
+               <death when="1371" evidence="internal"/>
+            </person>
             <listRelation>
-               <relation name="snap:SonOf" 
-                  active="PRS8595SayfaAr"
-                  passive="PRS1854Amdase"
-                 ></relation>
+               <relation name="snap:SonOf" active="PRS8595SayfaAr" passive="PRS1854Amdase"/>
                <relation name="snap:GrandsonOf"
-                  active="PRS8595SayfaAr"
-                  passive="PRS10111WedemR"
-                 ></relation>
+                         active="PRS8595SayfaAr"
+                         passive="PRS10111WedemR"/>
                 </listRelation>
          </listPerson>
          

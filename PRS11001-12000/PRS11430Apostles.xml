@@ -4,15 +4,15 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-   type="pers"
-   xml:lang="en"
-   xml:id="PRS11430Apostles">
+     type="pers"
+     xml:lang="en"
+     xml:id="PRS11430Apostles">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Twelve Apostles</title>
             <editor role="generalEditor" key="AB"/>
-<editor key="DR"/>
+            <editor key="DR"/>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
@@ -51,9 +51,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             
             <listRelation>
                <relation name="snap:Group"
-                  active="PRS11430Apostles"
-                  passive="PRS7805Peter PRS11326Andrew PRS5662James PRS5695John PRS7843Philip PRS2481Bartholo PRS9496Thomas PRS6902Matthew 
-                  PRS5665James PRS5781JudasTh PRS11431Simon PRS5779JudasI"/>
+                         active="PRS11430Apostles"
+                         passive="PRS7805Peter PRS11326Andrew PRS5662James PRS5695John PRS7843Philip PRS2481Bartholo PRS9496Thomas PRS6902Matthew                    PRS5665James PRS5781JudasTh PRS11431Simon PRS5779JudasI"/>
             </listRelation>
             
          </listPerson>

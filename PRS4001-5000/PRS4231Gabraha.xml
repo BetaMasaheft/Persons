@@ -58,7 +58,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Gabra Ḥannā</persName>
                <persName type="alt" xml:id="n2">ገብረ፡ ሐና፡ ገብረ፡ ማርያም፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">Gabra Ḥannā  Gabra Māryām</persName>
-               <persName><roleName type="title">ʾalaqā</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾalaqā</roleName>
+               </persName>
                
                
                <nationality type="Ethiopia"/>
@@ -76,24 +78,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   teacher and advisor. Gabra Ḥannā is said to have penned several religious books; however, none of them has ever been published. 
                   
                </floruit>
-               <death notBefore="1902"  notAfter="1916"></death>
+               <death notBefore="1902" notAfter="1916"/>
                
                
             </person>
             <listRelation>
                <relation name="bm:husbandOf"
-                  active="PRS4231Gabraha"
-                  passive="PRS6949Mazangiy"
-                 ></relation>
+                         active="PRS4231Gabraha"
+                         passive="PRS6949Mazangiy"/>
                
                <relation name="snap:AllianceWith"
-                  active="PRS4231Gabraha"
-                  passive="PRS7006Menilek"
-                 ></relation>
+                         active="PRS4231Gabraha"
+                         passive="PRS7006Menilek"/>
                <relation name="snap:AllianceWith"
-                  active="PRS4231Gabraha"
-                  passive="PRS9430Tewodros"
-                 ></relation>
+                         active="PRS4231Gabraha"
+                         passive="PRS9430Tewodros"/>
                
                
                
@@ -122,15 +121,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-                  
-                  

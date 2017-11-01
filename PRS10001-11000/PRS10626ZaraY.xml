@@ -56,59 +56,46 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          
                         <persName xml:lang="gez" xml:id="n1" type="birth">ዘርአ፡ ያዕቆብ፡</persName>
                         <persName xml:lang="gez" corresp="#n1" type="normalized">Zarʾa Yāʿǝqob</persName>
-               <persName><roleName type="title">ʾaṣe</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾaṣe</roleName>
+               </persName>
                      <persName xml:lang="gez" xml:id="n2" type="regnal">ቈስጠንጢኖስ፡</persName>
                         <persName xml:lang="gez" corresp="#n2" type="normalized">Qʷasṭanṭinos</persName>
               
                      <occupation type="ruler">Emperor</occupation>
                <birth when="1399">He was born in <placeName ref="LOC3061Fataga">Faṭagār</placeName>.</birth>
-               <residence><placeName ref="LOC2246DabraB">Dabra Bǝrhān</placeName></residence>
-               <floruit when="1434" evidence="internal">He was the fourth son of <roleName type="title">ʾaṣe</roleName> <persName ref="PRS3429DawitII">Dāwit</persName>
+               <residence>
+                  <placeName ref="LOC2246DabraB">Dabra Bǝrhān</placeName>
+               </residence>
+               <floruit when="1434" evidence="internal">He was the fourth son of <roleName type="title">ʾaṣe</roleName> 
+                  <persName ref="PRS3429DawitII">Dāwit</persName>
                   to become a king and ascended to the throne after several years of chaos following the death of his brother  <roleName type="title">ʾaṣe</roleName> 
                   <persName ref="PRS10342Yeshaq">Yǝsḥaq</persName> and 
                the short reigns of another brother King <persName ref="PRS9176TaklaMa">Takla Māryām</persName> in <date>1430-1433</date> as well  as three of his nephews.
                   He was the outstanding ruler of the early Solomonic period, between  <date>1270-1527</date>.  He played a remarkable role for the development of Gǝʿǝz literature.</floruit>
 
-                     <death when="1468" evidence="internal"></death>
+                     <death when="1468" evidence="internal"/>
                   </person>
             <listRelation>
-               <relation name="snap:SonOf" 
-                  active="PRS10626ZaraY"
-                  passive="PRS3429DawitII"
-                 ></relation>
+               <relation name="snap:SonOf" active="PRS10626ZaraY" passive="PRS3429DawitII"/>
                <relation name="snap:BrotherOf"
-                  active="PRS10626ZaraY"
-                  passive="PRS10342Yeshaq"
-                 ></relation>
+                         active="PRS10626ZaraY"
+                         passive="PRS10342Yeshaq"/>
                <relation name="snap:BrotherOf"
-                  
-                  active="PRS10626ZaraY"
-                  passive="PRS9176TaklaMa"
-                 ></relation>
+                         active="PRS10626ZaraY"
+                         passive="PRS9176TaklaMa"/>
                <relation name="snap:BrotherOf"
-                   active="PRS10626ZaraY"
-                  passive="PRS9432Tewodros"
-                 ></relation>  
-               <relation name="snap:FatherOf"
-                  active="PRS10626ZaraY"
-                  passive="PRS2334BaedaM"
-                 ></relation>
-               <relation name="rel:enemyOf"
-                   active="PRS10626ZaraY"
-                  passive="PRS3894estifano"
-                 ></relation>
-               <relation name="bm:husbandOf"
-                  active="PRS10626ZaraY"
-                  passive="PRS3706eleni"
-                 ></relation>
+                         active="PRS10626ZaraY"
+                         passive="PRS9432Tewodros"/>  
+               <relation name="snap:FatherOf" active="PRS10626ZaraY" passive="PRS2334BaedaM"/>
+               <relation name="rel:enemyOf" active="PRS10626ZaraY" passive="PRS3894estifano"/>
+               <relation name="bm:husbandOf" active="PRS10626ZaraY" passive="PRS3706eleni"/>
                <relation name="saws:isAttributedAuthorOf"
-                  active="PRS10626ZaraY"
-                  passive="LIT1921Mashaf"
-              ></relation>
+                         active="PRS10626ZaraY"
+                         passive="LIT1921Mashaf"/>
                <relation name="saws:isAttributedAuthorOf"
-                  active="PRS10626ZaraY"
-                  passive="LIT1955Mashaf"
-              ></relation>
+                         active="PRS10626ZaraY"
+                         passive="LIT1955Mashaf"/>
                
               </listRelation>
          </listPerson>
@@ -130,5 +117,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </body>
    </text>
 </TEI>
-
-             

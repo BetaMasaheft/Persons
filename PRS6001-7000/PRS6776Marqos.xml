@@ -55,7 +55,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ማርቆስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Mārqos [III]</persName>
-               <persName><roleName type="title">ʾabuna</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾabuna</roleName>
+               </persName>
                <occupation type="ecclesiastic"> metropolitan </occupation>
                <nationality type="Egypt"/>
                <faith type="Coptic"/>
@@ -68,28 +70,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   by <persName ref="PRS5324Heyling">Heyling</persName>.
                   
                </floruit>
-               <death>He died in <date>1647/48</date> </death>
+               <death>He died in <date>1647/48</date> 
+               </death>
             </person>
             <listRelation>
                <relation name="bm:ordainedBy"
-                  active="PRS6776Marqos"
-                  passive="PRS6905Matthew"
-                 ></relation>
+                         active="PRS6776Marqos"
+                         passive="PRS6905Matthew"/>
                <relation name="snap:FriendshipFor"
-                  
-                  active="PRS6776Marqos"
-                  passive="PRS5324Heyling"
-                 ></relation>
+                         active="PRS6776Marqos"
+                         passive="PRS5324Heyling"/>
                <relation name="snap:AllianceWith"
-                  
-                  active="PRS6776Marqos"
-                  passive="PRS4015Fasilada"
-                 ></relation>
+                         active="PRS6776Marqos"
+                         passive="PRS4015Fasilada"/>
                <relation name="snap:AllianceWith"
-                  
-                  active="PRS6776Marqos"
-                  passive="PRS9848Walatta"
-                 ></relation>
+                         active="PRS6776Marqos"
+                         passive="PRS9848Walatta"/>
             
                
             </listRelation>
@@ -109,23 +105,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                  
-                  

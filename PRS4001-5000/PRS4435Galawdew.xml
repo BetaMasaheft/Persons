@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Galāwdewos</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -56,38 +56,36 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
              
                   <persName xml:lang="gez" xml:id="n1" type="birth">ገላውዴዎስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Galāwdewos</persName>
-               <persName><roleName type="title">daǧǧāzmač</roleName></persName>
+               <persName>
+                  <roleName type="title">daǧǧāzmač</roleName>
+               </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   <occupation type="political">governor </occupation>
                <birth when="1608"> </birth>
                 
                   
-               <floruit> He was the fourth son of <roleName type="title">ʾaṣe</roleName> <persName ref="PRS9038Susenyos">Susǝnyos</persName>.
+               <floruit> He was the fourth son of <roleName type="title">ʾaṣe</roleName> 
+                  <persName ref="PRS9038Susenyos">Susǝnyos</persName>.
                   In <date>1635</date>, he seems to have been appointed 
                   <roleName type="title">daǧǧāzmač</roleName> of <placeName ref="LOC1713Bagemd">Bagemdǝr</placeName> or of <placeName ref="LOC2487Damo">Damo</placeName> 
                   and <placeName ref="LOC5671Semen">Semen</placeName>. </floruit>
-               <death when="1648"></death>
+               <death when="1648"/>
                </person>
                <listRelation>
                   
-                  <relation name="snap:SonOf" 
-                     active="PRS4435Galawdew"
-                     passive="PRS9038Susenyos"
-                    ></relation>
                   <relation name="snap:SonOf"
-                     active="PRS4435Galawdew"
-                     passive="PRS9869Waldsa"
-                    ></relation>
+                         active="PRS4435Galawdew"
+                         passive="PRS9038Susenyos"/>
+                  <relation name="snap:SonOf" active="PRS4435Galawdew" passive="PRS9869Waldsa"/>
                   <relation name="snap:BrotherOf"
-                     active="PRS4435Galawdew"
-                     passive="PRS4013FasilGa"
-                    ></relation>
+                         active="PRS4435Galawdew"
+                         passive="PRS4013FasilGa"/>
                </listRelation>
          </listPerson>
          
                      
-<listBibl type="editions">
+         <listBibl type="editions">
           
                <bibl>
                   <ptr target="bm:Pereira1892Susenyos"/>
@@ -107,8 +105,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>   
 </TEI>
-
-
-
-                  
-                 

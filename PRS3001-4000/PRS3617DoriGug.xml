@@ -54,34 +54,33 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-      <persName xml:lang="gez" xml:id="n1" type="birth">ዶሪ፡ ጉግሳ፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ዶሪ፡ ጉግሳ፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Dori Gugsā</persName>
-                  <persName><roleName type="title">rās</roleName></persName>
+                  <persName>
+                  <roleName type="title">rās</roleName>
+               </persName>
            
                <occupation type="ruler">governor</occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
-               <residence><placeName ref="LOC3577Gondar"> Gondar </placeName></residence>
+               <residence>
+                  <placeName ref="LOC3577Gondar"> Gondar </placeName>
+               </residence>
              
                <floruit when="1831" evidence="internal">He was one of the rulers of Warrasek (Yaǧǧu) of <placeName ref="LOC2385DabraT">Dabǝra Tābor</placeName> 
                   who succeeded his brother rās <persName ref="PRS6728Mareyye">Mārǝye</persName> in <date>1831</date>. 
             </floruit>
-               <death></death>
+               <death/>
             </person>
             <listRelation>
-               <relation name="snap:SonOf" 
-                  active="PRS3617DoriGug"
-                  passive="PRS4870GugsaMa"
-                 ></relation>
+               <relation name="snap:SonOf" active="PRS3617DoriGug" passive="PRS4870GugsaMa"/>
                <relation name="snap:BrotherOf"
-                  active="PRS3617DoriGug"
-                  passive="PRS6728Mareyye"
-                 ></relation>
+                         active="PRS3617DoriGug"
+                         passive="PRS6728Mareyye"/>
           
                <relation name="snap:AllianceWith"
-                  active="PRS3617DoriGug"
-                  passive="PRS5619IyasuIV"
-                 ></relation>
+                         active="PRS3617DoriGug"
+                         passive="PRS5619IyasuIV"/>
             </listRelation>
          </listPerson>
          <listBibl type="editions">
@@ -102,5 +101,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-           

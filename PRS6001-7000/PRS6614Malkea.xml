@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Malkǝʾa Krǝstos</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -53,34 +53,34 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-            <persName xml:lang="gez" xml:id="n1" type="birth">መልክአ፡ ክርስቶስ፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">መልክአ፡ ክርስቶስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Malkǝʾa Krǝstos</persName>
-                  <persName><roleName type="title">ʾabbā</roleName></persName>
+                  <persName>
+                  <roleName type="title">ʾabbā</roleName>
+               </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   <occupation type="ecclesiastic">saint</occupation>
-                  <residence></residence>
-                  <birth></birth>
+                  <residence/>
+                  <birth/>
                   <floruit notBefore="1650" notAfter="1740" cert="medium">He was a saint venerated by the Ethiopian Orthodox Church, ordained as a priest and later appointed abbot.
                      He was the supporter of the Tawāhǝdo doctrine and preached the observance of the two Sabbaths. He was a disciple of 
                      <persName ref="PRS3886estanfas">ʾƎstanfāsa Krǝstos</persName>. He had many disciples including 
                      <persName ref="PRS1841AmdaBe">ʾAmda Bǝrhan</persName>, <persName ref="PRS10570Zamanfa">Zamanfas Qǝddus</persName>, 
                      <persName ref="PRS4500Gannata">Gannata Māryām</persName>, <persName ref="PRS7560NewayaM">Nǝwāya Māryām</persName>,
                      <persName ref="PRS8710SehinaM">Sǝhina Māryām</persName>. </floruit>
-                  <death></death>
+                  <death/>
                </person>  
                <listRelation>
                   
                   
                   <relation name="snap:AllianceWith"
-                     active="PRS6614Malkea"
-                     passive="PRS3886estanfas"
-                    ></relation>
+                         active="PRS6614Malkea"
+                         passive="PRS3886estanfas"/>
           
                 <relation name="ecrm:P129i_is_subject_of"
-                     active="PRS6614Malkea"
-                     passive="LIT4118GadlaMalk"
-                    ></relation>
+                         active="PRS6614Malkea"
+                         passive="LIT4118GadlaMalk"/>
                   
                </listRelation>
          </listPerson>

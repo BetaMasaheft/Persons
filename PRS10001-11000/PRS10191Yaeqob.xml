@@ -60,42 +60,33 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             
                <persName xml:lang="gez" type="normalized" corresp="#n1">Yāʿǝqob</persName>
               <persName xml:lang="en" corresp="#n1">Jacob</persName>
-               <persName><roleName type="title">ʾabeto</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾabeto</roleName>
+               </persName>
                
                
                <occupation type="ruler">prince</occupation>
-             <birth when="1527" cert="medium"/>
+               <birth when="1527" cert="medium"/>
                <death when="1557" evidence="internal">He died two years before the death of his brother 
-                  <roleName type="title">ʾaṣe</roleName> <persName ref="PRS4428Galawdew">Galāwdewos</persName>who died in <date>1559</date>. </death>
+                  <roleName type="title">ʾaṣe</roleName> 
+                  <persName ref="PRS4428Galawdew">Galāwdewos</persName>who died in <date>1559</date>. </death>
                
             </person>
             <listRelation>
-               <relation name="snap:SonOf" 
-                  active="PRS10191Yaeqob"
-                  passive="PRS6229LebnaDe"
-             > </relation>
-               <relation name="snap:SonOf" 
-                  active="PRS10191Yaeqob"
-                  passive="PRS8276SablaWa"
-              ></relation>
+               <relation name="snap:SonOf" active="PRS10191Yaeqob" passive="PRS6229LebnaDe"> </relation>
+               <relation name="snap:SonOf" active="PRS10191Yaeqob" passive="PRS8276SablaWa"/>
                <relation name="snap:BrotherOf"
-                  active="PRS10191Yaeqob"
-                  passive="PRS4121Fiqtor"
-             > </relation>
+                         active="PRS10191Yaeqob"
+                         passive="PRS4121Fiqtor"> </relation>
                <relation name="snap:BrotherOf"
-                  
-                  active="PRS10191Yaeqob"
-                  passive="PRS4428Galawdew" 
-                  
-              ></relation>
+                         active="PRS10191Yaeqob"
+                         passive="PRS4428Galawdew"/>
                <relation name="snap:BrotherOf"
-                  active="PRS10191Yaeqob"
-                  passive="PRS7102Minas"
-              ></relation>
+                         active="PRS10191Yaeqob"
+                         passive="PRS7102Minas"/>
                <relation name="snap:GrandfatherOf"
-                  active="PRS10191Yaeqob"
-                  passive="PRS9038Susenyos"
-                 ></relation> 
+                         active="PRS10191Yaeqob"
+                         passive="PRS9038Susenyos"/> 
             </listRelation>
                
          </listPerson>

@@ -60,13 +60,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                   <persName xml:lang="gez" xml:id="n1" type="birth">ኃይለ፡ ማርያም፡  ማሞ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Ḫayla Māryām Māmmo</persName>
-               <nationality type="Ethiopia"></nationality>
-               <faith type="Ethiopian"></faith>
+               <nationality type="Ethiopia"/>
+               <faith type="Ethiopian"/>
                
                   
                   
                   
-               <persName><roleName type="title">lǝǧ</roleName></persName>
+               <persName>
+                  <roleName type="title">lǝǧ</roleName>
+               </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   
@@ -90,14 +92,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </person>
                <listRelation>
                   <relation name="snap:AllianceWith"
-                     active="PRS5217haylaMa"
-                     passive="PRS1056AbbabaA"
-                     ></relation>
+                         active="PRS5217haylaMa"
+                         passive="PRS1056AbbabaA"/>
                   
                   <relation name="snap:AllianceWith"
-                     active="PRS5217haylaMa"
-                     passive="PRS5226haylase"
-                     ></relation>
+                         active="PRS5217haylaMa"
+                         passive="PRS5226haylase"/>
                   
                   
                   
@@ -125,19 +125,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-              

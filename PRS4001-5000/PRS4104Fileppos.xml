@@ -55,12 +55,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ፊሊጶስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Filǝṗṗos</persName>
-               <persName><roleName type="title">ʿǝč̣č̣age</roleName></persName>
+               <persName>
+                  <roleName type="title">ʿǝč̣č̣age</roleName>
+               </persName>
                <occupation type="ecclesiastic">abbot</occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <birth when="1274"/>
-               <residence><placeName ref="INS0341DL">Dabra Libānos</placeName></residence>
+               <residence>
+                  <placeName ref="INS0341DL">Dabra Libānos</placeName>
+               </residence>
                <floruit notBefore="1314" notAfter="1348">He was the third abbot of <placeName ref="INS0341DL">Dabra Libānos</placeName> who succeeded his predecessor 
                   ʾabuna <persName ref="PRS3742ElsaE">Elsāʿ</persName>in <date>1314</date>. He expanded Christianity in <placeName ref="LOC5597Sawa">Šawā</placeName>
                   and in the provinces further to the south dispatching 11 pupils of ʾabuna <persName ref="PRS9152TaklaHa">Takla Hāymānot I</persName>. 
@@ -74,17 +78,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </person>
             <listRelation>
                <relation name="snap:AllianceWith"
-                  active="PRS4104Fileppos"
-                  passive="PRS8387SalamaI"
-                 ></relation>
+                         active="PRS4104Fileppos"
+                         passive="PRS8387SalamaI"/>
                <relation name="snap:AllianceWith"
-                  active="PRS4104Fileppos"
-                  passive="PRS10200Yaeqob"
-                 ></relation>
-               <relation name="ecrm:P129i_is_subject_of" 
-                  active="PRS4104Fileppos"
-                  passive="LIT1445GadlaF"
-                 ></relation>
+                         active="PRS4104Fileppos"
+                         passive="PRS10200Yaeqob"/>
+               <relation name="ecrm:P129i_is_subject_of"
+                         active="PRS4104Fileppos"
+                         passive="LIT1445GadlaF"/>
                 </listRelation>
          </listPerson>
          <listBibl type="editions">
@@ -105,7 +106,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-               
-         

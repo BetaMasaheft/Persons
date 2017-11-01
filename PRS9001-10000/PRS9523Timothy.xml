@@ -57,7 +57,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <persName xml:lang="gez" xml:id="n1" type="birth">ጢሞቴዎስ፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Timothy III</persName>
                   <persName xml:lang="en" xml:id="n2" type="alt">Ailourous</persName>
-                  <persName><roleName type="title">patriarch</roleName></persName>
+                  <persName>
+                  <roleName type="title">patriarch</roleName>
+               </persName>
                   
                   <occupation type="ecclesiastic">patriarch</occupation>
                   
@@ -66,27 +68,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      He was a monk in the monastery of <placeName ref="LOC5153Qalamu">Qalamūn</placeName>, 
                      who was brought by force to <placeName ref="LOC1338Alexan">Alexandria</placeName> and consecrated presbyter during the pontificate 
                      of patriarch <persName ref="PRS3255CyrilI">Cyril I (of Alexandria)</persName>. Some of his works were translated into Gǝʿǝz. </floruit>
-                  <death when="0477"></death>
+                  <death when="0477"/>
                   
             </person>
             
             <listRelation>
                <relation name="snap:AllianceWith"
-                  active="PRS9524Timothy"
-                  passive="PRS3591Dioscoru"
-                 ></relation>
-               <relation name="saws:isAttributedAuthorOf"  
-                  active="PRS9524Timothy"
-                  passive="LIT1789Letter"
-                 ></relation>
-               <relation name="saws:isAttributedAuthorOf"  
-                  active="PRS9524Timothy"
-                  passive="LIT1637Homily"
-                 ></relation>
-               <relation name="saws:isAttributedAuthorOf"  
-                  active="PRS9524Timothy"
-                  passive="LIT1643Homily"
-                 ></relation>
+                         active="PRS9524Timothy"
+                         passive="PRS3591Dioscoru"/>
+               <relation name="saws:isAttributedAuthorOf"
+                         active="PRS9524Timothy"
+                         passive="LIT1789Letter"/>
+               <relation name="saws:isAttributedAuthorOf"
+                         active="PRS9524Timothy"
+                         passive="LIT1637Homily"/>
+               <relation name="saws:isAttributedAuthorOf"
+                         active="PRS9524Timothy"
+                         passive="LIT1643Homily"/>
                
             </listRelation>
          </listPerson>
@@ -106,7 +104,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-                  

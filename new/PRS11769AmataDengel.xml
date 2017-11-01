@@ -1,7 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS11769AmataDengel" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="PRS11769AmataDengel"
+     xml:lang="en"
+     type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -59,17 +64,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </person>
                 <listRelation>
                     <relation name="snap:DaughterOf"
-                        active="PRS11769AmataDengel"
-                        passive="PRS7481NaodA"
-                        ></relation>
+                         active="PRS11769AmataDengel"
+                         passive="PRS7481NaodA"/>
                     <relation name="snap:SisterOf"
-                        active="PRS11769AmataDengel"
-                        passive="PRS6229LebnaDe"
-                        ></relation>
+                         active="PRS11769AmataDengel"
+                         passive="PRS6229LebnaDe"/>
                     <relation name="snap:SisterOf"
-                        active="PRS11769AmataDengel"
-                        passive="PRS11767RomanaWarq"
-                        ></relation>
+                         active="PRS11769AmataDengel"
+                         passive="PRS11767RomanaWarq"/>
                     
                     
                 </listRelation>

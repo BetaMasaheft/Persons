@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
@@ -63,7 +63,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" xml:id="n3" type="alt">ተክሌ፡</persName>
                <persName xml:lang="gez" corresp="#n3" type="normalized">Takle</persName>
                   
-               <persName><roleName type="title">ʾalaqā </roleName></persName>
+               <persName>
+                  <roleName type="title">ʾalaqā </roleName>
+               </persName>
                   
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
@@ -85,14 +87,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                </person>
             <listRelation>
-               <relation name="snap:SonOf"
-                  active="PRS9173TaklaIy"
-                  passive="PRS9789Waaqger"
-                 ></relation>
-               <relation name="snap:SonOf"
-                  active="PRS9173TaklaIy"
-                  passive="PRS4427Galanee"
-                 ></relation>
+               <relation name="snap:SonOf" active="PRS9173TaklaIy" passive="PRS9789Waaqger"/>
+               <relation name="snap:SonOf" active="PRS9173TaklaIy" passive="PRS4427Galanee"/>
                
                
                   
@@ -119,9 +115,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-                  
-                  

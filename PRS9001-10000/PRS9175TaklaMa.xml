@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Takla Māryām</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -54,38 +54,34 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-            <persName xml:lang="gez" xml:id="n1" type="birth">ተክለ፡ ማርያም፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ተክለ፡ ማርያም፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Takla Māryām</persName>
                <persName xml:lang="gez" xml:id="n2" type="birth">ሕዝበ፡ ናኝ፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">Ḥǝzba Nañ</persName>
-            <persName><roleName type="title">ʾaṣe</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾaṣe</roleName>
+               </persName>
                <nationality type="Ethiopia"/>
               <faith type="EOTC"/>
-        <occupation type="ruler">Emperor</occupation>
+               <occupation type="ruler">Emperor</occupation>
           
                <floruit notBefore="1430" notAfter="1433">He was the younger brother and successor of <roleName type="title">ʾaṣe</roleName>
                   <persName ref="PRS10342Yeshaq">Yǝsḥāq</persName>. He was the third son of  <roleName type="title">ʾaṣe</roleName> 
                   <persName ref="PRS3429DawitII">Dāwit II</persName>. He was succeeded by his son <persName ref="PRS8560sarwaIy">Śarwa Iyasus</persName> in <date>1433</date>.</floruit>
-            <death when="1433"/>
+               <death when="1433"/>
             </person>  
             <listRelation>
-               <relation name="snap:SonOf" 
-                  active="PRS9175TaklaMa"
-                  passive="PRS3429DawitII"
-                 ></relation>
+               <relation name="snap:SonOf" active="PRS9175TaklaMa" passive="PRS3429DawitII"/>
                
                <relation name="snap:FatherOf"
-                  active="PRS9175TaklaMa"
-                  passive="PRS8560sarwaIy"
-                 ></relation>
+                         active="PRS9175TaklaMa"
+                         passive="PRS8560sarwaIy"/>
                <relation name="snap:BrotherOf"
-                  active="PRS9175TaklaMa"
-                  passive="PRS10342Yeshaq"
-                 ></relation>
+                         active="PRS9175TaklaMa"
+                         passive="PRS10342Yeshaq"/>
                <relation name="snap:BrotherOf"
-                  active="PRS9175TaklaMa"
-                  passive="PRS9432Tewodros"
-                 ></relation>
+                         active="PRS9175TaklaMa"
+                         passive="PRS9432Tewodros"/>
                
             </listRelation>
          </listPerson>
@@ -106,14 +102,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-         
-                  
-                  

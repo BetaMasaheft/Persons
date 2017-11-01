@@ -56,17 +56,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" xml:id="n1" type="birth">አብራንዮስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAbrānyos</persName>
                
-               <persName><roleName type="title">ʾabbā </roleName></persName>
+               <persName>
+                  <roleName type="title">ʾabbā </roleName>
+               </persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <occupation type="ecclesiastic">saint</occupation>
-               <floruit> He was a saint of the 17th century, contemporary of <roleName type="title">ʾaṣe</roleName><persName ref="PRS9038Susenyos">Susǝnyos</persName>. 
+               <floruit> He was a saint of the 17th century, contemporary of <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS9038Susenyos">Susǝnyos</persName>. 
                   At the age  of twelve, he went to the monastery of <placeName ref="LOC2352DabraS">Dabra Dabsān</placeName>
                   to take monastic orders and was ordained priest by the metropolitan ṗāṗṗās <roleName type="title">ʾabuna</roleName>
                   <persName ref="PRS6071Krestodo">Krǝstodolu [II]</persName>. As a follower of <persName ref="PRS3932Ewostate">Ewosṭatewos</persName>, 
                   he professed the Unionist doctrine during the Christological controversies. Because of his beliefs, <persName ref="PRS1280Abranyos">ʾAbrānyos</persName> 
-                  was imprisoned by <roleName type="title">ʾaṣe</roleName><persName ref="PRS9152TaklaHa">Takla Hāymānot I</persName> 
-                  and released by <roleName type="title">ʾaṣe</roleName><persName ref="PRS9449Tewoflos">Tewoflos</persName>. Then after, 
+                  was imprisoned by <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS9152TaklaHa">Takla Hāymānot I</persName> 
+                  and released by <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS9449Tewoflos">Tewoflos</persName>. Then after, 
                   he returned to his monastery <placeName ref="LOC2390DabraT">Dabra Ṭǝllul</placeName> where he remained there until  his death.
                   He was succeeded by <persName ref="PRS1578AkalaKr">ʾAkāla Krǝstos</persName>.
                   
@@ -76,23 +81,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
             </person>
             <listRelation>
-               <relation name="bm:ordainedBy"     
-                  active="PRS1280Abranyos"
-                  passive="PRS6071Krestodo"
-                 ></relation>
-               <relation name="snap:AllianceWith"   
-                  active="PRS1280Abranyos"
-                  passive="PRS9449Tewoflos"
-                 ></relation>
-               <relation name="snap:AllianceWith"   
-                  active="PRS1280Abranyos"
-                  passive="PRS1578AkalaKr"
-                 ></relation>
+               <relation name="bm:ordainedBy"
+                         active="PRS1280Abranyos"
+                         passive="PRS6071Krestodo"/>
+               <relation name="snap:AllianceWith"
+                         active="PRS1280Abranyos"
+                         passive="PRS9449Tewoflos"/>
+               <relation name="snap:AllianceWith"
+                         active="PRS1280Abranyos"
+                         passive="PRS1578AkalaKr"/>
                
                   <relation name="ecrm:P129i_is_subject_of"
-                  active="PRS1280Abranyos"
-                  passive="LIT1408GadlaA"
-                 ></relation>
+                         active="PRS1280Abranyos"
+                         passive="LIT1408GadlaA"/>
                
                
             </listRelation>
@@ -107,14 +108,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>   
 </TEI>
-
-
-
-
-
-
-
-
-
-                  
-                

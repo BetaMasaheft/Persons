@@ -55,7 +55,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ዮሳብ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Yosāb I</persName>
-               <persName><roleName type="title">ʾabuna</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾabuna</roleName>
+               </persName>
                <occupation type="ecclesiastic"> metropolitan </occupation>
                <nationality type="Egypt"/>
                <faith type="Coptic"/>
@@ -67,31 +69,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <persName ref="PRS7827Petros">Ṗeṭros</persName> who have been his coadjustor.
                   
                  </floruit>
-               <death> He died in <date>1559</date></death>
+               <death> He died in <date>1559</date>
+               </death>
             </person>
             <listRelation>
                
                
                <relation name="snap:AllianceWith"
-                
-                  active="PRS10449YosabI"
-                  passive="PRS4428Galawdew"
-                 ></relation>
+                         active="PRS10449YosabI"
+                         passive="PRS4428Galawdew"/>
                <relation name="snap:AllianceWith"
-                  
-               active="PRS10449YosabI"
-                  passive="PRS7827Petros"
-                 ></relation>
+                         active="PRS10449YosabI"
+                         passive="PRS7827Petros"/>
                </listRelation>
          </listPerson>
          <listBibl type="editions"> 
-         <bibl> 
-            <ptr target="bm:Conzelman1895Galawdewos"/>
-            <citedRange unit="page">36, 144 </citedRange>
-         </bibl>
+            <bibl> 
+               <ptr target="bm:Conzelman1895Galawdewos"/>
+               <citedRange unit="page">36, 144 </citedRange>
+            </bibl>
          </listBibl>
          
- <listBibl type="secondary">
+         <listBibl type="secondary">
            <bibl> 
                <ptr target="bm:Ancel2014YosabI"/>
             </bibl>  
@@ -104,10 +103,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-                  
-                

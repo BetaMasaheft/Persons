@@ -55,7 +55,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">አይገበዝ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAygabaz</persName>
-               <persName><roleName type="title">ṭǝqāqqǝn blatten getā</roleName></persName>
+               <persName>
+                  <roleName type="title">ṭǝqāqqǝn blatten getā</roleName>
+               </persName>
                <occupation type="political">courtier</occupation>
                
                <nationality type="Ethiopia"/>
@@ -63,7 +65,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                <floruit when="1669">He was a dignitary of <roleName type="title">ʾaṣe</roleName>
                   <persName ref="PRS5616IyasuI">ʾIyāsu I</persName> with the title <roleName type="title">ṭǝqāqqǝn blatten getā </roleName>.
-                  In this function, he together with <roleName type="title">blatten getā </roleName> <persName ref="PRS4287GabraLe">Gabra Lǝʾul</persName>, 
+                  In this function, he together with <roleName type="title">blatten getā </roleName> 
+                  <persName ref="PRS4287GabraLe">Gabra Lǝʾul</persName>, 
                   undertook an expedition against <placeName ref="LOC1843BeniSa">Beni Šāngul</placeName>. 
                </floruit>
             
@@ -72,15 +75,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             
             <listRelation>
                <relation name="snap:AllianceWith"
-                  
-                  active="PRS2274Aygabaz"
-                  passive="PRS5616IyasuI"
-                 ></relation>
+                         active="PRS2274Aygabaz"
+                         passive="PRS5616IyasuI"/>
                <relation name="snap:AllianceWith"
-                  
-                  active="PRS2274Aygabaz"
-                  passive="PRS4287GabraLe"
-                 ></relation>
+                         active="PRS2274Aygabaz"
+                         passive="PRS4287GabraLe"/>
                
             </listRelation>
          </listPerson>
@@ -100,13 +99,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-                  
-                  

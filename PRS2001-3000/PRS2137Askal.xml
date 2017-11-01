@@ -56,19 +56,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">አስካል፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAskāl</persName>
-             <occupation type="political">officer</occupation>
+               <occupation type="political">officer</occupation>
                
-       <floruit when="1602">He was an officer of <roleName type="title">ʾaṣe</roleName><persName ref="PRS9038Susenyos">Susǝnyos</persName> , 
+               <floruit when="1602">He was an officer of <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS9038Susenyos">Susǝnyos</persName> , 
                   who shared the challenge and the success of him, in the time before he came to power and during his reign.  He joined the rebel group of <roleName type="title">ʾaṣe</roleName>
                   <persName ref="PRS9038Susenyos">Susǝnyos</persName> in <date>1602</date>. Though he was from humble background, he reached the 
           peak of his career when he was appointedd as the governor of <placeName ref="LOC6194Wambar">Wambarmā</placeName> in <date>1618</date>. </floruit>
-               <death when="1637"></death> 
+               <death when="1637"/> 
             </person>
             <listRelation>
                <relation name="snap:AllianceWith"
-                  active="PRS2137Askal"
-                  passive="PRS9038Susenyos"
-                 ></relation>
+                         active="PRS2137Askal"
+                         passive="PRS9038Susenyos"/>
                
             </listRelation>
          </listPerson>
@@ -79,7 +79,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </bibl>
             
             
-         <bibl>
+            <bibl>
                <ptr target="bm:Pereira1900Susenyos"/>
             </bibl>
             
@@ -95,8 +95,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-                  
-                 

@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"
 ?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS10782Frances" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="PRS10782Frances"
+     xml:lang="en"
+     type="pers">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -53,12 +54,14 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                   <surname>de Zelada</surname>
                </persName>
                <occupation type="ecclesiastic">cardinal</occupation>
-               <occupation type="other">librarian of <ref type="ins" corresp="INS0003BAV"/></occupation>
+               <occupation type="other">librarian of <ref type="ins" corresp="INS0003BAV"/>
+               </occupation>
                <birth>August 27, 1717</birth>
                <death>December 19, 1801</death>
                <floruit/>
                <residence>
-                  <placeName ref="gn:3169070"/></residence>
+                  <placeName ref="Q220"/>
+               </residence>
             </person>
          </listPerson>                 
       </body>

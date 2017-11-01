@@ -57,29 +57,30 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                <persName xml:lang="gez" xml:id="n1" type="birth">ጊጋር፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Gigār</persName>
-               <persName><roleName type="title">ʾaṣe</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾaṣe</roleName>
+               </persName>
                <occupation type="ruler">Emperor</occupation>
                
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
-               <residence><placeName ref="LOC3577Gondar"> Gondar</placeName></residence>
+               <residence>
+                  <placeName ref="LOC3577Gondar"> Gondar</placeName>
+               </residence>
                
                
                <floruit notBefore="1821" notAfter="1830">He was one of the nominal kings of the Zamana Masāfǝnt, who was placed on the throne by 
                   <persName ref="PRS4870GugsaMa"/> and deposed by <persName ref="PRS3617DoriGug"/> in <date>1830</date>. 
                   He was a monk before he was enthroned. Gigār made a number of land grants which are recorded both in the <ref type="work" corresp="LIT1913Mashaf"/>
-                  and in the marginalia of the manuscripts in the <placeName ref="INS00001BL"/> <!--which ones? DR 2017-09-15-->. He also made grants directly to the churches 
+                  and in the marginalia of the manuscripts in the <placeName ref="INS00001BL"/> 
+                  <!--which ones? DR 2017-09-15-->. He also made grants directly to the churches 
                   like <placeName ref="LOC2248DabraB"/> and <placeName ref="LOC3407GemjaB"/>.</floruit>
             </person>
             <listRelation>
-               <relation name="snap:BrotherOf"
-                  active="PRS4661Gigar"
-                  passive="PRS5637IyoasI"
-                  ></relation>
+               <relation name="snap:BrotherOf" active="PRS4661Gigar" passive="PRS5637IyoasI"/>
                <relation name="snap:AllianceWith"
-                  active="PRS4661Gigar"
-                  passive="PRS4870GugsaMa"
-                  ></relation>
+                         active="PRS4661Gigar"
+                         passive="PRS4870GugsaMa"/>
                
             </listRelation>
          </listPerson>
@@ -105,10 +106,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-                  
-                 

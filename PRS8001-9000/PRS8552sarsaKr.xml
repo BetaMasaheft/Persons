@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Śarṣa Krǝstos (Śarḍo)</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -56,7 +56,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
              
                   <persName xml:lang="gez" xml:id="n1" type="birth">ሠርጸ፡ ክርስቶስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Śarṣa Krǝstos (Śarḍo)</persName>
-               <persName><roleName type="title">ṣaḥafe lām</roleName></persName>
+               <persName>
+                  <roleName type="title">ṣaḥafe lām</roleName>
+               </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   <occupation type="political">ruler </occupation>
@@ -70,18 +72,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <placeName ref="LOC2516Danqaz">Danqaz</placeName> where he was executed.</death>
                </person>
                <listRelation>
-                  <relation name="snap:SonOf"
-                     active="PRS8552sarsaKr"
-                     passive="PRS10233Yamana"
-                    ></relation>
+                  <relation name="snap:SonOf" active="PRS8552sarsaKr" passive="PRS10233Yamana"/>
                   <relation name="snap:AllianceWith"
-                     active="PRS8552sarsaKr"
-                     passive="PRS8681SeelaK"
-                    ></relation>
-                  <relation name="rel:enemyOf"
-                     active="PRS8552sarsaKr"
-                     passive="PRS4013FasilGa"
-                    ></relation>
+                         active="PRS8552sarsaKr"
+                         passive="PRS8681SeelaK"/>
+                  <relation name="rel:enemyOf" active="PRS8552sarsaKr" passive="PRS4013FasilGa"/>
            
           
                </listRelation>
@@ -98,19 +93,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>   
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                  
-                 
