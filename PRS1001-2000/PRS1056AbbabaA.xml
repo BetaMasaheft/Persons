@@ -56,7 +56,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">አበበ፡ አረጋይ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAbbaba ʾAragāy</persName>
-                  <persName><roleName type="title">rās</roleName></persName>
+                  <persName>
+                  <roleName type="title">rās</roleName>
+               </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   
@@ -82,26 +84,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                </person>
                <listRelation>
-                  <relation name="snap:SonOf"
-                     active="PRS1056AbbabaA"
-                     passive="PRS2141AskalaG"
-                     ></relation>
-                  <relation name="snap:SonOf"
-                     active="PRS1056AbbabaA"
-                     passive="PRS2000AragayB"
-                     ></relation>
+                  <relation name="snap:SonOf" active="PRS1056AbbabaA" passive="PRS2141AskalaG"/>
+                  <relation name="snap:SonOf" active="PRS1056AbbabaA" passive="PRS2000AragayB"/>
                   
                   <relation name="snap:AllianceWith"
-                     active="PRS1056AbbabaA"
-                     passive="PRS2287Ayyalah"
-                     ></relation>
+                         active="PRS1056AbbabaA"
+                         passive="PRS2287Ayyalah"/>
                   
                   <relation name="snap:AllianceWith"
-                     active="PRS1056AbbabaA"
-                     passive="PRS6575Malaka"
-                     ></relation>
+                         active="PRS1056AbbabaA"
+                         passive="PRS6575Malaka"/>
                   
-      </listRelation>
+            </listRelation>
          </listPerson>
          
          
@@ -124,22 +118,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                  
-                 

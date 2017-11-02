@@ -48,16 +48,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName  xml:lang="gez" xml:id="n1">ተክለ፡ ብርሃን፡ ወልደ፡ ቈየጻ፡</persName>
-               <persName  xml:lang="gez" type="normalized" corresp="#n1">Takla Bǝrhān Walda Qʷayyaṣā</persName>
+               <persName xml:lang="gez" xml:id="n1">ተክለ፡ ብርሃን፡ ወልደ፡ ቈየጻ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Takla Bǝrhān Walda Qʷayyaṣā</persName>
                <occupation type="ecclesiastic">priest</occupation>
                <residence>
                   <placeName ref="INS0302SanStefano"> Santo Stefano dei Mori </placeName>
                </residence>
             </person>
             <listRelation>
-               <relation name="lawd:hasAttestation" active="PRS11495SarsaMa" passive="BAVet5#a1"/>
-               <relation name="lawd:hasAttestation" active="PRS11495SarsaMa" passive="BAVet66#a6"/>
+               <relation name="lawd:hasAttestation"
+                         active="PRS11495SarsaMa"
+                         passive="BAVet5#a1"/>
+               <relation name="lawd:hasAttestation"
+                         active="PRS11495SarsaMa"
+                         passive="BAVet66#a6"/>
             </listRelation>
          </listPerson>
       </body>

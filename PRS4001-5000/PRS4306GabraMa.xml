@@ -60,23 +60,38 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" xml:id="n3" type="birth">ጋብር፡</persName>
                <persName xml:lang="gez" corresp="#n3" type="normalized">Gābǝr</persName>
              
+<<<<<<< HEAD
                <persName><roleName type="title">ʾabbā</roleName></persName>
+=======
+               <persName>
+                  <roleName type="title">ʾabbā </roleName>
+               </persName>
+>>>>>>> 06842efd72b760dd97dda4d368a2f4a837f2a967
                <nationality type="Egypt"/>
                <faith type="EOTC"/>
                <occupation type="ecclesiastic">saint</occupation>
              
+<<<<<<< HEAD
                <residence>He lived  for  a long time in <placeName ref="LOC4743MedraK">Mǝdra Kabd ʾAbbo</placeName></residence>
                <floruit notBefore="1300" notAfter="1382">He was the most venerated Saints in Ethiopia. He was Egyptian by origin and came to Ethiopia from a monastery in a district of lower Egypt.
                   His centre of ascetic life was at <placeName ref="LOC4743MedraK">Mǝdra Kabd ʾAbbo</placeName></floruit>
                <death>He died in around <date>1382</date></death>
+=======
+               <residence>He lived  for  a long time in <placeName ref="LOC4743MedraK">Mǝdra Kabd ʾAbbo</placeName> 
+               </residence>
+               <floruit>He was the most venerated Saints in Ethiopia. He was Egyptian by origin and came to Ethiopia from a monastery in a district of lower Egypt.
+                  His centre of ascetic life was at <placeName ref="LOC4743MedraK">Mǝdra Kabd ʾAbbo</placeName>
+               </floruit>
+               <death>He died in around <date>1382</date>
+               </death>
+>>>>>>> 06842efd72b760dd97dda4d368a2f4a837f2a967
             </person>  
             <listRelation>
                
                
-               <relation name="ecrm:P129i_is_subject_of" 
-                  active="PRS4306GabraMa"
-                  passive="LIT1451GadlaG"
-                 ></relation>
+               <relation name="ecrm:P129i_is_subject_of"
+                         active="PRS4306GabraMa"
+                         passive="LIT1451GadlaG"/>
             </listRelation>
          </listPerson>
          <listBibl type="editions">

@@ -52,20 +52,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="monastic">ገብረ፡ መሢሕ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Gabra Maśiḥ</persName>
-               <persName><roleName type="title">ʾabbā</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾabbā</roleName>
+               </persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <occupation type="ecclesiastic"> abbot</occupation>
-               <birth></birth>
-               <residence><placeName ref="LOC3653GundaG">Gunda Gunde</placeName></residence>
+               <birth/>
+               <residence>
+                  <placeName ref="LOC3653GundaG">Gunda Gunde</placeName>
+               </residence>
                <floruit/>
-               <death></death>
+               <death/>
             </person>  
             <listRelation>
-               <relation name="ecrm:P129i_is_subject_of" 
-                  active="PRS4323GabraMa"
-                  passive="LIT4779GadlaGM"
-                  ></relation>
+               <relation name="ecrm:P129i_is_subject_of"
+                         active="PRS4323GabraMa"
+                         passive="LIT4779GadlaGM"/>
             </listRelation>
          </listPerson>
          <listBibl type="secondary">

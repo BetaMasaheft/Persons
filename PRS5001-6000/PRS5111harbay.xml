@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Ḥarbāy</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             
             <author/>
@@ -55,13 +55,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
         
-        <persName xml:lang="gez" xml:id="n1" type="birth">ሐርባይ፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ሐርባይ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Ḥarbāy</persName>
                  <persName xml:lang="gez" xml:id="n1.1" type="birth">ገብረ፡ ማርያም፡</persName>
                   <persName xml:lang="gez" corresp="#n1.1" type="normalized">Gabra Māryām</persName>
                      <persName xml:lang="gez" xml:id="n2" type="regnal">ገብረ፡ መስቀል፡</persName>
                      <persName xml:lang="gez" corresp="#n2" type="normalized">Gabra Masqal</persName>
-               <persName><roleName type="title">ʾaṣe </roleName></persName>
+               <persName>
+                  <roleName type="title">ʾaṣe </roleName>
+               </persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
          
@@ -70,17 +72,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <floruit when="1093" evidence="internal">He succeeded his cousin, a saint King <persName ref="PRS10325Yemreha">Yǝmrǝḥanna Krǝstos</persName>. 
                      He was known for his refom policy with the election of a metropolitan.
                   </floruit>
-                  <death  when="1133" cert="low" evidence="internal">around 1133</death>
+                  <death when="1133" cert="low" evidence="internal">around 1133</death>
             </person>
             <listRelation>
-               <relation name="snap:SonOf" 
-                  active="PRS5111harbay" 
-                  passive="PRS10594Zansey"
-                 ></relation>
+               <relation name="snap:SonOf" active="PRS5111harbay" passive="PRS10594Zansey"/>
                <relation name="snap:BrotherOf"
-                  active="PRS5111harbay" 
-                  passive="PRS6152Lalibala"
-                 ></relation>
+                         active="PRS5111harbay"
+                         passive="PRS6152Lalibala"/>
               </listRelation>
          </listPerson>
          <listBibl type="editions">
@@ -106,7 +104,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-                  
-   

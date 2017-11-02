@@ -48,9 +48,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
                <person sex="1">
-                  <persName  xml:lang="gez" xml:id="n1">ዮሐንስ፡</persName>
-                  <persName  xml:lang="gez" type="normalized" corresp="#n1">Yoḥannǝs</persName>
-                  <occupation type="other"><roleName type="title">qaysa gabaz</roleName></occupation>
+                  <persName xml:lang="gez" xml:id="n1">ዮሐንስ፡</persName>
+                  <persName xml:lang="gez" type="normalized" corresp="#n1">Yoḥannǝs</persName>
+                  <occupation type="other">
+                  <roleName type="title">qaysa gabaz</roleName>
+               </occupation>
                   <faith type="EOTC"/>
                   <residence>
                      <placeName ref="INS0302SanStefano"> Santo Stefano dei Mori </placeName>
@@ -59,7 +61,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listRelation>
                <relation name="lawd:hasAttestation"
                          active="PRS11327Yohannes"
-                         passive="BAVet40#a10"></relation>
+                         passive="BAVet40#a10"/>
             </listRelation>
          </listPerson>
       </body>

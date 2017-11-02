@@ -55,31 +55,34 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ተስፋ፡ ጊዮርጊስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Tasfā Giyorgis</persName>
-               <persName><roleName type="title">ʿaqqābe saʿat</roleName></persName>
+               <persName>
+                  <roleName type="title">ʿaqqābe saʿat</roleName>
+               </persName>
                <occupation type="ecclesiastic"> abbot </occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
              
-               <residence><placeName ref="INS0327DHE">Dabra Ḥayq ʾƎsṭifānos</placeName></residence>
+               <residence>
+                  <placeName ref="INS0327DHE">Dabra Ḥayq ʾƎsṭifānos</placeName>
+               </residence>
                <floruit when="1478">He was the abbot of  <placeName ref="INS0327DHE">Dabra Ḥayq ʾƎsṭifānos</placeName> 
-                  during the reign of King <persName ref="PRS2334BaedaM"></persName>. 
+                  during the reign of King <persName ref="PRS2334BaedaM"/>. 
                  
                </floruit>
-               <death> <date>1486</date> </death>
+               <death> 
+                  <date>1486</date> 
+               </death>
             </person>
             <listRelation>
                <relation name="snap:AllianceWith"
-                  active="PRS9272TasfaGi"
-                  passive="PRS2334BaedaM"
-                 ></relation>
+                         active="PRS9272TasfaGi"
+                         passive="PRS2334BaedaM"/>
                <relation name="snap:AllianceWith"
-                  active="PRS9272TasfaGi"
-                  passive="PRS10626ZaraY"
-                 ></relation>
+                         active="PRS9272TasfaGi"
+                         passive="PRS10626ZaraY"/>
                <relation name="snap:AllianceWith"
-                  active="PRS9272TasfaGi"
-                  passive="PRS3874eskender"
-                 ></relation>
+                         active="PRS9272TasfaGi"
+                         passive="PRS3874eskender"/>
                
             </listRelation>
          </listPerson>
@@ -96,10 +99,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-              

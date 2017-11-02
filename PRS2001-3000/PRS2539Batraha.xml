@@ -54,10 +54,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                
-    <persName xml:lang="gez" xml:id="n1" type="birth">በትረ፡ ኃይል፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">በትረ፡ ኃይል፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Batra Ḫāyl</persName>
                   
-               <persName><roleName type="title">fitāwrāri </roleName></persName>
+               <persName>
+                  <roleName type="title">fitāwrāri </roleName>
+               </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   <occupation type="political">officer</occupation>
@@ -66,20 +68,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   In<date>1689</date> he became <roleName type="title">qaññāzmāč</roleName>. Some years before his death, he also achieved a title 
                
     <roleName type="title">fitāwrāri</roleName>.  </floruit>
-               <death when="1703"></death>
+               <death when="1703"/>
                   
                </person>
                <listRelation>
                   <relation name="snap:AllianceWith"
-                     active="PRS2539Batraha"
-                     passive="PRS5616IyasuI"
-                    ></relation>
+                         active="PRS2539Batraha"
+                         passive="PRS5616IyasuI"/>
                   <relation name="snap:AllianceWith"
-                     active="PRS2539Batraha"
-                     passive="PRS2224Atnatewo"
-                    ></relation>
+                         active="PRS2539Batraha"
+                         passive="PRS2224Atnatewo"/>
                   
-         </listRelation>
+            </listRelation>
          </listPerson>
          <listBibl type="editions">
             <bibl>
@@ -96,14 +96,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>   
 </TEI>
-
-
-
-
-
-
-
-
-
-                  
-                  

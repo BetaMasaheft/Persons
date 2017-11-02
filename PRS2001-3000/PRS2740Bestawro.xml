@@ -58,7 +58,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                   <persName xml:lang="gez" xml:id="n1" type="birth">ብስጣውሮስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Bǝsṭāwros</persName>
-               <persName><roleName type="title">ʿaqqabe saʿat </roleName></persName>
+               <persName>
+                  <roleName type="title">ʿaqqabe saʿat </roleName>
+               </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   <occupation type="ecclesiastic">abbot</occupation>
@@ -70,19 +72,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
            
                </person>
                <listRelation>
+                  <relation name="snap:SonOf" active="PRS2740Bestawro" passive="PRS4101FettaDe"/>
                   <relation name="snap:SonOf"
-                     
-                     active="PRS2740Bestawro"
-                     passive="PRS4101FettaDe"
-                     ></relation>
-                  <relation name="snap:SonOf"
-                     
-                     active="PRS2740Bestawro"
-                     passive="PRS11624SeyonMogasa"
-                     ></relation>
+                         active="PRS2740Bestawro"
+                         passive="PRS11624SeyonMogasa"/>
                   <relation name="ecrm:P129i_is_subject_of"
-                     active="PRS2740Bestawro"
-                     passive="LIT4737GadlaBe">
+                         active="PRS2740Bestawro"
+                         passive="LIT4737GadlaBe">
                   </relation>
                     </listRelation>
          </listPerson>
@@ -99,7 +95,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>   
 </TEI>
-
-
-
-               

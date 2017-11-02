@@ -55,7 +55,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ዮሐንስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Yoḥannǝs II</persName>
-               <persName><roleName type="title">ʾabuna</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾabuna</roleName>
+               </persName>
                <occupation type="ecclesiastic"> metropolitan </occupation>
                <nationality type="Egypt"/>
                <faith type="Coptic"/>
@@ -66,22 +68,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             
                   
             </floruit>
-               <death></death>
+               <death/>
             </person>
             <listRelation>
                <relation name="snap:AllianceWith"
-                  active="PRS10391Yohanne"
-                  passive="PRS10111WedemR"
-                 ></relation>
+                         active="PRS10391Yohanne"
+                         passive="PRS10111WedemR"/>
                
                <relation name="snap:AllianceWith"
-                  active="PRS10391Yohanne"
-                  passive="PRS1854Amdase"
-                 ></relation>      
+                         active="PRS10391Yohanne"
+                         passive="PRS1854Amdase"/>      
                <relation name="rel:enemyOf"
-                  active="PRS10391Yohanne"
-                  passive="PRS2528Basalota"
-                    ></relation>
+                         active="PRS10391Yohanne"
+                         passive="PRS2528Basalota"/>
                
             </listRelation>
          </listPerson>
@@ -97,16 +96,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-                  
-                 

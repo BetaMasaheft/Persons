@@ -56,11 +56,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="2">
                <persName xml:lang="gez" xml:id="n1" type="birth">ወለተ፡ ጴጥሮስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Walatta Ṗeṭros</persName>
-               <persName><roleName type="title">ʾƎmmat</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾƎmmat</roleName>
+               </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   <occupation type="ecclesiastic">saint</occupation>
-                  <birth  when="1594"/> 
+                  <birth when="1594"/> 
                   <floruit notBefore="1610" notAfter="1644">She was one of the most prominent female religious figures in the 17th century. 
                      She is largely known for her resistance to Catholicism and she is venerated as a saint by the Ethiopian 
                      Orthodox Church. 
@@ -71,22 +73,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <listRelation>
                   
                   <relation name="snap:FriendshipFor"
-                     
-                     active="PRS9848Walatta"
-                     passive="PRS3698ehetaKr"
-                    ></relation>
+                         active="PRS9848Walatta"
+                         passive="PRS3698ehetaKr"/>
                   <relation name="snap:AllianceWith"
-                     active="PRS9848Walatta"
-                     passive="PRS4015Fasilada"
-                    ></relation>
+                         active="PRS9848Walatta"
+                         passive="PRS4015Fasilada"/>
                   <relation name="snap:AllianceWith"
-                     active="PRS9848Walatta"
-                     passive="PRS8740Semon"
-                    ></relation>
-                  <relation name="ecrm:P129i_is_subject_of" 
-                     active="PRS9848Walatta"
-                     passive="LIT1509GadlaW"
-                    ></relation>
+                         active="PRS9848Walatta"
+                         passive="PRS8740Semon"/>
+                  <relation name="ecrm:P129i_is_subject_of"
+                         active="PRS9848Walatta"
+                         passive="LIT1509GadlaW"/>
                </listRelation>
          </listPerson>
          <listBibl type="editions">
@@ -103,14 +100,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-                  
-                 

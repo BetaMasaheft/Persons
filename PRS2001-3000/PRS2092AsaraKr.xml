@@ -55,30 +55,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">አሠረ፡ ክርስቶስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAśara Krǝstos</persName>
-               <persName><roleName type="title">qes ḥaḍe, ʿaqqābe saʿat </roleName></persName>
+               <persName>
+                  <roleName type="title">qes ḥaḍe, ʿaqqābe saʿat </roleName>
+               </persName>
                <occupation type="ecclesiastic"> priest </occupation>
                
                <nationality type="Ethiopia"/>
                <faith type="Orthodox"/>
                
-               <floruit notBefore="1682" notAfter="1690">He was father confessor of <roleName type="title">ʾaṣe</roleName><persName ref="PRS10375Yohanne">Yoḥannǝs I</persName>
+               <floruit notBefore="1682" notAfter="1690">He was father confessor of <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS10375Yohanne">Yoḥannǝs I</persName>
                   and appointed as <roleName type="title">ʿaqqābe saʿat </roleName> in <date>1682</date>. He remained an active loyal servant of the royal court until his death.</floruit>
-               <death  when="1690"> </death>
+               <death when="1690"> </death>
                
             </person>
             
             <listRelation>
                <relation name="snap:AllianceWith"
-                  
-                  active="PRS2092AsaraKr"
-                  passive="PRS10375Yohanne"
-                 ></relation>
+                         active="PRS2092AsaraKr"
+                         passive="PRS10375Yohanne"/>
                <relation name="snap:AllianceWith"
-                  
-                  active="PRS2092AsaraKr"
-                  passive="PRS5616IyasuI"
-                  
-                 ></relation>
+                         active="PRS2092AsaraKr"
+                         passive="PRS5616IyasuI"/>
                
             </listRelation>
          </listPerson>
@@ -93,13 +91,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-                  
-                  

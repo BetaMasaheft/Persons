@@ -61,14 +61,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAbbā Kostǝr</persName>
                
               
-               <persName><roleName type="title">daǧǧāzmāč</roleName></persName>
+               <persName>
+                  <roleName type="title">daǧǧāzmāč</roleName>
+               </persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                
                
                <occupation type="military"> leader</occupation>
                
-               <birth when="1909"></birth>
+               <birth when="1909"/>
                
                
                
@@ -81,19 +83,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
             </person>
             <listRelation>
-               <relation name="snap:SonOf"
-                  active="PRS2409BalayZa"
-                  passive="PRS10561Zallaqa"
-                  ></relation>
-               <relation name="snap:SonOf"
-                  active="PRS2409BalayZa"
-                  passive="PRS9344taytuAs"
-                  ></relation>
+               <relation name="snap:SonOf" active="PRS2409BalayZa" passive="PRS10561Zallaqa"/>
+               <relation name="snap:SonOf" active="PRS2409BalayZa" passive="PRS9344taytuAs"/>
                
                <relation name="snap:BrotherOf"
-                  active="PRS2409BalayZa"
-                  passive="PRS3689eggegu"
-                  ></relation>
+                         active="PRS2409BalayZa"
+                         passive="PRS3689eggegu"/>
                
                
                
@@ -117,18 +112,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-                  
-                  
-               

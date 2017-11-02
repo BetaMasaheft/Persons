@@ -57,7 +57,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Kǝfla Giyorgis</persName>
                
                
-               <persName><roleName type="title">mamhǝr</roleName></persName>
+               <persName>
+                  <roleName type="title">mamhǝr</roleName>
+               </persName>
                
                <nationality type="Ethiopia"/>
                <faith type="Catholicism"/>
@@ -72,42 +74,36 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <placeName ref="LOC1464Ankoba"/>. He was a follower of śost lǝdat. Since the situation of the followers of śost lǝdat deteriorated 
                   after the council of <placeName ref="LOC1980BoruMe"/> in <date>1878</date>,  he exiled
                   to <placeName ref="LOC4002Karan"/> where he taught Gǝʿǝz in the Catholic Mission. In <date>1887</date>, 
-                  Kǝfla Giyorgis left <placeName ref="LOC4002Karan"/> for <placeName ref="gn:3169070"/> where 
-                  he was invited to teach Gǝʿǝz at the Ethiopian college in <placeName ref="gn:3164670"/> where he had an opportunity to learn Latin and Italian, and he became an informant 
-                  and consultant to <persName ref="PRS4876Guidi"/>. Having left <placeName ref="gn:3169070"/> in <date>1897</date>, he went to <placeName ref="LOC3957Jerusa"/>
+                  Kǝfla Giyorgis left <placeName ref="LOC4002Karan"/> for <placeName ref="Q220"/> where 
+                  he was invited to teach Gǝʿǝz at the Ethiopian college in <placeName ref="Q237"/> where he had an opportunity to learn Latin and Italian, and he became an informant 
+                  and consultant to <persName ref="PRS4876Guidi"/>. Having left <placeName ref="Q220"/> in <date>1897</date>, he went to <placeName ref="LOC3957Jerusa"/>
                   where he encountered <persName ref="PRS5983KidanaW"/> who became his disciple.  During the elven years they spent, Kǝfla Giyorgis taught 
                   <persName ref="PRS5983KidanaW"/> sharing with him his vast theological knowledge. 
                </floruit>
-               <death when="1908"> He died in <placeName ref="gn:281184"/> in <date>1908</date>. </death>
+               <death when="1908"> He died in <placeName ref="Q1218"/> in <date>1908</date>. </death>
                
                
             </person>
             
             <listRelation>
                <relation name="snap:FriendshipFor"
-                  active="PRS5907KeflaGi"
-                  passive="PRS9198Taklase"
-                 ></relation>
+                         active="PRS5907KeflaGi"
+                         passive="PRS9198Taklase"/>
                <relation name="snap:AllianceWith"
-                  active="PRS5907KeflaGi"
-                  passive="PRS4876Guidi"
-                 ></relation>
-               <relation name="snap:FriendshipFor"            
-                  active="PRS5907KeflaGi"
-                  passive="PRS5983KidanaW"
-                 ></relation>
+                         active="PRS5907KeflaGi"
+                         passive="PRS4876Guidi"/>
                <relation name="snap:FriendshipFor"
-                  active="PRS5907KeflaGi"
-                  passive="PRS9973WaldaSa"
-                 ></relation>
+                         active="PRS5907KeflaGi"
+                         passive="PRS5983KidanaW"/>
+               <relation name="snap:FriendshipFor"
+                         active="PRS5907KeflaGi"
+                         passive="PRS9973WaldaSa"/>
                <relation name="snap:AllianceWith"
-                  active="PRS5907KeflaGi"
-                  passive="PRS6324Littmann"
-                 ></relation>
-               <relation name="snap:FriendshipFor"            
-                  active="PRS5907KeflaGi"
-                  passive="PRS9187TaklaMa"
-                  ></relation>
+                         active="PRS5907KeflaGi"
+                         passive="PRS6324Littmann"/>
+               <relation name="snap:FriendshipFor"
+                         active="PRS5907KeflaGi"
+                         passive="PRS9187TaklaMa"/>
                
       
                
@@ -126,10 +122,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-               

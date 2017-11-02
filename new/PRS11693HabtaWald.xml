@@ -47,12 +47,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName  xml:lang="gez" xml:id="n1">ሀብተ፡ ወልድ፡</persName>
-               <persName  xml:lang="gez" type="normalized" corresp="#n1">Habta Wald</persName>
+               <persName xml:lang="gez" xml:id="n1">ሀብተ፡ ወልድ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Habta Wald</persName>
                <faith type="EOTC"/>
             </person>
             <listRelation>
-               <relation name="lawd:hasAttestation" active="PRS11693HabtaWald" passive="BAVet89"/>
+               <relation name="lawd:hasAttestation"
+                         active="PRS11693HabtaWald"
+                         passive="BAVet89"/>
             </listRelation>
          </listPerson>
       </body>

@@ -56,12 +56,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ዜና፡ ማርቆስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Zenā Mārqos</persName>
-               <persName><roleName type="title">ʾabbā </roleName></persName>
+               <persName>
+                  <roleName type="title">ʾabbā </roleName>
+               </persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <occupation type="ecclesiastic"> saint </occupation>
-               <birth> He was born in <placeName ref="LOC4865Morat"> Morāt</placeName></birth>
-               <floruit  notBefore="1300" notAfter="1400">He was a 14th century Ethiopian saintly monk and a founder of the monastery of <placeName ref="LOC2249DabraB">Dabra Bǝśrāt</placeName>. 
+               <birth> He was born in <placeName ref="LOC4865Morat"> Morāt</placeName>
+               </birth>
+               <floruit notBefore="1300" notAfter="1400">He was a 14th century Ethiopian saintly monk and a founder of the monastery of <placeName ref="LOC2249DabraB">Dabra Bǝśrāt</placeName>. 
                   He is said to have subsequently evangelized  <placeName ref="LOC1095Adal">ʾAdāl</placeName>, <placeName ref="LOC3549Gojjam">Goǧǧām</placeName>
                   and other pagan areas of the 14th century. He visited the churches of <placeName ref="LOC1311AksumS">ʾAksum Ṣǝyon</placeName> and 
                   <placeName ref="LOC4243Laliba">Lālibalā</placeName>.
@@ -72,22 +75,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listRelation>
                
                <relation name="bm:ordainedBy"
-                  
-                  active="PRS10708ZenaMa"
-                  passive="PRS8032Qerellos"
-                 ></relation>
+                         active="PRS10708ZenaMa"
+                         passive="PRS8032Qerellos"/>
                <relation name="snap:AllianceWith"
-                  active="PRS10708ZenaMa"
-                  passive="PRS8491Samuel"
-                 ></relation>
+                         active="PRS10708ZenaMa"
+                         passive="PRS8491Samuel"/>
                <relation name="snap:AllianceWith"
-                  active="PRS10708ZenaMa"
-                  passive="PRS3932Ewostate"
-                 ></relation>
-               <relation name="ecrm:P129i_is_subject_of" 
-                  active="PRS10708ZenaMa"
-                  passive="LIT1530GadlaZ"
-                 ></relation>
+                         active="PRS10708ZenaMa"
+                         passive="PRS3932Ewostate"/>
+               <relation name="ecrm:P129i_is_subject_of"
+                         active="PRS10708ZenaMa"
+                         passive="LIT1530GadlaZ"/>
             </listRelation>
          </listPerson>
       
@@ -104,13 +102,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-              

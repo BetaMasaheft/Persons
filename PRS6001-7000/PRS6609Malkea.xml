@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Malkǝʾa Krǝstos </title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -53,9 +53,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-          <persName xml:lang="gez" xml:id="n1" type="birth">መልክአ፡ ክርስቶስ፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">መልክአ፡ ክርስቶስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Malkǝʾa Krǝstos</persName>
-                  <persName><roleName type="title">ʾabetohun</roleName></persName>
+                  <persName>
+                  <roleName type="title">ʾabetohun</roleName>
+               </persName>
                  <occupation type="military">officer</occupation>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
@@ -64,30 +66,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <persName ref="PRS9038Susenyos">Susǝnyos</persName>. He was the husband of <roleName type="title">ʾƎmmat</roleName>
                   <persName ref="PRS9848Walatta">Walatta Ṗeṭros</persName>from whom he had three children. He was very loyal to  <roleName type="title">ʾaṣe</roleName>
                   <persName ref="PRS9038Susenyos">Susǝnyos</persName> despite the king's  inclination to Catholicism. He involved in many anti-Catholic rebels assisting the king but
-                  in the final years of <roleName type="title">ʾaṣe</roleName><persName ref="PRS9038Susenyos">Susǝnyos</persName> 
+                  in the final years of <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS9038Susenyos">Susǝnyos</persName> 
                   <persName ref="PRS6609Malkea">Malkǝʾa Krǝstos</persName> was in tension with the king and in <date>1632 </date> he avoided campaigning against the rebels. 
                   Finally, he was arrested, accused of treason and sentenced to death which was substituted by exile.</floruit>
-               <death  when="1633">He died of the second year of <roleName type="title">ʾaṣe</roleName> <persName ref="PRS4015Fasilada">Fāsiladas</persName>.</death>
+               <death when="1633">He died of the second year of <roleName type="title">ʾaṣe</roleName> 
+                  <persName ref="PRS4015Fasilada">Fāsiladas</persName>.</death>
                </person>
                <listRelation>
-                  <relation name="bm:husbandOf"
-                     active="PRS6609Malkea"
-                     passive="PRS9848Walatta"
-                    ></relation>
+                  <relation name="bm:husbandOf" active="PRS6609Malkea" passive="PRS9848Walatta"/>
                   <relation name="snap:AllianceWith"
-                     active="PRS6609Malkea"
-                     passive="PRS9038Susenyos"
-                    ></relation>
+                         active="PRS6609Malkea"
+                         passive="PRS9038Susenyos"/>
                   <relation name="snap:AllianceWith"
-                     active="PRS6609Malkea"
-                     passive="PRS4015Fasilada"
-                    ></relation>
+                         active="PRS6609Malkea"
+                         passive="PRS4015Fasilada"/>
                   <relation name="snap:AllianceWith"
-                     active="PRS6609Malkea"
-                     passive="PRS6858Masqal"
-                    ></relation>
+                         active="PRS6609Malkea"
+                         passive="PRS6858Masqal"/>
                   
-          </listRelation>
+            </listRelation>
          </listPerson>
          <listBibl type="editions">
             <bibl>
@@ -107,11 +105,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-                  
-                 

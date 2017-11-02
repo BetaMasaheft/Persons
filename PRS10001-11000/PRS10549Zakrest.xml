@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Zakrǝstos</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -54,34 +54,33 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-           <persName xml:lang="gez" xml:id="n1" type="birth">ዘክርስቶስ፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ዘክርስቶስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Zakrǝstos</persName>
-               <persName><roleName type="title">daǧǧāzmāč</roleName></persName>
+               <persName>
+                  <roleName type="title">daǧǧāzmāč</roleName>
+               </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                <occupation type="political">governor</occupation>
                   <birth when="1620"/>
                   
                   
-        <floruit notBefore="1620" notAfter="1654">He was an Ethiopian noble man married the daughter of <roleName type="title">ʾaṣe</roleName>
+               <floruit notBefore="1620" notAfter="1654">He was an Ethiopian noble man married the daughter of <roleName type="title">ʾaṣe</roleName>
                   <persName ref="PRS9038Susenyos">Susǝnyos</persName> by the name called <persName ref="PRS6576Malakota">Malakotāwit</persName>.
                   He was a close aide of <persName ref="PRS9038Susenyos">Susǝnyos</persName> and <persName ref="PRS4015Fasilada">Fāsiladas</persName>.</floruit>
-                  <death  notBefore="1654" notAfter="1655"></death>
+                  <death notBefore="1654" notAfter="1655"/>
                </person>
                <listRelation>
                   
                   <relation name="bm:husbandOf"
-                     active="PRS10549Zakrest"
-                     passive="PRS6576Malakota"
-                    ></relation>
+                         active="PRS10549Zakrest"
+                         passive="PRS6576Malakota"/>
                   <relation name="snap:AllianceWith"
-                     active="PRS10549Zakrest"
-                     passive="PRS9038Susenyos"
-                    ></relation>
+                         active="PRS10549Zakrest"
+                         passive="PRS9038Susenyos"/>
                   <relation name="snap:AllianceWith"
-                     active="PRS10549Zakrest"
-                     passive="PRS4015Fasilada"
-                    ></relation>
+                         active="PRS10549Zakrest"
+                         passive="PRS4015Fasilada"/>
             
                </listRelation>
          </listPerson>
@@ -107,10 +106,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>   
 </TEI>
-
-
-
-
-
-                  
-                 

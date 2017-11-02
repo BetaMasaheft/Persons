@@ -53,41 +53,40 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-            <persName xml:lang="gez" xml:id="n1" type="birth">አንበስ፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">አንበስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAnbas</persName>
                <persName xml:lang="gez" xml:id="n2" type="birth">አንበሳ፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAnbasā</persName>
-                  <persName><roleName type="title">ʾabbā </roleName></persName>
+                  <persName>
+                  <roleName type="title">ʾabbā </roleName>
+               </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   <occupation type="ecclesiastic"> saint </occupation>
                   
                <floruit> He is a saint commemorated on 3 Maskaram who lived in the 14th century or 16th century. 
                   He is known as the founder of the monastery of <placeName ref="LOC3839Hazalo">Ḥāzalo</placeName>
-                  in <placeName ref="LOC2991Eritre">Eritrea</placeName>. <roleName type="title">ʾabbā </roleName><persName ref="PRS1911Anbas">ʾAnbas</persName> 
-                  was one of the 33 disciples of <roleName type="title">ʾabuna</roleName><persName ref="PRS9152TaklaHa">Takla Hāymānot I</persName>.                     
+                  in <placeName ref="LOC2991Eritre">Eritrea</placeName>. <roleName type="title">ʾabbā </roleName>
+                  <persName ref="PRS1911Anbas">ʾAnbas</persName> 
+                  was one of the 33 disciples of <roleName type="title">ʾabuna</roleName>
+                  <persName ref="PRS9152TaklaHa">Takla Hāymānot I</persName>.                     
                   </floruit>
                   
                </person>  
                <listRelation>
                   
                   <relation name="snap:AllianceWith"
-                     
-                     active="PRS1911Anbas"
-                     passive="PRS8491Samuel"
-                    ></relation>
+                         active="PRS1911Anbas"
+                         passive="PRS8491Samuel"/>
                   <relation name="snap:AllianceWith"
-                     active="PRS1911Anbas"
-                     passive="PRS4306GabraMa"
-                    ></relation>
+                         active="PRS1911Anbas"
+                         passive="PRS4306GabraMa"/>
                   <relation name="snap:AllianceWith"
-                     active="PRS1911Anbas"
-                     passive="PRS9162TaklaHa"
-                    ></relation>
-                  <relation name="ecrm:P129i_is_subject_of" 
-                     active="PRS1911Anbas"
-                     passive="LIT4276GadlaAnbas"
-                    ></relation>
+                         active="PRS1911Anbas"
+                         passive="PRS9162TaklaHa"/>
+                  <relation name="ecrm:P129i_is_subject_of"
+                         active="PRS1911Anbas"
+                         passive="LIT4276GadlaAnbas"/>
                </listRelation>
          </listPerson>
          
@@ -103,8 +102,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-                  
-                  

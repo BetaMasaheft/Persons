@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>ʾAlāniqos</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -53,35 +53,34 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-          <persName xml:lang="gez" xml:id="n1" type="birth">አላኒቆስ፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">አላኒቆስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAlāniqos</persName>
-                  <persName><roleName type="title">ʾabuna </roleName></persName>
+                  <persName>
+                  <roleName type="title">ʾabuna </roleName>
+               </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   <occupation type="ecclesiastic">abbot</occupation>
                 
                <floruit> He was a monk who is said to have been the son of <persName ref="PRS10303Yekunno">Yǝkunno ʾAmlāk</persName> and a spiritual disciple of  a certain 
-                  <roleName type="title">ʾabbā </roleName><persName ref="PRS11248YohannesKama">Yoḥannǝs Kamā</persName>. He left the secular life during the reign 
+                  <roleName type="title">ʾabbā </roleName>
+                  <persName ref="PRS11248YohannesKama">Yoḥannǝs Kamā</persName>. He left the secular life during the reign 
                   of King <persName ref="PRS10111WedemR">Wǝdǝm Raʿad</persName>. </floruit>
-                  <death></death>
+                  <death/>
                </person>  
                <listRelation>
                   <relation name="snap:AllianceWith"
-                     active="PRS1640Alaniqos"
-                     passive="PRS11248YohannesKama"
-                    ></relation>
+                         active="PRS1640Alaniqos"
+                         passive="PRS11248YohannesKama"/>
                   <relation name="snap:AllianceWith"
-                     active="PRS1640Alaniqos"
-                     passive="PRS10303Yekunno"
-                    ></relation>
+                         active="PRS1640Alaniqos"
+                         passive="PRS10303Yekunno"/>
                   <relation name="snap:BrotherOf"
-                     active="PRS1640Alaniqos"
-                     passive="PRS10111WedemR"
-                    ></relation>
+                         active="PRS1640Alaniqos"
+                         passive="PRS10111WedemR"/>
                   <relation name="ecrm:P129i_is_subject_of"
-                     active="PRS1640Alaniqos"
-                     passive="LIT4049GadlaAl"
-                    ></relation>
+                         active="PRS1640Alaniqos"
+                         passive="LIT4049GadlaAl"/>
                </listRelation>
                
          </listPerson>
@@ -105,8 +104,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-                  
-                  

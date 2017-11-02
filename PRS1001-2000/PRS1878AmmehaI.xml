@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>ʾAmmǝḫā Iyasus</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -53,10 +53,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-            <persName xml:lang="gez" xml:id="n1" type="birth">አምኃ፡ ኢየሱስ፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">አምኃ፡ ኢየሱስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAmmǝḫā Iyasus</persName>
                 
-                  <persName><roleName type="title">marǝd ʾazmāč</roleName></persName>
+                  <persName>
+                  <roleName type="title">marǝd ʾazmāč</roleName>
+               </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   <occupation type="political">ruler </occupation>
@@ -66,22 +68,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <placeName ref="LOC3776HarAmb">Ḥār ʾAmbā</placeName> to <placeName ref="LOC1464Ankoba">ʾAnkobar</placeName>
                      He expanded the kingdom of <placeName ref="LOC5597Sawa">Šawā </placeName> further south annexing new territories. 
                      He was succceeded by his son 
-                     <roleName type="title">marǝd ʾazmāč</roleName><persName ref="PRS2110AsfaWas">ʾAsfā Wasan</persName></floruit>
+                     <roleName type="title">marǝd ʾazmāč</roleName>
+                  <persName ref="PRS2110AsfaWas">ʾAsfā Wasan</persName>
+               </floruit>
                   
-                  <death></death>
+                  <death/>
                </person>
                <listRelation>
                   <relation name="snap:FatherOf"
-                     active="PRS1878AmmehaI"
-                     passive="PRS2110AsfaWas"
-                    ></relation>
+                         active="PRS1878AmmehaI"
+                         passive="PRS2110AsfaWas"/>
                     
                   <relation name="snap:AllianceWith"
-                     active="PRS1878AmmehaI"
-                     passive="PRS9152TaklaHa"
-                    ></relation>
+                         active="PRS1878AmmehaI"
+                         passive="PRS9152TaklaHa"/>
              
-       </listRelation>
+            </listRelation>
          </listPerson>
          <listBibl type="editions">
             <bibl>
@@ -103,16 +105,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>   
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-                  
-                  

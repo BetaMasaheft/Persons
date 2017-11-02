@@ -55,7 +55,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ክርስቶዶሉ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Krǝstodolu [II]</persName>
-               <persName><roleName type="title">ʾabuna</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾabuna</roleName>
+               </persName>
                <occupation type="ecclesiastic">metropolitan</occupation>
                <nationality type="Egypt"/>
                <faith type="Coptic"/>
@@ -67,23 +69,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      
                </floruit>
                <death notBefore="1675" notAfter="1676">He died in<date>1675/76</date> and was buried at <placeName ref="LOC3581GonjTe">Gonǧ Tewodros
-               </placeName></death>
+               </placeName>
+               </death>
             </person>
             <listRelation>
                <relation name="bm:ordainedBy"
-                  active="PRS6071Krestodo"
-                  passive="PRS6906Matthew"
-                 ></relation>
+                         active="PRS6071Krestodo"
+                         passive="PRS6906Matthew"/>
                <relation name="snap:AllianceWith"
-                  
-                  active="PRS6071Krestodo"
-                  passive="PRS4015Fasilada"
-                 ></relation>
+                         active="PRS6071Krestodo"
+                         passive="PRS4015Fasilada"/>
                <relation name="snap:AllianceWith"
-                  
-                  active="PRS6071Krestodo"
-                  passive="PRS10375Yohanne"
-                 ></relation>
+                         active="PRS6071Krestodo"
+                         passive="PRS10375Yohanne"/>
                
             </listRelation>
          </listPerson>
@@ -108,8 +106,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-                  
-                

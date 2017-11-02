@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Dǝlba ʾIyasus </title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -54,35 +54,34 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-             <persName xml:lang="gez" xml:id="n1" type="birth">ድልበ፡ ኢየሱስ፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ድልበ፡ ኢየሱስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Dǝlba ʾIyasus</persName>
                <persName xml:lang="gez" xml:id="n2" type="birth">ድል፡ በኢየሱስ፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">Dǝl BaʾIyasus</persName>
-               <persName><roleName type="title">daǧǧāzmāč</roleName></persName>
+               <persName>
+                  <roleName type="title">daǧǧāzmāč</roleName>
+               </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   <occupation type="political">governor </occupation>
                
                   
                   
-               <floruit  notBefore="1682"  notAfter="1685">He was an important figure during the reign of <persName ref="PRS5616IyasuI">ʾIyāsu I</persName>.
+               <floruit notBefore="1682" notAfter="1685">He was an important figure during the reign of <persName ref="PRS5616IyasuI">ʾIyāsu I</persName>.
                   He was <roleName type="title">daǧǧāzmāč</roleName> of <placeName ref="LOC6556Tegre">Tǝgre</placeName>. </floruit>
               
                </person>
                <listRelation>
                   
                   <relation name="bm:husbandOf"
-                     active="PRS3485DelbaIy"
-                     passive="PRS9836Walatta"
-                    ></relation>
+                         active="PRS3485DelbaIy"
+                         passive="PRS9836Walatta"/>
                   <relation name="snap:AllianceWith"
-                     active="PRS3485DelbaIy"
-                     passive="PRS5616IyasuI"
-                    ></relation>
+                         active="PRS3485DelbaIy"
+                         passive="PRS5616IyasuI"/>
                   <relation name="snap:AllianceWith"
-                     active="PRS3485DelbaIy"
-                     passive="PRS10375Yohanne"
-                    ></relation>
+                         active="PRS3485DelbaIy"
+                         passive="PRS10375Yohanne"/>
                </listRelation>
          </listPerson>
          
@@ -102,10 +101,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>   
 </TEI>
-
-
-
-
-
-                  
-                  

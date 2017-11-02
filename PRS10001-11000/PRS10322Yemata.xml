@@ -53,11 +53,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-            <persName xml:lang="gez" xml:id="n1" type="monastic">ይምአታ፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="monastic">ይምአታ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Yǝmʾatā</persName>
                <persName xml:lang="gez" xml:id="n2" type="monastic">ይምዐታ፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">Yǝmʿatā</persName>
-                  <persName><roleName type="title">ʾabbā </roleName></persName>
+                  <persName>
+                  <roleName type="title">ʾabbā </roleName>
+               </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   <occupation type="ecclesiastic"> saint </occupation>
@@ -68,32 +70,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </person>  
                <listRelation>
                   <relation name="snap:AllianceWith"
-                     
-                     active="PRS10322Yemata"
-                     passive="PRS3730ellaAm"
-                    ></relation>
+                         active="PRS10322Yemata"
+                         passive="PRS3730ellaAm"/>
                   <relation name="snap:FriendshipFor"
-                     active="PRS10322Yemata"
-                     passive="PRS7720Pantalew"
-                    ></relation>
+                         active="PRS10322Yemata"
+                         passive="PRS7720Pantalew"/>
                   <relation name="snap:FriendshipFor"
-                     active="PRS10322Yemata"
-                     passive="PRS4855Guba"
-                    ></relation>
+                         active="PRS10322Yemata"
+                         passive="PRS4855Guba"/>
                   <relation name="snap:FriendshipFor"
-                     active="PRS10322Yemata"
-                     passive="PRS10581Zamika"
-                    ></relation>
+                         active="PRS10322Yemata"
+                         passive="PRS10581Zamika"/>
 
 
                   <relation name="snap:FriendshipFor"
-                     active="PRS10322Yemata"
-                     passive="PRS1467Afse"
-                    ></relation>
-                  <relation name="ecrm:P129i_is_subject_of" 
-                     active="PRS10322Yemata"
-                     passive="LIT1515GadlaY"
-                    ></relation>
+                         active="PRS10322Yemata"
+                         passive="PRS1467Afse"/>
+                  <relation name="ecrm:P129i_is_subject_of"
+                         active="PRS10322Yemata"
+                         passive="LIT1515GadlaY"/>
               
                   
                </listRelation>
@@ -109,14 +104,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </bibl>
             <bibl>
                <ptr target="bm:Tedeschi1991EthiopianSaints"/>
-            <citedRange unit="page">1047</citedRange>
+               <citedRange unit="page">1047</citedRange>
             </bibl>
          </listBibl>
       </body>
    </text>
 </TEI>
-
-
-
-
-

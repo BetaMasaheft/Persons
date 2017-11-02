@@ -56,34 +56,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                   <persName xml:lang="gez" xml:id="n1" type="birth">ሠምረ፡ ክርስቶስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Śamra Krǝstos</persName>
-                  <persName><roleName type="title">ʾabbā</roleName></persName>
+                  <persName>
+                  <roleName type="title">ʾabbā</roleName>
+               </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   <occupation type="ecclesiastic">saint</occupation>
             
              
                   <floruit notBefore="1300" notAfter="1399">He was a saint of Ethiopian Orthodox Church in the 14th century and a
-                     contemporary of <roleName type="title">ʾabuna</roleName><persName ref="PRS8386SalamaI">Salāmā I Kaśāte Bǝrhān</persName>. </floruit>
+                     contemporary of <roleName type="title">ʾabuna</roleName>
+                  <persName ref="PRS8386SalamaI">Salāmā I Kaśāte Bǝrhān</persName>. </floruit>
                 </person>
         
                <listRelation>
-                  <relation name="snap:SonOf"
-                     active="PRS8464samraKr"
-                     passive="PRS10197Yaeqob"
-                    ></relation>
-                  <relation name="snap:SonOf"
-                     active="PRS8464samraKr"
-                     passive="PRS6827Maryams"
-                    ></relation>
+                  <relation name="snap:SonOf" active="PRS8464samraKr" passive="PRS10197Yaeqob"/>
+                  <relation name="snap:SonOf" active="PRS8464samraKr" passive="PRS6827Maryams"/>
                   <relation name="snap:AllianceWith"
-                     
-                     active="PRS8464samraKr"
-                     passive="PRS2665Benyam"
-                    ></relation>
+                         active="PRS8464samraKr"
+                         passive="PRS2665Benyam"/>
                   <relation name="ecrm:P129i_is_subject_of"
-                     active="PRS8464samraKr"
-                     passive="LIT1494Gadlas"
-                    ></relation>
+                         active="PRS8464samraKr"
+                         passive="LIT1494Gadlas"/>
                   
                   
                </listRelation>
@@ -97,11 +91,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-                  
-                 

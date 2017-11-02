@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Ḥamalmāl Warq</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -60,7 +60,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <persName xml:lang="gez" corresp="#n2" type="normalized">Dǝngǝl Mogasā</persName>
                <persName xml:lang="gez" corresp="#n1" type="alt">ʾAmelmal (in Jesuit sources)</persName>
                   
-                  <persName><roleName type="title">ite </roleName></persName>
+                  <persName>
+                  <roleName type="title">ite </roleName>
+               </persName>
         
                <occupation type="political">queen</occupation>
                
@@ -72,19 +74,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
             </person>
             <listRelation>
-               <relation name="snap:MotherOf" 
-                  active="PRS5045hamalmal"
-                  passive="PRS9038Susenyos"
-                 ></relation>
+               <relation name="snap:MotherOf"
+                         active="PRS5045hamalmal"
+                         passive="PRS9038Susenyos"/>
       
-                     <relation name="snap:MotherOf" 
-                        active="PRS5045hamalmal"
-                       passive="PRS8681SeelaK"
-                       ></relation>
                      <relation name="snap:MotherOf"
-                        active="PRS5045hamalmal"
-                        passive="PRS10233Yamana"
-                       ></relation>
+                         active="PRS5045hamalmal"
+                         passive="PRS8681SeelaK"/>
+                     <relation name="snap:MotherOf"
+                         active="PRS5045hamalmal"
+                         passive="PRS10233Yamana"/>
             </listRelation>
          </listPerson>
          
@@ -107,5 +106,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      </body>
    </text>
 </TEI>
-
-                   

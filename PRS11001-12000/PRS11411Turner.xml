@@ -50,17 +50,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <certainty locus="value" match="../@sameAs" cert="low"/>
               <persName> 
                  <forename>Turner</forename>
-               <surname>J. N. </surname>
+                  <surname>J. N. </surname>
               </persName>
-               <floruit when="1801">Received <ref type="mss" corresp="BDLaethf1"/> in <placeName ref="gn:350203">Rosetta</placeName> in 
+               <floruit when="1801">Received <ref type="mss" corresp="BDLaethf1"/> in <placeName ref="Q243699">Rosetta</placeName> in 
                   <date>1801</date> from
                   <persName ref="PRS11410Murray"/>.
                   <!--The identification with Tomkyns Hilgrove Turner is very uncertain (could J. N. be a misreading for T. H.?)--></floruit>
             </person>
             <listRelation>
                <relation name="lawd:hasAttestation"
-                  active="PRS11411Turner"
-                  passive="BDLaethf1">
+                         active="PRS11411Turner"
+                         passive="BDLaethf1">
                </relation>
             </listRelation>
          </listPerson>

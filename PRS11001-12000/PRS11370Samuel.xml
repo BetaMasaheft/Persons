@@ -49,14 +49,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:id="n1" xml:lang="gez">ሳሙኤል፡</persName>
                <persName xml:lang="gez" type="normalized" corresp="#n1" cert="low">Sāmuʾel</persName>
-               <occupation type="other"></occupation>
-            <floruit notBefore="1541">
+               <occupation type="other"/>
+               <floruit notBefore="1541">
             </floruit>
             </person>
             <listRelation>
-               <relation name="saws:isRelatedTo"
-                  active="PRS11369MekhaMa"
-                         passive="BAVet38">
+               <relation name="saws:isRelatedTo" active="PRS11369MekhaMa" passive="BAVet38">
                   <!-- Properly, ʾabbā Sāmuʾel has sold the book to Mǝkḥa Māryām in Harata Zǝwelā -->
                </relation>
             </listRelation>

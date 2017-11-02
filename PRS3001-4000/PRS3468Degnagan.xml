@@ -68,7 +68,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" corresp="#n5" type="normalized">Gǝdʿa Žān</persName>
                <persName xml:lang="gez" xml:id="n6" type="birth">ግዳዣን</persName>
                <persName xml:lang="gez" corresp="#n6" type="normalized">Gǝdāžān</persName>
-               <persName><roleName type="title">ʾaṣe</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾaṣe</roleName>
+               </persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <occupation type="ruler">Emperor</occupation>
@@ -78,18 +80,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
              
             </person>
             <listRelation>
-               <relation name="snap:FatherOf" 
-                  active="PRS3468Degnagan"
-                  passive="PRS3493Delnaod"
-                 ></relation>
-               <relation name="snap:FatherOf" 
-                  active="PRS3493Delnaod"
-                  passive="PRS1915AnbasaW"
-                 ></relation>
-               <relation name="rel:enemyOf" 
-                  active="PRS3468Degnagan"
-                  passive="PRS3858esato"
-                 ></relation>
+               <relation name="snap:FatherOf"
+                         active="PRS3468Degnagan"
+                         passive="PRS3493Delnaod"/>
+               <relation name="snap:FatherOf"
+                         active="PRS3493Delnaod"
+                         passive="PRS1915AnbasaW"/>
+               <relation name="rel:enemyOf" active="PRS3468Degnagan" passive="PRS3858esato"/>
             </listRelation>
          </listPerson>
          <listBibl type="editions">
@@ -111,8 +108,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-               
-               
-               
-               

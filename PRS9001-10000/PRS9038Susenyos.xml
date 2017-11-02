@@ -56,9 +56,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         
                   <persName xml:lang="gez" xml:id="n1" type="birth">ሱስንዮስ፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Susǝnyos</persName>
-               <persName><roleName type="title">ʾaṣe</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾaṣe</roleName>
+               </persName>
               
-            <persName xml:lang="gez" xml:id="n2" type="regnal">ስልጣን፡ ሰገድ፡</persName>
+               <persName xml:lang="gez" xml:id="n2" type="regnal">ስልጣን፡ ሰገድ፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">Sǝlṭān Sagad I</persName>
                <nationality type="Ethiopia"/>
                <faith type="Catholicism"/>
@@ -66,44 +68,35 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
        
                 <occupation type="ruler">Emperor</occupation>
                   
-                  <birth when="1571"></birth>
+                  <birth when="1571"/>
                <floruit notBefore="1607" notAfter="1632">He became a king after he fought and killed the young king <persName ref="PRS10198Yaeqob">
                   Yāʿǝqob</persName> in <date> 10 March 1607</date>. He  converted officially to Catholicism  in <date>1624 </date>, after
                   having received communion from a Catholic Father,
                   <persName ref="PRS7699Paez">Pedro
-                  Páez</persName> </floruit>
-               <death when="1632" evidence="internal"></death>
+                  Páez</persName> 
+               </floruit>
+               <death when="1632" evidence="internal"/>
               
             </person>
             
-    <listRelation>
-            <relation name="snap:FatherOf" 
-               active="PRS9038Susenyos"
-               passive="PRS4013FasilGa"
-              ></relation>
-            <relation name="snap:BrotherOf"
-               active="PRS9038Susenyos"
-               passive="PRS8681SeelaK"
-              ></relation>
-       <relation name="snap:BrotherOf"
+            <listRelation>
+               <relation name="snap:FatherOf"
+                         active="PRS9038Susenyos"
+                         passive="PRS4013FasilGa"/>
+               <relation name="snap:BrotherOf"
+                         active="PRS9038Susenyos"
+                         passive="PRS8681SeelaK"/>
+               <relation name="snap:BrotherOf"
+                         active="PRS9038Susenyos"
+                         passive="PRS10233Yamana"/>
+               <relation name="snap:FatherOf"
+                         active="PRS9038Susenyos"
+                         passive="PRS4015Fasilada"/>
+               <relation name="snap:AllianceWith"
+                         active="PRS9038Susenyos"
+                         passive="PRS7699Paez"/>
        
-       active="PRS9038Susenyos"
-       passive="PRS10233Yamana"
-         ></relation>
-            <relation name="snap:FatherOf"
-               
-               active="PRS9038Susenyos"
-               passive="PRS4015Fasilada"
-               
-              ></relation>
-       <relation name="snap:AllianceWith"
-          
-          active="PRS9038Susenyos"
-          passive="PRS7699Paez" 
-          
-         ></relation>
-       
-         </listRelation>
+            </listRelation>
          </listPerson>
             
             <listBibl type="editions">

@@ -49,13 +49,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName xml:id="n1" xml:lang="gez">ዮሴፍ፡</persName>
-               <persName xml:lang="gez" type="normalized"  corresp="#n1">Yosef</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Yosef</persName>
                <faith type="EOTC"/>
             </person>
             <listRelation>
-               <relation name="saws:hasOwned"
-                  active="PRS11380Yosef"
-                  passive="BAVet42"/>
+               <relation name="saws:hasOwned" active="PRS11380Yosef" passive="BAVet42"/>
             </listRelation>
          </listPerson>
       </body>

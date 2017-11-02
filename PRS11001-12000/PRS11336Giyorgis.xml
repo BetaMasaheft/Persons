@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title xml:id="t1">Giyorgis</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
          </titleStmt>
          <publicationStmt>
@@ -53,24 +53,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" xml:id="n1" type="birth">ጊዮርጊስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Giyorgis</persName>
              
-               <persName><roleName type="title">ʾabuna</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾabuna</roleName>
+               </persName>
                <occupation type="ecclesiastic"> metropolitan </occupation>
                <nationality type="Egypt"/>
                <faith type="Coptic"/>
              
                <floruit when="1102">He was a metropolitan of Ethiopian Orthodox Church who succeeded ʾabuna <persName ref="PRS8588Sawiros">Sāwiros</persName> 
                   in <date>1102</date>. However, as soon as he reached <placeName ref="LOC3010Ethiop">Ethiopia</placeName> his behaviour caused him to be arrested by 
-                  the king of <placeName ref="LOC3010Ethiop">Ethiopia</placeName> by his infamous affairs and vile deeds. Then, he was sent back to <placeName ref="gn:357994">Egypt</placeName>.
-                  He was succeeded by ʾabuna <persName ref="PRS7072Mikael">Mikāʾel [I]</persName></floruit>
+                  the king of <placeName ref="LOC3010Ethiop">Ethiopia</placeName> by his infamous affairs and vile deeds. Then, he was sent back to <placeName ref="Q79">Egypt</placeName>.
+                  He was succeeded by ʾabuna <persName ref="PRS7072Mikael">Mikāʾel [I]</persName>
+               </floruit>
                <death> </death>
             </person>
             <listRelation>
                <relation name="bm:ordainedBy"
-                  active="PRS11336Giyorgis"
-                  passive="PRS7053Michael"
-                 ></relation>
+                         active="PRS11336Giyorgis"
+                         passive="PRS7053Michael"/>
     
-        </listRelation>
+            </listRelation>
          </listPerson>
          
          <listBibl type="secondary">
@@ -86,11 +88,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-            

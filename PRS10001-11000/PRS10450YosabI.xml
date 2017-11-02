@@ -56,42 +56,40 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ዮሳብ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Yosāb II</persName>
-               <persName><roleName type="title">ʾabuna</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾabuna</roleName>
+               </persName>
                <occupation type="ecclesiastic"> metropolitan </occupation>
                <nationality type="Egypt"/>
                <faith type="Coptic"/>
              
-               <residence><placeName ref="LOC3577Gondar"> Gondar</placeName></residence>
+               <residence>
+                  <placeName ref="LOC3577Gondar"> Gondar</placeName>
+               </residence>
                
                <floruit notBefore="1770" notAfter="1803">He was a metropolitan of the Ethiopian Orthodox Church who succeeded ʾabuna 
                   <persName ref="PRS10393Yohanne">Yoḥannǝs III</persName> in <date>1770</date> and arrived in the reign of 
-                  <roleName type="title">ʾaṣe</roleName> <persName ref="PRS9153TaklaHa">Takla Hāymānot II</persName> and when 
-                  <roleName type="title">rās </roleName> <persName ref="PRS7091Mikael">Mikāʾel Sǝḥul</persName>
+                  <roleName type="title">ʾaṣe</roleName> 
+                  <persName ref="PRS9153TaklaHa">Takla Hāymānot II</persName> and when 
+                  <roleName type="title">rās </roleName> 
+                  <persName ref="PRS7091Mikael">Mikāʾel Sǝḥul</persName>
                   was chief of <placeName ref="LOC6569Tegray">Tǝgrāy</placeName> and the effective master of the Kingdom.  
                </floruit>
                <death when="1803"> He died in <date>1803</date>. </death>
             </person>
             <listRelation>
                   <relation name="snap:AllianceWith"
-                  
-                  active="PRS10450YosabI"
-                  passive="PRS5618IyasuII"
-                 ></relation>
+                         active="PRS10450YosabI"
+                         passive="PRS5618IyasuII"/>
                <relation name="snap:AllianceWith"
-                  
-                  active="PRS10450YosabI"
-                  passive="PRS2336BaedaM"
-                 ></relation>
+                         active="PRS10450YosabI"
+                         passive="PRS2336BaedaM"/>
                <relation name="snap:AllianceWith"
-                  
-                  active="PRS10450YosabI"
-                  passive="PRS2335BaedaM"
-                 ></relation>
+                         active="PRS10450YosabI"
+                         passive="PRS2335BaedaM"/>
                <relation name="snap:AllianceWith"
-                  
-                  active="PRS10450YosabI"
-                  passive="PRS8423Salomon"
-                 ></relation>
+                         active="PRS10450YosabI"
+                         passive="PRS8423Salomon"/>
             </listRelation>
          </listPerson>
          <listBibl type="secondary">
@@ -111,17 +109,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-       
-                  
-
-               

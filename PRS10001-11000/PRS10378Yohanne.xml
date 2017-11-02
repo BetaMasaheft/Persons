@@ -59,7 +59,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAbbā Bazbbǝz</persName>
                <persName xml:lang="gez" xml:id="n3" type="horse">ወርሳው፡</persName>
                <persName xml:lang="gez" corresp="#n3" type="normalized">Warrǝsāw</persName>
-                  <persName><roleName type="title">ʾaṣe</roleName></persName>
+                  <persName>
+                  <roleName type="title">ʾaṣe</roleName>
+               </persName>
                <persName xml:lang="gez" xml:id="n4" type="regnal">ዮሐንስ፡</persName>
                <persName xml:lang="gez" corresp="#n4" type="normalized">Yoḥannǝs</persName>
                
@@ -67,38 +69,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
            
-               <birth notBefore="1831" notAfter="1837"></birth>
-               <floruit notBefore=" 1872" notAfter="1889"></floruit>
-               <death when="1889"> He died at the battle of <placeName ref="LOC4637Matamm">Matammā</placeName></death>
+               <birth notBefore="1831" notAfter="1837"/>
+               <floruit notBefore=" 1872" notAfter="1889"/>
+               <death when="1889"> He died at the battle of <placeName ref="LOC4637Matamm">Matammā</placeName>
+               </death>
             </person>
             <listRelation>
-               <relation name="snap:SonOf" 
-                  active="PRS10378Yohanne"
-                  passive="PRS8726sellasD"
-                 ></relation>
-               <relation name="snap:SonOf" 
-                  active="PRS10378Yohanne"
-                  passive="PRS8726sellasD"
-                 ></relation>
+               <relation name="snap:SonOf" active="PRS10378Yohanne" passive="PRS8726sellasD"/>
+               <relation name="snap:SonOf" active="PRS10378Yohanne" passive="PRS8726sellasD"/>
              
                <relation name="snap:BrotherOf"
-                  active="PRS10378Yohanne"
-                  passive="PRS4871GugsaMe"
-                 ></relation>
+                         active="PRS10378Yohanne"
+                         passive="PRS4871GugsaMe"/>
 
                <relation name="snap:BrotherOf"
-                  active="PRS10378Yohanne"
-                  passive="PRS6816MaruMer"
-                 ></relation>
+                         active="PRS10378Yohanne"
+                         passive="PRS6816MaruMer"/>
                    <relation name="rel:enemyOf"
-                     active="PRS10378Yohanne"
-                     passive="PRS9430Tewodros"
-                     ></relation>
+                         active="PRS10378Yohanne"
+                         passive="PRS9430Tewodros"/>
                <relation name="snap:SiblingOf"
-             
-                  active="PRS10378Yohanne"
-                  passive="PRS8265Sabagadi"
-                     ></relation>
+                         active="PRS10378Yohanne"
+                         passive="PRS8265Sabagadi"/>
             </listRelation>
          </listPerson>
          <listBibl type="editions">
@@ -115,11 +107,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-               
-                  
-                 

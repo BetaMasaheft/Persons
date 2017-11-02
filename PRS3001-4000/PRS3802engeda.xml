@@ -59,7 +59,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                   <persName xml:lang="gez" xml:id="n1" type="birth">እንግዳ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾƎngǝdā</persName>
-               <persName><roleName type="title">ʾalaqā </roleName></persName>
+               <persName>
+                  <roleName type="title">ʾalaqā </roleName>
+               </persName>
                   
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
@@ -71,9 +73,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                   
                   
-               <floruit notBefore="1855" notAfter="1890">He was an artist emerged during the reign of  <roleName type="title">ʾaṣe</roleName><persName ref="PRS9430Tewodros"/>.
-                  He was also later employed by <roleName type="title">ʾaṣe</roleName><persName ref="PRS10378Yohanne"/> and  <roleName type="title">nǝguś
-                  </roleName> <persName ref="PRS9158TaklaHa"/> and was still active in the  early years of <roleName type="title">ʾaṣe</roleName>
+               <floruit notBefore="1855" notAfter="1890">He was an artist emerged during the reign of  <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS9430Tewodros"/>.
+                  He was also later employed by <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS10378Yohanne"/> and  <roleName type="title">nǝguś
+                  </roleName> 
+                  <persName ref="PRS9158TaklaHa"/> and was still active in the  early years of <roleName type="title">ʾaṣe</roleName>
                   <persName ref="PRS7006Menilek"/>.
                   </floruit>
                   
@@ -82,19 +87,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </person>
                <listRelation>
                   <relation name="snap:AllianceWith"
-                     active="PRS3802engeda"
-                     passive="PRS10378Yohanne"
-                     ></relation>
+                         active="PRS3802engeda"
+                         passive="PRS10378Yohanne"/>
                   <relation name="snap:AllianceWith"
-                     active="PRS3802engeda"
-                     passive="PRS7006Menilek"
-                     ></relation>
+                         active="PRS3802engeda"
+                         passive="PRS7006Menilek"/>
                   
                   
                   <relation name="snap:AllianceWith"
-                     active="PRS3802engeda"
-                     passive="PRS9158TaklaHa"
-                     ></relation>
+                         active="PRS3802engeda"
+                         passive="PRS9158TaklaHa"/>
                   
                   
                   
@@ -126,21 +128,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                  
-               

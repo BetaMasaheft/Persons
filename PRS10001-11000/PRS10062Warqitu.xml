@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Warqitu</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -57,7 +57,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      
                <persName xml:lang="gez" xml:id="n1" type="birth">ወርቂቱ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Warqitu</persName>
-                  <persName><roleName type="title">Wayzaro</roleName></persName>
+                  <persName>
+                  <roleName type="title">Wayzaro</roleName>
+               </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="Islam"/>
                   <occupation type="political">ruler</occupation>
@@ -69,31 +71,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   to her young son <persName ref="PRS1782AmadeAl">ʾAmade ʾAli</persName>. She played an active part in the resistance of
                   <placeName ref="LOC6185Wallo">Wallo</placeName> to <persName ref="PRS9434Tewodros">Tewodros II</persName>. </floruit>
                   
-                  <death when="1868" cert="medium"></death>
+                  <death when="1868" cert="medium"/>
                </person>
                <listRelation>
                   <relation name="snap:AllianceWith"
-                     active="PRS10062Warqitu"
-                     passive="PRS7006Menilek"
-                    ></relation>
-                  <relation name="bm:wifeOf"
-                     active="PRS10062Warqitu"
-                     passive="PRS1684AliAbb"
-                    ></relation>
+                         active="PRS10062Warqitu"
+                         passive="PRS7006Menilek"/>
+                  <relation name="bm:wifeOf" active="PRS10062Warqitu" passive="PRS1684AliAbb"/>
                   <relation name="snap:MotherOf"
-                     active="PRS10062Warqitu"
-                     passive="PRS1782AmadeAl"
-                    ></relation>
+                         active="PRS10062Warqitu"
+                         passive="PRS1782AmadeAl"/>
                   <relation name="rel:enemyOf"
-                     
-                     active="PRS10062Warqitu"
-                     passive="PRS9434Tewodros"
-                    ></relation>
+                         active="PRS10062Warqitu"
+                         passive="PRS9434Tewodros"/>
                   <relation name="rel:enemyOf"
-                     
-                     active="PRS10062Warqitu"
-                     passive="PRS6864Mastawat"
-                    ></relation>
+                         active="PRS10062Warqitu"
+                         passive="PRS6864Mastawat"/>
           
                </listRelation>
          </listPerson>
@@ -106,7 +99,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <ptr target="bm:Ficquet2010Warqitu"/>
             </bibl>
        
-        <bibl>
+            <bibl>
                   <ptr target="bm:Blanc1868Narrative"/>
                </bibl>
                
@@ -115,18 +108,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>   
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                  

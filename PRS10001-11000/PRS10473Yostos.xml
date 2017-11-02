@@ -57,7 +57,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <persName xml:lang="gez" xml:id="n1" type="birth">ዮስጦስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Yosṭos</persName>
         
-                  <persName><roleName type="title">ʾaṣe</roleName></persName>
+                  <persName>
+                  <roleName type="title">ʾaṣe</roleName>
+               </persName>
                <persName xml:lang="gez" xml:id="n2" type="regnal">ፀሐይ፡ ሰገድ፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">Ḍaḥay Sagad</persName>
                   
@@ -69,46 +71,32 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      A number of notables were killed, and  the son of <roleName type="title">ʾaṣe</roleName>
                      <persName ref="PRS5616IyasuI">ʾIyāsu the Great</persName>, <persName ref="PRS3430DawitII">Dāwit III</persName>, was bought 
                      from <placeName ref="LOC6157WahniA">Wahni ʾAmbā</placeName>. <persName ref="PRS3430DawitII">Dāwit III</persName> was proclaimed king and 
-                     <roleName type="title">ʾaṣe</roleName> <persName ref="PRS10473Yostos">Yosṭos</persName> pronounced dead.
+                     <roleName type="title">ʾaṣe</roleName> 
+                  <persName ref="PRS10473Yostos">Yosṭos</persName> pronounced dead.
                         
                         
                   </floruit>
-                  <death when="1716"></death>
+                  <death when="1716"/>
                   
                </person>
                <listRelation>
-                  <relation name="snap:SonOf"
-                     active="PRS10473Yostos"
-                     passive="PRS3485DelbaIy"
-                    ></relation>
-                  <relation name="snap:SonOf"
-                     active="PRS10473Yostos"
-                     passive="PRS9836Walatta"
-                    ></relation>
+                  <relation name="snap:SonOf" active="PRS10473Yostos" passive="PRS3485DelbaIy"/>
+                  <relation name="snap:SonOf" active="PRS10473Yostos" passive="PRS9836Walatta"/>
                   <relation name="snap:BrotherOf"
-                     active="PRS10473Yostos"
-                     passive="PRS8030Qerellos"
-                    ></relation>
+                         active="PRS10473Yostos"
+                         passive="PRS8030Qerellos"/>
                   <relation name="snap:GreatGrandfatherOf"
-                     active="PRS10473Yostos"
-                     passive="PRS10375Yohanne"
-                    ></relation>
+                         active="PRS10473Yostos"
+                         passive="PRS10375Yohanne"/>
                   <relation name="snap:AllianceWith"
-                     active="PRS10473Yostos"
-                     passive="PRS9449Tewoflos"
-                    ></relation>
+                         active="PRS10473Yostos"
+                         passive="PRS9449Tewoflos"/>
                   <relation name="snap:AllianceWith"
-                     
-                     active="PRS10473Yostos"
-                     passive="PRS1280Abranyos"
-                     
-                    ></relation>
+                         active="PRS10473Yostos"
+                         passive="PRS1280Abranyos"/>
                   <relation name="rel:enemyOf"
-                     
-                     active="PRS10473Yostos"
-                     passive="PRS6578Malakota"
-                     
-                    ></relation>
+                         active="PRS10473Yostos"
+                         passive="PRS6578Malakota"/>
                   
                </listRelation>
          </listPerson>
@@ -138,8 +126,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    </text>
    
 </TEI>
-
-
-
-                  
-                

@@ -3,7 +3,10 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS5222haylaMi">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="pers"
+     xml:lang="en"
+     xml:id="PRS5222haylaMi">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -56,27 +59,34 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   ʾƎšate</persName>
                <persName xml:lang="gez" xml:id="n2" type="birth">ኃይሉ፡ እሸቴ፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">Ḫāylu ʾƎšate</persName>
-               <persName><roleName type="title">daǧǧāzmāč</roleName></persName>
+               <persName>
+                  <roleName type="title">daǧǧāzmāč</roleName>
+               </persName>
 
                <occupation type="political">governor</occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <birth when="1753"/>
-               <residence><placeName ref="LOC4432Mahdar"/></residence>
+               <residence>
+                  <placeName ref="LOC4432Mahdar"/>
+               </residence>
                <floruit notBefore="1773" notAfter="1810">He was one of the most important nobles
                   during Zamana Masāfǝnt and commissioned the copying of the royal chronicles by his
-                  close friend and secretary assistant (scribe) <persName ref="PRS1007Abagaz"
-                     >ʾAbagāz</persName> in <date>1785</date> at the monastery of <placeName
-                     ref="LOC4432Mahdar"/>, where they both found asylum. </floruit>
+                  close friend and secretary assistant (scribe) <persName ref="PRS1007Abagaz">ʾAbagāz</persName> in <date>1785</date> at the monastery of <placeName ref="LOC4432Mahdar"/>, where they both found asylum. </floruit>
                <death notBefore="1809" notAfter="1810"/>
             </person>
             <listRelation>
-               <relation name="snap:AllianceWith" active="PRS5222haylaMi" passive="PRS1007Abagaz"/>
+               <relation name="snap:AllianceWith"
+                         active="PRS5222haylaMi"
+                         passive="PRS1007Abagaz"/>
                <!--friendshipFor? ProfessionalRelationship?-->
                <relation name="snap:KinOf" active="PRS5222haylaMi" passive="PRS2682BerhanM"/>
-               <relation name="snap:SonOf" active="PRS5222haylaMi"
-                  passive="PRS3856esateof PRS9853Walatta"/>
-               <relation name="snap:FatherOf" active="PRS5222haylaMi" passive="PRS6793Marsith"/>
+               <relation name="snap:SonOf"
+                         active="PRS5222haylaMi"
+                         passive="PRS3856esateof PRS9853Walatta"/>
+               <relation name="snap:FatherOf"
+                         active="PRS5222haylaMi"
+                         passive="PRS6793Marsith"/>
             </listRelation>
          </listPerson>
          <listBibl type="secondary">

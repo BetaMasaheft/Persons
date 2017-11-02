@@ -57,14 +57,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                <persName xml:lang="en" xml:id="n1" type="main">John the Baptist</persName>
                
-         <persName xml:lang="gez" xml:id="n2">ዮሐንስ፡ መጥምቅ፡</persName>
+               <persName xml:lang="gez" xml:id="n2">ዮሐንስ፡ መጥምቅ፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">Yoḥannǝs Maṭmǝq</persName>
                
                <occupation type="ecclesiastic">saint, prophet, martyr</occupation>
                <nationality type="Israel/Palestine"/>
                   <faith type="Judaism"/>
                 
-               <note type="commemoration">He is commemorated on <date type="diesNatalis">1 Maskaram</date></note>
+               <note type="commemoration">He is commemorated on <date type="diesNatalis">1 Maskaram</date>
+               </note>
                   
                <floruit> One of the most celebrated biblical figures in the history of Christianity. It is believed that he baptised 
                   <persName ref="PRS5684JesusCh">Jesus Christ</persName> on the river Jordan in <date>29</date>. 
@@ -75,27 +76,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <listRelation>
                   
                   
-                  <relation name="ecrm:P129i_is_subject_of" 
-                     active="PRS5741Johnthe"
-                     passive="LIT2085OntheL"
-                    ></relation>
-                  <relation name="ecrm:P129i_is_subject_of" 
-                     active="PRS5741Johnthe"
-                     passive="LIT2085OntheL"
-                    ></relation>
-                  <relation name="ecrm:P129i_is_subject_of" 
-                     active="PRS5741Johnthe"
-                     passive="LIT2125OntheG"
-                    ></relation>
+                  <relation name="ecrm:P129i_is_subject_of"
+                         active="PRS5741Johnthe"
+                         passive="LIT2085OntheL"/>
+                  <relation name="ecrm:P129i_is_subject_of"
+                         active="PRS5741Johnthe"
+                         passive="LIT2085OntheL"/>
+                  <relation name="ecrm:P129i_is_subject_of"
+                         active="PRS5741Johnthe"
+                         passive="LIT2125OntheG"/>
                   
-                  <relation name="ecrm:P129i_is_subject_of" 
-                     active="PRS5741Johnthe"
-                     passive="LIT1658Homily"
-                    ></relation>
-                  <relation name="ecrm:P129i_is_subject_of" 
-                     active="PRS5741Johnthe"
-                     passive="LIT1623Homily"
-                    ></relation>
+                  <relation name="ecrm:P129i_is_subject_of"
+                         active="PRS5741Johnthe"
+                         passive="LIT1658Homily"/>
+                  <relation name="ecrm:P129i_is_subject_of"
+                         active="PRS5741Johnthe"
+                         passive="LIT1623Homily"/>
                 
                   
                </listRelation>
@@ -111,15 +107,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-                  
-                 

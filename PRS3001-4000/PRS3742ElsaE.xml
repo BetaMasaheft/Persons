@@ -53,14 +53,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-         <persName xml:lang="gez" xml:id="n1" type="birth">ኤልሳዕ፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ኤልሳዕ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾElsāʿ</persName>
-               <persName><roleName type="title">ʾǝč̣č̣age</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾǝč̣č̣age</roleName>
+               </persName>
                   <occupation type="ecclesiastic">abbot</occupation>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
              
-               <residence><placeName ref="INS0341">Dabra Libānos</placeName></residence>
+               <residence>
+                  <placeName ref="INS0341">Dabra Libānos</placeName>
+               </residence>
                <floruit when="1313" evidence="internal">He was the second abbot of <placeName ref="INS0341">Dabra Libānos</placeName>
                   who succeeded the most celebrated saint <persName ref="PRS9152TaklaHa">Takla Hāymānot I</persName> in <date>1313</date>. 
                   He held the office only for three months before his death. He was succeeded by ʾabuna <persName ref="PRS4104Fileppos">Filǝṗṗos</persName>,  the third abbot of 
@@ -72,9 +76,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listRelation>
                
                <relation name="snap:AllianceWith"
-                  active="PRS3742ElsaE"
-                  passive="PRS9152TaklaHa"
-                 ></relation>
+                         active="PRS3742ElsaE"
+                         passive="PRS9152TaklaHa"/>
             </listRelation>
          </listPerson>
          <listBibl type="editions">
@@ -95,4 +98,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-

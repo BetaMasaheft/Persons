@@ -1,7 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS11578Barya" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="PRS11578Barya"
+     xml:lang="en"
+     type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -58,10 +63,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <floruit/>
                 </personGrp>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS11578Barya" passive="LIT4275ChronAmdS"/>
-                    <relation name="saws:isRelatedTo" active="PRS11578Barya" passive="ETH1219baryas"></relation>
+                    <relation name="lawd:hasAttestation"
+                         active="PRS11578Barya"
+                         passive="LIT4275ChronAmdS"/>
+                    <relation name="saws:isRelatedTo"
+                         active="PRS11578Barya"
+                         passive="ETH1219baryas"/>
                 </listRelation>
-            </listPerson><!--name of troops in the AS chronicle; cp. also ETH1219baryas-->
+            </listPerson>
+         <!--name of troops in the AS chronicle; cp. also ETH1219baryas-->
         </body>
     </text>
 </TEI>

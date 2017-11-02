@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Dānǝʾel</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -56,7 +56,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                   <persName xml:lang="gez" xml:id="n1" type="birth">ዳንኤል፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Dānǝʾel</persName>
-                  <persName><roleName type="title">ʾabuna</roleName></persName>
+                  <persName>
+                  <roleName type="title">ʾabuna</roleName>
+               </persName>
                   <occupation type="ecclesiastic">metropolitan</occupation>
                   
                   <nationality type="Egypt"/>
@@ -66,21 +68,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <floruit notBefore="0979" notAfter="1003">He was a metropolitan of <placeName ref="LOC3010Ethiop">Ethiopia</placeName> 
                   consecrated by the coptic patriarch <persName ref="PRS7852Philothe">Philotheus</persName> between <date>979-1003</date>,
                   after long absence to send metropolitan to <placeName ref="LOC3010Ethiop">Ethiopia</placeName> following 
-                  <roleName type="title">ʾabuna</roleName><persName ref="PRS11305PetrosI">Ṗeṭros I</persName>. </floruit>
-                  <death></death>
+                  <roleName type="title">ʾabuna</roleName>
+                  <persName ref="PRS11305PetrosI">Ṗeṭros I</persName>. </floruit>
+                  <death/>
                </person>
                <listRelation>
                   
                   
                   <relation name="bm:ordainedBy"
-                     active="PRS3330Daneel"
-                     passive="PRS7852Philothe"
-                    ></relation>
+                         active="PRS3330Daneel"
+                         passive="PRS7852Philothe"/>
                   <relation name="snap:AllianceWith"
-                     active="PRS3330Daneel"
-                     passive="PRS11305PetrosI"
-                     
-                    ></relation>
+                         active="PRS3330Daneel"
+                         passive="PRS11305PetrosI"/>
                   
                </listRelation>
          </listPerson>
@@ -98,13 +98,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-               

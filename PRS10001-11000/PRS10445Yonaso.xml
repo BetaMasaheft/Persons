@@ -57,36 +57,33 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Habta ʾƎgziʾ</persName>
                <persName xml:lang="gez" xml:id="n2" type="birth">ዮናስ፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">Yonās</persName>
-               <persName><roleName type="title">ʾabbā</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾabbā</roleName>
+               </persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <occupation type="ecclesiastic">saint</occupation>
-               <birth> He was born in the district of <placeName ref="LOC2019Bur">Bur </placeName> in <date>1400/03</date></birth>
+               <birth> He was born in the district of <placeName ref="LOC2019Bur">Bur </placeName> in <date>1400/03</date>
+               </birth>
                <floruit> He is one of the most important personalities of the <persName ref="PRS11207Ewostateans">ʾEwosṭāteans</persName> movement. 
                   He was the founder of the monastery  of <placeName ref="LOC2257DabraD">Dabra Dǝḫuḫan</placeName>. 
                </floruit>
-               <death><date>1498</date></death>
+               <death>
+                  <date>1498</date>
+               </death>
             </person>  
             <listRelation>
           
       
-               <relation name="snap:SonOf"
-                  active="PRS10445Yonaso"
-                  passive="PRS7557Newayae"
-                 ></relation>
-               <relation name="snap:SonOf"
-                  active="PRS10445Yonaso"
-                  passive="PRS5298heritaM"
-                 ></relation>
+               <relation name="snap:SonOf" active="PRS10445Yonaso" passive="PRS7557Newayae"/>
+               <relation name="snap:SonOf" active="PRS10445Yonaso" passive="PRS5298heritaM"/>
                <relation name="snap:AllianceWith"
-                  active="PRS10445Yonaso"
-                  passive="PRS3932Ewostate"
-                 ></relation>
+                         active="PRS10445Yonaso"
+                         passive="PRS3932Ewostate"/>
                
-               <relation name="ecrm:P129i_is_subject_of" 
-                  active="PRS10445Yonaso"
-                  passive="LIT1522GadlaY"
-                 ></relation>
+               <relation name="ecrm:P129i_is_subject_of"
+                         active="PRS10445Yonaso"
+                         passive="LIT1522GadlaY"/>
             </listRelation>
          </listPerson>
  
@@ -98,20 +95,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-         
-                  
-                  

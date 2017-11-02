@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Habta Śǝllāse II</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -56,31 +56,33 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="monastic">ሀብተ፡ ሥላሴ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Habta Śǝllāse II</persName>
-               <persName><roleName type="title">ʾabbā </roleName></persName>
+               <persName>
+                  <roleName type="title">ʾabbā </roleName>
+               </persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <occupation type="ecclesiastic"> abbot </occupation>
-               <birth> He was born at <placeName ref="LOC4047Kelett">Kǝlǝttā Awlǝʿalo</placeName> in <date></date></birth>
-               <residence><placeName ref="LOC3653GundaG">Gunda Gunde</placeName></residence>
+               <birth> He was born at <placeName ref="LOC4047Kelett">Kǝlǝttā Awlǝʿalo</placeName> in <date/>
+               </birth>
+               <residence>
+                  <placeName ref="LOC3653GundaG">Gunda Gunde</placeName>
+               </residence>
                <floruit> He was an abbot of the monastery of <placeName ref="LOC3653GundaG">Gunda Gunde</placeName> during the reign of King 
                   <persName ref="PRS9038Susenyos">Susǝnyos</persName>. He received a monastic habit from ʾabbā<persName ref="PRS9192TaklaNa">
                      Takla Nabiyāt</persName>.  He had a strong stand against Catholicism.  </floruit>
-               <death></death>
+               <death/>
             </person>  
             <listRelation>
               <relation name="snap:AllianceWith"
-               active="PRS11216Habtase"
-                  passive="PRS9192TaklaNa"
-                 ></relation>
+                         active="PRS11216Habtase"
+                         passive="PRS9192TaklaNa"/>
                <relation name="bm:ordainedBy"
-                  active="PRS11216Habtase"
-                  passive="PRS6070Krestodo"
-                 ></relation>
-               <relation name="ecrm:P129i_is_subject_of" 
-                  active="PRS11216Habtase"
-                  passive="LIT4761GadlaHS"
-                  ></relation>
-      </listRelation>
+                         active="PRS11216Habtase"
+                         passive="PRS6070Krestodo"/>
+               <relation name="ecrm:P129i_is_subject_of"
+                         active="PRS11216Habtase"
+                         passive="LIT4761GadlaHS"/>
+            </listRelation>
          </listPerson>
          <listBibl type="editions">
             <bibl>
@@ -103,9 +105,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-               

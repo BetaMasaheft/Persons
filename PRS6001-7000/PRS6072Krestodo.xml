@@ -56,40 +56,38 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ክርስቶዶሉ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Krǝstodolu III</persName>
-               <persName><roleName type="title">ʾabuna</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾabuna</roleName>
+               </persName>
                <occupation type="ecclesiastic"> metropolitan</occupation>
                <nationality type="Egypt"/>
                <faith type="Coptic"/>
              
-               <residence><placeName ref="LOC3577Gondar"> Gondar</placeName></residence>
+               <residence>
+                  <placeName ref="LOC3577Gondar"> Gondar</placeName>
+               </residence>
                
                <floruit when="1716">He was a metropolitan of the Ethiopian Orthodox Church who was consecrated by Coptic Patriarch 
                   <persName ref="PRS11127PeterVI">Peter VI</persName> succeeded ʾabuna 
                   <persName ref="PRS6777Marqos">Mārqos IV</persName> in <date>1716</date>. He arrived in Ethiopia during the reign of 
                   <persName ref="PRS3430DawitII"/> in <date>1720</date>.
                    </floruit>
-               <death> He died in<date>1735</date> </death>
+               <death> He died in<date>1735</date> 
+               </death>
             </person>
             <listRelation>
                <relation name="bm:ordainedBy"
-                  active="PRS6777Marqos"
-                  passive="PRS5711JohnXVI"
-                 ></relation>
+                         active="PRS6777Marqos"
+                         passive="PRS5711JohnXVI"/>
                <relation name="snap:AllianceWith"
-                  
-                  active="PRS6777Marqos"
-                  passive="PRS5616IyasuI"
-                 ></relation>
+                         active="PRS6777Marqos"
+                         passive="PRS5616IyasuI"/>
                <relation name="snap:AllianceWith"
-                  
-                  active="PRS6777Marqos"
-                  passive="PRS9152TaklaHa"
-                 ></relation>
+                         active="PRS6777Marqos"
+                         passive="PRS9152TaklaHa"/>
                <relation name="snap:AllianceWith"
-                  
-                  active="PRS6777Marqos"
-                  passive="PRS7925Poncet"
-                 ></relation>
+                         active="PRS6777Marqos"
+                         passive="PRS7925Poncet"/>
                
             </listRelation>
          </listPerson>
@@ -109,13 +107,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-            

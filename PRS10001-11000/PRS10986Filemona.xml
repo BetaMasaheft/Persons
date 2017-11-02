@@ -53,8 +53,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <occupation type="other">donor</occupation>
             </person>
             <listRelation>
-               <relation name="lawd:hasAttestation" active="PRS10986Filemona" passive="BNFet35"/>
-               <relation name="snap:SonOf" active="PRS10986Filemona" passive="PRS10989FereM"><desc>Described as son of <persName ref="PRS10989FereM"/>.</desc></relation>
+               <relation name="lawd:hasAttestation"
+                         active="PRS10986Filemona"
+                         passive="BNFet35"/>
+               <relation name="snap:SonOf" active="PRS10986Filemona" passive="PRS10989FereM">
+                  <desc>Described as son of <persName ref="PRS10989FereM"/>.</desc>
+               </relation>
             </listRelation>
          </listPerson>
       </body>

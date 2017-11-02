@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Ḥāmalmāl</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -54,37 +54,38 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-           <persName xml:lang="gez" xml:id="n1" type="birth">ሐመልማል፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ሐመልማል፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Ḥāmalmāl</persName>
-                  <persName><roleName type="title">rās</roleName></persName>
+                  <persName>
+                  <roleName type="title">rās</roleName>
+               </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                <occupation type="military">rās</occupation>
-               <birth notBefore="1510" notAfter="1525"></birth>
+               <birth notBefore="1510" notAfter="1525"/>
                   
                   
                <floruit notBefore="1510" notAfter="1525">He was a great Šawān lord of royal descent in the mid 16th century Solomonic kingdom. He was the 
-                  first cousin of <roleName type="title">ʾaṣe</roleName> <persName ref="PRS4428Galawdew">Galāwdewos</persName> and <roleName type="title">ʾaṣe</roleName> 
+                  first cousin of <roleName type="title">ʾaṣe</roleName> 
+                  <persName ref="PRS4428Galawdew">Galāwdewos</persName> and <roleName type="title">ʾaṣe</roleName> 
                   <persName ref="PRS7102Minas">Minās</persName>. He was an important military lords in successive Kings:<roleName type="title">ʾaṣe</roleName> 
                   <persName ref="PRS4428Galawdew">Galāwdewos</persName>, <roleName type="title">ʾaṣe</roleName> 
-                  <persName ref="PRS7102Minas">Minās</persName>, <roleName type="title">ʾaṣe</roleName> <persName ref="PRS8275SablaD">Śarḍa Dǝngǝl</persName> and </floruit>
+                  <persName ref="PRS7102Minas">Minās</persName>, <roleName type="title">ʾaṣe</roleName> 
+                  <persName ref="PRS8275SablaD">Śarḍa Dǝngǝl</persName> and </floruit>
                  
                </person>  
                <listRelation>
                   
                   <relation name="snap:NephewOf"
-                     active="PRS5043hamalmal"
-                     passive="PRS6229LebnaDe"
-                    ></relation>
+                         active="PRS5043hamalmal"
+                         passive="PRS6229LebnaDe"/>
                   <relation name="snap:GrandchildOf"
-                     active="PRS5043hamalmal"
-                     passive="PRS7481NaodA"
-                     ></relation>
+                         active="PRS5043hamalmal"
+                         passive="PRS7481NaodA"/>
                   
                   <relation name="snap:GrandsonOf"
-                     active="PRS5043hamalmal"
-                     passive="PRS7481NaodA"
-                    ></relation>
+                         active="PRS5043hamalmal"
+                         passive="PRS7481NaodA"/>
                   
                   </listRelation>
          </listPerson>
@@ -103,11 +104,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-                  
-                 
-               

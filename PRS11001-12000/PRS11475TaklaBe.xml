@@ -47,12 +47,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName  xml:lang="gez" xml:id="n1">ተክለ፡ ብርሃን፡</persName>
-               <persName  xml:lang="gez" type="normalized" corresp="#n1">Takla Bǝrhān</persName>
+               <persName xml:lang="gez" xml:id="n1">ተክለ፡ ብርሃን፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Takla Bǝrhān</persName>
                <faith type="EOTC"/>
-            <residence>
-               <placeName ref="INS0302SanStefano"> Santo Stefano dei Mori </placeName>
-            </residence>
+               <residence>
+                  <placeName ref="INS0302SanStefano"> Santo Stefano dei Mori </placeName>
+               </residence>
             </person>
             <listRelation>
                <relation name="saws:hasOwned" active="PRS11475TaklaBe" passive="BAVet62"/>

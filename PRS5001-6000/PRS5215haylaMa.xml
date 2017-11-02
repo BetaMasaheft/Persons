@@ -57,7 +57,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ኃይለ፡ ማርያም፡  ካሕሣይ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Ḫāyla Māryām Kāḥśāy</persName>
-               <persName><roleName type="title">ʾabbā</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾabbā</roleName>
+               </persName>
                <nationality type="Ethiopia"/>
                <faith type="Catholicism"/>
                
@@ -66,7 +68,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                
                <occupation type="ecclesiastic">Catholic bishop</occupation>
-               <birth notBefore="1894" notAfter="1895">He was born at <placeName ref="LOC1212Addigr"/></birth>
+               <birth notBefore="1894" notAfter="1895">He was born at <placeName ref="LOC1212Addigr"/>
+               </birth>
                               
                
                
@@ -78,15 +81,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
             </person>
             <listRelation>
-               <relation name="snap:SonOf"
-                  active="PRS5215haylaMa"
-                  passive="PRS9823Walatta"
-                  ></relation>
+               <relation name="snap:SonOf" active="PRS5215haylaMa" passive="PRS9823Walatta"/>
                
-               <relation name="snap:SonOf"
-                  active="PRS5215haylaMa"
-                  passive="PRS5834KahsayD"
-                  ></relation>
+               <relation name="snap:SonOf" active="PRS5215haylaMa" passive="PRS5834KahsayD"/>
                
                
                
@@ -110,20 +107,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-              

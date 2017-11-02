@@ -48,8 +48,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName  xml:lang="gez" xml:id="n1">ቀሌምንጦስ፡</persName>
-               <persName  xml:lang="gez" type="normalized" corresp="#n1">Qalemǝnṭos</persName>
+               <persName xml:lang="gez" xml:id="n1">ቀሌምንጦስ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Qalemǝnṭos</persName>
                <!-- floruit aorund 1540 AD -->
                <faith type="EOTC"/>
                <residence>
@@ -57,8 +57,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </residence>
             </person>
             <listRelation>
-               <relation name="lawd:hasAttestation" active="PRS11338Qalemen" passive="BAVet25#a1"/>
-               <relation name="saws:isMemberOf" active="PRS11338Qalemen" passive="PRS11208HouseTakla"/>
+               <relation name="lawd:hasAttestation"
+                         active="PRS11338Qalemen"
+                         passive="BAVet25#a1"/>
+               <relation name="saws:isMemberOf"
+                         active="PRS11338Qalemen"
+                         passive="PRS11208HouseTakla"/>
             </listRelation>
          </listPerson>
       </body>

@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Sinodā</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -53,13 +53,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-            <persName xml:lang="gez" xml:id="n1" type="birth">ሲኖዳ፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ሲኖዳ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Sinodā</persName>
-                 <persName><roleName type="title">ʾabbā</roleName></persName>
+                 <persName>
+                  <roleName type="title">ʾabbā</roleName>
+               </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   <occupation type="ecclesiastic">abbot</occupation>
-               <residence><placeName ref="LOC2367DabraS">Dabra Ṣǝmmunā</placeName></residence>
+               <residence>
+                  <placeName ref="LOC2367DabraS">Dabra Ṣǝmmunā</placeName>
+               </residence>
                <birth>He was born in <placeName ref="LOC6136Waj">Waǧ</placeName>. </birth>
                <floruit notBefore="1400" notAfter="1450">He was  a saintly monk active in <date>1400-1450</date>. 
                   He was the founder of the monastery of <placeName ref="LOC2367DabraS">Dabra Ṣǝmmunā</placeName>, 
@@ -67,35 +71,30 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   of <placeName ref="LOC6512ZwayHa">Zwāy Ḥāmara Bǝrhān Qǝddus Gabrǝʾel</placeName> where later ordained monk. He was a
                   disciple of <persName ref="PRS3793endreyas">ʾƎndrǝyās</persName>. <roleName type="title">ʾabbā</roleName> 
                   <persName ref="PRS8869Sinoda">Sinodā</persName> moved to <placeName ref="LOC3549Gojjam">Goǧǧām</placeName> 
-                  during the reign of <roleName type="title">ʾaṣe</roleName><persName ref="PRS10342Yeshaq">Yǝsḥāq</persName>
+                  during the reign of <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS10342Yeshaq">Yǝsḥāq</persName>
                   where he established <placeName ref="LOC2367DabraS">Dabra Ṣǝmmunā</placeName>. During the reign of <roleName type="title">ʾaṣe</roleName>
                   <persName ref="PRS9175TaklaMa">Takla Māryām</persName>, he involved in the conflict of succession between <persName ref="PRS9175TaklaMa">Takla Māryām</persName> and 
-                  <roleName type="title">ʾaṣe </roleName><persName ref="PRS10626ZaraY">Zarʾa Yāʿǝqob</persName>. Consequently, he was exiled to the island of <placeName ref="LOC2522Daq">Daq</placeName> 
+                  <roleName type="title">ʾaṣe </roleName>
+                  <persName ref="PRS10626ZaraY">Zarʾa Yāʿǝqob</persName>. Consequently, he was exiled to the island of <placeName ref="LOC2522Daq">Daq</placeName> 
                   in lake <placeName ref="LOC5888Tana">Ṭānā</placeName> where he died after being tortured and having his hands and feet amputated.</floruit>
-                  <death></death>
+                  <death/>
                </person>  
                <listRelation>
                   <relation name="snap:AllianceWith"
-                     
-                     active="PRS8869Sinoda"
-                     passive="PRS3793endreyas"
-                    ></relation>
+                         active="PRS8869Sinoda"
+                         passive="PRS3793endreyas"/>
                   <relation name="snap:AllianceWith"
-                     
-                     active="PRS8869Sinoda"
-                     passive="PRS10342Yeshaq"
-                    ></relation>
+                         active="PRS8869Sinoda"
+                         passive="PRS10342Yeshaq"/>
                   
                   <relation name="snap:AllianceWith"
-                     
-                     active="PRS8869Sinoda"
-                     passive="PRS10626ZaraY" 
-                    ></relation>
+                         active="PRS8869Sinoda"
+                         passive="PRS10626ZaraY"/>
                   
                   <relation name="ecrm:P129i_is_subject_of"
-                     active="PRS8869Sinoda"
-                     passive="LIT1502GadlaS"
-                    ></relation>
+                         active="PRS8869Sinoda"
+                         passive="LIT1502GadlaS"/>
                   
                </listRelation>
          </listPerson>
@@ -113,9 +112,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-                  
-                  

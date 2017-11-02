@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Wasan Sagad</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -57,12 +57,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" xml:id="n1" type="birth">ወሰን፡ ሰገድ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Wasan Sagad</persName>
               
-               <persName><roleName type="title">rās</roleName></persName>
+               <persName>
+                  <roleName type="title">rās</roleName>
+               </persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <occupation type="political">governor</occupation>
-               <birth  notBefore="1470" notAfter="1479"> He was born in <date>1470</date>s at <placeName ref="LOC3061Fataga">Faṭagār</placeName>. </birth>
-               <floruit  notBefore="1494" notAfter="1531">He was a powerful noble during the reigns of  <roleName type="title">ʾaṣe</roleName> 
+               <birth notBefore="1470" notAfter="1479"> He was born in <date>1470</date>s at <placeName ref="LOC3061Fataga">Faṭagār</placeName>. </birth>
+               <floruit notBefore="1494" notAfter="1531">He was a powerful noble during the reigns of  <roleName type="title">ʾaṣe</roleName> 
                   <persName ref="PRS7481NaodA">Nāʿod</persName> and <roleName type="title">ʾaṣe</roleName>
                   <persName ref="PRS6229LebnaDe">Lǝbna Dǝngǝl</persName>. In the time of <roleName type="title">ʾaṣe</roleName>
                   <persName ref="PRS6229LebnaDe">Lǝbna Dǝngǝl</persName>, <persName ref="PRS10077WasanS">Wasan Sagad</persName>
@@ -81,17 +83,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </person>
             <listRelation>
                <relation name="snap:BrotherOf"
-                  active="PRS10077WasanS"
-                  passive="PRS10023WanagZ"
-                 ></relation>
+                         active="PRS10077WasanS"
+                         passive="PRS10023WanagZ"/>
                <relation name="snap:AllianceWith"
-                  active="PRS10077WasanS"
-                  passive="PRS3879eslamSa"
-                 ></relation>
+                         active="PRS10077WasanS"
+                         passive="PRS3879eslamSa"/>
                <relation name="snap:IntimateRelationshipWith"
-                  active="PRS10077WasanS"
-                  passive="PRS7482NaodMo"
-                 ></relation>
+                         active="PRS10077WasanS"
+                         passive="PRS7482NaodMo"/>
                
             </listRelation>
          </listPerson>
@@ -116,21 +115,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>   
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-               

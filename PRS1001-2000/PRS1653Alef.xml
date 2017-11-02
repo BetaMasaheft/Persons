@@ -53,9 +53,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-            <persName xml:lang="gez" xml:id="n1" type="monastic">አሌፍ፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="monastic">አሌፍ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAlef</persName>
-               <persName><roleName type="title">ʾabbā </roleName></persName>
+               <persName>
+                  <roleName type="title">ʾabbā </roleName>
+               </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   <occupation type="ecclesiastic"> saint </occupation>
@@ -63,38 +65,31 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <floruit> He was one of the Nine Saints who arrived in Ethiopia in the late 5th or early 6th century. According to the tradition, he came originally from
                   <placeName ref="LOC2073Caesar">Caesarea</placeName>. 
                     </floruit>
-                  <death></death>
+                  <death/>
                </person>  
                <listRelation>
                 <relation name="snap:FriendshipFor"
-                     active="PRS1653Alef"
-                     passive="PRS7720Pantalew"
-                    ></relation>
+                         active="PRS1653Alef"
+                         passive="PRS7720Pantalew"/>
                   <relation name="snap:FriendshipFor"
-                     active="PRS1653Alef"
-                     passive="PRS4855Guba"
-                    ></relation>
+                         active="PRS1653Alef"
+                         passive="PRS4855Guba"/>
                   <relation name="snap:FriendshipFor"
-                     active="PRS1653Alef"
-                     passive="PRS10581Zamika"
-                    ></relation>
+                         active="PRS1653Alef"
+                         passive="PRS10581Zamika"/>
                   <relation name="snap:FriendshipFor"
-                     active="PRS1653Alef"
-                     passive="PRS10322Yemata"
-                    ></relation>
+                         active="PRS1653Alef"
+                         passive="PRS10322Yemata"/>
                   <relation name="snap:FriendshipFor"
-                     active="PRS1653Alef"
-                     passive="PRS1467Afse"
-                    ></relation>
+                         active="PRS1653Alef"
+                         passive="PRS1467Afse"/>
                   <relation name="snap:FriendshipFor"
-                     active="PRS1653Alef"
-                     passive="PRS10581Zamika"
-                    ></relation>
+                         active="PRS1653Alef"
+                         passive="PRS10581Zamika"/>
                   
                   <relation name="ecrm:P129i_is_subject_of"
-                     active="PRS1653Alef"
-                     passive="LIT4726GadlaAlef"
-                     ></relation>
+                         active="PRS1653Alef"
+                         passive="LIT4726GadlaAlef"/>
                </listRelation>
          </listPerson>
          
@@ -117,15 +112,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-            

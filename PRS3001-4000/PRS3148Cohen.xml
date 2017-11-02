@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Cohen</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -56,26 +56,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName>
              
                      <forename>Marcel</forename>
-                     <surname>Cohen</surname> </persName>
+                     <surname>Cohen</surname> 
+               </persName>
                   
                   <occupation type="academic">scholar</occupation>
                   <nationality type="France"/>
                   <faith type="notSpecified"/>
-               <birth when="1884">He was born at <placeName ref="gn:2988507"/> in <date>1884</date>. </birth>
+               <birth when="1884">He was born at <placeName ref="Q90"/> in <date>1884</date>. </birth>
                   <floruit notBefore="1908" notAfter="1974">He was a distinguished French linguist, born from a middle class Jewish family. He devoted to comparative
                      Semitic linguistics and prepared himself for this work in the areas of Oriental studies and linguistics. He attended Amharic course under 
                      <persName ref="PRS7146MondonV"/> and later, he published couplets amharique du choa in <date>1924</date>. </floruit>
-                  <death when="1974"></death>
+                  <death when="1974"/>
             </person>
             <listRelation>
                <relation name="snap:FriendshipFor"
-                  active="PRS3148Cohen"
-                  passive="PRS8999Strelcyn"
-                  ></relation>
+                         active="PRS3148Cohen"
+                         passive="PRS8999Strelcyn"/>
                <relation name="snap:AllianceWith"
-                  active="PRS3148Cohen"
-                  passive="PRS7146MondonV"
-                  ></relation>
+                         active="PRS3148Cohen"
+                         passive="PRS7146MondonV"/>
                
                
             </listRelation>
@@ -91,12 +90,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-                   

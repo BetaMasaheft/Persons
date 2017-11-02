@@ -67,7 +67,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                <floruit notBefore="1563" notAfter="1587">He was a <persName ref="ETH1274Betaes">Beta ʾƎsrāʾel</persName> leader during the reign of  
                 
-                  <roleName type="title">ʾaṣe</roleName><persName ref="PRS8550sardaDe">Śarḍa Dǝngǝl</persName>. In <date>1586-87</date>, he led unsuccessful raid 
+                  <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS8550sardaDe">Śarḍa Dǝngǝl</persName>. In <date>1586-87</date>, he led unsuccessful raid 
                   in <placeName ref="LOC6144Wagara">Wagarā</placeName> against  <roleName type="title">ʾaṣe</roleName>
                   <persName ref="PRS8550sardaDe">Śarḍa Dǝngǝl</persName> which ended with the captivity of hundreds of <persName ref="ETH1274Betaes">Beta ʾƎsrāʾel</persName>, 
                   massacre of a number of  them and the enslavement of women and children. 
@@ -76,14 +77,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
             </person>
             <listRelation>
-               <relation name="snap:BrotherOf"
-                  active="PRS4903Gwasen"
-                  passive="PRS5842Kalef"
-                 ></relation>
-               <relation name="snap:BrotherOf"
-                  active="PRS4903Gwasen"
-                  passive="PRS8058Radai"
-                 ></relation>
+               <relation name="snap:BrotherOf" active="PRS4903Gwasen" passive="PRS5842Kalef"/>
+               <relation name="snap:BrotherOf" active="PRS4903Gwasen" passive="PRS8058Radai"/>
             </listRelation>
          </listPerson>
          
@@ -105,11 +100,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-                  
-                 

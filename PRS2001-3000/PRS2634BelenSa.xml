@@ -61,7 +61,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" xml:id="n3" type="alt">ምሌን፡ ሰገደ፡</persName>
                <persName xml:lang="gez" corresp="#n3" type="normalized">Mǝlen Sagada</persName>
                   
-               <persName><roleName type="title">aqāṣen </roleName></persName>
+               <persName>
+                  <roleName type="title">aqāṣen </roleName>
+               </persName>
                   
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
@@ -76,14 +78,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </person>  
                <listRelation>
                   
-                  <relation name="snap:SonOf"
-                     active="PRS2634BelenSa"
-                     passive="PRS2345Bagadas"
-                    ></relation>
-                  <relation name="snap:SonOf"
-                     active="PRS2634BelenSa"
-                     passive="PRS6459Magdalaw"
-                    ></relation>
+                  <relation name="snap:SonOf" active="PRS2634BelenSa" passive="PRS2345Bagadas"/>
+                  <relation name="snap:SonOf" active="PRS2634BelenSa" passive="PRS6459Magdalaw"/>
                 
                </listRelation>
          </listPerson>
@@ -101,11 +97,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-                  
-                  

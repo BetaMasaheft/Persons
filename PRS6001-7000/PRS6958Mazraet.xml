@@ -60,7 +60,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" corresp="#n2" type="normalized">Mazrāta</persName>
                <persName xml:lang="gez" xml:id="n3" type="alt">ኮርኖ፡</persName>
                <persName xml:lang="gez" corresp="#n3" type="normalized">Korno</persName>
-               <persName><roleName type="title">ʾabbā</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾabbā</roleName>
+               </persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <occupation type="ecclesiastic">abbot</occupation>
@@ -76,30 +78,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <death when="1706"> He died at the age of 93. </death>
             </person>
             <listRelation>
-               <relation name="snap:SonOf"
-                  active="PRS6958Mazraet"
-                  passive="PRS6123LabaseK"
-                 ></relation>
-               <relation name="snap:SonOf"
-                  active="PRS6958Mazraet"
-                  passive="PRS7096Milana"
-                 ></relation>
+               <relation name="snap:SonOf" active="PRS6958Mazraet" passive="PRS6123LabaseK"/>
+               <relation name="snap:SonOf" active="PRS6958Mazraet" passive="PRS7096Milana"/>
                <relation name="bm:baptizedBy"
-                  active="PRS6958Mazraet"
-                  passive="PRS8751senaKre"
-                 ></relation>
+                         active="PRS6958Mazraet"
+                         passive="PRS8751senaKre"/>
                <relation name="snap:AllianceWith"
-                  active="PRS6958Mazraet"
-                  passive="PRS4015Fasilada"
-                 ></relation>
+                         active="PRS6958Mazraet"
+                         passive="PRS4015Fasilada"/>
                <relation name="snap:AllianceWith"
-                  active="PRS6958Mazraet"
-                  passive="PRS10375Yohanne"
-                 ></relation>
+                         active="PRS6958Mazraet"
+                         passive="PRS10375Yohanne"/>
                <relation name="ecrm:P129i_is_subject_of"
-                  active="PRS6958Mazraet"
-                  passive="LIT4094GadlaMazraeta"
-                 ></relation>
+                         active="PRS6958Mazraet"
+                         passive="LIT4094GadlaMazraeta"/>
             </listRelation>
          </listPerson>
          

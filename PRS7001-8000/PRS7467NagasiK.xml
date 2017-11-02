@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Nagāśi Krǝstos Warada Qāl</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -53,9 +53,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-      <persName xml:lang="gez" xml:id="n1" type="birth">ነጋሲ፡ ክርስቶስ፡ ወረደ፡ ቃል፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ነጋሲ፡ ክርስቶስ፡ ወረደ፡ ቃል፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Nagāśi Krǝstos Warada Qāl</persName>
-               <persName><roleName type="title">ʾabeto</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾabeto</roleName>
+               </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   <occupation type="political">ruler </occupation>
@@ -67,47 +69,34 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   He also fought the <persName ref="ETH1973Oromo">Oromo</persName> of <placeName ref="LOC6341Yajju">Yaǧǧu</placeName> 
                   and <placeName ref="LOC6185Wallo">Wallo</placeName>. By the end of the 17th century, he emerged as the most important 
                   <persName ref="ETH1126Amhara">ʾAmharā</persName> chief of the area. </floruit>
-               <death  notBefore="1703" notAfter="1705">He died in <placeName ref="LOC3577Gondar">Gondar</placeName>. </death>
+               <death notBefore="1703" notAfter="1705">He died in <placeName ref="LOC3577Gondar">Gondar</placeName>. </death>
                </person>
                <listRelation>
                   
                   <relation name="snap:AllianceWith"
-                     active="PRS7467NagasiK"
-                     passive="PRS5616IyasuI"
-                    ></relation>
+                         active="PRS7467NagasiK"
+                         passive="PRS5616IyasuI"/>
                   
-                  <relation name="snap:SonOf"
-                     active="PRS7467NagasiK"
-                     passive="PRS3999Faris"
-                    ></relation>
+                  <relation name="snap:SonOf" active="PRS7467NagasiK" passive="PRS3999Faris"/>
                   <relation name="snap:FatherOf"
-                     active="PRS7467NagasiK"
-                     passive="PRS8666Sebestya"
-                    ></relation>
+                         active="PRS7467NagasiK"
+                         passive="PRS8666Sebestya"/>
+                  <relation name="snap:FatherOf" active="PRS7467NagasiK" passive="PRS1590Akawa"/>
                   <relation name="snap:FatherOf"
-                     active="PRS7467NagasiK"
-                     passive="PRS1590Akawa"
-                    ></relation>
+                         active="PRS7467NagasiK"
+                         passive="PRS3327DanaNag"/>
                   <relation name="snap:FatherOf"
-                     active="PRS7467NagasiK"
-                     passive="PRS3327DanaNag"
-                    ></relation>
+                         active="PRS7467NagasiK"
+                         passive="PRS8507sankoNa"/>
                   <relation name="snap:FatherOf"
-                     active="PRS7467NagasiK"
-                     passive="PRS8507sankoNa"
-                    ></relation>
+                         active="PRS7467NagasiK"
+                         passive="PRS10438Yonael"/>
                   <relation name="snap:FatherOf"
-                     active="PRS7467NagasiK"
-                     passive="PRS10438Yonael"
-                    ></relation>
-                  <relation name="snap:FatherOf"
-                     active="PRS7467NagasiK"
-                     passive="PRS10063Warqitu"
-                    ></relation>
+                         active="PRS7467NagasiK"
+                         passive="PRS10063Warqitu"/>
                   <relation name="snap:SiblingOf"
-                     active="PRS7467NagasiK"
-                     passive="PRS10191Yaeqob"
-                    ></relation>
+                         active="PRS7467NagasiK"
+                         passive="PRS10191Yaeqob"/>
                   
                   
                </listRelation>
@@ -128,10 +117,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>   
 </TEI>
-
-
-
-
-
-                  
-                

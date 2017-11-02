@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Samuʾel of Qalamūn</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -53,12 +53,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-             <persName xml:lang="gez" xml:id="n1" type="birth">ሳሙኤል፡ ዘቀልሞን፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ሳሙኤል፡ ዘቀልሞን፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Samuʾel of Qalamon</persName>
-                  <persName><roleName type="title">ʾabbā </roleName></persName>
+                  <persName>
+                  <roleName type="title">ʾabbā </roleName>
+               </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
-                  <occupation type="ecclesiastic"></occupation>
+                  <occupation type="ecclesiastic"/>
                   <birth notBefore="0597" notAfter="0598"> </birth>
                   <residence/>
                   
@@ -66,17 +68,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      He is also well known and venerated in the Ethiopian Orthodox Church. He was born  from the ecclesiastic family  and at the age of 22 he joined a monastery. 
                      Later he became an abbot of the monastery of <placeName ref="LOC6126WadinN">Wādī n-Naṭrūn</placeName>.
                      He is well known in <placeName ref="LOC3010Ethiop">Ethiopia</placeName> as a fighter against the doctrine of Chalcedon.</floruit>  
-                     <death notBefore="0695" notAfter="0696"></death>
+                     <death notBefore="0695" notAfter="0696"/>
                        
                      
                   
                </person>
             <listRelation>
                
-               <relation name="rel:enemyOf"
-                  active="PRS8489Samuel"
-                  passive="PRS3262Cyrusa"
-                 ></relation>
+               <relation name="rel:enemyOf" active="PRS8489Samuel" passive="PRS3262Cyrusa"/>
           
           
             </listRelation>
@@ -95,8 +94,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>   
 </TEI>
-
-
-
-                  
-               

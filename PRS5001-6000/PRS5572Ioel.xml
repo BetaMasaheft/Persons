@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Ioel</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -58,7 +58,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" xml:id="n1" type="birth">ኢዮኤል፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾIoʾel</persName>
               
-               <persName><roleName type="title"></roleName></persName>
+               <persName>
+                  <roleName type="title"/>
+               </persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <occupation type="political">ruler</occupation>
@@ -72,9 +74,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </person>
             <listRelation>
                <relation name="snap:AllianceWith"
-                  active="PRS5572Ioel"
-                  passive="PRS3732ellaGab"
-                 ></relation>
+                         active="PRS5572Ioel"
+                         passive="PRS3732ellaGab"/>
           
                
              </listRelation>
@@ -89,7 +90,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>   
 </TEI>
-
-
-
-              

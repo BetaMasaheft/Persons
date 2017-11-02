@@ -56,13 +56,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">አጽቁ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAṣqu</persName>
-               <persName><roleName type="title">liq</roleName></persName>
+               <persName>
+                  <roleName type="title">liq</roleName>
+               </persName>
 
                <occupation type="ecclesiastic">scribe</occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <birth when="1770"/>
-               <residence> <placeName ref="LOC3577Gondar">Gondar</placeName></residence>
+               <residence> 
+                  <placeName ref="LOC3577Gondar">Gondar</placeName>
+               </residence>
                <floruit>He was a learned scholar and judge of <placeName ref="LOC3577Gondar">Gondar</placeName> in the first half of the 19th century.    
                   He was in contact with many European travellers and scholars who visited <placeName ref="LOC3577Gondar">Gondar</placeName> in his time.
                   He copied the royal chronicles which were commissioned by <persName ref="PRS8249Ruppell">Rüppell</persName> in<date> 1833</date>  
@@ -72,20 +76,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
              </person>
             <listRelation>
                <relation name="snap:AllianceWith"
-                  active="PRS2183Asqu"
-                  passive="PRS8249Ruppell"
-                 ></relation>
+                         active="PRS2183Asqu"
+                         passive="PRS8249Ruppell"/>
                <relation name="snap:AllianceWith"
-                  active="PRS2183Asqu"
-                  passive="PRS1071dAbbadi"
-                 ></relation>
+                         active="PRS2183Asqu"
+                         passive="PRS1071dAbbadi"/>
              </listRelation>
          </listPerson>
-      <listBibl type="secondary">
-         <bibl> 
-            <ptr target="bm:Rueppell1838Reise"/>
-         </bibl>   
-         <bibl> 
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Rueppell1838Reise"/>
+            </bibl>   
+            <bibl> 
                <ptr target="bm:Rueppell1840Reise"/>
             </bibl> 
        
@@ -102,9 +104,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-        

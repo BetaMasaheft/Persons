@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Fasil Garrām</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -56,18 +56,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ፋሲል፡ ገራም፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Fāsil Garrām</persName>
-            <persName xml:lang="gez" xml:id="n2" type="birth">ፋሲሎ፡</persName>
-            <persName xml:lang="gez" corresp="#n2" type="normalized">Fāsilo</persName>
+               <persName xml:lang="gez" xml:id="n2" type="birth">ፋሲሎ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Fāsilo</persName>
                <persName xml:lang="gez" xml:id="n3" type="birth">ፋሲሉ፡</persName>
                <persName xml:lang="gez" corresp="#n3" type="normalized">Fāsilu</persName>
-               <persName><roleName type="title">ʾabetohun</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾabetohun</roleName>
+               </persName>
             
                <occupation type="military">officer</occupation>
-            <nationality type="Ethiopia"/>
-            <faith type="EOTC"/>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
           
           
-               <floruit notBefore="1563" notAfter="1587"> He was the younger son of <roleName type="title">ʾabetohun</roleName><persName ref="PRS10191Yaeqob">Yāʿǝqob</persName> 
+               <floruit notBefore="1563" notAfter="1587"> He was the younger son of <roleName type="title">ʾabetohun</roleName>
+                  <persName ref="PRS10191Yaeqob">Yāʿǝqob</persName> 
                   and youngest grandson of <persName ref="PRS6229LebnaDe">Lǝbna Dǝngǝl</persName>. His name became prominent in Ethiopian history
                   long years after his death because his son <persName ref="PRS9038Susenyos">Susǝnyos</persName>, practically created a new branch of  dynasty. 
                   He was one of the officers of the army of <persName ref="PRS5043hamalmal">Ḥāmalmāl</persName> during the reign of 
@@ -76,29 +79,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <placeName ref="LOC5284Qwara">Qwārā</placeName>. He was killed by the <persName ref="ETH1973Oromo">Oromo</persName> and they captured his young son 
                      <persName ref="PRS9038Susenyos">Susǝnyos</persName>
                   whom they adopted as the son of the tribe.</floruit>
-            <death notBefore="1586" notAfter="1587"></death>
+               <death notBefore="1586" notAfter="1587"/>
             </person>
             <listRelation>
-               <relation name="snap:SonOf" 
-                  active="PRS4013FasilGa"
-                  passive="PRS10191Yaeqob"
-                 ></relation>
+               <relation name="snap:SonOf" active="PRS4013FasilGa" passive="PRS10191Yaeqob"/>
                <relation name="snap:NephewOf"
-                  active="PRS4013FasilGa"
-                  passive="PRS4435Galawdew"
-                 ></relation>
+                         active="PRS4013FasilGa"
+                         passive="PRS4435Galawdew"/>
                <relation name="snap:GrandchildOf"
-                  active="PRS4013FasilGa"
-                  passive="PRS6229LebnaDe"
-                 ></relation>
+                         active="PRS4013FasilGa"
+                         passive="PRS6229LebnaDe"/>
                <relation name="snap:FatherOf"
-                  active="PRS4013FasilGa"
-                  passive="PRS9038Susenyos"
-                 ></relation>
+                         active="PRS4013FasilGa"
+                         passive="PRS9038Susenyos"/>
                <relation name="snap:GrandfatherOf"
-                  active="PRS4013FasilGa"
-                  passive="PRS4015Fasilada"
-                 ></relation>
+                         active="PRS4013FasilGa"
+                         passive="PRS4015Fasilada"/>
             </listRelation>
          </listPerson>
          <listBibl type="editions">
@@ -119,9 +115,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-          
-                  
-               

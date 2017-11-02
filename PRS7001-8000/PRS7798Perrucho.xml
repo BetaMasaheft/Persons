@@ -56,21 +56,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName>
                   <forename>Jules</forename>
-                  <surname>  Perruchon</surname> </persName>
+                  <surname>  Perruchon</surname> 
+               </persName>
                
                <occupation type="academic">scholar</occupation>
                <nationality type="France"/>
                <faith type="notSpecified"/>
-               <birth when="1853"></birth>
+               <birth when="1853"/>
                <floruit notBefore="1888" notAfter="1907">He was a French Philologist of Gǝʿǝz, studied under the direction of <persName ref="PRS5012Halevy"/>.
                   Over 20 years he published and translated a great number of historical Gǝʿǝz texts into French. </floruit>
-               <death when="1907"></death>
+               <death when="1907"/>
             </person>
             <listRelation>
                <relation name="snap:ProfessionalRelationship"
-                  active="PRS7798Perrucho"
-                  passive="PRS5012Halevy"
-                  ></relation>
+                         active="PRS7798Perrucho"
+                         passive="PRS5012Halevy"/>
                
             </listRelation>
          </listPerson>
@@ -109,13 +109,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-               

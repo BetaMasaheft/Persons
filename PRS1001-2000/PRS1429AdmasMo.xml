@@ -50,7 +50,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="2">
                <persName xml:lang="gez" type="regnal" xml:id="n1">አድማስ፡ ሞገሳ</persName>
-               <persName> <roleName type="title">ʾǝtege</roleName> </persName>
+               <persName> 
+                  <roleName type="title">ʾǝtege</roleName> 
+               </persName>
                <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAdmās Mogasā</persName>
                <persName xml:lang="gez" xml:id="n2">ሥሉስ፡ ኃይሌ</persName>
                <persName corresp="#n2">Śǝllus Ḫāyle</persName>
@@ -63,16 +65,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
            </person> 
             
             <listRelation>
-               <relation name="bm:wifeOf" 
-                 active="PRS1429AdmasMo"
-                 passive="PRS7102Minas"/>
+               <relation name="bm:wifeOf" active="PRS1429AdmasMo" passive="PRS7102Minas"/>
                <relation name="snap:MotherOf"
-                  active="PRS1429AdmasMo"
-                  passive="PRS8550sardaDe"
-                 ></relation>
+                         active="PRS1429AdmasMo"
+                         passive="PRS8550sardaDe"/>
                <relation name="snap:HouseholdOf"
-                  active="PRS1429AdmasMo"
-                  passive="PRS9038Susenyos"></relation>
+                         active="PRS1429AdmasMo"
+                         passive="PRS9038Susenyos"/>
             </listRelation>
             
 

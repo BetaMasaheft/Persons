@@ -60,25 +60,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <persName xml:lang="gez" xml:id="n1" type="birth">ወልደ፡ትንሣኤ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Walda Tǝnsāʾe</persName>
                 
-               <persName><roleName type="title">ʾǝč̣č̣age</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾǝč̣č̣age</roleName>
+               </persName>
                   <occupation type="ecclesiastic">abbot</occupation>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   
                   
-               <floruit  notBefore="1855" notAfter="1867">He was the 50th <roleName type="title">ʾǝč̣č̣age</roleName> of <placeName ref="INS0341DL"/>. 
+               <floruit notBefore="1855" notAfter="1867">He was the 50th <roleName type="title">ʾǝč̣č̣age</roleName> of <placeName ref="INS0341DL"/>. 
                   He was a native <placeName ref="LOC3351Gasala"/>, a locality in <placeName ref="LOC5284Qwara"/>. 
-                  He succeeded <roleName type="title">ʾǝč̣č̣age</roleName><persName ref="PRS9936WaldaMa"/> and he was succeeded by <persName ref="PRS4244GabraIy"/></floruit>
-                  <death when="1867"></death>
+                  He succeeded <roleName type="title">ʾǝč̣č̣age</roleName>
+                  <persName ref="PRS9936WaldaMa"/> and he was succeeded by <persName ref="PRS4244GabraIy"/>
+               </floruit>
+                  <death when="1867"/>
                </person>
                <listRelation>
                   
                   
                   <relation name="snap:AllianceWith"
-                     
-                     active="PRS9983WaldaTe"
-                     passive="PRS9430Tewodros"
-                     ></relation>
+                         active="PRS9983WaldaTe"
+                         passive="PRS9430Tewodros"/>
                   
                </listRelation>
          </listPerson>
@@ -90,9 +92,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-                  
-                  

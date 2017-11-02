@@ -58,7 +58,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Gabra Ḥǝywat Bāykadāñ</persName>
                <persName xml:lang="gez" xml:id="n2" type="alt">“Gabrihet Soernej”</persName>
                   
-               <persName><roleName type="title">naggādrās</roleName></persName>
+               <persName>
+                  <roleName type="title">naggādrās </roleName>
+               </persName>
                   
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
@@ -70,7 +72,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                   
                <floruit notBefore="1907" notAfter="1919">He was the most incisive and profound of the Ethiopian reformist intellectuals of the early 20th century. At his early age,
-                  he travelled to <placeName ref="gn:2782113"/> where he was adopted by a family and got medical education in <placeName ref="gn:2921044"/>. 
+                  he travelled to <placeName ref="Q40"/> where he was adopted by a family and got medical education in <placeName ref="Q183"/>. 
                   Returning to <placeName ref="LOC3010Ethiop"/>, he served the Imperial government. However, he was unhappy to the general adualtion of the post-ʾAdwā 
                   <placeName ref="LOC3010Ethiop"/>, 
                   he pinned his hopes for <placeName ref="LOC3010Ethiop"/>'s progress and he wrote his book <title ref="LIT1160AteMen"/> as a recipe for reform that the young prince, 
@@ -83,21 +85,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                <listRelation>
                   <relation name="snap:AllianceWith"
-                     active="PRS4239Gabrahe"
-                     passive="PRS6841MasasaW"
-                    ></relation>
+                         active="PRS4239Gabrahe"
+                         passive="PRS6841MasasaW"/>
                    <relation name="snap:AllianceWith"
-                     active="PRS4239Gabrahe"
-                     passive="PRS5226haylase"
-                    ></relation>
-                  <relation name="saws:isAttributedAuthorOf"             
-                     active="PRS4239Gabrahe"
-                     passive="LIT1874Manges"
-                    ></relation>
-                  <relation name="saws:isAttributedAuthorOf"             
-                     active="PRS4239Gabrahe"
-                     passive="LIT1160AteMen"
-                    ></relation>
+                         active="PRS4239Gabrahe"
+                         passive="PRS5226haylase"/>
+                  <relation name="saws:isAttributedAuthorOf"
+                         active="PRS4239Gabrahe"
+                         passive="LIT1874Manges"/>
+                  <relation name="saws:isAttributedAuthorOf"
+                         active="PRS4239Gabrahe"
+                         passive="LIT1160AteMen"/>
                   
                   
                </listRelation>
@@ -125,9 +123,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-                  
-                  

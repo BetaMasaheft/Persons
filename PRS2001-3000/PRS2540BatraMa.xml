@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Batra Māryām</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -58,7 +58,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <persName xml:lang="gez" xml:id="n1" type="birth">በትረ፡ ማርያም፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Batra Māryām</persName>
                   
-                  <persName><roleName type="title">ʾabbā </roleName></persName>
+                  <persName>
+                  <roleName type="title">ʾabbā </roleName>
+               </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   <occupation type="ecclesiastic">saint</occupation>
@@ -73,14 +75,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </person>
                <listRelation>
                   <relation name="snap:AllianceWith"
-                     active="PRS2540BatraGe"
-                     passive="PRS1854Amdase"
-                    ></relation>
+                         active="PRS2540BatraGe"
+                         passive="PRS1854Amdase"/>
                   
                   <relation name="ecrm:P129i_is_subject_of"
-                     active="PRS2540BatraGe"
-                     passive="LIT1429GadlaB"
-                    ></relation>
+                         active="PRS2540BatraGe"
+                         passive="LIT1429GadlaB"/>
                   
                   
                </listRelation>
@@ -99,12 +99,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>   
 </TEI>
-
-
-
-
-
-
-
-                  
-                

@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Liban ʾAmade “ʾAbbāā Ǧirru”</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             
             <author/>
@@ -54,18 +54,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-          <persName xml:lang="gez" xml:id="n1" type="birth">ሊበን፡ አመዴ፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ሊበን፡ አመዴ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Liban ʾAmade</persName>
                <persName xml:lang="gez" xml:id="n2" type="horse">አባ፡ ጂሩ፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAbbāā Ǧirru</persName>
      
                
-               <persName><roleName type="title">imām</roleName></persName>
-            <nationality type="Ethiopia"/>
-            <faith type="Islam"/>
-            <occupation type="political">ruler</occupation>
-               <birth when="1785">He was born in <placeName ref="LOC1713Bagemd">Bagemdǝr</placeName></birth>
-               <residence> <placeName ref="LOC6242WarraH">Warra Himano</placeName></residence>
+               <persName>
+                  <roleName type="title">imām</roleName>
+               </persName>
+               <nationality type="Ethiopia"/>
+               <faith type="Islam"/>
+               <occupation type="political">ruler</occupation>
+               <birth when="1785">He was born in <placeName ref="LOC1713Bagemd">Bagemdǝr</placeName>
+               </birth>
+               <residence> 
+                  <placeName ref="LOC6242WarraH">Warra Himano</placeName>
+               </residence>
             
                <floruit notBefore="1803" notAfter="1825">He was a ruler of <placeName ref="LOC6242WarraH">Warra Himano</placeName> between <date>1803-1825</date>.
                   During his child hood, <persName ref="PRS6292LibanAm">Liban ʾAmade</persName> received Christian education, when he was about 15 years. 
@@ -73,39 +78,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <placeName ref="LOC2586Dawent">Dāwǝnt</placeName> and <placeName ref="LOC2449Dalant">Dalāntā</placeName>. 
                   His reign is characterized by a state of latent warfare against the neigbouring Christian rulers. He married at least three women including Christians. </floruit>
             
-            <death  when="1825">He died of an intestinal hernia complicated by intensive horse riding.</death>
-         </person>
-         <listRelation>
-            <relation name="snap:SonOf"
-               active="PRS6292LibanAm"
-               passive="PRS1787AmadeLi"
-              ></relation>
-            <relation name="snap:SonOf"
-               active="PRS6292LibanAm"
-               passive="PRS8708Sehin"
-              ></relation>
+               <death when="1825">He died of an intestinal hernia complicated by intensive horse riding.</death>
+            </person>
+            <listRelation>
+               <relation name="snap:SonOf" active="PRS6292LibanAm" passive="PRS1787AmadeLi"/>
+               <relation name="snap:SonOf" active="PRS6292LibanAm" passive="PRS8708Sehin"/>
   
-            <relation name="snap:FatherOf"
-               
-               active="PRS6292LibanAm"
-               passive="PRS1787AmadeLi"
-              ></relation>
-            <relation name="snap:FatherOf"
-               
-               active="PRS6292LibanAm"
-               passive="PRS6643MananLi"
-              ></relation>
-            <relation name="snap:FatherOf"
-               
-               active="PRS6292LibanAm"
-               passive="PRS1684AliAbb"
-              ></relation>
-            <relation name="snap:FatherOf"
-               
-               active="PRS6292LibanAm"
-               passive="PRS2551BasirLi"
-              ></relation>
-         </listRelation>
+               <relation name="snap:FatherOf"
+                         active="PRS6292LibanAm"
+                         passive="PRS1787AmadeLi"/>
+               <relation name="snap:FatherOf"
+                         active="PRS6292LibanAm"
+                         passive="PRS6643MananLi"/>
+               <relation name="snap:FatherOf"
+                         active="PRS6292LibanAm"
+                         passive="PRS1684AliAbb"/>
+               <relation name="snap:FatherOf"
+                         active="PRS6292LibanAm"
+                         passive="PRS2551BasirLi"/>
+            </listRelation>
          </listPerson>
          
          
@@ -117,14 +108,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </bibl>
             
 
- </listBibl>
+         </listBibl>
          </body>
          </text>   
 </TEI>
-
-
-
-
-
-      
-      

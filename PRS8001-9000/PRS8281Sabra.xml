@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Sābrā</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -62,7 +62,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" corresp="#n3" type="normalized">Ṣabrā</persName>
                <persName xml:lang="gez" xml:id="n4" type="alt">ስብራ፡</persName>
                <persName xml:lang="gez" corresp="#n4" type="normalized">Sǝbrā</persName>
-               <persName><roleName type="title">ʾabbā</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾabbā</roleName>
+               </persName>
                <nationality type="Ethiopia"/>
                <faith type="Judaism"/>
                <occupation type="ecclesiastic"> monk  </occupation>
@@ -75,22 +77,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listRelation>
                
                <relation name="snap:AllianceWith"
-                  
-                  active="PRS8281Sabra"
-                  passive="PRS8321saggaAm"
-                 ></relation>
+                         active="PRS8281Sabra"
+                         passive="PRS8321saggaAm"/>
                <relation name="snap:AllianceWith"
-                  active="PRS8281Sabra"
-                  passive="PRS8041Qozmos"
-                 ></relation>
+                         active="PRS8281Sabra"
+                         passive="PRS8041Qozmos"/>
                <relation name="snap:AllianceWith"
-                  active="PRS8281Sabra"
-                  passive="PRS8522Saquyan"
-                 ></relation>
+                         active="PRS8281Sabra"
+                         passive="PRS8522Saquyan"/>
                <relation name="saws:isAttributedAuthorOf"
-                  active="PRS8281Sabra"
-                  passive="LIT1198Baqada"
-                 ></relation>
+                         active="PRS8281Sabra"
+                         passive="LIT1198Baqada"/>
                
             </listRelation>
          </listPerson>
@@ -106,9 +103,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-                  
-                 

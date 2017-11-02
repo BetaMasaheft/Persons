@@ -51,19 +51,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                  <forename>Frederick</forename>
                  <surname>Roome</surname>
               </persName>
-            <birth when="1829"/>
+               <birth when="1829"/>
                <death when="1907"/>
             </person>
             <listRelation>
-               <relation name="saws:hasOwned"
-                  active="PRS11438Roome"
-                  passive="BDLaethe5">
+               <relation name="saws:hasOwned" active="PRS11438Roome" passive="BDLaethe5">
                </relation>
             </listRelation>
          </listPerson>
          <div type="bibliography">
             <listBibl type="secondary">
-               <bibl><ptr target="bm:Simpson2002Diary"/><citedRange unit="page">159</citedRange></bibl>
+               <bibl>
+                  <ptr target="bm:Simpson2002Diary"/>
+                  <citedRange unit="page">159</citedRange>
+               </bibl>
             </listBibl>
          </div>
       </body>

@@ -56,7 +56,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                   <persName xml:lang="gez" xml:id="n1" type="birth">ዘድንግል፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Zadǝngǝl</persName>
-               <persName><roleName type="title">ʾaṣe</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾaṣe</roleName>
+               </persName>
                   <persName xml:lang="gez" xml:id="n2" type="regnal">አጽናፍ፡  ሰገድ፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAṣnāf Sagad II</persName>
                
@@ -64,25 +66,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
            
                <floruit when="1603" evidence="internal">He became a king in <date>1603</date>. 
                   He introduced  a reform to form an organized army under his command and he also made a reform of land ownership to the peasants with a motto “Man is free, land
-                  is tributary”. He was a pro-Catholicism and very close to <persName ref="PRS7699Paez">Pedro Páez</persName> </floruit>
-           <death when="1604" evidence="internal">October 1604</death>
+                  is tributary”. He was a pro-Catholicism and very close to <persName ref="PRS7699Paez">Pedro Páez</persName> 
+               </floruit>
+               <death when="1604" evidence="internal">October 1604</death>
                
-     </person>
+            </person>
             <listRelation>
-               <relation name="snap:GrandsonOf" 
-                  active="PRS10513Zadenge"
-                  passive="PRS7102Minas"
-                 ></relation>
+               <relation name="snap:GrandsonOf"
+                         active="PRS10513Zadenge"
+                         passive="PRS7102Minas"/>
                <relation name="snap:NephewOf"
-                  active="PRS10513Zadenge"
-                  passive="PRS8550sardaDe"
-                 ></relation>
-          <relation name="snap:AllianceWith"
-                  
-                  active="PRS10513Zadenge"
-                  passive="PRS7699Paez" 
-                  
-                 ></relation>
+                         active="PRS10513Zadenge"
+                         passive="PRS8550sardaDe"/>
+               <relation name="snap:AllianceWith"
+                         active="PRS10513Zadenge"
+                         passive="PRS7699Paez"/>
                
             </listRelation>
          </listPerson>

@@ -12,7 +12,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <titleStmt>
             <title>Yoḥannǝs [I]</title>
             <editor key="SG"/>
-          <editor role="generalEditor" key="AB"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -55,35 +55,37 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ዮሐንስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Yoḥannǝs [I]</persName>
-               <persName><roleName type="title">ʿǝč̣č̣age</roleName></persName>
+               <persName>
+                  <roleName type="title">ʿǝč̣č̣age</roleName>
+               </persName>
                <occupation type="ecclesiastic">abbot </occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
              
-               <residence><placeName ref="INS0341">Dabra Libānos</placeName></residence>
+               <residence>
+                  <placeName ref="INS0341">Dabra Libānos</placeName>
+               </residence>
                <floruit>He was the fourteenth abbot of <placeName ref="INS0341">Dabra Libānos</placeName> 
                   and a contemporary of King  <persName ref="PRS4428Galawdew">Galāwdewos</persName>. 
                </floruit>
                <death>He died on <date>23 March 1559</date> together with King  <persName ref="PRS4428Galawdew">Galāwdewos</persName>  in the battle fighting against  
-                  <persName ref="PRS7623NurbM">Nūr b. Muǧāhīd</persName></death>
+                  <persName ref="PRS7623NurbM">Nūr b. Muǧāhīd</persName>
+               </death>
             </person>
             <listRelation>
                <relation name="snap:AllianceWith"
-                  active="PRS10384Yohanne"
-                  passive="PRS4428Galawdew"
-                 ></relation>
+                         active="PRS10384Yohanne"
+                         passive="PRS4428Galawdew"/>
                <relation name="snap:AllianceWith"
-                  active="PRS10384Yohanne"
-                  passive="PRS7828Petros"
-                 ></relation>
+                         active="PRS10384Yohanne"
+                         passive="PRS7828Petros"/>
                <relation name="saws:isAttributedAuthorOf"
-                  active="PRS10384Yohanne"
-                  passive="LIT1868Malkea"
-                 ></relation>
+                         active="PRS10384Yohanne"
+                         passive="LIT1868Malkea"/>
 
- </listRelation>
+            </listRelation>
          </listPerson>
-       <listBibl type="secondary">
+         <listBibl type="secondary">
             <bibl> 
                <ptr target="bm:Cerulli1944AbbotsDL"/>
                <citedRange unit="page">137-182</citedRange>
@@ -93,15 +95,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <citedRange unit="page">134-242</citedRange>
             </bibl> 
             <bibl>
-            <ptr target="bm:Rossigno2014Yohannes"/>
+               <ptr target="bm:Rossigno2014Yohannes"/>
             </bibl> 
             </listBibl>
       </body>
    </text>
 </TEI>
-
-
-
-
-                  
-                 

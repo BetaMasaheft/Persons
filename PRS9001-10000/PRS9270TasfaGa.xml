@@ -56,7 +56,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
           
                   <persName xml:lang="gez" xml:id="n1" type="birth">ተስፋ፡ ገብረ፡ ሥላሴ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Tasfā Gabra Śǝllāse</persName>
-               <persName><roleName type="title">qaññāzmāč</roleName></persName>
+               <persName>
+                  <roleName type="title">qaññāzmāč</roleName>
+               </persName>
                   
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
@@ -71,15 +73,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                   <floruit notBefore="1916" notAfter="2000">He was a prominent Ethiopian publisher. 
                   </floruit>
-                  <death when="2000"></death>
+                  <death when="2000"/>
                   
                   
                </person>
                <listRelation>
                   <relation name="snap:AllianceWith"
-                     active="PRS5816Kabbada"
-                     passive="PRS5226haylase"
-                     ></relation>
+                         active="PRS5816Kabbada"
+                         passive="PRS5226haylase"/>
                   
                   
                   
@@ -103,21 +104,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                  
-              

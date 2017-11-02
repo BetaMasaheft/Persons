@@ -58,7 +58,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" xml:id="n2" type="birth">አኖሬዎስ፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAnorewos</persName>
                   
-                  <persName><roleName type="title">daǧǧāzmāč</roleName></persName>
+                  <persName>
+                  <roleName type="title">daǧǧāzmāč</roleName>
+               </persName>
                   <occupation type="political"> governor</occupation>
                   
                   <nationality type="Ethiopia"/>
@@ -67,7 +69,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <floruit notBefore="1685" notAfter="1707">He was a very loyal official of  <roleName type="title">ʾaṣe </roleName>
                   <persName ref="PRS5616IyasuI">ʾIyāsu I</persName> in the course of twenty years period, <date>1685-1707</date>. 
                   <persName ref="PRS1954AnoreA">ʾAnore</persName> was successively governor of several territories under the control of the emperor. 
-                  He was remarkable enough during the reign of  <roleName type="title">ʾaṣe</roleName> <persName ref="PRS5616IyasuI">ʾIyāsu I</persName>
+                  He was remarkable enough during the reign of  <roleName type="title">ʾaṣe</roleName> 
+                  <persName ref="PRS5616IyasuI">ʾIyāsu I</persName>
                   insipte of the fact that he suffered some military setbacks. But following the death of the emperor, he was imprisoned in <placeName ref="LOC3577Gondar">Gondar</placeName>. 
                   </floruit>
                <death notBefore="1706" notAfter="1707"> He was executed somewhere near <placeName ref="LOC1022Abbay">ʾAbbāy</placeName> between December 1706 and January 1707.</death>
@@ -77,17 +80,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                <listRelation>
                   <relation name="snap:AllianceWith"
-                     
-                     active="PRS1954AnoreA"
-                     passive="PRS5616IyasuI"
-                     
-                    ></relation>
+                         active="PRS1954AnoreA"
+                         passive="PRS5616IyasuI"/>
                  
               
-                  <relation name="rel:enemyOf"
-                     active="PRS1954AnoreA"
-                     passive="PRS9152TaklaHa"
-                    ></relation>
+                  <relation name="rel:enemyOf" active="PRS1954AnoreA" passive="PRS9152TaklaHa"/>
                   
                </listRelation>
          </listPerson>
@@ -106,13 +103,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-                  
-                 

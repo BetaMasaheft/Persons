@@ -56,20 +56,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">አትናቴዎስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAtnātewos</persName>
-               <persName><roleName type="title">ʾabuna</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾabuna</roleName>
+               </persName>
                <occupation type="ecclesiastic"> metropolitan </occupation>
                <nationality type="Egypt"/>
                <faith type="Coptic"/>
              
-               <residence><placeName ref="LOC3577Gondar"> Gondar</placeName> </residence>
+               <residence>
+                  <placeName ref="LOC3577Gondar"> Gondar</placeName> 
+               </residence>
                
                <floruit notBefore="1867" notAfter="1876">He was the metropolitan of Ethiopian Orthodox Church who was consecrated by <persName ref="PRS3500Demetriu">Demetrius II of Alexandria</persName> 
                   in <date>1867</date>.  He was the immediate successor of ʾabuna <persName ref="PRS8388SalamaI">Salāmā III</persName>. He was consecrated through the official request of 
-                  <roleName type="title">ʾaṣe</roleName> <persName ref="PRS10378Yohanne">Yoḥannǝs IV</persName> whom he consecrated as King of Kings of Ethiopia in <date>1872 </date> at 
+                  <roleName type="title">ʾaṣe</roleName> 
+                  <persName ref="PRS10378Yohanne">Yoḥannǝs IV</persName> whom he consecrated as King of Kings of Ethiopia in <date>1872 </date> at 
                   <placeName ref="LOC1311AksumS">ʾAksum Ṣǝyon</placeName>. Following the conflict between <roleName type="title">ʾaṣe</roleName>
                   <persName ref="PRS10378Yohanne">Yoḥannǝs IV</persName>
                   and Egyptian, he leaned towards his land. This situation created a hostile relation between the two and later he formed an alliance with the strong rival of 
-                  <roleName type="title">ʾaṣe</roleName><persName ref="PRS10378Yohanne">Yoḥannǝs IV
+                  <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS10378Yohanne">Yoḥannǝs IV
                   </persName> King <persName ref="PRS7006Menilek">Mǝnilǝk II</persName>.
                   
                </floruit>
@@ -77,26 +83,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </person>
             <listRelation>
                <relation name="snap:AllianceWith"
-                  
-                  active="PRS2225Atnatewo"
-                  passive="PRS10378Yohanne"
-                 ></relation>
+                         active="PRS2225Atnatewo"
+                         passive="PRS10378Yohanne"/>
                <relation name="bm:ordainedBy"
-                  
-                  active="PRS2225Atnatewo"
-                  passive="PRS3500Demetriu"
-                 ></relation>
+                         active="PRS2225Atnatewo"
+                         passive="PRS3500Demetriu"/>
                <relation name="bm:hasOrdained"
-                  
-                  active="PRS2225Atnatewo"
-                  passive="PRS10378Yohanne"
-                 ></relation>
+                         active="PRS2225Atnatewo"
+                         passive="PRS10378Yohanne"/>
                
                <relation name="snap:AllianceWith"
-                  
-                  active="PRS2225Atnatewo"
-                  passive="PRS7006Menilek"
-                 ></relation>
+                         active="PRS2225Atnatewo"
+                         passive="PRS7006Menilek"/>
             </listRelation>
          </listPerson>
          <listBibl type="secondary">
@@ -113,8 +111,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-

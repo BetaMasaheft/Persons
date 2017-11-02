@@ -55,9 +55,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                
-           <persName xml:lang="gez" xml:id="n1" type="birth">ተክለ፡ ጊዮርጊስ፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ተክለ፡ ጊዮርጊስ፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Takla Giyorgis I</persName>
-               <persName><roleName type="title">ʾaṣe</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾaṣe</roleName>
+               </persName>
                <persName xml:lang="gez" xml:id="n2" type="regnal">ፍቅር፡ ሰገድ፡</persName>
                   <persName xml:lang="gez" corresp="#n2" type="normalized">Fǝqr Sagad</persName>
                <persName xml:lang="gez" xml:id="n3" type="nick">ፍጻሜ፡ መንግሥት፡</persName>
@@ -66,27 +68,30 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <occupation type="ruler">Emperor</occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
-               <residence><placeName ref="LOC3577Gondar">Gondar</placeName></residence>
+               <residence>
+                  <placeName ref="LOC3577Gondar">Gondar</placeName>
+               </residence>
              
                <floruit when="1777" evidence="internal">He  succeeded a young King <persName ref="PRS8421Salomon">Salomon I</persName>in 
                   <date>1777</date>. He reigned for six distinct periods <date>1779-84, 1788-89, 1794-95, 1795-96, 1798-99, 1800 </date>
                  during the period  of Zamana Masāfǝnt.
                </floruit>
-               <death when="1800" evidence="internal">He was buried at <placeName ref="LOC1310Aksum">ʾAksum</placeName></death>
+               <death when="1800" evidence="internal">He was buried at <placeName ref="LOC1310Aksum">ʾAksum</placeName>
+               </death>
             </person>
             <listRelation>
-               <relation name="snap:SonOf" 
-                  active="PRS9142TaklaGi"
-                  passive="PRS10376Yohanne"
-                 ></relation>
+               <relation name="snap:SonOf" active="PRS9142TaklaGi" passive="PRS10376Yohanne"/>
                <relation name="snap:BrotherOf"
-                  active="PRS9142TaklaGi"
-                  passive="PRS9153TaklaHa"
-                 ></relation>
-               <relation name="bm:husbandOf" active="PRS9142TaklaGi" passive="PRS6643MananLi"/>
-               <relation name="snap:FatherOf" active="PRS9142TaklaGi" passive="PRS10377Yohanne"/>
+                         active="PRS9142TaklaGi"
+                         passive="PRS9153TaklaHa"/>
+               <relation name="bm:husbandOf"
+                         active="PRS9142TaklaGi"
+                         passive="PRS6643MananLi"/>
+               <relation name="snap:FatherOf"
+                         active="PRS9142TaklaGi"
+                         passive="PRS10377Yohanne"/>
                
-      </listRelation>
+            </listRelation>
          </listPerson>
          
          <listBibl type="editions">
@@ -94,8 +99,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <ptr target="bm:Blundell1922Chronicle"/>
             </bibl>
             <bibl>
-         <ptr target="bm:Budge1966Ethistory"/>
-         </bibl>  
+               <ptr target="bm:Budge1966Ethistory"/>
+            </bibl>  
          </listBibl>
          <listBibl type="secondary">
             <bibl> 
@@ -105,10 +110,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-             

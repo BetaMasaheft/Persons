@@ -53,48 +53,41 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-         <persName xml:lang="gez" xml:id="n1" type="birth">ጳውሎስ፡ ኞኞ፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ጳውሎስ፡ ኞኞ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Ṗāwlos  Ñoñño</persName>
                <persName xml:lang="gez" xml:id="n2" type="alt">አማረ፡ ኞኞ፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAmāra Ñoñño</persName>
-           <nationality type="Ethiopia"/>
+               <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   
                   
                   <occupation type="literary"> writer </occupation>
-               <birth  when="1933"> He was born at <placeName ref="LOC5255Qulleb"/> in <date>1933</date>. </birth>
+               <birth when="1933"> He was born at <placeName ref="LOC5255Qulleb"/> in <date>1933</date>. </birth>
                   
                   
                <floruit notBefore="1960" notAfter="1992">He was a popular journalist and writer. He published a short fictions and other six works of historical nature. </floruit>
-               <death  when="1992"> He died at <placeName ref="LOC1216AddisA"/></death>
+               <death when="1992"> He died at <placeName ref="LOC1216AddisA"/>
+               </death>
                   
                   
                </person>
                <listRelation>
-                  <relation name="snap:SonOf"
-                     active="PRS7774PawlosN"
-                     passive="PRS9365Tebalcal"
-                    ></relation>
+                  <relation name="snap:SonOf" active="PRS7774PawlosN" passive="PRS9365Tebalcal"/>
                   <relation name="saws:isAttributedAuthorOf"
-                     active="PRS7774PawlosN"
-                     passive="LIT1203Baseto"
-                    ></relation>
+                         active="PRS7774PawlosN"
+                         passive="LIT1203Baseto"/>
                   <relation name="saws:isAttributedAuthorOf"
-                     active="PRS7774PawlosN"
-                     passive="LIT2525Yaarad"
-                    ></relation>
+                         active="PRS7774PawlosN"
+                         passive="LIT2525Yaarad"/>
                   <relation name="saws:isAttributedAuthorOf"
-                     active="PRS7774PawlosN"
-                     passive="LIT2540Yageta"
-                    ></relation>
+                         active="PRS7774PawlosN"
+                         passive="LIT2540Yageta"/>
                   <relation name="saws:isAttributedAuthorOf"
-                     active="PRS7774PawlosN"
-                     passive="LIT1306Debleq"
-                    ></relation>
+                         active="PRS7774PawlosN"
+                         passive="LIT1306Debleq"/>
                   <relation name="saws:isAttributedAuthorOf"
-                     active="PRS7774PawlosN"
-                     passive="LIT2557Yaityo"
-                    ></relation>
+                         active="PRS7774PawlosN"
+                         passive="LIT2557Yaityo"/>
                   
                   
                   
@@ -118,13 +111,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-                  
-            

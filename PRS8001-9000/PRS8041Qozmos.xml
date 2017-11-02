@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Qozmos</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -57,7 +57,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <persName xml:lang="gez" xml:id="n1" type="birth">ቆዝሞስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Qozmos</persName>
                   
-                  <persName><roleName type="title">ʾabbā</roleName></persName>
+                  <persName>
+                  <roleName type="title">ʾabbā</roleName>
+               </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="Judaism"/>
                   <occupation type="ecclesiastic"> monk  </occupation>
@@ -70,23 +72,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </person>  
                <listRelation>
                   
-                  <relation name="rel:enemyOf"
-                     
-                     active="PRS8041Qozmos"
-                     passive="PRS3429DawitII"
-                    ></relation>
+                  <relation name="rel:enemyOf" active="PRS8041Qozmos" passive="PRS3429DawitII"/>
                   <relation name="snap:AllianceWith"
-                     active="PRS8041Qozmos"
-                     passive="PRS8281Sabra"
-                    ></relation>
+                         active="PRS8041Qozmos"
+                         passive="PRS8281Sabra"/>
                   <relation name="snap:AllianceWith"
-                     active="PRS8281Sabra"
-                     passive="PRS8522Saquyan"
-                    ></relation>
+                         active="PRS8281Sabra"
+                         passive="PRS8522Saquyan"/>
                   <relation name="saws:isAttributedAuthorOf"
-                     active="PRS8041Qozmos"
-                     passive="LIT2083Octate"
-                    ></relation>
+                         active="PRS8041Qozmos"
+                         passive="LIT2083Octate"/>
                   
                </listRelation>
          </listPerson>
@@ -102,12 +97,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-                  
-                 

@@ -57,7 +57,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ኀይለ፡ ማርያም፡ገብሬ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Ḫayla Māryām Gabre</persName>
-               <persName><roleName type="title">daǧǧāzmāč</roleName></persName>
+               <persName>
+                  <roleName type="title">daǧǧāzmāč</roleName>
+               </persName>
                
                
                <occupation type="political">governor</occupation>
@@ -73,18 +75,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
             </person>
             <listRelation>
-               <relation name="snap:SonOf"
-                  active="PRS5213haylaMa"
-                  passive="PRS4371GabreTa"
-                  ></relation>
+               <relation name="snap:SonOf" active="PRS5213haylaMa" passive="PRS4371GabreTa"/>
                <relation name="snap:AllianceWith"
-                  active="PRS5213haylaMa"
-                  passive="PRS4870GugsaMa"
-                  ></relation>
+                         active="PRS5213haylaMa"
+                         passive="PRS4870GugsaMa"/>
                <relation name="bm:husbandOf"
-                  active="PRS5213haylaMa"
-                  passive="PRS5363hirutGu"
-                  ></relation>
+                         active="PRS5213haylaMa"
+                         passive="PRS5363hirutGu"/>
                
                
                
@@ -108,9 +105,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-                  
-                 

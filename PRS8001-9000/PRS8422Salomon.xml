@@ -60,12 +60,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Salomon II</persName>
                   <persName xml:lang="gez" xml:id="n2" type="birth">ገብረ፡ መድሕን፡</persName>
                   <persName xml:lang="gez" corresp="#n2" type="normalized">Gabra Madḫǝn</persName>
-               <persName><roleName type="title">ʾaṣe </roleName></persName>
+               <persName>
+                  <roleName type="title">ʾaṣe </roleName>
+               </persName>
       
                <occupation type="ruler">Emperor</occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
-               <residence><placeName ref="LOC3577Gondar"> Gondar</placeName></residence>
+               <residence>
+                  <placeName ref="LOC3577Gondar"> Gondar</placeName>
+               </residence>
              
                <floruit when="1796" evidence="internal">He was one of  a puppet king of Zamana masāfǝnt, at a young age,  
                   who had been  entrusted by rās  <persName ref="PRS7091Mikael">Mikāʾel Sǝḥul</persName>to daǧǧāzmāč
@@ -74,21 +78,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       
             </person>
             <listRelation>
-             <relation name="snap:SonOf" 
-                     active="PRS8422Salomon"
-                     passive="PRS9153TaklaHa"
-                    ></relation>
+               <relation name="snap:SonOf" active="PRS8422Salomon" passive="PRS9153TaklaHa"/>
                <relation name="snap:AllianceWith"
-                active="PRS8422Salomon"
-                  passive="PRS6723Maredha" 
-                 ></relation>
-               <relation name="snap:FatherOf" 
-                  active="PRS8422Salomon"
-                  passive="PRS5619IyasuIV"
-                 ></relation>
+                         active="PRS8422Salomon"
+                         passive="PRS6723Maredha"/>
+               <relation name="snap:FatherOf"
+                         active="PRS8422Salomon"
+                         passive="PRS5619IyasuIV"/>
             </listRelation>
          </listPerson>
-       <listBibl type="editions">
+         <listBibl type="editions">
             <bibl>
                <ptr target="bm:Blundell1922Chronicle"/>
             </bibl>
@@ -106,8 +105,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-             

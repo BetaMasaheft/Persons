@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>ʾƎnkoyye</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -60,10 +60,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" xml:id="n2" type="baptismal">ወለተ፡ ቅዱሳን፡</persName>
 
                <persName xml:lang="gez" corresp="#n2" type="normalized">Walata Qǝdusān</persName>
-               <persName><roleName type="title">Wayzaro</roleName></persName>
+               <persName>
+                  <roleName type="title">Wayzaro</roleName>
+               </persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
-               <occupation type="ecclesiastic"></occupation>
+               <occupation type="ecclesiastic"/>
                
                <floruit notBefore="1732" notAfter="1757">She was a mother of the famous political figure of the Gondarine time, <persName ref="PRS2682BerhanM">Bǝrhan Mogasā</persName> and
                   <persName ref="PRS9931WaldaLe">Walda Lǝʿul</persName>. 
@@ -73,25 +75,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </person>  
             <listRelation>
                <relation name="snap:DaughterOf"
-                  active="PRS3813enkoyye"
-                  passive="PRS9820Waksos"
-                 ></relation>
+                         active="PRS3813enkoyye"
+                         passive="PRS9820Waksos"/>
                <relation name="snap:DaughterOf"
-                  active="PRS3813enkoyye"
-                  passive="PRS10433Yolyana"
-                 ></relation>
-               <relation name="bm:wifeOf"
-                  active="PRS3813enkoyye"
-                  passive="PRS6647Manbar"
-                 ></relation>
+                         active="PRS3813enkoyye"
+                         passive="PRS10433Yolyana"/>
+               <relation name="bm:wifeOf" active="PRS3813enkoyye" passive="PRS6647Manbar"/>
                <relation name="snap:AllianceWith"
-                  active="PRS3813enkoyye"
-                  passive="PRS2377Bakaffa"
-                 ></relation>
+                         active="PRS3813enkoyye"
+                         passive="PRS2377Bakaffa"/>
                <relation name="snap:NephewOf"
-                  active="PRS3813enkoyye"
-                  passive="PRS7585Niqolawo"
-                 ></relation>
+                         active="PRS3813enkoyye"
+                         passive="PRS7585Niqolawo"/>
             </listRelation>
          </listPerson>
          
@@ -104,19 +99,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                  
-                  

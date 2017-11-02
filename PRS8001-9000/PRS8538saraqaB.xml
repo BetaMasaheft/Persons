@@ -55,32 +55,35 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ሠረቀ፡ ብርሃን፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Śaraqa Bǝrhan</persName>
-               <persName><roleName type="title">ʿaqqābe saʿat</roleName></persName>
+               <persName>
+                  <roleName type="title">ʿaqqābe saʿat</roleName>
+               </persName>
                <occupation type="ecclesiastic"> abbot </occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
              
-               <residence><placeName ref="INS0327DHE">Dabra Ḥayq ʾƎsṭifānos</placeName></residence>
+               <residence>
+                  <placeName ref="INS0327DHE">Dabra Ḥayq ʾƎsṭifānos</placeName>
+               </residence>
                <floruit when="1400">He was the abbot of  <placeName ref="INS0327DHE">Dabra Ḥayq ʾƎsṭifānos</placeName> 
                   during the reign of King <persName ref="PRS3429DawitII">Dāwit II</persName>. He was a married priest. 
                   During his tenure, the monastery of <placeName ref="INS0327DHE">Dabra Ḥayq ʾƎsṭifānos</placeName> 
                   enjoyed a great deal of influence and prestige.
                </floruit>
-               <death> <date>1403</date> </death>
+               <death> 
+                  <date>1403</date> 
+               </death>
             </person>
             <listRelation>
                <relation name="snap:AllianceWith"
-                  active="PRS8538saraqaB"
-                  passive="PRS3429DawitII"
-                 ></relation>
+                         active="PRS8538saraqaB"
+                         passive="PRS3429DawitII"/>
                <relation name="snap:AllianceWith"
-                  active="PRS8538saraqaB"
-                  passive="PRS2469Bartalom"
-                 ></relation>
+                         active="PRS8538saraqaB"
+                         passive="PRS2469Bartalom"/>
                <relation name="snap:AllianceWith"
-                  active="PRS8538saraqaB"
-                  passive="PRS4104Fileppos"
-                 ></relation>
+                         active="PRS8538saraqaB"
+                         passive="PRS4104Fileppos"/>
                
             </listRelation>
          </listPerson>
@@ -101,15 +104,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-                  
-                  

@@ -3,7 +3,10 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS9162TaklaHa">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="pers"
+     xml:lang="en"
+     xml:id="PRS9162TaklaHa">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -53,26 +56,31 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="en" corresp="#n1">"plant of the
                   faith"</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">Fǝśśǝḥa Ṣǝyon</persName>
-               <persName><roleName type="title">ʾǝč̣č̣age</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾǝč̣č̣age</roleName>
+               </persName>
 
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <occupation type="ecclesiastic">abbot</occupation>
-               <birth when="1215
-                  "> He was born at a place called <placeName ref="LOC5652Sellal"
-                     >Ṣǝllāliš</placeName> in <date>1215</date></birth>
+               <birth when="1215                   "> He was born at a place called <placeName ref="LOC5652Sellal">Ṣǝllāliš</placeName> in <date>1215</date>
+               </birth>
                <floruit notBefore="1230" notAfter="1313">He was the most celebrated religious figure
                   in medieval Ethiopia who is credited with evangelizing the vast regions of
-                  central and southern Ethiopia. He was the founder of the monastery of <placeName
-                     ref="INS0341DL">Dabra Libānos</placeName> at the beginning of the 14th century. </floruit>
+                  central and southern Ethiopia. He was the founder of the monastery of <placeName ref="INS0341DL">Dabra Libānos</placeName> at the beginning of the 14th century. </floruit>
                <death when="1313"/>
             </person>
 
             <listRelation>
-               <relation name="bm:ordainedBy" active="PRS9162TaklaHa" passive="PRS8032Qerellos"/>
-               <relation name="snap:AllianceWith" active="PRS9162TaklaHa" passive="PRS5633IyasusM"/>
-               <relation name="ecrm:P129i_is_subject_of" active="PRS9162TaklaHa"
-                  passive="LIT1507GadlaT"/>
+               <relation name="bm:ordainedBy"
+                         active="PRS9162TaklaHa"
+                         passive="PRS8032Qerellos"/>
+               <relation name="snap:AllianceWith"
+                         active="PRS9162TaklaHa"
+                         passive="PRS5633IyasusM"/>
+               <relation name="ecrm:P129i_is_subject_of"
+                         active="PRS9162TaklaHa"
+                         passive="LIT1507GadlaT"/>
             </listRelation>
          </listPerson>
          <listBibl type="editions">

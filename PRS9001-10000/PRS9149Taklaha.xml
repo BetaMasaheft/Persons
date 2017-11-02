@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
@@ -57,7 +57,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <persName xml:lang="gez" xml:id="n1" type="birth">ተክለ፡ ሐዋርያት፡ ተክለ፡ ማርያም፡</persName>
 
                <persName xml:lang="gez" corresp="#n1" type="normalized">Takla Ḥawāryāt Takla Māryām</persName>
-                   <persName><roleName type="title">baǧǝrond</roleName></persName>
+                   <persName>
+                  <roleName type="title">baǧǝrond</roleName>
+               </persName>
                   
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
@@ -65,40 +67,38 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                   <occupation type="literary"> writer </occupation>
                <occupation type="political">statesman</occupation>
-                  <birth notBefore="1867" notAfter="1868"></birth>
+                  <birth notBefore="1867" notAfter="1868"/>
                <birth when="1884"> He was born at <placeName ref="LOC5597Sawa"/> in <date>1884</date>.</birth>
                   
                   
                   <floruit notBefore="1896" notAfter="1977">He was a prominent statesman and administrator, as well as an important figure in the history of Amharic literature. 
                      When he was 9 years old he moved to <placeName ref="LOC3786Harar"/> with his elder brother who became a secretary to 
-                     <roleName type="title">rās</roleName> <persName ref="PRS6567Makwanne"/> where he was brought up as a family member. In <date>1896/97</date>, 
-                     he was sent to <placeName ref="gn:2017370"/> where he joined St Petersburg military school and later Michael Artillery School. In <date>1908 </date> 
-                     he returned to <placeName ref="LOC3010Ethiop"/>.  A year later, <date>1909</date>, he was sent to <placeName ref="gn:3017382"/> to study agriculture. 
+                     <roleName type="title">rās</roleName> 
+                  <persName ref="PRS6567Makwanne"/> where he was brought up as a family member. In <date>1896/97</date>, 
+                     he was sent to <placeName ref="Q159"/> where he joined St Petersburg military school and later Michael Artillery School. In <date>1908 </date> 
+                     he returned to <placeName ref="LOC3010Ethiop"/>.  A year later, <date>1909</date>, he was sent to <placeName ref="Q142"/> to study agriculture. 
                      On his return, he served the Imperial government for a long time in various posts. He was one of the intellectual reformist of the imperial government before the Italian war. 
                    He drafted the first Ethiopian Constitution which was promulgated in <date>1931</date>. Apart from his political and administrative activities,
                      his name is also closely linked to the emergence of Ethiopian drama and theatre.
                   </floruit>
-               <death when="1977">He died at <placeName ref="LOC3875Hirna"/></death>
+               <death when="1977">He died at <placeName ref="LOC3875Hirna"/>
+               </death>
                   
                   
                </person>
                <listRelation>
                   <relation name="snap:FatherOf"
-                     active="PRS9149Taklaha"
-                     passive="PRS4609Germacca"
-                    ></relation>
+                         active="PRS9149Taklaha"
+                         passive="PRS4609Germacca"/>
                   <relation name="snap:FriendshipFor"
-                     active="PRS9149Taklaha"
-                     passive="PRS5226haylase"
-                    ></relation>
+                         active="PRS9149Taklaha"
+                         passive="PRS5226haylase"/>
                   <relation name="snap:FriendshipFor"
-                     active="PRS9149Taklaha"
-                     passive="PRS3775emmeruh"
-                    ></relation>
+                         active="PRS9149Taklaha"
+                         passive="PRS3775emmeruh"/>
                   <relation name="saws:isAttributedAuthorOf"
-                     active="PRS9173TaklaIy"
-                     passive="LIT1380Fabula"
-                    ></relation>
+                         active="PRS9173TaklaIy"
+                         passive="LIT1380Fabula"/>
                   
                   
                   
@@ -123,11 +123,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-                  
-                 

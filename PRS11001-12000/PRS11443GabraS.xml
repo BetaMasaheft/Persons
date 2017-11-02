@@ -49,11 +49,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName  xml:lang="gez"  xml:id="n1">ገብረ፡ ሲላሴ፡</persName>
-               <persName  xml:lang="gez"  corresp="#n1">Gabra Sillāse</persName>
+               <persName xml:lang="gez" xml:id="n1">ገብረ፡ ሲላሴ፡</persName>
+               <persName xml:lang="gez" corresp="#n1">Gabra Sillāse</persName>
             </person>
             <listRelation>
-               <relation name="lawd:hasAttestation" active="PRS11443GabraS" passive="BDLaethe8"/>
+               <relation name="lawd:hasAttestation"
+                         active="PRS11443GabraS"
+                         passive="BDLaethe8"/>
             </listRelation>
          </listPerson>
       </body>

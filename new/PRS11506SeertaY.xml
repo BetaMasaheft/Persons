@@ -1,7 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS11506SeertaY" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="PRS11506SeertaY"
+     xml:lang="en"
+     type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -49,17 +54,29 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="2">
-                    <persName xml:lang="gez" xml:id="n1" resp="DR" cert="low">ሥዕርተ፡ <choice><sic resp="PRS9622Ullendor">ዮሐዮስ፡</sic><corr resp="PRS9622Ullendor">ዮሐንስ፡</corr></choice></persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1" resp="DR" cert="low">Śǝʿǝrta Yoḥannǝs</persName>
-                    <persName xml:lang="en"  corresp="#n1" resp="PRS9622Ullendor">Se'erta Yohannǝs</persName>
+                    <persName xml:lang="gez" xml:id="n1" resp="DR" cert="low">ሥዕርተ፡ <choice>
+                     <sic resp="PRS9622Ullendor">ዮሐዮስ፡</sic>
+                     <corr resp="PRS9622Ullendor">ዮሐንስ፡</corr>
+                  </choice>
+               </persName>
+                    <persName xml:lang="gez"
+                         type="normalized"
+                         corresp="#n1"
+                         resp="DR"
+                         cert="low">Śǝʿǝrta Yoḥannǝs</persName>
+                    <persName xml:lang="en" corresp="#n1" resp="PRS9622Ullendor">Se'erta Yohannǝs</persName>
                     <faith type="EOTC"/>
                     <birth/>
                     <death/>
                     <floruit/>
                 </person>
                 <listRelation>
-                    <relation name="bm:wifeOf" active="PRS11506SeertaY" passive="PRS11505TawaldaM"/>
-                    <relation name="lawd:hasAttestation" active="PRS11506SeertaY" passive="BDLaethf13"/>
+                    <relation name="bm:wifeOf"
+                         active="PRS11506SeertaY"
+                         passive="PRS11505TawaldaM"/>
+                    <relation name="lawd:hasAttestation"
+                         active="PRS11506SeertaY"
+                         passive="BDLaethf13"/>
                 </listRelation>
             </listPerson>
         </body>

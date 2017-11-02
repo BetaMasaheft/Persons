@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Kǝflo</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -56,14 +56,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
              
                   <persName xml:lang="gez" xml:id="n1" type="birth">ክፍሎ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Kǝflo</persName>
-               <persName><roleName type="title">baʿal darabā, blatten getā, wambar, kantibā</roleName></persName>
+               <persName>
+                  <roleName type="title">baʿal darabā, blatten getā, wambar, kantibā</roleName>
+               </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   <occupation type="political">courtier</occupation>
                   
                   <floruit notBefore="1597" notAfter="1617">He was a courtier and one of the most important political figures, who served three successive 
-                     Solomonic emperors including <roleName type="title">ʾaṣe</roleName> <persName ref="PRS10198Yaeqob">Yāʿǝqob</persName>, <roleName type="title">ʾaṣe</roleName>
-                     <persName ref="PRS10513Zadenge">Zadǝngǝl</persName> and <roleName type="title">ʾaṣe</roleName> <persName ref="PRS9038Susenyos">Susǝnyos</persName>. 
+                     Solomonic emperors including <roleName type="title">ʾaṣe</roleName> 
+                  <persName ref="PRS10198Yaeqob">Yāʿǝqob</persName>, <roleName type="title">ʾaṣe</roleName>
+                     <persName ref="PRS10513Zadenge">Zadǝngǝl</persName> and <roleName type="title">ʾaṣe</roleName> 
+                  <persName ref="PRS9038Susenyos">Susǝnyos</persName>. 
                      He was from humble origin and succeeded to achieve different positions in the royal court throughout his carrier.
                      <persName ref="PRS5929Keflo">Kǝflo</persName> was the most favourite courtier for <roleName type="title">ʾaṣe</roleName>
                      <persName ref="PRS9038Susenyos">Susǝnyos</persName> but later he plotted repeatedly against him. The king pardoned <persName ref="PRS5929Keflo">Kǝflo</persName> several times. Finally, however, he was sentenced to death and beheaded in the court. 
@@ -73,13 +77,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </person>
                <listRelation>
                   <relation name="snap:AllianceWith"
-                     active="PRS5929Keflo"
-                     passive="PRS2226Atnatewo"
-                    ></relation>
+                         active="PRS5929Keflo"
+                         passive="PRS2226Atnatewo"/>
                   <relation name="snap:AllianceWith"
-                     active="PRS5929Keflo"
-                     passive="PRS10437Yonael"
-                    ></relation>
+                         active="PRS5929Keflo"
+                         passive="PRS10437Yonael"/>
                                  </listRelation>
          </listPerson>
          <listBibl type="editions">
@@ -104,19 +106,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>   
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                  
-                 

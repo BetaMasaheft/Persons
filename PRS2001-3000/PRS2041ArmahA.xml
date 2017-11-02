@@ -59,7 +59,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾArmāḥ </persName>
                   <persName xml:lang="gez" xml:id="n2" type="alt">አርመሖ፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">ʾArmaḥo</persName>
-               <persName><roleName type="title">nǝguś</roleName></persName>
+               <persName>
+                  <roleName type="title">nǝguś</roleName>
+               </persName>
                   
                   <occupation type="ruler">king</occupation>
                   <nationality type="Aksumite"/>
@@ -72,14 +74,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
              
                </person>
                <listRelation>
-                  <relation name="snap:SonOf" 
-                     active="PRS10378Yohanne"
-                     passive="PRS8726sellasD"
-                     ></relation>
-                  <relation name="snap:SonOf" 
-                     active="PRS10378Yohanne"
-                     passive="PRS8726sellasD"
-                     ></relation>
+                  <relation name="snap:SonOf" active="PRS10378Yohanne" passive="PRS8726sellasD"/>
+                  <relation name="snap:SonOf" active="PRS10378Yohanne" passive="PRS8726sellasD"/>
                   
                           </listRelation>
          </listPerson>
@@ -92,5 +88,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-               

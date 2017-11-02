@@ -53,19 +53,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-          <persName xml:lang="gez" xml:id="n1" type="birth">ሲስጋዮ፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ሲስጋዮ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Sisgāyo</persName>
                <persName xml:lang="gez" xml:id="n2" type="alt">ኤሩታኖ፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">ʾErutāāno</persName>
                <persName xml:lang="gez" xml:id="n3" type="alt">አሩታኖ፡</persName>
                <persName xml:lang="gez" corresp="#n3" type="normalized">ʾArutāāno</persName>
             
-               <persName><roleName type="title">tāto</roleName></persName>
+               <persName>
+                  <roleName type="title">tāto</roleName>
+               </persName>
                   <nationality type="Ethiopia"/>
         
                   <occupation type="political">ruler</occupation>
              
-               <floruit  notBefore="1619" notAfter="1630">He was the ruler of the then Gongā speaking of 
+               <floruit notBefore="1619" notAfter="1630">He was the ruler of the then Gongā speaking of 
                   <placeName ref="LOC2966Ennary">ʾƎnnāryā</placeName> in the time of the <roleName type="title">ʾaṣe</roleName>
                   <persName ref="PRS9038Susenyos">Susǝnyos</persName>. He was the  successor of <roleName type="title">tāto</roleName>
                   <persName ref="PRS2649Benaro">Benāro</persName>.</floruit>             
@@ -73,13 +75,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </person>
                <listRelation>
                   <relation name="snap:AllianceWith"
-                     active="PRS8885Sisgayo"
-                     passive="PRS9038Susenyos"
-                    ></relation>
-                  <relation name="rel:enemyOf"
-                     active="PRS8885Sisgayo"
-                     passive="PRS2649Benaro"
-                    ></relation>
+                         active="PRS8885Sisgayo"
+                         passive="PRS9038Susenyos"/>
+                  <relation name="rel:enemyOf" active="PRS8885Sisgayo" passive="PRS2649Benaro"/>
                   
                </listRelation>
          </listPerson>
@@ -96,17 +94,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>   
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-                  
-               

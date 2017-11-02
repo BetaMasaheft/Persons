@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"
 ?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS10790Charles" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="PRS10790Charles"
+     xml:lang="en"
+     type="pers">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -49,20 +50,22 @@ schematypens="http://relaxng.org/ns/structure/1.0"
             <person sex="1">
                <persName>
                Charles
-                  <surname></surname>
+                  <surname/>
                   <addName>le Chauve</addName>
                   <genName>II</genName>
                </persName>
                <nationality type="France"/>   
              
-               <occupation type="ruler"></occupation>
+               <occupation type="ruler"/>
                <birth>823</birth>
                <death>877 </death>
              
             </person>
             
             <listRelation>
-               <relation  name="snap:GrandsonOf" active="PRS10790Charles" passive="PRS3086Charles"/>
+               <relation name="snap:GrandsonOf"
+                         active="PRS10790Charles"
+                         passive="PRS3086Charles"/>
               
             </listRelation>
             

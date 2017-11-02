@@ -56,23 +56,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">እንድርያስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʿƎndrǝyās</persName>
-               <persName><roleName type="title">ʾǝč̣č̣age</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾǝč̣č̣age</roleName>
+               </persName>
                <occupation type="ecclesiastic"> abbot </occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
              
-               <residence><placeName ref="INS0341DL">Dabra Libānos</placeName></residence>
+               <residence>
+                  <placeName ref="INS0341DL">Dabra Libānos</placeName>
+               </residence>
                <floruit notBefore="1400" notAfter="1462">He was the eighth head  of the monastery of <placeName ref="INS0341DL">Dabra Libānos </placeName>
                   who succeeded his predecessor ʾabuna <persName ref="PRS10408Yohanne">Yoḥannǝs Kamā </persName> and  
-                  he was a contemporary of <roleName type="title">ʾaṣe</roleName><persName ref="PRS10626ZaraY">
+                  he was a contemporary of <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS10626ZaraY">
                      Zarʾa Yāʿǝqob</persName>. </floruit>
                <death when="1462"/>
             </person>
             <listRelation>
-               <relation name="rel:enemyOf"
-                  active="PRS3791endreyas"
-                  passive="PRS10626ZaraY"
-                 ></relation>
+               <relation name="rel:enemyOf" active="PRS3791endreyas" passive="PRS10626ZaraY"/>
             </listRelation>
          </listPerson>
          <listBibl type="secondary">
@@ -87,11 +89,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-               
-               

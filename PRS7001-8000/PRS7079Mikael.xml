@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
@@ -64,41 +64,41 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <persName xml:lang="gez" xml:id="n3" type="baptismal">ሚካኤል፡</persName>
 
                <persName xml:lang="gez" corresp="#n3" type="normalized">Mikāʾel of Wallo</persName>
-               <persName><roleName type="title">imām</roleName></persName>
-               <persName><roleName type="title">nǝguś</roleName></persName>
+               <persName>
+                  <roleName type="title">imām</roleName>
+               </persName>
+               <persName>
+                  <roleName type="title">nǝguś</roleName>
+               </persName>
                   
                   <occupation type="ruler">King</occupation>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
-               <residence><placeName ref="LOC2575Dase"/></residence>
+               <residence>
+                  <placeName ref="LOC2575Dase"/>
+               </residence>
                <birth notBefore="1847" notAfter="1850">He was born at<placeName ref="LOC6242WarraH"/>between<date>1847-1850</date>.</birth>
-               <floruit  notBefore="1870" notAfter="1916">He was an important ruler of <placeName ref="LOC6185Wallo"/> and the entire northern Ethiopia. 
+               <floruit notBefore="1870" notAfter="1916">He was an important ruler of <placeName ref="LOC6185Wallo"/> and the entire northern Ethiopia. 
                   He was born Muslim and later converted to Christianity in <date>1878</date>, at the council of <placeName ref="LOC1980BoruMe"/> and assumed the baptismal name Mikaʾel. 
                   He was in alliance with <persName ref="PRS10378Yohanne"/>until his death in <date>1889</date> at the battle of 
                   <placeName ref="LOC4637Matamm"/>. However, after the  death of <persName ref="PRS10378Yohanne"/>, 
                   he declared his submission to <persName ref="PRS7006Menilek"/>to whom he was loyal till the end of his rule. He was one of the military commanders of the 
-                  battle of <placeName ref="LOC1263Adwa"
-                     /></floruit>
+                  battle of <placeName ref="LOC1263Adwa"/>
+               </floruit>
                <death when="1916">He was killed at the battle of <placeName ref="LOC5446Sagale"/> in <date>1916</date>. </death>
                </person>
                <listRelation>
                   <relation name="snap:GrandsonOf"
-                     active="PRS7079Mikael"
-                     passive="PRS6292LibanAm"
-                     ></relation>
+                         active="PRS7079Mikael"
+                         passive="PRS6292LibanAm"/>
                   
-                  <relation name="snap:FatherOf"
-                     active="PRS7079Mikael"
-                     passive="PRS5620IyasuV"
-                     ></relation>
+                  <relation name="snap:FatherOf" active="PRS7079Mikael" passive="PRS5620IyasuV"/>
                   <relation name="snap:NephewOf"
-                     active="PRS7079Mikael"
-                     passive="PRS6643MananLi"
-                     ></relation>
+                         active="PRS7079Mikael"
+                         passive="PRS6643MananLi"/>
                   <relation name="snap:AllianceWith"
-                     active="PRS7079Mikael"
-                     passive="PRS7006Menilek"
-                     ></relation>
+                         active="PRS7079Mikael"
+                         passive="PRS7006Menilek"/>
                   
                   
                    </listRelation>
@@ -121,13 +121,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-                  
-                 

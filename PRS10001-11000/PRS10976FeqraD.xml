@@ -48,15 +48,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName  xml:lang="gez" xml:id="n1">ፍቁረ፡ ድንግል፡</persName>
-               <persName  xml:lang="gez" type="normalized" corresp="#n1">Fǝqura Dǝngǝl</persName>
-               <occupation type="ecclesiastic"><roleName type="title">ʾabbā</roleName></occupation>
+               <persName xml:lang="gez" xml:id="n1">ፍቁረ፡ ድንግል፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Fǝqura Dǝngǝl</persName>
+               <occupation type="ecclesiastic">
+                  <roleName type="title">ʾabbā</roleName>
+               </occupation>
             </person>
          </listPerson>
          <div type="bibliography">
             <listBibl type="relations">
                <bibl/>
-               <relation name="lawd:hasAttestation" active="PRS10976FeqraD" passive="BNFet35#a16"/>
+               <relation name="lawd:hasAttestation"
+                         active="PRS10976FeqraD"
+                         passive="BNFet35#a16"/>
             </listBibl>
          </div>
       </body>

@@ -53,10 +53,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
- <person sex="2">
+            <person sex="2">
                   <persName xml:lang="gez" xml:id="n1" type="birth">ክርስቶስ፡ ሠምራ፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Krǝstos Śamrā</persName>
-                  <persName><roleName type="title">ʾƎmmat</roleName></persName>
+                  <persName>
+                  <roleName type="title">ʾƎmmat</roleName>
+               </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   <occupation type="ecclesiastic">saint</occupation>
@@ -69,18 +71,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </person>  
                <listRelation>
                   
-                      <relation name="ecrm:P129i_is_subject_of" 
+                      <relation name="ecrm:P129i_is_subject_of"
                          active="PRS6079Krestos"
-                         passive="LIT1469GadlaK"
-                    ></relation>
+                         passive="LIT1469GadlaK"/>
                   <relation name="snap:DaughterOf"
-                     active="PRS6079Krestos"
-                     passive="PRS3711eleni"
-                     ></relation>
+                         active="PRS6079Krestos"
+                         passive="PRS3711eleni"/>
                   <relation name="snap:DaughterOf"
-                     active="PRS6079Krestos"
-                     passive="PRS3368Dargwani"
-                     ></relation>
+                         active="PRS6079Krestos"
+                         passive="PRS3368Dargwani"/>
                   
                   
                   
@@ -105,15 +104,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-               

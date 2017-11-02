@@ -56,7 +56,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName>
                   
                   <forename> (François Marie) Casimir </forename>
-                  <surname> Mondon-Vidailhet</surname> </persName>
+                  <surname> Mondon-Vidailhet</surname> 
+               </persName>
                
                <occupation type="academic">scholar</occupation>
                <nationality type="France"/>
@@ -66,17 +67,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   who contributed with pioneer works to the knowledge of Ethiopia and its language. He was in Ethiopia from <date>1892</date> to <date>1897</date>. 
                   During his stay in Ethiopia, he advised <persName ref="PRS7006Menilek"/> on various matters and wrote for him projects of reform. He also engaged in collecting of 
                   valuable Ethiopic manuscripts. </floruit>
-               <death when="1910">He died at <placeName ref="gn:2988507"/></death>
+               <death when="1910">He died at <placeName ref="Q90"/>
+               </death>
             </person>
             <listRelation>
                <relation name="snap:FriendshipFor"
-                  active="PRS7146MondonV"
-                  passive="PRS3148Cohen"
-                  ></relation>
+                         active="PRS7146MondonV"
+                         passive="PRS3148Cohen"/>
                <relation name="snap:AllianceWith"
-                  active="PRS7146MondonV"
-                  passive="PRS7006Menilek"
-                  ></relation>
+                         active="PRS7146MondonV"
+                         passive="PRS7006Menilek"/>
                
                
             </listRelation>
@@ -92,13 +92,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-               

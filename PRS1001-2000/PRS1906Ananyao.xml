@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>ʾAnānyā of Dabra Ṣarabi</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -55,7 +55,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">አናንያ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAnānyā</persName>
-               <persName><roleName type="title">ʾabbā</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾabbā</roleName>
+               </persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <occupation type="ecclesiastic">abbot</occupation>
@@ -63,7 +65,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <floruit> He was a monk of <placeName ref="LOC2358DabraS">Dabra Ṣarabi</placeName> in 
                   <placeName ref="LOC6569Tegray">Tǝgrāy </placeName> in the 15th or 16th century. He was a member of <persName ref="PRS11207Ewostateans">ʾEwosṭāteans</persName>. 
                   He came from the district of <placeName ref="LOC4564Maragw">Marāgwǝz</placeName> in the province of <placeName ref="LOC5575Saraye">Sarāye</placeName>
-                  and was initiated to monastic life by <roleName type="title">ʾabbā</roleName> <persName ref="PRS7769Pawlos">Ṗāwlos</persName>,
+                  and was initiated to monastic life by <roleName type="title">ʾabbā</roleName> 
+                  <persName ref="PRS7769Pawlos">Ṗāwlos</persName>,
                   abbot <placeName ref="LOC2358DabraS">Dabra Ṣarabi</placeName>. He succeeded  <roleName type="title">ʾabbā</roleName>
                   <persName ref="PRS7769Pawlos">Ṗāwlos</persName> after his death. He was succeeded by <roleName type="title">ʾabbā</roleName>
                   <persName ref="PRS5643Iyosayas">ʾIyosayās</persName>.</floruit>
@@ -72,21 +75,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </person>  
             <listRelation>
               <relation name="snap:AllianceWith"
-                  active="PRS1906Ananyao"
-                  passive="PRS7769Pawlos"
-                 ></relation>
+                         active="PRS1906Ananyao"
+                         passive="PRS7769Pawlos"/>
                <relation name="snap:AllianceWith"
-                  active="PRS1906Ananyao"
-                  passive="PRS11207Ewostateans"
-                 ></relation>
+                         active="PRS1906Ananyao"
+                         passive="PRS11207Ewostateans"/>
                <relation name="snap:AllianceWith"
-                  active="PRS1906Ananyao"
-                  passive="PRS5643Iyosayas"
-                 ></relation>
+                         active="PRS1906Ananyao"
+                         passive="PRS5643Iyosayas"/>
                <relation name="ecrm:P129i_is_subject_of"
-                  active="PRS1906Ananyao"
-                  passive="LIT1419GadlaA"
-                 ></relation>
+                         active="PRS1906Ananyao"
+                         passive="LIT1419GadlaA"/>
             </listRelation>
             
          </listPerson>
@@ -108,12 +107,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <citedRange unit="page">136</citedRange>
             </bibl>
             
-   </listBibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
-
-
-
-
-              

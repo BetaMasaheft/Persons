@@ -60,14 +60,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </persName>
                <occupation type="academic"> scholar and librarian</occupation>
                <nationality type="France"/>
-<birth when="1834-01-26">26th January 1834</birth>               
+               <birth when="1834-01-26">26th January 1834</birth>               
                <death when="1909-07-01">1st June 1909</death>
             </person>
          </listPerson>
          <div type="bibliography">
             <listBibl type="secondary">
-               <bibl><ptr target="bm:Berthier2014EAEZotenberg"/></bibl>
-               <bibl><ptr target="bm:Freudenthal2010Zotenberg"/></bibl>
+               <bibl>
+                  <ptr target="bm:Berthier2014EAEZotenberg"/>
+               </bibl>
+               <bibl>
+                  <ptr target="bm:Freudenthal2010Zotenberg"/>
+               </bibl>
             </listBibl>
          </div>
       </body>

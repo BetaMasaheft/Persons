@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Anthony</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -56,11 +56,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" xml:id="n1" type="birth">እንጦንስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾƎnṭonǝs</persName>
            
-                  <persName><roleName type="title">ʾabbā </roleName></persName>
+                  <persName>
+                  <roleName type="title">ʾabbā </roleName>
+               </persName>
                   <nationality type="Egypt"/>
                   <faith type="Coptic"/>
                   <occupation type="ecclesiastic">saint</occupation>
-                  <birth when="0251"></birth>
+                  <birth when="0251"/>
                   <residence/>
                   
                <floruit>He is considered to have been the founder of monasticism, born from Christian parents in <placeName ref="LOC5219Qimana">Qimān al-ʿArūs</placeName>.  
@@ -68,41 +70,33 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   in his fight against Arianism. He is highly respected in the monasticism tradition of <placeName ref="LOC3010Ethiop">Ethiopia</placeName>. 
                   The monastic houses of both <persName ref="PRS9162TaklaHa">Takla Hāymanot</persName> and <persName ref="PRS3932Ewostate">ʾEwosṭātewos</persName>
                   trace themselves back to <persName ref="PRS1962Anthony">Anthony</persName>.</floruit>
-                 <death when="0356"></death>
+                 <death when="0356"/>
                </person>
                <listRelation>
                   <relation name="snap:AllianceWith"
-                     active="PRS1962Anthony"
-                     passive="PRS2209Athanasi"
-                    ></relation>
+                         active="PRS1962Anthony"
+                         passive="PRS2209Athanasi"/>
                   <relation name="snap:AllianceWith"
-                     active="PRS1962Anthony"
-                     passive="PRS6427Macarius"
-                    ></relation>
+                         active="PRS1962Anthony"
+                         passive="PRS6427Macarius"/>
                <relation name="ecrm:P129i_is_subject_of"
-                     active="PRS1962Anthony"
-                     passive="LIT4147GadlaAntonii"
-                    ></relation>
+                         active="PRS1962Anthony"
+                         passive="LIT4147GadlaAntonii"/>
                   <relation name="ecrm:P129i_is_subject_of"
-                     active="PRS1962Anthony"
-                     passive="LIT4148SalamAntonii"
-                    ></relation>
+                         active="PRS1962Anthony"
+                         passive="LIT4148SalamAntonii"/>
                   <relation name="ecrm:P129i_is_subject_of"
-                     active="PRS1962Anthony"
-                     passive="LIT4149Malekt"
-                    ></relation>
+                         active="PRS1962Anthony"
+                         passive="LIT4149Malekt"/>
                   <relation name="saws:isAttributedAuthorOf"
-                     active="PRS1962Anthony"
-                     passive="LIT2434Teezaz"
-                    ></relation>
+                         active="PRS1962Anthony"
+                         passive="LIT2434Teezaz"/>
                   <relation name="saws:isAttributedAuthorOf"
-                     active="PRS1962Anthony"
-                     passive="LIT2442Temher"
-                    ></relation>
+                         active="PRS1962Anthony"
+                         passive="LIT2442Temher"/>
                   <relation name="saws:isAttributedAuthorOf"
-                     active="PRS1962Anthony"
-                     passive="LIT4150Salota"
-                    ></relation>
+                         active="PRS1962Anthony"
+                         passive="LIT4150Salota"/>
                   
         
                </listRelation>
@@ -120,8 +114,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>   
 </TEI>
-
-
-
-                  
-                  

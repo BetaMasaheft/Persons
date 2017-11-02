@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Kǝnfa Mikāʾǝl</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -55,36 +55,39 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ክንፈ፡ ሚካኤል፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Kǝnfa Mikāʾǝl</persName>
-               <persName><roleName type="title">ṣaḥafe tǝʿǝzāz</roleName></persName>
+               <persName>
+                  <roleName type="title">ṣaḥafe tǝʿǝzāz</roleName>
+               </persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <occupation type="literary"> chronicler</occupation>
                <residence ref="LOC3577Gondar">Gondar</residence>
               
                <floruit notBefore="1600" notAfter="1750">He was <roleName type="title">ṣaḥafe tǝʿǝzāz</roleName> during the time of 
-                  <roleName type="title">ʾaṣe </roleName><persName ref="PRS2377Bakaffa">Bakāffā</persName>. 
-                  He continued to write the chronicle of <roleName type="title">ʾaṣe </roleName><persName ref="PRS2377Bakaffa">Bakāffā</persName>
-                  after the death of <roleName type="title">ʾazzāž </roleName><persName ref="PRS8869Sinoda">Sinodā</persName>. He wrote the
-                  last 14 chapters of the chronicle of  <roleName type="title">ʾaṣe </roleName><persName ref="PRS2377Bakaffa">Bakāffā</persName>, 
+                  <roleName type="title">ʾaṣe </roleName>
+                  <persName ref="PRS2377Bakaffa">Bakāffā</persName>. 
+                  He continued to write the chronicle of <roleName type="title">ʾaṣe </roleName>
+                  <persName ref="PRS2377Bakaffa">Bakāffā</persName>
+                  after the death of <roleName type="title">ʾazzāž </roleName>
+                  <persName ref="PRS8869Sinoda">Sinodā</persName>. He wrote the
+                  last 14 chapters of the chronicle of  <roleName type="title">ʾaṣe </roleName>
+                  <persName ref="PRS2377Bakaffa">Bakāffā</persName>, 
                   recording events from mid-August 1726-January 1727.</floruit>
               
             </person>  
             <listRelation>
                <relation name="snap:AllianceWith"
-                  
-                  active="PRS5941KenfaMi"
-                  passive="PRS5616IyasuI"></relation>
+                         active="PRS5941KenfaMi"
+                         passive="PRS5616IyasuI"/>
                <relation name="snap:AllianceWith"
-                  
-                  active="PRS5941KenfaMi"
-                  passive="PRS2377Bakaffa"></relation>
+                         active="PRS5941KenfaMi"
+                         passive="PRS2377Bakaffa"/>
                
                <relation name="snap:FriendshipFor"
-                  
-                  active="PRS5941KenfaMi"
-                  passive="PRS8871Sinoda"></relation>
+                         active="PRS5941KenfaMi"
+                         passive="PRS8871Sinoda"/>
                
-         </listRelation>
+            </listRelation>
          </listPerson>
          <listBibl type="editions">
             <bibl>
@@ -101,13 +104,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-            
-                  
-                  

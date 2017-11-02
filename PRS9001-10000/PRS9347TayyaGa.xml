@@ -57,19 +57,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" xml:id="n1" type="birth">ታየ፡ ገብረ፡ ማርያም፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Tāyya Gabra Māryām</persName>
                
-               <persName><roleName type="title">ʾalaqā</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾalaqā</roleName>
+               </persName>
                <nationality type="Ethiopia"/>
                <faith type="Protestantism"/>
                
                <occupation type="literary">writer</occupation>
                
-               <birth when="1860"></birth>
+               <birth when="1860"/>
                <floruit notBefore="1886" notAfter="1924">He was a Protestant educated traditional Ethiopian scholar. In <date>1886</date>,  he became a member of the Bethel 
                   congregation in <placeName ref="LOC2852Emkull">ʾƎmkullu </placeName> and was employed by the mission in translation and teaching work. 
                   In <date>1905</date>, <persName ref="PRS9347TayyaGa">Tāyya Gabra Māryām</persName> left 
-                  <placeName ref="LOC3010Ethiop">Ethiopia</placeName> to <placeName ref="gn:2950159">Berlin</placeName> where he stayed there as 
+                  <placeName ref="LOC3010Ethiop">Ethiopia</placeName> to <placeName ref="Q64">Berlin</placeName> where he stayed there as 
                   a visiting scholar, acting as a resource person and co-worker to <persName ref="PRS7124Mittwoch">Mittwoch</persName>. 
-                  After he returned  from <placeName ref="gn:2950159">Berlin</placeName> in <date>1908</date>, he faced  opposition due to his religious views. 
+                  After he returned  from <placeName ref="Q64">Berlin</placeName> in <date>1908</date>, he faced  opposition due to his religious views. 
                   But he enjoyed a peaceful years under the reigns of <persName ref="PRS5620IyasuV">ʾIyāsu (V)</persName> and 
                   <persName ref="PRS10671Zawditu">Zawditu</persName>. He authored most of his works including his famous work, 
                   <title ref="LIT1603Histor">History of the people of Ethiopia</title> during those years. </floruit>
@@ -79,23 +81,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                
                <relation name="snap:AllianceWith"
-                  active="PRS9347TayyaGa"
-                  passive="PRS7006Menilek"
-                 ></relation>
+                         active="PRS9347TayyaGa"
+                         passive="PRS7006Menilek"/>
                <relation name="snap:AllianceWith"
-                  active="PRS9347TayyaGa"
-                  passive="PRS7124Mittwoch"
-                 ></relation>
+                         active="PRS9347TayyaGa"
+                         passive="PRS7124Mittwoch"/>
                <relation name="bm:husbandOf"
-                  active="PRS9347TayyaGa"
-                  passive="PRS9410terunas"
-                 ></relation>
+                         active="PRS9347TayyaGa"
+                         passive="PRS9410terunas"/>
                
             
                <relation name="saws:isAttributedAuthorOf"
-                  active="PRS9347TayyaGa"
-                  passive="LIT1603Histor"
-                 ></relation>
+                         active="PRS9347TayyaGa"
+                         passive="LIT1603Histor"/>
                
                
                
@@ -123,17 +121,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-                  
-                 

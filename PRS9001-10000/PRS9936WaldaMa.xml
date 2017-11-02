@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Walda Māryām</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -54,14 +54,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-             <persName xml:lang="gez" xml:id="n1" type="birth">ወልደ፡ ማርያም፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ወልደ፡ ማርያም፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Walda Māryām</persName>
-                  <persName><roleName type="title">ʾǝč̣č̣age</roleName></persName>
+                  <persName>
+                  <roleName type="title">ʾǝč̣č̣age</roleName>
+               </persName>
                   <occupation type="ecclesiastic"> abbot </occupation>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                 
-               <residence><placeName ref="INS0341">Dabra Libānos </placeName></residence>
+               <residence>
+                  <placeName ref="INS0341">Dabra Libānos </placeName>
+               </residence>
                   <floruit notBefore="1800" notAfter="1854">He was the 49th <roleName type="title">ʾǝč̣č̣age</roleName>
                      
                      of the monastery of <placeName ref="INS0341">Dabra Libānos </placeName>. He was originally from 
@@ -72,13 +76,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <listRelation>
                   
                   <relation name="snap:AllianceWith"
-                     active="PRS9936WaldaMa"
-                     passive="PRS9429Tewodros"
-                    ></relation>
+                         active="PRS9936WaldaMa"
+                         passive="PRS9429Tewodros"/>
                      <relation name="snap:AllianceWith"
-                        active="PRS9936WaldaMa"
-                        passive="PRS8388SalamaI"
-                    ></relation>
+                         active="PRS9936WaldaMa"
+                         passive="PRS8388SalamaI"/>
                </listRelation>
          </listPerson>
          <listBibl type="secondary">
@@ -93,9 +95,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-                  
-                  

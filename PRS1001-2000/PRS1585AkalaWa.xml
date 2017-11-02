@@ -54,9 +54,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-          <persName xml:lang="gez" xml:id="n1" type="birth">አካለ፡ ወልድ፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">አካለ፡ ወልድ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAkāla Wald</persName>
-               <persName><roleName type="title">mamhǝr</roleName></persName>
+               <persName>
+                  <roleName type="title">mamhǝr</roleName>
+               </persName>
                   
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
@@ -64,7 +66,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                   
                   <occupation type="academic">scholar</occupation>
-               <birth notBefore="1800"  notAfter="1850" cert="medium">He was born at <placeName ref="LOC4544Manz"/></birth>
+               <birth notBefore="1800" notAfter="1850" cert="medium">He was born at <placeName ref="LOC4544Manz"/>
+               </birth>
                   
                   
                   
@@ -72,19 +75,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      He was the most respected scholar in the courts of both <persName ref="PRS10378Yohanne"/>and <persName ref="PRS7006Menilek"/>. 
                      He was an important participant at the Church Council at <placeName ref="LOC1980BoruMe"/> in <date>1878</date>.
                   </floruit>
-                  <death when="1925" cert="medium"></death>
+                  <death when="1925" cert="medium"/>
                   
                   
                </person>
                <listRelation>
                   <relation name="snap:AllianceWith"
-                     active="PRS1585AkalaWa"
-                     passive="PRS7006Menilek"
-                     ></relation>
+                         active="PRS1585AkalaWa"
+                         passive="PRS7006Menilek"/>
                   <relation name="snap:AllianceWith"
-                     active="PRS1585AkalaWa"
-                     passive="PRS10378Yohanne"
-                     ></relation>
+                         active="PRS1585AkalaWa"
+                         passive="PRS10378Yohanne"/>
                   
                   
                   
@@ -118,17 +119,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-                  
-               

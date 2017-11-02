@@ -53,46 +53,41 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-            <persName xml:lang="gez" xml:id="n1" type="birth">ሳሙኤል፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ሳሙኤል፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Sāmuʾel</persName>
                <persName xml:lang="gez" xml:id="n2" type="monastic">ነአኵቶ፡ ለአብ፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">Naʾakkʷǝto Laʾab</persName>
-                  <persName><roleName type="title">ʾabuna </roleName></persName>
+                  <persName>
+                  <roleName type="title">ʾabuna </roleName>
+               </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   <occupation type="ecclesiastic">monk</occupation>
-               <birth>He was born in <placeName ref="LOC4568Maratt">Marattā</placeName></birth>
+               <birth>He was born in <placeName ref="LOC4568Maratt">Marattā</placeName>
+               </birth>
                <floruit> He was a holy monk from <placeName ref="LOC6569Tegray">Tǝgrāy</placeName>
                   who was a contemporary of King <persName ref="PRS1854Amdase">ʿAmda Ṣǝyon I</persName> and King <persName ref="PRS8595SayfaAr">Sayfa Arʿad</persName>. 
                   His name and his activities are traditionally linked with the foundation of the monastery of <placeName ref="LOC2281DabraH">Dabra Halleluyā</placeName>. 
                  </floruit>
-                  <death when="1375"></death>
+                  <death when="1375"/>
                </person>  
                <listRelation>
               <relation name="snap:AllianceWith"
-                     active="PRS8483Samuel"
-                     passive="PRS1854Amdase"
-                    ></relation>
-                  <relation name="snap:NephewOf"
-                     active="PRS8483Samuel"
-                     passive="PRS1251Abiyae"
-                    ></relation>
+                         active="PRS8483Samuel"
+                         passive="PRS1854Amdase"/>
+                  <relation name="snap:NephewOf" active="PRS8483Samuel" passive="PRS1251Abiyae"/>
                   <relation name="snap:AllianceWith"
-                     active="PRS8483Samuel"
-                     passive="PRS8595SayfaAr"
-                    ></relation>
+                         active="PRS8483Samuel"
+                         passive="PRS8595SayfaAr"/>
                   <relation name="snap:AllianceWith"
-                     active="PRS8483Samuel"
-                     passive="PRS4113Filmona"
-                    ></relation>
+                         active="PRS8483Samuel"
+                         passive="PRS4113Filmona"/>
                   <relation name="snap:AllianceWith"
-                     active="PRS8483Samuel"
-                     passive="PRS8491Samuel"
-                    ></relation>
-                  <relation name="ecrm:P129i_is_subject_of" 
-                     active="PRS8483Samuel"
-                     passive="LIT1495GadlaS"
-                    ></relation>
+                         active="PRS8483Samuel"
+                         passive="PRS8491Samuel"/>
+                  <relation name="ecrm:P129i_is_subject_of"
+                         active="PRS8483Samuel"
+                         passive="LIT1495GadlaS"/>
                </listRelation>
          </listPerson>
          <listBibl type="editions">
@@ -109,17 +104,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-                  
-                

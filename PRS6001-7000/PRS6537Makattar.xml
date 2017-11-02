@@ -55,7 +55,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
            
                <persName xml:lang="gez" xml:id="n1" type="birth">መከትር፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Makattǝr</persName>
-               <persName><roleName type="title">sultan</roleName></persName>
+               <persName>
+                  <roleName type="title">sultan</roleName>
+               </persName>
                <nationality type="Ethiopia"/>
                <faith type="Islam"/>
                <occupation type="ruler">sultan</occupation>
@@ -67,17 +69,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </person>
                <listRelation>
                   <relation name="snap:BrotherOf"
-                     active="PRS6537Makattar"
-                    passive="PRS4406Gaewa"
-                     ></relation>
+                         active="PRS6537Makattar"
+                         passive="PRS4406Gaewa"/>
                   <relation name="snap:AllianceWith"
-                     active="PRS6537Makattar"
-                     passive="PRS1500Ahmad"
-                    ></relation>
-                  <relation name="rel:enemyOf" 
-                     active="PRS6537Makattar"
-                     passive="PRS4428Galawdew"
-                    ></relation>
+                         active="PRS6537Makattar"
+                         passive="PRS1500Ahmad"/>
+                  <relation name="rel:enemyOf"
+                         active="PRS6537Makattar"
+                         passive="PRS4428Galawdew"/>
                </listRelation>
          </listPerson>
         
@@ -95,12 +94,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-

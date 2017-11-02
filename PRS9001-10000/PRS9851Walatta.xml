@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Walatta Qirqos</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             
             <author/>
@@ -58,7 +58,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                   <persName xml:lang="gez" xml:id="n1" type="birth">ወለተ፡ ቂርቆስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Walatta Qirqos</persName>
-               <persName><roleName type="title">ʾǝtege</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾǝtege</roleName>
+               </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   <occupation type="political">Queen</occupation>
@@ -69,10 +71,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </person>  
                <listRelation>
                   
-                  <relation name="bm:wifeOf"
-                     active="PRS9851Walatta"
-                     passive="PRS5332hezqeyas"
-                     ></relation>
+                  <relation name="bm:wifeOf" active="PRS9851Walatta" passive="PRS5332hezqeyas"/>
                   
                </listRelation>
          </listPerson>
@@ -85,12 +84,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-                  
-                

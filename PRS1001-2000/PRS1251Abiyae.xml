@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>ʿAbiya ʾƎgziʾ</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -56,28 +56,29 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          
                   <persName xml:lang="gez" xml:id="n1" type="birth">ዐቢየ፡ እግዚእ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʿAbiya ʾƎgziʾ</persName>
-                 <persName><roleName type="title">ʾabbā </roleName></persName>
+                 <persName>
+                  <roleName type="title">ʾabbā </roleName>
+               </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   <occupation type="ecclesiastic">abbot</occupation>
                 
                <floruit when="1350" cert="high">He was an  Ethiopian saint who lived in the first half of the fourteenth century. 
                   He was the head of the monastery of <placeName ref="LOC2300DabraM">Dabra Madḫānit</placeName>.  
-                  His successor was <roleName type="title">ʾabbā </roleName> <persName ref="PRS2037Arkalade">ʾArkaladǝs (Arkaladis)</persName>.
+                  His successor was <roleName type="title">ʾabbā </roleName> 
+                  <persName ref="PRS2037Arkalade">ʾArkaladǝs (Arkaladis)</persName>.
                   A hagiography is dedicated to him which is not yet published (<ref type="work" corresp="LIT1407GadlaA"/>).
                  </floruit>
-                  <death></death>
+                  <death/>
                </person>  
                <listRelation>
                   <relation name="snap:AllianceWith"
-                     active="PRS1251Abiyae"
-                     passive="PRS2037Arkalade"
-                    ></relation>
+                         active="PRS1251Abiyae"
+                         passive="PRS2037Arkalade"/>
           
-                     <relation name="ecrm:P129i_is_subject_of" 
-                     active="PRS1251Abiyae"
-                     passive="LIT1407GadlaA"
-                    ></relation>
+                     <relation name="ecrm:P129i_is_subject_of"
+                         active="PRS1251Abiyae"
+                         passive="LIT1407GadlaA"/>
                </listRelation>
          </listPerson>
     
@@ -95,18 +96,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-
-                  
-                 

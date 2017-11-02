@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Fǝre Mikāʾel</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -54,15 +54,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-            <persName xml:lang="gez" xml:id="n1" type="birth">ፍሬ፡ ሚካኤል፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ፍሬ፡ ሚካኤል፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Fǝre Mikāʾel</persName>
-                  <persName><roleName type="title">ʾabbā</roleName></persName>
+                  <persName>
+                  <roleName type="title">ʾabbā</roleName>
+               </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   <occupation type="ecclesiastic">monk</occupation>
                 
                <floruit notBefore="1400" notAfter="1499">He was a monk from the <placeName ref="LOC6221Warab">Warab</placeName> region of <placeName ref="LOC5597Sawa">
-                  Šawā</placeName> during the 15th century. He was ordained by <roleName type="title">nǝburaʾǝd</roleName><persName ref="PRS3801endreyas">
+                  Šawā</placeName> during the 15th century. He was ordained by <roleName type="title">nǝbura ʾǝd</roleName>
+                  <persName ref="PRS3801endreyas">
                      ʾƎndrǝyās of Saffǝʾa</persName> during the reign of King <persName ref="PRS10626ZaraY">Zarʾa Yāʿǝqob</persName>. 
                   
                   </floruit>
@@ -70,19 +73,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </person>  
                <listRelation>
                   <relation name="bm:ordainedBy"
-                     active="PRS4070FereMik"
-                     passive="PRS3801endreyas"
-                    ></relation>
+                         active="PRS4070FereMik"
+                         passive="PRS3801endreyas"/>
                
                   <relation name="snap:AllianceWith"
-                     active="PRS4070FereMik"
-                     passive="PRS1955Anorewos"
-                    ></relation>
+                         active="PRS4070FereMik"
+                         passive="PRS1955Anorewos"/>
                   
-                  <relation name="ecrm:P129i_is_subject_of" 
-                     active="PRS4070FereMik"
-                     passive="LIT1443GadlaF"
-                    ></relation>
+                  <relation name="ecrm:P129i_is_subject_of"
+                         active="PRS4070FereMik"
+                         passive="LIT1443GadlaF"/>
                </listRelation>
          </listPerson>
          <listBibl type="editions">
@@ -97,4 +97,4 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </listBibl>
       </body>
    </text>
-</TEI>     
+</TEI>

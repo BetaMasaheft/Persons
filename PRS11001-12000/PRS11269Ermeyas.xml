@@ -54,8 +54,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:id="n2" xml:lang="fr" resp="PRS10747Zotenbe">Jérémie</persName>
             </person>
             <listRelation>
-               <relation name="saws:isMemberOf" active="PRS11269Ermeyas" passive="PRS11332Houseof" cert="low">
-                  <desc><persName ref="PRS11269Ermeyas"/> is described as "son of Yonās" in <ref type="mss" corresp="BNFet137"/>.</desc></relation> 
+               <relation name="saws:isMemberOf"
+                         active="PRS11269Ermeyas"
+                         passive="PRS11332Houseof"
+                         cert="low">
+                  <desc>
+                     <persName ref="PRS11269Ermeyas"/> is described as "son of Yonās" in <ref type="mss" corresp="BNFet137"/>.</desc>
+               </relation> 
                <relation name="lawd:hasAttestation"
                          active="PRS11269Ermeyas"
                          passive="BNFet137"/>

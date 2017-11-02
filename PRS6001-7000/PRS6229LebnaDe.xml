@@ -56,11 +56,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
                   <persName xml:lang="gez" xml:id="n1" type="birth">ልብነ፡ ድንግል፡</persName>
                  <persName xml:lang="gez" type="normalized" corresp="#n1">Lǝbna Dǝngǝl</persName>
-               <persName><roleName type="title">ʾaṣe</roleName></persName>
-                  <persName xml:lang="gez"  type="regnal" xml:id="n2.1">ወናግ፡ ሰገድ፡</persName>
+               <persName>
+                  <roleName type="title">ʾaṣe</roleName>
+               </persName>
+                  <persName xml:lang="gez" type="regnal" xml:id="n2.1">ወናግ፡ ሰገድ፡</persName>
                   <persName xml:lang="gez" type="normalized" corresp="#n2.1">Wanāg Sagad</persName>
-                  <persName xml:lang="gez"  type="regnal" xml:id="n2.2">ዳዊት፡</persName>
-                  <persName xml:lang="gez" type="normalized" corresp="#n2.2">Dāwit <addName>II</addName></persName>
+                  <persName xml:lang="gez" type="regnal" xml:id="n2.2">ዳዊት፡</persName>
+                  <persName xml:lang="gez" type="normalized" corresp="#n2.2">Dāwit <addName>II</addName>
+               </persName>
                   <persName xml:lang="en" corresp="#n1">Incense of the Virgin</persName>
                   <persName xml:lang="en" corresp="#n2.1">The Lion has submitted to him</persName>
                   <persName xml:lang="en" corresp="#n2.2">David</persName>
@@ -73,39 +76,35 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                  <occupation type="ruler">Emperor</occupation>
               <birth when="1496">1496</birth>
-               <floruit when="1508" evidence="internal">He succeeded his father King <persName ref="PRS7481NaodA">Nāʿod</persName> when he was 12 years old in <date>1508</date></floruit>
-               <death when="1540" evidence="internal">He died at <placeName ref="LOC2254DabraD">Dabra Dāmmo</placeName></death>
-               <note><ref target="#n4">Lǝmna Dǝngǝl</ref> appears in <roleName type="title">ʾaṣe</roleName> 
+               <floruit when="1508" evidence="internal">He succeeded his father King <persName ref="PRS7481NaodA">Nāʿod</persName> when he was 12 years old in <date>1508</date>
+               </floruit>
+               <death when="1540" evidence="internal">He died at <placeName ref="LOC2254DabraD">Dabra Dāmmo</placeName>
+               </death>
+               <note>
+                  <ref target="#n4">Lǝmna Dǝngǝl</ref> appears in <roleName type="title">ʾaṣe</roleName> 
                   <persName ref="PRS4428Galawdew">Galāwdewos</persName>’s letter to the Roman Pope, Paul III (1534-1549), cp. Raineri 2003, 57.</note>
             </person>
                
             <listRelation>
-               <relation name="bm:husbandOf" 
-                     active="PRS6229LebnaDe"
-                        passive="PRS8276SablaWa"
-                 ></relation>
-               <relation name="snap:SonOf" active="PRS6229LebnaDe" passive="PRS7481NaodA"></relation>
-               <relation name="snap:SonOf" active="PRS6229LebnaDe" passive="PRS7482NaodMo"></relation>
+               <relation name="bm:husbandOf"
+                         active="PRS6229LebnaDe"
+                         passive="PRS8276SablaWa"/>
+               <relation name="snap:SonOf" active="PRS6229LebnaDe" passive="PRS7481NaodA"/>
+               <relation name="snap:SonOf" active="PRS6229LebnaDe" passive="PRS7482NaodMo"/>
                <relation name="snap:FatherOf"
-                  active="PRS6229LebnaDe"
-                  passive="PRS4121Fiqtor"
-                 ></relation> 
+                         active="PRS6229LebnaDe"
+                         passive="PRS4121Fiqtor"/> 
                <relation name="snap:FatherOf"
-                  active="PRS6229LebnaDe"
-                  passive="PRS4428Galawdew"
-                 ></relation>
+                         active="PRS6229LebnaDe"
+                         passive="PRS4428Galawdew"/>
+               <relation name="snap:FatherOf" active="PRS6229LebnaDe" passive="PRS7102Minas"/>
                <relation name="snap:FatherOf"
-                  active="PRS6229LebnaDe"
-                  passive="PRS7102Minas"
-                 ></relation>
-               <relation name="snap:FatherOf"
-                  active="PRS6229LebnaDe"
-                  passive="PRS10191Yaeqob"
-                 ></relation>
+                         active="PRS6229LebnaDe"
+                         passive="PRS10191Yaeqob"/>
                
                <relation name="snap:GrandfatherOf"
-                  active="PRS6229LebnaDe"
-                  passive="PRS8550sardaDe"></relation>
+                         active="PRS6229LebnaDe"
+                         passive="PRS8550sardaDe"/>
             </listRelation>
             
     

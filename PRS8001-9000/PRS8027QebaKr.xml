@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Qǝbʾā  Krǝstos</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -55,32 +55,34 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ቅብአ፡ ክርስቶስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Qǝbʾā  Krǝstos</persName>
-             <persName><roleName type="title">daǧǧāzmāč</roleName></persName>
+               <persName>
+                  <roleName type="title">daǧǧāzmāč</roleName>
+               </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   <occupation type="political"> governor</occupation>
                  <floruit notBefore="1618" notAfter="1629">He was a noble and a successful military leader loyal to <roleName type="title">ʾaṣe
-               </roleName> <persName ref="PRS9038Susenyos">Susǝnyos</persName> who 
+               </roleName> 
+                  <persName ref="PRS9038Susenyos">Susǝnyos</persName> who 
                   led a series military operations against a <placeName ref="LOC3109Funj">Funj</placeName> king, <persName ref="PRS3845erubat">ʾƎrubāt</persName>
                   in <date>1618</date>. He also led  several military campaigns against those rebellions to the power of <roleName type="title">ʾaṣe
-                  </roleName> <persName ref="PRS9038Susenyos">Susǝnyos</persName>. <persName ref="PRS8027QebaKr">Qǝbʾā  Krǝstos</persName>
+                  </roleName> 
+                  <persName ref="PRS9038Susenyos">Susǝnyos</persName>. <persName ref="PRS8027QebaKr">Qǝbʾā  Krǝstos</persName>
                   was one of the first to have converted to Catholicism at the court.</floruit>
             </person>  
-      <listRelation>
+            <listRelation>
                  
-   <relation name="snap:AllianceWith"
-                     
-                     active="PRS8027QebaKr"
-                     passive="PRS9038Susenyos"
-                    ></relation>
+               <relation name="snap:AllianceWith"
+                         active="PRS8027QebaKr"
+                         passive="PRS9038Susenyos"/>
                   
-   </listRelation>
+            </listRelation>
          </listPerson>
          <listBibl type="editions">
             <bibl>
                <ptr target="bm:Pereira1892Susenyos"/>
             </bibl>
-          <bibl>
+            <bibl>
                <ptr target="bm:Pereira1900Susenyos"/>
             </bibl>
          </listBibl>
@@ -93,17 +95,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-                  
-                 

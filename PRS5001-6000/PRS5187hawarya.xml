@@ -57,13 +57,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Ḥawāryā Krǝstos</persName>
                <persName xml:lang="gez" xml:id="n2" type="birth">ሐዋርያ፡ ክሶስ፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">Ḥawāryā Kǝsos</persName>
-               <persName><roleName type="title">ṣaḥāfe tǝʾǝzāz</roleName></persName>
+               <persName>
+                  <roleName type="title">ṣaḥāfe tǝʾǝzāz</roleName>
+               </persName>
                
                <occupation type="literary">royal chronicler</occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
              
-               <residence><placeName ref="LOC3577Gondar"> Gondar</placeName></residence>
+               <residence>
+                  <placeName ref="LOC3577Gondar"> Gondar</placeName>
+               </residence>
          
               <floruit>He was a member of the Gondarine court and the royal chronicler. He also belonged to the higher clergy in the court of Gondarine rulers. Intially,
                  he was the azzāž (official to administer court activities) in the court of King  <persName ref="PRS10375Yohanne">Yoḥannǝs I</persName> and
@@ -77,21 +81,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </person>
             <listRelation>
                <relation name="snap:AllianceWith"
-                  active="PRS5187hawarya"
-                  passive="PRS10375Yohanne"
-                 ></relation>
+                         active="PRS5187hawarya"
+                         passive="PRS10375Yohanne"/>
                <relation name="snap:AllianceWith"
-                  active="PRS5187hawarya"
-                  passive="PRS5616IyasuI"
-                 ></relation>
+                         active="PRS5187hawarya"
+                         passive="PRS5616IyasuI"/>
                <relation name="saws:isAttributedAuthorOf"
-                  active="PRS5187hawarya"
-                  passive="LIT3947ChronYohannes"
-                 ></relation>
+                         active="PRS5187hawarya"
+                         passive="LIT3947ChronYohannes"/>
                <relation name="saws:isAttributedAuthorOf"
-                  active="PRS5187hawarya"
-                  passive="LIT3950ChronIyasu"
-                 ></relation>
+                         active="PRS5187hawarya"
+                         passive="LIT3950ChronIyasu"/>
             
             </listRelation>
          </listPerson>
@@ -99,7 +99,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <bibl>
                <ptr target="bm:Guidi1961YohannesT"/>
             </bibl>
-    <bibl> 
+            <bibl> 
                <ptr target="bm:Chernestsov2005HawaryaKerstos"/>
             </bibl>  
             
@@ -107,10 +107,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-                  
-              

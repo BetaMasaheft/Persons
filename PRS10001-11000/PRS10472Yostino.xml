@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Yosṭinos</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -55,31 +55,31 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ዮስጢኖስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Yosṭinos</persName>
-               <persName><roleName type="title">ʾabuna</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾabuna</roleName>
+               </persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <occupation type="ecclesiastic">saint</occupation>
              
                <floruit> He was a saintly monk during the reign of King <persName ref="PRS10626ZaraY">Zarʾa Yāʿǝqob</persName>.
                   He was a teacher of  King <persName ref="PRS10626ZaraY">Zarʾa Yāʿǝqob</persName>.
-                  He was a contemporary of a painter <persName ref="PRS4072Feresey">Fǝre Ṣǝyon</persName></floruit>
-               <death></death>
+                  He was a contemporary of a painter <persName ref="PRS4072Feresey">Fǝre Ṣǝyon</persName>
+               </floruit>
+               <death/>
             </person>  
             <listRelation>
           
                <relation name="snap:AllianceWith"
-                  active="PRS10472Yostino"
-                  passive="PRS4072Feresey"
-                 ></relation>
+                         active="PRS10472Yostino"
+                         passive="PRS4072Feresey"/>
                <relation name="snap:AllianceWith"
-                  active="PRS10472Yostino"
-                  passive="PRS10626ZaraY"
-                 ></relation>
+                         active="PRS10472Yostino"
+                         passive="PRS10626ZaraY"/>
                
-               <relation name="ecrm:P129i_is_subject_of" 
-                  active="PRS10472Yostino"
-                  passive="LIT1524GadlaY"
-                 ></relation>
+               <relation name="ecrm:P129i_is_subject_of"
+                         active="PRS10472Yostino"
+                         passive="LIT1524GadlaY"/>
             </listRelation>
          </listPerson>
          
@@ -96,21 +96,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-           
-                  
-                  

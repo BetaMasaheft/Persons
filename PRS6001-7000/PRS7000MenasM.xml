@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Menās</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -61,31 +61,30 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" xml:id="n2" type="alt">ሚናስ፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">Minās</persName>
               
-                  <persName><roleName type="title">ʾabbā </roleName></persName>
+                  <persName>
+                  <roleName type="title">ʾabbā </roleName>
+               </persName>
                <nationality type="Egypt"/>
                <faith type="Coptic"/>
                   <occupation type="ecclesiastic">saint</occupation>
-                  <birth></birth>
+                  <birth/>
                   <residence/>
                   
                      <floruit>He was  a saint  and martyr venerated in the <placeName ref="LOC2056Byzant">Byzantine empire </placeName> and all over the Christian Orient, especially in 
                         <placeName ref="LOC2804Egypt">Egypt</placeName>. He was supposedly martyred during the <persName ref="PRS3581Diocleti">Diocletian</persName>
                         persecution of Christians  in <placeName ref="LOC4151Kotyai">Kotyaion</placeName>. <persName ref="PRS7000MenasM">Minās</persName> seems to have been a popular saint in 
-                        <placeName ref="LOC3010Ethiop">Ethiopia</placeName> to which both his frequent representations in art as well as the name of <date>16th century</date> <roleName type="title">ʾaṣe</roleName>
+                        <placeName ref="LOC3010Ethiop">Ethiopia</placeName> to which both his frequent representations in art as well as the name of <date>16th century</date> 
+                  <roleName type="title">ʾaṣe</roleName>
                         <persName ref="PRS7102Minas">Minās</persName>, named after him, testify.
                      </floruit>
                   <death/>
                </person>
                <listRelation>
               
-                  <relation name="rel:enemyOf"
-                     active="PRS7000MenasM"
-                     passive="PRS3581Diocleti"
-                    ></relation>
-            <relation name="ecrm:P129i_is_subject_of"
-                     active="PRS7000MenasM"
-                     passive="LIT1616Homily"
-                    ></relation>
+                  <relation name="rel:enemyOf" active="PRS7000MenasM" passive="PRS3581Diocleti"/>
+               <relation name="ecrm:P129i_is_subject_of"
+                         active="PRS7000MenasM"
+                         passive="LIT1616Homily"/>
                   
                </listRelation>
          </listPerson>
@@ -93,14 +92,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <bibl>
                <ptr target="bm:Bausi2002ActaPhileae"/>
             </bibl>
-  <bibl>
-     <ptr target="bm:Witakowski2007EAEMenas"/>
+            <bibl>
+               <ptr target="bm:Witakowski2007EAEMenas"/>
             </bibl>
          </listBibl>
       </body>
    </text>   
 </TEI>
-
-
-
-                  

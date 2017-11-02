@@ -57,41 +57,40 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <persName>Sabāgādis (Subāgādis) Waldu</persName>
                      <persName xml:lang="gez" xml:id="n1" type="birth">ሰባጋዲስ፡ ወልዱ፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Sabāgādis (Subāgādis)Waldu</persName>
-               <persName><roleName type="title">daǧǧāzmāč, šum ʿagāme </roleName></persName>
+               <persName>
+                  <roleName type="title">daǧǧāzmāč, šum ʿagāme </roleName>
+               </persName>
               
                <occupation type="ruler">governor</occupation>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
-               <residence><placeName ref="LOC1236Agama">Agāme</placeName></residence>
+               <residence>
+                  <placeName ref="LOC1236Agama">Agāme</placeName>
+               </residence>
                <birth notBefore="1780" notAfter="1785"/>
                <floruit notBefore="1822" notAfter="1833">He became the governor of <placeName ref="LOC6569Tegray">Tǝgrāy</placeName>
-                  succeeding <roleName type="title">rās </roleName><persName ref="PRS9978Waldase">Walda Śǝllāse</persName> in <date> 1822</date>
+                  succeeding <roleName type="title">rās </roleName>
+                  <persName ref="PRS9978Waldase">Walda Śǝllāse</persName> in <date> 1822</date>
                  and he continued to rule until his death <date> 1831</date>.  </floruit>
                <death when="1831" evidence="internal">He died in the battle of <placeName ref="LOC2228DabraA"/> 
                      fighting against his  principal foe <persName ref="PRS6728Mareyye">Mārǝyye Gugsā</persName> 
-                     in <date> February 1831</date></death>
+                     in <date> February 1831</date>
+               </death>
             </person>
             <listRelation>
-               <relation name="snap:SonOf" 
-                  active="PRS8265Sabagadi"
-                  passive="PRS10004WalduK"
-                 ></relation>
+               <relation name="snap:SonOf" active="PRS8265Sabagadi" passive="PRS10004WalduK"/>
                <relation name="snap:AllianceWith"
-                  active="PRS8265Sabagadi"
-                  passive="PRS10102Webeha"
-                 ></relation>
+                         active="PRS8265Sabagadi"
+                         passive="PRS10102Webeha"/>
                <relation name="snap:AllianceWith"
-                  active="PRS8265Sabagadi"
-                  passive="PRS5949Kenfu"
-                 ></relation>
+                         active="PRS8265Sabagadi"
+                         passive="PRS5949Kenfu"/>
                <relation name="snap:AllianceWith"
-                  active="PRS8265Sabagadi"
-                  passive="PRS4779GossuZa"
-                 ></relation>
+                         active="PRS8265Sabagadi"
+                         passive="PRS4779GossuZa"/>
                <relation name="rel:enemyOf"
-                  active="PRS8265Sabagadi"
-                  passive="PRS6728Mareyye"
-                 ></relation>
+                         active="PRS8265Sabagadi"
+                         passive="PRS6728Mareyye"/>
             </listRelation>
          </listPerson>
          <listBibl type="editions">
@@ -117,8 +116,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-                  
-                 

@@ -54,9 +54,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-           <persName xml:lang="gez" xml:id="n1" type="birth">ማኅተመ፡ ሥላሴ፡ ወልደ፡ መስቀል፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ማኅተመ፡ ሥላሴ፡ ወልደ፡ መስቀል፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Māḫtama Śǝllāse Walda Masqal</persName>
-               <persName><roleName type="title">Blātten getā</roleName></persName>
+               <persName>
+                  <roleName type="title">Blātten getā</roleName>
+               </persName>
                   
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
@@ -66,7 +68,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <birth when="1904">He was born at <placeName ref="LOC2008Bulga"/> in <date>1904</date>.</birth>
                <floruit notBefore="1921" notAfter="1978">He was the most prominent writer and government official during the reign of <persName ref="PRS5226haylase"/>. 
                   He started to work for the government in <date>1921</date>. Two years later, he was sent abroad by the government for further studies.
-                  He went first to <placeName ref="LOC2085Cairo"/> and then <placeName ref="gn:3017382"/> where he studied for six years. 
+                  He went first to <placeName ref="LOC2085Cairo"/> and then <placeName ref="Q142"/> where he studied for six years. 
                   He served the Imperial government as a senior aid to <persName ref="PRS2112AsfaWas"/> 
                   from<date>1933</date> to <date>1935</date>, as Director General of the Ministry of Agriculture in <date>1946</date>, 
                   later Minister  of Agriculture  in <date>1954</date>, Minister of finance in <date>1958</date> and he became Minsiter of Public Works in <date>1961</date>. </floruit>
@@ -75,30 +77,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </person>
                
                <listRelation>
-                  <relation name="snap:SonOf"
-                     active="PRS6530Mahtama"
-                     passive="PRS9942WaldaMa"
-                     ></relation>
-                  <relation name="snap:SonOf"
-                     active="PRS6530Mahtama"
-                     passive="PRS3390DastaAy"
-                     ></relation>
+                  <relation name="snap:SonOf" active="PRS6530Mahtama" passive="PRS9942WaldaMa"/>
+                  <relation name="snap:SonOf" active="PRS6530Mahtama" passive="PRS3390DastaAy"/>
                   <relation name="snap:AllianceWith"
-                     active="PRS6530Mahtama"
-                     passive="PRS5226haylase"
-                     ></relation>
+                         active="PRS6530Mahtama"
+                         passive="PRS5226haylase"/>
                   <relation name="saws:isAttributedAuthorOf"
-                     active="PRS6530Mahtama"
-                     passive="LIT2607Zekran"
-                     ></relation>
+                         active="PRS6530Mahtama"
+                         passive="LIT2607Zekran"/>
                   <relation name="saws:isAttributedAuthorOf"
-                     active="PRS6530Mahtama"
-                     passive="LIT4542Esubdenq" 
-                     ></relation>
+                         active="PRS6530Mahtama"
+                         passive="LIT4542Esubdenq"/>
                   <relation name="saws:isAttributedAuthorOf"
-                     active="PRS6530Mahtama"
-                     passive="LIT4541Yaabatoch" 
-                     ></relation>
+                         active="PRS6530Mahtama"
+                         passive="LIT4541Yaabatoch"/>
                   
                   
                      
@@ -127,5 +119,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-               

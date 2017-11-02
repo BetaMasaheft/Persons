@@ -1,7 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS11688WalattaM" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="PRS11688WalattaM"
+     xml:lang="en"
+     type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -52,12 +57,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Walatta Māryām</persName>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS11688WalattaM" passive="BDLbruce93"/>
+                    <relation name="lawd:hasAttestation"
+                         active="PRS11688WalattaM"
+                         passive="BDLbruce93"/>
                 </listRelation>
             </listPerson>
             <div type="bibliography">
                 <listBibl type="secondary">
-                    <bibl><ptr target="bm:Wion2009LibAks"/><citedRange unit="page">158</citedRange></bibl>
+                    <bibl>
+                  <ptr target="bm:Wion2009LibAks"/>
+                  <citedRange unit="page">158</citedRange>
+               </bibl>
                 </listBibl>
             </div>
         </body>

@@ -53,11 +53,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-        <persName xml:lang="gez" xml:id="n1" type="birth">እስጢፋኖስ፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">እስጢፋኖስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾƎsṭifānos</persName>
               
                      
-               <persName><roleName type="title">ʾafa nǝguś </roleName></persName>
+               <persName>
+                  <roleName type="title">ʾafa nǝguś </roleName>
+               </persName>
                      
                      <nationality type="Ethiopia"/>
                      <faith type="EOTC"/>
@@ -66,34 +68,32 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <occupation type="political"> official</occupation>
                      
                      
-               <floruit notBefore="1865" notAfter="1922">He was one of the few learned officials of <roleName type="title">ʾaṣe</roleName><persName ref="PRS7006Menilek"/>.
+               <floruit notBefore="1865" notAfter="1922">He was one of the few learned officials of <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS7006Menilek"/>.
                   He was small in size and physically frail, but he exercised an immense influence both in political and ecclesiastical affairs. 
                   He started his career as a clerk in the court of <persName ref="PRS2342Bafana"/> from where he transfered to the service of 
                   <persName ref="PRS7006Menilek"/> in <date>1870</date>'s. In <date>1893</date>, he raised to the position
                   of liqa kāhǝnāt of the state and head of <placeName ref="LOC2364DabraS"/> church of <placeName ref="LOC1216AddisA"/>. He continued to serve during the reign of 
                   <persName ref="PRS5620IyasuV"/> and the first seven years of the reign of <persName ref="PRS10671Zawditu"/>. </floruit>
-               <death when="1922"> He died of illness and buried at the <placeName ref="LOC6064Urael"/> <placeName ref="LOC1216AddisA"/>.</death>
+               <death when="1922"> He died of illness and buried at the <placeName ref="LOC6064Urael"/> 
+                  <placeName ref="LOC1216AddisA"/>.</death>
                      
                      
                   </person>
                   
                   <listRelation>
                      <relation name="snap:AllianceWith"
-                        active="PRS3891estifano"
-                        passive="PRS7006Menilek"
-                       ></relation>
+                         active="PRS3891estifano"
+                         passive="PRS7006Menilek"/>
                      <relation name="snap:AllianceWith"
-                        active="PRS3891estifano"
-                        passive="PRS2342Bafana"
-                       ></relation>
+                         active="PRS3891estifano"
+                         passive="PRS2342Bafana"/>
                      <relation name="snap:AllianceWith"
-                        active="PRS3891estifano"
-                        passive="PRS5620IyasuV"
-                       ></relation>
+                         active="PRS3891estifano"
+                         passive="PRS5620IyasuV"/>
                      <relation name="snap:AllianceWith"
-                        active="PRS3891estifano"
-                        passive="PRS10671Zawditu"
-                       ></relation>
+                         active="PRS3891estifano"
+                         passive="PRS10671Zawditu"/>
                      
                   </listRelation>
          </listPerson>
@@ -110,8 +110,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-                  

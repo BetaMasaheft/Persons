@@ -53,7 +53,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ገብር፡ ኄር፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Gabǝr Ḫer</persName>
-               <persName><roleName type="title">ʾabbā</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾabbā</roleName>
+               </persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <occupation type="ecclesiastic">saint</occupation>
@@ -61,9 +63,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <floruit> </floruit>
             </person>  
             <listRelation>
-               <relation name="ecrm:P129i_is_subject_of" 
-                  active="PRS4211Gaberhe"
-                  passive="LIT4756GadlaGH"/>
+               <relation name="ecrm:P129i_is_subject_of"
+                         active="PRS4211Gaberhe"
+                         passive="LIT4756GadlaGH"/>
             </listRelation>
          </listPerson>
          <listBibl type="secondary">

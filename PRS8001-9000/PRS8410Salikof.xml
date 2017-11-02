@@ -55,7 +55,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ሰሊክ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Salik</persName>
-               <persName><roleName type="title">ʾabbā</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾabbā</roleName>
+               </persName>
                
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
@@ -69,17 +71,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listRelation>
                
                <relation name="snap:AllianceWith"
-                  active="PRS8410Salikof"
-                  passive="PRS3779enbaqom"
-                 ></relation>
+                         active="PRS8410Salikof"
+                         passive="PRS3779enbaqom"/>
                <relation name="bm:isAuthorOfEthiopicTranslation"
-                  active="PRS8410Salikof"
-                  passive="LIT1933Mashaf"
-                 ></relation>
+                         active="PRS8410Salikof"
+                         passive="LIT1933Mashaf"/>
                <relation name="bm:isAuthorOfEthiopicTranslation"
-                  active="PRS8410Salikof"
-                  passive="LIT1946Mashaf"
-                 ></relation>
+                         active="PRS8410Salikof"
+                         passive="LIT1946Mashaf"/>
                
             </listRelation>
          </listPerson>
@@ -97,13 +96,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-                  
-                

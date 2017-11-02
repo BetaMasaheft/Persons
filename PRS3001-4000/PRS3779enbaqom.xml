@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>ʿƎnbāqom</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -67,11 +67,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
                
                   
-               <persName><roleName type="title">ʾǝč̣č̣age </roleName></persName>
+               <persName>
+                  <roleName type="title">ʾǝč̣č̣age </roleName>
+               </persName>
           
-           <occupation type="ecclesiastic">abbot</occupation>
+               <occupation type="ecclesiastic">abbot</occupation>
                <birth>1470</birth>
-               <residence>He was born in <placeName ref="gn:69543">Yemen</placeName>.</residence>
+               <residence>He was born in <placeName ref="Q2119459">Yemen</placeName>.</residence>
                <floruit when="1489" evidence="internal">He arrived in <placeName ref="LOC3010Ethiop">Ethiopia</placeName> in <date>1489</date> 
                   during the reign of King <persName ref="PRS3874eskender">ʾƎskǝndǝr</persName>. 
                   He was baptized by ʾabuna <persName ref="PRS7825Petros">Ṗeṭros</persName>. <persName ref="PRS3779enbaqom">ʾƎnbāqom's</persName> contribution to Ethiopic literature was remarkable. 
@@ -80,51 +82,38 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </person>
                <listRelation>
                   <relation name="snap:AllianceWith"
-                     active="PRS3779enbaqom"
-                     passive="PRS7825Petros" 
-                    ></relation>
+                         active="PRS3779enbaqom"
+                         passive="PRS7825Petros"/>
                   <relation name="snap:AllianceWith"
-                     active="PRS3779enbaqom"
-                     passive="PRS4428Galawdew"
-                    ></relation>
+                         active="PRS3779enbaqom"
+                         passive="PRS4428Galawdew"/>
                   <relation name="snap:AllianceWith"
-                     active="PRS3779enbaqom"
-                     passive="PRS7102Minas"
-                    ></relation>
+                         active="PRS3779enbaqom"
+                         passive="PRS7102Minas"/>
                   <relation name="snap:AllianceWith"
-                     active="PRS3779enbaqom"
-                     passive="PRS7102Minas"
-                    ></relation>
+                         active="PRS3779enbaqom"
+                         passive="PRS7102Minas"/>
                   <relation name="snap:AllianceWith"
-                     active="PRS3779enbaqom"
-                     passive="PRS1778Alvares"
-                    ></relation>
+                         active="PRS3779enbaqom"
+                         passive="PRS1778Alvares"/>
                   
-                  <relation name="rel:enemyOf"
-                     active="PRS3779enbaqom"
-                     passive="PRS1500Ahmad"
-                    ></relation>
+                  <relation name="rel:enemyOf" active="PRS3779enbaqom" passive="PRS1500Ahmad"/>
                   <relation name="saws:isAttributedAuthorOf"
-                     active="PRS3779enbaqom"
-                     passive="LIT1109Anqasa"
-                    ></relation>
+                         active="PRS3779enbaqom"
+                         passive="LIT1109Anqasa"/>
                   <relation name="saws:isAttributedAuthorOf"
-                     active="PRS3779enbaqom"
-                     passive="LIT1199Barala" 
-                    ></relation>
+                         active="PRS3779enbaqom"
+                         passive="LIT1199Barala"/>
                   <relation name="saws:isAttributedAuthorOf"
-                     active="PRS3779enbaqom"
-                     passive="LIT1691ApocryJohn" 
-                    ></relation>
+                         active="PRS3779enbaqom"
+                         passive="LIT1691ApocryJohn"/>
                   <relation name="bm:isAuthorOfEthiopicTranslation"
-                     active="PRS3779enbaqom"
-                     passive="LIT3175Commen"
-                    ></relation>
+                         active="PRS3779enbaqom"
+                         passive="LIT3175Commen"/>
            
-                  <relation name="ecrm:P129i_is_subject_of" 
-                     active="PRS3779enbaqom"
-                     passive="LIT1437Gadlae"
-                    ></relation>
+                  <relation name="ecrm:P129i_is_subject_of"
+                         active="PRS3779enbaqom"
+                         passive="LIT1437Gadlae"/>
                </listRelation>
          </listPerson>
          <listBibl type="editions">
@@ -145,9 +134,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-               
-           

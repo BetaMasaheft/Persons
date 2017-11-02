@@ -52,29 +52,32 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-      <persName xml:lang="gez" xml:id="n1" type="birth">ዮሐንስ፡ ከማ፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ዮሐንስ፡ ከማ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Yoḥannǝs Kamā</persName>
-               <persName><roleName type="title">ʾǝč̣č̣age</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾǝč̣č̣age</roleName>
+               </persName>
                   <occupation type="ecclesiastic"> abbot </occupation>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                 
-               <residence><placeName ref="INS0341">Dabra Libānos</placeName></residence>
+               <residence>
+                  <placeName ref="INS0341">Dabra Libānos</placeName>
+               </residence>
                <floruit>He was the seventh heads  of the monastery of <placeName ref="INS0341">Dabra Libānos</placeName> who succeeded his predecessor ʾabuna 
                   <persName ref="PRS10421Yohanne">Yoḥannǝs Sǝwwur</persName> and he was a contemporary of King <persName ref="PRS10342Yeshaq">
                      Yǝsḥaq</persName>. His tenure was remarkable for the development of the monastery of <placeName ref="INS0341">Dabra Libānos</placeName> and its literature. 
                   It is believed that <title ref="LIT1445GadlaF">Gadla Filǝṗṗos (za-Dabra Libānos)</title> of ʾabuna <persName ref="PRS4104Fileppos">Filǝṗṗos</persName> was written during his tenure.
                  </floruit>
-               <death></death>
+               <death/>
             </person>
             <listRelation>
                <relation name="snap:AllianceWith"
-                  active="PRS10408Yohanne"
-                  passive="PRS10342Yeshaq"
-                 ></relation>
-        </listRelation>
+                         active="PRS10408Yohanne"
+                         passive="PRS10342Yeshaq"/>
+            </listRelation>
          </listPerson>
-    <listBibl type="secondary">
+         <listBibl type="secondary">
             <bibl> 
                <ptr target="bm:Cerulli1943AbbotsDL"/>
                <citedRange unit="page">141-143</citedRange>
@@ -86,9 +89,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-                  
-            

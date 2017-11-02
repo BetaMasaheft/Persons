@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Wright</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             
             
@@ -58,28 +58,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName>
                   <forename>William</forename>
-                  <surname>Wright</surname></persName>
+                  <surname>Wright</surname>
+               </persName>
                
                <occupation type="academic">scholar</occupation>
                <nationality type="UnitedKingdom"/>
                <faith type="notSpecified"/>
-               <birth when="1830"></birth>
+               <birth when="1830"/>
                <floruit notBefore="1852" notAfter="1889">He was a British Orientalist. The son of the Scottish officer in the service of the East India Company. 
                   He studied Syriac and other Semitic languages. He became a Professor of Arabic between <date>1855-56</date> at the University College 
-                  <placeName ref="gn:2643743"/> and other colleges. He published an excellent catalogue of the Ethiopic manuscripts from the  British Museum in <date>1877</date> 
+                  <placeName ref="Q84"/> and other colleges. He published an excellent catalogue of the Ethiopic manuscripts from the  British Museum in <date>1877</date> 
                   consisting chiefly in the collection from <placeName ref="LOC4547Maqdal"/>. </floruit>
-               <death when="1889">He died at <placeName ref="gn:2653941"/>
+               <death when="1889">He died at <placeName ref="Q350"/>
                </death>
             </person>
             <listRelation>
                <relation name="snap:ProfessionalRelationship"
-                  active="PRS10171Wright"
-                  passive="PRS7604Noldeke"
-                  ></relation>
+                         active="PRS10171Wright"
+                         passive="PRS7604Noldeke"/>
                <relation name="snap:ProfessionalRelationship"
-                  active="PRS10171Wright"
-                  passive="PRS3562Dillmann"
-                  ></relation>
+                         active="PRS10171Wright"
+                         passive="PRS3562Dillmann"/>
                
                
                
@@ -117,15 +116,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-            

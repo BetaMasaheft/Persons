@@ -49,10 +49,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1">ገብረ፡ ማርያም፡ ካሳ፡</persName>
-               <persName  xml:lang="gez" type="normalized" corresp="#n1">Gabra Māryām Kāsā</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra Māryām Kāsā</persName>
             </person>
             <listRelation>
-               <relation name="saws:hasOwned" active="PRS11435GabraMaryam" passive="BDLaethc7"/>
+               <relation name="saws:hasOwned"
+                         active="PRS11435GabraMaryam"
+                         passive="BDLaethc7"/>
             </listRelation>
          </listPerson>
       </body>

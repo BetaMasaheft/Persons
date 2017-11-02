@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Eutychius</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             
             <author/>
@@ -54,13 +54,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-            <persName xml:lang="gez" xml:id="n1" type="birth">አውጣኪዮስ፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">አውጣኪዮስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAwṭākiyos</persName>
                <persName xml:lang="gez" xml:id="n2" type="birth">አውጣኬ፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAwṭāke</persName>
                <persName xml:lang="gez" xml:id="n3" type="alt">አውጣኪ፡</persName>
                <persName xml:lang="gez" corresp="#n3" type="normalized">ʾAwṭāki</persName>
-                  <persName><roleName type="title"></roleName></persName>
+                  <persName>
+                  <roleName type="title"/>
+               </persName>
             
                      <occupation type="ecclesiastic">patriarch </occupation>
                 
@@ -71,9 +73,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </person>
                <listRelation>
                   <relation name="snap:AllianceWith"
-                     active="PRS3919Eutychiu"
-                     passive="PRS3591Dioscoru"
-                    ></relation>
+                         active="PRS3919Eutychiu"
+                         passive="PRS3591Dioscoru"/>
    
                   
                </listRelation>
@@ -93,10 +94,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>   
 </TEI>
-
-
-
-
-
-                  
-                  

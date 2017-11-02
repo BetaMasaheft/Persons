@@ -56,7 +56,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" xml:id="n1" type="birth">ምህርከ፡ ድንግል</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Mǝhǝrka Dǝngǝl</persName>
               
-               <persName><roleName type="title">ʾabbā</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾabbā</roleName>
+               </persName>
                
                <occupation type="literary">royal chronicler</occupation>
                <nationality type="Ethiopia"/>
@@ -72,17 +74,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </person>
             <listRelation>
                <relation name="snap:AllianceWith"
-                  active="PRS6978Meherka"
-                  passive="PRS9038Susenyos" 
-                 ></relation>
+                         active="PRS6978Meherka"
+                         passive="PRS9038Susenyos"/>
                <relation name="snap:AllianceWith"
-                  active="PRS6978Meherka"
-                  passive="PRS7699Paez"
-                 ></relation>
+                         active="PRS6978Meherka"
+                         passive="PRS7699Paez"/>
                <relation name="snap:FriendshipFor"
-                  active="PRS6978Meherka"
-                  passive="PRS9194Taklase"
-                 ></relation>
+                         active="PRS6978Meherka"
+                         passive="PRS9194Taklase"/>
                
                
             </listRelation>
@@ -93,9 +92,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </bibl>
          
          
-         <bibl>
-            <ptr target="bm:Pereira1900Susenyos"/>
-         </bibl>
+            <bibl>
+               <ptr target="bm:Pereira1900Susenyos"/>
+            </bibl>
          </listBibl>
          
          <listBibl type="secondary">
@@ -106,6 +105,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-                  
-                  

@@ -55,30 +55,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
         
-            <persName xml:lang="gez" xml:id="n1" type="birth">በእደ፡ ማርያም፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">በእደ፡ ማርያም፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Baʾǝda Māryām I</persName>
-               <persName><roleName type="title">ʾaṣe</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾaṣe</roleName>
+               </persName>
           
-          <occupation type="ruler">Emperor</occupation>
-            <birth when="1448"/>
-             <floruit when="1468" evidence="internal">He succeeded his father King <persName ref="PRS10626ZaraY">Zarʾa Yāʿǝqob</persName>.
+               <occupation type="ruler">Emperor</occupation>
+               <birth when="1448"/>
+               <floruit when="1468" evidence="internal">He succeeded his father King <persName ref="PRS10626ZaraY">Zarʾa Yāʿǝqob</persName>.
                 He reversed many of his father’s administrative decisions.
              </floruit>
                <death when="1478" evidence="internal">1478</death>
             </person>
             <listRelation>
-               <relation name="snap:SonOf" 
-                  active="PRS2334BaedaM"
-                  passive="PRS10626ZaraY"
-                 ></relation>
-               <relation name="bm:husbandOf"
-                  active="PRS2334BaedaM"
-                  passive="PRS8203Romna"
-                 ></relation>
-            <relation name="snap:FatherOf"
-                 active="PRS2334BaedaM"
-                  passive="PRS3874eskender"
-                   ></relation>
+               <relation name="snap:SonOf" active="PRS2334BaedaM" passive="PRS10626ZaraY"/>
+               <relation name="bm:husbandOf" active="PRS2334BaedaM" passive="PRS8203Romna"/>
+               <relation name="snap:FatherOf"
+                         active="PRS2334BaedaM"
+                         passive="PRS3874eskender"/>
             </listRelation>
          </listPerson>
          <listBibl type="editions">
@@ -98,6 +93,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-    

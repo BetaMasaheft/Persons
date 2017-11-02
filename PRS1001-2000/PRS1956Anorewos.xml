@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>ʾAnorewos "the Younger"</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -57,7 +57,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAnorewos</persName>
                <persName xml:lang="gez" xml:id="n2" type="birth">ካልእ፡ አኖሬዎስ፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">Another ʾAnorewos</persName>
-                  <persName><roleName type="title">ʾabbā </roleName></persName>
+                  <persName>
+                  <roleName type="title">ʾabbā </roleName>
+               </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   <occupation type="ecclesiastic">saint</occupation>
@@ -71,21 +73,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </person>
                <listRelation>
                   <relation name="snap:NephewOf"
-                     active="PRS1956Anorewos"
-                     passive="PRS10708ZenaMa"
-                    ></relation>
+                         active="PRS1956Anorewos"
+                         passive="PRS10708ZenaMa"/>
                   <relation name="bm:ordainedBy"
-                     active="PRS1956Anorewos"
-                     passive="PRS10200Yaeqob"
-                    ></relation>
+                         active="PRS1956Anorewos"
+                         passive="PRS10200Yaeqob"/>
                   <relation name="snap:AllianceWith"
-                     active="PRS1956Anorewos"
-                     passive="PRS10708ZenaMa"
-                    ></relation>
-                  <relation name="ecrm:P129i_is_subject_of" 
-                     active="PRS1956Anorewos"
-                     passive="LIT4728GadlaAn"
-                     ></relation>
+                         active="PRS1956Anorewos"
+                         passive="PRS10708ZenaMa"/>
+                  <relation name="ecrm:P129i_is_subject_of"
+                         active="PRS1956Anorewos"
+                         passive="LIT4728GadlaAn"/>
                   
            </listRelation>
          </listPerson>
@@ -93,7 +91,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <bibl>
                <ptr target="bm:Getachew1983monastic"/>
             </bibl>
-         <bibl>
+            <bibl>
                <ptr target="bm:Kaplan2003Anorewos"/>
             </bibl>
             <bibl> 

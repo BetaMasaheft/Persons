@@ -56,38 +56,40 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" xml:id="n1" type="birth">ድሜጥሮስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Dǝmeṭros</persName>
         
-               <persName><roleName type="title">ʾaṣe</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾaṣe</roleName>
+               </persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                
                <occupation type="ruler">Emperor</occupation>
-               <residence> <placeName ref="LOC3577Gondar">Gondar</placeName></residence>
+               <residence> 
+                  <placeName ref="LOC3577Gondar">Gondar</placeName>
+               </residence>
                
                
-               <floruit  notBefore="1799" notAfter="1801">He was one of the puppet rulers of the Zamana masāfǝnt. When <roleName type="title">ʾaṣe</roleName>
+               <floruit notBefore="1799" notAfter="1801">He was one of the puppet rulers of the Zamana masāfǝnt. When <roleName type="title">ʾaṣe</roleName>
                   <persName ref="PRS8423Salomon">Salomon III</persName> was deposed, <roleName type="title">daǧǧāzmāč</roleName> 
                   <persName ref="PRS4871GugsaMe">Gugsā Mǝrč̣ā</persName>  and <roleName type="title">daǧǧāzmāč</roleName> 
                   <persName ref="PRS1774Alula">ʾAlulā</persName> made <persName ref="PRS3501Demetros">Dǝmeṭros</persName> an emperor at 
                   <placeName ref="LOC3577Gondar">Gondar</placeName> in 
                      <date>1799</date>. Then, he immediately rewarded his benefactors by appointing them to important positions. He was deposed in March <date>1800</date>
-                  and succeeded by <roleName type="title">ʾaṣe</roleName> <persName ref="PRS9142TaklaGi">Takla Giyorgis I</persName>.  
+                  and succeeded by <roleName type="title">ʾaṣe</roleName> 
+                  <persName ref="PRS9142TaklaGi">Takla Giyorgis I</persName>.  
                   <persName ref="PRS3501Demetros">Dǝmeṭros</persName> was restored in June <date>1800</date> and again deposed in <date>1801</date>.
                </floruit>
           
             </person>
             <listRelation>
-               <relation name="snap:SonOf" 
-                  active="PRS3501Demetros"
-                  passive="PRS2054Arqadewo"
-                 ></relation>
-               <relation name="snap:AllianceWith"                  
-                  active="PRS3501Demetros"
-                  passive="PRS4871GugsaMe"
-                 ></relation>
-               <relation name="snap:AllianceWith"                  
-                  active="PRS3501Demetros"
-                  passive="PRS1774Alula"
-                 ></relation>
+               <relation name="snap:SonOf"
+                         active="PRS3501Demetros"
+                         passive="PRS2054Arqadewo"/>
+               <relation name="snap:AllianceWith"
+                         active="PRS3501Demetros"
+                         passive="PRS4871GugsaMe"/>
+               <relation name="snap:AllianceWith"
+                         active="PRS3501Demetros"
+                         passive="PRS1774Alula"/>
             </listRelation>
          </listPerson>
          <listBibl type="editions">
@@ -111,9 +113,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-                  
-                  

@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>ʿƎzrā</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -56,17 +56,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                   <persName xml:lang="gez" xml:id="n1" type="birth">ዕዝራ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʿƎzrā</persName>
-                  <persName><roleName type="title">ʾabbā </roleName></persName>
+                  <persName>
+                  <roleName type="title">ʾabbā </roleName>
+               </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   <occupation type="ecclesiastic"> saint </occupation>
-               <birth> He was born at <placeName ref="LOC1236Agama">ʾAgāma</placeName></birth>
-               <residence><placeName ref="LOC3653GundaG">Gunda Gunde</placeName></residence>
+               <birth> He was born at <placeName ref="LOC1236Agama">ʾAgāma</placeName>
+               </birth>
+               <residence>
+                  <placeName ref="LOC3653GundaG">Gunda Gunde</placeName>
+               </residence>
                <floruit> He was  a saint of  15th to early 16th century and a follower of ʾabbā <persName ref="PRS3894estifano">ʾƎsṭifānos</persName>. 
                   Since there was a shortage of priests following the persecution of the <persName ref="PRS11211Stephanites">Stephanites</persName> by King <persName ref="PRS10626ZaraY">Zarʾa Yāʿǝqob</persName>, 
                   he was chosen by  ʾabbā  <persName ref="PRS1008Abakaraz">ʾAbakarazun</persName>, 
                   the head of the monastery of <placeName ref="LOC3653GundaG">Gunda Gunde</placeName>
-                  to go to <placeName ref="gn:281184">Jerusalem</placeName> in <date>1476</date>.
+                  to go to <placeName ref="Q1218">Jerusalem</placeName> in <date>1476</date>.
                      
                   </floruit>
                   <death when="1520"/>
@@ -74,24 +79,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <listRelation>
                   
                   <relation name="snap:AllianceWith"
-                     
-                     active="PRS3946ezra"
-                     passive="PRS1008Abakaraz"
-                    ></relation>
+                         active="PRS3946ezra"
+                         passive="PRS1008Abakaraz"/>
                   <relation name="snap:AllianceWith"
-                     
-                     active="PRS3946ezra"
-                     passive="PRS7481NaodA"
-                    ></relation>
-                  <relation name="rel:enemyOf"
-                     
-                     active="PRS3946ezra"
-                     passive="PRS10626ZaraY"
-                    ></relation>
-                  <relation name="ecrm:P129i_is_subject_of" 
-                     active="PRS3946ezra"
-                     passive="LIT1439Gadlae"
-                    ></relation>
+                         active="PRS3946ezra"
+                         passive="PRS7481NaodA"/>
+                  <relation name="rel:enemyOf" active="PRS3946ezra" passive="PRS10626ZaraY"/>
+                  <relation name="ecrm:P129i_is_subject_of"
+                         active="PRS3946ezra"
+                         passive="LIT1439Gadlae"/>
                   
                </listRelation>
          </listPerson>
@@ -112,17 +108,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-                  
-                

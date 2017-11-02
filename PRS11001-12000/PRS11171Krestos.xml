@@ -56,27 +56,30 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ክርስቶስ፡ ሞአ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Krǝstos Moʾa</persName>
-               <persName><roleName type="title">ʿaqqābe saʿat</roleName></persName>
+               <persName>
+                  <roleName type="title">ʿaqqābe saʿat</roleName>
+               </persName>
                <occupation type="ecclesiastic"> abbot </occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
              
-               <residence><placeName ref="INS0327DHE">Dabra Ḥayq ʾƎsṭifānos</placeName></residence>
+               <residence>
+                  <placeName ref="INS0327DHE">Dabra Ḥayq ʾƎsṭifānos</placeName>
+               </residence>
                <floruit notBefore="1344" notAfter="1371">He was the abbot of <placeName ref="INS0327DHE">Dabra Ḥayq ʾƎsṭifānos</placeName> sometime in the reign 
-                  of <roleName type="title">ʾaṣe</roleName> <persName ref="PRS8595SayfaAr">Sayfa ʾArʿad</persName>.
+                  of <roleName type="title">ʾaṣe</roleName> 
+                  <persName ref="PRS8595SayfaAr">Sayfa ʾArʿad</persName>.
                   He was the immediate successor of ʿaqqābe saʿat <persName ref="PRS10374Yohanne">Yoḥannǝs</persName>.
         </floruit>
            
             </person>
             <listRelation>
                <relation name="snap:AllianceWith"
-                  active="PRS11171Krestos"
-                  passive="PRS8595SayfaAr"
-                 ></relation>
+                         active="PRS11171Krestos"
+                         passive="PRS8595SayfaAr"/>
                <relation name="snap:AllianceWith"
-                  active="PRS11171Krestos"
-                  passive="PRS10374Yohanne"
-                 ></relation>
+                         active="PRS11171Krestos"
+                         passive="PRS10374Yohanne"/>
                
                
             </listRelation>
@@ -95,16 +98,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-               
-               

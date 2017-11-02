@@ -56,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
           
                   <persName>Pedro Páez</persName>
       
-             <occupation type="ecclesiastic">missionary</occupation>
+               <occupation type="ecclesiastic">missionary</occupation>
                <nationality type="Spain"/>
                <faith type="Catholicism"/>
                <birth>1564 </birth>
@@ -66,26 +66,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   He contributed to the early building projects of the mission. He authored several letters adressed to fellow Jesuits, friends and relatives in India and Europe.
                   In his final years of his life he authored an important book on Ethiopian history called História da Etiópia.
                </floruit>
-               <death> He died on <date>20 May 1622</date> at <placeName ref="LOC3589Gorgor">Gorgora</placeName> </death>
+               <death> He died on <date>20 May 1622</date> at <placeName ref="LOC3589Gorgor">Gorgora</placeName> 
+               </death>
             </person>
             <listRelation>
                <relation name="snap:AllianceWith"
-                  active="PRS7699Paez"
-                  passive="PRS9038Susenyos" 
-                 ></relation>
+                         active="PRS7699Paez"
+                         passive="PRS9038Susenyos"/>
                <relation name="snap:AllianceWith"
-                  active="PRS7699Paez"
-                  passive="PRS9194Taklase"
-                 ></relation>
+                         active="PRS7699Paez"
+                         passive="PRS9194Taklase"/>
                <relation name="snap:AllianceWith"
-                  active="PRS9194Taklase"
-                  passive="PRS8681SeelaK"
-                 ></relation>
+                         active="PRS9194Taklase"
+                         passive="PRS8681SeelaK"/>
                <relation name="snap:AllianceWith"
-                  active="PRS7699Paez"
-                  passive="PRS8681SeelaK"
-                 ></relation>
-         </listRelation>
+                         active="PRS7699Paez"
+                         passive="PRS8681SeelaK"/>
+            </listRelation>
          </listPerson>
          <listBibl type="editions">
             <bibl>
@@ -112,5 +109,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-               

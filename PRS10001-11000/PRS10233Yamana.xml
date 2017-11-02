@@ -55,34 +55,31 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
           
-          <persName xml:lang="gez" xml:id="n1" type="birth">የማነ፡ ክርስቶስ፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">የማነ፡ ክርስቶስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Yamāna Krǝstos</persName>
                   <persName xml:lang="gez" corresp="n2" type="birth">the Jesuit sources call him“Emana” or “Imano”</persName>
-               <persName><roleName type="title">rās</roleName></persName>
+               <persName>
+                  <roleName type="title">rās</roleName>
+               </persName>
             
                <occupation type="political">governor or military commander </occupation>
             
         
-               <floruit when="1605" evidence="internal">He  refused to side with his brother <roleName type="title">ʾaṣe</roleName> <persName ref="PRS9038Susenyos">Susǝnyos</persName>
-                  in a struggle against the young <roleName type="title">ʾaṣe</roleName> <persName ref="PRS10198Yaeqob">Yāʿǝqob</persName>in<date>1605</date>.  
+               <floruit when="1605" evidence="internal">He  refused to side with his brother <roleName type="title">ʾaṣe</roleName> 
+                  <persName ref="PRS9038Susenyos">Susǝnyos</persName>
+                  in a struggle against the young <roleName type="title">ʾaṣe</roleName> 
+                  <persName ref="PRS10198Yaeqob">Yāʿǝqob</persName>in<date>1605</date>.  
                </floruit>
                <death when="1636" evidence="internal"/> 
             </person>
             <listRelation>
-               <relation name="snap:SonOf" 
-                  active="PRS10233Yamana"
-                  passive="PRS5045hamalmal"
-                 ></relation>
+               <relation name="snap:SonOf" active="PRS10233Yamana" passive="PRS5045hamalmal"/>
                <relation name="snap:BrotherOf"
-                  active="PRS10233Yamana"
-                  passive="PRS9038Susenyos"
-                 > </relation>
+                         active="PRS10233Yamana"
+                         passive="PRS9038Susenyos"> </relation>
                <relation name="snap:BrotherOf"
-                  
-                  active="PRS10233Yamana"
-                  passive="PRS8681SeelaK"
-                  
-                 ></relation>
+                         active="PRS10233Yamana"
+                         passive="PRS8681SeelaK"/>
             
                
             </listRelation>
@@ -111,5 +108,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-           

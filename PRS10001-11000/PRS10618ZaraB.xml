@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Zarʾa Buruk</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -53,44 +53,40 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-            <persName xml:lang="gez" xml:id="n1" type="birth">ዘርአ፡ ቡሩክ፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ዘርአ፡ ቡሩክ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Zarʾa Buruk</persName>
                <persName xml:lang="gez" xml:id="n2" type="birth">ዘርአ፡ ብሩክ፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">Zarʾabruk</persName>
                <persName xml:lang="gez" xml:id="n3" type="baptismal">ጸጋ፡ ክርስቶስ፡</persName>
                <persName xml:lang="gez" corresp="#n3" type="normalized">Ṣaggā Krǝstos</persName>
-               <persName><roleName type="title">ʾabuna </roleName></persName>
+               <persName>
+                  <roleName type="title">ʾabuna </roleName>
+               </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   <occupation type="ecclesiastic">saint</occupation>
-                  <residence></residence>
-                  <birth notBefore="1630" notAfter="1640"></birth>
-               <floruit>He was a saintly figure from <placeName ref="LOC3549Gojjam">Goǧǧām</placeName>, a contemporary of <roleName type="title">ʾaṣe </roleName><persName ref="PRS10375Yohanne">Yoḥannǝs I</persName> and  <roleName type="title">ʾaṣe</roleName>
+                  <residence/>
+                  <birth notBefore="1630" notAfter="1640"/>
+               <floruit>He was a saintly figure from <placeName ref="LOC3549Gojjam">Goǧǧām</placeName>, a contemporary of <roleName type="title">ʾaṣe </roleName>
+                  <persName ref="PRS10375Yohanne">Yoḥannǝs I</persName> and  <roleName type="title">ʾaṣe</roleName>
                   <persName ref="PRS5616IyasuI">ʾIyāsu I</persName>. Towards the end of his life, <persName ref="PRS10618ZaraB">Zarʾa Buruk</persName> appears to have been involved in the 
-                  Christological controversies of his time. As a result of his disagreeing with <roleName type="title">ʾaṣe </roleName><persName ref="PRS5616IyasuI">ʾIyāsu I</persName>,  he was imprisoned for five years. 
+                  Christological controversies of his time. As a result of his disagreeing with <roleName type="title">ʾaṣe </roleName>
+                  <persName ref="PRS5616IyasuI">ʾIyāsu I</persName>,  he was imprisoned for five years. 
                   His centre  of veneration is the church dedicated to him, St Michael at <placeName ref="LOC3403Gelgal">Gǝš ʾAbbāy</placeName>. 
     </floruit>
-                  <death when="1700"></death>
+                  <death when="1700"/>
                </person>  
                <listRelation>
-                  <relation name="snap:SonOf"
-                     active="PRS10618ZaraB"
-                     passive="PRS3306DamaKre"
-                    ></relation>
-                  <relation name="snap:SonOf"
-                     active="PRS10618ZaraB"
-                     passive="PRS6826MaryamM"
-                    ></relation>
+                  <relation name="snap:SonOf" active="PRS10618ZaraB" passive="PRS3306DamaKre"/>
+                  <relation name="snap:SonOf" active="PRS10618ZaraB" passive="PRS6826MaryamM"/>
                
                   <relation name="snap:AllianceWith"
-                     active="PRS10618ZaraB"
-                     passive="PRS10375Yohanne"
-                    ></relation>
+                         active="PRS10618ZaraB"
+                         passive="PRS10375Yohanne"/>
                   
                   <relation name="snap:AllianceWith"
-                     active="PRS10618ZaraB"
-                     passive="PRS5616IyasuI"
-                    ></relation>
+                         active="PRS10618ZaraB"
+                         passive="PRS5616IyasuI"/>
             
                   
                </listRelation>
@@ -108,6 +104,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-                  
-               

@@ -54,35 +54,35 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-        <persName xml:lang="gez" xml:id="n1" type="birth">ኢያሱ፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ኢያሱ፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">ʾIyāsu IV</persName>
-               <persName><roleName type="title">ʾaṣe </roleName></persName>
+               <persName>
+                  <roleName type="title">ʾaṣe </roleName>
+               </persName>
             
                <occupation type="ruler">Emperor</occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
-               <residence><placeName ref="LOC3577Gondar"> Gondar</placeName></residence>
+               <residence>
+                  <placeName ref="LOC3577Gondar"> Gondar</placeName>
+               </residence>
              
                <floruit when="1831" evidence="internal">He reigned only for the seven months, in the year of <date>1831</date>. 
-                  He was a protégé of <roleName type="title">rās </roleName><persName ref="PRS3617DoriGug">Dori</persName> and finally leaving his office, 
+                  He was a protégé of <roleName type="title">rās </roleName>
+                  <persName ref="PRS3617DoriGug">Dori</persName> and finally leaving his office, 
                   he retired to the monastery of <placeName ref="INS0316Waldb">Waldǝbbā</placeName> 
                  </floruit>
      
             </person>
             <listRelation>
-               <relation name="snap:SonOf" 
-                  active="PRS5619IyasuIV"
-                  passive="PRS8422Salomon"
-                 ></relation>
-               <relation name="snap:GrandsonOf" 
-                  active="PRS5619IyasuIV"
-                  passive="PRS9153TaklaHa"
-                 ></relation>
+               <relation name="snap:SonOf" active="PRS5619IyasuIV" passive="PRS8422Salomon"/>
+               <relation name="snap:GrandsonOf"
+                         active="PRS5619IyasuIV"
+                         passive="PRS9153TaklaHa"/>
                <relation name="snap:AllianceWith"
-                  active="PRS5619IyasuIV"
-                  passive="PRS3617DoriGug"
-                 ></relation>
-        </listRelation>
+                         active="PRS5619IyasuIV"
+                         passive="PRS3617DoriGug"/>
+            </listRelation>
          </listPerson>
          <listBibl type="editions">
             <bibl>

@@ -57,7 +57,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <persName xml:lang="gez" xml:id="n1" type="birth">ጴጥሮስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Ṗeṭros III</persName>
               
-                  <persName><roleName type="title">ʾabuna</roleName></persName>
+                  <persName>
+                  <roleName type="title">ʾabuna</roleName>
+               </persName>
                   <occupation type="ecclesiastic"> metropolitan </occupation>
                   <nationality type="Egypt"/>
                   <faith type="Coptic"/>
@@ -71,27 +73,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <persName ref="PRS10198Yaeqob">Yāʿǝqob</persName> by King <persName ref="PRS9038Susenyos">Susǝnyos'</persName> forces. 
                      
                   </floruit>
-               <death>He died on <date>10 March 1607</date> at <placeName ref="LOC3684Gwal">Gwal (Gol)</placeName></death>
+               <death>He died on <date>10 March 1607</date> at <placeName ref="LOC3684Gwal">Gwal (Gol)</placeName>
+               </death>
                </person>
                <listRelation>
                   <relation name="snap:AllianceWith"
-                     
-                     active="PRS7829Petros"
-                     passive="PRS8550sardaDe"
-                    ></relation>
+                         active="PRS7829Petros"
+                         passive="PRS8550sardaDe"/>
                   
                   <relation name="snap:AllianceWith"
-                     
-                     active="PRS7829Petros"
-                     passive="PRS10198Yaeqob"
-                    ></relation>
+                         active="PRS7829Petros"
+                         passive="PRS10198Yaeqob"/>
            
  
-                  <relation name="rel:enemyOf"
-                     
-                     active="PRS7829Petros"
-                     passive="PRS9038Susenyos"
-                    ></relation>
+                  <relation name="rel:enemyOf" active="PRS7829Petros" passive="PRS9038Susenyos"/>
                   
                </listRelation>
          </listPerson>
@@ -110,17 +105,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-                  
-                 

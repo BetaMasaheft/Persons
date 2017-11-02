@@ -55,8 +55,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ጊዮርጊስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Giyorgis II</persName>
+<<<<<<< HEAD
                <persName><roleName type="title">ʾabuna</roleName></persName>
                <occupation type="ecclesiastic">metropolitan</occupation>
+=======
+               <persName>
+                  <roleName type="title">ʾabuna</roleName>
+               </persName>
+               <occupation type="ecclesiastic"> metropolitan </occupation>
+>>>>>>> 06842efd72b760dd97dda4d368a2f4a837f2a967
                <nationality type="Egypt"/>
                <faith type="Coptic"/>
              
@@ -65,16 +72,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <persName ref="PRS6152Lalibala">Lālibalā</persName> who was consecrated by the then Egyptian  patriarch <persName ref="PRS5703JohnVI">John VI</persName> in <date> 1215</date>.
                   
                   His name appears in the colophon of  <title ref="LIT1709Kebran">Kǝbra nagaśt</title> which states that the work had first been translated from Coptic into Arabic in the year <date>1224-1225</date>
-                  during the reign of <roleName type="title">ʾaṣe</roleName> <persName ref="PRS6152Lalibala">Lālibalā</persName> and the metropolitanate <persName ref="PRS4701Giyorgis">Giyorgis</persName>.  
+                  during the reign of <roleName type="title">ʾaṣe</roleName> 
+                  <persName ref="PRS6152Lalibala">Lālibalā</persName> and the metropolitanate <persName ref="PRS4701Giyorgis">Giyorgis</persName>.  
                   He was the successor of bishop <persName ref="PRS10344Yeshaq">Yǝsḥaq I</persName>.
                  </floruit>
              
             </person>
             <listRelation>
                <relation name="snap:AllianceWith"
-                  active="PRS4701Giyorgis"
-                  passive="PRS6152Lalibala"
-                 ></relation>
+                         active="PRS4701Giyorgis"
+                         passive="PRS6152Lalibala"/>
            </listRelation>
          </listPerson>
          <listBibl type="secondary">
@@ -89,9 +96,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-                  
-                  

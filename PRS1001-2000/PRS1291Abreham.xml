@@ -55,24 +55,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">አብርሃም</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAbrǝham</persName>
-           <persName><roleName type="title">ʿǝč̣č̣age</roleName></persName>
+               <persName>
+                  <roleName type="title">ʿǝč̣č̣age</roleName>
+               </persName>
                <occupation type="ecclesiastic">abbot </occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
              
-               <residence><placeName ref="INS0341">Dabra Libānos</placeName></residence>
+               <residence>
+                  <placeName ref="INS0341">Dabra Libānos</placeName>
+               </residence>
                <floruit when="1591" evidence="internal">He was the seventeenth abbot of <placeName ref="INS0341DL">Dabra Libānos</placeName>
                   who succeeded ʿǝč̣č̣age <persName ref="PRS10651ZatraW">Zatra Wangel</persName> in<date>1591</date>. He was a contemporary of both King  
                   <persName ref="PRS8550sardaDe">Śarḍa Dǝngǝl</persName> and King <persName ref="PRS9038Susenyos">Susǝnyos</persName> 
                   
                 </floruit>
-               <death when="1612" evidence="internal">He died in the sixth year of  the reign of King <persName ref="PRS9038Susenyos">Susǝnyos</persName></death>
+               <death when="1612" evidence="internal">He died in the sixth year of  the reign of King <persName ref="PRS9038Susenyos">Susǝnyos</persName>
+               </death>
             </person>
             <listRelation>
                <relation name="snap:FriendshipFor"
-                  active="PRS1291Abreham"
-                  passive="PRS9038Susenyos"
-                 ></relation>
+                         active="PRS1291Abreham"
+                         passive="PRS9038Susenyos"/>
                </listRelation>
          </listPerson>
          <listBibl type="secondary">
@@ -87,13 +91,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-                  
-                  

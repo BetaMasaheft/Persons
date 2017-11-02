@@ -53,17 +53,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ገብረ፡ ክርስቶስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Gabra Krǝstos</persName>
-               <persName><roleName type="title">ʾabbā</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾabbā</roleName>
+               </persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <occupation type="ecclesiastic">abbot</occupation>
                <floruit/>
             </person>  
             <listRelation>
-               <relation name="ecrm:P129i_is_subject_of" 
-                  active="PRS4285GabraKr"
-                  passive="LIT4751GadlaGK"
-                  ></relation>
+               <relation name="ecrm:P129i_is_subject_of"
+                         active="PRS4285GabraKr"
+                         passive="LIT4751GadlaGK"/>
             </listRelation>
          </listPerson>
          <listBibl type="secondary">

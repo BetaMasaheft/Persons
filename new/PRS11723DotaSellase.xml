@@ -1,7 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS11723DotaSellase" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="PRS11723DotaSellase"
+     xml:lang="en"
+     type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -58,11 +63,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <floruit/>
                 </person>
                 <listRelation>
-                           <relation name="bm:wifeOf" active="PRS11723DotaSellase" passive="PRS11722GabraMaryam"/>
-                        <relation name="lawd:hasAttestation" active="PRS11723DotaSellase" passive="IVefiopsk11"/>
-                    <relation name="snap:MotherOf" active="PRS11723DotaSellase" passive="PRS11720WahibaSellase"/>
+                           <relation name="bm:wifeOf"
+                         active="PRS11723DotaSellase"
+                         passive="PRS11722GabraMaryam"/>
+                        <relation name="lawd:hasAttestation"
+                         active="PRS11723DotaSellase"
+                         passive="IVefiopsk11"/>
+                    <relation name="snap:MotherOf"
+                         active="PRS11723DotaSellase"
+                         passive="PRS11720WahibaSellase"/>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
+         <!---->
         </body>
     </text>
 </TEI>

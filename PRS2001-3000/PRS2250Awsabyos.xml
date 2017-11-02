@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>ʾAwsābǝyos</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -53,33 +53,31 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-       <persName xml:lang="gez" xml:id="n1" type="birth">አውሳቢዮስ፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">አውሳቢዮስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAwsābiyos</persName>
                <persName xml:lang="gez" xml:id="n2" type="birth">አውሳብዮስ፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAwsābǝyos</persName>
-               <persName><roleName type="title">ʾǝč̣č̣age</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾǝč̣č̣age</roleName>
+               </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
-                  <occupation></occupation>
+                  <occupation/>
                 
                   
                   
-               <floruit></floruit>
+               <floruit/>
             
                </person>
                <listRelation>
                   
                
-                  <relation 
-                     name="snap:AllianceWith"
-                     active="PRS2250Awsabyos"
-                     passive="PRS8491Samuel"
-                    ></relation>
-                  <relation 
-                     name="ecrm:P129i_is_subject_of" 
-                     active="PRS2250Awsabyos"
-                     passive="LIT1424GadlaA"
-                    ></relation>
+                  <relation name="snap:AllianceWith"
+                         active="PRS2250Awsabyos"
+                         passive="PRS8491Samuel"/>
+                  <relation name="ecrm:P129i_is_subject_of"
+                         active="PRS2250Awsabyos"
+                         passive="LIT1424GadlaA"/>
                      
                </listRelation>
          </listPerson>
@@ -92,10 +90,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>   
 </TEI>
-
-
-
-
-
-                  
-                  

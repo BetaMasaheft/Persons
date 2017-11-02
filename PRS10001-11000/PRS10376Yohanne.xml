@@ -59,7 +59,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName>Yoḥannǝs II</persName>
               <persName xml:lang="gez" xml:id="n1" type="birth">ዮሐንስ፡</persName>
                    <persName xml:lang="gez" corresp="#n1" type="normalized">Yoḥannǝs II</persName>
-               <persName><roleName type="title">ʾaṣe</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾaṣe</roleName>
+               </persName>
              
                   <occupation type="ruler">Emperor</occupation>
                   <nationality type="Ethiopia"/>
@@ -72,26 +74,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <death when="1769" evidence="internal">15 October 1769</death>
             </person>
             <listRelation>
-               <relation name="snap:SonOf" 
-                  active="PRS10376Yohanne"
-                  passive="PRS5616IyasuI"
-                 ></relation>
+               <relation name="snap:SonOf" active="PRS10376Yohanne" passive="PRS5616IyasuI"/>
                <relation name="snap:BrotherOf"
-                  active="PRS10376Yohanne"
-                  passive="PRS2377Bakaffa"
-                 ></relation>
+                         active="PRS10376Yohanne"
+                         passive="PRS2377Bakaffa"/>
                <relation name="snap:BrotherOf"
-                     active="PRS10376Yohanne"
-                     passive="PRS3430DawitII"
-                    ></relation>
+                         active="PRS10376Yohanne"
+                         passive="PRS3430DawitII"/>
                <relation name="snap:BrotherOf"
-                  active="PRS10376Yohanne"
-                  passive="PRS9152TaklaHa"
-                 ></relation>
-               <relation name="snap:FatherOf" 
-                  active="PRS10376Yohanne"
-                  passive="PRS9153TaklaHa"
-                 ></relation>
+                         active="PRS10376Yohanne"
+                         passive="PRS9152TaklaHa"/>
+               <relation name="snap:FatherOf"
+                         active="PRS10376Yohanne"
+                         passive="PRS9153TaklaHa"/>
             </listRelation>
          </listPerson>
          <listBibl type="editions">
@@ -99,7 +94,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <ptr target="bm:Guidi1954IyasuII"/>
             </bibl>
          </listBibl>
-      <listBibl type="secondary">
+         <listBibl type="secondary">
             <bibl> 
                <ptr target="bm:Dege2014YohannesII"/>
               </bibl>  
@@ -107,8 +102,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-

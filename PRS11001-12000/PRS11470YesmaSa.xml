@@ -47,15 +47,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName  xml:lang="gez" xml:id="n1">ይስማዕ፡ ጸሎተነ፡</persName>
-               <persName  xml:lang="gez" type="normalized" corresp="#n1">Yǝsmāʿ Ṣalotana</persName>
+               <persName xml:lang="gez" xml:id="n1">ይስማዕ፡ ጸሎተነ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Yǝsmāʿ Ṣalotana</persName>
                <faith type="EOTC"/>
                <residence>
                   <placeName ref="INS0302SanStefano"> Santo Stefano dei Mori </placeName>
                </residence>
             </person>
             <listRelation>
-               <relation name="lawd:hasAttestation" active="PRS11470YesmaSa" passive="BAVet58"><!-- Later owner (MV 2017-03-22) --></relation>
+               <relation name="lawd:hasAttestation"
+                         active="PRS11470YesmaSa"
+                         passive="BAVet58"><!-- Later owner (MV 2017-03-22) --></relation>
             </listRelation>
          </listPerson>
       </body>

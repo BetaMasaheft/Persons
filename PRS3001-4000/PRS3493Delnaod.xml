@@ -55,11 +55,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-      <persName xml:lang="gez" xml:id="n1" type="birth">ድልናዖድ፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ድልናዖድ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Dǝlnāʿod</persName>
                <persName xml:lang="gez" xml:id="n2" type="birth">ድልነዓድ፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">Dǝl Naʾad</persName>
-               <persName><roleName type="title">ʾaṣe</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾaṣe</roleName>
+               </persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                
@@ -67,21 +69,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
              
                <floruit> Acording to the Ethiopian king lists, he was the last king of ʾAksum before the Zāgʷe dynasty. 
                </floruit>
-               <death></death>
+               <death/>
                </person>
             <listRelation>
-               <relation name="snap:SonOf" 
-                  active="PRS3493Delnaod"
-                  passive="PRS3468Degnagan"
-                 ></relation>
-               <relation name="snap:BrotherOf" 
-                  active="PRS3493Delnaod"
-                  passive="PRS1915AnbasaW"
-                 ></relation>
-               <relation name="snap:AllianceWith" 
-                  active="PRS3493Delnaod"
-                  passive="PRS8390Salama"
-                 ></relation>
+               <relation name="snap:SonOf" active="PRS3493Delnaod" passive="PRS3468Degnagan"/>
+               <relation name="snap:BrotherOf"
+                         active="PRS3493Delnaod"
+                         passive="PRS1915AnbasaW"/>
+               <relation name="snap:AllianceWith"
+                         active="PRS3493Delnaod"
+                         passive="PRS8390Salama"/>
             </listRelation>
          </listPerson>
          <listBibl type="editions">
@@ -103,8 +100,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-               
-   

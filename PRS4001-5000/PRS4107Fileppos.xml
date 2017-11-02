@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Filǝṗṗos of Dabra Bizan</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -55,51 +55,46 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ፊልጶስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Filǝṗṗos</persName>
-                  <persName><roleName type="title">ʾabbā</roleName></persName>
+                  <persName>
+                  <roleName type="title">ʾabbā</roleName>
+               </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   <occupation type="ecclesiastic">abbot</occupation>
                <birth notBefore="1322" notAfter="1323">He was born  
                   during the reign of King <persName ref="PRS1854Amdase">ʿAmda Ṣǝyon I</persName>. </birth>
-               <floruit notBefore="1350"  notAfter="1406">He was a saint and prominent member of the <persName ref="PRS11207Ewostateans">ʾEwosṭāteans</persName>
+               <floruit notBefore="1350" notAfter="1406">He was a saint and prominent member of the <persName ref="PRS11207Ewostateans">ʾEwosṭāteans</persName>
                   who lived in the 14th and 15th century.  He was the spiritual son of <persName ref="PRS2385Bakimos">Bakimos of Dabra Ṣarābi</persName>, 
                   who was the pupil of <persName ref="PRS3932Ewostate">ʾEwosṭātewos</persName>. He was the founder of the monastery of 
                   <placeName ref="LOC2251DabraB">Dabra Bizan</placeName> in <date>1373/74</date>, the strong hold of 
                   <persName ref="PRS11207Ewostateans">ʾEwosṭāteans</persName>. During his tenure as an  abbot, the monastery of  
                   <placeName ref="LOC2251DabraB">Dabra Bizan</placeName> became prosperous. Due to his refusal to renounce the teaching of the
                   two Sabbaths, he was imprisoned in <placeName ref="INS0327DHE">Dabra Ḥayq ʾƎsṭifānos</placeName> and set free in <date>1403/04</date>. 
-                  He was succeeded by <roleName type="title">ʾabbā</roleName><persName ref="PRS10371Yohanne">Yoḥannǝs</persName>, 
+                  He was succeeded by <roleName type="title">ʾabbā</roleName>
+                  <persName ref="PRS10371Yohanne">Yoḥannǝs</persName>, 
                   the second abbot of <placeName ref="LOC2251DabraB">Dabra Bizan</placeName>.</floruit>
                   <death when="1406">He died at age of 84</death>
                </person>  
                <listRelation>
-                  <relation name="snap:SonOf"
-                     active="PRS4107Fileppos"
-                     passive="PRS10331Yerdea"
-                    ></relation>
+                  <relation name="snap:SonOf" active="PRS4107Fileppos" passive="PRS10331Yerdea"/>
                  
                  
                   <relation name="snap:AllianceWith"
-                     active="PRS4107Fileppos"
-                     passive="PRS10371Yohanne"
-                    ></relation>
+                         active="PRS4107Fileppos"
+                         passive="PRS10371Yohanne"/>
                   
                   <relation name="snap:AllianceWith"
-                     active="PRS4107Fileppos"
-                     passive="PRS2469Bartalom"
-                    ></relation>
+                         active="PRS4107Fileppos"
+                         passive="PRS2469Bartalom"/>
                   <relation name="snap:AllianceWith"
-                     active="PRS4107Fileppos"
-                     passive="PRS10342Yeshaq"
-                    ></relation>
+                         active="PRS4107Fileppos"
+                         passive="PRS10342Yeshaq"/>
                   <relation name="snap:AllianceWith"
-                     active="PRS4107Fileppos"
-                     passive="PRS8537saraqaB"
-                    ></relation>
+                         active="PRS4107Fileppos"
+                         passive="PRS8537saraqaB"/>
                   <relation name="ecrm:P129i_is_subject_of"
-                     active="PRS4107Fileppos"
-                     passive="LIT1444GadlaF"
-                    ></relation>
+                         active="PRS4107Fileppos"
+                         passive="LIT1444GadlaF"/>
                </listRelation>
          </listPerson>
          

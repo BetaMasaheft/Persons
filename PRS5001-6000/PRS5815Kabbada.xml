@@ -56,7 +56,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ከበደ፡ ተፈሪ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Kabbada Tafari</persName>
-               <persName><roleName type="title">wag šum </roleName></persName>
+               <persName>
+                  <roleName type="title">wag šum </roleName>
+               </persName>
                
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
@@ -80,18 +82,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
             </person>
             <listRelation>
-               <relation name="snap:SonOf"
-                  active="PRS5815Kabbada"
-                  passive="PRS9104TafariW"
-                  ></relation>
+               <relation name="snap:SonOf" active="PRS5815Kabbada" passive="PRS9104TafariW"/>
                <relation name="snap:AllianceWith"
-                  active="PRS5815Kabbada"
-                  passive="PRS7006Menilek"
-                  ></relation>
+                         active="PRS5815Kabbada"
+                         passive="PRS7006Menilek"/>
                <relation name="snap:AllianceWith"
-                  active="PRS5815Kabbada"
-                  passive="PRS5226haylase"
-                  ></relation>
+                         active="PRS5815Kabbada"
+                         passive="PRS5226haylase"/>
                
                
                
@@ -122,17 +119,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-
-

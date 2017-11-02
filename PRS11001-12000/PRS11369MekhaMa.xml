@@ -49,14 +49,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:id="n1" xml:lang="gez">ምክሐ፡ ማርያም፡</persName>
                <persName xml:lang="gez" type="normalized" corresp="#n1" cert="low">Mǝkḥa Māryām</persName>
-               <occupation type="other"></occupation>
+               <occupation type="other"/>
                <faith type="EOTC"/>
                <!-- floruit 1541 AD -->
             </person>
             <listRelation>
-               <relation name="saws:hasOwned"
-                  active="PRS11369MekhaMa"
-                         passive="BAVet38">
+               <relation name="saws:hasOwned" active="PRS11369MekhaMa" passive="BAVet38">
                </relation>
             </listRelation>
          </listPerson>

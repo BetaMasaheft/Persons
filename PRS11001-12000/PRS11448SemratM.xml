@@ -48,10 +48,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="2">
-               <persName  xml:lang="gez" type="normalized" xml:id="n1">Sǝmrat Mikāʾel</persName>
+               <persName xml:lang="gez" type="normalized" xml:id="n1">Sǝmrat Mikāʾel</persName>
             </person>
             <listRelation>
-               <relation name="lawd:hasAttestation" active="PRS11448SemratM" passive="BDLaethf16"/>
+               <relation name="lawd:hasAttestation"
+                         active="PRS11448SemratM"
+                         passive="BDLaethf16"/>
                <relation name="bm:wifeOf" active="PRS11448SemratM" passive="PRS11447GabraM"/>
             </listRelation>
          </listPerson>

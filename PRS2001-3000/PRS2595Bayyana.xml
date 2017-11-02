@@ -12,7 +12,7 @@ type="application/xml" schematypens="http:/
       <fileDesc>
          <titleStmt>
             <title>Bayyana Zāhlāy</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             
             <author/>
@@ -57,10 +57,12 @@ type="application/xml" schematypens="http:/
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">በየነ፡ ዛህላይ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Bayyana Zāhlāy</persName>
-               <persName><roleName type="title">daǧǧāzmāč</roleName></persName>
+               <persName>
+                  <roleName type="title">daǧǧāzmāč</roleName>
+               </persName>
                
                
-             <nationality type="Eritrea"/>
+               <nationality type="Eritrea"/>
               
                <birth when="1900">He was born at<placeName ref="LOC5999Tokond"/>, southern <placeName ref="LOC1298Akkala"/> in <date>1900</date>.</birth>
                
@@ -77,15 +79,9 @@ type="application/xml" schematypens="http:/
             </person>
             
             <listRelation>
-               <relation name="snap:SonOf"
-                  active="PRS2595Bayyana"
-                  passive="PRS10527Zahlay"
-                  ></relation>
+               <relation name="snap:SonOf" active="PRS2595Bayyana" passive="PRS10527Zahlay"/>
                
-               <relation name="snap:SonOf"
-                  active="PRS2595Bayyana"
-                  passive="PRS10672Zawditu"
-                  ></relation>
+               <relation name="snap:SonOf" active="PRS2595Bayyana" passive="PRS10672Zawditu"/>
                
                
                
@@ -104,11 +100,3 @@ type="application/xml" schematypens="http:/
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-               

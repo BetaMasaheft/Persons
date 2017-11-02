@@ -48,8 +48,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName  xml:lang="gez" xml:id="n1">ተክለ፡ ወንጌል፡</persName>
-               <persName  xml:lang="gez" type="normalized" corresp="#n1">Gabra Marʿāwi</persName>
+               <persName xml:lang="gez" xml:id="n1">ተክለ፡ ወንጌል፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra Marʿāwi</persName>
                <faith type="EOTC"/>
                <occupation type="ecclesiastic">ʾabuna</occupation>
                <residence>
@@ -57,7 +57,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </residence>
             </person>
             <listRelation>
-               <relation name="lawd:hasAttestation" active="PRS11289GabraM" passive="BAVet13#a5"/>
+               <relation name="lawd:hasAttestation"
+                         active="PRS11289GabraM"
+                         passive="BAVet13#a5"/>
             </listRelation>
          </listPerson>
       </body>

@@ -60,7 +60,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" xml:id="n2" type="alt">ሀሊበ፡ ወንጌል፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">Haliba Wangel</persName>
                
-               <persName><roleName type="title">azzāž </roleName></persName>
+               <persName>
+                  <roleName type="title">azzāž </roleName>
+               </persName>
                   <occupation type="military">leader</occupation>
                   
                <floruit notBefore="1574" notAfter="1596">He was a trusted <roleName type="title">azzāž </roleName>at the court of <roleName type="title">ʾaṣe</roleName>
@@ -74,13 +76,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                <listRelation>
                   <relation name="snap:AllianceWith"
-                     active="PRS5014Halibo"
-                     passive="PRS8550sardaDe"
-                     ></relation>
-                  <relation name="rel:enemyOf"
-                     active="PRS5014Halibo"
-                     passive="PRS5842Kalef"
-                     ></relation>
+                         active="PRS5014Halibo"
+                         passive="PRS8550sardaDe"/>
+                  <relation name="rel:enemyOf" active="PRS5014Halibo" passive="PRS5842Kalef"/>
                   
                </listRelation>
          </listPerson>
@@ -97,12 +95,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-             

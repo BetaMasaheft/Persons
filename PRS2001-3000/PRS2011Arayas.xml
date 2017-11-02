@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>ʾArǝʾaya Śǝllāse Dǝmṣu</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             
             <author/>
@@ -56,15 +56,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">አርአያ፡ ሥላሴ፡ ድምጹ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾArǝʾaya Śǝllāse Dǝmṣu</persName>
-               <persName><roleName type="title">rās</roleName></persName>
+               <persName>
+                  <roleName type="title">rās</roleName>
+               </persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <occupation type="political">governor</occupation>
                <birth when="1810"/>
                
                
-               <floruit notBefore="1829" notAfter="1889">He was a maternal uncle of <roleName type="title">ʾaṣe</roleName><persName ref="PRS10378Yohanne"/>. 
-                  He had aspired to rule over <placeName ref="LOC6569Tegray"/>after the death of <roleName type="title">daǧǧāzmāč</roleName><persName ref="PRS8265Sabagadi">
+               <floruit notBefore="1829" notAfter="1889">He was a maternal uncle of <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS10378Yohanne"/>. 
+                  He had aspired to rule over <placeName ref="LOC6569Tegray"/>after the death of <roleName type="title">daǧǧāzmāč</roleName>
+                  <persName ref="PRS8265Sabagadi">
                      at the battle of <placeName ref="LOC4676MayEsl"/>in<placeName ref="LOC5749Sire"/> in <date>1829</date>. But <roleName type="title">daǧǧāzmāč</roleName>
                      <persName ref="PRS10102Webeha"/>incorporated <placeName ref="LOC6569Tegray"/>with <placeName ref="LOC5498Sallam"/>, 
                      <placeName ref="LOC6144Wagara"/>, <placeName ref="LOC5443Sagade"/>. He held a high commands under his nephew
@@ -74,16 +78,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         
                         
                      
-                  </persName></floruit>
+                  </persName>
+               </floruit>
                <death when="1889">He died at the battle of <placeName ref="LOC4637Matamm"/>.</death>
                
             </person>  
             <listRelation>
                
                <relation name="snap:UncleOf"
-                  active="PRS2011Arayas"
-                  passive="PRS10378Yohanne"
-                  ></relation>
+                         active="PRS2011Arayas"
+                         passive="PRS10378Yohanne"/>
                          </listRelation>
          </listPerson>
          <listBibl type="editions">
@@ -101,8 +105,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-                  
-                  

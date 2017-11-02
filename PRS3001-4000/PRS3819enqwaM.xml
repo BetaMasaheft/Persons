@@ -54,13 +54,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" xml:id="n1">ዕንቈ፡ ማርያም፡</persName>
                <persName xml:lang="gez" type="normalized" corresp="#n1">ʿƎnqʷa Māryām</persName>
                <faith type="EOTC"/>
-               <occupation type="ecclesiastic"><roleName type="title">rāyǝs</roleName> of Santo Stefano dei Mori</occupation>
+               <occupation type="ecclesiastic">
+                  <roleName type="title">rāyǝs</roleName> of Santo Stefano dei Mori</occupation>
                <residence>
                   <placeName ref="INS0302SanStefano"> Santo Stefano dei Mori </placeName>
                </residence>
             </person>
             <listRelation>
-               <relation name="lawd:hasAttestation" active="PRS3819enqwaM" passive="BAVet66#a15"><!-- Not certain - MV 2017-03-21 --></relation>
+               <relation name="lawd:hasAttestation"
+                         active="PRS3819enqwaM"
+                         passive="BAVet66#a15"><!-- Not certain - MV 2017-03-21 --></relation>
             </listRelation>
          </listPerson>
       </body>

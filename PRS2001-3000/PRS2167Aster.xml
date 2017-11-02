@@ -58,47 +58,30 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAster</persName>
                <persName xml:lang="gez" xml:id="n2" type="alt">አስቴር፡ ኢያሱ፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAster ʾIyāsu</persName>
-               <persName><roleName type="title">wayzaro</roleName></persName>
+               <persName>
+                  <roleName type="title">wayzaro</roleName>
+               </persName>
                <occupation type="political">Princess </occupation>
                
                <floruit notBefore="1700" notAfter="1799">She was the daughter of <persName ref="PRS2682BerhanM">Bǝrhān Mogasā</persName> and 
-                  <roleName type="title">grāzmāč</roleName><persName ref="PRS5621Iyasu">ʾIyāsu</persName>.  She was a prominent member of the Gondarine aristocracy.
+                  <roleName type="title">grāzmāč</roleName>
+                  <persName ref="PRS5621Iyasu">ʾIyāsu</persName>.  She was a prominent member of the Gondarine aristocracy.
            </floruit>
             
             </person>
             <listRelation>
                <relation name="snap:DaughterOf"
-                  active="PRS2167Aster"
-                  passive="PRS2682BerhanM"
-                 ></relation>
-               <relation name="snap:DaughterOf"
-                  active="PRS2167Aster"
-                  passive="PRS5621Iyasu"
-                 ></relation>
-               <relation name="snap:SisterOf"
-                  active="PRS2167Aster"
-                  passive="PRS1770AltasIy"
-                 ></relation>
-               <relation name="snap:SisterOf"
-                  active="PRS2167Aster"
-                  passive="PRS9827Walatta"
-                 ></relation>
-               <relation name="bm:wifeOf"
-                  active="PRS2167Aster"
-                  passive="PRS7445Naccoof"
-                 ></relation>
-               <relation name="bm:wifeOf"
-                  active="PRS2167Aster"
-                  passive="PRS10236Yamarya"
-                 ></relation>
-               <relation name="bm:wifeOf"
-                  active="PRS2167Aster"
-                  passive="PRS7091Mikael"
-                 ></relation>
+                         active="PRS2167Aster"
+                         passive="PRS2682BerhanM"/>
+               <relation name="snap:DaughterOf" active="PRS2167Aster" passive="PRS5621Iyasu"/>
+               <relation name="snap:SisterOf" active="PRS2167Aster" passive="PRS1770AltasIy"/>
+               <relation name="snap:SisterOf" active="PRS2167Aster" passive="PRS9827Walatta"/>
+               <relation name="bm:wifeOf" active="PRS2167Aster" passive="PRS7445Naccoof"/>
+               <relation name="bm:wifeOf" active="PRS2167Aster" passive="PRS10236Yamarya"/>
+               <relation name="bm:wifeOf" active="PRS2167Aster" passive="PRS7091Mikael"/>
                <relation name="snap:FriendshipFor"
-                  active="PRS2167Aster"
-                  passive="PRS2916Bruce"
-                 ></relation>
+                         active="PRS2167Aster"
+                         passive="PRS2916Bruce"/>
                
             </listRelation>
          </listPerson>
@@ -122,10 +105,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-                  
-                

@@ -57,7 +57,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAbete</persName>
                <persName xml:lang="gez" xml:id="n2" type="alt">አቤትዬ፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAbetye</persName>
-               <persName><roleName type="title">blātten getā </roleName></persName>
+               <persName>
+                  <roleName type="title">blātten getā </roleName>
+               </persName>
                
                
                <nationality type="Ethiopia"/>
@@ -84,13 +86,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             
             <listRelation>
                <relation name="snap:AllianceWith"
-                  active="PRS1238Abete"
-                  passive="PRS5616IyasuI"
-                 ></relation>
+                         active="PRS1238Abete"
+                         passive="PRS5616IyasuI"/>
                <relation name="snap:AllianceWith"
-                  active="PRS1238Abete"
-                  passive="PRS10383Yohanne"
-                 ></relation>
+                         active="PRS1238Abete"
+                         passive="PRS10383Yohanne"/>
                
                
                
@@ -119,10 +119,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-                  
-                

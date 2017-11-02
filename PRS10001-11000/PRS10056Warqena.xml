@@ -58,7 +58,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                   <persName xml:lang="gez" xml:id="n1" type="birth">ወርቅነህ፡ እሸቴ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Warqǝnah ʾƎšate</persName>
-               <persName><roleName type="title">ʾazzāž, ḥakim</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾazzāž, ḥakim</roleName>
+               </persName>
                   
                   
                   <nationality type="Ethiopia"/>
@@ -77,11 +79,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                <listRelation>
                   <relation name="snap:AllianceWith"
-                     active="PRS10056Warqena"
-                     passive="PRS5226haylase"></relation>
+                         active="PRS10056Warqena"
+                         passive="PRS5226haylase"/>
                   <relation name="saws:isAttributedAuthorOf"
-                     active="PRS10056Warqena"
-                     passive="LIT4545Yaalam"></relation>
+                         active="PRS10056Warqena"
+                         passive="LIT4545Yaalam"/>
                   
                   
                   
@@ -108,8 +110,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-                  
-                  

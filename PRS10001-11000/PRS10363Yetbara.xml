@@ -58,7 +58,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <persName>Yǝtbārak</persName>
                <persName xml:lang="gez" xml:id="n1" type="birth">ይትባረክ፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Yǝtbārak</persName>
-                  <persName><roleName type="title">ʾaṣe </roleName></persName>
+                  <persName>
+                  <roleName type="title">ʾaṣe </roleName>
+               </persName>
         
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
@@ -67,21 +69,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <floruit when="1240" evidence="internal">He succeeded a saint King <persName ref="PRS7437Naakkwe">Naʾakkʷǝto Laʾab</persName>. 
                   He was the last king of the Zāgʷe dynasty.
                </floruit>
-               <death  when="1268" cert="low" evidence="internal">around 1268</death>
+               <death when="1268" cert="low" evidence="internal">around 1268</death>
             </person>
             <listRelation>
-               <relation name="snap:SonOf" 
-                  active="PRS10363Yetbara"
-                  passive="PRS6152Lalibala"
-                 ></relation>
-               <relation name="snap:SonOf" 
-                  active="PRS10363Yetbara"
-                  passive="PRS6859MasqalK"
-                 ></relation>
-               <relation name="snap:CousinOf" 
-                  active="PRS10363Yetbara"
-                  passive="PRS7437Naakkwe"
-                 ></relation>
+               <relation name="snap:SonOf"
+                         active="PRS10363Yetbara"
+                         passive="PRS6152Lalibala"/>
+               <relation name="snap:SonOf" active="PRS10363Yetbara" passive="PRS6859MasqalK"/>
+               <relation name="snap:CousinOf"
+                         active="PRS10363Yetbara"
+                         passive="PRS7437Naakkwe"/>
             </listRelation>
          </listPerson>
          <listBibl type="editions">
@@ -107,11 +104,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </body>
    </text>
 </TEI>
-
-
-
-
-               
-               
-               
-    

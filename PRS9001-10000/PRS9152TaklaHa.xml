@@ -56,32 +56,30 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
              
                   <persName xml:lang="gez" xml:id="n1" type="birth">ተክለ፡ ሃይማኖት፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Takla Hāymānot I</persName>
-               <persName><roleName type="title">ʾaṣe </roleName></persName>
+               <persName>
+                  <roleName type="title">ʾaṣe </roleName>
+               </persName>
                   <persName xml:lang="gez" xml:id="n2" type="regnal">ልዑል፡ ሰገድ፡</persName>
                   <persName xml:lang="gez" corresp="#n2" type="normalized">Lǝʿul Sagad</persName>
                <occupation type="ruler">Emperor</occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
-               <residence><placeName ref="LOC3577Gondar"> Gondar</placeName></residence>
+               <residence>
+                  <placeName ref="LOC3577Gondar"> Gondar</placeName>
+               </residence>
              
                <floruit when="1706" evidence="internal">He succeeded his father King <persName ref="PRS5616IyasuI">ʾIyāsu</persName> in <date> 1706</date>.
                   He was known as ʾǝrgum, "damned" in the royal historiography because his father was killed by his order.
                </floruit>
-               <death when="1708" evidence="internal">He was assassinated in <placeName ref="LOC1241AgawMe">ʾAgaw Mǝdǝr </placeName>  in <date> 1708</date> </death>
+               <death when="1708" evidence="internal">He was assassinated in <placeName ref="LOC1241AgawMe">ʾAgaw Mǝdǝr </placeName>  in <date> 1708</date> 
+               </death>
             </person>
             <listRelation>
-               <relation name="snap:SonOf" 
-                  active="PRS9152TaklaHa"
-                  passive="PRS5616IyasuI"
-                 ></relation>
-               <relation name="snap:SonOf" 
-                  active="PRS9152TaklaHa"
-                  passive="PRS6578Malakota"
-                 ></relation>
+               <relation name="snap:SonOf" active="PRS9152TaklaHa" passive="PRS5616IyasuI"/>
+               <relation name="snap:SonOf" active="PRS9152TaklaHa" passive="PRS6578Malakota"/>
                <relation name="snap:BrotherOf"
-                  active="PRS9152TaklaHa"
-                  passive="PRS3430DawitII"
-                 ></relation>
+                         active="PRS9152TaklaHa"
+                         passive="PRS3430DawitII"/>
               </listRelation>
          </listPerson>
          <listBibl type="editions">
@@ -102,10 +100,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-               

@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Giyorgis of Saglā</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -56,7 +56,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
            
                   <persName xml:lang="gez" xml:id="n1" type="birth">ጊዮርጊስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Giyorgis Saglā, Giyorgis of Gāsǝč̣č̣ā</persName>
+<<<<<<< HEAD
                <persName><roleName type="title">ʾabbā</roleName></persName>
+=======
+               <persName>
+                  <roleName type="title">ʾabbā </roleName>
+               </persName>
+>>>>>>> 06842efd72b760dd97dda4d368a2f4a837f2a967
           
               <occupation type="ecclesiastic">writer</occupation>
               
@@ -68,45 +74,35 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </person>
                <listRelation>
                   <relation name="snap:AllianceWith"
-                     active="PRS4709Giyorgis"
-                     passive="PRS10626ZaraY" 
-                    ></relation>
+                         active="PRS4709Giyorgis"
+                         passive="PRS10626ZaraY"/>
                   <relation name="snap:AllianceWith"
-                     active="PRS4709Giyorgis"
-                     passive="PRS10342Yeshaq"
-                    ></relation>
+                         active="PRS4709Giyorgis"
+                         passive="PRS10342Yeshaq"/>
                   <relation name="snap:AllianceWith"
-                     active="PRS4709Giyorgis"
-                     passive="PRS3429DawitII"
-                    ></relation>
+                         active="PRS4709Giyorgis"
+                         passive="PRS3429DawitII"/>
                   <relation name="saws:isAttributedAuthorOf"
-                     active="PRS4709Giyorgis"
-                     passive="LIT1952Mashaf"
-                    ></relation>
+                         active="PRS4709Giyorgis"
+                         passive="LIT1952Mashaf"/>
                   <relation name="saws:isAttributedAuthorOf"
-                     active="PRS4709Giyorgis"
-                     passive="LIT1146Argano"
-                    ></relation>
+                         active="PRS4709Giyorgis"
+                         passive="LIT1146Argano"/>
                   <relation name="saws:isAttributedAuthorOf"
-                     active="PRS4709Giyorgis"
-                     passive="LIT1384Fekkar" 
-                    ></relation>
+                         active="PRS4709Giyorgis"
+                         passive="LIT1384Fekkar"/>
                   <relation name="saws:isAttributedAuthorOf"
-                     active="PRS4709Giyorgis"
-                     passive="LIT2510Weddas"
-                    ></relation>
+                         active="PRS4709Giyorgis"
+                         passive="LIT2510Weddas"/>
                   <relation name="saws:isAttributedAuthorOf"
-                     active="PRS4709Giyorgis"
-                     passive="LIT2508Weddas"
-                    ></relation>
+                         active="PRS4709Giyorgis"
+                         passive="LIT2508Weddas"/>
                   <relation name="saws:isAttributedAuthorOf"
-                     active="PRS4709Giyorgis"
-                     passive="LIT1961Mashaf"
-                    ></relation>
-                  <relation name="ecrm:P129i_is_subject_of" 
-                     active="PRS4709Giyorgis"
-                     passive="LIT1456GadlaG"
-                    ></relation>
+                         active="PRS4709Giyorgis"
+                         passive="LIT1961Mashaf"/>
+                  <relation name="ecrm:P129i_is_subject_of"
+                         active="PRS4709Giyorgis"
+                         passive="LIT1456GadlaG"/>
                </listRelation>
          </listPerson>
                   <listBibl type="editions">

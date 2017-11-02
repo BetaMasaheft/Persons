@@ -56,19 +56,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" xml:id="n1" type="birth">ሉቦ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Lubo</persName>
                
-               <persName><roleName type="title">daǧǧāzmāč</roleName></persName>
+               <persName>
+                  <roleName type="title">daǧǧāzmāč</roleName>
+               </persName>
                <occupation type="political"> governor</occupation>
                
                <nationality type="Ethiopia"/>
                <faith type="Orthodox"/>
                
                <floruit notBefore="1759" notAfter="1783">He was an important official of <roleName type="title">ʾaṣe </roleName>
-               <persName ref="PRS5636IyoasI">ʾIyoʾās I</persName> between <date>1759-1783</date>. He was a principal protector 
-                  of the throne of  <roleName type="title">ʾaṣe </roleName><persName ref="PRS5636IyoasI">ʾIyoʾās I</persName> with his brother <persName ref="PRS3647Dulo">Dulo</persName>. 
+                  <persName ref="PRS5636IyoasI">ʾIyoʾās I</persName> between <date>1759-1783</date>. He was a principal protector 
+                  of the throne of  <roleName type="title">ʾaṣe </roleName>
+                  <persName ref="PRS5636IyoasI">ʾIyoʾās I</persName> with his brother <persName ref="PRS3647Dulo">Dulo</persName>. 
                   Initially, he appears in the historical record in <date>1759</date>, with his appointment as <roleName type="title">šālaqā</roleName> of the Kanisā troops. 
                   Five years later, in <date>1764</date>,  he was appointed as <roleName type="title">daǧǧāzmāč</roleName> of <placeName ref="LOC6568Amhara">ʾAmhārā</placeName>. 
-                  He became a principal rival of <roleName type="title">rās</roleName><persName ref="PRS7091Mikael">Mikāʾel Sǝḥul</persName> and 
-                  following the assassination of <roleName type="title">ʾaṣe </roleName><persName ref="PRS5636IyoasI">ʾIyoʾās I</persName> in <date>1769</date>,
+                  He became a principal rival of <roleName type="title">rās</roleName>
+                  <persName ref="PRS7091Mikael">Mikāʾel Sǝḥul</persName> and 
+                  following the assassination of <roleName type="title">ʾaṣe </roleName>
+                  <persName ref="PRS5636IyoasI">ʾIyoʾās I</persName> in <date>1769</date>,
                   he was demoted from his position and soon dropped out of contention. But he reappeared as a notable in <date>1783</date> and met <roleName type="title">ʾaṣe </roleName>
                   <persName ref="PRS9142TaklaGi">Takla Giyorgis I</persName> and was baptized, along with many of his followers.
                </floruit>
@@ -78,29 +83,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             
             <listRelation>
                <relation name="snap:AllianceWith"
-                  
-                  active="PRS6369Lubo"
-                  passive="PRS5636IyoasI"
-                  
-                 ></relation>
-               <relation name="snap:BrotherOf"
-                  active="PRS6369Lubo"
-                  passive="PRS10103Webit"
-                 ></relation>
-               <relation name="snap:BrotherOf"
-                  active="PRS6369Lubo"
-                  passive="PRS3647Dulo"
-                 ></relation>
-               <relation name="rel:enemyOf"
-                  active="PRS6369Lubo"
-                  passive="PRS7091Mikael"
-                 ></relation>
+                         active="PRS6369Lubo"
+                         passive="PRS5636IyoasI"/>
+               <relation name="snap:BrotherOf" active="PRS6369Lubo" passive="PRS10103Webit"/>
+               <relation name="snap:BrotherOf" active="PRS6369Lubo" passive="PRS3647Dulo"/>
+               <relation name="rel:enemyOf" active="PRS6369Lubo" passive="PRS7091Mikael"/>
                <relation name="snap:AllianceWith"
-                  
-                  active="PRS6369Lubo"
-                  passive="PRS9142TaklaGi"
-                  
-                 ></relation>
+                         active="PRS6369Lubo"
+                         passive="PRS9142TaklaGi"/>
             </listRelation>
          </listPerson>
          <listBibl type="editions">
@@ -118,13 +108,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-               
-                  
-          
-           

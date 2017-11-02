@@ -12,7 +12,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <titleStmt>
             <title>Bakāffā</title>
             <editor key="SG"/>
-          <author/>
+            <author/>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
@@ -56,37 +56,35 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                  
                   <persName xml:lang="gez" xml:id="n1" type="birth">በካፋ፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Bakāffā</persName>
-                  <persName><roleName type="title">ʾaṣe</roleName></persName>
+                  <persName>
+                  <roleName type="title">ʾaṣe</roleName>
+               </persName>
                   <persName xml:lang="gez" xml:id="n2" type="regnal">መሲሕ፡ ሰገድ፡</persName>
                   <persName xml:lang="gez" corresp="#n2" type="normalized">Masiḥ Sagad</persName>
         
                <occupation type="ruler">Emperor</occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
-               <residence><placeName ref="LOC3577Gondar"> Gondar</placeName></residence>
+               <residence>
+                  <placeName ref="LOC3577Gondar"> Gondar</placeName>
+               </residence>
              
                <floruit when="1721" evidence="internal">He succeeded his brother King <persName ref="PRS3430DawitII">Dāwit III</persName> in <date> May 1721</date>.
                   He maintained relative peace and stability than his father King <persName ref="PRS5616IyasuI">ʾIyāsu I</persName> and his brother King <persName ref="PRS9152TaklaHa">Takla Hāymānot I</persName>.
                    </floruit>
-               <death when="1730" evidence="internal"></death>
+               <death when="1730" evidence="internal"/>
             </person>
             <listRelation>
-               <relation name="snap:SonOf" 
-                  active="PRS2377Bakaffa"
-                  passive="PRS5616IyasuI"
-                 ></relation>
+               <relation name="snap:SonOf" active="PRS2377Bakaffa" passive="PRS5616IyasuI"/>
                <relation name="snap:BrotherOf"
-                  active="PRS2377Bakaffa"
-                  passive="PRS9152TaklaHa"
-                 ></relation>
-           <relation name="snap:BrotherOf"
-                  active="PRS2377Bakaffa"
-                  passive="PRS3430DawitII"
-                 ></relation>
+                         active="PRS2377Bakaffa"
+                         passive="PRS9152TaklaHa"/>
+               <relation name="snap:BrotherOf"
+                         active="PRS2377Bakaffa"
+                         passive="PRS3430DawitII"/>
                <relation name="bm:husbandOf"
-                  active="PRS2377Bakaffa"
-                  passive="PRS2682BerhanM"
-                 ></relation>
+                         active="PRS2377Bakaffa"
+                         passive="PRS2682BerhanM"/>
         
             </listRelation>
          </listPerson>
@@ -95,8 +93,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <ptr target="bm:Basset1882Chronicle"/>
             </bibl>
         
-         <bibl>
-            <ptr target="bm:Guidi1961YohannesT"/>
+            <bibl>
+               <ptr target="bm:Guidi1961YohannesT"/>
             </bibl>
          </listBibl> 
          <listBibl type="secondary">
@@ -104,14 +102,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <ptr target="bm:Budge1966Ethistory"/>
                <citedRange unit="page">443-449</citedRange>
             </bibl>  
-       <bibl> 
-          <ptr target="bm:Crummey2003Bakaffa"/>
+            <bibl> 
+               <ptr target="bm:Crummey2003Bakaffa"/>
             </bibl> 
          </listBibl>
       </body>
    </text>
 </TEI>
-
-
-               
-            

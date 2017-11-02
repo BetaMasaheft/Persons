@@ -11,9 +11,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Mārqos [I]</title>
-        <editor key="SG"/>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
-         <author/>
+            <author/>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
@@ -55,7 +55,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ማርቆስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Mārqos [I]</persName>
-               <persName><roleName type="title">ʾabuna</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾabuna</roleName>
+               </persName>
                <occupation type="ecclesiastic"> metropolitan </occupation>
                <nationality type="Egypt"/>
                <faith type="Coptic"/>
@@ -66,23 +68,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 
                   
                </floruit>
-               <death> He died in <date>1529/30</date></death>
+               <death> He died in <date>1529/30</date>
+               </death>
             </person>
             <listRelation>
               
                
                <relation name="snap:FriendshipFor"
-                  active="PRS6774Marqos"
-                  passive="PRS1778Alvares"
-                 ></relation>
+                         active="PRS6774Marqos"
+                         passive="PRS1778Alvares"/>
                <relation name="bm:hasOrdained"
-                  active="PRS6774Marqos"
-                  passive="PRS3779enbaqom"
-                 ></relation>
+                         active="PRS6774Marqos"
+                         passive="PRS3779enbaqom"/>
                <relation name="bm:isAuthorOfEthiopicTranslation"
-                  active="PRS10350Yeshaq"
-                  passive="LIT2509Weddas"
-                 ></relation>
+                         active="PRS10350Yeshaq"
+                         passive="LIT2509Weddas"/>
             </listRelation>
          </listPerson>
          
@@ -104,8 +104,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-                  
-                  

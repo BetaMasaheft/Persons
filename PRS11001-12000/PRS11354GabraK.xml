@@ -48,20 +48,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName  xml:lang="gez" xml:id="n1">ገብረ፡ ክርስቶስ፡</persName>
-               <persName  xml:lang="gez" type="normalized" corresp="#n1">Gabra Krǝstos</persName>
+               <persName xml:lang="gez" xml:id="n1">ገብረ፡ ክርስቶስ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra Krǝstos</persName>
                <faith type="EOTC"/>
                <residence>
                   <placeName ref="INS0302SanStefano"> Santo Stefano dei Mori </placeName>
                </residence>
             </person>
             <listRelation>
-               <relation name="saws:hasOwned"
-                  active="PRS11354GabraK"
-                  passive="BAVet37"/>
-               <relation name="saws:hasOwned"
-                  active="PRS11354GabraK"
-                  passive="BAVet58"/>
+               <relation name="saws:hasOwned" active="PRS11354GabraK" passive="BAVet37"/>
+               <relation name="saws:hasOwned" active="PRS11354GabraK" passive="BAVet58"/>
             </listRelation>
          </listPerson>
       </body>

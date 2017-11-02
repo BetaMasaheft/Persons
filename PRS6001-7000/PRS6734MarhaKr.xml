@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Marḥa Krǝstos</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             
             <author/>
@@ -61,10 +61,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
                   <persName xml:lang="gez" corresp="#n2" type="normalized">Marḥa Krǝstos</persName>
                         
-               <persName><roleName type="title">ʾǝč̣č̣age</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾǝč̣č̣age</roleName>
+               </persName>
            
                <occupation type="ecclesiastic"> abbot </occupation>
-               <birth when="1408">He was born  in the district of <placeName ref="LOC6136Waj"/> in <date>1408</date></birth>
+               <birth when="1408">He was born  in the district of <placeName ref="LOC6136Waj"/> in <date>1408</date>
+               </birth>
               
                <floruit when="1440" evidence="internal">He was the ninth abbot of the monastery of <placeName ref="INS0341DL">Dabra Libānos</placeName>. 
                   He led religious activities including the destruction of the "pagan cults" and a clash with a certain <persName ref="PRS3893estifano"/> and his followers in the <date>15th century</date>. 
@@ -73,21 +76,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </person>
             <listRelation>
                <relation name="snap:AllianceWith"
-                  active="PRS6734MarhaKr"
-                  passive="PRS8203Romna"
-                 ></relation>
+                         active="PRS6734MarhaKr"
+                         passive="PRS8203Romna"/>
                <relation name="snap:AllianceWith"
-                  active="PRS6734MarhaKr"
-                  passive="PRS2469Bartalom"
-                 ></relation>
+                         active="PRS6734MarhaKr"
+                         passive="PRS2469Bartalom"/>
                <relation name="snap:AllianceWith"
-                  active="PRS6734MarhaKr"
-                  passive="PRS2334BaedaM"
-                 ></relation>
+                         active="PRS6734MarhaKr"
+                         passive="PRS2334BaedaM"/>
                <relation name="ecrm:P129i_is_subject_of"
-                  active="PRS6734MarhaKr"
-                  passive="LIT1477GadlaM"/>
- </listRelation>
+                         active="PRS6734MarhaKr"
+                         passive="LIT1477GadlaM"/>
+            </listRelation>
          </listPerson>
          <listBibl type="editions">
             <bibl>

@@ -4,15 +4,15 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-   type="pers"
-   xml:lang="en"
-   xml:id="PRS11464Azaria">
+     type="pers"
+     xml:lang="en"
+     xml:id="PRS11464Azaria">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Azaria</title>
             <editor role="generalEditor" key="AB"/>
-<editor key="ES"/>
+            <editor key="ES"/>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
@@ -52,9 +52,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             
             <listRelation>
                <relation name="snap:SiblingOf"
-                  active="PRS11464Azaria"
-                  passive="PRS11465Anania PRS11463Misael"/>
-               <relation name="dcterms:isPartOf" active="PRS11464Azaria" passive="PRS11288AnAzMi"></relation>
+                         active="PRS11464Azaria"
+                         passive="PRS11465Anania PRS11463Misael"/>
+               <relation name="dcterms:isPartOf"
+                         active="PRS11464Azaria"
+                         passive="PRS11288AnAzMi"/>
             </listRelation>
             
             

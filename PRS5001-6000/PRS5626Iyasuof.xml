@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>ʾIyāsu of Ǧar Śǝllāse</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -56,11 +56,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ኢያሱ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾIyāsu of Ǧar Śǝllāse</persName>
-               <persName><roleName type="title">ʾabbā</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾabbā</roleName>
+               </persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <occupation type="ecclesiastic">abbot</occupation>
-               <birth when="1468"></birth>
+               <birth when="1468"/>
                <floruit> He was a medieval monk and saint,  ordained by the metropolitan <roleName type="title">ʾabuna</roleName>
                   <persName ref="PRS10350Yeshaq">Yǝsḥaq (II)</persName>. He was on of the ecclesiastics of the royal church (Kāhǝnāta Dabtarā). He took his monastic habit from <roleName type="title">ʾǝč̣č̣age</roleName>
                   <persName ref="PRS6734MarhaKr">Marḥa Krǝstos</persName>.  </floruit>
@@ -69,22 +71,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </person>  
             <listRelation>
                
-           <relation name="bm:ordainedBy"
-                  active="PRS5626Iyasuof"
-                  passive="PRS6734MarhaKr"
-                 ></relation>
+               <relation name="bm:ordainedBy"
+                         active="PRS5626Iyasuof"
+                         passive="PRS6734MarhaKr"/>
                <relation name="snap:AllianceWith"
-                  active="PRS5626Iyasuof"
-                  passive="PRS4937HabtaMa"
-                 ></relation>
+                         active="PRS5626Iyasuof"
+                         passive="PRS4937HabtaMa"/>
                <relation name="snap:AllianceWith"
-                  active="PRS5626Iyasuof"
-                  passive="PRS7481NaodA"
-                 ></relation>
+                         active="PRS5626Iyasuof"
+                         passive="PRS7481NaodA"/>
                <relation name="ecrm:P129i_is_subject_of"
-                  active="PRS5626Iyasuof"
-                  passive="LIT1466GadlaI"
-                 ></relation>
+                         active="PRS5626Iyasuof"
+                         passive="LIT1466GadlaI"/>
             </listRelation>
          </listPerson>
          <listBibl type="editions">
@@ -101,10 +99,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-               

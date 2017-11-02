@@ -59,56 +59,50 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Dārge Śāhla Śǝllāse</persName>
                <persName xml:lang="gez" xml:id="n2" type="horse">አባ፡ ጌርሳ፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAbbā Gersā</persName>
-               <persName><roleName type="title">rās</roleName></persName>
+               <persName>
+                  <roleName type="title">rās</roleName>
+               </persName>
                   
               
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   
                   
-                  <occupation type="political"></occupation>
+                  <occupation type="political"/>
                   
-                  <birth when="1827"></birth>
+                  <birth when="1827"/>
                <floruit notBefore="1847" notAfter="1900">He was a prince, royal councillor and provincial governor. He was the son of 
                   <persName ref="PRS8346sahlase">Śahla Śǝllāse</persName>, born and brought up at <placeName ref="LOC1465Ankoba">ʾAnkobar</placeName>. 
                   He emerged as a prominent military leader immediately after the death of his father, <persName ref="PRS8346sahlase">Śahla Śǝllāse</persName>. 
                    In<date>1847-49</date>,  he campaigned in <placeName ref="LOC5482Salale">Salāle</placeName> 
                   and the neigbouring districts of <persName ref="ETH1012Abbicu">ʾAbbičuu</persName>. A few years later, he was captured
-                  by <roleName type="title">ʾaṣe</roleName><persName ref="PRS9434Tewodros">Tewodros (II)</persName> and 
+                  by <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS9434Tewodros">Tewodros (II)</persName> and 
                   was confined at <placeName ref="LOC4547Maqdal">Maqdalā</placeName>. After his release by the British in <date>1868</date>, he returned to 
                   <placeName ref="LOC5597Sawa">Šawā</placeName> and submitted to <roleName type="title">ʾaṣe</roleName> 
                   <persName ref="PRS7006Menilek">Mǝnilǝk II</persName> to whom he was loyal until his death. </floruit>
-                  <death when="1900"></death>
+                  <death when="1900"/>
                   
                </person>
                
                <listRelation>
-                  <relation name="snap:SonOf"
-                     active="PRS3367Dargesa"
-                     passive="PRS8346sahlase"
-                    ></relation>
-                  <relation name="snap:SonOf"
-                     active="PRS3367Dargesa"
-                     passive="PRS10072Warraye"
-                    ></relation>
+                  <relation name="snap:SonOf" active="PRS3367Dargesa" passive="PRS8346sahlase"/>
+                  <relation name="snap:SonOf" active="PRS3367Dargesa" passive="PRS10072Warraye"/>
                   <relation name="snap:BrotherOf"
-                     active="PRS3367Dargesa"
-                     passive="PRS5205haylaMa"
-                    ></relation>
+                         active="PRS3367Dargesa"
+                         passive="PRS5205haylaMa"/>
                   <relation name="snap:BrotherOf"
-                     active="PRS3367Dargesa"
-                     passive="PRS8602Sayfusa"
-                    ></relation>
+                         active="PRS3367Dargesa"
+                         passive="PRS8602Sayfusa"/>
                   <relation name="snap:CousinOf"
-                     active="PRS3367Dargesa"
-                     passive="PRS7006Menilek"
-                    ></relation>
+                         active="PRS3367Dargesa"
+                         passive="PRS7006Menilek"/>
                       
            
                   
                </listRelation>
          </listPerson>
- <listBibl type="secondary">
+         <listBibl type="secondary">
             <bibl> 
                <ptr target="bm:Bairu2005Darge"/>
             </bibl> 
@@ -130,6 +124,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-                  
-                  
