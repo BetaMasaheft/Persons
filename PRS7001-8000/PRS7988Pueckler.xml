@@ -6,7 +6,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
      xml:lang="en"
-     xml:id="PRS7988Pückler">
+     xml:id="PRS7988Pueckler">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,6 +44,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="DR" when="2017-11-02">Corrected ID</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -54,7 +55,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                    Hermann
                   Pückler-Muskau
                </persName>
-               <occupation> prince </occupation>
+               <occupation type="political">prince</occupation>
             </person>
          </listPerson>
       </body>
