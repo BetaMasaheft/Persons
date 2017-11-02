@@ -59,9 +59,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   <occupation type="ecclesiastic">abbot</occupation>
-               <birth> He was born at <placeName ref="LOC6569Tegray">Tǝgrāy</placeName> in <date>1419</date>.</birth>
+               <birth when="1419"> He was born at <placeName ref="LOC6569Tegray">Tǝgrāy</placeName> in <date>1419</date>.</birth>
                   <residence><placeName ref="LOC3653GundaG">Gunda Gunde</placeName></residence>
-               <floruit when="1476">He was  the disciple of  <roleName type="title">ʾabbā</roleName> <persName ref="PRS1008Abakaraz">ʾAbakarazun</persName>, the leader of <persName ref="PRS11211Stephanites">Stephanites</persName>, who he succeeded 
+               <floruit notBefore="1476" notAfter="1522">He was  the disciple of  <roleName type="title">ʾabbā</roleName> 
+                  <persName ref="PRS1008Abakaraz">ʾAbakarazun</persName>, the leader of <persName ref="PRS11211Stephanites">Stephanites</persName>, who he succeeded 
                   
                   as the head of the monastery of <placeName ref="LOC3653GundaG">Gunda Gunde</placeName> in <date>1476</date>. He held this position during 
                   the reign of King <persName ref="PRS3874eskender">ʾƎskǝndǝr</persName>, King <persName ref="PRS7481NaodA">Nāʿod</persName>, 
@@ -69,7 +70,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <persName ref="PRS6774Marqos">Mārqos [I]</persName>. He was succeeded by <roleName type="title">ʾabbā </roleName> 
                   <persName ref="PRS4943Habtase">Habta Śǝllāse</persName>.
                      </floruit>
-                  <death> He died in <date>1522</date></death>
+                  <death when="1522"> He died in <date>1522</date>.</death>
                </person>  
                <listRelation>
                   
