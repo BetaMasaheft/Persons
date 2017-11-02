@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Zäśǝllase</title>
+            <title>Zaśǝllāse</title>
+            <editor key="SG"/>   
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +46,65 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-11-02">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
+               <persName xml:lang="gez" xml:id="n1" type="birth">ዘሥላሴ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Zaśǝllāse</persName>
+               <persName xml:lang="gez" xml:id="n2" type="birth">ዛሞ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Zāmmo</persName>
+               
                <persName>
-                  
-                  Zäśǝllase
+                  <roleName type="title">rās</roleName>
                </persName>
-               <occupation> ras </occupation>
+               
+               <occupation type="military">governor</occupation>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               
+               
+               <floruit notBefore="1590" notAfter="1608">He was a noble man in the early 17th century who emerged as an important political figure form low class family. 
+                  Zaśǝllāse married one or even two daugthers of<roleName type="title">ʾaṣe</roleName><persName ref="PRS8550sardaDe"/>. 
+                  He was actively involved in the succession disputes that ensued in the early 17th century. </floruit>
+               <death when="1608"/>
             </person>
+            <listRelation>
+             
+               <relation name="snap:AllianceWith"
+                  active="PRS10648Zasella"
+                  passive="PRS9038Susenyos"/>
+               <relation name="rel:enemyOf"
+                  active="PRS10648Zasella"
+                  passive="PRS10513Zadenge"/>
+               
+               <relation name="rel:enemyOf"
+                  active="PRS10648Zasella"
+                  passive="PRS10198Yaeqob"/>
+               
+               
+            </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Pereira1892Susenyos"/>
+            </bibl>
+            
+            
+            <bibl>
+               <ptr target="bm:Pereira1900Susenyos"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Toubkis2014ZaSellase"/>
+            </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+               
