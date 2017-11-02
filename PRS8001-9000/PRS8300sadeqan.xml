@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ṣadǝqan</title>
+            <title>Ṣādǝqān</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,20 +44,35 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="MV" when="2017-11-02">Minor additions</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Ṣadǝqan
-               </persName>
-               <persName type="alt">Ṣadqan</persName>
-               <occupation> Sts </occupation>
-            </person>
-         </listPerson>
+               <persName xml:lang="gez" xml:id="n1" type="monastic">ጻድቃን፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Ṣādǝqān</persName>
+               <faith type="EOTC"/>
+               <occupation type="ecclesiastic">saints</occupation>
+               <birth/>
+               <residence/>
+               <floruit/>
+               <death/>
+            </person>  
+         </listPerson> 
+         <listBibl type="editions">
+            <bibl> 
+               <ptr target="bm:ContiRossini1903Ricordi"/>
+               <citedRange>7-22</citedRange>
+            </bibl>
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Brita2010Sadeqan"/>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
+

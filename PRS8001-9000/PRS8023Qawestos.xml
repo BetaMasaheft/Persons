@@ -48,6 +48,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-09-23">Complete record</change>
          <change who="SG" when="2017-08-02">Correction</change>
+         <change who="MV" when="2017-11-02">Minor additions</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -57,24 +58,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" xml:id="n1" type="birth">ቀውስጦስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Qawǝsṭos</persName>
                <persName>
-                  <roleName type="title">ʾabbā </roleName>
+                  <roleName type="title">ʾabbā</roleName>
                </persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
-               <occupation type="ecclesiastic"> saint </occupation>
+               <occupation type="ecclesiastic">saint</occupation>
                <birth> He was born in <placeName ref="LOC2582Dawaro">Dawāro</placeName>
                </birth>
                <floruit notBefore="1200" notAfter="1330">He was a saint of Ethiopian Orthodox Chrurch in the 13th to early 14th century and a founder of the monastery of 
                   <placeName ref="LOC2249DabraB">Dabra Bǝśrāt</placeName>. 
                   He also founded many churches in central <placeName ref="LOC5597Sawa">Šawā</placeName>.
-                
-                  
                </floruit>
-            
             </person>  
             <listRelation>
-               
-          
                <relation name="snap:SonOf"
                          active="PRS8023Qawestos"
                          passive="PRS4430Galawdew"/>
@@ -85,13 +81,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="snap:AllianceWith"
                          active="PRS8023Qawestos"
                          passive="PRS9162TaklaHa"/>
-               
                <relation name="ecrm:P129i_is_subject_of"
                          active="PRS8023Qawestos"
                          passive="LIT1486GadlaQ"/>
             </listRelation>
          </listPerson>
-         
+         <listBibl type="editions">
+            <bibl> 
+               <ptr target="bm:Raineri2004Qawestos"/>
+            </bibl>
+         </listBibl>
          <listBibl type="secondary">
             <bibl> 
                <ptr target="bm:Kaplan1984Monastic"/>
@@ -100,7 +99,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <bibl> 
                <ptr target="bm:Nosnitsin2010Qawestos"/>
             </bibl>
-            
          </listBibl>
       </body>
    </text>
