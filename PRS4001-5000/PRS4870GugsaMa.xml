@@ -65,15 +65,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <occupation type="ruler">governor</occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
+<<<<<<< HEAD
+               <residence><placeName ref="LOC2385DabraT">Dabǝra Tābor</placeName> which was founded by him in <date> around 1802 </date></residence>
+=======
                <residence>
                   <placeName ref="LOC2385DabraT"> Dabǝra Tābor </placeName> which was founded by him in <date> around 1802 </date>
                </residence>
+>>>>>>> 06842efd72b760dd97dda4d368a2f4a837f2a967
              
-               <floruit when="1800" evidence="internal">He became one of the greatest ruler of  Warrasek (Yaǧǧu) in<date>1800</date> and he was said to be "Gugsā the Great". 
+               <floruit notBefore="1800" notAfter="1825">He became one of the greatest ruler of  Warrasek (Yaǧǧu) in<date>1800</date> and he was said to be "Gugsā the Great". 
                   He was a Muslim and later converted to Christianity. He acted as a kingmaker throughout his rule. 
                   He had an important place in the history of land tenure system in the first quarter of the nineteenth century.
                 </floruit>
-               <death>1825</death>
+               <death when="1825"/>
             </person>
             <listRelation>
                <relation name="snap:GrandsonOf"
