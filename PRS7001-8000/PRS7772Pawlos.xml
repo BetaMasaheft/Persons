@@ -53,11 +53,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-            
                   <persName xml:lang="gez" xml:id="n1" type="monastic">ጳውሎስ፡</persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized">Ṗawlos</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Ṗāwlos</persName>
                   <persName>
-                  <roleName type="title">ʾabbā </roleName>
+                  <roleName type="title">ʾabbā</roleName>
                </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
@@ -66,7 +65,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <date>1510</date>
                </birth>
                   <residence/>
-               <floruit> He was a sixteenth century Ethiopian monk who composed his  personal as well as political life  from  <date>1531</date> to <date>1578</date>. 
+               <floruit> He was a sixteenth century Ethiopian monk who composed his personal as well as political life from <date>1531</date> to <date>1578</date>. 
                   He received a monastic habit in <date>1531/32</date> in the monastery of <placeName ref="LOC2228DabraA">Dabra ʿAbbāy</placeName>. After he travelling around different places  including 
                   <placeName ref="LOC1310Aksum">ʾAksum</placeName>, <placeName ref="LOC2254DabraD">Dabra Dāmmo</placeName>, he settled in the monastery of <placeName ref="LOC1634Ayda">ʿAydā</placeName>.
                   His account provides important historical details about  the war of <persName ref="PRS1500Ahmad">ʾAḥmad</persName>, 
@@ -87,6 +86,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <relation name="snap:AllianceWith"
                          active="PRS7772Pawlos"
                          passive="PRS4428Galawdew"/>
+                  <relation name="snap:AllianceWith"
+                     active="PRS7772Pawlos"
+                     passive="PRS4428Galawdew"/>
+                  <relation name="ecrm:P129i_is_subject_of"
+                     active="PRS7772Pawlos"
+                     passive="LIT4787Pawlos"/>
                </listRelation>
          </listPerson>
          <listBibl type="editions">
@@ -94,8 +99,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <ptr target="bm:ContiRossini1918Pawlos"/>
                <citedRange unit="page">279-96</citedRange>
             </bibl>
-   
-    
          </listBibl>
          <listBibl type="secondary">
             <bibl> 

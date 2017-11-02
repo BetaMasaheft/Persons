@@ -4,9 +4,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="pers"
-     xml:lang="en"
-     xml:id="PRS7720Pantalew">
+   type="pers"
+   xml:lang="en"
+   xml:id="PRS7720Pantalew">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -18,19 +18,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
-            multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+               multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
             <pubPlace>Hamburg</pubPlace>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
-                This file is licensed under the Creative Commons
-                Attribution-ShareAlike 4.0. </licence>
+                  This file is licensed under the Creative Commons
+                  Attribution-ShareAlike 4.0. </licence>
             </availability>
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
             <p>Prosopography of Ethiopian Written tradition</p>
             <p>A TEI file converted from the ETHIO-authority
-                                                  google spreadsheet</p>
+               google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -44,9 +44,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
+            google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-09-30">Complete record</change>
+         <change who="MV" when="2017-11-02">Minor additions</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -55,54 +56,60 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="monastic">ጰንጠሌዎን፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Ṗanṭalewon</persName>
-                <persName>
-                  <roleName type="title">ʾabbā </roleName>
+               <persName>
+                  <roleName type="title">ʾabbā</roleName>
                </persName>
-                  <nationality type="Ethiopia"/>
-                  <faith type="EOTC"/>
-                  <occupation type="ecclesiastic"> saint </occupation>
-                  <birth> </birth>
-               <floruit> He was one of the nine saints who evangelized the Aksumite population in the 5th- 6th century. He came to Ethiopia with his fellows during the reign of 
-                  King <persName ref="PRS3730ellaAm">ʾƎll ʿAmidā II</persName>.
-                     
-                  </floruit>
-                  <death/>
-               </person>  
-               <listRelation>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="ecclesiastic">saint</occupation>
+               <birth> </birth>
+               <floruit>He was one of the nine saints who evangelized the Aksumite population in the 5th-6th century. He came to Ethiopia with his fellows during the reign of 
+                  King <persName ref="PRS3730ellaAm">ʾƎlla ʿAmidā II</persName>.
+               </floruit>
+               <death/>
+            </person>  
+            <listRelation>
                <relation name="snap:FriendshipFor"
-                         active="PRS7720Pantalew"
-                         passive="PRS10581Zamika"/>
-                 <relation name="snap:FriendshipFor"
-                         active="PRS7720Pantalew"
-                         passive="PRS4855Guba"/>
-                  <relation name="snap:FriendshipFor"
-                         active="PRS7720Pantalew"
-                         passive="PRS1653Alef"/>
-                  <relation name="snap:FriendshipFor"
-                         active="PRS7720Pantalew"
-                         passive="PRS10322Yemata"/>
-                  <relation name="snap:FriendshipFor"
-                         active="PRS7720Pantalew"
-                         passive="PRS1467Afse"/>
-                  <relation name="ecrm:P129i_is_subject_of"
-                         active="PRS7720Pantalew"
-                         passive="LIT1532GadlaP"/>
-               </listRelation>
+                  active="PRS7720Pantalew"
+                  passive="PRS10581Zamika"/>
+               <relation name="snap:FriendshipFor"
+                  active="PRS7720Pantalew"
+                  passive="PRS4855Guba"/>
+               <relation name="snap:FriendshipFor"
+                  active="PRS7720Pantalew"
+                  passive="PRS1653Alef"/>
+               <relation name="snap:FriendshipFor"
+                  active="PRS7720Pantalew"
+                  passive="PRS10322Yemata"/>
+               <relation name="snap:FriendshipFor"
+                  active="PRS7720Pantalew"
+                  passive="PRS1467Afse"/>
+               <relation name="ecrm:P129i_is_subject_of"
+                  active="PRS7720Pantalew"
+                  passive="LIT1532GadlaP"/>
+            </listRelation>
          </listPerson>
-         
+         <listBibl type="editions">
+            <bibl> 
+               <ptr target="bm:ContiRossini1904YaredPantalewon"/>
+            </bibl>
+         </listBibl>
          <listBibl type="secondary">
             <bibl> 
                <ptr target="bm:Brita2010Pantelewon"/>
             </bibl>
             <bibl> 
+               <ptr target="bm:Brita2010Christianization"/>
+               <citedRange>145-187</citedRange>
+            </bibl>
+            <bibl> 
                <ptr target="bm:Sergew1972Ethiopianhistory"/>
                <citedRange unit="page">59, 69, 115, 116, 117, 133, 143, 159, 206, 219</citedRange>
-               <bibl>
-               </bibl>
-               <ptr target="bm:Tedeschi1991EthiopianSaints"/>
-                  <citedRange unit="page">1046</citedRange>
             </bibl>
-            
+            <bibl>
+               <ptr target="bm:Tedeschi1991EthiopianSaints"/>
+               <citedRange unit="page">1046</citedRange>
+            </bibl>
          </listBibl>
       </body>
    </text>

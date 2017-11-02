@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ṗawlos of Tämben</title>
+            <title>Ṗāwlos of Tamben</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -50,13 +50,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Ṗawlos of Tämben
-               </persName>
-               <occupation> St </occupation>
-            </person>
+               <persName xml:lang="gez" xml:id="n1" type="monastic">ጳውሎስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Ṗāwlos</persName>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="ecclesiastic">St</occupation>
+               <birth/>
+               <residence/>
+               <floruit/>
+               <death/>
+            </person>  
+            <listRelation>
+               <relation name="ecrm:P129i_is_subject_of"
+                  active="PRS7775Pawlos"
+                  passive="LIT4788ZenaPa"/>
+            </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Bausi2010Tamben"/>
+               <citedRange unit="page">853a</citedRange>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
