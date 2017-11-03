@@ -47,6 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-09-21">Complete record</change>
+         <change who="MV" when="2017-11-03">Additions</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -54,7 +55,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ሳሙኤል፡</persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized">Sāmuʾel of Waldǝbbā</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Sāmuʾel of Wāldǝbbā</persName>
                <persName>
                   <roleName type="title">ʾabbā</roleName>
                </persName>
@@ -63,7 +64,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <occupation type="ecclesiastic">saint</occupation>
                <birth> He was born at <placeName ref="LOC1310Aksum">ʾAksum</placeName>
                </birth>
-               <floruit>He was one of the most celebrated Ethiopian saints. He was the founder of the monastery of <placeName ref="INS0316Waldb">Waldǝbbā</placeName>. 
+               <floruit>He was one of the most celebrated Ethiopian saints. He was the founder of the monastery of <placeName ref="INS0316Waldb">Wāldǝbbā</placeName>. 
                   
                   
                </floruit>
@@ -76,9 +77,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="snap:AllianceWith"
                          active="PRS8491Samuel"
                          passive="PRS3429DawitII"/>
+               <relation name="snap:AllianceWith"
+                  active="PRS8491Samuel"
+                  passive="PRS3429DawitII"/>
+               <relation name="ecrm:P129i_is_subject_of"
+                  active="PRS8491Samuel"
+                  passive="LIT1497GadlaS"/>
             </listRelation>
          </listPerson>
-        
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Turaiev1902Samuel"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Colin2013SamuelWaldebba"/>
+            </bibl>
+         </listBibl>
          <listBibl type="secondary">
             <bibl> 
                <ptr target="bm:Nosnitsin2010Samuel"/>
