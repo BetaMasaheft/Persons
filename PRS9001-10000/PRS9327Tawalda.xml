@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Täwäldä Mädḫǝn</title>
+            <title>Tawalda Madḫǝn</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,20 +44,39 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="MV" when="2017-11-06">Minor additions</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Täwäldä Mädḫǝn
-               </persName>
-               <occupation> abbot</occupation>
-               <occupation> St </occupation>
-            </person>
+               <persName xml:lang="gez" xml:id="n1">ተወልደ፡ መድኅን፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Tawalda Madḫǝn</persName>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="ecclesiastic">abbot</occupation>
+               <occupation type="ecclesiastic">Saint</occupation>
+               <birth></birth>
+               <floruit></floruit>
+               <death/>
+            </person>  
+            <listRelation>
+               <relation name="ecrm:P129i_is_subject_of"
+                  active="PRS9327Tawalda"
+                  passive="LIT508GadlaT"/>
+            </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl> 
+               <ptr target="bm:Tedros2009TawaldaMadehnVittore"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Tedros2010TawaldaMadhen"/>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
