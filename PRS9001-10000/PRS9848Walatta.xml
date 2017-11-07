@@ -48,6 +48,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-09-14">Complete record</change>
          <change who="SG" when="2017-02-23"> correction </change>
+         <change who="MV" when="2017-11-07">Additions</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -66,7 +67,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <floruit notBefore="1610" notAfter="1644">She was one of the most prominent female religious figures in the 17th century. 
                      She is largely known for her resistance to Catholicism and she is venerated as a saint by the Ethiopian 
                      Orthodox Church. 
-                     
                   </floruit>
                   <death when="1644">She died in <date>1644</date> at the age of 50.</death>
                </person>  
@@ -88,14 +88,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </listPerson>
          <listBibl type="editions">
             <bibl>
-               <ptr target="bm:WendyundKleiner2015WalataPetros"/>
+               <ptr target="bm:ContiRossini1912ZaraBuruk"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="translation" xml:lang="it">
+            <bibl>
+               <ptr target="bm:Ricci1970WalattaPetros"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="translation" xml:lang="en">
+            <bibl>
+               <ptr target="bm:WendyundKleiner2015WalattaPetros"/>
             </bibl>
          </listBibl>
          <listBibl type="secondary">
             <bibl> 
                <ptr target="bm:Cohen2010WalattaPetros"/>
             </bibl>
-   
+            <bibl> 
+               <ptr target="bm:Papi1943WalattaPetros"/>
+            </bibl>
          </listBibl>
       </body>
    </text>

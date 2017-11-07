@@ -47,6 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2016-10-05">Complete record</change>
          <change who="SG" when="2017-02-17"> correction to date, addition of the title</change>
          <change who="SG" when="2017-10-21"> correction to space</change>
+         <change who="MV" when="2017-11-07">Minor additions</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -61,6 +62,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" corresp="#n3" type="normalized">Māḥletāy</persName>
                <persName>
                   <roleName type="title">kǝdus</roleName>
+                  
                </persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
@@ -68,9 +70,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <birth when="0550" cert="medium"> He was born in <placeName ref="LOC1310Aksum">ʾAksum</placeName> most probably in the first half of sixth century. </birth>
                <floruit> He was highly venerated saint of Ethiopian Orthodox Church. He received a
                   traditional education from a priest of <placeName ref="LOC1311AksumS">ʾAksum
-                     Ṣǝyon</placeName>, <roleName type="title">ʾabbā </roleName>
+                     Ṣǝyon</placeName>, <roleName type="title">ʾabbā</roleName>
                   <persName ref="PRS11209Gedewon">Gedewon</persName>. He is credited with the invention
-                  of Ethiopic sacred music and hymnody. </floruit>
+                  of Ethiopic sacred music and hymnody.</floruit>
 
             </person>
             <listRelation>
@@ -96,10 +98,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="ecrm:P129i_is_subject_of"
                          active="PRS10245Yared"
                          passive="LIT1512GadlaY"/>
-
             </listRelation>
          </listPerson>
-
+         <listBibl type="editions">
+            <bibl> 
+               <ptr target="bm:ContiRossini1904YaredPantalewon"/>
+            </bibl>
+         </listBibl>
          <listBibl type="secondary">
             <bibl>
                <ptr target="bm:Brita2014Yared"/>
@@ -109,7 +114,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <citedRange unit="page">104, 121, 151, 162, 163, 164, 165, 166, 168, 169, 170, 172,
                   173, 174</citedRange>
             </bibl>
-
          </listBibl>
       </body>
    </text>
