@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Wäldä Tǝnsaʾe</title>
+            <title>Walda Tǝnśāʾe</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +44,30 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="MV" when="2017-11-07">Minor additions</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Wäldä Tǝnsaʾe
-               </persName>
-               <occupation> theol. </occupation>
-            </person>
+               <persName xml:lang="gez" xml:id="n1">ወልደ፡ ትንሣኤ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Walda Tǝnśāʾe</persName>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="academic">theologian</occupation>
+               <birth></birth>
+               <floruit></floruit>
+               <death/>
+            </person>  
+            <!--  Perhaps he is the same Walda Tǝnśāʾe za-ʾƎnfrāz in bm:KRZ p. 95
+               <listRelation>
+               <relation name="ecrm:P129i_is_subject_of"
+                  active="PRS9984WaldaTe"
+                  passive="LIT4806ZenaWT"/>
+            </listRelation> -->
          </listPerson>
+        
       </body>
    </text>
 </TEI>
