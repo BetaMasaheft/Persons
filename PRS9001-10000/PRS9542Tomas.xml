@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Tomas</title>
+            <title>Tomās of Dimā Giyorgis</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,22 +44,35 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="MV" when="2017-11-07">Minor additions</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Tomas
-               </persName>
-               <occupation>abbot</occupation>
-               <residence>
-                  <placeName>Dima</placeName>
-               </residence>
-            </person>
+               <persName xml:lang="gez" xml:id="n1">ቶማስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Tomās</persName>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="ecclesiastic">abbot</occupation>
+               <occupation type="ecclesiastic">Saint</occupation>
+               <birth></birth>
+               <floruit></floruit>
+               <death/>
+            </person>  
+            <listRelation>
+               <relation name="ecrm:P129i_is_subject_of"
+                  active="PRS9542Tomas"
+                  passive="LIT4801ZenaTo"/>
+            </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Persoon2010TakastaBerhan"/>
+               <citedRange>822b</citedRange>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
