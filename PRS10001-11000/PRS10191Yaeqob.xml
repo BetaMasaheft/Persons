@@ -67,9 +67,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                <occupation type="ruler">prince</occupation>
                <birth when="1527" cert="medium"/>
-               <death when="1557" evidence="internal">He died two years before the death of his brother 
-                  <roleName type="title">ʾaṣe</roleName> 
-                  <persName ref="PRS4428Galawdew">Galāwdewos</persName>who died in <date>1559</date>. </death>
+               <death when="1557"/>
                
             </person>
             <listRelation>
@@ -93,11 +91,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          
          <listBibl type="editions">
             <bibl>
-               <ptr target="bm:Pereira1888"/>
+               <ptr target="bm:Pereira1888Minas"/>
             </bibl>
                <bibl>
-                  <ptr target="bm:Kropp1988"/> 
+                  <ptr target="bm:Kropp1988LebnaI"/> 
             </bibl>
+            <bibl>
+               <ptr target="bm:Kropp1988LebnaII"/> 
+            </bibl>
+            
             </listBibl>
          
             <listBibl type="secondary">

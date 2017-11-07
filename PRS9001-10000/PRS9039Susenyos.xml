@@ -48,6 +48,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2017-08-08">Complete record</change>
+         <change who="SG" when="2017-11-07">addition</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -68,12 +69,34 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <faith type="EOTC"/> 
                <occupation type="ruler">Emperor</occupation>
                
-               <birth/>
-               <floruit>
+              <birth when="1746" cert="medium"/>
+               <floruit notBefore="1770" notAfter="1771"> Susenyos II  was a king of Ethiopia during the time of Zamana Masāfǝnt.
+                 He was the son of a noble woman who had lost her fortune and made her living by carrying jars of water, while it was rumored that he was 
+                 the illegitimate son of <roleName type="title">ʾaṣe</roleName><persName ref="PRS5617IyasuII"/>.
+                  
+                  
                </floruit>
+               <death when="1771"/>
                <death/>
             </person>
          </listPerson>
+         
+         
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Blundell1922Chronicle"/>
+            </bibl>
+            
+            
+            
+            
+           </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Bruce1790travelsV"/>
+            </bibl>  
+         </listBibl>
+         
                
       </body>
    </text>
