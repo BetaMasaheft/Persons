@@ -49,29 +49,29 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               
-                  <persName xml:lang="gez" xml:id="n1">ይምርሐነ፡ ክርስቶስ፡</persName>
+            <person sex="1">         
+               <persName xml:lang="gez" xml:id="n1">ይምርሐነ፡ ክርስቶስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Yǝmrǝḥanna Krǝstos</persName>
                <persName>
-                  <roleName type="title">ʾaṣe </roleName>
+                  <roleName type="title">ʾaṣe</roleName>
                </persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
-              <occupation type="ruler"> a saint king</occupation>
+               <occupation type="ruler"> a saint king</occupation>
                <floruit when="1053" evidence="internal">He succeeded his paternal uncle King <persName ref="PRS9242tantawed">Ṭanṭawǝdǝm</persName>. 
                </floruit>
                <death when="1093" cert="low" evidence="internal">around 1093</death>
+               <!-- It is questionable, perhaps 1193? (MV 2017-11-08) -->
             </person>
             <listRelation>
-                    <relation name="snap:SonOf" active="PRS10325Yemreha" passive="PRS4605Germase"/>
-                    <relation name="snap:NieceOf"
-                         active="PRS10325Yemreha"
-                         passive="PRS9242tantawed"/>
-                    <relation name="ecrm:P129i_is_subject_of"
-                         active="PRS10325Yemreha"
-                         passive="LIT1516GadlaY"/>
-                </listRelation>
+               <relation name="snap:SonOf" active="PRS10325Yemreha" passive="PRS4605Germase"/>
+               <relation name="snap:NieceOf"
+                  active="PRS10325Yemreha"
+                  passive="PRS9242tantawed"/>
+               <relation name="ecrm:P129i_is_subject_of"
+                  active="PRS10325Yemreha"
+                  passive="LIT1516GadlaY"/>
+            </listRelation>
          </listPerson>
          <listBibl type="editions">
             <bibl>
