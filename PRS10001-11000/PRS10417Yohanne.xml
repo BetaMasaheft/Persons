@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Yoḥannǝs of Gwǝnanqe</title>
+            <title>Yoḥannǝs of Gʷǝnānqe</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +44,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="MV" when="2017-11-07">Minor additions</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Yoḥannǝs of Gwǝnanqe
-               </persName>
-               <occupation> St </occupation>
-            </person>
-         </listPerson>
+               <persName xml:lang="gez" xml:id="n1">ዮሐንስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Yoḥannǝs</persName>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="ecclesiastic">Saint</occupation>
+               <birth></birth>
+               <floruit></floruit>
+               <death/>
+            </person>  
+            <listRelation>
+               <relation name="ecrm:P129i_is_subject_of"
+                  active="PRS10417Yohanne"
+                  passive="LIT4812GadlaYo"/>
+            </listRelation>
+         </listPerson>        
       </body>
    </text>
 </TEI>
