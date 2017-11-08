@@ -54,18 +54,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-           
-                  <persName>Yǝtbārak</persName>
+               
+               <persName>Yǝtbārak</persName>
                <persName xml:lang="gez" xml:id="n1" type="birth">ይትባረክ፡</persName>
-                  <persName xml:lang="gez" corresp="#n1" type="normalized">Yǝtbārak</persName>
-                  <persName>
-                  <roleName type="title">ʾaṣe </roleName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Yǝtbārak</persName>
+               <persName>
+                  <roleName type="title">ʾaṣe</roleName>
                </persName>
-        
+               
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <occupation type="ruler">a saint king</occupation>
-              
+               
                <floruit when="1240" evidence="internal">He succeeded a saint King <persName ref="PRS7437Naakkwe">Naʾakkʷǝto Laʾab</persName>. 
                   He was the last king of the Zāgʷe dynasty.
                </floruit>
@@ -73,12 +73,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </person>
             <listRelation>
                <relation name="snap:SonOf"
-                         active="PRS10363Yetbara"
-                         passive="PRS6152Lalibala"/>
+                  active="PRS10363Yetbara"
+                  passive="PRS6152Lalibala"/>
                <relation name="snap:SonOf" active="PRS10363Yetbara" passive="PRS6859MasqalK"/>
                <relation name="snap:CousinOf"
-                         active="PRS10363Yetbara"
-                         passive="PRS7437Naakkwe"/>
+                  active="PRS10363Yetbara"
+                  passive="PRS7437Naakkwe"/>
+               <relation name="ecrm:P129i_is_subject_of"
+                  active="PRS10363Yetbara"
+                  passive="LIT1518GadlaY"/>
             </listRelation>
          </listPerson>
          <listBibl type="editions">
@@ -94,13 +97,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listBibl type="secondary">
             <bibl> 
                <ptr target="bm:Marrassini2014Yetbarak"/>
-              </bibl>  
-         </listBibl>
-         <listBibl type="secondary">
+            </bibl>  
             <bibl> 
                <ptr target="bm:Sergew1972Ethiopianhistory"/>
-               </bibl>  
+            </bibl>  
          </listBibl>
-        </body>
+      </body>
    </text>
 </TEI>
