@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Yosef</title>
+            <title>Yosef of Walaqā</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -49,18 +49,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
-            <person sex="2">
-               <persName>
-                  
-                  Yosef
-               </persName>
-            </person>
+            <person sex="1">
+               <persName xml:lang="gez" xml:id="n1">ዮሴፍ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Yosef</persName>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="ecclesiastic">monk</occupation>
+               <birth></birth>
+               <floruit><!-- disciple of Zenā Mārqos --></floruit>
+               <death/>
+            </person>  
             <listRelation>
-               <relation name="unspecified">
-                  <desc> disc. Zena Marqos </desc>
-               </relation>
+               <relation name="ecrm:P129i_is_subject_of"
+                  active="PRS10455Yosef"
+                  passive="LIT4814GadlaYo"/>
             </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Raineri2014ZenaMarqos"/>
+               <citedRange>179a</citedRange>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
