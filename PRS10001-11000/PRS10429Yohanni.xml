@@ -52,20 +52,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               
-               
                <persName xml:lang="gez" xml:id="n1" type="birth">ዮሐኒ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Yoḥanni</persName>
                <persName>
                   <roleName type="title">ʾabbā</roleName>
                </persName>
-               
               <nationality type="Ethiopia"/>
-               
-               
                <occupation type="ecclesiastic"> abbot</occupation>
-             
-               <floruit>He was the spiritual teacher of the prominent monastic leaders of Ethiopia during the late 13th- early 14th century 
+               <floruit>He was the spiritual teacher of the prominent monastic leaders of Ethiopia during the late 13th-early 14th century 
                   ʾabuna <persName ref="PRS5633IyasusM">ʾIyasus Moʿa</persName> of <placeName ref="INS0327DHE">Dabra Ḥayq ʾƎsṭifānos</placeName>
                   and ʾabuna <persName ref="PRS9162TaklaHa">Takla Hāymānot</persName> of <placeName ref="INS0341">Dabra Libānos</placeName>.
                </floruit>
@@ -79,6 +73,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="snap:AllianceWith"
                          active="PRS10429Yohanni"
                          passive="PRS9162TaklaHa"/>
+               <relation name="ecrm:P129i_is_subject_of"
+                  active="PRS10429Yohanni"
+                  passive="LIT4816GadlaYo"/>
             </listRelation>
          </listPerson>
              <listBibl type="editions">

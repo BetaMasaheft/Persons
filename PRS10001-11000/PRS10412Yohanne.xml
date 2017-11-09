@@ -53,8 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-              
-                  <persName xml:lang="gez" xml:id="n1" type="birth">ዮሐንስ፡ ምስራቃዊ፡</persName>
+                  <persName xml:lang="gez" xml:id="n1" type="birth">ዮሐንስ፡ ምሥራቃዊ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Yoḥannǝs Mǝśrāqāwi</persName>
                <persName xml:lang="gez" xml:id="n2" type="alt">ዮሐንስ፡ ጸገሮ፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">Yoḥannǝs of Ṣagaro</persName>
@@ -69,7 +68,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <occupation type="ecclesiastic">saint</occupation>
                   <residence/>
                   <birth/>
-               <floruit>He was an Ethiopian saint credited with the evangelization of the region of <placeName ref="LOC4544Manz">Manz</placeName>
+               <floruit>He was an Ethiopian saint credited with the evangelization of the region of <placeName ref="LOC4544Manz">Manz</placeName>.
                </floruit>
                   <death/>
                </person>  
@@ -77,7 +76,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <relation name="snap:AllianceWith"
                          active="PRS10412Yohanne"
                          passive="PRS10408Yohanne"/>
-                  
                            <relation name="ecrm:P129i_is_subject_of"
                          active="PRS10412Yohanne"
                          passive="LIT1519GadlaY"/>
@@ -89,9 +87,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <ptr target="bm:Marrassini1981YohannesMisrakawi"/>
             </bibl>
          </listBibl>
+         <listBibl type="translation" xml:lang="it">
+            <bibl>
+               <ptr target="bm:Marrassini1981YohannesMisrakawi"/>
+            </bibl>
+         </listBibl>
          <listBibl type="secondary">
             <bibl> 
                <ptr target="bm:Marrassini2014YohannesMesrakawi"/>
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Fiaccadori1988YohannesMesraqawi"/>
             </bibl>
          </listBibl>
       </body>

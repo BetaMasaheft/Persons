@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Zälibanos of Yälmetän</title>
+            <title>Zalibānos of Yalmetān</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +44,38 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="MV" when="2017-11-09">Minor additions</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Zälibanos of Yälmetän
-               </persName>
-               <occupation> St </occupation>
-            </person>
+               <persName xml:lang="gez" xml:id="n1">ዘሊባኖስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Zalibānos</persName>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="ecclesiastic">saint</occupation>
+               <birth></birth>
+               <floruit></floruit>
+               <death/>
+            </person>  
+            <listRelation>
+               <relation name="ecrm:P129i_is_subject_of"
+                  active="PRS10558Zaliban"
+                  passive="LIT4820GadlaZa"/>
+            </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Bausi2010Tamben"/>
+               <citedRange>853a</citedRange>
+            </bibl>
+            <bibl> 
+               <ptr target="bm:KRZ"/>
+               <citedRange>101</citedRange>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>

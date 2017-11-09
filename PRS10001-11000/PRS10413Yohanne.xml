@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Yoḥannǝs of Bänkwäl</title>
+            <title>Yoḥannǝs of Bankʷal</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +44,34 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="MV" when="2017-11-07">Minor additions</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Yoḥannǝs of Bänkwäl
-               </persName>
-               <occupation> monk </occupation>
-            </person>
+               <persName xml:lang="gez" xml:id="n1">ዮሐንስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Yoḥannǝs</persName>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="ecclesiastic">monk</occupation>
+               <birth></birth>
+               <floruit><!-- disciple of Madḫanina ʾƎgziʾ --></floruit>
+               <death/>
+            </person>  
+            <listRelation>
+               <relation name="ecrm:P129i_is_subject_of"
+                  active="PRS10413Yohanne"
+                  passive="LIT4811GadlaYo"/>
+            </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Raineri2007MadhaninaEgzi"/>
+               <citedRange>625a</citedRange>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>

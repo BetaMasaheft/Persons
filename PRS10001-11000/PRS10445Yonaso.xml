@@ -66,27 +66,39 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <birth> He was born in the district of <placeName ref="LOC2019Bur">Bur </placeName> in <date>1400/03</date>
                </birth>
                <floruit> He is one of the most important personalities of the <persName ref="PRS11207Ewostateans">ʾEwosṭāteans</persName> movement. 
-                  He was the founder of the monastery  of <placeName ref="LOC2257DabraD">Dabra Dǝḫuḫan</placeName>. 
+                  He was the founder of the monastery  of <placeName ref="LOC2257DabraD">Dabra Dǝḫuḫān</placeName>. 
                </floruit>
                <death>
                   <date>1498</date>
                </death>
             </person>  
             <listRelation>
-          
-      
                <relation name="snap:SonOf" active="PRS10445Yonaso" passive="PRS7557Newayae"/>
                <relation name="snap:SonOf" active="PRS10445Yonaso" passive="PRS5298heritaM"/>
                <relation name="snap:AllianceWith"
                          active="PRS10445Yonaso"
                          passive="PRS3932Ewostate"/>
-               
                <relation name="ecrm:P129i_is_subject_of"
                          active="PRS10445Yonaso"
                          passive="LIT1522GadlaY"/>
             </listRelation>
          </listPerson>
- 
+         <listBibl type="editions">
+            <bibl> 
+               <ptr target="bm:ContiRossini1903AbbaYonas"/>
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Tedros2015Yonas"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="translation" xml:lang="it">
+            <bibl> 
+               <ptr target="bm:ContiRossini1903AbbaYonas"/>
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Tedros2015Yonas"/>
+            </bibl>
+         </listBibl>
         <listBibl type="secondary">
             <bibl> 
                <ptr target="bm:Bausi2014YonasBur"/>
