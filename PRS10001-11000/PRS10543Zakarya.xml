@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Zäkaryas of Gälila</title>
+            <title>Zakāryās of Galilā</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +44,34 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="MV" when="2017-11-09">Minor additions</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Zäkaryas of Gälila
-               </persName>
-               <occupation> monk </occupation>
-            </person>
+               <persName xml:lang="gez" xml:id="n1">ዘካርያስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Zakāryās</persName>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="ecclesiastic">monk</occupation>
+               <birth></birth>
+               <floruit></floruit>
+               <death/>
+            </person>  
+            <listRelation>
+               <relation name="ecrm:P129i_is_subject_of"
+                  active="PRS10543Zakarya"
+                  passive="LIT1525GadlaZ"/>
+            </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:BoscTiesse2005EAEGalila"/>
+               <citedRange>659b</citedRange>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
