@@ -48,6 +48,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-08-08">Complete record</change>
          <change who="SG" when="2016-08-25"> transcription, bibliography and addition to the content </change>
+         <change who="DR" when="2017-11-10">Added name variants</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -56,6 +57,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">አጽቁ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAṣqu</persName>
+               <persName xml:lang="gez" xml:id="n2" type="birth">አጥቁ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAṭqu</persName>
+               <persName xml:lang="de" xml:id="n3">Atkum</persName>
                <persName>
                   <roleName type="title">liq</roleName>
                </persName>
