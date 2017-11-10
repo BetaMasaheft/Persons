@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Zayoḥannǝs za-Kǝbrān</title>
+            <title>Zäyoḥannǝs</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,44 +44,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
-         <change who="MV" when="2017-11-10">Minimal additions</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName xml:lang="gez" xml:id="n1" type="birth">ዘዮሐንስ፡</persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized">Zayoḥannǝs</persName>
                <persName>
-                  <roleName type="title">ʾabbā</roleName>
+                  
+                  Zäyoḥannǝs
                </persName>
-               <nationality type="Ethiopia"/>
-               <faith type="EOTC"/>
-               <occupation type="ecclesiastic">saint</occupation>
-               <floruit></floruit>
-            </person>  
-            <listRelation>
-               <relation name="ecrm:P129i_is_subject_of"
-                  active="PRS10688Zayohan"
-                  passive="LIT1529GadlaZ"/>
-            </listRelation>
+               <occupation> St </occupation>
+            </person>
          </listPerson>
-         <listBibl type="editions">
-            <bibl>
-               <ptr target="bm:Schneider1972ZayohannesT"/>
-            </bibl>
-         </listBibl>
-         <listBibl type="translation" xml:lang="fr">
-            <bibl>
-               <ptr target="bm:Schneider1972ZayohannesV"/>
-            </bibl>
-         </listBibl>
-         <listBibl type="secondary">
-            <bibl> 
-               <ptr target="bm:LeCadre2014Zayohannes"/>
-            </bibl>
-         </listBibl>
       </body>
    </text>
 </TEI>
