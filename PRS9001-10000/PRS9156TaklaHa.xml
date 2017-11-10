@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Täklä Haymanot</title>
+            <title>Takla Hāymānot</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,21 +44,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="DR" when="2017-11-10">Updated name and relation</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Täklä Haymanot
-               </persName>
+                  <persName xml:lang="gez" xml:id="n1">ተክለ፡ ሃይማኖት፡</persName>
+               <persName xml:lang="gez" corresp="#n1">Takla Hāymānot</persName>
             </person>
             <listRelation>
-               <relation name="grandfatherOf">
-                  <desc> grandfather Aṣqu </desc>
-               </relation>
+               <relation name="snap:GrandfatherOf" active="PRS9156TaklaHa" passive="PRS2183Asqu"/>               
             </listRelation>
          </listPerson>
       </body>
