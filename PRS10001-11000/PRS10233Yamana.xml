@@ -57,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
           
                <persName xml:lang="gez" xml:id="n1" type="birth">የማነ፡ ክርስቶስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Yamāna Krǝstos</persName>
-                  <persName xml:lang="gez" corresp="n2" type="birth">the Jesuit sources call him“Emana” or “Imano”</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="birth">the Jesuit sources call him “Emana” or “Imano”</persName>
                <persName>
                   <roleName type="title">rās</roleName>
                </persName>
@@ -68,7 +68,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <floruit when="1605" evidence="internal">He  refused to side with his brother <roleName type="title">ʾaṣe</roleName> 
                   <persName ref="PRS9038Susenyos">Susǝnyos</persName>
                   in a struggle against the young <roleName type="title">ʾaṣe</roleName> 
-                  <persName ref="PRS10198Yaeqob">Yāʿǝqob</persName>in<date>1605</date>.  
+                  <persName ref="PRS10198Yaeqob">Yāʿǝqob</persName> in <date>1605</date>.  
                </floruit>
                <death when="1636" evidence="internal"/> 
             </person>
