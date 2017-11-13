@@ -47,6 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="SG" when="2016-05-30">completed the record</change>
          <change who="SG" when="2017-02-09">correction to date</change>
+         <change who="SG" when="2017-11-13">additions to bibliography</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -115,6 +116,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <bibl> 
                   <ptr target="bm:Cohen2010Susenyos"/>
                </bibl>  
+                <bibl> 
+                   <ptr target="bm:Sisay2015Susenyos"/>
+                   <citedRange unit="page">89-93</citedRange>
+                </bibl>
             </listBibl>
          
           </body>

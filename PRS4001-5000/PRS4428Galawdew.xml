@@ -45,7 +45,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          
          <change who="SG" when="2016-04-28">Added more information about the king</change>
-         <change when="2016-05-02" who="ES">names adjusted; fidel corrected; transcription corrected (note the transliteration rules); title adjusted as roleName; English name corrected; relations added</change>
+         <change when="2016-05-02" who="ES">names adjusted; fidel corrected; transcription corrected 
+            (note the transliteration rules); title adjusted as roleName; English name corrected; relations added</change>
+         <change who="SG" when="2017-11-13">additions to bibliography</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -103,6 +105,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <bibl> 
                <ptr target="bm:Kleiner2005Galaw"/>
             </bibl>
+            <bibl> 
+               <ptr target="bm:Kropp2016Galawdewos"/>
+               <citedRange unit="page">284-297</citedRange>
+            </bibl>
+        
          </listBibl>
       </body>
    </text>
