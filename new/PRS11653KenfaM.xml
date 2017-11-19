@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="gez" xml:id="t1">Kǝnfa Mikāʾel</title>
+                <title xml:lang="gez">Kǝnfa Mikāʾel</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="ES"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -47,14 +47,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="ES" when="2017-05-15">Created entity</change>
+            <change who="DR" when="2017-11-19">Added name in fidal</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Kǝnfa Mikāʾel</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ክንፈ፡ ሚካኤል፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Kǝnfa Mikāʾel</persName>
                     <faith type="EOTC"/>
                     <occupation type="ecclesiastic">ʾabbā</occupation>
                     <nationality type="post-Aksumite"/>
@@ -67,7 +68,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <relation name="snap:SonOf" active="PRS11653KenfaM" passive="PRS11652Matewos"/>
                 </listRelation>
             </listPerson>
-         <!--owner of BL Orient 507-->
         </body>
     </text>
 </TEI>
