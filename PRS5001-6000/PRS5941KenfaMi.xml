@@ -56,14 +56,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" xml:id="n1" type="birth">ክንፈ፡ ሚካኤል፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Kǝnfa Mikāʾǝl</persName>
                <persName>
-                  <roleName type="title">ṣaḥafe tǝʿǝzāz</roleName>
+                  <roleName type="title">ṣaḥafe tǝʾǝzāz</roleName>
                </persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <occupation type="literary"> chronicler</occupation>
                <residence ref="LOC3577Gondar">Gondar</residence>
               
-               <floruit notBefore="1600" notAfter="1750">He was <roleName type="title">ṣaḥafe tǝʿǝzāz</roleName> during the time of 
+               <floruit notBefore="1600" notAfter="1750">He was <roleName type="title">ṣaḥafe tǝʾǝzāz</roleName> during the time of 
                   <roleName type="title">ʾaṣe </roleName>
                   <persName ref="PRS2377Bakaffa">Bakāffā</persName>. 
                   He continued to write the chronicle of <roleName type="title">ʾaṣe </roleName>
@@ -72,7 +72,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <persName ref="PRS8869Sinoda">Sinodā</persName>. He wrote the
                   last 14 chapters of the chronicle of  <roleName type="title">ʾaṣe </roleName>
                   <persName ref="PRS2377Bakaffa">Bakāffā</persName>, 
-                  recording events from mid-August 1726-January 1727.</floruit>
+                  recording events from mid-August 1726 to January 1727.</floruit>
               
             </person>  
             <listRelation>
@@ -86,6 +86,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="snap:FriendshipFor"
                          active="PRS5941KenfaMi"
                          passive="PRS8871Sinoda"/>
+               
+               <relation name="snap:FatherOf"
+                  active="PRS5941KenfaMi"
+                  passive="PRS11776TaklaHaymanot"/>
                
             </listRelation>
          </listPerson>
