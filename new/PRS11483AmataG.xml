@@ -47,14 +47,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="DR" when="2017-03-16">Created entity</change>
+            <change who="DR" when="2017-11-20">Correction</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="2">
-                    <persName xml:lang="gez" xml:id="n1" type="normalized">ʾAmata Gābrǝʾel Čakolač</persName> 
-               <!--correct transcription?-->
+                    
+                    <persName xml:lang="gez" xml:id="n1" type="birth">አመተ፡ ገብርኤል፡ ቸኮለች፡</persName>
+                    <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAmata Gābrǝʾel Čakolač</persName>
+                    
+                 
                     <faith type="EOTC"/>
                 </person>
                 <listRelation>

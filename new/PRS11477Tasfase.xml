@@ -53,12 +53,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName>Tāsfā Ṣǝyon</persName>
+                    <persName xml:lang="gez" xml:id="n1" type="birth">ተስፋ፡ጽዮን፡</persName>
+                    <persName xml:lang="gez" corresp="#n1" type="normalized">Tāsfā Ṣǝyon</persName>
+                    
                     <persName>
-                  <roleName type="title">qašši
-                        
-                    </roleName>
-               </persName>
+                        <roleName type="title">qašši</roleName>
+                    </persName>
+                
+                 
                     <faith type="Orthodox"/>
                 
                 </person>

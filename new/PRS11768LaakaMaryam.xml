@@ -53,8 +53,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Laʾaka Māryām</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1" type="birth">ለአከ፡ ማርያም፡</persName>
+                    <persName xml:lang="gez" corresp="#n1" type="normalized">Laʾaka Māryām</persName>
+                    
                     <faith type="EOTC"/>
                     <occupation type="other"/>
                     <nationality type="Ethiopia"/>
