@@ -48,17 +48,52 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ʾAkǝlil</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1" type="birth">አክሊል፡</persName>
+                    <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAkǝlil</persName>
+                    
+                    
+                    
+                    
+                    <nationality type="Ethiopia"/>
                     <faith type="EOTC"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    
+                    
+                    <occupation type="other">servant</occupation>
+                    
+                    
+                    <floruit >
+                    </floruit>
+                    
+                    
                 </person>
+                
                 <listRelation>
-                    <relation name="saws:isCopierOf" active="PRS11781Akelil" passive=""/>
+                    <relation name="saws:isRelatedTo"
+                        active="PRS11781Akelil"
+                        passive="PRS2226Atnatewo"/>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
+            
+            <listBibl type="editions">
+                <bibl>
+                    <ptr target="bm:Pereira1892Susenyos"/>
+                </bibl>
+                
+                
+                
+                
+                <bibl>
+                    <ptr target="bm:Pereira1900Susenyos"/>
+                </bibl>
+                <bibl>
+                    <ptr target="bm:Alemu2013Susenyos"/>
+                </bibl>
+                
+            </listBibl>
+            
         </body>
     </text>
 </TEI>
+
+
+                    
