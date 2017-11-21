@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Mehmad</title>
+                <title>Mǝḥmad</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="SG"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -53,8 +53,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Mehmad</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1" type="birth">ምሕመድ</persName>
+                    <persName xml:lang="gez" corresp="#n1" type="normalized">Mǝḥmad</persName>
+                    
+                  
                     <faith type="Islam"/>
                     <birth/>
                     <death/>

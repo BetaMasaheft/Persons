@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Lǝssanä Krǝstos</title>
+            <title>Lǝssāna Krǝstos</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +44,67 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-11-20">addition</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
+               <persName xml:lang="gez" xml:id="n1" type="birth">ልሳነ፡ ክርስቶስ</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Lǝssāna Krǝstos</persName>
                <persName>
-                  
-                  Lǝssanä Krǝstos
+                  <roleName type="title">ʾabetaḫun</roleName>
                </persName>
-               <occupation> pol. </occupation>
+               <occupation type="political">prince</occupation>
+               <faith type="EOTC"/>
+              <nationality type="Ethiopia"/>
+         
             </person>
+            
+            <listRelation>
+               <relation name="snap:BrotherOf"
+                  active="PRS6272Lessana"
+                  passive="PRS8550sardaDe"/>
+               <relation name="snap:FatherOf"
+                  active="PRS6272Lessana"
+                  passive="PRS10513Zadenge"/>
+               
+            </listRelation>
          </listPerson>
+         
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Pereira1892Susenyos"/>
+            </bibl>
+            
+            
+            
+            
+            <bibl>
+               <ptr target="bm:Pereira1900Susenyos"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Alemu2013Susenyos"/>
+            </bibl>
+            
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Cohen2014Zadengel"/>
+            </bibl>  
+            
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+               
+               
+              
+                  
+                 
+              
+        
+            

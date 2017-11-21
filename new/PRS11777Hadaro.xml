@@ -1,16 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="PRS11767RomanaWarq"
-     xml:lang="en"
-     type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS11777Hadaro" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>RomānaWarq</title>
+                <title>Ḥadaro</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="SG"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -46,40 +41,56 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="SG" when="2017-10-24">Created entity</change>
+            <change who="SG" when="2017-11-20">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person sex="2">
-                    <persName xml:lang="gez" xml:id="n1" type="birth">ሮማነ፡ ወርቅ፡</persName>
-                    <persName xml:lang="gez" corresp="#n1" type="normalized">Romāna Warq</persName>
-                    
+                <person sex="1">
+                    <persName xml:lang="gez" xml:id="n1" type="birth">ኀደሮ</persName>
+                    <persName xml:lang="gez" corresp="#n1" type="normalized">Ḥadaro</persName>
                 
-                    <faith type="EOTC"/>
-                    <occupation type="other"/>
-                    <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
-                </person>
-                <listRelation>
-                    <relation name="snap:DaughterOf"
-                         active="PRS11767RomanaWarq"
-                         passive="PRS7481NaodA"/>
-                    <relation name="snap:SisterOf"
-                         active="PRS11767RomanaWarq"
-                         passive="PRS6229LebnaDe"/>
-                    <relation name="snap:SisterOf"
-                         active="PRS11767RomanaWarq"
-                         passive="PRS11769AmataDengel"/>
-                    
-                    
-                </listRelation>
+                        
+                
+                  
+                        
+                        <nationality type="Ethiopia"/>
+                        <faith type="Catholicism"/>
+                        
+                        
                    
+                        
+                        <birth/>
+                        <floruit> 
+                        </floruit>
+                  
+                        
+                </person>
+                
+                <listRelation>
+                    <relation name="snap:KinOf"
+                        active="PRS11777Hadaro"
+                        passive="PRS9038Susenyos"/>
+                    </listRelation>
             </listPerson>
-         <!---->
-        </body>
+            
+            <listBibl type="editions">
+                <bibl>
+                    <ptr target="bm:Pereira1892Susenyos"/>
+                </bibl>
+                
+                
+                
+                
+                <bibl>
+                    <ptr target="bm:Pereira1900Susenyos"/>
+                </bibl>
+                <bibl>
+                    <ptr target="bm:Alemu2013Susenyos"/>
+                </bibl>
+                
+            </listBibl>
+            </body>
     </text>
 </TEI>

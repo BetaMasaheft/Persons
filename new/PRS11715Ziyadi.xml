@@ -53,8 +53,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Ziyadi</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                   
+                        <persName xml:lang="gez" xml:id="n1" type="birth">ዚየዲ፡</persName>
+                        <persName xml:lang="gez" corresp="#n1" type="normalized">Ziyadi</persName>
+                        
+                        
+                  
                     <faith type="Islam"/>
                     <occupation type="ruler"/>
                     <birth/>

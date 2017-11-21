@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Täklä Haymanot Kǝflä Maryam</title>
+            <title>Takla Hāymānot Kǝfla Māryām</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -50,12 +50,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Täklä Haymanot Kǝflä Maryam
-               </persName>
-               <occupation> wr.</occupation>
+               <persName xml:lang="gez" xml:id="n1">ተክለ፡ ሃይማኖት፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Takla Hāymānot</persName>
             </person>
+            <listRelation>
+               <relation name="lawd:hasAttestation" active="PRS9167TaklaHa" passive="FSUor41"/>
+               <relation name="snap:SonOf" active="PRS9167TaklaHa" passive="PRS5912KeflaMa"/>
+            </listRelation>
          </listPerson>
       </body>
    </text>
