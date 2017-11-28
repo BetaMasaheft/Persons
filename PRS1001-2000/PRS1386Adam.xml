@@ -11,6 +11,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Adam</title>
+            <editor role="generalEditor" key="AB"/>
+            <editor key="JG"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -40,6 +42,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change who="JG" when="2016-02-09">updated info</change>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
@@ -49,13 +52,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
+            <person sex="1" sameAs="Q70899">
                <persName>
-                  
                   Adam
                </persName>
-               <occupation> bibl. </occupation>
+               <occupation type="other">biblical</occupation>
+               <faith type="Judaism"/>
+               <faith type="Christianity"/>
+               <floruit>The first man created by God according to Genesis.</floruit>
             </person>
+            <listRelation>
+               <relation name="bm:husbandOf" active="#PRS1386Adam" passive="PRS3926Eve"/>
+               <relation name="snap:AncestorOf" active="#PRS1386Adam" passive="PRS5684JesusCh"/>
+            </listRelation>
          </listPerson>
       </body>
    </text>
