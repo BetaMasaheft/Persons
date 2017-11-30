@@ -56,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1" sameAs="Q48438">
                <persName xml:lang="en" xml:id="n1">St George</persName>
-                  <persName xml:lang="gez" xml:id="n2" type="birth">ጊዮርጊስ፡</persName>
+         <!--         <persName xml:lang="gez" xml:id="n2" type="birth">ጊዮርጊስ፡</persName>
                   <persName xml:lang="gez" corresp="#n2" type="normalized">Giyorgis</persName>
                <persName xml:lang="gez" xml:id="n3" type="alt">ማር፡ ጊዮርጊስ፡</persName>
                <persName xml:lang="gez" corresp="#n3" type="normalized">Mār Giyorgis</persName>
@@ -68,19 +68,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <birth notBefore="0260" notAfter="0283"></birth>
                   <floruit notBefore="0260" notAfter="0303">He was one of the most famous saints in both Eastern and Western Christian traditions. 
                   The beginnings of the venerations of Giyorgis in <placeName ref="LOC3010Ethiop"/> may date to Aksumite times; in later times the Saint was always popular in the country.</floruit>
-               <death when="0303"/>
+               <death when="0303"/>-->
             </person>
-               <listRelation>
+          <!--     <listRelation>
                   <relation name="rel:enemyOf"
                          active="PRS4585Georgeo"
                          passive="PRS3581Diocleti"/>
                   <relation name="ecrm:P129i_is_subject_of"
                          active="PRS4585Georgeo"
                          passive="LIT1455GadlaG"/>
-               </listRelation>
+               </listRelation>-->
             
          </listPerson>
-         <listBibl type="secondary">
+   <!--      <listBibl type="secondary">
             <bibl> 
                <ptr target="bm:Megally1991George"/>
                <citedRange unit="page">1139b-1140b</citedRange>
@@ -92,7 +92,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <citedRange unit="page">57-73</citedRange>
             </bibl>
             
-         </listBibl>
+         </listBibl>-->
       </body>
    </text>
 </TEI>
