@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>... Yoḥannǝs </title>
+                <title>Yoḥannǝs</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DR"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -44,17 +44,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="DN" when="2017-03-13">Created entity</change>
+            <change who="DR" when="2017-11-30">Updated name</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">
-                  <del rend="erasure"/>
-                  <supplied reason="lost" resp="DN">ዮሐ</supplied>ንስ</persName>
+                    <persName xml:lang="gez" xml:id="n1">ንስ</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Yoḥannǝs</persName>
-                    <note>the first part of the name remains unknown</note>
                     <faith type="EOTC"/>
                     <occupation type="ecclesiastic"/>
                 </person>
