@@ -54,18 +54,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
-            <person sex="1" sameAs="Q48438"/>
+            <person sex="1" sameAs="Q48438">
                <persName xml:lang="en" xml:id="n1">St George</persName>
                   <persName xml:lang="gez" xml:id="n2" type="birth">ጊዮርጊስ፡</persName>
-<<<<<<< HEAD
                   <persName xml:lang="gez" corresp="#n2" type="normalized">Giyorgis</persName>
                <persName xml:lang="gez" xml:id="n3" type="alt">ማር፡ ጊዮርጊስ፡</persName>
                <persName xml:lang="gez" corresp="#n3" type="normalized">Mār Giyorgis</persName>
-=======
-                  <persName xml:lang="gez" corresp="#n3" type="normalized">Giyorgis</persName>
-                  <persName xml:lang="gez" xml:id="n3" type="alt">ማር፡ ጊዮርጊስ፡</persName>
+                  <persName xml:lang="gez" xml:id="n4" type="alt">ማር፡ ጊዮርጊስ፡</persName>
                   <persName xml:lang="gez" corresp="#n4" type="normalized">Mār Giyorgis</persName>
->>>>>>> d2f5013115ccfbd08997bc4fa09cd46c8d284e49
                   <nationality type="Israel/Palestine"/>
                   <faith type="Orthodox"/>
                   <occupation type="ecclesiastic">saint</occupation>
@@ -73,7 +69,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <floruit notBefore="0260" notAfter="0303">He was one of the most famous saints in both Eastern and Western Christian traditions. 
                   The beginnings of the venerations of Giyorgis in <placeName ref="LOC3010Ethiop"/> may date to Aksumite times; in later times the Saint was always popular in the country.</floruit>
                <death when="0303"/>
-            
+            </person>
                <listRelation>
                   <relation name="rel:enemyOf"
                          active="PRS4585Georgeo"
