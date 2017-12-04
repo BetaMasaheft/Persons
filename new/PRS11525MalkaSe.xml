@@ -59,12 +59,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listRelation>
                <relation name="snap:FatherOf"
                          active="PRS11525MalkaSe"
-                         passive="PRS11527WaldaGa PRS11529Elsabet">
-               </relation>
+                         passive="PRS11527WaldaGa"/>
+                  <relation name="snap:FatherOf"
+                     active="PRS11525MalkaSe"
+                     passive="PRS11529Elsabet"/>
+               
                <relation name="bm:husbandOf"
                          active="PRS11525MalkaSe"
-                         passive="PRS11528WalattaGa">
-               </relation>
+                         passive="PRS11528WalattaGa"/>
+               
             </listRelation>
          </listPerson>
       </body>

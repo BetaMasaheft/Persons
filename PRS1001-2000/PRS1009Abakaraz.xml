@@ -44,6 +44,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="DR" when="2017-12-04">Updates</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -54,19 +55,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                   Abäkäräzun
                </persName>
-               <persName type="alt">Abäkǝräzun</persName>
+               <persName type="alt">ʾAbakǝrazun</persName>
                <nationality type="Ethiopia post-Aksumite">Christian Ethiopia</nationality>
                <faith type="EOTC">EOTC</faith>
-               <occupation> abba</occupation>
+               <occupation type="ecclesiastic">ʾabbā</occupation>
                <residence>
-                  <placeName>Däbrä Qäʿat</placeName>
+                  <placeName ref="LOC2331DabraQ"/>
                </residence>
             </person>
             <listRelation>
                <relation name="snap:FatherOf"
                          active="PRS1009Abakaraz"
-                         passive="PRS1000Abakaraz PRS1020Abakaraz"/>
-               <relation name="husbandOf" active="PRS1009Abakaraz" passive="PRS1030Abakaraz"/>
+                         passive="PRS1000Abakaraz"/>
+               <relation name="snap:FatherOf"
+                  active="PRS1009Abakaraz"
+                  passive="PRS1020Abakaraz"/>
+               <relation name="bm:husbandOf" active="PRS1009Abakaraz" passive="PRS1030Abakaraz"/>
             </listRelation>
          </listPerson>
          

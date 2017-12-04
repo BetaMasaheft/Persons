@@ -53,8 +53,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listRelation>
                <relation name="snap:SiblingOf"
                          active="PRS11464Azaria"
-                         passive="PRS11465Anania PRS11463Misael"/>
-               <relation name="dcterms:isPartOf"
+                         passive="PRS11465Anania"/>
+               <relation name="snap:SiblingOf"
+                  active="PRS11464Azaria"
+                  passive="PRS11463Misael"/>
+               <relation name="saws:isMemberOf"
                          active="PRS11464Azaria"
                          passive="PRS11288AnAzMi"/>
             </listRelation>
