@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS11792Gabreal" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS11793Feqero" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ZaGabrǝʾel</title>
+                <title>Fǝqǝro</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="SG"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -48,23 +48,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1" type="birth">ዘገብርኤል፡</persName>
-                    <persName xml:lang="gez" corresp="#n1" type="normalized">ZaGabrǝʾel</persName>
-                    
-                    <nationality type="Ethiopia"/>
-                    <faith type="EOTC"/>
-                    
-                    
-                    
-                    <floruit> </floruit>
-                    
-                    
-                </person>
-                <listRelation>
-                    <relation name="saws:isRelatedTo" active="PRS11792Gabreal" passive="PRS9038Susenyos"/>
-                    
-                    
-                </listRelation>
+                  
+                        
+                    <persName xml:lang="gez" xml:id="n1" type="birth">ፍቅሮ፡</persName>
+                    <persName xml:lang="gez" corresp="#n1" type="normalized">Fǝqǝro</persName>
+                        
+                        <nationality type="Ethiopia"/>
+                        <faith type="EOTC"/>
+                        
+                        
+                        
+                        <floruit> </floruit>
+                        
+                        
+                    </person>
+                    <listRelation>
+                        <relation name="saws:isRelatedTo" active="PRS11791Waledo" passive="PRS2614BeelaK"/>
+                        
+                        
+                    </listRelation>
             </listPerson>
             <listBibl type="editions">
                 
@@ -93,4 +95,4 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
 
 
-                    
+                   
