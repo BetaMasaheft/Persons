@@ -4,12 +4,12 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-    xml:id="ETH2279Konno"
+    xml:id="ETH2281Berbabo"
     type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Konno</title>
+                <title>Berabābo</title>
                 <author/>
             </titleStmt>
             <publicationStmt>
@@ -43,23 +43,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPerson>
                 <personGrp role="ethnic">
                     <persName xml:id="n1" xml:lang="gez">
-                        <orgName>ኮኖ</orgName>
+                        <orgName>ቤረባቦ፡</orgName>
                     </persName>
                     <persName corresp="#n1" type="normalized">
-                        <orgName>Konno</orgName>
+                        <orgName>Berabābo</orgName>
                     </persName>
                     <note>tribe name</note>
                 </personGrp>
-                <listRelation>
-                    <relation name="snap:Group"
-                        active="ETH2278Boran"
-                        passive="ETH1973Oromo"/>
-                    
-                    
-                </listRelation>
             </listPerson>
             <listBibl type="text">
-               
+                
                     <bibl>
                         <ptr target="bm:Pereira1892Susenyos"/>
                     </bibl>
@@ -84,6 +77,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </body>
     </text>
 </TEI>
+
+
+
 
 
 
