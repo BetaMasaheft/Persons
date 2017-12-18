@@ -55,27 +55,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-              
-              
-               <persName xml:lang="gez" xml:id="n1" type="birth">ወልደ፡ ጊዮርጊስ፡</persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized">Walda Giyorgis</persName>
+               <persName xml:lang="gez" xml:id="n1" type="regnal">ሱስንዮስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Susǝnyos</persName>
                <persName>
                   <roleName type="title">ʾaṣe</roleName>
                </persName>
+               <persName xml:lang="gez" xml:id="n2" type="birth">ወልደ፡ ጊዮርጊስ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Walda Giyorgis</persName>
                
-               <persName xml:lang="gez" xml:id="n2" type="regnal">ሱስንዮስ፡</persName>
-               <persName xml:lang="gez" corresp="#n2" type="normalized">Susǝnyos</persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/> 
                <occupation type="ruler">Emperor</occupation>
                
               <birth when="1746" cert="medium"/>
                <floruit notBefore="1770" notAfter="1771"> Susenyos II  was a king of Ethiopia during the time of Zamana Masāfǝnt.
-                 He was the son of a noble woman who had lost her fortune and made her living by carrying jars of water, while it was rumored that he was 
-                 the illegitimate son of <roleName type="title">ʾaṣe</roleName><persName ref="PRS5617IyasuII"/>.
-                  
-                  
-               </floruit>
+                 He was the son of a noblewoman who had lost her fortune and made her living by carrying jars of water, while it was rumored that he was 
+                 the illegitimate son of <roleName type="title">ʾaṣe</roleName> <persName ref="PRS5617IyasuII"/>.</floruit>
                <death when="1771"/>
                <death/>
             </person>
