@@ -44,18 +44,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="DR" when="2017-12-21">Added names and relations</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  
-                  Joachim
-               </persName>
-               <occupation> bibl. </occupation>
+            <person sex="1" sameAs="Q314700">
+               <persName xml:id="n1" xml:lang="gez">ኢያቂም፡</persName>
+            <persName xml:lang="gez" type="normalized" corresp="#n1">ʾIyāqim</persName>
+            <persName type="alt">Joachim</persName>
             </person>
+            <listRelation>
+               <relation name="snap:FatherOf" active="PRS5687Joachim" passive="PRS6819Mary"/>
+               <relation name="bm:husbandOf" active="PRS5687Joachim" passive="PRS1948Anne"/>
+            </listRelation>
          </listPerson>
       </body>
    </text>
