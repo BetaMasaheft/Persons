@@ -4,12 +4,12 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-    xml:id="ETH2278Boran"
+    xml:id="ETH2288Yabesho"
     type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Boran</title>
+                <title>YabǝŠo</title>
                 <author/>
             </titleStmt>
             <publicationStmt>
@@ -43,46 +43,48 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPerson>
                 <personGrp role="ethnic">
                     <persName xml:id="n1" xml:lang="gez">
-                        <orgName>ቦረን፡</orgName>
+                        <orgName>የብሾ፡</orgName>
                     </persName>
                     <persName corresp="#n1" type="normalized">
-                        <orgName>Boran</orgName>
+                        <orgName>YabǝŠo</orgName>
                     </persName>
                     <note>tribe name</note>
                 </personGrp>
                 <listRelation>
                     <relation name="snap:Group"
-                        active="ETH2278Boran"
-                        passive="ETH1973Oromo"/>
-                   
+                        active="ETH2288Yabesho"
+                        passive="ETH1613Gurage"/>
+                    
                     
                 </listRelation>
             </listPerson>
             <listBibl type="text">
-          
-                    <bibl>
-                        <ptr target="bm:Pereira1892Susenyos"/>
-                    </bibl>
-                </listBibl>
-                <listBibl type="translation">
-                    <bibl>
-                        <ptr target="bm:Pereira1900Susenyos"/>
-                    </bibl>
-                    <bibl>
-                        <ptr target="bm:Alemu2013Susenyos"/>
-                    </bibl>
-                    <bibl> 
-                        <ptr target="bm:Boavida2011PaezII"/>
-                        <citedRange unit="page">206-259</citedRange>
-                    </bibl>
-                    
-                    
                 
-             
+                <bibl>
+                    <ptr target="bm:Pereira1892Susenyos"/>
+                </bibl>
+            </listBibl>
+            <listBibl type="translation">
+                <bibl>
+                    <ptr target="bm:Pereira1900Susenyos"/>
+                </bibl>
+                <bibl>
+                    <ptr target="bm:Alemu2013Susenyos"/>
+                </bibl>
+                <bibl> 
+                    <ptr target="bm:Boavida2011PaezII"/>
+                    <citedRange unit="page">206-259</citedRange>
+                </bibl>
+                
+                
+                
+                
                 
             </listBibl>
         </body>
     </text>
 </TEI>
+
+
 
 
