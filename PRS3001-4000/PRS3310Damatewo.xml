@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Dämatewos (Damatewos)</title>
+            <title>Damātewos</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -50,12 +50,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Dämatewos (Damatewos)
-               </persName>
-               <occupation> lit. </occupation>
+               
+               <persName xml:lang="gez" xml:id="n1" type="birth">ደማቴዎስ፡ </persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Damātewos</persName>
+               <persName xml:lang="gez" xml:id="n2" type="birth">ዳማቴዎስ፡ </persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Dāmātewos</persName>
+               <occupation type="ecclesiastic">bishop</occupation>
             </person>
+            <listRelation>
+               <relation name="syriaca:possibly-identical" active="PRS3310Damatewo" passive="PRS9523Timothy"/>
+            </listRelation>
          </listPerson>
       </body>
    </text>
