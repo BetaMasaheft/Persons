@@ -49,6 +49,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2016-05-25">Completed the record</change>
          <change who="SG" when="2017-02-08">Addition to the content</change>
          <change who="SG" when="2017-10-21">Corrections</change>
+         <change who="DR" when="2018-01-08">Added relation</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -77,6 +78,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="snap:GrandfatherOf"
                          active="PRS10198Yaeqob"
                          passive="PRS7102Minas"/> 
+               <relation name="ecrm:P129i_is_subject_of" active="PRS10198Yaeqob" passive="LIT4861ChronicleYaqob"/>
             </listRelation>
            </listPerson>
          <listBibl type="editions">
