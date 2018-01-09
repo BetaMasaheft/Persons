@@ -46,6 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="SG" when="2016-07-18">completed the record</change>
+         <change who="DR" when="2018-01-09">Added relation</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -53,7 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ዓምደ፡ ጽዮን፡</persName>
-                     <persName xml:lang="gez" corresp="#n1" type="normalized">ʿAmda Ṣǝyon I</persName>
+                     <persName xml:lang="gez" corresp="#n1" type="normalized">ʿĀmda Ṣǝyon I</persName>
                      <persName xml:lang="en" corresp="#n1" type="normalized">Pillar of Zion</persName>
                      <persName>
                   <roleName type="title">ʾaṣe</roleName>
@@ -80,7 +81,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="snap:FatherOf"
                          active="PRS1854Amdase"
                          passive="PRS8595SayfaAr"/>
-               
+               <relation name="ecrm:P129i_is_subject_of" active="PRS1854Amdase" passive="LIT4275ChronAmdS"/>
             </listRelation>
                  </listPerson>
        

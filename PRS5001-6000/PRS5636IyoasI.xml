@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>ʾIyoʾās I</title>
+            <title>ʾIyoʾas I</title>
             <editor key="SG"/>  
             <editor role="generalEditor" key="AB"/>
             <author/>
@@ -68,7 +68,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <residence>
-                  <placeName ref="LOC3577Gondar"> Gondar</placeName>
+                  <placeName ref="LOC3577Gondar">Gondar</placeName>
                </residence>
                <birth when="1749"/>
                <floruit when="1755" evidence="internal">He succeeded his father King <persName ref="PRS5617IyasuII">ʾIyāsu II</persName> in <date>1755</date>. 
@@ -82,7 +82,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="snap:GrandsonOf"
                          active="PRS5636IyoasI"
                          passive="PRS2682BerhanM"/>
-               <relation name="saws:isAttributedAuthorOf"/>
+               <relation name="ecrm:P129i_is_subject_of" active="PRS5636IyoasI" passive="LIT4635Chronicle"/>
             </listRelation>
          </listPerson>
          <listBibl type="editions">

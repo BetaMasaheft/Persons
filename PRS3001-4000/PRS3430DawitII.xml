@@ -84,27 +84,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="snap:BrotherOf"
                          active="PRS3430DawitII"
                          passive="PRS2377Bakaffa"/>
+               <relation name="ecrm:P129i_is_subject_of" active="PRS3430DawitII" passive="LIT4639Chronicle"/>
              </listRelation>
          </listPerson>
          <listBibl type="editions">
             <bibl>
                <ptr target="bm:Basset1882Chronicle"/>
             </bibl>
-         </listBibl> 
-         
             <bibl>
-               <ptr target="bm:Guidi1903Yohannes"/>
+               <ptr target="bm:Guidi1903YohannesT"/>
             </bibl>
+         </listBibl> 
   
          <listBibl type="secondary">
             <bibl> 
                <ptr target="bm:Budge1966Ethistory"/>
             </bibl>  
-         </listBibl>
-        
             <bibl> 
                <ptr target="bm:Crummey2005Dawit"/>
             </bibl>  
+         </listBibl>
         
       </body>
    </text>

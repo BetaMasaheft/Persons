@@ -52,8 +52,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-         
-                 
                   <persName xml:lang="gez" xml:id="n1" type="birth">በካፋ፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Bakāffā</persName>
                   <persName>
@@ -61,7 +59,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </persName>
                   <persName xml:lang="gez" xml:id="n2" type="regnal">መሲሕ፡ ሰገድ፡</persName>
                   <persName xml:lang="gez" corresp="#n2" type="normalized">Masiḥ Sagad</persName>
-        
                <occupation type="ruler">Emperor</occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
@@ -85,18 +82,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="bm:husbandOf"
                          active="PRS2377Bakaffa"
                          passive="PRS2682BerhanM"/>
-        
+               <relation name="ecrm:P129i_is_subject_of" active="PRS2377Bakaffa" passive="PRS2377Bakaffa"/>
             </listRelation>
          </listPerson>
+         
          <listBibl type="editions">
             <bibl>
                <ptr target="bm:Basset1882Chronicle"/>
             </bibl>
-        
             <bibl>
                <ptr target="bm:Guidi1961YohannesT"/>
             </bibl>
          </listBibl> 
+         
          <listBibl type="secondary">
             <bibl> 
                <ptr target="bm:Budge1966Ethistory"/>

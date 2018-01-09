@@ -86,7 +86,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="rel:enemyOf"
                          active="PRS9449Tewoflos"
                          passive="PRS6578Malakota"/>
-       
+               <relation name="ecrm:P129i_is_subject_of" active="PRS9449Tewoflos" passive="LIT4636Chronicle"/>
             </listRelation>
          </listPerson>
          
@@ -97,10 +97,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <ptr target="bm:Basset1882Chronicle"/>
             </bibl>
          </listBibl>
+         
          <listBibl type="secondary">
             <bibl> 
-               <ptr target="bm:Crummey29010Tewoflos"/>
-               
+               <ptr target="bm:Crummey2010Tewoflos"/>
             </bibl>
             <bibl> 
                <ptr target="bm:Budge1966Ethistory"/>

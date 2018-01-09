@@ -85,29 +85,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </person>
             <listRelation>
                <relation name="snap:SonOf" active="PRS5617IyasuII" passive="PRS2377Bakaffa"/>
-           
                <relation name="snap:FatherOf"
                          active="PRS5617IyasuII"
                          passive="PRS5636IyoasI"/>
                <relation name="snap:SonOf" active="PRS5617IyasuII" passive="PRS2682BerhanM"/>
+               <relation name="ecrm:P129i_is_subject_of" active="PRS5617IyasuII" passive="LIT4634Chronicle"/>
                 </listRelation>
          </listPerson>
+         
          <listBibl type="editions">
             <bibl>
                <ptr target="bm:Basset1882Chronicle"/>
             </bibl>
-         
-         
             <bibl>
                <ptr target="bm:Guidi1954IyasuII"/>
             </bibl>
          </listBibl> 
+         
          <listBibl type="secondary">
             <bibl> 
                <ptr target="bm:Budge1966Ethistory"/>
             </bibl>  
-     
-         
             <bibl> 
                <ptr target="bm:NosnitsinundChernetsov2007Iyasu"/>
             </bibl>
@@ -115,9 +113,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <ptr target="bm:Chernetsov1994Historiography"/>
                <citedRange unit="page">87-101</citedRange>
             </bibl>
-            
          </listBibl>
-        
       </body>
    </text>
 </TEI>
