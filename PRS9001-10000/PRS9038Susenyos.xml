@@ -96,7 +96,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="snap:AllianceWith"
                          active="PRS9038Susenyos"
                          passive="PRS7699Paez"/>
-       
+               <relation name="ecrm:P129i_is_subject_of" active="PRS9038Susenyos" passive="LIT3951ChronSusenyos"/>
             </listRelation>
          </listPerson>
             
@@ -104,18 +104,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <bibl>
                   <ptr target="bm:Pereira1892Susenyos"/>
                </bibl>
-        
-      
-
-      
             <bibl>
                <ptr target="bm:Pereira1900Susenyos"/>
             </bibl>
                <bibl>
                   <ptr target="bm:Alemu2013Susenyos"/>
                </bibl>
-               
          </listBibl>
+         
              <listBibl type="secondary">
                <bibl> 
                   <ptr target="bm:Cohen2010Susenyos"/>
@@ -128,7 +124,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                    <ptr target="bm:Orlowska2002Susenyos"/>
                    <citedRange unit="page">422-434</citedRange>
                 </bibl>
-                
             </listBibl>
          
           </body>
