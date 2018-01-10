@@ -56,9 +56,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </persName>
             </person>
             <listRelation>
-               <relation name="sisterOf">
-                  <desc> sis. Mäläkotawit </desc>
-               </relation>
+               <relation name="snap:DaughterOf"
+                 
+                 active="PRS4441Galilawi"
+                 passive="PRS9038Susenyos"/>
+                  
+             <relation name="snap:SisterOf"
+                active="PRS4441Galilawi"
+                passive="PRS6576Malakota"/>
+               
+           
+             
+              
             </listRelation>
          </listPerson>
       </body>
