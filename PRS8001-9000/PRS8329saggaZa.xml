@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ṣägga Zäʾab</title>
+            <title>Ṣaggā Zaʾab</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -50,15 +50,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Ṣägga Zäʾab
-               </persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ጸጋ፡ ዘአብ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Ṣaggā Zaʾab</persName>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
             </person>
             <listRelation>
-               <relation name="snap:FatherOf">
-                  <desc> fath. Täklä Haymanot </desc>
-               </relation>
+               <relation name="snap:FatherOf"
+                  active="PRS8329saggaZa"
+                  passive="PRS9162TaklaHa"/>
             </listRelation>
          </listPerson>
       </body>
