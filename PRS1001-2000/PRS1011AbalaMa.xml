@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Abalä Maryam</title>
+            <title>ʾAbāla Māryām</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,20 +44,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="DR" when="2018-01-10">Additions and updates</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="2">
+               <persName xml:lang="gez" xml:id="n1">አባለ፡ ማርያም፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAbāla Māryām</persName>
                <persName>
-                  
-                  Abalä Maryam
+                  <roleName type="title">wayzaro</roleName>
                </persName>
                <nationality type="Ethiopia post-Aksumite">Christian Ethiopia</nationality>
-               <faith type="EOTC">EOTC</faith>
-               <occupation> wayz.</occupation>
             </person>
+            
+            <listRelation>
+               <relation name="snap:MotherOf"
+                  active="PRS1011AbalaMa"
+                  passive="PRS9153TaklaHa"/>
+            </listRelation>
          </listPerson>
       </body>
    </text>
