@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ǝgwalä Ṣǝyon</title>
+            <title>ʾƎgʷāla Ṣǝyon</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,18 +44,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="DR" when="2018-01-11">Updated</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Ǝgwalä Ṣǝyon
-               </persName>
-               <persName type="alt">Gwalu</persName>
-               <occupation> aṣe </occupation>
+               <persName xml:lang="gez" xml:id="n1">እጓለ፡ ጽዮን፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾƎgʷāla Ṣǝyon</persName>
+               <persName type="alt" xml:lang="gez" xml:id="n2">ጓሉ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Gʷālu</persName>
+               <persName><roleName type="title">ʾaṣe</roleName></persName>
+               <occupation type="ruler">Emperor</occupation>
             </person>
          </listPerson>
       </body>
