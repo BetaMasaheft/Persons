@@ -47,14 +47,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="ES" when="2017-05-24">Created entity</change>
+            <change who="DR" when="2018-01-19">Corrected name</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Ḫāyla Śǝllase</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ኃይለ፡ ሥላሴ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Ḫāyla Śǝllase</persName>
                     <faith type="EOTC"/>
                     <occupation type="ecclesiastic"/>
                     <nationality type="post-Aksumite"/>
@@ -62,8 +63,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <death/>
                     <floruit/>
                 </person>
+                <listRelation>
+                    <relation name="saws:hasOwned" active="PRS11664HaylaSellase" passive="BLorient515"/>
+                </listRelation>
             </listPerson>
-         <!--owner of BL Orient 515-->
         </body>
     </text>
 </TEI>

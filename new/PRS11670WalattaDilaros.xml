@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="gez" xml:id="t1">Walatta Dilāros</title>
+                <title xml:lang="gez" xml:id="t1">Walatta Dilāsor</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="ES"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -47,14 +47,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="ES" when="2017-05-24">Created entity</change>
+            <change who="DR" when="2018-01-19">Corrected name</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="2">
-                    <persName xml:lang="gez" xml:id="n1">Walatta Dilāros</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ወለተ፡ ዲላሶር፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walatta Dilāsor</persName>
                     <faith type="EOTC"/>
                     <occupation type="ecclesiastic"/>
                     <nationality type="post-Aksumite"/>
@@ -62,8 +63,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <death/>
                     <floruit/>
                 </person>
+                <listRelation>
+                    <relation name="saws:hasOwned" active="PRS11670WalattaDilaros" passive="BLorient515"/>
+                </listRelation>
             </listPerson>
-         <!--owner of BL Orient 515-->
         </body>
     </text>
 </TEI>
