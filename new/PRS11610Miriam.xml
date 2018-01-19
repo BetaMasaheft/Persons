@@ -47,22 +47,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="ES" when="2017-05-03">Created entity</change>
+            <change who="DR" when="2018-01-19">Corrected name</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person sex="2">
-                    <persName xml:lang="gez" xml:id="n1">Miriam</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                <person sex="2" sameAs="Q1938388">
+                    <persName xml:lang="en" xml:id="n1">Miriam</persName>
                     <faith type="Judaism"/>
                     <birth/>
                     <death/>
                     <floruit/>
                 </person>
-                <listRelation/>
+                <listRelation>
+                    <relation name="snap:SisterOf" active="PRS11610Miriam" passive="PRS1002Aaron"/></listRelation>
             </listPerson>
-         <!--sister of Aaron (Bible)-->
         </body>
     </text>
 </TEI>
