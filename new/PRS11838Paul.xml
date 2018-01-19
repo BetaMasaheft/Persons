@@ -1,18 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="PRS11651TaklaGiyorgis"
-     xml:lang="en"
-     type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS11838Paul" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Takla Giyorgis</title>
+                <title>Ṗawlos</title>
                 <editor role="generalEditor" key="AB"/>
-                <editor key="ES"/>
+                <editor key="DR"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
             <publicationStmt>
@@ -46,31 +41,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="ES" when="2017-05-15">Created entity</change>
-            <change who="DR" when="2018-01-17">Corrected name</change>
+            <change who="DR" when="2018-01-19">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ተክለ፡ ጊዮርጊስ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Takla Giyorgis</persName>
-                    <faith type="EOTC"/>
-                    <occupation type="other"/>
-                    <nationality type="post-Aksumite"/>
-                    <birth/>
-                    <death/>
-                    <floruit>1400-1500</floruit>
+                    <persName xml:lang="gez" xml:id="n1">ጰውሎስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Ṗawlos</persName>
                 </person>
                 <listRelation>
-                    <relation name="saws:hasOwned"
-                         active="PRS11651TaklaGiyorgis"
-                         passive="BLorient507"/>
-                    
+                    <relation name="saws:hasOwned" active="PRS11838Paul" passive="BLorient520"/>
                 </listRelation>
             </listPerson>
-         <!--owner of BL Orient 507-->
         </body>
     </text>
 </TEI>
