@@ -56,7 +56,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ገብረ፡ ሥላሴ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Gabra Śǝllāse</persName>
-               <persName><roleName type="title">ʾǝč̣č̣age</roleName></persName>
+               <persName>
+                  <roleName type="title">ʾǝč̣č̣age</roleName>
+               </persName>
                <occupation type="ecclesiastic">abbot</occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
@@ -64,15 +66,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
        
                <floruit notBefore="1889" notAfter="1906">He was a native of <placeName ref="LOC3764Hamase"/>, took his monastic vow in a monastery in 
                   <placeName ref="LOC6569Tegray"/>, and received his theological education and honorific title<roleName type="title">mamhǝr</roleName> 
-                  probably at<placeName ref="LOC1311AksumS"/>. He joined <roleName type="title">ʾabuna</roleName><persName ref="PRS8388SalamaI"/> in <date>1841</date>
-                     who remained as his spritual son in his retinue at<placeName ref="LOC3577Gondar"/> during the rest of Zamana Masāfǝnt. 
-                  During the reign of <persName ref="PRS9430Tewodros"/>,  he was also with<roleName type="title">ʾabuna</roleName><persName ref="PRS8388SalamaI"/>
-                  and followed him to the place of his detention at the royal fortress of <placeName ref="LOC4547Maqdal"/>in <date>1867</date>. 
-                  Following the death of <roleName type="title">ʾabuna</roleName><persName ref="PRS8388SalamaI"/> in <date>1867</date>, 
+                  probably at <placeName ref="LOC1311AksumS"/>. He joined <roleName type="title">ʾabuna</roleName>
+                  <persName ref="PRS8388SalamaI"/> in <date>1841</date>
+                     who remained as his spritual son in his retinue at <placeName ref="LOC3577Gondar"/> during the rest of Zamana Masāfǝnt. 
+                  During the reign of <persName ref="PRS9430Tewodros"/>,  he was also with<roleName type="title">ʾabuna</roleName> 
+                  <persName ref="PRS8388SalamaI"/>
+                  and followed him to the place of his detention at the royal fortress of <placeName ref="LOC4547Maqdal"/> in <date>1867</date>. 
+                  Following the death of <roleName type="title">ʾabuna</roleName>
+                  <persName ref="PRS8388SalamaI"/> in <date>1867</date>, 
                   he joined to the court of <persName ref="PRS7006Menilek"/>, where he became the father confessor of both <persName ref="PRS7006Menilek"/> 
-                     and his wife<persName ref="PRS2342Bafana"/>. In <date>1889</date>, <persName ref="PRS7006Menilek"/>dismissed<persName ref="PRS9451Tewoflos"/> 
+                     and his wife <persName ref="PRS2342Bafana"/>. In <date>1889</date>, <persName ref="PRS7006Menilek"/> dismissed <persName ref="PRS9451Tewoflos"/> 
                         and appointed in his place <persName ref="PRS4351Gabrase"/> who was solemnly blessed as <roleName type="title">ʾǝč̣č̣age</roleName> 
-                        by <roleName type="title">ʾabuna</roleName> <persName ref="PRS6876Matewos"/>. 
+                        by <roleName type="title">ʾabuna</roleName> 
+                  <persName ref="PRS6876Matewos"/>. 
                      
               
                      
@@ -82,21 +88,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </person>
             <listRelation>
                <relation name="snap:AllianceWith"
-                  active="PRS4351Gabrase"
-                  passive="PRS8388SalamaI"
-                  ></relation>
+                         active="PRS4351Gabrase"
+                         passive="PRS8388SalamaI"/>
                <relation name="snap:AllianceWith"
-                  active="PRS4351Gabrase"
-                  passive="PRS8388SalamaI"
-                  ></relation>
+                         active="PRS4351Gabrase"
+                         passive="PRS8388SalamaI"/>
                <relation name="bm:hasOrdained"
-                  active="PRS4351Gabrase"
-                  passive="PRS6876Matewos"
-                  ></relation>
+                         active="PRS4351Gabrase"
+                         passive="PRS6876Matewos"/>
                <relation name="snap:AllianceWith"
-                  active="PRS4351Gabrase"
-                  passive="PRS7006Menilek"
-                  ></relation>
+                         active="PRS4351Gabrase"
+                         passive="PRS7006Menilek"/>
                
                
                  </listRelation>
@@ -114,9 +116,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-                  
-                  

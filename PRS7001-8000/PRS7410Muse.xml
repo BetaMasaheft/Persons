@@ -57,18 +57,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <faith type="EOTC"/>
                <occupation type="ecclesiastic">monk</occupation>
                <birth/>
-               <floruit></floruit>             
-               <death></death>
+               <floruit/>             
+               <death/>
             </person>
             <listRelation>
-               <relation name="snap:BrotherOf"
-                  active="PRS7410Muse"
-                  passive="PRS5841Kaleb"
-                  ></relation>
+               <relation name="snap:BrotherOf" active="PRS7410Muse" passive="PRS5841Kaleb"/>
                <relation name="ecrm:P129i_is_subject_of"
-                  active="PRS7410Muse"
-                  passive="LIT4783GadlaMuse"
-                  ></relation>
+                         active="PRS7410Muse"
+                         passive="LIT4783GadlaMuse"/>
             </listRelation>
          </listPerson>
          
@@ -79,4 +75,4 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </listBibl>
       </body>
    </text>   
-</TEI>       
+</TEI>

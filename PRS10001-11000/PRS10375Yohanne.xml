@@ -73,7 +73,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   His reign was marked by religious strife and almost constant warfare.
                   Indeed, he was devoted to religious deeds so that he was often called Ṣādqu, "the righteous".
                </floruit>
-               <death when="1682" evidence="internal"><date>19 July 1682</date>
+               <death when="1682" evidence="internal">
+                  <date>19 July 1682</date>
                </death>
             </person>
             <listRelation>
@@ -89,7 +90,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="snap:FatherOf"
                          active="PRS10375Yohanne"
                          passive="PRS5616IyasuI"/>
-               <relation name="ecrm:P129i_is_subject_of" active="PRS10375Yohanne" passive="LIT3947ChronYohannes"/>
+               <relation name="ecrm:P129i_is_subject_of"
+                         active="PRS10375Yohanne"
+                         passive="LIT3947ChronYohannes"/>
             </listRelation>
          </listPerson>
          <listBibl type="editions">
