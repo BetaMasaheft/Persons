@@ -44,18 +44,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="DR" when="2018-01-15">Updated</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  
-                  Bartholomew
-               </persName>
-               <occupation> apostle </occupation>
+            <person sex="1" sameAs="Q43982">
+               <persName xml:id="n1" xml:lang="gez">በርተሎሜዎስ፡</persName>
+               <persName corresp="n1" xml:lang="gez" type="normalized">Bartalomewos</persName>
+               <persName corresp="n1" xml:lang="en" type="main">Bartholomew</persName>
             </person>
+            <listRelation>
+               <relation name="ecrm:P129i_is_subject_of" active="PRS2481Bartholo" passive="LIT1427GadlaB"/>
+               <relation name="ecrm:P129i_is_subject_of" active="PRS2481Bartholo" passive="LIT3537Acts"/>
+               <relation name="ecrm:P129i_is_subject_of" active="PRS2481Bartholo" passive="LIT2375Synaxa"/>
+            </listRelation>
          </listPerson>
       </body>
    </text>
