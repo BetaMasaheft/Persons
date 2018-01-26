@@ -38,25 +38,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="it">Italiano</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
+         <textClass>
+            <keywords>
+               <term key="angel"/>
+            </keywords>
+         </textClass>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="DR" when="2018-01-26">Updated</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  
-                  Suriel
-               </persName>
-               <persName type="alt">Suraʾel</persName>
+            <person sameAs="Q1193956">
+               <persName xml:lang="gez" xml:id="n1">ሱራኤል፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Surāʾel</persName>
+               <persName xml:lang="en" corresp="#n1" type="main">Suriel</persName>
                <persName type="alt">Sariel</persName>
-               <occupation> archangel </occupation>
             </person>
          </listPerson>
       </body>

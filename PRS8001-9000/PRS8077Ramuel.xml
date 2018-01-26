@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ramuʾel</title>
+            <title>Rāmuʾel</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -38,24 +38,31 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="it">Italiano</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
+         <textClass>
+            <keywords>
+               <term key="angel"/>
+            </keywords>
+         </textClass>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="DR" when="2018-01-26">Updated</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  
-                  Ramuʾel
-               </persName>
-               <occupation> archangel </occupation>
+            <person sameAs="Q1069028">
+               <persName xml:lang="gez" xml:id="n1">ራሙኤል፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Rāmuʾel</persName>
+               <persName xml:lang="en" corresp="#n1" type="main">Ramiel</persName>
             </person>
+            <listRelation>
+               <relation name="ecrm:P129i_is_subject_of" active="PRS8077Ramuel" passive="LIT2375Synaxa"/>
+            </listRelation>
          </listPerson>
       </body>
    </text>

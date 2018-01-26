@@ -46,22 +46,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-05-04">updated person</change>
          <change when="2017-06-09" who="DR">Correction</change>
+         <change when="2018-01-26" who="DR">Correction</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1" sameAs="Q302">
-               <persName xml:lang="en" xml:id="n1">Jesus Christ</persName>          
-               <persName xml:lang="gez" xml:id="n2">ኢየሱስ፡ ክርስቶስ፡</persName>
-               <persName xml:lang="gez" type="normalized" corresp="#n2">ʾIyasus Krǝstos</persName>
-               <persName xml:lang="gez" type="alt" xml:id="n3">ክርስቶስ፡</persName>
-               <persName xml:lang="gez" corresp="#n3">Krǝstos</persName> 
-               <persName xml:lang="gez" xml:id="n4">
+               <persName xml:lang="gez" xml:id="n1">ኢየሱስ፡ ክርስቶስ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">ʾIyasus Krǝstos</persName>
+               <persName xml:lang="en" corresp="#n1" type="main">Jesus Christ</persName>          
+               <persName xml:lang="gez" type="alt" xml:id="n2">ክርስቶስ፡</persName>
+               <persName xml:lang="gez" corresp="#n2">Krǝstos</persName> 
+               <persName xml:lang="gez" xml:id="n3">
                   <addName type="epithet">መድኃኔ፡ ዓለም</addName> 
                </persName>
-               <persName xml:lang="gez" corresp="#n4" type="normalized">Madḫāne ʿĀlam</persName>
-               <persName xml:lang="en" corresp="#n4">Saviour of the World</persName>
+               <persName xml:lang="gez" corresp="#n3" type="normalized">Madḫāne ʿĀlam</persName>
+               <persName xml:lang="en" corresp="#n3">Saviour of the World</persName>
                
 
                
@@ -80,12 +81,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </person>
             
             <listRelation>
-               <relation name="snap:SonOf" active="PRS5684JesusCh" passive="PRS6819Mary"/>
-               <relation name="snap:SonOf" active="PRS5684JesusCh" passive="PRS5763Joseph"/>
-               <relation name="snap:SonOf" active="PRS5684JesusCh" passive="PRS3697egziabe"/>
-               <relation name="saws:isMemberOf"
-                         active="PRS5684JesusCh"
-                         passive="PRS10775Trinity"/>
                <relation name="ecrm:P129i_is_subject_of"
                          active="PRS5684JesusCh"
                          passive="LIT1560Gospel"/>

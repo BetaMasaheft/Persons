@@ -48,14 +48,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sameAs="Q559224">
-                    <persName xml:lang="gez" xml:id="n1">Milyos</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
-                    <occupation type="ecclesiastic"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <persName xml:lang="gez" xml:id="n1">ሚልዮስ፡ ሜልዮስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Milyos</persName>
+                    <persName xml:lang="gez" xml:id="n2">ሜልዮስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n2">Melyos</persName>
+                    <persName xml:id="n3">Avilius</persName>
+                    <persName xml:id="n4">Abilios</persName>
+                    <occupation type="ecclesiastic">Patriarch</occupation>
                 </person>
-            </listPerson><!---->
+                <listRelation>
+                    <relation name="ecrm:P129i_is_subject_of" active="PRS11847Milyos" passive="LIT2375Synaxa"/>
+                </listRelation>
+            </listPerson>
         </body>
     </text>
 </TEI>
