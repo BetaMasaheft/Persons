@@ -54,7 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPerson>
                 <person sex="1">
                
-                    <persName xml:lang="gez" xml:id="n1" type="birth"> ቆዝሞስ፡ </persName>
+                    <persName xml:lang="gez" xml:id="n1" type="birth"> ቆዝሞስ፡</persName>
                     <persName xml:lang="gez" corresp="#n1" type="normalized">Qozǝmos</persName>
                         
                         <nationality type="Ethiopia"/>
@@ -70,6 +70,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <relation name="saws:isRelatedTo"
                          active="PRS11798Qozmos"
                          passive="PRS9038Susenyos"/>
+                    
+                        <relation name="lawd:hasAttestation" active="PRS11798Qozmos" passive="LIT3951ChronSusenyos"/>
+                            
                         
                         
                     </listRelation>
