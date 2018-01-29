@@ -51,12 +51,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1" sameAs="Q200977">
-               <persName>
-                  Moses the Black
-               </persName>
-               <persName type="alt">ʾAnbā Musā</persName>
-               <persName type="alt">ʾAbbā Muse</persName>
-               <persName type="alt">Moses of Scetis</persName>
+               <persName xml:id="n1" xml:lang="gez">አባ፡ ሙሴ፡</persName>
+               <persName corresp="#n1" xml:lang="gez" type="normalized">ʾAbbā Muse</persName>
+               <persName xml:lang="en" xml:id="n2" type="main">Moses the Black</persName>
+               <persName type="alt" xml:lang="gez">ʾAnbā Musā</persName>
+               <persName type="alt" xml:lang="en">Moses of Scetis</persName>
             </person>
          </listPerson>
       </body>
