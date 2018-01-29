@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title> Abranyos</title>
+                <title>ʾAbrānyos</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="SG"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -56,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                    
                         
                     <persName xml:lang="gez" xml:id="n1" type="birth">አብራንዮስ ፡</persName>
-                    <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAbranyos</persName>
+                    <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAbrānyos</persName>
                     <persName>
                         <roleName type="title">ʾabetahun</roleName>
                     </persName>
@@ -73,8 +73,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </person>
                     <listRelation>
                         <relation name="saws:isRelatedTo"
-                         active="PRS11798Qozmos"
+                            active="PRS11799Abranyos"
                          passive="PRS9038Susenyos"/>
+                        
+                        <relation name="lawd:hasAttestation" active="PRS11799Abranyos" passive="LIT3951ChronSusenyos"/>
+                            
                         
                         
                     </listRelation>
