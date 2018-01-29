@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Aǧām</title>
+                <title>ʾAǧām</title>
                 <author/>
             </titleStmt>
             <publicationStmt>
@@ -41,13 +41,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPerson>
                 <personGrp role="ethnic">
                     <persName xml:id="n1" xml:lang="gez">
-                        <orgName>አጃም፡ </orgName>
+                        <orgName>አጃም፡</orgName>
                     </persName>
                     <persName corresp="#n1" type="normalized">
                         <orgName>ʾAǧām</orgName>
                     </persName>
                     <note>tribe name</note>
                 </personGrp>
+                <listRelation>
+                    
+                    <relation name="lawd:hasAttestation" active="ETH2287Agam" passive="LIT3951ChronSusenyos"/>
+                    
+                    
+                </listRelation>
+                
+                
             </listPerson>
             <listBibl type="text">
                 
