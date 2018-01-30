@@ -50,13 +50,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  
-                  Joseph II
-               </persName>
+            <person sex="1" sameAs="Q1391696">
+               <persName xml:id="n1" xml:lang="en">Joseph II</persName>
                <persName type="alt">Yosab II</persName>
-               <occupation type="ecclesiastic">Patriarch of Alexandria</occupation>
+               <occupation type="ecclesiastic">115th Patriarch of Alexandria</occupation>
+               <death when="1956-11-14"/>
             </person>
          </listPerson>
       </body>

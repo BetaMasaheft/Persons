@@ -50,12 +50,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  
-                  John XV
-               </persName>
-               <occupation type="ecclesiastic">Patriarch of Alexandria</occupation>
+            <person sex="1" sameAs="Q4117919">
+               <persName xml:id="n1" xml:lang="en">John XV</persName>
+               <occupation type="ecclesiastic">99th Patriarch of Alexandria</occupation>
+               <floruit from="1619-09-18" to="1629-09-07"/> <!--Wikipedia-->
             </person>
          </listPerson>
       </body>

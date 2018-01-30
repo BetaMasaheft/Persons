@@ -50,12 +50,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  
-                  Mark
-               </persName>
+            <person sex="1" sameAs="Q2003169">
+               <persName xml:id="n1" xml:lang="en">Mark VI</persName>
                <occupation type="ecclesiastic">Patriarch of Alexandria</occupation>
+               <floruit from="1646-04-12" to="1657-04-10"/>
             </person>
          </listPerson>
       </body>

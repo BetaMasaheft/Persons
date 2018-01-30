@@ -50,13 +50,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  
-                  Macarius I
-               </persName>
-               <occupation type="ecclesiastic">Patriarch of Alexandria</occupation>
+            <person sex="1" sameAs="Q1262965">
+               <persName xml:id="n1" xml:lang="en">Macarius I</persName>
+               <persName xml:id="n2" xml:lang="gez">መቃርስ፡</persName>
+               <persName corresp="#n2" xml:lang="gez" type="normalized">Maqārǝs</persName>
+               <occupation type="ecclesiastic">59th Patriarch of Alexandria</occupation>
+               <floruit from="0933-04" to="0953-03-20"/>
             </person>
+            <listRelation>
+               <relation name="ecrm:P129i_is_subject_of" active="PRS6424Macarius" passive="LIT2375Synaxa"/>
+            </listRelation>
          </listPerson>
       </body>
    </text>
