@@ -50,13 +50,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  
-                  Christodoulous
-               </persName>
-               <occupation type="ecclesiastic">Patriarch of Alexandria</occupation>
+            <person sex="1" sameAs="Q2602591">
+               <persName xml:id="n1" xml:lang="en">Christodoulous</persName>
+               <persName xml:id="n2" xml:lang="en">Christodolos</persName>
+               <persName xml:id="n3" xml:lang="gez">ገብረ፡ ክርስቶስ፡</persName>
+               <persName corresp="#n3" xml:lang="gez" type="normalized">Gabra Krǝstos</persName>
+               <occupation type="ecclesiastic">66th Patriarch of Alexandria</occupation>
+               <floruit from="1047-12" to="1077-12-10"/>
             </person>
+            <listRelation>
+               <relation name="ecrm:P129i_is_subject_of" active="PRS3111Christod" passive="LIT2375Synaxa"/>
+            </listRelation>
          </listPerson>
       </body>
    </text>

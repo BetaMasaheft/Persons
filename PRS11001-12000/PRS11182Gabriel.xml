@@ -47,15 +47,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  <forename/>
-                  <surname>Gabriel I</surname>
-               </persName>
-               <floruit>910-920</floruit>
-               <!--From Time field, to be changed into DEATH, BIRTH, or whatever is actually relevant!-->
-               <occupation type="ecclesiastic">Patriarch of Alexandria</occupation>
+            <person sex="1" sameAs="Q1263023">
+               <persName xml:id="n1" xml:lang="en">Gabriel I</persName>
+               <persName xml:id="n2" xml:lang="gez">ገብርኤል፡</persName>
+               <persName corresp="#n2" xml:lang="gez" type="normalized">Gabrǝʾel</persName>
+               <floruit from="0910-05" to="0920-02-15"/>
+               <occupation type="ecclesiastic">62nd Patriarch of Alexandria</occupation>
             </person>
+            <listRelation>
+               <relation name="ecrm:P129i_is_subject_of" active="PRS11182Gabriel" passive="LIT2375Synaxa"/>
+            </listRelation>
          </listPerson>
       </body>
    </text>

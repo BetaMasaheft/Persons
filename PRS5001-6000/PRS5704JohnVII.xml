@@ -50,13 +50,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  
-                  John VII
-               </persName>
-               <occupation type="ecclesiastic">Patriarch of Alexandria</occupation>
+            <person sex="1" sameAs="Q4118031">
+               <persName xml:id="n1" xml:lang="en">John VII</persName>
+               <persName xml:id="n2" xml:lang="gez">ዮሐንስ፡</persName>
+               <persName corresp="#n2" xml:lang="gez" type="normalized">Yoḥannǝs</persName>
+               <persName xml:id="n3" xml:lang="gez">አብሳዲ፡</persName>
+               <persName corresp="#n3" xml:lang="gez" type="normalized">ʾAbsādi</persName>
+               <occupation type="ecclesiastic">77th Patriarch of Alexandria</occupation>
+               <floruit from="1262-01-01" to="1293-04-21"/>
             </person>
+            <listRelation>
+               <relation name="lawd:hasAttestation" active="PRS5704JohnVII" passive="LIT2375Synaxa"/>
+            </listRelation>
          </listPerson>
       </body>
    </text>

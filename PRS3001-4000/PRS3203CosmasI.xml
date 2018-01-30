@@ -50,13 +50,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  
-                  Cosmas III
-               </persName>
-               <occupation type="ecclesiastic">Patriarch of Alexandria</occupation>
+            <person sex="1" sameAs="Q1262977">
+               <persName xml:id="n1" xml:lang="en">Cosmas III</persName>
+               <persName xml:id="n2" xml:lang="gez">ቆዝሞስ፡</persName>
+               <persName corresp="#n2" xml:lang="gez" type="normalized">Qozmos</persName>
+               <occupation type="ecclesiastic">58th Patriarch of Alexandria</occupation>
+               <death when="0933-02-27"/>
             </person>
+            <listRelation>
+               <relation name="ecrm:P129i_is_subject_of" active="PRS3203CosmasI" passive="LIT2375Synaxa"/>
+            </listRelation>
          </listPerson>
       </body>
    </text>

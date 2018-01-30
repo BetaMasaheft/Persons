@@ -47,14 +47,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  <forename/>
-                  <surname>Anianus</surname>
-               </persName>
-               <floruit>1st century</floruit>
-               <!--From Time field, to be changed into DEATH, BIRTH, or whatever is actually relevant!-->
-               <occupation type="ecclesiastic">Patriarch of Alexandria</occupation>
+            <person sex="1" sameAs="Q382012">
+               <persName xml:id="n1" xml:lang="en">Anianus</persName>
+               <death when="0082-11-16"/>
+               <occupation type="ecclesiastic">2nd Patriarch of Alexandria</occupation>
             </person>
          </listPerson>
       </body>

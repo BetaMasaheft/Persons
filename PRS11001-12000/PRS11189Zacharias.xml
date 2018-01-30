@@ -47,20 +47,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  <forename/>
-                  <surname>Zacharias</surname>
-               </persName>
-               <floruit>1004-1032</floruit>
-               <!--From Time field, to be changed into DEATH, BIRTH, or whatever is actually relevant!-->
-               <occupation type="ecclesiastic">Patriarch of Alexandria</occupation>
+            <person sex="1" sameAs="Q1278098">
+               <persName xml:id="n1" xml:lang="en">Zacharias</persName>
+               <persName xml:id="n2" xml:lang="gez">ዘካርያስ፡</persName>
+               <persName corresp="#n2" xml:lang="gez" type="normalized">Zakāryās</persName>
+               <occupation type="ecclesiastic">64th Patriarch of Alexandria</occupation>
+               <floruit from="1004-01-16" to="1032-01-04"/>
             </person>
             <listRelation>
-               <relation>64th bishop of Alexandria, commemorated on 13 Hedar</relation>
                <relation name="lawd:hasAttestation"
                          active="PRS11189Zacharias"
-                         passive="IVVostochn615"><!--Please fix the relation of this item with IVVostochn615--></relation>
+                         passive="IVVostochn615"/>
             </listRelation>
          </listPerson>
       </body>

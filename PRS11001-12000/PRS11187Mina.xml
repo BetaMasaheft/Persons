@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:id="t1">Mīnā II</title>
+            <title xml:id="t1">Mina II</title>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
@@ -47,15 +47,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  <forename/>
-                  <surname>Mīnā II</surname>
-               </persName>
-               <floruit>956-974</floruit>
-               <!--From Time field, to be changed into DEATH, BIRTH, or whatever is actually relevant!-->
-               <occupation type="ecclesiastic">Patriarch of Alexandria</occupation>
+            <person sex="1" sameAs="Q1278056">
+               <persName xml:id="n1" xml:lang="en">Mina II</persName>
+               <persName xml:id="n2" xml:lang="gez">ሚናስ፡</persName>
+               <persName corresp="#n2" xml:lang="gez" type="normalized">Minās</persName>
+               <floruit from="0956" to="0974-11-11"/>
+               <occupation type="ecclesiastic">61st Patriarch of Alexandria</occupation>
             </person>
+            <listRelation>
+               <relation name="ecrm:P129i_is_subject_of" active="PRS11187Mina" passive="LIT2375Synaxa"/>
+            </listRelation>
          </listPerson>
       </body>
    </text>

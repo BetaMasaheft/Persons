@@ -50,13 +50,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  
-                  John VI
-               </persName>
-               <occupation type="ecclesiastic">Patriarch of Alexandria</occupation>
+            <person sex="1" sameAs="Q4120276">
+               <persName xml:id="n1" xml:lang="en">John VI</persName>
+               <persName xml:id="n2" xml:lang="gez">ዮሐንስ፡</persName>
+               <persName corresp="#n2" xml:lang="gez" type="normalized">Yoḥannǝs</persName>
+               <occupation type="ecclesiastic">74th Patriarch of Alexandria</occupation>
+               <floruit from="1189-01-29" to="1216-01-07"/>
             </person>
+            <listRelation>
+               <relation name="ecrm:P129i_is_subject_of" active="PRS5703JohnVI" passive="LIT2375Synaxa"/>
+            </listRelation>
          </listPerson>
       </body>
    </text>

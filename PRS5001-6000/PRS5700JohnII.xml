@@ -50,12 +50,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
+            <person sex="1" sameAs="Q1270447">
                <persName xml:id="n1" xml:lang="en">John II</persName>
-               <persName xml:id="n2" xml:lang="gez"></persName>
-               <persName corresp="#n2" xml:lang="gez" type="normalized"></persName>
-               <occupation type="ecclesiastic">Patriarch of Alexandria</occupation>
+               <persName xml:id="n2" xml:lang="en">John III</persName>
+               <persName xml:id="n3" xml:lang="gez">ዮሐንስ፡</persName>
+               <persName corresp="#n3" xml:lang="gez" type="normalized">Yoḥannǝs</persName>
+               <occupation type="ecclesiastic">30th Patriarch of Alexandria</occupation>
+               <floruit from="0505" to="0516-05-22"/>
             </person>
+            <listRelation>
+               <relation name="ecrm:P129i_is_subject_of" active="PRS5700JohnII" passive="LIT2375Synaxa"/>
+            </listRelation>
          </listPerson>
       </body>
    </text>
