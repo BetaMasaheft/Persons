@@ -41,6 +41,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-11-17">Created XML record from Ethio authority google spreadsheet</change>
+         <change who="DR" when="2018-01-30">Updated</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -53,7 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </persName>
                <floruit>910-920</floruit>
                <!--From Time field, to be changed into DEATH, BIRTH, or whatever is actually relevant!-->
-               <occupation>patriarch of Alexandria</occupation>
+               <occupation type="ecclesiastic">Patriarch of Alexandria</occupation>
             </person>
          </listPerson>
       </body>

@@ -44,17 +44,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="DR" when="2018-01-30">Updated</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  
-                  Mark VIII
-               </persName>
-               <occupation> Patriarch of Alexandria </occupation>
+            <person sex="1" sameAs="Q4166457">
+               <persName xml:id="n1" xml:lang="en">Mark VIII</persName>
+               <occupation type="ecclesiastic">108th Patriarch of Alexandria</occupation>
+               <floruit from="1796-09-07" to="1809-12-21"/>
             </person>
          </listPerson>
       </body>

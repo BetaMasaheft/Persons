@@ -44,22 +44,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="DR" when="2018-01-30">Updated</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  
-                  Timothy I
-               </persName>
-               <occupation> patriarch of Alexandria</occupation>
-               <death>d. 385</death>
-               <residence>
-                  <placeName>Alexandria</placeName>
-               </residence>
+            <person sex="1" sameAs="Q1263618">
+               <persName xml:id="n1" xml:lang="en">Timothy I</persName>
+               <persName xml:id="n2" xml:lang="gez">ጢሞቴዎስ፡</persName>
+               <persName corresp="#n1" xml:lang="gez">Ṭimotewos</persName>
+               <occupation type="ecclesiastic">Patriarch of Alexandria</occupation>
+               <death when="0384">384 or 385</death>
             </person>
+            <listRelation>
+               <relation name="ecrm:P129i_is_subject_of" active="PRS9522Timothy" passive="LIT2375Synaxa"/>
+            </listRelation>
          </listPerson>
       </body>
    </text>

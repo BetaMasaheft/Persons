@@ -47,21 +47,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-09-02">Complete record</change>
+         <change who="DR" when="2018-01-30">Updated</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
+            <person sex="1" sameAs="Q365941">
                
-               <persName xml:lang="gez" xml:id="n1" type="birth">ቴዎፍሎስ፡</persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized">Tewoflos</persName>
-               <persName xml:lang="gez" xml:id="n2" type="birth">ቴዮፍሎስ፡</persName>
-               <persName xml:lang="gez" corresp="#n2" type="normalized">Teyoflos</persName>
-               <persName xml:lang="gez" xml:id="n3" type="birth">ቴኦፊሎስ፡</persName>
-               <persName xml:lang="gez" corresp="#n3" type="normalized">Teʾofilos</persName>
+               <persName xml:lang="en" xml:id="n1">Theophilos of Alexandria</persName>
+               <persName xml:lang="en" xml:id="n2">Theophilus of Alexandria</persName>
                
-               <occupation type="ecclesiastic">patriarch</occupation>
+               <persName xml:lang="gez" xml:id="n3" type="birth">ቴዎፍሎስ፡</persName>
+               <persName xml:lang="gez" corresp="#n3" type="normalized">Tewoflos</persName>
+               <persName xml:lang="gez" xml:id="n4" type="birth">ቴዮፍሎስ፡</persName>
+               <persName xml:lang="gez" corresp="#n4" type="normalized">Teyoflos</persName>
+               <persName xml:lang="gez" xml:id="n5" type="birth">ቴኦፊሎስ፡</persName>
+               <persName xml:lang="gez" corresp="#n5" type="normalized">Teʾofilos</persName>
+               
+               <occupation type="ecclesiastic">Patriarch of Alexandria</occupation>
                <nationality type="Egypt"/>
                <faith type="Coptic"/>
                <birth>345</birth>
@@ -70,7 +74,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   He condemned the doctrine of <persName ref="PRS7672Origeno">Origen of Alexandria</persName> at a synod in Alexandria in <date>400</date>. He is venerated as a saint in the
                   Ethiopian Orthodox church as well as in Coptic and Syrian Orthodox churches. He has written extensively. 
                </floruit>
-               <death> 412</death>
+               <death>412</death>
             </person>
             <listRelation>
                <relation name="saws:isAttributedAuthorOf"
