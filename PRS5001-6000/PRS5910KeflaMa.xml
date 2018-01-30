@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Kǝflä Maryam</title>
+            <title>Kǝfla Māryām</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,18 +44,39 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2018-01-30">additions</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Kǝflä Maryam
+               <persName xml:lang="gez" type="regnal" xml:id="n1">ክፍለ፡ ማርያም፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Kǝfla Māryām</persName>
+               <persName> 
+                  <roleName type="title">abetohun</roleName> 
                </persName>
-               <occupation> abet.  </occupation>
-            </person>
+         
+      
+               
+               <occupation type="political">queen</occupation>
+       
+               <floruit notBefore="1563" notAfter="1607">
+                  </floruit>
+               <death when="1607" evidence="internal">ʾAdmās Mogasā died during the reign of her son, <persName ref="PRS8550sardaDe">Śarḍa Dǝngǝl</persName>.</death>
+               
+            </person> 
+            
+      
+            <listRelation>
+               
+               <relation name="snap:SonOf"
+                  active="PRS5910KeflaMa"
+                  passive="PRS8550sardaDe"/>
+           
+            </listRelation>
+            
+            
          </listPerson>
       </body>
    </text>
