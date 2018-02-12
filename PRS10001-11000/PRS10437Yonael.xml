@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Yonaʾel</title>
+            <title>Yonāʾel</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,21 +44,69 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2018-02-12">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+             
                   
-                  Yonaʾel
-               </persName>
-               <occupation> abet.</occupation>
-               <occupation> blatten geta</occupation>
-               <death>d. 1623</death>
-            </person>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ዮናኤል፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Yonāʾel</persName>
+                  <persName>
+                     <roleName type="title">Blātten getā</roleName>
+                  </persName>
+                  
+              
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  
+                  
+                  <occupation type="military">leader</occupation>
+                  
+                  
+               <floruit notBefore="1604" notAfter="1623">He was a military leader during the rule of <roleName type="title">ʾaṣe</roleName><persName ref="PRS9038Susenyos"/>. 
+                  He attended at the first proclamation of <persName ref="PRS9038Susenyos"/> as emperor at <placeName ref="LOC3788Harasm"/>. 
+                 
+                  In <date>1620</date><persName ref="PRS9038Susenyos"/> issued  a decree against the observance of Sabbath, but Yonāʾel refused to proclaim
+                  it in the province of <placeName ref="LOC1713Bagemd"/>. Thereafter he waged an open rebellion against <persName ref="PRS9038Susenyos"/>, opposing his pro-Jesuit policies.
+                
+                  </floruit>
+                  <death notBefore="1622" notAfter="1623"/>
+                  
+               </person>
+               
+               <listRelation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS10437Yonael"
+                     passive="PRS9038Susenyos"/>
+                  <relation name="lawd:hasAttestation" active="PRS10437Yonael" passive="LIT3951ChronSusenyos"/>
+                  
+               </listRelation>
          </listPerson>
+         
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Pereira1892Susenyos"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Pereira1900Susenyos"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Alemu2013Susenyos"/>
+            </bibl>
+         </listBibl>
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Martinez2014Yonael"/>
+            </bibl>  
+                     </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+               
