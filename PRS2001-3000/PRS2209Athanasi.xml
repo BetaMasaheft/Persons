@@ -3,130 +3,116 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="pers"
-     xml:lang="en"
-     xml:id="PRS2209Athanasi">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Athanasius</title>
-            <editor key="SG"/>
-            <editor role="generalEditor" key="AB"/>
-            
-            
-            <author/>
-         </titleStmt>
-         <publicationStmt>
-            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
-            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
-            multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
-            <pubPlace>Hamburg</pubPlace>
-            <availability>
-               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
-                This file is licensed under the Creative Commons
-                Attribution-ShareAlike 4.0. </licence>
-            </availability>
-            <date>2016-03-21</date>
-         </publicationStmt>
-         <sourceDesc>
-            <p>Prosopography of Ethiopian Written tradition</p>
-            <p>A TEI file converted from the ETHIO-authority
-                                                  google spreadsheet</p>
-         </sourceDesc>
-      </fileDesc>
-      <profileDesc>
-         <langUsage>
-            <language ident="en">English</language>
-            <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
-            <language ident="gez">Gǝʿǝz</language>
-         </langUsage>
-      </profileDesc>
-      <revisionDesc>
-         <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
-         <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: place</change>
-         <change who="SG" when="2017-05-10">Complete record</change>
-      </revisionDesc>
-   </teiHeader>
-   <text>
-      <body>
-         <listPerson>
-             <person sex="1" sameAs="Q44024">
-                     <persName xml:lang="gez" xml:id="n1" type="birth">አትናቴዎስ፡</persName>
-                     <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAtǝnātewos</persName>
-                     <persName xml:lang="gez" xml:id="n2" type="alt">አትናቴዮስ፡</persName>
-                     <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAtǝnāteyos</persName>
-                     <persName xml:lang="gez" xml:id="n3" type="alt">አትናሲስ፡</persName>
-                     <persName xml:lang="gez" corresp="#n3" type="normalized">ʾAtnāsis</persName>
-                     <persName xml:lang="gez" xml:id="n4" type="alt">ሐዋርያዊ፡</persName>
-                     <persName xml:lang="gez" corresp="#n4" type="normalized">Ḥawāryāwi</persName>
-                      <persName xml:lang="en" type="main">Athanasius</persName>
-                 
-                     
-             
-                     <occupation type="ecclesiastic"> bishop</occupation>
-                     
-                     <nationality type="Egypt"/>
-                     <faith type="Coptic"/>
-                
-                     
-                     <birth when="0295"/>
-                     
-                     
-                     <floruit notBefore="0328" notAfter="0373">He was an <placeName ref="Q87"/> bishop between <date>328-373</date>.
-                        He was a champion of Nicene Orthodoxy, which for most of his life was attacked by the supporters of Arianism. 
-                        For his staunch attitude he was persecuted, being forced into exile five times during his episcopacy. He was also the <placeName ref="Q87"/> 
-                        metropolitan who consecrated <persName ref="PRS8386SalamaI"/> as bishop of <placeName ref="LOC1310Aksum"/>. 
-                        In Ethiopic literature, many works are attributed to him, most of which remain unpublished.</floruit>
-                     <death when="0373">He died at <placeName ref="Q87"/> in <date>373</date>. </death>
-                     
-                  </person>
-                  
-                  <listRelation>
-                     <relation name="bm:hasOrdained"
-                         active="PRS2209Athanasi"
-                         passive="PRS8386SalamaI"/>
-                        
-                       
-                     <relation name="saws:isAttributedAuthorOf"
-                         active="PRS2209Athanasi"
-                         passive="LIT1611Homili"/>
-                     <relation name="saws:isAttributedAuthorOf"
-                         active="PRS2209Athanasi"
-                         passive="LIT2042Nagarb"/>
-                     
-                     <relation name="saws:isAttributedAuthorOf"
-                         active="PRS2209Athanasi"
-                         passive="LIT2287Saqoqa"/>
-                     <relation name="saws:isAttributedAuthorOf"
-                         active="PRS2209Athanasi"
-                         passive="LIT2263salota"/>
-                     <relation name="saws:isAttributedAuthorOf"
-                         active="PRS2209Athanasi"
-                         passive="LIT2263salota"/>
-                     <relation name="saws:isAttributedAuthorOf"
-                         active="PRS2209Athanasi"
-                         passive="LIT1628Homily"/>
-                     <relation name="saws:isAttributedAuthorOf"
-                         active="PRS2209Athanasi"
-                         passive="LIT1353Epistu"/>
-                     <relation name="saws:isAttributedAuthorOf"
-                         active="PRS2209Athanasi"
-                         passive="LIT1353Epistu"/>
-                     
-                  </listRelation>
-         </listPerson>
-         
-         
-         <listBibl type="secondary">
-            <bibl>
-               <ptr target="bm:Witakowski2003EAEAthanasius"/>
-            </bibl>
-            
-         </listBibl>
-      </body>
-   </text>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS2209Athanasi">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Athanasius</title>
+                <editor key="SG"/>
+                <editor role="generalEditor" key="AB"/>
+
+
+                <author/>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
+                    Forschungsumgebung / beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                        licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+                <date>2016-03-21</date>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Prosopography of Ethiopian Written tradition</p>
+                <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ar">Arabic</language>
+                <language ident="it">Italiano</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="PL" when="2016-04-28">batch updated according to requirements and
+                issues.</change>
+            <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
+            <change who="ES" when="2016-02-09">CREATED: place</change>
+            <change who="SG" when="2017-05-10">Complete record</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person sex="1" sameAs="Q44024">
+                    <persName xml:lang="en" xml:id="n1">Athanasius</persName>
+                    <persName xml:lang="gez" xml:id="n2" type="birth">አትናቴዎስ፡</persName>
+                    <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAtǝnātewos</persName>
+                    <persName xml:lang="gez" xml:id="n3" type="alt">አትናቴዮስ፡</persName>
+                    <persName xml:lang="gez" corresp="#n3" type="normalized">ʾAtǝnāteyos</persName>
+                    <persName xml:lang="gez" xml:id="n4" type="alt">አትናሲስ፡</persName>
+                    <persName xml:lang="gez" corresp="#n4" type="normalized">ʾAtnāsis</persName>
+                    <persName xml:lang="gez" xml:id="n5" type="alt">ሐዋርያዊ፡</persName>
+                    <persName xml:lang="gez" corresp="#n5" type="normalized">Ḥawāryāwi</persName>
+                    <occupation type="ecclesiastic"> bishop</occupation>
+
+                    <nationality type="Egypt"/>
+                    <faith type="Coptic"/>
+
+
+                    <birth when="0295"/>
+
+
+                    <floruit notBefore="0328" notAfter="0373">He was an <placeName ref="Q87"/>
+                        bishop between <date>328-373</date>. He was a champion of Nicene Orthodoxy,
+                        which for most of his life was attacked by the supporters of Arianism. For
+                        his staunch attitude he was persecuted, being forced into exile five times
+                        during his episcopacy. He was also the <placeName ref="Q87"/> metropolitan
+                        who consecrated <persName ref="PRS8386SalamaI"/> as bishop of <placeName
+                            ref="LOC1310Aksum"/>. In Ethiopic literature, many works are attributed
+                        to him, most of which remain unpublished.</floruit>
+                    <death when="0373">He died at <placeName ref="Q87"/> in <date>373</date>. </death>
+
+                </person>
+
+                <listRelation>
+                    <relation name="bm:hasOrdained" active="PRS2209Athanasi"
+                        passive="PRS8386SalamaI"/>
+
+
+                    <relation name="saws:isAttributedAuthorOf" active="PRS2209Athanasi"
+                        passive="LIT1611Homili"/>
+                    <relation name="saws:isAttributedAuthorOf" active="PRS2209Athanasi"
+                        passive="LIT2042Nagarb"/>
+
+                    <relation name="saws:isAttributedAuthorOf" active="PRS2209Athanasi"
+                        passive="LIT2287Saqoqa"/>
+                    <relation name="saws:isAttributedAuthorOf" active="PRS2209Athanasi"
+                        passive="LIT2263salota"/>
+                    <relation name="saws:isAttributedAuthorOf" active="PRS2209Athanasi"
+                        passive="LIT2263salota"/>
+                    <relation name="saws:isAttributedAuthorOf" active="PRS2209Athanasi"
+                        passive="LIT1628Homily"/>
+                    <relation name="saws:isAttributedAuthorOf" active="PRS2209Athanasi"
+                        passive="LIT1353Epistu"/>
+                    <relation name="saws:isAttributedAuthorOf" active="PRS2209Athanasi"
+                        passive="LIT1353Epistu"/>
+
+                </listRelation>
+            </listPerson>
+
+
+            <listBibl type="secondary">
+                <bibl>
+                    <ptr target="bm:Witakowski2003EAEAthanasius"/>
+                </bibl>
+
+            </listBibl>
+        </body>
+    </text>
 </TEI>
