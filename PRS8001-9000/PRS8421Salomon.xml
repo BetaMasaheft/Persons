@@ -59,17 +59,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <persName xml:lang="gez" xml:id="n1" type="birth">ሰሎሞን፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Salomon I</persName>
                   <persName>
-                  <roleName type="title">ʾaṣe </roleName>
+                  <roleName type="title">ʾaṣe</roleName>
                </persName>
                 
                <occupation type="ruler">Emperor</occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <residence>
-                  <placeName ref="LOC3577Gondar"> Gondar</placeName>
+                  <placeName ref="LOC3577Gondar">Gondar</placeName>
                </residence>
              
-               <floruit when="1777" evidence="internal">He was a puppet king brought from <placeName ref="LOC6157WahniA">Wahni ʾAmbā</placeName> to 
+               <floruit notBefore="1777" notAfter="1779">He was a puppet king brought 
+                  from <placeName ref="LOC6157WahniA">Wahni ʾAmbā</placeName> to 
                   replace King <persName ref="PRS9153TaklaHa">Takla Hāymānot II</persName> in 
                   <date>1777</date> and ruled until <date>1779</date>.
                   </floruit>
