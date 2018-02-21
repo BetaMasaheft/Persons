@@ -47,6 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-08-30">Complete record</change>
+         <change who="DR" when="2018-02-21">Added syriaca link</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -54,20 +55,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1" sameAs="Q947711">
                <persName xml:lang="gez" xml:id="n1" type="birth">ያዕቆብ፡ ዘሥሩግ፡</persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized">Yāʿqob zaśǝrug</persName> 
-               <!--transliteration?-->
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Yāʿqob za-Śǝrug</persName> 
                <persName xml:lang="en" corresp="#n1" type="normalized">Jacob of Serug</persName>
                <persName xml:lang="en" xml:id="n2" type="alt">James of Serug</persName>
-               <persName xml:lang="en" xml:id="n3" type="nick">The flute of the Holy Spirit</persName>
-               
-                  <persName>
-                  <roleName type="title"/>
-               </persName>
+               <persName xml:lang="en" xml:id="n3" type="alt">Jacob of Sarug</persName>
+               <persName xml:lang="en" xml:id="n4" type="nick">The flute of the Holy Spirit</persName>
                   <occupation type="ecclesiastic">writer </occupation>
                <nationality type="Syria"/>
                <faith type="Syriac"/>
               
-               <birth when="0451"> he was born at a place called Kurtam near Baṭnān (Batnae) in <date> 451</date>.</birth>
+               <birth when="0451">He was born at a place called Kurtam near Baṭnān (Batnae) in <date> 451</date>.</birth>
                
                <floruit notBefore="0473" notAfter="0521">He became a monk at age of 22  in <date> 473</date>.
                   In his final years, he became a bishop of his native Baṭnān in <date> 519</date>.
@@ -113,7 +110,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="saws:isAttributedAuthorOf"
                          active="PRS5655Jacobof"
                          passive="LIT3402Chryso"/>
+               <relation name="skos:exactMatch" active="PRS5655Jacobof" passive="http://syriaca.org/person/42"/>
             </listRelation>
+            
          </listPerson>
   
          <listBibl type="secondary">
