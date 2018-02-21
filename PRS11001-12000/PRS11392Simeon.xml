@@ -51,11 +51,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
-            <person sex="1" sameAs="http://viaf.org/viaf/75503404/">
+            <person sex="1" sameAs="Q310987">
                <persName> Simeon the Stylite</persName>
                   <nationality type="Syria"/>
                <faith type="Orthodox"/>
                </person>  
+            <listRelation>
+               <relation name="skos:exactMatch" active="PRS11392Simeon" passive="http://syriaca.org/person/744"/>
+            </listRelation>
          </listPerson>
          
          

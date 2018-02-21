@@ -3,35 +3,30 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="pers"
-     xml:lang="en"
-     xml:id="PRS1980Aphrahat">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS1980Aphrahat">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Aphrahat</title>
             <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
-            
+
             <author/>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
-            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
-            multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
+               Forschungsumgebung / beta maṣāḥǝft</publisher>
             <pubPlace>Hamburg</pubPlace>
             <availability>
-               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
-                This file is licensed under the Creative Commons
-                Attribution-ShareAlike 4.0. </licence>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
             </availability>
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
             <p>Prosopography of Ethiopian Written tradition</p>
-            <p>A TEI file converted from the ETHIO-authority
-                                                  google spreadsheet</p>
+            <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -43,68 +38,53 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
-         <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
+         <change who="PL" when="2016-04-28">batch updated according to requirements and
+            issues.</change>
+         <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2017-08-02">Complete record</change>
+         <change who="DR" when="2018-02-21">Added syriaca and wikidata</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
+            <person sex="1" sameAs="Q434222">
                <persName xml:lang="gez" xml:id="n1" type="baptismal">ያዕቆብ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Yāʿqob</persName>
                <persName xml:lang="en" xml:id="n2" type="baptismal">Jacob</persName>
+               <persName xml:lang="en" xml:id="n3" type="main">Aphrahat</persName>
+               <occupation type="ecclesiastic">Church father</occupation>
+               <nationality type="Syria"/>
+               <faith type="Syriac"/>
+               <birth when="0270"/>
+               <floruit notBefore="0270" notAfter="0345">He was a Syriac Church Father and author of
+                  a series of 23 treaties which cover most of the theological reflections of the
+                  Persian Christian of the time. His theology is based exclusively on the Bible and
+                  is free from Greek influence, but absorbed elements of the Jewish exegetical
+                  tradition. His work was translated into Armenian, Georgian and Arabic. In
+                  Ethiopian tradition, neither the name Aphrahat nor the title of his work are
+                  known. However, at least two of his treaties are known in Gǝʿǝz: <ref type="work"
+                     corresp="LIT1275Dersan"/> and <ref type="work" corresp="LIT2041Nagarb"/>. </floruit>
+               <death when="0345"/>
+            </person>
             
-               
-               
-               <persName xml:lang="en" xml:id="n3" type="birth">Aphrahat</persName>
-              
-               
-               
-               
-         
-                  
-                  
-              <occupation type="ecclesiastic">Church father</occupation>
-                  
-                 <nationality type="Syria"/>
-                  <faith type="Syriac"/>
-                  
-                  
-              <birth when="0270"/>
-                  
-                  
-                  <floruit notBefore="0270" notAfter="0345">He was a Syriac Church Father and author of a series of 23 treaties which cover most of the theological 
-                     reflections of the Persian Christian of the time. His theology is based exclusively on the Bible and is free from Greek influence, but absorbed elements of the Jewish exegetical tradition. 
-                     His work was translated into Armenian, Georgian and Arabic. In Ethiopian tradition, neither the name Aphrahat nor the title of his work are known. 
-
-                     However, at least two of his treaties are known in Gǝʿǝz: <ref type="work" corresp="LIT1275Dersan"/> and <ref type="work" corresp="LIT2041Nagarb"/>. </floruit>
-                  <death when="0345"/>
-                  
-               </person>
-               
-               <listRelation>
-                  
-                  
-                  <relation name="saws:isAttributedAuthorOf"
-                         active="PRS1980Aphrahat"
-                         passive="LIT1275Dersan"/>
-                  <relation name="saws:isAttributedAuthorOf"
-                         active="PRS1980Aphrahat"
-                         passive="LIT2041Nagarb"/>
-                  
-                    </listRelation>
+            <listRelation>
+               <relation name="saws:isAttributedAuthorOf" active="PRS1980Aphrahat"
+                  passive="LIT1275Dersan"/>
+               <relation name="saws:isAttributedAuthorOf" active="PRS1980Aphrahat"
+                  passive="LIT2041Nagarb"/>
+               <relation name="skos:exactMatch" active="PRS1980Aphrahat"
+                  passive="http://syriaca.org/person/10"/>
+            </listRelation>
          </listPerson>
-         
-         
+
+
          <listBibl type="secondary">
             <bibl>
                <ptr target="bm:Witakowski2003EAEAphrahat"/>
             </bibl>
-            
+
          </listBibl>
       </body>
    </text>

@@ -47,12 +47,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-09-02">Complete record</change>
+         <change who="DR" when="2018-02-21">Added syriaca and wikidata</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
+            <person sex="1" sameAs="Q729105">
                <persName xml:lang="gez" xml:id="n1" type="birth">ሳዊሮስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Sāwiros</persName>
                
@@ -61,7 +62,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <faith type="Syriac"/>
                <birth> He was born in <date>465</date> at Sozopolis of Pisidia (Asia minor)</birth>
                
-               <floruit>He was a patriarch of Antioch between <date> 512-581</date>. He was an anti- Chalcedonian theologian and he had many anti-Chalcedonian writings. 
+               <floruit>He was a patriarch of Antioch between <date> 512-581</date>. He was an anti-Chalcedonian theologian and he had many anti-Chalcedonian writings. 
                   Some of his writings were translated  into Arabic and subsequently into Gǝʿǝz.
                </floruit>
                <death> He died on <date> 8 February 538</date> 
@@ -89,7 +90,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="saws:isAttributedAuthorOf"
                          active="PRS8790Severus"
                          passive="LIT3442Severus"/>
-            
+               <relation name="skos:exactMatch" active="PRS8790Severus" passive="http://syriaca.org/person/51"/>
                  </listRelation>
          </listPerson>
          <listBibl type="secondary">
