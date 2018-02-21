@@ -56,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                
-                  <persName xml:lang="gez" xml:id="n1" type="birth">አዳል፡ተሰማ፡</persName>
+                  <persName xml:lang="gez" xml:id="n1" type="birth">አዳል፡ ተሰማ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAdāl Tasammā</persName>
                   <persName xml:lang="gez" xml:id="n2" type="horse">አባ፡ ጤና</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAbbā  Ṭenā</persName>
@@ -75,10 +75,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <residence>
                   <placeName ref="LOC2310DabraM"/>
                </residence>
-               <birth when="1850">He was born at <placeName ref="LOC2421DagaDa"/> in <date>1850</date>
+               <birth when="1850">He was born at <placeName ref="LOC2421DagaDa"/> in <date>1850</date>.
                </birth>
                <floruit notBefore="1855" notAfter="1901">He was a notable of <placeName ref="LOC2488Damot"/> and <placeName ref="LOC3549Gojjam"/> proper who dominated the political arena in his home region 
-                  in the last quarter of the 19th century. He was a powerful rival to <roleName type="title">ʾaṣe</roleName>
+                  in the last quarter of the 19th century. 
+                  He was a powerful rival to <roleName type="title">ʾaṣe</roleName>
                   <persName ref="PRS7006Menilek"/>
                   to whom he surrendered himself after the death of <persName ref="PRS10378Yohanne"/>. 
                   </floruit>
