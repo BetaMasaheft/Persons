@@ -44,17 +44,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="DR" when="2018-02-22">Updated</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  
-                  Isaiah
-               </persName>
-               <occupation> prophet </occupation>
+            <person sex="1" sameAs="Q188794">
+               <persName xml:lang="en" xml:id="n1">Isaiah</persName>
+               <persName xml:lang="gez" xml:id="n2">ኢሳይያስ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">ʾIsāyǝyyās</persName>
+               <occupation type="other">prophet</occupation>
             </person>
          </listPerson>
       </body>
