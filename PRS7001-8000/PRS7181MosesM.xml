@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Moses (Muse)</title>
+            <title>Moses</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,17 +44,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="DR" when="2018-02-22">Updated</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  
-                  Moses (Muse)
-               </persName>
-               <occupation> patriarch </occupation>
+            <person sex="1" sameAs="Q9077">
+               <persName xml:id="n1" xml:lang="en">Moses</persName>
+               <persName xml:id="n2" xml:lang="gez">ሙሴ፡</persName>
+               <persName corresp="#n2" xml:lang="gez">Muse</persName>
             </person>
          </listPerson>
       </body>
