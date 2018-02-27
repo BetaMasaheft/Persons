@@ -50,11 +50,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Takla Hāymānot of Mamsāḥ
-               </persName>
-               <occupation type="literary"> author </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ተክለ፡ ሃይማኖት፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Takla Hāymānot</persName>
+               
+               
+               
+          
+               <occupation type="literary">author</occupation>
             </person>
          </listPerson>
       </body>

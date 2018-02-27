@@ -57,20 +57,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" xml:id="n1" type="monastic">ሀብተ፡ ሥላሴ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Habta Śǝllāse II</persName>
                <persName>
-                  <roleName type="title">ʾabbā </roleName>
+                  <roleName type="title">ʾabbā</roleName>
                </persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
-               <occupation type="ecclesiastic"> abbot </occupation>
+               <occupation type="ecclesiastic">abbot</occupation>
                <birth> He was born at <placeName ref="LOC4047Kelett">Kǝlǝttā Awlǝʿalo</placeName> in <date/>
                </birth>
                <residence>
                   <placeName ref="LOC3653GundaG">Gunda Gunde</placeName>
                </residence>
-               <floruit> He was an abbot of the monastery of <placeName ref="LOC3653GundaG">Gunda Gunde</placeName> during the reign of King 
-                  <persName ref="PRS9038Susenyos">Susǝnyos</persName>. He received a monastic habit from ʾabbā<persName ref="PRS9192TaklaNa">
-                     Takla Nabiyāt</persName>.  He had a strong stand against Catholicism.  </floruit>
-               <death/>
+               <floruit notBefore="1680" notAfter="1709"> He was an abbot of the monastery of <placeName ref="LOC3653GundaG">Gunda Gunde</placeName> during the reign of King 
+                  <persName ref="PRS9038Susenyos">Susǝnyos</persName>. 
+                  He received a monastic habit from ʾabbā<persName ref="PRS9192TaklaNa">
+                     Takla Nabiyāt</persName>.  He had a strong stand against Catholicism. </floruit>
+               
+              <death when="1709" cert="medium"/>
             </person>  
             <listRelation>
               <relation name="snap:AllianceWith"

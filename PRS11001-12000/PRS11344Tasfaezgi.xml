@@ -50,12 +50,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ተስፋ፡ እግዚእ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Tasfā
+                  ʾƎgziʾ</persName>
+       
                   
-                  Tasfā
-                  ʾƎgziʾ 
-               </persName>
-               <occupation type="political"> local ruler </occupation>
+        
+               <occupation type="political">governor</occupation>
             </person>
          </listPerson>
       </body>

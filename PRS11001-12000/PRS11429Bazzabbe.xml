@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Bazzabbǝš Daǧan</title>
+            <title>Bazzābbǝš Daǧan</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -50,11 +50,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="2">
-               <persName>
-                  
-                  Bazzabbǝš Daǧan
-               </persName>
-               <occupation type="other"> wäyz. </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birth">በዛብሽ፡ ደጀን፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Bazzābbǝš Daǧan</persName>
+               
+               
+               <occupation type="other">house wife</occupation>
             </person>
             <listRelation>
                <relation name="bm:wifeOf" active="PRS11429Bazzabbe" passive="PRS8346sahlase"/>

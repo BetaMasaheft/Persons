@@ -50,8 +50,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="2">
-               <persName>Dǝlbä Iyasus (Dǝl Bäiyasus)
-               </persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ድልበ፡ ኢየሱስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Dǝlba Iyasus</persName>
+               <persName xml:lang="gez" xml:id="n2" type="birth">ድል፡ በኢየሱስ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Dǝl Baiyasus</persName>
+               
+               
+                  
+         
                <occupation type="other"/>
             </person>
          
