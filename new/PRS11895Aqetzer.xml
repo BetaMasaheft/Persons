@@ -1,16 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="PRS11801Qurban"
-     xml:lang="en"
-     type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS11895Aqetzer" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Qʷurbān</title>
+                <title>ʾAqežar</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="SG"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -46,15 +41,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="SG" when="2017-12-21">Created entity</change>
+            <change who="SG" when="2018-02-27">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <personGrp>
-                    <persName xml:lang="gez" xml:id="n1">ቊርባን፡</persName>
-                    <persName xml:lang="gez" corresp="#n1" type="normalized">Qʷurbān</persName>
+                    <persName xml:lang="gez" xml:id="n1">አቄትዠር፡</persName>
+                    <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAqežar</persName>
                     
                     
                     <occupation type="military">name of regiment</occupation>
@@ -64,12 +59,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </personGrp>
                 <listRelation>
                     <relation name="lawd:hasAttestation"
-                         active="PRS11801Qurban"
-                         passive="LIT3951ChronSusenyos"/>
+                        active="PRS11895Aqetzer"
+                        passive="LIT3951ChronSusenyos"/>
                   
                 </listRelation>
             </listPerson>
-         
+            
         </body>
     </text>
 </TEI>
+
+                    
