@@ -53,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName xml:lang="gez" xml:id="n1" type="birth">አብርሃም</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">አብርሃም፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAbrǝhām</persName>
                <persName>
                   <roleName type="title">ʾǝč̣č̣age</roleName>
@@ -65,8 +65,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <residence>
                   <placeName ref="INS0341DL">Dabra Libānos</placeName>
                </residence>
-               <floruit when="1591" evidence="internal">He was the seventeenth abbot of <placeName ref="INS0341DL">Dabra Libānos</placeName>
-                  who succeeded ʾǝč̣č̣age <persName ref="PRS10651ZatraW">Zatra Wangel</persName> in<date>1591</date>. He was a contemporary of both King  
+               <floruit notBefore="1591" notAfter="1612">He was the seventeenth abbot of 
+                  <placeName ref="INS0341DL">Dabra Libānos</placeName>
+                  who succeeded ʾǝč̣č̣age <persName ref="PRS10651ZatraW">Zatra Wangel</persName> in<date>1591</date>. 
+                  He was a contemporary of both King  
                   <persName ref="PRS8550sardaDe">Śarḍa Dǝngǝl</persName> and King<persName ref="PRS9038Susenyos">Susǝnyos</persName> 
                   
                 </floruit>

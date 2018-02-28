@@ -52,13 +52,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>Francisco Alvares</persName>
+               <persName>
+                  
+                  <forename>Francisco </forename>
+                  <surname>Alvares</surname>
+               </persName>
+               
+               
+               
+         
                <occupation type="ecclesiastic">a priest</occupation>
                <nationality type="Portugal"/>
                <faith type="Catholicism"/>
                <birth when="1460"/>
-               <residence>He was in the court of King <persName ref="PRS6229LebnaDe">Lǝbna Dǝngǝl</persName> for six years</residence>
-               <floruit when="1520" evidence="internal">He wrote a lengthy account of his eventual six year stay <date> 1520-1526 </date> in highland Ethiopia, the first comprehensive original work.
+               <residence>He was in the court of King <persName ref="PRS6229LebnaDe">Lǝbna Dǝngǝl</persName> 
+                  for six years</residence>
+               <floruit notBefore="1520" notAfter="1542">He wrote a lengthy account 
+                  of his eventual six year stay <date> 1520-1526 </date> in highland Ethiopia, the first comprehensive original work.
               </floruit>
                <death> He died before <date>1542</date>
                </death>
@@ -67,7 +77,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="snap:AllianceWith"
                          active="PRS1778Alvares"
                          passive="PRS6679ManoelI"/>
-               <relation name="snap:AllianceWith"
+               <relation name="snap:ProfessionalRelationship"
                          active="PRS1778Alvares"
                          passive="PRS3779enbaqom"/>
                <relation name="snap:AllianceWith"
