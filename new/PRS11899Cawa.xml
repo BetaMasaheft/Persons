@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS11896Sellase" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS11899Cawa" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Śǝllāse</title>
+                <title>Č̣awā</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="SG"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -41,30 +41,32 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="SG" when="2018-02-27">Created entity</change>
+            <change who="SG" when="2018-02-28">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1" type="birth">ሥላሴ፡</persName>
-                    <persName xml:lang="gez" corresp="#n1" type="normalized">Śǝllāse</persName>
+                <personGrp>
+                    <persName xml:lang="gez" xml:id="n1">ጨዋ፡</persName>
+                    <persName xml:lang="gez" corresp="#n1" type="normalized">Č̣awā</persName>
                     
-                 
-                    <faith type="EOTC"/>
+                    
+                    <occupation type="military">name of regiment</occupation>
                     <birth/>
                     <death/>
                     <floruit/>
-                </person>
+                </personGrp>
                 <listRelation>
                     <relation name="lawd:hasAttestation"
-                        active="PRS11896Sellase"
+                        active="PRS11899Cawa"
                         passive="LIT3951ChronSusenyos"/>
                     
                 </listRelation>
-                
             </listPerson>
+            
         </body>
     </text>
 </TEI>
+
+                    
