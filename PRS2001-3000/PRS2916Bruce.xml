@@ -54,17 +54,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
-           
             <person sex="1">
-        
-               <persName>James Bruce</persName>
+               <persName>
+                  
+                  <forename>James</forename>
+                  <surname>Bruce</surname>
+               </persName>
+               
+           
+               
+      
        
                <occupation type="academic">traveller</occupation>
                   <nationality type="Scotland"/>
                   <faith type="notSpecified"/>
                   <birth/>
-               <residence>He was in Gondar from <date>1769-</date>to <date>1772</date>. </residence>
-               <floruit when="1769" evidence="internal">He arrived in Ethiopia motivated by the ambition to discover the source of Blue Nile in <date> September 1769</date>. 
+               <residence>He was in Gondar from <date>1769</date>to <date>1772</date>. </residence>
+               <floruit notBefore="1769" notAfter="1772">He arrived in Ethiopia motivated by the ambition 
+                  to discover the source of Blue Nile in <date> September 1769</date>. 
                      He was the most important foreigner to visit Ethiopia  between the expulsion of the Jesuits in <date>1632</date> and 
                      the visit of <persName ref="PRS8442Salt">Henry Salt</persName> in<date> 1810</date>. 
                </floruit>
