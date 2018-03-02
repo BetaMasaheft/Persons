@@ -10,7 +10,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Zäkrǝstos</title>
+            <title>Zakrǝstos II</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +47,52 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2018-03-02">COmplete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Zäkrǝstos
+               
+               <persName xml:lang="gez" xml:id="n1" type="birth">ዘክርስቶስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized"> Zakrǝstos
                </persName>
-               <occupation> ǝḉḉ. </occupation>
-            </person>
+                  <persName>
+                     <roleName type="title">ʾǝč̣č̣age</roleName>
+                  </persName>
+                  <occupation type="ecclesiastic">abbot</occupation>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  
+                  <residence>
+                     <placeName ref="INS0341DL">Dabra Libānos</placeName>
+                  </residence>
+                  <floruit notBefore="1667" notAfter="1669">He was the twenty second abbot of 
+                     <placeName ref="INS0341DL">Dabra Libānos</placeName>
+                     who succeeded <roleName type="title">ʾǝč̣č̣age</roleName> 
+                     <persName ref="PRS11901Yamanaab"/> in<date>1667</date>. 
+                     He was a contemporary of King  
+                     <persName ref="PRS10375Yohanne">Yoḥannǝs I</persName> in his  tenure from <date> 1667-1669</date>. 
+                  </floruit>
+                  
+               </person>
+               <listRelation>
+                  <relation name="snap:AllianceWith"
+                     active="PRS5306Heryaqos"
+                     passive="PRS10375Yohanne"/>
+                  
+                  
+               </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Cerulli1944AbbotsDL"/>
+               <citedRange unit="page">137-182</citedRange>
+            </bibl>
+            </listBibl>
       </body>
    </text>
 </TEI>
+
+               

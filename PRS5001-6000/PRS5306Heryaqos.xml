@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Hǝryaqos</title>
+            <title>Hǝryāqos</title>
             <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
@@ -67,23 +67,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <residence>
                   <placeName ref="INS0341DL">Dabra Libānos</placeName>
                </residence>
-                  <floruit when="1678" evidence="internal">He was the twenty third abbot of <placeName ref="INS0341DL">Dabra Libānos</placeName>
+                  <floruit notBefore="1669" notAfter="1678">He was the twenty third abbot of 
+                     <placeName ref="INS0341DL">Dabra Libānos</placeName>
                      who succeeded <roleName type="title">ʾǝč̣č̣age</roleName> 
-                  <persName ref="PRS5306Heryaqos">Hǝryāqos</persName> in<date>1678</date>. He was a contemporary of King  
-                     <persName ref="PRS10375Yohanne">Yoḥannǝs I</persName> in his  tenure from <date> 1678-1679</date>. He was succeeded by ʿǝč̣č̣age 
-                     <persName ref="PRS8325saggaKr">Ṣaggā Krǝstos</persName> in<date>1678</date>.  
-                     He was reappointed in <date>01-09-1686</date> by King <persName ref="PRS5616IyasuI">ʾIyāsu I</persName> but he died before he could take the office. 
-                     The list of abbots of <placeName ref="INS0341DL">Dabra Libānos</placeName> indicates that he was the one 
-                     who revised the musical notation of <ref type="work" corresp="LIT3178Deggwa">Dǝggʷā</ref>. He was also one of the owners of a manuscript containing
-                     <ref type="work" corresp="LIT2505Weddas">Wǝddāse ʾAmlāk</ref> and the Marian hymn 
-                     <ref type="work" corresp="LIT2016Mestir">Mǝśṭira ṣǝgeyāt</ref>.
-                  </floruit>
-                  <death when="1686" evidence="internal"/>
+                     <persName ref="PRS10548Zakrest">Zakrǝstos  II</persName> in<date>1669</date>. 
+                     He was a contemporary of King  
+                     <persName ref="PRS10375Yohanne">Yoḥannǝs I</persName> in his  tenure from <date> 1669-1678</date>. 
+                        </floruit>
+          
                </person>
                <listRelation>
-                  <relation name="snap:FriendshipFor"
-                         active="PRS8004QalaAw"
-                         passive="PRS5616IyasuI"/>
+                  <relation name="snap:AllianceWith"
+                     active="PRS5306Heryaqos"
+                     passive="PRS10375Yohanne"/>
                   
                   
                </listRelation>
