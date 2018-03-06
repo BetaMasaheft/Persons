@@ -83,6 +83,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     
                     
             </listPerson>
+            <listBibl type="editions">
+                
+                <bibl>
+                    <ptr target="bm:Pereira1892Susenyos"/>
+                </bibl>
+            </listBibl>
+            <listBibl type="translation">
+                <bibl>
+                    <ptr target="bm:Pereira1900Susenyos"/>
+                </bibl>
+                <bibl>
+                    <ptr target="bm:Alemu2013Susenyos"/>
+                </bibl>
+                <bibl> 
+                    <ptr target="bm:Boavida2011PaezII"/>
+                    <citedRange unit="page">206-259</citedRange>
+                </bibl>
+                
+                
+            </listBibl>
+            
         </body>
     </text>
 </TEI>
