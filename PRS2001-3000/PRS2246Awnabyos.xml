@@ -64,14 +64,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <faith type="Orthodox"/>
                
                <floruit notBefore="1607" notAfter="1632">He was a dignitary in the court of 
-                  <roleName type="title">ʾaṣe </roleName> 
-                  <persName ref="PRS9038Susenyos">Susǝnyos</persName>, who enjoyed many political and military titles. 
+                 
+                  <persName ref="PRS9038Susenyos">  <roleName type="title">ʾaṣe </roleName> Susǝnyos</persName>, who enjoyed many political and military titles. 
                   In <date>1609</date>,
                   he was appointed as a governor of <placeName ref="LOC6144Wagara">Wagarā</placeName>. 
-                  A year later, he became an army chief, <roleName type="title">ʾarʾsta ḥārā</roleName>. 
+                  A year later, he became an army chief, <persName ref="PRS2246Awnabyos">
+                     <roleName type="title">ʾarʾsta ḥārā</roleName></persName>
+                  . 
                   And again in September <date>1614</date>,
-                  he became <roleName type="title">liqa ḍabāʾit</roleName>. 
-                  In <date>1621</date>, he was appointed as <roleName type="title">ʾAbagāz</roleName>.
+                  he became <persName ref="PRS2246Awnabyos"><roleName type="title">liqa ḍabāʾit</roleName></persName>
+                  . 
+                  In <date>1621</date>, he was appointed as <persName ref="PRS2246Awnabyos"><roleName type="title">ʾAbagāz</roleName></persName>
+                  .
                </floruit>
                
            </person>

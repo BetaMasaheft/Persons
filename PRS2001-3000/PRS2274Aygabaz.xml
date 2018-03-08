@@ -63,10 +63,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <nationality type="Ethiopia"/>
                <faith type="Orthodox"/>
                
-               <floruit when="1669">He was a dignitary of <roleName type="title">ʾaṣe</roleName>
-                  <persName ref="PRS5616IyasuI">ʾIyāsu I</persName> with the title 
-                  <roleName type="title">ṭǝqāqqǝn blatten getā </roleName>.
-                  In this function, he together with <roleName type="title">blatten getā </roleName> 
+               <floruit when="1669">He was a dignitary of <persName ref="PRS5616IyasuI"><roleName type="title">ʾaṣe</roleName>
+                   
+                   ʾIyāsu I</persName> with the title 
+                  <persName ref="PRS2274Aygabaz"><roleName type="title">ṭǝqāqqǝn blatten getā </roleName>
+                  </persName>.
+                  In this function, he together with <persName ref="PRS2274Aygabaz">
+                     <roleName type="title">blatten getā </roleName></persName>
+                   
                   <persName ref="PRS4287GabraLe">Gabra Lǝʾul</persName>, 
                   undertook an expedition against <placeName ref="LOC1843BeniSa">Beni Šāngul</placeName>. 
                </floruit>
