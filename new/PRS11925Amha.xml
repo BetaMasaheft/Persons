@@ -1,16 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="PRS11813Faris"
-     xml:lang="en"
-     type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS11925Amha" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Fāris</title>
+                <title>ʾAmḫā</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="SG"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -46,25 +41,48 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="SG" when="2018-01-15">Created entity</change>
+            <change who="SG" when="2018-03-09">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                  
-                        <persName xml:lang="gez" xml:id="n1">ፋሪስ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Fāris</persName>
-                        <nationality type="Ethiopia"/>
-                        <faith type="EOTC"/>
-                    <occupation type="political">daǧǧāzmač</occupation>
-                    </person>
-                    <listRelation>
-                        <relation name="lawd:hasAttestation"
-                         active="PRS11813Faris"
-                         passive="LIT3951ChronSusenyos"/>
-                    </listRelation>
+                    <persName xml:lang="gez" xml:id="n1">አምኃ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAmḫā</persName>
+                    <persName>
+                        <roleName type="title">ʾazmāč</roleName>
+                    </persName>
+                    
+                    
+                    <faith type="EOTC"/>
+                    
+                    <nationality type="Ethiopia"/>
+                    <occupation type="political">governor</occupation>
+                    <floruit notBefore="1607" notAfter="1620">He was a governor of <placeName ref="LOC2488Damot"/>
+                        during the early years of the reign of <persName ref="PRS9038Susenyos"><roleName type="title">ʾaṣe</roleName>
+                            Susǝnyos</persName></floruit>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                </person> 
+                
+                <listRelation>
+                    
+                    
+                    
+                    <relation name="lawd:hasAttestation" active="PRS11925Amha" passive="LIT3951ChronSusenyos"/>
+                    
+                    
+                </listRelation>
+                
+                
                 
             </listPerson>
             <listBibl type="editions">
@@ -91,3 +109,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </body>
     </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   
