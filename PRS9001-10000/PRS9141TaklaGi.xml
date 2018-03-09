@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Täklä Giyorgis</title>
+            <title>Takla Giyorgis</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,19 +44,83 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2018-03-08">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
+               <persName xml:lang="gez" xml:id="n1">ተክለ፡ ጊዮርጊስ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Takla Giyorgis</persName>
                <persName>
-                  
-                  Täklä Giyorgis
+                  <roleName type="title">šum</roleName>
                </persName>
-               <occupation> šum </occupation>
-            </person>
+               
+               
+               <faith type="EOTC"/>
+               
+               <nationality type="Ethiopia"/>
+               <occupation type="political">governor </occupation>
+               <floruit notBefore="1607" notAfter="1632">He was the governor of <placeName ref="LOC2639Dekana"/>
+                  during the reign of <persName ref="PRS9038Susenyos"/></floruit>
+              
+               
+               
+               
+               
+               
+               
+               
+               
+               
+            </person> 
+            
+            <listRelation>
+               
+               
+               
+               <relation name="lawd:hasAttestation" active="PRS9141TaklaGi" passive="LIT3951ChronSusenyos"/>
+               
+               
+            </listRelation>
+            
+            
+            
          </listPerson>
+         <listBibl type="editions">
+            
+            <bibl>
+               <ptr target="bm:Pereira1892Susenyos"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="translation">
+            <bibl>
+               <ptr target="bm:Pereira1900Susenyos"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Alemu2013Susenyos"/>
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Boavida2011PaezII"/>
+               <citedRange unit="page">206-259</citedRange>
+            </bibl>
+            
+            
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+              
