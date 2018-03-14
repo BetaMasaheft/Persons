@@ -10,7 +10,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Wäldä Krǝstos</title>
+            <title>Walda Krǝstos</title>
+            <editor role="generalEditor" key="AB"/>
+            <editor key="SG"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -50,13 +53,79 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
+               <persName xml:lang="gez" xml:id="n1">ወልደ፡ ክርስቶስ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Walda Krǝstos</persName>
                <persName>
-                  
-                  Wäldä Krǝstos
+                  <roleName type="title">ʾabetaḫun</roleName>
                </persName>
-               <occupation> abet. </occupation>
-            </person>
+               
+               
+               <faith type="EOTC"/>
+               
+               <nationality type="Ethiopia"/>
+               <occupation type="political">courtier</occupation>
+               
+               
+               
+               
+               
+               
+               
+               
+               
+            </person> 
+            
+            <listRelation>
+               <relation name="snap:SonOf"
+                  active="PRS9930WaldaKr" passive="PRS11941Tatus"/> 
+                 
+               
+               
+               
+               <relation name="lawd:hasAttestation" active="PRS9930WaldaKr" passive="LIT3951ChronSusenyos"/>
+               
+               
+            </listRelation>
+            
+            
+            
          </listPerson>
+         <listBibl type="editions">
+            
+            <bibl>
+               <ptr target="bm:Pereira1892Susenyos"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="translation">
+            <bibl>
+               <ptr target="bm:Pereira1900Susenyos"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Alemu2013Susenyos"/>
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Boavida2011PaezII"/>
+               <citedRange unit="page">206-259</citedRange>
+            </bibl>
+            
+            
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              
