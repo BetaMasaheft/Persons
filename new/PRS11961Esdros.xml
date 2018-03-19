@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS11951Maeqabo" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS11961Esdros" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Maʿǝqabo</title>
+                <title>ʾEsdros</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="SG"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -41,47 +41,44 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="SG" when="2018-03-16">Created entity</change>
+            <change who="SG" when="2018-03-19">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ማዕቀቦ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Maʿǝqabo</persName>
-                    <persName>
-                        <roleName type="title">ʾazzāž</roleName>
-                    </persName>
-                    
-                    
-                    <faith type="EOTC"/>
-                    
-                    <nationality type="Ethiopia"/>
-                    <occupation type="political">courtier</occupation>
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                </person> 
+                 
+                    <persName xml:lang="gez" xml:id="n1">ኤስድሮስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">ʾEsdros</persName>
+                        
+                        
+                        <faith type="EOTC"/>
+                        
+                        <nationality type="Ethiopia"/>
                 
-                <listRelation>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </person> 
+                    
+                    <listRelation>
+                        
+                        
+                        
+                        <relation name="lawd:hasAttestation" active="PRS11961Esdros" passive="LIT3951ChronSusenyos"/>
+                        
+                        
+                    </listRelation>
                     
                     
                     
-                    <relation name="lawd:hasAttestation" active="PRS11951Maeqabo" passive="LIT3951ChronSusenyos"/>
-                    <relation name="snap:FatherOf" active="PRS11951Maeqabo" passive="PRS11952Arsa"
-                    />
-                    
-                </listRelation>
-                
-                
-                
             </listPerson>
             <listBibl type="editions">
                 
@@ -121,4 +118,4 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
 
 
-                    
+                  
