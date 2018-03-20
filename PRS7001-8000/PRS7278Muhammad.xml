@@ -44,19 +44,42 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2018-03-20">Addition</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+             
                   
-                  Muḥammad b. Naṣīr b. ʿUṯmān
-               </persName>
-               <occupation> sulṭ. </occupation>
-            </person>
+                  <persName xml:lang="gez" xml:id="n1" type="birth"></persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized"> Muḥammad b. Naṣīr b. ʿUṯmān</persName>
+                  <persName>
+                     <roleName type="title">sulṭān</roleName>
+                  </persName>
+                  <occupation type="political">leader</occupation>
+                  
+                  <nationality type="Adal"/>
+                  <faith type="Islam"/>
+                  
+                  <floruit notBefore="1573"  notAfter="1576">
+                  </floruit>
+              
+                  
+               </person>
+               
+               <listRelation>
+                  <relation name="rel:enemyOf"
+                     active="PRS7278Muhammad"
+                     passive="PRS8550sardaDe"/>
+                  <relation name="lawd:hasAttestation" active="PRS7278Muhammad" passive="LIT3951ChronSusenyos"/>
+               </listRelation>
          </listPerson>
-      </body>
+         
+         
+               </body>
    </text>
 </TEI>
+
+              
