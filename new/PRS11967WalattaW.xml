@@ -48,8 +48,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="2">
-                    <persName xml:lang="gez" xml:id="n1">Walatta Wahǝd</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ወለተ፡ ወህድ፡ </persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walatta Wahǝd</persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
                     <birth/>
@@ -57,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <floruit/>
                 </person>
                 <listRelation>
-                    <relation name="snap:FatherOf" active="PRS11967WalattaW" passive=""/>
+                    <relation name="snap:MotherOf" active="PRS11967WalattaW" passive="PRS11964WaldaLibanos"/>
                 </listRelation>
             </listPerson><!---->
         </body>

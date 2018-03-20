@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS11964WaldaLibanos" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS11966WaldaMikael" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Walda Libānos</title>
+                <title>Walda Mikāʾel</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="ES"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -48,8 +48,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ወልደ፡ ሊባኖስ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walda Libānos</persName>
+                    <persName xml:lang="gez" xml:id="n1">ወልደ፡ ሚካኤል፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walda Mikāʾel</persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
                     <birth/>
@@ -57,9 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <floruit/>
                 </person>
                 <listRelation>
-                    <relation name="saws:hasOwned" active="PRS11964WaldaLibanos" passive="ESagm005"/>
-                    
-                    <relation name="bm:husbandOf" active="PRS11964WaldaLibanos" passive="PRS11965WalattaLibanos"/>
+                    <relation name="snap:FatherOf" active="PRS11966WaldaMikael" passive="PRS11964WaldaLibanos"/>
                 </listRelation>
             </listPerson><!---->
         </body>
