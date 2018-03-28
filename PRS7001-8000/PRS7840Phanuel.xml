@@ -49,6 +49,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="DR" when="2018-01-26">Updated</change>
+         <change who="ES" when="2018-03-28">Updated relations</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -58,9 +59,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" xml:id="n1">ፋኑኤል፡</persName>
                <persName xml:lang="gez" type="normalized" corresp="#n1">Fānuʾel</persName>
                <persName xml:lang="en" corresp="#n1" type="main">Phanuel</persName>
+               <occupation type="other">Archangel</occupation>
             </person>
             <listRelation>
                <relation name="ecrm:P129i_is_subject_of" active="PRS7840Phanuel" passive="LIT2375Synaxa"/>
+               <relation name="ecrm:P129i_is_subject_of" active="PRS7840Phanuel" passive="LIT2765RepCh49"/>
+               <relation name="ecrm:P129i_is_subject_of" active="PRS7840Phanuel" passive="LIT2885RepCh166"/>
+               <relation name="ecrm:P129i_is_subject_of" active="PRS7840Phanuel" passive="LIT1847Malkea"/>
             </listRelation>
          </listPerson>
       </body>
