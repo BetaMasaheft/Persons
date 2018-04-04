@@ -10,17 +10,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Wäldä Gäbrǝʾel</title>
-            <editor key="SG"/>
-            <editor role="generalEditor" key="AB"/>
+            <title>Walda Gabrǝʾel</title>
+ 
             
             
             <author/>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
-            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
-            multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
             <pubPlace>Hamburg</pubPlace>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
@@ -48,6 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2018-03-14">addition</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -56,13 +55,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName>
                   
-                  Wäldä Gäbrǝʾel
+                  Walda Gabrǝʾel
                </persName>
             </person>
             <listRelation>
-               <relation name="sonOf">
-                  <desc> son Arägawi Säbagadis</desc>
-               </relation>
+               <relation name="snap:SonOf" active="PRS9887WaldaGa"
+                  passive="PRS8265Sabagadi"></relation>
+                  
+                  
+                  
+                  
+       
+   
             </listRelation>
          </listPerson>
       </body>

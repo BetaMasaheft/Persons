@@ -10,13 +10,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Amon</title>
+            <title>ʾAmon</title>
             <author/>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
-            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
-            multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
             <pubPlace>Hamburg</pubPlace>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
@@ -44,18 +43,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="DR" when="2018-03-12">Updated</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  
-                  Amon
-               </persName>
-               <occupation> church author </occupation>
+            <person sex="1" sameAs="Q473349">
+               <persName xml:lang="gez" xml:id="n1">አሞን፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAmon</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAmmon</persName>
+               <occupation type="ecclesiastic">monk</occupation>
             </person>
+            <listRelation>
+               <relation name="ecrm:P129i_is_subject_of" active="PRS1890Amon" passive="LIT2375Synaxa"/>
+            </listRelation>
          </listPerson>
       </body>
    </text>

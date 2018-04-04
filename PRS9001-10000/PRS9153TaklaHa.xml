@@ -17,8 +17,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
-            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
-            multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
             <pubPlace>Hamburg</pubPlace>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
@@ -55,12 +54,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
               
                <persName xml:lang="gez" xml:id="n1" type="birth">ተክለ፡ ሃይማኖት፡</persName>
-                  <persName xml:lang="gez" corresp="#n1" type="normalized">Takla Hāymānot II</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Takla Hāymānot <addName>II</addName></persName>
                  <persName>
                   <roleName type="title">ʾaṣe</roleName>
                </persName>
                   <persName xml:lang="gez" xml:id="n2" type="regnal">አድማስ፡ ሰገድ፡</persName>
-                  <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAdmās Sagad III</persName>
+                  <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAdmās Sagad <addName>III</addName></persName>
                   <persName xml:lang="gez" xml:id="n3" type="regnal">ጥበብ፡ ሰገድ፡</persName>
                   <persName xml:lang="gez" corresp="#n3" type="normalized">Ṭǝbab Sagad</persName>
                
@@ -69,8 +68,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <faith type="EOTC"/>
                <residence>Gondar</residence>
              
-               <floruit when="1769" evidence="internal">He  was one of the short-lived puppet kings installed by <roleName type="title">rās</roleName> 
-                  <persName ref="PRS7091Mikael">Mikāʾel Sǝḥul</persName> on 
+               <floruit when="1769" evidence="internal">He  was one of the short-lived
+                  puppet kings installed by  
+                  <persName ref="PRS7091Mikael"><roleName type="title">rās</roleName> Mikāʾel Sǝḥul</persName> on 
                   <date>17 October 1769</date> and  succeeded his father King 
                   <persName ref="PRS10376Yohanne">Yoḥannǝs II</persName>.
               </floruit>

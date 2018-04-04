@@ -10,13 +10,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Kǝflä Waḥǝd</title>
+            <title>Kǝfla Wāḥǝd</title>
             <author/>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
-            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
-            multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
             <pubPlace>Hamburg</pubPlace>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
@@ -44,20 +43,74 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2018-03-15">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ክፍለ፡ ዋሕድ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Kǝfla Wāḥǝd</persName>
+               <persName xml:lang="gez" xml:id="n2" type="alt">ክፍለ፡ ዋሒድ፡</persName>
+               <persName xml:lang="gez" xml:id="n3" type="birth">Kǝfla Wāḥid</persName>
+               
                   
-                  Kǝflä Waḥǝd
+               <persName>
+                  <roleName type="title">daǧǧāzmāč</roleName>
                </persName>
-               <persName type="alt">Kǝflä Waḥid</persName>
-               <occupation> däǧǧ. </occupation>
+               <nationality type="Ethiopia"/>
+               <birth when="1560"></birth>
+               <faith type="EOTC"/>
+               
+               
+               
+               
+               
+               <occupation type="political">governor</occupation>
+               
+               
+               <floruit notBefore="1580" notAfter="1608">He was a governor of <placeName ref="LOC6569Tegray"/> until <date>1608</date>. 
+                  During the <date>1597</date> power  struggle, which followed the death of <persName ref="PRS8550sardaDe">Śarḍa Dǝngǝl</persName>
+                  Kǝfla Wāḥǝd
+                     sided with the party that successfuly supported the claim to the throne of 
+                  <persName ref="PRS8550sardaDe"><roleName type="title">ʾaṣe</roleName>Śarḍa Dǝngǝl</persName> 's minor son <persName ref="PRS10198Yaeqob">
+                           <roleName type="title">ʾaṣe</roleName> Yāʿqob </persName>.
+               </floruit>
+              <death notBefore="1607" notAfter="1608"></death>
             </person>
+            <listRelation>
+               <relation name="snap:SonOf" active="PRS5916KeflaWa" passive="PRS3277Dabrase"/>
+               <relation name="bm:husbandOf" active="PRS5916KeflaWa" passive="PRS6082Krestosa">
+                  
+               </relation>
+               <relation name="snap:AllianceWith" active="PRS5916KeflaWa"
+                  passive="PRS10198Yaeqob"/>
+               
+               
+            </listRelation>
          </listPerson>
+         
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Pereira1892Susenyos"/>
+            </bibl>
+            
+            
+            
+            <bibl>
+               <ptr target="bm:Pereira1900Susenyos"/>
+            </bibl>
+            
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Smidt2007KeflaWahed"/>
+            </bibl>  
+         </listBibl>
+         
+         
+         
       </body>
    </text>
 </TEI>

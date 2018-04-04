@@ -17,8 +17,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
-            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
-            multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
             <pubPlace>Hamburg</pubPlace>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
@@ -47,23 +46,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-11-11">Complete record</change>
+         <change who="ES" when="2018-03-27">updated names</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName xml:lang="gez" xml:id="n1" type="birth">ካሣ፡ ምርጫ፡</persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized">Kaśā Mǝrč̣ā</persName>
-               <persName xml:lang="gez" xml:id="n2" type="horse">አባ፡ በዝብዝ፡</persName>
-               <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAbbā Bazbbǝz</persName>
-               <persName xml:lang="gez" xml:id="n3" type="horse">ወርሳው፡</persName>
-               <persName xml:lang="gez" corresp="#n3" type="normalized">Warrǝsāw</persName>
-                  <persName>
-                  <roleName type="title">ʾaṣe</roleName>
-               </persName>
-               <persName xml:lang="gez" xml:id="n4" type="regnal">ዮሐንስ፡</persName>
-               <persName xml:lang="gez" corresp="#n4" type="normalized">Yoḥannǝs</persName>
+               
+               
+               <persName xml:lang="gez" xml:id="n1" type="regnal"><roleName type="title">ዓፄ፡</roleName> ዮሐንስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized"><roleName type="title">ʾaṣe</roleName> Yoḥannǝs <addName>IV</addName></persName>
+               
+               <persName xml:lang="gez" xml:id="n2" type="birth">ካሣ፡ ምርጫ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Kaśā Mǝrč̣ā</persName>
+               <persName xml:lang="gez" xml:id="n3" type="horse">አባ፡ በዝብዝ፡</persName>
+               <persName xml:lang="gez" corresp="#n3" type="normalized">ʾAbbā Bazbbǝz</persName>
+               <persName xml:lang="gez" xml:id="n4" type="horse">ወርሳው፡</persName>
+               <persName xml:lang="gez" corresp="#n4" type="normalized">Warrǝsāw</persName>
+
                
                <occupation type="ruler">Emperor</occupation>
                <nationality type="Ethiopia"/>

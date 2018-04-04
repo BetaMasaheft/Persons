@@ -10,13 +10,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Kädawǝrd</title>
+            <title>Kadāwǝrd</title>
             <author/>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
-            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
-            multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
             <pubPlace>Hamburg</pubPlace>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
@@ -44,19 +43,44 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-03-20">addition</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
+               <persName xml:lang="gez" xml:id="n1" type="birth">ከዳውርድ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Kadāwǝrd</persName>
                <persName>
-                  
-                  Kädawǝrd
+                  <roleName type="title">pašā</roleName>
                </persName>
-               <occupation> paša </occupation>
+               <occupation type="political">governor</occupation>
+               
+               <nationality type="Ethiopia"/>
+               <faith type="Orthodox"/>
+               
+               <floruit notBefore="1588" notAfter="1594" ></floruit>
+               <death when="1607" cert="medium"/>
+               
             </person>
+            
+            <listRelation>
+               <relation name="rel:enemyOf"
+                  active="PRS5826Kadawerd"
+                  passive="PRS8550sardaDe"/>
+                 </listRelation>
          </listPerson>
+         
+         
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Donzel2007Kadawerd"/>
+            </bibl>
+            
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+               
