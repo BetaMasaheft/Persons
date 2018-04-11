@@ -53,13 +53,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-           
-                  <persName xml:lang="gez" xml:id="n1" type="birth">ሀድገ፡ አንበሳ፡</persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized">Hadga ʾAnbasā</persName>
+               <persName xml:lang="gez" xml:id="n1" type="baptismal">እስጢፋኖስ፡</persName>
+               
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾƎsṭifānos</persName>
+                  <persName xml:lang="gez" xml:id="n2" type="birth">ሀድገ፡ አንበሳ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Hadga ʾAnbasā</persName>
 
-                  <persName xml:lang="gez" xml:id="n2" type="baptismal">እስጢፋኖስ፡</persName>
-
-               <persName xml:lang="gez" corresp="#n2" type="normalized">ʾƎsṭifānos</persName>
+                  
                <persName>
                   <roleName type="title">ʾabbā</roleName>
                </persName>
@@ -88,7 +88,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </listPerson>
          <listBibl type="editions">
             <bibl>
-               <ptr target="bm:Getachew2006Estifanos"/>
+               <ptr target="bm:Getachew2006EstifanosT"/>
             </bibl>
             <bibl>
                <ptr target="bm:Getachew2004Estifanos"/>
