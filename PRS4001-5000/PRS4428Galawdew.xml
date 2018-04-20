@@ -77,7 +77,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </person>
             
             <listRelation>
-               <relation name="snap:BrotherOf" mutual="PRS4428Galawdew PRS7102Minas"/>
+               <relation name="snap:BrotherOf" active="PRS4428Galawdew" passive="PRS7102Minas"/>
+               
+               <relation name="snap:BrotherOf" active="PRS7102Minas" passive="PRS4428Galawdew"/>
                <relation name="snap:SonOf" active="PRS4428Galawdew" passive="PRS6229LebnaDe"/>
                <relation name="snap:SonOf" active="PRS4428Galawdew" passive="PRS8275SablaD"/>
                <relation name="saws:isAttributedAuthorOf"

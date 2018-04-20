@@ -56,7 +56,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          active="PRS10999BerhanaM"
                          passive="BNFet45"/>
                <relation name="syriaca:possibly-identical"
-                         mutual="PRS10999BerhanaM PRS10974BerhanaM"/>
+                         active="PRS10974BerhanaM"
+                         passive="PRS10999BerhanaM"/>
+               <relation name="syriaca:possibly-identical"
+                  active="PRS10999BerhanaM"
+                  passive="PRS10974BerhanaM"/>
             </listRelation>
          </listPerson>
       </body>
