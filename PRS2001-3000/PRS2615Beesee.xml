@@ -43,20 +43,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="ES" when="2018-04-24">adjusted name relation</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Bǝʾǝse Ǝgziabǝḥer
-               </persName>
+               <persName xml:lang="gez" xml:id="n1">ብእሴ፡ እግዚአብሔር፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Bǝʾǝse ʾƎgziʾabǝḥer</persName>
+               <faith type="EOTC"/>
+               <floruit>16th century</floruit>
             </person>
             <listRelation>
-               <relation name="sonOf">
-                  <desc> son Nägädä Iyäsus </desc>
+               <relation name="snap:SonOf" active="PRS2615Beesee" passive="PRS7458NagadaI">
+                  
                </relation>
             </listRelation>
          </listPerson>
