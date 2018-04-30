@@ -1,11 +1,12 @@
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12037Yeshaq" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12040Keflo" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Yǝsḥaq</title>
+                <title>Kǝflo
+                </title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="SG"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -47,22 +48,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPerson>
-         
-                    <person sex="1">
-                        <persName xml:lang="gez" xml:id="n1" type="birth">ይስሐቅ፡</persName>
-                        
+                <person sex="1">
+                    <persName xml:lang="gez" xml:id="n1" type="birth">ክፍሎ፡</persName>
                   
-                        <persName xml:lang="gez" type="normalized" corresp="#n1">Yǝsḥaq</persName>
-                        <persName>
-                            <roleName type="title">ʾazmāč</roleName>
-                        </persName>
-                    </person>
-                    <listRelation>
-                        <relation name="saws:isRelatedTo" active="PRS12037Yeshaq" passive="PRS9038Susenyos"></relation>
-                        <relation name="lawd:hasAttestation" active="PRS12037Yeshaq" passive="LIT3951ChronSusenyos"/>
-                    </listRelation>
-            </listPerson>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Kǝflo</persName>
+                    <persName>
+                        <roleName type="title">šum</roleName>
+                    </persName>
+       
+                
+                   
+                    <faith type="EOTC"/>
+                    <occupation type="political"/>
+                    <nationality type="Ethiopia"/>
+                    <birth/>
+                    <death/>
+                    <floruit/>
+                </person>
+                <listRelation>
+                    <relation name="saws:isRelatedTo" active="PRS12040Keflo" passive="PRS7102Minas"/>
+                    <relation name="lawd:hasAttestation" active="PRS12037Yeshaq" passive="LIT3951ChronSusenyos"/>
+                </listRelation>
+            </listPerson><!---->
         </body>
     </text>
 </TEI>
-                    
