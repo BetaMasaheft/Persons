@@ -43,18 +43,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="DR" when="2018-05-01">Added wikidata, Ethiopic name and relation</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  
-                  Demetrius I of Alexandria
-               </persName>
-               <occupation> patriarch </occupation>
+            <person sex="1" sameAs="Q559194">
+               <persName xml:id="n1" xml:lang="en">Demetrius I of Alexandria</persName>
+               <persName xml:id="n2" xml:lang="gez">ድሜጥርዮስ፡</persName>
+               <persName corresp="#n2" xml:lang="gez" type="normalized">Dǝmeṭrǝyos</persName>
+               <occupation type="ecclesiastic">Patriarch of Alexandria</occupation>
             </person>
+            <listRelation>
+               <relation name="ecrm:P129i_is_subject_of" active="PRS3499Demetriu" passive="LIT2375Synaxa"/>
+            </listRelation>
          </listPerson>
       </body>
    </text>
