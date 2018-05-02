@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Gudamo</title>
+            <title>Gudāmo</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -43,19 +43,44 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2018-05-02">additions</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
+               <persName xml:lang="gez" xml:id="n1">ጉዳሞ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Gudāmo</persName>
                <persName>
-                  
-                  Gudamo
+                  <roleName type="title">qāṭ</roleName>
                </persName>
-               <occupation> qaṭ </occupation>
+               
+               
+               <faith type="EOTC"/>
+               
+               <nationality type="Ethiopia"/>
+               <occupation type="political">governor</occupation>
+               
+               
+               
+               
+               
+               
+               
+               
+               
+         
             </person>
+            <listRelation>
+               <relation name="lawd:hasAttestation" active="PRS4858Gudamo" passive="LIT3951ChronSusenyos"/>
+               <relation name="snap:FatherOf" active="PRS4858Gudamo" passive="PRS1809AmataKr"/>
+            </listRelation>
          </listPerson>
       </body>
    </text>
 </TEI>
+
+
+
+               

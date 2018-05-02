@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Amätä Krǝstos</title>
+            <title>ʾAmata Krǝstos</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -43,23 +43,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2018-05-02">additions</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="2">
-               <persName>
-                  
-                  Amätä Krǝstos
-               </persName>
-            </person>
-            <listRelation>
-               <relation name="daughterOf">
-                  <desc> daugh. Gudamo </desc>
-               </relation>
-            </listRelation>
+               
+               <persName xml:lang="gez" xml:id="n1">አመተ፡ ክርስቶስ፡</persName>
+                  <persName xml:lang="gez" type="normalized" corresp="#n1">Amata Krǝstos</persName>
+               </person>
+               <listRelation>
+                  <relation name="lawd:hasAttestation" active="PRS1809AmataKr" passive="LIT3951ChronSusenyos"/>
+                  <relation name="snap:DaughterOf" active="PRS1809AmataKr" passive="PRS4858Gudamo"/>
+               </listRelation>
          </listPerson>
       </body>
    </text>
 </TEI>
+
+
+               
