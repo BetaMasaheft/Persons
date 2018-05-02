@@ -44,6 +44,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="DR" when="2017-12-21">Added names and relations</change>
+         <change who="DR" when="2018-05-02">Added names and relation</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -52,11 +53,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1" sameAs="Q314700">
                <persName xml:id="n1" xml:lang="gez">ኢያቂም፡</persName>
                <persName xml:lang="gez" type="normalized" corresp="#n1">ʾIyāqim</persName>
+               <persName xml:id="n2" xml:lang="gez">ኢዮአቄም፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n2">ʾIyoʾaqem</persName>
                <persName type="alt">Joachim</persName>
             </person>
             <listRelation>
                <relation name="snap:FatherOf" active="PRS5687Joachim" passive="PRS6819Mary"/>
                <relation name="bm:husbandOf" active="PRS5687Joachim" passive="PRS1948Anne"/>
+               <relation name="ecrm:P129i_is_subject_of" active="PRS5687Joachim" passive="LIT2375Synaxa"/>
             </listRelation>
          </listPerson>
       </body>

@@ -43,21 +43,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="DR" when="2018-05-02">Added wikidata, names and relation</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  
-                  Shenute of Atripe
-               </persName>
+            <person sex="1" sameAs="Q1382081">
+               <persName xml:id="n1" xml:lang="en">Shenute of Atripe</persName>
+               <persName xml:id="n2" xml:lang="gez">ሰኑትዩ፡</persName>
+               <persName corresp="#n2" xml:lang="gez">Sanutyu</persName>
                <persName type="alt">Sinoda; Šenoute; Shenouda</persName>
                <persName type="alt">Sinodyos</persName>
                <persName type="alt">Sunutuyus; Šenoute</persName>
-               <occupation> St </occupation>
+               <occupation type="ecclesiastic">St</occupation>
             </person>
+            <listRelation>
+               <relation name="ecrm:P129i_is_subject_of" active="PRS8823Shenute" passive="LIT2375Synaxa"/>
+            </listRelation>
          </listPerson>
       </body>
    </text>

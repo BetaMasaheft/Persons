@@ -43,18 +43,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="DR" when="2018-05-02">Added wikidata, names and relation</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="2">
-               <persName>
-                  
-                  Mary of Egypt
-               </persName>
-               <occupation> St </occupation>
+            <person sex="2" sameAs="Q237583">
+               <persName xml:id="n1" xml:lang="en">Mary of Egypt</persName>
+               <persName xml:id="n2" xml:lang="gez">ማርያም፡ ግብጻዊት፡</persName>
+               <persName corresp="#n2" xml:lang="gez" type="normalized">Māryām gǝbṣāwit</persName>
             </person>
+            <listRelation>
+               <relation name="ecrm:P129i_is_subject_of" active="PRS6822Maryof" passive="LIT2375Synaxa"/>
+            </listRelation>
          </listPerson>
       </body>
    </text>
