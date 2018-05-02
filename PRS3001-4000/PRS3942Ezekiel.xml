@@ -43,18 +43,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="DR" when="2018-05-02">Added names, wikidata and relation</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  
-                  Ezekiel
-               </persName>
-               <occupation> bibl. prophet </occupation>
+            <person sex="1" sameAs="Q194064">
+               <persName xml:id="n1" xml:lang="en">ሕዝቅኤል፡</persName>
+               <persName xml:id="n2" xml:lang="gez">Ḥǝzqǝʾel</persName>
+               <persName corresp="#n1" xml:lang="gez" type="normalized">Ezekiel</persName>
             </person>
+            <listRelation>
+               <relation name="ecrm:P129i_is_subject_of" active="PRS3942Ezekiel" passive="LIT2375Synaxa"/>
+            </listRelation>
          </listPerson>
       </body>
    </text>
