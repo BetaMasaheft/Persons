@@ -40,19 +40,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-11-17">Created XML record from Ethio authority google spreadsheet</change>
+         <change who="DR" when="2018-05-03">Added wikidata and updated occupation</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  <forename/>
-                  <surname>Dionysius II</surname>
+            <person sex="1" sameAs="Q16628453">
+               <persName>Dionysius II
                </persName>
                <floruit>897-909</floruit>
                <!--From Time field, to be changed into DEATH, BIRTH, or whatever is actually relevant!-->
-               <occupation>patriarch of Antioch</occupation>
+               <occupation type="ecclesiastic">Patriarch of Antioch</occupation>
             </person>
          </listPerson>
       </body>
