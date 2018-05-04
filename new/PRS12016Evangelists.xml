@@ -38,20 +38,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <revisionDesc>
 
          <change who="ES" when="2018-04-20">created</change>
+         <change who="DR" when="2018-05-04">Corrected transliteration and added wikidata</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <personGrp>
-               
-               
-               
+            <personGrp sameAs="Q472773">
 
                <persName xml:id="n1" xml:lang="en" type="main">Evangelists</persName>
 
                <persName xml:id="Four" xml:lang="gez" >አርባዕቱ፡ እንስሳ፡</persName>
-               <persName corresp="#Four" xml:lang="gez" type="normalized">ʾArbaʿtu ʾƎnsǝsa</persName>
+               <persName corresp="#Four" xml:lang="gez" type="normalized">ʾArbāʿtu ʾƎnsǝsā</persName>
                <persName corresp="#Four"  xml:lang="en">Four (Heavenly) Animals</persName>
                <persName corresp="#Four"  xml:lang="en" >Four Beasts</persName>
                <persName corresp="#Four"  xml:lang="en" type="alt">Four Living Creatures</persName>
