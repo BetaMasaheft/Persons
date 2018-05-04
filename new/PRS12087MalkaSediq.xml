@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12084KeflaMaryam" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12087MalkaSediq" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Kǝfla Māryām</title>
+                <title>Malka Ṣedeq</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="SG"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -48,8 +48,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ክፍለ፡ ማርያም፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Kǝfla Māryām</persName>
+                    <persName xml:lang="gez" xml:id="n1">መልከ፡ ጼዴቅ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Malka Ṣedeq</persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
                     <birth/>
@@ -57,9 +57,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <floruit/>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS12084KeflaMaryam" passive="LIT3951ChronSusenyos"/>
-                    <relation name="snap:SonOf" active="PRS12084KeflaMaryam" passive="PRS12081Tegayani"/>
-                    <relation name="snap:BrotherOf" active="PRS12084KeflaMaryam" passive="PRS12083Matako"></relation>
+                    <relation name="lawd:hasAttestation" active="PRS12087MalkaSediq" passive="LIT3951ChronSusenyos"/>
+                    <relation name="saws:isRelatedTo" active="PRS12087MalkaSediq" passive="PRS8550sardaDe"/>
+                    
                 </listRelation>
             </listPerson>
         </body>
@@ -68,5 +68,4 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
 
 
-
-                 
+                    
