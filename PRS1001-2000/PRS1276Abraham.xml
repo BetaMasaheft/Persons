@@ -43,19 +43,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="DR" when="2018-05-03">Added wikidata and updated occupation</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  
-                  Abraham the Syrian
-               </persName>
-               <occupation> patriarch of Alexandria </occupation>
+            <person sex="1" sameAs="Q1292819">
+               <persName>Abraham the Syrian</persName>
+               <occupation type="ecclesiastic">Patriarch of Alexandria </occupation>
                <residence>
-                  <placeName>Alexandria</placeName>
+                  <placeName ref="LOC1338Alexan">Alexandria</placeName>
                </residence>
             </person>
          </listPerson>
