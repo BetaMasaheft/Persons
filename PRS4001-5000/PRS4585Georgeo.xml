@@ -48,6 +48,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-05-09">Complete record</change>
          <change who="SG" when="2017-05-22">addition to the content</change>      
          <change who="JG" when="2017-11-30">Inserted Wiki Data ID, update relations</change>      
+         <change who="DR" when="2018-05-05">Added relation, deleted double persName</change>      
       </revisionDesc>
    </teiHeader>
    <text>
@@ -59,8 +60,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <persName xml:lang="gez" corresp="#n2" type="normalized">Giyorgis</persName>
                <persName xml:lang="gez" xml:id="n3" type="alt">ማር፡ ጊዮርጊስ፡</persName>
                <persName xml:lang="gez" corresp="#n3" type="normalized">Mār Giyorgis</persName>
-                  <persName xml:lang="gez" xml:id="n4" type="alt">ማር፡ ጊዮርጊስ፡</persName>
-                  <persName xml:lang="gez" corresp="#n4" type="normalized">Mār Giyorgis</persName>
                   <nationality type="Israel/Palestine"/>
                   <faith type="Orthodox"/>
                   <occupation type="ecclesiastic">saint</occupation>
@@ -82,6 +81,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <relation name="ecrm:P129i_is_subject_of"
                          active="PRS4585Georgeo"
                          passive="LIT1287Dersan"/>
+                  <relation name="ecrm:P129i_is_subject_of" active="PRS4585Georgeo" passive="LIT2375Synaxa"/>
                </listRelation>
             
          </listPerson>

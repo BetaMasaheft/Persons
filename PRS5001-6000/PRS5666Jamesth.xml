@@ -43,18 +43,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="DR" when="2018-05-05">Added wikidata and name</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  
-                  James the Just
-               </persName>
-               <persName type="alt">James brother of Lord</persName>
-               <occupation> bibl. </occupation>
+            <person sex="1" sameAs="Q26925">
+               <persName xml:lang="gez" xml:id="n1">ያዕቆብ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Yāʿqob</persName>
+               <persName xml:lang="en" xml:id="n2" type="main">James the Just</persName>
+               <persName type="alt" xml:lang="en" xml:id="n3">James brother of Lord</persName>
             </person>
          </listPerson>
       </body>
