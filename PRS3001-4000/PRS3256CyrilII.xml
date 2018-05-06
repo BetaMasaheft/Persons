@@ -43,21 +43,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="DR" when="2018-05-06">Added wikidata</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  
-                  Cyril II
-               </persName>
+            <person sex="1" sameAs="Q3331311">
+               <persName>Cyril II</persName>
                <nationality type="Egypt">Egypt</nationality>
-                <occupation type="ecclesiastic">Patriarch</occupation>
-               <residence>
-                  <placeName>Alexandria</placeName>
-               </residence>
+                <occupation type="ecclesiastic">Patriarch of Alexandria</occupation>
             </person>
          </listPerson>
       </body>
