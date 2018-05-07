@@ -44,6 +44,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2017-05-15">Complete record</change>
+         <change who="DR" when="2018-05-07">Deleted relations referring to Athanasius</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -68,7 +69,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   Neither Arius's own writings nor his actual doctrine reached Ethiopia in any depth. The teachings of his followers do not seem to have become known there either. 
  However, Arius himself as infidel and events from his protracted conflict with religious fathers  are often mentioned in <ref type="work" corresp="LIT2316Senkes"/>, 
                   <ref type="work" corresp="LIT1949Mashaf"/>, <ref type="work" corresp="LIT1921Mashaf"/> and <ref type="work" corresp="LIT1994Mazgab"/> and refuted his heresy. </floruit>
-               <death when="0336">Both in <ref type="work" corresp="LIT2316Senkes"/> and <ref type="work" corresp="LIT1949Mashaf"/> is mentioned that his death was disgusting
+               <death when="0336">Both in <ref type="work" corresp="LIT2316Senkes"/> and <ref type="work" corresp="LIT1949Mashaf"/> it is mentioned that his death was disgusting
                   (his intestines are said to have come out of his belly). </death>
                   
                </person>
@@ -77,16 +78,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <relation name="rel:enemyOf" active="PRS2033AriusA" passive="PRS2209Athanasi"/>
                   <relation name="rel:enemyOf" active="PRS2033AriusA" passive="PRS7806PeterI"/>
                   <relation name="rel:enemyOf" active="PRS2033AriusA" passive="PRS1658Alexande"/>
-                  
-                  
-                  
-                  <relation name="saws:isAttributedAuthorOf"
-                         active="PRS2209Athanasi"
-                         passive="LIT1611Homili"/>
-                  <relation name="saws:isAttributedAuthorOf"
-                         active="PRS2209Athanasi"
-                         passive="LIT2042Nagarb"/>
-                  
                   
                </listRelation>
          </listPerson>
