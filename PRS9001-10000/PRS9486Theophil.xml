@@ -47,6 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-09-02">Complete record</change>
          <change who="DR" when="2018-01-30">Updated</change>
+         <change who="DR" when="2018-05-12">Added relation</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -96,7 +97,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="ecrm:P129i_is_subject_of"
                          active="PRS9486Theophil"
                          passive="LIT2631Zenahu"/>
-               
+               <relation name="ecrm:P129i_is_subject_of" active="PRS9486Theophil" passive="LIT2375Synaxa"/>
             </listRelation>
          </listPerson>
          <listBibl type="secondary">

@@ -43,18 +43,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="DR" when="2018-05-12">Added name, relation and wikidata</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  
-                  John Colobus (John the Short)
-               </persName>
-               <occupation> St </occupation>
+            <person sex="1" sameAs="Q4202472">
+               <persName xml:lang="en" xml:id="n1">John Colobus</persName>
+               <persName xml:lang="en" xml:id="n2">John the Short</persName>
+               <persName xml:id="n3" xml:lang="gez">ዮሐንስ፡ ሐጺር፡</persName>
+               <persName corresp="#n3" xml:lang="gez" type="normalized">Yoḥannǝs ḥaṣṣir</persName>
             </person>
+            <listRelation>
+               <relation name="ecrm:P129i_is_subject_of" active="PRS5722JohnCol" passive="LIT2375Synaxa"/>
+            </listRelation>
          </listPerson>
       </body>
    </text>

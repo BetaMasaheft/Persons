@@ -43,17 +43,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="DR" when="2018-05-12">Added name, relation and wikidata</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  
-                  Lazarus
-               </persName>
-               <occupation> bibl. </occupation>
+            <person sex="1" sameAs="Q539890">
+               <persName xml:lang="en" xml:id="n1">Lazarus</persName>
+               <persName xml:id="n2" xml:lang="gez">ዓልዓዛር፡</persName>
+               <persName corresp="#n2" xml:lang="gez" type="normalized">ʿĀlʿāzār</persName>
+               <listRelation>
+                  <relation name="ecrm:P129i_is_subject_of" active="PRS6208Lazarus" passive="LIT2375Synaxa"/>
+               </listRelation>
             </person>
          </listPerson>
       </body>

@@ -43,22 +43,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="DR" when="2018-05-12">Added name, relation and wikidata</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  
-                  Peter III of Alexandria
-               </persName>
+            <person sex="1" sameAs="Q733961">
+               <persName xml:lang="en" xml:id="n1">Peter III of Alexandria</persName>
+               <persName xml:id="n2" xml:lang="gez">ጴጥሮስ፡</persName>
+               <persName corresp="#n2" xml:lang="gez" type="normalized">Ṗeṭros</persName>
                <persName type="alt">Mongos</persName>
-                <occupation type="ecclesiastic">Patriarch</occupation>
-               <residence>
-                  <placeName>Alexandria</placeName>
-               </residence>
+               <occupation type="ecclesiastic">Patriarch of Alexandria</occupation>
             </person>
+            <listRelation>
+               <relation name="ecrm:P129i_is_subject_of" active="PRS7807PeterII" passive="LIT2375Synaxa"/>
+            </listRelation>
          </listPerson>
       </body>
    </text>
