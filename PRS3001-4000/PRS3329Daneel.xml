@@ -44,6 +44,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change when="2017-01-24" who="ES">updated record</change>
+         <change when="2018-05-16" who="DR">Added xml:lang</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -53,12 +54,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName>
                   <roleName type="title">haḍānī</roleName>
                </persName>
-               <persName xml:id="n1">ዳንኤል፡</persName>
-               <persName corresp="#n1" type="normalized">Dānǝʾel</persName>
-               <persName xml:id="n2">ደኒኤል፡</persName>
-               <persName corresp="#n2" type="normalized">Daniʾel</persName>
-               <persName xml:id="n3">ደነአል፡</persName>
-               <persName corresp="#n3" type="normalized">D-N-ʾ-L</persName>
+               <persName xml:id="n1" xml:lang="gez">ዳንኤል፡</persName>
+               <persName corresp="#n1" type="normalized" xml:lang="gez">Dānǝʾel</persName>
+               <persName xml:id="n2" xml:lang="gez">ደኒኤል፡</persName>
+               <persName corresp="#n2" type="normalized" xml:lang="gez">Daniʾel</persName>
+               <persName xml:id="n3" xml:lang="gez">ደነአል፡</persName>
+               <persName corresp="#n3" type="normalized" xml:lang="gez">D-N-ʾ-L</persName>
                <occupation type="ruler">king</occupation>
             </person>
          </listPerson>
