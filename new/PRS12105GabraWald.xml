@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12099GabraGiyorgisAKM" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12105GabraWald" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Gabra Giyorgis</title>
+                <title>Gabra Wald</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="ES"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -41,23 +41,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="ES" when="2018-05-14">Created entity</change>
+            <change who="ES" when="2018-05-22">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ገብረ፡ ጊዮርጊስ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra Giyorgis</persName>
-                    <faith type="EOTC"/>
+                    <persName xml:lang="gez" xml:id="n1">ገብረ፡ ወልድ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra Wald</persName>
+                    <persName><roleName type="title">mamhǝre</roleName></persName>
                     <affiliation ref="INS0103AKM"></affiliation>
+                    <faith type="EOTC"/>
                     <birth/>
                     <death/>
-                    <floruit notBefore="1900" notAfter="2000">20th cent.</floruit>
+                    <floruit notBefore="1900"></floruit>
                 </person>
                 <listRelation>
-                    <relation name="saws:hasOwned" active="PRS12099GabraGiyorgisAKM" passive="ESakm015"/>
+                    <relation name="saws:hasOwned" active="PRS12105GabraWald" passive="ESakm017"/>
                 </listRelation>
             </listPerson><!---->
         </body>
