@@ -46,13 +46,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="ES" when="2017-04-27">Created entity</change>
+            <change who="DR" when="2018-05-23">Added fidal from transcription</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ዘአዶናዊ፡</persName><!--fidal converted from the transcription, not taken from the text-->
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Zaʾadonāwi</persName>
                 </person>
                 <listRelation>

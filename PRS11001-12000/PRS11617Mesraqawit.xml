@@ -47,15 +47,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <revisionDesc>
             <change who="ES" when="2017-05-03">Created entity</change>
             <change who="DR" when="2017-10-09">Corrected transliteration and persName</change>
+            <change who="DR" when="2018-05-23">Added fidal from transcription</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="2">
-                    <persName xml:lang="gez" xml:id="n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ምሥራቃዊት፡</persName><!--fidal converted from the transcription, not taken from the text-->
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Mǝśrāqāwit</persName>
-                    <persName xml:lang="gez" xml:id="n2"/>
+                    <persName xml:lang="gez" xml:id="n2">ምሥራዊት፡</persName><!--fidal converted from the transcription, not taken from the text-->
                     <persName xml:lang="gez" type="normalized" corresp="#n2">Mǝśrāwit</persName>
                     <faith type="EOTC"/>
                     <occupation type="ruler">queen</occupation>

@@ -46,14 +46,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="ES" when="2017-04-27">Created entity</change>
+            <change who="DR" when="2018-05-23">Added fidal from transcription</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <personGrp>
-                    <persName xml:lang="gez" xml:id="n1"/>
-               <!--please add fidal-->
+                    <persName xml:lang="gez" xml:id="n1">ጸዋርያነ፡ ወርመት፡ ዓቢያን፡</persName><!--fidal converted from the transcription, not taken from the text-->
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Ṣawāryāna Warmat ʿAbiyān</persName>
                     <persName xml:lang="en" corresp="#n1">The Big Carries of the Spears, or the Carriers of the Big Spears</persName>
                     <occupation type="military">name of military unit</occupation>
