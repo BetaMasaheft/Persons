@@ -10,7 +10,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Yonaʾel</title>
+            <title>Yonāʾel</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -43,21 +46,51 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2018-05-24">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
+               <persName xml:lang="gez" xml:id="n1" type="birth">ዮናኤል፡</persName>
+            
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Yonāʾel</persName>
                <persName>
-                  
-                  Yonaʾel
+                  <roleName type="title">ʾabetaḫun, daǧǧāzmāč</roleName>
                </persName>
-               <occupation> abet.</occupation>
-               <occupation> däǧǧ. </occupation>
-               <death>d. 1604</death>
-            </person>
+               
+         
+               <occupation type="military">leader</occupation>
+          
+                  Yonāʾel seems to have started his military career within the ranks of <persName ref="PRS8550sardaDe">Śarḍa Dǝngǝl</persName>' s army. 
+                  During the dynastic struggles at the turn of the seventeenth century, he played an important role being one of the most powerful lords of the kingdom. 
+                  He was an ally of <persName ref="PRS2226Atnatewo"><roleName type="title">rās</roleName>ʾAtnātewos</persName> 
+                  against
+                  <persName ref="PRS10513Zadenge"> <roleName type="title">ʾaṣe</roleName> Zadǝngǝl</persName> and later against 
+                  <persName ref="PRS9038Susenyos"></persName></floruit>
+                  <persName ref="PRS10513Zadenge"> <roleName type="title">ʾaṣe</roleName> Zadǝngǝl</persName>perished. </death>
+            </person>  
+            
+            <listRelation>
+               <relation name="snap:SonOf" active="PRS10436Yonael" passive="PRS6996MenYeca"/>
+               <relation name="bm:husbandOf" active="PRS10436Yonael" passive="PRS8270SabanaG"></relation>
+               <relation name="snap:AllianceWith" active="PRS10436Yonael" passive="PRS2226Atnatewo"></relation>
+               <relation name="snap:FatherOf" active="PRS10436Yonael" passive="PRS2246Awnabyos"></relation>
+               <relation name="lawd:hasAttestation" active="PRS10436Yonael" passive="LIT3951ChronSusenyos"/>
+                </listRelation>
          </listPerson>
+         
+         <listBibl type="secondary">
+           
+            <bibl>
+               <ptr target="bm:Martinez2014Yonael2"/>
+            </bibl>
+            
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+               
