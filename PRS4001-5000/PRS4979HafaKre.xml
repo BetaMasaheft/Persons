@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Hafä Krǝstos</title>
+            <title>Hafa Krǝstos</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -43,19 +43,37 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2018-06-06">addition</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+          
+               <persName xml:lang="gez" xml:id="n1" type="birth">ሀፈ፡ ክርስቶስ፡</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized"> Hafa Krǝstos</persName>
+                  <persName><roleName type="title">daǧǧāmāč</roleName></persName>
                   
-                  Hafä Krǝstos
-               </persName>
-               <occupation> däǧǧ. </occupation>
-            </person>
-         </listPerson>
+                  
+                  
+                  
+                  
+         
+                  <nationality type="Ethiopia"/>
+                  <birth/>
+                  <death/>
+                  <floruit/>
+               </person>
+               <listRelation>
+                  <relation name="snap:BrotherOf" active="PRS4979HafaKre" passive="PRS9038Susenyos"/>
+                  <relation name="snap:BrotherOf" active="PRS4979HafaKre"  passive="PRS10233Yamana"/>
+                  
+                  <relation name="lawd:hasAttestation" active="PRS4979HafaKre" passive="LIT3951ChronSusenyos"/>
+                  
+               </listRelation>
+         </listPerson><!---->
       </body>
    </text>
 </TEI>
+               
