@@ -43,6 +43,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change when="2018-06-20" who="ES">added relation</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -59,6 +60,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <occupation> bishop </occupation>
             </person>
          </listPerson>
+         
+         <listRelation>
+            <relation name="saws:isAttributedAuthorOf" active="PRS3912Eusebius" passive="LIT1349EpistlEusebius"></relation>
+         </listRelation>
       </body>
    </text>
 </TEI>
