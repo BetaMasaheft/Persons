@@ -53,12 +53,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <faith type="EOTC"/>
                     <occupation type="ecclesiastic"/>
                     <nationality type="Ethiopia"/>
+                    <residence ref="LOC7041Sayko">Monk in the monastery of Sayko</residence>
                     <birth/>
                     <death/>
-                    <floruit>1600-1700</floruit>
+                    <floruit notBefore="1600" notAfter="1700">1600-1700</floruit>
                 </person>
                 <listRelation>
-                    <relation name="dcterms:creator" active="PRS12142Isayeyyas" passive=""/>
+                    <relation name="dcterms:creator" active="PRS12142Isayeyyas" passive="LIT4985AkalaKrestos"/>
                 </listRelation>
             </listPerson><!--Abbā Isāyəyyās of the convent of Sayko -->
         </body>
