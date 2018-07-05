@@ -51,10 +51,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <persName xml:lang="gez" xml:id="n1">ገብረ፡ ጊዮርጊስ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra Giyorgis</persName>
                     <faith type="EOTC"/>
+<<<<<<< HEAD
                     
                     <birth/>
                     <death/>
                     <floruit notBefore="1900" notAfter="2000">20th cent., active in <placeName ref="INS0103AKM"/></floruit>
+=======
+                    <affiliation ref="INS0103AKM"></affiliation>
+                    <floruit notBefore="1900" notAfter="2000">20th cent.</floruit>
+>>>>>>> origin/master
                 </person>
                 <listRelation>
                     <relation name="saws:hasOwned" active="PRS12099GabraGiyorgisAKM" passive="ESakm015"/>
