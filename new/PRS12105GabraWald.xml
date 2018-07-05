@@ -51,11 +51,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <persName xml:lang="gez" xml:id="n1">ገብረ፡ ወልድ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra Wald</persName>
                     <persName><roleName type="title">mamhǝre</roleName></persName>
-                    <affiliation ref="INS0103AKM"></affiliation>
+                    
                     <faith type="EOTC"/>
                     <birth/>
                     <death/>
-                    <floruit notBefore="1900"></floruit>
+                    <floruit notBefore="1900">He bought a manuscript <ref type="mss" corresp="ESakm017"></ref> from <placeName ref="INS0103AKM"></placeName> some time after it was produced in <date notBefore="1750" notAfter="1850">the second half of the 18th cent. to the first half of the 19th cent.</date></floruit>
                 </person>
                 <listRelation>
                     <relation name="saws:hasOwned" active="PRS12105GabraWald" passive="ESakm017"/>
