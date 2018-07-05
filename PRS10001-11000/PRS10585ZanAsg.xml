@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Žan Asgǝd</title>
+            <title>Žān ʾAsgad</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -43,19 +43,53 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change when="2018-07-05" who="ES">filled the record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
+               <persName xml:lang="gez" xml:id="n1" type="birth">ዣን፡ አስገድ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Žān ʾAsgad</persName>
                <persName>
-                  
-                  Žan Asgǝd
+                  <roleName type="title">ʾaṣe</roleName>
                </persName>
-               <occupation> ruler </occupation>
+               
+               <occupation type="ruler">Emperor</occupation>
+               
+               <floruit notBefore="1294" notAfter="1299">He was the fourth of the sons of  <persName ref="PRS10215Yagbas">Yāgbā Ṣǝyon</persName> to rule during 1294-1299. 
+               </floruit>
+               
             </person>
+            <listRelation>
+               <relation name="bm:isSuccessorOf" active="PRS10585ZanAsg" passive="PRS8029QedmaAs"></relation>
+               <relation name="bm:isPredecessorOf" active="PRS10585ZanAsg" passive="PRS8263SabaAs"></relation>
+               <relation name="snap:SonOf" active="PRS10585ZanAsg" passive="PRS10215Yagbas"/>
+               <relation name="snap:BrotherOf"
+                  active="PRS10585ZanAsg"
+                  passive="PRS8263SabaAs"/>
+               <relation name="snap:BrotherOf"
+                  active="PRS10585ZanAsg"
+                  passive="PRS8029QedmaAs"/>
+               <relation name="snap:BrotherOf"
+                  active="PRS10585ZanAsg"
+                  passive="PRS5326hezbaAs"/>
+               <relation name="snap:BrotherOf"
+                  active="PRS10585ZanAsg"
+                  passive="PRS8757senfaAr"/>
+            </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Basset1882Chronicle"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Nosnitsin2014YagbaSeyon"/>
+            </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>

@@ -43,6 +43,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2016-07-19">Complete record</change>
          <change who="SG" when="2017-02-17">Complete record</change>
          <change who="SG" when="2017-10-21">Corrections</change>
+         <change when="2018-07-05" who="ES">relation added</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -66,6 +67,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </person>
 
             <listRelation>
+               <relation name="bm:isSuccessorOf" active="PRS10215Yagbas" passive="PRS10303Yekunno"></relation>
+               <relation name="bm:isPredecessorOf" active="PRS10215Yagbas" passive="PRS8757senfaAr"></relation>
                <relation name="snap:SonOf" active="PRS10215Yagbas" passive="PRS10303Yekunno"/>
                <relation name="snap:BrotherOf" active="PRS10215Yagbas" passive="PRS10111WedemR"/>
             </listRelation>
