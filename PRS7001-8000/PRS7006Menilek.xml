@@ -43,21 +43,67 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2018-06-28">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
+               <persName xml:lang="gez" xml:id="n1" type="birth">ምኒልክ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Mǝnilǝk </persName>
+               <persName xml:lang="gez" xml:id="n2" type="baptisal">ሣህለ፡ ማርያም፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Śahla Māryām</persName>
+               
                <persName>
-                  
-                  Mǝnilǝk <addName>II</addName>
+                  <roleName type="title">ʾaṣe</roleName>
                </persName>
-               <persName type="alt">Śahlä Maryam</persName>
-               <persName type="alt">Mǝnilǝk of Šäwa</persName>
-               <occupation type="ruler"> aṣe </occupation>
+               
+               <faith type="EOTC"/>
+               
+               
+               <occupation type="ruler">Emperor</occupation>
+               
+               <birth when="1844">He was born at <placeName ref="LOC1465Ankoba"></placeName> in <date>1844</date>. </birth>
+               <floruit notBefore="1860" notAfter="1913">Mǝnilǝk is regarded as the founder of modern Ethioian state. 
+                  After the death of his father king <persName ref="PRS5205haylaMa"/>,   
+                  in the course of the newly proclaimed king <persName ref="PRS9430Tewodros"></persName>, vin <date>1855</date>, Mǝnilǝk then aged 11, 
+                  was taken into captivity into imperial court at <placeName ref="LOC4547Maqdal"/>. Here he was treated with much respect, and married
+                  to <persName ref="PRS9430Tewodros"/>'s daughter <persName ref="PRS1771AltasTe"/>. 
+                 
+               </floruit>
+               <death when="1913" evidence="internal"/>
+               
             </person>
+            
+            <listRelation>
+               <relation name="snap:GrandsonOf" active="PRS7006Menilek" passive="PRS8346sahlase">
+                  
+               </relation>
+               <relation name="snap:SonOf" active="PRS7006Menilek" passive="PRS5205haylaMa">
+                  
+               </relation>
+           </listRelation>
          </listPerson>
+         
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Pereira1892Susenyos"/>
+            </bibl>
+               </listBibl>
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Clapham2007MenilǝkII"/>
+            </bibl>  
+            <bibl> 
+               <ptr target="bm:Marcus1975MenelikII"/>
+            </bibl>  
+            
+                     </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+               
