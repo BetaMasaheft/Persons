@@ -43,6 +43,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             issues.</change>
          <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
          <change who="SG" when="2016-11-07">Complete record</change>
+         <change who="DR" when="2018-08-07">Corrected ID in relations</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -62,24 +63,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <faith type="EOTC"/>
                <occupation type="ecclesiastic">saint</occupation>
                
-               <floruit notBefore="1300" notAfter="1350">He was a medieval saint of Ethiopia
+               <floruit notBefore="1300" notAfter="1350">He was a medieval saint of the Ethiopian
                   Orthodox Tawāḥǝdo Church who is considered to be the founder of the monastery of
                   <placeName ref="LOC2687DimaGi">Dimā Giyorgis</placeName>. He was a contemporary
                   of  
                   <persName ref="PRS3429DawitII"><roleName type="title">ʾaṣe</roleName> Dāwit
                      II</persName>. He was born from the pious <persName ref="PRS6605Malkase">Malka
                         Ṣǝdǝq</persName> and <persName ref="PRS11294DelbaIy">Dǝlba ʾIyasus (Dǝl
-                           Baiyasus)</persName>
+                           Baʾiyasus)</persName>
                </floruit>
             </person>
             <listRelation>
                <relation name="snap:AllianceWith"
-                         active="PRS9125Takasta"
+                  active="PRS9126Takasta"
                          passive="PRS3429DawitII"/>
-               <relation name="snap:SonOf" active="PRS9125Takasta" passive="PRS11294DelbaIy"/>
-               <relation name="snap:SonOf" active="PRS9125Takasta" passive="PRS6605Malkase"/>
+               <relation name="snap:SonOf" active="PRS9126Takasta" passive="PRS11294DelbaIy"/>
+               <relation name="snap:SonOf" active="PRS9126Takasta" passive="PRS6605Malkase"/>
                <relation name="ecrm:P129i_is_subject_of"
-                         active="PRS9125Takasta"
+                  active="PRS9126Takasta"
                          passive="LIT4091GadlaTakasta"/>
             </listRelation>
          </listPerson>
