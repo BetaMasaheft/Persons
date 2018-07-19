@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
@@ -52,8 +52,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               
+            <person sameAs="Q55653067" sex="1">
+
                <persName xml:lang="gez" xml:id="n1" type="monastic">አበከረዙን፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAbakarazun</persName>
                <persName xml:lang="gez" xml:id="n2" type="monastic">አበክረዙን፡</persName>
@@ -72,16 +72,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <residence>
                   <placeName ref="LOC3653GundaG">Gunda Gunde</placeName>
                </residence>
-               <floruit notBefore="1410" notAfter="1476">He was  a saint  and a follower of ʾabbā <persName ref="PRS3894estifano">ʾƎsṭifānos</persName> and he led the <persName ref="PRS11211Stephanites"/> 
-                  after the death of <persName ref="PRS3894estifano">ʾƎsṭifānos</persName>. 
-                  He was succeeded by ʾabbā <persName ref="PRS4322GabraMa">Gabra Maśiḥ</persName> 
+               <floruit notBefore="1410" notAfter="1476">He was  a saint  and a follower of ʾabbā <persName ref="PRS3894estifano">ʾƎsṭifānos</persName> and he led the <persName ref="PRS11211Stephanites"/>
+                  after the death of <persName ref="PRS3894estifano">ʾƎsṭifānos</persName>.
+                  He was succeeded by ʾabbā <persName ref="PRS4322GabraMa">Gabra Maśiḥ</persName>
                   as the head of the monastery of <placeName ref="LOC3653GundaG">Gunda Gunde</placeName> in <date>1476</date>.
-                     
+
                   </floruit>
                   <death when="1476"/>
-               </person>  
+               </person>
                <listRelation>
-                  
+
                   <relation name="snap:AllianceWith"
                          active="PRS1008Abakaraz"
                          passive="PRS3946ezra"/>
@@ -95,7 +95,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <relation name="ecrm:P129i_is_subject_of"
                          active="PRS1008Abakaraz"
                          passive="LIT1439Gadlae"/>
-                  
+
                </listRelation>
          </listPerson>
          <listBibl type="editions">
@@ -109,16 +109,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <ptr target="bm:Getatchew2006EstifanosT"/>
             </bibl>
          </listBibl>
-         
-         
+
+
          <listBibl type="secondary">
-            <bibl> 
+            <bibl>
                <ptr target="bm:Beylot2003Abakarazun"/>
             </bibl>
-            <bibl> 
+            <bibl>
                <ptr target="bm:Kaplan1984Monastic"/>
                <citedRange unit="page">42, 48, 52-3, 73-4, 77-8, 133 </citedRange>
-               
+
             </bibl>
          </listBibl>
       </body>
