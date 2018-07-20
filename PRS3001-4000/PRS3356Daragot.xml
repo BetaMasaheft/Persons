@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Darägot</title>
+            <title>Daragot</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -43,19 +43,56 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2018-07-20">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
+               <persName xml:lang="gez" xml:id="n1" type="birth">ደረጎት፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">  Daragot</persName>
+               
                <persName>
-                  
-                  Darägot
+                  <roleName type="title">ʾazmāč</roleName>
                </persName>
-               <occupation> azmač </occupation>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="political">ruler</occupation>
+               
+               <floruit  notBefore="1576" notAfter="1597">He was the ruler of <placeName ref="LOC6569Tegray"/> appointed by 
+                  <persName ref="PRS8550sardaDe"/>. He was also one of the most war generals of <persName ref="PRS8550sardaDe"/> 
+                  who led troops in alliance with <persName ref="PRS10436Yonael"/> against the <persName ref="ETH1274Betaes"/> 
+                  in <date>1579</date>. </floruit>
+               
+               
             </person>
+            <listRelation>
+               <relation name="saws:isRelatedTo" active="PRS1899AmsalaK" passive="PRS9038Susenyos"/>    
+            </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Pereira1892Susenyos"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="translation">
+            <bibl>
+               <ptr target="bm:Pereira1900Susenyos"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Alemu2013Susenyos"/>
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Boavida2011PaezII"/>
+               <citedRange unit="page">206-259</citedRange>
+            </bibl>
+            
+            
+         </listBibl>
       </body>
-   </text>
+   </text>   
 </TEI>
+
+
+               
