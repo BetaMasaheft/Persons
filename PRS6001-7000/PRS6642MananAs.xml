@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mänän Asfaw</title>
+            <title>Manan ʾAsfāw</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -43,19 +43,56 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2018-07-31">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="2">
+               <persName xml:lang="gez" xml:id="n1" type="birth">መነን፡ አስፋው፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Manan ʾAsfāw</persName>
+               <persName xml:lang="gez" xml:id="n2" type="baptismal">ወለተ፡ ጊዮርጊስ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Walatta Giyorgis</persName>
+               
                <persName>
-                  
-                  Mänän Asfaw
+                  <roleName type="title">ʾǝtege</roleName>
                </persName>
-               <occupation> ǝtege </occupation>
+               
+               
+               <occupation type="political">Queen</occupation>
+           <birth when="1889"/>
+               
+               
+               <floruit notBefore="1911" notAfter="1962"> She was the wife of <persName ref="PRS5226haylase"/>, 
+                  married to him in <date>1911</date>. She had six children with him, 
+                  of whom only  three survived. The marriage lasted over a century and there was much sympathy between them. She was crowned on 
+                  the occassion of her husband's coronation cermony in <date>1930</date>. Manan shared her husband's exile though having had 
+                  a traditional education and not being acquainted with foreign languages she passed her 
+                  public role in support of her husband to her Swis educated daughter, <persName ref="PRS8337Sahayha"></persName>.
+                  
+               </floruit>
+               <death when="1962"/>
+               
             </person>
+            
+            <listRelation>
+               <relation name="bm:wifeOf" active="PRS6642MananAs" passive="PRS5226haylase"/>
+               <relation name="snap:MotherOf" active="PRS6642MananAs" passive="PRS2112AsfaWas"/>
+               <relation name="snap:MotherOf" active="PRS6642MananAs" passive="PRS8337Sahayha"/>
+            </listRelation>
          </listPerson>
+         
+         
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Pankhurst2007Manan"/>
+            </bibl>  
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+               
