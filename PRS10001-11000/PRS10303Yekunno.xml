@@ -48,6 +48,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2016-09-05">correction to the transcription</change>
          <change who="SG" when="2017-02-17">correction to space </change>
          <change who="SG" when="2017-05-03">correction</change>
+         <change when="2018-08-02" who="ES">relation added</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -92,7 +93,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <relation name="snap:AllianceWith"
                          active="PRS10303Yekunno"
                          passive="PRS5631IyasusM"/>
-                 
+                  <relation name="bm:isPredecessorOf" active="PRS10303Yekunno" passive="PRS10215Yagbas"></relation>
+                  <relation name="bm:isSuccessorOf" active="PRS10303Yekunno" passive="PRS10363Yetbara"></relation>
             </listRelation>
          </listPerson>
          
