@@ -47,6 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-06-03">updated record</change>
+         <change who="DR" when="2018-08-08">Added name variant and relation</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -59,6 +60,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <persName xml:lang="gez" xml:id="n2" type="regnal">ድንግል፡ ሞገሳ፡</persName>
                   <persName xml:lang="gez" corresp="#n2" type="normalized">Dǝngǝl Mogasā</persName>
                <persName xml:lang="pt" xml:id="n3" type="birth">ʾAmelmal</persName>
+               <persName xml:lang="gez" xml:id="n4" type="alt">ሐመልማለ፡ ወርቅ፡</persName>
+               <persName xml:lang="gez" corresp="#n4" type="normalized">Ḥamalmāla Warq</persName>
                   <persName>
                   <roleName type="title">ite</roleName>
                </persName>
@@ -66,8 +69,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <occupation type="political">queen</occupation>
                
          
-               <floruit when="1605" evidence="internal">She was active political figure and she mediated  between King
-                  <persName ref="PRS9038Susenyos">Susǝnyos</persName> and King<persName ref="PRS10198Yaeqob">Yāʿqob</persName>in <date>1605</date>.
+               <floruit when="1605" evidence="internal">She was an active political figure and she mediated  between King
+                  <persName ref="PRS9038Susenyos">Susǝnyos</persName> and King <persName ref="PRS10198Yaeqob">Yāʿqob</persName>in <date>1605</date>.
                </floruit>
                <death when="1616"/> 
                
@@ -83,6 +86,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <relation name="snap:MotherOf"
                          active="PRS5045hamalmal"
                          passive="PRS10233Yamana"/>
+               <relation name="snap:DaughterOf" active="PRS5045hamalmal" passive="PRS12244Kola"/>
             </listRelation>
          </listPerson>
          
