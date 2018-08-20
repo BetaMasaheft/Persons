@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Iyasu (V)</title>
+            <title>ʾIyāsu (V)</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -43,19 +43,67 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2018-08-20">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
+            <person sex="1" sameAs="
+               ">
+               
+               
+               <persName xml:lang="gez" xml:id="n1" type="baptismal">ኢያሱ፡</persName>
+               
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾIyāsu</persName>
+               
+               <persName xml:lang="gez" xml:id="n2" type="horse">አባ፡ ጤና፡</persName>
+               
+               <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAbbā Ṭenā</persName>
+               
+               
+               
+               
                <persName>
-                  
-                  Iyasu (V)
+                  <roleName type="title">lǝǧ</roleName>
                </persName>
-               <occupation> lǝǧ </occupation>
+               
+               <occupation type="ruler">prince</occupation>
+               <birth when="1897">He was born at <placeName ref="LOC2575Dase"/> in <date>1897</date>.</birth>
+              
+               <floruit notBefore="1911" notAfter="1916">He was the uncrowned ruler of <placeName ref="LOC3010Ethiop"/>, from <date>1911</date>to <date>1916</date>.
+                  His reign has been one of the most enigmatic and controversial in Ethiopian history. Maligned as a play boy and apostate by 
+                  <persName ref="PRS5226haylase"/>, he had effectively been written out of history books from much of the 20th century. 
+                  But after the deposition of <persName ref="PRS5226haylase"/> in <date>1974</date>, have there been some attempts to rehabilitate him in the historiogarphy. 
+                  Though his true character and historical worth has remained elusive to this day, there were some reforms attributed to him include the abolition of the 
+                  qʷǝññā system whereby plaintiff was chained to defendants and creditor to debtor, pending justice, mitigation of the abuses 
+                  of the traditional theft defection system known as lebā šāy, alleviation of the inequties, attending the collection of tithe (Aśr
+                  āt and institution of the city guards known as ṭǝrǝmbuli. In addition, he introduced a system of
+                  auditing government accounts to check the embezzelment of government funds that had begun to assume serious dimensions.
+                  His reign also marked the first attempt to adress the issue of the country's religious and ethnic pluralism. </floruit>
+               <death when="1935" ></death>
             </person>
+            <listRelation>
+               <relation name="snap:SonOf"
+                  active="PRS5620IyasuV"
+                  passive="PRS7079Mikael"/>
+               <relation name="snap:SonOf"
+                  active="PRS5620IyasuV"
+                  passive="PRS8581sawaragg"/>
+               <relation name="rel:enemyOf"
+                  active="PRS5620IyasuV"
+                  passive="PRS5226haylase"/>
+               
+                           </listRelation>
+            
          </listPerson>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Bahru2007Iyasu"/>
+            </bibl>  
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+            
