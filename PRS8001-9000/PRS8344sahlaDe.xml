@@ -43,20 +43,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="DR" when="2018-08-22">updated name and occupation, added bibliography and wikidata</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
+            <person sex="1" sameAs="Q888067">
+               <persName xml:lang="gez" xml:id="n1">ሣህለ፡ ድንግል፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Śāhla Dǝngǝl</persName>
+               <persName type="alt" xml:lang="gez" xml:id="n2">ሣህሉ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Śāhlu</persName>
                <persName>
-                  
-                  Śahlä Dǝngǝl
+                  <roleName type="title">ʾaṣe</roleName>
                </persName>
-               <persName type="alt">Śahlu</persName>
-               <occupation> nǝguś </occupation>
+               <occupation type="ruler">king</occupation>
+               <floruit from="1832" to="1855"/>
             </person>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl><ptr target="bm:Crummey2010SahlaDengel"/></bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
