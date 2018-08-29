@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:id="t1">Tasfā Giyorgis</title>
+            <title>Tasfā Giyorgis</title>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
@@ -40,21 +40,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-11-17">Created XML record from Ethio authority google spreadsheet</change>
+         <change who="DR" when="2018-08-29">Updated person and relations</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  <forename/>
-                  <surname>Tasfā Giyorgis</surname>
-               </persName>
+               <persName xml:lang="gez" xml:id="n1">ተስፋ፡ ጊዮርጊስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Tasfā Giyorgis</persName>
+               <persName><roleName type="title">ʾǝč̣č̣age</roleName></persName>
+               <occupation type="ecclesiastic">Abbot of <placeName ref="INS0341DL"/></occupation>
             </person>
             <listRelation>
                <relation name="lawd:hasAttestation"
                          active="PRS11205TasfaG"
-                         passive="BNFet112"><!--Please fix the relation of this item with BNFet112--></relation>
+                         passive="BNFet112"/>
+                  <relation name="lawd:hasAttestation"
+                     active="PRS11205TasfaG"
+                     passive="BLorient635"/>
+               <relation name="syriaca:has-relation-to-place" active="PRS11205TasfaG" passive="INS0341DL"/>
             </listRelation>
          </listPerson>
       </body>
