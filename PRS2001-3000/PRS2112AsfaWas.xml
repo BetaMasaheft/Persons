@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Asfa Wäsän Ḫaylä Śǝllase</title>
+            <title>ʾAsfā Wasan Ḫayla Śǝllāse</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -43,19 +43,62 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2018-09-04">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
+               <persName xml:lang="gez" xml:id="n1" type="birth">አስፋ፡ ወሰን፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAsfā Wasan Ḫayla Śǝllāse</persName>
                <persName>
-                  
-                  Asfa Wäsän Ḫaylä Śǝllase
+                  <roleName type="title">ʾalgā warāš</roleName>
                </persName>
-               <occupation> alga wäraš </occupation>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="political">prince</occupation>
+               <birth when="1916">He was born in <placeName ref="LOC3786Harar"/> in <date>1916</date>.</birth>
+               
+               <floruit notBefore="1930" notAfter="1974">He was the oldest son of <persName ref="PRS5226haylase"/> and  
+                  <roleName type="title">ʾǝtege</roleName> <persName ref="PRS6642MananAs"/>. On <date> 02-11-1930</date>, he was crowned Heir to the Throne with
+                  the title of <roleName type="title">marǝd ʾazmāč</roleName>. Since then till <date>1974</date>, he was 
+                  a governor of <placeName ref="LOC6185Wallo"/> province. In <date>1932</date>, ʾAsfā Wasan  
+                  married <roleName type="title">wayzaro</roleName><persName ref="PRS9828Walatta"/> of <placeName ref="LOC6569Tegray"/>
+                  by whom he had a daughter and whom he divorced after twelve years. In <date>1945</date>, he married again, this time 
+                  <roleName type="title">wayzaro</roleName><persName ref="PRS6444Madfariy"/> of 
+                  <placeName ref="LOC5597Sawa"/> and <placeName ref="LOC2488Damot"/>, by whom he had three daughters and a son, 
+                  <persName ref="PRS10627ZaraY"/>. During the Italian occupation in the years <date>1936-41</date>,
+                  ʾAsfā Wasan  accompanied his father to exile in <placeName ref="Q23666"/>, where he studied political science at the university of Liverpool. 
+                  After returning to <placeName ref="LOC3010Ethiop"/> via the <placeName  ref="LOC0157IHA"/> he 
+                  took part in the fighting for <placeName ref="LOC3577Gondar"/>. 
+                  During the abortive Coup d'état of <date>1960</date>, he was nominated as a constitutional monarch. ʾAsfā Wasan played active role in the event,
+                  though the degree of his personal involvement is still not known. He read the proclamation issued by the rebels and took an important part
+                  in negotiations between supporters of the Emperor and the rebels suring the Coup. The Coup did not materially change ʾAsfā Wasan's 
+                  relations with his father, as thez had been wellknown as being far from good before, as well as their different opinions concerning state matters. </floruit>
+              
+               <death when="1997">He died in <placeName ref="Q61"/> in <date>1997</date>.</death>
+               
             </person>
+            <listRelation>
+               <relation name="snap:SonOf" active="PRS2112AsfaWas" passive="PRS5226haylase"/>
+               <relation name="snap:SonOf" active="PRS2112AsfaWas" passive="PRS6642MananAs"/>
+               <relation name="snap:BrotherOf" active="PRS2112AsfaWas" passive="PRS6563Makwanne"/>
+               <relation name="snap:BrotherOf" active="PRS2112AsfaWas" passive="PRS9234Tananna"/>
+            </listRelation>
+            
          </listPerson>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Rubinkowska2003AsfaWasan"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Bahru1991Modernhis"/>
+            </bibl>
+            
+         </listBibl>
       </body>
-   </text>
+   </text>   
 </TEI>
+
+               
