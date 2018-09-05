@@ -44,6 +44,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2018-07-31">Complete record</change>
+         <change who="SG" when="2018-09-05">addition to bibliography</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -88,7 +89,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listBibl type="secondary">
             <bibl> 
                <ptr target="bm:Pankhurst2007Manan"/>
-            </bibl>  
+            </bibl> 
+            <bibl> 
+               <ptr target=" bm:Yared1957Manan"/>
+            </bibl> 
+            
          </listBibl>
          
       </body>
