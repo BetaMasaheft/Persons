@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
@@ -49,19 +49,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-             
+            <person sameAs="Q328495" sex="1">
+
                      <persName xml:lang="gez" xml:id="n1" type="birth">ውድም፡ ረዐድ፡</persName>
                      <persName xml:lang="gez" corresp="#n1" type="normalized">Wǝdǝm Raʿad</persName>
                      <persName>
                   <roleName type="title">ʾaṣe</roleName>
                </persName>
-          
+
                 <occupation type="ruler">Emperor</occupation>
-                
-               <floruit notBefore="1299" notAfter="1314">He was enthroned in <date>1299</date> following 
-                  the five years (1294-1299) successive rule of the five sons of his brother 
-                  King <persName ref="PRS10215Yagbas">Yāgbā Ṣǝyon</persName>. 
+
+               <floruit notBefore="1299" notAfter="1314">He was enthroned in <date>1299</date> following
+                  the five years (1294-1299) successive rule of the five sons of his brother
+                  King <persName ref="PRS10215Yagbas">Yāgbā Ṣǝyon</persName>.
                </floruit>
                      <death when="1314"/>
                      </person>
@@ -83,9 +83,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </bibl>
            </listBibl>
          <listBibl type="secondary">
-            <bibl> 
+            <bibl>
                <ptr target="bm:Derat2010WedemRaad"/>
-            </bibl>  
+            </bibl>
          </listBibl>
          </body>
    </text>

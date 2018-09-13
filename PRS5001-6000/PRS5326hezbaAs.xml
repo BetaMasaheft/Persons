@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
@@ -49,11 +49,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
+<<<<<<< HEAD
+            <person sameAs="Q3135105" sex="1">
+               <persName>
+
+                  Ḥǝzbä Asgä-d
+=======
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ሕይበ፡ አስገድ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Ḥǝzba ʾAsgad</persName>
                <persName>
                   <roleName type="title">ʾaṣe</roleName>
+>>>>>>> e346fac4b0e7c22b3c9a10888b1f3c4918d42594
                </persName>
                
                <occupation type="ruler">Emperor</occupation>

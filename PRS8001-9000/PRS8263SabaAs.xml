@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
@@ -49,18 +49,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
+            <person sameAs="Q3460448" sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ሰብዓ፡ አስገድ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Sabʾā ʾAsgad</persName>
                <persName>
                   <roleName type="title">ʾaṣe</roleName>
                </persName>
-               
+
                <occupation type="ruler">Emperor</occupation>
-               
-               <floruit notBefore="1294" notAfter="1299">He was the last of the sons of  <persName ref="PRS10215Yagbas">Yāgbā Ṣǝyon</persName> to rule during 1294-1299. 
+
+               <floruit notBefore="1294" notAfter="1299">He was the last of the sons of  <persName ref="PRS10215Yagbas">Yāgbā Ṣǝyon</persName> to rule during 1294-1299.
                </floruit>
-               
+
             </person>
             <listRelation>
                <relation name="bm:isSuccessorOf" active="PRS8263SabaAs" passive="PRS10585ZanAsg"></relation>
@@ -86,9 +86,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </bibl>
          </listBibl>
          <listBibl type="secondary">
-            <bibl> 
+            <bibl>
                <ptr target="bm:Nosnitsin2014YagbaSeyon"/>
-            </bibl>  
+            </bibl>
          </listBibl>
       </body>
    </text>

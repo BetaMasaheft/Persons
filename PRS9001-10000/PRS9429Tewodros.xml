@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
@@ -51,27 +51,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               
-                  
-                  
+            <person sameAs="Q888016" sex="1">
+
+
+
                   <persName xml:lang="gez" xml:id="n1" type="birth">ቴዎድሮስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Tewodros I</persName>
-           
+
                   <persName>
                   <roleName type="title">ʾaṣe</roleName>
                </persName>
-                  
+
                   <occupation type="ruler">Emperor</occupation>
-                  
-                  
+
+
                <floruit notBefore="1413" notAfter="1414">He was one of the
-                  sons of  
+                  sons of
                   <persName ref="PRS3429DawitII"><roleName type="title">ʾaṣe</roleName> Dāwit II</persName> and
-               
-                  <persName ref="PRS8795seyonMo">   <roleName type="title">ʾǝtege</roleName> Ṣǝyon Mogasā</persName>. 
-                  He succeeded his father 
-                  <persName ref="PRS3429DawitII"><roleName type="title">ʾaṣe</roleName> Dāwit II</persName> in <date>1413</date> and  reigned only for only  nine months. In <ref type="work" corresp="LIT1385Fekkar">Fǝkkāre ʾIyasus</ref>, 
+
+                  <persName ref="PRS8795seyonMo">   <roleName type="title">ʾǝtege</roleName> Ṣǝyon Mogasā</persName>.
+                  He succeeded his father
+                  <persName ref="PRS3429DawitII"><roleName type="title">ʾaṣe</roleName> Dāwit II</persName> in <date>1413</date> and  reigned only for only  nine months. In <ref type="work" corresp="LIT1385Fekkar">Fǝkkāre ʾIyasus</ref>,
                   he is represented as a "king of the east" who will reign during 40 years of peace before the end of the world.
                   </floruit>
                   <death when="1414"/>
@@ -82,24 +82,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <relation name="snap:BrotherOf"
                          active="PRS9429Tewodros"
                          passive="PRS7559NewayaM"/>
-         
-                  
+
+
                </listRelation>
          </listPerson>
          <listBibl type="editions">
             <bibl>
                <ptr target="bm:Basset1882Chronicle"/>
             </bibl>
-            
-          </listBibl> 
+
+          </listBibl>
          <listBibl type="secondary">
-            <bibl> 
+            <bibl>
                <ptr target="bm:Derat2010TewodrosI"/>
             </bibl>
-            <bibl> 
+            <bibl>
                <ptr target="bm:Tadesse1974Succession"/>
                <citedRange unit="page">501-535</citedRange>
-            </bibl>  
+            </bibl>
          </listBibl>
       </body>
    </text>
