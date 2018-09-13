@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
@@ -53,26 +53,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
+            <person sameAs="Q460342" sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ዐምደ፡ ጽዮን፡</persName>
                      <persName xml:lang="gez" corresp="#n1" type="normalized">ʿAmda Ṣǝyon I</persName>
                      <persName xml:lang="en" corresp="#n1" type="normalized">Pillar of Zion</persName>
                      <persName>
                   <roleName type="title">ʾaṣe</roleName>
                </persName>
-               
+
                      <persName xml:lang="gez" xml:id="n2" type="regnal">ገብረ፡ መስቀል፡</persName>
                   <persName xml:lang="gez" corresp="#n2" type="normalized">Gabra Masqal</persName>
                   <persName xml:lang="en" corresp="#n2" type="normalized">Servant of the Cross</persName>
-              
-              
+
+
                <persName xml:lang="gez" xml:id="n3" type="birth">ዓምደ፡ ጽዮን፡</persName>
                <persName xml:lang="gez" corresp="#n3" type="normalized">ʿĀmda Ṣǝyon</persName>
-                 
+
                   <occupation type="ruler">Emperor</occupation>
-                  
-                 
-               <floruit notBefore="1314" notAfter="1344">He succeeded his father King 
+
+
+               <floruit notBefore="1314" notAfter="1344">He succeeded his father King
                   <persName ref="PRS10111WedemR">Wǝdǝm Raʿad</persName> in <date>1314</date>.
                   He led several military campaigns to expand the territory of the Christian kingdom but his largest campaign
                   to <placeName ref="LOC3921Ifat">Ifat</placeName> in <date>1332</date> is well recorded in his chronicle. He was succeeded by <persName ref="PRS8595SayfaAr"/> in <date>1344</date>.
@@ -94,28 +94,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          passive="LIT4275ChronAmdS"/>
             </listRelation>
                  </listPerson>
-       
+
         <listBibl type="editions">
             <bibl>
                <ptr target="bm:Kropp1994AmdaSeyon"/>
-              
+
             </bibl>
             <bibl>
                <ptr target="bm:Marrassini1993AmdaSeyon"/>
-                     
+
             </bibl>
            <bibl>
               <ptr target="bm:Huntingford1965AmdaSeyon"/>
-              
+
            </bibl>
          </listBibl>
          <listBibl type="secondary">
-            <bibl> 
+            <bibl>
                <ptr target="bm:Nosnitsin-Mantel2003Amdaseyon"/>
-            </bibl>  
-          
+            </bibl>
+
          </listBibl>
         </body>
-      
+
    </text>
 </TEI>
