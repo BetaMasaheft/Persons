@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
@@ -52,33 +52,33 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-              
+            <person sameAs="Q711866" sex="1">
+
                   <persName xml:lang="gez" xml:id="n1" type="birth">ዮስጦስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Yosṭos</persName>
-        
+
                   <persName>
                   <roleName type="title">ʾaṣe</roleName>
                </persName>
                <persName xml:lang="gez" xml:id="n2" type="regnal">ፀሐይ፡ ሰገድ፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">Ḍaḥay Sagad</persName>
-                  
+
                   <occupation type="ruler">Emperor</occupation>
-                  
-                  <floruit notBefore="1711" notAfter="1716">He was a Gondarine king from <date>1711</date> to <date>1716</date>. 
-                     Prior to being crowned, <persName ref="PRS10473Yostos">Yosṭos</persName> acted as a kingmaker. He was devoted to hunting, 
+
+                  <floruit notBefore="1711" notAfter="1716">He was a Gondarine king from <date>1711</date> to <date>1716</date>.
+                     Prior to being crowned, <persName ref="PRS10473Yostos">Yosṭos</persName> acted as a kingmaker. He was devoted to hunting,
                      which he did every year of his reign. Blinding was a favoured punishment for his enemies. A revolt broke out in the court which he could not prevent.
-                     A number of notables were killed, and  the son of 
-                     <persName ref="PRS5616IyasuI"><roleName type="title">ʾaṣe</roleName> ʾIyāsu the Great</persName>, <persName ref="PRS3430DawitII">Dāwit III</persName>, was bought 
-                     from <placeName ref="LOC6157WahniA">Wahni ʾAmbā</placeName>. 
-                     <persName ref="PRS3430DawitII">Dāwit III</persName> was proclaimed king and 
-                      
+                     A number of notables were killed, and  the son of
+                     <persName ref="PRS5616IyasuI"><roleName type="title">ʾaṣe</roleName> ʾIyāsu the Great</persName>, <persName ref="PRS3430DawitII">Dāwit III</persName>, was bought
+                     from <placeName ref="LOC6157WahniA">Wahni ʾAmbā</placeName>.
+                     <persName ref="PRS3430DawitII">Dāwit III</persName> was proclaimed king and
+
                      <persName ref="PRS10473Yostos"><roleName type="title">ʾaṣe</roleName> Yosṭos</persName> pronounced dead.
-                        
-                        
+
+
                   </floruit>
                   <death when="1716"/>
-                  
+
                </person>
                <listRelation>
                   <relation name="snap:SonOf" active="PRS10473Yostos" passive="PRS3485DelbaIy"/>
@@ -103,9 +103,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          passive="LIT4637Chronicle"/>
                </listRelation>
          </listPerson>
-         
-         
-         
+
+
+
          <listBibl type="editions">
             <bibl>
                <ptr target="bm:Kropp1981Kurzen"/>
@@ -115,23 +115,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </bibl>
          </listBibl>
          <listBibl type="secondary">
-            <bibl> 
+            <bibl>
                <ptr target="bm:Crummey2014Yostos"/>
-               
+
             </bibl>
-            <bibl> 
+            <bibl>
                <ptr target="bm:Budge1966Ethistory"/>
-               
+
             </bibl>
-            <bibl> 
+            <bibl>
                <ptr target="bm:Kropp1981Kurzen"/>
                <citedRange unit="page">137-147</citedRange>
-               
+
             </bibl>
-            
+
          </listBibl>
-         
+
       </body>
    </text>
-   
+
 </TEI>
