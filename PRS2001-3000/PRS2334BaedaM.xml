@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
@@ -52,17 +52,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-        
+            <person sameAs="Q733163" sex="1">
+
                <persName xml:lang="gez" xml:id="n1" type="birth">በእደ፡ ማርያም፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Baʾǝda Māryām I</persName>
                <persName>
                   <roleName type="title">ʾaṣe</roleName>
                </persName>
-          
+
                <occupation type="ruler">Emperor</occupation>
                <birth when="1448"/>
-               <floruit when="1468" evidence="internal">He succeeded his father King 
+               <floruit when="1468" evidence="internal">He succeeded his father King
                   <persName ref="PRS10626ZaraY">Zarʾa Yāʿqob</persName>.
                 He reversed many of his father’s administrative decisions.
              </floruit>
@@ -86,15 +86,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <bibl>
                <ptr target="bm:Haber1962BaedaMaryam"/>
             </bibl>
-            
+
             <bibl>
                <ptr target="bm:Basset1882Chronicle"/>
             </bibl>
-         </listBibl> 
+         </listBibl>
          <listBibl type="secondary">
-            <bibl> 
+            <bibl>
                <ptr target="bm:Kaplan2003BaedaMaryam"/>
-            </bibl>  
+            </bibl>
          </listBibl>
       </body>
    </text>
