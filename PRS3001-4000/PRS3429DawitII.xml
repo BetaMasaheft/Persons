@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
@@ -51,7 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
-            <person sex="1" sameAs="Q716024">
+            <person sameAs="Q716024" sex="1" sameAs="Q716024">
                <persName xml:lang="gez" xml:id="n1" type="birth">ዳዊት፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Dāwit I</persName>
                <persName>
@@ -59,18 +59,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </persName>
                <persName xml:lang="gez" xml:id="n2" type="regnal">ቈስጠንጢኖስ፡</persName>
                      <persName xml:lang="gez" corresp="#n2" type="normalized">Qʷasṭanṭinos</persName>
-           
+
                   <occupation type="ruler">Emperor</occupation>
-                 
+
                <floruit notBefore="1380" notAfter="1413">He succeeded
-                  his brother 
-                  <persName ref="PRS7559NewayaM"><roleName type="title">ʾaṣe</roleName> 
+                  his brother
+                  <persName ref="PRS7559NewayaM"><roleName type="title">ʾaṣe</roleName>
                      Nǝwāya Māryām</persName> in <date>1380</date>.
-                  Numerous works are said to have been translated during his reign.  
+                  Numerous works are said to have been translated during his reign.
                 </floruit>
                   <death when="1413" evidence="internal"/>
             </person>
-               
+
                <listRelation>
                   <relation name="snap:SonOf" active="PRS3429DawitII" passive="PRS8595SayfaAr"/>
                   <relation name="snap:BrotherOf"
@@ -84,9 +84,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </bibl>
          </listBibl>
          <listBibl type="secondary">
-            <bibl> 
+            <bibl>
                <ptr target="bm:Derat2005DawitII"/>
-            </bibl>  
+            </bibl>
          </listBibl>
         </body>
    </text>
