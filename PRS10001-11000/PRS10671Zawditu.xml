@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Zäwditu</title>
+            <title>Zawditu</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -43,19 +43,81 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2018-07-16">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="2">
-               <persName>
-                  
-                  Zäwditu
+            <person sex="2" sameAs="Q148524">
+               <persName xml:lang="gez" xml:id="n1" type="birth">ዘውዲቱ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Zawditu</persName>
+             
+                  <persName xml:lang="gez" xml:id="n2" type="baptismal">አስካለ፡ ማርያም፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAskāla Māryām</persName>
+                  <persName>
+                     
+                     <roleName type="title">nǝgǝśta nagaśtāt</roleName>
                </persName>
-               <occupation> ǝtege </occupation>
+               
+               <occupation type="ruler">queen</occupation>
+               <birth when="1876">She was born in <placeName ref="LOC2968Ennawa"/></birth>
+              
+               <floruit notBefore="1916" notAfter="1930">Zawditu was the empress of <placeName ref="LOC3010Ethiop"/> from <date>1916</date>to
+                  <date>1930</date>. As a child Zawditu stayed at her father's court under the care of <persName ref="PRS2342Bafana"/>, and then his next wife, 
+                  <persName ref="PRS9345taytuBe"/>.  In <date>1882</date>, the 6-year-old Zawditu  was married to the 13-year-old 
+                  <persName ref="PRS2012Arayas"/>. But <persName ref="PRS2012Arayas"/> died in <date>1888</date>.
+                  In <date>1889</date> Zawditu returned to her father's court. In <date>1891</date>, she was married to <persName ref="PRS4902Gwangul"/>, 
+                  but the marriage did not last.
+                  In <date>1897</date> Zawditu married to <roleName type="title">daǧǧāzmāč</roleName>
+                  <persName ref="PRS10100WebeAt"/>. Finally, in <date>1900</date>, Zawditu  married to 
+                  <persName ref="PRS4872GugsaWa"/>, and moved with him to <placeName ref="LOC2384DabraT"/>. 
+                  When <persName ref="PRS7006Menilek"/>'s health declined by <date>1907/1908</date>, Zawditu returned to 
+                  <placeName ref="LOC1216AddisA"/>, together with <persName ref="PRS9345taytuBe"/>, nursed her father. 
+                  Following the death of <persName ref="PRS7006Menilek"/>, <persName ref="PRS5620IyasuV"/>
+                  put Zawditu under house arrest in 
+                  <placeName ref="LOC3035Fale"/>, where her husband had been confined ever since <persName ref="PRS9345taytuBe"/> 
+                  was forced from power in <date>1910</date>. Following the overthrown of <persName ref="PRS5620IyasuV"/>, 
+                  in <date>1916</date>, Zawditu was asked to ascend the throne. The condition was, however,
+                  that she separated from her husband, and thus Zawditu and <persName ref="PRS4872GugsaWa"/> divorced in <date>1916</date>. 
+                  Then, Zawditu ascended to the imperial throne on <date>1916-10-02</date> and was crowned <roleName type="title">nǝgǝśta nagaśtāt</roleName>
+                  in the <placeName ref="LOC3292Gannat"/> on <date>1917-02-11</date>. But she had no experience in politics and adminsitration.
+                  She was believed to be deeply religious, shy but also stubborn. Thus, throughtime, the balance of power gradually shifted in favour of  the then Tafari and later <persName ref="PRS5226haylase"/>, who consequently removed his opponents  and Zawditu 's associates from power. 
+                  For the last two years of her life, she was deprived from any political power, even if she still presided formally over the Crown Council.
+               </floruit>
+               <death when="1930-11-02">She died of diabetes on <date>1930-11-02</date>in <placeName ref="LOC1216AddisA"/>. </death>
             </person>
+            
+            <listRelation>
+               <relation name="snap:DaughterOf" active="PRS10671Zawditu" passive="PRS7006Menilek"
+                 
+               />
+               <relation name="bm:wifeOf" active="#PRS10671Zawditu" passive="PRS4872GugsaWa"
+                  ></relation>
+               <relation name="snap:DaughterOf" active="PRS10671Zawditu" passive="PRS1100Abcaw"
+                  
+               />
+               
+               
+            </listRelation>
          </listPerson>
+         
+      
+        
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Rubinkowska2014Zawditu"/>
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Marcus1975MenelikII"/>
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Zawde2005Tafari"/>
+            </bibl>
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+             

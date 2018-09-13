@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Säyfä ʾArʿad</title>
+            <title>Sayfa ʾArʿad</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -43,21 +43,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change when="2018-07-05" who="ES">corrected spelling</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Säyfä ʾArʿad
-               </persName>
-               <persName type="alt">Ṣǝnfä Arʿǝd</persName>
-               <persName type="alt">Täzer</persName>
-               <occupation> Aks. king </occupation>
+ 
+               <persName xml:lang="gez" xml:id="n1" type="birth">ሰይፈ፡ አርዐድ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Sayfa ʾArʿad</persName>
+               <persName type="alt">Tazer</persName>
+               <occupation type="ruler"> Aksumite king </occupation>
                <residence>
-                  <placeName>Aksum</placeName>
+                  <placeName ref="LOC1310Aksum"></placeName>
                </residence>
             </person>
          </listPerson>

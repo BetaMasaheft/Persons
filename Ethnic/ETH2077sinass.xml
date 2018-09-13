@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Šinašša</title>
+            <title>Šinaššā</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -32,23 +32,69 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="PL" when="2016-10-18+02:00"> Created file from google
+         <change who="PL" when="2016-10-18"> Created file from google
                                 spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: ethnic</change>
+         <change who="SG" when="2018-08-22">addition</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <personGrp role="ethnic">
-               <persName xml:id="n1">
-                  <orgName>Šinašša</orgName>
+               <persName xml:id="n1" xml:lang="gez">
+                  <orgName>ሺናሻ፡</orgName>
                </persName>
-               <persName xml:id="n2">
+               <persName corresp="#n1" type="normalized">
+                  <orgName>Šinaššā</orgName>
+               </persName>
+               <persName xml:id="n2" xml:lang="gez">
+                  <orgName>ሽናሽ፡</orgName>
+               </persName>
+               <persName corresp="#n2" type="normalized">
+                  <orgName>Šināš</orgName>
+               </persName>
+               <persName xml:id="n3" xml:lang="gez">
+                  <orgName></orgName>
+               </persName>
+               <persName corresp="#n3" type="normalized">
                   <orgName>Bòrná, Boro</orgName>
                </persName>
+               
+               <note>tribe name</note>
             </personGrp>
+            <listRelation>
+               
+               <relation name="lawd:hasAttestation" active="ETH2077sinass" passive="LIT3951ChronSusenyos"/>
+               
+               
+            </listRelation>
          </listPerson>
+         <listBibl type="text">
+            
+            <bibl>
+               <ptr target="bm:Pereira1892Susenyos"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="translation">
+            <bibl>
+               <ptr target="bm:Pereira1900Susenyos"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Alemu2013Susenyos"/>
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Boavida2011PaezII"/>
+               <citedRange unit="page">206-259</citedRange>
+            </bibl>
+            
+            
+            
+            
+            
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+            

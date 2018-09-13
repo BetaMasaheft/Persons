@@ -45,15 +45,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-08-04">Complete record</change>
+         <change who="SG" when="2018-08-20">addition of Wikidata ID</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
+            <person sex="1" sameAs="Q1344575">
                <persName>
                   
-                  <forename>Francisco </forename>
+                  <forename>Francisco</forename>
                   <surname>Alvares</surname>
                </persName>
                
@@ -66,10 +67,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <birth when="1460"/>
                <residence>He was in the court of King <persName ref="PRS6229LebnaDe">Lǝbna Dǝngǝl</persName> 
                   for six years</residence>
-               <floruit notBefore="1520" notAfter="1542">He wrote a lengthy account 
+               <floruit notBefore="1520" notAfter="1542">. He wrote a lengthy account 
                   of his eventual six year stay <date> 1520-1526 </date> in highland Ethiopia, the first comprehensive original work.
               </floruit>
-               <death> He died before <date>1542</date>
+               <death > He died before <date>1542</date>
                </death>
             </person>
             <listRelation>

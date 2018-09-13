@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Säbʾa Asgäd</title>
+            <title>Sabʾā ʾAsgad</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -43,23 +43,53 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change when="2018-07-05" who="ES">filled the record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
+            <person sameAs="Q3460448" sex="1">
+               <persName xml:lang="gez" xml:id="n1" type="birth">ሰብዓ፡ አስገድ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Sabʾā ʾAsgad</persName>
                <persName>
-                  
-                  Säbʾa Asgäd
+                  <roleName type="title">ʾaṣe</roleName>
                </persName>
+
+               <occupation type="ruler">Emperor</occupation>
+
+               <floruit notBefore="1294" notAfter="1299">He was the last of the sons of  <persName ref="PRS10215Yagbas">Yāgbā Ṣǝyon</persName> to rule during 1294-1299.
+               </floruit>
+
             </person>
             <listRelation>
-               <relation name="sonOf">
-                  <desc> son Yagba Ṣǝyon </desc>
-               </relation>
+               <relation name="bm:isSuccessorOf" active="PRS8263SabaAs" passive="PRS10585ZanAsg"></relation>
+               <relation name="bm:isPredecessorOf" active="PRS8263SabaAs" passive="PRS10111WedemR"></relation>
+               <relation name="snap:SonOf" active="PRS8263SabaAs" passive="PRS10215Yagbas"/>
+               <relation name="snap:BrotherOf"
+                  active="PRS8263SabaAs"
+                  passive="PRS10585ZanAsg"/>
+               <relation name="snap:BrotherOf"
+                  active="PRS8263SabaAs"
+                  passive="PRS8029QedmaAs"/>
+               <relation name="snap:BrotherOf"
+                  active="PRS8263SabaAs"
+                  passive="PRS5326hezbaAs"/>
+               <relation name="snap:BrotherOf"
+                  active="PRS8263SabaAs"
+                  passive="PRS8757senfaAr"/>
             </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Basset1882Chronicle"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Nosnitsin2014YagbaSeyon"/>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>

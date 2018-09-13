@@ -45,24 +45,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-08-02">Complete record</change>
+         <change who="DR" when="2018-07-02">Added name and wikidata ID</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="2">
-             
-               <persName xml:lang="gez" xml:id="n1" type="birth">ጉዲት፡</persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized">Gudit</persName>
-               <persName xml:lang="gez" xml:id="n2" type="birth">ጕዲት፡</persName>
-               <persName xml:lang="gez" corresp="#n2" type="normalized">Gʷǝdit</persName>
-               <persName xml:lang="gez" xml:id="n3" type="birth">ዮዲት፡</persName>
-               <persName xml:lang="gez" corresp="#n3" type="normalized">Yodit (Judith)</persName>
+            <person sex="2" sameAs="Q1270024">
+               <persName xml:lang="gez" xml:id="n1" type="birth">እሳቶ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾƎsāto</persName>
+               <persName xml:lang="gez" xml:id="n2" type="birth">ጉዲት፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Gudit</persName>
+               <persName xml:lang="gez" xml:id="n3" type="birth">ጕዲት፡</persName>
+               <persName xml:lang="gez" corresp="#n3" type="normalized">Gʷǝdit</persName>
+               <persName xml:lang="gez" xml:id="n4" type="birth">ዮዲት፡</persName>
+               <persName xml:lang="gez" corresp="#n5" type="normalized">Yodit (Judith)</persName>
                <nationality type="Ethiopia"/>
                <faith type="Judaism"/>
                <occupation type="ruler">queen</occupation>
              
-               <floruit>She was a legendary queen said to have been the conquerer of the kingdom 
+               <floruit>She was a legendary queen said to have been the conqueror of the kingdom 
                   of <placeName ref="LOC1310Aksum">ʾAksum</placeName>. 
                </floruit>
                <death/>

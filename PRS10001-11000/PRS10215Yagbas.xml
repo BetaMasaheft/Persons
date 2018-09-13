@@ -3,10 +3,7 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="pers"
-     xml:lang="en"
-     xml:id="PRS10215Yagbas">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS10215Yagbas">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -17,19 +14,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
-            <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+               Forschungsumgebung / Beta maṣāḥǝft</publisher>
             <pubPlace>Hamburg</pubPlace>
             <availability>
-               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
-                This file is licensed under the Creative Commons
-                Attribution-ShareAlike 4.0. </licence>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
             </availability>
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
             <p>Prosopography of Ethiopian Written tradition</p>
-            <p>A TEI file converted from the ETHIO-authority
-                                                  google spreadsheet</p>
+            <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -41,12 +37,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
-         <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
+         <change who="PL" when="2016-04-28">batch updated according to requirements and
+            issues.</change>
+         <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
          <change who="SG" when="2016-07-19">Complete record</change>
          <change who="SG" when="2017-02-17">Complete record</change>
          <change who="SG" when="2017-10-21">Corrections</change>
+         <change when="2018-07-05" who="ES">relation added</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -58,25 +55,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName>
                   <roleName type="title">ʾaṣe</roleName>
                </persName>
-                  <persName xml:lang="gez" xml:id="n2" type="regnal">ሰሎሞን፡</persName>
-                  <persName xml:lang="gez" corresp="#n2" type="normalized">Salomon</persName>
+               <persName xml:lang="gez" xml:id="n2" type="regnal">ሰሎሞን፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Salomon</persName>
                <occupation type="ruler">Emperor</occupation>
-
-
-               <floruit when="1285" evidence="internal">He succeeded
-                  his father
-                  <persName ref="PRS10303Yekunno"> <roleName type="title">ʾaṣe</roleName> Yǝkunno ʾAmlāk</persName> in <date>1285</date>.
-               </floruit>
+               <floruit when="1285" evidence="internal">He succeeded his father <persName
+                     ref="PRS10303Yekunno">
+                     <roleName type="title">ʾaṣe</roleName> Yǝkunno ʾAmlāk</persName> in
+                     <date>1285</date>. </floruit>
                <death when="1294" evidence="internal"/>
-
             </person>
 
             <listRelation>
+               <relation name="bm:isSuccessorOf" active="PRS10215Yagbas" passive="PRS10303Yekunno"></relation>
+               <relation name="bm:isPredecessorOf" active="PRS10215Yagbas" passive="PRS8757senfaAr"></relation>
                <relation name="snap:SonOf" active="PRS10215Yagbas" passive="PRS10303Yekunno"/>
-               <relation name="snap:BrotherOf"
-                         active="PRS10215Yagbas"
-                         passive="PRS10111WedemR"/>
-              </listRelation>
+               <relation name="snap:BrotherOf" active="PRS10215Yagbas" passive="PRS10111WedemR"/>
+            </listRelation>
          </listPerson>
 
          <listBibl type="editions">

@@ -43,6 +43,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="SG" when="2016-07-20">completed the record</change>
+         <change when="2018-07-05" who="ES">added relations</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -65,6 +66,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <death when="1314"/>
                      </person>
             <listRelation>
+               <relation name="bm:isSuccessorOf" active="PRS10111WedemR" passive="PRS8263SabaAs"></relation>
+               <relation name="bm:isPredecessorOf" active="PRS10111WedemR" passive="PRS1854Amdase"></relation>
                <relation name="snap:SonOf" active="PRS10111WedemR" passive="PRS10303Yekunno"/>
                <relation name="snap:BrotherOf"
                          active="PRS10111WedemR"

@@ -49,11 +49,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Yǝkunno Amlak
-               </persName>
-               <occupation> aläqa </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ይኩኖ፡ አምላክ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Yǝkunno ʾAmlāk</persName>
+               
+               <occupation type="ecclesiastic">ʾalaqā</occupation>
             </person>
          </listPerson>
       </body>

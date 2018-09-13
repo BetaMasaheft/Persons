@@ -10,8 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Gäbrä Krǝstos</title>
-            <author/>
+            <title>Gabra Krǝstos</title>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
@@ -43,19 +42,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="DR" when="2018-08-22">updated name and occupation, added bibliography and wikidata</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
+            <person sex="1" sameAs="Q888086">
+               <persName xml:lang="gez" xml:id="n1">ገብረ፡ ክርስቶስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Gabra Krǝstos</persName>
                <persName>
-                  
-                  Gäbrä Krǝstos
+                  <roleName type="title">ʾaṣe</roleName>
                </persName>
-               <occupation> aṣe </occupation>
+               <occupation type="ruler">king</occupation>
+               <death when="1832"/>
             </person>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl><ptr target="bm:Chernetsov2005EAEGabraKrestos"/></bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>

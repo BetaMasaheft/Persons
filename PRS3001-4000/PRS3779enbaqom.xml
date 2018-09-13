@@ -48,12 +48,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2016-09-02">Correction to the transcription</change>
          <change who="SG" when="2016-09-09">addition to relation</change>
          <change who="SG" when="2016-12-01">addition</change>
+         <change who="SG" when="2018-08-20">addition to Wikidata ID</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
+            <person sex="1" sameAs="Q5375277">
                
                
                <persName xml:lang="gez" xml:id="n1" type="baptismal">እንባቆም፡</persName>
@@ -92,7 +93,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <relation name="snap:AllianceWith"
                          active="PRS3779enbaqom"
                          passive="PRS7102Minas"/>
-                  <relation name="snap:AllianceWith"
+                  <relation name="snap:ProfessionalRelationship"
                          active="PRS3779enbaqom"
                          passive="PRS1778Alvares"/>
                   

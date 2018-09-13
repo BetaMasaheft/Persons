@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>ʿAmda Ṣǝyon I</title>
+            <title>ʿĀmda Ṣǝyon I</title>
             <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
@@ -46,14 +46,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="SG" when="2016-07-18">completed the record</change>
          <change who="DR" when="2018-01-09">Added relation</change>
+         <change when="2018-07-02" who="ES">name corrected, new relations added</change>
+         <change when="2018-08-02" who="ES">name corrected</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName xml:lang="gez" xml:id="n1" type="birth">ዓምደ፡ ጽዮን፡</persName>
-                     <persName xml:lang="gez" corresp="#n1" type="normalized">ʿĀmda Ṣǝyon I</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ዐምደ፡ ጽዮን፡</persName>
+                     <persName xml:lang="gez" corresp="#n1" type="normalized">ʿAmda Ṣǝyon I</persName>
                      <persName xml:lang="en" corresp="#n1" type="normalized">Pillar of Zion</persName>
                      <persName>
                   <roleName type="title">ʾaṣe</roleName>
@@ -63,6 +65,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <persName xml:lang="gez" corresp="#n2" type="normalized">Gabra Masqal</persName>
                   <persName xml:lang="en" corresp="#n2" type="normalized">Servant of the Cross</persName>
               
+              
+               <persName xml:lang="gez" xml:id="n3" type="birth">ዓምደ፡ ጽዮን፡</persName>
+               <persName xml:lang="gez" corresp="#n3" type="normalized">ʿĀmda Ṣǝyon</persName>
                  
                   <occupation type="ruler">Emperor</occupation>
                   
@@ -70,11 +75,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <floruit notBefore="1314" notAfter="1344">He succeeded his father King 
                   <persName ref="PRS10111WedemR">Wǝdǝm Raʿad</persName> in <date>1314</date>.
                   He led several military campaigns to expand the territory of the Christian kingdom but his largest campaign
-                  to Ifat in <date>1332</date> is well recorded in his chronicle.
+                  to <placeName ref="LOC3921Ifat">Ifat</placeName> in <date>1332</date> is well recorded in his chronicle. He was succeeded by <persName ref="PRS8595SayfaAr"/> in <date>1344</date>.
           </floruit>
                   <death when="1344" evidence="internal">1344</death>
             </person>
             <listRelation>
+               <relation name="bm:isSuccessorOf" active="PRS1854Amdase" passive="PRS10111WedemR"></relation>
+               <relation name="bm:isPredecessorOf" active="PRS1854Amdase" passive="PRS8595SayfaAr"></relation>
                <relation name="snap:SonOf" active="PRS1854Amdase" passive="PRS10111WedemR"/>
                <relation name="snap:GrandsonOf"
                          active="PRS1854Amdase"

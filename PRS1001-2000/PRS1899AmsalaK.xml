@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Amsalä Krǝstos</title>
+            <title>ʾAmsāla Krǝstos</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -49,13 +49,47 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+              
+               <persName xml:lang="gez" xml:id="n1" type="birth">አምሳለ፡ ክርስቶስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAmsāla Krǝstos</persName>
                   
-                  Amsalä Krǝstos
-               </persName>
-               <occupation> tǝgre mäkwännǝn </occupation>
-            </person>
+                  <persName>
+                     <roleName type="title">tǝgre makwannǝn</roleName>
+                  </persName>
+                  <nationality type="Ethiopia"/>
+                  <faith type="EOTC"/>
+                  <occupation type="political">ruler</occupation>
+                  
+               <floruit  notBefore="1610" notAfter="1632">He was the ruler of <placeName ref="LOC6569Tegray"/> appointed by 
+                  <persName ref="PRS9038Susenyos"/> in<date>1610</date></floruit>
+                  
+                  
+               </person>
+               <listRelation>
+                  <relation name="saws:isRelatedTo" active="PRS1899AmsalaK" passive="PRS9038Susenyos"/>    
+               </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Pereira1892Susenyos"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="translation">
+            <bibl>
+               <ptr target="bm:Pereira1900Susenyos"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Alemu2013Susenyos"/>
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Boavida2011PaezII"/>
+               <citedRange unit="page">206-259</citedRange>
+            </bibl>
+            
+            
+         </listBibl>
       </body>
-   </text>
+   </text>   
 </TEI>
+
+               
