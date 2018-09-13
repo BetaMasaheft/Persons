@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
@@ -57,25 +57,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName>
                   <roleName type="title">ʾaṣe</roleName>
                </persName>
-               
+
                <occupation type="ruler">Emperor</occupation>
-              
+
                <floruit when="1494">He was the son of <persName ref="PRS3874eskender"><roleName type="title">ʾaṣe</roleName>
                    ʾƎskǝndǝr</persName>,
-                  crowned in <date>1494</date> at the age of seven or even younger. 
-                  His short reign of only six or seven months was characterized by continued civil war and bloodshed, 
-                  with one faction at the court favouring him and another his uncle 
+                  crowned in <date>1494</date> at the age of seven or even younger.
+                  His short reign of only six or seven months was characterized by continued civil war and bloodshed,
+                  with one faction at the court favouring him and another his uncle
                   <persName ref="PRS7481NaodA"><roleName type="title">ʾaṣe</roleName>
                       Nāʿod (ʾAnbasā Baḍar)</persName>.
                </floruit>
-            
+
             </person>
             <listRelation>
                <relation name="snap:SonOf" active="PRS1855Amdase" passive="PRS3874eskender"/>
                <relation name="snap:NephewOf" active="PRS1855Amdase" passive="PRS7481NaodA"/>
                 </listRelation>
          </listPerson>
-         
+
          <listBibl type="editions">
             <bibl>
                <ptr target="bm:Basset1881EtudesI"/>
@@ -86,11 +86,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <bibl>
                <ptr target="bm:Perruchon1894Eskender"/>
             </bibl>
-         </listBibl> 
+         </listBibl>
          <listBibl type="secondary">
-            <bibl> 
+            <bibl>
                <ptr target="bm:Kaplan2003AmdeseyonII"/>
-            </bibl>  
+            </bibl>
          </listBibl>
       </body>
    </text>
