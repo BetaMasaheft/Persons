@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
@@ -50,9 +50,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-            
-            
+            <person sameAs="Q888036" sex="1">
+
+
                <persName xml:lang="gez" xml:id="n1" type="birth">ዮሐንስ፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Yoḥannǝs I</persName>
                <persName>
@@ -60,7 +60,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </persName>
                <persName xml:lang="gez" xml:id="n3" type="regnal">አእላፍ፡ ሰገድ፡</persName>
                <persName xml:lang="gez" corresp="#n3" type="normalized">ʾAʾlāf Sagad</persName>
-         
+
                <occupation type="ruler">Emperor</occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
@@ -68,7 +68,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <placeName ref="LOC3577Gondar">Gondar</placeName>
                </residence>
                <birth>1603</birth>
-               <floruit notBefore="1667" notAfter="1682">He succeeded his father King <persName ref="PRS4015Fasilada">Fāsiladas</persName> in <date> 1667</date>. 
+               <floruit notBefore="1667" notAfter="1682">He succeeded his father King <persName ref="PRS4015Fasilada">Fāsiladas</persName> in <date> 1667</date>.
                   His reign was marked by religious strife and almost constant warfare.
                   Indeed, he was devoted to religious deeds so that he was often called Ṣādqu, "the righteous".
                </floruit>
@@ -100,10 +100,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </bibl>
          </listBibl>
         <listBibl type="secondary">
-            <bibl> 
+            <bibl>
                <ptr target="bm:Berry2014Yohannes"/>
-               
-            </bibl>  
+
+            </bibl>
          </listBibl>
       </body>
    </text>
