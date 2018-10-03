@@ -42,21 +42,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="PL" when="2018-10-03">Created entity</change>
+            <change who="PL" when="2018-10-03">updated entry</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Abib</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
-                    <faith type=""/>
+                    <persName xml:lang="gez" xml:id="n1">Abib <roleName type="title">nǝbura ǝd</roleName></persName>
                     <occupation type="ecclesiastic"/>
                     <birth/>
                     <death/>
-                    <floruit>1530-1540</floruit>
+                    <floruit cert="low" notBefore="1530" notAfter="1540">1530s</floruit>
                 </person>
-            </listPerson><!---->
+            </listPerson>
+            <listRelation>
+                <relation name="lawd:hasAttestation" active="PRS12289Abib" passive="BNFabb152"/>
+            </listRelation>
         </body>
     </text>
 </TEI>
