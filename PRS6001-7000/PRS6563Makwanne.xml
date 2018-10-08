@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mäkwännǝn Ḫaylä Śǝllase</title>
+            <title>Makwannǝn Ḫāyla Śǝllāse</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -43,19 +43,58 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2018-09-05">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Mäkwännǝn Ḫaylä Śǝllase
-               </persName>
-               <occupation> prince </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birth">መኰንን፡ ኃይለ፡ ሥላሴ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Makwannǝn Ḫāyla Śǝllāse</persName>
+               <persName><roleName type="title">marǝd ʾazmāč</roleName></persName>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="political">prince</occupation>
+               <birth when="1923">He was born in <placeName ref="LOC1216AddisA"/> in <date>1923</date>.</birth>
+               
+               <floruit notBefore="1941" notAfter="1957">He was the third child of <roleName type="title">ʾaṣe</roleName> <persName ref="PRS5226haylase"/> and  
+                  <roleName type="title">ʾǝtege</roleName> <persName ref="PRS6642MananAs"/>. He received his education at St Christopher's school, 
+                  <placeName ref="Q22889"/>, Wellington College and Gordonstoun, while staying with his father in exile during the Italian occupation. 
+                  After the liberation in <date>1941</date>, he was given the title <roleName type="title">masfǝna Ḥarar</roleName>
+                  which made him the governor general of the large province of <placeName ref="LOC3787Hararg"/>. In <date>1944</date>, 
+                  he became governor of the town but spent most of the time at the Emperor's court in <placeName ref="LOC1216AddisA"/>. 
+                  In <date>1946</date>, he married <persName ref="PRS8527SaraGez"/> with whom he had five sons. 
+                  He was the favourite son of the Emperor and that his father preferred the succession to be passed to him rather than to his elder brother
+                  <persName ref="PRS2112AsfaWas"/>. Respected as a good officer serving in the air force and an imaginative bussinessman. </floruit>
+               
+               <death when="1957">He died in <placeName ref="LOC1216AddisA"/> in <date>1957</date>.</death>
+               
             </person>
+            <listRelation>
+               <relation name="snap:SonOf" active="PRS6563Makwanne" passive="PRS5226haylase"/>
+               <relation name="snap:SonOf" active="PRS6563Makwanne" passive="PRS6642MananAs"/>
+               <relation name="snap:BrotherOf" active="PRS6563Makwanne" passive="PRS2112AsfaWas"/>
+               <relation name="snap:BrotherOf" active="PRS6563Makwanne" passive="PRS9234Tananna"/>
+            </listRelation>
+            
          </listPerson>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Yared1957Manan"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Bahru1991Modernhis"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Yared1957Manan"/>
+            </bibl>
+            
+            
+         </listBibl>
       </body>
-   </text>
+   </text>   
 </TEI>
+
+
+              

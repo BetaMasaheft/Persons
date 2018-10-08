@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
@@ -13,7 +13,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <title>Ḥǝzqǝyās</title>
             <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
-            
+
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -52,8 +52,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               
+            <person sameAs="Q278808" sex="1">
+
                <persName xml:lang="gez" xml:id="n1" type="birth">ሕዝቅያስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Ḥǝzqǝyās</persName>
                <persName>
@@ -61,48 +61,48 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
-               <occupation type="political">king</occupation>
-               
-               
-               
-               <floruit notBefore="1788" notAfter="1794">He was one of the series of puppets kings of 
+               <occupation type="ruler">king</occupation>
+
+
+
+               <floruit notBefore="1788" notAfter="1794">He was one of the series of puppets kings of
                   <placeName ref="LOC3010Ethiop"/> during the Zamana Masāfǝnt.
-                  After the death of his father <persName ref="PRS5617IyasuII"/>, 
-                  he was confined to the royal prison <placeName ref="LOC6157WahniA"/>.  In <date>1788</date>, 
-                
-                  <persName ref="PRS1750Aligaz">  <roleName type="title">rās</roleName></persName>
-                  of the Yaǧǧu <persName ref="ETH1973Oromo"/> dynasty, one 
-                  of the kingmakers of the epoch, quarrelled with the king  
-                  <persName ref="PRS9142TaklaGi"><roleName type="title">ʾaṣe</roleName></persName>. 
-                   
-                  <persName ref="PRS1750Aligaz"><roleName type="title">rās</roleName></persName>
-                   deposed 
-                     <persName ref="PRS9142TaklaGi"><roleName type="title">ʾaṣe</roleName></persName> and put Ḥǝzqǝyās on the throne instead. </floruit>
-               <death when="1794">Ḥǝzqǝyās finally ceased to be a significant figure. 
+                  After the death of his father <persName ref="PRS5617IyasuII"/>,
+                  he was confined to the royal prison <placeName ref="LOC6157WahniA"/>.  In <date>1788</date>,
+
+                  <persName ref="PRS1750Aligaz">  <roleName type="title">rās</roleName> <persName ref="PRS1750Aligaz"/></persName>
+                  of the Yaǧǧu <persName ref="ETH1973Oromo"/> dynasty, one
+                  of the kingmakers of the epoch, quarrelled with the king
+                  <persName ref="PRS9142TaklaGi"><roleName type="title">ʾaṣe</roleName> Takla Giyorgis</persName>.
+
+                  <persName ref="PRS1750Aligaz"><roleName type="title">rās</roleName> <persName ref="PRS1750Aligaz"/></persName>
+                   deposed
+                     <persName ref="PRS9142TaklaGi"><roleName type="title">ʾaṣe</roleName> Takla Giyorgis</persName> and put Ḥǝzqǝyās on the throne instead. </floruit>
+               <death when="1794">Ḥǝzqǝyās finally ceased to be a significant figure.
                   He was buried at <placeName ref="LOC3577Gondar"/>.</death>
             </person>
             <listRelation>
                <relation name="snap:SonOf" active="PRS5332hezqeyas" passive="PRS5617IyasuII"/>
                <relation name="snap:AllianceWith"
                          active="PRS5332hezqeyas"
-                         passive="PRS1750Aligaz"/> 
+                         passive="PRS1750Aligaz"/>
             </listRelation>
          </listPerson>
-         
-         
+
+
          <listBibl type="editions">
             <bibl>
                <ptr target="bm:Blundell1922Chronicle"/>
             </bibl>
          </listBibl>
-         
-         
-         
+
+
+
          <listBibl type="secondary">
             <bibl>
                <ptr target="bm:Chernetsov2007Hezqeyas"/>
             </bibl>
          </listBibl>
       </body>
-   </text>   
+   </text>
 </TEI>

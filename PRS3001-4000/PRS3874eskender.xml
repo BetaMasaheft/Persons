@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
@@ -51,8 +51,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-          
+            <person sameAs="Q713338" sex="1">
+
                <persName xml:lang="gez" xml:id="n1" type="birth">እስክንድር፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾƎskǝndǝr</persName>
                      <persName xml:lang="gez" xml:id="n2" type="regnal">ቈስጠንጢኖስ፡</persName>
@@ -60,12 +60,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName>
                   <roleName type="title">ʾaṣe</roleName>
                </persName>
-             
+
                   <occupation type="ruler">Emperor</occupation>
                <birth when="1471"/>
-                  
-               <floruit when="1478" evidence="internal">He succeeded his father 
-                  
+
+               <floruit when="1478" evidence="internal">He succeeded his father
+
                   <persName ref="PRS2334BaedaM"><roleName type="title">ʾaṣe</roleName>
                      Baʾǝda Māryām I</persName> in <date>1478</date>.
                      </floruit>
@@ -92,11 +92,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <bibl>
                <ptr target="bm:Perruchon1894Eskender"/>
             </bibl>
-         </listBibl> 
+         </listBibl>
          <listBibl type="secondary">
-            <bibl> 
+            <bibl>
                <ptr target="bm:Chernetsov2005Eskender"/>
-            </bibl>  
+            </bibl>
          </listBibl>
       </body>
    </text>

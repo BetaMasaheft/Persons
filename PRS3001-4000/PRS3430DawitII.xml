@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
@@ -52,8 +52,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-          
+            <person sameAs="Q887840" sex="1">
+
                <persName xml:lang="gez" xml:id="n1" type="birth">ዳዊት፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Dāwit III</persName>
                <persName>
@@ -61,7 +61,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </persName>
                <persName xml:lang="gez" xml:id="n2" type="regnal">አድባር፡ ሰገድ፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAdbār Sagad</persName>
-          
+
                <occupation type="ruler">Emperor</occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
@@ -95,17 +95,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <bibl>
                <ptr target="bm:Guidi1903YohannesT"/>
             </bibl>
-         </listBibl> 
-  
-         <listBibl type="secondary">
-            <bibl> 
-               <ptr target="bm:Budge1966Ethistory"/>
-            </bibl>  
-            <bibl> 
-               <ptr target="bm:Crummey2005Dawit"/>
-            </bibl>  
          </listBibl>
-        
+
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Budge1966Ethistory"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Crummey2005Dawit"/>
+            </bibl>
+         </listBibl>
+
       </body>
    </text>
 </TEI>

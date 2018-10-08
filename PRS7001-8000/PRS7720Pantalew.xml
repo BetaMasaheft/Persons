@@ -47,12 +47,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-09-30">Complete record</change>
          <change who="MV" when="2017-11-02">Minor additions</change>
+         <change who="DR" when="2018-07-28">Added relation and wikidata</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
+            <person sex="1" sameAs="Q4663655">
                <persName xml:lang="gez" xml:id="n1" type="monastic">ጰንጠሌዎን፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Ṗanṭalewon</persName>
                <persName>
@@ -86,6 +87,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="ecrm:P129i_is_subject_of"
                          active="PRS7720Pantalew"
                          passive="LIT1532GadlaP"/>
+               <relation name="saws:isMemberOf" active="PRS7720Pantalew" passive="PRS12196NineSaints"/>
             </listRelation>
          </listPerson>
          <listBibl type="editions">

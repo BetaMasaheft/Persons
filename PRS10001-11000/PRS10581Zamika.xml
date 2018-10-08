@@ -47,12 +47,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-09-30">Complete record</change>
          <change who="SG" when="2017-02-14">some corrections</change>
+         <change who="DR" when="2018-07-28">Added relation and wikidata</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
+            <person sex="1" sameAs="Q3511121">
                <persName xml:lang="gez" xml:id="n1" type="monastic">ዘሚካኤል፡ አረጋዊ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Zamikāʾel ʾAragāwi</persName>
                <persName xml:lang="gez" xml:id="n2" type="birth">ገብረ፡ አምላክ፡</persName>
@@ -100,6 +101,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="ecrm:P129i_is_subject_of"
                          active="PRS10581Zamika"
                          passive="LIT1526GadlaZ"/>
+               <relation name="saws:isMemberOf" active="PRS10581Zamika" passive="PRS12196NineSaints"/>
             </listRelation>
          </listPerson>
         

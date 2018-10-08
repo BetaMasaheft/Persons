@@ -49,9 +49,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
+            <person sex="1" sameAs="Q244748">
                <persName xml:lang="gez" xml:id="n1" type="birth">ምኒልክ፡</persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized">Mǝnilǝk </persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Mǝnilǝk</persName>
                <persName xml:lang="gez" xml:id="n2" type="baptisal">ሣህለ፡ ማርያም፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">Śahla Māryām</persName>
                
@@ -65,11 +65,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <occupation type="ruler">Emperor</occupation>
                
                <birth when="1844">He was born at <placeName ref="LOC1465Ankoba"></placeName> in <date>1844</date>. </birth>
-               <floruit notBefore="1860" notAfter="1913">Mǝnilǝk is regarded as the founder of modern Ethioian state. 
+               <floruit notBefore="1860" notAfter="1913">Mǝnilǝk is regarded as the founder of modern Ethiopian state. 
                   After the death of his father king <persName ref="PRS5205haylaMa"/>,   
-                  in the course of the newly proclaimed king <persName ref="PRS9430Tewodros"></persName>, vin <date>1855</date>, Mǝnilǝk then aged 11, 
+                  in the course of the newly proclaimed king <persName ref="PRS9430Tewodros"></persName>, in <date>1855</date>, Mǝnilǝk then aged 11, 
                   was taken into captivity into imperial court at <placeName ref="LOC4547Maqdal"/>. Here he was treated with much respect, and married
-                  to <persName ref="PRS9430Tewodros"/>'s daughter <persName ref="PRS1771AltasTe"/>. 
+                  to <persName ref="PRS9430Tewodros"/>'s daughter <persName ref="PRS1771AltasTe"/>. In <date>1865</date>, as the emperor power waned, 
+                  Mǝnilǝk escaped from <placeName ref="LOC4547Maqdal"/> and was received with joy in <placeName ref="LOC5597Sawa"/> as its rightful king. 
+                  During the period from <date>1878</date>until <date>1889</date>, Mǝnilǝk  was a quasi independent ruler of  <placeName ref="LOC5597Sawa"/>, 
+                  he laid a foundations of his subsequent rule as emperor. 
+                  
                  
                </floruit>
                <death when="1913" evidence="internal"/>
@@ -77,21 +81,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </person>
             
             <listRelation>
-               <relation name="snap:GrandsonOf" active="PRS7006Menilek" passive="PRS8346sahlase">
+               <relation name="snap:GrandsonOf" active="PRS7006Menilek" passive="PRS8346sahlase"/>
                   
-               </relation>
-               <relation name="snap:SonOf" active="PRS7006Menilek" passive="PRS5205haylaMa">
-                  
-               </relation>
+             
+               <relation name="snap:SonOf" active="PRS7006Menilek" passive="PRS5205haylaMa"/>
+               <relation name="bm:husbandOf" active="PRS7006Menilek" passive="PRS9345taytuBe"></relation>
+                
+               
            </listRelation>
          </listPerson>
          
          <listBibl type="editions">
             <bibl>
-               <ptr target="bm:Pereira1892Susenyos"/>
+               <ptr target="bm:Coppet1930ChrMenelik"/>
             </bibl>
                </listBibl>
-         
+          
          <listBibl type="secondary">
             <bibl> 
                <ptr target="bm:Clapham2007MenilǝkII"/>

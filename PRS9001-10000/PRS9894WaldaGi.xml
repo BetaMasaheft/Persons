@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Wäldä Giyorgis</title>
+            <title>Walda Giyorgis</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -49,17 +49,53 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
+               <persName xml:lang="gez" xml:id="n1" type="birth">ወልደ፡ ጊዮርጊስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Walda Giyorgis</persName>
                <persName>
-                  
-                  Wäldä Giyorgis
+                  <roleName type="title">šum</roleName>
                </persName>
+               
+               
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               
+               
+               
+               
+               
             </person>
             <listRelation>
-               <relation name="unspecified">
-                  <desc> broth. Darägot </desc>
-               </relation>
+               <relation name="saws:isRelatedTo" active="PRS9894WaldaGi" passive="PRS9038Susenyos"/> 
+               <relation name="snap:FatherOf" active="PRS9894WaldaGi" passive="PRS12157AmhaGiyorgis"/>
+               <relation name="snap:BrotherOf" active="PRS9894WaldaGi" passive="PRS3356Daragot"/>
+              
             </listRelation>
          </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Pereira1892Susenyos"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="translation">
+            <bibl>
+               <ptr target="bm:Pereira1900Susenyos"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Alemu2013Susenyos"/>
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Boavida2011PaezII"/>
+               <citedRange unit="page">206-259</citedRange>
+            </bibl>
+            
+            
+         </listBibl>
       </body>
-   </text>
+   </text>   
 </TEI>
+
+
+
+
+
+               

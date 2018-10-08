@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
@@ -13,7 +13,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <title>Susǝnyos II</title>
             <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
-            
+
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -53,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
+            <person sameAs="Q3339358" sex="1">
                <persName xml:lang="gez" xml:id="n1" type="regnal">ሱስንዮስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Susǝnyos II</persName>
                <persName>
@@ -61,41 +61,41 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </persName>
                <persName xml:lang="gez" xml:id="n2" type="birth">ወልደ፡ ጊዮርጊስ፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">Walda Giyorgis</persName>
-               
+
                <nationality type="Ethiopia"/>
-               <faith type="EOTC"/> 
+               <faith type="EOTC"/>
                <occupation type="ruler">Emperor</occupation>
-               
+
               <birth when="1746" cert="medium"/>
-               <floruit notBefore="1770" notAfter="1771"> Susenyos II  was a king of Ethiopia during the 
+               <floruit notBefore="1770" notAfter="1771"> Susenyos II  was a king of Ethiopia during the
                   time of Zamana Masāfǝnt.
-                 He was the son of a noblewoman who had lost her fortune and made 
-                 her living by carrying jars of water, while it was rumored that he was 
-                 the illegitimate son of 
-                  <persName ref="PRS5617IyasuII"><roleName type="title">ʾaṣe</roleName> 
+                 He was the son of a noblewoman who had lost her fortune and made
+                 her living by carrying jars of water, while it was rumored that he was
+                 the illegitimate son of
+                  <persName ref="PRS5617IyasuII"><roleName type="title">ʾaṣe</roleName>
                      ʾIyāsu II</persName></floruit>
                <death when="1771"/>
                <death/>
             </person>
          </listPerson>
-         
-         
+
+
          <listBibl type="editions">
             <bibl>
                <ptr target="bm:Blundell1922Chronicle"/>
             </bibl>
-            
-            
-            
-            
+
+
+
+
            </listBibl>
          <listBibl type="secondary">
-            <bibl> 
+            <bibl>
                <ptr target="bm:Bruce1790travelsV"/>
-            </bibl>  
+            </bibl>
          </listBibl>
-         
-               
+
+
       </body>
    </text>
 </TEI>

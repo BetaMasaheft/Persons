@@ -46,17 +46,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2017-04-18">Complete record</change>
+         <change who="SG" when="2018-08-20">addition to Wikidata ID, correction to relation</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
+            <person sex="1" sameAs="Q1633316">
                <persName>
                   
                   <forename>Casimir</forename>
                   <forename>François Marie</forename>
-                  <surname> Mondon-Vidailhet</surname> 
+                  <surname>Mondon-Vidailhet</surname> 
                </persName>
                
                <occupation type="academic">scholar</occupation>
@@ -74,7 +75,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </death>
             </person>
             <listRelation>
-               <relation name="snap:FriendshipFor"
+               <relation name="snap:ProfessionalRelationship"
                          active="PRS7146MondonV"
                          passive="PRS3148Cohen"/>
                <relation name="snap:AllianceWith"
