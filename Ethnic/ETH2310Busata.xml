@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ETH2310Busata" type="pers">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Busatā
+                    
+                </title>
+                <author/>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is licensed under the Creative Commons
+                        Attribution-ShareAlike 4.0. </licence>
+                </availability>
+                <date>2016-10-18T15:52:41.309+02:00</date>
+            </publicationStmt>
+            <sourceDesc>
+                <p>A TEI file converted from the ETHIO-authority google
+                    spreadsheet</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="PL" when="2016-10-18"> Created file from google
+                spreadsheet </change>
+            <change who="SG" when="2018-10-12">CREATED: ethnic</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <personGrp role="ethnic">
+                    <persName xml:id="n1" xml:lang="gez">
+                        <orgName>ቡሰታ፡</orgName>
+                    </persName>
+                    <persName corresp="#n1" type="normalized">
+                        <orgName>Busatā</orgName>
+                    </persName>
+                    <note>tribe name</note>
+                </personGrp>
+                
+            </listPerson>
+            <listBibl type="text">
+                
+                <bibl>
+                    <ptr target="bm:Pereira1892Susenyos"/>
+                </bibl>
+            </listBibl>
+            <listBibl type="translation">
+                <bibl>
+                    <ptr target="bm:Pereira1900Susenyos"/>
+                </bibl>
+                <bibl>
+                    <ptr target="bm:Alemu2013Susenyos"/>
+                </bibl>
+                <bibl> 
+                    <ptr target="bm:Boavida2011PaezII"/>
+                    <citedRange unit="page">206-259</citedRange>
+                </bibl>
+                
+                
+                
+                
+                
+            </listBibl>
+        </body>
+    </text>
+</TEI>
+
+
+
+
+
+
