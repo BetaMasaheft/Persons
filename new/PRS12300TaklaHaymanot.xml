@@ -1,0 +1,89 @@
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12300TaklaHaymanot" xml:lang="en" type="pers">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Takla Hāymānot</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="SG"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
+                            Forschungsumgebung / beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ar">Arabic</language>
+                <language ident="it">Italian</language>
+                <language ident="am">Amharic</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="SG" when="2018-10-17">Created entity, complete record</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person sex="1">
+                    <persName xml:lang="gez" xml:id="n1" type="monastic">ተክለ፡ ሃይማኖት፡</persName>
+                    
+                    <persName xml:lang="gez" corresp="#n1" type="main">Takla Hāymānot</persName>
+                    <persName>
+                        <roleName type="title">ʾǝč̣č̣age</roleName>
+                    </persName>
+                    
+                    <nationality type="Ethiopia"/>
+                    <faith type="EOTC"/>
+                    <occupation type="ecclesiastic">abbot</occupation>
+                    <floruit notBefore="1710" notAfter="1740">He was the head of the community of <placeName ref="INS0341DL"/> at <placeName ref="LOC1669Azazo"/>
+                        four times, in 1710-11, 1718/19-24, 1728-32/33, and in 1740, under four successive emperors. 
+                        Takla Hāymānot's successive appointments and dismissals seem to have been the result of hostility and discord between the monks
+                        of the community of <placeName ref="INS0341DL"/> and the various emperors. 
+                        He was in good relation with King <persName ref="PRS2377Bakaffa"/> which may have been a source of tension between him and the monks. 
+                        He participated in the theological controversies between the Tawaḥǝdo and Qǝbāt parties, as his position of 
+                        <roleName type="office">ʾǝč̣č̣age</roleName> required, supporting Tawaḥǝdo party.</floruit>
+                   <death when="1755"/>
+                </person>
+                
+                <listRelation>
+                    <relation name="snap:AllianceWith"
+                        active="PRS12300TaklaHaymanot"
+                        passive="PRS2377Bakaffa"/>
+                      </listRelation>
+            </listPerson>
+            <listBibl type="secondary">
+                <bibl>
+                    <ptr target="bm:Rossigno2010TaklaHaymanot"/>
+                </bibl>
+                <bibl>
+                    <ptr target="bm:Getachew1983monastic"/>
+                </bibl>
+            </listBibl>
+        </body>
+    </text>
+</TEI>
+
+                    
