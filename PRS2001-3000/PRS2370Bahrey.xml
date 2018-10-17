@@ -43,19 +43,34 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2018-10-17">addition</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
+               <persName xml:lang="gez" xml:id="n1" type="birth"> ባሕርይ፡ </persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Baḥrǝy</persName>
+               
                <persName>
-                  
-                  Baḥrǝy
+                  <roleName type="title">qes ḥaṣe</roleName>
                </persName>
-               <occupation> qes ḥaṣe </occupation>
+               <faith type="EOTC"/>
+           <occupation type="ecclesiastic"></occupation>
+               <nationality type="Ethiopia"/>
+               <birth/>
+               <death/>
+               <floruit/>
             </person>
-         </listPerson>
+            <listRelation>
+               <relation name="snap:GrandfatherOf"
+                  active="PRS2370Bahrey"
+                  passive="PRS9901WaldaGi"/>
+            </listRelation>
+            
+         </listPerson><!---->
       </body>
    </text>
 </TEI>
+               
