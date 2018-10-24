@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Betä Ǝsraʾel</title>
+            <title>Beta ʾƎsrāʾel</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -32,9 +32,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="PL" when="2016-10-18+02:00"> Created file from google
+         <change who="PL" when="2016-10-18"> Created file from google
                                 spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: ethnic</change>
+         <change who="SG" when="2018-10-24">additions</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -42,13 +43,54 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <personGrp role="ethnic">
                <persName xml:id="n1">
-                  <orgName>Betä Ǝsraʾel</orgName>
+                  <orgName>ቤተ፡ እስራኤል፡</orgName>
                </persName>
+               <persName corresp="#n1" type="normalized">
+                  <orgName>Beta ʾƎsrāʾel</orgName>
+               </persName>
+               
+               
                <persName xml:id="n2">
-                  <orgName>Fälaša</orgName>
+                  <orgName>ፈላሻ፡</orgName>
                </persName>
+               <persName corresp="#n2" type="normalized">
+                  <orgName>Falāšā</orgName>
+               </persName>
+               
             </personGrp>
          </listPerson>
+         <listBibl type="text">
+            
+            <bibl>
+               <ptr target="bm:Pereira1892Susenyos"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="translation">
+            <bibl>
+               <ptr target="bm:Pereira1900Susenyos"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Alemu2013Susenyos"/>
+            </bibl>
+            <bibl> 
+               <ptr target="bm:Boavida2011PaezII"/>
+               <citedRange unit="page">206-259</citedRange>
+            </bibl>
+            
+            
+            
+            
+            
+         </listBibl>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+    
