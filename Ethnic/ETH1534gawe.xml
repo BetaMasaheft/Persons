@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ǧawe</title>
+            <title>Ǧāwe</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -32,22 +32,36 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="PL" when="2016-10-18+02:00"> Created file from google
+         <change who="PL" when="2016-10-18"> Created file from google
                                 spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: ethnic</change>
+         <change who="SG" when="2018-10-09">addition</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <personGrp role="ethnic">
-               <persName xml:id="n1">
-                  <orgName>Ǧawe</orgName>
+               <persName xml:id="n1" xml:lang="gez">
+                  <orgName>ጃዌ፡</orgName>
                </persName>
-               <persName xml:id="n2">
-                  <orgName>Ǧaawee,Ǧawi, Jawe</orgName>
+               <persName corresp="#n1" type="normalized">
+                  <orgName>Ǧāwe</orgName>
                </persName>
-            </personGrp>
+               <persName xml:id="n2" xml:lang="gez">
+                  <orgName>ጃዊ፡</orgName>
+               </persName>
+               <persName corresp="#n2" type="normalized">
+                  <orgName>Ǧawi</orgName>
+               </persName>
+               <persName xml:id="n3" xml:lang="gez">
+                  <orgName>ጃዌ፡</orgName>
+               </persName>
+               <persName corresp="#n3" type="normalized">
+                  <orgName>Ǧāāwee, Jāwe</orgName>
+               </persName>
+               
+                 </personGrp>
          </listPerson>
       </body>
    </text>
