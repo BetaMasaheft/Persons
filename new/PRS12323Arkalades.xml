@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12319NagalaMammit" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12323Arkalades" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Nagalā Māmmit</title>
+                <title>ʾArkaledǝs</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="SG"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -41,24 +41,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="SG" when="2018-10-26">Created entity</change>
+            <change who="SG" when="2018-10-29">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person sex="2">
-                    <persName xml:lang="gez" xml:id="n1" type="birth">ነገላ፡ ማሚት፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1" >Nagalā Māmmit</persName>
+                <person sex="1">
+                    <persName xml:lang="gez" xml:id="n1" type="birth">አርከሌድስ፡ </persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">ʾArkaledǝs</persName>
+                    <persName ><roleName type="title">bāššā</roleName> </persName>
                     <faith type="EOTC"/>
+                    <occupation type="political"/>
                     <nationality type="Ethiopia"/>
                     <birth/>
                     <death/>
                     <floruit/>
                 </person>
-                <listRelation> <relation name="snap:MotherOf" active="PRS12319NagalaMammit" 
-                    passive="PRS4705Giyorgis"/></listRelation>
+                <listRelation>
+                    <relation name="saws:isRelatedTo" active="PRS12323Arkalades" passive="PRS2377Bakaffa"/>
+                </listRelation>
             </listPerson><!---->
         </body>
     </text>
 </TEI>
+                    
