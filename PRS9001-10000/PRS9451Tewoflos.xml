@@ -11,6 +11,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Tewoflos</title>
+
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -43,19 +46,48 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2018-10-31">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
+               <persName xml:lang="gez" xml:id="n1" type="monastic">ቴዎፍሎስ፡</persName>
+               
+               <persName xml:lang="gez" corresp="#n1" >Tewoflos</persName>
                <persName>
-                  
-                  Tewoflos
+                  <roleName type="title">ʾǝč̣č̣age</roleName>
                </persName>
-               <occupation> ǝḉḉ. </occupation>
+               
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <occupation type="ecclesiastic">abbot</occupation>
+             
+               <floruit notBefore="1872" notAfter="1889">He was a 19th century head of <placeName ref="INS0346DL"/>
+                  of <placeName ref="LOC5597Sawa"/>. Soon  after <persName ref="PRS7006Menilek"/> ascension to power
+                  in <date>1889</date>, <persName ref="PRS7006Menilek"/> deposed Tewoflos and appointed his own father confessor 
+                  <persName ref="PRS4351Gabrase"/>.Tewoflos  withdrew to 
+                  <placeName ref="LOC1311AksumS"/> where he also became involved in political events. </floruit>
+               <death notBefore="1896" notAfter="1900">He died of pneumonia sometime after <date>1896</date>. </death>
+               
             </person>
+            
+            <listRelation>
+            
+               <relation name="snap:AllianceWith"
+                  active="PRS9451Tewoflos"
+                  passive="PRS10378Yohanne"/>
+               
+            </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Dege2010Tewoflos"/>
+            </bibl>
+               </listBibl>
       </body>
    </text>
 </TEI>
+
+               
