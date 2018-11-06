@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ʿĀmdā Mikāʾel</title>
+                <title>ʾAmda Mikāʾel</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="ES"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,24 +42,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="ES" when="2018-03-28">Created entity</change>
+            <change when="2018-11-06" who="DR">Corrected person</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ዓምዳ፡ ሚካኤል</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">ʿĀmdā Mikāʾel</persName>
+                    <persName xml:lang="gez" xml:id="n1">አምደ፡ ሚካኤል</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAmda Mikāʾel</persName>
                     <faith type="EOTC"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
-                    <note>his father’s name is Gabra [l.n.] and his mother’s name is Walatta Rāhel, see <ref type="mss" corresp="ESagm010#a9"/></note>
+                    <note>his father’s name is Gabra [l.n.] and his mother’s name is Walatta Rāḥel, see <ref type="mss" corresp="ESagm010#a9"/></note>
                 </person>
                 <listRelation>
                     <relation name="saws:hasOwned" active="PRS11976AmdaMikael" passive="ESagm010"/>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>
