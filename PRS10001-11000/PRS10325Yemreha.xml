@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
@@ -48,7 +48,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
-            <person sex="1">         
+            <person sameAs="Q716109" sex="1">
                <persName xml:lang="gez" xml:id="n1">ይምርሐነ፡ ክርስቶስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Yǝmrǝḥanna Krǝstos</persName>
                <persName>
@@ -57,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <occupation type="ruler"> a saint king</occupation>
-               <floruit when="1053" evidence="internal">He succeeded his paternal uncle King <persName ref="PRS9242tantawed">Ṭanṭawǝdǝm</persName>. 
+               <floruit when="1053" evidence="internal">He succeeded his paternal uncle King <persName ref="PRS9242tantawed">Ṭanṭawǝdǝm</persName>.
                </floruit>
                <death when="1093" cert="low" evidence="internal">around 1093</death>
                <!-- It is questionable, perhaps 1193? (MV 2017-11-08) -->
