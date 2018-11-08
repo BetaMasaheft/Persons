@@ -48,16 +48,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:id="n1">Anatolij</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:id="n1" xml:lang="ru">Anatolij</persName>
                     <faith type="Orthodox"/>
                     <occupation type="ecclesiastic">bishop of the Baltics (<date>1880-1884</date>)</occupation>
                     <nationality type="Russia/USSR"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
                 </person>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>

@@ -42,6 +42,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="DE" when="2018-10-17">Created entity</change>
+            <change who="DR" when="2018-11-08">Added fidal according to transliteration</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -49,13 +50,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPerson>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1" type="normalized">Gabra ʾƎgziʾabǝḥer</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">ገብረ፡ እግዚአብሔር፡</persName>
                     <faith type="EOTC"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
                 </person>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>
