@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
@@ -13,8 +13,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <title>Wāzenā</title>
             <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
-            
-            
+
+
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -54,47 +54,47 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               
+            <person sex="1" sameAs="Q886040">
+
                <persName xml:lang="gez" xml:id="n1" type="birth">ዋዜና፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Wāzenā</persName>
                <persName xml:lang="gez" xml:id="n2" type="alt">ወዘነ፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">Wazana</persName>
-               
+
                <persName xml:lang="gez" xml:id="n3" type="alt">ዘወዘነ፡</persName>
                <persName xml:lang="gez" corresp="#n3" type="normalized">Zawazana</persName>
-               
-               
-               
-               
+
+
+
+
                <occupation type="ruler">king</occupation>
                <nationality type="Aksumite"/>
                <faith type="Christianity"/>
-               
-               <floruit notBefore="0590" notAfter="0650">He was the king of <placeName ref="LOC1310Aksum"/> in the late 6th and early 7th century. 
+
+               <floruit notBefore="0590" notAfter="0650">He was the king of <placeName ref="LOC1310Aksum"/> in the late 6th and early 7th century.
                   He was possibly the successor of <persName ref="PRS3730ellaAm"/> and a predecessor of <persName ref="PRS3732ellaGab"/>. </floruit>
-               
+
             </person>
          </listPerson>
-         
-         
-         
+
+
+
          <listBibl type="secondary">
-            <bibl> 
+            <bibl>
                <ptr target="bm:Fiaccadori2005Wazena"/>
-               
-            </bibl>  
-            
-            <bibl> 
+
+            </bibl>
+
+            <bibl>
                <ptr target="bm:Mordini1949Wazena"/>
                <citedRange unit="page">7-11</citedRange>
-               
-               
+
+
             </bibl>
-            <bibl> 
+            <bibl>
                <ptr target="bm:Fiaccadori2002Christians"/>
                <citedRange unit="page">243-252</citedRange>
-               
+
             </bibl>
          </listBibl>
       </body>
