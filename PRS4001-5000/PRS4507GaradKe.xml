@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Garäd Kǝnfu</title>
+            <title>Gārad Kǝnfu</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -43,19 +43,54 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2018-11-14">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
+               <persName xml:lang="gez" xml:id="n1" type="birth">ጋረድ፡ ክንፉ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Gārad Kǝnfu</persName>
+               <persName xml:lang="gez" xml:id="n2" type="horse">አባ፡ ግልብጥ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAbbā Gǝlbǝṭ</persName>
                <persName>
-                  
-                  Garäd Kǝnfu
+                  <roleName type="title">lǝǧ</roleName>
                </persName>
-               <occupation> lǝǧ </occupation>
+               <occupation type="political">rebel</occupation>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               
+               
+               <floruit notBefore="1839" notAfter="1860">He was the son of <persName ref="PRS5951Kenfuha"><roleName type="title">
+                  daǧǧāmāč</roleName> Kǝnfu Ḫaylu </persName> who ruled <placeName ref="LOC2481Dambey"/> 
+                  province from <date>1831</date> until his death in <date>1839</date>.Through him, Gārad Kǝnfu was related to 
+                  <roleName type="title">ʾaṣe</roleName><persName ref="PRS9430Tewodros"></persName>. 
+                  He is noted as one of the rebels against 
+                  <persName ref="PRS9430Tewodros"/>, in <placeName ref="LOC2481Dambey"/>
+                  and <placeName ref="LOC6186Walqay"/>. In <date>1860</date>, he emerged as as an ally of 
+                  <persName ref="PRS7542NeguseW"/>, 
+                  at the time he was the most prominent opponent of  <persName ref="PRS9430Tewodros"/>. 
+               </floruit>
+               <death when="1860">He was killed by <persName ref="PRS9430Tewodros"/> in  a battle in <placeName ref="LOC6171Waldeb"></placeName> in<date>1860</date>.</death>
             </person>
+            <listRelation>
+               <relation name="snap:SonOf"
+                  active="PRS4507GaradKe"
+                  passive="PRS5951Kenfuha"/>
+               
+            </listRelation>
          </listPerson>
+         
+         
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Crummey2005Garad"/>
+            </bibl>  
+               </listBibl>
+         
       </body>
    </text>
 </TEI>
+
+               
