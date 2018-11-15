@@ -44,6 +44,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2018-11-14">Complete record</change>
+         <change who="SG" when="2018-11-15">added information</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -70,14 +71,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <persName ref="PRS9430Tewodros"/>, in <placeName ref="LOC2481Dambey"/>
                   and <placeName ref="LOC6186Walqay"/>. In <date>1860</date>, he emerged as as an ally of 
                   <persName ref="PRS7542NeguseW"/>, 
-                  at the time he was the most prominent opponent of  <persName ref="PRS9430Tewodros"/>. 
+                  at the time he was the most prominent opponent of  <persName ref="PRS9430Tewodros"/>. In a skirmish 
+                  outside <placeName ref="LOC3577Gondar"/>, Gārad killed <persName ref="PRS7907Plowden"/>
                </floruit>
-               <death when="1860">He was killed by <persName ref="PRS9430Tewodros"/> in  a battle in <placeName ref="LOC6171Waldeb"></placeName> in<date>1860</date>.</death>
+               <death when="1860">He, in turn,  was killed  in revenge by <persName ref="PRS9430Tewodros"/> 
+                  in a battle in <placeName ref="LOC6171Waldeb"></placeName> in<date>1860</date>.</death>
             </person>
             <listRelation>
                <relation name="snap:SonOf"
                   active="PRS4507GaradKe"
                   passive="PRS5951Kenfuha"/>
+               <relation name="snap:AllianceWith" active="PRS4507GaradKe"
+                  passive="PRS7542NeguseW"/>
+               <relation name="snap:BrotherOf" active="PRS4507GaradKe" passive="PRS10308YelmaK"/>
+                  
+               <relation name="snap:BrotherOf" active="PRS4507GaradKe" passive="PRS6565Makwanne"/>
                
             </listRelation>
          </listPerson>
