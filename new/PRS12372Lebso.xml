@@ -1,12 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12040Keflo" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12372Lebso" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Kǝflo
-                </title>
+                <title>Lǝbso</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="SG"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,34 +41,41 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="SG" when="2018-04-30">Created entity</change>
+            <change who="SG" when="2018-11-19">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1" type="birth">ክፍሎ፡</persName>
-                  
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Kǝflo</persName>
-                    <persName>
-                        <roleName type="title">šum</roleName>
-                    </persName>
-       
-                
-                   
+                    <persName xml:lang="gez" xml:id="n1"  type="birth">ልብሶ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Lǝbso</persName>
                     <faith type="EOTC"/>
-                    <occupation type="political"/>
                     <nationality type="Ethiopia"/>
+                    <occupation type="military">soldier</occupation>
+                    
+                    
+                    
+                    
                     <birth/>
                     <death/>
-                    <floruit/>
+                    <floruit ></floruit>
                 </person>
                 <listRelation>
-                    <relation name="saws:isRelatedTo" active="PRS12040Keflo" passive="PRS7102Minas"/>
-                    <relation name="lawd:hasAttestation" active="PRS12037Yeshaq" passive="LIT3951ChronSusenyos"/>
+                    <relation name="snap:SonOf" active="PRS12372Lebso"  passive="PRS12373Roman"></relation>
+                    
+                    
+                    
+                    <relation name="saws:isRelatedTo" active="PRS12372Lebso" passive="PRS10434Yolyos"/>           
                 </listRelation>
+                
             </listPerson><!---->
+            
         </body>
     </text>
 </TEI>
+
+
+
+
+                    

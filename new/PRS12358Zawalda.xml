@@ -1,13 +1,13 @@
-<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12151Zakrestos" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12358Zawalda" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Zakrǝstos</title>
+                <title>Zawalda Māryām</title>
                 <editor role="generalEditor" key="AB"/>
-                <editor key="SG"/>
+                <editor key="DE"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
             <publicationStmt>
@@ -41,50 +41,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="SG" when="2018-07-17">Created entity</change>
+            <change who="DE" when="2018-11-12">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ዘክርስቶስ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Zakrǝstos
-                        
-                    </persName>
+                    <persName xml:lang="gez" xml:id="n1">ዘወልደ፡ ማርያም፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Zawalda Māryām</persName>
                     <faith type="EOTC"/>
-                    
                     <nationality type="Ethiopia"/>
-                    <occupation type="political">rebel</occupation>
-                    
-                    
-                    <floruit when="1609">
-                        He rebelled against <persName ref="PRS9038Susenyos"/> in <date>1609</date>. </floruit>
+                    <birth/>
+                    <death/>
                     <floruit/>
-                    <death when="1609"/>
                 </person>
-                <listRelation>
-                    
-                    <relation name="saws:isRelatedTo" active="PRS12151Zakrestos" passive="PRS9038Susenyos"/>
-                    <relation name="snap:SonOf" active="PRS12151Zakrestos" passive="PRS12153Abib"></relation>
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                </listRelation>
             </listPerson><!---->
         </body>
     </text>
 </TEI>
-
-
-
-
-
-
-
-                    
