@@ -11,8 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>ʾEwosṭatewos</title>
-            <editor key="SG"/>
-            <editor role="generalEditor" key="AB"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -45,10 +44,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
-         <change who="SG" when="2016-09-08">Complete record</change>
-         <change who="SG" when="2017-08-25">Correction and addition</change>
-         <change who="DR" when="2017-10-09">Corrected transliteration</change>
-      </revisionDesc>
+           </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -56,56 +52,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ኤዎስጣቴዎስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾEwosṭātewos</persName>
-               <persName xml:lang="gez" xml:id="n2" type="birth">ዮስጣቴዎስ፡</persName>
-               <persName xml:lang="gez" corresp="#n2" type="normalized">Yosṭātewos</persName>
-               <persName xml:lang="gez" xml:id="n3" type="birth">ማዕቀበ፡ እግዚእ፡</persName>
-               <persName xml:lang="gez" corresp="#n2" type="normalized">Māʿǝqaba ʾƎgziʾ</persName>
                <persName>
                   <roleName type="title">ʾabbā</roleName>
                </persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <occupation type="ecclesiastic">saint</occupation>
-               <birth when="1273">He was born in <date>15 July 1273</date> at <placeName ref="LOC4047Kelett">Kǝlǝtta ʾAwlǝʿalo</placeName>.</birth>
-               <floruit notBefore="1273" notAfter="1352">He was one of the most famous saints of Ethiopia and is known as the champion of the Jewish Sabbath in the Ethiopian Orthodox Church.</floruit>
-               <death when="1352" cert="medium"/>
+              
+               <floruit ></floruit>
+            
             </person>  
-            <listRelation>
-               
-               <relation name="snap:AllianceWith"
-                         active="PRS3932Ewostate"
-                         passive="PRS1906Ananyao"/>
-               <relation name="snap:AllianceWith"
-                         active="PRS3932Ewostate"
-                         passive="PRS1302Absadio"/>
-               <relation name="snap:AllianceWith"
-                         active="PRS3932Ewostate"
-                         passive="PRS6768Marqorew"/>
-               <relation name="ecrm:P129i_is_subject_of"
-                         active="PRS3932Ewostate"
-                         passive="LIT1438GadlaE"/>
-            </listRelation>
-         </listPerson>
-         <listBibl type="editions">
-            <bibl>
-               <ptr target="bm:ContiRossini1905Anorewos"/>
-            </bibl>
-         </listBibl>
-         <listBibl type="secondary">
-            <bibl> 
-               <ptr target="bm:Fiaccadori2005Ewostatewos"/>
-            </bibl>
-            <bibl> 
-               <ptr target="bm:Taddesse1972Church"/>
-               <citedRange unit="page">77, 107, 109, 116, 164, 197-8, 206-8, 225</citedRange>
-            </bibl> 
-            <bibl> 
-               <ptr target="bm:Tedeschi1991EthiopianPre"/>
-               <citedRange unit="page">1050a-1051b</citedRange>
-            </bibl> 
-         
-         
-         </listBibl>
-      </body>
+             </listPerson>
+               </body>
    </text>
 </TEI>
