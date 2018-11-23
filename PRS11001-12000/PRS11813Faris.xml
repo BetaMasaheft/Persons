@@ -46,6 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="SG" when="2018-01-15">Created entity</change>
+            <change who="SG" when="2018-11-23">Complete inserting data</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -53,13 +54,35 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPerson>
                 <person sex="1">
                   
-                        <persName xml:lang="gez" xml:id="n1">ፋሪስ፡</persName>
+                        <persName xml:lang="gez" xml:id="n1" type="birth">ፋሪስ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Fāris</persName>
                         <nationality type="Ethiopia"/>
                         <faith type="EOTC"/>
                     <occupation type="political">daǧǧāzmač</occupation>
+                    <floruit notBefore="1597" notAfter="1605">He was a minor feudal lord from a locality
+                        <placeName ref="LOC3440Gesse"/> in the district of <placeName ref="LOC4544Manz"/> of the province of 
+                        <placeName ref="LOC5597Sawa"/>. As his life-story exemplifies, the struggle for power that followed the death 
+                        of King <persName ref="PRS8550sardaDe"/> could give a war lord vast opportunities for booty and promotion, 
+                        but for premature death as well. In <date>1602</date>, with 800 of his warriors, 
+                        he came to one of the pretenders to the throne, the future <persName ref="PRS9038Susenyos">
+                            <roleName type="title">ʾaṣe</roleName>Susǝnyos</persName>. 
+                        However, <persName ref="PRS9038Susenyos">
+                                <roleName type="title">ʾaṣe</roleName>Susǝnyos</persName> suspected perfidy, arrested him and looted his native 
+                        <placeName ref="LOC4544Manz"/>. Faris fled but after the death of 
+                        <persName ref="PRS10513Zadenge"/> in <date>1604</date>, he came to <persName ref="PRS9038Susenyos"/>
+                        again and concluded an alliance with him. However, after <date>1605</date>, he decided to go over 
+                        <persName ref="PRS9038Susenyos"/>'s rival <persName ref="PRS10198Yaeqob"> <roleName type="title">ʾaṣe</roleName> Yāʿqob</persName>,
+                        but was arrested again and once more fled to his native
+                        <placeName ref="LOC4544Manz"/>. When <persName ref="PRS9038Susenyos"/> came there in 
+                        December <date>1605</date>, Faris sought refuge on an amba called 
+                        <placeName ref="LOC2591Dayar"/> and was killed during its siege.
+                    </floruit>
+                    <death when="1605"/>
                     </person>
                     <listRelation>
+                        <relation name="saws:isRelatedTo" active="PRS11813Faris" passive="PRS9038Susenyos">
+                           
+                        </relation>
                         <relation name="lawd:hasAttestation"
                          active="PRS11813Faris"
                          passive="LIT3951ChronSusenyos"/>
@@ -83,6 +106,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <ptr target="bm:Boavida2011PaezII"/>
                     <citedRange unit="page">206-259</citedRange>
                 </bibl>
+                <listBibl type="secondary"
+                    ><bibl><ptr target="bm:Chernestsov200Faris"/>
+                    </bibl></listBibl>
                 
                 
             </listBibl>
