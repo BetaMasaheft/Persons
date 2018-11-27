@@ -1,7 +1,7 @@
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12362Malka_Sedeq" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12362MalkaSedeq" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -48,7 +48,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1"> መልከ፡ ጼዴቅ፡</persName>
+                    <persName xml:lang="gez" xml:id="n1"  type="birth"> መልከ፡ ጼዴቅ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Malka Ṣedeq</persName>
                     <faith type="EOTC"/>
                     <occupation type="ecclesiastic"/>
@@ -58,7 +58,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <floruit/>
                 </person>
                 <listRelation>
-                    <relation name="saws:hasOwned" active="PRS12362Malka_Sedeq" passive="IVSuhtelen 255"/>
+                    <relation name="saws:hasOwned" active="PRS12362MalkaSedeq" passive="IVSuhtelen 255"/>
                 </listRelation>
             </listPerson><!---->
         </body>
