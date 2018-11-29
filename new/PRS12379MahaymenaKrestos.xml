@@ -1,13 +1,13 @@
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12362Malka_Sedeq" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12379MahaymenaKrestos" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Malka Sedeq</title>
+                <title>Maḫāymǝna Krǝstos</title>
                 <editor role="generalEditor" key="AB"/>
-                <editor key="DN"/>
+                <editor key="SG"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
             <publicationStmt>
@@ -41,26 +41,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="DN" when="2018-11-13">Created entity</change>
+            <change who="SG" when="2018-11-27">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1"> መልከ፡ ጼዴቅ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Malka Ṣedeq</persName>
+                    <persName xml:lang="gez" xml:id="n1" type="birth">መሃይምነ፡ ክርስቶስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Maḫāymǝna Krǝstos</persName>
                     <faith type="EOTC"/>
-                    <occupation type="ecclesiastic"/>
-                    <nationality type="Ethiopia"/>
+                    
                     <birth/>
                     <death/>
                     <floruit/>
                 </person>
-                <listRelation>
-                    <relation name="saws:hasOwned" active="PRS12362Malka_Sedeq" passive="IVSuhtelen 255"/>
-                </listRelation>
+                
+                <listRelation> <relation name="saws:isRelatedTo" active="PRS12379MahaymenaKrestos" passive="PRS9038Susenyos"/>
+                    </listRelation>
             </listPerson><!---->
         </body>
     </text>
 </TEI>
+                    

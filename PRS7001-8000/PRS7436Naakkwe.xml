@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Näʾakkwǝto Läʾab</title>
+            <title>Naʾakkʷǝto Laʾab</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -26,8 +26,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </publicationStmt>
          <sourceDesc>
             <p>Prosopography of Ethiopian Written tradition</p>
-            <p>A TEI file converted from the ETHIO-authority
-                                                  google spreadsheet</p>
+            <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -39,9 +38,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change who="JG" when="2018-11-27">Edited transliteration</change>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
-         <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
+         <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
       </revisionDesc>
    </teiHeader>
@@ -49,11 +48,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Näʾakkwǝto Läʾab
-               </persName>
-               <occupation> abba </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ነአኵቶ፡ ለአብ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Naʾakkʷǝto Laʾab</persName>
+               <occupation type="ecclesiastic">abba</occupation>
             </person>
          </listPerson>
       </body>
