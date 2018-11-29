@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12381Eskenderawit" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12382MotaGarad" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ʾƎskǝndǝrāwit</title>
+                <title>Moṭā Garād</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="SG"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -41,24 +41,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="SG" when="2018-11-27">Created entity</change>
+            <change who="SG" when="2018-11-29">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person sex="2">
-                    <persName xml:lang="gez" xml:id="n1" type="birth">እስክንድራዊት፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">ʾƎskǝndǝrāwit</persName>
+                <person sex="1">
+                    <persName xml:lang="gez" xml:id="n1" type="birth"> ሞጣ፡ ገራድ፡ </persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Moṭā Garād</persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
                     <birth/>
                     <death/>
                     <floruit/>
                 </person>
-                <listRelation><relation name="bm:wifeOf" active="PRS12381Eskenderawit" passive="PRS12380QentesSeno"/>
+                <listRelation>
+                    <relation name="saws:isRelatedTo" active="PRS12382MotaGarad" passive="PRS5928KefloK"></relation>
+                    <relation name="snap:AllianceWith" active="PRS12382MotaGarad" passive="PRS10343Yeshaq"></relation>
                 </listRelation>
             </listPerson><!---->
         </body>
     </text>
 </TEI>
+                  
