@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
@@ -47,22 +47,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
-            <person sex="2">
+            <person sex="2" sameAs="Q59310659s">
                <persName xml:lang="gez" type="regnal" xml:id="n1">አድማስ፡ ሞገሳ</persName>
-               <persName> 
-                  <roleName type="title">ʾǝtege</roleName> 
+               <persName>
+                  <roleName type="title">ʾǝtege</roleName>
                </persName>
                <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAdmās Mogasā</persName>
                <persName xml:lang="gez" xml:id="n2">ሥሉስ፡ ኃይሌ</persName>
                <persName corresp="#n2">Śǝllus Ḫāyle</persName>
-              
+
                <occupation type="ruler">queen</occupation>
                <birth when="1530"/>
                <floruit notBefore="1563" notAfter="1597">ʾAdmās Mogasā married King <persName ref="PRS7102Minas">Minās</persName> in <date>1552</date> and became the queen when he was enthroned in <date>1559</date>.</floruit>
                <death when="1597" evidence="internal">ʾAdmās Mogasā died during the reign of her son, <persName ref="PRS8550sardaDe">Śarḍa Dǝngǝl</persName>.</death>
-               
-           </person> 
-            
+
+           </person>
+
             <listRelation>
                <relation name="bm:wifeOf" active="PRS1429AdmasMo" passive="PRS7102Minas"/>
                <relation name="snap:MotherOf"
@@ -72,7 +72,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          active="PRS1429AdmasMo"
                          passive="PRS9038Susenyos"/>
             </listRelation>
-            
+
 
          </listPerson>
       </body>
