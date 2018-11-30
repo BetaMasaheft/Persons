@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Fiqṭor</title>
-            <editor key="SG"/>   
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
@@ -44,36 +44,36 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
          <change who="SG" when="2016-05-20">completed the record</change>
-         
+
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-        
-                  
+            <person sex="1" sameAs="Q59312918">
+
+
                   <persName xml:lang="gez" xml:id="n1">ፊቅጦር፡</persName>
                   <persName xml:lang="gez" type="normalized" corresp="#n1">Fiqṭor</persName>
                   <persName>
                   <roleName type="title">abeto</roleName>
                </persName>
-         
+
                <occupation type="ruler">prince</occupation>
-           
+
                <birth when="1518" precision="medium"/>
-               <floruit notBefore="1518" notAfter="1539">He was the eldest son of King 
+               <floruit notBefore="1518" notAfter="1539">He was the eldest son of King
                   <persName ref="PRS6229LebnaDe">
                   Lǝbna Dǝngǝl</persName>. He died childless.
-                  Immediately afterward his brother <persName ref="PRS7102Minas"/> was confined 
-                  to <placeName ref="LOC1390AmbaGe"/> which was later stormed by the Muslims, its inhabitants were massacred. 
+                  Immediately afterward his brother <persName ref="PRS7102Minas"/> was confined
+                  to <placeName ref="LOC1390AmbaGe"/> which was later stormed by the Muslims, its inhabitants were massacred.
                   </floruit>
-               <death when="1539" evidence="internal"> He was killed by <persName ref="PRS9707Utmanb">ʿUṯmān b. Ǧawhar</persName>, one of the warlords 
+               <death when="1539" evidence="internal"> He was killed by <persName ref="PRS9707Utmanb">ʿUṯmān b. Ǧawhar</persName>, one of the warlords
                   of <persName ref="PRS1522Ahmadb">ʾAḥmad b. ʾIbrāhīm al-Ġāzī</persName> in <date>1539</date>
                </death>
-          
+
             </person>
-                   
+
             <listRelation>
                <relation name="snap:SonOf" active="PRS4121Fiqtor" passive="PRS6229LebnaDe"/>
                   <relation name="snap:SonOf" active="PRS4121Fiqtor" passive="PRS8276SablaWa"/>
@@ -84,18 +84,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                    <relation name="snap:BrotherOf"
                          active="PRS4121Fiqtor"
                          passive="PRS10191Yaeqob"/>
-           
-           
+
+
             </listRelation>
-            
-            
+
+
          </listPerson>
          <listBibl type="secondary">
-            <bibl> 
+            <bibl>
                <ptr target="bm:Chernetsov2005Fiqtor"/>
-            </bibl>  
+            </bibl>
             </listBibl>
-         
+
       </body>
    </text>
 </TEI>
