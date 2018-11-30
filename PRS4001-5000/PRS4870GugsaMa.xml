@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
@@ -52,15 +52,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-          
-                 
+            <person sex="1" sameAs="Q59313443">
+
+
                <persName xml:lang="gez" xml:id="n1" type="birth">ጉግሳ፡ መርሳ፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Gugsā Marsā</persName>
                <persName>
                   <roleName type="title">rās</roleName>
                </persName>
- 
+
                <occupation type="ruler">governor</occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
@@ -69,9 +69,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <placeName ref="LOC2385DabraT">Dabǝra Tābor</placeName> which was founded by him in <date> around 1802 </date>
                </residence>
 
-             
-               <floruit notBefore="1800" notAfter="1825">He became one of the greatest rulers of  Warrasek (Yaǧǧu) in<date>1800</date> and he was said to be "Gugsā the Great". 
-                  He was a Muslim and later converted to Christianity. He acted as a kingmaker throughout his rule. 
+
+               <floruit notBefore="1800" notAfter="1825">He became one of the greatest rulers of  Warrasek (Yaǧǧu) in<date>1800</date> and he was said to be "Gugsā the Great".
+                  He was a Muslim and later converted to Christianity. He acted as a kingmaker throughout his rule.
                   He had an important place in the history of land tenure system in the first quarter of the nineteenth century.
                 </floruit>
                <death when="1825"/>
@@ -86,35 +86,35 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="snap:FatherOf"
                          active="PRS4870GugsaMa"
                          passive="PRS3617DoriGug"/>
-              
+
                <relation name="rel:enemyOf" active="PRS4870GugsaMa" passive="PRS9978Waldase"/>
-               
+
             </listRelation>
          </listPerson>
          <listBibl type="editions">
             <bibl>
                <ptr target="bm:Blundell1922Chronicle"/>
             </bibl>
-        
+
 
             <bibl>
                <ptr target="bm:Budge1966Ethistory"/>
-            </bibl>  
+            </bibl>
          </listBibl>
          <listBibl type="secondary">
-            <bibl> 
+            <bibl>
                <ptr target="bm:Crummey2000land"/>
-            </bibl>  
-        
-     
-            <bibl> 
+            </bibl>
+
+
+            <bibl>
                <ptr target="bm:Abir1970Princes"/>
-            </bibl>  
-       
-     
-            <bibl> 
+            </bibl>
+
+
+            <bibl>
                <ptr target="bm:CrummeyundRed2005GugsaMarsa"/>
-            </bibl>  
+            </bibl>
             </listBibl>
       </body>
    </text>
