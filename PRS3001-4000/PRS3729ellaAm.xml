@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
@@ -13,7 +13,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <title>ʾƎlla ʿAmidā I</title>
             <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
-            
+
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -53,39 +53,39 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
+            <person sex="1" sameAs="Q714383">
                <persName xml:lang="gez" xml:id="n1" type="birth">እለ፡ ዐሚዳ ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾƎlla ʿAmidā </persName>
                <persName xml:lang="gez" xml:id="n2" type="birth">እሌ፡ ዐሚዳ ፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">ʾƎlle ʿAmidā </persName>
                <persName xml:lang="gez" xml:id="n3" type="birth">እለ፡ ዐለዳ ፡</persName>
                <persName xml:lang="gez" corresp="#n3" type="normalized">ʾƎlla ʿAladā</persName>
-               
+
                <occupation type="ruler">King</occupation>
                <nationality type="Aksumite"/>
                <faith type="Christianity"/>
-             
-              
-               <floruit notBefore="0300" notAfter="0340">He was a king of <placeName ref="LOC1310Aksum"/> in the early 4th century.  
+
+
+               <floruit notBefore="0300" notAfter="0340">He was a king of <placeName ref="LOC1310Aksum"/> in the early 4th century.
                </floruit>
             </person>
                <listRelation>
                   <relation name="snap:FatherOf" active="PRS3729ellaAm" passive="PRS3938Ezana"/>
-   
-            
+
+
                </listRelation>
          </listPerson>
          <listBibl type="secondary">
-            <bibl> 
+            <bibl>
                <ptr target="bm:Fiaccadori2005EllaAmida"/>
-               
-            </bibl>  
-            
-            <bibl> 
+
+            </bibl>
+
+            <bibl>
                <ptr target="bm:Dillmann1880Konig"/>
                <citedRange unit="page">1-51</citedRange>
-               
-            </bibl>  
+
+            </bibl>
          </listBibl>
       </body>
    </text>
