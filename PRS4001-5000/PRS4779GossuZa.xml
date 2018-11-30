@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
@@ -52,22 +52,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-        
+            <person sex="1" sameAs="Q59313342">
+
                <persName>Goššu Zawde</persName>
                <persName xml:lang="gez" xml:id="n1" type="birth">ጐሹ፡ ዘውዴ፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Goššu Zawde</persName>
                   <persName>
                   <roleName type="title">Daǧǧāzmāč</roleName>
                </persName>
-          
+
                <occupation type="ruler">governor</occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <birth notBefore="1780" notAfter="1790"/>
                <floruit when="1850" evidence="internal">He was the governor of <placeName ref="LOC3549Gojjam">Goǧǧām</placeName> and
-                  <placeName ref="LOC2488Damot">Dāmot</placeName> in <date>1850</date> and one of the major lords during the last decades of the 
-                  Zamana Masāfǝnt. He was the commissioner of the collection of royal chronicles (a copy of Daǧǧāzmāč Ḫāylu compilation) preserved in 
+                  <placeName ref="LOC2488Damot">Dāmot</placeName> in <date>1850</date> and one of the major lords during the last decades of the
+                  Zamana Masāfǝnt. He was the commissioner of the collection of royal chronicles (a copy of Daǧǧāzmāč Ḫāylu compilation) preserved in
                   <placeName ref="INS0001BL">British Library </placeName> with <ref type="mss" corresp="BLorient821"/>.
                </floruit>
                <death when="1852"/>
@@ -76,7 +76,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="snap:GrandsonOf"
                          active="PRS4779GossuZa"
                          passive="PRS2682BerhanM"/>
-    
+
                <relation name="rel:enemyOf" active="PRS4779GossuZa" passive="PRS4870GugsaMa"/>
                <relation name="rel:enemyOf"
                          active="PRS4779GossuZa"
@@ -94,22 +94,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listBibl type="editions">
             <bibl>
                <ptr target="bm:Budge1966Ethistory"/>
-            </bibl>  
+            </bibl>
          </listBibl>
          <listBibl type="secondary">
-            <bibl> 
+            <bibl>
                <ptr target="bm:Girma2014Goggamchronicle"/>
-            </bibl>  
+            </bibl>
          </listBibl>
          <listBibl type="secondary">
-            <bibl> 
+            <bibl>
                <ptr target="bm:Abir1970Princes"/>
-            </bibl>  
+            </bibl>
          </listBibl>
          <listBibl type="secondary">
-            <bibl> 
+            <bibl>
                <ptr target="bm:Sokolinskaia2005GossuZawde"/>
-            </bibl>  
+            </bibl>
          </listBibl>
       </body>
    </text>
