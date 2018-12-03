@@ -11,6 +11,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Bukko (Buko)</title>
+            <editor key="SG"/>
+            <editor role="generalEditor" key="AB"/>
+            
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -43,17 +46,59 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2018-12-03">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth"> ቡኮ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Bukko</persName>
+               <persName><roleName type="title">daǧǧāzmāč, ṣaḥafe lām</roleName></persName>
+               <nationality type="Ethiopia"/>
+               
                   
-                  Bukko (Buko)
-               </persName>
-               <occupation> däǧǧ. </occupation>
+                
+               
+               <occupation type="military">leader</occupation>
+               <floruit notBefore="1617" notAfter="1627">He was one of the first <persName ref="ETH1973Oromo"/> 
+                  war leaders recruited in <date>1617</date> to the royal service of King
+                  <persName ref="PRS9038Susenyos"/> . Bukko proved to be indispensable as general for the Emperor 
+                  whose territories were endangered by regular <persName ref="ETH1973Oromo"/> raids
+                  and whose <persName ref="ETH1126Amhara"/> warriors were unaccustomed to 
+                  <persName ref="ETH1973Oromo"/> warfare. So he was appointed both <roleName type="title">daǧǧāzmāč</roleName>,
+                  <roleName type="title">ṣaḥafe lām</roleName> of <placeName ref="LOC2488Damot">Dāmot</placeName> where his main duty was 
+                  to repel <persName ref="ETH1973Oromo"/> raids into the province under his government. Bukko rather being 
+                  detached from the burning conflict between  Catholic converts and Orthodox Christians in the country, 
+                  was often sent by <persName ref="PRS9038Susenyos"/> to render military assistance to his staunch 
+                  Catholic half brother <persName ref="PRS8681SeelaK"/>,
+                  the governor of <placeName ref="LOC3549Gojjam"/> much hated by the Orthodox Christians. </floruit>
+               <death when="1627">He was killed on 
+                  <date>25-09-1627</date>in an encounter with a raiding <persName ref="ETH1973Oromo"/> tribe. 
+               </death>
+               <listRelation><relation name="snap:AllianceWith" active="PRS2927BukkoB" passive="PRS8681SeelaK"></relation>
+                  <relation name="saws:isRelatedTo" active="PRS2927BukkoB"  passive="PRS8681SeelaK"/>
+               </listRelation>
+               <listBibl type="editions">
+                  <bibl>
+                     <ptr target="bm:Pereira1892Susenyos"/>
+                  </bibl>
+               </listBibl>
+                  <listBibl type="translation">
+                     <bibl>
+                        <ptr target="bm:Chernetsov2003Bukko"/>
+                        
+                     </bibl>
+                  </listBibl>
+                  
+                  
+          
+               <listBibl type="secondary">
+                  <bibl><ptr target="bm:Chernetsov2003Bukko"/>
+                  </bibl>
+               </listBibl>
+         
             </person>
          </listPerson>
       </body>
