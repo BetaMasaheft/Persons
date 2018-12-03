@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
@@ -13,7 +13,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <title>ʿEbānā</title>
             <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
-            
+
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -52,35 +52,35 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-              
+            <person sex="1" sameAs="Q888332">
+
                <persName xml:lang="gez" xml:id="n1" type="birth">ዔባና፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʿEbānā</persName>
                <persName xml:lang="gez" xml:id="n2" type="alt">ዔስባዔል፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">ʿEsbāʿel</persName>
                <persName xml:lang="gez" xml:id="n3" type="alt">አናዔብ፡</persName>
                <persName xml:lang="gez" corresp="#n3" type="normalized">ʾAnāʿeb</persName>
-               
-                  
+
+
                   <occupation type="ruler">king</occupation>
                   <nationality type="Aksumite"/>
                   <faith type="Christianity"/>
-                  
+
                <floruit notBefore="0400" notAfter="0450">He was an early 5th century king of <placeName ref="LOC1310Aksum"/> known from his coinage.</floruit>
-                  
+
                </person>
          </listPerson>
          <listBibl type="secondary">
-            <bibl> 
+            <bibl>
                <ptr target="bm:Hahn2005Ebana"/>
-               
-            </bibl>  
-            
-            <bibl> 
+
+            </bibl>
+
+            <bibl>
                <ptr target="bm:MunroHay1979Kings"/>
                <citedRange unit="page">21-30</citedRange>
-               
-            </bibl>  
+
+            </bibl>
          </listBibl>
       </body>
    </text>

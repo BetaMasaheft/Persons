@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
@@ -13,7 +13,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <title>Ḥarbāy</title>
             <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
-            
+
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -52,8 +52,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-        
+            <person sex="1" sameAs="Q59313600">
+
                <persName xml:lang="gez" xml:id="n1" type="birth">ሐርባይ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Ḥarbāy</persName>
                  <persName xml:lang="gez" xml:id="n1.1" type="birth">ገብረ፡ ማርያም፡</persName>
@@ -65,10 +65,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
-         
+
                   <occupation type="ruler">a saint king</occupation>
-                 
-               <floruit when="1093" evidence="internal">He succeeded his cousin, a saint King <persName ref="PRS10325Yemreha">Yǝmrǝḥanna Krǝstos</persName>. 
+
+               <floruit when="1093" evidence="internal">He succeeded his cousin, a saint King <persName ref="PRS10325Yemreha">Yǝmrǝḥanna Krǝstos</persName>.
                      He was known for his reform policy with the election of a metropolitan.
                   </floruit>
                   <death when="1133" cert="low" evidence="internal">around 1133</death>
@@ -85,20 +85,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <ptr target="bm:Basset1882Chronicle"/>
             </bibl>
 
-    
+
             <bibl>
                <ptr target="bm:Perruchon1892Lalibela"/>
             </bibl>
-         </listBibl> 
+         </listBibl>
          <listBibl type="secondary">
-            <bibl> 
+            <bibl>
                <ptr target="bm:Fiaccadori2005Harbay"/>
-            </bibl>  
-    
-               <bibl> 
+            </bibl>
+
+               <bibl>
                   <ptr target="bm:Sergew1972Ethiopianhistory"/>
-               </bibl> 
-   
+               </bibl>
+
          </listBibl>
       </body>
    </text>
