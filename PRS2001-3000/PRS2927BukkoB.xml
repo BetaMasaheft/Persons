@@ -47,6 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2018-12-03">Complete record</change>
+         <change who="SG" when="2018-12-04">added to bibliography</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -87,7 +88,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </listBibl>
                   <listBibl type="translation">
                      <bibl>
-                        <ptr target="bm:Chernetsov2003Bukko"/>
+                        <ptr target="bm:Pereira1900Susenyos"/>
+                        
+                     </bibl>
+                     <bibl>
+                        <ptr target="bm:Alemu2013Susenyos"/>
                         
                      </bibl>
                   </listBibl>
@@ -97,6 +102,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <listBibl type="secondary">
                   <bibl><ptr target="bm:Chernetsov2003Bukko"/>
                   </bibl>
+                  <bibl><ptr target="bm:Boavida2011PaezII"/>
+                     <citedRange unit="page">206-259</citedRange>
+                     
+                  </bibl>
+                  
                </listBibl>
          
             </person>
