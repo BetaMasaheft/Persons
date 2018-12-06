@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
@@ -52,14 +52,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-            
+            <person sameAs="Q59491971" sex="1">
+
                <persName xml:lang="gez" xml:id="n1" type="birth">ገብረ፡ መስቀል፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Gabra Masqal</persName>
-                  
+
                <persName xml:lang="gez" xml:id="n2" type="reignal">ቈስጠንጢኖስ፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">Qʷasṭanṭinos</persName>
-        
+
                   <persName>
                   <roleName type="title">ʾaṣe</roleName>
                </persName>
@@ -70,15 +70,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <placeName ref="LOC1310Aksum">ʾAksum</placeName>
                </residence>
                <floruit notBefore="0534" notAfter="0548">He was the younger
-                  son of King <persName ref="PRS5841Kaleb">Kāleb</persName> and 
-                  a holy king of Aksumite time reigned from <date>534</date> to 
-                  <date>548</date>. 
+                  son of King <persName ref="PRS5841Kaleb">Kāleb</persName> and
+                  a holy king of Aksumite time reigned from <date>534</date> to
+                  <date>548</date>.
                   </floruit>
-           
+
                </person>
                <listRelation>
                   <relation name="snap:SonOf" active="PRS4327GabraMa" passive="PRS5841Kaleb"/>
-              
+
                   <relation name="snap:AllianceWith"
                          active="PRS4327GabraMa"
                          passive="PRS10581Zamika"/>
@@ -87,28 +87,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          passive="LIT1453GadlaG"/>
                  </listRelation>
          </listPerson>
-         
+
          <listBibl type="editions">
             <bibl>
                <ptr target="bm:ContiRossini1909Listes"/>
-       
+
             </bibl>
             <bibl>
-               
+
                <ptr target="bm:Sergew1972Ethiopianhistory"/>
                <citedRange unit="page">14, 40, 117, 118, 159, 160, 161, 163, 164, 166, 266</citedRange>
             </bibl>
-            
-            
+
+
          </listBibl>
          <listBibl type="secondary">
-            <bibl> 
+            <bibl>
                <ptr target="bm:MunroHayRed2005GabraMasqal"/>
-            </bibl>  
-         </listBibl>  
-         
-         
-         
+            </bibl>
+         </listBibl>
+
+
+
       </body>
    </text>
 </TEI>
