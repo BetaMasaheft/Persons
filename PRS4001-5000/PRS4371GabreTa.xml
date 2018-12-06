@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
@@ -13,7 +13,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <title>Gabre Tasfā</title>
             <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
-            
+
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -52,14 +52,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-         
+            <person sameAs="Q59492140" sex="1">
+
                <persName xml:lang="gez" xml:id="n1" type="birth">ገብሬ፡ ተስፋ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Gabre Tasfā</persName>
                <persName>
                   <roleName type="title">rās</roleName>
                </persName>
-               
+
                <occupation type="ruler">governor</occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
@@ -67,7 +67,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <floruit notBefore="1791" notAfter="1816">He was a hereditary and practically independent ruler of
                   <placeName ref="LOC5671Semen"/>.</floruit>
 
-               <death when="1816">He died at the age of 80 in <date>1816</date>. 
+               <death when="1816">He died at the age of 80 in <date>1816</date>.
                   He was one of the those mighty lords who chose and changed Ethiopian monarchs at
                   will during the period of Zamana Masāfǝnt.</death>
             </person>
@@ -85,13 +85,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </listRelation>
          </listPerson>
          <listBibl type="secondary">
-            <bibl> 
+            <bibl>
                <ptr target="bm:Chernetsov2005Gabre"/>
-            </bibl>  
+            </bibl>
             <bibl>
                <ptr target="bm:Blundell1922Chronicle"/>
             </bibl>
-            
+
          </listBibl>
       </body>
    </text>
