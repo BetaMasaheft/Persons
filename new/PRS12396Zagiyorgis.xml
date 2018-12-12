@@ -48,14 +48,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Zagiyorgis</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
-                    <faith type=""/>
-                    <birth/>
+                    <persName xml:lang="gez" xml:id="n1" type="birth">ዘጊዮርጊስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Zagiyorgis</persName>
+                          <birth/>
                     <death/>
                     <floruit/>
                 </person>
-            </listPerson><!---->
+                <listRelation>
+                    <relation name="saws:isRelatedTo" active="PRS12396Zagiyorgis" passive="PRS9038Susenyos"></relation>
+                </listRelation>
+            </listPerson>
+            <!---->
         </body>
     </text>
 </TEI>
