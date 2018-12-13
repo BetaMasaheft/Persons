@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
@@ -50,8 +50,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-           
+            <person sameAs="Q59679514" sex="1">
+
                <persName xml:lang="gez" xml:id="n1" type="birth">መከትር፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Makattǝr</persName>
                <persName>
@@ -60,9 +60,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <nationality type="Ethiopia"/>
                <faith type="Islam"/>
                <occupation type="ruler">sultan</occupation>
-             
-               
-               <floruit> He was the last sultan of  the region of 
+
+
+               <floruit> He was the last sultan of  the region of
                   <placeName ref="LOC4732Mazaga">Mazagā</placeName> which was annexed into the Christian empire in <date>1559</date>
                </floruit>
                <death>1557</death>
@@ -79,17 +79,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          passive="PRS4428Galawdew"/>
                </listRelation>
          </listPerson>
-        
+
          <listBibl type="editions">
             <bibl>
                <ptr target="bm:ContiRossini1918Pawlos"/>
             </bibl>
          </listBibl>
-         
+
          <listBibl type="secondary">
-            <bibl> 
+            <bibl>
                <ptr target="bm:Nosnitsin2005Gaewa"/>
-            </bibl>  
+            </bibl>
          </listBibl>
       </body>
    </text>
