@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
@@ -49,20 +49,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-           
+            <person sameAs="Q59681990" sex="1">
+
                      <persName xml:lang="gez" xml:id="n1" type="birth">ነአኵቶ፡ ለአብ፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Naʾakkʷǝto Laʾab</persName>
                <persName>
                   <roleName type="title">ʾaṣe</roleName>
                </persName>
-               
+
                   <occupation type="ruler">a saint king</occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                   <birth>1203</birth>
-               <floruit when="1225" evidence="internal">He succeeded his uncle a saint King 
-                  <persName ref="PRS6152Lalibala">Lalibalā</persName>. 
+               <floruit when="1225" evidence="internal">He succeeded his uncle a saint King
+                  <persName ref="PRS6152Lalibala">Lalibalā</persName>.
                     </floruit>
                   <death when="1250" cert="low" evidence="internal">around 1250</death>
             </person>
@@ -86,14 +86,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <bibl>
                <ptr target="bm:ContiRossini1943NaakwetoLaab"/>
             </bibl>
-         </listBibl> 
+         </listBibl>
          <listBibl type="secondary">
-            <bibl> 
+            <bibl>
                <ptr target="bm:Derat2007NaakkwetoLaab"/>
-            </bibl>  
-            <bibl> 
+            </bibl>
+            <bibl>
                <ptr target="bm:Sergew1972Ethiopianhistory"/>
-               </bibl>  
+               </bibl>
          </listBibl>
          </body>
    </text>
