@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
@@ -47,13 +47,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-08-02">Complete record</change>
          <change who="SG" when="2016-12-02">Complete record</change>
-       
+
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
+            <person sameAs="Q59677917" sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ድልናዖድ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Dǝlnāʿod</persName>
                <persName xml:lang="gez" xml:id="n2" type="birth">ድልነዓድ፡</persName>
@@ -63,12 +63,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
-               
+
                <occupation type="ruler">Emperor</occupation>
-             
-               <floruit> According to the Ethiopian king lists, he was the last king of ʾAksum before the Zāgʷe dynasty. 
+
+               <floruit> According to the Ethiopian king lists, he was the last king of ʾAksum before the Zāgʷe dynasty.
                </floruit>
-              
+
                </person>
             <listRelation>
                <relation name="snap:SonOf" active="PRS3493Delnaod" passive="PRS3468Degnagan"/>
@@ -85,16 +85,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <ptr target="bm:Basset1882Chronicle"/>
             </bibl>
          </listBibl>
-        
+
          <listBibl type="secondary">
-            <bibl> 
+            <bibl>
                <ptr target="bm:Munro-Hay2005Delnaod"/>
-            </bibl>  
-           
-               <bibl> 
+            </bibl>
+
+               <bibl>
                   <ptr target="bm:Sergew1972Ethiopianhistory"/>
-               </bibl> 
-           
+               </bibl>
+
          </listBibl>
       </body>
    </text>
