@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
@@ -48,21 +48,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
-            <person sex="2">
-       
+            <person sameAs="Q59682225" sex="2">
+
                      <persName xml:lang="gez" xml:id="n1" type="birth">ሮምና</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Romnā</persName>
                <persName>
                   <roleName type="title">ʾǝmmabet</roleName>
                </persName>
-              
+
                <occupation type="ruler">queen </occupation>
                <birth when="1471"/>
-               <floruit when="1478" evidence="internal">She assumed  a regency to her son and young 
-                  King <persName ref="PRS3874eskender">ʾƎskǝndǝr</persName>in<date>1494</date>. 
+               <floruit when="1478" evidence="internal">She assumed  a regency to her son and young
+                  King <persName ref="PRS3874eskender">ʾƎskǝndǝr</persName>in<date>1494</date>.
                   She developed a close relationship with the monastery of <placeName ref="INS0341DL">Dabra Libānos</placeName>
                </floruit>
-        
+
             </person>
             <listRelation>
                <relation name="bm:wifeOf" active="PRS8203Romna" passive="PRS2334BaedaM"/>
@@ -78,16 +78,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <bibl>
                <ptr target="bm:Kur1972MarhaKrestos"/>
             </bibl>
-       
-     
+
+
             <bibl>
                <ptr target="bm:Perruchon1894EskEnder"/>
             </bibl>
-         </listBibl> 
+         </listBibl>
          <listBibl type="secondary">
-            <bibl> 
+            <bibl>
                <ptr target="bm:Derat2010Romna"/>
-            </bibl>  
+            </bibl>
          </listBibl>
       </body>
    </text>
