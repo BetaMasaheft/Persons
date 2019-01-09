@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
@@ -13,7 +13,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <title>ʾAḥmad an-Naǧāšī</title>
             <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
-            
+
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -52,9 +52,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-              
-                  
+            <person sameAs="Q59958202" sex="1">
+
+
                   <persName xml:lang="gez" xml:id="n1" type="birth">አሕመድ፡ አን-ነጋሺ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAḥmad an-Naǧāšī</persName>
                <persName xml:lang="gez" xml:id="n2" type="alt">ነጋሺ፡</persName>
@@ -62,34 +62,34 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <persName>
                   <roleName type="title">nǝguś</roleName>
                </persName>
-                  
+
                   <occupation type="ruler">king</occupation>
                   <nationality type="Aksumite"/>
                   <faith type="Islam"/>
-                  
-                  
-               <floruit>He was the king of <placeName ref="LOC1310Aksum"/>, 
-                  who received the first newly converted Muslims hospitably, at the time of the first hiǧrā in <date>615</date>. 
-                  
+
+
+               <floruit>He was the king of <placeName ref="LOC1310Aksum"/>,
+                  who received the first newly converted Muslims hospitably, at the time of the first hiǧrā in <date>615</date>.
+
                </floruit>
-                  
+
                </person>
                <listRelation>
                   <relation name="snap:AllianceWith"
                          active="PRS1509Ahmadan"
                          passive="PRS7216Muhammad"/>
-                  
+
                </listRelation>
          </listPerson>
          <listBibl type="secondary">
-            <bibl> 
+            <bibl>
                <ptr target="bm:Donzel2007Nagasi"/>
-               
-            </bibl>  
-            <bibl> 
+
+            </bibl>
+            <bibl>
                <ptr target="bm:Hussein1992Islam"/>
                <citedRange unit="page">1109-1110</citedRange>
-               
+
             </bibl>
          </listBibl>
       </body>
