@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
@@ -51,36 +51,36 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-              
-                  
+            <person sameAs="Q60522048" sex="1">
+
+
                   <persName xml:lang="gez" xml:id="n1" type="birth">እለ፡ ሣህል፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾƎlla Śāhǝl</persName>
                <persName xml:lang="gez" xml:id="n2" type="alt">ዘእለ፡ ሣህል፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">Za ʾƎlla Śāhāl</persName>
                <persName xml:lang="gez" xml:id="n3" type="alt">ቈስጠንጢኖስ፡</persName>
                <persName xml:lang="gez" corresp="#n3" type="normalized">Qʷasṭanṭinos</persName>
-                  
-                  
+
+
                   <occupation type="ruler">king</occupation>
                   <nationality type="Aksumite"/>
                   <faith type="Christianity"/>
-                  
+
                   <floruit>He was a king of <placeName ref="LOC1310Aksum"/> whose name appears in king lists and inscriptions </floruit>
-                  
+
                </person>
          </listPerson>
          <listBibl type="secondary">
-            <bibl> 
+            <bibl>
                <ptr target="bm:MunroHay2003EllaSahel"/>
-               
-            </bibl>  
-            
-            <bibl> 
+
+            </bibl>
+
+            <bibl>
                <ptr target="bm:MunroHay1979Kings"/>
                <citedRange unit="page">21-30</citedRange>
-               
-            </bibl>  
+
+            </bibl>
          </listBibl>
       </body>
    </text>
