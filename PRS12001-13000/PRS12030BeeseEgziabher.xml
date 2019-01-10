@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Bǝʾǝse ʾƎgziʾabǝḥer</title>
+                <title>Bǝʾse ʾƎgziʾabǝḥer</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="ES"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -49,18 +49,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPerson>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ብእሴ፡ እግዚአብሔር፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Bǝʾǝse ʾƎgziʾabǝḥer</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Bǝʾse ʾƎgziʾabǝḥer</persName>
                     <faith type="EOTC"/>
                     <occupation type="ecclesiastic">local saint</occupation>
                     <nationality type="Aksumite"/>
-                    <birth/>
-                    <death/>
                     <floruit notBefore="0300" notAfter="0400">4th century</floruit>
                 </person>
                 <listRelation>
                     <relation name="agrelon:isFounderOf" active="PRS12030BeeseEgziabher" passive="INS0227MBAE"/>
                 </listRelation>
-            </listPerson><!--saint-->
+            </listPerson>
         </body>
     </text>
 </TEI>
