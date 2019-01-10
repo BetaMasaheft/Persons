@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
@@ -52,36 +52,36 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
-            <person sex="2">
-               
+            <person sameAs="Q60537581" sex="2">
+
 
                   <persName xml:lang="gez" xml:id="n1" type="birth">ሰብለ፡ ወንጌል፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Sabla Wangel</persName>
                <persName>
                   <roleName type="title">ʾǝtege</roleName>
                </persName>
-               
+
               <occupation type="ruler">queen</occupation>
                <birth when="1500"/>
-               <floruit notBefore="1518" notAfter="1567">She was a dominant political figure in the dynasty of her time. 
-                  She married 
+               <floruit notBefore="1518" notAfter="1567">She was a dominant political figure in the dynasty of her time.
+                  She married
                   <persName ref="PRS6229LebnaDe"><roleName type="title">ʾaṣe</roleName> Lǝbna Dǝngǝl</persName> in <date>1518</date>.
                   She came from a noble <placeName ref="LOC3549Gojjam">Goǧǧām</placeName>
                   <persName ref="ETH1126Amhara">ʾAmhārā</persName>.
-                  She played a prominant role in the court politics after the death of her husband 
-                  
+                  She played a prominant role in the court politics after the death of her husband
+
                   <persName ref="PRS6229LebnaDe"><roleName type="title">ʾaṣe</roleName> Lǝbna Dǝngǝl</persName>
                </floruit>
-               <death when="1567" evidence="internal"> She died during the reign of her 
-                  grandson 
+               <death when="1567" evidence="internal"> She died during the reign of her
+                  grandson
                   <persName ref="PRS8550sardaDe"><roleName type="title">ʾaṣe</roleName> Śarḍa Dǝngǝl</persName>. </death>
             </person>
-               
+
                <listRelation>
                      <relation name="bm:wifeOf" active="PRS8276SablaWa" passive="PRS6229LebnaDe"/>
                   <relation name="snap:MotherOf"
                          active="PRS8276SablaWa"
-                         passive="PRS4121Fiqtor"/> 
+                         passive="PRS4121Fiqtor"/>
                     <relation name="snap:MotherOf"
                          active="PRS8276SablaWa"
                          passive="PRS4428Galawdew"/>
@@ -89,14 +89,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                            <relation name="snap:MotherOf"
                          active="PRS8276SablaWa"
                          passive="PRS10191Yaeqob"/>
-                    
+
                   <relation name="snap:GrandmotherOf"
                          active="PRS8276SablaWa"
                          passive="PRS8550sardaDe"/>
-                
+
                </listRelation>
          </listPerson>
-         
+
          <listBibl type="editions">
             <bibl>
                <ptr target="bm:Pereira1888Minas"/>
@@ -107,17 +107,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <bibl>
                <ptr target="bm:Conzelman1895Galawdewos"/>
             </bibl>
-            <bibl> 
+            <bibl>
                <ptr target="bm:Solomon2016Galawdewos"/>
             </bibl>
-               
+
          </listBibl>
          <listBibl type="secondary">
             <bibl>
                <ptr target="bm:Kleiner2010SablaWangel"/>
             </bibl>
          </listBibl>
-         
+
       </body>
    </text>
 </TEI>
