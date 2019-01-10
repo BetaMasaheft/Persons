@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
@@ -13,7 +13,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <title>Solomon</title>
             <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
-            
+
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -53,30 +53,30 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-         
-                  
+            <person sameAs="Q60539714" sex="1">
+
+
                   <persName xml:lang="gez" xml:id="n1" type="birth">ሰሎሞን፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Salomon</persName>
-               
-           
-                  
+
+
+
                   <nationality type="Israel/Palestine"/>
                   <faith type="Judaism"/>
-                  
-                  
+
+
                   <occupation type="ruler">king</occupation>
-                  
-            
-               
-               <floruit notBefore="-0970" notAfter="-0931">He was the son and heir of the Biblical King 
+
+
+
+               <floruit notBefore="-0970" notAfter="-0931">He was the son and heir of the Biblical King
                   <persName ref="PRS3417David"/>, figures prominently in Ethiopian Gǝʿǝz literature.
-                  He is best known as the major protagonist in the <ref type="work" corresp="LIT1709Kebran"/>. 
+                  He is best known as the major protagonist in the <ref type="work" corresp="LIT1709Kebran"/>.
                   In the textual tradition of Gǝʿǝz literature, Solomon is credited with personally writing five Biblical books. </floruit>
                   <death when="-0931" cert="medium"/>
-                  
+
                </person>
-               
+
                <listRelation>
                   <relation name="snap:SonOf" active="PRS8925Solomon" passive="PRS3417David"/>
                   <relation name="saws:isAttributedAuthorOf"
@@ -88,26 +88,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <relation name="saws:isAttributedAuthorOf"
                          active="PRS8925Solomon"
                          passive="LIT2433tebaba"/>
-                  
-                  
+
+
                </listRelation>
          </listPerson>
-         
+
          <listBibl type="editions">
             <bibl>
                <ptr target="bm:Bezold1905KebraN"/>
             </bibl>
-            
-            
-            
-            
+
+
+
+
              </listBibl>
          <listBibl type="secondary">
-            <bibl> 
+            <bibl>
                <ptr target="bm:Kaplan2010Solomon"/>
-            </bibl>  
+            </bibl>
          </listBibl>
-         
+
       </body>
    </text>
 </TEI>
