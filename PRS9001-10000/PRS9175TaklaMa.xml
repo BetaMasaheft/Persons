@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
@@ -52,7 +52,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
+            <person sameAs"Q342818" sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ተክለ፡ ማርያም፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Takla Māryām</persName>
                <persName xml:lang="gez" xml:id="n2" type="birth">ሕዝበ፡ ናኝ፡</persName>
@@ -63,18 +63,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <nationality type="Ethiopia"/>
               <faith type="EOTC"/>
                <occupation type="ruler">Emperor</occupation>
-          
+
                <floruit notBefore="1430" notAfter="1433">He was the younger brother and
-                  successor of 
-                  <persName ref="PRS10342Yeshaq"><roleName type="title">ʾaṣe</roleName> Yǝsḥāq</persName>. 
-                  He was the third son of  
+                  successor of
+                  <persName ref="PRS10342Yeshaq"><roleName type="title">ʾaṣe</roleName> Yǝsḥāq</persName>.
+                  He was the third son of
                   <persName ref="PRS3429DawitII"><roleName type="title">ʾaṣe</roleName>  Dāwit II</persName>.
                   He was succeeded by his son <persName ref="PRS8560sarwaIy">Śarwa Iyasus</persName> in <date>1433</date>.</floruit>
                <death when="1433"/>
-            </person>  
+            </person>
             <listRelation>
                <relation name="snap:SonOf" active="PRS9175TaklaMa" passive="PRS3429DawitII"/>
-               
+
                <relation name="snap:FatherOf"
                          active="PRS9175TaklaMa"
                          passive="PRS8560sarwaIy"/>
@@ -84,7 +84,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="snap:BrotherOf"
                          active="PRS9175TaklaMa"
                          passive="PRS9432Tewodros"/>
-               
+
             </listRelation>
          </listPerson>
          <listBibl type="editions">
@@ -93,13 +93,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </bibl>
          </listBibl>
          <listBibl type="secondary">
-            <bibl> 
+            <bibl>
                <ptr target="bm:Budge1966Ethistory"/>
                <citedRange unit="page">303</citedRange>
-            </bibl> 
-            <bibl> 
+            </bibl>
+            <bibl>
                <ptr target="bm:Derat2010Taklamaryam"/>
-            </bibl>  
+            </bibl>
          </listBibl>
       </body>
    </text>

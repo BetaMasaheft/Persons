@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
@@ -13,7 +13,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <title>Yāʿqob</title>
             <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
-            
+
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -47,28 +47,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2016-05-21">Completed the record</change>
          <change who="SG" when="2017-02-11">Correction</change>
          <change who="SG" when="2017-10-21">Corrections</change>
-    
+
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               
+            <person sameAs="Q60558871" sex="1">
+
                <persName xml:lang="gez" xml:id="n1" type="birth">ያዕቆብ፡</persName>
-            
+
                <persName xml:lang="gez" type="normalized" corresp="#n1">Yāʿqob</persName>
               <persName xml:lang="en" corresp="#n1">Jacob</persName>
                <persName>
                   <roleName type="title">ʾabeto</roleName>
                </persName>
-               
-               
+
+
                <occupation type="ruler">prince</occupation>
                <birth when="1527" cert="medium"/>
                <floruit notBefore="1527" notAfter="1557">He was the fourth son of <persName ref="PRS6229LebnaDe"/>. </floruit>
                <death when="1557"/>
-               
+
             </person>
             <listRelation>
                <relation name="snap:SonOf" active="PRS10191Yaeqob" passive="PRS6229LebnaDe"> </relation>
@@ -84,31 +84,31 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          passive="PRS7102Minas"/>
                <relation name="snap:GrandfatherOf"
                          active="PRS10191Yaeqob"
-                         passive="PRS9038Susenyos"/> 
+                         passive="PRS9038Susenyos"/>
             </listRelation>
-               
+
          </listPerson>
-         
+
          <listBibl type="editions">
             <bibl>
                <ptr target="bm:Pereira1888Minas"/>
             </bibl>
                <bibl>
-                  <ptr target="bm:Kropp1988LebnaI"/> 
+                  <ptr target="bm:Kropp1988LebnaI"/>
             </bibl>
             <bibl>
-               <ptr target="bm:Kropp1988LebnaII"/> 
+               <ptr target="bm:Kropp1988LebnaII"/>
             </bibl>
-            
+
             </listBibl>
-         
+
             <listBibl type="secondary">
-               <bibl> 
+               <bibl>
                   <ptr target="bm:Kleiner2014Yaeqob"/>
-               </bibl>  
+               </bibl>
             </listBibl>
-            
-               
+
+
           </body>
    </text>
 </TEI>
