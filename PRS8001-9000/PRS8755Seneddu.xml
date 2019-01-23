@@ -49,12 +49,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="2">
-               <persName>
-                  
-                  Sǝnǝddu Gäbru
-               </persName>
-               <occupation> pol. </occupation>
-            </person>
+               <persName xml:id="n1">ስንዱ፡ ገብሩ፡</persName>  
+               <persName corresp="#n1" type="normalized">Sǝnǝddu Gabru</persName>
+               <occupation type="political"> pol. </occupation>
+                 <birth when="1916-01-13"> 
+                      <placeName ref="LOC1218AddisA"></placeName> 
+                 </birth>
+                 <death when="2009-04-19"> 
+                      <placeName ref="LOC1216AddisA"></placeName> 
+                 </death>            
+                      </person>
          </listPerson>
       </body>
    </text>
