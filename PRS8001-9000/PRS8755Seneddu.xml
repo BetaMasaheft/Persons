@@ -56,6 +56,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                  <birth when="1916-01-13"> 
                       <placeName ref="LOC1218AddisA"></placeName> 
                  </birth>
+                 
+                 <floruit notBefore="1956" notAfter="2009">She was elected to the Ethiopia's Parliament (1956-60 and 1960-62); she was President of the Ethiopian 
+                      ote was among the last notables of 
+               <placeName ref="LOC3764Hamase"></placeName>
+               .</floruit>
+                 
                  <death when="2009-04-19"> 
                       <placeName ref="LOC1216AddisA"></placeName> 
                  </death>
@@ -68,7 +74,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
               </listBibl>
                    
                  <listRelation>
+               <relation name="snap:DaughterOf" active="PRS8755Seneddu" passive="PRS4218Gabraeg"></relation>
+               <relation name="snap:DaughterOf" active="PRS8755Seneddu" passive="PRS5887Kasaye"></relation>
                <relation name="snap:MotherOf" active="PRS8755Seneddu" passive="PRS8481Samuel"></relation>
+               <relation name="bm:wifeOf" active="PRS8755Seneddu" passive="PRS6351Loranso"><desc>First marriage</desc></relation>
+               <relation name="bm:wifeOf" active="PRS8755Seneddu" passive="PRS1791AmadeWa"><desc>Second marriage</desc></relation>
+               <relation name="bm:wifeOf" active="PRS8755Seneddu" passive="PRS2087AsaffaL"><desc>Third marriage</desc></relation>
+               <relation name="snap:BrotherOf" active="PRS8755Seneddu" passive="PRS6836MasasaG"></relation>        
+                <relation name="snap:SisterOf" active="PRS8755Seneddu" passive="PRS8695segeMar"></relation>       
                    </listRelation>
 
          </listPerson>
