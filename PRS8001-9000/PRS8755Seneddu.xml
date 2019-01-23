@@ -58,8 +58,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                  </birth>
                  <death when="2009-04-19"> 
                       <placeName ref="LOC1216AddisA"></placeName> 
-                 </death>            
+                 </death>
                       </person>
+              
+              <listBibl type="secondary">
+              <bibl>
+               <ptr target="bm:FellmanPankhurst2010Seneddu"></ptr>
+               </bibl>
+              </listBibl>
+                   
+                 <listRelation>
+               <relation name="snap:MotherOf" active="PRS8755Seneddu" passive="PRS8481Samuel"></relation>
+                   </listRelation>
+
          </listPerson>
       </body>
    </text>
