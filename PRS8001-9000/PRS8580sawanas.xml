@@ -51,8 +51,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="2">
                <persName xml:lang="am" xml:id="n1">ሸዋነሽ፡ አብርሃ</persName>
-               <persName xml:lang="gez" type="normalized" corresp="#n1">Šawānaš Abrəhā</persName>
-               <persName type="alt"><roleName type="title">Wayzaro</roleName>Šawānaš Abrəhā</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Šawānaš ʾAbrəhā</persName>
+               <persName type="alt"><roleName type="title">Wayzaro</roleName>Šawānaš ʾAbrəhā</persName>
                <nationality type="Ethiopia"></nationality>
                <birth notBefore="1900" notAfter="1901">1900/1901 near <placeName ref="LOC4545Maqala"></placeName>, <placeName ref="LOC6569Tegray"></placeName></birth>
                <death>July 1968 <placeName ref="LOC1216AddisA"></placeName></death>
@@ -63,12 +63,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </person>
             
             <listRelation>
-               <relation name="saws:isDescendantOf" active="#PRS8580sawanas" passive="PRS10378Yohanne"></relation> 
-               <relation name="snap:DaughterOf" active="#PRS8580sawanas" passive="PRS1285AbrehaA"></relation>
-               <relation name="bm:wifeOf" active="#PRS8580sawanas" passive="PRS5248hayluKa" notAfter="1937"></relation>
-               <relation name="bm:motherInLawOf" active="#PRS8580sawanas" passive="PRS9106Taffara"></relation>
-               <relation name="snap:MotherOf" active="#PRS8580sawanas" passive="PRS10074Wasanh"></relation>
-               <relation name="snap:MotherOf" active="#PRS8580sawanas" passive="PRS10673Zawditu"></relation>
+               <relation name="saws:isDescendantOf" active="PRS8580sawanas" passive="PRS10378Yohanne"></relation> 
+               <relation name="snap:DaughterOf" active="PRS8580sawanas" passive="PRS1285AbrehaA"></relation>
+               <relation name="bm:wifeOf" active="PRS8580sawanas" passive="PRS5248hayluKa" notAfter="1937"></relation>
+               <relation name="bm:motherInLawOf" active="PRS8580sawanas" passive="PRS9106Taffara"></relation>
+               <relation name="snap:MotherOf" active="PRS8580sawanas" passive="PRS10074Wasanh"></relation>
+               <relation name="snap:MotherOf" active="PRS8580sawanas" passive="PRS10673Zawditu"></relation>
             </listRelation>
          </listPerson>
       </body>
