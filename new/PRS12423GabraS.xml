@@ -1,13 +1,13 @@
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12402Agab" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12423GabraS" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ʾAgǝb</title>
+                <title>Gabra Śǝllāse</title>
                 <editor role="generalEditor" key="AB"/>
-                <editor key="SG"/>
+                <editor key="DR"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
             <publicationStmt>
@@ -41,26 +41,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="SG" when="2018-12-14">Created entity</change>
+            <change who="DR" when="2019-01-23">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person sex="1"> 
-                    <persName xml:lang="gez" xml:id="n1" type="birth"> አጅብ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAgǝb</persName>
-                    <faith type="Islam"/>
-                    <occupation type="political"></occupation>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                <person sex="1">
+                    <persName xml:lang="gez" xml:id="n1">ገብረ፡ ሥላሴ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra Śǝllāse</persName>
                 </person>
-                <listRelation><relation name="snap:FamilyOf"  active="PRS12402Agab" passive="PRS12401Ali"></relation>
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="PRS12423GabraS" passive="ESmhg016"/>
                 </listRelation>
-               
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>
-                   

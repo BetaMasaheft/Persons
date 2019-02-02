@@ -10,12 +10,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Šäwanäš Abrǝha</title>
+            <title>Šawānaš Abrəhā</title>
             <author/>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
-            <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥəft</publisher>
             <pubPlace>Hamburg</pubPlace>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
@@ -35,7 +35,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
             <language ident="it">Italiano</language>
-            <language ident="gez">Gǝʿǝz</language>
+            <language ident="gez">Gəʿəz</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
@@ -43,18 +43,33 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="AC" when="2019-01-22">updated transcription and encoded information during Paris Workshop</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="2">
-               <persName>
-                  
-                  Šäwanäš Abrǝha
-               </persName>
-               <occupation> patriot </occupation>
+               <persName xml:lang="am" xml:id="n1">ሸዋነሽ፡ አብርሃ</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Šawānaš ʾAbrəhā</persName>
+               <persName type="alt"><roleName type="title">Wayzaro</roleName>Šawānaš ʾAbrəhā</persName>
+               <nationality type="Ethiopia"></nationality>
+               <birth notBefore="1900" notAfter="1901">1900/1901 near <placeName ref="LOC4545Maqala"></placeName>, <placeName ref="LOC6569Tegray"></placeName></birth>
+               <death>July 1968 <placeName ref="LOC1216AddisA"></placeName></death>
+               
+               <occupation type="other" notBefore="1935" notAfter="1941"> patriot of <placeName ref="LOC6135Wag"></placeName></occupation>
+               <residence ref="LOC5274Qwalis" notBefore="1937" notAfter="1941"></residence>
+               <listBibl type="secondary"><bibl><ptr target="bm:Wudu2010Sawanas"/></bibl></listBibl>
             </person>
+            
+            <listRelation>
+               <relation name="saws:isDescendantOf" active="PRS8580sawanas" passive="PRS10378Yohanne"></relation> 
+               <relation name="snap:DaughterOf" active="PRS8580sawanas" passive="PRS1285AbrehaA"></relation>
+               <relation name="bm:wifeOf" active="PRS8580sawanas" passive="PRS5248hayluKa" notAfter="1937"></relation>
+               <relation name="bm:motherInLawOf" active="PRS8580sawanas" passive="PRS9106Taffara"></relation>
+               <relation name="snap:MotherOf" active="PRS8580sawanas" passive="PRS10074Wasanh"></relation>
+               <relation name="snap:MotherOf" active="PRS8580sawanas" passive="PRS10673Zawditu"></relation>
+            </listRelation>
          </listPerson>
       </body>
    </text>
