@@ -42,6 +42,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="DE" when="2019-02-20">Created entity</change>
+            <change when="2019-02-22" who="DE">Added title</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -50,6 +51,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ለማ</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Lamā</persName>
+                    <persName>
+                       <roleName type="title">daǧǧāzmač</roleName>
+                    </persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
                     <birth/>
