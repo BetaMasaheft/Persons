@@ -43,20 +43,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="DR" when="2019-03-14">Added names and wikidata ID</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  
-                  Alexis
-               </persName>
-               <persName type="alt">ʿAbd al-Masīḥ</persName>
-               <persName type="alt">Gäbrä Krǝstos “the hermit” </persName>
-               <persName type="alt">Man of God</persName>
-               <occupation> St </occupation>
+            <person sex="1" sameAs="Q137947">
+               <persName xml:lang="gez" xml:id="n1">ገብረ፡ ክርስቶስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Gabra Krǝstos</persName>
+               <persName xml:lang="en" xml:id="n2">Alexis</persName>
+               <persName xml:lang="ar" xml:id="n3">عبد المسيح</persName>
+               <persName xml:lang="ar" corresp="#n3" type="normalized">ʿAbd al-Masīḥ</persName>
+               <persName xml:lang="en" xml:id="Hermit"><addName type="epithet">the Hermit</addName></persName>
+               <persName xml:lang="en" xml:id="ManofGod"><addName type="epithet">Man of God</addName></persName>
+               <!--<occupation> St </occupation>-->
             </person>
          </listPerson>
       </body>
