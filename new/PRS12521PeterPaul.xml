@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="pers"
+     xml:lang="en"
+     xml:id="PRS12521PeterPaul">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Peter and Paul</title>
+            <editor role="generalEditor" key="AB"/>
+            <editor key="ES"/>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  This file is licensed under the Creative Commons
+                  Attribution-ShareAlike 4.0. </licence>
+            </availability>
+            <date>2019-03-15</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Prosopography of Ethiopian Written tradition</p>
+            
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="ES" when="2019-03-15">Created record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <personGrp>
+               <persName xml:lang="en">Peter and Paul</persName>
+               
+            </personGrp>
+            
+            <listRelation>
+               <relation name="snap:Group"
+                         active="PRS12521PeterPaul"
+                         passive="PRS7805Peter"/>
+               <relation name="snap:Group"
+                  active="PRS12521PeterPaul"
+                  passive="PRS7743Paul"/>
+            </listRelation>
+            
+         </listPerson>
+      </body>
+   </text>
+</TEI>
