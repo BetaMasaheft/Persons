@@ -46,6 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-08-12">Complete record</change>
+         <change when="2019-03-15" who="ES">split names added place of birth</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -53,9 +54,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sameAs="Q7395817" sex="1">
 
-                  <persName>Sabāgādis (Subāgādis) Waldu</persName>
+                  
                      <persName xml:lang="gez" xml:id="n1" type="birth">ሰባጋዲስ፡ ወልዱ፡</persName>
-                  <persName xml:lang="gez" corresp="#n1" type="normalized">Sabāgādis (Subāgādis)Waldu</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Sabāgādis Waldu</persName>
+               <persName xml:lang="gez" xml:id="n2" type="birth">ሱባጋዲስ፡ ወልዱ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Subāgādis Waldu</persName>
                <persName>
                   <roleName type="title">daǧǧāzmāč, šum ʿagāme </roleName>
                </persName>
@@ -66,7 +69,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <residence>
                   <placeName ref="LOC1236Agama">ʿAgāme</placeName>
                </residence>
-               <birth notBefore="1780" notAfter="1785"/>
+               <birth notBefore="1780" notAfter="1785">He was reportedly born c. 1780 in <placeName ref="LOC7170Ganahti"/>.</birth>
                <floruit notBefore="1822" notAfter="1833">He became the governor of
                   <placeName ref="LOC6569Tegray">Tǝgrāy</placeName>
                   succeeding
