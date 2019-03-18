@@ -1,19 +1,19 @@
-<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS11980Cornelius" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12518Arsema" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Cornelius</title>
+                <title>ʾArsemā</title>
                 <editor role="generalEditor" key="AB"/>
-                <editor key="DR"/>
+                <editor key="ES"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
                 <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
-                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                            Forschungsumgebung / beta maṣāḥǝft</publisher>
                 <pubPlace>Hamburg</pubPlace>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
@@ -41,24 +41,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="DR" when="2018-03-29">Created entity</change>
+            <change who="ES" when="2019-03-15">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person sameAs="Q435987" sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ቆርኖልዮስ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Qornolyos</persName>
-                    <persName xml:lang="gez" xml:id="n2">ቆርኔሌዎስ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n2">Qornelewos</persName>
-                    <persName xml:lang="en" xml:id="n3" type="main">Cornelius <addName type="epithet">the Centurion</addName></persName>
-                    <persName xml:lang="en" xml:id="centurion"><addName type="epithet">the Centurion</addName></persName>
+                <person sex="1">
+                    <persName xml:lang="gez" xml:id="n1">አርሴማ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">ʾArsemā</persName>
+                    <faith type="EOTC"/>
+                    <nationality type="Ethiopia"/>
+                    <birth/>
+                    <death/>
+                    <floruit/>
+                    <note>A saint commemorated in the Sǝnkǝssār</note>
                 </person>
-                <listRelation>
-                    <relation name="ecrm:P129i_is_subject_of" active="PRS11980Cornelius" passive="LIT2375Synaxa"/>
-                </listRelation>
-            </listPerson>
+            </listPerson><!---->
         </body>
     </text>
 </TEI>

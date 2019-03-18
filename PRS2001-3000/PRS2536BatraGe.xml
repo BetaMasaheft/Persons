@@ -46,15 +46,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-11-24">Complete record</change>
+         <change who="DR" when="2019-03-08">Added name variants, included information on name and relation to miracles</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-           
-                  <persName xml:lang="gez" xml:id="n1" type="birth">በትረ፡ ጌላ፡ ማርያም፡</persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized">Batra Gelā Māryām</persName>
+               
+               <persName xml:lang="gez" xml:id="n1" type="birth">በቴርጌላ፡ ማርያም፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Batergelā Māryām</persName>
+               <persName xml:lang="gez" xml:id="n2" type="birth">ቤቴርጌላ፡ ማርያም፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Betergelā Māryām</persName>
+               <persName xml:lang="gez" xml:id="n3" type="birth">በርቴግላ፡ ማርያም፡</persName>
+               <persName xml:lang="gez" corresp="#n3" type="normalized">Bartegǝlā Māryām</persName>
+                  <persName xml:lang="gez" xml:id="n4" type="birth">በትረ፡ ጌላ፡ ማርያም፡</persName>
+               <persName xml:lang="gez" corresp="#n4" type="normalized">Batra Gelā Māryām</persName>
           
                   <persName>
                   <roleName type="title">ʾabbā</roleName>
@@ -75,26 +82,41 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                    son and successor of   
                  
                    <persName ref="PRS10626ZaraY">    <roleName type="title">ʾaṣe</roleName> Zarʾa Yāʿqob</persName>. 
-                   A fragment of his Acts is found in the <ref type="work" corresp="LIT2384Taamme">Taʾammǝra Māryām</ref>.
+                   His acts are only preserved in the form of three miracles in the <ref type="work" corresp="LIT2384Taamme">Taʾammǝra Māryām</ref>. The name is attested only in the variants 
+                   <foreign xml:lang="gez">በቴርጌላ፡ ማርያም፡</foreign>, <foreign xml:lang="gez">ቤቴርጌላ፡ ማርያም፡</foreign> and <foreign xml:lang="gez">በርቴግላ፡ ማርያም፡</foreign>. 
+                   <ref target="#CerulliBatragela"/> proposes the reconstruction <foreign xml:lang="gez">በትረ፡ ጌላ፡ ማርያም፡</foreign>.
                </floruit>
                  
                </person>
                <listRelation>
-                  <relation name="snap:SonOf"
-                         cert="medium"
+                  <relation name="snap:SonOf" cert="low"
                          active="PRS2536BatraGe"
-                         passive="PRS10626ZaraY"/>
+                         passive="PRS10626ZaraY"><desc><persName ref="PRS2536BatraGe"/> could possibly be identified with
+                            <persName ref="PRS2334BaedaM"/>.</desc></relation>
     
                   <relation name="ecrm:P129i_is_subject_of"
                          active="PRS2536BatraGe"
                          passive="LIT4735GadlaBa"/>
                   
+                  <relation name="ecrm:P129i_is_subject_of"
+                     active="PRS2536BatraGe"
+                     passive="LIT5255MiracleBatergela1"/>
+                  
+                  <relation name="ecrm:P129i_is_subject_of"
+                     active="PRS2536BatraGe"
+                     passive="LIT5256MiracleBatergela2"/>
+                  
+                  <relation name="ecrm:P129i_is_subject_of"
+                     active="PRS2536BatraGe"
+                     passive="LIT5257MiracleBatergela3"/>
+                  
            </listRelation>
          </listPerson>
          <listBibl type="secondary">
-            <bibl>
+            <bibl xml:id="CerulliBatragela">
                <ptr target="bm:Cerulli1943Batragelamaryam"/>
             </bibl>
+            <bibl><ptr target="bm:MacomberMiracles"/><citedRange unit="item">287-289</citedRange></bibl>
             <bibl>
                <ptr target="bm:Getachew1982Betragelamaryam"/>
             </bibl>

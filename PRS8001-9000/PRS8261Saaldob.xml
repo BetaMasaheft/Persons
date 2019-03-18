@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Säʿaldoba</title>
+            <title>Saʿāldobā</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -43,6 +43,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change when="2019-03-15" who="ES">corrected transliteration added variant removed doublet</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,9 +52,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName>
                   
-                  Säʿaldoba
+                  Saʿāldobā
                </persName>
-               <occupation> king </occupation>
+               <persName>Salʾādobā</persName>
+               <occupation type="political">ancient legendary king </occupation>
+               <floruit from="0400" to="0450">fifth century AD</floruit>
             </person>
          </listPerson>
       </body>
