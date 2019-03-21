@@ -52,9 +52,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
+            <person sex="1" sameAs="Q7413010">
                <persName xml:lang="gez" xml:id="n1" type="birth">ሳሙኤል፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Sāmuʾel of Wāldǝbbā</persName>
+               <persName xml:lang="gez" xml:id="n2">ሳሙኤል፡ ዘገዳመ፡ ዋሊ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Sāmuʾel of gadāma Wāli</persName>
                <persName>
                   <roleName type="title">ʾabbā</roleName>
                </persName>
@@ -85,15 +87,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          passive="LIT1497GadlaS"/>
             </listRelation>
          </listPerson>
-         <listBibl type="editions">
+         <listBibl type="secondary">
             <bibl>
                <ptr target="bm:Turaiev1902Samuel"/>
             </bibl>
             <bibl>
                <ptr target="bm:Colin2013SamuelWaldebba"/>
             </bibl>
-         </listBibl>
-         <listBibl type="secondary">
             <bibl> 
                <ptr target="bm:Nosnitsin2010Samuel"/>
             </bibl>

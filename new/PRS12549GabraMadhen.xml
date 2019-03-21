@@ -1,13 +1,13 @@
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12523TasfaIyasus" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12549GabraMadhen" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Tasfā ʾIyasus</title>
+                <title>Gabra Madhǝn</title>
                 <editor role="generalEditor" key="AB"/>
-                <editor key="SG"/>
+                <editor key="ES"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
             <publicationStmt>
@@ -41,24 +41,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="SG" when="2019-03-18">Created entity</change>
+            <change who="ES" when="2019-03-21">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ተስፋ፡ ኢየሱስ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Tasfā ʾIyasus</persName>
+                    <persName xml:lang="gez" xml:id="n1">Gabra Madhǝn</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra Madhǝn</persName>
                     <faith type="EOTC"/>
-                    <nationality type="Ethiopia"/>
                     <birth/>
                     <death/>
                     <floruit/>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS12523TasfaIyasus" passive="BLorient722"></relation>
-                   
+                    <relation name="saws:hasOwned" active="PRS12549GabraMadhen" passive="ESakm018"/>
                 </listRelation>
             </listPerson><!---->
         </body>

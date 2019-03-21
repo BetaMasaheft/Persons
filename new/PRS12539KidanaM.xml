@@ -1,13 +1,13 @@
-<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12523TasfaIyasus" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12539KidanaM" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Tasfā ʾIyasus</title>
+                <title>Kidāna Mārāyam</title>
                 <editor role="generalEditor" key="AB"/>
-                <editor key="SG"/>
+                <editor key="DE"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
             <publicationStmt>
@@ -41,25 +41,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="SG" when="2019-03-18">Created entity</change>
+            <change who="DE" when="2019-03-20">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ተስፋ፡ ኢየሱስ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Tasfā ʾIyasus</persName>
+                    <persName xml:lang="gez" xml:id="n1">ኪዳነ፡ ማርያም፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Kidāna Mārāyam</persName>
+                    <persName>
+                  <roleName type="title">ʾalaqā</roleName>
+               </persName>
                     <faith type="EOTC"/>
+                    <occupation type="art"/>
                     <nationality type="Ethiopia"/>
                     <birth/>
                     <death/>
                     <floruit/>
                 </person>
-                <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS12523TasfaIyasus" passive="BLorient722"></relation>
-                   
-                </listRelation>
             </listPerson><!---->
         </body>
     </text>

@@ -1,13 +1,13 @@
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12523TasfaIyasus" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12533Taklom" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Tasfā ʾIyasus</title>
+                <title>Taḵlom</title>
                 <editor role="generalEditor" key="AB"/>
-                <editor key="SG"/>
+                <editor key="ES"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
             <publicationStmt>
@@ -41,26 +41,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="SG" when="2019-03-18">Created entity</change>
+            <change who="ES" when="2019-03-20">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ተስፋ፡ ኢየሱስ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Tasfā ʾIyasus</persName>
+                    <persName xml:lang="gez" xml:id="n1">Taḵlom</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
                     <faith type="EOTC"/>
+                    <occupation type="ecclesiastic"/>
                     <nationality type="Ethiopia"/>
                     <birth/>
                     <death/>
                     <floruit/>
                 </person>
-                <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS12523TasfaIyasus" passive="BLorient722"></relation>
-                   
-                </listRelation>
-            </listPerson><!---->
+            </listPerson><!--Founder of ʾĀmbā Tahulā Mikāʾel (INS0294TGM); Ancestor of daqqi Taḵlom-->
         </body>
     </text>
 </TEI>
