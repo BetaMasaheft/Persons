@@ -6,11 +6,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
      xml:lang="en"
-     xml:id="PRS2049Aronof">
+     xml:id="PRS7000MenasM">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> ʾAron of Dabra Dāret </title>
+            <title>Menās</title>
             <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
@@ -50,7 +50,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
-         <change who="SG" when="2016-09-07">Complete record</change>
+         <change who="SG" when="2016-11-14">Complete record</change>
          <change who="PL" when="2019-03-27">removed occupation containing St, Saint, bibl, biblical or prophet, added keyword. See https://github.com/BetaMasaheft/Documentation/issues/1104</change>
       </revisionDesc>
    </teiHeader>
@@ -58,55 +58,50 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName xml:lang="gez" xml:id="n1" type="birth">አሮን፡</persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAron of Dabra Dāret</persName>
-               <persName xml:lang="gez" xml:id="n2" type="birth">አሮን፡ መንክራዊ፡</persName>
-               <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAron Mankrāwi</persName>
-               <persName xml:lang="gez" xml:id="n3" type="birth">እጬ፡ አሮን፡</persName>
-               <persName xml:lang="gez" corresp="#n3" type="normalized">ʾƎč̣e ʾAron</persName>
-               
-               <persName>
-                  <roleName type="title">ʾabbā</roleName>
-               </persName>
-               
-               <nationality type="Ethiopia"/>
-               <faith type="EOTC"/>
-               <!-- saint-->
-               <birth when="1350" cert="medium"> He was born in around <date>1350</date>. 
-               </birth>
-               <floruit notBefore="1350" notAfter="1450">He joined the monastery of 
-                  <placeName ref="LOC2278DabraG">Dabra Gwāl</placeName> and he became a monk. 
-                  There, having witnessed his exceptional piety
-                  and wisdom, the monks elected him as archdeacon and bursar of  the community.
-                  He also took part in the l4th century controversy between the Ethiopian kings and monks. 
-                  He was the founder of the rock-hewn church of <placeName ref="LOC2230DabraA">Dabra ʾAbuna ʾAron </placeName> in the western
-                  part of <placeName ref="LOC6132Wadla">Wādlā </placeName>.
-               </floruit>
               
-            </person>  
-            <listRelation>
+              <!--add Arabic name? -->
+              
+               <persName xml:lang="gez" xml:id="n1" type="birth">ሜናስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Menās</persName>
+               <persName xml:lang="gez" xml:id="n2" type="alt">ሚናስ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Minās</persName>
+              
+                  <persName>
+                  <roleName type="title">ʾabbā </roleName>
+               </persName>
+               <nationality type="Egypt"/>
+               <faith type="Coptic"/>
+                  <!--saint-->
+                  <birth/>
+                  <residence/>
+                  
+                     <floruit>He was  a saint  and martyr venerated in the <placeName ref="LOC2056Byzant">Byzantine empire </placeName> and all over the Christian Orient, especially in 
+                        <placeName ref="LOC2804Egypt">Egypt</placeName>. He was supposedly martyred during the <persName ref="PRS3581Diocleti">Diocletian</persName>
+                        persecution of Christians  in <placeName ref="LOC4151Kotyai">Kotyaion</placeName>. <persName ref="PRS7000MenasM">Minās</persName> seems to have been a popular saint in 
+                        <placeName ref="LOC3010Ethiop">Ethiopia</placeName> to which both his frequent representations in art as well as the name of <date>16th century</date> 
                
-               <relation name="snap:AllianceWith"
-                         active="PRS2049Aronof"
-                         passive="PRS2528Basalota"/>
+                        <persName ref="PRS7102Minas">   
+                     <roleName type="title">ʾaṣe</roleName>Minās</persName>, named after him, testify.
+                     </floruit>
+                  <death/>
+               </person>
+               <listRelation>
+              
+                  <relation name="rel:enemyOf" active="PRS7000MenasM" passive="PRS3581Diocleti"/>
                <relation name="ecrm:P129i_is_subject_of"
-                         active="PRS2049Aronof"
-                         passive="LIT1423GadlaA"/>
-            </listRelation>
+                         active="PRS7000MenasM"
+                         passive="LIT1616Homily"/>
+                  
+               </listRelation>
          </listPerson>
-         <listBibl type="editions">
-            <bibl>
-               <ptr target="bm:Turaiev1908Aaron"/>
-            </bibl>
-         </listBibl>
          <listBibl type="secondary">
-            <bibl> 
-               <ptr target="bm:SamuelundRed2003Aron"/>
+            <bibl>
+               <ptr target="bm:Bausi2002ActaPhileae"/>
             </bibl>
-            <bibl> 
-               <ptr target="bm:Taddesse1972Church"/>
-            </bibl>  
+            <bibl>
+               <ptr target="bm:Witakowski2007EAEMenas"/>
+            </bibl>
          </listBibl>
       </body>
-   </text>
+   </text>   
 </TEI>

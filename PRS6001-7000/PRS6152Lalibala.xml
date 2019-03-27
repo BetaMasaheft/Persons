@@ -39,6 +39,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="it">Italiano</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
+         <textClass>
+            <keywords>
+               <term key="saint"/>
+            </keywords>
+         </textClass>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
@@ -47,6 +52,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2016-07-27">Completed record</change>
          <change who="SG" when="2017-02-13">addition</change>
          <change who="SG" when="2017-05-19">addition and minor change</change>
+         <change who="PL" when="2019-03-27">removed occupation containing St, Saint, bibl, biblical or prophet, added keyword. See https://github.com/BetaMasaheft/Documentation/issues/1104</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -64,12 +70,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
 
-               <occupation type="ruler"> a saint king</occupation>
+               <!-- a saint king-->
 
                <floruit notBefore="1190" notAfter="1230">He was a late 12th and early 13th century king of Zāgʷe dynasty.
                   He is venerated as a saint in Ethiopian Orthodox Church.
                   He succeeded his brother a saint king
-                  <persName ref="PRS5111harbay"><roleName type="title">ʾaṣe</roleName>Ḥarbāy</persName>.
+                  <persName ref="PRS5111harbay">
+                     <roleName type="title">ʾaṣe</roleName>Ḥarbāy</persName>.
                   He was one of the best known Zāgʷe kings and one of the most famous Ethiopian rulers reputed as the builders of the
                   rock hewn churches of <placeName ref="LOC4244Laliba">Lalibalā</placeName> town.
                </floruit>

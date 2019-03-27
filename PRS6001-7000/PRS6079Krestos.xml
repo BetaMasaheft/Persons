@@ -39,6 +39,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="it">Italiano</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
+         <textClass>
+            <keywords>
+               <term key="saint"/>
+            </keywords>
+         </textClass>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
@@ -47,6 +52,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-09-29">Complete record</change>
          <change who="SG" when="2017-08-08">Complete record</change>
+         <change who="PL" when="2019-03-27">removed occupation containing St, Saint, bibl, biblical or prophet, added keyword. See https://github.com/BetaMasaheft/Documentation/issues/1104</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -60,7 +66,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
-                  <occupation type="ecclesiastic">saint</occupation>
+                  <!--saint-->
         
                   <floruit notBefore="1300" notAfter="1400">She was a female saint of Ethiopian in the 14th and 15th century.
                      She spent 12 years praying in the lake <placeName ref="LOC5888Tana">Ṭanā</placeName>. 

@@ -39,6 +39,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="it">Italiano</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
+         <textClass>
+            <keywords>
+               <term key="saint"/>
+            </keywords>
+         </textClass>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
@@ -47,6 +52,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-11-07">Complete record</change>
          <change who="SG" when="2017-02-01">Complete record</change>
+         <change who="PL" when="2019-03-27">removed occupation containing St, Saint, bibl, biblical or prophet, added keyword. See https://github.com/BetaMasaheft/Documentation/issues/1104</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -66,7 +72,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
-                  <occupation type="ecclesiastic">saint</occupation>
+                  <!--saint-->
                <birth notBefore="1430" notAfter="1435" cert="low"> He was born at <placeName ref="LOC5922Tatya">Ṭaṭyā</placeName> probably between <date>1430-35</date>.</birth>
                   <residence/>
                  
@@ -74,7 +80,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   the monastery of <placeName ref="LOC2935EndaSe">ʾƎndā Śǝllāse</placeName>. 
                   He received his monastic garb at the monastery of <placeName ref="LOC2251DabraB">Dabra Bizan</placeName> 
                   by 
-                  <persName ref="PRS7820Petros"><roleName type="title">ʾabbā </roleName> Ṗeṭros</persName>. 
+                  <persName ref="PRS7820Petros">
+                     <roleName type="title">ʾabbā </roleName> Ṗeṭros</persName>. 
                   Then, he went to <placeName ref="INS0105DD"/> for further education. 
                   Upon its completion, he moved back to <placeName ref="LOC2991Eritre">Eritrea</placeName> and established himself  
                   at <placeName ref="LOC4103Kodadu">Kodādu</placeName>. Finally, he founded the monastery of <placeName ref="LOC2935EndaSe">
