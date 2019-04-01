@@ -42,6 +42,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <textClass>
             <keywords>
                <term key="prophet"/>
+               <term key="saint"/>
+               <term key="biblical"/>
             </keywords>
          </textClass>
       </profileDesc>
@@ -53,12 +55,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2016-09-08">Complete record</change>
          <change when="2017-02-23" who="ES">corrections in title faith</change>
          <change who="PL" when="2019-03-27">removed occupation containing St, Saint, bibl, biblical or prophet, added keyword. See https://github.com/BetaMasaheft/Documentation/issues/1104</change>
+         <change who="DR" when="2019-04-01">Updated keywords, added wikidata</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
+            <person sex="1" sameAs="wd:Q40662">
                
                <persName xml:lang="en" xml:id="n1" type="main">John the Baptist</persName>
                
