@@ -39,6 +39,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="it">Italiano</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
+         <textClass>
+            <keywords>
+               <term key="saint"/>
+            </keywords>
+         </textClass>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
@@ -46,6 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-11-29">Complete record</change>
+         <change who="PL" when="2019-03-27">removed occupation containing St, Saint, bibl, biblical or prophet, added keyword. See https://github.com/BetaMasaheft/Documentation/issues/1104</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -59,7 +65,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="en" xml:id="n3">Basil the Great</persName>
                <nationality type="Greece"/>
                <faith type="Greek"/>
-               <occupation type="ecclesiastic">a saint, writer</occupation>
+               <!--a saint, writer-->
                   <birth notBefore="0329" notAfter="0330"/>
                   <floruit notBefore="0350" notAfter="0379">A  saint and doctor of the church, he was an important figure in the 4th century strife against 
                      Arianism, an organizer of the monastic life and a prolific writer.

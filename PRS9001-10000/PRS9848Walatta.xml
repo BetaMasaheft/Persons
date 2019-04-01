@@ -39,6 +39,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="it">Italiano</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
+         <textClass>
+            <keywords>
+               <term key="saint"/>
+            </keywords>
+         </textClass>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
@@ -48,6 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2016-09-14">Complete record</change>
          <change who="SG" when="2017-02-23"> correction </change>
          <change who="MV" when="2017-11-07">Additions</change>
+         <change who="PL" when="2019-03-27">removed occupation containing St, Saint, bibl, biblical or prophet, added keyword. See https://github.com/BetaMasaheft/Documentation/issues/1104</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -61,7 +67,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
-                  <occupation type="ecclesiastic">saint</occupation>
+                  <!--saint-->
                   <birth when="1594"/> 
                   <floruit notBefore="1610" notAfter="1644">She was one of the most prominent female religious figures in the 17th century. 
                      She is largely known for her resistance to Catholicism and she is venerated as a saint by the Ethiopian 

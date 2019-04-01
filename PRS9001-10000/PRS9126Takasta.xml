@@ -37,6 +37,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="it">Italiano</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
+         <textClass>
+            <keywords>
+               <term key="saint"/>
+            </keywords>
+         </textClass>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and
@@ -44,6 +49,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
          <change who="SG" when="2016-11-07">Complete record</change>
          <change who="DR" when="2018-08-07">Corrected ID in relations</change>
+         <change who="PL" when="2019-03-27">removed occupation containing St, Saint, bibl, biblical or prophet, added keyword. See https://github.com/BetaMasaheft/Documentation/issues/1104</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -61,13 +67,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
-               <occupation type="ecclesiastic">saint</occupation>
+               <!--saint-->
                
                <floruit notBefore="1300" notAfter="1350">He was a medieval saint of the Ethiopian
                   Orthodox Tawāḥǝdo Church who is considered to be the founder of the monastery of
                   <placeName ref="LOC2687DimaGi">Dimā Giyorgis</placeName>. He was a contemporary
                   of  
-                  <persName ref="PRS3429DawitII"><roleName type="title">ʾaṣe</roleName> Dāwit
+                  <persName ref="PRS3429DawitII">
+                     <roleName type="title">ʾaṣe</roleName> Dāwit
                      II</persName>. He was born from the pious <persName ref="PRS6605Malkase">Malka
                         Ṣǝdǝq</persName> and <persName ref="PRS11294DelbaIy">Dǝlba ʾIyasus (Dǝl
                            Baʾiyasus)</persName>
@@ -75,12 +82,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </person>
             <listRelation>
                <relation name="snap:AllianceWith"
-                  active="PRS9126Takasta"
+                         active="PRS9126Takasta"
                          passive="PRS3429DawitII"/>
                <relation name="snap:SonOf" active="PRS9126Takasta" passive="PRS11294DelbaIy"/>
                <relation name="snap:SonOf" active="PRS9126Takasta" passive="PRS6605Malkase"/>
                <relation name="ecrm:P129i_is_subject_of"
-                  active="PRS9126Takasta"
+                         active="PRS9126Takasta"
                          passive="LIT4091GadlaTakasta"/>
             </listRelation>
          </listPerson>

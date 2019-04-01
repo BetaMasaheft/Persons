@@ -37,6 +37,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="it">Italiano</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
+         <textClass>
+            <keywords>
+               <term key="saint"/>
+            </keywords>
+         </textClass>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
@@ -44,6 +49,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="DR" when="2018-05-02">Added wikidata, names and relation</change>
+         <change who="PL" when="2019-03-27">removed occupation containing St, Saint, bibl, biblical or prophet, added keyword. See https://github.com/BetaMasaheft/Documentation/issues/1104</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -56,10 +62,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName type="alt">Sinoda; Šenoute; Shenouda</persName>
                <persName type="alt">Sinodyos</persName>
                <persName type="alt">Sunutuyus; Šenoute</persName>
-               <occupation type="ecclesiastic">St</occupation>
+               <!--St-->
             </person>
             <listRelation>
-               <relation name="ecrm:P129i_is_subject_of" active="PRS8823Shenute" passive="LIT2375Synaxa"/>
+               <relation name="ecrm:P129i_is_subject_of"
+                         active="PRS8823Shenute"
+                         passive="LIT2375Synaxa"/>
             </listRelation>
          </listPerson>
       </body>

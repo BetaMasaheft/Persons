@@ -39,6 +39,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="it">Italiano</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
+         <textClass>
+            <keywords>
+               <term key="saint"/>
+            </keywords>
+         </textClass>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
@@ -46,6 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-10-25">Complete record</change>
+         <change who="PL" when="2019-03-27">removed occupation containing St, Saint, bibl, biblical or prophet, added keyword. See https://github.com/BetaMasaheft/Documentation/issues/1104</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -59,13 +65,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
-                  <occupation type="ecclesiastic">saint</occupation>
+                  <!--saint-->
                 
                <floruit notBefore="1480" notAfter="1497"> He was a medieval Holy monk of Ethiopia. He was the son of <persName ref="PRS10470Yostena">Yosṭenā</persName>
                   and <persName ref="PRS4064FereBur">Fǝre Buruk</persName>, who were a well to do land owner  in <placeName ref="LOC5597Sawa">Šawā</placeName>. 
                   While he was a boy, he went to the monastery of <placeName ref="LOC2830EllaAd">ʾƎlla ʾAdbār</placeName> where he kept practicing ascetic discipline and working miracle.
                   He was ordained by 
-                  <persName ref="PRS10350Yeshaq"><roleName type="title">ʾabuna</roleName> Yǝsḥaq</persName> in<date>1480/81</date>. 
+                  <persName ref="PRS10350Yeshaq">
+                     <roleName type="title">ʾabuna</roleName> Yǝsḥaq</persName> in<date>1480/81</date>. 
                   He was a prominent  member of the community of the monastery of <placeName ref="INS0341DL">Dabra Libānos</placeName>
                   in the time of <persName ref="PRS6734MarhaKr">Marḥa Krǝstos</persName> and <persName ref="PRS7825Petros">Ṗeṭros</persName>
        
