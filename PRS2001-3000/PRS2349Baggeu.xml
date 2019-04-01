@@ -39,6 +39,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="it">Italiano</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
+         <textClass>
+            <keywords>
+               <term key="saint"/>
+            </keywords>
+         </textClass>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
@@ -46,6 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-10-21">Complete record</change>
+         <change who="PL" when="2019-03-27">removed occupation containing St, Saint, bibl, biblical or prophet, added keyword. See https://github.com/BetaMasaheft/Documentation/issues/1104</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -59,18 +65,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
-                  <occupation type="ecclesiastic">saint</occupation>
+                  <!--saint-->
                
                <floruit notBefore="1200" notAfter="1250">He was a saintly monk who lived in the half of the 13th century.
                   He was a robber who became later on a disciple of 
                   
-                  <persName ref="PRS5633IyasusM"><roleName type="title">ʾabbā</roleName> 
+                  <persName ref="PRS5633IyasusM">
+                     <roleName type="title">ʾabbā</roleName> 
                      ʾIyasus Moʾa</persName>. 
                   He is said to have been one of those who bestowed his blessing 
                   upon the monastery of <placeName ref="INS0327DHE">Dabra Ḥayq ʾƎsṭifānos</placeName> 
                </floruit>
                <death notAfter="1292"> He died before the death of his master  
-                  <persName ref="PRS5633IyasusM"><roleName type="title">ʾabbā</roleName> ʾIyasus Moʾa</persName> in <date>1292</date> 
+                  <persName ref="PRS5633IyasusM">
+                     <roleName type="title">ʾabbā</roleName> ʾIyasus Moʾa</persName> in <date>1292</date> 
                   and was buried in <placeName ref="INS0327DHE">Dabra Ḥayq ʾƎsṭifānos</placeName> 
                </death>
                </person>  

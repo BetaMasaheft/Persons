@@ -39,6 +39,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="it">Italiano</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
+         <textClass>
+            <keywords>
+               <term key="saint"/>
+            </keywords>
+         </textClass>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
@@ -48,12 +53,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2016-09-30">Complete record</change>
          <change who="MV" when="2017-11-02">Minor additions</change>
          <change who="DR" when="2018-07-28">Added relation and wikidata</change>
+         <change who="PL" when="2019-03-27">removed occupation containing St, Saint, bibl, biblical or prophet, added keyword. See https://github.com/BetaMasaheft/Documentation/issues/1104</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1" sameAs="Q4663655">
+            <person sex="1" sameAs="wd:Q4663655">
                <persName xml:lang="gez" xml:id="n1" type="monastic">ጰንጠሌዎን፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Ṗanṭalewon</persName>
                <persName>
@@ -61,7 +67,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
-               <occupation type="ecclesiastic">saint</occupation>
+               <!--saint-->
            
                <floruit>He was one of the nine saints who evangelized the Aksumite population in the 5th-6th century. He came to Ethiopia with his fellows during the reign of 
                   King <persName ref="PRS3730ellaAm">ʾƎlla ʿAmidā II</persName>.
@@ -87,7 +93,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="ecrm:P129i_is_subject_of"
                          active="PRS7720Pantalew"
                          passive="LIT1532GadlaP"/>
-               <relation name="saws:isMemberOf" active="PRS7720Pantalew" passive="PRS12196NineSaints"/>
+               <relation name="saws:isMemberOf"
+                         active="PRS7720Pantalew"
+                         passive="PRS12196NineSaints"/>
             </listRelation>
          </listPerson>
          <listBibl type="editions">

@@ -32,21 +32,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>A digital born TEI file</p>
         </encodingDesc>
         <profileDesc>
-            <creation/>
-            <abstract>
+         <creation/>
+         <abstract>
                 <p/>
             </abstract>
-            <langUsage>
+         <langUsage>
                 <language ident="en">English</language>
                 <language ident="ar">Arabic</language>
                 <language ident="it">Italian</language>
                 <language ident="am">Amharic</language>
                 <language ident="gez">Gǝʿǝz</language>
             </langUsage>
-        </profileDesc>
+         <textClass>
+            <keywords>
+               <term key="saint"/>
+            </keywords>
+         </textClass>
+      </profileDesc>
         <revisionDesc>
             <change who="DR" when="2017-06-13">Created entity</change>
-        </revisionDesc>
+        <change who="PL" when="2019-03-27">removed occupation containing St, Saint, bibl, biblical or prophet, added keyword. See https://github.com/BetaMasaheft/Documentation/issues/1104</change>
+      </revisionDesc>
     </teiHeader>
     <text>
         <body>
@@ -54,7 +60,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ሰይፈ፡ ሚካኤል፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Sayfa Mikāʾel</persName>
-                    <occupation type="ecclesiastic">Saint</occupation>
+                    <!--Saint-->
                 </person>
             </listPerson>
         </body>

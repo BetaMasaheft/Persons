@@ -40,6 +40,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="it">Italiano</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
+         <textClass>
+            <keywords>
+               <term key="saint"/>
+            </keywords>
+         </textClass>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
@@ -47,12 +52,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-07-29">Complete record</change>
+         <change who="PL" when="2019-03-27">removed occupation containing St, Saint, bibl, biblical or prophet, added keyword. See https://github.com/BetaMasaheft/Documentation/issues/1104</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sameAs="Q59490268" sex="1">
+            <person sameAs="wd:Q59490268" sex="1">
 
                <persName>Yǝtbārak</persName>
                <persName xml:lang="gez" xml:id="n1" type="birth">ይትባረክ፡</persName>
@@ -63,7 +69,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
-               <occupation type="ruler">a saint king</occupation>
+               <occupation type="ruler">king</occupation>
+               <!--a saint king-->
 
                <floruit when="1240" evidence="internal">He succeeded saint King <persName ref="PRS7437Naakkwe">Naʾakkʷǝto Laʾab</persName>.
                   He was the last king of the Zāgʷe dynasty.
@@ -83,17 +90,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          passive="LIT1518GadlaY"/>
             </listRelation>
          </listPerson>
-         <listBibl type="editions">
+         <listBibl type="secondary">
             <bibl>
                <ptr target="bm:Basset1882Chronicle"/>
             </bibl>
-         </listBibl>
-         <listBibl type="editions">
             <bibl>
                <ptr target="bm:Perruchon1892Lalibela"/>
             </bibl>
-         </listBibl>
-         <listBibl type="secondary">
             <bibl>
                <ptr target="bm:Marrassini2014Yetbarak"/>
             </bibl>

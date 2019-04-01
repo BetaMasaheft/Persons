@@ -40,6 +40,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="it">Italiano</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
+         <textClass>
+            <keywords>
+               <term key="saint"/>
+            </keywords>
+         </textClass>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
@@ -47,12 +52,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="SG" when="2016-07-27">Complete record</change>
          <change who="SG" when="2017-05-19">Complete record</change>
+         <change who="PL" when="2019-03-27">removed occupation containing St, Saint, bibl, biblical or prophet, added keyword. See https://github.com/BetaMasaheft/Documentation/issues/1104</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1" sameAs="Q59313600">
+            <person sex="1" sameAs="wd:Q59313600">
 
                <persName xml:lang="gez" xml:id="n1" type="birth">ሐርባይ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Ḥarbāy</persName>
@@ -66,7 +72,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
 
-                  <occupation type="ruler">a saint king</occupation>
+                  <!--a saint king-->
 
                <floruit when="1093" evidence="internal">He succeeded his cousin, a saint King <persName ref="PRS10325Yemreha">Yǝmrǝḥanna Krǝstos</persName>.
                      He was known for his reform policy with the election of a metropolitan.
