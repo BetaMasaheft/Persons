@@ -68,7 +68,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
-               <!--saint-->
                <birth> He was born at <placeName ref="LOC1310Aksum">ʾAksum</placeName>
                </birth>
                <floruit>He was one of the most celebrated Ethiopian saints. 
@@ -91,6 +90,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="ecrm:P129i_is_subject_of"
                          active="PRS8491Samuel"
                          passive="LIT1497GadlaS"/>
+               <relation name="lawd:hasAttestation" active="PRS8491Samuel" passive="LIT5515MiracleBlind"/>
+               <relation name="lawd:hasAttestation" active="PRS8491Samuel" passive="LIT5517MiracleZarafta"/>
+               <relation name="lawd:hasAttestation" active="PRS8491Samuel" passive="LIT5516MiracleTomb"/>
             </listRelation>
          </listPerson>
          <listBibl type="secondary">
