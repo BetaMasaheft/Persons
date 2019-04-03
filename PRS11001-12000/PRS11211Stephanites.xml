@@ -68,6 +68,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </floruit>
             </personGrp>
             <listRelation>
+               <relation name="agrelon:hasFounder" active="PRS11211Stephanites" passive="PRS3894estifano"/>
                <relation name="rel:enemyOf"
                          active="PRS11211Stephanites"
                          passive="PRS10626ZaraY"/>
@@ -87,7 +88,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </listPerson>
          
          
-         <listBibl type="editions">
+         <listBibl type="secondary">
             <bibl>
                <ptr target="bm:Getatchew2011EstifanosEd"/>
             </bibl>
@@ -97,8 +98,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <bibl>
                <ptr target="bm:Getatchew2006EstifanosT"/>
             </bibl>
-         </listBibl>
-         <listBibl type="secondary">
             <bibl>
                <ptr target="bm:Kaplan2010Stephanites"/>
             </bibl>

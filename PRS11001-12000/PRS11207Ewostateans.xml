@@ -51,7 +51,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   in Eastern <placeName ref="LOC6569Tegray"/> and were widely involved in the Christianization of the Northern Ethiopian provinces in the <date>14th and 15th century</date>.
                </floruit>
             </personGrp>
-           <!--add relation to founder-->
+          <listRelation>
+             <relation name="agrelon:hasFounder" active="PRS11207Ewostateans" passive="PRS3932Ewostate"/>
+          </listRelation>
          </listPerson>
          
          <listBibl type="secondary">
