@@ -49,17 +49,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="PL" when="2019-03-27">removed occupation containing St, Saint, bibl, biblical or prophet, added keyword. See https://github.com/BetaMasaheft/Documentation/issues/1104</change>
+         <change who="DR" when="2019-04-05">Added name and wikidata</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  
-                  Paul
-               </persName>
-               <!-- St -->
+            <person sex="1" sameAs="wd:Q9200">
+               <persName xml:lang="gez" xml:id="n1">ጳውሎስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Ṗāwlos</persName>
+               <persName xml:lang="en" type="main" xml:id="n2">Paul</persName>
             </person>
          </listPerson>
       </body>
