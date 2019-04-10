@@ -39,6 +39,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="it">Italiano</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
+         <textClass>
+            <keywords>
+               <term key="saint"/>
+            </keywords>
+         </textClass>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
@@ -46,6 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-10-05">Complete record</change>
+         <change who="PL" when="2019-03-27">removed occupation containing St, Saint, bibl, biblical or prophet, added keyword. See https://github.com/BetaMasaheft/Documentation/issues/1104</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -60,7 +66,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
-                  <occupation type="ecclesiastic">saint</occupation>
+                  <!--saint-->
                <birth> He was born at <placeName ref="LOC1236Agama">ʾAgāma</placeName>
                </birth>
                <residence>
@@ -70,7 +76,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   Since there was a shortage of priests following the persecution of the <persName ref="PRS11211Stephanites">Stephanites</persName> by King <persName ref="PRS10626ZaraY">Zarʾa Yāʿqob</persName>, 
                   he was chosen by  ʾabbā  <persName ref="PRS1008Abakaraz">ʾAbakarazun</persName>, 
                   the head of the monastery of <placeName ref="LOC3653GundaG">Gunda Gunde</placeName>
-                  to go to <placeName ref="Q1218">Jerusalem</placeName> in <date>1476</date>.
+                  to go to <placeName ref="wd:Q1218">Jerusalem</placeName> in <date>1476</date>.
                      
                   </floruit>
                   <death when="1520"/>

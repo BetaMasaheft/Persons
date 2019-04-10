@@ -52,13 +52,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPerson>
-            <person sex="1" sameAs="Q705378">
-               <persName xml:lang="gez" xml:id="n1" type="birth">Kāleb</persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized">ካሌብ፡</persName>
+            <person sex="1" sameAs="wd:Q705378">
+               <persName xml:lang="gez" xml:id="n1" type="birth">ካሌብ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Kāleb</persName>
             
-               <persName xml:lang="gez" xml:id="n2" type="reignal">እለ፡ አጽብሐ፡</persName>
+               <persName xml:lang="gez" xml:id="n2" type="regnal">እለ፡ አጽብሐ፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">ʾƎlla ʾAṣbǝḥa</persName>
-               <persName xml:lang="gez" xml:id="n3" type="reignal">እለ፡ አጽበሐ፡</persName>
+               <persName xml:lang="gez" xml:id="n3" type="regnal">እለ፡ አጽበሐ፡</persName>
                <persName xml:lang="gez" corresp="#n3" type="normalized">ʾƎlla ʾAṣbaḥa</persName>
                <persName>
                   <roleName type="title">ʾaṣe</roleName>
@@ -72,7 +72,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </residence>
                   
                <floruit>He was a king of  Aksum in the first half of the 6th century. He is also venerated as a saint in the Ethiopian Orthodox Church. He is largely known for his military expedition against 
-                  <placeName ref="Q2119459">Yemen</placeName>  in <date>520</date>.
+                  <placeName ref="wd:Q2119459">Yemen</placeName>  in <date>520</date>.
                   </floruit>
                
             </person>
@@ -91,22 +91,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </listRelation>
          </listPerson>
          
-         <listBibl type="editions">
+         <listBibl type="secondary">
             <bibl>
                <ptr target="bm:Basset1882Chronicle"/>
-        
             </bibl>
             <bibl>
-               
-        
-               
                <ptr target="bm:Sergew1972Ethiopianhistory"/>
                <citedRange unit="page">14, 40, 42, 62, 81, 111-12, 117, 119, 123, 124, 125-27, 131-37, 139-40, 143, 145, 159-161, 164, 237</citedRange>
             </bibl>
-            
-  
-         </listBibl>
-         <listBibl type="secondary">
             <bibl> 
                <ptr target="bm:Fiaccadori2007Kaleb"/>
             </bibl>  

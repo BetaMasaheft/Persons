@@ -37,6 +37,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="it">Italiano</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
+         <textClass>
+            <keywords>
+               <term key="saint"/>
+            </keywords>
+         </textClass>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and
@@ -47,12 +52,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-02-17"> correction to date, addition of the title</change>
          <change who="SG" when="2017-10-21"> correction to space</change>
          <change who="MV" when="2017-11-07">Minor additions</change>
+         <change who="PL" when="2019-03-27">removed occupation containing St, Saint, bibl, biblical or prophet, added keyword. See https://github.com/BetaMasaheft/Documentation/issues/1104</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1"  sameAs="Q2894973">
+            <person sex="1" sameAs="wd:Q2894973">
                <persName xml:lang="gez" xml:id="n1" type="birth">ያሬድ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Yāred</persName>
                <persName xml:lang="gez" xml:id="n2" type="nick">ማሕሌታዊ፡</persName>
@@ -65,12 +71,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
-               <occupation type="ecclesiastic">Saint</occupation>
+               <!--Saint-->
                <birth when="0550" cert="medium"> He was born in <placeName ref="LOC1310Aksum">ʾAksum</placeName> most probably in the first half of the sixth century. </birth>
                <floruit> He was a highly venerated saint of the Ethiopian Orthodox Church. He received a
                   traditional education from a priest of <placeName ref="LOC1311AksumS">ʾAksum
                      Ṣǝyon</placeName>, 
-                  <persName ref="PRS11209Gedewon"><roleName type="title">ʾabbā</roleName> Gedewon</persName>. He is credited with the invention
+                  <persName ref="PRS11209Gedewon">
+                     <roleName type="title">ʾabbā</roleName> Gedewon</persName>. He is credited with the invention
                   of Ethiopic sacred music and hymnody.</floruit>
 
             </person>

@@ -39,6 +39,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="it">Italiano</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
+         <textClass>
+            <keywords>
+               <term key="saint"/>
+            </keywords>
+         </textClass>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
@@ -46,6 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-11-04">Complete record</change>
+         <change who="PL" when="2019-03-27">removed occupation containing St, Saint, bibl, biblical or prophet, added keyword. See https://github.com/BetaMasaheft/Documentation/issues/1104</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -59,7 +65,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
-               <occupation type="ecclesiastic">saint</occupation>
+               <!--saint-->
                <residence>
                   <placeName ref="LOC2317DabraM">Dabra Māryām</placeName>
                </residence>
@@ -70,7 +76,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <placeName ref="LOC2317DabraM">Dabra Māryām</placeName> in 
                   <placeName ref="LOC5888Tana">Ṭānā</placeName>.
                   He is said to be close to 
-                  <persName ref="PRS9162TaklaHa"><roleName type="title">ʾabuna</roleName> Takla Hāymānot</persName>.
+                  <persName ref="PRS9162TaklaHa">
+                     <roleName type="title">ʾabuna</roleName> Takla Hāymānot</persName>.
                   He received traditional education from <persName ref="PRS5325heywat">Ḥǝywat Bǝna Baṣǝyon</persName>. 
                   His monastic geneology
                   thus traces back to <persName ref="PRS2528Basalota">Baṣalota Mikāʾel</persName>, 

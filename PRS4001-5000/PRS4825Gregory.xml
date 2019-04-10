@@ -44,15 +44,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="DR" when="2018-04-10">Updated</change>
+         <change when="2019-03-22" who="ES">added name</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1" sameAs="Q309953">
+            <person sex="1" sameAs="wd:Q309953">
                <persName xml:id="n1" type="main" xml:lang="en">Gregory the Illuminator</persName>
-               <persName xml:lang="gez" xml:id="n2">ጎርጎርዮስ፡</persName>
-               <persName xml:lang="gez" corresp="#n2" type="normalized">Gorgoryos</persName>
+               <persName xml:id="n2">Gregory of Armenia</persName>
+               <persName xml:lang="gez" xml:id="n3">ጎርጎርዮስ፡</persName>
+               <persName xml:lang="gez" corresp="#n3" type="normalized">Gorgoryos</persName>
+               
             </person>
          </listPerson>
       </body>

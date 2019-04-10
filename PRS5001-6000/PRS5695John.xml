@@ -37,6 +37,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="it">Italiano</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
+         <textClass>
+            <keywords>
+               <term key="saint"/>
+            </keywords>
+         </textClass>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
@@ -46,12 +51,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change when="2017-03-15" who="ES">updated names relations</change>
          <change when="2017-06-09" who="DR">Correction</change>
          <change when="2017-10-15" who="DR">Conformed epithet to guidelines</change>
+         <change who="PL" when="2019-03-27">removed occupation containing St, Saint, bibl, biblical or prophet, added keyword. See https://github.com/BetaMasaheft/Documentation/issues/1104</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1" sameAs="Q328804">
+            <person sex="1" sameAs="wd:Q328804">
                <persName xml:id="n1">John</persName>
                <persName xml:id="Evangelist">
                   <addName type="epithet">the Evangelist</addName>
@@ -69,7 +75,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                <floruit notBefore="0015" notAfter="0100" evidence="literature">15 - 100 CE</floruit>
 
-               <occupation type="ecclesiastic">Saint</occupation>
+               <!--Saint-->
                <occupation type="ecclesiastic">Apostle</occupation>
                <occupation type="ecclesiastic">Evangelist</occupation>
                

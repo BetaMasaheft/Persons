@@ -39,6 +39,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="it">Italiano</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
+         <textClass>
+            <keywords>
+               <term key="saint"/>
+            </keywords>
+         </textClass>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
@@ -48,24 +53,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2016-09-09">Complete record</change>
          <change who="DR" when="2017-05-02">Minor corrections</change>
          <change who="DR" when="2018-02-21">Added syriaca link</change>
+         <change who="PL" when="2019-03-27">removed occupation containing St, Saint, bibl, biblical or prophet, added keyword. See https://github.com/BetaMasaheft/Documentation/issues/1104</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
         
-            <person sex="1" sameAs="Q43706">
+            <person sex="1" sameAs="wd:Q43706">
                   <persName xml:lang="gez" xml:id="n1" type="birth">ዮሐንስ፡ አፈ፡ ወርቅ፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Yoḥannǝs ʾAfa Warq</persName>
                   <persName xml:lang="en" corresp="#n1" type="main">John Chrysostom</persName>
                   <persName xml:lang="en" xml:id="n2" type="nick">Chrysostomos 'Golden mouthed' </persName>
                   <occupation type="ecclesiastic">writer </occupation>
-                  <occupation type="ecclesiastic">saint</occupation>
+                  <!--saint-->
                 
                   <nationality type="Greece"/>
                   <faith type="Greek"/>
                   
-                  <birth> 347, he was born at a place called Antioch  in <date> 347/350</date>
+                  <birth> 347, he was born in Antioch  in <date> 347/350</date>
                </birth>
                   <residence/>
                   <floruit>He was the bishop of Constantinople and is regarded as the greatest preacher of the Greek Church. He lived a hermit life in the years <date> 371-377</date>. 
@@ -172,7 +178,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <relation name="saws:isAttributedAuthorOf"
                          active="PRS5720JohnChr"
                          passive="LIT1371Exposi"/>
-                  <relation name="skos:exactMatch" active="PRS5720JohnChr" passive="http://syriaca.org/person/573"/>
+                  <relation name="skos:exactMatch"
+                         active="PRS5720JohnChr"
+                         passive="http://syriaca.org/person/573"/>
                </listRelation>
          </listPerson>
          

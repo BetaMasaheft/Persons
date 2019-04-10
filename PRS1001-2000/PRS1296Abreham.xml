@@ -39,6 +39,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="it">Italiano</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
+         <textClass>
+            <keywords>
+               <term key="saint"/>
+            </keywords>
+         </textClass>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
@@ -46,6 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2017-02-07">complete record</change>
+         <change who="PL" when="2019-03-27">removed occupation containing St, Saint, bibl, biblical or prophet, added keyword. See https://github.com/BetaMasaheft/Documentation/issues/1104</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -60,14 +66,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
-                  <occupation type="ecclesiastic">saint</occupation>
+                  <!--saint-->
            
                <residence> He was a native of <placeName ref="LOC5191Qata">Qātā</placeName>.
                </residence>
                   
                <floruit notBefore="1314" notAfter="1344">He was a 
                   monk who lived during the reign of 
-                  <persName ref="PRS1854Amdase"><roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS1854Amdase">
+                     <roleName type="title">ʾaṣe</roleName>
                      ʿAmda Ṣǝyon I</persName>.
                   He established his own community at <placeName ref="LOC2905EndaKi">ʾƎndā Kidāna Mǝḥrat</placeName>
                   in the province of <placeName ref="LOC2947Endart">ʾƎndartā</placeName>. </floruit>

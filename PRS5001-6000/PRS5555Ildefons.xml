@@ -11,6 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Ildefonso of Toledo</title>
+            <title>Hildephonsus (Dexius) of Toledo</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -37,12 +38,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="it">Italiano</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
+         <textClass>
+            <keywords>
+               <term key="saint"/>
+            </keywords>
+         </textClass>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change when="2019-03-25" who="ES">relation added</change>
+         <change who="PL" when="2019-03-27">removed occupation containing St, Saint, bibl, biblical or prophet, added keyword. See https://github.com/BetaMasaheft/Documentation/issues/1104</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -51,13 +59,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName>
                   
-                  Ildefonso of Toledo
+                  Hildephonsus of Toledo
                </persName>
                <persName type="alt">Ildephonse</persName>
-               <persName type="alt">Däqsǝyos; al-Defsyus</persName>
-               <persName type="alt">Hildephonsus</persName>
-               <occupation> St </occupation>
+               <persName type="alt">Daqǝsyos</persName>
+               <persName>al-Defsyus</persName>
+               <persName type="alt"> Ildefonso of Toledo
+                  </persName>
+               <persName>Dexius</persName>
+               <!-- St -->
             </person>
+            <listRelation>
+               <relation name="ecrm:P129i_is_subject_of"
+                         active="PRS5555Ildefons"
+                         passive="LIT3586Miracle"/>
+            </listRelation>
          </listPerson>
       </body>
    </text>

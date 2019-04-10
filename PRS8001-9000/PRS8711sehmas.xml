@@ -39,6 +39,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="it">Italiano</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
+         <textClass>
+            <keywords>
+               <term key="saint"/>
+            </keywords>
+         </textClass>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
@@ -47,6 +52,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-10-04">Complete record</change>
          <change who="DR" when="2018-07-28">Added relation</change>
+         <change who="PL" when="2019-03-27">removed occupation containing St, Saint, bibl, biblical or prophet, added keyword. See https://github.com/BetaMasaheft/Documentation/issues/1104</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -62,7 +68,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
-                  <occupation type="ecclesiastic">saint</occupation>
+                  <!--saint-->
                
                   <floruit> He was one of the Nine Saints, a group of foreign monks who arrived in Ethiopia
                      in the 5th and 6th century. 
@@ -90,7 +96,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <relation name="ecrm:P129i_is_subject_of"
                          active="PRS8711sehmas"
                          passive="LIT1500Gadlas"/>
-                  <relation name="saws:isMemberOf" active="PRS8711sehmas" passive="PRS12196NineSaints"/>
+                  <relation name="saws:isMemberOf"
+                         active="PRS8711sehmas"
+                         passive="PRS12196NineSaints"/>
                   
                </listRelation>
          </listPerson>

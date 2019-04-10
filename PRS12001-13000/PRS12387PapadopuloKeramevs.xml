@@ -1,19 +1,19 @@
-<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng"
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng"
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12450Bazabeh" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12387PapadopuloKeramevs" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Bazābəh</title>
+                <title>PapadopuloKeramevs</title>
                 <editor role="generalEditor" key="AB"/>
-                <editor key="DE"/>
+                <editor key="DN"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
                 <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
-                            Forschungsumgebung / beta maṣāḥǝft</publisher>
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
                 <pubPlace>Hamburg</pubPlace>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
@@ -41,26 +41,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="DE" when="2019-02-13">Created entity</change>
-            <change when="2019-02-22" who="DE">Added title</change>
+            <change who="DN" when="2018-11-30">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">በዛብህ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Bazābəh</persName>
-                    <persName>
-                       <roleName type="title">rās</roleName>
-                    </persName>
-                    <faith type="EOTC"/>
-                    <occupation type="political"/>
-                    <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
+                <person sex="1" sameAs="wd:Q4344608">
+                    <persName xml:lang="gez" xml:id="n1">Afanasij Ivanovič Papadopulo-Keramevs</persName>                  
+                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <faith type="Orthodox"/>
+                    <occupation type="ecclesiastic"/>
+                    <nationality type="Greece"/>
+                    <birth when="1856"/>
+                    <death when="1912"/>
                     <floruit/>
                 </person>
+                <listRelation>
+                    <relation name="saws:hasOwned" active="PRS12387PapadopuloKeramevs" passive="IVpapadopulokeramevs3"/>
+                </listRelation>
             </listPerson><!---->
         </body>
     </text>

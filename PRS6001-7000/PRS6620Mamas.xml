@@ -37,6 +37,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="it">Italiano</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
+         <textClass>
+            <keywords>
+               <term key="saint"/>
+            </keywords>
+         </textClass>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
@@ -45,16 +50,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="ES" when="2016-02-09">CREATED: person</change>
          <change when="2016-05-31" who="ES">updated record</change>
          <change when="2017-10-09" who="DR">Corrected transliteration</change>
+         <change who="PL" when="2019-03-27">removed occupation containing St, Saint, bibl, biblical or prophet, added keyword. See https://github.com/BetaMasaheft/Documentation/issues/1104</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1" sameAs="Q532019">
+            <person sex="1" sameAs="wd:Q532019">
                <persName>            
                   Māmās
                </persName>
-               <occupation type="ecclesiastic">Saint, martyr</occupation>
+               <!--Saint, martyr-->
                <note type="commemoration">
                   <date type="diesNatalis">5 Maskaram</date> in <ref type="mss" corresp="BLorient686">BL Orient. 686</ref>
                </note>

@@ -48,7 +48,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <occupation type="ecclesiastic"/>
                <faith type="Orthodox"/>
             </personGrp>
-           <!--add relation to founder-->
+            <listRelation>
+               <relation name="agrelon:hasFounder" active="PRS11332Houseof" passive="PRS10445Yonaso"/>
+            </listRelation>
          </listPerson>
       </body>
    </text>

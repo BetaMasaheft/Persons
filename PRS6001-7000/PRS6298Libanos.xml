@@ -39,6 +39,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="it">Italiano</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
+         <textClass>
+            <keywords>
+               <term key="saint"/>
+            </keywords>
+         </textClass>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
@@ -47,6 +52,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-10-11">Complete record</change>
          <change who="SG" when="2017-09-12">Correction</change>
+         <change who="PL" when="2019-03-27">removed occupation containing St, Saint, bibl, biblical or prophet, added keyword. See https://github.com/BetaMasaheft/Documentation/issues/1104</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -64,12 +70,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
-                  <occupation type="ecclesiastic">saint</occupation>
+                  <!--saint-->
                  
                <floruit notBefore="0500" notAfter="0600">He was one of the most important saints 
                   of the Aksumite period and renowned as one
                   of the early founders of monasticism and asceticism in <placeName ref="LOC3010Ethiop">Ethiopia</placeName>. He came from 
-                  <placeName ref="Q406">Constantinople</placeName> during the reign of King <persName ref="PRS3732ellaGab">ʾƎlla Gabaz</persName>. 
+                  <placeName ref="wd:Q406">Constantinople</placeName> during the reign of King <persName ref="PRS3732ellaGab">ʾƎlla Gabaz</persName>. 
                   He was chiefly active in <placeName ref="LOC5575Saraye">Sarāye</placeName> and <placeName ref="LOC1298Akkala">ʾAkkala Guzāy</placeName>.
                   He was said to be the founder of the monastery of <placeName ref="LOC2296DabraL">Dabra Libānos</placeName>.
                  

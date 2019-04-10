@@ -40,6 +40,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="it">Italiano</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
+         <textClass>
+            <keywords>
+               <term key="saint"/>
+            </keywords>
+         </textClass>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
@@ -49,12 +54,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-05-22">addition to the content</change>      
          <change who="JG" when="2017-11-30">Inserted Wiki Data ID, update relations</change>      
          <change who="DR" when="2018-05-05">Added relation, deleted double persName</change>      
+         <change who="PL" when="2019-03-27">removed occupation containing St, Saint, bibl, biblical or prophet, added keyword. See https://github.com/BetaMasaheft/Documentation/issues/1104</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
-            <person sex="1" sameAs="Q48438">
+            <person sex="1" sameAs="wd:Q48438">
                <persName xml:lang="en" xml:id="n1">St George</persName>
                   <persName xml:lang="gez" xml:id="n2" type="birth">ጊዮርጊስ፡</persName>
                   <persName xml:lang="gez" corresp="#n2" type="normalized">Giyorgis</persName>
@@ -62,7 +68,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" corresp="#n3" type="normalized">Mār Giyorgis</persName>
                   <nationality type="Israel/Palestine"/>
                   <faith type="Orthodox"/>
-                  <occupation type="ecclesiastic">saint</occupation>
+                  <!--saint-->
                   <birth notBefore="0260" notAfter="0283"/>
                   <floruit notBefore="0260" notAfter="0303">He was one of the most famous saints in 
                      both Eastern and Western Christian traditions. 
@@ -81,7 +87,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <relation name="ecrm:P129i_is_subject_of"
                          active="PRS4585Georgeo"
                          passive="LIT1287Dersan"/>
-                  <relation name="ecrm:P129i_is_subject_of" active="PRS4585Georgeo" passive="LIT2375Synaxa"/>
+                  <relation name="ecrm:P129i_is_subject_of"
+                         active="PRS4585Georgeo"
+                         passive="LIT2375Synaxa"/>
                </listRelation>
             
          </listPerson>

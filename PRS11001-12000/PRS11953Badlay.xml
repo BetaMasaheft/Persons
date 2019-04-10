@@ -12,11 +12,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
-                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine
+                    multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
                 <pubPlace>Hamburg</pubPlace>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
-                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                        licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -41,76 +42,45 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="SG" when="2018-03-16">Created entity</change>
+            <change who="DR" when="2019-03-15">Added name, wikidata and reference and corrected faith</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person sex="1">
-                
+                <person sex="1" sameAs="wd:Q4841010">
                     <persName xml:lang="gez" xml:id="n1">በድላይ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Badlāy</persName>
-                        
-                        <faith type="EOTC"/>
-                        
-                        <nationality type="Ethiopia"/>
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                    </person> 
-                    
-                    <listRelation>
-                        
-                        
-                        
-                        
-                        <relation name="lawd:hasAttestation" active="PRS11953Badlay" passive="LIT3951ChronSusenyos"/>
-                        
-                        
-                    </listRelation>
-                    
-                    
-                    
+                    <persName xml:lang="ar" xml:id="n2">شهاب الدين أحمد بدلاي بن سعد الدين</persName>
+                    <persName xml:lang="ar" corresp="#n2" type="normalized">Šihāb ad-dīn ʾAḥmad Badlāy b. Saʿd ad-dīn</persName>
+                    <faith type="Islam"/>
+                    <nationality type="Ethiopia"/>
+                    <occupation type="ruler"/>
+                </person>
+
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="PRS11953Badlay"
+                        passive="LIT3951ChronSusenyos"/>
+                </listRelation>
+
             </listPerson>
-            <listBibl type="editions">
-                
+            <listBibl type="secondary">
+                <bibl><ptr target="bm:Muth2003EAEBadlay"/></bibl>
                 <bibl>
                     <ptr target="bm:Pereira1892Susenyos"/>
                 </bibl>
-            </listBibl>
-            <listBibl type="translation">
                 <bibl>
                     <ptr target="bm:Pereira1900Susenyos"/>
                 </bibl>
                 <bibl>
                     <ptr target="bm:Alemu2013Susenyos"/>
                 </bibl>
-                <bibl> 
+                <bibl>
                     <ptr target="bm:Boavida2011PaezII"/>
                     <citedRange unit="page">206-259</citedRange>
                 </bibl>
-                
-                
             </listBibl>
-            
+
         </body>
     </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-                    

@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:id="t1">Ṣadǝqan za-Ṗarāqliṭos</title>
+            <title xml:id="t1">Ṣādǝqān za-Ṗarāqliṭos</title>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
@@ -37,9 +37,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="it">Italiano</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
+         <textClass>
+            <keywords>
+               <term key="saint"/>
+            </keywords>
+         </textClass>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-07-26">Created XML record from Ethio authority google spreadsheet</change>
+         <change who="PL" when="2019-03-27">removed occupation containing St, Saint, bibl, biblical or prophet, added keyword. See https://github.com/BetaMasaheft/Documentation/issues/1104</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -47,10 +53,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName xml:id="n1">
-Ṣadǝqan za-Ṗarāqliṭos
+                  Ṣādǝqān za-Ṗarāqliṭos
                </persName>
+               <persName corresp="#n1">The Righteous ones of Ṗarāqliṭos</persName>
 
-               <occupation type="ecclesiastic"> Sts </occupation>
+               <!-- Sts -->
             </person>
          </listPerson>
       </body>

@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Baḥǝr Sägäd</title>
+            <title>Bāḥǝr Sagad</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -43,22 +43,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2019-03-07">updates</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ባሕር፡ ሰገድ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Bāḥǝr Sagad</persName>
+               
+               
                   
-                  Baḥǝr Sägäd
-               </persName>
+ 
             </person>
             <listRelation>
-               <relation name="snap:FatherOf">
-                  <desc> fath. Wälättä Ṗeṭros </desc>
-               </relation>
-            </listRelation>
+               <relation name="snap:FatherOf" active="PRS2359BaherSa" passive="PRS9848Walatta"></relation>
+               
+                  
+                          </listRelation>
          </listPerson>
       </body>
    </text>

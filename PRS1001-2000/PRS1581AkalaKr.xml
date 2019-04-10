@@ -39,6 +39,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="it">Italiano</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
+         <textClass>
+            <keywords>
+               <term key="saint"/>
+            </keywords>
+         </textClass>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
@@ -46,6 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2017-01-09">Complete record</change>
+         <change who="PL" when="2019-03-27">removed occupation containing St, Saint, bibl, biblical or prophet, added keyword. See https://github.com/BetaMasaheft/Documentation/issues/1104</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -64,13 +70,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
-               <occupation type="ecclesiastic">saint</occupation>
+               <!--saint-->
                
                
                <floruit notBefore="1680" notAfter="1707">He was a father of the Qǝbāt school of theology. 
                   <persName ref="PRS1581AkalaKr">ʾAkāla Krǝstos</persName> represented 
                   Qǝbāt at the council of  <placeName ref="LOC1542Aringo">ʾAringo</placeName>, 
-                  convened by <persName ref="PRS5616IyasuI"><roleName type="title">ʾaṣe</roleName>
+                  convened by <persName ref="PRS5616IyasuI">
+                     <roleName type="title">ʾaṣe</roleName>
                       ʾIyāsu I</persName> in <date>1682</date> 
                   to reconcile the doctrinal differences with Tawāḥǝdo. 
                </floruit>

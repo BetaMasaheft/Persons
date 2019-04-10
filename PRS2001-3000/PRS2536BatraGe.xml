@@ -39,6 +39,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="it">Italiano</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
+         <textClass>
+            <keywords>
+               <term key="saint"/>
+            </keywords>
+         </textClass>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
@@ -46,54 +51,87 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-11-24">Complete record</change>
+         <change who="DR" when="2019-03-08">Added name variants, included information on name and relation to miracles</change>
+         <change who="PL" when="2019-03-27">removed occupation containing St, Saint, bibl, biblical or prophet, added keyword. See https://github.com/BetaMasaheft/Documentation/issues/1104</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1">
-           
-                  <persName xml:lang="gez" xml:id="n1" type="birth">በትረ፡ ጌላ፡ ማርያም፡</persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized">Batra Gelā Māryām</persName>
+               
+               <persName xml:lang="gez" xml:id="n1" type="birth">በቴርጌላ፡ ማርያም፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Batergelā Māryām</persName>
+               <persName xml:lang="gez" xml:id="n2" type="birth">ቤቴርጌላ፡ ማርያም፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Betergelā Māryām</persName>
+               <persName xml:lang="gez" xml:id="n3" type="birth">በርቴግላ፡ ማርያም፡</persName>
+               <persName xml:lang="gez" corresp="#n3" type="normalized">Bartegǝlā Māryām</persName>
+                  <persName xml:lang="gez" xml:id="n4" type="birth">በትረ፡ ጌላ፡ ማርያም፡</persName>
+               <persName xml:lang="gez" corresp="#n4" type="normalized">Batra Gelā Māryām</persName>
           
                   <persName>
                   <roleName type="title">ʾabbā</roleName>
                </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
-                  <occupation type="ecclesiastic">saint</occupation>
+                  <!--saint-->
                 <floruit> He was a medieval saint referred to as a son of the prince. 
                    As a child he was imprisoned and tortured together with his brothers on the order of his own father. 
                      The account resembles  stories that are told in the royal Ethiopian chronicles, where it said that 
                    
-                   <persName ref="PRS10626ZaraY">  <roleName type="title">ʾaṣe</roleName> Zarʾa Yāʿqob</persName> acted resolutely 
+                   <persName ref="PRS10626ZaraY">  
+                     <roleName type="title">ʾaṣe</roleName> Zarʾa Yāʿqob</persName> acted resolutely 
                    against his sons after charges were made 
                      against them that they were practicing pagan rites. 
                      Thus, <persName ref="PRS2536BatraGe">Batra Gelā Māryām</persName> could possibly be identified with   
                  
-                   <persName ref="PRS2334BaedaM">  <roleName type="title">ʾaṣe</roleName> Baʾǝda Māryām I</persName>, 
+                   <persName ref="PRS2334BaedaM">  
+                     <roleName type="title">ʾaṣe</roleName> Baʾǝda Māryām I</persName>, 
                    son and successor of   
                  
-                   <persName ref="PRS10626ZaraY">    <roleName type="title">ʾaṣe</roleName> Zarʾa Yāʿqob</persName>. 
-                   A fragment of his Acts is found in the <ref type="work" corresp="LIT2384Taamme">Taʾammǝra Māryām</ref>.
+                   <persName ref="PRS10626ZaraY">    
+                     <roleName type="title">ʾaṣe</roleName> Zarʾa Yāʿqob</persName>. 
+                   His acts are only preserved in the form of three miracles in the <ref type="work" corresp="LIT2384Taamme">Taʾammǝra Māryām</ref>. The name is attested only in the variants 
+                   <foreign xml:lang="gez">በቴርጌላ፡ ማርያም፡</foreign>, <foreign xml:lang="gez">ቤቴርጌላ፡ ማርያም፡</foreign> and <foreign xml:lang="gez">በርቴግላ፡ ማርያም፡</foreign>. 
+                   <ref target="#CerulliBatragela"/> proposes the reconstruction <foreign xml:lang="gez">በትረ፡ ጌላ፡ ማርያም፡</foreign>.
                </floruit>
                  
                </person>
                <listRelation>
                   <relation name="snap:SonOf"
-                         cert="medium"
+                         cert="low"
                          active="PRS2536BatraGe"
-                         passive="PRS10626ZaraY"/>
+                         passive="PRS10626ZaraY">
+                  <desc>
+                     <persName ref="PRS2536BatraGe"/> could possibly be identified with
+                            <persName ref="PRS2334BaedaM"/>.</desc>
+               </relation>
     
                   <relation name="ecrm:P129i_is_subject_of"
                          active="PRS2536BatraGe"
                          passive="LIT4735GadlaBa"/>
                   
+                  <relation name="ecrm:P129i_is_subject_of"
+                         active="PRS2536BatraGe"
+                         passive="LIT5255MiracleBatergela1"/>
+                  
+                  <relation name="ecrm:P129i_is_subject_of"
+                         active="PRS2536BatraGe"
+                         passive="LIT5256MiracleBatergela2"/>
+                  
+                  <relation name="ecrm:P129i_is_subject_of"
+                         active="PRS2536BatraGe"
+                         passive="LIT5257MiracleBatergela3"/>
+                  
            </listRelation>
          </listPerson>
          <listBibl type="secondary">
-            <bibl>
+            <bibl xml:id="CerulliBatragela">
                <ptr target="bm:Cerulli1943Batragelamaryam"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:MacomberMiracles"/>
+               <citedRange unit="item">287-289</citedRange>
             </bibl>
             <bibl>
                <ptr target="bm:Getachew1982Betragelamaryam"/>

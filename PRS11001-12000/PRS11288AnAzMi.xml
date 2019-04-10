@@ -42,6 +42,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <revisionDesc>
          <change who="PL" when="2016-11-17">Created XML record from Ethio authority google spreadsheet</change>
          <change when="2017-02-23" who="ES">corrected record</change>
+         <change when="2019-03-15" who="ES">added ethiopic and note</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -53,10 +54,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
 
                
-               <persName xml:lang="en">Three Youths in the Furnace</persName>
-               <persName xml:lang="en">Three Children</persName>
+               <persName xml:lang="en" xml:id="n1" type="main">Three Youths in the Furnace</persName>
+               
+               <persName xml:lang="gez" xml:id="n2">ሰለስቱ፡ ደቂቅ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n2">Salastu daqiq</persName>
+               <persName xml:lang="en" corresp="#n2">Three Children</persName>
+               
                
                <death>Anania, Azaria, Misael saved by the Lord from the furnace, commemorated on 2 Taḫśāś</death>
+               <note>In the Book of Daniel, The Three Holy Children, Hananiah (Shadrach), Mishael (Meshach), and Azariah (Abednego) were all companions of the Prophet Daniel and fellow kinsmen in the tribe of Judah. 
+                  During the reign of King Jechonias they were taken prisoner and led away as captives with other Jews during the Babylonian Captivity. 
+                  Eventually they were taken into the court of King Nebuchadnezzar as servants, stripped of their Hebrew names, and given Babylonian names which honored pagan deities. 
+                  They later would be delivered by God from death after being placed in furnace by Nebuchadnezzar. </note>
                
             </personGrp>
             <listRelation>

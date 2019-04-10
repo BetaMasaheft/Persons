@@ -39,6 +39,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="it">Italiano</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
+         <textClass>
+            <keywords>
+               <term key="saint"/>
+            </keywords>
+         </textClass>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
@@ -48,6 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2016-11-07">Complete record</change>
          <change who="SG" when="2017-02-01">correction</change>
          <change who="SG" when="2017-05-03">correction</change>
+         <change who="PL" when="2019-03-27">removed occupation containing St, Saint, bibl, biblical or prophet, added keyword. See https://github.com/BetaMasaheft/Documentation/issues/1104</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -66,7 +72,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
-               <occupation type="ecclesiastic">saint</occupation>
+               <!--saint-->
          
          
                <floruit notBefore="1500" notAfter="1550">He was a saintly monk from 
@@ -75,9 +81,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   When he was 30 years old, <persName ref="PRS9134TaklaAl">Takla ʾAlfā</persName> 
                   was appointed as abbot of <placeName ref="LOC2687DimaGi">
                      Dimā Giyorgis</placeName> by 
-                  <persName ref="PRS6229LebnaDe"><roleName type="title">ʾaṣe</roleName> Lǝbna Dǝngǝl</persName>
+                  <persName ref="PRS6229LebnaDe">
+                     <roleName type="title">ʾaṣe</roleName> Lǝbna Dǝngǝl</persName>
                   at the suggestion of 
-                  <persName ref="PRS6774Marqos"><roleName type="title">ʾabuna</roleName> Mārqos [I]</persName>, the then metropolitan. 
+                  <persName ref="PRS6774Marqos">
+                     <roleName type="title">ʾabuna</roleName> Mārqos [I]</persName>, the then metropolitan. 
                   Thus, he headed the monastery of <placeName ref="LOC2687DimaGi">Dimā Giyorgis</placeName> during the turbulent periods of the wars of 
                   <persName ref="PRS1500Ahmad">ʾAḥmad</persName>. </floruit>
                <death>He died at the age of 80 and was buried in the monastery of <placeName ref="LOC2687DimaGi">Dimā Giyorgis</placeName>

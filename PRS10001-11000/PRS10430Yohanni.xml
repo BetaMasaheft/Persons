@@ -39,6 +39,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="it">Italiano</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
+         <textClass>
+            <keywords>
+               <term key="saint"/>
+            </keywords>
+         </textClass>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
@@ -46,6 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-10-20">Complete record</change>
+         <change who="PL" when="2019-03-27">removed occupation containing St, Saint, bibl, biblical or prophet, added keyword. See https://github.com/BetaMasaheft/Documentation/issues/1104</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -59,9 +65,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </persName>
                <nationality type="Egypt"/>
                <faith type="Coptic"/>
-               <occupation type="ecclesiastic">saint</occupation>
+               <!--saint-->
              
-               <floruit> According to the tradition, he was a saint of an Aksumite time who came from <placeName ref="Q79">Egypt</placeName>
+               <floruit> According to the tradition, he was a saint of an Aksumite time who came from <placeName ref="wd:Q79">Egypt</placeName>
                   with his followers in the reign of either King  <persName ref="PRS5841Kaleb">Kāleb</persName> or 
                   <persName ref="PRS4327GabraMa">Gabra Masqal</persName>, or during the reign of a historical son of King  <persName ref="PRS5841Kaleb">Kāleb</persName> 
                   , <persName ref="PRS10178WZBW">WʿZB (Waʿzeb)</persName>. He is said to be the founder of the monastery of <placeName ref="LOC2379DabraS">Dabra Sinā</placeName> in 

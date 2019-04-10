@@ -39,6 +39,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="it">Italiano</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
+         <textClass>
+            <keywords>
+               <term key="saint"/>
+            </keywords>
+         </textClass>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
@@ -46,6 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-10-12">Complete record</change>
+         <change who="PL" when="2019-03-27">removed occupation containing St, Saint, bibl, biblical or prophet, added keyword. See https://github.com/BetaMasaheft/Documentation/issues/1104</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -56,15 +62,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Habta ʾƎgziʾ</persName>
                <persName xml:lang="gez" xml:id="n2" type="birth">ዮናስ፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">Yonās</persName>
+               <persName xml:lang="gez" xml:id="n3" type="main">Yonās of Bur</persName>
                <persName>
                   <roleName type="title">ʾabbā</roleName>
                </persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
-               <occupation type="ecclesiastic">saint</occupation>
                <birth> He was born in the district of <placeName ref="LOC2019Bur">Bur </placeName> in <date>1400/03</date>
                </birth>
-               <floruit> He is one of the most important personalities of the <persName ref="PRS11207Ewostateans">ʾEwosṭāteans</persName> movement. 
+               <floruit> He is one of the most important personalities of the <persName ref="PRS11207Ewostateans">ʾEwosṭātean</persName> movement. 
                   He was the founder of the monastery  of <placeName ref="LOC2257DabraD">Dabra Dǝḫuḫān</placeName>. 
                </floruit>
                <death>
@@ -82,23 +88,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          passive="LIT1522GadlaY"/>
             </listRelation>
          </listPerson>
-         <listBibl type="editions">
+         <listBibl type="secondary">
             <bibl> 
                <ptr target="bm:ContiRossini1903AbbaYonas"/>
             </bibl>
             <bibl> 
                <ptr target="bm:Tedros2015Yonas"/>
             </bibl>
-         </listBibl>
-         <listBibl type="translation" xml:lang="it">
             <bibl> 
                <ptr target="bm:ContiRossini1903AbbaYonas"/>
             </bibl>
             <bibl> 
                <ptr target="bm:Tedros2015Yonas"/>
             </bibl>
-         </listBibl>
-        <listBibl type="secondary">
             <bibl> 
                <ptr target="bm:Bausi2014YonasBur"/>
             </bibl>
