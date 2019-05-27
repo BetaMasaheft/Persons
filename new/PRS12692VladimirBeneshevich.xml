@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12692NikolajBeneshevich" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12692VladimirBeneshevich" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>NikolajBeneshevich</title>
+                <title>VladimirBeneshevich</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DN"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -48,17 +48,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">NikolajBeneshevich</persName>
+                    <persName xml:lang="gez" xml:id="n1">Vladimir Nikolaevič Beneshevič</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1"/>
                     <faith type="Russian"/>
                     <occupation type="academic"/>
                     <nationality type="Russia/USSR"/>
-                    <birth/>
-                    <death/>
+                    <birth>9 August 1874</birth>
+                    <death>27 January 1938</death>
                     <floruit/>
                 </person>
                 <listRelation>
-                    <relation name="saws:hasOwned" active="PRS12692NikolajBeneshevich" passive="IVbeneshevich1"/>
+                    <relation name="saws:hasOwned" active="PRS12692VladimirBeneshevich" passive="IVbeneshevich1"/>
                 </listRelation>
             </listPerson><!---->
         </body>
