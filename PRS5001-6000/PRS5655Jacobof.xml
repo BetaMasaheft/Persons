@@ -53,11 +53,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1" sameAs="wd:Q947711">
-               <persName xml:lang="gez" xml:id="n1" type="birth">ያዕቆብ፡ ዘሥሩግ፡</persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized">Yāʿqob za-Śǝrug</persName> 
-               <persName xml:lang="en" corresp="#n1" type="normalized">Jacob of Serug</persName>
-               <persName xml:lang="en" xml:id="n2" type="alt">James of Serug</persName>
-               <persName xml:lang="en" xml:id="n3" type="alt">Jacob of Sarug</persName>
+               <persName xml:lang="en" xml:id="n1" type="main">Jacob of Sarug</persName>
+               <persName xml:lang="en" xml:id="n2" type="alt">James of Serugh</persName>
+               <persName xml:lang="gez" xml:id="n3" type="birth">ያዕቆብ፡ ዘሥሩግ፡</persName>
+               <persName xml:lang="gez" corresp="#n3" type="normalized">Yāʿqob za-Śǝrug</persName> 
+               <persName xml:lang="en" corresp="#n3" type="normalized">Jacob of Serug</persName>
+               
+               
                <persName xml:lang="en" xml:id="n4" type="nick">The flute of the Holy Spirit</persName>
                   <occupation type="ecclesiastic">writer </occupation>
                <nationality type="Syria"/>
