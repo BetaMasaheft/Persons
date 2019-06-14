@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Cyriacus</title>
+            <title>Cyricus</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -56,13 +56,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1" sameAs="wd:Q508214">
-               <persName xml:lang="gez" xml:id="n1">ቂርቆስ፡</persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized">Qirqos</persName>
-               <persName xml:lang="en" xml:id="n2">Cyriacus</persName>
+               <persName xml:lang="en" xml:id="n1">Cyricus</persName>
+               <persName xml:lang="gez" xml:id="n2">ቂርቆስ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Qirqos</persName>
+               <persName type="alt">Cyriacus</persName>
                <persName type="alt">Ḉerqos</persName>
                <persName type="alt">Quiricus</persName>
+               <death when="0304"></death>
+               <floruit>According to pseudo-Gelasius, <persName ref="PRS5790Julitta">Julitta</persName> and her three-year-old son Cyricus had fled to Tarsus and were identified as Christians.
+                  Julitta was tortured and Cyricus, being held by the governor of Tarsus, scratched the governor's face and was killed by being thrown down by some stairs. 
+                  Julitta did not weep but celebrated the fact that her son had earned the crown of martyrdom. 
+                  In anger, the governor then decreed that Julitta’s sides should be ripped apart with hooks, and then she was beheaded. 
+                  Her body, along with that of Cyricus, was flung outside the city, on the heap of bodies belonging to criminals, but the two maids rescued the corpses of the mother and child and buried them in a nearby field.
+                  
+                  
+               </floruit>
                <!-- St -->
             </person>
+            <listRelation>
+               <relation name="snap:SonOf" active="PRS3249Cyriacus" passive="PRS5790Julitta"></relation>
+            </listRelation>
          </listPerson>
       </body>
    </text>
