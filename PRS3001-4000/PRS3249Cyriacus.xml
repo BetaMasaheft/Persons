@@ -50,13 +50,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="DR" when="2019-03-15">Added name and wikidata</change>
          <change who="PL" when="2019-03-27">removed occupation containing St, Saint, bibl, biblical or prophet, added keyword. See https://github.com/BetaMasaheft/Documentation/issues/1104</change>
+         <change when="2019-06-14" who="ES">updated names added summary</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person sex="1" sameAs="wd:Q508214">
-               <persName xml:lang="en" xml:id="n1">Cyricus</persName>
+               <persName xml:lang="en" xml:id="n1" type="main">Cyricus</persName>
                <persName xml:lang="gez" xml:id="n2">ቂርቆስ፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">Qirqos</persName>
                <persName type="alt">Cyriacus</persName>
