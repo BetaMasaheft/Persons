@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
@@ -55,13 +55,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Victor
-               </persName>
-               <persName type="alt">Fiqṭor</persName>
-               <!-- St -->
-            </person>
+              <persName xml:lang="en" xml:id="n1">Victor</persName>
+              <persName xml:lang="gez" type="normalized" corresp="#n1">ፊቅጦር</persName>
+              <persName xml:lang="gez" type="normalized" corresp="#n1">Fiqṭor</persName>
+              <faith type="EOTC"/>
+              <occupation type="ecclesiastic"/>
+              <birth/>
+              <death/>
+              <floruit/>
+             </person>
+             <listRelation>
+                 <relation name="dcterms:creator" active="PRS9744Victor" passive="LIT4845Martyr"/>
+                 <relation name="dcterms:creator" active="PRS9744Victor" passive="IVkoriander4"/>
+             </listRelation>
          </listPerson>
       </body>
    </text>
