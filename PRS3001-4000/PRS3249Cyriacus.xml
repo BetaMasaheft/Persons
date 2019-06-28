@@ -51,6 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DR" when="2019-03-15">Added name and wikidata</change>
          <change who="PL" when="2019-03-27">removed occupation containing St, Saint, bibl, biblical or prophet, added keyword. See https://github.com/BetaMasaheft/Documentation/issues/1104</change>
          <change when="2019-06-14" who="ES">updated names added summary</change>
+         <change when="2019-06-27" who="ES">added biblio from ES</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -75,6 +76,32 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="snap:SonOf" active="PRS3249Cyriacus" passive="PRS5790Julitta"></relation>
             </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Budge1976Saints"></ptr><citedRange>II, 1130-1131</citedRange>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Colin1990SynaxYakk"/><citedRange>106-111</citedRange>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Dillmann1887Cyriacus"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Balicka2010Qirqos"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Fiaccadori2007Iscrizione"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:CyriacusinEncSan"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:CyriacusinCE"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Sengal1954Quirico"/>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
