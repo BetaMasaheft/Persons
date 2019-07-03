@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS10437Yonael">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Yonāʾel</title>
@@ -30,6 +30,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -46,7 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2018-02-12">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -68,7 +76,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                <floruit notBefore="1604" notAfter="1623">He was a military
                   leader during the rule of 
-                  <persName ref="PRS9038Susenyos"><roleName type="title">ʾaṣe</roleName> Susǝnyos</persName>.
+                  <persName ref="PRS9038Susenyos">
+                     <roleName type="title">ʾaṣe</roleName> Susǝnyos</persName>.
                   He attended the first proclamation of <persName ref="PRS9038Susenyos"/> as emperor at <placeName ref="LOC3788Harasm"/>. 
                  
                   In <date>1620</date>, <persName ref="PRS9038Susenyos"/> issued  a decree against the observance of Sabbath, but Yonāʾel refused to proclaim
@@ -81,9 +90,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                <listRelation>
                   <relation name="snap:AllianceWith"
-                     active="PRS10437Yonael"
-                     passive="PRS9038Susenyos"/>
-                  <relation name="lawd:hasAttestation" active="PRS10437Yonael" passive="LIT3951ChronSusenyos"/>
+                         active="PRS10437Yonael"
+                         passive="PRS9038Susenyos"/>
+                  <relation name="lawd:hasAttestation"
+                         active="PRS10437Yonael"
+                         passive="LIT3951ChronSusenyos"/>
                   
                </listRelation>
          </listPerson>
@@ -109,5 +120,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-               

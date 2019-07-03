@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS1661Alexis">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Alexis</title>
@@ -30,6 +30,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -46,7 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DR" when="2019-03-14">Added names and wikidata ID</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1" sameAs="wd:Q137947">
@@ -55,8 +63,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="en" xml:id="n2">Alexis</persName>
                <persName xml:lang="ar" xml:id="n3">عبد المسيح</persName>
                <persName xml:lang="ar" corresp="#n3" type="normalized">ʿAbd al-Masīḥ</persName>
-               <persName xml:lang="en" xml:id="Hermit"><addName type="epithet">the Hermit</addName></persName>
-               <persName xml:lang="en" xml:id="ManofGod"><addName type="epithet">Man of God</addName></persName>
+               <persName xml:lang="en" xml:id="Hermit">
+                  <addName type="epithet">the Hermit</addName>
+               </persName>
+               <persName xml:lang="en" xml:id="ManofGod">
+                  <addName type="epithet">Man of God</addName>
+               </persName>
                <!--<occupation> St </occupation>-->
             </person>
          </listPerson>

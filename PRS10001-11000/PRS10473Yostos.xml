@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS10473Yostos">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Yosṭos</title>
@@ -32,6 +32,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -49,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-11-13">additions to bibliography</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sameAs="wd:Q711866" sex="1">
@@ -69,11 +77,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      Prior to being crowned, <persName ref="PRS10473Yostos">Yosṭos</persName> acted as a kingmaker. He was devoted to hunting,
                      which he did every year of his reign. Blinding was a favoured punishment for his enemies. A revolt broke out in the court which he could not prevent.
                      A number of notables were killed, and  the son of
-                     <persName ref="PRS5616IyasuI"><roleName type="title">ʾaṣe</roleName> ʾIyāsu the Great</persName>, <persName ref="PRS3430DawitII">Dāwit III</persName>, was bought
+                     <persName ref="PRS5616IyasuI">
+                     <roleName type="title">ʾaṣe</roleName> ʾIyāsu the Great</persName>, <persName ref="PRS3430DawitII">Dāwit III</persName>, was bought
                      from <placeName ref="LOC6157WahniA">Wahni ʾAmbā</placeName>.
                      <persName ref="PRS3430DawitII">Dāwit III</persName> was proclaimed king and
 
-                     <persName ref="PRS10473Yostos"><roleName type="title">ʾaṣe</roleName> Yosṭos</persName> pronounced dead.
+                     <persName ref="PRS10473Yostos">
+                     <roleName type="title">ʾaṣe</roleName> Yosṭos</persName> pronounced dead.
 
 
                   </floruit>

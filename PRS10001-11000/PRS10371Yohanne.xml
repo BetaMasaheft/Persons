@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS10371Yohanne">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Yoḥannǝs</title>
@@ -32,6 +32,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -48,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2016-10-26">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -65,10 +73,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   the founder of the monastery of
                   <placeName ref="LOC2251DabraB">Dabra Bizan</placeName>,
                
-                  <persName ref="PRS4107Fileppos">   <roleName type="title">ʾabbā</roleName> Filǝṗṗos</persName>.
+                  <persName ref="PRS4107Fileppos">   
+                     <roleName type="title">ʾabbā</roleName> Filǝṗṗos</persName>.
                   He led the community for 45 years until his death. 
                   He was succeeded by 
-                  <persName ref="PRS8537saraqaB"><roleName type="title">ʾabbā</roleName> Śaraqa Bǝrhān</persName>.  
+                  <persName ref="PRS8537saraqaB">
+                     <roleName type="title">ʾabbā</roleName> Śaraqa Bǝrhān</persName>.  
                </floruit>
                   <death when="1449"/>
                </person>  

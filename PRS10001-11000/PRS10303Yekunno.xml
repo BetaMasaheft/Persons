@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS10303Yekunno">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Yǝkunno ʾAmlāk</title>
@@ -32,6 +32,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -51,11 +59,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change when="2018-08-02" who="ES">relation added</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sameAs="wd:Q56825507" sex="1">
-            <persName xml:lang="gez" xml:id="n1" type="birth">ይኩኖ፡ አምላክ፡</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ይኩኖ፡ አምላክ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Yǝkunno ʾAmlāk</persName>
                   <persName xml:lang="en" corresp="#n1" type="normalized">There shall be to him sovereignty</persName>
 
@@ -90,8 +98,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <relation name="snap:AllianceWith"
                          active="PRS10303Yekunno"
                          passive="PRS5631IyasusM"/>
-                  <relation name="bm:isPredecessorOf" active="PRS10303Yekunno" passive="PRS10215Yagbas"></relation>
-                  <relation name="bm:isSuccessorOf" active="PRS10303Yekunno" passive="PRS10363Yetbara"></relation>
+                  <relation name="bm:isPredecessorOf"
+                         active="PRS10303Yekunno"
+                         passive="PRS10215Yagbas"/>
+                  <relation name="bm:isSuccessorOf"
+                         active="PRS10303Yekunno"
+                         passive="PRS10363Yetbara"/>
             </listRelation>
          </listPerson>
 

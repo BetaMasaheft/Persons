@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS10603Zannab">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Zannab</title>
@@ -32,6 +32,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -49,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-02-14">some corrections</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -64,14 +72,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <birth when="1825">He was born at <placeName ref="LOC6381Yefat">Yǝfāt</placeName>
                </birth>
                <floruit notBefore="1855" notAfter="1876">He was the secretary of 
-                  <persName ref="PRS9430Tewodros"><roleName type="title">ʾaṣe</roleName> Tewodros II</persName>, a missionary and writer. 
+                  <persName ref="PRS9430Tewodros">
+                     <roleName type="title">ʾaṣe</roleName> Tewodros II</persName>, a missionary and writer. 
                   He was converted to Protestantism in <date>1858</date> by the influence of the missionaries, without officially leaving, 
                   however, the Ethiopian Orthodox Church. He was also a tutor of the son of  
-                  <persName ref="PRS9430Tewodros"><roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS9430Tewodros">
+                     <roleName type="title">ʾaṣe</roleName>
                      Tewodros II</persName>, 
-                  <persName ref="PRS1625Alamayy"><roleName type="title">daǧǧāzmāč</roleName> ʾAlamāyyahu Tewodros</persName>.  
+                  <persName ref="PRS1625Alamayy">
+                     <roleName type="title">daǧǧāzmāč</roleName> ʾAlamāyyahu Tewodros</persName>.  
                   He was succeeded by 
-                  <persName ref="PRS3808engedaW"><roleName type="title">ʾalaqā </roleName> ʾƎngǝdā Warq</persName> as a chief scribe. 
+                  <persName ref="PRS3808engedaW">
+                     <roleName type="title">ʾalaqā </roleName> ʾƎngǝdā Warq</persName> as a chief scribe. 
                   </floruit>
                   <death when="1876"/> 
                </person>  

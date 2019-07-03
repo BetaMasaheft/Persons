@@ -3,8 +3,11 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS10215Yagbas">
-   <teiHeader>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="pers"
+     xml:lang="en"
+     xml:id="PRS10215Yagbas">
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Yāgbā Ṣǝyon</title>
@@ -28,6 +31,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -46,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change when="2018-07-05" who="ES">relation added</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sameAs="wd:Q887998" sex="1">
@@ -58,18 +69,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" xml:id="n2" type="regnal">ሰሎሞን፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">Salomon</persName>
                <occupation type="ruler">Emperor</occupation>
-               <floruit when="1285" evidence="internal">He succeeded his father <persName
-                     ref="PRS10303Yekunno">
+               <floruit when="1285" evidence="internal">He succeeded his father <persName ref="PRS10303Yekunno">
                      <roleName type="title">ʾaṣe</roleName> Yǝkunno ʾAmlāk</persName> in
                      <date>1285</date>. </floruit>
                <death when="1294" evidence="internal"/>
             </person>
 
             <listRelation>
-               <relation name="bm:isSuccessorOf" active="PRS10215Yagbas" passive="PRS10303Yekunno"></relation>
-               <relation name="bm:isPredecessorOf" active="PRS10215Yagbas" passive="PRS8757senfaAr"></relation>
+               <relation name="bm:isSuccessorOf"
+                         active="PRS10215Yagbas"
+                         passive="PRS10303Yekunno"/>
+               <relation name="bm:isPredecessorOf"
+                         active="PRS10215Yagbas"
+                         passive="PRS8757senfaAr"/>
                <relation name="snap:SonOf" active="PRS10215Yagbas" passive="PRS10303Yekunno"/>
-               <relation name="snap:BrotherOf" active="PRS10215Yagbas" passive="PRS10111WedemR"/>
+               <relation name="snap:BrotherOf"
+                         active="PRS10215Yagbas"
+                         passive="PRS10111WedemR"/>
             </listRelation>
          </listPerson>
 

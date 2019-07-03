@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS5816Kabbada">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Kabbada Tasammā</title>
@@ -32,6 +32,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -49,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -73,7 +81,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <floruit notBefore="1916" notAfter="1974">He was a courtier of <persName ref="PRS5226haylase"/>. He started his career in the court of 
                   <persName ref="PRS10671Zawditu"/> as a scribe in the Ministry of Pen. In <date>1925</date>, 
                   he was promoted to head of the pages in the Imperial court with the title 
-                  <persName ref="PRS5816Kabbada"><roleName type="title">āzzāž</roleName></persName>. 
+                  <persName ref="PRS5816Kabbada">
+                     <roleName type="title">āzzāž</roleName>
+                  </persName>. 
                   During the Italian occupation (1936-1941), he was in exile in <placeName ref="wd:Q1218"/>. 
                         After liberation, he served in various important government posts until the revolution, in<date>1974</date>. 
                </floruit>

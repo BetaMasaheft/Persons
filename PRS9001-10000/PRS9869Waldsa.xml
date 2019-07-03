@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS9869Waldsa">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Wald Śaʿalā</title>
@@ -33,6 +33,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -50,7 +58,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="AWi" when="2018-10-03">corrected statement in floruit</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="2">
@@ -72,7 +80,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                <floruit notBefore="1600" notAfter="1661">She was the most important of
                   the wives  of 
-                  <persName ref="PRS9038Susenyos"><roleName type="title">ʾaṣe</roleName> Susǝnyos</persName>. She was a member of an influential clan from <placeName ref="LOC6167Walaqa">Walaqā</placeName>. 
+                  <persName ref="PRS9038Susenyos">
+                     <roleName type="title">ʾaṣe</roleName> Susǝnyos</persName>. She was a member of an influential clan from <placeName ref="LOC6167Walaqa">Walaqā</placeName>. 
                   Initially, she was one of the main opponents of the Jesuit missionaries at the court.
                      
                   </floruit>

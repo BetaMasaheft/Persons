@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS10436Yonael">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Yonāʾel</title>
@@ -33,6 +33,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -49,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2018-05-24">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -64,23 +72,36 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <occupation type="military">leader</occupation>
           
                <floruit notBefore="1574" notAfter="1604">He was a military leader during the rule of 
-                  <persName ref="PRS8550sardaDe"><roleName type="title">ʾaṣe</roleName> Śarḍa Dǝngǝl</persName>. 
+                  <persName ref="PRS8550sardaDe">
+                     <roleName type="title">ʾaṣe</roleName> Śarḍa Dǝngǝl</persName>. 
                   Yonāʾel seems to have started his military career within the ranks of <persName ref="PRS8550sardaDe">Śarḍa Dǝngǝl</persName>' s army. 
                   During the dynastic struggles at the turn of the seventeenth century, he played an important role being one of the most powerful lords of the kingdom. 
-                  He was an ally of <persName ref="PRS2226Atnatewo"><roleName type="title">rās</roleName>ʾAtnātewos</persName> 
+                  He was an ally of <persName ref="PRS2226Atnatewo">
+                     <roleName type="title">rās</roleName>ʾAtnātewos</persName> 
                   against
-                  <persName ref="PRS10513Zadenge"> <roleName type="title">ʾaṣe</roleName> Zadǝngǝl</persName> and later against 
-                  <persName ref="PRS9038Susenyos"></persName></floruit>
+                  <persName ref="PRS10513Zadenge"> 
+                     <roleName type="title">ʾaṣe</roleName> Zadǝngǝl</persName> and later against 
+                  <persName ref="PRS9038Susenyos"/>
+               </floruit>
                <death when="1604">He reportedly died on <date>13 October 1604</date> in the same battle inwhich
-                  <persName ref="PRS10513Zadenge"> <roleName type="title">ʾaṣe</roleName> Zadǝngǝl</persName>perished. </death>
+                  <persName ref="PRS10513Zadenge"> 
+                     <roleName type="title">ʾaṣe</roleName> Zadǝngǝl</persName>perished. </death>
             </person>  
             
             <listRelation>
                <relation name="snap:SonOf" active="PRS10436Yonael" passive="PRS6996MenYeca"/>
-               <relation name="bm:husbandOf" active="PRS10436Yonael" passive="PRS8270SabanaG"></relation>
-               <relation name="snap:AllianceWith" active="PRS10436Yonael" passive="PRS2226Atnatewo"></relation>
-               <relation name="snap:FatherOf" active="PRS10436Yonael" passive="PRS2246Awnabyos"></relation>
-               <relation name="lawd:hasAttestation" active="PRS10436Yonael" passive="LIT3951ChronSusenyos"/>
+               <relation name="bm:husbandOf"
+                         active="PRS10436Yonael"
+                         passive="PRS8270SabanaG"/>
+               <relation name="snap:AllianceWith"
+                         active="PRS10436Yonael"
+                         passive="PRS2226Atnatewo"/>
+               <relation name="snap:FatherOf"
+                         active="PRS10436Yonael"
+                         passive="PRS2246Awnabyos"/>
+               <relation name="lawd:hasAttestation"
+                         active="PRS10436Yonael"
+                         passive="LIT3951ChronSusenyos"/>
                 </listRelation>
          </listPerson>
          
@@ -95,5 +116,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-               

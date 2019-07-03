@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS2226Atnatewo">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>ʾAtnātewos</title>
@@ -33,6 +33,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -49,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-05-15">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -70,9 +78,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <floruit notBefore="1597" notAfter="1617">He was a son of 
                   <persName ref="PRS10077WasanS"/> who was a prominent 
                   warlord of  
-                  <persName ref="PRS7481NaodA"><roleName type="title">ʾaṣe</roleName></persName>. 
+                  <persName ref="PRS7481NaodA">
+                     <roleName type="title">ʾaṣe</roleName>
+                  </persName>. 
                   After the death of 
-                  <persName ref="PRS8550sardaDe"><roleName type="title">ʾaṣe</roleName> 
+                  <persName ref="PRS8550sardaDe">
+                     <roleName type="title">ʾaṣe</roleName> 
                   </persName>, his widow <persName ref="PRS6829Maryams"/> made 
                   him the guardian of the young king <persName ref="PRS10198Yaeqob"/>. 
                   

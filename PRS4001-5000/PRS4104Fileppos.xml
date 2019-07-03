@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS4104Fileppos">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Filǝṗṗos</title>
@@ -32,6 +32,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -48,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2016-08-19">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -68,11 +76,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <floruit notBefore="1314" notAfter="1348">He was the third abbot of 
                   <placeName ref="INS0341DL">Dabra Libānos</placeName> who succeeded his predecessor 
                  
-                  <persName ref="PRS3742ElsaE"> <roleName type="title">ʾabuna </roleName> Elsāʿ</persName>in <date>1314</date>. 
+                  <persName ref="PRS3742ElsaE"> 
+                     <roleName type="title">ʾabuna </roleName> Elsāʿ</persName>in <date>1314</date>. 
                   He expanded Christianity in <placeName ref="LOC5597Sawa">Šawā</placeName>
                   and in the provinces further to the south dispatching 11 pupils of 
                 
-                  <persName ref="PRS9152TaklaHa">  <roleName type="title">ʾabuna </roleName> Takla Hāymānot I</persName>. 
+                  <persName ref="PRS9152TaklaHa">  
+                     <roleName type="title">ʾabuna </roleName> Takla Hāymānot I</persName>. 
                   He also openly reproached  King <persName ref="PRS1854Amdase">ʿAmda Ṣǝyon I</persName> 
                   for his marital practices and his interferences to the church matters. 
                   He also received suffering during King <persName ref="PRS8595SayfaAr"/>, 

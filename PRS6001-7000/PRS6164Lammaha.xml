@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS6164Lammaha">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Lammā Ḫaylu Walda Tārik</title>
@@ -32,6 +32,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -48,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-02-13">complete record </change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -76,7 +84,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   he came to <placeName ref="LOC1216AddisA">ʾAddis ʾAbabā</placeName>
                   where he established good contacts with kings and nobilities.
                   Before the Italian war of <date>1935-1936</date>, 
-                  <persName ref="PRS6164Lammaha"><roleName type="title">ʾalaqā</roleName> 
+                  <persName ref="PRS6164Lammaha">
+                     <roleName type="title">ʾalaqā</roleName> 
                      Lammā Ḫaylu Walda Tārik</persName> participated in the translation of the 
                   <ref type="work" corresp="LIT2072NewTes">New Testament</ref> into
                   Amharic commissioned by <persName ref="PRS5226haylase">Ḫayla Śǝllāse I</persName>, 

@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS5821Kabte">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Kabte</title>
@@ -32,6 +32,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -48,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-01-09">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -68,15 +76,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <floruit notBefore="1790" notAfter="1810">He was a prominent late 18th to early 19th century traditional scholar,
                    a native of either <placeName ref="LOC3549Gojjam">Goǧǧām</placeName> or <placeName ref="LOC6569Tegray">Tǝgrāy </placeName>. 
                   He taught in <placeName ref="LOC3577Gondar">Gondar </placeName> 
-                  where he was elevated to the rank of <persName ref="PRS5821Kabte"><roleName type="title">ʿaqqābe saʾāt</roleName> </persName>
+                  where he was elevated to the rank of <persName ref="PRS5821Kabte">
+                     <roleName type="title">ʿaqqābe saʾāt</roleName> 
+                  </persName>
                   
                   during the rule of 
-                  <persName ref="PRS9153TaklaHa"><roleName type="title">ʾaṣe</roleName> Takla Hāymānot II</persName>.
+                  <persName ref="PRS9153TaklaHa">
+                     <roleName type="title">ʾaṣe</roleName> Takla Hāymānot II</persName>.
                   He was a highly talented scholar whose brilliance attested in 
                   the book of <ref type="work" corresp="LIT1949Mashaf">Maṣḥafa mǝkr</ref>, 
                   authored by <persName ref="PRS11347TaklaHay">Takla Hāymānot of Mamsāḥ</persName>.</floruit>
                <death notBefore="1784" notAfter="1788">He died during the tenure of 
-                  <persName ref="PRS1719AliGwan"><roleName type="title">rās </roleName> ʾAli Gwāngul</persName>. </death>
+                  <persName ref="PRS1719AliGwan">
+                     <roleName type="title">rās </roleName> ʾAli Gwāngul</persName>. </death>
                
                
             </person>  

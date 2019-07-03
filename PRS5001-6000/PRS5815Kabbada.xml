@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS5815Kabbada">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Kabbada Tafari</title>
@@ -33,6 +33,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -49,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-06-21">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -71,7 +79,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                
                <floruit notBefore="1874" notAfter="1935">He was
-                  <persName ref="PRS5815Kabbada"><roleName type="title">wag šum </roleName></persName> in the late 19th-early 20th century. 
+                  <persName ref="PRS5815Kabbada">
+                     <roleName type="title">wag šum </roleName>
+                  </persName> in the late 19th-early 20th century. 
                   He succeeded his father <persName ref="PRS9104TafariW"/> at a young age in <date>1874</date> but was removed from office in <date>1876</date>. 
                   He was reappointed two decades later, in <date>1905</date> but removed a year later due to a quarrel with the local people who lodged an appeal,
                   against him at <persName ref="PRS7006Menilek"/> 's court for maladministration and harsh treatment. He was reappointed for the third time in<date>1917</date>, 

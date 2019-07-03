@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS4107Fileppos">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Filǝṗṗos of Dabra Bizan</title>
@@ -32,6 +32,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -48,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2016-10-26">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -75,7 +83,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   Due to his refusal to renounce the teaching of the
                   two Sabbaths, he was imprisoned in <placeName ref="INS0327DHE">Dabra Ḥayq ʾƎsṭifānos</placeName> and set free in <date>1403/04</date>. 
                   He was succeeded by
-                  <persName ref="PRS10371Yohanne"> <roleName type="title">ʾabbā</roleName> Yoḥannǝs</persName>, 
+                  <persName ref="PRS10371Yohanne"> 
+                     <roleName type="title">ʾabbā</roleName> Yoḥannǝs</persName>, 
                   the second abbot of <placeName ref="LOC2251DabraB">Dabra Bizan</placeName>.</floruit>
                   <death when="1406">He died at the age of 84.</death>
                </person>  

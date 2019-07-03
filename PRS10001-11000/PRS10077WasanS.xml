@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS10077WasanS">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Wasan Sagad</title>
@@ -32,6 +32,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -49,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-01-23">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -66,21 +74,31 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <date>1470</date>s at <placeName ref="LOC3061Fataga">Faṭagār</placeName>. </birth>
                <floruit notBefore="1494" notAfter="1531">He was a powerful noble during the reigns of 
                   
-                  <persName ref="PRS7481NaodA"><roleName type="title">ʾaṣe</roleName>  Nāʿod</persName> 
+                  <persName ref="PRS7481NaodA">
+                     <roleName type="title">ʾaṣe</roleName>  Nāʿod</persName> 
                   and
-                  <persName ref="PRS6229LebnaDe"> <roleName type="title">ʾaṣe</roleName> Lǝbna Dǝngǝl</persName>.
+                  <persName ref="PRS6229LebnaDe"> 
+                     <roleName type="title">ʾaṣe</roleName> Lǝbna Dǝngǝl</persName>.
                   In the time of 
-                  <persName ref="PRS6229LebnaDe"><roleName type="title">ʾaṣe</roleName> Lǝbna Dǝngǝl</persName>, <persName ref="PRS10077WasanS">Wasan Sagad</persName>
+                  <persName ref="PRS6229LebnaDe">
+                     <roleName type="title">ʾaṣe</roleName> Lǝbna Dǝngǝl</persName>, <persName ref="PRS10077WasanS">Wasan Sagad</persName>
                   became a leading member of the court council who held the title
-                  of <persName ref="PRS10077WasanS"><roleName type="title">grā bitwaddad</roleName> </persName>. 
+                  of <persName ref="PRS10077WasanS">
+                     <roleName type="title">grā bitwaddad</roleName> 
+                  </persName>. 
                   However, <persName ref="PRS10077WasanS">Wasan Sagad</persName>
-                  lost the dignity of  <persName ref="PRS10077WasanS"><roleName type="title">rās  bitwaddad</roleName> </persName>
+                  lost the dignity of  <persName ref="PRS10077WasanS">
+                     <roleName type="title">rās  bitwaddad</roleName> 
+                  </persName>
                   in <date>1524</date> when 
-                  <persName ref="PRS6229LebnaDe"><roleName type="title">ʾaṣe</roleName> Lǝbna Dǝngǝl</persName> in a suprise reshuffle of several leading state offices.
+                  <persName ref="PRS6229LebnaDe">
+                     <roleName type="title">ʾaṣe</roleName> Lǝbna Dǝngǝl</persName> in a suprise reshuffle of several leading state offices.
                   But he remained loyal to 
-                  <persName ref="PRS6229LebnaDe"><roleName type="title">ʾaṣe</roleName> Lǝbna Dǝngǝl</persName>
+                  <persName ref="PRS6229LebnaDe">
+                     <roleName type="title">ʾaṣe</roleName> Lǝbna Dǝngǝl</persName>
                   and fought against the Muslim leader <persName ref="PRS1500Ahmad">ʾAḥmad</persName> in <date> 1529</date>. During such turbulent time, 
-                  he was also very concerned with the personal safety of                  <persName ref="PRS6229LebnaDe"><roleName type="title">ʾaṣe</roleName>
+                  he was also very concerned with the personal safety of                  <persName ref="PRS6229LebnaDe">
+                     <roleName type="title">ʾaṣe</roleName>
                       Lǝbna Dǝngǝl</persName>.  </floruit>
                
                <death when="1531"> He died at the battle of <placeName ref="LOC2054Bwsat">B-w-sāt</placeName> in 

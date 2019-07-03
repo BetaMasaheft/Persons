@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS5043hamalmal">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Ḥāmalmāl</title>
@@ -32,6 +32,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -49,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-05-18">correction and addition</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -67,15 +75,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <floruit notBefore="1510" notAfter="1525">He was a great Šawān lord of royal descent in the 
                   mid 16th century Solomonic kingdom. He was the 
                   first cousin of  
-                  <persName ref="PRS4428Galawdew"><roleName type="title">ʾaṣe</roleName> Galāwdewos</persName> 
+                  <persName ref="PRS4428Galawdew">
+                     <roleName type="title">ʾaṣe</roleName> Galāwdewos</persName> 
                   and  
-                  <persName ref="PRS7102Minas"><roleName type="title">ʾaṣe</roleName> Minās</persName>. 
+                  <persName ref="PRS7102Minas">
+                     <roleName type="title">ʾaṣe</roleName> Minās</persName>. 
                   He was an important military lords in successive Kings: 
-                  <persName ref="PRS4428Galawdew"><roleName type="title">ʾaṣe</roleName> Galāwdewos</persName>, 
+                  <persName ref="PRS4428Galawdew">
+                     <roleName type="title">ʾaṣe</roleName> Galāwdewos</persName>, 
                  
-                  <persName ref="PRS7102Minas">  <roleName type="title">ʾaṣe</roleName> 
+                  <persName ref="PRS7102Minas">  
+                     <roleName type="title">ʾaṣe</roleName> 
                      Minās</persName>,  
-                  <persName ref="PRS8275SablaD"><roleName type="title">ʾaṣe</roleName> Śarḍa Dǝngǝl</persName> and </floruit>
+                  <persName ref="PRS8275SablaD">
+                     <roleName type="title">ʾaṣe</roleName> Śarḍa Dǝngǝl</persName> and </floruit>
                  
                </person>  
                <listRelation>

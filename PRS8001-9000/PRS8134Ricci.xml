@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS8134Ricci">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Ricci</title>
@@ -34,6 +34,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -50,7 +58,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-04-18">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1" sameAs="wd:Q20643972">
@@ -61,7 +69,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <occupation type="academic">scholar</occupation>
                <nationality type="Italy"/>
               <birth when="1916"/>
-      <floruit notBefore="1938" notAfter="2003">He was the most outstanding Italian scholar of Ethiopian studies
+               <floruit notBefore="1938" notAfter="2003">He was the most outstanding Italian scholar of Ethiopian studies
        in the second half of the 20th century. He was a pupil of <persName ref="PRS3182ContiRo">Conti Rossini</persName>, 
        who was represented as the last scholar in the tradition of studies founded by <persName ref="PRS4876Guidi">Guidi</persName>. 
         Ricci graduated from the University of <placeName ref="wd:Q220"/> in Humanities in <date>1938</date> with a thesis in Ethiopian 
@@ -73,13 +81,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          and kept the chair till <date>1986</date>, and as emeritus till <date>1991</date>. He was the chief editor of 
           Rassegna di Studi Etiopici for a half century, from <date>1964</date> to <date>2003</date>.
           He was also the eidtor of several Gǝʿǝz texts.</floruit>
-        <death when="2007">He died at <placeName ref="wd:Q220"/> in <date>2007</date>.</death>
+               <death when="2007">He died at <placeName ref="wd:Q220"/> in <date>2007</date>.</death>
             </person>
             <listRelation>
-            <relation name="snap:ProfessionalRelationship"
+               <relation name="snap:ProfessionalRelationship"
                          active="PRS8134Ricci"
                          passive="PRS3076Cerulli"/>
-             <relation name="snap:ProfessionalRelationship"
+               <relation name="snap:ProfessionalRelationship"
                          active="PRS8134Ricci"
                          passive="PRS3182ContiRo"/>
                </listRelation>

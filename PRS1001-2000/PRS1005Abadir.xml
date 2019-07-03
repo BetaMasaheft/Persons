@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS1005Abadir">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Abadir</title>
@@ -30,6 +30,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -45,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="ES" when="2016-02-09">CREATED: place</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1" sameAs="wd:Q4055278">
@@ -53,9 +61,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAbādir</persName>
             </person>
             <listRelation>
-               <relation name="ecrm:P129i_is_subject_of" active="PRS1005Abadir" passive="LIT2375Synaxa"/>
-               <relation name="ecrm:P129i_is_subject_of" active="PRS1005Abadir" passive="LIT2727RepCh11"/>
-               <relation name="ecrm:P129i_is_subject_of" active="PRS1005Abadir" passive="LIT2727RepCh11"/>
+               <relation name="ecrm:P129i_is_subject_of"
+                         active="PRS1005Abadir"
+                         passive="LIT2375Synaxa"/>
+               <relation name="ecrm:P129i_is_subject_of"
+                         active="PRS1005Abadir"
+                         passive="LIT2727RepCh11"/>
+               <relation name="ecrm:P129i_is_subject_of"
+                         active="PRS1005Abadir"
+                         passive="LIT2727RepCh11"/>
                <relation name="snap:BrotherOf" active="PRS1005Abadir" passive="PRS12000Irai"/>
             </listRelation>
          </listPerson>

@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS3330Daneel">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Dānǝʾel</title>
@@ -32,6 +32,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -48,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2016-11-14">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -69,7 +77,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   after long absence to send metropolitan to <placeName ref="LOC3010Ethiop">Ethiopia</placeName> 
                   following 
                  
-                  <persName ref="PRS11305PetrosI"> <roleName type="title">ʾabuna</roleName> Ṗeṭros I</persName>. </floruit>
+                  <persName ref="PRS11305PetrosI"> 
+                     <roleName type="title">ʾabuna</roleName> Ṗeṭros I</persName>. </floruit>
                   
                </person>
                <listRelation>

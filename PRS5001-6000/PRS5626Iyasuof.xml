@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS5626Iyasuof">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>ʾIyāsu of Ǧar Śǝllāse</title>
@@ -32,6 +32,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -49,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -64,7 +72,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <birth when="1468"/>
                <floruit> He was a medieval monk and saint,  ordained by the
                   metropolitan 
-                  <persName ref="PRS10350Yeshaq"><roleName type="title">ʾabuna</roleName> 
+                  <persName ref="PRS10350Yeshaq">
+                     <roleName type="title">ʾabuna</roleName> 
                      Yǝsḥaq (II)</persName>. He was on of the ecclesiastics of the royal church (Kāhǝnāta Dabtarā). He took his monastic habit from <roleName type="title">ʾǝč̣č̣age</roleName>
                   <persName ref="PRS6734MarhaKr">Marḥa Krǝstos</persName>.  </floruit>
                <death when="1508">

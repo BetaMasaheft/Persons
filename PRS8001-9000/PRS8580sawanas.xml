@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS8580sawanas">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Šawānaš Abrəhā</title>
@@ -30,6 +30,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -46,29 +54,50 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="AC" when="2019-01-22">updated transcription and encoded information during Paris Workshop</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="2">
                <persName xml:lang="am" xml:id="n1">ሸዋነሽ፡ አብርሃ</persName>
                <persName xml:lang="gez" type="normalized" corresp="#n1">Šawānaš ʾAbrəhā</persName>
-               <persName type="alt"><roleName type="title">Wayzaro</roleName>Šawānaš ʾAbrəhā</persName>
-               <nationality type="Ethiopia"></nationality>
-               <birth notBefore="1900" notAfter="1901">1900/1901 near <placeName ref="LOC4545Maqala"></placeName>, <placeName ref="LOC6569Tegray"></placeName></birth>
-               <death>July 1968 <placeName ref="LOC1216AddisA"></placeName></death>
+               <persName type="alt">
+                  <roleName type="title">Wayzaro</roleName>Šawānaš ʾAbrəhā</persName>
+               <nationality type="Ethiopia"/>
+               <birth notBefore="1900" notAfter="1901">1900/1901 near <placeName ref="LOC4545Maqala"/>, <placeName ref="LOC6569Tegray"/>
+               </birth>
+               <death>July 1968 <placeName ref="LOC1216AddisA"/>
+               </death>
                
-               <occupation type="other" notBefore="1935" notAfter="1941"> patriot of <placeName ref="LOC6135Wag"></placeName></occupation>
-               <residence ref="LOC5274Qwalis" notBefore="1937" notAfter="1941"></residence>
-               <listBibl type="secondary"><bibl><ptr target="bm:Wudu2010Sawanas"/></bibl></listBibl>
+               <occupation type="other" notBefore="1935" notAfter="1941"> patriot of <placeName ref="LOC6135Wag"/>
+               </occupation>
+               <residence ref="LOC5274Qwalis" notBefore="1937" notAfter="1941"/>
+               <listBibl type="secondary">
+                  <bibl>
+                     <ptr target="bm:Wudu2010Sawanas"/>
+                  </bibl>
+               </listBibl>
             </person>
             
             <listRelation>
-               <relation name="saws:isDescendantOf" active="PRS8580sawanas" passive="PRS10378Yohanne"></relation> 
-               <relation name="snap:DaughterOf" active="PRS8580sawanas" passive="PRS1285AbrehaA"></relation>
-               <relation name="bm:wifeOf" active="PRS8580sawanas" passive="PRS5248hayluKa" notAfter="1937"></relation>
-               <relation name="bm:motherInLawOf" active="PRS8580sawanas" passive="PRS9106Taffara"></relation>
-               <relation name="snap:MotherOf" active="PRS8580sawanas" passive="PRS10074Wasanh"></relation>
-               <relation name="snap:MotherOf" active="PRS8580sawanas" passive="PRS10673Zawditu"></relation>
+               <relation name="saws:isDescendantOf"
+                         active="PRS8580sawanas"
+                         passive="PRS10378Yohanne"/> 
+               <relation name="snap:DaughterOf"
+                         active="PRS8580sawanas"
+                         passive="PRS1285AbrehaA"/>
+               <relation name="bm:wifeOf"
+                         active="PRS8580sawanas"
+                         passive="PRS5248hayluKa"
+                         notAfter="1937"/>
+               <relation name="bm:motherInLawOf"
+                         active="PRS8580sawanas"
+                         passive="PRS9106Taffara"/>
+               <relation name="snap:MotherOf"
+                         active="PRS8580sawanas"
+                         passive="PRS10074Wasanh"/>
+               <relation name="snap:MotherOf"
+                         active="PRS8580sawanas"
+                         passive="PRS10673Zawditu"/>
             </listRelation>
          </listPerson>
       </body>

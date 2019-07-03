@@ -1,8 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12119AsfaDengel" xml:lang="en" type="pers">
-    <teiHeader>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="PRS12119AsfaDengel"
+     xml:lang="en"
+     type="pers">
+    <teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt>
                 <title>ʿĀṣfa Dǝngǝl</title>
@@ -26,7 +31,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </fileDesc>
         <encodingDesc>
             <p>A digital born TEI file</p>
-        </encodingDesc>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
         <profileDesc>
             <creation/>
             <abstract>
@@ -44,13 +55,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <change who="ES" when="2018-06-05">Created entity</change>
         </revisionDesc>
     </teiHeader>
-    <text>
+    <text xml:base="https://betamasaheft.eu/">
         <body>
             <listPerson>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1" type="birth">ዓጽፈ፡ ድንግል፡</persName>
                     <persName xml:lang="gez" corresp="#n1" type="normalized">ʿĀṣfa Dǝngǝl</persName>
-                    <persName><roleName type="title">ʾabuna</roleName></persName>
+                    <persName>
+                  <roleName type="title">ʾabuna</roleName>
+               </persName>
                     <occupation type="ecclesiastic">monk</occupation>
                     
                     
@@ -58,7 +71,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     
             
                     <nationality type="Ethiopia"/>
-                    <residence ref="INS0054SMM"></residence>
+                    <residence ref="INS0054SMM"/>
                     <birth/>
                     <death/>
                     <floruit/>
@@ -66,11 +79,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <listRelation>
                     
                     
-                    <relation name="lawd:hasAttestation" active="PRS12119AsfaDengel" passive="ESsmm003"/>
+                    <relation name="lawd:hasAttestation"
+                         active="PRS12119AsfaDengel"
+                         passive="ESsmm003"/>
                     
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
+         <!---->
         </body>
     </text>
 </TEI>
-                    

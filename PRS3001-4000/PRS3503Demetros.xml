@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS3503Demetros">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Dǝmeṭros</title>
@@ -32,6 +32,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -49,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-08-30">addition to the content and correction</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -71,13 +79,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   who had sought refuge in 
                   <placeName ref="LOC5597Sawa">Šawā</placeName> among the Tulama <persName ref="ETH1973Oromo">Oromo</persName>. He was
                   a confidant of 
-                  <persName ref="PRS5616IyasuI"><roleName type="title">ʾaṣe</roleName> ʾIyāsu I</persName>
+                  <persName ref="PRS5616IyasuI">
+                     <roleName type="title">ʾaṣe</roleName> ʾIyāsu I</persName>
                   helping a plan attacks on <persName ref="ETH1973Oromo">Oromo</persName> and participating in his campaigns into 
                   <placeName ref="LOC5597Sawa">Šawā</placeName>. By the <date>1693</date>, he held the title of 
-                  <persName ref="PRS3503Demetros"><roleName type="title">ṣahafe lam</roleName></persName>; 
-                  he was also <persName ref="PRS3503Demetros"><roleName type="title">daǧǧāzmāč</roleName></persName>. By the end of the decade, however,  he had lost a favour at the court. But 
+                  <persName ref="PRS3503Demetros">
+                     <roleName type="title">ṣahafe lam</roleName>
+                  </persName>; 
+                  he was also <persName ref="PRS3503Demetros">
+                     <roleName type="title">daǧǧāzmāč</roleName>
+                  </persName>. By the end of the decade, however,  he had lost a favour at the court. But 
                   he had regained the governorship of <placeName ref="LOC5597Sawa">Šawā</placeName>, and from mid <date>1709</date> to mid 
-                  <date>1711</date> he held the position of <persName ref="PRS3503Demetros"><roleName type="title">rās</roleName></persName> under <persName ref="PRS9449Tewoflos"/>
+                  <date>1711</date> he held the position of <persName ref="PRS3503Demetros">
+                     <roleName type="title">rās</roleName>
+                  </persName> under <persName ref="PRS9449Tewoflos"/>
                   </floruit>
                   
                </person>

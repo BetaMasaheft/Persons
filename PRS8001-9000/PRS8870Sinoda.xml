@@ -8,7 +8,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      xml:lang="en"
      xml:id="PRS8870Sinoda">
    
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Sinodā</title>
@@ -33,6 +33,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -50,7 +58,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-02-23">Correction</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -70,7 +78,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   Church who was consecrated by Coptic Patriarch 
                   <persName ref="PRS6906Matthew">Matthew (Mātewos) IV</persName> to replace 
                
-                  <persName ref="PRS6071Krestodo">   <roleName type="title">ʾabuna</roleName> Krǝstodolu [II]</persName> in <date>1671</date> who was imprisoned due to religious controversy.
+                  <persName ref="PRS6071Krestodo">   
+                     <roleName type="title">ʾabuna</roleName> Krǝstodolu [II]</persName> in <date>1671</date> who was imprisoned due to religious controversy.
                   He was very ally  to the King in power until the end of his tenure in <date>1692</date>. 
                
                              

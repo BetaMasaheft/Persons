@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS9983WaldaTe">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Walda Tǝnsāʾe</title>
@@ -34,6 +34,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -51,7 +59,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -68,10 +76,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                   
                <floruit notBefore="1855" notAfter="1867">He was the 
-                  50th <persName ref="PRS9983WaldaTe"><roleName type="title">ʾǝč̣č̣age</roleName>
+                  50th <persName ref="PRS9983WaldaTe">
+                     <roleName type="title">ʾǝč̣č̣age</roleName>
                      Walda Tǝnsāʾe</persName> of <placeName ref="INS0341DL"/>. 
                   He was a native <placeName ref="LOC3351Gasala"/>, a locality in <placeName ref="LOC5284Qwara"/>. 
-                  He succeeded <persName ref="PRS9983WaldaTe"><roleName type="title">ʾǝč̣č̣age</roleName>
+                  He succeeded <persName ref="PRS9983WaldaTe">
+                     <roleName type="title">ʾǝč̣č̣age</roleName>
                      Walda Māryām</persName>
                   <persName ref="PRS9936WaldaMa"/> and he was succeeded by <persName ref="PRS4244GabraIy"/>
                </floruit>

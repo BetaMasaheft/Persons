@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      xml:id="PRS4428Galawdew"
      xml:lang="en"
      type="pers">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Galāwdewos</title>
@@ -32,6 +32,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -49,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-11-13">additions to bibliography</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1" sameAs="wd:Q887847">
@@ -76,9 +84,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </person>
             
             <listRelation>
-               <relation name="snap:BrotherOf" active="PRS4428Galawdew" passive="PRS7102Minas"/>
+               <relation name="snap:BrotherOf"
+                         active="PRS4428Galawdew"
+                         passive="PRS7102Minas"/>
                
-               <relation name="snap:BrotherOf" active="PRS7102Minas" passive="PRS4428Galawdew"/>
+               <relation name="snap:BrotherOf"
+                         active="PRS7102Minas"
+                         passive="PRS4428Galawdew"/>
                <relation name="snap:SonOf" active="PRS4428Galawdew" passive="PRS6229LebnaDe"/>
                <relation name="snap:SonOf" active="PRS4428Galawdew" passive="PRS8275SablaD"/>
                <relation name="saws:isAttributedAuthorOf"

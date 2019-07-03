@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS10428Yohanni">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Yoḥanni of Dabra ʿAśā</title>
@@ -32,6 +32,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -48,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2016-10-20">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -63,8 +71,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                <floruit>He was a monk of medieval time born in <placeName ref="LOC5882Tamben">Tamben</placeName> where he built 42 churches.
                   His life is known from his <ref type="work" corresp="LIT1521GadlaY">Gadla Yoḥanni za-Dabra ʿAśā</ref>. He was born from a mother 
-                  who was a wife of a certain <persName ref="PRS10428Yohanni"> <roleName type="title">šum
-                  </roleName>  </persName>of <placeName ref="LOC5882Tamben">Tamben</placeName>. Additional information of him is also evoked in a number of 
+                  who was a wife of a certain <persName ref="PRS10428Yohanni"> 
+                     <roleName type="title">šum
+                  </roleName>  
+                  </persName>of <placeName ref="LOC5882Tamben">Tamben</placeName>. Additional information of him is also evoked in a number of 
                   hymnological compositions.</floruit>
       
             </person>  

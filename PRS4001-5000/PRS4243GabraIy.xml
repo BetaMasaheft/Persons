@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS4243GabraIy">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Gabra ʾIyasus</title>
@@ -32,6 +32,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -49,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-05-22">Minor changes</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -66,9 +74,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <floruit notBefore="1450" notAfter="1500">He was the governor of 
                   <placeName ref="LOC1743Bale">Bāle</placeName> during the 
                   reign of 
-                  <persName ref="PRS2334BaedaM"><roleName type="title">ʾaṣe</roleName> Baʾǝda Māryām I</persName>.  
+                  <persName ref="PRS2334BaedaM">
+                     <roleName type="title">ʾaṣe</roleName> Baʾǝda Māryām I</persName>.  
                   He succeeded 
-                  <persName ref="PRS10595ZanZeg"><roleName type="title">garād</roleName> Žān Zǝg</persName> of  
+                  <persName ref="PRS10595ZanZeg">
+                     <roleName type="title">garād</roleName> Žān Zǝg</persName> of  
                   <placeName ref="LOC1743Bale">Bāle</placeName>.</floruit>
                
             </person>  

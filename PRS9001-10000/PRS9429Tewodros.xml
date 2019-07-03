@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS9429Tewodros">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Tewodros I</title>
@@ -32,6 +32,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -48,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-01-31">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sameAs="wd:Q888016" sex="1">
@@ -67,11 +75,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
                <floruit notBefore="1413" notAfter="1414">He was one of the
                   sons of
-                  <persName ref="PRS3429DawitII"><roleName type="title">ʾaṣe</roleName> Dāwit II</persName> and
+                  <persName ref="PRS3429DawitII">
+                     <roleName type="title">ʾaṣe</roleName> Dāwit II</persName> and
 
-                  <persName ref="PRS8795seyonMo">   <roleName type="title">ʾǝtege</roleName> Ṣǝyon Mogasā</persName>.
+                  <persName ref="PRS8795seyonMo">   
+                     <roleName type="title">ʾǝtege</roleName> Ṣǝyon Mogasā</persName>.
                   He succeeded his father
-                  <persName ref="PRS3429DawitII"><roleName type="title">ʾaṣe</roleName> Dāwit II</persName> in <date>1413</date> and  reigned only for only  nine months. In <ref type="work" corresp="LIT1385Fekkar">Fǝkkāre ʾIyasus</ref>,
+                  <persName ref="PRS3429DawitII">
+                     <roleName type="title">ʾaṣe</roleName> Dāwit II</persName> in <date>1413</date> and  reigned only for only  nine months. In <ref type="work" corresp="LIT1385Fekkar">Fǝkkāre ʾIyasus</ref>,
                   he is represented as a "king of the east" who will reign during 40 years of peace before the end of the world.
                   </floruit>
                   <death when="1414"/>

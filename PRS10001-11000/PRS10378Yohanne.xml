@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS10378Yohanne">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Yoḥannǝs IV </title>
@@ -32,6 +32,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -49,14 +57,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="ES" when="2018-03-27">updated names</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sameAs="wd:Q315659" sex="1">
                
                
-               <persName xml:lang="gez" xml:id="n1" type="regnal"><roleName type="title">ዓፄ፡</roleName> ዮሐንስ፡</persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized"><roleName type="title">ʾaṣe</roleName> Yoḥannǝs <addName>IV</addName></persName>
+               <persName xml:lang="gez" xml:id="n1" type="regnal">
+                  <roleName type="title">ዓፄ፡</roleName> ዮሐንስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">
+                  <roleName type="title">ʾaṣe</roleName> Yoḥannǝs <addName>IV</addName>
+               </persName>
                
                <persName xml:lang="gez" xml:id="n2" type="birth">ካሣ፡ ምርጫ፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">Kaśā Mǝrč̣ā</persName>

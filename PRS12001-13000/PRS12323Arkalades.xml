@@ -1,8 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12323Arkalades" xml:lang="en" type="pers">
-    <teiHeader>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="PRS12323Arkalades"
+     xml:lang="en"
+     type="pers">
+    <teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt>
                 <title>ʾArkaledǝs</title>
@@ -26,7 +31,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </fileDesc>
         <encodingDesc>
             <p>A digital born TEI file</p>
-        </encodingDesc>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
         <profileDesc>
             <creation/>
             <abstract>
@@ -44,22 +55,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <change who="SG" when="2018-10-29">Created entity</change>
         </revisionDesc>
     </teiHeader>
-    <text>
+    <text xml:base="https://betamasaheft.eu/">
         <body>
             <listPerson>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1" type="birth">አርከሌድስ፡ </persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">ʾArkaledǝs</persName>
-                    <persName><roleName type="title">bāššā</roleName> </persName>
+                    <persName>
+                  <roleName type="title">bāššā</roleName> 
+               </persName>
                     <faith type="EOTC"/>
                     <occupation type="political"/>
                     <nationality type="Ethiopia"/>
                 </person>
                 <listRelation>
-                    <relation name="saws:isRelatedTo" active="PRS12323Arkalades" passive="PRS2377Bakaffa"/>
+                    <relation name="saws:isRelatedTo"
+                         active="PRS12323Arkalades"
+                         passive="PRS2377Bakaffa"/>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
+         <!---->
         </body>
     </text>
 </TEI>
-                    

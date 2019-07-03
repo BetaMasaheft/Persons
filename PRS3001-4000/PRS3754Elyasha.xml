@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS3754Elyasha">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>ʾElyās Ḫāylu</title>
@@ -33,6 +33,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -49,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-03-14">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -71,7 +79,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <floruit notBefore="1881" notAfter="1930">He was one of  
                   Ethiopia's most prominent artists during the reign of 
                   
-                  <persName ref="PRS7006Menilek"><roleName type="title">ʾaṣe</roleName> Mǝnilǝk</persName>. 
+                  <persName ref="PRS7006Menilek">
+                     <roleName type="title">ʾaṣe</roleName> Mǝnilǝk</persName>. 
                   He was one of the first Ethiopians to go abroad to study painting, 
                   in <placeName ref="wd:Q142"/>. His painting include illustration for a copy of <ref type="work" corresp="LIT2384Taamme"/>. ʾElyās Ḫāylu also decorated many churches and he was one of the 
                   first Ethiopian artists to depict  <persName ref="PRS7006Menilek">

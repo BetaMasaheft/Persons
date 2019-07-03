@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS11336Giyorgis">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title xml:id="t1">Giyorgis</title>
@@ -32,6 +32,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -45,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2016-10-07">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -61,7 +69,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
              
                <floruit when="1102">He was a metropolitan of the Ethiopian Orthodox Church who succeeded 
                    
-                  <persName ref="PRS8588Sawiros"><roleName type="title">ʾabuna</roleName> Sāwiros</persName> 
+                  <persName ref="PRS8588Sawiros">
+                     <roleName type="title">ʾabuna</roleName> Sāwiros</persName> 
                   in <date>1102</date>. However, as soon as he reached 
                   <placeName ref="LOC3010Ethiop">Ethiopia</placeName> his behaviour caused him to be arrested by 
                   the king of <placeName ref="LOC3010Ethiop">Ethiopia</placeName> by his infamous affairs and vile deeds.

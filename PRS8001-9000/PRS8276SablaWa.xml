@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS8276SablaWa">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Sabla Wangel</title>
@@ -32,6 +32,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -49,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-10-11">Update</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sameAs="wd:Q60537581" sex="2">
@@ -65,16 +73,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <birth when="1500"/>
                <floruit notBefore="1518" notAfter="1567">She was a dominant political figure in the dynasty of her time.
                   She married
-                  <persName ref="PRS6229LebnaDe"><roleName type="title">ʾaṣe</roleName> Lǝbna Dǝngǝl</persName> in <date>1518</date>.
+                  <persName ref="PRS6229LebnaDe">
+                     <roleName type="title">ʾaṣe</roleName> Lǝbna Dǝngǝl</persName> in <date>1518</date>.
                   She came from a noble <placeName ref="LOC3549Gojjam">Goǧǧām</placeName>
                   <persName ref="ETH1126Amhara">ʾAmhārā</persName>.
                   She played a prominant role in the court politics after the death of her husband
 
-                  <persName ref="PRS6229LebnaDe"><roleName type="title">ʾaṣe</roleName> Lǝbna Dǝngǝl</persName>
+                  <persName ref="PRS6229LebnaDe">
+                     <roleName type="title">ʾaṣe</roleName> Lǝbna Dǝngǝl</persName>
                </floruit>
                <death when="1567" evidence="internal"> She died during the reign of her
                   grandson
-                  <persName ref="PRS8550sardaDe"><roleName type="title">ʾaṣe</roleName> Śarḍa Dǝngǝl</persName>. </death>
+                  <persName ref="PRS8550sardaDe">
+                     <roleName type="title">ʾaṣe</roleName> Śarḍa Dǝngǝl</persName>. </death>
             </person>
 
                <listRelation>

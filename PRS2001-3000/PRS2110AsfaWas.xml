@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS2110AsfaWas">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>ʾAsfā Wasan </title>
@@ -32,6 +32,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -48,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2016-11-22">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -65,7 +73,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <placeName ref="LOC5597Sawa">
                   Šawā </placeName> from about <date>1775</date> to <date>1808</date>,
                   succeeding his father 
-                  <persName ref="PRS1878AmmehaI"><roleName type="title">marǝd ʾazmāč</roleName> ʾAmmǝḫā ʾIyasus</persName>. 
+                  <persName ref="PRS1878AmmehaI">
+                     <roleName type="title">marǝd ʾazmāč</roleName> ʾAmmǝḫā ʾIyasus</persName>. 
                   His reign was remarkable for the expansion of the  Šawān kingdom to include the 
                   <placeName ref="LOC6568Amhara">ʾAmhārā</placeName> 
                   regions <placeName ref="LOC3389Gedem">Gǝdǝm</placeName>, 

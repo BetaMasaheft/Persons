@@ -3,8 +3,11 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS2209Athanasi">
-    <teiHeader>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="pers"
+     xml:lang="en"
+     xml:id="PRS2209Athanasi">
+    <teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt>
                 <title>Athanasius</title>
@@ -29,6 +32,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
             </sourceDesc>
         </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
         <profileDesc>
             <langUsage>
                 <language ident="en">English</language>
@@ -45,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <change who="SG" when="2017-05-10">Complete record</change>
         </revisionDesc>
     </teiHeader>
-    <text>
+    <text xml:base="https://betamasaheft.eu/">
         <body>
             <listPerson>
                 <person sex="1" sameAs="wd:Q44024">
@@ -72,35 +83,43 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         which for most of his life was attacked by the supporters of Arianism. For
                         his staunch attitude he was persecuted, being forced into exile five times
                         during his episcopacy. He was also the <placeName ref="wd:Q87"/> metropolitan
-                        who consecrated <persName ref="PRS8386SalamaI"/> as bishop of <placeName
-                            ref="LOC1310Aksum"/>. In Ethiopic literature, many works are attributed
+                        who consecrated <persName ref="PRS8386SalamaI"/> as bishop of <placeName ref="LOC1310Aksum"/>. In Ethiopic literature, many works are attributed
                         to him, most of which remain unpublished.</floruit>
                     <death when="0373">He died at <placeName ref="wd:Q87"/> in <date>373</date>. </death>
 
                 </person>
 
                 <listRelation>
-                    <relation name="bm:hasOrdained" active="PRS2209Athanasi"
-                        passive="PRS8386SalamaI"/>
+                    <relation name="bm:hasOrdained"
+                         active="PRS2209Athanasi"
+                         passive="PRS8386SalamaI"/>
 
 
-                    <relation name="saws:isAttributedAuthorOf" active="PRS2209Athanasi"
-                        passive="LIT1611Homili"/>
-                    <relation name="saws:isAttributedAuthorOf" active="PRS2209Athanasi"
-                        passive="LIT2042Nagarb"/>
+                    <relation name="saws:isAttributedAuthorOf"
+                         active="PRS2209Athanasi"
+                         passive="LIT1611Homili"/>
+                    <relation name="saws:isAttributedAuthorOf"
+                         active="PRS2209Athanasi"
+                         passive="LIT2042Nagarb"/>
 
-                    <relation name="saws:isAttributedAuthorOf" active="PRS2209Athanasi"
-                        passive="LIT2287Saqoqa"/>
-                    <relation name="saws:isAttributedAuthorOf" active="PRS2209Athanasi"
-                        passive="LIT2263salota"/>
-                    <relation name="saws:isAttributedAuthorOf" active="PRS2209Athanasi"
-                        passive="LIT2263salota"/>
-                    <relation name="saws:isAttributedAuthorOf" active="PRS2209Athanasi"
-                        passive="LIT1628Homily"/>
-                    <relation name="saws:isAttributedAuthorOf" active="PRS2209Athanasi"
-                        passive="LIT1353Epistu"/>
-                    <relation name="saws:isAttributedAuthorOf" active="PRS2209Athanasi"
-                        passive="LIT1353Epistu"/>
+                    <relation name="saws:isAttributedAuthorOf"
+                         active="PRS2209Athanasi"
+                         passive="LIT2287Saqoqa"/>
+                    <relation name="saws:isAttributedAuthorOf"
+                         active="PRS2209Athanasi"
+                         passive="LIT2263salota"/>
+                    <relation name="saws:isAttributedAuthorOf"
+                         active="PRS2209Athanasi"
+                         passive="LIT2263salota"/>
+                    <relation name="saws:isAttributedAuthorOf"
+                         active="PRS2209Athanasi"
+                         passive="LIT1628Homily"/>
+                    <relation name="saws:isAttributedAuthorOf"
+                         active="PRS2209Athanasi"
+                         passive="LIT1353Epistu"/>
+                    <relation name="saws:isAttributedAuthorOf"
+                         active="PRS2209Athanasi"
+                         passive="LIT1353Epistu"/>
 
                 </listRelation>
             </listPerson>

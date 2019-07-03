@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS4312GabraMa">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Gabra Māryām</title>
@@ -32,6 +32,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -49,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-05-22">minor changes</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -66,7 +74,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <placeName ref="INS0341DL">Dabra Libānos</placeName>
                </residence>
                <floruit notBefore="1830" notAfter="1842">He was the 47th 
-                  <persName ref="PRS4312GabraMa"><roleName type="title">ʾǝč̣č̣age</roleName> </persName> of
+                  <persName ref="PRS4312GabraMa">
+                     <roleName type="title">ʾǝč̣č̣age</roleName> 
+                  </persName> of
                   the monastery of <placeName ref="INS0341DL">Dabra Libānos</placeName>.
                   He was a native of 
                   <placeName ref="LOC5597Sawa">Šawā</placeName>. 
@@ -75,7 +85,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   and a messenger who brought in <date>1848</date>
                   a letter from  a ruler of <placeName ref="LOC1713Bagemd">Bagemdǝr</placeName> 
                
-                  <persName ref="PRS1688AliAlul">   <roleName type="title">rās</roleName> ʾAli ʾAlulā </persName> to 
+                  <persName ref="PRS1688AliAlul">   
+                     <roleName type="title">rās</roleName> ʾAli ʾAlulā </persName> to 
                   <persName ref="PRS4722Gobat">Gobat</persName>. </floruit>
                   
                </person>

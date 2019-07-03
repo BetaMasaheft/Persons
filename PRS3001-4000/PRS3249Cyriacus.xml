@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS3249Cyriacus">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Cyricus</title>
@@ -30,6 +30,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -54,7 +62,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change when="2019-06-27" who="ES">added biblio from ES</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1" sameAs="wd:Q22661826">
@@ -64,7 +72,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName type="alt">Cyriacus</persName>
                <persName type="alt">Ḉerqos</persName>
                <persName type="alt">Quiricus</persName>
-               <death when="0304"></death>
+               <death when="0304"/>
                <floruit>According to pseudo-Gelasius, <persName ref="PRS5790Julitta">Julitta</persName> and her three-year-old son Cyricus had fled to Tarsus and were identified as Christians.
                   Julitta was tortured and Cyricus, being held by the governor of Tarsus, scratched the governor's face and was killed by being thrown down by some stairs. 
                   Julitta did not weep but celebrated the fact that her son had earned the crown of martyrdom. 
@@ -73,15 +81,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </floruit>
             </person>
             <listRelation>
-               <relation name="snap:SonOf" active="PRS3249Cyriacus" passive="PRS5790Julitta"></relation>
+               <relation name="snap:SonOf" active="PRS3249Cyriacus" passive="PRS5790Julitta"/>
             </listRelation>
          </listPerson>
          <listBibl type="secondary">
             <bibl>
-               <ptr target="bm:Budge1976Saints"></ptr><citedRange>II, 1130-1131</citedRange>
+               <ptr target="bm:Budge1976Saints"/>
+               <citedRange>II, 1130-1131</citedRange>
             </bibl>
             <bibl>
-               <ptr target="bm:Colin1990SynaxYakk"/><citedRange>106-111</citedRange>
+               <ptr target="bm:Colin1990SynaxYakk"/>
+               <citedRange>106-111</citedRange>
             </bibl>
             <bibl>
                <ptr target="bm:Dillmann1887Cyriacus"/>

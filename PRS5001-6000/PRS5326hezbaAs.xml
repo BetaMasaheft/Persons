@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS5326hezbaAs">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Ḥǝzba ʾAsgad</title>
@@ -30,6 +30,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -46,7 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change when="2018-07-05" who="ES">filled the record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
                   <person sameAs="wd:Q3135105" sex="1">
@@ -63,21 +71,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
             </person>
             <listRelation>
-               <relation name="bm:isSuccessorOf" active="PRS5326hezbaAs" passive="PRS8757senfaAr"></relation>
-               <relation name="bm:isPredecessorOf" active="PRS5326hezbaAs" passive="PRS8029QedmaAs"></relation>
+               <relation name="bm:isSuccessorOf"
+                         active="PRS5326hezbaAs"
+                         passive="PRS8757senfaAr"/>
+               <relation name="bm:isPredecessorOf"
+                         active="PRS5326hezbaAs"
+                         passive="PRS8029QedmaAs"/>
                <relation name="snap:SonOf" active="PRS5326hezbaAs" passive="PRS10215Yagbas"/>
                <relation name="snap:BrotherOf"
-                  active="PRS5326hezbaAs"
-                  passive="PRS8263SabaAs"/>
+                         active="PRS5326hezbaAs"
+                         passive="PRS8263SabaAs"/>
                <relation name="snap:BrotherOf"
-                  active="PRS5326hezbaAs"
-                  passive="PRS10585ZanAsg"/>
+                         active="PRS5326hezbaAs"
+                         passive="PRS10585ZanAsg"/>
                <relation name="snap:BrotherOf"
-                  active="PRS5326hezbaAs"
-                  passive="PRS8029QedmaAs"/>
+                         active="PRS5326hezbaAs"
+                         passive="PRS8029QedmaAs"/>
                <relation name="snap:BrotherOf"
-                  active="PRS5326hezbaAs"
-                  passive="PRS8757senfaAr"/>
+                         active="PRS5326hezbaAs"
+                         passive="PRS8757senfaAr"/>
             </listRelation>
          </listPerson>
          <listBibl type="editions">

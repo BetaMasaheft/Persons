@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS10655Zawalda">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Zawalda Māryām</title>
@@ -32,6 +32,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -49,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change when="2017-01-03" who="ES">Corrected tag</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -65,14 +73,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <floruit notBefore="1705" notAfter="1728">
                   He was a monk of the monastery of <placeName ref="LOC4417Magwin">Magwinā</placeName>
                   in northern <placeName ref="LOC3577Gondar">Gondar</placeName> and 
-                  <persName ref="PRS10655Zawalda"><roleName type="title">ʾǝč̣č̣age</roleName></persName> of <placeName ref="INS0341DL">Dabra Libānos</placeName> between <date>1725-1728</date>. 
+                  <persName ref="PRS10655Zawalda">
+                     <roleName type="title">ʾǝč̣č̣age</roleName>
+                  </persName> of <placeName ref="INS0341DL">Dabra Libānos</placeName> between <date>1725-1728</date>. 
                   He succceeded <persName ref="PRS3669edaKres">ʾƎdā Krǝstos</persName> as the head of  <placeName ref="LOC4417Magwin">Magwinā</placeName> in<date>1706</date>, 
                   which was an important stronghold of the Unionist movement at a time of great instability, caused by the doctrinal controversies between
                   the Qǝbāt party and the Tawāḥǝdo supporters. He also played his role in reconciling 
-                  <persName ref="PRS9152TaklaHa"><roleName type="title">ʾaṣe </roleName> Takla Hāymānot I</persName> with  
-                  <persName ref="PRS5616IyasuI"><roleName type="title">ʾaṣe </roleName> ʾIyāsu I</persName> in <date>1706</date>.
+                  <persName ref="PRS9152TaklaHa">
+                     <roleName type="title">ʾaṣe </roleName> Takla Hāymānot I</persName> with  
+                  <persName ref="PRS5616IyasuI">
+                     <roleName type="title">ʾaṣe </roleName> ʾIyāsu I</persName> in <date>1706</date>.
 
-He was appointed as the 34th <persName ref="PRS10655Zawalda"><roleName type="title">ʾǝč̣č̣age</roleName></persName> of  <placeName ref="INS0341DL">Dabra Libānos</placeName> in <date> 1725</date>.
+He was appointed as the 34th <persName ref="PRS10655Zawalda">
+                     <roleName type="title">ʾǝč̣č̣age</roleName>
+                  </persName> of  <placeName ref="INS0341DL">Dabra Libānos</placeName> in <date> 1725</date>.
                   
 
                   But he was deposed three years later in <date>1728</date>. </floruit>

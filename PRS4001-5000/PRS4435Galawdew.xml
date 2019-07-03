@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS4435Galawdew">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Galāwdewos</title>
@@ -32,6 +32,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -48,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2016-11-07">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -65,10 +73,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 
                <floruit notBefore="1435" notAfter="1648">
                   He was the fourth son of  
-                  <persName ref="PRS9038Susenyos"><roleName type="title">ʾaṣe</roleName> Susǝnyos</persName>.
+                  <persName ref="PRS9038Susenyos">
+                     <roleName type="title">ʾaṣe</roleName> Susǝnyos</persName>.
 
                   In <date>1635</date>, he seems to have been appointed 
-                  <persName ref="PRS4435Galawdew"><roleName type="title">daǧǧāzmač</roleName> </persName> of <placeName ref="LOC1713Bagemd">Bagemdǝr</placeName> or of <placeName ref="LOC2487Damo"/> 
+                  <persName ref="PRS4435Galawdew">
+                     <roleName type="title">daǧǧāzmač</roleName> 
+                  </persName> of <placeName ref="LOC1713Bagemd">Bagemdǝr</placeName> or of <placeName ref="LOC2487Damo"/> 
                   and <placeName ref="LOC5671Semen">Semen</placeName>.</floruit>
                <death when="1648"/>
                </person>

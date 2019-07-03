@@ -3,8 +3,11 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS1980Aphrahat">
-   <teiHeader>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="pers"
+     xml:lang="en"
+     xml:id="PRS1980Aphrahat">
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Aphrahat</title>
@@ -28,6 +31,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -45,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DR" when="2018-02-21">Added syriaca and wikidata</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1" sameAs="wd:Q434222">
@@ -63,18 +74,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   is free from Greek influence, but absorbed elements of the Jewish exegetical
                   tradition. His work was translated into Armenian, Georgian and Arabic. In
                   Ethiopian tradition, neither the name Aphrahat nor the title of his work are
-                  known. However, at least two of his treatises are known in Gǝʿǝz: <ref type="work"
-                     corresp="LIT1275Dersan"/> and <ref type="work" corresp="LIT2041Nagarb"/>. </floruit>
+                  known. However, at least two of his treatises are known in Gǝʿǝz: <ref type="work" corresp="LIT1275Dersan"/> and <ref type="work" corresp="LIT2041Nagarb"/>. </floruit>
                <death when="0345"/>
             </person>
             
             <listRelation>
-               <relation name="saws:isAttributedAuthorOf" active="PRS1980Aphrahat"
-                  passive="LIT1275Dersan"/>
-               <relation name="saws:isAttributedAuthorOf" active="PRS1980Aphrahat"
-                  passive="LIT2041Nagarb"/>
-               <relation name="skos:exactMatch" active="PRS1980Aphrahat"
-                  passive="http://syriaca.org/person/10"/>
+               <relation name="saws:isAttributedAuthorOf"
+                         active="PRS1980Aphrahat"
+                         passive="LIT1275Dersan"/>
+               <relation name="saws:isAttributedAuthorOf"
+                         active="PRS1980Aphrahat"
+                         passive="LIT2041Nagarb"/>
+               <relation name="skos:exactMatch"
+                         active="PRS1980Aphrahat"
+                         passive="http://syriaca.org/person/10"/>
             </listRelation>
             
          </listPerson>

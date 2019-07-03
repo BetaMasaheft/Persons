@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS6274LeulSa">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Lǝʿul Sagad ʾAṭnāf</title>
@@ -32,6 +32,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -48,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-01-03">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -67,8 +75,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <floruit>He was an important early 20th century politician who belonged to the powerful Addisge 
                   family of <placeName ref="LOC5597Sawa">Šawā</placeName>. Following the victory of  <placeName ref="LOC1263Adwa">ʾAdwā</placeName>in recognition 
                   of his bravery 
-                  <persName ref="PRS7006Menilek"><roleName type="title">ʾaṣe</roleName>Mǝnilǝk II</persName>
-                  bestowed the  title of <persName ref="PRS6274LeulSa"><roleName type="title">ligābā</roleName></persName>. </floruit>
+                  <persName ref="PRS7006Menilek">
+                     <roleName type="title">ʾaṣe</roleName>Mǝnilǝk II</persName>
+                  bestowed the  title of <persName ref="PRS6274LeulSa">
+                     <roleName type="title">ligābā</roleName>
+                  </persName>. </floruit>
                <death when="1916">He died in the battle of <placeName ref="LOC5446Sagale">Sagale</placeName> in<date>1916</date>.  </death>  
             </person>  
             <listRelation>

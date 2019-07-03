@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS2336BaedaM">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Baʾǝda Māryām III</title>
@@ -32,6 +32,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -49,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DR" when="2017-06-08">Update</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sameAs="wd:Q797420" sex="1">
@@ -73,11 +81,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                <floruit when="1826">He was one of rulers of the Zamana Masāfǝnt. He was  
                   placed on the throne by  
-                  <persName ref="PRS5213haylaMa"><roleName type="title">daǧǧāzmāč</roleName></persName>
+                  <persName ref="PRS5213haylaMa">
+                     <roleName type="title">daǧǧāzmāč</roleName>
+                  </persName>
                   
                   at mount <placeName ref="LOC4543Manta"/> in <date>1826</date>. 
                   He was succeeded by 
-                  <persName ref="PRS4661Gigar"><roleName type="title">ʾaṣe</roleName></persName> in <date>1826</date>. </floruit>
+                  <persName ref="PRS4661Gigar">
+                     <roleName type="title">ʾaṣe</roleName>
+                  </persName> in <date>1826</date>. </floruit>
                   
                </person>
                <listRelation>

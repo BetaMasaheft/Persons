@@ -8,7 +8,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      xml:lang="en"
      xml:id="PRS3984Fanuel">
  
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Fānuʾel</title>
@@ -33,6 +33,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -50,7 +58,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-08-25">addition</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -63,17 +71,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 
                <floruit notBefore="1508" notAfter="1549">He was an aristocrat of royal blood 
                   who traced  his descent to 
-                  <persName ref="PRS8595SayfaAr"><roleName type="title">ʾaṣe</roleName>  
+                  <persName ref="PRS8595SayfaAr">
+                     <roleName type="title">ʾaṣe</roleName>  
                      Sayfa ʾArʿad</persName>. It was during the turbulent period of 
-                  <persName ref="PRS6229LebnaDe"><roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS6229LebnaDe">
+                     <roleName type="title">ʾaṣe</roleName>
                      Lǝbna Dǝngǝl</persName>, <persName ref="PRS3984Fanuel">Fānuʾel</persName> 
                   held the office of  <persName ref="PRS3984Fanuel">
-                     <roleName type="title">wāg šum </roleName></persName>. He was among a few prominent warlords who were luck enough to survive during the onslaught led by  
+                     <roleName type="title">wāg šum </roleName>
+                  </persName>. He was among a few prominent warlords who were luck enough to survive during the onslaught led by  
                   
-                  <persName ref="PRS1522Ahmadb"><roleName type="title">ʾimām</roleName> 
+                  <persName ref="PRS1522Ahmadb">
+                     <roleName type="title">ʾimām</roleName> 
                      ʾAḥmad b. ʾIbrāhīm al-Ġāzī</persName>. 
                   He was also an important warlord during the reign of 
-                  <persName ref="PRS4428Galawdew"><roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS4428Galawdew">
+                     <roleName type="title">ʾaṣe</roleName>
                       
                       Galāwdewos</persName>.</floruit>   
                   <death when="1549"/>

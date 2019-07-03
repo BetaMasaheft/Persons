@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS7071Mikael">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Mikāʾel</title>
@@ -33,6 +33,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -49,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-10-10">Complete record </change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -82,7 +90,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <placeName ref="LOC3577Gondar"/> from <date>1946</date> to <date>1959</date>.
                   He became a monk and was consecrated priest in <date>1924</date> 
                   by 
-                  <persName ref="PRS6876Matewos"><roleName type="title">ʾabuna</roleName> 
+                  <persName ref="PRS6876Matewos">
+                     <roleName type="title">ʾabuna</roleName> 
                      Mātewos</persName>.
                   In <date>1924-25</date> he made a pilgrimage to <placeName ref="LOC3957Jerusa"/> where he stayed for six months. In <date>1935</date>, 
                   he was appointed head of the Ethiopian monasteries in <placeName ref="LOC3957Jerusa"/>. After the liberation of the country from Italian colonial rule, 

@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS3356Daragot">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Daragot</title>
@@ -30,6 +30,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -46,7 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2018-07-20">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -60,7 +68,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <faith type="EOTC"/>
                <occupation type="political">ruler</occupation>
                
-               <floruit  notBefore="1576" notAfter="1597">He was the ruler of <placeName ref="LOC6569Tegray"/> appointed by 
+               <floruit notBefore="1576" notAfter="1597">He was the ruler of <placeName ref="LOC6569Tegray"/> appointed by 
                   <persName ref="PRS8550sardaDe"/>. He was also one of the <!--most adjective missing? DR 2018-08-22--> war generals of <persName ref="PRS8550sardaDe"/> 
                   who led troops in alliance with <persName ref="PRS10436Yonael"/> against the <persName ref="ETH1274Betaes"/> 
                   in <date>1579</date>. </floruit>
@@ -68,7 +76,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
             </person>
             <listRelation>
-               <relation name="saws:isRelatedTo" active="PRS1899AmsalaK" passive="PRS9038Susenyos"/>    
+               <relation name="saws:isRelatedTo"
+                         active="PRS1899AmsalaK"
+                         passive="PRS9038Susenyos"/>    
             </listRelation>
          </listPerson>
          <listBibl type="editions">
@@ -93,6 +103,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>   
 </TEI>
-
-
-               

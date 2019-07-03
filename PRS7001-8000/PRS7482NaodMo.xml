@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS7482NaodMo">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Nāʿod Mogasā</title>
@@ -32,6 +32,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -48,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-01-23">complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="2">
@@ -63,12 +71,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <occupation type="political">empress</occupation>
              
                <floruit notBefore="1494" notAfter="1524"> She was a wife of 
-                  <persName ref="PRS7481NaodA"><roleName type="title">ʾaṣe</roleName>  Nāʿod</persName> and a mother of
+                  <persName ref="PRS7481NaodA">
+                     <roleName type="title">ʾaṣe</roleName>  Nāʿod</persName> and a mother of
                
-                  <persName ref="PRS6229LebnaDe"> <roleName type="title">ʾaṣe</roleName> Lǝbna Dǝngǝl</persName>. 
+                  <persName ref="PRS6229LebnaDe"> 
+                     <roleName type="title">ʾaṣe</roleName> Lǝbna Dǝngǝl</persName>. 
                   <persName ref="PRS7482NaodMo">Nāʿod Mogasā</persName>
                   was a member of the regency council of her son 
-                  <persName ref="PRS6229LebnaDe"><roleName type="title">ʾaṣe</roleName> Lǝbna Dǝngǝl</persName> 
+                  <persName ref="PRS6229LebnaDe">
+                     <roleName type="title">ʾaṣe</roleName> Lǝbna Dǝngǝl</persName> 
                   along with <persName ref="PRS3706eleni">ʾƎleni</persName>.  
                   She is credited with the foundation of at least three royal churches: 
                   <placeName ref="LOC3444Getese">Getesemane Māryām</placeName>

@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS9175TaklaMa">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Takla Māryām</title>
@@ -32,6 +32,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -49,10 +57,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-08-04">addition</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
-            <person  sex="1" sameAs="wd:Q342818">
+            <person sex="1" sameAs="wd:Q342818">
                <persName xml:lang="gez" xml:id="n1" type="birth">ተክለ፡ ማርያም፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Takla Māryām</persName>
                <persName xml:lang="gez" xml:id="n2" type="birth">ሕዝበ፡ ናኝ፡</persName>
@@ -66,9 +74,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
                <floruit notBefore="1430" notAfter="1433">He was the younger brother and
                   successor of
-                  <persName ref="PRS10342Yeshaq"><roleName type="title">ʾaṣe</roleName> Yǝsḥāq</persName>.
+                  <persName ref="PRS10342Yeshaq">
+                     <roleName type="title">ʾaṣe</roleName> Yǝsḥāq</persName>.
                   He was the third son of
-                  <persName ref="PRS3429DawitII"><roleName type="title">ʾaṣe</roleName>  Dāwit II</persName>.
+                  <persName ref="PRS3429DawitII">
+                     <roleName type="title">ʾaṣe</roleName>  Dāwit II</persName>.
                   He was succeeded by his son <persName ref="PRS8560sarwaIy">Śarwa Iyasus</persName> in <date>1433</date>.</floruit>
                <death when="1433"/>
             </person>

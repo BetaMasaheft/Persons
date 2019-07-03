@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS8516Sapanhi">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Sapanhi</title>
@@ -32,6 +32,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -48,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-01-17">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -70,9 +78,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   pre <persName ref="ETH1973Oromo">Oromo</persName> 
                   <placeName ref="LOC2966Ennary">ʾƎnnāryā</placeName> state
                   during the time of 
-                  <persName ref="PRS4428Galawdew"><roleName type="title">ʾaṣe</roleName> Galāwdewos</persName>
+                  <persName ref="PRS4428Galawdew">
+                     <roleName type="title">ʾaṣe</roleName> Galāwdewos</persName>
                   and
-                  <persName ref="PRS8550sardaDe"> <roleName type="title">ʾaṣe</roleName> Śarḍa Dǝngǝl</persName>. 
+                  <persName ref="PRS8550sardaDe"> 
+                     <roleName type="title">ʾaṣe</roleName> Śarḍa Dǝngǝl</persName>. 
                   He was an adherent of the traditional local religion and strong ally 
                   of the Christian emperors to fight against the 
                   <persName ref="ETH1973Oromo">Oromo</persName> raids. He was succeeded by

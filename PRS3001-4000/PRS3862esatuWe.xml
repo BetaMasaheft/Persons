@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS3862esatuWe">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>ʾƎšatu Wǝbe</title>
@@ -32,6 +32,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -49,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-08-30">Correction</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -65,11 +73,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             
                <floruit notBefore="1830" notAfter="1855">He was the son of
                    
-                  <persName ref="PRS10102Webeha"><roleName type="title">daǧǧāzmāč</roleName> Wǝbe Ḫayla Māryām</persName>, 
+                  <persName ref="PRS10102Webeha">
+                     <roleName type="title">daǧǧāzmāč</roleName> Wǝbe Ḫayla Māryām</persName>, 
                   ruler of <placeName ref="LOC5671Semen">Sǝmen</placeName> and northern 
                   <placeName ref="LOC3010Ethiop">Ethiopia</placeName> from about <date>1830-1855</date>.
                   He was one of the four children of 
-                  <persName ref="PRS10102Webeha"><roleName type="title">daǧǧāzmāč</roleName> 
+                  <persName ref="PRS10102Webeha">
+                     <roleName type="title">daǧǧāzmāč</roleName> 
                      Wǝbe Ḫayla Māryām</persName>. He fought on the side of his father in the battle of
                   <placeName ref="LOC2550Darasg">Darasge</placeName>.</floruit>
                   <death when="1855"/>

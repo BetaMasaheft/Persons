@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS11232HouseSam">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>House of Sāmuʾel of Waldǝbbā</title>
@@ -30,6 +30,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -40,7 +48,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="MV" when="2016-10-11"> Created record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <personGrp>
@@ -50,9 +58,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <floruit notBefore="1400" precision="low">A number of monasteries are affiliated with the house of Sāmuʾel of Wāldǝbbā.
                </floruit>
             </personGrp>
-         <listRelation>
-            <relation name="agrelon:hasFounder" active="PRS11232HouseSam" passive="PRS8491Samuel"/>
-         </listRelation>
+            <listRelation>
+               <relation name="agrelon:hasFounder"
+                         active="PRS11232HouseSam"
+                         passive="PRS8491Samuel"/>
+            </listRelation>
          </listPerson>
          
          <listBibl type="secondary">

@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS3802engeda">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>ʾƎngǝdā</title>
@@ -34,6 +34,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -50,7 +58,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-03-23">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -73,14 +81,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                   
                <floruit notBefore="1855" notAfter="1890">He was an artist who emerged during the
-                  reign of <persName ref="PRS9430Tewodros"><roleName type="title">ʾaṣe</roleName></persName> 
+                  reign of <persName ref="PRS9430Tewodros">
+                     <roleName type="title">ʾaṣe</roleName>
+                  </persName> 
                   .
                   He was also later employed by 
-                  <persName ref="PRS10378Yohanne"><roleName type="title">ʾaṣe</roleName>
-                  </persName> and <persName ref="PRS9158TaklaHa"><roleName type="title">nǝguś
+                  <persName ref="PRS10378Yohanne">
+                     <roleName type="title">ʾaṣe</roleName>
+                  </persName> and <persName ref="PRS9158TaklaHa">
+                     <roleName type="title">nǝguś
                   </roleName> 
                   </persName> and was still active in the  early years of 
-                  <persName ref="PRS7006Menilek"><roleName type="title">ʾaṣe</roleName></persName>
+                  <persName ref="PRS7006Menilek">
+                     <roleName type="title">ʾaṣe</roleName>
+                  </persName>
                   .
                   </floruit>
                   

@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS4943Habtase">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Habta Śǝllāse</title>
@@ -32,6 +32,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -49,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="MV" when="2017-10-26">Small additions</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -67,7 +75,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </residence>
                <floruit notBefore="1522" notAfter="1539">He was the abbot of the monastery of <placeName ref="LOC3653GundaG">Gunda Gunde</placeName>
                   who succeeded  
-                  <persName ref="PRS4322GabraMa"><roleName type="title">ʾabbā</roleName> Gabra Maśiḥ</persName>in <date>1522</date>. 
+                  <persName ref="PRS4322GabraMa">
+                     <roleName type="title">ʾabbā</roleName> Gabra Maśiḥ</persName>in <date>1522</date>. 
                   He was a contemporary of King <persName ref="PRS6229LebnaDe">Lǝbna Dǝngǝl</persName>.</floruit>
                   <death when="1539"> He died in <date>1539</date>.</death>
                </person>  

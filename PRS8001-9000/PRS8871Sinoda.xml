@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS8871Sinoda">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Sinodā</title>
@@ -32,6 +32,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -48,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2016-10-31">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -66,16 +74,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <floruit notBefore="1682" notAfter="1726">He was a 18th century royal historiographer. 
                   Following the death of his master 
                  
-                  <persName ref="PRS5616IyasuI"> <roleName type="title">ʾaṣe </roleName>  ʾIyāsu I</persName> in <date>1706</date>, 
+                  <persName ref="PRS5616IyasuI"> 
+                     <roleName type="title">ʾaṣe </roleName>  ʾIyāsu I</persName> in <date>1706</date>, 
                   he refused to offer services to 
                
-                  <persName ref="PRS9152TaklaHa">   <roleName type="title">ʾaṣe</roleName>  Takla Hāymānot I</persName> shocked by the patricide. 
+                  <persName ref="PRS9152TaklaHa">   
+                     <roleName type="title">ʾaṣe</roleName>  Takla Hāymānot I</persName> shocked by the patricide. 
                   However, in the same year 
-                  <persName ref="PRS9152TaklaHa"><roleName type="title">ʾaṣe</roleName>  Takla Hāymānot I</persName> was 
+                  <persName ref="PRS9152TaklaHa">
+                     <roleName type="title">ʾaṣe</roleName>  Takla Hāymānot I</persName> was 
                   killed and then he continued to serve as chronicler in the court for a short time. 
                   However, he resumed officially his pen as a historiographer during the reign
                   of  
-                  <persName ref="PRS2377Bakaffa"><roleName type="title">ʾaṣe </roleName> Bakāffā</persName>.  </floruit>
+                  <persName ref="PRS2377Bakaffa">
+                     <roleName type="title">ʾaṣe </roleName> Bakāffā</persName>.  </floruit>
                  <death when="1726"/>
                </person>  
                <listRelation>

@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS2112AsfaWas">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>ʾAsfā Wasan Ḫāyla Śǝllāse</title>
@@ -30,6 +30,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -46,7 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2018-09-04">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -61,16 +69,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <birth when="1916">He was born in <placeName ref="LOC3786Harar"/> in <date>1916</date>.</birth>
                
                <floruit notBefore="1930" notAfter="1974">He was the oldest son of <persName ref="PRS5226haylase"/> and  
-                  <roleName type="title">ʾǝtege</roleName> <persName ref="PRS6642MananAs"/>. On <date> 02-11-1930</date>, he was crowned Heir to the Throne with
+                  <roleName type="title">ʾǝtege</roleName> 
+                  <persName ref="PRS6642MananAs"/>. On <date> 02-11-1930</date>, he was crowned Heir to the Throne with
                   the title of <roleName type="title">marǝd ʾazmāč</roleName>. Since then till <date>1974</date>, he was 
                   a governor of <placeName ref="LOC6185Wallo"/> province. In <date>1932</date>, ʾAsfā Wasan  
-                  married <roleName type="title">wayzaro</roleName><persName ref="PRS9828Walatta"/> of <placeName ref="LOC6569Tegray"/>
+                  married <roleName type="title">wayzaro</roleName>
+                  <persName ref="PRS9828Walatta"/> of <placeName ref="LOC6569Tegray"/>
                   by whom he had a daughter and whom he divorced after twelve years. In <date>1945</date>, he married again, this time 
-                  <roleName type="title">wayzaro</roleName><persName ref="PRS6444Madfariy"/> of 
+                  <roleName type="title">wayzaro</roleName>
+                  <persName ref="PRS6444Madfariy"/> of 
                   <placeName ref="LOC5597Sawa"/> and <placeName ref="LOC2488Damot"/>, by whom he had three daughters and a son, 
                   <persName ref="PRS10627ZaraY"/>. During the Italian occupation in the years <date>1936-41</date>,
                   ʾAsfā Wasan  accompanied his father to exile in <placeName ref="wd:Q23666"/>, where he studied political science at the university of Liverpool. 
-                  After returning to <placeName ref="LOC3010Ethiop"/> via the <placeName  ref="LOC0157IHA"/> he 
+                  After returning to <placeName ref="LOC3010Ethiop"/> via the <placeName ref="LOC0157IHA"/> he 
                   took part in the fighting for <placeName ref="LOC3577Gondar"/>. 
                   During the abortive Coup d'état of <date>1960</date>, he was nominated as a constitutional monarch. ʾAsfā Wasan played active role in the event,
                   though the degree of his personal involvement is still not known. He read the proclamation issued by the rebels and took an important part
@@ -83,8 +94,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listRelation>
                <relation name="snap:SonOf" active="PRS2112AsfaWas" passive="PRS5226haylase"/>
                <relation name="snap:SonOf" active="PRS2112AsfaWas" passive="PRS6642MananAs"/>
-               <relation name="snap:BrotherOf" active="PRS2112AsfaWas" passive="PRS6563Makwanne"/>
-               <relation name="snap:BrotherOf" active="PRS2112AsfaWas" passive="PRS9234Tananna"/>
+               <relation name="snap:BrotherOf"
+                         active="PRS2112AsfaWas"
+                         passive="PRS6563Makwanne"/>
+               <relation name="snap:BrotherOf"
+                         active="PRS2112AsfaWas"
+                         passive="PRS9234Tananna"/>
             </listRelation>
             
          </listPerson>
@@ -100,5 +115,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>   
 </TEI>
-
-               

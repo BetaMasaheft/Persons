@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS1083AbbayHa">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>ʾAbbāy Habta Ṣǝyon</title>
@@ -33,6 +33,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -49,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-08-29">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -66,7 +74,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <birth when="1869"/>
                <floruit notBefore="1889" notAfter="1914">He was among the last notables of 
                   <placeName ref="LOC3764Hamase"/>
-                  to hold the office of <persName ref="PRS1083AbbayHa"><roleName type="title">baḥǝra nagāš</roleName></persName>. 
+                  to hold the office of <persName ref="PRS1083AbbayHa">
+                     <roleName type="title">baḥǝra nagāš</roleName>
+                  </persName>. 
                   He was officially promoted by the Italians, he inherited the office from his uncle 
                   <persName ref="PRS4907Gwerade"/>. The decline of this office lead to the loss of effective executive power, but ʾAbbāy  became the spokesperson and the head 
                   of the indigenous population of  <placeName ref="LOC1579Asmara"/>, concentrated in its old quarters. 

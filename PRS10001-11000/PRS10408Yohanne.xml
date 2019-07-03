@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS10408Yohanne">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Yoḥannǝs Kamā</title>
@@ -31,6 +31,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -47,7 +55,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2016-08-22">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -65,13 +73,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </residence>
                <floruit>He was the seventh head  of the monastery of <placeName ref="INS0341DL">Dabra Libānos</placeName>
                   who succeeded his predecessor
-                  <persName ref="PRS10421Yohanne"> <roleName type="title">ʾabuna</roleName>  Yoḥannǝs Sǝwwur</persName> and he was a contemporary 
+                  <persName ref="PRS10421Yohanne"> 
+                     <roleName type="title">ʾabuna</roleName>  Yoḥannǝs Sǝwwur</persName> and he was a contemporary 
                   of King <persName ref="PRS10342Yeshaq">
                      Yǝsḥaq</persName>. His tenure was remarkable for the development of the monastery of <placeName ref="INS0341DL">Dabra Libānos</placeName> and its literature. 
 
                   It is believed that <ref type="work" corresp="LIT1445GadlaF">Gadla Filǝṗṗos</ref>
                   of  
-                  <persName ref="PRS4104Fileppos"><roleName type="title">ʾabuna</roleName> Filǝṗṗos</persName> was written during his tenure.
+                  <persName ref="PRS4104Fileppos">
+                     <roleName type="title">ʾabuna</roleName> Filǝṗṗos</persName> was written during his tenure.
                  </floruit>
                <death/>
             </person>

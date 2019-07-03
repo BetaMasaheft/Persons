@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS9158TaklaHa">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Takla Hāymānot</title>
@@ -34,6 +34,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -50,7 +58,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-03-23">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sameAs="wd:Q60558198" sex="1">
@@ -79,7 +87,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <floruit notBefore="1855" notAfter="1901">He was a notable of <placeName ref="LOC2488Damot"/> and <placeName ref="LOC3549Gojjam"/> proper who dominated the political arena in his home region
                   in the last quarter of the 19th century.
                   He was a powerful rival to
-                  <persName ref="PRS7006Menilek"><roleName type="title">ʾaṣe</roleName> Mǝnilǝk <addName>II</addName></persName>
+                  <persName ref="PRS7006Menilek">
+                     <roleName type="title">ʾaṣe</roleName> Mǝnilǝk <addName>II</addName>
+                  </persName>
                   to whom he surrendered himself after the death of <persName ref="PRS10378Yohanne"/>.
                   </floruit>
                <death when="1901"> He died at <placeName ref="LOC2310DabraM"/> in <date>1901</date>.

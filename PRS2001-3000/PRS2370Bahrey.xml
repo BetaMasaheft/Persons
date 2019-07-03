@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS2370Bahrey">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Baḥrǝy</title>
@@ -30,6 +30,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -46,7 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2018-10-17">addition</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -57,7 +65,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <roleName type="title">qes ḥaṣe</roleName>
                </persName>
                <faith type="EOTC"/>
-           <occupation type="ecclesiastic"></occupation>
+               <occupation type="ecclesiastic"/>
                <nationality type="Ethiopia"/>
                <birth/>
                <death/>
@@ -65,12 +73,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </person>
             <listRelation>
                <relation name="snap:GrandfatherOf"
-                  active="PRS2370Bahrey"
-                  passive="PRS9901WaldaGi"/>
+                         active="PRS2370Bahrey"
+                         passive="PRS9901WaldaGi"/>
             </listRelation>
             
-         </listPerson><!---->
+         </listPerson>
+         <!---->
       </body>
    </text>
 </TEI>
-               

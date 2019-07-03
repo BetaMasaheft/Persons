@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS1238Abete">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>ʾAbete</title>
@@ -32,6 +32,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -48,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-02-07">complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -70,25 +78,36 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                <floruit notBefore="1689" notAfter="1701">He was a high ranking dignitary at the court of 
                   
-                  <persName ref="PRS5616IyasuI"><roleName type="title">ʾaṣe </roleName>
+                  <persName ref="PRS5616IyasuI">
+                     <roleName type="title">ʾaṣe </roleName>
                      ʾIyāsu the Great</persName> 
                   during the period between <date>1689-1701</date>. 
                   <persName ref="PRS1238Abete">ʾAbete
                   </persName> was very close to  
-                  <persName ref="PRS5616IyasuI"><roleName type="title">ʾaṣe </roleName>
+                  <persName ref="PRS5616IyasuI">
+                     <roleName type="title">ʾaṣe </roleName>
                      ʾIyāsu the Great</persName> so the king 
-                  <persName ref="PRS5616IyasuI"><roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS5616IyasuI">
+                     <roleName type="title">ʾaṣe</roleName>
                      ʾIyāsu the Great</persName> entrusted to him important responsibilities. 
-                  He became <persName ref="PRS1238Abete"><roleName type="title">grāzmāč</roleName> </persName>in <date>1690</date> 
-                  and <persName ref="PRS1238Abete"><roleName type="title">daǧǧāmāč</roleName></persName> in <date>1700</date>.
+                  He became <persName ref="PRS1238Abete">
+                     <roleName type="title">grāzmāč</roleName> 
+                  </persName>in <date>1690</date> 
+                  and <persName ref="PRS1238Abete">
+                     <roleName type="title">daǧǧāmāč</roleName>
+                  </persName> in <date>1700</date>.
                   In the same year, he reached the zenith of his career, 
-                  being appointed <persName ref="PRS1238Abete"><roleName type="title">blātten getā </roleName>
+                  being appointed <persName ref="PRS1238Abete">
+                     <roleName type="title">blātten getā </roleName>
                   </persName> by the emperor.
-                  While a <persName ref="PRS1238Abete"><roleName type="title">grāzmāč</roleName></persName>, 
+                  While a <persName ref="PRS1238Abete">
+                     <roleName type="title">grāzmāč</roleName>
+                  </persName>, 
                   he participated in a campaign against the <persName ref="ETH1973Oromo">Oromo</persName>
                   conducted in <placeName ref="LOC3549Gojjam">Goǧǧām</placeName> 
                   under the command of 
-                  <persName ref="PRS10383Yohanne"><roleName type="title">blātten getā</roleName>
+                  <persName ref="PRS10383Yohanne">
+                     <roleName type="title">blātten getā</roleName>
                      Yoḥannǝs</persName>
                </floruit>
                <death when="1701">He died and was buried at <placeName ref="LOC2248DabraB">Dabra Bǝrhān Śǝllāse</placeName> in<date>1701</date>.

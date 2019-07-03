@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS5620IyasuV">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>ʾIyāsu (V)</title>
@@ -30,6 +30,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -47,7 +55,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DR" when="2018-10-11">Added wikidata</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1" sameAs="wd:Q379889">
@@ -83,15 +91,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <death when="1935"/>
             </person>
             <listRelation>
-               <relation name="snap:SonOf"
-                  active="PRS5620IyasuV"
-                  passive="PRS7079Mikael"/>
-               <relation name="snap:SonOf"
-                  active="PRS5620IyasuV"
-                  passive="PRS8581sawaragg"/>
-               <relation name="rel:enemyOf"
-                  active="PRS5620IyasuV"
-                  passive="PRS5226haylase"/>
+               <relation name="snap:SonOf" active="PRS5620IyasuV" passive="PRS7079Mikael"/>
+               <relation name="snap:SonOf" active="PRS5620IyasuV" passive="PRS8581sawaragg"/>
+               <relation name="rel:enemyOf" active="PRS5620IyasuV" passive="PRS5226haylase"/>
                
                            </listRelation>
             
@@ -104,5 +106,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-            

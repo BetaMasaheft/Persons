@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS10671Zawditu">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Zawditu</title>
@@ -30,6 +30,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -46,7 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2018-07-16">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="2" sameAs="wd:Q148524">
@@ -61,7 +69,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </persName>
                
                <occupation type="ruler">queen</occupation>
-               <birth when="1876">She was born in <placeName ref="LOC2968Ennawa"/></birth>
+               <birth when="1876">She was born in <placeName ref="LOC2968Ennawa"/>
+               </birth>
               
                <floruit notBefore="1916" notAfter="1930">Zawditu was the empress of <placeName ref="LOC3010Ethiop"/> from <date>1916</date>to
                   <date>1930</date>. As a child Zawditu stayed at her father's court under the care of <persName ref="PRS2342Bafana"/>, and then his next wife, 
@@ -89,14 +98,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </person>
             
             <listRelation>
-               <relation name="snap:DaughterOf" active="PRS10671Zawditu" passive="PRS7006Menilek"
-                 
-               />
-               <relation name="bm:wifeOf" active="PRS10671Zawditu" passive="PRS4872GugsaWa"
-                  ></relation>
-               <relation name="snap:DaughterOf" active="PRS10671Zawditu" passive="PRS1100Abcaw"
-                  
-               />
+               <relation name="snap:DaughterOf"
+                         active="PRS10671Zawditu"
+                         passive="PRS7006Menilek"/>
+               <relation name="bm:wifeOf" active="PRS10671Zawditu" passive="PRS4872GugsaWa"/>
+               <relation name="snap:DaughterOf"
+                         active="PRS10671Zawditu"
+                         passive="PRS1100Abcaw"/>
                
                
             </listRelation>
@@ -119,5 +127,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-             

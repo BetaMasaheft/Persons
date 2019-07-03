@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS3879eslamSa">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>ʾƎslām Sagad</title>
@@ -32,6 +32,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -48,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2016-11-16">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -67,13 +75,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                <floruit notBefore="1508" notAfter="1531">He was a warlord of 
               
-                  <persName ref="PRS6229LebnaDe">    <roleName type="title">ʾaṣe</roleName> 
+                  <persName ref="PRS6229LebnaDe">    
+                     <roleName type="title">ʾaṣe</roleName> 
                      Lǝbna Dǝngǝl</persName>.
                   He was also a governor of the most important frontier province 
                   of the Christian kingdom, <placeName ref="LOC3061Fataga">Faṭagār</placeName>
                   where he was successful to repel the Muslim raiders at first. But he was 
                   sent by 
-                  <persName ref="PRS6229LebnaDe"><roleName type="title">ʾaṣe</roleName> 
+                  <persName ref="PRS6229LebnaDe">
+                     <roleName type="title">ʾaṣe</roleName> 
                      Lǝbna Dǝngǝl</persName> to withstand the Muslim forces in another area where he was killed by 
                   <persName ref="PRS1324AbuBakr">Abū Bakr b. Yimāǧ Ahmad</persName>.
                </floruit>

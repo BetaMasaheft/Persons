@@ -1,8 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng"
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12138NikolajII" xml:lang="en" type="pers">
-    <teiHeader>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="PRS12138NikolajII"
+     xml:lang="en"
+     type="pers">
+    <teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt>
                 <title>Tsar</title>
@@ -26,7 +31,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </fileDesc>
         <encodingDesc>
             <p>A digital born TEI file</p>
-        </encodingDesc>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
         <profileDesc>
             <creation/>
             <abstract>
@@ -44,13 +55,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <change who="DN" when="2018-06-19">Created entity</change>
         </revisionDesc>
     </teiHeader>
-    <text>
+    <text xml:base="https://betamasaheft.eu/">
         <body>
             <listPerson>
                 <person sex="1" sameAs="wd:Q40787">
 
                 
-                    <persName  xml:id="n1">Nikolaj II</persName>
+                    <persName xml:id="n1">Nikolaj II</persName>
                                         <faith type="Russian"/>
                     <occupation type="ruler"/>
                     <nationality type="Russia/USSR"/>
@@ -59,10 +70,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <floruit notBefore="1894" notAfter="1917"/>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS12138NikolajII" passive="IVsuhtelen252"/>
-                    <relation name="saws:isRelatedTo" active="PRS12138NikolajII" passive="PRS9009Suhtelen"/>
+                    <relation name="lawd:hasAttestation"
+                         active="PRS12138NikolajII"
+                         passive="IVsuhtelen252"/>
+                    <relation name="saws:isRelatedTo"
+                         active="PRS12138NikolajII"
+                         passive="PRS9009Suhtelen"/>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
+         <!---->
         </body>
     </text>
 </TEI>

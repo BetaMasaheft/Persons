@@ -3,8 +3,11 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS9602Turaev">
-   <teiHeader>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="pers"
+     xml:lang="en"
+     xml:id="PRS9602Turaev">
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Turaev</title>
@@ -27,6 +30,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -44,7 +55,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-07-26">Correction to relation</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1" sameAs="wd:Q893610">
@@ -68,9 +79,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   to provincial gentry. He studied Egyptology in the historico-philological faculty
                   of St <placeName ref="wd:Q656"/> University and completed the course in
                      <date>1891</date>. Then, he was retained as a post-graduate student, was sent
-                  for studies abroad for one year. He worked in the museums of <placeName ref="wd:Q64"
-                  />, <placeName ref="wd:Q90"/>, <placeName ref="wd:Q84"/>, and also <placeName ref="wd:Q38"
-                  /> collecting the material for his Magister Thesis. After his return in
+                  for studies abroad for one year. He worked in the museums of <placeName ref="wd:Q64"/>, <placeName ref="wd:Q90"/>, <placeName ref="wd:Q84"/>, and also <placeName ref="wd:Q38"/> collecting the material for his Magister Thesis. After his return in
                      <date>1896</date>, he lectured on the history of the Ancient Orient and
                   Egyptology at St <placeName ref="wd:Q656"/> University as assistant Professor. In
                      <date>1898</date>, he obtained his Magister of General History. Turaev
@@ -81,8 +90,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </death>
             </person>
             <listRelation>
-               <relation name="snap:ProfessionalRelationship" active="PRS9602Turaev"
-                  passive="PRS3836Erman"/>
+               <relation name="snap:ProfessionalRelationship"
+                         active="PRS9602Turaev"
+                         passive="PRS3836Erman"/>
 
 
 

@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS4279GabraKr">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Gabra Krǝstos of Dabra Bǝśrāt</title>
@@ -32,6 +32,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -48,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2016-10-12">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -65,10 +73,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </birth>
                <floruit notBefore="1350" notAfter="1400">He was a monk and a diciple of 
                 
-                  <persName ref="PRS10708ZenaMa">  <roleName type="title">ʾabbā</roleName> Zenā Mārqos</persName>, who was the  head of the 
+                  <persName ref="PRS10708ZenaMa">  
+                     <roleName type="title">ʾabbā</roleName> Zenā Mārqos</persName>, who was the  head of the 
                   monastery of <placeName ref="LOC2249DabraB">Dabra Bǝśrāt</placeName>, 
                   in the first half of the fourteenth century. 
-                  It is believed that he was  appointed as the <persName ref="PRS4279GabraKr"><roleName type="title">nǝbura ʾǝd</roleName> 
+                  It is believed that he was  appointed as the <persName ref="PRS4279GabraKr">
+                     <roleName type="title">nǝbura ʾǝd</roleName> 
                      
                   </persName>
                   of <placeName ref="LOC2647Dembi">Dǝmbi</placeName> by  

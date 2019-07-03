@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS3891estifano">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>ʾƎsṭifānos</title>
@@ -32,6 +32,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -48,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-02-15">complete record </change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -68,7 +76,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      
                      
                <floruit notBefore="1865" notAfter="1922">He was one of the few
-                  learned officials of <persName ref="PRS7006Menilek"><roleName type="title">ʾaṣe</roleName> Mǝnilǝk</persName>.
+                  learned officials of <persName ref="PRS7006Menilek">
+                     <roleName type="title">ʾaṣe</roleName> Mǝnilǝk</persName>.
                   He was small in size and physically frail, but he exercised an immense influence both in political and ecclesiastical affairs. 
                   He started his career as a clerk in the court of <persName ref="PRS2342Bafana"/> from where he was transferred to the service of 
                   <persName ref="PRS7006Menilek"/> in <date>1870</date>'s. In <date>1893</date>, he raised to the position

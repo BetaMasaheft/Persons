@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS7076Mikael">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Mikāʾel [IV]</title>
@@ -32,6 +32,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -48,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2016-09-13">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -64,7 +72,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                <floruit when="1650">He was a metropolitan of the Ethiopian Orthodox Church who succeeded    
              
-                  <persName ref="PRS6776Marqos"> <roleName type="title">ʾabuna</roleName>
+                  <persName ref="PRS6776Marqos"> 
+                     <roleName type="title">ʾabuna</roleName>
                      Mārqos [III]</persName> in <date>1650</date> during the reign of  
                   King <persName ref="PRS4015Fasilada">Fāsiladas</persName>. During his episcopate, a debate took place between Qǝbāt (Unctionists) and Kārrā (Unionists)
                   on <date>23 June 1655</date>. His successor was ʾabuna <persName ref="PRS6071Krestodo">Krǝstodolu [II]</persName>.      

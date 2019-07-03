@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS8158Robel">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Robel</title>
@@ -32,6 +32,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -49,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-02-15">some changes</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -67,12 +75,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <birth notBefore="1475" notAfter="1485"/>
                <floruit notBefore="1524" notAfter="1527">He was the leading 
                   Tǝgrāyān lord of his time, appointed by 
-                  <persName ref="PRS6229LebnaDe"><roleName type="title">ʾaṣe</roleName> Lǝbna Dǝngǝl</persName> 
-                  as <persName ref="PRS8158Robel"><roleName type="title">tǝgre makʷannǝn</roleName>  </persName>in <date>1524</date>. He was  succeeded by 
+                  <persName ref="PRS6229LebnaDe">
+                     <roleName type="title">ʾaṣe</roleName> Lǝbna Dǝngǝl</persName> 
+                  as <persName ref="PRS8158Robel">
+                     <roleName type="title">tǝgre makʷannǝn</roleName>  
+                  </persName>in <date>1524</date>. He was  succeeded by 
                   <persName ref="PRS9171TaklaIy">Takla ʾIyasus</persName> in <date>1527</date>. 
                   However, even after  having been supplanted as 
                 ,
-                  <persName ref="PRS8158Robel"><roleName type="title">tǝgre makʷannǝn </roleName> Robel</persName> continued to play a leading role in his native
+                  <persName ref="PRS8158Robel">
+                     <roleName type="title">tǝgre makʷannǝn </roleName> Robel</persName> continued to play a leading role in his native
                   province, as a de facto leader of <placeName ref="LOC6569Tegray">Tǝgrāy </placeName> 
                   nobles in run-up the battle of 
                   <placeName ref="LOC5667Sember">Šǝmbǝrā Kwǝre</placeName>. </floruit>

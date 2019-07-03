@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS1891Amonewos">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>ʾAmonewos</title>
@@ -32,6 +32,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -48,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-01-11">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -67,14 +75,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <occupation type="political">officer</occupation>
                  <floruit notBefore="1680" notAfter="1703">He was a favourite officer of 
                     
-                    <persName ref="PRS5616IyasuI"> <roleName type="title">ʾaṣe </roleName> ʾIyāsu I</persName>.  
+                    <persName ref="PRS5616IyasuI"> 
+                     <roleName type="title">ʾaṣe </roleName> ʾIyāsu I</persName>.  
                     He was active in the <date>1680</date>s as a 
-                    <persName ref="PRS1891Amonewos"><roleName type="title">grāzmāč</roleName> </persName> in the royal army and 
-                    in the later <date>1690</date>s as <persName ref="PRS1891Amonewos"><roleName type="title">blatten getā</roleName>  
+                    <persName ref="PRS1891Amonewos">
+                     <roleName type="title">grāzmāč</roleName> 
+                  </persName> in the royal army and 
+                    in the later <date>1690</date>s as <persName ref="PRS1891Amonewos">
+                     <roleName type="title">blatten getā</roleName>  
                        
                     </persName>at the court.
                         Three years later, in <date>1700</date>,
-                    he was appointed <persName ref="PRS1891Amonewos"><roleName type="title">baǧǝrond</roleName></persName> of the throne hall. 
+                    he was appointed <persName ref="PRS1891Amonewos">
+                     <roleName type="title">baǧǝrond</roleName>
+                  </persName> of the throne hall. 
                   </floruit>
                <death when="1703"> He died of poison. </death>
                   

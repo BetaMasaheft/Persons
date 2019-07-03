@@ -8,7 +8,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      xml:lang="en"
      xml:id="PRS5306Heryaqos">
    
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Hǝryāqos</title>
@@ -33,6 +33,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -49,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2016-08-31">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
      
@@ -69,7 +77,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <floruit notBefore="1669" notAfter="1678">He was the twenty third abbot of 
                      <placeName ref="INS0341DL">Dabra Libānos</placeName>
                      who succeeded  
-                     <persName ref="PRS10548Zakrest"><roleName type="title">ʾǝč̣č̣age</roleName> Zakrǝstos  II</persName> in<date>1669</date>. 
+                     <persName ref="PRS10548Zakrest">
+                     <roleName type="title">ʾǝč̣č̣age</roleName> Zakrǝstos  II</persName> in<date>1669</date>. 
                      He was a contemporary of King  
                      <persName ref="PRS10375Yohanne">Yoḥannǝs I</persName> in his  tenure from <date> 1669-1678</date>. 
                         </floruit>
@@ -77,8 +86,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </person>
                <listRelation>
                   <relation name="snap:AllianceWith"
-                     active="PRS5306Heryaqos"
-                     passive="PRS10375Yohanne"/>
+                         active="PRS5306Heryaqos"
+                         passive="PRS10375Yohanne"/>
                   
                   
                </listRelation>

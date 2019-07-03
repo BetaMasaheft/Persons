@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS10550Zakrest">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Zakrǝstos</title>
@@ -32,6 +32,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -49,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DR" when="2017-01-15">Corrections</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -70,9 +78,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <persName ref="PRS1825AmataWa">ʾAmata Wangel (Marʿata Wangel)</persName>. He was a monk who proclaimed himself  "Christ". 
                      His seat was located on an ʾambā in <placeName ref="LOC6167Walaqa">Walaqā</placeName>. Finally, found guilty of heresy and executed
                   by the order of  
-                  <persName ref="PRS10513Zadenge"><roleName type="title">ʾaṣe</roleName> Zadǝngǝl</persName> in <date>1604</date>. 
+                  <persName ref="PRS10513Zadenge">
+                     <roleName type="title">ʾaṣe</roleName> Zadǝngǝl</persName> in <date>1604</date>. 
                      However, his adherents continued to propagate his teaching which finally was supressed by 
-                  <persName ref="PRS9038Susenyos"><roleName type="title">ʾaṣe</roleName> Susǝnyos</persName>.</floruit>
+                  <persName ref="PRS9038Susenyos">
+                     <roleName type="title">ʾaṣe</roleName> Susǝnyos</persName>.</floruit>
                   <death when="1604"/>
                </person>  
                <listRelation>

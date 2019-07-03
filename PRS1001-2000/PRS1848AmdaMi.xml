@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS1848AmdaMi">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>ʾAmda Mikāʾel</title>
@@ -32,6 +32,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -48,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-01-10">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -72,21 +80,29 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <floruit notBefore="1450" notAfter="1508">.
                   <persName ref="PRS1848AmdaMi">ʾAmda Mikāʾel</persName>
                   was an influential political figure from the reign of 
-                  <persName ref="PRS10626ZaraY"><roleName type="title">ʾaṣe</roleName>  Zarʾa Yāʿqob</persName> 
-                  to that of                  <persName ref="PRS7481NaodA"><roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS10626ZaraY">
+                     <roleName type="title">ʾaṣe</roleName>  Zarʾa Yāʿqob</persName> 
+                  to that of                  <persName ref="PRS7481NaodA">
+                     <roleName type="title">ʾaṣe</roleName>
                       Nāʿod (ʾAnbasā Baḍar)</persName>. 
-                  He was appointed as <persName ref="PRS1848AmdaMi"><roleName type="title">malkaññā</roleName>  
+                  He was appointed as <persName ref="PRS1848AmdaMi">
+                     <roleName type="title">malkaññā</roleName>  
                   </persName>by  
-                  <persName ref="PRS10626ZaraY"><roleName type="title">ʾaṣe</roleName> Zarʾa Yāʿqob</persName> over all of <placeName ref="LOC3061Fataga">Faṭagār</placeName>.
+                  <persName ref="PRS10626ZaraY">
+                     <roleName type="title">ʾaṣe</roleName> Zarʾa Yāʿqob</persName> over all of <placeName ref="LOC3061Fataga">Faṭagār</placeName>.
                   <persName ref="PRS1848AmdaMi">ʾAmda Mikāʾel</persName> is most remembered for the role he played in determining the successors 
-                  to                  <persName ref="PRS2334BaedaM"><roleName type="title">ʾaṣe</roleName>
+                  to                  <persName ref="PRS2334BaedaM">
+                     <roleName type="title">ʾaṣe</roleName>
                       Baʾǝda Māryām I</persName>,  
                 
-                  <persName ref="PRS3874eskender">  <roleName type="title">ʾaṣe</roleName> ʾƎskǝndǝr</persName>, 
+                  <persName ref="PRS3874eskender">  
+                     <roleName type="title">ʾaṣe</roleName> ʾƎskǝndǝr</persName>, 
                
-                  <persName ref="PRS1855Amdase">   <roleName type="title">ʾaṣe</roleName> ʾAmda Ṣǝyon II</persName>
+                  <persName ref="PRS1855Amdase">   
+                     <roleName type="title">ʾaṣe</roleName> ʾAmda Ṣǝyon II</persName>
                     
-                    and <persName ref="PRS7481NaodA"><roleName type="title">ʾaṣe</roleName> Nāʿod (ʾAnbasā Baḍar)</persName>. </floruit>
+                    and <persName ref="PRS7481NaodA">
+                     <roleName type="title">ʾaṣe</roleName> Nāʿod (ʾAnbasā Baḍar)</persName>. </floruit>
           
                
                

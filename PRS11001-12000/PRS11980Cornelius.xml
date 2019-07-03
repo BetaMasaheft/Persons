@@ -1,8 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS11980Cornelius" xml:lang="en" type="pers">
-    <teiHeader>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="PRS11980Cornelius"
+     xml:lang="en"
+     type="pers">
+    <teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt>
                 <title>Cornelius</title>
@@ -26,7 +31,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </fileDesc>
         <encodingDesc>
             <p>A digital born TEI file</p>
-        </encodingDesc>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
         <profileDesc>
             <creation/>
             <abstract>
@@ -44,7 +55,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <change who="DR" when="2018-03-29">Created entity</change>
         </revisionDesc>
     </teiHeader>
-    <text>
+    <text xml:base="https://betamasaheft.eu/">
         <body>
             <listPerson>
                 <person sameAs="wd:Q435987" sex="1">
@@ -52,11 +63,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Qornolyos</persName>
                     <persName xml:lang="gez" xml:id="n2">ቆርኔሌዎስ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n2">Qornelewos</persName>
-                    <persName xml:lang="en" xml:id="n3" type="main">Cornelius <addName type="epithet">the Centurion</addName></persName>
-                    <persName xml:lang="en" xml:id="centurion"><addName type="epithet">the Centurion</addName></persName>
+                    <persName xml:lang="en" xml:id="n3" type="main">Cornelius <addName type="epithet">the Centurion</addName>
+               </persName>
+                    <persName xml:lang="en" xml:id="centurion">
+                  <addName type="epithet">the Centurion</addName>
+               </persName>
                 </person>
                 <listRelation>
-                    <relation name="ecrm:P129i_is_subject_of" active="PRS11980Cornelius" passive="LIT2375Synaxa"/>
+                    <relation name="ecrm:P129i_is_subject_of"
+                         active="PRS11980Cornelius"
+                         passive="LIT2375Synaxa"/>
                 </listRelation>
             </listPerson>
         </body>

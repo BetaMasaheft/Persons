@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS8869Sinoda">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Sinodā</title>
@@ -32,6 +32,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -48,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2016-10-31">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -71,15 +79,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   of <placeName ref="LOC6512ZwayHa">Zwāy Ḥāmara Bǝrhān Qǝddus Gabrǝʾel</placeName> 
                   where he was later ordained monk. He was a
                   disciple of
-                  <persName ref="PRS3793endreyas"> <roleName type="title">ʾabbā</roleName>  ʾƎndrǝyās</persName>.  
+                  <persName ref="PRS3793endreyas"> 
+                     <roleName type="title">ʾabbā</roleName>  ʾƎndrǝyās</persName>.  
                   <persName ref="PRS8869Sinoda">Sinodā</persName> moved to <placeName ref="LOC3549Gojjam">Goǧǧām</placeName> 
                   during the reign of 
-                  <persName ref="PRS10342Yeshaq"><roleName type="title">ʾaṣe</roleName>  Yǝsḥāq</persName> 
+                  <persName ref="PRS10342Yeshaq">
+                     <roleName type="title">ʾaṣe</roleName>  Yǝsḥāq</persName> 
                   where he established <placeName ref="LOC2367DabraS">Dabra Ṣǝmmunā</placeName>.
                   During the reign of 
-                  <persName ref="PRS9175TaklaMa"><roleName type="title">ʾaṣe</roleName> Takla Māryām</persName>, he was involved in the conflict of succession between <persName ref="PRS9175TaklaMa">Takla Māryām</persName> and 
+                  <persName ref="PRS9175TaklaMa">
+                     <roleName type="title">ʾaṣe</roleName> Takla Māryām</persName>, he was involved in the conflict of succession between <persName ref="PRS9175TaklaMa">Takla Māryām</persName> and 
                  
-                  <persName ref="PRS10626ZaraY"> <roleName type="title">ʾaṣe </roleName> Zarʾa Yāʿqob</persName>. 
+                  <persName ref="PRS10626ZaraY"> 
+                     <roleName type="title">ʾaṣe </roleName> Zarʾa Yāʿqob</persName>. 
                   Consequently, he was exiled to the island of <placeName ref="LOC2522Daq">Daq</placeName> 
                   in lake <placeName ref="LOC5888Tana">Ṭānā</placeName> where he died after being tortured and having his hands and feet amputated.</floruit>
                   <death/>

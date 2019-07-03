@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS8346sahlase">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Śahla Śǝllāse</title>
@@ -32,6 +32,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -49,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-08-30">correction</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1" sameAs="wd:Q346835">
@@ -72,7 +80,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   showed diplomatic skill and military ability from the very
                   beginning, which enabled him to restore order and peace in<placeName ref="LOC5597Sawa">
                      Šawā </placeName>. <persName ref="PRS8346sahlase">Śahla Śǝllāse</persName>
-                  was made a <persName ref="PRS8346sahlase"><roleName type="title">rās</roleName>  </persName>
+                  was made a <persName ref="PRS8346sahlase">
+                     <roleName type="title">rās</roleName>  
+                  </persName>
                   upon his assumption to power. 
               His reign is characterized by the unprecedented arrival of Europeans, travellers, missionaries as well as diplomats and explorers in his court. 
               He was succeeded by his firstborn son <persName ref="PRS5205haylaMa">Ḫayla Malakot</persName>. </floruit>

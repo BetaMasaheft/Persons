@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS4323GabraMa">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Gabra Maśiḥ</title>
@@ -30,6 +30,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -46,7 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2018-11-26">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -65,8 +73,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <floruit notBefore="1644" notAfter="1650">He was the tenth leader of Stephanite monastery 
                   of <placeName ref="LOC3653GundaG">Gunda Gunde</placeName>. 
                   He assumed the position about<date>1644</date>, 
-                  following the death of his predecessor, <persName ref="PRS10448Yosab"><roleName type="title">ʾabuna</roleName>Yosāb</persName>.
-                  Gabra Maśiḥ II led the monastery until his death, when he was succeeded by <persName ref="PRS8488Samuel"><roleName type="title">ʾabuna</roleName> Sāmuʾel</persName>
+                  following the death of his predecessor, <persName ref="PRS10448Yosab">
+                     <roleName type="title">ʾabuna</roleName>Yosāb</persName>.
+                  Gabra Maśiḥ II led the monastery until his death, when he was succeeded by <persName ref="PRS8488Samuel">
+                     <roleName type="title">ʾabuna</roleName> Sāmuʾel</persName>
                   
                </floruit>
                <death when="1650"/>

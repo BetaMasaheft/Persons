@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS2092AsaraKr">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>ʾAśara Krǝstos</title>
@@ -32,6 +32,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -48,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-01-16">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -64,8 +72,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                <floruit notBefore="1682" notAfter="1690">He was father confessor of 
                   
-                  <persName ref="PRS10375Yohanne"><roleName type="title">ʾaṣe</roleName> Yoḥannǝs I</persName>
-                  and appointed as <persName ref="PRS2092AsaraKr"><roleName type="title">ʿaqqābe saʿat </roleName> </persName> in <date>1682</date>. 
+                  <persName ref="PRS10375Yohanne">
+                     <roleName type="title">ʾaṣe</roleName> Yoḥannǝs I</persName>
+                  and appointed as <persName ref="PRS2092AsaraKr">
+                     <roleName type="title">ʿaqqābe saʿat </roleName> 
+                  </persName> in <date>1682</date>. 
                   He remained an active loyal servant of the royal court until his death.</floruit>
                <death when="1690"/>
                

@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS2246Awnabyos">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>ʾAwnābyos</title>
@@ -32,6 +32,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -48,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-01-02">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -64,16 +72,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                <floruit notBefore="1607" notAfter="1632">He was a dignitary in the court of 
                  
-                  <persName ref="PRS9038Susenyos">  <roleName type="title">ʾaṣe </roleName> Susǝnyos</persName>, who enjoyed many political and military titles. 
+                  <persName ref="PRS9038Susenyos">  
+                     <roleName type="title">ʾaṣe </roleName> Susǝnyos</persName>, who enjoyed many political and military titles. 
                   In <date>1609</date>,
                   he was appointed as a governor of <placeName ref="LOC6144Wagara">Wagarā</placeName>. 
                   A year later, he became an army chief, <persName ref="PRS2246Awnabyos">
-                     <roleName type="title">ʾarʾsta ḥārā</roleName></persName>
+                     <roleName type="title">ʾarʾsta ḥārā</roleName>
+                  </persName>
                   . 
                   And again in September <date>1614</date>,
-                  he became <persName ref="PRS2246Awnabyos"><roleName type="title">liqa ḍabāʾit</roleName></persName>
+                  he became <persName ref="PRS2246Awnabyos">
+                     <roleName type="title">liqa ḍabāʾit</roleName>
+                  </persName>
                   . 
-                  In <date>1621</date>, he was appointed as <persName ref="PRS2246Awnabyos"><roleName type="title">ʾAbagāz</roleName></persName>
+                  In <date>1621</date>, he was appointed as <persName ref="PRS2246Awnabyos">
+                     <roleName type="title">ʾAbagāz</roleName>
+                  </persName>
                   .
                </floruit>
                

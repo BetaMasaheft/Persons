@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS1906Ananyao">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>ʾAnānyā of Dabra Ṣarabi</title>
@@ -32,6 +32,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -48,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2016-10-24">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -66,11 +74,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   He came from the district of 
                   <placeName ref="LOC4564Maragw">Marāgwǝz</placeName> in the province of <placeName ref="LOC5575Saraye">Sarāye</placeName>
                   and was initiated to monastic life by 
-                  <persName ref="PRS7769Pawlos"><roleName type="title">ʾabbā</roleName>  Ṗāwlos</persName>,
+                  <persName ref="PRS7769Pawlos">
+                     <roleName type="title">ʾabbā</roleName>  Ṗāwlos</persName>,
                   abbot <placeName ref="LOC2358DabraS">Dabra Ṣarabi</placeName>. 
-                  He succeeded <persName ref="PRS7769Pawlos"><roleName type="title">ʾabbā</roleName>
+                  He succeeded <persName ref="PRS7769Pawlos">
+                     <roleName type="title">ʾabbā</roleName>
                       Ṗāwlos</persName> after his death. 
-                  He was succeeded by <persName ref="PRS5643Iyosayas"><roleName type="title">ʾabbā</roleName>
+                  He was succeeded by <persName ref="PRS5643Iyosayas">
+                     <roleName type="title">ʾabbā</roleName>
                       ʾIyosayās</persName>.</floruit>
                <death notBefore="1550" cert="medium"> 
                   His death is attributed to the group of <persName ref="ETH1973Oromo">Oromo</persName>.</death>

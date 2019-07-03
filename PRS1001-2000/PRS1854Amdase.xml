@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS1854Amdase">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>ʿĀmda Ṣǝyon I</title>
@@ -32,6 +32,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -50,7 +58,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change when="2018-08-02" who="ES">name corrected</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1" sameAs="wd:Q460342">
@@ -80,8 +88,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <death when="1344" evidence="internal">1344</death>
             </person>
             <listRelation>
-               <relation name="bm:isSuccessorOf" active="PRS1854Amdase" passive="PRS10111WedemR"></relation>
-               <relation name="bm:isPredecessorOf" active="PRS1854Amdase" passive="PRS8595SayfaAr"></relation>
+               <relation name="bm:isSuccessorOf"
+                         active="PRS1854Amdase"
+                         passive="PRS10111WedemR"/>
+               <relation name="bm:isPredecessorOf"
+                         active="PRS1854Amdase"
+                         passive="PRS8595SayfaAr"/>
                <relation name="snap:SonOf" active="PRS1854Amdase" passive="PRS10111WedemR"/>
                <relation name="snap:GrandsonOf"
                          active="PRS1854Amdase"

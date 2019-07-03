@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS1251Abiyae">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>ʿAbiya ʾƎgziʾ</title>
@@ -32,6 +32,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -48,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2016-10-13">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -65,7 +73,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <floruit when="1350" cert="high">He was an Ethiopian saint who lived in the first half of the fourteenth century. 
                   He was the head of the monastery of <placeName ref="LOC2300DabraM">Dabra Madḫānit</placeName>.  
                   His successor was  
-                  <persName ref="PRS2037Arkalade"><roleName type="title">ʾabbā </roleName>ʾArkaladǝs </persName>.
+                  <persName ref="PRS2037Arkalade">
+                     <roleName type="title">ʾabbā </roleName>ʾArkaladǝs </persName>.
                   A hagiography is dedicated to him which is not yet published (<ref type="work" corresp="LIT1407GadlaA"/>).
                  </floruit>
                   <death/>
