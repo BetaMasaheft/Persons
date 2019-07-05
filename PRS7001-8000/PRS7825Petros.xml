@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
@@ -56,14 +56,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  
-                  Ṗeṭros
-               </persName>
-               <occupation> ǝḉḉ.  </occupation>
+           <person sex="1">
+              <persName xml:lang="gez" xml:id="n1">ጴጥሮስ</persName>
+              <persName xml:lang="gez" type="normalized" corresp="#n1">Ṗeṭros</persName>
+              <persName type="alt"><roleName type="title">ʾǝč̣č̣age</roleName>Ṗeṭros</persName>
+              <nationality type="Ethiopia"></nationality>
+              <faith type="EOTC">EOTC</faith>
+              <occupation type="ecclesiastic">monk</occupation>
+              <death>1515</death>
+              <floruit notBefore="1500" notAfter="1515"></floruit>
+              <residence>
+                 <placeName ref="LOC2297DabraL">Dabra Libanos of Šewā</placeName>
+              </residence>
+
             </person>
          </listPerson>
+         <listRelation>
+             <relation name="saws:isRelatedTo"
+               active="PRS7825Petros" passive="LIT1507GadlaT"/>
+         </listRelation>
       </body>
    </text>
 </TEI>
