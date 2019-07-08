@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS1056AbbabaA">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>ʾAbbaba ʾAragāy</title>
@@ -32,11 +32,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -49,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-05-03">Correction</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -77,9 +85,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   Following the Italians triumphant entry into the capital,<date>1936</date>, 
                   he organized a center of  armed resistance in his native district and soon emerged as the leader of patriotic forces in <placeName ref="LOC6574NorthSawa"/>.
                   He participated in the ill coordinated offensive of July <date>1936</date>. 
-                  He was promoted to the rank of <persName ref="PRS1056AbbabaA"><roleName type="title">rās</roleName> 
+                  He was promoted to the rank of <persName ref="PRS1056AbbabaA">
+                     <roleName type="title">rās</roleName> 
                   </persName>by 
-                  <persName ref="PRS6575Malaka"><roleName type="title">nǝguś</roleName>
+                  <persName ref="PRS6575Malaka">
+                     <roleName type="title">nǝguś</roleName>
                   </persName> who had been elected 
                   by the patriots of <placeName ref="LOC2008Bulga"/>. 
                   He was also made honorary chairman of the Association of the patriots of Old Ethiopia, 

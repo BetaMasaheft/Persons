@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS4395GabruG">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Gabru</title>
@@ -35,11 +35,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -51,7 +59,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-09-13">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -70,9 +78,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <occupation type="political">governor</occupation>
                <floruit notBefore="1877" notAfter="1882">He was aTǝgryan who was appointed by 
                   
-                  <persName ref="PRS10378Yohanne"><roleName type="title">ʾaṣe</roleName> </persName> over <placeName ref="LOC6135Wag"/>.
+                  <persName ref="PRS10378Yohanne">
+                     <roleName type="title">ʾaṣe</roleName> 
+                  </persName> over <placeName ref="LOC6135Wag"/>.
                   He replaced
-                  <persName ref="PRS5815Kabbada"> <roleName type="title">wag šum</roleName> </persName> who was removed from office for not accompanying 
+                  <persName ref="PRS5815Kabbada"> 
+                     <roleName type="title">wag šum</roleName> 
+                  </persName> who was removed from office for not accompanying 
                   the Emperor in his wars against the Egyptians. 
                   Shortly after his appointment, 
                   there was a rebellion led by the relatives of <persName ref="PRS9143TaklaGi"/>. 

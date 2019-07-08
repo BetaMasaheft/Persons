@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS8668SebhatA">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Sǝbḥat ʾAragāwi</title>
@@ -33,11 +33,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -49,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-09-18">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -68,20 +76,30 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   governor of <placeName ref="LOC1236Agama"/>. 
                   Following the death of his father <persName ref="PRS1999Aragawi"/> in <date>1873</date>, 
                   he rebelled against 
-                  <persName ref="PRS10378Yohanne"><roleName type="title">ʾaṣe</roleName> </persName> opposing his policy of partitioning
+                  <persName ref="PRS10378Yohanne">
+                     <roleName type="title">ʾaṣe</roleName> 
+                  </persName> opposing his policy of partitioning
                   <placeName ref="LOC1236Agama"/> into several districts run by distantly related, even 
                   completely unrelated chiefs. Therefore, Sǝbḥat ʾAragāwi opted to rebel joining his 
                   <persName ref="ETH1723Irob"/> kinsmen in the escarpments and 
                   he posed a serious challenge against 
-                  <persName ref="PRS10378Yohanne"><roleName type="title">ʾaṣe</roleName> </persName>. 
+                  <persName ref="PRS10378Yohanne">
+                     <roleName type="title">ʾaṣe</roleName> 
+                  </persName>. 
                   In response, 
-                  <persName ref="PRS10378Yohanne"><roleName type="title">ʾaṣe</roleName> </persName>, the emperor, appointed his brother 
+                  <persName ref="PRS10378Yohanne">
+                     <roleName type="title">ʾaṣe</roleName> 
+                  </persName>, the emperor, appointed his brother 
                   <persName ref="PRS9887WaldaGa"/> over <placeName ref="LOC1236Agama"/>. 
                            This appeased Sǝbḥat ʾAragāwi and he started to frequent the Emperor's court. 
                            But his friendly relation with 
-                  <persName ref="PRS10378Yohanne"><roleName type="title">ʾaṣe</roleName> </persName> was short-lived and he continued to challenge 
+                  <persName ref="PRS10378Yohanne">
+                     <roleName type="title">ʾaṣe</roleName> 
+                  </persName> was short-lived and he continued to challenge 
                 
-                  <persName ref="PRS10378Yohanne">  <roleName type="title">ʾaṣe</roleName> </persName>'s goverment. 
+                  <persName ref="PRS10378Yohanne">  
+                     <roleName type="title">ʾaṣe</roleName> 
+                  </persName>'s goverment. 
                   He also rebelled in alliance with his former rival <persName ref="PRS6668Mangasa"/> against
                                  <persName ref="PRS7006Menilek"/>, which led to his captivity and exile to 
                   <placeName ref="LOC3786Harar"/> for another decade. In <date>1908</date>, 

@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS5193haydara">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Ḥaydarā</title>
@@ -33,11 +33,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -49,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-01-19">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -68,18 +76,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <floruit notBefore="1330" notAfter="1339">He was the ruler of 
                   <placeName ref="LOC2582Dawaro">Dawāro</placeName>, 
                   tributory to the Christian king 
-                  <persName ref="PRS1854Amdase"><roleName type="title">ʾaṣe</roleName> 
+                  <persName ref="PRS1854Amdase">
+                     <roleName type="title">ʾaṣe</roleName> 
                      ʿAmda Ṣǝyon I</persName> in the <date>1330</date>s. 
                   He allied in conspiracy with the rebellious 
                   <persName ref="PRS10010Walasma">Walāšmāʿ</persName>
                   ruler of <placeName ref="LOC3921Ifat">Ifāt</placeName>, 
                   <persName ref="PRS8282sabraddi">Ṣabraddīn I Muḥammad b. Dalḥūy</persName>. 
-                  However,                   <persName ref="PRS1854Amdase"><roleName type="title">ʾaṣe</roleName>
+                  However,                   <persName ref="PRS1854Amdase">
+                     <roleName type="title">ʾaṣe</roleName>
                       
                       ʿAmda Ṣǝyon I</persName> foiled the plot of <persName ref="PRS5193haydara">Ḥaydarā </persName> and  
                   his ally, <persName ref="PRS8282sabraddi">Ṣabraddīn I Muḥammad b. Dalḥūy</persName> and led a military campaign in <date>1332</date>. 
                   The forces of 
-                  <persName ref="PRS1854Amdase"><roleName type="title">ʾaṣe</roleName> 
+                  <persName ref="PRS1854Amdase">
+                     <roleName type="title">ʾaṣe</roleName> 
                      ʿAmda Ṣǝyon I</persName>
                   captured <persName ref="PRS5193haydara">Ḥaydarā </persName> 
                   and bounded him in chains and ravaged the whole 

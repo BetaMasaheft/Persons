@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS7049Michael">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>St Michael</title>
@@ -30,11 +30,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
          <textClass>
@@ -52,16 +60,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DR" when="2018-01-26">Updated</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sameAs="wd:Q45581">
                <persName xml:lang="gez" xml:id="n1">ሚካኤል፡</persName>
-               <persName xml:lang="gez" type="normalized" corresp="#n1"><addName>Qǝddus</addName> Mikāʾel</persName>
-               <persName xml:lang="en" corresp="#n1" type="main"><addName>St</addName> Michael</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">
+                  <addName>Qǝddus</addName> Mikāʾel</persName>
+               <persName xml:lang="en" corresp="#n1" type="main">
+                  <addName>St</addName> Michael</persName>
             </person>
             <listRelation>
-               <relation name="ecrm:P129i_is_subject_of" active="PRS7049Michael" passive="LIT2375Synaxa"/>
+               <relation name="ecrm:P129i_is_subject_of"
+                         active="PRS7049Michael"
+                         passive="LIT2375Synaxa"/>
             </listRelation>
          </listPerson>
       </body>

@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS6829Maryams">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Māryām Śǝnā</title>
@@ -34,11 +34,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -50,7 +58,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-05-15">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="2">
@@ -77,7 +85,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <floruit notBefore="1563" notAfter="1607">She was the wife of <persName ref="PRS8550sardaDe"/> and was crowned as a queen. 
                   After the death of her husband,<persName ref="PRS8550sardaDe"/>, she continued to rule in co-regency with
                   
-                  <persName ref="PRS2224Atnatewo"><roleName type="title">rās</roleName></persName>, which lasted for the seven years.
+                  <persName ref="PRS2224Atnatewo">
+                     <roleName type="title">rās</roleName>
+                  </persName>, which lasted for the seven years.
                   
                </floruit>
                <death when="1607"/>
@@ -85,8 +95,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
             </person>
             <listRelation>
-               <relation name="bm:wifeOf" active="PRS6829Maryams" passive="PRS8550sardaDe"/>
-               <relation name="bm:motherInLawOf"
+               <relation name="betmas:wifeOf" active="PRS6829Maryams" passive="PRS8550sardaDe"/>
+               <relation name="betmas:motherInLawOf"
                          active="PRS6829Maryams"
                          passive="PRS10965ZaSellase"/>
                

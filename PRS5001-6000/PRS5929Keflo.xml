@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS5929Keflo">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Kǝflo</title>
@@ -32,11 +32,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -48,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-01-04">complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -64,16 +72,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                   <floruit notBefore="1597" notAfter="1617">He was a courtier and one of the most important political figures, who served three successive 
                      Solomonic emperors including 
-                     <persName ref="PRS10198Yaeqob"><roleName type="title">ʾaṣe</roleName>  
+                     <persName ref="PRS10198Yaeqob">
+                     <roleName type="title">ʾaṣe</roleName>  
                         Yāʿqob</persName>, 
-                     <persName ref="PRS10513Zadenge"><roleName type="title">ʾaṣe</roleName> 
+                     <persName ref="PRS10513Zadenge">
+                     <roleName type="title">ʾaṣe</roleName> 
                         Zadǝngǝl</persName> and  
-                     <persName ref="PRS9038Susenyos"><roleName type="title">ʾaṣe</roleName> 
+                     <persName ref="PRS9038Susenyos">
+                     <roleName type="title">ʾaṣe</roleName> 
                         Susǝnyos</persName>. 
                      He was from humble origin and succeeded to achieve different positions in the royal court throughout his carrier.
                      <persName ref="PRS5929Keflo">Kǝflo</persName> was the 
                      most favourite courtier for 
-                     <persName ref="PRS9038Susenyos"><roleName type="title">ʾaṣe</roleName> 
+                     <persName ref="PRS9038Susenyos">
+                     <roleName type="title">ʾaṣe</roleName> 
                         Susǝnyos</persName> but later he plotted repeatedly against him. The king pardoned <persName ref="PRS5929Keflo">Kǝflo</persName> several times. Finally, however, he was sentenced to death and beheaded in the court. 
                   </floruit>
                   

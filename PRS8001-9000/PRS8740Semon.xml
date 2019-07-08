@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS8740Semon">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Sǝmʿon (Simam)</title>
@@ -32,11 +32,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
             <language ident="por">Portuguese</language>
          </langUsage>
@@ -50,7 +58,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change when="2018-03-27" who="ES">corrected ID</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -75,7 +83,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </death>
             </person>
             <listRelation>
-               <relation name="bm:ordainedBy" active="PRS8740Semon" passive="PRS11114MarkV"/>
+               <relation name="betmas:ordainedBy" active="PRS8740Semon" passive="PRS11114MarkV"/>
                
                <relation name="snap:AllianceWith"
                          active="PRS8740Semon"

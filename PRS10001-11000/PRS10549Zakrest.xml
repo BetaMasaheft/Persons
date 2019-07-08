@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS10549Zakrest">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Zakrǝstos</title>
@@ -32,11 +32,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -49,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-08-04">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -66,13 +74,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                <floruit notBefore="1620" notAfter="1654">He was an Ethiopian nobleman who married the daughter of 
                   
-                  <persName ref="PRS9038Susenyos"><roleName type="title">ʾaṣe</roleName> Susǝnyos</persName> called <persName ref="PRS6576Malakota">Malakotāwit</persName>.
+                  <persName ref="PRS9038Susenyos">
+                     <roleName type="title">ʾaṣe</roleName> Susǝnyos</persName> called <persName ref="PRS6576Malakota">Malakotāwit</persName>.
                   He was a close aide of <persName ref="PRS9038Susenyos">Susǝnyos</persName> and <persName ref="PRS4015Fasilada">Fāsiladas</persName>.</floruit>
                   <death notBefore="1654" notAfter="1655"/>
                </person>
                <listRelation>
                   
-                  <relation name="bm:husbandOf"
+                  <relation name="betmas:husbandOf"
                          active="PRS10549Zakrest"
                          passive="PRS6576Malakota"/>
                   <relation name="snap:AllianceWith"

@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS10076WasanS">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Wasan Sagad</title>
@@ -33,11 +33,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -49,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2016-11-22">complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -71,12 +79,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <floruit notBefore="1808" notAfter="1813">He was the sixth ruler of the kingdom of <placeName ref="LOC5597Sawa">
                   Šawā</placeName> from about <date>1808</date> to <date>1812/13</date>. He rebelled against his father 
                   
-                  <persName ref="PRS2110AsfaWas"><roleName type="title">marǝdʾazmāč</roleName> ʾAsfā Wasan</persName>
+                  <persName ref="PRS2110AsfaWas">
+                     <roleName type="title">marǝdʾazmāč</roleName> ʾAsfā Wasan</persName>
                      fearing the rivalry of his half-brother <persName ref="PRS5638Iyoas">ʾIyoʾas</persName>. But he was defeated and taken prisoner. 
                   Later,<persName ref="PRS2110AsfaWas">ʾAsfā Wasan</persName> reconciled, released him from captivity
                   and declared him his official heir. Following the death of his father, 
                  
-                  <persName ref="PRS2110AsfaWas"><roleName type="title">marǝd ʾazmāč</roleName>
+                  <persName ref="PRS2110AsfaWas">
+                     <roleName type="title">marǝd ʾazmāč</roleName>
                       
                      ʾAsfā Wasan (ʾAmmǝḫā  ʾIyasus) </persName>,  <persName ref="PRS10076WasanS">Wasan Sagad</persName> chose 
                   <placeName ref="LOC5291Qwendi">Qwǝndi</placeName> instead of the seats of his father, 
@@ -94,7 +104,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <relation name="snap:FatherOf"
                          active="PRS10076WasanS"
                          passive="PRS8346sahlase"/>
-                  <relation name="bm:husbandOf"
+                  <relation name="betmas:husbandOf"
                          active="PRS10076WasanS"
                          passive="PRS10604Zannaba"/>
      

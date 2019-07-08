@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS4979HafaKre">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Hafa Krǝstos</title>
@@ -30,11 +30,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -46,14 +54,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2018-06-06">addition</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
           
                <persName xml:lang="gez" xml:id="n1" type="birth">ሀፈ፡ ክርስቶስ፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized"> Hafa Krǝstos</persName>
-                  <persName><roleName type="title">daǧǧāmāč</roleName></persName>
+                  <persName>
+                  <roleName type="title">daǧǧāmāč</roleName>
+               </persName>
                   
                   
                   
@@ -66,14 +76,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <floruit/>
                </person>
                <listRelation>
-                  <relation name="snap:BrotherOf" active="PRS4979HafaKre" passive="PRS9038Susenyos"/>
-                  <relation name="snap:BrotherOf" active="PRS4979HafaKre"  passive="PRS10233Yamana"/>
+                  <relation name="snap:BrotherOf"
+                         active="PRS4979HafaKre"
+                         passive="PRS9038Susenyos"/>
+                  <relation name="snap:BrotherOf"
+                         active="PRS4979HafaKre"
+                         passive="PRS10233Yamana"/>
                   
-                  <relation name="lawd:hasAttestation" active="PRS4979HafaKre" passive="LIT3951ChronSusenyos"/>
+                  <relation name="lawd:hasAttestation"
+                         active="PRS4979HafaKre"
+                         passive="LIT3951ChronSusenyos"/>
                   
                </listRelation>
-         </listPerson><!---->
+         </listPerson>
+         <!---->
       </body>
    </text>
 </TEI>
-               

@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS12016Evangelists">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Evangelists</title>
@@ -29,6 +29,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>digitally born file</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -41,7 +49,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DR" when="2018-05-04">Corrected transliteration and added wikidata</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <personGrp sameAs="wd:Q472773">
@@ -50,17 +58,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
                <persName xml:id="Four" xml:lang="gez">አርባዕቱ፡ እንስሳ፡</persName>
                <persName corresp="#Four" xml:lang="gez" type="normalized">ʾArbāʿtu ʾƎnsǝsā</persName>
-               <persName corresp="#Four"  xml:lang="en">Four (Heavenly) Animals</persName>
-               <persName corresp="#Four"  xml:lang="en">Four Beasts</persName>
-               <persName corresp="#Four"  xml:lang="en" type="alt">Four Living Creatures</persName>
+               <persName corresp="#Four" xml:lang="en">Four (Heavenly) Animals</persName>
+               <persName corresp="#Four" xml:lang="en">Four Beasts</persName>
+               <persName corresp="#Four" xml:lang="en" type="alt">Four Living Creatures</persName>
                
             </personGrp>
             
             <listRelation>
-               <relation name="snap:Group" active="PRS12016Evangelists" passive="PRS5695John"/>
-               <relation name="snap:Group" active="PRS12016Evangelists" passive="PRS6751Mark"/>
-               <relation name="snap:Group" active="PRS12016Evangelists" passive="PRS6902Matthew"/>
-               <relation name="snap:Group" active="PRS12016Evangelists" passive="PRS6387Luke"/>
+               <relation name="snap:Group"
+                         active="PRS12016Evangelists"
+                         passive="PRS5695John"/>
+               <relation name="snap:Group"
+                         active="PRS12016Evangelists"
+                         passive="PRS6751Mark"/>
+               <relation name="snap:Group"
+                         active="PRS12016Evangelists"
+                         passive="PRS6902Matthew"/>
+               <relation name="snap:Group"
+                         active="PRS12016Evangelists"
+                         passive="PRS6387Luke"/>
             </listRelation>
             
             

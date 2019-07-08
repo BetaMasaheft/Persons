@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS2152AsmaGiy">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>ʾAṣma Giyorgis Gabra Masiḥ</title>
@@ -32,11 +32,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -48,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-01-30">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -75,7 +83,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ref type="work" corresp="LIT2537Yagall">Yagāllā tārik yašawā mangǝśt</ref>. 
                   He was educated by his father who was a clergyman, as well as by his maternal uncle,
                   the famous church scholar 
-                  <persName ref="PRS9198Taklase"> <roleName type="title">ʾalaqā</roleName> Takla Ṣǝyon ʾƎnyaw</persName>.
+                  <persName ref="PRS9198Taklase"> 
+                     <roleName type="title">ʾalaqā</roleName> Takla Ṣǝyon ʾƎnyaw</persName>.
                   Later he came in contact with Catholic missionaries at 
                   <placeName ref="LOC1464Ankoba">ʾAnkobar</placeName> from whom he learnt French and Latin. 
                   He rendered his services to both the Ethiopian government and Catholic Church as a soldier, scribe, judge, 

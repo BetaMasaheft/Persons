@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS4711Giyorgis">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Giyorgis Walda ʿAmid</title>
@@ -32,11 +32,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -50,7 +58,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DR" when="2017-10-11">Added Arabic name</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -68,7 +76,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <floruit notBefore="1206" notAfter="1273">He was a Christian Arab historian whose works were incorporated into Ethiopian tradition. 
                   He wrote the  book <ref type="work" corresp="LIT4723TarikaWaldaAmid">al-Maǧmaʿ al-mubārak</ref> in <date> between 1262-1268 </date>
                   which was translated during the reign of  
-                  <persName ref="PRS6229LebnaDe"><roleName type="title">ʾaṣe</roleName>  Lǝbna Dǝngǝl</persName>
+                  <persName ref="PRS6229LebnaDe">
+                     <roleName type="title">ʾaṣe</roleName>  Lǝbna Dǝngǝl</persName>
 
                   as <foreign xml:lang="gez">ታሪከ፡ ወልደ፡ ዓሚድ</foreign>. 
                   

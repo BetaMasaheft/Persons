@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS5912KeflaMa">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Kǝfla Māryām</title>
@@ -32,11 +32,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -48,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-01-04">complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -68,7 +76,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   After his death , 
                   the office of liqa maṣāne 
                   was inherited by his son 
-                  <persName ref="PRS4699Giyorgis"><roleName type="title">ʾazzāž</roleName> Giyorgis</persName>.</floruit> 
+                  <persName ref="PRS4699Giyorgis">
+                     <roleName type="title">ʾazzāž</roleName> Giyorgis</persName>.</floruit> 
                   
                <death when="1726"> He died at <placeName ref="LOC3577Gondar"> Gondar</placeName> in <date>1726</date>.</death>
                </person>
@@ -89,7 +98,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          active="PRS5912KeflaMa"
                          passive="PRS2183Asqu"/>
                   
-                  <relation name="bm:husbandOf"
+                  <relation name="betmas:husbandOf"
                          active="PRS5912KeflaMa"
                          passive="PRS11776Eskenderyawit"/>
                   <relation name="ecrm:P129i_is_subject_of"

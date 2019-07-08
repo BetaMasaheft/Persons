@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS6667Mangasa">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Mangašā Yǝlmā</title>
@@ -34,11 +34,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -50,7 +58,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-06-21">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -76,7 +84,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                <floruit notBefore="1930" notAfter="1936">He was a 20th century military leader. He was a son of <persName ref="PRS10309YelmaM"/>
                   who was the eldest son of 
-                  <persName ref="PRS6567Makwanne"><roleName type="title">rās</roleName></persName>. 
+                  <persName ref="PRS6567Makwanne">
+                     <roleName type="title">rās</roleName>
+                  </persName>. 
                   During the first years of <persName ref="PRS5226haylase"/>'s reign Mangašā Yǝlmā was 
                   appointed to the newly formed administration of the southern border districts of <placeName ref="LOC4413Maji"/> and <placeName ref="LOC3560Goldiy"/>.</floruit>
                <death when="1936">He died in the battle of <placeName ref="LOC4667MayCaw"/> in<date>1936</date>.</death>

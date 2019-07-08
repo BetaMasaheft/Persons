@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS7006Menilek">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Mǝnilǝk II</title>
@@ -30,11 +30,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -46,7 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2018-06-28">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1" sameAs="wd:Q244748">
@@ -64,10 +72,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                <occupation type="ruler">Emperor</occupation>
                
-               <birth when="1844">He was born at <placeName ref="LOC1465Ankoba"></placeName> in <date>1844</date>. </birth>
+               <birth when="1844">He was born at <placeName ref="LOC1465Ankoba"/> in <date>1844</date>. </birth>
                <floruit notBefore="1860" notAfter="1913">Mǝnilǝk is regarded as the founder of modern Ethiopian state. 
                   After the death of his father king <persName ref="PRS5205haylaMa"/>,   
-                  in the course of the newly proclaimed king <persName ref="PRS9430Tewodros"></persName>, in <date>1855</date>, Mǝnilǝk then aged 11, 
+                  in the course of the newly proclaimed king <persName ref="PRS9430Tewodros"/>, in <date>1855</date>, Mǝnilǝk then aged 11, 
                   was taken into captivity into imperial court at <placeName ref="LOC4547Maqdal"/>. Here he was treated with much respect, and married
                   to <persName ref="PRS9430Tewodros"/>'s daughter <persName ref="PRS1771AltasTe"/>. In <date>1865</date>, as the emperor power waned, 
                   Mǝnilǝk escaped from <placeName ref="LOC4547Maqdal"/> and was received with joy in <placeName ref="LOC5597Sawa"/> as its rightful king. 
@@ -81,11 +89,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </person>
             
             <listRelation>
-               <relation name="snap:GrandsonOf" active="PRS7006Menilek" passive="PRS8346sahlase"/>
+               <relation name="snap:GrandsonOf"
+                         active="PRS7006Menilek"
+                         passive="PRS8346sahlase"/>
                   
              
                <relation name="snap:SonOf" active="PRS7006Menilek" passive="PRS5205haylaMa"/>
-               <relation name="bm:husbandOf" active="PRS7006Menilek" passive="PRS9345taytuBe"></relation>
+               <relation name="betmas:husbandOf"
+                         active="PRS7006Menilek"
+                         passive="PRS9345taytuBe"/>
                 
                
            </listRelation>
@@ -110,5 +122,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-               

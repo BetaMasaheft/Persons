@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS11205TasfaG">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Tasfā Giyorgis</title>
@@ -30,11 +30,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -43,23 +51,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DR" when="2018-08-29">Updated person and relations</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1">ተስፋ፡ ጊዮርጊስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Tasfā Giyorgis</persName>
-               <persName><roleName type="title">ʾǝč̣č̣age</roleName></persName>
-               <occupation type="ecclesiastic">Abbot of <placeName ref="INS0341DL"/></occupation>
+               <persName>
+                  <roleName type="title">ʾǝč̣č̣age</roleName>
+               </persName>
+               <occupation type="ecclesiastic">Abbot of <placeName ref="INS0341DL"/>
+               </occupation>
             </person>
             <listRelation>
                <relation name="lawd:hasAttestation"
                          active="PRS11205TasfaG"
                          passive="BNFet112"/>
                   <relation name="lawd:hasAttestation"
-                     active="PRS11205TasfaG"
-                     passive="BLorient635"/>
-               <relation name="syriaca:has-relation-to-place" active="PRS11205TasfaG" passive="INS0341DL"/>
+                         active="PRS11205TasfaG"
+                         passive="BLorient635"/>
+               <relation name="syriaca:has-relation-to-place"
+                         active="PRS11205TasfaG"
+                         passive="INS0341DL"/>
             </listRelation>
          </listPerson>
       </body>

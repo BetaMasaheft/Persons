@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS5014Halibo">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Halibo</title>
@@ -33,11 +33,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -49,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-08-25">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -65,7 +73,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <occupation type="military">leader</occupation>
                   
                <floruit notBefore="1574" notAfter="1596">He was a trusted 
-                  <persName ref="PRS5014Halibo"><roleName type="title">ʾazzāž</roleName>
+                  <persName ref="PRS5014Halibo">
+                     <roleName type="title">ʾazzāž</roleName>
                      Halibo</persName> at the court of <persName ref="PRS8550sardaDe">
                         <roleName type="title">ʾaṣe</roleName>
                      </persName>. As such he was appointed commander of 
@@ -73,7 +82,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   in <date>1574</date>
                   and served loyally his sovereign both as warlord and diplomat.  
                   A year later, in <date>1575</date>, he was sent as a head of delegation of high ecclesiastics to 
-                  <persName ref="PRS10343Yeshaq"><roleName type="title">bahǝr nagāš </roleName></persName>
+                  <persName ref="PRS10343Yeshaq">
+                     <roleName type="title">bahǝr nagāš </roleName>
+                  </persName>
                    to pledge loyality to the emperor. 
                   He is also known to have taken part with his regiment in a successful campaign of the Emperor against the 
                   <persName ref="ETH1274Betaes"/> prince <persName ref="PRS5842Kalef"/> in October <date>1597</date>.

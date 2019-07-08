@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS5335hezqeyas">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Ḥǝzqǝyās</title>
@@ -32,11 +32,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -49,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-08-04">Corrections</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -67,12 +75,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                <floruit notBefore="1669" notAfter="1711">He was an important official in the court of 
                   
-                  <persName ref="PRS5616IyasuI"><roleName type="title">ʾaṣe</roleName> ʾIyāsu I</persName>. 
-                  He was also appointed <persName ref="PRS5335hezqeyas"><roleName type="title">rās</roleName></persName>
+                  <persName ref="PRS5616IyasuI">
+                     <roleName type="title">ʾaṣe</roleName> ʾIyāsu I</persName>. 
+                  He was also appointed <persName ref="PRS5335hezqeyas">
+                     <roleName type="title">rās</roleName>
+                  </persName>
                    of 
                   <placeName ref="LOC1713Bagemd">Bagemdǝr</placeName> by 
                  
-                  <persName ref="PRS9449Tewoflos"> <roleName type="title">ʾaṣe</roleName> 
+                  <persName ref="PRS9449Tewoflos"> 
+                     <roleName type="title">ʾaṣe</roleName> 
                      Tewoflos</persName> but he dismissed him a year later. </floruit>
                <death when="1711"> he was buried at <placeName ref="LOC5417Sadda">Ṣaddā</placeName>
                </death>

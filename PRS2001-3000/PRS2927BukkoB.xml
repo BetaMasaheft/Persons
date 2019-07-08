@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS2927BukkoB">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Bukko (Buko)</title>
@@ -33,11 +33,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -50,13 +58,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2018-12-04">added to bibliography</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth"> ቡኮ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Bukko</persName>
-               <persName><roleName type="title">daǧǧāzmāč, ṣaḥafe lām</roleName></persName>
+               <persName>
+                  <roleName type="title">daǧǧāzmāč, ṣaḥafe lām</roleName>
+               </persName>
                <nationality type="Ethiopia"/>
                
                   
@@ -78,8 +88,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <death when="1627">He was killed on 
                   <date>25-09-1627</date>in an encounter with a raiding <persName ref="ETH1973Oromo"/> tribe. 
                </death>
-               <listRelation><relation name="snap:AllianceWith" active="PRS2927BukkoB" passive="PRS8681SeelaK"></relation>
-                  <relation name="saws:isRelatedTo" active="PRS2927BukkoB"  passive="PRS8681SeelaK"/>
+               <listRelation>
+                  <relation name="snap:AllianceWith"
+                            active="PRS2927BukkoB"
+                            passive="PRS8681SeelaK"/>
+                  <relation name="saws:isRelatedTo"
+                            active="PRS2927BukkoB"
+                            passive="PRS8681SeelaK"/>
                </listRelation>
                <listBibl type="editions">
                   <bibl>
@@ -100,9 +115,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
           
                <listBibl type="secondary">
-                  <bibl><ptr target="bm:Chernetsov2003Bukko"/>
+                  <bibl>
+                     <ptr target="bm:Chernetsov2003Bukko"/>
                   </bibl>
-                  <bibl><ptr target="bm:Boavida2011PaezII"/>
+                  <bibl>
+                     <ptr target="bm:Boavida2011PaezII"/>
                      <citedRange unit="page">206-259</citedRange>
                      
                   </bibl>

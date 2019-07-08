@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS2682BerhanM">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Bǝrhan Mogasā</title>
@@ -32,11 +32,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -51,7 +59,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-11-13">additions to bibliography</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="2" sameAs="wd:Q2920073">
@@ -65,7 +73,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <residence> 
-                  <placeName ref="LOC3577Gondar"/></residence>
+                  <placeName ref="LOC3577Gondar"/>
+               </residence>
              
                <floruit notBefore="1730" notAfter="1775">She was the most powerful political figure 
                   during the Gondarine time and she assumed a regency  
@@ -82,7 +91,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="snap:GrandmotherOf"
                          active="PRS2682BerhanM"
                          passive="PRS5636IyoasI"/>
-               <relation name="bm:wifeOf" active="PRS2682BerhanM" passive="PRS2377Bakaffa"/>
+               <relation name="betmas:wifeOf" active="PRS2682BerhanM" passive="PRS2377Bakaffa"/>
                <relation name="snap:AllianceWith"
                          active="PRS2682BerhanM"
                          passive="PRS7091Mikael"/>

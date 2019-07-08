@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS9345taytuBe">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Ṭāytu Bǝṭul</title>
@@ -32,11 +32,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -48,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-02-02">complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="2" sameAs="wd:Q298216">
@@ -67,29 +75,36 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <occupation type="political">queen</occupation>
                <birth when="1853">She was born at <placeName ref="LOC3577Gondar">Gondar</placeName>.</birth>
                <floruit notBefore="1883" notAfter="1910">She was the wife of 
-                  <persName ref="PRS7006Menilek"><roleName type="title">ʾaṣe</roleName> Mǝnilǝk II</persName> and
+                  <persName ref="PRS7006Menilek">
+                     <roleName type="title">ʾaṣe</roleName> Mǝnilǝk II</persName> and
                   an influential politician in his court. 
                   She married 
-                  <persName ref="PRS7006Menilek"><roleName type="title">ʾaṣe</roleName> Mǝnilǝk II</persName>,  her fifth husband,  
+                  <persName ref="PRS7006Menilek">
+                     <roleName type="title">ʾaṣe</roleName> Mǝnilǝk II</persName>,  her fifth husband,  
                   in<date>1883</date> in the church ceremony that took place in<placeName ref="LOC1464Ankoba">ʾAnkobar</placeName>. 
-                  She was crowned as <persName ref="PRS9345taytuBe"><roleName type="title">ʾǝtege</roleName> Ṭāytu Bǝṭul </persName> on <date>03-10-1889</date>, 
+                  She was crowned as <persName ref="PRS9345taytuBe">
+                     <roleName type="title">ʾǝtege</roleName> Ṭāytu Bǝṭul </persName> on <date>03-10-1889</date>, 
                   two days after 
-                  <persName ref="PRS7006Menilek"><roleName type="title">ʾaṣe</roleName> Mǝnilǝk II</persName>'s  coronation as emperor. 
+                  <persName ref="PRS7006Menilek">
+                     <roleName type="title">ʾaṣe</roleName> Mǝnilǝk II</persName>'s  coronation as emperor. 
                   She did not have children with 
-                  <persName ref="PRS7006Menilek"><roleName type="title">ʾaṣe</roleName> Mǝnilǝk II</persName> and
+                  <persName ref="PRS7006Menilek">
+                     <roleName type="title">ʾaṣe</roleName> Mǝnilǝk II</persName> and
                   was probably a barren. 
                  
-                  <persName ref="PRS9345taytuBe"> <roleName type="title">ʾǝtege</roleName> Ṭāytu Bǝṭul</persName> was recognized in 
+                  <persName ref="PRS9345taytuBe"> 
+                     <roleName type="title">ʾǝtege</roleName> Ṭāytu Bǝṭul</persName> was recognized in 
                   <placeName ref="LOC3010Ethiop">Ethiopia</placeName> as an outstanding beauty 
                   and a clever and educated woman. 
                  
-                  <persName ref="PRS9345taytuBe"> <roleName type="title">ʾǝtege</roleName> Ṭāytu Bǝṭul</persName> was active both in domestic and foreign policy. 
+                  <persName ref="PRS9345taytuBe"> 
+                     <roleName type="title">ʾǝtege</roleName> Ṭāytu Bǝṭul</persName> was active both in domestic and foreign policy. 
             
                </floruit>
                <death when="1918"> She died in <placeName ref="LOC2976Entott">ʾƎnṭoṭṭo</placeName> in <date>1918</date>. </death>
             </person>  
             <listRelation>
-               <relation name="bm:wifeOf" active="PRS9345taytuBe" passive="PRS7006Menilek"/>
+               <relation name="betmas:wifeOf" active="PRS9345taytuBe" passive="PRS7006Menilek"/>
                
                <relation name="snap:DaughterOf"
                          active="PRS9345taytuBe"
@@ -103,7 +118,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="snap:SisterOf"
                          active="PRS9345taytuBe"
                          passive="PRS1776AlulaBe"/>
-               <relation name="bm:wifeOf" active="PRS9345taytuBe" passive="PRS7006Menilek"></relation>
+               <relation name="betmas:wifeOf" active="PRS9345taytuBe" passive="PRS7006Menilek"/>
                
             </listRelation>
          </listPerson>

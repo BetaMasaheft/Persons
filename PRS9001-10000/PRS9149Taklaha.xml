@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS9149Taklaha">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Takla Ḥawāryāt Takla Māryām</title>
@@ -32,11 +32,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -48,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-02-27">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -75,7 +83,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      When he was 9 years old he moved to <placeName ref="LOC3786Harar"/> 
                      with his elder brother who became a secretary to 
                       
-                     <persName ref="PRS6567Makwanne"><roleName type="title">rās</roleName></persName> where he was brought up as a family member. 
+                     <persName ref="PRS6567Makwanne">
+                     <roleName type="title">rās</roleName>
+                  </persName> where he was brought up as a family member. 
                      In <date>1896/97</date>, 
                      he was sent to <placeName ref="wd:Q159"/> where he joined St. Petersburg military school and
                      later Michael Artillery School. In <date>1908 </date> 

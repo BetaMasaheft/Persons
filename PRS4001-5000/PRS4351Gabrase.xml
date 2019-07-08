@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS4351Gabrase">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Gabra Śǝllāse</title>
@@ -33,11 +33,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -49,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-11-01">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -66,34 +74,47 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <floruit notBefore="1889" notAfter="1906">He was a native of <placeName ref="LOC3764Hamase"/>, 
                   took his monastic vow in a monastery in 
 <placeName ref="LOC6569Tegray"/>, and received his theological education and honorific title 
-                  <persName ref="PRS4351Gabrase"><roleName type="title">mamhǝr</roleName> </persName> 
+                  <persName ref="PRS4351Gabrase">
+                     <roleName type="title">mamhǝr</roleName> 
+                  </persName> 
                   probably at <placeName ref="LOC1311AksumS"/>. 
                   He joined 
-                  <persName ref="PRS8388SalamaI"><roleName type="title">ʾabuna</roleName> </persName> in <date>1841</date>
+                  <persName ref="PRS8388SalamaI">
+                     <roleName type="title">ʾabuna</roleName> 
+                  </persName> in <date>1841</date>
                      who remained as his spiritual son in his retinue at <placeName ref="LOC3577Gondar"/>
                   during the rest of Zamana Masāfǝnt. 
                   During the reign of <persName ref="PRS9430Tewodros"/>, he was also with
-                  <persName ref="PRS8388SalamaI"><roleName type="title">ʾabuna</roleName> </persName>
+                  <persName ref="PRS8388SalamaI">
+                     <roleName type="title">ʾabuna</roleName> 
+                  </persName>
                   and followed him to the place of his detention at the royal fortress of 
                   <placeName ref="LOC4547Maqdal"/> in <date>1867</date>. 
                   Following the death of <persName ref="PRS8388SalamaI">
-                     <roleName type="title">ʾabuna</roleName> </persName>
+                     <roleName type="title">ʾabuna</roleName> 
+                  </persName>
                    in <date>1867</date>, 
                   he joined to the court of <persName ref="PRS7006Menilek"/>, 
                   where he became the father confessor of both <persName ref="PRS7006Menilek"/> 
                      and his wife <persName ref="PRS2342Bafana"/>. 
                   In <date>1889</date>, <persName ref="PRS7006Menilek"/> dismissed <persName ref="PRS9451Tewoflos"/> 
                         and appointed in his place <persName ref="PRS4351Gabrase"/> 
-                  who was solemnly blessed as <persName ref="PRS4351Gabrase"><roleName type="title">ʾǝč̣č̣age</roleName> </persName>
+                  who was solemnly blessed as <persName ref="PRS4351Gabrase">
+                     <roleName type="title">ʾǝč̣č̣age</roleName> 
+                  </persName>
                    
                         by 
-                  <persName ref="PRS6876Matewos"><roleName type="title">ʾabuna</roleName>  </persName>. 
+                  <persName ref="PRS6876Matewos">
+                     <roleName type="title">ʾabuna</roleName>  
+                  </persName>. 
                      
               
                      
           </floruit>
                <death when="1906">He died while still in the office of 
-                  <persName ref="PRS4351Gabrase"><roleName type="title">ʾǝč̣č̣age</roleName>  </persName>
+                  <persName ref="PRS4351Gabrase">
+                     <roleName type="title">ʾǝč̣č̣age</roleName>  
+                  </persName>
                   and was buried in 
                   <placeName ref="INS0346DL"/>. </death>
             </person>
@@ -104,7 +125,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="snap:AllianceWith"
                          active="PRS4351Gabrase"
                          passive="PRS8388SalamaI"/>
-               <relation name="bm:hasOrdained"
+               <relation name="betmas:hasOrdained"
                          active="PRS4351Gabrase"
                          passive="PRS6876Matewos"/>
                <relation name="snap:AllianceWith"

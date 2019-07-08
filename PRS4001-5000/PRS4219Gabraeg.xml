@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS4219Gabraeg">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Gabra ʾƎgziʾabǝḥer ʾElyās</title>
@@ -34,11 +34,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -50,7 +58,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-03-14">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -78,7 +86,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   He was also a court historian writing the royal chronicle for the period <date>1908-1934</date>
                   covering the reigns of
                  
-                  <persName ref="PRS5620IyasuV"> <roleName type="title">lǝg</roleName> </persName> and <persName ref="PRS10671Zawditu"/>. 
+                  <persName ref="PRS5620IyasuV"> 
+                     <roleName type="title">lǝg</roleName> 
+                  </persName> and <persName ref="PRS10671Zawditu"/>. 
                  
                </floruit>
                <death when="1969">He died at <placeName ref="LOC4977Nazare"/> in <date>1969</date>. </death>

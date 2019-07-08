@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS5790Julitta">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Julitta</title>
@@ -30,11 +30,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
          <textClass>
@@ -49,18 +57,34 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="PL" when="2019-03-27">removed occupation containing St, Saint, bibl, biblical or prophet, added keyword. See https://github.com/BetaMasaheft/Documentation/issues/1104</change>
+         <change when="2019-06-14" who="ES">filled name bio</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
-            <person sex="2">
-               <persName>
+            <person sex="2" sameAs="wd:Q3189786">
+               <persName xml:lang="en" xml:id="n1">Julitta</persName>
+               <persName xml:lang="gez" xml:id="n2">ኢየሉጣ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">ʾIyaluṭā</persName>
+               <persName type="alt">Julietta</persName>
+               <persName type="alt">Giulitta</persName>
+               
+               <death when="0304"/>
+               <floruit notAfter="0304">According to pseudo-Gelasius, Julitta and her three-year-old son <persName ref="PRS3249Cyriacus">Cyricus</persName> had fled to Tarsus and were identified as Christians.
+                  Julitta was tortured and Cyricus, being held by the governor of Tarsus, scratched the governor's face and was killed by being thrown down by some stairs. 
+                  Julitta did not weep but celebrated the fact that her son had earned the crown of martyrdom. 
+                  In anger, the governor then decreed that Julitta’s sides should be ripped apart with hooks, and then she was beheaded. 
+                  Her body, along with that of Cyricus, was flung outside the city, on the heap of bodies belonging to criminals, but the two maids rescued the corpses of the mother and child and buried them in a nearby field.
                   
-                  Julitta
-               </persName>
-               <!-- St -->
+                  
+               </floruit>
             </person>
+            <listRelation>
+               <relation name="snap:MotherOf"
+                         active="PRS5790Julitta"
+                         passive="PRS3249Cyriacus"/>
+            </listRelation>
          </listPerson>
       </body>
    </text>

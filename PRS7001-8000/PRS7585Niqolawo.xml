@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS7585Niqolawo">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Niqolāwos</title>
@@ -33,11 +33,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -49,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-10-18">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -66,12 +74,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <floruit notBefore="1726" notAfter="1732">He was an important figure in the early 18th century Gondarine kingdom of Qwaraññā family. 
                   He played a major role in <persName ref="PRS2682BerhanM"/>'s maternal family's accession to power. 
                   In <date>1731</date>, he was promoted to 
-                  <persName ref="PRS7585Niqolawo"><roleName type="title">daǧǧāzmāč</roleName>
+                  <persName ref="PRS7585Niqolawo">
+                     <roleName type="title">daǧǧāzmāč</roleName>
                      Niqolāwos</persName>of <placeName ref="LOC5671Semen"/> and <placeName ref="LOC6198Wanata"/>.
                   In the following year, in <date>1731</date>,  
-                  he became <persName ref="PRS7585Niqolawo"><roleName type="title">rās </roleName> 
+                  he became <persName ref="PRS7585Niqolawo">
+                     <roleName type="title">rās </roleName> 
                      Niqolāwos</persName>, and finally, in October <date>1732</date>
-                  <persName ref="PRS7585Niqolawo"><roleName type="title">rās bitwaddad</roleName> Niqolāwos</persName>, a position that make him second in power to the regent queen. After his death, 
+                  <persName ref="PRS7585Niqolawo">
+                     <roleName type="title">rās bitwaddad</roleName> Niqolāwos</persName>, a position that make him second in power to the regent queen. After his death, 
                   this position was overtaken by <persName ref="PRS2682BerhanM"/>'s brother, <persName ref="PRS9931WaldaLe"/>.
                </floruit>
                <death when="1732"/>

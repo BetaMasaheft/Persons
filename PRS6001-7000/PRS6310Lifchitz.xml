@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS6310Lifchitz">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Lifchitz</title>
@@ -30,11 +30,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -45,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="ES" when="2016-02-09">CREATED: place</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="2" sameAs="wd:Q5248310">
@@ -53,7 +61,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                    <surname>Déborah</surname>
                   <forename>Lifchitz</forename>
                </persName>
-               <persName xml:lang="pl" xml:id="n2"><surname>Deborah</surname> <forename>Lifszyc</forename></persName>
+               <persName xml:lang="pl" xml:id="n2">
+                  <surname>Deborah</surname> 
+                  <forename>Lifszyc</forename>
+               </persName>
                <occupation type="academic">linguist and social anthropologist</occupation>
                <nationality type="France">Originally Polish, she became a French citizen in 1937.</nationality>
                <faith type="Judaism"/>
@@ -66,13 +77,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                </floruit>
               
-               <death when="1942">She died after September 1942 in deportation at <placeName ref="wd:Q7341">Auschwitz.</placeName></death>
+               <death when="1942">She died after September 1942 in deportation at <placeName ref="wd:Q7341">Auschwitz.</placeName>
+               </death>
             </person>
 
          </listPerson>
          <listBibl type="editions">
             <bibl> 
-               <ptr target="bm:FicquetPrijac2007Lifchitz"></ptr></bibl>
+               <ptr target="bm:FicquetPrijac2007Lifchitz"/>
+            </bibl>
          </listBibl>
       </body>
    </text>

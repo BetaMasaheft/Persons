@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS6160Lamlam">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Lamlam</title>
@@ -33,11 +33,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -49,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-03-13">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -73,10 +81,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   He was an Ehiopian clergyman and historiographer, received a traditional church education
                   at <placeName ref="LOC2310DabraM"/>. Then, he served in the churches of 
                   <placeName ref="LOC3549Gojjam"/> but also at <placeName ref="LOC4432Mahdar"/> 
-                  until <date when="1888"></date> and then after he left for <placeName ref="LOC5597Sawa"/>
+                  until <date when="1888"/> and then after he left for <placeName ref="LOC5597Sawa"/>
                   and made his way to <placeName ref="LOC0001IHA"/>. There he met 
-                  <persName ref="PRS7146MondonV"
-                  /> who takecare of him and for whom Lamlam became in turn, an informant.
+                  <persName ref="PRS7146MondonV"/> who takecare of him and for whom Lamlam became in turn, an informant.
                  
                </floruit>
                <death notBefore="1902" notAfter="1904"/>

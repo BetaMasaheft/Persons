@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS3501Demetros">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Dǝmeṭros</title>
@@ -32,11 +32,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -48,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-01-25">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sameAs="wd:Q343733" sex="1">
@@ -69,16 +77,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                <floruit notBefore="1799" notAfter="1801">
                   He was one of the puppet rulers of the Zamana masāfǝnt. When 
-                  <persName ref="PRS8423Salomon"><roleName type="title">ʾaṣe</roleName> Salomon III</persName> was 
+                  <persName ref="PRS8423Salomon">
+                     <roleName type="title">ʾaṣe</roleName> Salomon III</persName> was 
                   deposed,  
-                  <persName ref="PRS4871GugsaMe"><roleName type="title">daǧǧāzmāč</roleName> 
+                  <persName ref="PRS4871GugsaMe">
+                     <roleName type="title">daǧǧāzmāč</roleName> 
                      Gugsā Mǝrč̣ā</persName>  and 
-                  <persName ref="PRS1774Alula"><roleName type="title">daǧǧāzmāč</roleName>  ʾAlulā</persName> made <persName ref="PRS3501Demetros">Dǝmeṭros</persName> an emperor at 
+                  <persName ref="PRS1774Alula">
+                     <roleName type="title">daǧǧāzmāč</roleName>  ʾAlulā</persName> made <persName ref="PRS3501Demetros">Dǝmeṭros</persName> an emperor at 
                   <placeName ref="LOC3577Gondar">Gondar</placeName> in 
                      <date>1799</date>. 
                   Then, he immediately rewarded his benefactors by appointing them to important positions. He was deposed in March <date>1800</date>
                   and succeeded by  
-                  <persName ref="PRS9142TaklaGi"><roleName type="title">ʾaṣe</roleName> 
+                  <persName ref="PRS9142TaklaGi">
+                     <roleName type="title">ʾaṣe</roleName> 
                      Takla Giyorgis I</persName>.  
                   <persName ref="PRS3501Demetros">Dǝmeṭros</persName> was restored in June <date>1800</date> and again deposed in <date>1801</date>.
                </floruit>

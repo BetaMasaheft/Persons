@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS6563Makwanne">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Makwannǝn Ḫāyla Śǝllāse</title>
@@ -30,11 +30,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -46,20 +54,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2018-09-05">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">መኰንን፡ ኃይለ፡ ሥላሴ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Makwannǝn Ḫāyla Śǝllāse</persName>
-               <persName><roleName type="title">marǝd ʾazmāč</roleName></persName>
+               <persName>
+                  <roleName type="title">marǝd ʾazmāč</roleName>
+               </persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <occupation type="political">prince</occupation>
                <birth when="1923">He was born in <placeName ref="LOC1216AddisA"/> in <date>1923</date>.</birth>
                
-               <floruit notBefore="1941" notAfter="1957">He was the third child of <roleName type="title">ʾaṣe</roleName> <persName ref="PRS5226haylase"/> and  
-                  <roleName type="title">ʾǝtege</roleName> <persName ref="PRS6642MananAs"/>. He received his education at St Christopher's school, 
+               <floruit notBefore="1941" notAfter="1957">He was the third child of <roleName type="title">ʾaṣe</roleName> 
+                  <persName ref="PRS5226haylase"/> and  
+                  <roleName type="title">ʾǝtege</roleName> 
+                  <persName ref="PRS6642MananAs"/>. He received his education at St Christopher's school, 
                   <placeName ref="wd:Q22889"/>, Wellington College and Gordonstoun, while staying with his father in exile during the Italian occupation. 
                   After the liberation in <date>1941</date>, he was given the title <roleName type="title">masfǝna Ḥarar</roleName>
                   which made him the governor general of the large province of <placeName ref="LOC3787Hararg"/>. In <date>1944</date>, 
@@ -74,8 +86,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listRelation>
                <relation name="snap:SonOf" active="PRS6563Makwanne" passive="PRS5226haylase"/>
                <relation name="snap:SonOf" active="PRS6563Makwanne" passive="PRS6642MananAs"/>
-               <relation name="snap:BrotherOf" active="PRS6563Makwanne" passive="PRS2112AsfaWas"/>
-               <relation name="snap:BrotherOf" active="PRS6563Makwanne" passive="PRS9234Tananna"/>
+               <relation name="snap:BrotherOf"
+                         active="PRS6563Makwanne"
+                         passive="PRS2112AsfaWas"/>
+               <relation name="snap:BrotherOf"
+                         active="PRS6563Makwanne"
+                         passive="PRS9234Tananna"/>
             </listRelation>
             
          </listPerson>
@@ -95,6 +111,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>   
 </TEI>
-
-
-              

@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS1451Afawarq">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>ʾAfawarq Gabra ʾIyasus</title>
@@ -33,11 +33,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -49,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-02-22"> complete record </change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -78,18 +86,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   Monastery in <placeName ref="LOC6411Zage"/>. 
                   He also studied in <placeName ref="wd:Q38"/> from <date>1887-1889</date>. When 
                  
-                  <persName ref="PRS6554Makwanne">  <roleName type="title">rās </roleName></persName> was in his diplomatic mission to 
+                  <persName ref="PRS6554Makwanne">  
+                     <roleName type="title">rās </roleName>
+                  </persName> was in his diplomatic mission to 
                   <placeName ref="wd:Q38"/> ʾAfawarq Gabra ʾIyasus served him as an interpreter,
                   and returned with him to <placeName ref="LOC3010Ethiop"/>.
                   He served the Imperial government in various positions: in <date>1922</date>
                   Custom Director to <placeName ref="LOC2658DerreD"/> with 
-                  <persName ref="PRS1451Afawarq"><roleName type="title">naggādrās </roleName>
+                  <persName ref="PRS1451Afawarq">
+                     <roleName type="title">naggādrās </roleName>
                   </persName>, in <date>1924</date> President of the Special Arbitration Court,  in <date>1932</date> 
                   <placeName ref="LOC3010Ethiop"/> representative in <placeName ref="wd:Q38"/>. 
                   When Ethiopia was liberated in <date>1941</date>, 
                   he was accused of treason for siding with the Italians during the war 
                   and was arrested later sentenced to death. But 
-                  <persName ref="PRS5226haylase"><roleName type="title">ʾaṣe</roleName></persName>
+                  <persName ref="PRS5226haylase">
+                     <roleName type="title">ʾaṣe</roleName>
+                  </persName>
                   commuted the sentence to life imprisonment.</floruit>
                
                <death when="1947"/>

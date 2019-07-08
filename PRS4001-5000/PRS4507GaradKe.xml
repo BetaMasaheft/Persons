@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS4507GaradKe">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Gārad Kǝnfu</title>
@@ -30,11 +30,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -47,7 +55,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2018-11-15">added information</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -63,10 +71,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <faith type="EOTC"/>
                
                
-               <floruit notBefore="1839" notAfter="1860">He was the son of <persName ref="PRS5951Kenfuha"><roleName type="title">
+               <floruit notBefore="1839" notAfter="1860">He was the son of <persName ref="PRS5951Kenfuha">
+                     <roleName type="title">
                   daǧǧāmāč</roleName> Kǝnfu Ḫaylu </persName> who ruled <placeName ref="LOC2481Dambey"/> 
                   province from <date>1831</date> until his death in <date>1839</date>.Through him, Gārad Kǝnfu was related to 
-                  <roleName type="title">ʾaṣe</roleName><persName ref="PRS9430Tewodros"></persName>. 
+                  <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS9430Tewodros"/>. 
                   He is noted as one of the rebels against 
                   <persName ref="PRS9430Tewodros"/>, in <placeName ref="LOC2481Dambey"/>
                   and <placeName ref="LOC6186Walqay"/>. In <date>1860</date>, he emerged as as an ally of 
@@ -75,17 +85,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   outside <placeName ref="LOC3577Gondar"/>, Gārad killed <persName ref="PRS7907Plowden"/>
                </floruit>
                <death when="1860">He, in turn,  was killed  in revenge by <persName ref="PRS9430Tewodros"/> 
-                  in a battle in <placeName ref="LOC6171Waldeb"></placeName> in<date>1860</date>.</death>
+                  in a battle in <placeName ref="LOC6171Waldeb"/> in<date>1860</date>.</death>
             </person>
             <listRelation>
-               <relation name="snap:SonOf"
-                  active="PRS4507GaradKe"
-                  passive="PRS5951Kenfuha"/>
-               <relation name="snap:AllianceWith" active="PRS4507GaradKe"
-                  passive="PRS7542NeguseW"/>
-               <relation name="snap:BrotherOf" active="PRS4507GaradKe" passive="PRS10308YelmaK"/>
+               <relation name="snap:SonOf" active="PRS4507GaradKe" passive="PRS5951Kenfuha"/>
+               <relation name="snap:AllianceWith"
+                         active="PRS4507GaradKe"
+                         passive="PRS7542NeguseW"/>
+               <relation name="snap:BrotherOf"
+                         active="PRS4507GaradKe"
+                         passive="PRS10308YelmaK"/>
                   
-               <relation name="snap:BrotherOf" active="PRS4507GaradKe" passive="PRS6565Makwanne"/>
+               <relation name="snap:BrotherOf"
+                         active="PRS4507GaradKe"
+                         passive="PRS6565Makwanne"/>
                
             </listRelation>
          </listPerson>
@@ -100,5 +113,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-               

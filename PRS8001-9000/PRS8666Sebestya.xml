@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS8666Sebestya">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Sǝbǝstyānos</title>
@@ -32,11 +32,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -49,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
        
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -66,7 +74,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                 <floruit notBefore="1703" notAfter="1719">
                    He was the first 
-                   <persName ref="PRS8666Sebestya"><roleName type="title">marǝd ʾazmāč</roleName> </persName> of <placeName ref="LOC5597Sawa">
+                   <persName ref="PRS8666Sebestya">
+                     <roleName type="title">marǝd ʾazmāč</roleName> 
+                  </persName> of <placeName ref="LOC5597Sawa">
                   Šawā </placeName>who succeeded his father <persName ref="PRS7467NagasiK">Nagāśi Krǝstos Warada Qāl</persName>. 
                    He built the town <placeName ref="LOC2729Doqaqi">Doqāqit</placeName> and governed all  <placeName ref="LOC5597Sawa">
                      Šawā </placeName> from there.  Unlike his father, <persName ref="PRS8666Sebestya">Sǝbǝstyānos</persName> never sought the recognition 
@@ -77,7 +87,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </person>
                <listRelation>
                   
-                  <relation name="bm:husbandOf"
+                  <relation name="betmas:husbandOf"
                          active="PRS8666Sebestya"
                          passive="PRS9114Tagunsty"/>
                   

@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS3708eleni">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>ʾƎleni</title>
@@ -30,11 +30,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -46,7 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2018-11-07">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="2">
@@ -57,7 +65,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <nationality type="Ethiopia"/>
              
                <floruit notBefore="1682" notAfter="1708">She was a daughter of <persName ref="PRS10375Yohanne">
-                  <roleName type="title">ʾaṣe</roleName>Yoḥannǝs I</persName> and a sister of <persName ref="PRS5616IyasuI"/>. 
+                     <roleName type="title">ʾaṣe</roleName>Yoḥannǝs I</persName> and a sister of <persName ref="PRS5616IyasuI"/>. 
                   She was a remarkable figure in Ethiopian political life during the last quarter of the 17th century.
                   She was brought to prominence by <persName ref="PRS5616IyasuI"/> who immediately after his coronation in <date>1682</date>
                   granted her the title of the govenor of <placeName ref="LOC5671Semen"/>. After <date>1685</date>
@@ -65,7 +73,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   with one important exception: she actively interefered in religious disputes which rendered the Ethiopian 
                   Church an ardent adherent of the Qǝbāt doctrine. This adherance went smoothly during the reign of her brother
                   <persName ref="PRS5616IyasuI"/>, who himself seemed symphathetic to the doctrine, but when his son 
-                  <roleName type="title">ʾaṣe</roleName><persName ref="PRS9152TaklaHa"/>
+                  <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS9152TaklaHa"/>
                   refused to proclaim the Qǝbāt faith as a state doctrine, ʾƎleni with her nephew- in-law 
                   <persName ref="PRS9592Tulluu"/> started a conspiracy in <date>1706</date>. 
                   The result was fatal for them:
@@ -73,11 +82,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <persName ref="PRS9592Tulluu"/> was blinded and exiled to <placeName ref="LOC6569Tegray"/> 
                   and ʾƎleni was exiled to <placeName ref="LOC5897Tankal">, where she died. </placeName>
                      </floruit>
-           <death when="1708"/> 
+               <death when="1708"/> 
             </person>
             <listRelation>
-               <relation name="snap:DaughterOf" active="PRS3708eleni" passive="PRS10375Yohanne"/>
-               <relation name="snap:AllianceWith" active="PRS3708eleni" passive="PRS9592Tulluu"/>
+               <relation name="snap:DaughterOf"
+                         active="PRS3708eleni"
+                         passive="PRS10375Yohanne"/>
+               <relation name="snap:AllianceWith"
+                         active="PRS3708eleni"
+                         passive="PRS9592Tulluu"/>
                <relation name="snap:SisterOf" active="PRS3708eleni" passive="PRS5616IyasuI"/>
               
             </listRelation>
@@ -91,5 +104,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-               

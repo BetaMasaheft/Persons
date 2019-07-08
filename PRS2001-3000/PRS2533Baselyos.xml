@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS2533Baselyos">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Bāsǝlyos (Bāsǝlwos)</title>
@@ -32,11 +32,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -48,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-05-03">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -70,13 +78,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <floruit notBefore="1914" notAfter="1970">He was an outstanding church scholar, 
                      administrator and the first Ethiopian Patriarch. 
                      He was ordained priest in <date>1914</date>. 
-                     In <date>1934</date>, he was made <persName ref="PRS2533Baselyos"><roleName type="title">ʾǝč̣č̣age</roleName></persName>
+                     In <date>1934</date>, he was made <persName ref="PRS2533Baselyos">
+                     <roleName type="title">ʾǝč̣č̣age</roleName>
+                  </persName>
                      
                      becoming the 59th abbot of <placeName ref="INS0341DL"/>. 
                      During the Italian invasion he was in exile in <placeName ref="wd:Q1218"/> and 
                      later after the liberation he returned back to Ethiopia. In <date>1949</date>, he was consecrated as a bishop in <placeName ref="wd:Q87"/>.
                      In <date>1956</date>, following the death of <persName ref="PRS8033Qerellos"/> 
-                     <persName ref="PRS2533Baselyos"><roleName type="title">ʾabuna</roleName> 
+                     <persName ref="PRS2533Baselyos">
+                     <roleName type="title">ʾabuna</roleName> 
                         Bāsǝlyos </persName>
                      became the first Patriarch of the Ethiopian Orthodox Tawāḥǝdo Church. </floruit> 
                   

@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS2172AsterMa">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>ʾAster Mangašā</title>
@@ -33,11 +33,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -49,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-10-25">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="2">
@@ -74,16 +82,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                   <floruit notBefore="1918" notAfter="1936">She was a daughter of 
                      
-                     <persName ref="PRS6665Mangasa"><roleName type="title">rās</roleName></persName> <persName ref="PRS6665Mangasa"/> and a niece of <persName ref="PRS9345taytuBe"/>. 
+                     <persName ref="PRS6665Mangasa">
+                     <roleName type="title">rās</roleName>
+                  </persName> 
+                  <persName ref="PRS6665Mangasa"/> and a niece of <persName ref="PRS9345taytuBe"/>. 
                      She was an intelligent and well-educated woman, noted not least because of her three marriages. 
                      <persName ref="PRS9345taytuBe"/> arranged her marriage to 
                      <persName ref="PRS5620IyasuV"/> on <date>16 May 1909</date>.
                      Later, she was married also to 
-                     <persName ref="PRS4624Getaccaw"><roleName type="title">rās</roleName></persName> <persName ref="PRS4624Getaccaw"/> in<date>1918</date> with whom she had two childern. 
+                     <persName ref="PRS4624Getaccaw">
+                     <roleName type="title">rās</roleName>
+                  </persName> 
+                  <persName ref="PRS4624Getaccaw"/> in<date>1918</date> with whom she had two childern. 
                      After her divorce from <roleName type="title">rās</roleName>
                   <persName ref="PRS4624Getaccaw"/>, she married
                      
-                     <persName ref="PRS2194Assabber"><roleName type="title">bālāmbārās</roleName></persName><persName ref="PRS2194Assabber"/>.</floruit>
+                     <persName ref="PRS2194Assabber">
+                     <roleName type="title">bālāmbārās</roleName>
+                  </persName>
+                  <persName ref="PRS2194Assabber"/>.</floruit>
                   <death when="1936">
                   </death>
                   

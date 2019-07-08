@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS8265Sabagadi">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Sabāgādis (Subāgādis) Waldu</title>
@@ -32,11 +32,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -49,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change when="2019-03-15" who="ES">split names added place of birth</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sameAs="wd:Q7395817" sex="1">
@@ -73,7 +81,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <floruit notBefore="1822" notAfter="1833">He became the governor of
                   <placeName ref="LOC6569Tegray">Tǝgrāy</placeName>
                   succeeding
-                  <persName ref="PRS9978Waldase"><roleName type="title">rās </roleName>Walda Śǝllāse</persName> in <date> 1822</date>
+                  <persName ref="PRS9978Waldase">
+                     <roleName type="title">rās </roleName>Walda Śǝllāse</persName> in <date> 1822</date>
                  and he continued to rule until his death <date> 1831</date>.  </floruit>
                <death when="1831" evidence="internal">He died in the battle of <placeName ref="LOC2228DabraA"/>
                      fighting against his  principal foe <persName ref="PRS6728Mareyye">Mārǝyye Gugsā</persName>

@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS1777Alulaen">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>ʾAlulā ʾƎngǝdā</title>
@@ -33,11 +33,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -49,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-05-24">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -71,12 +79,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                <floruit notAfter="1870" notBefore="1897">He was one of the most important Ethiopian national heroes. 
                   He started as an aškar in the court of <persName ref="PRS2010Arayas"/>
-                  and was transferred to the service of <persName ref="PRS10378Yohanne"><roleName type="title">dāǧǧāzmāč</roleName>
+                  and was transferred to the service of <persName ref="PRS10378Yohanne">
+                     <roleName type="title">dāǧǧāzmāč</roleName>
                       Kāśā Mǝrč̣ā</persName> after 
                   <persName ref="PRS2010Arayas"/> was imprisoned by 
                   <persName ref="PRS9430Tewodros"/>. 
                   After Kāśā captured power as 
-                  <persName ref="PRS10378Yohanne"><roleName type="title">ʾaṣe</roleName> </persName>
+                  <persName ref="PRS10378Yohanne">
+                     <roleName type="title">ʾaṣe</roleName> 
+                  </persName>
                   he had become his favourite administrator and chief soldier.
                   He then started making his name as a brilliant military tactician in the battles 
                   of <placeName ref="LOC3655Gundat"/> in <date>1875</date> and <placeName ref="LOC3660Gura"/> in <date>1876</date> against the invading Egyptian expeditions. 

@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS2614BeelaK">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Bǝʿǝla Krǝstos</title>
@@ -32,11 +32,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -48,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-02-08">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -75,16 +83,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   during the reign of <persName ref="PRS10198Yaeqob">Yāʿqob</persName>.
                   He was loyal to the monarch and devoted
                   to  
-                  <persName ref="PRS2226Atnatewo"><roleName type="title">rās</roleName> ʾAtnātewos</persName> who was his relative and superior. 
+                  <persName ref="PRS2226Atnatewo">
+                     <roleName type="title">rās</roleName> ʾAtnātewos</persName> who was his relative and superior. 
                   After the death of <persName ref="PRS10198Yaeqob">Yāʿqob</persName>, 
                   he continued to serve loyally 
-                  <persName ref="PRS9038Susenyos"><roleName type="title">ʾaṣe</roleName> Susǝnyos</persName>. 
+                  <persName ref="PRS9038Susenyos">
+                     <roleName type="title">ʾaṣe</roleName> Susǝnyos</persName>. 
                   In <date>1629</date>, he became the governor of 
                   <placeName ref="LOC2639Dekana">Dǝḵānā</placeName>, 
                   then <placeName ref="LOC2488Damot">Dāmot</placeName> in <date>1632</date>. 
                   Later, <persName ref="PRS2614BeelaK">Bǝʿǝla Krǝstos</persName> served 
                 
-                  <persName ref="PRS4015Fasilada">  <roleName type="title">ʾaṣe</roleName> Fāsiladas</persName> as well until his death. </floruit>
+                  <persName ref="PRS4015Fasilada">  
+                     <roleName type="title">ʾaṣe</roleName> Fāsiladas</persName> as well until his death. </floruit>
                <death when="1650" cert="medium"/>
                   
                   

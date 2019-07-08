@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS9320Tawabacc">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Tawābačč ʾAli</title>
@@ -32,11 +32,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -48,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-02-01">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="2">
@@ -61,22 +69,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <occupation type="political">queen</occupation>
                
                <floruit notBefore="1845" notAfter="1858">She was the daughter of 
-                  <persName ref="PRS1688AliAlul"><roleName type="title">rās</roleName> ʾAli ʾAlulā</persName> 
+                  <persName ref="PRS1688AliAlul">
+                     <roleName type="title">rās</roleName> ʾAli ʾAlulā</persName> 
                   who became the first wife of <persName ref="PRS9430Tewodros">Tewodros II</persName> in <date>1845</date>.
                   It was a political marriage designed to curb <persName ref="PRS9430Tewodros">
                      Tewodros II</persName>'s ambition as his rise increasingly threatened the rule of  
                  
-                  <persName ref="PRS1688AliAlul"> <roleName type="title">rās</roleName> ʾAli ʾAlulā </persName>'s mother  
+                  <persName ref="PRS1688AliAlul"> 
+                     <roleName type="title">rās</roleName> ʾAli ʾAlulā </persName>'s mother  
                   <persName ref="PRS6643MananLi">Manan Liban  ʾAmade</persName> over 
                   <placeName ref="LOC2481Dambey">Dambǝyā</placeName> and the western Ethiopian borderlands. 
                
-                  <persName ref="PRS9430Tewodros">   <roleName type="title">ʾaṣe</roleName> Tewodros II</persName> 
+                  <persName ref="PRS9430Tewodros">   
+                     <roleName type="title">ʾaṣe</roleName> Tewodros II</persName> 
                   is said to have been remained faithful to <persName ref="PRS9320Tawabacc">Tawābačč ʾAli</persName>
                   during her lifetime and reluctant to remarry following her death. </floruit>
                <death when="1858"/>
             </person>  
             <listRelation>
-               <relation name="bm:wifeOf" active="PRS9320Tawabacc" passive="PRS9430Tewodros"/>
+               <relation name="betmas:wifeOf" active="PRS9320Tawabacc" passive="PRS9430Tewodros"/>
                
                <relation name="snap:DaughterOf"
                          active="PRS9320Tawabacc"

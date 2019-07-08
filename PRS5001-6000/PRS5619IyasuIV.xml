@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS5619IyasuIV">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>ʾIyāsu IV</title>
@@ -32,11 +32,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -49,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2016-08-28">Correction to transcription</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sameAs="wd:Q888079" sex="1">
@@ -69,7 +77,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <floruit when="1831" evidence="internal">He reigned only for the seven months, 
                   in the year of <date>1831</date>. 
                   He was a protégé of 
-                  <persName ref="PRS3617DoriGug"><roleName type="title">rās </roleName> Dori</persName> and finally leaving his office, 
+                  <persName ref="PRS3617DoriGug">
+                     <roleName type="title">rās </roleName> Dori</persName> and finally leaving his office, 
                   he retired to the monastery of <placeName ref="INS0316Waldb">Waldǝbbā</placeName> 
                  </floruit>
      

@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS9093TadlaGw">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Tadlā Gwālu</title>
@@ -34,11 +34,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -50,7 +58,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-10-23">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -75,10 +83,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
                   <persName ref="PRS9430Tewodros"/> until his death.
                   He assumed the position of <persName ref="PRS9093TadlaGw">
-                     <roleName type="title">daǧǧāzmāč</roleName></persName>
+                     <roleName type="title">daǧǧāzmāč</roleName>
+                  </persName>
                    basing himself at 
                   <placeName ref="LOC2307DabraM"/>. 
-                  <persName ref="PRS9430Tewodros"><roleName type="title">Emperor</roleName> 
+                  <persName ref="PRS9430Tewodros">
+                     <roleName type="title">Emperor</roleName> 
                      Tewodros II</persName> led repeated campaigns against Tadlā Gʷālu in 
                   <date>1857</date>, <date>1858</date> and later in <date>1863</date> 
                   when he inflicted heavy losses on the <placeName ref="LOC3549Gojjam"/> troops, but failed to capture him.</floruit>

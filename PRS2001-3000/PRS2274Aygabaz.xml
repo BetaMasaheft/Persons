@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS2274Aygabaz">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>ʾAygabaz</title>
@@ -32,11 +32,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -48,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-01-16">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -62,13 +70,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <nationality type="Ethiopia"/>
                <faith type="Orthodox"/>
                
-               <floruit when="1669">He was a dignitary of <persName ref="PRS5616IyasuI"><roleName type="title">ʾaṣe</roleName>
+               <floruit when="1669">He was a dignitary of <persName ref="PRS5616IyasuI">
+                     <roleName type="title">ʾaṣe</roleName>
                    
                    ʾIyāsu I</persName> with the title 
-                  <persName ref="PRS2274Aygabaz"><roleName type="title">ṭǝqāqqǝn blatten getā </roleName>
+                  <persName ref="PRS2274Aygabaz">
+                     <roleName type="title">ṭǝqāqqǝn blatten getā </roleName>
                   </persName>.
                   In this function, he together with <persName ref="PRS2274Aygabaz">
-                     <roleName type="title">blatten getā </roleName></persName>
+                     <roleName type="title">blatten getā </roleName>
+                  </persName>
                    
                   <persName ref="PRS4287GabraLe">Gabra Lǝʾul</persName>, 
                   undertook an expedition against <placeName ref="LOC1843BeniSa">Beni Šāngul</placeName>. 

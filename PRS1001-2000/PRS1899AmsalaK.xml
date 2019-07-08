@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS1899AmsalaK">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>ʾAmsāla Krǝstos</title>
@@ -30,11 +30,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -45,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="ES" when="2016-02-09">CREATED: place</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -60,13 +68,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <faith type="EOTC"/>
                   <occupation type="political">ruler</occupation>
                   
-               <floruit  notBefore="1610" notAfter="1632">He was the ruler of <placeName ref="LOC6569Tegray"/> appointed by 
-                  <persName ref="PRS9038Susenyos"/> in<date>1610</date></floruit>
+               <floruit notBefore="1610" notAfter="1632">He was the ruler of <placeName ref="LOC6569Tegray"/> appointed by 
+                  <persName ref="PRS9038Susenyos"/> in<date>1610</date>
+               </floruit>
                   
                   
                </person>
                <listRelation>
-                  <relation name="saws:isRelatedTo" active="PRS1899AmsalaK" passive="PRS9038Susenyos"/>    
+                  <relation name="saws:isRelatedTo"
+                         active="PRS1899AmsalaK"
+                         passive="PRS9038Susenyos"/>    
                </listRelation>
          </listPerson>
          <listBibl type="editions">
@@ -91,5 +102,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>   
 </TEI>
-
-               

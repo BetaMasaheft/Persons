@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS4015Fasilada">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Fāsiladas</title>
@@ -32,11 +32,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -51,7 +59,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-11-13">additions to bibliography</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1" sameAs="wd:Q642265">
@@ -77,10 +85,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <birth when="1603"/>
                <floruit notAfter="1632" notBefore="1667">He succeeded his father 
                 
-                  <persName ref="PRS9038Susenyos">  <roleName type="title">ʾaṣe</roleName> Susǝnyos</persName> in <date>1632</date>. 
+                  <persName ref="PRS9038Susenyos">  
+                     <roleName type="title">ʾaṣe</roleName> Susǝnyos</persName> in <date>1632</date>. 
                   He had grown up during the time of bitter religious controversy when his father 
                
-                  <persName ref="PRS9038Susenyos"> <roleName type="title">ʾaṣe</roleName> Susǝnyos</persName> helped the Jesuits for about 20 years
+                  <persName ref="PRS9038Susenyos"> 
+                     <roleName type="title">ʾaṣe</roleName> Susǝnyos</persName> helped the Jesuits for about 20 years
                   in an attempt to introduce Roman Catholicism. 
                   However, he restored Orthodoxy on <date>18 June 1632</date>, 
                   which had been denounced during the reign of his father in favour of Catholicism. 

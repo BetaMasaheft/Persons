@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS9239TanseT">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Tanśe (Tǝnsāʾe) Māmmo</title>
@@ -34,11 +34,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -50,7 +58,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-10-16">Complete record </change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -76,18 +84,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   led a revolt against <persName ref="PRS5617IyasuII"/>
                   and the <placeName ref="LOC5284Qwara"/> faction at court. 
                   He was one of
-                  <persName ref="PRS2377Bakaffa"> <roleName type="title">ʾaṣe</roleName>
+                  <persName ref="PRS2377Bakaffa"> 
+                     <roleName type="title">ʾaṣe</roleName>
                      Bakāffā</persName>'s favoured officials, 
-                  serving as <persName ref="PRS9239TanseT"><roleName type="title">bitwaddad</roleName>Tanśe Māmmo</persName>
+                  serving as <persName ref="PRS9239TanseT">
+                     <roleName type="title">bitwaddad</roleName>Tanśe Māmmo</persName>
                    in <date>1722</date> and as 
-                  <persName ref="PRS9239TanseT"><roleName type="title">daǧǧāzmāč
+                  <persName ref="PRS9239TanseT">
+                     <roleName type="title">daǧǧāzmāč
                   </roleName> Tanśe Māmmo </persName> and governor of <placeName ref="LOC2488Damot"/>. 
                   In <date>1731</date>, 
-                  <persName ref="PRS5617IyasuII"><roleName type="title">ʾaṣe</roleName> ʾIyāsu II</persName> 
-                  appointed him <persName ref="PRS9239TanseT"><roleName type="title">ʾazzāž</roleName> 
+                  <persName ref="PRS5617IyasuII">
+                     <roleName type="title">ʾaṣe</roleName> ʾIyāsu II</persName> 
+                  appointed him <persName ref="PRS9239TanseT">
+                     <roleName type="title">ʾazzāž</roleName> 
                      Tǝnsāʾe Māmmo</persName> of <placeName ref="LOC6376Yebaba"/>.
                   He was angered by the maneuvering at the court upon 
-                  <persName ref="PRS2377Bakaffa"><roleName type="title">ʾaṣe</roleName> Bakāffā</persName>'s death in which <persName ref="PRS2682BerhanM"/>, wife of <persName ref="PRS2377Bakaffa"/>, <persName ref="PRS5617IyasuII"/>'s mother, 
+                  <persName ref="PRS2377Bakaffa">
+                     <roleName type="title">ʾaṣe</roleName> Bakāffā</persName>'s death in which <persName ref="PRS2682BerhanM"/>, wife of <persName ref="PRS2377Bakaffa"/>, <persName ref="PRS5617IyasuII"/>'s mother, 
                   and her <placeName ref="LOC5284Qwara"/> n relatives hastily and secretly crowned <persName ref="PRS5617IyasuII"/>, seizing control of throne and state. 
                   The rebellion he led lasted from <date>19 December 1732</date> to <date>2 January 1733</date> and involved eight days of siege of the royal compound. 
                   Tanśe and his allied group were finally defeated by <placeName ref="LOC5284Qwara"/>'s forces. 

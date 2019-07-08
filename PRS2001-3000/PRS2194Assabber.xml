@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS2194Assabber">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Aššabbǝr Gabra Ḥǝywat</title>
@@ -32,11 +32,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -49,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -79,7 +87,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   He subsequently went to <placeName ref="wd:Q142"/> and then to 
                   <placeName ref="LOC5830Switze"/> where he studied law.
                   After the end of World War II he obtained some posts in the Ethiopian diplomatic services 
-                  and received the title <persName ref="PRS2194Assabber"><roleName type="title">bālāmbārās</roleName></persName>
+                  and received the title <persName ref="PRS2194Assabber">
+                     <roleName type="title">bālāmbārās</roleName>
+                  </persName>
                   . 
                
                   </floruit>

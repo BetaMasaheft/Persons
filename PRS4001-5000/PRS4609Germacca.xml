@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS4609Germacca">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Gǝrmāččaw Takla Ḥawāryāt</title>
@@ -32,11 +32,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -48,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-02-27">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -68,7 +76,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                <floruit notBefore="1941" notAfter="1974">He was a novelist, play writer and a prominent member of the government. 
                   His father 
-                  <persName ref="PRS9149Taklaha"><roleName type="title">baǧǝrond</roleName>  
+                  <persName ref="PRS9149Taklaha">
+                     <roleName type="title">baǧǝrond</roleName>  
                   </persName>  instilled in him the values of discipline, hard work and patriotism. 
                   He was fluent in French, received his Bachelor degree in <date>1935</date>. When <placeName ref="wd:Q38"/> 
                   occupied <placeName ref="wd:Q115"/>, in <date>1935</date> he fled to <placeName ref="wd:Q977"/>. In early <date>1937</date>,

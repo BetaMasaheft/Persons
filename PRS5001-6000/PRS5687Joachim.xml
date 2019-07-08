@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS5687Joachim">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Joachim</title>
@@ -30,11 +30,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -47,7 +55,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DR" when="2018-05-02">Added names and relation</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1" sameAs="wd:Q314700">
@@ -59,8 +67,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </person>
             <listRelation>
                <relation name="snap:FatherOf" active="PRS5687Joachim" passive="PRS6819Mary"/>
-               <relation name="bm:husbandOf" active="PRS5687Joachim" passive="PRS1948Anne"/>
-               <relation name="ecrm:P129i_is_subject_of" active="PRS5687Joachim" passive="LIT2375Synaxa"/>
+               <relation name="betmas:husbandOf" active="PRS5687Joachim" passive="PRS1948Anne"/>
+               <relation name="ecrm:P129i_is_subject_of"
+                         active="PRS5687Joachim"
+                         passive="LIT2375Synaxa"/>
             </listRelation>
          </listPerson>
       </body>

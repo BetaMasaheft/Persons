@@ -1,8 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12641Makonnan" xml:lang="en" type="pers">
-    <teiHeader>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="PRS12641Makonnan"
+     xml:lang="en"
+     type="pers">
+    <teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt>
                 <title>Makonnan</title>
@@ -26,7 +31,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </fileDesc>
         <encodingDesc>
             <p>A digital born TEI file</p>
-        </encodingDesc>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
         <profileDesc>
             <creation/>
             <abstract>
@@ -44,19 +55,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <change who="ES" when="2019-04-26">Created entity</change>
         </revisionDesc>
     </teiHeader>
-    <text>
+    <text xml:base="https://betamasaheft.eu/">
         <body>
             <listPerson>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">መኮነን፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Makonnan</persName>
-                    <persName><roleName type="rank">qaññ getā</roleName></persName>
+                    <persName>
+                  <roleName type="rank">qaññ getā</roleName>
+               </persName>
 
                     <faith type="EOTC"/>
                     <occupation type="military"/>
                     <nationality type="Ethiopia"/>
-                    <residence ref="LOC4932NaccSa"></residence>
-                    <residence ref="LOC6185Wallo"></residence>
+                    <residence ref="LOC4932NaccSa"/>
+                    <residence ref="LOC6185Wallo"/>
                     
                     <birth/>
                     <death notBefore="1910"/>
@@ -66,7 +79,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <relation name="saws:isCopierOf" active="PRS12641Makonnan" passive="ESamm013"/>
                     <relation name="saws:isCopierOf" active="PRS12641Makonnan" passive="ESdd004"/>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
+         <!---->
         </body>
     </text>
 </TEI>

@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS8278SablaWa">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Sabla Wangel</title>
@@ -32,11 +32,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -50,7 +58,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2016-12-07">some corrections</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="2">
@@ -84,11 +92,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="snap:MotherOf"
                          active="PRS8278SablaWa"
                          passive="PRS5616IyasuI"/>
-               <relation name="bm:wifeOf" active="PRS8278SablaWa" passive="PRS10375Yohanne"/>
+               <relation name="betmas:wifeOf" active="PRS8278SablaWa" passive="PRS10375Yohanne"/>
                <relation name="snap:DaughterOf"
                          active="PRS8278SablaWa"
                          passive="PRS4325GabraMa"/>
-               <relation name="bm:isAuthorOfEthiopicTranslation"
+               <relation name="betmas:isAuthorOfEthiopicTranslation"
                          active="PRS8278SablaWa"
                          passive="LIT4017Mashafa"/>
               <relation name="snap:AllianceWith"

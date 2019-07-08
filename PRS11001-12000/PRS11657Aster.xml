@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      xml:id="PRS11657Aster"
      xml:lang="en"
      type="pers">
-    <teiHeader>
+    <teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt>
                 <title>ʾAster</title>
@@ -31,7 +31,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </fileDesc>
         <encodingDesc>
             <p>A digital born TEI file</p>
-        </encodingDesc>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
         <profileDesc>
             <creation/>
             <abstract>
@@ -49,7 +55,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <change who="SG" when="2017-05-23">Created entity</change>
         </revisionDesc>
     </teiHeader>
-    <text>
+    <text xml:base="https://betamasaheft.eu/">
         <body>
             <listPerson>
                 <person sex="2">
@@ -66,7 +72,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     
                 </person>
                 <listRelation>
-                    <relation name="bm:wifeOf" active="PRS11657Aster" passive="PRS10441Yonas"/>
+                    <relation name="betmas:wifeOf" active="PRS11657Aster" passive="PRS10441Yonas"/>
                     
                       </listRelation>
             </listPerson>

@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS4436Galawdew">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Galāwdewos</title>
@@ -32,11 +32,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -49,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-05-22">Correction</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -63,9 +71,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <occupation type="political">ʾalaqǝnnat</occupation>
             
                    <floruit when="1706">He was the son of 
-                      <persName ref="PRS9900WaldaGi"><roleName type="title">rās</roleName> Walda Giyorgis</persName>,  
+                      <persName ref="PRS9900WaldaGi">
+                     <roleName type="title">rās</roleName> Walda Giyorgis</persName>,  
                       a prominent figure at the court of 
-                      <persName ref="PRS5616IyasuI"><roleName type="title">ʾaṣe </roleName>  ʾIyāsu I</persName> of <placeName ref="LOC3577Gondar">Gondar</placeName>. 
+                      <persName ref="PRS5616IyasuI">
+                     <roleName type="title">ʾaṣe </roleName>  ʾIyāsu I</persName> of <placeName ref="LOC3577Gondar">Gondar</placeName>. 
                   His father <persName ref="PRS9900WaldaGi">Walda Giyorgis</persName> 
                       appointed  him as his heir in <date>1706</date>. </floruit>
                   
@@ -75,7 +85,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <relation name="snap:FatherOf"
                          active="PRS4436Galawdew"
                          passive="PRS9902WaldaGi"/>
-                  <relation name="bm:husbandOf"
+                  <relation name="betmas:husbandOf"
                          active="PRS4436Galawdew"
                          passive="PRS9860Walatta"/>
              </listRelation>

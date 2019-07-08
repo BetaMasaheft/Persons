@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS7481NaodA">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Nāʿod (ʾAnbasā Baḍar)</title>
@@ -32,11 +32,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -48,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-01-27">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sameAs="wd:Q324688" sex="1">
@@ -67,7 +75,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
                <floruit when="1494" evidence="internal">He succeeded
                   his brother
-                  <persName ref="PRS3874eskender"><roleName type="title">ʾaṣe</roleName> ʾƎskǝndǝr</persName> in<date>1494</date>.
+                  <persName ref="PRS3874eskender">
+                     <roleName type="title">ʾaṣe</roleName> ʾƎskǝndǝr</persName> in<date>1494</date>.
                         </floruit>
                <death when="1508" evidence="internal">He died in <date>1508</date> during a military expedition against
                   Muslims  in  <placeName ref="LOC3921Ifat">Ifāt</placeName> in <date>1508</date>.</death>

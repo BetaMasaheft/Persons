@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS5916KeflaWa">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Kǝfla Wāḥǝd</title>
@@ -30,11 +30,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -46,7 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2018-03-15">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -60,7 +68,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <roleName type="title">daǧǧāzmāč</roleName>
                </persName>
                <nationality type="Ethiopia"/>
-               <birth when="1560"></birth>
+               <birth when="1560"/>
                <faith type="EOTC"/>
                
                
@@ -74,18 +82,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   During the <date>1597</date> power  struggle, which followed the death of <persName ref="PRS8550sardaDe">Śarḍa Dǝngǝl</persName>
                   Kǝfla Wāḥǝd
                      sided with the party that successfuly supported the claim to the throne of 
-                  <persName ref="PRS8550sardaDe"><roleName type="title">ʾaṣe</roleName>Śarḍa Dǝngǝl</persName> 's minor son <persName ref="PRS10198Yaeqob">
+                  <persName ref="PRS8550sardaDe">
+                     <roleName type="title">ʾaṣe</roleName>Śarḍa Dǝngǝl</persName> 's minor son <persName ref="PRS10198Yaeqob">
                            <roleName type="title">ʾaṣe</roleName> Yāʿqob </persName>.
                </floruit>
-              <death notBefore="1607" notAfter="1608"></death>
+              <death notBefore="1607" notAfter="1608"/>
             </person>
             <listRelation>
                <relation name="snap:SonOf" active="PRS5916KeflaWa" passive="PRS3277Dabrase"/>
-               <relation name="bm:husbandOf" active="PRS5916KeflaWa" passive="PRS6082Krestosa">
+               <relation name="betmas:husbandOf"
+                         active="PRS5916KeflaWa"
+                         passive="PRS6082Krestosa">
                   
                </relation>
-               <relation name="snap:AllianceWith" active="PRS5916KeflaWa"
-                  passive="PRS10198Yaeqob"/>
+               <relation name="snap:AllianceWith"
+                         active="PRS5916KeflaWa"
+                         passive="PRS10198Yaeqob"/>
                
                
             </listRelation>

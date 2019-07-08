@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS1283Abre">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>ʾAbre</title>
@@ -32,11 +32,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -48,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-02-07">complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -68,18 +76,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          
                <floruit notBefore="1696" notAfter="1712">He was a dignitary at 
                   the court of 
-                  <persName ref="PRS5616IyasuI"><roleName type="title">ʾaṣe </roleName>
+                  <persName ref="PRS5616IyasuI">
+                     <roleName type="title">ʾaṣe </roleName>
                      ʾIyāsu the Great</persName> during the period between <date>1696-1712</date>. 
                   He belonged to the royal army, fulfilling the function of <persName ref="PRS1283Abre">
-                     <roleName type="title">fitāwrāri</roleName></persName>
+                     <roleName type="title">fitāwrāri</roleName>
+                  </persName>
                    in <date>1699</date>
                   and then he was introduced into the circle revolving around the royal persons. 
                   He supported the coming to power of 
-                  <persName ref="PRS5616IyasuI"><roleName type="title">ʾaṣe </roleName>
+                  <persName ref="PRS5616IyasuI">
+                     <roleName type="title">ʾaṣe </roleName>
                      ʾIyāsu the Great</persName>'s son 
-                  <persName ref="PRS9152TaklaHa"><roleName type="title">ʾaṣe </roleName>
+                  <persName ref="PRS9152TaklaHa">
+                     <roleName type="title">ʾaṣe </roleName>
                      Takla Hāymānot I</persName>. He openly conspired against 
-                  <persName ref="PRS10473Yostos"><roleName type="title">ʾaṣe </roleName>
+                  <persName ref="PRS10473Yostos">
+                     <roleName type="title">ʾaṣe </roleName>
                      Yosṭos</persName> in around <date>1712</date> and was imprisoned. </floruit>
           
                

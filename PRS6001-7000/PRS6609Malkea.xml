@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS6609Malkea">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Malkǝʾa Krǝstos </title>
@@ -32,11 +32,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -48,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2016-11-03">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -63,21 +71,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                    
                <floruit> He was a prominent 17th century nobleman and high ranking officer 
                   of 
-                  <persName ref="PRS9038Susenyos"><roleName type="title">ʾaṣe</roleName> Susǝnyos</persName>. 
+                  <persName ref="PRS9038Susenyos">
+                     <roleName type="title">ʾaṣe</roleName> Susǝnyos</persName>. 
                   He was the husband of 
-                  <persName ref="PRS9848Walatta"><roleName type="title">ʾƎmmat</roleName> Walatta Ṗeṭros</persName> from whom he had three children. 
+                  <persName ref="PRS9848Walatta">
+                     <roleName type="title">ʾƎmmat</roleName> Walatta Ṗeṭros</persName> from whom he had three children. 
                   He was very loyal to  
-                  <persName ref="PRS9038Susenyos"><roleName type="title">ʾaṣe</roleName> Susǝnyos</persName> despite the king's  inclination to Catholicism. He was
+                  <persName ref="PRS9038Susenyos">
+                     <roleName type="title">ʾaṣe</roleName> Susǝnyos</persName> despite the king's  inclination to Catholicism. He was
                   involved in many anti-Catholic rebels assisting the king <!--this is not clear--> but
                   in the final years of 
-                  <persName ref="PRS9038Susenyos"><roleName type="title">ʾaṣe</roleName> Susǝnyos</persName>, 
+                  <persName ref="PRS9038Susenyos">
+                     <roleName type="title">ʾaṣe</roleName> Susǝnyos</persName>, 
                   <persName ref="PRS6609Malkea">Malkǝʾa Krǝstos</persName> was in tension with the king and in <date>1632 </date> he avoided campaigning against the rebels. 
                   Finally, he was arrested, accused of treason and sentenced to death which was substituted by exile.</floruit>
                <death when="1633">He died in the second year of 
-                  <persName ref="PRS4015Fasilada"> <roleName type="title">ʾaṣe</roleName> Fāsiladas</persName>.</death>
+                  <persName ref="PRS4015Fasilada"> 
+                     <roleName type="title">ʾaṣe</roleName> Fāsiladas</persName>.</death>
                </person>
                <listRelation>
-                  <relation name="bm:husbandOf" active="PRS6609Malkea" passive="PRS9848Walatta"/>
+                  <relation name="betmas:husbandOf" active="PRS6609Malkea" passive="PRS9848Walatta"/>
                   <relation name="snap:BrotherOf"
                          active="PRS6609Malkea"
                          passive="PRS9038Susenyos"/>

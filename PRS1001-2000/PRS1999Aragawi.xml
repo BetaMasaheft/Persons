@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS1999Aragawi">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>ʾAragāwi Sabagādis</title>
@@ -34,11 +34,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -50,7 +58,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-09-19">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -66,13 +74,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                
                <floruit notBefore="1831" notAfter="1873">He was a son of 
-                  <persName ref="PRS8265Sabagadi"><roleName type="title">daǧǧāzmāč</roleName> </persName>. 
+                  <persName ref="PRS8265Sabagadi">
+                     <roleName type="title">daǧǧāzmāč</roleName> 
+                  </persName>. 
                   ʾAragāwi Sabagādis inherited claims to the governorship of 
                   <placeName ref="LOC6569Tegray"/> after the defeat and death of his father in<date>1831</date>, 
                   but was only able to establish himself in <placeName ref="LOC1236Agama"/>,
                   which he held as his own against <persName ref="PRS8265Sabagadi"/> successor
                   
-                  <persName ref="PRS10102Webeha"><roleName type="title">daǧǧāzmāč</roleName> </persName> in the <date>1840</date>'s and <date>1850</date>'s. 
+                  <persName ref="PRS10102Webeha">
+                     <roleName type="title">daǧǧāzmāč</roleName> 
+                  </persName> in the <date>1840</date>'s and <date>1850</date>'s. 
                   ʾAragāwi Sabagādis was a strong opponent
                   of the early Catholic missionaries, but eventually developed friendly relations with them and with the French counsul at <placeName ref="LOC4631Massaw"/>             
                </floruit>

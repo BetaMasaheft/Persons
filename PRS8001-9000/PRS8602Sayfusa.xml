@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS8602Sayfusa">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Sayfu Śahla Śǝllāse</title>
@@ -32,11 +32,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -48,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-02-07">complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
@@ -69,11 +77,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <birth notBefore="1828" notAfter="1829"/>
                <floruit notBefore="1840" notAfter="1860">He was 
                   the son of 
-                  <persName ref="PRS8346sahlase"><roleName type="title">nǝguś</roleName> Śahla Śǝllāse</persName> of <placeName ref="LOC5597Sawa">Šawā</placeName>
+                  <persName ref="PRS8346sahlase">
+                     <roleName type="title">nǝguś</roleName> Śahla Śǝllāse</persName> of <placeName ref="LOC5597Sawa">Šawā</placeName>
                   and his wife <persName ref="PRS11429Bazzabbe">Bazzabbǝš Daǧan</persName>.
                   He was the governor of <placeName ref="LOC4578Marhab">Marḥābete</placeName> and <placeName ref="LOC5482Salale">Salāle</placeName> 
                   throughout <date>1840</date>s and <date>1850</date>s. <persName ref="PRS8602Sayfusa">Sayfu Śahla Śǝllāse</persName> was an ardent opponent  
-                  to                  <persName ref="PRS9430Tewodros"><roleName type="title">ʾaṣe</roleName>
+                  to                  <persName ref="PRS9430Tewodros">
+                     <roleName type="title">ʾaṣe</roleName>
                       Tewodros II</persName> 
                   who offered a strong resistance for several days but was eventually defeated and had to flee. Some time later,
                   <persName ref="PRS8602Sayfusa">Sayfu Śahla Śǝllāse</persName> tried to regain control over  

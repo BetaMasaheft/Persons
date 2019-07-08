@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="pers"
      xml:lang="en"
      xml:id="PRS6378Ludolf">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Ludolf</title>
@@ -31,11 +31,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -48,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DR" when="2017-05-30">Additions</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1" sameAs="wd:Q66475">
@@ -69,7 +77,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <persName ref="PRS6378Ludolf"/> was the founder of Ethiopian studies in Europe. He studied medicine, law and Oriental languages at Erfurt and then at Leiden,
                   and subsequently travelled widely across Europe. In <date>1649</date> he travelled to <placeName ref="wd:Q220">Rome</placeName> 
                   at the bequest of <persName ref="PRS3110Christin"/>, where he came into contact with the Ethiopian monks 
-                  living at <placeName ref="INS0302SanStefano"/>. One of them, <persName ref="PRS4767Gorgoryo"><roleName type="title">ʾabbā</roleName> </persName>
+                  living at <placeName ref="INS0302SanStefano"/>. One of them, <persName ref="PRS4767Gorgoryo">
+                     <roleName type="title">ʾabbā</roleName> 
+                  </persName>
                   <persName ref="PRS4767Gorgoryo"/>, became Ludolf's teacher and main informant.
                   After returning to Erfurt, <persName ref="PRS6378Ludolf"/> entered in <date>1652</date> the service of <persName ref="PRS3841ErnstI"/>, who suggested to invite <persName ref="PRS4767Gorgoryo"/> to his castle. During this stay, 
                   <persName ref="PRS6378Ludolf"/> worked on his Gǝʿǝz and Amharic dictionaries, and later would use recordings of their conversations for his historical and theological works. Beside his political activities as 
@@ -128,9 +138,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </bibl>
             </listBibl>
             <listRelation>
-               <relation name="bm:husbandOf" active="PRS6378Ludolf" passive="PRS3570Dimpler"/>
-               <relation name="bm:husbandOf" active="PRS6378Ludolf" passive="PRS7358Mueller"/>
-               <relation name="bm:husbandOf" active="PRS6378Ludolf" passive="PRS6270Lersner"/>
+               <relation name="betmas:husbandOf" active="PRS6378Ludolf" passive="PRS3570Dimpler"/>
+               <relation name="betmas:husbandOf" active="PRS6378Ludolf" passive="PRS7358Mueller"/>
+               <relation name="betmas:husbandOf" active="PRS6378Ludolf" passive="PRS6270Lersner"/>
                <relation name="snap:FriendshipFor"
                          active="PRS6378Ludolf"
                          passive="PRS4767Gorgoryo"/>
