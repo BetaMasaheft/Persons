@@ -58,13 +58,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text xml:base="https://betamasaheft.eu/">
         <body>
             <listPerson>
-                <person sex="2">
+                <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">አትናቴዎስ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAtnātewos</persName>
                     <faith type="EOTC"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
                 </person>
                 <listRelation>
                <relation name="saws:hasOwned"
@@ -72,7 +69,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          passive="BLorient694"/>
             </listRelation>
             </listPerson>
-         <!---->
         </body>
     </text>
 </TEI>
