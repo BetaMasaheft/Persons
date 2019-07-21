@@ -58,7 +58,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName xml:lang="gez" type="regnal" xml:id="n1">ክፍለ፡ ማርያም፡</persName>
+               <persName xml:lang="gez" type="birth" xml:id="n1">ክፍለ፡ ማርያም፡</persName>
                <persName xml:lang="gez" type="normalized" corresp="#n1">Kǝfla Māryām</persName>
                <persName> 
                   <roleName type="title">ʾabetohun</roleName> 
@@ -66,11 +66,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          
       
                
-               <occupation type="political">queen</occupation>
+               <occupation type="political">prince</occupation>
+               
        
-               <floruit notBefore="1563" notAfter="1607">
-                  </floruit>
-               <death when="1607" evidence="internal">ʾAdmās Mogasā died during the reign of her son, <persName ref="PRS8550sardaDe">Śarḍa Dǝngǝl</persName>.</death>
+               
+               <death when="1607" evidence="internal"></death>
+               
                
             </person> 
             
