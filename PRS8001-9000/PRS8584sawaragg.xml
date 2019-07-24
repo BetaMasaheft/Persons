@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Šäwaräggäd Gädle</title>
+            <title>Šawāraggad Gadle</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -51,17 +51,39 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="ABr" when="2019-07-24">Updated with the information from the EAE</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="2">
-               <persName>
+               <persName xml:lang="gez" xml:id="n1">ሸዋረገድ፡ ገድለ</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">
                   
-                  Šäwaräggäd Gädle
+                  Šawāraggad Gadle
                </persName>
-               <occupation> patriot </occupation>
+              
+               <birth notBefore="1885" notAfter="1886"> she was born in <placeName ref="LOC2246DabraB"> </placeName> to a noted Šawān family, her father was a daǧǧāzmāč </birth>
+               <death when="1949-11"> she died in <placeName ref= "LOC4244Laliba"></placeName></death>
+               <residence>
+                  <placeName ref="LOC1216AddisA"> she grew up there </placeName>
+                  <placeName ref="LOC5126Qabann"> place of her father residence </placeName>
+                  <placeName ref="LOC1218AddisA"> location of her father's estate, where she moved after the death of her husband</placeName>
+               </residence>
+               <occupation type="political"> anti-Italian resistance fighter </occupation>
+               <listRelation>
+                  <relation name="snap:DaughterOf" active="PRS8584sawaragg" passive="PRS4404Gadle"></relation>
+                  <relation name="betmas:wifeOf" active="PRS8584sawaragg" passive="PRS3273Dabbocc"></relation>
+               </listRelation>
+               <floruit>
+                  <placeName ref="INS0341DL"> she pilgrimaged to </placeName>
+                  <placeName ref="wd:Q1218"> she pilgrimaged to </placeName>
+                  <date from="1935" to="1936"> she became the organizer and the vice-president of the Ethiopian Women Association and ecouraged women to join the Ethiopian Red Cross </date>
+                  <date from="1936" to="1941"> she was actively involved in propaganda, provision of supplies, intelligence work and armed struggle </date>
+                  <date when="1936-07"> she played an active role in the Šawān patriot's unsuccessful attempt to liberate Addis Ababa </date>
+                  <date when="1937-02">after the attack on <persName ref="wd:Q319156"></persName> she was captured and exiled to <placeName ref="wd:Q38"></placeName> where she lived as political prisoner on <placeName ref="wd:Q730500"></placeName> and later on <placeName ref="wd:Q30029056"></placeName> </date>
+               </floruit>
             </person>
          </listPerson>
       </body>
