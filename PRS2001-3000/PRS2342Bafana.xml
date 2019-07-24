@@ -47,6 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change who="LM" when="2019-07-24">updated nationality,date and place of death.</change>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
@@ -57,11 +58,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="2">
-               <persName>
+               <persName xml:lang="gez" xml:id="n1">Bafäna</persName>
                   
-                  Bafäna
-               </persName>
-               <occupation> wäyz. </occupation>
+        
+              
+               <nationality type=" Ethiopia post-Aksumite">Christian Ethiopia</nationality>
+               <death when="1900">He died at <placeName ref="LOC2296"></placeName>. </death>
+              <occupation type="political">Queen</occupation>
             </person>
          </listPerson>
       </body>
