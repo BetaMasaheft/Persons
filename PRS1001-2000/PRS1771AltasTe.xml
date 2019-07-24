@@ -51,6 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SSe" when="2019-07-24">inserted relation and other person data</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -61,8 +62,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                   Alṭaš Tewodros
                </persName>
-               <occupation> wäyz. </occupation>
+               <persName xml:lang="gez" xml:id="n1">አልጣሽ፣ ቴዎድሮስ</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Alṭaš Tewodros</persName>
+
+               <occupation type="other"> wäyz. </occupation>
+               <birth when="1848" cert="medium"></birth>
+         <floruit notBefore="1865" notAfter="1893">Married to Mənilək and left behind by him in Šäwa in June 1865. Then married to ras Baryaʾu Qawlos of Šire who governed Təgray from 1863-68</floruit>
+               <death when="1893" cert="medium"></death>
+        
             </person>
+            <listRelation>
+               
+               <relation name="snap:DaughterOf" active="PRS1771AltasTe" passive="PRS9430Tewodros"></relation>
+               <relation name="betmas:wifeOf" active="PRS1771AltasTe" passive="PRS7006Menilek"/> 
+                  <relation name="betmas:wifeOf" active="PRS1771AltasTe" passive="PRS2520Baryau"/>
+               <relation name="snap:GrandmotherOf" active="PRS1771AltasTe" passive="PRS6662Mangasa"/>
+            
+            </listRelation>
+         
+            
          </listPerson>
       </body>
    </text>
