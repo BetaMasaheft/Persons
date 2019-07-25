@@ -52,6 +52,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="ABr" when="2019-07-24">Updated with the information from the EAE</change>
+         <change who="ABr" when="2019-07-25">Restructuring of the text </change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -64,23 +65,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   Šawāraggad Gadle
                </persName>
               
-               <birth notBefore="1885" notAfter="1886"> she was born in <placeName ref="LOC2246DabraB"> </placeName> to a noted Šawān family, her father was a daǧǧāzmāč </birth>
-               <death when="1949-11"> she died in <placeName ref= "LOC4244Laliba"></placeName> and was buried in <placeName ref="INS0341DL"></placeName></death>
+               <birth notBefore="1885" notAfter="1886"> She was born in <placeName ref="LOC2246DabraB"></placeName> to a noted Šawān family, her father was a daǧǧāzmāč.</birth>
+               <death when="1949-11"> She died in <placeName ref= "LOC4244Laliba"></placeName> and was buried in <placeName ref="INS0341DL"></placeName></death>
                <residence>
-                  <placeName ref="LOC1216AddisA"> she grew up there </placeName>
-                  <placeName ref="LOC5126Qabann"> place of her father residence </placeName>
-                  <placeName ref="LOC1218AddisA"> location of her father's estate, where she moved after the death of her husband</placeName>
+                 She grew up in <placeName ref="LOC1216AddisA"></placeName> and received a traditional church education in her father's residence at
+                  <placeName ref="LOC5126Qabann"></placeName>.
+                  After the death of her husband she moved to her father's estate in <placeName ref="LOC1218AddisA"></placeName>.
                </residence>
-               <occupation type="political"> anti-Italian resistance fighter </occupation>
+               <occupation type="political"> Anti-Italian resistance fighter </occupation>
                <faith type="EOTC"></faith>
                <listRelation>
                   <relation name="snap:DaughterOf" active="PRS8584sawaragg" passive="PRS4404Gadle"></relation>
                   <relation name="betmas:wifeOf" active="PRS8584sawaragg" passive="PRS3273Dabbocc"></relation>
                </listRelation>
                <floruit>
-                  <placeName ref="INS0341DL"> she pilgrimaged to </placeName>
-                  <placeName ref="wd:Q1218"> she pilgrimaged to </placeName>
-                  <date from="1935" to="1936"> she became the organizer and the vice-president of the Ethiopian Women Association and ecouraged women to join the Ethiopian Red Cross </date>
+                  She made a pilgrimage to <placeName ref="INS0341DL"></placeName> and to <placeName ref="wd:Q1218"></placeName>.
+                  In <date from="1935" to="1936"> she became the organizer and the vice-president of the Ethiopian Women Association and ecouraged women to join the Ethiopian Red Cross. </date>
                   <date from="1936" to="1941"> she was actively involved in propaganda, provision of supplies, intelligence work and armed struggle </date>
                   <date when="1936-07"> she played an active role in the Šawān patriot's unsuccessful attempt to liberate Addis Ababa </date>
                   <date when="1937-02">after the attack on <persName ref="wd:Q319156"></persName> she was captured and exiled to <placeName ref="wd:Q38"></placeName> where she lived as political prisoner on <placeName ref="wd:Q730500"></placeName> and later on <placeName ref="wd:Q30029056"></placeName> </date>
