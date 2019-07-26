@@ -34,10 +34,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </abstract>
             <langUsage>
                 <language ident="en">English</language>
-                <language ident="ar">Arabic</language>
-                <language ident="it">Italian</language>
-                <language ident="am">Amharic</language>
-                <language ident="gez">Gǝʿǝz</language>
+                <language ident="de">German</language>
             </langUsage>
         </profileDesc>
         <revisionDesc>
@@ -49,7 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPerson>
                 <person sex="2">
                     <persName xml:lang="de" xml:id="n1">
-                        <roleName>Dr</roleName>
+                        <roleName type="title">Dr</roleName>
                         <surname>Omansen</surname>
                         <forename>Eva</forename>
                     </persName>
@@ -57,8 +54,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <nationality type="Germany"/>
                     <birth>1917-02-19</birth>
                     <death>1990-03-06</death>
-                    <floruit>Dr Eva Omansen worked at the Ḫayla Śǝllāse I Hospital in <placeName ref="LOC1216AddisA"/> in <date>1963-1975</date>. During her stay in
-                    Ethiopia, she acquired a small manuscript collection of psalters and scrolls.</floruit>
+                    <floruit>Dr Eva Omansen worked at the Ḫayla Śǝllāse I Hospital in <placeName ref="LOC1216AddisA"/> in <date>1963-1974</date>. During her stay in
+                        Ethiopia, she acquired a small manuscript collection of psalters and scrolls, see <ref type="ins" corresp="INS0904TF"/>.</floruit>
                 </person>
                 <listRelation>
                     <relation name="saws:hasOwned" active="PRS12742Omansen" passive="TF001"/>
