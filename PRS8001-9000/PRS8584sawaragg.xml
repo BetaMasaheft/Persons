@@ -3,36 +3,32 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="pers"
-     xml:lang="en"
-     xml:id="PRS8584sawaragg">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS8584sawaragg">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Šäwaräggäd Gädle</title>
+            <title>Šawāraggad Gadle</title>
             <author/>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
-            <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+               Forschungsumgebung / Beta maṣāḥǝft</publisher>
             <pubPlace>Hamburg</pubPlace>
             <availability>
-               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
-                This file is licensed under the Creative Commons
-                Attribution-ShareAlike 4.0. </licence>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
             </availability>
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
             <p>Prosopography of Ethiopian Written tradition</p>
-            <p>A TEI file converted from the ETHIO-authority
-                                                  google spreadsheet</p>
+            <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
             <xi:fallback>
                <p>Definitions of prefixes used.</p>
             </xi:fallback>
@@ -47,21 +43,62 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
-         <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
+         <change who="PL" when="2016-04-28">batch updated according to requirements and
+            issues.</change>
+         <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="ABr" when="2019-07-24">Updated with the information from the EAE</change>
+         <change who="ABr" when="2019-07-25">Restructuring of the text </change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="2">
-               <persName>
-                  
-                  Šäwaräggäd Gädle
-               </persName>
-               <occupation> patriot </occupation>
+               <persName xml:lang="gez" xml:id="n1">ሸዋረገድ፡ ገድለ</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1"> Šawāraggad Gadle </persName>
+
+               <birth notBefore="1885" notAfter="1886"> She was born in <placeName
+                     ref="LOC2246DabraB"/> to a noted Šawān family, her father was a
+                  daǧǧāzmāč.</birth>
+               <death when="1949-11"> She died in <placeName ref="LOC4244Laliba"/> and was buried in
+                     <placeName ref="INS0341DL"/></death>
+               <residence> She grew up in <placeName ref="LOC1216AddisA"/> and received a
+                  traditional church education in her father's residence at <placeName
+                     ref="LOC5126Qabann"/>. After the death of her husband she moved to her father's
+                  estate in <placeName ref="LOC1218AddisA"/>. </residence>
+               <occupation type="political"> Anti-Italian resistance fighter </occupation>
+               <faith type="EOTC"/>
+               <listRelation>
+                  <relation name="snap:DaughterOf" active="PRS8584sawaragg" passive="PRS4404Gadle"/>
+                  <relation name="betmas:wifeOf" active="PRS8584sawaragg" passive="PRS3273Dabbocc"/>
+               </listRelation>
+               <floruit> She made a pilgrimage to <placeName ref="INS0341DL"/> and to <placeName
+                     ref="wd:Q1218"/>. In <date from="1935" to="1936"> 1935-36 </date> she became the
+                  organizer and the vice-president of the Ethiopian Women Association and ecouraged
+                  women to join the Ethiopian Red Cross. In the years <date from="1936" to="1941"> 1936-1941</date> she was
+                     actively involved in propaganda, provision of supplies, intelligence work and
+                     armed struggle.
+                  In <date when="1936-07"> July 1936 </date> she played an active role in the Šawān patriot's
+                     unsuccessful attempt to liberate Addis Ababa. 
+                  In <date when="1937-02"> February 1937, </date> after the attack on <persName ref="wd:Q319156"/>, she was
+                     captured and exiled to <placeName ref="wd:Q38"/>, where she lived as political
+                  prisoner on <placeName ref="wd:Q730500"/> and later on <placeName
+                        ref="wd:Q30029056"/>.                 
+                  In <date when="1939"> 1939 </date> she was repatriated and resumed her underground work under the
+                     pseudonym of <persName ref="PRS9234Tananna"/>.                  
+                  In <date when="1940"> 1940 </date> she managed to establish a secret connection between <persName
+                        ref="PRS6635Mammoha"/> and <persName ref="PRS4303GabraMa"/>. This
+                     operation led to the elimination of documents related to targeted places and
+                     persons. In the same year <date when="1940"></date>, she played an important role in the storming and fall of the
+                     Italian military forts at <placeName ref="LOC3210JalduM"/> and <placeName
+                        ref="LOC1218AddisA"/>. She was captured by the Italians in the camp of <persName ref="PRS4511GarasuD"/>, imprisoned and senteced to death, but then released by the British forces. In <date when="1949"> 1949 </date> she pilgrimaged to <placeName
+                        ref="LOC1391AmbaGe"></placeName> and to <placeName ref="LOC4244Laliba"></placeName>, where she
+                           died.
+                           Š.G. is remembered as an example of genuine patriotism. The writers of her time referred to her as the "Ethiopian Joan of Arc" and the "Lion-Hearted Woman" of <placeName
+                     ref="wd:Q115"/>. <date notBefore="1941"></date> she was honoured by <persName ref="PRS5226haylase"/>.
+                  A street in <placeName ref="wd:Q3624"/> bears her name.
+               </floruit>
             </person>
          </listPerson>
       </body>

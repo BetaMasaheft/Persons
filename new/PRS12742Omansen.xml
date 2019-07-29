@@ -1,0 +1,70 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12742Omansen" xml:lang="en" type="pers">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Eva Omansen</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="DR"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">German</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="DR" when="2019-07-26">Created entity</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person sex="2">
+                    <persName xml:lang="de" xml:id="n1">
+                        <roleName type="title">Dr</roleName>
+                        <surname>Omansen</surname>
+                        <forename>Eva</forename>
+                    </persName>
+                    <occupation type="medical"/>
+                    <nationality type="Germany"/>
+                    <birth>1917-02-19</birth>
+                    <death>1990-03-06</death>
+                    <floruit>Dr Eva Omansen worked at the Ḫayla Śǝllāse I Hospital in <placeName ref="LOC1216AddisA"/> in <date>1963-1974</date>. During her stay in
+                        Ethiopia, she acquired a small manuscript collection of psalters and scrolls, see <ref type="ins" corresp="INS0904TF"/>.</floruit>
+                </person>
+                <listRelation>
+                    <relation name="saws:hasOwned" active="PRS12742Omansen" passive="TF001"/>
+                    <relation name="saws:hasOwned" active="PRS12742Omansen" passive="TF002"/>
+                    <relation name="saws:hasOwned" active="PRS12742Omansen" passive="TF003"/>
+                    <relation name="saws:hasOwned" active="PRS12742Omansen" passive="TF004"/>
+                    <relation name="saws:hasOwned" active="PRS12742Omansen" passive="TF005"/>
+                </listRelation>
+            </listPerson>
+        </body>
+    </text>
+</TEI>

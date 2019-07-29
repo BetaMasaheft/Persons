@@ -48,6 +48,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
+         <change who="VP" when="2019-07-24">Inserted other details from Encyclopaedia Aethiopica</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
@@ -57,12 +58,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="2">
-               <persName>
-                  
-                  Nasisee Liiban
-               </persName>
-               <occupation> miss.</occupation>
+               <persName xml:lang="or" xml:id="n1" type="birth">Nasisee Liiban</persName>
+               <persName xml:lang="am" type="normalized">Haḍā Gāmmāčču </persName>
+                
+                <occupation type="other">Missionary in the Swedish Evangelical Mission</occupation>
+                <nationality type="Oromo"></nationality>
+                <birth when="1900" cert="low">she was from  <placeName ref="LOC4954Najjoo">Nāğğoo</placeName> in Central <placeName ref="LOC6178Wallag">Wallagā</placeName></birth>
+                <death when="1986" cert="low"></death>
+               
             </person>
+            
          </listPerson>
       </body>
    </text>

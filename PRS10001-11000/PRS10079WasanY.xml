@@ -3,36 +3,32 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="pers"
-     xml:lang="en"
-     xml:id="PRS10079WasanY">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS10079WasanY">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Wäsän Yälläš Bäzarde</title>
+            <title>Wasan Yallaš Bazārde</title>
             <author/>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
-            <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+               Forschungsumgebung / Beta maṣāḥǝft</publisher>
             <pubPlace>Hamburg</pubPlace>
             <availability>
-               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
-                This file is licensed under the Creative Commons
-                Attribution-ShareAlike 4.0. </licence>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
             </availability>
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
             <p>Prosopography of Ethiopian Written tradition</p>
-            <p>A TEI file converted from the ETHIO-authority
-                                                  google spreadsheet</p>
+            <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
             <xi:fallback>
                <p>Definitions of prefixes used.</p>
             </xi:fallback>
@@ -47,20 +43,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
-         <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
+         <change who="PL" when="2016-04-28">batch updated according to requirements and
+            issues.</change>
+         <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="ABr" when="2019-07-22">CREATED: place</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="2">
-               <persName>
-
-                  Wäsän Yälläš Bäzarde
-               </persName>
+               <persName> Wasan Yallaš Bazārde </persName>
                <occupation> wäyz. </occupation>
             </person>
          </listPerson>

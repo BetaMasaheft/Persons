@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Asnaqäčč Wärqu</title>
+            <title>ʾAsnaqačč Warqu</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -51,17 +51,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="JK" when="2019-07-24">Updated transcription and information according to the EAE article on her.</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="2">
-               <persName>
-                  
-                  Asnaqäčč Wärqu
-               </persName>
-               <occupation> actress </occupation>
+               <persName xml:lang="am" xml:id="n1">ʾAsnaqačč Warqu</persName>
+               <persName xml:lang="am" type="normalized" corresp="#n1">አስነቀች፡ ወርቁ፡</persName>
+               <occupation type="art">actress</occupation>
+               <occupation type="art">musician</occupation>
+               <occupation type="art">dancer</occupation>
+               <birth when="1935-04-18"></birth>
+               <floruit notBefore="1952" notAfter="2001"></floruit>
+               <death when="2011-09-14"></death>
             </person>
          </listPerson>
       </body>
