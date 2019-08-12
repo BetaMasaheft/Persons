@@ -1,23 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="PRS11731WaldaTensae"
-     xml:lang="en"
-     type="pers">
-    <teiHeader xml:base="https://betamasaheft.eu/">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12747Wandem" xml:lang="en" type="pers">
+    <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Walda Tǝnśāʾe</title>
+                <title>Wandam</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DN"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
-                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
                 <pubPlace>Hamburg</pubPlace>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
@@ -30,17 +26,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </fileDesc>
         <encodingDesc>
             <p>A digital born TEI file</p>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
-            <xi:fallback>
-               <p>Definitions of prefixes used.</p>
-            </xi:fallback>
-         </xi:include>
-      </encodingDesc>
+        </encodingDesc>
         <profileDesc>
             <creation/>
             <abstract>
-                <p/>
+                <p>According to the note in <ref type="mss" corresp="BNFabb117"/>, his teacher
+              was ʾabbā Wāse, his father was priest Sǝmʿon, his mother was Wānnā, his son was Mǝnāsse. ʾAbbā Wandǝm
+              was possibly a <persName ref="ETH1274Betaes">Beta ʾƎsrāʾel</persName>man. </p>
             </abstract>
             <langUsage>
                 <language ident="en">English</language>
@@ -51,31 +43,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="DN" when="2017-09-05">Created entity</change>
+            <change who="DN" when="2019-08-01">Created entity</change>
         </revisionDesc>
     </teiHeader>
-    <text xml:base="https://betamasaheft.eu/">
+    <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ወልደ፡ ትንሳኤ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walda Tǝnśāʾe</persName>
-
-
+                    <persName xml:lang="gez" xml:id="n1">ወንድም᎓</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Wandǝm</persName>
+                    <persName type="alt"><roleName type="title">ʾabbā</roleName>Wandǝm</persName>
                     <faith type="EOTC"/>
-                    <occupation type="academic"/>
-                    <nationality type="Ethiopia"/>
+                    <occupation type="ecclesiastic"/>
                     <birth/>
                     <death/>
                     <floruit/>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation"
-                         active="PRS11731WaldaTensae"
-                         passive="RNBdorn609"/>
-                                    </listRelation>
-            </listPerson>
-         <!---->
+                    <relation name="saws:hasOwned" active="PRS12747Wandem" passive="BNFabb117"/>
+                </listRelation>
+            </listPerson><!---->
         </body>
     </text>
 </TEI>

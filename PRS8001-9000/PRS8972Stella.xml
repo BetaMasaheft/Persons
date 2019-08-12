@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
@@ -57,13 +57,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                   Giovanni Giacinto
-                  Stella
-               </persName>
-               <occupation> miss. </occupation>
-            </person>
-         </listPerson>
-      </body>
+                  <persName xml:lang="gez" xml:id="n1">Giovanni Giacinto Stella</persName>
+                  <persName xml:lang="gez" xml:id="n2">አባ᎓ ዮሐንስ᎓ ስተላ᎓</persName>
+                  <persName xml:lang="gez" type="normalized" corresp="#n2">ʾabbā Yoḥannəs Stallā</persName>
+                  <faith type="Catholicism"/>
+                  <occupation type="ecclesiastic">Lasarist missionary,
+                    associate of <persName ref="PRS8518Sapeto">Giuseppe Sapeto</persName></occupation>
+                  <nationality type="Italy"/>
+                  <birth>1822</birth>
+                  <death>1869</death>
+                  <floruit/>
+              </person>
+              </listPerson>
+              <listRelation>
+                  <relation name="saws:hasOwned" active="PRS8972Stella" passive="BNFabb203"/>
+                  <relation name="saws:isRelatedTo" active="PRS8972Stella" passive="PRS8518Sapeto"/>
+
+              </listRelation>
+               </body>
    </text>
 </TEI>

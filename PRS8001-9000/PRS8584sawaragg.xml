@@ -49,6 +49,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="ABr" when="2019-07-24">Updated with the information from the EAE</change>
          <change who="ABr" when="2019-07-25">Restructuring of the text </change>
+         <change who="ABr" when="2019-07-31">Insertion of bibliographical references</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -98,9 +99,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                            Š.G. is remembered as an example of genuine patriotism. The writers of her time referred to her as the "Ethiopian Joan of Arc" and the "Lion-Hearted Woman" of <placeName
                      ref="wd:Q115"/>. <date notBefore="1941"></date> she was honoured by <persName ref="PRS5226haylase"/>.
                   A street in <placeName ref="wd:Q3624"/> bears her name.
+        
                </floruit>
             </person>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl><ptr target="bm:Seltene2010Sawaragad"/></bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>

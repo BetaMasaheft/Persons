@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
@@ -54,18 +54,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  <forename/>
-                  <surname>Talāfions</surname>
-               </persName>
+                  <persName xml:lang="gez" xml:id="n1">ተላፊኖስ</persName>
+                  <persName xml:lang="gez" type="normalized" corresp="#n1">Talāfinos</persName>
+                  <faith type="Christianity"/>
+                  <occupation type="other"/>
+                  <birth/>
+                  <death/>
+                  <floruit/>
             </person>
             <listRelation>
-               <relation>
-                  <desc>protagonist of a story from Dersāna Mikāʾel for 12 Maskaram</desc>
-               </relation>
-               <relation name="lawd:hasAttestation"
-                         active="PRS11321Talafinos"
-                         passive="IVvostochn616"><!--Please fix the relation of this item with IVvostochn616--></relation>
+              <relation name="ecrm:P129i_is_subject_of" active="PRS11321Talafinos" passive="LIT1295Dersan"/>
+           <relation name="lawd:hasAttestation" active="PRS11321Talafinos" passive="RNBdorn616"/>
             </listRelation>
          </listPerson>
       </body>
