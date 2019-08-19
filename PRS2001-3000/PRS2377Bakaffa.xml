@@ -53,6 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-08-05">Complete record</change>
+         <change who="SG" when="2019-08-19">updated</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -73,7 +74,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <placeName ref="LOC3577Gondar">Gondar</placeName>
                </residence>
              
-               <floruit notBefore="1721" notAfter="1730">He succeeded his brother King 
+               <floruit from="1721" to="1730">He succeeded his brother King 
                   <persName ref="PRS3430DawitII">Dāwit III</persName> in <date> May 1721</date>.
                   He maintained relative peace and stability than his father King <persName ref="PRS5616IyasuI">ʾIyāsu I</persName> and his brother King <persName ref="PRS9152TaklaHa">Takla Hāymānot I</persName>.
                    </floruit>
@@ -96,16 +97,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </listRelation>
          </listPerson>
          
-         <listBibl type="editions">
+         <listBibl type="secondary">
             <bibl>
                <ptr target="bm:Basset1882Chronicle"/>
             </bibl>
-            <bibl>
+            <bibl> 
                <ptr target="bm:Guidi1961YohannesT"/>
-            </bibl>
-         </listBibl> 
+               </bibl> 
          
-         <listBibl type="secondary">
+
             <bibl> 
                <ptr target="bm:Budge1966Ethistory"/>
                <citedRange unit="page">443-449</citedRange>

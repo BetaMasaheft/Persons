@@ -55,6 +55,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-08-05">Complete record</change>
          <change who="SG" when="2016-08-28">Correction </change>
+         <change who="SG" when="2019-08-19">Correction to floruit date</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -78,7 +79,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <placeName ref="LOC3577Gondar">Gondar</placeName>
                </residence>
                <birth when="1749"/>
-               <floruit when="1755" evidence="internal">He succeeded his father King <persName ref="PRS5617IyasuII">ʾIyāsu II</persName> in <date>1755</date>. 
+               <floruit from="1755" to="1769">He succeeded his father King <persName ref="PRS5617IyasuII">ʾIyāsu II</persName> in <date>1755</date>. 
                   He was seven years old when he became a king and his grandmother, the famous Gondarian queen <persName ref="PRS2682BerhanM">Bǝrhān Mogasā</persName>,  continued to act as his regent. 
                   Throughout his reign, he was only a figurehead and the real political power remained in the hand of the queen <persName ref="PRS2682BerhanM">Bǝrhān Mogasā</persName>. 
                </floruit>
@@ -94,18 +95,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          passive="LIT4635Chronicle"/>
             </listRelation>
          </listPerson>
-         <listBibl type="editions">
+         <listBibl type="secondary">
             <bibl>
                <ptr target="bm:Basset1882Chronicle"/>
             </bibl>
             <bibl>
                <ptr target="bm:Guidi1954IyasuII"/>
             </bibl>
-         </listBibl> 
+
      
            
         
-         <listBibl type="secondary">
+
             <bibl> 
                <ptr target="bm:Budge1966Ethistory"/>
             </bibl>  
