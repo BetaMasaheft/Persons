@@ -75,8 +75,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <residence>
                   <placeName ref="LOC3577Gondar"> Gondar</placeName>
                </residence>
-                  <birth>1658/59</birth>
-               <floruit when="1682" evidence="internal">He succeeded his father King <persName ref="PRS10375Yohanne">Yoḥannǝs I</persName> in <date> 1682</date>.
+                  <birth notBefore="1658" notAfter="1659"/>
+               <floruit from="1682" to="1706">He succeeded his father King <persName ref="PRS10375Yohanne">Yoḥannǝs I</persName> in <date> 1682</date>.
              </floruit>
                <death when="1706" evidence="internal">He was persecuted by the order of his own son King <persName ref="PRS9152TaklaHa">Takla Hāymānot I</persName>
                </death>
@@ -101,7 +101,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          passive="LIT3950ChronIyasu"/>
             </listRelation>
          </listPerson>
-         <listBibl type="editions">
+         <listBibl type="secondary">
             <bibl>
                <ptr target="bm:Guidi1961YohannesT"/>
             </bibl>

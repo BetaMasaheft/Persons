@@ -83,7 +83,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <placeName ref="LOC3577Gondar">Gondar</placeName>
                </residence>
                <birth when="1603"/>
-               <floruit notAfter="1632" notBefore="1667">He succeeded his father 
+               <floruit from="1632" to="1667">He succeeded his father 
                 
                   <persName ref="PRS9038Susenyos">  
                      <roleName type="title">ʾaṣe</roleName> Susǝnyos</persName> in <date>1632</date>. 
@@ -115,12 +115,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          passive="LIT4640Chronicle"/>
             </listRelation>
          </listPerson>
-         <listBibl type="editions">
+         <listBibl type="secondary">
             <bibl>
                <ptr target="bm:Pereira1892Susenyos"/>
             </bibl>
-            </listBibl>
-         <listBibl type="editions">
+            
+    
             <bibl>
                <ptr target="bm:Pereira1900Susenyos"/>
             </bibl>
