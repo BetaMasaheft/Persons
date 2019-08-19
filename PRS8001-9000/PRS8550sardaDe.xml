@@ -56,6 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2016-05-18">batch updated according to requirements and issues.</change>
          <change who="ES" when="2016-05-23">validity issues corrected, spelling corrected, bibliography added.</change>
          <change who="SG" when="2017-11-13">additions to bibliography</change>
+         <change who="SG" when="2019-08-19">update</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -64,17 +65,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1" sameAs="wd:Q887763">
 
               
-               <persName xml:lang="gez" xml:id="n1">ሠርፀ፡ ድንግል</persName>
+               <persName xml:lang="gez" xml:id="n1">ሠርፀ፡ ድንግል፡ </persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Śarḍa Dǝngǝl</persName>
                <persName>
                   <roleName type="title">ʾaṣe</roleName>
                </persName>
                
-               <persName xml:lang="gez" type="royal" xml:id="n2">መላክ፡ ሰገድ</persName>
-               <persName corresp="#n2">Malāk Sagad</persName>
+               <persName xml:lang="gez" type="regnal" xml:id="n2">መለክ፡ ሰገድ፡ </persName>
+               <persName corresp="#n2">Malak Sagad</persName>
                <occupation type="ruler">Emperor</occupation>
                <birth when="1550"/> 
-               <floruit notBefore="1563" notAfter="1597">Śarḍa Dǝngǝl succeeded
+               <floruit from="1563" to="1597">Śarḍa Dǝngǝl succeeded
                   his father king <persName ref="PRS7102Minas">Minās</persName> in <date>1563</date>.</floruit>
                <death when="1597" evidence="internal">He died of fish poisoning.</death>
                   </person>  

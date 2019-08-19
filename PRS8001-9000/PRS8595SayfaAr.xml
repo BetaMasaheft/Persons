@@ -53,6 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="SG" when="2016-07-19">complete the record</change>
+         <change who="SG" when="2019-08-19">complete the record</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -74,7 +75,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                
                
-               <floruit notBefore="1344" notAfter="1371">He succeeded his father King <persName ref="PRS1854Amdase">ʿAmda Ṣǝyon</persName> in <date> 1344</date>. 
+               <floruit from="1344" to="1371">He succeeded his father King <persName ref="PRS1854Amdase">ʿAmda Ṣǝyon</persName> in <date> 1344</date>. 
   </floruit>
                <death when="1371" evidence="internal"/>
             </person>
@@ -86,7 +87,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </listRelation>
          </listPerson>
          
-         <listBibl type="editions">
+         <listBibl type="secondary">
             <bibl>
                <ptr target="bm:Basset1882Chronicle"/>
             </bibl>

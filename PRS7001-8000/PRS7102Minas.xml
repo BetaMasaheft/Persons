@@ -55,6 +55,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change when="2016-05-23" who="ES">revised record, name spelling corrected, biography completed, relations corrected, bibliography added</change>
          <change when="2017-01-27" who="SG"> addition to the content</change>
          <change when="2017-01-30" who="SG"> addition to relation</change>
+         <change when="2019-08-19" who="SG"> Correction to floruit</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -74,7 +75,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
 		             <occupation type="ruler">Emperor</occupation>
                <birth when="1526"/>
-               <floruit notBefore="1559" notAfter="1563">He 
+               <floruit from="1559" to="1563">He 
                   was the third son of  
                   <persName ref="PRS6229LebnaDe">
                      <roleName type="title">ʾaṣe</roleName>
@@ -110,7 +111,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      
                   
          </listPerson>
-         <listBibl type="editions">
+         <listBibl type="secondary">
             <bibl>
                <ptr target="bm:Pereira1888Minas"/>
             </bibl>
