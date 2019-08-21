@@ -53,6 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2018-08-20">Complete record</change>
          <change who="DR" when="2018-10-11">Added wikidata</change>
+         <change who="SG" when="2019-08-21">correction to date of floruit</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -79,7 +80,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <occupation type="ruler">prince</occupation>
                <birth when="1897">He was born at <placeName ref="LOC2575Dase"/> in <date>1897</date>.</birth>
               
-               <floruit notBefore="1911" notAfter="1916">He was the uncrowned ruler of <placeName ref="LOC3010Ethiop"/>, from <date>1911</date>to <date>1916</date>.
+               <floruit from="1911" to="1916">He was the uncrowned ruler of <placeName ref="LOC3010Ethiop"/>, from <date>1911</date>to <date>1916</date>.
                   His reign has been one of the most enigmatic and controversial in Ethiopian history. Maligned as a play boy and apostate by 
                   <persName ref="PRS5226haylase"/>, he had effectively been written out of history books from much of the 20th century. 
                   But after the deposition of <persName ref="PRS5226haylase"/> in <date>1974</date>, have there been some attempts to rehabilitate him in the historiography. 
