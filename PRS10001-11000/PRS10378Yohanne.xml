@@ -82,7 +82,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <faith type="EOTC"/>
            
                <birth notBefore="1831" notAfter="1837"/>
-               <floruit notBefore="1872" notAfter="1889"/>
+               <floruit from="1872" to="1889"></floruit>
                <death when="1889">He died at the battle of <placeName ref="LOC4637Matamm">Matammā</placeName>
                </death>
             </person>
@@ -105,7 +105,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          passive="PRS8265Sabagadi"/>
             </listRelation>
          </listPerson>
-         <listBibl type="editions">
+         <listBibl type="secondary">
             <bibl>
                <ptr target="bm:Bairu1977Yohannes"/>
             </bibl>
