@@ -6,12 +6,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
      xml:lang="en"
-     xml:id="PRS2667Benyam">
+     xml:id="PRS11523Qawestos">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title> Bǝnyām</title>
-            <author/>
+            <title xml:id="t1">Qawǝsṭos</title>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
@@ -19,15 +18,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <pubPlace>Hamburg</pubPlace>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
-                This file is licensed under the Creative Commons
-                Attribution-ShareAlike 4.0. </licence>
+                  <p>
+                                            This file is licensed under the Creative Commons
+                                            Attribution-ShareAlike 4.0. </p>
+               </licence>
             </availability>
-            <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
             <p>Prosopography of Ethiopian Written tradition</p>
             <p>A TEI file converted from the ETHIO-authority
-                                                  google spreadsheet</p>
+                                    google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -47,26 +47,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
-         <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: place</change>
-         <change who="SG" when="2019-09-11">updated</change>
+         <change who="MV" when="2017-03-29">Created XML record.</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
-               <persName xml:lang="gez" xml:id="n1" type="birth">
-                  
-                 ብንያም፡ 
-               </persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized"> Bǝnyām</persName>
-               <persName><roleName type="title">ʾazzāž</roleName> </persName>
-          
+               <persName xml:id="n1" xml:lang="gez">ቀውስጦስ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Qawǝsṭos</persName>
+               <faith type="EOTC"/>
+               <occupation type="other"/>
             </person>
-            
+            <listRelation>
+               <relation name="saws:isCopierOf" active="PRS11523Qawestos" passive="BAVet73">
+               </relation>
+            </listRelation>
          </listPerson>
       </body>
    </text>
