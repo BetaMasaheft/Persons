@@ -3,10 +3,7 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="pers"
-     xml:lang="en"
-     xml:id="PRS6310Lifchitz">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS6310Lifchitz">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
@@ -15,24 +12,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
-            <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+               Forschungsumgebung / Beta maṣāḥǝft</publisher>
             <pubPlace>Hamburg</pubPlace>
             <availability>
-               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
-                This file is licensed under the Creative Commons
-                Attribution-ShareAlike 4.0. </licence>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
             </availability>
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
             <p>Prosopography of Ethiopian Written tradition</p>
-            <p>A TEI file converted from the ETHIO-authority
-                                                  google spreadsheet</p>
+            <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
             <xi:fallback>
                <p>Definitions of prefixes used.</p>
             </xi:fallback>
@@ -47,9 +43,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
-         <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
+         <change who="PL" when="2016-04-28">batch updated according to requirements and
+            issues.</change>
+         <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
       </revisionDesc>
    </teiHeader>
@@ -62,28 +58,36 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <forename>Déborah</forename>
                </persName>
                <persName xml:lang="pl" xml:id="n2">
-                  <surname>Lifszyc</surname> 
+                  <surname>Lifszyc</surname>
                   <forename>Deborah</forename>
                </persName>
                <occupation type="academic">linguist and social anthropologist</occupation>
-               <nationality type="France">Originally Polish, she became a French citizen in 1937.</nationality>
+               <nationality type="France">Originally Polish, she became a French citizen in
+                  1937.</nationality>
                <faith type="Judaism"/>
-               
                <birth when="1905-06-05">5 June 1905 in Kharkov</birth>
-              
-               <floruit notBefore="1927" notAfter="1942">She left <placeName ref="wd:Q36">Poland</placeName> for <placeName ref="wd:Q90">Paris</placeName> in 1927 in order to study Semitic langages with <persName ref="PRS3148Cohen">Marcel Cohen </persName>and graduated in 1931. Meanwhile, she studied ethnology with <persName ref="PRS6925Mauss">Marcel Mauss</persName> and <persName ref="wd:Q324932">Lucien Lévy-Bruhl</persName>. In 1932 she joined <persName ref="PRS4829Griaule">Marcel Griaule</persName> and the Mission Dakar-Djibouti in <placeName ref="LOC3577Gondar">Gondar</placeName>. She was in charge of collecting the manuscripts, as well as supervising the collect of informations. 
-                  Back in Paris, she entered the Africa departement of the Musée de l'Homme. In 1935, she conducted, together with <persName ref="wd:Q3023075">Denise Paulme</persName>, a 8 months field research on the Dogon culture (<placeName ref="wd:Q912">Mali</placeName>). 
-                  From 1937 to October 1940 she taught Amharic at the Ecole des Langues Orientales.
-                  
-               </floruit>
-              
-               <death when="1942">She died after September 1942 in deportation at <placeName ref="wd:Q7341">Auschwitz.</placeName>
+               <floruit notBefore="1927" notAfter="1942">She left <placeName ref="wd:Q36"
+                     >Poland</placeName> for <placeName ref="wd:Q90">Paris</placeName> in 1927 in
+                  order to study Semitic langages with <persName ref="PRS3148Cohen">Marcel Cohen
+                  </persName>and graduated in 1931. Meanwhile, she studied ethnology with <persName
+                     ref="PRS6925Mauss">Marcel Mauss</persName> and <persName ref="wd:Q324932"
+                     >Lucien Lévy-Bruhl</persName>. In 1932 she joined <persName
+                     ref="PRS4829Griaule">Marcel Griaule</persName> and the Mission Dakar-Djibouti
+                  in <placeName ref="LOC3577Gondar">Gondar</placeName>. She was in charge of
+                  collecting the manuscripts, as well as supervising the collect of informations.
+                  Back in Paris, she entered the Africa departement of the Musée de l'Homme. In
+                  1935, she conducted, together with <persName ref="wd:Q3023075">Denise
+                     Paulme</persName>, a 8 months field research on the Dogon culture (<placeName
+                     ref="wd:Q912">Mali</placeName>). From 1937 to October 1940 she taught Amharic
+                  at the Ecole des Langues Orientales. </floruit>
+               <death when="1942">She died after September 1942 in deportation at <placeName
+                     ref="wd:Q7341">Auschwitz.</placeName>
                </death>
             </person>
 
          </listPerson>
-         <listBibl type="editions">
-            <bibl> 
+         <listBibl type="secondary">
+            <bibl>
                <ptr target="bm:FicquetPrijac2007Lifchitz"/>
             </bibl>
          </listBibl>
