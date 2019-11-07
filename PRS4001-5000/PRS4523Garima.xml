@@ -62,6 +62,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2016-05-03">Correction</change>
          <change who="DR" when="2018-07-28">Added relation</change>
          <change who="PL" when="2019-03-27">removed occupation containing St, Saint, bibl, biblical or prophet, added keyword. See https://github.com/BetaMasaheft/Documentation/issues/1104</change>
+         <change who="DR" when="2019-11-06">Small linguistic edits</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -81,18 +82,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
-               <!--saint-->
             
                <floruit notBefore="0450" notAfter="0550"> He was one of the Nine Saints, a group of foreign 
                   monks who arrived in Ethiopia in the 5th and 6th century. 
-                  He was the son of a king whom he succeeded and 
-                  reigned after him for seven years. Then, he received a 
+                  He was the son of a king whom he succeeded and after whom he
+                  reigned for seven years. Then, he received a 
                   call from<persName ref="PRS7720Pantalew"> 
-                     <roleName type="title">ʾabbā</roleName> Ṗanṭalewon</persName> and
-                  he left his kingdom and went to <placeName ref="LOC1310Aksum">ʾAksum</placeName>. 
+                     <roleName type="title">ʾabbā</roleName> Ṗanṭalewon</persName>,
+                   left his kingdom and went to <placeName ref="LOC1310Aksum">ʾAksum</placeName>. 
                   When the Nine Saints decided to disperse throughout the country, 
                   he went to <placeName ref="LOC4388Madara">Madarā</placeName> where he remained working miracles.
-                  The monastery of  <placeName ref="INS0336EAG">ʾƎndā ʾAbbā Garimā</placeName> is attributed to him.
+                  The establishment of the monastery of  <placeName ref="INS0336EAG">ʾƎndā ʾAbbā Garimā</placeName> is attributed to him.
                </floruit>
 
             </person>  
