@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Dionysius</title>
+            <title>Dionysius the Areopagite</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -51,6 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change when="2019-11-20" who="ES">added data</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -59,9 +60,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName>
                   
-                  Dionysius
+                  Dionysius the Areopagite
                </persName>
-               <occupation> wr. </occupation>
+               <occupation type="political">judge</occupation>
+               <occupation type="ecclesiastic">bishop</occupation>
+               <floruit notBefore="0030" notAfter="0100">judge at the Areopagus Court in Athens, who lived in the first century and was converted to Christianity, becoming the first bishop of Athens (according to the Acts of the Apostles)</floruit>
             </person>
          </listPerson>
       </body>
