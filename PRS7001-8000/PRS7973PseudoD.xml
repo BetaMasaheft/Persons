@@ -50,18 +50,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change when="2019-11-20" who="ES">added summary to disambiguate</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
-            <person sex="1">
+            <person sex="1" sameAs="wd:Q312816">
                <persName>
                   
                   Pseudo-Dionysius the Areopagite
                </persName>
-               <occupation> wr. </occupation>
+               <occupation type="literary">writer </occupation>
+               <floruit notBefore="0450" notAfter="0550">Christian theologian and philosopher of the late 5th to early 6th century</floruit>
             </person>
          </listPerson>
       </body>
