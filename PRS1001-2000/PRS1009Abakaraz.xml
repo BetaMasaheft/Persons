@@ -58,11 +58,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+               <persName xml:lang="geez" xml:id="n1" type="birth">አበከረዙን፡
                   
-                  Abäkäräzun
+                  
                </persName>
-               <persName type="alt">ʾAbakǝrazun</persName>
+               <persName xml:lang="geez" corresp="#n1" type="normalized">ʾAbakarazun</persName>
+               <persName xml:lang="geez" xml:id="n2" type="birth">አበክረዙን፡</persName>
+               <persName xml:lang="geez" corresp="#n1" type="normalized">ʾAbakǝrazun</persName>
+           
                <nationality type="Ethiopia post-Aksumite">Christian Ethiopia</nationality>
                <faith type="EOTC">EOTC</faith>
                <occupation type="ecclesiastic">ʾabbā</occupation>

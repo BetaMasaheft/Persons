@@ -60,29 +60,32 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="ES" when="2016-02-09">CREATED: person</change>
          <change who="SG" when="2016-10-10">Complete record</change>
          <change who="PL" when="2019-03-27">removed occupation containing St, Saint, bibl, biblical or prophet, added keyword. See https://github.com/BetaMasaheft/Documentation/issues/1104</change>
+         <change who="SG" when="2019-11-26">updates</change>
+         
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1" sameAs="wd:Q251060">
-              <persName xml:lang="gez" xml:id="n1" type="birth">ሰላማ፡ ከሳቴ፡ ብርሃን፡</persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized">Salāmā Kaśāte Bǝrhān</persName>
-               <persName xml:lang="gez" xml:id="n2" type="birth">ፍሬምናጦስ፡</persName>
-               <persName xml:lang="gez" corresp="#n2" type="normalized">Fǝremnāṭos</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ፍሬምናጦስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Fǝremnāṭos</persName>
+               <persName xml:lang="gez" xml:id="n2" type="alt">ሰላማ፡ ከሳቴ፡ ብርሃን፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Salāmā Kaśāte Bǝrhān</persName>
+               
                <persName xml:lang="en" corresp="#n3">Frumentius</persName>
                <persName>
                   <roleName type="title">ʾabuna</roleName>
                </persName>
                   <!--saint, bishop-->
-                  <nationality type="Egypt"/>
+                 <nationality type="Syria"/>
                   <faith type="EOTC"/>
                 
                
                <floruit notBefore="0330" notAfter="0340">He was the apostle and the first bishop of <placeName ref="LOC3010Ethiop">Ethiopia</placeName>. 
                   He introduced Christianity to
                   <placeName ref="LOC1310Aksum">ʾAksum</placeName>. 
-                  He is considered as a saint not only by the Ethiopian Orthodox Church but also 
+                  He is considered as a saint not only by the Ethiopian Orthodox Tawāḥǝdo Church but also 
                   by the Roman Catholic and Greek Orthodox Churches.</floruit>
                   <death notBefore="0356" cert="high"/>
                </person>
