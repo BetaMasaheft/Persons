@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
@@ -10,7 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Afäwärq Wäldä Maryam</title>
+            <title>ʾAfawarq Walda Māryām</title>
+            <editor key="DE"></editor>
+            <editor role="generalEditor" key="AB"/>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -51,6 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change when="2019-12-11" who="DE">Added information and bibliography.</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -58,12 +61,31 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                  
-                  Afäwärq Wäldä Maryam
+                 <persName xml:lang="gez" xml:id="n1" type="birth">አፈወርቅ፡ ወልደ፡ ማርያም፡</persName>
+                 <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAfawarq Walda Māryām</persName>
+                  <persName xml:lang="gez" xml:id="n2" type="horse">አባ፡ መንዝር፡</persName>
+                  <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAbba Manzər</persName>
                </persName>
-               <occupation> civil servant</occupation>
+                <nationality type="Ethiopia"/>
+               <occupation type="political"> civil servant</occupation>
+               <birth when="1868">He was born at <placeName ref="LOC2008Bulga"/> in <date>1868</date>. </birth>
+               <floruit notBefore="1909" notAfter="1955">Having received a curch education, he began his career as a palace clerk.
+               In <date>1913</date> he was appointed as "Minister of the Pen". He lost his post as a consequence of civil
+             uprisings in <date>1918</date>. In <date>1922</date> he was appointed Minister of Post, Telephone and Telegraph and
+             Minister of Agriculture. In the <date>1930s</date> he became President of the House of Deputies. During the Fascist
+             invasion in <date>1935-1936</date> he fought at the northern front. After two years of imprisonment in Italy,
+             he was appointed to senate.
+        </floruit>
+         <death when="1955"/>
             </person>
          </listPerson>
+         <listBibl type="secondary">
+
+            <bibl>
+               <ptr target="bm:Bairu2003Afawarq"/>
+            </bibl>
+         </listBibl>
+
       </body>
    </text>
 </TEI>
