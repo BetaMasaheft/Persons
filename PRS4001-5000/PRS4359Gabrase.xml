@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
@@ -13,7 +13,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <title>Gabra Śǝllāse Walda ʾAragāy</title>
             <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
-            
+
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -55,6 +55,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2017-01-25">Complete record</change>
+         <change when="2019-12-13" who="DE">Added information.</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -63,42 +64,46 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                    <persName xml:lang="gez" xml:id="n1" type="birth">ገብረ፡ ሥላሴ፡ ወልደ፡ አረጋይ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Gabra Śǝllāse Walda ʾAragāy</persName>
-                  
+
                <persName>
                   <roleName type="title">Ṣaḥāfe tǝʾǝzāz</roleName>
+                  <roleName type="title">>Nǝbura ʾǝd</roleName>
                </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
-                  
+
                   <occupation type="literary">chronicler</occupation>
-               <residence> 
+               <residence>
                   <placeName ref="LOC1216AddisA">ʾAddis ʾAbabā</placeName>
                </residence>
 
                <birth when="1844">He was born at <placeName ref="LOC2246DabraB">
                   Dabra Bǝrhan</placeName> in <date>1844</date>. </birth>
-     
-               <floruit notBefore="1870" notAfter="1912">He was 
+
+               <floruit notBefore="1870" notAfter="1912">He was
                   <persName ref="PRS7006Menilek">
-                     <roleName type="title">ʾaṣe</roleName>  Mǝnilǝk II</persName>'s 
-                  private secretary and minister of Pen. 
+                     <roleName type="title">ʾaṣe</roleName>  Mǝnilǝk II</persName>'s
+                  private secretary and minister of Pen.
                   He was also served as the dean of the churches of <placeName ref="LOC2981Entott">ʾƎnṭoṭṭo Rāguʾel</placeName> near
-                  <placeName ref="LOC1216AddisA">ʾAddis ʾAbabā</placeName> and 
-                  <placeName ref="LOC1219AddisA">ʾAddis ʾAlam Māryām</placeName>. 
-                  He began his career as a clerk in the court of 
+                  <placeName ref="LOC1216AddisA">ʾAddis ʾAbabā</placeName> and
+                  <placeName ref="LOC1219AddisA">ʾAddis ʾAlam Māryām</placeName>.
+                  He began his career as a clerk in the court of
                   <persName ref="PRS2342Bafana">
-                     <roleName type="title">wayzaro</roleName> Bāfanā</persName> 
-                  and was transferred to the service of the king in the late<date>1870</date>s. 
-                  In <date>1889</date>, he promoted to the position of 
+                     <roleName type="title">wayzaro</roleName> Bāfanā</persName>
+                  and was transferred to the service of the king in the late<date>1870</date>s.
+                  In <date>1889</date>, he was promoted to the position of
                   <persName ref="PRS4359Gabrase">
                      <roleName type="title">Ṣaḥāfe tǝʾǝzāz </roleName>
                   </persName>
-                  and 
-                  was thereafter regarded as one of the most influential officials of 
+                  and
+                  was thereafter regarded as one of the most influential officials of
                   <persName ref="PRS7006Menilek">
-                     <roleName type="title">ʾaṣe</roleName> Mǝnilǝk II</persName>. </floruit>
+                     <roleName type="title">ʾaṣe</roleName> Mǝnilǝk II</persName>.
+                   In <date>1907</date> he was appointed Minister of the Pen. Around <date>1910</date>
+                 he moved to <placeName ref="LOC1218AddisA"></placeName> with the title
+               <roleName type="title">nǝbura ʾǝd</roleName>.</floruit>
                <death when="1912">He died at <placeName ref="LOC1216AddisA">ʾAddis ʾAbabā</placeName> in <date>1912</date>. </death>
-                  
+
                </person>
                <listRelation>
                   <relation name="snap:SonOf" active="PRS4359Gabrase" passive="PRS9877WaldaAr"/>
@@ -116,18 +121,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
             <bibl>
                <ptr target="bm:Bairu2005GabraSellase"/>
-            </bibl>          
-            <bibl> 
+            </bibl>
+            <bibl>
                <ptr target="bm:Marcus1975MenelikII"/>
-            </bibl>  
-            
+            </bibl>
+
             <bibl>
                <ptr target="bm:Bairu1967Portraits"/>
                <citedRange unit="page">133-138</citedRange>
-               
-             
+
+
             </bibl>
-          
+
          </listBibl>
       </body>
    </text>
