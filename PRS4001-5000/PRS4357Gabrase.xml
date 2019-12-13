@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Gäbrä Śǝllase Barya Gabǝr</title>
+            <title>Gabra Śǝllāse Bāryā Gābǝr</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -51,19 +51,33 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change when="2019-12-13" who="DE">Added information and bibliography.</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
+               <persName xml:lang="gez" xml:id="n1" type="birth">ገብረ፡ ሥላሴ፡ ባርያ፡ ጋብር፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Gabra Śǝllāse Bāryā Gābǝr</persName>
                <persName>
-                  
-                  Gäbrä Śǝllase Barya Gabǝr
+                 <roleName type="title">Nǝbura ʾǝd</roleName>
                </persName>
-               <occupation> däǧǧ./nǝburä ǝd </occupation>
+               <occupation type="political"></occupation>
+               <floruit>He was one of the trusted counsellors of <persName ref="PRS7006Menilek"></persName>. He was a governor
+             of <placeName ref="LOC1264Adwa"></placeName>. After the death of
+             <persName ref="PRS7006Menilek"></persName>, he supported <persName ref="PRS5620IyasuV"></persName>. Later he
+           received a position of <roleName type="title">nǝbura ʾǝd</roleName> of
+           <placeName ref="LOC1310Aksum"></placeName>.</floruit>
+           <death when="1931"></death>
             </person>
+
          </listPerson>
+         <listBibl type="secondary">
+           <bibl>
+             <ptr target="bm:Orlowska2005GabraS"/>
+           </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
