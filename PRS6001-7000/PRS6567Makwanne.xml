@@ -59,6 +59,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1">መኰንን፡ ወልደ፡ ሚካእል፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Makʷannǝn Walda Mikāʾel</persName>
+               <persName><roleName type="title">bālāmbārās</roleName></persName>
                 <persName><roleName type="title">rās</roleName></persName>
                 <birth when="1852-05-08"><placeName ref="LOC3556Gola"></placeName></birth>
                 <floruit>
@@ -68,13 +69,32 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                  <persName ref="">Yašimābet Ali</persName>, who gave birth to <persName ref="PRS5226haylase">Tafari</persName>.
                  In <date>1876</date> Makʷannǝn Walda Mikāʾel became <roleName type="rank">bālāmbārās</roleName> and in
                  <date>1881</date> he joined a campaign against the <persName ref="ETH1973Oromo"></persName>.
-                 After the conquest of <placeName ref="LOC3786Harar"></placeName>, he was awarded the title of
-                 <roleName type="title">daǧǧāzmāč</roleName> and became the governor of the region. 
+                 After the conquest of <placeName ref="LOC3786Harar"></placeName>, he was awarded the rank of
+                 <roleName type="rank">daǧǧāzmāč</roleName> and became the governor of the region. In <date>1887</date>
+                 Makʷannǝn Walda Mikāʾel started the imperial expansion to the east and south of
+                 <placeName ref="LOC3786Harar"></placeName> and conquered the parts of <placeName ref="LOC5040Ogaden"></placeName>,
+                 as well as parts of the territories of <persName ref="ETH1496Gadabu"></persName> and
+                 <persName ref="ETH1728Issa"></persName>.<lb/>
+                 Makʷannǝn Walda Mikāʾel had good relations with expatriates and lead Ethiopian missions abroad.In the year
+                 <date>1890</date> he participated in the Ethio-Italien debates, and in <date>1895-1896</date> in the Italien war. In
+                 <date>1902</date> he represented <persName ref="PRS7006Menilek"></persName> at the coronation of
+                 <persName ref="PRS3673EdwardV"></persName> in <placeName ref="LOC4325London"></placeName>.
+
                 </floruit>
-                <death when="1906-03-22"><placeName ref="LOC5256Qulleb"></placeName></death>
+                <death when="1906-03-22"><placeName ref="LOC5256Qulleb"></placeName> He died on his way to
+              <placeName ref="LOC1216AddisA"></placeName>, where he travelled on the occasion of the visit of
+            <persName ref="PRS6807Martini"></persName>.</death>
 
             </person>
          </listPerson>
+         <listBibl type="secondary">
+           <bibl>
+             <ptr target="bm:Carmichael2007Makwannen"/>
+           </bibl>
+           <bibl>
+             <ptr target="bm:Marcus1975MenelikII"/>
+           </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
