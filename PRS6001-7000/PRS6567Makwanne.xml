@@ -51,6 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change when="2019-12-18" who="DE">Added information, relations, and bibliography.</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -66,7 +67,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   He was a son of <persName ref="PRS9953WaldaMi"></persName> and <persName ref="PRS9235Tananna"></persName>. He was
                 invited to the court of <persName ref="PRS7006Menilek"></persName> in <date>1865</date>. His first, common-law,
                  wife gave birth to their son <persName ref="PRS10309YelmaM"></persName>. In <date>1876</date>, he married
-                 <persName ref="">Yašimābet Ali</persName>, who gave birth to <persName ref="PRS5226haylase">Tafari</persName>.
+                 <persName ref="PRS10255Yasimma">Yašimmabet ʾAli</persName>, who gave birth to <persName ref="PRS5226haylase">Tafari</persName>.
                  In <date>1876</date> Makʷannǝn Walda Mikāʾel became <roleName type="rank">bālāmbārās</roleName> and in
                  <date>1881</date> he joined a campaign against the <persName ref="ETH1973Oromo"></persName>.
                  After the conquest of <placeName ref="LOC3786Harar"></placeName>, he was awarded the rank of
@@ -79,14 +80,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                  <date>1890</date> he participated in the Ethio-Italien debates, and in <date>1895-1896</date> in the Italien war. In
                  <date>1902</date> he represented <persName ref="PRS7006Menilek"></persName> at the coronation of
                  <persName ref="PRS3673EdwardV"></persName> in <placeName ref="LOC4325London"></placeName>.
-
                 </floruit>
                 <death when="1906-03-22"><placeName ref="LOC5256Qulleb"></placeName> He died on his way to
               <placeName ref="LOC1216AddisA"></placeName>, where he travelled on the occasion of the visit of
             <persName ref="PRS6807Martini"></persName>.</death>
-
             </person>
          </listPerson>
+         <listRelation>
+           <relation name="snap:FatherOf" active="PRS6567Makwanne" passive="PRS10309YelmaM"></relation>
+           <relation name="snap:FatherOf" active="PRS6567Makwanne" passive="PRS5226haylase"></relation>
+           <relation name="betmas:husbandOf" active="PRS6567Makwanne" passive="PRS10255Yasimma"></relation>
+         </listRelation>
          <listBibl type="secondary">
            <bibl>
              <ptr target="bm:Carmichael2007Makwannen"/>
