@@ -62,10 +62,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Makʷannǝn Walda Mikāʾel</persName>
                <persName><roleName type="title">bālāmbārās</roleName></persName>
                 <persName><roleName type="title">rās</roleName></persName>
-                <birth when="1852-05-08"><placeName ref="LOC3556Gola"></placeName></birth>
+                <birth when="1852-05-08"><placeName ref="LOC3556Gola"></placeName>
+                He was a son of <persName ref="PRS9953WaldaMi"></persName> and <persName ref="PRS9235Tananna"></persName>.
+              </birth>
                 <floruit>
-                  He was a son of <persName ref="PRS9953WaldaMi"></persName> and <persName ref="PRS9235Tananna"></persName>. He was
-                invited to the court of <persName ref="PRS7006Menilek"></persName> in <date>1865</date>. His first, common-law,
+                He was invited to the court of <persName ref="PRS7006Menilek"></persName> in <date>1865</date>. His first, common-law,
                  wife gave birth to their son <persName ref="PRS10309YelmaM"></persName>. In <date>1876</date>, he married
                  <persName ref="PRS10255Yasimma">Yašimmabet ʾAli</persName>, who gave birth to <persName ref="PRS5226haylase">Tafari</persName>.
                  In <date>1876</date> Makʷannǝn Walda Mikāʾel became <roleName type="rank">bālāmbārās</roleName> and in
@@ -90,6 +91,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
            <relation name="snap:FatherOf" active="PRS6567Makwanne" passive="PRS10309YelmaM"></relation>
            <relation name="snap:FatherOf" active="PRS6567Makwanne" passive="PRS5226haylase"></relation>
            <relation name="betmas:husbandOf" active="PRS6567Makwanne" passive="PRS10255Yasimma"></relation>
+           <relation name="snap:SonOf" active="PRS6567Makwanne" passive="PRS9953WaldaMi"></relation>
+           <relation name="snap:SonOf" active="PRS6567Makwanne" passive="PRS9235Tananna"></relation>
          </listRelation>
          <listBibl type="secondary">
            <bibl>
