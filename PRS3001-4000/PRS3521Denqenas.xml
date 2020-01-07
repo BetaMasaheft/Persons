@@ -53,6 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change when="2020-01-03" who="DE">Added information, corrected transliteration</change>
+         <change when="2020-01-07" who="DE">Added bibliography</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -79,6 +80,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <death when="1912"></death>
             </person>
          </listPerson>
+         <listBibl type="secondary">
+           <bibl>
+             <ptr target="bm:Zewde2005Denqenas"/>
+           </bibl>
+         </listBibl>
          <listRelation>
            <relation name="snap:DaughterOf" active="PRS3521Denqenas" passive="PRS7018MercaWa"></relation>
            <relation name="snap:DaughterOf" active="PRS3521Denqenas" passive="PRS8726sellasD"></relation>
@@ -90,6 +96,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
            <relation name="snap:MotherOf" active="PRS3521Denqenas" passive="PRS2759BezuGab"></relation>
            <relation name="betmas:wifeOf" active="PRS3521Denqenas" passive="PRS9143TaklaGi"></relation>
          </listRelation>
+
       </body>
    </text>
 </TEI>
