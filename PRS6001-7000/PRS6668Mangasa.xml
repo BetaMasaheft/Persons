@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Mängäša Yoḥannǝs</title>
+            <title>Mangašā Yoḥānnǝs</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -51,19 +51,37 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change when="2020-01-07" who="DE">Added information and bibliography.</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Mängäša Yoḥannǝs
-               </persName>
-               <occupation> ras </occupation>
+              <persName xml:id="n1" xml:lang="am">መንገሻ፡ ዮሐንስ፡</persName>
+               <persName corresp="#n1" xml:lang="am" type="normalized">Mangašā Yoḥannǝs</persName>
+               <persName><roleName type="title">rās</roleName></persName>
+               <occupation type="political"></occupation>
+               <birth when="1868">He was a son of <persName ref="PRS10378Yohanne"></persName> and
+               <persName ref="PRS9862Walatta"></persName>.</birth>
+               <floruit notBefore="1889" notAfter="1906">
+                 In <date>1889-1906</date> he was a governor of <placeName ref="LOC6569Tegray"></placeName>.
+               </floruit>
+               <death when="1906"><placeName ref="LOC1464Ankoba"></placeName></death>
             </person>
          </listPerson>
+         <listBibl type="secondary">
+           <bibl>
+             <ptr target="bm:Tsegay2007Managasha"/>
+           </bibl>
+         </listBibl>
+         <listRelation>
+           <relation name="betmas:husbandOf" active="PRS6668Mangasa" passive="PRS5831KafayWa"></relation>
+           <relation name="snap:SonOf" active="PRS6668Mangasa" passive="PRS10378Yohanne"></relation>
+           <relation name="snap:SonOf" active="PRS6668Mangasa" passive="PRS9862Walatta"></relation>
+           <relation name="snap:FatherOf" active="PRS6668Mangasa" passive="PRS8802seyyumM"></relation>
+           <relation name="snap:GrandfatherOf" active="PRS6668Mangasa" passive="PRS6665Mangasa"></relation>
+         </listRelation>
       </body>
    </text>
 </TEI>

@@ -1,16 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="PRS12701Marr"
-     xml:lang="en"
-     type="pers">
-    <teiHeader xml:base="https://betamasaheft.eu/">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12796WaldaM" xml:lang="en" type="pers">
+    <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Nicholas Marr</title>
+                <title>Walda Mikāʾel</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DE"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -31,13 +26,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </fileDesc>
         <encodingDesc>
             <p>A digital born TEI file</p>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
-            <xi:fallback>
-               <p>Definitions of prefixes used.</p>
-            </xi:fallback>
-         </xi:include>
-      </encodingDesc>
+        </encodingDesc>
         <profileDesc>
             <creation/>
             <abstract>
@@ -52,24 +41,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="DE" when="2019-05-31">Created entity</change>
-            <change when="2020-01-02" who="DE">Corrected language</change>
+            <change who="DE" when="2020-01-02">Created entity</change>
         </revisionDesc>
     </teiHeader>
-    <text xml:base="https://betamasaheft.eu/">
+    <text>
         <body>
             <listPerson>
-                <person sameAs="Q116309" sex="1">
-                    <persName xml:lang="en" xml:id="n1">Nicholas Marr</persName>
-                    <faith type="notSpecified"/>
-                    <occupation type="academic"/>
-                    <nationality type="Russia/USSR"/>
-                    <birth>1864</birth>
-                    <death>1934</death>
-                    <floruit/>
+                <person sex="1">
+                    <persName xml:lang="gez" xml:id="n1">ወልደ፡ ሚካኤል፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walda Mikāʾel</persName>
+            <persName><roleName type="title">daǧǧāzmāč</roleName></persName>
+                    <nationality type="Ethiopia"/>
                 </person>
-            </listPerson>
-         <!---->
+            </listPerson><!---->
         </body>
     </text>
 </TEI>

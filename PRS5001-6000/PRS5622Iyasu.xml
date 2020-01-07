@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Iyasu</title>
+            <title>ʾIyāsu</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -51,19 +51,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change when="2020-01-02" who="DE">Corrected transliteration, added information</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Iyasu
+               <persName xml:lang="gez" xml:id="n1">ኢያሱ፡
                </persName>
-               <occupation> nǝburä ǝd </occupation>
+               <persName corresp="#n1" xml:lang="gez" type="normalized">ʾIyāsu</persName>
+               <persName><roleName type="title">nǝbura ʾǝd</roleName></persName>
+               <nationality type="Ethiopia"></nationality>
+               <death when="1891"></death>
             </person>
          </listPerson>
+         <listBibl type="secondary">
+           <bibl>
+             <ptr target="bm:Chernetsov2007Hist"/>
+             <citedRange>44a</citedRange>
+           </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
