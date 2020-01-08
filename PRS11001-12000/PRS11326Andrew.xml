@@ -54,17 +54,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <revisionDesc>
          <change who="PL" when="2016-11-17">Created XML record from Ethio authority google spreadsheet</change>
          <change who="PL" when="2019-03-27">removed occupation containing St, Saint, bibl, biblical or prophet, added keyword. See https://github.com/BetaMasaheft/Documentation/issues/1104</change>
+         <change who="DR" when="2019-12-20">Added wikidata and occupation</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  <forename/>
-                  <surname>Andrew</surname>
-               </persName>
-               <!--saint, apostle-->
+            <person sex="1" sameAs="wd:Q43399">
+               <persName>Andrew</persName>
+               <occupation type="ecclesiastic">Apostle</occupation>
             </person>
          </listPerson>
       </body>

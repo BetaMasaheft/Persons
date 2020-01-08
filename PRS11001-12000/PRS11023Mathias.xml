@@ -48,17 +48,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-11-17">Created XML record from Ethio authority google spreadsheet</change>
+         <change who="DR" when="2019-12-20">Added wikidata</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  <forename/>
-                  <surname>Mathias</surname>
+            <person sex="1" sameAs="wd:Q44020">
+               <persName>Mathias
                </persName>
-               <occupation>Apostle</occupation>
+               <occupation type="ecclesiastic">Apostle</occupation>
             </person>
          </listPerson>
       </body>
