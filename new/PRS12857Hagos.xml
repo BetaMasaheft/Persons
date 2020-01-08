@@ -1,18 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="PRS12008TaklaHaymanotAnbasat"
-     xml:lang="en"
-     type="pers">
-    <teiHeader xml:base="https://betamasaheft.eu/">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12857Hagos" xml:lang="en" type="pers">
+    <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Takla Hāymānot</title>
+                <title>Ḥagos</title>
                 <editor role="generalEditor" key="AB"/>
-                <editor key="ES"/>
+                <editor key="DE"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
             <publicationStmt>
@@ -31,13 +26,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </fileDesc>
         <encodingDesc>
             <p>A digital born TEI file</p>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
-            <xi:fallback>
-               <p>Definitions of prefixes used.</p>
-            </xi:fallback>
-         </xi:include>
-      </encodingDesc>
+        </encodingDesc>
         <profileDesc>
             <creation/>
             <abstract>
@@ -49,26 +38,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <language ident="it">Italian</language>
                 <language ident="am">Amharic</language>
                 <language ident="gez">Gǝʿǝz</language>
+                <language ident="ti">Tigrinya</language>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="ES" when="2018-04-18">Created entity</change>
-            <change who="DR" when="2020-01-08">Moved relation from occupation to listRelation</change>
+            <change who="DE" when="2020-01-02">Created entity</change>
+            <change when="2020-01-07" who="DE">Changed language of a personal name.</change>
         </revisionDesc>
     </teiHeader>
-    <text xml:base="https://betamasaheft.eu/">
+    <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ተክለ፡ ሃይማኖት፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Takla Hāymānot</persName>
-                    <faith type="EOTC"/>
-                    <occupation type="ecclesiastic"/>
-                    <listRelation>
-                        <relation name="saws:hasOwned" active="PRS12008TaklaHaymanotAnbasat" passive="ESakm010"/>
-                    </listRelation>
+                    <persName xml:lang="ti" xml:id="n1">ሐጎስ፡</persName>
+                    <persName xml:lang="ti" type="normalized" corresp="#n1">Ḥagos</persName>
+<persName><roleName type="title">daǧǧāzmāč</roleName></persName>
+                    <nationality type="Ethiopia"/>
+
                 </person>
-            </listPerson>
+            </listPerson><!---->
         </body>
     </text>
 </TEI>
