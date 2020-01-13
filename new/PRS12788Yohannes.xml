@@ -30,9 +30,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <profileDesc>
             <creation/>
             <abstract>
-              <p>Yoḥannǝs is mentioned as
-                commissioner or owner in <ref type="mss"
-                corresp="RNBefns7"/>, along with two other persons.</p>
+              <p/>
             </abstract>
             <langUsage>
                 <language ident="en">English</language>
@@ -53,13 +51,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <persName xml:lang="gez" xml:id="n1">ዮሐንስ</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Yoḥannǝs</persName>
                     <faith type="EOTC"/>
-                    <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <nationality type="Ethiopia"/>                    
                 </person>
                 <listRelation>
-                    <relation name="saws:isRelatedTo" active="PRS12788Yohannes" passive="RNBefns7"/>
+                    <relation name="saws:isRelatedTo"
+                      active="PRS12788Yohannes" passive="RNBefns7">
+                    <desc>Yoḥannǝs is mentioned as
+                      commissioner or owner in <ref type="mss"
+                      corresp="RNBefns7"/>, along with two other persons.</desc>
+                    </relation>
                 </listRelation>
             </listPerson><!---->
         </body>
