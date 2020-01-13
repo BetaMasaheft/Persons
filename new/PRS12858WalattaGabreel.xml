@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>WalattaGabreel</title>
+                <title>Walatta Gabrǝʾel</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DN"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -30,7 +30,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <profileDesc>
             <creation/>
             <abstract>
-                <p>Depicted as donor in <ref type="mss" corresp="IVef17"/></p>
+                <p/>
             </abstract>
             <langUsage>
                 <language ident="en">English</language>
@@ -48,16 +48,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="2">
-                    <persName xml:lang="gez" xml:id="n1"> ወለተ፡ ገብርኤል፡</persName>
+                    <persName xml:lang="gez" xml:id="n1">ወለተ፡ ገብርኤል፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Walatta Gabrǝʾel</persName>
                     <faith type="EOTC"/>
                     <occupation type="other"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit>18th century</floruit>
                 </person>
                 <listRelation>
-                    <relation name="saws:isRelatedTo" active="PRS12858WalattaGabreel" passive="IVef17"/>
+                    <relation name="saws:isRelatedTo" active="PRS12858WalattaGabreel" passive="IVef17">
+                    <desc>Depicted as donor in <ref type="mss" corresp="IVef17"/>.</desc>
+                      </relation>
                 </listRelation>
             </listPerson><!---->
         </body>
