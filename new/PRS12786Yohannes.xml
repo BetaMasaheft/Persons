@@ -30,9 +30,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <profileDesc>
             <creation/>
             <abstract>
-              <p>ʾАbuna Yoḥannǝs is mentioned as
-                commissioner or owner in <ref type="mss"
-                corresp="RNBefns7"/>, along with two other persons.</p>
+            <p/>
             </abstract>
             <langUsage>
                 <language ident="en">English</language>
@@ -56,12 +54,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <faith type="EOTC"/>
                     <occupation type="other"/>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
                 </person>
                 <listRelation>
-                    <relation name="saws:isRelatedTo" active="PRS12786Yohannes" passive="RNBefns7"/>
+                    <relation name="saws:isRelatedTo" active="PRS12786Yohannes" passive="RNBefns7">
+                      <desc>ʾАbuna Yoḥannǝs is mentioned as
+                        commissioner or owner in <ref type="mss"
+                        corresp="RNBefns7"/> along with two other persons.</desc>
+                      </relation>
                 </listRelation>
             </listPerson><!---->
         </body>
