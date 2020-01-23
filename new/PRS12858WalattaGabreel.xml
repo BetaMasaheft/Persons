@@ -1,16 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="PRS12404DanielBezunah"
-     xml:lang="en"
-     type="pers">
-    <teiHeader xml:base="https://betamasaheft.eu/">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12858WalattaGabreel" xml:lang="en" type="pers">
+    <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>DanielBezuneh</title>
+                <title>Walatta Gabrǝʾel</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DN"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -18,7 +13,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
                 <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
-                            Forschungsumgebung / beta maṣāḥǝft</publisher>
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
                 <pubPlace>Hamburg</pubPlace>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
@@ -31,13 +26,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </fileDesc>
         <encodingDesc>
             <p>A digital born TEI file</p>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
-            <xi:fallback>
-               <p>Definitions of prefixes used.</p>
-            </xi:fallback>
-         </xi:include>
-      </encodingDesc>
+        </encodingDesc>
         <profileDesc>
             <creation/>
             <abstract>
@@ -52,29 +41,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="DN" when="2018-12-17">Created entity</change>
+            <change who="DN" when="2020-01-08">Created entity</change>
         </revisionDesc>
     </teiHeader>
-    <text xml:base="https://betamasaheft.eu/">
+    <text>
         <body>
             <listPerson>
-                <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ዳንኤል᎓ ብዙነህ᎓ </persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Dānǝʾel Bǝzunah</persName>
+                <person sex="2">
+                    <persName xml:lang="gez" xml:id="n1">ወለተ፡ ገብርኤል፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walatta Gabrǝʾel</persName>
                     <faith type="EOTC"/>
-                    <occupation type="ecclesiastic"/>
-                    <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <occupation type="other"/>
+                    <floruit>18th century</floruit>
                 </person>
                 <listRelation>
-                    <relation name="saws:hasOwned"
-                         active="PRS12404DanielBezunah"
-                         passive="IVpapadopulokeramevs3"/>
+                    <relation name="saws:isRelatedTo" active="PRS12858WalattaGabreel" passive="IVef17">
+                    <desc>Depicted as donor in <ref type="mss" corresp="IVef17"/>.</desc>
+                      </relation>
                 </listRelation>
-            </listPerson>
-         <!---->
+            </listPerson><!---->
         </body>
     </text>
 </TEI>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="PRS12387PapadopuloKeramevs"
@@ -59,19 +59,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1" sameAs="wd:Q4344608">
-                    <persName xml:lang="gez" xml:id="n1">Afanasij Ivanovič Papadopulo-Keramevs</persName>                  
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="rus" xml:id="n1">Afanasij Ivanovič Papadopulo-Keramevs</persName>
+                    <persName xml:lang="rus" type="normalized" corresp="#n1"/>
                     <faith type="Orthodox"/>
-                    <occupation type="ecclesiastic"/>
                     <nationality type="Greece"/>
                     <birth when="1856"/>
                     <death when="1912"/>
-                    <floruit/>
                 </person>
                 <listRelation>
                     <relation name="saws:hasOwned"
                          active="PRS12387PapadopuloKeramevs"
-                         passive="IVpapadopulokeramevs3"/>
+                         passive="IVEf35"/>
                 </listRelation>
             </listPerson>
          <!---->
