@@ -54,6 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2017-01-18">Complete record</change>
+         <change who="SG" when="2020-01-26">Correction to transcription, realtion</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -61,6 +62,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ጢሞቴዎስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Ṭimotewos</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Timothy III (Salophakiolos)</persName>
        
                <persName>
@@ -79,7 +81,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             
             <listRelation>
               
-               <relation name="saws:isAttributedAuthorOf"
+               <relation name="snap:AllianceWith"
                          active="PRS9524Timothy"
                          passive="PRS10714Zeno"/>
                
