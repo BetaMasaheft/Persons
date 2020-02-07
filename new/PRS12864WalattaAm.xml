@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Walatta ʾAmmānuʾel</title>
+                <title>Walatta ʾAmānuʾel</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DE"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,6 +42,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="DE" when="2020-02-05">Created entity</change>
+            <change when="2020-02-07" who="DE">Corrected transliteration.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -49,9 +50,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPerson>
                 <person sex="2">
                     <persName xml:lang="gez" xml:id="n1">ወለተ፡ አማኑኤል፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walatta ʾAmmānuʾel</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walatta ʾAmānuʾel</persName>
                 </person>
-            </listPerson><!---->
+            </listPerson>
+            <!---->
         </body>
     </text>
 </TEI>
