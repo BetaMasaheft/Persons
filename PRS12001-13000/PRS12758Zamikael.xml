@@ -42,6 +42,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="SG" when="2019-08-23">Created entity</change>
+            <change who="SG" when="2020-01-26">Correction to relation</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -57,7 +58,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <floruit/>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS12758Zamikael" passive="PRS12758Zamikael"/>
+                    <relation name="lawd:hasAttestation" active="PRS12758Zamikael" passive="BLorient715"/>
                 </listRelation>
             </listPerson><!---->
         </body>
