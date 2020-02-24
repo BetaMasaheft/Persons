@@ -49,6 +49,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </profileDesc>
       <revisionDesc>
 
+<change when="2020-02-24" who="DE">Added data and bibliography.</change>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
@@ -67,6 +68,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <death when="1910"></death>
             </person>
          </listPerson>
+         <listBibl type="secondary">
+           <bibl>
+             <ptr target="bm:Imperato2007Leontiev"/>
+           </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
