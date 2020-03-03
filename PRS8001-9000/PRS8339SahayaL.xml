@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Ḍäḥayä Lǝdda</title>
+            <title>Ḍaḥaya Lǝddā</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -41,8 +41,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
-            <language ident="ar">Arabic</language>
-            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
@@ -51,6 +49,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="DR" when="2020-03-03">Updated name</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -58,10 +57,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPerson>
             <person sex="1">
                <persName>
-                  
-                  Ḍäḥayä Lǝdda
+                  <persName xml:lang="gez" xml:id="n1">ፀሐየ፡ ልዳ፡</persName>
+                  <persName xml:lang="gez" type="normalized" corresp="#n1">Ḍaḥaya Lǝddā</persName> 
                </persName>
-               <occupation> käntiba </occupation>
+               <occupation type="political">kantibā</occupation>
             </person>
          </listPerson>
       </body>
