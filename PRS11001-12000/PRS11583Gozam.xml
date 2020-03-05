@@ -53,6 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <revisionDesc>
             <change who="ES" when="2017-04-27">Created entity</change>
             <change who="DR" when="2018-05-23">Added fidal from transcription</change>
+            <change when="2020-03-05" who="ES">corrected relation</change>
         </revisionDesc>
     </teiHeader>
     <text xml:base="https://betamasaheft.eu/">
@@ -69,7 +70,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <relation name="lawd:hasAttestation"
                          active="PRS11583Gozam"
                          passive="LIT4275ChronAmdS"/>
-                    <relation name="saws:isRelatedTo"
+                    <relation name="syriaca:has-relation-to-place"
                          active="PRS11583Gozam"
                          passive="LOC3549Gojjam"/>
                 </listRelation>
