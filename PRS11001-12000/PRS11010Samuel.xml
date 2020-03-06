@@ -59,14 +59,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <faith type="EOTC"/>
                 <occupation type="literary">scribe</occupation>
                 <nationality type="Ethiopia"/>
-                <birth/>
-                <death/>
-                <floruit/>
                 </person>
          </listPerson>
          <listRelation>
-             <relation name="saws:isRelatedTo" active="PRS11010Samuel" passive="BNFabb137"/>
-             <relation name="saws:isRelatedTo" active="PRS11010Samuel" passive="BNFet50"/>
+             <relation name="lawd:hasAttestation" active="PRS11010Samuel" passive="BNFabb137"/>
+            <relation name="lawd:hasAttestation" active="PRS11010Samuel" passive="BNFet50"/>
          </listRelation>
       </body>
    </text>

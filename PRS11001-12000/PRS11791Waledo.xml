@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt>
-                <title>Walǝdo</title>
+                <title>Waldo</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="SG"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -60,16 +60,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person sex="1">
                  
                     <persName xml:lang="gez" xml:id="n1" type="birth">ወልዶ፡</persName>
-                    <persName xml:lang="gez" corresp="#n1" type="normalized">Walǝdo</persName>
+                    <persName xml:lang="gez" corresp="#n1" type="normalized">Waldo</persName>
                         
                         <nationality type="Ethiopia"/>
                         <faith type="EOTC"/>
-                        
-                        
-                        
-                    
-                        
-                        
                     </person>
                     <listRelation>
                         <relation name="saws:isRelatedTo"
@@ -82,13 +76,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         
                     </listRelation>
             </listPerson>
-            <listBibl type="editions">
+            <listBibl type="secondary">
                 
                 <bibl>
                     <ptr target="bm:Pereira1892Susenyos"/>
                 </bibl>
-            </listBibl>
-            <listBibl type="translation">
                 <bibl>
                     <ptr target="bm:Pereira1900Susenyos"/>
                 </bibl>
