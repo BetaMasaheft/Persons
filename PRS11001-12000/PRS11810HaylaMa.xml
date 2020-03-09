@@ -52,6 +52,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="MV" when="2018-01-11">Created entity</change>
+            <change who="DR" when="2020-03-09">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text xml:base="https://betamasaheft.eu/">
@@ -65,7 +66,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <occupation type="ecclesiastic">ʾalaqā</occupation>
                 </person>
                 <listRelation>
-                    <relation name="saws:hasWritten" active="PRS11810HaylaMa" passive="BAVet110"/>
+                    <relation name="saws:isCopierOf" active="PRS11810HaylaMa" passive="BAVet110"/>
                 </listRelation>
             </listPerson>
         </body>

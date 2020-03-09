@@ -12,7 +12,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
 
             <titleStmt>
-                <title>Baeda Maryam</title>
+                <title>Baʾǝda Māryām</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DN"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -55,6 +55,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="DN" when="2019-06-24">Created entity</change>
+            <change who="DR" when="2020-03-09">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text xml:base="https://betamasaheft.eu/">
@@ -65,17 +66,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Baʾǝda Māryām</persName>
                     <faith type="EOTC"/>
                     <occupation type="literary"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
                 </person>
                 <listRelation>
-                    <relation name="saws:hasWritten"
+                    <relation name="saws:isCopierOf"
                          active="PRS12734BaedaMaryam"
                          passive="IVkoriander5"/>
                 </listRelation>
             </listPerson>
-         <!---->
         </body>
     </text>
 </TEI>
