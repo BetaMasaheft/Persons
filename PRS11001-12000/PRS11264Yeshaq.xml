@@ -61,12 +61,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <occupation type="other">commissioner</occupation>
             </person>
             <listRelation>
-               <relation name="saws:isMemberOf"
-                         active="PRS11264Yeshaq"
-                         passive="PRS11208HouseTakla"/>
-               <relation name="saws:isMemberOf"
-                         active="PRS11264Yeshaq"
-                         passive="PRS11266HouseBasa"/>
+               <relation name="foaf:member"
+                         active="PRS11208HouseTakla"
+                         passive="PRS11264Yeshaq"/>
+               <relation name="foaf:member"
+                         active="PRS11266HouseBasa"
+                         passive="PRS11264Yeshaq"/>
                <relation name="lawd:hasAttestation"
                          active="PRS11264Yeshaq"
                          passive="BNFet135"/>

@@ -65,9 +65,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="lawd:hasAttestation"
                          active="PRS11225FereMi"
                          passive="BAVet5#a1"/>
-               <relation name="saws:isMemberOf"
-                         active="PRS11225FereMi"
-                         passive="PRS11208HouseTakla"/>
+               <relation name="foaf:member"
+                         active="PRS11208HouseTakla"
+                         passive="PRS11225FereMi"/>
             </listRelation>
          </listPerson>
       </body>

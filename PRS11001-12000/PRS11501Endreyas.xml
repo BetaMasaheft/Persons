@@ -69,9 +69,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="saws:hasWritten"
                          active="PRS11501Endreyas"
                          passive="BAVet8#a1"/>
-               <relation name="saws:isMemberOf"
-                         active="PRS11501Endreyas"
-                         passive="PRS11207Ewostateans"/>
+               <relation name="foaf:member"
+                         active="PRS11207Ewostateans"
+                         passive="PRS11501Endreyas"/>
             </listRelation>
          </listPerson>
       </body>
