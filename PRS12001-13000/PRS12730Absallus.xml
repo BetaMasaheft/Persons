@@ -53,6 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="DN" when="2019-06-17">Created entity</change>
+            <change who="DR" when="2020-03-09">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text xml:base="https://betamasaheft.eu/">
@@ -63,17 +64,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAbsallus</persName>
                     <faith type="EOTC"/>
                     <occupation type="ecclesiastic"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
                 </person>
                 <listRelation>
-                    <relation name="saws:hasWritten"
+                    <relation name="saws:isCopierOf"
                          active="PRS12730Absallus"
                          passive="IVorlov40"/>
                 </listRelation>
             </listPerson>
-         <!---->
         </body>
     </text>
 </TEI>
