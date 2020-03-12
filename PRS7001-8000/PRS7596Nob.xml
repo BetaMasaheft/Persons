@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
@@ -54,48 +54,49 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-11-28">Complete record</change>
+         <change when="2020-03-12" who="DE">Corrected transliteration.</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
-              
+
                   <persName xml:lang="gez" xml:id="n1" type="birth">ኖብ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Nob</persName>
-              
+
                <persName>
                   <roleName type="title">nǝbur ǝd, ʾabbā</roleName>
                </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                <occupation type="ecclesiastic">abbot of Dabra Dāmmo</occupation>
-                  
-               <floruit when="1450">He was a monk from the monastery of 
-                  <placeName ref="LOC2241DabraB">Dabra Bakwǝr</placeName> who was appointed 
+
+               <floruit when="1450">He was a monk from the monastery of
+                  <placeName ref="LOC2241DabraB">Dabra Bakʷǝr</placeName> who was appointed
                   as <persName ref="PRS7596Nob">
-                     <roleName type="title">nǝbura ʾǝd</roleName> Nob</persName> of <placeName ref="INS0105DD">Dabra Dāmmo ʾAbuna ʾAragāwi</placeName> in <date>1450</date>. 
+                     <roleName type="title">nǝbura ʾǝd</roleName> Nob</persName> of <placeName ref="INS0105DD">Dabra Dāmmo ʾAbuna ʾAragāwi</placeName> in <date>1450</date>.
                   However, soon after <date>1450</date>
-                  <persName ref="PRS7596Nob">Nob</persName> fell out 
-                  of the favour with 
+                  <persName ref="PRS7596Nob">Nob</persName> fell out
+                  of the favour with
                   <persName ref="PRS10626ZaraY">
-                     <roleName type="title">ʾaṣe</roleName> Zarʾa Yāʿqob</persName> 
+                     <roleName type="title">ʾaṣe</roleName> Zarʾa Yāʿqob</persName>
                   and demoted from <persName ref="PRS7596Nob">
                      <roleName type="title">nǝbura ʾǝd</roleName>Nob</persName>.</floruit>
-              
-               </person>  
+
+               </person>
                <listRelation>
-                  
-                  
+
+
                   <relation name="snap:AllianceWith"
                          active="PRS7596Nob"
                          passive="PRS10445Yonaso"/>
                   <relation name="snap:AllianceWith"
                          active="PRS7596Nob"
                          passive="PRS1846AmdaMa"/>
-                
-                  
-                  
+
+
+
                </listRelation>
          </listPerson>
          <listBibl type="editions">
@@ -104,10 +105,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </bibl>
          </listBibl>
          <listBibl type="secondary">
-            <bibl> 
+            <bibl>
                <ptr target="bm:BoscTiesseDerat2007Nob"/>
             </bibl>
-            
+
          </listBibl>
       </body>
    </text>
