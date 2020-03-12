@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
@@ -54,6 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-10-24">Complete record</change>
+         <change when="2020-03-12" who="DE">Corrected transliteration.</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -68,24 +69,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <occupation type="ecclesiastic">abbot</occupation>
-             
-               <floruit notBefore="1400" notAfter="1499"> He was a monk of <placeName ref="LOC2358DabraS">Dabra Ṣarabi</placeName> in 
-                  <placeName ref="LOC6569Tegray">Tǝgrāy </placeName> in the 15th or 16th century. He was a member of <persName ref="PRS11207Ewostateans">ʾEwosṭāteans</persName>. 
-                  He came from the district of 
-                  <placeName ref="LOC4564Maragw">Marāgwǝz</placeName> in the province of <placeName ref="LOC5575Saraye">Sarāye</placeName>
-                  and was initiated to monastic life by 
+
+               <floruit notBefore="1400" notAfter="1499"> He was a monk of <placeName ref="LOC2358DabraS">Dabra Ṣarabi</placeName> in
+                  <placeName ref="LOC6569Tegray">Tǝgrāy </placeName> in the 15th or 16th century. He was a member of <persName ref="PRS11207Ewostateans">ʾEwosṭāteans</persName>.
+                  He came from the district of
+                  <placeName ref="LOC4564Maragw">Marāgʷǝz</placeName> in the province of <placeName ref="LOC5575Saraye">Sarāye</placeName>
+                  and was initiated to monastic life by
                   <persName ref="PRS7769Pawlos">
                      <roleName type="title">ʾabbā</roleName>  Ṗāwlos</persName>,
-                  abbot <placeName ref="LOC2358DabraS">Dabra Ṣarabi</placeName>. 
+                  abbot <placeName ref="LOC2358DabraS">Dabra Ṣarabi</placeName>.
                   He succeeded <persName ref="PRS7769Pawlos">
                      <roleName type="title">ʾabbā</roleName>
-                      Ṗāwlos</persName> after his death. 
+                      Ṗāwlos</persName> after his death.
                   He was succeeded by <persName ref="PRS5643Iyosayas">
                      <roleName type="title">ʾabbā</roleName>
                       ʾIyosayās</persName>.</floruit>
-               <death notBefore="1550" cert="medium"> 
+               <death notBefore="1550" cert="medium">
                   His death is attributed to the group of <persName ref="ETH1973Oromo">Oromo</persName>.</death>
-            </person>  
+            </person>
             <listRelation>
               <relation name="snap:AllianceWith"
                          active="PRS1906Ananyao"
@@ -100,7 +101,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          active="PRS1906Ananyao"
                          passive="LIT1419GadlaA"/>
             </listRelation>
-            
+
          </listPerson>
          <listBibl type="editions">
             <bibl>
@@ -110,16 +111,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <ptr target="bm:Lusini1991AnanyaMiracoli"/>
             </bibl>
          </listBibl>
-         
+
          <listBibl type="secondary">
-            <bibl> 
+            <bibl>
                <ptr target="bm:Lusini2003Ananya"/>
             </bibl>
-            <bibl> 
+            <bibl>
                <ptr target="bm:Kaplan1984Monastic"/>
                <citedRange unit="page">136</citedRange>
             </bibl>
-            
+
          </listBibl>
       </body>
    </text>

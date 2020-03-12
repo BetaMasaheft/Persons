@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
@@ -59,7 +59,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-09-09">Complete record</change>
-         <change who="PL" when="2019-03-27">removed occupation containing St, Saint, bibl, biblical or prophet, added keyword. See https://github.com/BetaMasaheft/Documentation/issues/1104</change>
+         <change who="PL" when="2019-03-27">removed occupation containing St, Saint, bibl, biblical or prophet, added keyword.
+           See https://github.com/BetaMasaheft/Documentation/issues/1104</change>
+           <change when="2020-03-12" who="DE">Corrected transliteration.</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -76,15 +78,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <!--saint-->
                <birth>He was born in <placeName ref="LOC5454Sagla">Saglā</placeName>
                </birth>
-               <floruit notBefore="1300" notAfter="1399">He was one of the most venerated saints of the Ethiopian Orthodox Church and a moral reformer of the 14th century. He joined the monastery of 
-                  <placeName ref="LOC2278DabraG">Dabra Gwal</placeName> and became a monk. He made reform efforts to monasticism, the church hierarchy and the monarchy. 
-                  He tried to break the existing custom according to which monks and nuns were allowed to live together. He made an effort to moral reform of the royal court. In this regard, 
-                  he reproved King <persName ref="PRS1854Amdase">ʿAmda Ṣǝyon I</persName> for his marriage to his father's widow and for keeping numerous concubines. 
+               <floruit notBefore="1300" notAfter="1399">He was one of the most venerated saints of the Ethiopian Orthodox Church and a moral reformer of the 14th century. He joined the monastery of
+                  <placeName ref="LOC2278DabraG">Dabra Gʷal</placeName> and became a monk. He made reform efforts to monasticism, the church hierarchy and the monarchy.
+                  He tried to break the existing custom according to which monks and nuns were allowed to live together. He made an effort to moral reform of the royal court. In this regard,
+                  he reproved King <persName ref="PRS1854Amdase">ʿAmda Ṣǝyon I</persName> for his marriage to his father's widow and for keeping numerous concubines.
                </floruit>
-          
-            </person>  
+
+            </person>
             <listRelation>
-               
+
                <relation name="snap:AllianceWith"
                          active="PRS2528Basalota"
                          passive="PRS1955Anorewos"/>
@@ -100,7 +102,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="ecrm:P129i_is_subject_of"
                          active="PRS2528Basalota"
                          passive="LIT1428GadlaB"/>
-               
+
             </listRelation>
          </listPerson>
          <listBibl type="editions">
@@ -109,13 +111,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </bibl>
          </listBibl>
          <listBibl type="secondary">
-            <bibl> 
+            <bibl>
                <ptr target="bm:SamuelNosnitsin2003BasalotaMikael"/>
             </bibl>
-            <bibl> 
+            <bibl>
                <ptr target="bm:Taddesse1972Church"/>
                <citedRange unit="page">112, 114-17, 177-8, 187, 188, 223</citedRange>
-            </bibl>  
+            </bibl>
          </listBibl>
       </body>
    </text>

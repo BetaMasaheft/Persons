@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
@@ -55,6 +55,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-10-28">Complete record</change>
          <change when="2017-01-03" who="ES">Corrected tag</change>
+         <change when="2020-03-12" who="DE">Corrected transliteration.</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -69,31 +70,31 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <occupation type="ecclesiastic">abbot</occupation>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
-              
+
                <floruit notBefore="1705" notAfter="1728">
-                  He was a monk of the monastery of <placeName ref="LOC4417Magwin">Magwinā</placeName>
-                  in northern <placeName ref="LOC3577Gondar">Gondar</placeName> and 
+                  He was a monk of the monastery of <placeName ref="LOC4417Magwin">Magʷinā</placeName>
+                  in northern <placeName ref="LOC3577Gondar">Gondar</placeName> and
                   <persName ref="PRS10655Zawalda">
                      <roleName type="title">ʾǝč̣č̣age</roleName>
-                  </persName> of <placeName ref="INS0341DL">Dabra Libānos</placeName> between <date>1725-1728</date>. 
-                  He succceeded <persName ref="PRS3669edaKres">ʾƎdā Krǝstos</persName> as the head of  <placeName ref="LOC4417Magwin">Magwinā</placeName> in<date>1706</date>, 
+                  </persName> of <placeName ref="INS0341DL">Dabra Libānos</placeName> between <date>1725-1728</date>.
+                  He succceeded <persName ref="PRS3669edaKres">ʾƎdā Krǝstos</persName> as the head of  <placeName ref="LOC4417Magwin">Magʷinā</placeName> in<date>1706</date>,
                   which was an important stronghold of the Unionist movement at a time of great instability, caused by the doctrinal controversies between
-                  the Qǝbāt party and the Tawāḥǝdo supporters. He also played his role in reconciling 
+                  the Qǝbāt party and the Tawāḥǝdo supporters. He also played his role in reconciling
                   <persName ref="PRS9152TaklaHa">
-                     <roleName type="title">ʾaṣe </roleName> Takla Hāymānot I</persName> with  
+                     <roleName type="title">ʾaṣe </roleName> Takla Hāymānot I</persName> with
                   <persName ref="PRS5616IyasuI">
                      <roleName type="title">ʾaṣe </roleName> ʾIyāsu I</persName> in <date>1706</date>.
 
 He was appointed as the 34th <persName ref="PRS10655Zawalda">
                      <roleName type="title">ʾǝč̣č̣age</roleName>
                   </persName> of  <placeName ref="INS0341DL">Dabra Libānos</placeName> in <date> 1725</date>.
-                  
+
 
                   But he was deposed three years later in <date>1728</date>. </floruit>
-           
+
                </person>
                <listRelation>
-                  
+
                   <relation name="snap:AllianceWith"
                          active="PRS10655Zawalda"
                          passive="PRS3669edaKres"/>
@@ -109,10 +110,10 @@ He was appointed as the 34th <persName ref="PRS10655Zawalda">
 
          </listBibl>
          <listBibl type="secondary">
-      
-            <bibl> 
+
+            <bibl>
                <ptr target="bm:Pisani2014ZawaldaMaryam"/>
-            </bibl>  
+            </bibl>
          </listBibl>
       </body>
    </text>

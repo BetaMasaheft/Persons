@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
@@ -55,56 +55,57 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2017-01-09">Complete record</change>
          <change who="SG" when="2017-02-15">some changes</change>
+         <change when="2020-03-12" who="DE">Corrected transliteration.</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
-              
+
                   <persName xml:lang="gez" xml:id="n1" type="birth">ሮቤል፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Robel</persName>
-                  
+
                <persName>
                   <roleName type="title">tǝgre makʷannǝn</roleName>
                </persName>
-                  
+
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                <occupation type="political">governor</occupation>
                   <birth notBefore="1475" notAfter="1485"/>
-               <floruit notBefore="1524" notAfter="1527">He was the leading 
-                  Tǝgrāyān lord of his time, appointed by 
+               <floruit notBefore="1524" notAfter="1527">He was the leading
+                  Tǝgrāyān lord of his time, appointed by
                   <persName ref="PRS6229LebnaDe">
-                     <roleName type="title">ʾaṣe</roleName> Lǝbna Dǝngǝl</persName> 
+                     <roleName type="title">ʾaṣe</roleName> Lǝbna Dǝngǝl</persName>
                   as <persName ref="PRS8158Robel">
-                     <roleName type="title">tǝgre makʷannǝn</roleName>  
-                  </persName>in <date>1524</date>. He was  succeeded by 
-                  <persName ref="PRS9171TaklaIy">Takla ʾIyasus</persName> in <date>1527</date>. 
-                  However, even after  having been supplanted as 
+                     <roleName type="title">tǝgre makʷannǝn</roleName>
+                  </persName>in <date>1524</date>. He was  succeeded by
+                  <persName ref="PRS9171TaklaIy">Takla ʾIyasus</persName> in <date>1527</date>.
+                  However, even after  having been supplanted as
                 ,
                   <persName ref="PRS8158Robel">
                      <roleName type="title">tǝgre makʷannǝn </roleName> Robel</persName> continued to play a leading role in his native
-                  province, as a de facto leader of <placeName ref="LOC6569Tegray">Tǝgrāy </placeName> 
-                  nobles in run-up the battle of 
-                  <placeName ref="LOC5667Sember">Šǝmbǝrā Kwǝre</placeName>. </floruit>
-               <death when="1529">He was killed in the battle of 
+                  province, as a de facto leader of <placeName ref="LOC6569Tegray">Tǝgrāy </placeName>
+                  nobles in run-up the battle of
+                  <placeName ref="LOC5667Sember">Šǝmbǝrā Kʷǝre</placeName>. </floruit>
+               <death when="1529">He was killed in the battle of
                   <placeName ref="LOC5667Sember">Šǝmbǝrā Kʷǝre</placeName> by the Muslim forces in <date>1529</date>.</death>
-                  
-                  
-               </person>  
+
+
+               </person>
                <listRelation>
-                  
+
                   <relation name="snap:FatherOf" active="PRS8158Robel" passive="PRS1429AdmasMo"/>
                   <relation name="snap:BrotherOf" active="PRS8158Robel" passive="PRS9675UqbaMi"/>
-                  
+
                   <relation name="snap:AllianceWith"
                          active="PRS8158Robel"
                          passive="PRS6229LebnaDe"/>
                   <relation name="snap:GrandfatherOf"
                          active="PRS8158Robel"
                          passive="PRS8550sardaDe"/>
-              
+
                </listRelation>
          </listPerson>
          <listBibl type="editions">
@@ -113,10 +114,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </bibl>
          </listBibl>
          <listBibl type="secondary">
-            <bibl> 
+            <bibl>
                <ptr target="bm:Kleiner2010Robel"/>
             </bibl>
-          
+
          </listBibl>
       </body>
    </text>

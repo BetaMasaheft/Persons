@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
@@ -54,65 +54,66 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-09-12">Complete record</change>
+         <change when="2020-03-12" who="DE">Corrected transliteration.</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
-          
+
                   <persName xml:lang="gez" xml:id="n1" type="birth">ጴጥሮስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Ṗeṭros III</persName>
-              
+
                   <persName>
                   <roleName type="title">ʾabuna</roleName>
                </persName>
                   <occupation type="ecclesiastic">metropolitan</occupation>
                   <nationality type="Egypt"/>
                   <faith type="Coptic"/>
-                
-                  
-                  <floruit notBefore="1590" notAfter="1607">He was a metropolitan of the Ethiopian Orthodox Church 
+
+
+                  <floruit notBefore="1590" notAfter="1607">He was a metropolitan of the Ethiopian Orthodox Church
                      who succeeded <persName ref="PRS6070Krestodo">
                      <roleName type="title">ʾabuna
-                     </roleName> Krǝstodolu I</persName> in <date>1590</date> during the reign of  
-                     King <persName ref="PRS8550sardaDe">Śarḍa Dǝngǝl</persName>. 
-                     He played an important role in power succession after the death of  
-                     King <persName ref="PRS8550sardaDe">Śarḍa Dǝngǝl</persName> and 
+                     </roleName> Krǝstodolu I</persName> in <date>1590</date> during the reign of
+                     King <persName ref="PRS8550sardaDe">Śarḍa Dǝngǝl</persName>.
+                     He played an important role in power succession after the death of
+                     King <persName ref="PRS8550sardaDe">Śarḍa Dǝngǝl</persName> and
                      he supported strongly the young King  <persName ref="PRS10198Yaeqob">Yāʿqob</persName>
-                     for the throne, whom he accompanied in the battle against <persName ref="PRS9038Susenyos">Susǝnyos</persName>. He was killed in the battle together with the King  
-                     <persName ref="PRS10198Yaeqob">Yāʿqob</persName> by King <persName ref="PRS9038Susenyos">Susǝnyos'</persName> forces. 
-                     
+                     for the throne, whom he accompanied in the battle against <persName ref="PRS9038Susenyos">Susǝnyos</persName>. He was killed in the battle together with the King
+                     <persName ref="PRS10198Yaeqob">Yāʿqob</persName> by King <persName ref="PRS9038Susenyos">Susǝnyos'</persName> forces.
+
                   </floruit>
-               <death>He died on <date>10 March 1607</date> at <placeName ref="LOC3684Gwal">Gwal (Gol)</placeName>
+               <death>He died on <date>10 March 1607</date> at <placeName ref="LOC3684Gwal">Gʷal (Gol)</placeName>
                </death>
                </person>
                <listRelation>
                   <relation name="snap:AllianceWith"
                          active="PRS7829Petros"
                          passive="PRS8550sardaDe"/>
-                  
+
                   <relation name="snap:AllianceWith"
                          active="PRS7829Petros"
                          passive="PRS10198Yaeqob"/>
-           
- 
+
+
                   <relation name="rel:enemyOf" active="PRS7829Petros" passive="PRS9038Susenyos"/>
-                  
+
                </listRelation>
          </listPerson>
-         
+
          <listBibl type="secondary">
-            
-            <bibl> 
+
+            <bibl>
                <ptr target="bm:Sokolinskaia2010Petros"/>
-            </bibl>  
-            <bibl> 
+            </bibl>
+            <bibl>
                <ptr target="bm:Tedeschi1991EthiopianPre"/>
                <citedRange unit="page">1020b-1021a</citedRange>
-            </bibl> 
+            </bibl>
          </listBibl>
-         
+
       </body>
    </text>
 </TEI>

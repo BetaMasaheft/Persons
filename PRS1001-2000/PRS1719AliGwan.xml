@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="pers"
@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>ʾAli Gwāngul</title>
+            <title>ʾAli Gʷāngul</title>
             <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
          </titleStmt>
@@ -53,27 +53,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2016-08-12">Complete record</change>
+         <change when="2020-03-12" who="DE">Corrected transliteration.</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
-                 
+
                   <persName xml:lang="gez" xml:id="n1" type="birth">አሊ፡ ግዋንጉል፡</persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAli Gwāngul, ʾAli I</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAli Gʷāngul, ʾAli I</persName>
                <persName xml:lang="gez" xml:id="n2" type="nick">ትልቁ፡ ራስ፡ አሊ፡</persName>
                   <persName xml:lang="gez" corresp="#n2" type="normalized">Ali the Great</persName>
                   <persName>
                   <roleName type="title">rās</roleName>
                </persName>
-               
+
                <occupation type="ruler">governor</occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <residence/>
-             
-               <floruit notBefore="1784" notAfter="1788">He was a powerful kingmaker and came to power in <date>1784</date> 
+
+               <floruit notBefore="1784" notAfter="1788">He was a powerful kingmaker and came to power in <date>1784</date>
                 and nominated the puppet King <persName ref="PRS9142TaklaGi">Takla Giyorgis I</persName> to the throne.
                   </floruit>
                <death when="1788" evidence="internal"/>
@@ -85,8 +86,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          passive="PRS4870GugsaMa"/>
                <relation name="snap:BrotherOf"
                          active="PRS1719AliGwan"
-                         passive="PRS1750Aligaz"/> 
-           
+                         passive="PRS1750Aligaz"/>
+
             </listRelation>
          </listPerson>
          <listBibl type="editions">
@@ -97,17 +98,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listBibl type="editions">
             <bibl>
                <ptr target="bm:Budge1966Ethistory"/>
-            </bibl>  
+            </bibl>
          </listBibl>
          <listBibl type="secondary">
-            <bibl> 
+            <bibl>
                <ptr target="bm:Abir1970Princes"/>
-            </bibl>  
+            </bibl>
          </listBibl>
          <listBibl type="secondary">
-            <bibl> 
+            <bibl>
                <ptr target="bm:CrummeyundRed2005Gwangul"/>
-            </bibl>  
+            </bibl>
          </listBibl>
       </body>
    </text>
