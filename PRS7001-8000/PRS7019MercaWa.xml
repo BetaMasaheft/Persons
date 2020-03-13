@@ -1,12 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="pers"
-     xml:lang="en"
-     xml:id="PRS7019MercaWa">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS7019MercaWa">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
@@ -31,21 +25,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
             <xi:fallback>
                <p>Definitions of prefixes used.</p>
             </xi:fallback>
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage>
-            <language ident="en">English</language>
-            <language ident="ar">Arabic</language>
-            <language ident="it">Italian</language>
-            <language ident="gez">Gǝʿǝz</language>
-            <language ident="am">Amharic</language>
-         </langUsage>
+         <langUsage><language ident="en">English</language><language ident="am">Amharic</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
@@ -65,25 +52,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
               <persName xml:lang="en" corresp="#n1">M. Warkee</persName>
                <persName><roleName type="title">liqa makʷās</roleName></persName>
                <persName><roleName type="title">lǝǧ</roleName></persName>
-               <occupation type="political"></occupation>
-               <birth when="1825"></birth>
+               <occupation type="political"/>
+               <birth when="1825"/>
                <floruit>He was one of the first foreign-educated Ethiopians who acted as a diplomat, secretary and interpreter.
 Mǝrč̣ā Warqe received his education at the British missionary school of John Wilson in <placeName ref="LOC1956Bombay">Bombay</placeName>.
-In <date>1849</date> he left India and founded a school in <placeName ref="LOC1264Adwa"></placeName> together with his
-brother <persName ref="PRS4398GabruWa"></persName>. Later, Mǝrč̣ā Warqe became a follower of <persName ref="PRS9430Tewodros"></persName>.
-He played a crucial political role during the British military compaign led by <persName ref="PRS7484Napier"></persName>.
-Mǝrč̣ā Warqe established contact between <persName ref="PRS7484Napier"></persName> and <persName ref="PRS10378Yohanne"></persName>,
-thus securing support for <persName ref="PRS10378Yohanne"></persName> after the downfall of <persName ref="PRS9430Tewodros"></persName>.
-In <date>1875</date> Mǝrč̣ā Warqe was an envoy of <persName ref="PRS10378Yohanne"></persName> in <placeName ref="LOC2085Cairo"></placeName>.
-In <date>1884</date> he acted as a secretary of <persName ref="PRS10378Yohanne"></persName>, and in <date>1896</date> he served as
-an interpreter for <persName ref="PRS6668Mangasa"></persName>.
+In <date>1849</date> he left India and founded a school in <placeName ref="LOC1264Adwa"/> together with his
+brother <persName ref="PRS4398GabruWa"/>. Later, Mǝrč̣ā Warqe became a follower of <persName ref="PRS9430Tewodros"/>.
+He played a crucial political role during the British military compaign led by <persName ref="PRS7484Napier"/>.
+Mǝrč̣ā Warqe established contact between <persName ref="PRS7484Napier"/> and <persName ref="PRS10378Yohanne"/>,
+thus securing support for <persName ref="PRS10378Yohanne"/> after the downfall of <persName ref="PRS9430Tewodros"/>.
+In <date>1875</date> Mǝrč̣ā Warqe was an envoy of <persName ref="PRS10378Yohanne"/> in <placeName ref="LOC2085Cairo"/>.
+In <date>1884</date> he acted as a secretary of <persName ref="PRS10378Yohanne"/>, and in <date>1896</date> he served as
+an interpreter for <persName ref="PRS6668Mangasa"/>.
                </floruit>
-               <death notBefore="1896"></death>
+               <death notBefore="1896"/>
             </person>
             <listRelation>
-              <relation name="snap:GrandchildOf" active="PRS7019MercaWa" passive="PRS4506Garabed"></relation>
-              <relation name="snap:SonOf" active="PRS7019MercaWa" passive="PRS10055WarqeK"></relation>
-              <relation name="snap:BrotherOf" active="PRS7019MercaWa" passive="PRS4398GabruWa"></relation>
+              <relation name="snap:GrandchildOf" active="PRS7019MercaWa" passive="PRS4506Garabed"/>
+              <relation name="snap:SonOf" active="PRS7019MercaWa" passive="PRS10055WarqeK"/>
+              <relation name="snap:BrotherOf" active="PRS7019MercaWa" passive="PRS4398GabruWa"/>
             </listRelation>
          </listPerson>
          <listBibl type="secondary">
