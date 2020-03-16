@@ -1,12 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="pers"
-     xml:lang="en"
-     xml:id="PRS10626ZaraY">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS10626ZaraY">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
@@ -34,20 +28,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
             <xi:fallback>
                <p>Definitions of prefixes used.</p>
             </xi:fallback>
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage>
-            <language ident="en">English</language>
-            <language ident="ar">Arabic</language>
-            <language ident="it">Italian</language>
-            <language ident="gez">Gǝʿǝz</language>
-         </langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
@@ -90,27 +78,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   </person>
             <listRelation>
                <relation name="snap:SonOf" active="PRS10626ZaraY" passive="PRS3429DawitII"/>
-               <relation name="snap:BrotherOf"
-                         active="PRS10626ZaraY"
-                         passive="PRS10342Yeshaq"/>
-               <relation name="snap:BrotherOf"
-                         active="PRS10626ZaraY"
-                         passive="PRS9176TaklaMa"/>
-               <relation name="snap:BrotherOf"
-                         active="PRS10626ZaraY"
-                         passive="PRS9432Tewodros"/>
+               <relation name="snap:BrotherOf" active="PRS10626ZaraY" passive="PRS10342Yeshaq"/>
+               <relation name="snap:BrotherOf" active="PRS10626ZaraY" passive="PRS9176TaklaMa"/>
+               <relation name="snap:BrotherOf" active="PRS10626ZaraY" passive="PRS9432Tewodros"/>
                <relation name="snap:FatherOf" active="PRS10626ZaraY" passive="PRS2334BaedaM"/>
                <relation name="rel:enemyOf" active="PRS10626ZaraY" passive="PRS3894estifano"/>
                <relation name="betmas:husbandOf" active="PRS10626ZaraY" passive="PRS3706eleni"/>
-               <relation name="saws:isAttributedAuthorOf"
-                         active="PRS10626ZaraY"
-                         passive="LIT1921Mashaf"/>
-               <relation name="saws:isAttributedAuthorOf"
-                         active="PRS10626ZaraY"
-                         passive="LIT1955Mashaf"/>
-               <relation name="ecrm:P129i_is_subject_of"
-                         active="PRS10626ZaraY"
-                         passive="LIT4646Chronicle"/>
+               <relation name="saws:isAttributedAuthorOf" active="PRS10626ZaraY" passive="LIT1921Mashaf"/>
+               <relation name="saws:isAttributedAuthorOf" active="PRS10626ZaraY" passive="LIT1955Mashaf"/>
+               <relation name="ecrm:P129i_is_subject_of" active="PRS10626ZaraY" passive="LIT4646Chronicle"/>
               </listRelation>
          </listPerson>
         <listBibl type="secondary">

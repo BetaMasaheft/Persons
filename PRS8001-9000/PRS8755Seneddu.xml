@@ -1,12 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="pers"
-     xml:lang="en"
-     xml:id="PRS8755Seneddu">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS8755Seneddu">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
@@ -31,26 +25,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
             <xi:fallback>
                <p>Definitions of prefixes used.</p>
             </xi:fallback>
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage>
-            <language ident="en">English</language>
-            <language ident="ar">Arabic</language>
-            <language ident="it">Italian</language>
-            <language ident="gez">Gǝʿǝz</language>
-         </langUsage>
+         <langUsage><language ident="en">English</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="ES" when="2016-02-09">CREATED: person</change>
          <change who="SK" when="2019-01-22">updated transcription and encoded information during Paris Workshop</change>
       </revisionDesc>
    </teiHeader>
@@ -81,15 +69,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
               
               
                  <listRelation>
-               <relation name="snap:DaughterOf"
-                         active="PRS8755Seneddu"
-                         passive="PRS4218Gabraeg"/>
-               <relation name="snap:DaughterOf"
-                         active="PRS8755Seneddu"
-                         passive="PRS5887Kasaye"/>
-               <relation name="snap:MotherOf"
-                         active="PRS8755Seneddu"
-                         passive="PRS8481Samuel"/>
+               <relation name="snap:DaughterOf" active="PRS8755Seneddu" passive="PRS4218Gabraeg"/>
+               <relation name="snap:DaughterOf" active="PRS8755Seneddu" passive="PRS5887Kasaye"/>
+               <relation name="snap:MotherOf" active="PRS8755Seneddu" passive="PRS8481Samuel"/>
                <relation name="betmas:wifeOf" active="PRS8755Seneddu" passive="PRS6351Loranso">
                   <desc>First marriage</desc>
                </relation>
@@ -99,12 +81,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="betmas:wifeOf" active="PRS8755Seneddu" passive="PRS2087AsaffaL">
                   <desc>Third marriage</desc>
                </relation>
-               <relation name="snap:BrotherOf"
-                         active="PRS8755Seneddu"
-                         passive="PRS6836MasasaG"/>        
-                <relation name="snap:SisterOf"
-                         active="PRS8755Seneddu"
-                         passive="PRS8695segeMar"/>       
+               <relation name="snap:BrotherOf" active="PRS8755Seneddu" passive="PRS6836MasasaG"/>        
+                <relation name="snap:SisterOf" active="PRS8755Seneddu" passive="PRS8695segeMar"/>       
                    </listRelation>
 
          </listPerson>
