@@ -1,17 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12587AbalaKrestos" xml:lang="en" type="pers">
-    <teiHeader xml:base="https://betamasaheft.eu/">
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12904Abalak" xml:lang="en" type="pers">
+    <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>ʾAbāla Krǝstos</title>
                 <editor role="generalEditor" key="AB"/>
-                <editor key="SG"/>
+                <editor key="DR"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
-                <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
                             Forschungsumgebung / Beta maṣāḥǝft</publisher>
                 <pubPlace>Hamburg</pubPlace>
                 <availability>
@@ -25,34 +26,30 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
         </fileDesc>
         <encodingDesc>
             <p>A digital born TEI file</p>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
-            <xi:fallback>
-               <p>Definitions of prefixes used.</p>
-            </xi:fallback>
-         </xi:include>
-      </encodingDesc>
+        </encodingDesc>
         <profileDesc>
             <creation/>
             <abstract>
                 <p/>
             </abstract>
-            <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="SG" when="2019-04-02">Created entity</change>
+            <change who="DR" when="2020-03-17">Created entity</change>
         </revisionDesc>
     </teiHeader>
-    <text xml:base="https://betamasaheft.eu/">
+    <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">አባለ፡ ክርስቶስ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAbāla Krǝstos</persName>
-                    <faith type="EOTC"/>
-                    <nationality type="Ethiopia"/>
+                    <persName xml:lang="gez" xml:id="n1">ʾAbāla Krǝstos</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">አባለ፡ ክርስቶስ፡</persName>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS12587AbalaKrestos" passive="BLorient696"/>
+                    <relation name="lawd:hasAttestation" active="PRS12904Abalak" passive="BLadd19659"/>
                 </listRelation>
             </listPerson>
         </body>
