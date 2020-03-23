@@ -36,16 +36,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
         <revisionDesc>
             <change who="ES" when="2019-11-15">Created entity</change>
             <change who="DR" when="2019-11-18">Correct persName element</change>
+            <change when="2020-03-23" who="ES">corrected name and description added wd</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person sex="1">
+                <person sex="1" sameAs="wd:Q473291">
                     <persName xml:lang="gez" xml:id="n1">አንስጠስዮስ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAnǝsṭasyos of Dabra Sina</persName>
-                    <faith type="EOTC"/>
-                    <occupation type="ecclesiastic"/>
+                    <persName xml:lang="en" type="main" corresp="#n1">Anastasius Sinaita</persName>
+                    <persName xml:id="n2">Anastasius of Sinai</persName>
+                    <floruit notBefore="0600" notAfter="0700"></floruit>
+                    <faith type="Greek"></faith>
+                    <occupation type="ecclesiastic">seventh-century Greek ecclesiastical writer, priest, monk, and abbot of Saint Catherine's Monastery at Mount Sinai</occupation>
                 </person>
                 <listRelation>
                     <relation name="dcterms:creator" active="PRS12817Anestasyos" passive="LIT5809OntheBurial"/>
