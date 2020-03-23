@@ -53,14 +53,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       <body>
          <listPerson>
             <person sex="1" sameAs="wd:Q200608/">
-               <persName xml:id="n1" xml:lang="gez">ኤፍሬም፡ ሶራዊ ፡</persName>
-               <persName  corresp="#n1" type="normalized" xml:lang="gez">Efrem Sorawi</persName>
+               <persName xml:id="n1" xml:lang="gez"><addName>ማር፡</addName>ኤፍሬም፡<addName> ሶራዊ ፡</addName></persName>
+               <persName  corresp="#n1" type="normalized" xml:lang="gez"><addName>mar</addName>ʾEfrem <addName>Sorāwi</addName></persName>
                <persName xml:lang="en"  corresp="#n1" type="main">Ephrem the Syrian 
                </persName>
                <persName xml:id="n2">Ephraem Syrus</persName>
                
                <persName xml:id="n3">Ephraim the Syrian</persName>
-               <persName><addName>mar</addName></persName>
+               
                <floruit notBefore="0300" notAfter="0400">Syriac deacon and a prolific Syriac-language hymnographer and theologian of the 4th century
                </floruit>
 <faith type="Syriac Orthodox"></faith>
