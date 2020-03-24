@@ -48,11 +48,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <persName xml:lang="en" xml:id="n1">John of Rome</persName>
                     <persName xml:lang="en" xml:id="n2">John of the Golden Gospel</persName>
                     <faith type="Coptic"/>
-
-                    <death>He died on 16 Abib and is commemorated in the Coptic Church on this date</death>
+                    
+                    <death>He died on <date type="diesNatalis" ref="ethiocal:Hamle16">16 Hamle (16 Abib)</date> and is commemorated in the synaxary on this date</death>
                     <floruit/>
                 </person>
-            </listPerson><!--http://www.copticchurch.net/synaxarium/11_16.html-->
+            </listPerson>
         </body>
     </text>
 </TEI>
