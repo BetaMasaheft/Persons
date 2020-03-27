@@ -1,16 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="PRS12594Anstasyos"
-     xml:lang="en"
-     type="pers">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12594Anstasyos" xml:lang="en" type="pers">
     <teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt>
-                <title>ʾAnsṭāsyos</title>
+                <title>Anastasius</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="SG"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -31,8 +25,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </fileDesc>
         <encodingDesc>
             <p>A digital born TEI file</p>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
             <xi:fallback>
                <p>Definitions of prefixes used.</p>
             </xi:fallback>
@@ -43,16 +36,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <abstract>
                 <p/>
             </abstract>
-            <langUsage>
-                <language ident="en">English</language>
-                <language ident="ar">Arabic</language>
-                <language ident="it">Italian</language>
-                <language ident="am">Amharic</language>
-                <language ident="gez">Gǝʿǝz</language>
-            </langUsage>
+            <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
         </profileDesc>
         <revisionDesc>
             <change who="SG" when="2019-04-03">Created entity</change>
+            <change when="2020-03-24" who="ES">corrected name added relation description</change>
         </revisionDesc>
     </teiHeader>
     <text xml:base="https://betamasaheft.eu/">
@@ -60,17 +48,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPerson>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">አንስጣስዮስ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAnsṭāsyos</persName>
-                
-                    <occupation type="literary">author</occupation>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAnǝsṭāsyos</persName>
+                    <persName xml:lang="en" type="main" corresp="#n1">Anastasius</persName>
+                <floruit notBefore="0400" notAfter="0450"></floruit>
+                    <occupation type="literary">author, slave of Theodore of Antioch</occupation>
                     <birth/>
                     <death/>
                     <floruit/>
                 </person>
                 <listRelation>
-                    <relation name="saws:isAttributedToAuthor"
-                         active="PRS12594Anstasyos"
-                         passive="LIT5518DiscourseofTheodore"/>
+                    <relation name="saws:isAttributedAuthorOf" active="PRS12594Anstasyos" passive="LIT5518DiscourseofTheodore"/>
+                    <relation name="snap:HouseholdOf" active="PRS12594Anstasyos" passive="PRS9471Theodore"></relation>
                 </listRelation>
             </listPerson>
          <!---->

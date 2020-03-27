@@ -1,12 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="pers"
-     xml:lang="en"
-     xml:id="PRS10733ZirGan">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS10733ZirGan">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
@@ -33,26 +27,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
             <xi:fallback>
                <p>Definitions of prefixes used.</p>
             </xi:fallback>
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage>
-            <language ident="en">English</language>
-            <language ident="ar">Arabic</language>
-            <language ident="it">Italian</language>
-            <language ident="gez">Gǝʿǝz</language>
-         </langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="ES" when="2016-02-09">CREATED: person</change>
          <change who="SG" when="2017-01-10">Complete record</change>
       </revisionDesc>
    </teiHeader>
@@ -71,39 +59,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
-               <occupation type="ecclesiastic"> abbess</occupation>
+               <occupation type="ecclesiastic">abbess</occupation>
                
                
                <floruit notBefore="1300" notAfter="1450">
                   <persName ref="PRS10733ZirGan">Zir Gānelā</persName> 
-                  is the name of the patroness of the de luxe iluminated manuscript of the <ref type="work" corresp="LIT1560Gospel">Four Gospels</ref>
+                  is the name of the patroness of the de luxe illuminated manuscript of the <ref type="work" corresp="LIT1560Gospel">Four Gospels</ref>
                   which was commissioned for an unnamed monastery where <persName ref="PRS10733ZirGan">Zir Gānelā</persName> was abbess. 
-                  <persName ref="PRS10733ZirGan">Zir Gānelā</persName> was a member of royal family who rejected the fleeting world and became a nun. 
-                  She entered a monastic life at the middle age, as she had two sons and two daughters. </floruit>
+                  <persName ref="PRS10733ZirGan">Zir Gānelā</persName> was a member of the royal family who rejected the fleeting world and became a nun. 
+                  She entered the monastic life at the middle age, as she had two sons and two daughters. </floruit>
             
                
                
             </person>  
             <listRelation>
                
-               <relation name="snap:DaughterOf"
-                         active="PRS10733ZirGan"
-                         passive="PRS8595SayfaAr"/>
-               <relation name="snap:MotherOf"
-                         active="PRS10733ZirGan"
-                         passive="PRS2327BadlaA"/>
-               <relation name="snap:MotherOf"
-                         active="PRS10733ZirGan"
-                         passive="PRS9394Tensae"/>
-               <relation name="snap:MotherOf"
-                         active="PRS10733ZirGan"
-                         passive="PRS3960Falasit"/>
-               <relation name="snap:MotherOf"
-                         active="PRS10733ZirGan"
-                         passive="PRS10593Zansel"/>
-               <relation name="snap:GranddaughterOf"
-                         active="PRS10733ZirGan"
-                         passive="PRS1854Amdase"/>
+               <relation name="snap:DaughterOf" active="PRS10733ZirGan" passive="PRS8595SayfaAr"/>
+               <relation name="snap:MotherOf" active="PRS10733ZirGan" passive="PRS2327BadlaA"/>
+               <relation name="snap:MotherOf" active="PRS10733ZirGan" passive="PRS9394Tensae"/>
+               <relation name="snap:MotherOf" active="PRS10733ZirGan" passive="PRS3960Falasit"/>
+               <relation name="snap:MotherOf" active="PRS10733ZirGan" passive="PRS10593Zansel"/>
+               <relation name="snap:GranddaughterOf" active="PRS10733ZirGan" passive="PRS1854Amdase"/>
                
                
                

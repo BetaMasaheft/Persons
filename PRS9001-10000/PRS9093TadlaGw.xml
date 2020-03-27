@@ -1,20 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="pers"
-     xml:lang="en"
-     xml:id="PRS9093TadlaGw">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS9093TadlaGw">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Tadlā Gwālu</title>
+            <title>Tadlā Gʷālu</title>
             <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
-            
-            
+
+
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -35,86 +29,81 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
             <xi:fallback>
                <p>Definitions of prefixes used.</p>
             </xi:fallback>
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage>
-            <language ident="en">English</language>
-            <language ident="ar">Arabic</language>
-            <language ident="it">Italian</language>
-            <language ident="gez">Gǝʿǝz</language>
-         </langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="ES" when="2016-02-09">CREATED: person</change>
          <change who="SG" when="2017-10-23">Complete record</change>
+         <change when="2020-03-12" who="DE">Corrected transliteration.</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
-         
+
                <persName xml:lang="gez" xml:id="n1" type="birth">ተድላ፡ ጓሉ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Tadlā Gʷālu</persName>
-               
+
                <persName>
                   <roleName type="title">daǧǧāzmāč</roleName>
                </persName>
-               
-               
+
+
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
-               
-               
+
+
                <occupation type="political">governor</occupation>
                <birth notBefore="1810" notAfter="1820"/>
-               
-               
-               <floruit notBefore="1853" notAfter="1868">He was one of the most important political figures in <placeName ref="LOC3549Gojjam"/> who strongly resisted 
+
+
+               <floruit notBefore="1853" notAfter="1868">He was one of the most important political figures in <placeName ref="LOC3549Gojjam"/> who strongly resisted
 
                   <persName ref="PRS9430Tewodros"/> until his death.
                   He assumed the position of <persName ref="PRS9093TadlaGw">
                      <roleName type="title">daǧǧāzmāč</roleName>
                   </persName>
-                   basing himself at 
-                  <placeName ref="LOC2307DabraM"/>. 
+                   basing himself at
+                  <placeName ref="LOC2307DabraM"/>.
                   <persName ref="PRS9430Tewodros">
-                     <roleName type="title">Emperor</roleName> 
-                     Tewodros II</persName> led repeated campaigns against Tadlā Gʷālu in 
-                  <date>1857</date>, <date>1858</date> and later in <date>1863</date> 
+                     <roleName type="title">Emperor</roleName>
+                     Tewodros II</persName> led repeated campaigns against Tadlā Gʷālu in
+                  <date>1857</date>, <date>1858</date> and later in <date>1863</date>
                   when he inflicted heavy losses on the <placeName ref="LOC3549Gojjam"/> troops, but failed to capture him.</floruit>
                <death when="1868"/>
-               
+
             </person>
-            
+
             <listRelation>
                <relation name="snap:KinOf" active="PRS9093TadlaGw" passive="PRS2682BerhanM"/>
-               
+
                <relation name="snap:SonOf" active="PRS9093TadlaGw" passive="PRS4899GwaluMa"/>
                <relation name="snap:SonOf" active="PRS9093TadlaGw" passive="PRS9827Walatta"/>
-               
+
             </listRelation>
          </listPerson>
-         
+
          <listBibl type="secondary">
-            <bibl> 
+            <bibl>
                <ptr target="bm:Crummey2010TadlaGwalu"/>
-            </bibl>  
-            <bibl> 
+            </bibl>
+            <bibl>
                <ptr target="bm:Budge1966Ethistory"/>
-            </bibl>  
-            
+            </bibl>
+
          </listBibl>
-         
+
       </body>
    </text>
 </TEI>

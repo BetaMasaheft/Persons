@@ -1,12 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="pers"
-     xml:lang="en"
-     xml:id="PRS6229LebnaDe">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS6229LebnaDe">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
@@ -33,18 +27,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
             <xi:fallback>
                <p>Definitions of prefixes used.</p>
             </xi:fallback>
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage>
-            <language ident="en">English</language>
-
-         </langUsage>
+         <langUsage><language ident="en">English</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
@@ -93,7 +83,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <placeName ref="LOC6568Amhara"/> to <placeName ref="LOC2481Dambey"/> and finally he found a refugee in the 
                   monastery of <placeName ref="LOC2255DabraD"/>, where he died in <date>1540</date>. 
                </floruit>
-               <death when="1540"></death>
+               <death when="1540"/>
                <note>
                   <ref target="#n4">Lǝmna Dǝngǝl</ref> appears in  
                   <persName ref="PRS4428Galawdew">
@@ -101,28 +91,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </person>
                
             <listRelation>
-               <relation name="betmas:husbandOf"
-                         active="PRS6229LebnaDe"
-                         passive="PRS8276SablaWa"/>
+               <relation name="betmas:husbandOf" active="PRS6229LebnaDe" passive="PRS8276SablaWa"/>
                <relation name="snap:SonOf" active="PRS6229LebnaDe" passive="PRS7481NaodA"/>
                <relation name="snap:SonOf" active="PRS6229LebnaDe" passive="PRS7482NaodMo"/>
-               <relation name="snap:FatherOf"
-                         active="PRS6229LebnaDe"
-                         passive="PRS4121Fiqtor"/> 
-               <relation name="snap:FatherOf"
-                         active="PRS6229LebnaDe"
-                         passive="PRS4428Galawdew"/>
+               <relation name="snap:FatherOf" active="PRS6229LebnaDe" passive="PRS4121Fiqtor"/> 
+               <relation name="snap:FatherOf" active="PRS6229LebnaDe" passive="PRS4428Galawdew"/>
                <relation name="snap:FatherOf" active="PRS6229LebnaDe" passive="PRS7102Minas"/>
-               <relation name="snap:FatherOf"
-                         active="PRS6229LebnaDe"
-                         passive="PRS10191Yaeqob"/>
+               <relation name="snap:FatherOf" active="PRS6229LebnaDe" passive="PRS10191Yaeqob"/>
                
-               <relation name="snap:GrandfatherOf"
-                         active="PRS6229LebnaDe"
-                         passive="PRS8550sardaDe"/>
-               <relation name="ecrm:P129i_is_subject_of"
-                         active="PRS6229LebnaDe"
-                         passive="LIT4651ChronLeb"/>
+               <relation name="snap:GrandfatherOf" active="PRS6229LebnaDe" passive="PRS8550sardaDe"/>
+               <relation name="ecrm:P129i_is_subject_of" active="PRS6229LebnaDe" passive="LIT4651ChronLeb"/>
             </listRelation>
             
     

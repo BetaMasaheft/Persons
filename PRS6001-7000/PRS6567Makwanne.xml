@@ -1,16 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="pers"
-     xml:lang="en"
-     xml:id="PRS6567Makwanne">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS6567Makwanne">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Mäkwännǝn Wäldä Mikaʾel</title>
+            <title>Makʷannǝn Walda Mikāʾel</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -31,39 +25,70 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
             <xi:fallback>
                <p>Definitions of prefixes used.</p>
             </xi:fallback>
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage>
-            <language ident="en">English</language>
-            <language ident="ar">Arabic</language>
-            <language ident="it">Italian</language>
-            <language ident="gez">Gǝʿǝz</language>
-         </langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change when="2019-12-18" who="DE">Added information, relations, and bibliography.</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Mäkwännǝn Wäldä Mikaʾel
-               </persName>
-               <occupation> ras </occupation>
+               <persName xml:lang="gez" xml:id="n1">መኰንን፡ ወልደ፡ ሚካእል፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Makʷannǝn Walda Mikāʾel</persName>
+               <persName><roleName type="title">bālāmbārās</roleName></persName>
+                <persName><roleName type="title">rās</roleName></persName>
+                <birth when="1852-05-08"><placeName ref="LOC3556Gola"/>
+                He was a son of <persName ref="PRS9953WaldaMi"/> and <persName ref="PRS9235Tananna"/>.
+              </birth>
+                <floruit>
+                He was invited to the court of <persName ref="PRS7006Menilek"/> in <date>1865</date>. His first, common-law,
+                 wife gave birth to their son <persName ref="PRS10309YelmaM"/>. In <date>1876</date>, he married
+                 <persName ref="PRS10255Yasimma">Yašimmabet ʾAli</persName>, who gave birth to <persName ref="PRS5226haylase">Tafari</persName>.
+                 In <date>1876</date> Makʷannǝn Walda Mikāʾel became <roleName type="rank">bālāmbārās</roleName> and in
+                 <date>1881</date> he joined a campaign against the <persName ref="ETH1973Oromo"/>.
+                 After the conquest of <placeName ref="LOC3786Harar"/>, he was awarded the rank of
+                 <roleName type="rank">daǧǧāzmāč</roleName> and became the governor of the region. In <date>1887</date>
+                 Makʷannǝn Walda Mikāʾel started the imperial expansion to the east and south of
+                 <placeName ref="LOC3786Harar"/> and conquered the parts of <placeName ref="LOC5040Ogaden"/>,
+                 as well as parts of the territories of <persName ref="ETH1496Gadabu"/> and
+                 <persName ref="ETH1728Issa"/>. Makʷannǝn Walda Mikāʾel had good relations with expatriates and lead Ethiopian missions abroad. In
+                 <date>1890</date> he participated in the Ethio-Italian debates, and in <date>1895-1896</date> in the Italian war. In
+                 <date>1902</date> he represented <persName ref="PRS7006Menilek"/> at the coronation of
+                 <persName ref="PRS3673EdwardV"/> in <placeName ref="LOC4325London"/>.
+                </floruit>
+                <death when="1906-03-22"><placeName ref="LOC5256Qulleb"/> He died on his way to
+              <placeName ref="LOC1216AddisA"/>, where he travelled on the occasion of the visit of
+            <persName ref="PRS6807Martini"/>.</death>
             </person>
          </listPerson>
+         <listRelation>
+           <relation name="snap:FatherOf" active="PRS6567Makwanne" passive="PRS10309YelmaM"/>
+           <relation name="snap:FatherOf" active="PRS6567Makwanne" passive="PRS5226haylase"/>
+           <relation name="betmas:husbandOf" active="PRS6567Makwanne" passive="PRS10255Yasimma"/>
+           <relation name="snap:SonOf" active="PRS6567Makwanne" passive="PRS9953WaldaMi"/>
+           <relation name="snap:SonOf" active="PRS6567Makwanne" passive="PRS9235Tananna"/>
+         </listRelation>
+         <listBibl type="secondary">
+           <bibl>
+             <ptr target="bm:Carmichael2007Makwannen"/>
+           </bibl>
+           <bibl>
+             <ptr target="bm:Marcus1975MenelikII"/>
+           </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>

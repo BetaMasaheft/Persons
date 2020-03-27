@@ -1,7 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12786Yohannes" xml:lang="en" type="pers">
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12786Yohannes" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -31,16 +30,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <creation/>
             <abstract>
               <p>ʾАbuna Yoḥannǝs is mentioned as
-                commissioner or owner in <ref type="mss"
-                corresp="RNBefns7"/>, along with two other persons.</p>
+                commissioner or owner in <ref type="mss" corresp="RNBefns7"/>, along with two other persons.</p>
             </abstract>
-            <langUsage>
-                <language ident="en">English</language>
-                <language ident="ar">Arabic</language>
-                <language ident="it">Italian</language>
-                <language ident="am">Amharic</language>
-                <language ident="gez">Gǝʿǝz</language>
-            </langUsage>
+            <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
         </profileDesc>
         <revisionDesc>
             <change who="DN" when="2019-10-08">Created entity</change>
@@ -56,14 +48,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <faith type="EOTC"/>
                     <occupation type="other"/>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
                 </person>
                 <listRelation>
-                    <relation name="saws:isRelatedTo" active="PRS12786Yohannes" passive="RNBefns7"/>
+                    <relation name="lawd:hasAttestation" active="PRS12786Yohannes" passive="RNBefns7">
+                        <desc>ʾАbuna Yoḥannǝs is mentioned as
+                            commissioner or owner in <ref type="mss" corresp="RNBefns7"/> along with two other persons.</desc>
+                    </relation>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>
