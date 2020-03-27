@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12922AqbaEgziScribe" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12932TawaldaHesan" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ʿAqba ʾƎgziʾ</title>
+                <title>Tawalda Ḥǝḍān</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="ES"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -38,22 +38,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="ES" when="2020-03-26">Created entity</change>
+            <change who="ES" when="2020-03-27">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ዓቅበ፡ እግዚእ፡</persName>
-                    <persName xml:lang="gez" corresp="#n1">ʿĀqba ʾƎgziʾ</persName>
+                    <persName xml:lang="gez" xml:id="n1">ተወልደ፡ ሕፃን፡ </persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Tawalda Ḥǝḍān</persName>
+                    <persName xml:lang="gez" xml:id="n2" type="baptismal">ገብረ፡ ሥላሴ፡ </persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n2">Gabra Śǝllāse</persName>
+                    <persName><addName>ʾalaqā</addName></persName>
                     <faith type="EOTC"/>
                     <birth/>
                     <death/>
-                    <floruit notBefore="1700" notAfter="1800">18th century</floruit>
+                    <floruit notBefore="1870" notAfter="1930">late 19th - early 20th century</floruit>
                 </person>
                 <listRelation>
-                    <relation name="saws:isCopierOf" active="PRS12922AqbaEgziScribe" passive="ESmma001"/>
+                    <relation name="saws:isCopierOf" active="PRS12932TawaldaHesan" passive="ESmr015"/>
                 </listRelation>
             </listPerson><!---->
         </body>
