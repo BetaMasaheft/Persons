@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12916MazraetaKrestos" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12936WaldaSamaet" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Mazrāʾǝta Krǝstos</title>
+                <title>Walda Samāʿǝt</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DN"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -38,27 +38,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="DN" when="2020-03-23">Created entity</change>
+            <change who="DN" when="2020-03-30">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">መዝራዕተ᎓ ክርስቶስ᎓</persName>
-
-
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Mazrāʿǝta Krǝstos</persName>
-
-                    <persName type="alt"><roleName type="title">ʾabbā</roleName>Mazrāʿǝta Krǝstos</persName>
+                    <persName xml:lang="gez" xml:id="n1">ወልደ᎓ ሰማዕት᎓</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walda Samāʿǝt</persName>
                     <faith type="EOTC"/>
                     <occupation type="ecclesiastic"/>
+                    <nationality type="Ethiopia"/>
                     <birth/>
                     <death/>
-                    <floruit/>
+                    <floruit notBefore="1775" notAfter="1840"/>
                 </person>
                 <listRelation>
-                    <relation name="saws:hasOwned" active="PRS12916MazraetaKrestos" passive="BNFabb30"/>
+                    <relation name="saws:hasOwned" active="PRS12936WaldaSamaet" passive="BNFabb16"/>
                 </listRelation>
             </listPerson><!---->
         </body>
