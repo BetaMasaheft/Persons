@@ -45,14 +45,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ወልደ᎓ ሰማዕት</persName>
+                    <persName xml:lang="gez" xml:id="n1">ወልደ᎓ ሰማዕት᎓</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Walda Samāʿǝt</persName>
                     <faith type="EOTC"/>
                     <occupation type="ecclesiastic"/>
                     <nationality type="Ethiopia"/>
                     <birth/>
                     <death/>
-                    <floruit>Late 18th to 1840</floruit>
+                    <floruit notBefore="1775" notAfter="1840"/>
                 </person>
                 <listRelation>
                     <relation name="saws:hasOwned" active="PRS12936WaldaSamaet" passive="BNFabb16"/>
