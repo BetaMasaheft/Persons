@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS10025WandBa">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Wänd Bäwäsän</title>
+            <title>Wand Bawasan</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,13 +44,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  
-                  Wänd Bäwäsän
-               </persName>
-               <occupation> däǧǧ.  </occupation>
-            </person>
+           <person sex="1">
+               <persName xml:lang="gez" xml:id="n1">ወንድ፡ በወሰን፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Wand Bawasan</persName>
+               <persName type="alt"><roleName type="title">daǧǧ azmāč</roleName>Wand Bawasan</persName>
+               <faith type="EOTC"/>
+               <occupation type="ruler">Ruler of Bagemdǝr and Lāstā</occupation>
+               <nationality type="Ethiopia"/>
+               <birth/>
+               <death notBefore="1777" notAfter="1777"/>
+               <floruit notBefore="1765" notAfter="1777"/>
+           </person>
          </listPerson>
       </body>
    </text>
