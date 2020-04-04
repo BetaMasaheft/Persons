@@ -4,8 +4,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Juel Jensen</title>
-            <author/>
+            <title>Bent Juel-Jensen</title>
+            <editor role="generalEditor" key="AB"/>
+            <editor key="JG"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
@@ -13,15 +15,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <pubPlace>Hamburg</pubPlace>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
-                This file is licensed under the Creative Commons
-                Attribution-ShareAlike 4.0. </licence>
+                  This file is licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
             </availability>
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
             <p>Prosopography of Ethiopian Written tradition</p>
-            <p>A TEI file converted from the ETHIO-authority
-                                                  google spreadsheet</p>
+            <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -36,21 +36,76 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
-         <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
+         <change who="ES" when="2016-02-09">Created: person</change>
+         <change who="JG" when="2020-04-04">Added information about person</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                   Bent
-                  Juel Jensen
-               </persName>
-               <occupation> sch. </occupation>
+               <persName xml:lang="english" xml:id="  n1">Bent Juel-Jensen</persName>
+               <persName type="alt">Bent Einer Juel-Jensen</persName>
+               <nationality type="Denmark"/>
+               <occupation type="medical" subtype="academic"/>
+               <birth>1922</birth>
+               <death>2006</death>
+               <residence> Oxford</residence>
             </person>
+            <listRelation>
+               <relation name="saws:hasOwned" active="PRS5782JuelJen" passive="BDLaethb3"></relation>
+               <relation name="saws:hasOwned" active="PRS5782JuelJen" passive="BDLaethb4"></relation>
+               <relation name="saws:hasOwned" active="PRS5782JuelJen" passive="BDLaethb5"></relation>
+               <relation name="saws:hasOwned" active="PRS5782JuelJen" passive="BDLaethb6"></relation>
+               <relation name="saws:hasOwned" active="PRS5782JuelJen" passive="BDLaethc14"></relation>
+               <relation name="saws:hasOwned" active="PRS5782JuelJen" passive="BDLaethd16"></relation>
+               <relation name="saws:hasOwned" active="PRS5782JuelJen" passive="BDLaethd17"></relation>
+               <relation name="saws:hasOwned" active="PRS5782JuelJen" passive="BDLaethd18"></relation>
+               <relation name="saws:hasOwned" active="PRS5782JuelJen" passive="BDLaethd19"></relation>
+               <relation name="saws:hasOwned" active="PRS5782JuelJen" passive="BDLaethd20"></relation>
+               <relation name="saws:hasOwned" active="PRS5782JuelJen" passive="BDLaethd21"></relation>
+               <relation name="saws:hasOwned" active="PRS5782JuelJen" passive="BDLaethd22"></relation>
+               <relation name="saws:hasOwned" active="PRS5782JuelJen" passive="BDLaethd23"></relation>
+               <relation name="saws:hasOwned" active="PRS5782JuelJen" passive="BDLaethe30"></relation>
+               <relation name="saws:hasOwned" active="PRS5782JuelJen" passive="BDLaethe31"></relation>
+               <relation name="saws:hasOwned" active="PRS5782JuelJen" passive="BDLaethe32"></relation>
+               <relation name="saws:hasOwned" active="PRS5782JuelJen" passive="BDLaethe33"></relation>
+               <relation name="saws:hasOwned" active="PRS5782JuelJen" passive="BDLaethe34"></relation>
+               <relation name="saws:hasOwned" active="PRS5782JuelJen" passive="BDLaethe35"></relation>
+               <relation name="saws:hasOwned" active="PRS5782JuelJen" passive="BDLaethe36"></relation>
+               <relation name="saws:hasOwned" active="PRS5782JuelJen" passive="BDLaethe37"></relation>
+               <relation name="saws:hasOwned" active="PRS5782JuelJen" passive="BDLaethe38"></relation>
+               <relation name="saws:hasOwned" active="PRS5782JuelJen" passive="BDLaethe39"></relation>
+               <relation name="saws:hasOwned" active="PRS5782JuelJen" passive="BDLaethf23"></relation>
+               <relation name="saws:hasOwned" active="PRS5782JuelJen" passive="BDLaethf24"></relation>
+               <relation name="saws:hasOwned" active="PRS5782JuelJen" passive="BDLaethf25"></relation>
+               <relation name="saws:hasOwned" active="PRS5782JuelJen" passive="BDLaethf26"></relation>
+               <relation name="saws:hasOwned" active="PRS5782JuelJen" passive="BDLaethf27"></relation>
+               <relation name="saws:hasOwned" active="PRS5782JuelJen" passive="BDLaethf28"></relation>
+               <relation name="saws:hasOwned" active="PRS5782JuelJen" passive="BDLaethf29"></relation>
+               <relation name="saws:hasOwned" active="PRS5782JuelJen" passive="BDLaeth30"></relation>
+               <relation name="saws:hasOwned" active="PRS5782JuelJen" passive="BDLaethf31"></relation>
+               <relation name="saws:hasOwned" active="PRS5782JuelJen" passive="BDLaethf32"></relation>
+               <relation name="saws:hasOwned" active="PRS5782JuelJen" passive="BDLaeth33"></relation>
+               <relation name="saws:hasOwned" active="PRS5782JuelJen" passive="BDLaethf34"></relation>
+               <relation name="saws:hasOwned" active="PRS5782JuelJen" passive="BDLaethg28"></relation>
+               <relation name="saws:hasOwned" active="PRS5782JuelJen" passive="BDLaethg29"></relation>
+               <relation name="saws:hasOwned" active="PRS5782JuelJen" passive="BDLaethg30"></relation>
+               <relation name="saws:hasOwned" active="PRS5782JuelJen" passive="BDLaethg31"></relation>
+               <relation name="saws:hasOwned" active="PRS5782JuelJen" passive="BDLaethg32"></relation>
+               <relation name="saws:hasOwned" active="PRS5782JuelJen" passive="BDLaethg33"></relation>
+               <relation name="saws:hasOwned" active="PRS5782JuelJen" passive="BDLaethg34"></relation>
+               <relation name="saws:hasOwned" active="PRS5782JuelJen" passive="BDLaethg35"></relation>
+               <relation name="saws:hasOwned" active="PRS5782JuelJen" passive="BDLaethg36"></relation>
+               <relation name="saws:hasOwned" active="PRS5782JuelJen" passive="BDLaethg37"></relation>
+               <relation name="saws:hasOwned" active="PRS5782JuelJen" passive="BDLaethg38"></relation>
+               <relation name="saws:hasOwned" active="PRS5782JuelJen" passive="BDLaethg39"></relation>
+               <relation name="saws:hasOwned" active="PRS5782JuelJen" passive="BDLaethg40"></relation>
+               <relation name="saws:hasOwned" active="PRS5782JuelJen" passive="BDLaethg41"></relation>
+               <relation name="saws:hasOwned" active="PRS5782JuelJen" passive="BDLaethg43"></relation>
+               <relation name="saws:hasOwned" active="PRS5782JuelJen" passive="BDLaethg45"></relation>
+            </listRelation>
          </listPerson>
       </body>
    </text>
