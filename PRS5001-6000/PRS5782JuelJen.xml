@@ -39,19 +39,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
          <change who="ES" when="2016-02-09">Created: person</change>
          <change who="JG" when="2020-04-04">Added information about person and manuscript ownership</change>
+         <change who="JG" when="2020-04-05">Incorporated changes suggested by DR</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
-               <persName xml:lang="english" xml:id="  n1">Bent Juel-Jensen</persName>
+               <persName xml:lang="en" xml:id=" n1">Bent Juel-Jensen</persName>
                <persName type="alt">Bent Einer Juel-Jensen</persName>
                <nationality type="Denmark"/>
-               <occupation type="medical" subtype="academic"/>
-               <birth>1922</birth>
-               <death>2006</death>
-               <residence> Oxford</residence>
+               <occupation type="medical"/>
+               <occupation type="academic"/>
+               <birth when="1922"/>
+               <death when="2006"/>
+               <residence>Oxford</residence>
             </person>
             <listRelation>
                <relation name="saws:hasOwned" active="PRS5782JuelJen" passive="BDLaethb3"></relation>
