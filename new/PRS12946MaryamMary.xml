@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Maryam Mary Juel Jensen</title>
+                <title>Mary Juel-Jensen</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="MV"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -45,17 +45,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="2">
-                    <persName xml:lang="gez" xml:id="n1">Maryam Mary Juel Jensen</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
-                    <faith type=""/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <persName xml:lang="en" xml:id="n1">Mary Juel-Jensen</persName>
+                    <persName xml:lang="gez" corresp="#n1" type="main">ማርያም፡</persName>   
+                    <persName xml:lang="gez" corresp="#n1" type="normalized">Māryām</persName>    
                 </person>
                 <listRelation>
-                    <relation name="betmas:wifeOf" active="PRS12946MaryamMary" passive=""/>
+                    <relation name="betmas:wifeOf" active="PRS12946MaryamMary" passive="PRS5782JuelJen"/>
+                    <relation name="lawd:hasAttestation" active="PRS12946MaryamMary" passive="BDLaethd18">
+                        <desc>She commissioned the writing of the manuscript together with her husband Bent Juel-Jensen.</desc>
+                    </relation>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>
