@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Mary Juel-Jensen</title>
+                <title>Cicely Mary Maples</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="MV"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -45,9 +45,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="2">
-                    <persName xml:lang="en" xml:id="n1">Mary Juel-Jensen</persName>
-                    <persName xml:lang="gez" corresp="#n1" type="main">ማርያም፡</persName>   
-                    <persName xml:lang="gez" corresp="#n1" type="normalized">Māryām</persName>    
+                    <persName xml:lang="en" xml:id="n1">Cicely Mary Maples</persName>
+                    <persName xml:lang="en" corresp="#n1" type="given">Mary Juel-Jensen</persName>   
+                    <persName xml:lang="gez" corresp="#n1">ማርያም፡</persName>   
+                    <persName xml:lang="gez" corresp="#n1" type="normalized">Māryām</persName>   
+                    <birth notBefore="1924" notAfter="1925"/>
+                    <death when="2017"/>
                 </person>
                 <listRelation>
                     <relation name="betmas:wifeOf" active="PRS12946MaryamMary" passive="PRS5782JuelJen"/>
