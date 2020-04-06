@@ -45,18 +45,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Malʿaka Mǝḥrat Yāred Gǝrmāye</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">መልዓከ፡ ምሕረት፡ ያሬድ፡ ግርማዬ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Malʿaka Mǝḥrat Yāred Gǝrmāye</persName>
                     <faith type="EOTC"/>
-                    <occupation type="ecclesiastic"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <occupation type="ecclesiastic">deacon</occupation>
+                    <occupation type="ecclesiastic">Administrator of Č̣alaqot Śǝllāse</occupation>
+                    <floruit when="1975"/>
+                    <residence>
+                        <placeName ref="LOC2091Calaqo">Č̣alaqot Śǝllāse</placeName>
+                    </residence>
                 </person>
-                <listRelation>
-                    <relation name="saws:hasOwned" active="PRS12948MalakaMe" passive=""/>
-                </listRelation>
-            </listPerson><!---->
+                <!--- <listRelation>
+                  Malʿaka Mǝḥrat Yāred Gǝrmāye owned the MS from which ms BDLaethd18 was copied: 
+                        this is not mentioned in the MS (so it's not a proper attestation), but in the descriptive paper attached to BDLaethd18. 
+                        What relation better fits this circumstance?      <relation name="" active="PRS12948MalakaMe" passive=""/>
+                    [MV 2020-04-06]
+                </listRelation> -->
+            </listPerson>
         </body>
     </text>
 </TEI>
