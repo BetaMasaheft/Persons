@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Dämä Krǝstos</title>
+            <title>Dama Krǝstos</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -39,17 +39,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change when="2020-04-07" who="ES">added details</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Dämä Krǝstos
+               <persName xml:lang="gez" xml:id="n1">ደመ፡ ክርስቶስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Dama Krǝstos
                </persName>
-               <occupation> wagšum </occupation>
+               <persName><roleName type="title">wag šum</roleName></persName>
+               <occupation type="political">wag šum </occupation>
+               <floruit notBefore="1700" notAfter="1760">ruler of Wag and Lāstā, a contemporary of King Bakāffa (r. 1721-30) and
+                  King ʾIyāsu II (r. 1730-55)</floruit>
+               <note>He is probably identical with the donor of <ref type="mss" corresp="ESbmqm013"/></note>
             </person>
          </listPerson>
       </body>
