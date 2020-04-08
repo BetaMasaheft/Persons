@@ -1,0 +1,68 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12955Tawfilus" xml:lang="en" type="pers">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Tawfīlus</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="DN"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p>The bishop of <placeName ref="INS0478DS">the monastery of Dayr as-Suryān</placeName>
+              in <date>1940s-1960s.</date></p>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+                <language ident="ar">Arabic</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="DN" when="2020-04-08">Created entity</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person>
+                    <persName xml:lang="ar" xml:id="n1">Tawfīlus</persName>
+                    <persName xml:lang="ar" type="normalized" corresp="#n1">Tawfīlus</persName>
+                    <persName type="alt"><roleName type="title">anbā</roleName>Tawfīlus</persName>
+                     <persName xml:lang="gez" xml:id="n2">ተዎፍሎስ᎓</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n2">Tewoflos</persName>
+                    <faith type="Coptic"/>
+                    <occupation type="ecclesiastic"/>
+                    <nationality type="Egypt"/>
+                    <birth/>
+                    <death/>
+                    <floruit>20th century</floruit>
+                </person>
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="PRS12955Tawfilus" passive="DSEthiop21"/>
+                </listRelation>
+            </listPerson><!---->
+        </body>
+    </text>
+</TEI>
