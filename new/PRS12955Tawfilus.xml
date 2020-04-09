@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Tawfīlus</title>
+                <title>Ṯāʾufīlus</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DN"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -28,11 +28,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>A digital born TEI file</p>
         </encodingDesc>
         <profileDesc>
-            <creation/>
-            <abstract>
-                <p>The bishop of <placeName ref="INS0478DS">the monastery of Dayr as-Suryān</placeName>
-              in <date>1940s-1960s.</date></p>
-            </abstract>
             <langUsage>
                 <language ident="en">English</language>
                 <language ident="gez">Gǝʿǝz</language>
@@ -41,28 +36,31 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="DN" when="2020-04-08">Created entity</change>
-        </revisionDesc>
+            <change who="DR" when="2020-04-09">Added information from 
+                http://www.st-mary-alsourian.com/index.php?option=com_content&amp;view=article&amp;id=444&amp;Itemid=1018&amp;lang=ar</change>
+           </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person>
-                    <persName xml:lang="ar" xml:id="n1">Tawfīlus</persName>
-                    <persName xml:lang="ar" type="normalized" corresp="#n1">Tawfīlus</persName>
-                    <persName type="alt"><roleName type="title">anbā</roleName>Tawfīlus</persName>
+                    <persName xml:lang="ar" xml:id="n1">ثاؤفيلس</persName>
+                    <persName xml:lang="ar" type="normalized" corresp="#n1">Ṯāʾufīlus</persName>
+                    <persName><roleName type="title">ʾanbā</roleName></persName>
                      <persName xml:lang="gez" xml:id="n2">ተዎፍሎስ᎓</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n2">Tewoflos</persName>
                     <faith type="Coptic"/>
                     <occupation type="ecclesiastic"/>
                     <nationality type="Egypt"/>
-                    <birth/>
-                    <death/>
-                    <floruit>20th century</floruit>
+                    <birth when="1908-03-10">1908</birth>
+                    <death when="1989-05-12">1989</death>
+                    <floruit from="1948" to="1989">ʾanbā Ṯāʾufīlus was the bishop of <placeName ref="INS0478DS"/> from 
+                    1948 to 1989, after having been a monk there.</floruit>
                 </person>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="PRS12955Tawfilus" passive="DSEthiop21"/>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>
