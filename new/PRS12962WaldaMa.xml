@@ -48,10 +48,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <persName xml:lang="gez" xml:id="n1">ወልደ፡ ማርያም፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Walda Māryām</persName>
                     <faith type="EOTC"/>     
-                    <floruit from="1882" to="1889"/>             
+                    <floruit notBefore="1882"/>             
                 </person>
                 <listRelation>
-                    <relation name="saws:hasOwned" active="PRS12962WaldaMa" passive="MNC009" evidence="conjecture"/>
+                    <relation name="saws:hasOwned" active="PRS12962WaldaMa" passive="MNC009">
+                        <desc>The name of Walda Māryām is frequently mentioned in the supplication formulas throughout the manuscript. 
+                            The name is overwritten in a secondary hand over other effaced names. This strongly suggests that at some point he owned the manuscript.
+                        </desc>
+                    </relation>
                 </listRelation>
             </listPerson>
         </body>
