@@ -35,10 +35,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <abstract>
                 <p/>
             </abstract>
-            <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
+            <langUsage><language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+                <language ident="ar">Arabic</language></langUsage>
         </profileDesc>
         <revisionDesc>
             <change who="DR" when="2018-03-16">Created entity</change>
+            <change who="DR" when="2020-04-17">Added Arabic name</change>
         </revisionDesc>
     </teiHeader>
     <text xml:base="https://betamasaheft.eu/">
@@ -47,6 +50,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ጳውሎስ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Ṗāwlos</persName>
+                    <persName xml:lang="ar" xml:id="n2">بولس الحبشي</persName>
+                    <persName xml:lang="ar" type="normalized" corresp="#n2">Būlus al-Ḥabašī</persName>
                 </person>
                 <listRelation>
                     <relation name="saws:isCopierOf" active="PRS11959Pawlos" passive="DSEthiop7"/>
