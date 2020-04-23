@@ -45,15 +45,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Walda Māryām</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
-                    <faith type="EOTC"/>
-                    <occupation type="ecclesiastic"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <persName xml:lang="gez" xml:id="n1">ወልደ፡ ማርያም፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walda Māryām</persName>
+                    <faith type="EOTC"/>     
+                    <occupation type="ecclesiastic">mam(h)ǝru</occupation>
+                    <floruit notBefore="1881"/>             
                 </person>
-            </listPerson><!---->
+                <listRelation>
+                    <relation name="saws:hasOwned" active="PRS12966WaldaM" passive="MNC013">
+                        <desc>The name of Walda Māryām is is added in a secondary hand. This suggests that at some point he owned the manuscript.
+                        </desc>
+                    </relation>
+                </listRelation>
+            </listPerson>
         </body>
     </text>
 </TEI>

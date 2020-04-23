@@ -45,14 +45,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Sayfa Mikāʾel</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
-                    <faith type="EOTC"/>
-                    <birth/>
-                    <death/>
-                    <floruit>1881-1889</floruit>
+                    <persName xml:lang="gez" xml:id="n1">ሰይፈ፡ ሚካኤል፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Sayfa Mikāʾel</persName>
+                    <faith type="EOTC"/>     
+                    <floruit notBefore="1881" notAfter="1899">1881-1899</floruit>
                 </person>
-            </listPerson><!---->
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="PRS12965SayfaMi" passive="MNC013">
+                        <desc>The name of Sayfa Mikāʾel is frequently mentioned in the supplication formulas throughout the manuscript. 
+                            His name is written in the main hand. This strongly suggests that he commissioned the manuscript.
+                        </desc>
+                    </relation>
+                </listRelation>
+            </listPerson>
         </body>
     </text>
 </TEI>
