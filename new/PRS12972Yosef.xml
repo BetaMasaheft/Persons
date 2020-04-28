@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Yosef</title>
+                <title>Yosif</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DN"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -30,9 +30,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <profileDesc>
             <creation/>
             <abstract>
-                <p>Only the Arabic name is attested in <ref type="mss"
-                  corresp="DSEthiop11"/> that can hark back to
-                of an Ethiopian name like Yosif ʾAggazaw.</p>
+                <p/>
             </abstract>
             <langUsage>
                 <language ident="en">English</language>
@@ -47,7 +45,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                  <persName xml:lang="ar" xml:id="n1">Yusuf Naǧadahu al-Ḫabasī</persName>
+                  <persName xml:lang="ar" xml:id="n1">Yūsuf Naǧadahu al-Ḫabašī</persName>
                     <persName xml:lang="gez" xml:id="n2" cert="medium">ዮሲፍ፡ አገዘው፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n2" cert="medium">Yosif ʾAggazaw</persName>
 
@@ -57,7 +55,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <birth/>
                     <death/>
                     <floruit notBefore="1900" notAfter="1950"></floruit>
+                    <note>Only the Arabic name is attested in <ref type="mss"
+                      corresp="DSEthiop11"/> that can hark back to
+                    of an Ethiopian name like Yosif ʾAggazaw.</note>
                 </person>
+
                 <listRelation>
                     <relation name="saws:hasOwned" active="PRS12972Yosef" passive="DSEthiop11"/>
                 </listRelation>
