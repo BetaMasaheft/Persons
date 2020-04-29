@@ -1,11 +1,14 @@
+
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12959GabraIyasusWM" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>GabraIyasusWM</title>
+                <title>Gabra ʾIyasus Walda Mikāʾel</title>
+
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DN"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -21,7 +24,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <p/>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -45,19 +47,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">GabraIyasusWM</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ገብረ፡ ኢየሱስ፡ ወልደ፡ ሚካኤል፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra ʾIyasus Walda Mikāʾel</persName>
+                    <persName type="alt"><roleName type="title">ʾabbā</roleName>Gabra ʾIyasus Walda Mikāʾel</persName>
+
+
                     <faith type="EOTC"/>
                     <occupation type="ecclesiastic"/>
                     <nationality type="Eritrea"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit>A monk from <placeName ref="INS0479DabraM">Dabra Māryām
+                      Qoḥayn of ʾabbā ʾAbsādi</placeName>.</floruit>
                 </person>
                 <listRelation>
-                    <relation name="saws:hasOwned" active="PRS12959GabraIyasusWM" passive=""/>
+                    <relation name="saws:hasOwned" active="PRS12959GabraIyasusWM" passive="DSEthiop2"/>
+
                 </listRelation>
-            </listPerson><!---->
-        </body>
+            </listPerson>
+            </body>
     </text>
 </TEI>
