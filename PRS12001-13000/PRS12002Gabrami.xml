@@ -40,17 +40,36 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
         </profileDesc>
         <revisionDesc>
             <change who="DR" when="2018-04-16">Created entity</change>
+            <change who="DR" when="2020-04-29">Added information, included data from deleted PRS12136GabraM, PRS12702MikailHabashi</change>
         </revisionDesc>
     </teiHeader>
     <text xml:base="https://betamasaheft.eu/">
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ገብረሚካኤል፡</persName>
+                    <persName xml:lang="gez" xml:id="n1">ገብረ፡ ሚካኤል፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra Mikāʾel</persName>
+                    <persName xml:lang="ar" xml:id="n2">ميخائيل الحبشي</persName>
+                    <persName xml:lang="ar" type="normalized" corresp="#n2">Mīhāʾīl al-Ḥabašī</persName>
+                    <persName><roleName type="title">qummuṣ</roleName></persName>
+                    <occupation type="ecclesiastic">A monk and consecrated priest who resided in
+                        <placeName ref="INS0478DS">Dayr as-Suryān</placeName> in the
+                        19th or early 20th century.</occupation>
+                    <floruit notBefore="1875" notAfter="1954"/>
+                    <note>The modern Arabic manuscript description placed on a paper sheet inside <ref type="mss" corresp="DSEthiop13"/> states
+                        that Mīhāʾīl al-Ḥabašī was born in <placeName ref="LOC1178AddiNa"/> in Eritrea and that his mother's name was
+                        Lītā Māryām.
+                        The <ref target="https://stmaryrodelfarag.com/%D8%A7%D8%A8%D8%A7%D8%A1-%D8%B3%D8%A7%D8%A8%D9%82%D9%8A%D9%86/">website of the 
+                            church St Mary in Rawḍ al-Farag in Cairo</ref> states that a <foreign xml:lang="ar">qummuṣ</foreign> Mīḫāʾīl al-Ḥabašī lived in this church, until he was ordered by
+                        <persName ref="PRS3260CyrilVI"/> to return to a monastery. Since it was impossible for him to return to Ethiopia, he went to <placeName ref="INS0478DS"/>, 
+                        were he died. Whether this person is identical with the <persName ref="PRS12002Gabrami"/> mentioned in the manuscripts of
+                        <placeName ref="INS0478DS"/> can only be speculated.
+                    </note>
                 </person>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="PRS12002Gabrami" passive="DSEthiop9"/>
+                    <relation name="lawd:hasAttestation" active="PRS12002Gabrami" passive="DSEthiop10"/>
+                    <relation name="lawd:hasAttestation" active="PRS12002Gabrami" passive="DSEthiop13"/>
                 </listRelation>
             </listPerson>
         </body>
