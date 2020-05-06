@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12978GabraSelassie" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12979GabrielFA" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Gabra Śǝllāse</title>
+                <title>Gabrǝʾel</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="MKr"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -38,23 +38,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MKr" when="2020-05-04">Created entity</change>
+            <change who="MKr" when="2020-05-06">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ገብረ፡ ሥላሴ፡</persName>
-                    <persName xml:lang="gez" xml:id="n2">Gabra Śǝllāse</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
-
+                    <persName xml:lang="gez" xml:id="n1">Gabrǝʾel</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">
+                      ገብርኤል</persName>
+                    <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
-
+                    <birth/>
+                    <death/>
                     <floruit/>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS12978GabraSelassie" passive="BAVet120"/>
+                    <relation name="saws:hasOwned" active="PRS12979GabrielFA" passive="BAVet120"/>
+                    <relation name="syriaca:has-relation-to-place" active="PRS12979GabrielFA" passive="LOC3056Farta">
+                    <desc>Referred to as "Gabrǝʾel of Fārṭā Ādiko in Bägemdǝr</desc></relation>
                 </listRelation>
             </listPerson><!---->
         </body>
