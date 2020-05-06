@@ -46,15 +46,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPerson>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ገብረ፡ ሥላሴ፡</persName>
-                    <persName xml:lang="gez" xml:id="n2">Gabra Śǝllāse</persName>
+                    <persName xml:lang="gez" corresp="#n1">Gabra Śǝllāse</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1"/>
 
                     <nationality type="Ethiopia"/>
 
-                    <floruit/>
+                    <floruit notBefore="1900" notAfter="1940">1900-1940</floruit>
                 </person>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="PRS12978GabraSelassie" passive="BAVet120"/>
+                    <relation name="saws:isRelatedTo" active="PRS12978GabraSelassie" passive="PRS12980WaldaGiyrgis"/>
                 </listRelation>
             </listPerson><!---->
         </body>
