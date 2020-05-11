@@ -45,19 +45,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1"> ʾAmda Ṣǝyon</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">አምደ፡ ጽዮን፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAmda Ṣǝyon</persName>
                     <faith type="EOTC"/>
-                    <occupation type="ecclesiastic"/>
+                    <occupation type="ecclesiastic">deacon</occupation>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
                 </person>
                 <listRelation>
-                    <relation name="snap:FatherOf" active="PRS12985AmdaSe" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS12985AmdaSe" passive="BDLaethe38">
+                        <desc>The name of <roleName type="title">diyāqon</roleName> ʾAmda Ṣǝyon is mentioned in the colophon of <ref type="mss" corresp="BDLaethe38"/>.
+                        </desc>
+                    </relation>
+                    <relation name="snap:FatherOf" active="PRS12985AmdaSe" passive="PRS12983GabraMa"></relation>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>

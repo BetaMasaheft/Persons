@@ -45,15 +45,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Tasfā Mikāʾel</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ተስፋ፡ ሚካኤል፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Tasfā Mikāʾel</persName>
                     <faith type="EOTC"/>
+                    <occupation type="ecclesiastic">ʾabbā</occupation>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit>1775-1815</floruit>
+                    <floruit notBefore="1775" notAfter="1815"></floruit> 
                 </person>
-            </listPerson><!---->
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="PRS12984TasfaMi" passive="BDLaethe38">
+                        <desc>The name of Tasfā Mikāʾel is mentioned in the colophon of <ref type="mss" corresp="BDLaethe38"/>.
+                        </desc>
+                    </relation>
+                </listRelation>
+            </listPerson>
         </body>
     </text>
 </TEI>

@@ -45,16 +45,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Habta Gabrǝʾel</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ሀብተ፡ ገብርኤል፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Habta Gabrǝʾel</persName>
                     <faith type="EOTC"/>
                     <occupation type="art"/>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
                 </person>
-            </listPerson><!---->
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="PRS12987HabtaGa" passive="BDLaethe38">
+                        <desc>The name of Gabra Krǝstos is indicated as the illustrator of <ref type="mss" corresp="BDLaethe38"/> in the colophon of the manuscript.
+                        </desc>
+                    </relation>
+                </listRelation>
+            </listPerson>
         </body>
     </text>
 </TEI>

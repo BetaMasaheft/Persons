@@ -56,5 +56,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </person>
             </listPerson><!---->
         </body>
+        
+        <body>
+            <listPerson>
+                <person sex="1">
+                    <persName xml:lang="gez" xml:id="n1">ወልደ፡ ሥላሴ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walda Śǝllāse</persName>
+                    <faith type="EOTC"/>
+                    <occupation type="ecclesiastic">ʾabbā</occupation>
+                    <nationality type="Ethiopia"/>
+                    <floruit notBefore="1775" notAfter="1815">He was involved in the production of <ref type="mss" corresp="BDLaethe38"></ref></floruit> 
+                </person>
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="PRS12988WaldaSe" passive="BDLaethe38">
+                        <desc>The name of <roleName type="title">ʾabbā</roleName> Walda Śǝllāse is mentioned in the colophon of <ref type="mss" corresp="BDLaethe38"/>.
+                        </desc>
+                    </relation>
+                </listRelation>
+            </listPerson>
+        </body>
     </text>
 </TEI>

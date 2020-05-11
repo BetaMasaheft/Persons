@@ -45,16 +45,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Walda Garimā</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ወልደ፡ ገሪማ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walda Garimā</persName>
                     <faith type="EOTC"/>
-                    <occupation type="ecclesiastic"/>
+                    <occupation type="ecclesiastic">ʾabbā</occupation>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1775" notAfter="1815"></floruit> 
                 </person>
-            </listPerson><!---->
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="PRS12981WaldaGa" passive="BDLaethe38">
+                        <desc>The name of <roleName type="title">ʾabbā</roleName> Walda Garimā is mentioned in the colophon of <ref type="mss" corresp="BDLaethe38"/>.
+                        </desc>
+                    </relation>
+                </listRelation>
+            </listPerson>
         </body>
     </text>
 </TEI>

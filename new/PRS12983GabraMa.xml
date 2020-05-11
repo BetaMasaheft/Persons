@@ -45,16 +45,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Gabra Māryām</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ገብረ፡ ማርያም፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra Māryām</persName>
                     <faith type="EOTC"/>
-                    <occupation type="ecclesiastic"/>
+                    <occupation type="ecclesiastic">ʾabbā</occupation>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit>1775-1815</floruit>
+                    <floruit notBefore="1775" notAfter="1815"></floruit> 
                 </person>
-            </listPerson><!---->
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="PRS12983GabraMa" passive="BDLaethe38">
+                        <desc>The name of <roleName type="title">ʾabbā</roleName> Gabra Māryām is indicated as the patron of <ref type="mss" corresp="BDLaethe38"/> in the colophon of the manuscript.
+                            His name is mentioned several times in the supplication formulas throughout the manuscript.
+                        </desc>
+                    </relation>
+                    <relation name="snap:SonOf" active="PRS12983GabraMa" passive="PRS12985AmdaSe"></relation>
+                </listRelation>
+            </listPerson>
         </body>
     </text>
 </TEI>

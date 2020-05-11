@@ -45,18 +45,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Gabra Krǝstos</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ገብረ፡ ክርስቶስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra Krǝstos</persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit>1775-1815</floruit>
+                    <floruit notBefore="1775" notAfter="1815"></floruit> 
                 </person>
                 <listRelation>
-                    <relation name="saws:isCopierOf" active="PRS12986GabraKr" passive=""/>
+                    <relation name="saws:isCopierOf" active="PRS12986GabraKr" passive="BDLaethe38">
+                        <desc>The name of Gabra Krǝstos is indicated as the scribe of <ref type="mss" corresp="BDLaethe38"/> in the colophon of the manuscript.
+                        </desc>
+                    </relation>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>
