@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Sisinios</title>
+            <title>Sisinnius</title>
             <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             
@@ -49,6 +49,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="ES" when="2016-02-09">CREATED: person</change>
          <change who="SG" when="2017-08-08">Complet record</change>
          <change who="PL" when="2019-03-27">removed occupation containing St, Saint, bibl, biblical or prophet, added keyword. See https://github.com/BetaMasaheft/Documentation/issues/1104</change>
+         <change when="2020-05-12" who="ES">updated name, added diesNatalis, description, relation</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -57,18 +58,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ሱስንዮስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Susǝnyos</persName>
-               <persName xml:lang="ger" xml:id="n2" type="alt">Sisinnius</persName>
+               <persName xml:lang="en" corresp="#n1" type="main">Sisinnius</persName>
+               <persName xml:lang="it" corresp="#n1">Sisinio</persName>
+               <persName xml:lang="ger" xml:id="n2" type="alt">Susinius</persName>
                <persName xml:lang="gez" xml:id="n3" type="alt">Sisinios</persName>
               
                
                <!--saint-->
                
-               <floruit notBefore="0284" notAfter="0316">He was one of the so-called equestrian saints, 
+               <floruit notBefore="0284" notAfter="0316">St Sisinnius was one of the so-called equestrian saints, 
                   died as a martyr in <placeName ref="LOC1481Antioc">Antioch</placeName>
                   during the persecution of <persName ref="PRS3581Diocleti">Diocletian</persName> from <date>284 </date> to <date>316</date>. 
-                  His name largely appears in official ecclesiastical literature and magic scrolls. 
-                  <persName ref="PRS8886Sisinios">Susǝnyos</persName> 
-                  is also depicted on the walls of churches with the other equestrian saints. </floruit>
+                  His martyrdom is commemorated on 26 Barmūdah in the Coptic calendar = <date type="diesNatalis" ref="ethiocal:Miyazya26">26 Miyāzyā</date>.
+                  In the Ethiopic narrative (following the Coptic) the 4th-century martyr is conflanted with the legendary (first to second century CE) figure of the Byzantine folklore of the same name, who combatted a female demon (<persName ref="PRS10134Werzely">Wǝrzǝlyā</persName>)
+                  St Sisinnius is frequently depicted on the walls of churches and in manuscripts alongside other holy riders. </floruit>
                <death notBefore="0284" notAfter="0316"/>
                
                
@@ -76,6 +79,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             
             <listRelation>
                <relation name="ecrm:P129i_is_subject_of" active="PRS8886Sisinios" passive="LIT1763Legend"/>
+               <relation name="dcterms:relation" active="PRS8886Sisinios" passive="PRS10134Werzely"></relation>
             </listRelation>
          </listPerson>
          
