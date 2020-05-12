@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Wǝrzǝlya</title>
+            <title>Wǝrzǝlyā</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -44,14 +44,32 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  
-                  Wǝrzǝlya
-               </persName>
-               <occupation> rel. </occupation>
+            <person sex="2">
+               <persName xml:lang="gez" xml:id="n1" type="birth">ውርዝልያ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Wǝrzǝlyā</persName>
+               
+               
+               <persName xml:lang="cop" xml:id="n2" type="alt">Berzelia</persName>
+               <persName xml:lang="gr" xml:id="n3">Γελλώ</persName>
+               <persName xml:lang="gr" corresp="#n3" type="normalized">Gello</persName>
+               
+               
+               
+               <floruit>She was a female demon or a witch believed in Ethiopian tradition to cause the death of newly-born children,
+                  and be consequently defeated and speared,
+                  but not killed by St <persName ref="PRS8886Sisinios"></persName>. </floruit>
+               <note>In Greek mythology, Gello (Gyllou, Gylou, Gillo, or Gelu) is a female demon or revenant who threatens the reproductive cycle by causing infertility, miscarriage, and infant mortality. 
+                  In the version of the Legend of St. Sisinnos by Leo Allatius, 
+                  her twelve-and-a-half names are given as Gylo, Morrha, Byzo, Marmaro, Petasia, Pelagia, Bordona, Apleto, Chomodracaena, Anabardalaea, Psychoanaspastria, Paedopniktria, and Strigla.                  
+               </note>
+               
+               
             </person>
          </listPerson>
+         <listRelation>
+            <relation name="ecrm:P129i_is_subject_of" active="PRS10134Werzely" passive="LIT1763Legend"/>
+            
+         </listRelation>
       </body>
    </text>
 </TEI>
