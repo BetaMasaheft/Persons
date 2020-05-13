@@ -53,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <person sex="2" sameAs="wd:Q345">
                <persName xml:id="n1" xml:lang="gez">ማርያም፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Māryām</persName>
-               <persName xml:lang="en" corresp="#n1" type="main">Mary</persName>
+               <persName xml:lang="en" xml:id="n2" type="main">St Mary</persName>
                
                <persName xml:id="Virgin">Holy Virgin</persName>
                <persName corresp="#Virgin" xml:lang="gez">ድንግል፡</persName>
@@ -80,11 +80,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                <persName corresp="#Theotokos" xml:lang="gez">Theotokos</persName>
                <persName corresp="#Theotokos" xml:lang="en">God-Bearer</persName>
                <persName corresp="#Theotokos" xml:lang="la">Mater Dei</persName>
-
-               <!-- Saint-->
-               
-               
-               
+        
             </person>
          </listPerson>
       </body>
