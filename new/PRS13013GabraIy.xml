@@ -45,14 +45,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Gabra ʾIyasus</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ገብረ፡ ኢየሱስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra ʾIyasus</persName>
                     <faith type="EOTC"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit>1732</floruit> 
                 </person>
-            </listPerson><!---->
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="PRS13013GabraIy" passive="MNC014">
+                        <desc>His name is mentioned in the supplication formulas throughout <ref type="mss" corresp="MNC014"/>.
+                            He was either the patron, the owner or the donor of the manuscript.
+                        </desc>
+                    </relation>
+                </listRelation>
+            </listPerson>
         </body>
     </text>
 </TEI>

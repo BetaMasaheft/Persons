@@ -45,8 +45,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Gabra Krəstos</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ገብረ፡ ክርስቶስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra Krəstos</persName>
                     <faith type="EOTC"/>
                     <occupation type="literary"/>
                     <birth/>
@@ -54,9 +54,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <floruit>1732</floruit>
                 </person>
                 <listRelation>
-                    <relation name="saws:isCopierOf" active="PRS13015GabraKr" passive=""/>
+                    <relation name="saws:isCopierOf" active="PRS13015GabraKr" passive="MNC014">
+                        <desc>His name is mentioned in the supplication formulas throughout <ref type="mss" corresp="MNC014"/>.
+                        </desc>
+                    </relation>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>

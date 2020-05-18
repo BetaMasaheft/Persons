@@ -45,14 +45,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Walda Śəllāse</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ወልደ፡ ሥላሴ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walda Śǝllāse</persName>
                     <faith type="EOTC"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1732"/> 
                 </person>
-            </listPerson><!---->
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="PRS13016WaldaSe" passive="MNC014">
+                        <desc>His name is written over erasure in the supplication formulas throughout <ref type="mss" corresp="MNC014"/>.
+                            He was either a later owner or donor of the manuscript.
+                        </desc>
+                    </relation>
+                </listRelation>
+            </listPerson>
         </body>
     </text>
 </TEI>
