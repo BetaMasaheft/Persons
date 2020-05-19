@@ -28,10 +28,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>A digital born TEI file</p>
         </encodingDesc>
         <profileDesc>
-            <creation/>
-            <abstract>
-                <p/>
-            </abstract>
             <langUsage>
                 <language ident="en">English</language>
                 <language ident="gez">Gǝʿǝz</language>
@@ -49,9 +45,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Takla Ḥawāryāt</persName>
                     <faith type="EOTC"/>
                     <occupation type="literary"/>
-                    <birth/>
-                    <death/>
-                    <floruit>1732</floruit>
+                    <floruit when="1732">1732</floruit>
                 </person>
                 <listRelation>
                     <relation name="saws:isCopierOf" active="PRS13014TaklaHa" passive="MNC014">
