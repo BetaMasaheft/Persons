@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS4585Georgeo">
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS4585Georgeo">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>George of Lydda</title>
+            <title>St George of Lydda</title>
             <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             
@@ -57,14 +58,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       <body>
          <listPerson>
             <person sex="1" sameAs="wd:Q48438">
-               <persName xml:lang="en" xml:id="n1">St George</persName>
+               <persName xml:lang="en" xml:id="n1">St George of Lydda</persName>
                   <persName xml:lang="gez" xml:id="n2" type="birth">ጊዮርጊስ፡</persName>
                   <persName xml:lang="gez" corresp="#n2" type="normalized">Giyorgis</persName>
                <persName xml:lang="gez" xml:id="n3" type="alt">ማር፡ ጊዮርጊስ፡</persName>
                <persName xml:lang="gez" corresp="#n3" type="normalized">Mār Giyorgis</persName>
                   <nationality type="Israel/Palestine"/>
                   <faith type="Orthodox"/>
-                  <!--saint-->
                   <birth notBefore="0260" notAfter="0283"/>
                   <floruit notBefore="0260" notAfter="0303">He was one of the most famous saints in 
                      both Eastern and Western Christian traditions. 
