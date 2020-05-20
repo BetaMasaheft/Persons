@@ -28,10 +28,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>A digital born TEI file</p>
         </encodingDesc>
         <profileDesc>
-            <creation/>
-            <abstract>
-                <p/>
-            </abstract>
             <langUsage>
                 <language ident="en">English</language>
                 <language ident="gez">Gǝʿǝz</language>
@@ -45,14 +41,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Takla Māryām</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ተክለ፡ ማርያም፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Takla Māryām</persName>
                     <faith type="EOTC"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1700" notAfter="1799"/> 
                 </person>
-            </listPerson><!---->
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="PRS13018TaklaMa" passive="MNC015">
+                        <desc>His name is written in the main hand in the supplication formula in <ref type="mss" corresp="MNC015"/>.
+                            He was either the patron, the owner or the donor of the manuscript.
+                        </desc>
+                    </relation>
+                </listRelation>
+            </listPerson>
         </body>
     </text>
 </TEI>
