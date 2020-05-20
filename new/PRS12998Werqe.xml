@@ -46,7 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPerson>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">Warqe</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">ወርቄ፡ </persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">ወርቄ፡</persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
                     <birth/>
@@ -54,7 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <floruit/>
                 </person>
                 <listRelation>
-                    <relation name="saws:isRelatedTo" active="PRS12998Werqe" passive="BAVet120"></relation>
+                    <relation name="lawd:hasAttestation" active="PRS12998Werqe" passive="BAVet120"></relation>
                 </listRelation>
             </listPerson><!---->
         </body>
