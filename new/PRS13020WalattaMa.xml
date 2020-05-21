@@ -28,10 +28,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>A digital born TEI file</p>
         </encodingDesc>
         <profileDesc>
-            <creation/>
-            <abstract>
-                <p/>
-            </abstract>
             <langUsage>
                 <language ident="en">English</language>
                 <language ident="gez">Gǝʿǝz</language>
@@ -42,17 +38,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </revisionDesc>
     </teiHeader>
     <text>
+
         <body>
             <listPerson>
                 <person sex="2">
-                    <persName xml:lang="gez" xml:id="n1">Walatta Māryām</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ወለተ፡ ማርያም፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walatta Māryām</persName>
                     <faith type="EOTC"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1700"/> 
                 </person>
-            </listPerson><!---->
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="PRS13020WalattaMa" passive="MNC015">
+                        <desc>Her name is written in a secondary hand in the supplication formula in <ref type="mss" corresp="MNC015"/>.
+                            She was perhaps either a later owner or donor of the manuscript.
+                        </desc>
+                    </relation>
+                </listRelation>
+            </listPerson>
         </body>
     </text>
 </TEI>
