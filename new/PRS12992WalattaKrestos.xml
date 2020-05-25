@@ -1,13 +1,13 @@
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12947WaldaMikaelScribe" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12992WalattaKrestos" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Walda Mikāʾel</title>
+                <title>Walatta Krǝstos</title>
                 <editor role="generalEditor" key="AB"/>
-                <editor key="ES"/>
+                <editor key="MKr"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
             <publicationStmt>
@@ -38,24 +38,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="ES" when="2020-04-06">Created entity</change>
+            <change who="MKr" when="2020-05-12">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ወልደ፡ ሚካኤል፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walda Mikāʾel</persName>
+                <person sex="2">
+                    <persName xml:lang="gez" xml:id="n1">Walatta Māryam</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">ወለተ፡ ማርያም፡</persName>
                     <faith type="EOTC"/>
+                    <nationality type="Ethiopia"/>
                     <birth/>
                     <death/>
-                    <floruit>1850-1900</floruit>
+                    <floruit/>
                 </person>
                 <listRelation>
-                    <relation name="saws:isCopierOf" active="PRS12947WaldaMikaelScribe" passive="ESap047"/>
-                    <relation name="saws:isCopierOf" active="PRS12947WaldaMikaelScribe" passive="ESap028"/>
-                    <relation name="saws:isCopierOf" active="PRS12947WaldaMikaelScribe" passive="ESma002"/>
+                    <relation name="saws:isRelatedTo" active="PRS12992WalattaKrestos" passive="BAVet120"></relation>
                 </listRelation>
             </listPerson><!---->
         </body>

@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12002Gabrami" xml:lang="en" type="pers">
     <teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
@@ -40,17 +40,52 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
         </profileDesc>
         <revisionDesc>
             <change who="DR" when="2018-04-16">Created entity</change>
+            <change who="DR" when="2020-04-29">Added information, included data from deleted PRS12136GabraM, PRS12702MikailHabashi</change>
         </revisionDesc>
     </teiHeader>
     <text xml:base="https://betamasaheft.eu/">
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ገብረሚካኤል፡</persName>
+                    <persName xml:lang="gez" xml:id="n1">ገብረ፡ ሚካኤል፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra Mikāʾel</persName>
+                    <persName xml:lang="ar" xml:id="n2">ميخائيل الحبشي</persName>
+                    <persName xml:lang="ar" type="normalized" corresp="#n2">Mīhāʾīl al-Ḥabašī</persName>
+                    <persName><roleName type="title">qummuṣ</roleName></persName>
+                    <occupation type="ecclesiastic">A monk and consecrated priest who resided in
+                        <placeName ref="INS0478DS">Dayr as-Suryān</placeName> in the
+                        19th or early 20th century.</occupation>
+                    <residence>He is associated with <placeName ref="INS0354DB"/> and
+                        <placeName ref="INS0352EA"/> in the manuscripts attesting him.</residence>
+                    <floruit notBefore="1875" notAfter="1960"/>
+                    <note>
+                        <p>The modern Arabic manuscript description placed on a paper sheet inside <ref type="mss" corresp="DSEthiop13"/> states
+                        that Mīḫāʾīl al-Ḥabašī was born in <placeName ref="LOC1178AddiNa"/> in Eritrea and that his mother's name was
+                        <foreign xml:lang="ar">Lītā Māryām</foreign>, possibly a transcription of <foreign xml:lang="gez">Walatta Māryām</foreign>.
+                            In <ref type="mss" corresp="DSEthiop9"/>, the name of <persName ref="PRS12967WalattaM"/> was erased
+                            and substituted with that of <persName ref="PRS12002Gabrami"/>. There is no indication in the manuscript as to whether both
+                        persons were related. On the basis of the 
+                      data from <ref type="mss" corresp="DSEthiop9"/> one can assume that <foreign xml:lang="ar">Mīḫāʾīl al-Ḥabašī</foreign>
+                    is an Arabic adaptation of the name <foreign xml:lang="gez">Gabra Mikāʾel</foreign>.</p>
+
+                      <p>  The <ref target="https://stmaryrodelfarag.com/%D8%A7%D8%A8%D8%A7%D8%A1-%D8%B3%D8%A7%D8%A8%D9%82%D9%8A%D9%86/">website of the
+                            church St Mary in Rawḍ al-Farag in Cairo</ref> states that a <foreign xml:lang="ar">qummuṣ</foreign> Mīḫāʾīl al-Ḥabašī lived in
+                          this church, until
+                          <persName ref="PRS3260CyrilVI"/> ordered all monks to return to their monasteries. This decree was issued by Cyril VI in 1960,
+                          <bibl><ptr target="bm:OMahony2007Tradition"/><citedRange unit="page">171</citedRange></bibl>.
+                          Since it was impossible for him to return to his native country, he went to <placeName ref="INS0478DS"/>,
+                          were he died.  Whether this person is identical with the Gabra Mikāʾel/Mīḫāʾīl al-Ḥabašī mentioned in the manuscripts of
+                        <placeName ref="INS0478DS"/> can only be speculated.</p>
+
+                       <p> It cannot be excluded that Gabra Mikāʾel mentioned in the manuscripts <ref type="mss" corresp="DSEthiop9"/>,
+                        <ref type="mss" corresp="DSEthiop10"/> and <ref type="mss" corresp="DSEthiop13"/> might refer to more than one person.</p>
+                    </note>
                 </person>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="PRS12002Gabrami" passive="DSEthiop9"/>
+                    <relation name="lawd:hasAttestation" active="PRS12002Gabrami" passive="DSEthiop10"/>
+                    <relation name="lawd:hasAttestation" active="PRS12002Gabrami" passive="DSEthiop13"/>
+                    <relation name="lawd:hasAttestation" active="PRS12002Gabrami" passive="DSEthiop5"/>
                 </listRelation>
             </listPerson>
         </body>
