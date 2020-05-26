@@ -45,18 +45,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ዘገዘ፡</persName>
+                    <persName xml:lang="gez" xml:id="n1">ዘገየ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Zagayya</persName>
                     <faith type="Judaism"/>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
+
                     <floruit>1850-1900</floruit>
                 </person>
                 <listRelation>
                     <relation name="snap:FatherOf" active="PRS13024Zagayya" passive="PRS13023Ballata"/>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>
