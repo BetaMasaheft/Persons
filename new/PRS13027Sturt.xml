@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Sturt</title>
+                <title>Captain Sturt</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="MV"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -29,9 +29,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </encodingDesc>
         <profileDesc>
             <creation/>
-            <abstract>
-                <p/>
-            </abstract>
             <langUsage>
                 <language ident="en">English</language>
                 <language ident="gez">Gǝʿǝz</language>
@@ -45,18 +42,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Sturt</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
-                    <faith type="Anglican"/>
-                    <occupation type="military"/>
-                    <birth/>
-                    <death/>
+                    <persName xml:lang="en" xml:id="n1">Sturt</persName>
+                    <occupation type="military">Captain</occupation>
                     <floruit>1868-1871</floruit>
                 </person>
                 <listRelation>
-                    <relation name="saws:hasOwned" active="PRS13027Sturt" passive=""/>
+                    <relation name="saws:hasOwned" active="PRS13027Sturt" passive="BDLaethf31">
+                        <desc>He brought <ref type="mss" corresp="BDLaethf31"/> to England from Ethiopia in <date>1868</date> after <persName ref="PRS7484Napier"/>'s 
+                            expedition. According to the Sotheby's auction catalogue, he owned the manuscript until <date>1871</date>.
+                        </desc>
+                    </relation>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>
