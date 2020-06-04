@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12944AmhaSe" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12949YohannesA" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ʾAmmǝḫā Śǝllāse</title>
+                <title>Yoḥannǝs</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="MV"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -38,29 +38,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MV" when="2020-04-02">Created entity</change>
-            <change who="MV" when="2020-04-06">Added occupation, residence, other name</change>
+            <change who="MV" when="2020-04-06">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">አምኃ፡ ሥላሴ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAmmǝḫā Śǝllāse</persName>
-                    <persName xml:lang="gez" xml:id="n2">ገብረ፡ ክርስቶስ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n2">Gabra Krǝstos</persName>
-                    <persName><roleName type="title">diyāqon</roleName></persName>
-                    <faith type="EOTC"/>      
-                    <occupation type="ecclesiastic">deacon</occupation>
+                    <persName xml:lang="gez" xml:id="n1">ዮሐንስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Yoḥannǝs</persName>
+                    <faith type="EOTC"/>
+                    <occupation type="ecclesiastic">Archbishop of Aksum and all Tǝgray</occupation>
                     <floruit when="1975"/>
                     <residence>
-                        <placeName ref="LOC4505Manawe">Manāwe gadām</placeName>
+                        <placeName ref="LOC4545Maqala"/>
                     </residence>
                 </person>
-                <listRelation>
-                    <relation name="saws:isCopierOf" active="PRS12944AmhaSe" passive="BDLaethd18"/>
-                </listRelation>
             </listPerson>
         </body>
     </text>

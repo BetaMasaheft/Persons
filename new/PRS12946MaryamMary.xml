@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12944AmhaSe" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12946MaryamMary" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ʾAmmǝḫā Śǝllāse</title>
+                <title>Cicely Mary Maples</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="MV"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -38,28 +38,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MV" when="2020-04-02">Created entity</change>
-            <change who="MV" when="2020-04-06">Added occupation, residence, other name</change>
+            <change who="MV" when="2020-04-06">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">አምኃ፡ ሥላሴ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAmmǝḫā Śǝllāse</persName>
-                    <persName xml:lang="gez" xml:id="n2">ገብረ፡ ክርስቶስ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n2">Gabra Krǝstos</persName>
-                    <persName><roleName type="title">diyāqon</roleName></persName>
-                    <faith type="EOTC"/>      
-                    <occupation type="ecclesiastic">deacon</occupation>
-                    <floruit when="1975"/>
-                    <residence>
-                        <placeName ref="LOC4505Manawe">Manāwe gadām</placeName>
-                    </residence>
+                <person sex="2">
+                    <persName xml:lang="en" xml:id="n1">Cicely Mary Maples</persName>
+                    <persName xml:lang="en" corresp="#n1" type="given">Mary Juel-Jensen</persName>   
+                    <persName xml:lang="gez" corresp="#n1">ማርያም፡</persName>   
+                    <persName xml:lang="gez" corresp="#n1" type="normalized">Māryām</persName>   
+                    <birth notBefore="1924" notAfter="1925"/>
+                    <death when="2017"/>
                 </person>
                 <listRelation>
-                    <relation name="saws:isCopierOf" active="PRS12944AmhaSe" passive="BDLaethd18"/>
+                    <relation name="betmas:wifeOf" active="PRS12946MaryamMary" passive="PRS5782JuelJen"/>
+                    <relation name="lawd:hasAttestation" active="PRS12946MaryamMary" passive="BDLaethd18">
+                        <desc>She commissioned the writing of the manuscript together with her husband Bent Juel-Jensen.</desc>
+                    </relation>
                 </listRelation>
             </listPerson>
         </body>
