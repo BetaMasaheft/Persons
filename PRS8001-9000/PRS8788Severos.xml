@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS8788Severos">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
@@ -44,15 +44,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
-            <person sex="1">
+            <person sex="1" sameAs="wd:Q2637658">
                <persName>
-                  
                   Severos of Ašmunayn
                </persName>
-               <persName type="alt">Sawiros zäʾǝsmunayn</persName>
-               <persName type="alt">Sawīros b. al-Muqaffaʿ</persName>
-               <occupation> rel. </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="alt">Sāwiros zäʾǝsmunāyn</persName>
+               <persName xml:lang="gez" corresp="#n1" type="alt">ሳዊሮስ፡ ዘእስሙናይን፡</persName>
+               <persName xml:lang="ar" corresp="#n1" type="alt">Sawīros b. al-Muqaffaʿ</persName>
+               <persName xml:lang="ar" corresp="#n1" type="normalized">ساويرس بن المقفع</persName>
+               <occupation type="ecclesiastic">writer </occupation>
+               <faith type="Coptic"></faith>
+               <death>987</death>
             </person>
+            <listRelation>
+<relation name="skos:exactMatch" active="PRS8788Severos" passive="http://syriaca.org/person/3576"/>
+            </listRelation>
          </listPerson>
       </body>
    </text>
