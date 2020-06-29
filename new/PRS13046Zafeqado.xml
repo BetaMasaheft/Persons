@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Za-Faqādo</title>
+                <title>Faqādo</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DE"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -39,14 +39,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="DE" when="2020-06-24">Created entity</change>
+            <change when="2020-06-29" who="DE">Corrected the entry</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ዘፈቃዶ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Za-Faqādo</persName>
+                    <persName xml:lang="gez" xml:id="n1">ፈቃዶ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Faqādo</persName>
                     <nationality type="Ethiopia"/>
                     <floruit notBefore="1650" notAfter="1750"/>
                 </person>
