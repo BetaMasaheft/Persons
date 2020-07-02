@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Maḫḍǝnta Māryām</title>
+                <title>Māḫḍǝnta Māryām</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="ES"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -45,17 +45,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">መሕፅንተ፡ ማርያም፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Maḫḍǝnta Māryām</persName>
+                    <persName xml:lang="gez" xml:id="n1">ማኅፅንተ፡ ማርያም፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Māḫḍǝnta Māryām</persName>
                     <faith type="EOTC"/>
-                    <birth/>
-                    <death/>
                     <floruit>1775-1825</floruit>
                 </person>
                 <listRelation>
                     <relation name="saws:isCopierOf" active="PRS13059MahdentaMaryamScribe" passive="ESum014"/>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>
