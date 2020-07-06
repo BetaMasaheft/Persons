@@ -52,20 +52,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="DR" when="2017-10-09">Corrected transliteration</change>
          
          <change who="PL" when="2019-03-27">removed occupation containing St, Saint, bibl, biblical or prophet, added keyword. See https://github.com/BetaMasaheft/Documentation/issues/1104</change>
+         <change who="DR" when="2020-07-06">Added wikidata</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
-            <person sex="1">
+            <person sex="1" sameAs="wd:Q3061715">
                <persName xml:lang="gez" xml:id="n1" type="baptismal">ኤዎስጣቴዎስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾEwosṭātewos</persName>
                <persName xml:lang="gez" xml:id="n2" type="birth">ማዕቀበ፡ አልፋ፡</persName>
-               <persName xml:lang="gez" corresp="#n2" type="normalized">Māʿǝqaba ʾAlfā</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Māʿqaba ʾAlfā</persName>
                <persName xml:lang="gez" xml:id="n3" type="alt">ዮስጣቴዎስ፡</persName>
                <persName xml:lang="gez" corresp="#n3" type="normalized">Yosṭātewos</persName>
                <persName xml:lang="gez" xml:id="n4" type="birth">ማዕቀበ፡ እግዚእ፡</persName>
-               <persName xml:lang="gez" corresp="#n4" type="normalized">Māʿǝqaba ʾƎgziʾ</persName>
+               <persName xml:lang="gez" corresp="#n4" type="normalized">Māʿqaba ʾƎgziʾ</persName>
           
                <persName>
                   <roleName type="title">ʾabbā</roleName>
@@ -86,11 +87,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                <relation name="ecrm:P129i_is_subject_of" active="PRS3932Ewostate" passive="LIT1438GadlaE"/>
             </listRelation>
          </listPerson>
-         <listBibl type="editions">
-            <bibl>
-               <ptr target="bm:Turaiev1905Eustathii"/>
-            </bibl>
-         </listBibl>
          
          <listBibl type="secondary">
             <bibl> 
@@ -99,7 +95,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <bibl>
                <ptr target="bm:Lusini1993Monachesimo"/>
             </bibl>
-            
+            <bibl>
+               <ptr target="bm:Turaiev1905Eustathii"/>
+            </bibl>
             <bibl> 
                <ptr target="bm:Taddesse1972Church"/>
                <citedRange unit="page">77, 107, 109, 116, 164, 197-8, 206-8, 225</citedRange>

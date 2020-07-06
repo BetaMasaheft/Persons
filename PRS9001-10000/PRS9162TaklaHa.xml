@@ -32,6 +32,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       </encodingDesc>
       <profileDesc>
          <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
+         <textClass>
+            <keywords>
+               <term key="saint"/>
+            </keywords>
+         </textClass>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and
@@ -39,12 +44,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
          <change who="SG" when="2016-08-01">Complete record</change>
+         <change who="DR" when="2020-07-06">Added wikidata and keyword</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
-            <person sex="1">
+            <person sex="1" sameAs="wd:Q2915175">
                <persName xml:lang="gez" xml:id="n1" type="monastic">ተክለ፡ ሃይማኖት፡</persName>
                
                <persName xml:lang="gez" corresp="#n1">Takla Hāymānot</persName>
