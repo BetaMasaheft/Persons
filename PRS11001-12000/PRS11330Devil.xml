@@ -36,12 +36,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       </profileDesc>
       <revisionDesc>
          <change who="DR" when="2016-11-24">Created record</change>
+         <change who="DR" when="2020-07-06">Added name and wikidata</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
-            <person>
+            <person sameAs="wd:Q6674">
                <persName xml:id="n1" xml:lang="en">Devil</persName>
                <persName xml:lang="gez" type="alt" xml:id="n2">ሰይጣን፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">sayṭān</persName>
@@ -55,6 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                <persName xml:lang="gez" corresp="#n6" type="normalized">bǝryāl</persName>
                <persName xml:lang="gez" type="alt" xml:id="n7">ጋኔን</persName>
                <persName xml:lang="gez" corresp="#n7" type="normalized">gānen</persName>
+               <persName xml:id="n8" xml:lang="en">Satan</persName>
             </person>
         
          </listPerson>
