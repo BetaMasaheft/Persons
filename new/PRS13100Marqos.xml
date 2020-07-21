@@ -1,0 +1,77 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13100Marqos" xml:lang="en" type="pers">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Marqos</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="RL"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="RL" when="2020-07-20">Created entity</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person sex="1">
+                    <persName xml:lang="gez" xml:id="n1">ማርቆስ፡</persName>
+                    <persName xml:lang="gez" xml:id="n2">Marqos</persName>
+                    <persName>
+                      <roleName type="title">ʾabuna</roleName>
+                    </persName>
+                    <occupation type="ecclesiastic">metropolitan</occupation>
+                    <nationality type="Egypt"/>
+                    <faith type="Coptic"/>
+                    <birth/>
+                    <death>1881</death>
+                    <floruit when="1889">He was a bishop of the Ethiopian Orthodox Church. He arrived to Ethiopia in <date>1881</date>
+                       together with the three other bishops <persName ref="PRS6876Matewos">Mātewos</persName>,
+                       <persName ref="PRS6404Luqas">Luqās</persName> and <persName ref="PRS7830Petros">Ṗeṭros IV</persName> requested by
+                       Emperor <persName ref="PRS10378Yohanne">Yoḥannǝs IV</persName>.
+                       He was a bishop of <placeName ref="LOC3577Gondar">Gondar</placeName> in <date>1881</date> but died shortly afterwards
+                    </floruit>
+                </person>
+                <listRelation>
+   <relation name="snap:AllianceWith" active="PRS13100Marqos" passive="PRS10378Yohanne"/>
+   <relation name="snap:FriendshipFor" active="PRS13100Marqos" passive="PRS6404Luqas"/>
+   <relation name="snap:FriendshipFor" active="PRS13100Marqos" passive="PRS7830Petros"/>
+   <relation name="snap:FriendshipFor" active="PRS13100Marqos" passive="PRS6876Matewos"/>
+
+
+</listRelation>
+
+            </listPerson><!-- -->
+        </body>
+    </text>
+</TEI>
