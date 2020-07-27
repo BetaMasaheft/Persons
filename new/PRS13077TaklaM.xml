@@ -50,7 +50,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <floruit notBefore="1711" notAfter="1716"/>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS13077TaklaM" passive="BLDaethb5"/>
+                    <relation name="lawd:hasAttestation" active="PRS13077TaklaM" passive="BLDaethb5"><desc>Takla Māryām
+                        was the patron of <ref type="mss" corresp="BLDaethb5"/>.</desc></relation>
+                    <relation name="snap:BrotherOf" active="PRS13077TaklaM" passive="PRS13078NewayaM"><desc><persName ref="PRS13078NewayaM"/>
+                        is called the ‘brother’ of Takla Māryām in <ref type="mss" corresp="BLDaethb5"/></desc></relation>
                 </listRelation>
             </listPerson>
         </body>
