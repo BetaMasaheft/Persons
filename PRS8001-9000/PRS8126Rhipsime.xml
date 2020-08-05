@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS8126Rhipsime">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
@@ -46,6 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="ES" when="2016-02-09">CREATED: person</change>
          <change who="DR" when="2018-11-21">Added names and wikidata</change>
          <change who="PL" when="2019-03-27">removed occupation containing St, Saint, bibl, biblical or prophet, added keyword. See https://github.com/BetaMasaheft/Documentation/issues/1104</change>
+         <change who="MKr" when="2020-08-03">Added bibliography and info</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -55,11 +56,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                <persName xml:id="n1" xml:lang="gez">አርሲማ፡</persName>
                <persName corresp="#n1" xml:lang="gez" type="normalized">ʾArsimā</persName>
                <persName>Rhipsimē</persName>
-               <persName type="alt">Rhipsima</persName>
-               <persName type="alt">Hripʿsimē</persName>
+               <persName xml:id="n2" type="alt">Rhipsima</persName>
+               <persName xml:id="n3" type="alt">Hripʿsimē</persName>
+              
+               <floruit>One of the most venerated saints in Armenia, the account of her martyrdom is included in some recensions of
+                 <ref type="work" corresp="LIT1493Gadlas">Gadla samāʿtāt</ref> and in the <ref type="work" corresp="LIT2375Synaxa">Synaxary</ref>.</floruit>
+
                <!--Saint-->
             </person>
          </listPerson>
+
+                <listBibl type="secondary">
+                <bibl>
+                <ptr target="bm:Krawczuk2014Hripsime"/>
+                </bibl>
+                </listBibl>
       </body>
    </text>
 </TEI>
