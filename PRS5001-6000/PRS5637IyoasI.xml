@@ -57,11 +57,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
 <persName ref="PRS4870GugsaMa">ras Gugsa</persName> succeeding <persName ref="PRS3692egwalas">ʾƎgʷāla Ṣǝyon</persName>.
 </floruit>
 
+<death when="1821" evidence="internal"/>
+
             </person>
          </listPerson>
+         <listRelation>
+           <relation name="snap:SonOf" active="PRS5637IyoasI" passive="PRS5332hezqeyas"/>
+           <relation name="snap:BrotherOf" active="PRS5637IyoasI" passive="PRS4661Gigar"/>
+           <relation name="snap:BrotherOf" active="PRS5637IyoasI" passive="PRS3692egwalas"/>
+
+         </listRelation>
+
+
 
          <listBibl type="secondary">
         <bibl><ptr target="bm:Chernetsov2007IyoasII"/></bibl>
+        <bibl><ptr target="bm:Blundell1922Chronicle"/><citedRange unit="page">197, 484</citedRange></bibl>
          </listBibl>
       </body>
    </text>
