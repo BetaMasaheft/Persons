@@ -35,10 +35,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <langUsage>
                 <language ident="en">English</language>
                 <language ident="gez">Gǝʿǝz</language>
+                <language ident="he">Hebrew</language>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="DE" when="2020-08-18">Created entity</change>
+            <change who="MKr" when="2020-08-18">Created entity</change>
             <change who="MKr" when="2020-08-18">Completed description</change>
         </revisionDesc>
     </teiHeader>
@@ -46,15 +47,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sameAs="Q159443" sex="1">
-                    <persName xml:lang="eng" xml:id="n1">Eleazar, son of Aaron</persName>
-                    <persName xml:lang="gez" xml:id="n2">አልዓዛር፡ ውልደ፡ አሮን፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n2">ʾAlʿāzar walda ʾĀron</persName>
+                    <persName xml:lang="en" xml:id="n1">Eleazar</persName>
+                    <persName xml:lang="gez" xml:id="n2">አልዓዛር፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n2">ʾAlʿāzar</persName>
                     <persName xml:lang="he" xml:id="n3">אֶלְעָזָר</persName>
                     <faith type="Judaism"/>
                     <nationality type="Israel/Palestine"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
                 </person>
             </listPerson>
             <listRelation>
