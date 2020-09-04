@@ -48,16 +48,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <persName xml:lang="gez" xml:id="n1">ሠርጸ፡ መድኅን፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Śarṣa Madḫǝn</persName>
                     <faith type="EOTC"/>
-                    <occupation type="other"/>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1875" notAfter="1975"/>
                 </person>
                 <listRelation>
                     <relation name="saws:isCopierOf" active="PRS13142SarsaMadhen" passive="BAVet116"/>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>
