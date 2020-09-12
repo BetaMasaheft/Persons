@@ -34,7 +34,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
         <profileDesc>
             <creation/>
             <abstract>
-                <p/>
+                <p>Bishop Makarios is bishop of the United States of the Eritrean Orthodox Church and a member of the Coptic Orthodox Synod.</p>
             </abstract>
             <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
         </profileDesc>
@@ -49,7 +49,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     <persName xml:lang="gez" xml:id="n1">ጴጥሮስ፡ ገርበ፡ ሥላሴ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Ṗeṭros Gabra Śǝllāse</persName>
                     <persName xml:lang="en" xml:id="n2">Petros Gebre Selassie</persName>
-                    <floruit>1980</floruit>
+                    <persName xml:id="n3" type="alt"><roleName type="title">Bishop</roleName> Makarios</persName>
+                   <birth when="1931"/>
                 </person>
                 <listRelation>
                     <relation name="saws:isCopierOf" active="PRS11985PetrosGS" passive="DSEthiop23"/>
