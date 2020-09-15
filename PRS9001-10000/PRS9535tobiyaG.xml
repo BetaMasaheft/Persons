@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS9535tobiyaG">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Ṭobiya Giyorgis Gäbrä Ǝgziʾabǝḥer</title>
+            <title>Ṭobiyā Giyorgis Gabra ʾƎgziʾabǝḥer</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -35,6 +35,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <langUsage><language ident="en">English</language></langUsage>
       </profileDesc>
       <revisionDesc>
+         <change who="AD" when="2020-09-15">Updated biographical data and bibliography.</change>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
@@ -43,15 +44,36 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
-         <listPerson>
-            <person sex="1">
-               <persName>
-                  
-                  Ṭobiya Giyorgis Gäbrä Ǝgziʾabǝḥer
-               </persName>
-               <occupation> bishop </occupation>
-            </person>
-         </listPerson>
+        <listPerson>
+          <person sex="1">
+            <persName xml:lang="gez" xml:id="n1">ጦቢያ፡ ጊዮርጊስ፡ ገብረ፡ እግዚአብሔር፡</persName>
+            <persName xml:lang="gez" type="normalized" corresp="#n1">Ṭobiyā Giyorgis Gabra ʾƎgziʾabǝḥer</persName>
+            <persName xml:lang="lat" corresp="#n1">Tobias Georgius Gheraghzer</persName>
+
+            <birth when="1755">
+              He was born in <placeName ref="LOC2481Dambey">Dambǝyā</placeName> on <date>19 June 1755</date>.
+            </birth>
+            <faith type="Catholicism"/>
+            <nationality type="Ethiopia"/>
+            <occupation type="ecclesiastic" from="1788" to="1801">Titular Archbishop of Adulis</occupation>
+            <floruit notBefore="1782" notAfter="1801">
+              He served as a collector of manuscripts under the patronage of Cardinal <persName ref="PRS2853Borgia">Stefano Borgia</persName>. In <date>1788</date>, he was appointed titular Archbishop of Adulis and Apostolic Vicar of Ethiopia.
+            </floruit>
+            <death when="1801">
+              He died in <placeName ref="LOC2085Cairo">Cairo, Egypt</placeName> on <date>7 May 1801</date>.
+            </death>
+          </person>
+
+          <listRelation>
+            <relation name="snap:ProfessionalRelationship" active="PRS2853Borgia" passive="PRS9535tobiyaG"/>
+          </listRelation>
+        </listPerson>
+
+        <listBibl type="secondary">
+          <bibl>
+            <ptr target="bm:TeweldeFiaccadori2010Tobiya"/>
+          </bibl>
+        </listBibl>
       </body>
    </text>
 </TEI>
