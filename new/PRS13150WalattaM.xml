@@ -45,12 +45,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="2">
-                    <persName xml:lang="gez" xml:id="n1">ወለተ፡ መድኅብ፡ ፀሐይቱ፡</persName>
+                    <persName xml:lang="gez" xml:id="n1">ወለተ፡ መድኅን፡ ፀሐይቱ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Walatta Madḫǝn Ḍaḥaytu</persName>
+                    <persName><roleName type="title">wayzaro</roleName></persName>
                     <floruit notBefore="1800" notAfter="2006"/>
                 </person>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="PRS13150WalattaM" passive="BDLaethg37"/>
+                    <relation name="dcterms:relation" active="PRS13150WalattaM" passive="PRS13153Taytu"><desc><persName ref="PRS13150WalattaM"/>
+                        and <persName ref="PRS13153Taytu"/> are mentioned in two distinct additions in <ref type="mss" corresp="BDLaethg37"/>. It cannot be known
+                    whether the similarity of names is accidental or whether they might be identical.</desc></relation>
                 </listRelation>
             </listPerson>
         </body>
