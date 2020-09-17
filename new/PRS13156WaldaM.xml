@@ -45,17 +45,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Walda Mikāʾel</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
-                    <faith type=""/>
-                    <birth/>
-                    <death/>
-                    <floruit>1800-1975</floruit>
+                    <persName xml:lang="gez" xml:id="n1">ወልደ፡ ሚካኤል፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walda Mikāʾel</persName>
+                    <persName><roleName type="title">ʾato</roleName></persName>
+                    <floruit notBefore="1800" notAfter="1974"/>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS13156WaldaM" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS13156WaldaM" passive="BDLaethg37"/>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>
