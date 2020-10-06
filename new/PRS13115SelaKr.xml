@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13077TaklaM" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13115SelaKr" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Takla Māryām</title>
+                <title>Śǝʿla Krǝstos</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DR"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -38,22 +38,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="DR" when="2020-07-06">Created entity</change>
+            <change who="DR" when="2020-07-29">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ተክለ፡ ማርያም፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Takla Māryām</persName>
+                    <persName xml:lang="gez" xml:id="n1">ሥዕለ፡ ክርስቶስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Śǝʿla Krǝstos</persName>
                     <floruit notBefore="1711" notAfter="1716"/>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS13077TaklaM" passive="BLDaethb5"><desc>Takla Māryām
-                        was the patron of <ref type="mss" corresp="BLDaethb5"/>.</desc></relation>
-                    <relation name="snap:BrotherOf" active="PRS13077TaklaM" passive="PRS13078NewayaM"><desc><persName ref="PRS13078NewayaM"/>
-                        is called the ‘brother’ of Takla Māryām in <ref type="mss" corresp="BLDaethb5"/></desc></relation>
+                    <relation name="saws:isCopierOf" active="PRS13115SelaKr" passive="BDLaethb5"/>
                 </listRelation>
             </listPerson>
         </body>
