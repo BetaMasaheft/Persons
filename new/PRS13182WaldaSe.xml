@@ -45,15 +45,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Walda Śǝllāse</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
-                    <faith type="EOTC"/>
-                    <occupation type="ecclesiastic"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <persName xml:lang="gez" xml:id="n1">ወልደ፡ ሥላሴ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walda Śǝllāse</persName>
+                    <persName><roleName type="title">ʾabbā</roleName></persName>
+                    <faith type="EOTC"/>      
+                    <floruit notBefore="1800" notAfter="1970"/>
                 </person>
-            </listPerson><!---->
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="PRS13182WaldaSe" passive="BDLaethc14#a2">
+                        <desc>The name of ʾabbā Walda Śǝllāse is mentioned in an additional note, written on the margin in a recent hand.</desc></relation>
+                </listRelation>
+            </listPerson>
         </body>
     </text>
 </TEI>
