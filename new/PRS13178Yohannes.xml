@@ -12,12 +12,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
-                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
-                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine
+                    multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
                 <pubPlace>Hamburg</pubPlace>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
-                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                        licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -47,10 +47,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ዮሐንስ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Yoḥannǝs</persName>
-                              </person>
+                </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS13178Yohannes" passive="BGV003"/>
-                    <desc>The name of Yoḥannǝs was written in red ink over erasure throughout the manuscript, and has been erased at a later stage.</desc>
+                    <relation name="lawd:hasAttestation" active="PRS13178Yohannes" passive="BGV003">
+                        <desc>The name of Yoḥannǝs was written in red ink over erasure throughout
+                            the manuscript, and has been erased at a later stage.</desc>
+                    </relation>
+
                 </listRelation>
             </listPerson>
         </body>
