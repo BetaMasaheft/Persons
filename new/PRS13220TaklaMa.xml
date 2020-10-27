@@ -47,9 +47,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ተክለ፡ ማርያም፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Takla Māryām</persName>
-                    <faith type="EOTC"/>
-                    <floruit notBefore="1850" notAfter="2000"/>
-                    
+                    <persName><roleName type="title">ʾabbā</roleName></persName>
+                    <faith type="EOTC"/>      
+                    <occupation type="ecclesiastic"/>
+                    <floruit notBefore="1850" notAfter="1994"/>
                 </person>
                 <listRelation>
                     <relation name="saws:hasOwned" active="PRS13220TaklaMa" passive="MNC017">
