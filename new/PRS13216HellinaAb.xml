@@ -44,15 +44,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPerson>
-                <person>
-                    <persName xml:lang="gez" xml:id="n1">Ḥǝllinā ʾAb</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
-                    <faith type=""/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                <person sex="1">
+                    <persName xml:lang="gez" xml:id="n1">ሕሊና፡ አብ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Ḥǝllinā ʾAb</persName>
+                    <faith type="EOTC"/>
+                    <floruit notBefore="1850" notAfter="2000"/>
                 </person>
-            </listPerson><!---->
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="PRS13216HellinaAb" passive="MNC017#a1"/>
+                </listRelation>
+            </listPerson>
         </body>
     </text>
 </TEI>

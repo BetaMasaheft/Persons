@@ -45,14 +45,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Gabra ʾAmlāk</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
-                    <faith type=""/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <persName xml:lang="gez" xml:id="n1">ገብረ፡ አምላክ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra ʾAmlāk</persName>
+                    <faith type="EOTC"/>
+                    <floruit notBefore="1850" notAfter="2000"/>
                 </person>
-            </listPerson><!---->
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="PRS13224GabraAm" passive="MNC017">
+                        <desc>
+                            His name is written in a secondary hand in one supplication formula in the manuscript, after the phrase <foreign xml:lang="gez">ገብርከ፡</foreign> 
+                            'your servant'. He might have been a secondary owner or donor of the manuscript. 
+                        </desc>
+                    </relation>
+                </listRelation>
+            </listPerson>
         </body>
     </text>
 </TEI>

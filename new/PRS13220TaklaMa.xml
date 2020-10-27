@@ -45,14 +45,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Takla Māryām</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ተክለ፡ ማርያም፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Takla Māryām</persName>
                     <faith type="EOTC"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1850" notAfter="2000"/>
+                    
                 </person>
-            </listPerson><!---->
+                <listRelation>
+                    <relation name="saws:hasOwned" active="PRS13220TaklaMa" passive="MNC017">
+                        <desc>The name of <persName ref="PRS13220TaklaMa"><roleName type="title">ʾabbā</roleName> Takla Māryām</persName> 
+                            is indicated as the owner of the manuscript in a secondary hand over erasure.</desc>
+                    </relation>
+                </listRelation>
+            </listPerson>
         </body>
     </text>
 </TEI>
