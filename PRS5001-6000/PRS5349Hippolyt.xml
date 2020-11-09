@@ -46,11 +46,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       <body>
          <listPerson>
             <person sex="1" sameAs="wd:Q207113">
-               <persName xml:lang="en" xml:id="n1">Hippolytus of Rome</persName>
+               <persName type="main" xml:lang="en" xml:id="n1">Hippolytus of Rome</persName>
                <persName xml:lang="gez" xml:id="n2">ሄጶሊጦስ፡</persName>
-               <persName xml:lang="gez" corresp="#n1">Heṗoliṭos</persName>
+               <persName type="normalized" xml:lang="gez" corresp="#n2">Heṗoliṭos</persName>
                <persName xml:lang="gez" xml:id="n3">አባ፡ ሊጦስ፡</persName>
-               <persName xml:lang="gez" corresp="#n3">ʾabbā Liṭos</persName>
+               <persName type="normalized" xml:lang="gez" corresp="#n3">ʾabbā Liṭos</persName>
                <persName xml:lang="gr" xml:id="n4"> Ἱππόλυτος</persName>
                <occupation type="ecclesiastic">writer</occupation>
                <faith type="Greek"/>
@@ -65,7 +65,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             </listRelation>
              </listPerson>
 <listBibl type="secondary">
-<bibl><ptr target="bm:Bausi2007Hippolutys"/></bibl>
+<bibl><ptr target="bm:Bausi2007Hippolytus"/></bibl>
 </listBibl>
       </body>
    </text>
