@@ -1,0 +1,64 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13235Yawestatewos" xml:lang="en" type="pers">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Yawǝsṭatewos </title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="MKr"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="MKr" when="2020-11-16">Created entity</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person sex="1">
+
+                    <persName xml:lang="gez" xml:id="n1">የውስጣቴዎስ:</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Yawǝsṭatewos</persName>
+                    <faith type="EOTC"/>
+                    <nationality type="Ethiopia"/>
+                    <birth/>
+                    <death/>
+                    <floruit notBefore="1494" notAfter="1508">According to the colophone in <ref type="mss" corresp="BLorient690">BLorient690</ref> he was
+                  contemporary to the emperor <persName ref="PRS7481NaodA">Nāʿod</persName>.</floruit>
+                </person>
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="PRS13235Yawestatewos" passive="BLorient690"/>
+                </listRelation>
+            </listPerson><!---->
+        </body>
+    </text>
+</TEI>
