@@ -1,5 +1,5 @@
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13238Aristoboulos" xml:lang="en" type="pers">
     <teiHeader>
@@ -45,17 +45,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sameAs="Q359679" sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Aristobulos II</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="en" xml:id="n1">Aristobulos II</persName>
                     <faith type="Judaism"/>
                     <occupation type="ruler"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit from="-0066" to="-0063">He was the Jewish High Priest and the King of Judea.</floruit>
                 </person>
                 <listRelation>
-                    <relation name="snap:SonOf" active="PRS13238Aristoboulos" passive=""/>
-                    <relation name="snap:FatherOf" active="PRS13238Aristoboulos" passive=""/>
+                    <relation name="snap:SonOf" active="PRS13238Aristoboulos" passive="PRS13236AlexanderJ"/>
+                    <relation name="snap:FatherOf" active="PRS13238Aristoboulos" passive="PRS13239Antigonus"/>
                 </listRelation>
             </listPerson><!---->
         </body>
