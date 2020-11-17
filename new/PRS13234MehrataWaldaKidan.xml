@@ -1,11 +1,11 @@
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13234MehrataWaldaKidan" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>MerataWaldaKidan</title>
+                <title>Mǝḥratā Walda Kidān</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DN"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -30,7 +30,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <profileDesc>
             <creation/>
             <abstract>
-                <p/>
+                <p>The commissioner of <ref type="mss" corresp="ESmy023"/>; other persons mentioned in the supplication formulas are
+              probably members of her family, such as ʾabuna ʾƎquba Yoḥannǝs, ʾabuna Gabra Yoḥannǝs, ʾabuna Walda Kidān, Walatta ʾIyasus, Walatta Śǝllase,
+            Walatta Gabrǝʾel, Walatta Kidān.</p>
             </abstract>
             <langUsage>
                 <language ident="en">English</language>
@@ -45,19 +47,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="2">
-                    <persName xml:lang="gez" xml:id="n1">MerataWaldaKidan</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ምሕረታ፡ ወልደ፡ ኪዳን፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Mǝḥratā Walda Kidān</persName>
                     <faith type="EOTC"/>
                     <occupation type="other"/>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1940" notAfter="2000"/>
                 </person>
                 <listRelation>
-                    <relation name="saws:hasOwned" active="PRS13234MehrataWaldaKidan" passive=""/>
+                    <relation name="saws:hasOwned" active="PRS13234MehrataWaldaKidan" passive="ESmy023"/>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>
