@@ -1,0 +1,63 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13236AlexanderJ" xml:lang="en" type="pers">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander Jannaeus</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="DE"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="DE" when="2020-11-17">Created entity</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person sameAs="Q319107" sex="1">
+                    <persName xml:lang="en" xml:id="n1">Alexander Jannaeus</persName>
+                    <faith type="Judaism"/>
+                    <occupation type="ruler"/>
+                    <birth when="-0127"/>
+                    <death when="-0076"/>
+                    <floruit from="-0103" to="-0076">He was the second king of the Hasmonean
+                    dynasty.</floruit>
+                </person>
+                <listRelation>
+                    <relation name="snap:SonOf" active="PRS13236AlexanderJ" passive="PRS13237JohnHyrcanus"/>
+                    <relation name="snap:FatherOf" active="PRS13236AlexanderJ" passive="PRS13238Aristoboulos"/>
+                </listRelation>
+            </listPerson><!---->
+        </body>
+    </text>
+</TEI>
