@@ -51,14 +51,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <nationality type="Ethiopia"/>
                     <birth/>
                     <death/>
-<floruit notBefore="1500" notAfter="1600">According to the note in <ref type="mss" corresp="BLorient656"> she was
-the mother of king <persName ref="PRS10375Yohanne">Yoḥannǝs I</persName>.</ref></floruit>
+<floruit notBefore="1500" notAfter="1600">She was the mother of king <persName ref="PRS10375Yohanne">Yoḥannǝs I</persName>.</floruit>
                 </person>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="PRS13243EhetaKrestos" passive="BLorient656"/>
                     <relation name="snap:MotherOf" active="PRS13243EhetaKrestos" passive="PRS10375Yohanne"/>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
+            <listBibl type="secondary">
+            <bibl><ptr target="bm:Guidi1903YohannesT"/>
+            <citedRange unit="page">3</citedRange></bibl>
+            </listBibl>
         </body>
     </text>
 </TEI>
