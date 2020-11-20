@@ -39,8 +39,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
-         <change who="SG" when="2017-05-15">Complete record</change>
+         <change who="SG" when="2017-05-15">Added biographical information</change>
          <change who="DR" when="2018-05-07">Deleted relations referring to Athanasius</change>
+         <change when="2020-11-20" who="ES">added main name (EN)</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -50,9 +51,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
              
                <persName xml:lang="gez" xml:id="n1" type="birth">አርዮስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAryos</persName>
+               <persName xml:lang="en" corresp="#n1" type="main">Arius</persName>
                   
-                  
-                  <occupation type="ecclesiastic">leader </occupation>
+                  <occupation type="ecclesiastic">church leader </occupation>
                   
                   <nationality type="Egypt"/>
                   <faith type="Christianity"/>
@@ -61,7 +62,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                   <birth when="0270"/>
                   
                   
-               <floruit notBefore="0300" notAfter="0336">He was a controversial church leader, hardly played any direct role in Ethiopian church history.
+               <floruit notBefore="0300" notAfter="0336">He was a controversial church leader, who hardly played any direct role in Ethiopian church history.
                   Neither Arius's own writings nor his actual doctrine reached Ethiopia in any depth. The teachings of his followers do not seem to have become known there either. 
  However, Arius himself as infidel and events from his protracted conflict with religious fathers  are often mentioned in <ref type="work" corresp="LIT2316Senkes"/>, 
                   <ref type="work" corresp="LIT1949Mashaf"/>, <ref type="work" corresp="LIT1921Mashaf"/> and <ref type="work" corresp="LIT1994Mazgab"/> and refuted his heresy. </floruit>
