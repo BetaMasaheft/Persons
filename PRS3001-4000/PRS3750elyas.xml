@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS3750elyas">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
@@ -32,7 +32,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage>
+           <language ident="en">English</language>
+           <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
@@ -45,13 +48,32 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       <body>
          <listPerson>
             <person sex="1">
+               <persName xml:lang="gez" xml:id="n1">ኤልያስ፡</persName>
+               <persName type="normalized" xml:lang="gez" corresp="#n1">ʾƎlyās</persName>
                <persName>
-                  
-                  Ǝlyas
-               </persName>
-               <occupation> bishop </occupation>
+                   <roleName type="title">eṗṗis qoṗos</roleName>
+                </persName>
+               <occupation type="ecclesiastic">bishop</occupation>
+               <residence>
+                  <placeName ref="LOC1310Aksum">ʾAksum</placeName>
+               </residence>
+               <floruit notBefore="0500" notAfter="0600">In the hagiography of <persName ref="PRS6298Libanos">Libānos</persName> he is mentioned
+               as the bishop of <placeName ref="LOC1310Aksum">ʾAksum</placeName> at the time of the saint's arrival to Ethiopia.
+             He is credited with an authorship of a homily on Libānos' life.</floruit>
             </person>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Getatchew1990Elyas"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Brakmann1994Einwurzelung"/>
+               <citedRange unit="page">124, 131</citedRange>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Bausi2007Libanos"/>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
