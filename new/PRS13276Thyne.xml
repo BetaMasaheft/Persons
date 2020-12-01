@@ -45,19 +45,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">W.K. Thyne</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
-                    <faith type="Anglican"/>
-                    <occupation type="military"/>
+                    <persName xml:lang="en" xml:id="n1">W.K. Thyne</persName>
+                    <occupation type="military">Captain</occupation>
                     <nationality type="UnitedKingdom"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1864" notAfter="1906"/>
                 </person>
                 <listRelation>
-                    <relation name="saws:hasOwned" active="PRS13276Thyne" passive=""/>
+                    <relation name="saws:hasOwned" active="PRS13276Thyne" passive="BDLaethf34">
+                        <desc>He is the author of <ref target="BDLaethf34#a2"/>.</desc>
+                    </relation>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>

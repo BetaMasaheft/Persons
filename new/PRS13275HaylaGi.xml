@@ -45,16 +45,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Ḫayla Giyorgis</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ኀይለ፡ ጊዮርጊስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Ḫayla Giyorgis</persName>
                     <faith type="EOTC"/>
-                    <occupation type="ecclesiastic"/>
-                    <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <occupation type="ecclesiastic">ʾAbbā</occupation>
+                    <floruit notBefore="1700" notAfter="1864"/>
                 </person>
-            </listPerson><!---->
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="PRS13275HaylaGi" passive="BDLaethf34">
+                        <desc>Ḫayla Giyorgis is mentioned in <ref target="BDLaethf34#a3"/> and <ref target="BDLaethf34#a6"/>.</desc>
+                    </relation>
+                </listRelation>
+            </listPerson>
         </body>
     </text>
 </TEI>
