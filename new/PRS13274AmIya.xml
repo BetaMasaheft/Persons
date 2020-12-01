@@ -1,23 +1,23 @@
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13244GabraWald" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13274AmIya" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Gabra Wald</title>
+                <title>ʾAmda ʾIyasus</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="SH"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
-                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine
-                    multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
                 <pubPlace>Hamburg</pubPlace>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
-                        licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -38,26 +38,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="SH" when="2020-11-20">Created entity</change>
+            <change who="SH" when="2020-12-01">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ገብረ፡ ወልድ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra Wald</persName>
+                    <persName xml:lang="gez" xml:id="n1">አምደ፡ ኢየሱስ፡ </persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAmda ʾIyasus</persName>
                     <floruit notBefore="1800" notAfter="1900"/>
                     <floruit/>
+                    <occupation type="art">scribe</occupation>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS13244GabraWald" passive="MNC008">
-                        <desc>The name of Gabra Wald is mentioned in the
-                            supplication formulas throughout the manuscript. He might have been the
-                            owner of the manuscript.</desc>
+                    <relation name="lawd:hasAttestation" active="PRS13274AmIya" passive="MNC008"></relation>
+                    <relation name="saws:isCopierOf" active="PRS13274AmIya" passive="MNC008#ms_i1">
+                        <desc>The name of ʾAmda ʾIyasus is mentioned as a scribe in the
+                            supplication formula of <ref type="mss" corresp="MNC008#ms_i1"/>.</desc>
                     </relation>
                 </listRelation>
-            </listPerson>
-                    </body>
+            </listPerson>                       
+        </body>
     </text>
 </TEI>
