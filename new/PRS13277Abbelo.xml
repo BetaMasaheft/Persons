@@ -35,6 +35,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <langUsage>
                 <language ident="en">English</language>
                 <language ident="gez">Gǝʿǝz</language>
+                <language ident="grc">Greek</language>
             </langUsage>
         </profileDesc>
         <revisionDesc>
@@ -49,13 +50,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAbbǝlo</persName>
                     <persName xml:lang="gez" xml:id="n2">አበሉ፡</persName>
                     <persName xml:lang="gez" corresp="#n2">ʾAbbalu</persName>
+                    <persName xml:lang="grc" xml:id="n3">Apollo</persName>
                     <faith type="Christianity"/>
                     <occupation type="ecclesiastic"/>
                     <nationality type="Egypt"/>
                     <birth/>
                     <death/>
                     <floruit>According to a narrative in <ref type="mss" corresp="EMML1840">he was a monastic figure
-                    contemporary to <persName ref="PRS2209Athanasi">Athanasius of Alexandria</persName>.</ref></floruit>
+                    contemporary to <persName ref="PRS2209Athanasi">Athanasius of Alexandria</persName> according to
+                    a narrative in <ref type="mss" corresp="EMML1840">EMML 1840</ref>. In the same text he is referred to as
+                  "resembling angels" (<foreign xml:lang="gez">ዘይመስል፡ መላእክት፡</foreign>) which might suggest an identification
+                with Apollo mentioned in the Coptic Synaxary on the 25th of Bābah.</ref></floruit>
                 </person>
                 <listRelation>
                     <relation name="ecrm:P129i_is_subject_of" active="PRS13277Abbelo" passive="LIT6278StoryOfAbelo"/>
