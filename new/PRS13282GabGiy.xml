@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13232EhetaMar" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13282GabGiy" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ʾƎḫǝta Māryām</title>
+                <title>Gabra Giyorgis </title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="SH"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -38,23 +38,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="SH" when="2020-11-13">Created entity</change>
+            <change who="SH" when="2020-12-03">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person sex="2">
-                    <persName xml:lang="gez" xml:id="n1">እኅተ፡ ማርያም፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">ʾƎḫǝta
-                        Māryām</persName>
-                    <floruit notBefore="1700" notAfter="1900"/>
+                <person sex="1">
+                    <persName xml:lang="gez" xml:id="n1">ገብረ፡ ጊዮርጊስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra
+                        Giyorgis</persName>
+                    <floruit notBefore="1800" notAfter="1900"/>
+                    <floruit/>
+                    <occupation type="literary">scribe</occupation>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS13232EhetaMar" passive="MNC010">
-                        <desc>The name of ʾƎḫǝta Māryām is mentioned occasionally in the
-                            supplication formulas throughout the manuscript. She might have been the
-                            owner of the manuscript.</desc>
+                    <relation name="lawd:hasAttestation" active="PRS13282GabGiy" passive="MNC008"/>
+                    <relation name="saws:isCopierOf" active="PRS13282GabGiy" passive="MNC008">
+                        <desc>The name of Gabra Giyorgis is mentioned as a scribe in the
+                            supplication formula of <ref type="mss" corresp="MNC008#ms_i5"/>.</desc>
                     </relation>
                 </listRelation>
             </listPerson>
