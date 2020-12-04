@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Ḫāyla Māryām</title>
+                <title>Ḫayla Māryām</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="SH"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -30,7 +30,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <profileDesc>
             <creation/>
             <abstract>
-                <p/>
+                <p>The spelling of the name was standardized according to <bibl>
+                    <ptr target="bm:Dillmann1865Lexicon"/>                
+                </bibl>.</p>
             </abstract>
             <langUsage>
                 <language ident="en">English</language>
@@ -45,8 +47,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ኃይለ፡ ማርያም፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Ḫāyla Māryām</persName>
+                    <persName xml:lang="gez" xml:id="n1">ኀይለ፡ ማርያም፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Ḫayla Māryām</persName>
                     <floruit notBefore="1800" notAfter="1900"/>
                     <floruit/>
                     <occupation type="literary">scribe</occupation>
@@ -54,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="PRS13281HayMar" passive="MNC008"/>
                     <relation name="saws:isCopierOf" active="PRS13281HayMar" passive="MNC008">
-                        <desc>The name of Ḫāyla Māryām is mentioned as a scribe in the
+                        <desc>The name of Ḫayla Māryām is mentioned as a scribe in the
                             supplication formula of <ref type="mss" corresp="MNC008#ms_i3"/>.</desc>
                     </relation>
                 </listRelation>
