@@ -36,6 +36,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <language ident="en">English</language>
                 <language ident="gez">Gǝʿǝz</language>
                 <language ident="ar">Arabic</language>
+                <language ident="cop">Coptic</language>
             </langUsage>
         </profileDesc>
         <revisionDesc>
@@ -49,12 +50,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <persName xml:lang="gez" xml:id="n1">አካውሕ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAkāwǝh</persName>
                     <persName xml:lang="ar" corresp="#n1">كاؤو</persName>
+                    <persName xml:lang="cop" corresp="#n1">ⲕⲱⲟⲩ</persName>
                     <faith type="Christianity"/>
                     <nationality type="Egypt"/>
                     <birth/>
                     <death notBefore="0303" notAfter="0313"/>
-                    <floruit>A native of <placeName ref="LOC3066Fayyum">Fayyūm</placeName>, he was martyred during the Diocletianic persecution. In Ethiopia he is
-                    commemorated on the 28th of Ṭǝrr.</floruit>
+                    <floruit>A native of <placeName ref="LOC3066Fayyum">Fayyūm</placeName>, he
+                    was martyred during the Diocletianic persecution.</floruit>
+                    <note type="commemoration"><date type="diesNatalis" ref="ethiocal:Maskaram5">5 Maskaram</date></note>
                 </person>
             </listPerson><!---->
         </body>
