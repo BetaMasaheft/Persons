@@ -1,0 +1,62 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13294AzanaKrestos" xml:lang="en" type="pers">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ʾAʾəzāna Krəstos</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="DN"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>The original commissioner of <ref type="mss" corresp="ESmy006"/> who
+              had a disciple with the name beginning with <forename xml:lang="gez">walda</forename>.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="DN" when="2020-12-06">Created entity</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person sex="1">
+                    <persName xml:lang="gez" xml:id="n1">አእዛነ፡ ክርስቶስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAʾzāna Krəstos</persName>
+                    <faith type="EOTC"/>
+                    <occupation type="political"/>
+                    <nationality type="Ethiopia"/>
+                    <floruit notBefore="1750" notAfter="1850"/>
+                </person>
+                <listRelation>
+                    <relation name="saws:hasOwned" active="PRS13294AzanaKrestos" passive="ESmy006"/>
+                </listRelation>
+            </listPerson><!---->
+        </body>
+    </text>
+</TEI>
