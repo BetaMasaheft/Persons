@@ -1,0 +1,70 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13277Abbelo" xml:lang="en" type="pers">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ʾAbbǝlo</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="MKr"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+                <language ident="grc">Greek</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="MKr" when="2020-12-01">Created entity</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person sex="1">
+                    <persName xml:lang="gez" xml:id="n1">አብሎ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAbbǝlo</persName>
+                    <persName xml:lang="gez" xml:id="n2">አበሉ፡</persName>
+                    <persName xml:lang="gez" corresp="#n2">ʾAbbalu</persName>
+                    <persName xml:lang="grc" xml:id="n3">Apollo</persName>
+                    <faith type="Christianity"/>
+                    <occupation type="ecclesiastic"/>
+                    <nationality type="Egypt"/>
+                    <birth/>
+                    <death/>
+                    <floruit>According to a narrative in <ref type="mss" corresp="EMML1840">he was a monastic figure
+                    contemporary to <persName ref="PRS2209Athanasi">Athanasius of Alexandria</persName>. In the same text he is referred to as
+                  "resembling angels" (<foreign xml:lang="gez">ዘይመስል፡ መላእክት፡</foreign>) which might suggest an identification
+                with Apollo mentioned in the Coptic Synaxary on the 25th of Bābah.</ref></floruit>
+                </person>
+                <listRelation>
+                    <relation name="ecrm:P129i_is_subject_of" active="PRS13277Abbelo" passive="LIT6278StoryOfAbelo"/>
+                </listRelation>
+            </listPerson><!---->
+        </body>
+    </text>
+</TEI>
