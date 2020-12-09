@@ -39,6 +39,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="ABr" when="2020-12-08">Created entity</change>
+            <change who="ABr" when="2020-12-09">Added relations</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -53,10 +54,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </person>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="PRS13297Zamalakot" passive="GCA001">
-                    <desc>He is mentioned in the colophon of the manuscript GCA001 as commissioner of the manuscript and donor to the church of Faqādā</desc>
+                    <desc>Zamalakot is mentioned in the first subscription of the manuscript <ref type="mss" corresp="GCA001#ms_i2">GCA-001</ref>
+                    as commissioner of the manuscript.</desc>
                     </relation>
+                    <relation name="syriaca:has-relation-to-place" active="PRS13297Zamalakot" passive="INS0071FBM">
+                    <desc>Zamalakot is mentioned in the second subscription of the manuscript
+                    <ref type="mss" corresp="GCA001#ms_i2">GCA-001</ref> as donor of the manuscript to
+                    the church of <placeName ref="INS0071FBM">Faqādā</placeName>.</desc></relation>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>
