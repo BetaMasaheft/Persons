@@ -1,0 +1,77 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13306BaMaryam" xml:lang="en" type="pers">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Baʾǝda Māryām</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="ABr"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="ABr" when="2020-12-10">Created entity and added relations</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person sex="1">
+                    <persName xml:lang="gez" xml:id="n1">በእደ፡ ማርያም</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Baʾǝda Māryām</persName>
+                    <faith type="EOTC"/>
+                    <floruit notBefore="1600" notAfter="1800"/>
+                </person>
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="PRS13306BaMaryam" passive="GCA001">
+                    <desc>Baʾǝda Māryām is mentioned in the subscriptions and in the blessing formulae of the
+                     manuscript <ref type="mss" corresp="GCA001"/>. His role is not clear, but his name is
+                     associated with that of <persName ref="PRS13297Zamalakot"/>, who commissioned the
+                     manuscript. Most likely Baʾǝda Māryām was also involved in commissioning the manuscript. The name of
+                     Baʾǝda Māryām is associated in the same manuscript <ref type="mss" corresp="GCA001"/> also with the name of the scribe
+                     <persName ref="PRS13304GabAm"/>.</desc></relation>
+                     <relation name="lawd:hasAttestation" active="PRS13306BaMaryam" passive="ESfbm003">
+                     <desc>Baʾǝda Māryām is also mentioned in the subscriptions and in the blessing formulae of the
+                     manuscript <ref type="mss" corresp="ESfbm003"/> as commissioner of the manuscript.
+                     His name is also here associated with that of the scribe <persName ref="PRS13304GabAm"/>.</desc></relation>
+                     <relation name="lawd:hasAttestation" active="PRS13306BaMaryam" passive="ESfbm001"/>
+                     <relation name="lawd:hasAttestation" active="PRS13306BaMaryam" passive="ESfbm016">
+                     <desc>Baʾǝda Māryām is mentioned also as commissioner in the manuscripts
+                     <ref type="mss" corresp="ESFbm001"/> and <ref type="mss" corresp="ESFbm016"/>.</desc></relation>
+                     <relation name="syriaca:has-relation-to-place" active="PRS13306BaMaryam" passive="INS0071FBM">
+                     <desc>The manuscripts in which Baʾǝda Māryām is mentioned respectively belong (<ref type="mss" corresp="ESFbm001"/>,
+                     <ref type="mss" corresp="ESFbm03"/>, <ref type="mss" corresp="ESFbm016"/>) or originally belonged
+                     (<ref type="mss" corresp="GCA001"/>) to the manuscript collection of the church of <placeName ref="INS0071FBM">Faqādā</placeName>.</desc></relation>
+                </listRelation>
+            </listPerson><!---->
+        </body>
+    </text>
+</TEI>
