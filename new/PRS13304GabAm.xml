@@ -1,0 +1,73 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13304GabAm" xml:lang="en" type="pers">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Gabra ʾAmlāk</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="ABr"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="ABr" when="2020-12-09">Created entity</change>
+            <change who="ABr" when="2020-12-10">Added xml:id="n1" and relations</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+              <person sex="1">
+                  <persName xml:lang="gez" xml:id="n1">ገብረ፡ አምላክ</persName>
+                  <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra ʾAmlāk</persName>
+                  <floruit notBefore="1600" notAfter="1800"/>
+                  <occupation type="literary">scribe</occupation>
+              </person>
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="PRS13304GabAm" passive="GCA001"/>
+                    <relation name="saws:isCopierOf" active="PRS13304GabAm" passive="GCA001">
+                    <desc>Gabra ʾAmlāk is mentioned in the subscription to the Gospel of John in the
+                    manuscript <ref type="mss" corresp="GCA001#LIT1693John">GCA-001</ref> as the
+                    scribe who copied the manuscript.</desc></relation>
+                    <relation name="lawd:hasAttestation" active="PRS13304GabAm" passive="ESfbm003"/>
+                    <relation name="saws:isCopierOf" active="PRS13304GabAm" passive="ESFbm003">
+                    <desc>Gabra ʾAmlāk is mentioned in the subscriptions of the manuscript
+                    <ref type="mss" corresp="ESFbm003">FBM-003</ref> as one of the scribes
+                    who copied the manuscript.</desc></relation>
+                    <relation name="syriaca:has-relation-to-place" active="PRS13304GabAm" passive="INS0071FBM">
+                    <desc>The manuscripts copied by Gabra ʾAmlāk respectively belong <ref type="mss" corresp="ESFbm003">(FBM-003)</ref>
+                    and originally belonged <ref type="mss" corresp="GCA001">(GCA-001)</ref> to the manuscript collection of
+                    the church of <placeName ref="INS0071FBM">Faqādā</placeName>.</desc></relation>
+                </listRelation>
+            </listPerson><!---->
+        </body>
+    </text>
+</TEI>
