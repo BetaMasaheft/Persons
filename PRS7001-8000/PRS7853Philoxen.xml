@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS7853Philoxen">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
@@ -32,7 +32,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage>
+           <language ident="en">English</language>
+           <language ident="gez">Gǝʿǝz</language>
+           <language ident="syr">Syriac</language>
+         </langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
@@ -44,13 +48,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  
-                  Philoxenus of Mabbog
-               </persName>
-               <occupation> church father </occupation>
+            <person sex="1" sameAs="wd:Q973954">
+               <persName xml:lang="gez" xml:id="n1">ፍልክሲኖስ፡ ዘሀገረ፡ ምንብግ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Fǝlǝksinos za-hagara Mǝnbǝg</persName>
+               <persName xml:lang="en" type="main" corresp="#n1">Philoxenus of Mabbog</persName>
+               <persName xml:lang="syr" corresp="#n1">ܦܝܠܠܘܟܣܝܢܘܣ ܕܡܒܘܓ</persName>
+               <faith type="Syriac"/>
+               <occupation type="ecclesiastic">writer</occupation>
+               <death>523</death>
+               <floruit> He was one of the most notable Syriac prose writers and a vehement champion of Miaphysitism. In
+               Ethiopia he is known above all as an author of a monastic treaty <ref type="work" corresp="LIT1399Filkes">Filkǝsyos, which
+             however is a misattribution. In fact, what might be actual translations of his works into Gǝʿǝz are
+           very rare but cf. eg. <ref type="mss" corresp="EMML1763">EMML 1763</ref>, f. 129r-132v.</ref></floruit>
             </person>
+            <listRelation>
+            <relation name="skos:exactMatch" active="PRS7853Philoxen" passive="http://syriaca.org/person/44"/>
+            <relation name="saws:isAttributedAuthorOf" active="PRS7853Philoxen" passive="LIT3990Prayer"/>
+          </listRelation>
          </listPerson>
       </body>
    </text>
