@@ -1,5 +1,5 @@
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13321Orni" xml:lang="en" type="pers">
     <teiHeader>
@@ -45,13 +45,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="2">
-                    <persName xml:lang="gez" xml:id="n1">ʿOrni</persName>
+                    <persName xml:lang="gez" xml:id="n1">ኦርኒ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">ʿOrni</persName>
+                    <persName xml:lang="en" corresp="#n1">Irene</persName>
                     <faith type="Christianity"/>
                     <birth/>
                     <death/>
-                    <floruit/>
+                    <floruit>She was a daughter of Roman emperor Licinius (in Ethiopic tradition Marqiyānos) who locked her in a tower
+                    so that nobody could see her beauty. There are many versions of her story, in which she is a miracle-worker and a matyr.</floruit>
                 </person>
-            </listPerson><!---->
+                <listRelation>
+                <relation name="skos:exactMatch" active="PRS13321Orni" passive="http://www.syriaca.org/person/1787"/>
+                </listRelation>
+            </listPerson>
+            <listBibl type="secondary">
+        <bibl><ptr target="bm:Janin1966Irene"/></bibl>
+            </listBibl>
         </body>
     </text>
 </TEI>
