@@ -45,8 +45,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
     <text xml:base="https://betamasaheft.eu/">
         <body>
             <listPerson>
-                <person sex="1">
-                    <persName xml:lang="en" xml:id="n1">Eustathius Placidus</persName>
+                <person sex="1" sameAs="wd:Q218921">
+                    <persName xml:lang="la" xml:id="n1">Eustathius Placidus</persName>
+                      <persName xml:lang="en" xml:id="n2">Eustace</persName>
                     <faith type="Christianity"/>
                     <occupation type="military"/>
                     <nationality type="ByzantineEmpire"/>
