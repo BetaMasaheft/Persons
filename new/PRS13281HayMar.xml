@@ -31,8 +31,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <creation/>
             <abstract>
                 <p>The spelling of the name was standardized according to <bibl>
-                    <ptr target="bm:Dillmann1865Lexicon"/>                
-                </bibl>.</p>
+                        <ptr target="bm:Dillmann1865Lexicon"/>
+                    </bibl>.</p>
             </abstract>
             <langUsage>
                 <language ident="en">English</language>
@@ -49,15 +49,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ኀይለ፡ ማርያም፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Ḫayla Māryām</persName>
-                    <floruit notBefore="1800" notAfter="1900"/>
-                    <floruit/>
+                    <floruit notBefore="1800" notAfter="1976"/>
                     <occupation type="literary">scribe</occupation>
                 </person>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="PRS13281HayMar" passive="MNC008"/>
                     <relation name="saws:isCopierOf" active="PRS13281HayMar" passive="MNC008">
-                        <desc>The name of Ḫayla Māryām is mentioned as a scribe in the
-                            supplication formula of <ref type="mss" corresp="MNC008#ms_i3"/>.</desc>
+                        <desc>The name of Ḫayla Māryām is mentioned as a scribe in the supplication
+                            formula of <ref type="mss" corresp="MNC008#ms_i3"/>.</desc>
                     </relation>
                 </listRelation>
             </listPerson>
