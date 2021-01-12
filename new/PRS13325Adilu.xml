@@ -47,15 +47,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">አዲሉ፡</persName>
                      <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAdilu</persName>
-                     <persName xml:lang="gez" xml:id="n2" cert="low">ቢጡል፡</persName>
-                      <persName xml:lang="gez" type="normalized" corresp="#n2">Biṭul</persName>
-                    <faith type="EOTC" cert="medium"/>
-                    <occupation type="other"/>
+                     <persName type="war" xml:lang="am" xml:id="n2">ብጡል፡</persName>
+                      <persName xml:lang="am" type="normalized" corresp="#n2">Bǝṭul</persName>
+                    <faith type="EOTC"/>
 
                     <floruit notBefore="1800" notAfter="1860"/>
                 </person>
                 <listRelation>
-                    <relation name="saws:hasOwned" active="PRS13325Adilu" passive="BNFadd3"/>
+                    <relation name="saws:hasOwned" active="PRS13325Adilu" passive="BNFabb3"/>
                     <relation name="snap:BrotherOf" active="PRS13325Adilu" passive="PRS13326GabraMaryam"></relation>
                 </listRelation>
             </listPerson><!---->
