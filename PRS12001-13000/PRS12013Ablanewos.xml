@@ -40,6 +40,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
         </profileDesc>
         <revisionDesc>
             <change who="MV" when="2018-04-19">Created entity</change>
+            <change who="MV" when="2021-01-12">Updated record</change>
         </revisionDesc>
     </teiHeader>
     <text xml:base="https://betamasaheft.eu/">
@@ -48,9 +49,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">አብላኔዎስ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAblānewos</persName>
+                    <faith type="EOTC"/>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS12013Ablanewos" passive="MNC001"/>
+                    <relation name="lawd:hasAttestation" active="PRS12013Ablanewos" passive="MNC001">
+                        <desc>
+                            The name of ʾAblānewos is mentioned in a secondary hand in numerous supplication formulas throughout the manuscript.
+                            It might have been a later owner of <ref type="mss" corresp="MNC001"/>.
+                        </desc>
+                    </relation>
                 </listRelation>
             </listPerson>
         </body>
