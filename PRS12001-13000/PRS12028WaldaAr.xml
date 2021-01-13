@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12028WaldaAr" xml:lang="en" type="pers">
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12028WaldaAr" xml:lang="en" type="pers">
     <teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt>
@@ -11,12 +12,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             </titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
-                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas:  Eine multimediale
-                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine
+                    multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
                 <pubPlace>Hamburg</pubPlace>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
-                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                        licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -25,21 +26,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
         </fileDesc>
         <encodingDesc>
             <p>A digital born TEI file</p>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
-            <xi:fallback>
-               <p>Definitions of prefixes used.</p>
-            </xi:fallback>
-         </xi:include>
-      </encodingDesc>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+                <xi:fallback>
+                    <p>Definitions of prefixes used.</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
         <profileDesc>
             <creation/>
             <abstract>
                 <p/>
             </abstract>
-            <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
         </profileDesc>
         <revisionDesc>
             <change who="MV" when="2018-04-23">Created entity</change>
+            <change who="SH" when="2021-01-07">Updated record</change>
         </revisionDesc>
     </teiHeader>
     <text xml:base="https://betamasaheft.eu/">
@@ -47,10 +53,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <listPerson>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ወልደ፡ አረጋዊ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walda ʾAragāwi</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walda
+                        ʾAragāwi</persName>
+                    <floruit notBefore="1800" notAfter="1976"/>
+                    <occupation type="literary">scribe</occupation>
                 </person>
                 <listRelation>
-                    <relation name="saws:isCopierOf" active="PRS12028WaldaAr" passive="MNC007"/>
+                    <relation name="lawd:hasAttestation" active="PRS12028WaldaAr" passive="MNC007"/>
+                    <relation name="saws:isCopierOf" active="PRS12028WaldaAr"
+                        passive="MNC007#ms_i1 #ms_i2">
+                        <desc>The name of Walda ʾAragāwi is mentioned as scribe on <locus
+                                target="#16v"/> but as ‘servant’ on <locus target="#41v"/> in <ref
+                                type="mss" corresp="MNC007"/>.</desc>
+                    </relation>
                 </listRelation>
             </listPerson>
         </body>
