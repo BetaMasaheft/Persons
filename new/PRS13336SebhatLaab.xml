@@ -45,13 +45,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Sǝbḥat Laʾab</persName>
-                    <faith type="EOTC"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <persName xml:lang="gez" xml:id="n1">ስብሐት፡ ለአብ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Sǝbḥat Laʾab</persName>
+                    <faith type="EOTC"/>              
+                    <floruit notBefore="1700" notAfter="1900"/>
                 </person>
-            </listPerson><!---->
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="PRS13336SebhatLaab" passive="BGV009">
+                        <desc>Sǝbḥat Laʾab is mentioned in some supplication formulas throughout the manuscript.</desc>
+                    </relation>
+                    <relation name="snap:SonOf" active="PRS13336SebhatLaab" passive="PRS13333WalattaMa"/>
+                    <relation name="snap:SonOf" active="PRS13336SebhatLaab" passive="PRS13330GadlaMi"/>
+                    <relation name="snap:BrotherOf" active="PRS13336SebhatLaab" passive="PRS13334GabraAm"/>
+                    <relation name="snap:BrotherOf" active="PRS13336SebhatLaab" passive="PRS13335WaldaAm"/>
+                </listRelation>
+            </listPerson>
         </body>
     </text>
 </TEI>

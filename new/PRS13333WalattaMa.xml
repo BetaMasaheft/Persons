@@ -45,13 +45,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="2">
-                    <persName xml:lang="gez" xml:id="n1">Walatta Māryām</persName>
-                    <faith type="EOTC"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <persName xml:lang="gez" xml:id="n1">ወለተ፡ ማርያም፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walatta Māryām</persName>
+                    <faith type="EOTC"/>              
+                    <floruit notBefore="1700" notAfter="1900"/>
                 </person>
-            </listPerson><!---->
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="PRS13333WalattaMa" passive="BGV009">
+                        <desc>Walatta Māryām is mentioned in numerous supplication formulas throughout the manuscript.</desc>
+                    </relation>
+                    <relation name="betmas:wifeOf" active="PRS13333WalattaMa" passive="PRS13330GadlaMi"/>
+                    <relation name="snap:MotherOf" active="PRS13333WalattaMa" passive="PRS13334GabraAm"/>
+                    <relation name="snap:MotherOf" active="PRS13333WalattaMa" passive="PRS13335WaldaAm"/>
+                    <relation name="snap:MotherOf" active="PRS13333WalattaMa" passive="PRS13336SebhatLaab"/>
+                </listRelation>
+            </listPerson>
         </body>
     </text>
 </TEI>

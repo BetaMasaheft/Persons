@@ -45,13 +45,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="2">
-                    <persName xml:lang="gez" xml:id="n1">ʾArwā</persName>
-                    <faith type="EOTC"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <persName xml:lang="gez" xml:id="n1">አርዋ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">ʾArwā</persName>
+                    <faith type="EOTC"/>              
+                    <floruit notBefore="1700" notAfter="1900"/>
                 </person>
-            </listPerson><!---->
+                <listRelation>
+                    <relation name="snap:MotherOf" active="PRS13332Arwa" passive="PRS13330GadlaMi">
+                        <desc>ʾArwā is indicated as <persName ref="PRS13330GadlaMi">Gadla Mikāʾel</persName>'s mother in <locus target="BGV009#a1"/>.</desc>
+                    </relation>
+                </listRelation>
+            </listPerson>
         </body>
     </text>
 </TEI>

@@ -45,13 +45,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Walda ʾAmlāk</persName>
-                    <faith type="EOTC"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <persName xml:lang="gez" xml:id="n1">ወልደ፡ አምላክ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walda ʾAmlāk</persName>
+                    <faith type="EOTC"/>              
+                    <floruit notBefore="1700" notAfter="1900"/>
                 </person>
-            </listPerson><!---->
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="PRS13335WaldaAm" passive="BGV009">
+                        <desc>Gabra ʾAmlāk is mentioned in some supplication formulas throughout the manuscript.</desc>
+                    </relation>
+                    <relation name="snap:SonOf" active="PRS13335WaldaAm" passive="PRS13333WalattaMa"/>
+                    <relation name="snap:SonOf" active="PRS13335WaldaAm" passive="PRS13330GadlaMi"/>
+                    <relation name="snap:BrotherOf" active="PRS13335WaldaAm" passive="PRS13334GabraAm"/>
+                    <relation name="snap:BrotherOf" active="PRS13335WaldaAm" passive="PRS13336SebhatLaab"/>
+                </listRelation>
+            </listPerson>
         </body>
     </text>
 </TEI>

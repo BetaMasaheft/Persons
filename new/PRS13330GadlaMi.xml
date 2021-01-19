@@ -45,13 +45,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Gadla Mikāʾel</persName>
-                    <faith type="EOTC"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <persName xml:lang="gez" xml:id="n1">ገድለ፡ ሚካኤል፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Gadla Mikāʾel</persName>
+                    <faith type="EOTC"/>              
+                    <floruit notBefore="1700" notAfter="1900"/>
                 </person>
-            </listPerson><!---->
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="PRS13330GadlaMi" passive="BGV009">
+                        <desc>Gadla Mikāʾel is mentioned in numerous supplication formulas throughout the manuscript. Besides, he is indicated as the one who commissioned the manuscript in 
+                            <ref target="BGV009#a1"/> and on <locus target="BGV009#74va"/>.</desc>
+                    </relation>
+                    <relation name="betmas:husbandOf" active="PRS13330GadlaMi" passive="PRS13333WalattaMa"/>
+                    <relation name="snap:SonOf" active="PRS13330GadlaMi" passive="PRS13331TaklaMi"/>
+                    <relation name="snap:SonOf" active="PRS13330GadlaMi" passive="PRS13332Arwa"/>
+                    <relation name="snap:FatherOf" active="PRS13330GadlaMi" passive="PRS13334GabraAm"/>
+                    <relation name="snap:FatherOf" active="PRS13330GadlaMi" passive="PRS13335WaldaAm"/>
+                    <relation name="snap:FatherOf" active="PRS13330GadlaMi" passive="PRS13336SebhatLaab"/>
+                </listRelation>
+            </listPerson>
         </body>
     </text>
 </TEI>

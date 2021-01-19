@@ -45,13 +45,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Takla Mikāʾel</persName>
-                    <faith type="EOTC"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <persName xml:lang="gez" xml:id="n1">ተክለ፡ ሚካኤል፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Takla Mikāʾel</persName>
+                    <faith type="EOTC"/>              
+                    <floruit notBefore="1700" notAfter="1900"/>
                 </person>
-            </listPerson><!---->
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="PRS13331TaklaMi" passive="BGV009">
+                        <desc>Takla Mikāʾel is mentioned in some supplication formulas throughout the manuscript.</desc>
+                    </relation>
+                    <relation name="snap:FatherOf" active="PRS13331TaklaMi" passive="PRS13330GadlaMi">
+                        <desc>Takla Mikāʾel is indicated as <persName ref="PRS13330GadlaMi">Gadla Mikāʾel</persName>'s father on <locus target="BGV009#60rb #63ra #74rb"/>.</desc>
+                    </relation>
+                </listRelation>
+            </listPerson>
         </body>
     </text>
 </TEI>
