@@ -35,6 +35,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <langUsage>
                 <language ident="en">English</language>
                 <language ident="gez">Gǝʿǝz</language>
+                <language ident="ar">Arabic</language>
             </langUsage>
         </profileDesc>
         <revisionDesc>
@@ -50,9 +51,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Yoḥannǝs za-Sǝnhut</persName>
                     <persName xml:lang="ar" xml:id="n3">يحنس السنهوتي</persName>
                     <faith type="Christianity"/>
+                    <nationality type="Egypt"/>
                     <birth/>
-                    <death/>
-                    <floruit/>
+                    <death notBefore="0303" notAfter="0313"/>
+                    <floruit>According to his hagiography, he was martyred in Egypt during Diocletianic persecution. His body was shrouded
+                    and brought to Sǝnhut by <ref type="pers" corresp="PRS5793Juliuso">Julius of Aqfahs</ref>.</floruit>
+                    <note type="commemoration"><date type="diesNatalis" ref="ethiocal:Genbot8">8 Gǝnbot</date></note>
                 </person>
                 <listRelation>
                     <relation name="ecrm:P129i_is_subject_of" active="PRS13339JohnSenhut" passive="LIT3704Miracle"/>
