@@ -39,19 +39,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="MV" when="2021-01-19">Created entity</change>
+            <change who="MV" when="2021-01-24">Added listRelation</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="2">
-                    <persName xml:lang="gez" xml:id="n1">Walatta ʾAmlāk</persName>
-                    <faith type="EOTC"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <persName xml:lang="gez" xml:id="n1">ወለተ፡ አምላክ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walatta ʾAmlāk</persName>
+                    <faith type="EOTC"/>              
+                    <floruit notBefore="1800" notAfter="1900"/>
                 </person>
-            </listPerson><!---->
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="PRS13338WalattaAm" passive="BGV009">
+                        <desc>Walatta Māryām is mentioned in several supplication formulas in <ref target="BGV009#p3"/>.
+                            She might have been the owner of the codicological unit or a later owner of the entire manuscript.</desc>
+                    </relation>
+                </listRelation>
+            </listPerson>
         </body>
     </text>
 </TEI>
