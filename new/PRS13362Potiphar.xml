@@ -1,11 +1,12 @@
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13362Putiphar" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13362Potiphar" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Putiphar</title>
+                <title xml:id="t1">Potiphar</title>
+                <title xml:id="t2">Putiphar</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="MV"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -45,13 +46,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Putiphar</persName>
-                    <faith type="notSpecified"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <persName xml:lang="en" xml:id="n1">Potiphar</persName>
+                    <occupation type="military">Captain of Pharaoh's guard</occupation>
                 </person>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>
