@@ -35,7 +35,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <langUsage>
                 <language ident="en">English</language>
                 <language ident="gez">Gǝʿǝz</language>
+                <language ident="grc">Greek</language>
             </langUsage>
+            <textClass>
+              <keywords>
+                <term key="martyr"></term>
+              </keywords>
+            </textClass>
         </profileDesc>
         <revisionDesc>
             <change who="MKr" when="2021-02-03">Created entity</change>
@@ -45,9 +51,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="en" xml:id="n1">Theoctistus</persName>
-                    <persName xml:lang="gez" xml:id="n2">ቴዎጢቃኖስ፡</persName>
-                    <persName xml:lang="gez" corresp="#n2">Tewoṭiqānos</persName>
+                    <persName xml:lang="gez" xml:id="n1">ቴዎጢቃኖስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n2">Tewoṭiqānos</persName>
+                    <persName xml:lang="en" type="main" corresp="#n1">Theoctistus</persName>
+                    <persName xml:lang="grc" corresp="#n1">Θεόκτιστος</persName>
                     <faith type="Christianity"/>
                     <birth/>
                     <death/>
