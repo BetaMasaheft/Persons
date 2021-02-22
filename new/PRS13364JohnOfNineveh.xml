@@ -52,13 +52,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ዮሐንስ፡ ወልደ፡ ጸራቢ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Yoḥannǝs walda ṣarābi</persName>
+                    <persName xml:lang="en" xml:id="n2">John son of sculptor</persName>
                     <faith type="Christianity"/>
                     <birth/>
                     <death/>
-                    <floruit>According to his hagiography, he lived in <placeName ref="LOC5000Nineve">Nineveh</placeName> and was a son of a pagan sculptor and Chrstian mother. He was 
+                    <floruit>According to his hagiography, he lived in <placeName ref="LOC5000Nineve">Nineveh</placeName> and was a son of a pagan sculptor and Chrstian mother. He was
                     killed by his father after professing his Christian faith.</floruit>
                     <note type="commemoration"><date type="diesNatalis" ref="ethiocal:Miyazya26">26 Miyāzyā</date></note>
                 </person>
+                <listRelation>
+                    <relation name="skos:exactMatch" active="PRS13364JohnOfNineveh" passive="https://syriaca.org/person/1304"/>
+                </listRelation>
             </listPerson><!---->
         </body>
     </text>
