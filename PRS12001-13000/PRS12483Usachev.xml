@@ -46,17 +46,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Aleksandr Usačev</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                   <persName xml:lang="ru" xml:id="n1"><forename>Александр</forename> <surname>Усачёв</surname></persName>
+<persName xml:lang="ru" type="normalized" corresp="#n1"><forename>Aleksandr</forename> <surname>Usačev</surname></persName>
                     <faith type="Russian"/>
                     <occupation type="art"/>
                     <nationality type="Russia/USSR"/>
                     <birth>1863</birth>
                     <death>1937</death>
-                    <floruit/>
                 </person>
             </listPerson>
-         <!---->
         </body>
     </text>
 </TEI>
