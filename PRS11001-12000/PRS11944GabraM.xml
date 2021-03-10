@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS11944GabraM" xml:lang="en" type="pers">
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS11944GabraM" xml:lang="en" type="pers">
     <teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt>
@@ -47,8 +48,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ገብረ፡ ማርያም፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra Māryām</persName>
+                    <persName><roleName type="title" xml:lang="gez"><hi rendition="simple:italic">ʾAbbā</hi></roleName></persName>
                     <persName xml:lang="ar" xml:id="n2">عبد مريم</persName>
                     <persName xml:lang="ar" type="normalized" corresp="#n2">ʿAbd Maryam</persName>
+                    <persName><roleName type="title" xml:lang="ar"><hi rendition="simple:italic">Qummuṣ</hi></roleName></persName>
                     <occupation type="ecclesiastic">donor, owner, scribe</occupation>
                 </person>
                 <listRelation>
