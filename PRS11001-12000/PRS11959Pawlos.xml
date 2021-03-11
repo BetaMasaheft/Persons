@@ -47,6 +47,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ጳውሎስ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Ṗāwlos</persName>
+                    <persName><roleName type="title" xml:lang="gez"><hi rendition="simple:italic">ʾAbuna</hi></roleName></persName>
+                    <persName xml:lang="ar" xml:id="n2">بولس الحبشي</persName>
+                    <persName xml:lang="ar" corresp="#n2" type="normalized">Būlus al-Ḥabašī</persName>
+                    <persName><roleName type="title" xml:lang="ar"><hi rendition="simple:italic">ʾAbunā</hi></roleName></persName>
+                    <occupation type="ecclesiastic">scribe</occupation>
                 </person>
                 <listRelation>
                     <relation name="saws:isCopierOf" active="PRS11959Pawlos" passive="DSEthiop7"/>

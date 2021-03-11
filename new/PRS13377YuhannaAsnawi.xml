@@ -1,16 +1,13 @@
-
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
-
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12959GabraIyasusWM" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13377YuhannaAsnawi" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Gabra ʾIyasus Walda Mikāʾel</title>
-
+                <title>Yuḥannā al-ʾAsnāwī</title>
                 <editor role="generalEditor" key="AB"/>
-                <editor key="DN"/>
+                <editor key="DR"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
             <publicationStmt>
@@ -24,6 +21,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </availability>
             </publicationStmt>
             <sourceDesc>
+                <p/>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -40,28 +38,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="DN" when="2020-04-14">Created entity</change>
+            <change who="DR" when="2021-03-11">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ገብረ፡ ኢየሱስ፡ ወልደ፡ ሚካኤል፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra ʾIyasus Walda Mikāʾel</persName>
-                    <persName><roleName type="title"><hi rendition="simple:italic">ʾAbbā</hi></roleName></persName>
-
-                    <faith type="EOTC"/>
-                    <occupation type="ecclesiastic">owner</occupation>
-                    <nationality type="Eritrea"/>
-                    <floruit>A monk from <placeName ref="INS0479DabraM">Dabra Māryām
-                      Qoḥayn of ʾabbā ʾAbsādi</placeName>.</floruit>
+                    <persName xml:lang="ar" xml:id="n1">يوحنا الأسناوي</persName>
+                    <persName xml:lang="ar" corresp="#n1" type="normalized">Yuḥannā al-ʾAsnāwī</persName>
+                    <persName xml:lang="ar" xml:id="n2">صرابامون</persName>
+                    <persName xml:lang="ar" corresp="#n2" type="normalized">Ṣarābāmūn</persName>
+                    <persName><roleName type="title">Bishop</roleName></persName>
                 </person>
-                <listRelation>
-                    <relation name="saws:hasOwned" active="PRS12959GabraIyasusWM" passive="DSEthiop2"/>
-
-                </listRelation>
             </listPerson>
-            </body>
+        </body>
     </text>
 </TEI>
