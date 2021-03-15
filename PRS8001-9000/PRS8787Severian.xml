@@ -40,6 +40,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
          <change who="DR" when="2018-02-22">Updated</change>
+         <change who="MKr" when="2021-03-15">Added dates and floruit</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -54,7 +55,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                <occupation type="ecclesiastic">Bishop</occupation>
                <birth notAfter="0380"/>
                <death notBefore="0408" notAfter="0425"/>
-               <floruit>He was a preacher in Constantinople. In the Ethiopian tradition homilies attributed to him are attested
+               <floruit>He was a preacher in <ref type="place" corresp="LOC2196Consta">Constantinople</ref>. In the Ethiopian tradition homilies attributed to him are attested
                i. a. as part of <ref type="work" corresp="LIT3309Qerellos">Qerǝllos</ref>, <ref type="work" corresp="LIT1544Gebrah">Gǝbra Ḥǝmāmāt</ref>
                and <ref type="work" corresp="LIT1586Hayman">Hāymānota ʾabaw</ref>.
              </floruit>
