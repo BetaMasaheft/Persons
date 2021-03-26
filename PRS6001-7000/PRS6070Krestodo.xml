@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS6070Krestodo">
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS6070Krestodo">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
@@ -48,11 +49,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       <body>
          <listPerson>
             <person sex="1">
-               <persName xml:lang="gez" xml:id="n1" type="birth">ክርስቶዶሉ፡</persName>
+               <persName xml:lang="gez" xml:id="n1">ክርስቶዶሉ፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Krǝstodolu I</persName>
-                  <persName>
-                  <roleName type="title">ʾabuna</roleName>
+               <persName>
+                  <roleName type="title" xml:lang="gez"><hi rendition="simple:italic">ʾAbuna</hi></roleName>
                </persName>
+               <persName xml:lang="ar" xml:id="n2" type="birth">عبد المسيح الأمبيري</persName>
+               <persName xml:lang="ar" corresp="#n2" type="normalized">ʿAbd al-Masīḥ al-ʾAmbirī</persName>
+               <persName> <roleName type="title" xml:lang="ar"><hi rendition="simple:italic">Qummuṣ</hi></roleName></persName>
+           
                   <occupation type="ecclesiastic">metropolitan</occupation>
                   <nationality type="Egypt"/>
                   <faith type="Coptic"/>
