@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS7955Proclus">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
@@ -32,24 +32,30 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage>
+           <language ident="en">English</language>
+           <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change who="MKr" when="2021-03-28">Added Ethiopian name, updated the record</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  
-                  Proclus of Cyzicus
-               </persName>
-               <occupation> theol.</occupation>
+            <person sex="1" sameAs="wd:Q172926">
+               <persName xml:lang="en" xml:id="n1">Proclus of Cyzicus</persName>
+                <persName xml:lang="gez" xml:id="n2">ጰርቀሎስ፡ ጳጳስ፡ ዘሀገረ፡ ቂዝቆስ፡</persName>
+                <persName xml:lang="gez" type="normalized" corresp="#n2">Ṗarqalos ṗāṗṗās za-hagara Qizqos</persName>
+                <persName xml:lang="en" xml:id="n3">Proclus of Constantinople</persName>
+               <occupation type="ecclesiastic">patriarch</occupation>
+               <faith type="Greek"/>
+               <death when="0446">446</death>
             </person>
          </listPerson>
       </body>
