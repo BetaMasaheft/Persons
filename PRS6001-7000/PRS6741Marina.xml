@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS6741Marina">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
@@ -32,7 +32,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
+         <langUsage>
+           <language ident="en">English</language><language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+         <textClass>
+         <keywords>
+<term key="martyr"></term>
+</keywords>
+</textClass>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
@@ -40,18 +47,29 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
          <change who="DR" when="2018-01-29">Updated</change>
+         <change who="MKr" when="2021-04-04">Added external links</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
-            <person sex="2">
+            <person sex="2" sameAs="wd:Q297742">
                <persName xml:lang="gez" xml:id="n1">መሪና፡</persName>
                <persName xml:lang="gez" type="normalized" corresp="#n1">Marinā</persName>
                <persName xml:lang="en" type="main" corresp="#n1">St Marina</persName>
+               <persName xml:lang="en" xml:id="n2">Margaret of Antioch</persName>
+               <birth>275</birth>
+               <death>304</death>
+               <floruit>According to her hagiography she was a daughter of a pagan priest, but was raised as a Christian by her nurse.
+               She was martyred after she rejected the advances of a Roman governor. Not to be confused with Marinā commemorated on
+               <date ref="ethiocal:Tahsas8">8 Tāḫśāś.</date>
+             </floruit>
+               <note></note>
+               <note type="commemoration"><date type="diesNatalis" ref="ethiocal:Hamle23">23 Ḥamle</date></note>
             </person>
             <listRelation>
                <relation name="ecrm:P129i_is_subject_of" active="PRS6741Marina" passive="LIT2375Synaxa"/>
+               <relation name="ecrm:P129i_is_subject_of" active="PRS6741Marina" passive="LIT6433MartyrMarina"/>
             </listRelation>
          </listPerson>
       </body>
