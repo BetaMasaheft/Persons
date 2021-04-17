@@ -36,6 +36,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <language ident="en">English</language>
                 <language ident="gez">Gǝʿǝz</language>
             </langUsage>
+            <textClass>
+              <keywords>
+                <term key="martyr"></term>
+              </keywords>
+            </textClass>
         </profileDesc>
         <revisionDesc>
             <change who="MKr" when="2021-04-17">Created entity</change>
@@ -44,12 +49,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPerson>
-                <person sex="1">
+                <person sex="2">
                     <persName xml:lang="gez" xml:id="n1">እንጦልያ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="n1">ʾƎnṭolyā</persName>
+                    <persName xml:lang="en" xml:id="n2">Natalia</persName>
                     <faith type="Christianity"/>
                     <birth/>
-                    <death/>
+                    <death>306</death>
+                      <note type="commemoration"><date type="diesNatalis" ref="ethiocal:Nahase25">25 Naḥāse</date></note>
                     <floruit/>
                 </person>
                 <listRelation>
