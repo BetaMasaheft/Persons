@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS9861Walatta">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Wälättä Täklä Haymanot</title>
+            <title>Walatta Takla Hāymānot</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -32,7 +32,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage>
+           <language ident="en">English</language>
+         </langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
@@ -45,15 +47,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       <body>
          <listPerson>
             <person sex="2">
-               <persName>
-                  
-                  Wälättä Täklä Haymanot
-               </persName>
+               <persName xml:lang="gez" xml:id="n1">ወለተ፡ ተክለ፡ ሃይማኖት፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Walatta Takla Hāymānot</persName>
+               <floruit>She was a daughter of emperor Bakāffa. She was given in marriage
+                 to rās <persName ref="PRS3752Elyas">ʾElyās</persName> in <date when="1730">1730</date>.</floruit>
             </person>
             <listRelation>
-               <relation name="daughterOf">
-                  <desc> daugh. Bäkaffa </desc>
-               </relation>
+              <relation name="snap:DaughterOf" active="PRS9861Walatta" passive="PRS2377Bakaffa"/>
+              <relation name="betmas:wifeOf" active="PRS9861Walatta" passive="PRS3752Elyas"/>
             </listRelation>
          </listPerson>
       </body>
