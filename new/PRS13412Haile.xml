@@ -1,5 +1,5 @@
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13412Haile" xml:lang="en" type="pers">
     <teiHeader>
@@ -45,7 +45,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Ḫayla Takla Hāymānot</persName>
+                    <persName xml:lang="gez" xml:id="n1">ኀይለ፡ ተክለ፡ ሃይማኖት፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Ḫayla Takla Hāymānot</persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
                     <birth/>
@@ -53,8 +54,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <floruit/>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS13412Haile" passive=""/>
-                    <relation name="snap:SonOf" active="PRS13412Haile" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS13412Haile" passive="BLorient547"/>
+                    <relation name="snap:SonOf" active="PRS13412Haile" passive="PRS13409Hensa"/>
+                    <relation name="snap:BrotherOf" active="PRS13412Haile" passive="PRS13410Walatta"/>
                 </listRelation>
             </listPerson><!---->
         </body>
