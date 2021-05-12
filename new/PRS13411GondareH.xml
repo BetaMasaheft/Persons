@@ -1,5 +1,5 @@
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13411GondareH" xml:lang="en" type="pers">
     <teiHeader>
@@ -45,15 +45,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Gondare Habtu</persName>
+                    <persName xml:lang="gez" xml:id="n1">ጎንደሬ፡ ሀብቱ፡</persName>
+                    <persName corresp="#n1" type="normalized">Gondare Habtu</persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+
+                    <floruit notBefore="1750" notAfter="1900"/>
                 </person>
                 <listRelation>
-                    <relation name="saws:isCopierOf" active="PRS13411GondareH" passive=""/>
+                    <relation name="saws:isCopierOf" active="PRS13411GondareH" passive="BLadd24995"/>
                 </listRelation>
             </listPerson><!---->
         </body>
