@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS5731Johnof">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
@@ -42,6 +42,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
          <change who="SG" when="2016-09-08">Complete record</change>
+         <change when="2021-05-21" who="DE">Corrected transliteration</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -49,15 +50,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <listPerson>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ዮሐንስ፡ መደበር፡</persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized">Yoḥannǝs Madabar</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Yoḥannǝs Madabbar</persName>
                <persName xml:lang="en" xml:id="n2" type="birth">John of Nikiu</persName>
                <occupation type="ecclesiastic">bishop</occupation>
                <nationality type="Egypt"/>
                <faith type="Coptic"/>
-             
-               <floruit> He was a 7th century bishop of Nikiu in south west-Nile Delta.  He was the author of a universal 
-                  <ref type="work" corresp="LIT1239Chroni">Chronicle</ref> extending 
-            from Adām to the end of the Muslim conquest of Egypt. This Chronicle contains important historical details particularly on the final decades 
+
+               <floruit> He was a 7th century bishop of Nikiu in south west-Nile Delta.  He was the author of a universal
+                  <ref type="work" corresp="LIT1239Chroni">Chronicle</ref> extending
+            from Adām to the end of the Muslim conquest of Egypt. This Chronicle contains important historical details particularly on the final decades
                   of the Byzantine rule over Egypt and the Arabs conquest of Egypt.
                </floruit>
                <death> He died shortly after <date>700</date>
@@ -65,7 +66,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             </person>
             <listRelation>
                <relation name="saws:isAttributedAuthorOf" active="PRS5731Johnof" passive="LIT1239Chroni"/>
-               
+
                 </listRelation>
          </listPerson>
          <listBibl type="editions">
@@ -73,14 +74,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                <ptr target="bm:Zotenberg1883JohnNikiu"/>
             </bibl>
          </listBibl>
-            
+
          <listBibl type="secondary">
-            <bibl> 
+            <bibl>
                <ptr target="bm:Coquin1991JohnNikiou"/>
-            </bibl>  
-            <bibl> 
+            </bibl>
+            <bibl>
                <ptr target="bm:Weninger2007JohnNikiu"/>
-            </bibl>  
+            </bibl>
          </listBibl>
       </body>
    </text>
