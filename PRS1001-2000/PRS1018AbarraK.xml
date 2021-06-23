@@ -32,26 +32,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="gez">Geez</language>
+         </langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change who="SS" when="2021-06-23">updated names</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                   <persName xml:lang="gez" xml:id="n1">አበራ፡ ካሣ፡ ኃይሉ፡</persName>
-                  <persName xml:lang="gez" corresp="#n1">ʾAbarrā Kāśā Ḫāylu</persName>
-               </persName>
+                <persName xml:lang="gez" xml:id="n1">አበራ፡ ካሣ፡ ኃይሉ፡</persName>
+                <persName xml:lang="gez" corresp="#n1">ʾAbarrā Kāśā Ḫāylu</persName>
                <nationality type="Ethiopia post-Aksumite">Christian Ethiopia</nationality>
                <faith type="EOTC">EOTC</faith>
-               <occupation>daǧǧ. </occupation>
+               <occupation type="military">daǧǧ. </occupation>
                <death>d. 1936</death>
             </person>
          </listPerson>
