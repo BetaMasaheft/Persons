@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13445AmataIyasus" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13446GabraKrestos" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ʾAmata ʾIyasus</title>
+                <title>Gabra Krǝstos</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DN"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -32,10 +32,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <abstract>
                 <p/>
             </abstract>
-            <t:langUsage xmlns:t="http://www.tei-c.org/ns/1.0">
+            <langUsage>
                 <language ident="en">English</language>
                 <language ident="gez">Gǝʿǝz</language>
-            </t:langUsage>
+            </langUsage>
         </profileDesc>
         <revisionDesc>
             <change who="DN" when="2021-06-30">Created entity</change>
@@ -44,19 +44,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPerson>
-                <person sex="2">
-                    <persName xml:lang="gez" xml:id="n1">አመተ፡ ኢየሱስ፡</persName>
-                      <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAmata ʾIyasus</persName>
+                <person sex="1">
+                    <persName xml:lang="gez" xml:id="n1">ገብረ፡ ክርስቶስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra Krǝstos</persName>
                     <faith type="EOTC"/>
-                    <occupation type="other"/>
-                    <nationality type="Ethiopia"/>
+                    <occupation type="academic"/>
                     <birth/>
                     <death/>
-                    <floruit notBefore="1770" notAfter="1840"/>
+                    <floruit/>
                 </person>
                 <listRelation>
-                    <relation name="saws:hasOwned" active="PRS13445AmataIyasus" passive="BNFabb173"/>
-                    <relation name="betmas:wifeOf" active="PRS13445AmataIyasus" passive="BNFabb173PRS13446GabraKrestos" cert="low"/>
+                    <relation name="saws:hasOwned" active="PRS13446GabraKrestos" passive="BNFabb173"/>
+                    <relation name="betmas:husbandOf" active="PRS13446GabraKrestos" passive="PRS13445AmataIyasus" cert="low"/>
                 </listRelation>
             </listPerson><!---->
         </body>
