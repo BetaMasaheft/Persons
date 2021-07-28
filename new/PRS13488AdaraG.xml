@@ -1,5 +1,5 @@
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13488AdaraG" xml:lang="en" type="pers">
     <teiHeader>
@@ -45,16 +45,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ʾAdarā Giyorgis</persName>
+                    <persName xml:lang="gez" xml:id="n1">አደራ፡ ጊዮርጊስ፡</persName>
+                    <persName corresp="#n1" xml:lang="gez" type="normalized">ʾAdarā Giyorgis</persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
                 </person>
                 <listRelation>
-                    <relation name="saws:hasOwned" active="PRS13488AdaraG" passive=""/>
-                    <relation name="betmas:husbandOf" active="PRS13488AdaraG" passive=""/>
+                    <relation name="saws:hasOwned" active="PRS13488AdaraG" passive="BLorient609"/>
+                    <relation name="betmas:husbandOf" active="PRS13488AdaraG" passive="PRS13489SablaW"/>
                 </listRelation>
             </listPerson><!---->
         </body>
