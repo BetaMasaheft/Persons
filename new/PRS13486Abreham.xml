@@ -1,5 +1,5 @@
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13486Abreham" xml:lang="en" type="pers">
     <teiHeader>
@@ -45,16 +45,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ʾAbrǝhām</persName>
+                    <persName xml:lang="gez" xml:id="n1">አብርሃም፡</persName>
+                    <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAbrǝhām</persName>
                     <faith type="EOTC"/>
                     <occupation type="ecclesiastic"/>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit>1600-1700</floruit>
+
+                    <floruit notBefore="1600" notAfter="1700"></floruit>
                 </person>
                 <listRelation>
-                    <relation name="saws:isCopierOf" active="PRS13486Abreham" passive=""/>
+                    <relation name="saws:isCopierOf" active="PRS13486Abreham" passive="BLorient609"/>
                 </listRelation>
             </listPerson><!---->
         </body>
