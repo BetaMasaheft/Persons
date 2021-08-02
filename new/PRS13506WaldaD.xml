@@ -53,7 +53,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <occupation type="ecclesiastic">monk</occupation>
                     <nationality type="Ethiopia"/>
                 </person>
-
+                <listRelation>
+                    <relation name="snap:FamilyOf" active="PRS13506WaldaD" passive="PRS13507Maqdasawit">
+                      <desc><persName ref="PRS13507Maqdasawit"></persName> is either mother or
+                    sister of <persName ref="PRS13506WaldaD"></persName>.</desc>
+                    </relation>
+                </listRelation>
             </listPerson><!---->
         </body>
     </text>
