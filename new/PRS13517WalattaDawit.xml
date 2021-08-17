@@ -6,15 +6,8 @@
                 <editor role="generalEditor" key="AB" corresp="https://betamasaheft.eu/team.html#AB" xml:id="AB">Alessandro Bausi</editor>
                 <editor key="MKr" corresp="https://betamasaheft.eu/team.html#MKr" xml:id="MKr">Marcin Krawczuk</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
-            </titleStmt><!--
-            THIS IS A POSTPROCESSED FILE WHICH ADDS USEFUL 
-            AND EXPLICIT
-            DATA STORED IN OTHER COLLECTIONS WITH
-            THE RESOURCE YOU ARE REQUESTING.
-            THE ACTUAL SOURCE FILE FOR THIS ENTRY CAN BE 
-            OBTAINED ADDING .XML AT THE END OF THE ENTRY URL.
-            https://betamasaheft.eu/PRS13517WalattaDawit.xml-->
-            <publicationStmt>
+            </titleStmt>
+              <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
                 <pubPlace>Hamburg</pubPlace>
                 <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
@@ -23,34 +16,13 @@
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                                 licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-                <date>2021-08-10T21:30:24.277932+02:00</date>
-            </publicationStmt>
+              </publicationStmt>
             <sourceDesc>
                 <p/>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
             <p>A digital born TEI file</p>
-            <classDecl>
-   <taxonomy>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-   </taxonomy>
-</classDecl>
         </encodingDesc>
         <profileDesc>
             <creation/>
@@ -63,19 +35,20 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="#MKr" when="2021-08-10">Created entity</change>
+            <change who="MKr" when="2021-08-10">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <standOff>
         <listRelation>
-            <relation name="saws:hasOwned" ref="no matching prefix saws found for saws:hasOwned" active="https://betamasaheft.eu/PRS13517WalattaDawit" passive="https://betamasaheft.eu/"/>
+            <relation name="saws:hasOwned" active="PRS13517WalattaDawit" passive="BLorient611"/>
         </listRelation>
     </standOff>
     <text>
         <body>
             <listPerson>
                 <person sex="2">
-                    <persName xml:lang="gez" xml:id="n1">Walatta Dāwit </persName>
+                    <persName xml:lang="gez" xml:id="n1">ወለተ፡ ዳዊት፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walatta Dāwit</persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
                     <birth/>
