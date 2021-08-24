@@ -1,25 +1,25 @@
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13525GabraAb" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13517WalattaDawit" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Gabra ʾAb</title>
+                <title>Walatta Dāwit </title>
                 <editor role="generalEditor" key="AB"/>
-                <editor key="DN"/>
+                <editor key="MKr"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
-            <publicationStmt>
+              <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <pubPlace>Hamburg</pubPlace>
                 <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
                             Forschungsumgebung / Beta maṣāḥǝft</publisher>
-                <pubPlace>Hamburg</pubPlace>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                                 licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-            </publicationStmt>
+              </publicationStmt>
             <sourceDesc>
                 <p/>
             </sourceDesc>
@@ -38,25 +38,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="DN" when="2021-08-16">Created entity</change>
+            <change who="MKr" when="2021-08-10">Created entity</change>
         </revisionDesc>
     </teiHeader>
-    <text>
+      <text>
         <body>
             <listPerson>
-                <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ገብረ፡ አብ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra ʾAb</persName>
+                <person sex="2">
+                    <persName xml:lang="gez" xml:id="n1">ወለተ፡ ዳዊት፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walatta Dāwit</persName>
                     <faith type="EOTC"/>
-                    <occupation type="other"/>
+                    <nationality type="Ethiopia"/>
                     <birth/>
                     <death/>
-                    <floruit notBefore="1650" notAfter="1850"/>
+                    <floruit notBefore="1700" notAfter="1900"/>
                 </person>
                 <listRelation>
-                    <relation name="saws:hasOwned" active="PRS13525GabraAb" passive="BNFabb119"/>
+                    <relation name="saws:hasOwned" active="PRS13517WalattaDawit" passive="BLorient611"/>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>

@@ -1,13 +1,13 @@
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13525GabraAb" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13521Naod" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Gabra ʾAb</title>
+                <title>Nāʿod</title>
                 <editor role="generalEditor" key="AB"/>
-                <editor key="DN"/>
+                <editor key="MKr"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
             <publicationStmt>
@@ -38,23 +38,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="DN" when="2021-08-16">Created entity</change>
+            <change who="MKr" when="2021-08-10">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ገብረ፡ አብ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra ʾAb</persName>
+                    <persName xml:lang="gez" xml:id="n1">ናኦድ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Nāʿod</persName>
                     <faith type="EOTC"/>
-                    <occupation type="other"/>
+                    <nationality type="Ethiopia"/>
                     <birth/>
                     <death/>
-                    <floruit notBefore="1650" notAfter="1850"/>
+                    <floruit notBefore="1700" notAfter="1900"/>
                 </person>
                 <listRelation>
-                    <relation name="saws:hasOwned" active="PRS13525GabraAb" passive="BNFabb119"/>
+                    <relation name="saws:hasOwned" active="PRS13521Naod" passive="BLorient611"/>
                 </listRelation>
             </listPerson><!---->
         </body>
