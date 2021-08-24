@@ -30,7 +30,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <profileDesc>
             <creation/>
             <abstract>
-                <p>Māmās of <placeName ref="LOC7158Agarhese">ʾAgarhǝse</placeName>
+                <p>Māmās of <placeName ref="LOC3703Gwegwe">Gʷǝdgʷǝda</placeName>
+                (or of<placeName ref="LOC7158Agarhese">ʾAgarhǝse</placeName>)
                 is venerated in the churches of
                   <placeName ref="LOC7158Agarhese">ʾAgarhǝse ʾAbuna Māmās</placeName>
                   and ʾƎnda ʾAbuna Māmās in Warʿa Laka
@@ -43,6 +44,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="DN" when="2021-07-08">Created entity</change>
+
         </revisionDesc>
     </teiHeader>
     <text>
@@ -51,6 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ማማስ፡</persName>
                       <persName xml:lang="gez" type="normalized" corresp="#n1">Māmās</persName>
+                      <persName xml:lang="gez" corresp="#n1" type="alt">Māmmās</persName>
                       <persName type="alt"><roleName type="title">ʾabuna</roleName> Māmās</persName>
                     <faith type="EOTC"/>
                     <occupation type="ecclesiastic"/>
@@ -62,12 +65,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <listRelation>
                     <relation name="saws:isRelatedTo" active="PRS13452Mamas" passive="LIT6481DossierMamas"/>
                     <relation name="saws:isRelatedTo" active="PRS13452Mamas" passive="LOC7158Agarhese"/>
+                    <relation name="ecrm:P129i_is_subject_of" active="PRS6626Mammas" passive="LIT6470GadlaMamas"/>
+                    <relation name="betmas:formerlyAlsoListedAs" active="PRS13452Mamas" passive="PRS6626Mammas"/>
+                    <relation name="saws:isRelatedTo" active="PRS13452Mamas" passive="LOC3703Gwegwe"/>
+                    <relation name="saws:isRelatedTo" active="PRS13452Mamas" passive="LOC7158Agarhese"/>
+
                 </listRelation>
             </listPerson>
             <listBibl type="secondary">
               <bibl>
                <ptr target="bm:KRZ"/><citedRange unit="page">82</citedRange>
                <citedRange unit="number">102</citedRange>
+            </bibl>
+            <bibl>
+               <ptr target="bm:CurtisNosnitsin2007GuloMakada"/>
+               <citedRange>911b</citedRange>
             </bibl>
             </listBibl>
         </body>
