@@ -43,6 +43,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="DN" when="2021-07-08">Created entity</change>
+
         </revisionDesc>
     </teiHeader>
     <text>
@@ -62,12 +63,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <listRelation>
                     <relation name="saws:isRelatedTo" active="PRS13452Mamas" passive="LIT6481DossierMamas"/>
                     <relation name="saws:isRelatedTo" active="PRS13452Mamas" passive="LOC7158Agarhese"/>
+                    <relation name="ecrm:P129i_is_subject_of" active="PRS6626Mammas" passive="LIT6470GadlaMamas"/>
+                    <relation name="betmas:formerlyAlsoListedAs" active="PRS13452Mamas" passive="PRS6626Mammas"></relation>
                 </listRelation>
             </listPerson>
             <listBibl type="secondary">
               <bibl>
                <ptr target="bm:KRZ"/><citedRange unit="page">82</citedRange>
                <citedRange unit="number">102</citedRange>
+            </bibl>
+            <bibl>
+               <ptr target="bm:CurtisNosnitsin2007GuloMakada"/>
+               <citedRange>911b</citedRange>
             </bibl>
             </listBibl>
         </body>
