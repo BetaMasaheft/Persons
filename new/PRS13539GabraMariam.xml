@@ -1,5 +1,5 @@
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13539GabraMariam" xml:lang="en" type="pers">
     <teiHeader>
@@ -53,9 +53,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <floruit/>
                 </person>
                 <listRelation>
-                    <relation name="saws:hasOwned" active="PRS13539GabraMariam" passive=""/>
-                    <relation name="betmas:husbandOf" active="PRS13539GabraMariam" passive=""/>
-                    <relation name="snap:FatherOf" active="PRS13539GabraMariam" passive=""/>
+                    <relation name="saws:hasOwned" active="PRS13539GabraMariam" passive="BLorient580"/>
+                    <relation name="betmas:husbandOf" active="PRS13539GabraMariam" passive="PRS13540Walatta"/>
+                    <relation name="snap:FatherOf" active="PRS13539GabraMariam" passive="PRS13541Amha"/>
+                    <relation name="snap:FatherOf" active="PRS13539GabraMariam" passive="PRS13542Yekunno"/>
+                    <relation name="snap:FatherOf" active="PRS13539GabraMariam" passive="PRS13543WalattaK"/>
+                    <relation name="snap:FatherOf" active="PRS13539GabraMariam" passive="PRS13544WaldaM"/>
                 </listRelation>
             </listPerson><!---->
         </body>
