@@ -1,0 +1,67 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13544WaldaM" xml:lang="en" type="pers">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Walda Marqorewos</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="MKr"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="MKr" when="2021-08-30">Created entity</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person sex="1">
+                    <persName xml:lang="gez" xml:id="n1">ወልደ፡ መርቆሬዎስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walda Marqorewos</persName>
+                    <faith type="EOTC"/>
+                    <nationality type="Ethiopia"/>
+                    <birth/>
+                    <death/>
+                    <floruit notBefore="1800" notAfter="1899"/>
+                </person>
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="PRS13544WaldaM" passive="BLorient580"/>
+                    <relation name="snap:SonOf" active="PRS13544WaldaM" passive="PRS13539GabraMariam"/>
+                    <relation name="snap:SonOf" active="PRS13544WaldaM" passive="PRS13540Walatta"/>
+                    <relation name="snap:BrotherOf" active="PRS13544WaldaM" passive="PRS13543WalattaK"/>
+                    <relation name="snap:BrotherOf" active="PRS13544WaldaM" passive="PRS13542Yekunno"/>
+                    <relation name="snap:BrotherOf" active="PRS13544WaldaM" passive="PRS13541Amha"/>
+                </listRelation>
+            </listPerson><!---->
+        </body>
+    </text>
+</TEI>
