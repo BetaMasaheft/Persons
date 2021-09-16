@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS2146Askanafe">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
@@ -32,24 +32,31 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage>
+           <language ident="en">English</language>
+           <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+         <textClass>
+         </textClass>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change who="MKr" when="2021-09-15">Added Ethiopic name, commemoration date, floruit</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Askänafer
-               </persName>
-               <occupation> martyr </occupation>
+               <persName xml:lang="gez" xml:id="n1">አስከናፍር፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAskanāfǝr</persName>
+               <floruit>According to his hagiography, he was a nobleman of Rome. He was ambushed by a gang of thirteen robbers
+               but eventually convinced them to repent. He should not be confused with the saint of the same name, who was martyred
+             together with his wife Marta and is venerated on 19 Maggābit.</floruit>
+               <note type="commemoration"><date type="diesNatalis" ref="ethiocal:Hedar13">13 Ḫǝdār</date></note>
             </person>
          </listPerson>
       </body>
