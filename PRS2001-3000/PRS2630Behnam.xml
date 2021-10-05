@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS2630Behnam">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
@@ -32,10 +32,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage>
+           <language ident="en">English</language>
+           <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
          <textClass>
             <keywords>
-               <term key="saint"/>
+               <term key="martyr"/>
             </keywords>
          </textClass>
       </profileDesc>
@@ -45,21 +48,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
          <change who="PL" when="2019-03-27">removed occupation containing St, Saint, bibl, biblical or prophet, added keyword. See https://github.com/BetaMasaheft/Documentation/issues/1104</change>
+         <change who="MKr" when="2021-10-04">Added Ethiopic name, floruit, relation, commemoration date</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  
-                  Behnam
-               </persName>
-               <persName type="alt">Märbǝḥnam</persName>
-               <persName type="alt">Märmǝḥnam</persName>
-               <persName type="alt">Mar Bǝḥnam</persName>
-               <!-- St -->
+            <person sex="1" sameAs="wd:Q7401033">
+               <persName xml:lang="en" xml:id="n1">Behnam</persName>
+               <persName xml:lang="gez" xml:id="n2">መርምህናም፡</persName>
+               <persName xml:lang="gez" corresp="#n2">Marmǝhnām</persName>
+               <persName xml:lang="gez" xml:id="n3">መርብህናም፡</persName>
+               <persName xml:lang="gez" corresp="#n3">Marbǝhnām</persName>
+               <floruit notBefore="0300" notAfter="0400">According to his hagiography, he was the son of king Sennacherib of Assyria and
+               suffered martyrdom together with his sister Sara during the reign of Shapur II.</floruit>
+               <note type="commemoration"><date type="diesNatalis" ref="ethiocal:Tahsas14">14 Tāḫśāś</date></note>
             </person>
+            <listRelation>
+              <relation name="ecrm:P129i_is_subject_of" active="PRS2630Behnam" passive="LIT6505Gadl"/>
+            </listRelation>
          </listPerson>
       </body>
    </text>
