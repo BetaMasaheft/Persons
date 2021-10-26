@@ -1,5 +1,5 @@
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13577QalaK" xml:lang="en" type="pers">
     <teiHeader>
@@ -45,15 +45,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Qāla Krǝstos</persName>
+                    <persName xml:lang="gez" xml:id="n1">ቃለ፡ ክርስቶስ፡</persName>
+                    <persName xml:lang="gez" corresp="#n1" type="normalized">Qāla Krǝstos</persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notAfter="1868"/>
                 </person>
                 <listRelation>
-                    <relation name="saws:hasOwned" active="PRS13577QalaK" passive=""/>
+                    <relation name="saws:hasOwned" active="PRS13577QalaK" passive="BLorient451"/>
                 </listRelation>
             </listPerson><!---->
         </body>
