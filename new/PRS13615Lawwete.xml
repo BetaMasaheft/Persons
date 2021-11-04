@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13587Aykal" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13615Lawwete" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ʾAykal Gabru</title>
+                <title>Lawwǝṭe</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DR"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -38,19 +38,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="DR" when="2021-11-01">Created entity</change>
+            <change who="DR" when="2021-11-04">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">አይከል፡</persName>
-                    <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAykal</persName>
+                    <persName xml:lang="gez" xml:id="n1">ለውጤ፡</persName>
+                    <persName xml:lang="gez" corresp="#n1" type="normalized">Lawwǝṭe</persName>
                     <floruit notBefore="1832" to="1855"/>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS13587Aykal" passive="BLorient667"/>
+                    <relation name="lawd:hasAttestation" active="PRS13615Lawwete" passive="BLorient667"/>
                 </listRelation>
             </listPerson>
         </body>

@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13587Aykal" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13608Gabru" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ʾAykal Gabru</title>
+                <title>Gabru</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DR"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -33,24 +33,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <p/>
             </abstract>
             <langUsage>
-                <language ident="en">English</language>
-                <language ident="gez">Gǝʿǝz</language>
+                <t:language xmlns:t="http://www.tei-c.org/ns/1.0" ident="en">English</t:language>
+                <t:language xmlns:t="http://www.tei-c.org/ns/1.0" ident="gez">Gǝʿǝz</t:language>
             </langUsage>
         </profileDesc>
-        <revisionDesc>
-            <change who="DR" when="2021-11-01">Created entity</change>
-        </revisionDesc>
+        <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+            <t:change who="DR" when="2021-11-04">Created entity</t:change>
+        </t:revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">አይከል፡</persName>
-                    <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAykal</persName>
+                    <persName xml:lang="gez" xml:id="n1">ገብሩ፡</persName>
+                    <persName xml:lang="gez" corresp="#n1" type="normalized">Gabru</persName>
                     <floruit notBefore="1832" to="1855"/>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS13587Aykal" passive="BLorient667"/>
+                    <relation name="lawd:hasAttestation" active="PRS13608Gabru" passive="BLorient667"/>
                 </listRelation>
             </listPerson>
         </body>
