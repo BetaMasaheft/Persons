@@ -48,46 +48,41 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
-            <person sameAs="wd:Q343719" sex="1">
-
-
-                  <persName xml:lang="gez" xml:id="n1" type="birth">ሰሎሞን፡</persName>
-                  <persName xml:lang="gez" corresp="#n1" type="normalized">Salomon II</persName>
+            <person sameAs="wd:Q717219" sex="1">
+                  <persName xml:lang="gez" xml:id="n1" type="regnal">ሰሎሞን፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Salomon <addName>II</addName></persName>
                   <persName xml:lang="gez" xml:id="n2" type="birth">ገብረ፡ መድሕን፡</persName>
                   <persName xml:lang="gez" corresp="#n2" type="normalized">Gabra Madḫǝn</persName>
                <persName>
                   <roleName type="title">ʾaṣe</roleName>
                </persName>
-
                <occupation type="ruler">Emperor</occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <residence>
                   <placeName ref="LOC3577Gondar">Gondar</placeName>
                </residence>
-
-               <floruit when="1796" evidence="internal">He was one of the puppet kings of Zamana masāfǝnt, at a young age,
-                  who had been  entrusted by rās  <persName ref="PRS7091Mikael">Mikāʾel Sǝḥul</persName>.
+               <floruit from="1796" to="1797">He was one of the puppet kings of Zamana masāfǝnt, ruling from 1796 to 1797, and again in 1799.
+                  He is also referred to as Salomon III, taking in consideration either <persName ref="PRS8925Solomon"/> or <persName ref="PRS10215Yagbas"/>.
                 </floruit>
+               <floruit when="1799"/>
 
             </person>
             <listRelation>
                <relation name="snap:SonOf" active="PRS8422Salomon" passive="PRS9153TaklaHa"/>
                <relation name="snap:AllianceWith" active="PRS8422Salomon" passive="PRS6723Maredha"/>
                <relation name="snap:FatherOf" active="PRS8422Salomon" passive="PRS5619IyasuIV"/>
+               <relation name="betmas:formerlyAlsoListedAs" active="PRS8422Salomon" passive="PRS8423Salomon"/>
             </listRelation>
          </listPerson>
-         <listBibl type="editions">
+  
+         <listBibl type="secondary">
             <bibl>
                <ptr target="bm:Blundell1922Chronicle"/>
             </bibl>
-
-
             <bibl>
                <ptr target="bm:Budge1966Ethistory"/>
             </bibl>
-         </listBibl>
-         <listBibl type="secondary">
             <bibl>
                <ptr target="bm:Crummey2010SalomonII"/>
             </bibl>
