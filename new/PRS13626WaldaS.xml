@@ -45,13 +45,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person>
-                    <persName xml:lang="gez" xml:id="n1">Walda Salān</persName>
-                    <faith type=""/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <persName xml:lang="gez" xml:id="n1">ወልደ፡ ሰላን፡</persName>
+                    <persName xml:lang="gez" corresp="#n1" type="normalized">Walda Salān</persName>
+                    <floruit notBefore="1777" notAfter="1799"/>
                 </person>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>
