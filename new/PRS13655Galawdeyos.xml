@@ -1,5 +1,5 @@
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13655Galawdeyos" xml:lang="en" type="pers">
     <teiHeader>
@@ -49,9 +49,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Galāwdǝyos</persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
+                    <floruit notBefore="1400" notAfter="1500"></floruit>
                 </person>
                 <listRelation>
-                    <relation name="snap:SonOf" active="PRS13655Galawdeyos" passive=""/>
+                    <relation name="snap:SonOf" active="PRS13655Galawdeyos" passive="PRS13653TawaldaM"/>
                 </listRelation>
             </listPerson><!---->
         </body>
