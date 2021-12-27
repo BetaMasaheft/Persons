@@ -40,6 +40,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
         </profileDesc>
         <revisionDesc>
             <change who="DR" when="2018-04-14">Created entity</change>
+            <change when="2021-12-27" who="ES">small updates</change>
         </revisionDesc>
     </teiHeader>
     <text xml:base="https://betamasaheft.eu/">
@@ -48,12 +49,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <person sameAs="wd:Q4055278" sex="2">
                     <persName xml:lang="gez" xml:id="n1">ኢራኢ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">ʾIrāʾi</persName>
+                    <persName xml:lang="en" corresp="#n1">Iraja</persName>
+                    <floruit>Abadir and Iraja are Coptic saints, reported to have been children of the sister of Basilides, "the father of kings".
+                        According to their legend, Abadir and Iraja fled from Antioch to Alexandria. 
+                        They were arrested there and brought to Antinoe in Upper Egypt, where they were beheaded along with Cluthus, a physician and priest, and another 3,685 companions.
+                        
+                    </floruit>
+                    <death>Martyred and venerated on <date type="diesNatalis" ref="ethiocal:Makaram28">28 Maskaram</date> together with her brother <persName ref="PRS1005Abadir"/>.</death>
                 </person>
                 <listRelation>
                     <relation name="snap:SisterOf" active="PRS12000Irai" passive="PRS1005Abadir"/>
                     <relation name="ecrm:P129i_is_subject_of" active="PRS12000Irai" passive="LIT2375Synaxa"/>
                     <relation name="ecrm:P129i_is_subject_of" active="PRS12000Irai" passive="LIT2727RepCh11"/>
-                    <relation name="ecrm:P129i_is_subject_of" active="PRS12000Irai" passive="LIT2727RepCh11"/>
+                    <relation name="ecrm:P129i_is_subject_of" active="PRS12000Irai" passive="LIT4825GadlaAbIrai"/>
                 </listRelation>
             </listPerson>
         </body>
