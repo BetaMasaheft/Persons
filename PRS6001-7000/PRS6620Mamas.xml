@@ -1,10 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS6620Mamas">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Māmās</title>
+            <title xml:id="t1" xml:lang="en">Mamas</title>
+
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -47,21 +48,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change when="2016-05-31" who="ES">updated record</change>
          <change when="2017-10-09" who="DR">Corrected transliteration</change>
          <change who="PL" when="2019-03-27">removed occupation containing St, Saint, bibl, biblical or prophet, added keyword. See https://github.com/BetaMasaheft/Documentation/issues/1104</change>
+         <change when="2021-12-15" who="DE">Added names and years of life.</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1" sameAs="wd:Q532019">
-               <persName>            
-                  Māmās
-               </persName>
+               <persName xml:id="n1" xml:lang="en">Mamas</persName>
+               <persName xml:id="n2" xml:lang="en" type="alt">Mammes</persName>
+               <persName xml:id="n3" xml:lang="gez">ማማስ፡</persName>
+               <persName xml:lang="gez" corresp="#n3" type="normalized">Māmās</persName>
+               <birth when="0259"></birth>
+               <death when="0275"></death>
                <!--Saint, martyr-->
                <note type="commemoration">
                   <date type="diesNatalis">5 Maskaram</date> in <ref type="mss" corresp="BLorient686">BL Orient. 686</ref>
                </note>
             </person>
-            
+
             <listRelation>
                <relation name="ecrm:P129i_is_subject_of" active="PRS6620Mamas" passive="LIT1898Martyr"/>
             </listRelation>
