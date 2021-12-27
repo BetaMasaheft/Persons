@@ -39,6 +39,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change when="2021-12-27" who="ES">small updates</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -47,11 +48,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <person sex="1" sameAs="wd:Q4055278">
                <persName xml:lang="gez" xml:id="n1">አባዲር፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAbādir</persName>
+               <persName xml:lang="en" corresp="#n1">Abadir</persName>
+               <floruit>Abadir and Iraja are Coptic saints, reported to have been children of the sister of Basilides, "the father of kings".
+                  According to their legend, Abadir and Iraja fled from Antioch to Alexandria. 
+                  They were arrested there and brought to Antinoe in Upper Egypt, where they were beheaded along with Cluthus, a physician and priest, and another 3,685 companions.
+                  
+               </floruit>
+               <death>Martyred and venerated on <date type="diesNatalis" ref="ethiocal:Makaram28">28 Maskaram</date> together with his sister <persName ref="PRS12000Irai"/>.</death>
             </person>
             <listRelation>
                <relation name="ecrm:P129i_is_subject_of" active="PRS1005Abadir" passive="LIT2375Synaxa"/>
                <relation name="ecrm:P129i_is_subject_of" active="PRS1005Abadir" passive="LIT2727RepCh11"/>
-               <relation name="ecrm:P129i_is_subject_of" active="PRS1005Abadir" passive="LIT2727RepCh11"/>
+               <relation name="ecrm:P129i_is_subject_of" active="PRS1005Abadir" passive="LIT4825GadlaAbIrai"/>
                <relation name="snap:BrotherOf" active="PRS1005Abadir" passive="PRS12000Irai"/>
             </listRelation>
          </listPerson>
