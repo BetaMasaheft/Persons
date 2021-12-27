@@ -47,6 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
          <change who="DR" when="2020-07-06">Added wikidata, name and keyword</change>
+         <change who="MKr" when="2020-12-27">Added two more relations</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -63,8 +64,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
               <relation name="ecrm:P129i_is_subject_of" active="PRS1269Abraham" passive="LIT4415Abraham"/>
               <relation name="ecrm:P129i_is_subject_of" active="PRS1269Abraham" passive="LIT4494Abraham"/>
               <relation name="ecrm:P129i_is_subject_of" active="PRS1269Abraham" passive="LIT1621Homily"/>
+              <relation name="ecrm:P129i_is_subject_of" active="PRS1269Abraham" passive="LIT1412GadlaA"/>
+              <relation name="ecrm:P129i_is_subject_of" active="PRS1269Abraham" passive="LIT1180Baenta"/>
             </listRelation>
-
          </listPerson>
       </body>
    </text>
