@@ -48,9 +48,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1">አቦሊ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAboli</persName>
+               <floruit >Early Christian martyr, son of <persName ref="PRS10474Yostos"/>, mentioned in the Synaxarion</floruit>
+               <death>He is commemorated on <date type="diesNatalis" ref="ethiocal:Nahase1">1 Naḥāse</date></death>
             </person>
             <listRelation>
                <relation name="ecrm:P129i_is_subject_of" active="PRS1257Aboli" passive="LIT2375Synaxa"/>
+               <relation name="ecrm:P129i_is_subject_of" active="PRS1257Aboli" passive="LIT2595Yestos"/>
+               <relation name="ecrm:P129i_is_subject_of" active="PRS1257Aboli" passive="LIT2819RepCh103"/>
+               <relation name="ecrm:P129i_is_subject_of" active="PRS1257Aboli" passive="LIT2775RepCh59"/>
+               <relation name="ecrm:P129i_is_subject_of" active="PRS1257Aboli" passive="LIT3098RepCh378"/>
             </listRelation>
          </listPerson>
       </body>
