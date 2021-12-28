@@ -39,19 +39,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change who="ES" when="2021-12-28">updated details</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Yosṭos
-               </persName>
-               <occupation> martyr</occupation>
+               <persName xml:lang="gez" xml:id="n1"> Yosṭos </persName>
+               <floruit >Early Christian martyr, referred to as Head of Kings (Emperor?), father of <persName ref="PRS1257Aboli"/>, mentioned in the Synaxarion</floruit>
+               <death>He is commemorated on <date type="diesNatalis" ref="ethiocal:Nahase1">1 Naḥāse</date></death>
             </person>
          </listPerson>
+         <listRelation><relation name="ecrm:P129i_is_subject_of" active="PRS10474Yostos" passive="LIT2595Yestos"/>
+            <relation name="ecrm:P129i_is_subject_of" active="PRS10474Yostos" passive="LIT2819RepCh103"/></listRelation>
       </body>
    </text>
 </TEI>
