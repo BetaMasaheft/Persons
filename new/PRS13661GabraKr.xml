@@ -1,12 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13536Yostena" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13661GabraKr" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <!-- to be deleted-->
-                <title>Yostenā</title>
+                <title>Gabra Krǝstos</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DR"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -33,27 +32,29 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <abstract>
                 <p/>
             </abstract>
-            <t:langUsage xmlns:t="http://www.tei-c.org/ns/1.0">
+            <langUsage>
                 <language ident="en">English</language>
                 <language ident="gez">Gǝʿǝz</language>
-            </t:langUsage>
+            </langUsage>
         </profileDesc>
         <revisionDesc>
-            <t:change xmlns:t="http://www.tei-c.org/ns/1.0" who="DR" when="2021-08-28">Created entity</t:change>
+            <change who="DR" when="2021-12-28">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person sex="2">
-                    <persName xml:lang="gez" xml:id="n1">Yostenā</persName>
-                    <persName xml:lang="gez" corresp="#n1" type="normalized">Yostenā</persName>
+                <person sex="1">
+                    <persName xml:lang="gez" xml:id="n1">ገብረ፡ ክርስቶስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra Krǝstos</persName>
+                    <floruit notBefore="1563" notAfter="1597">Abbot of <placeName ref="INS0329DE"/> during the 
+                        reign of <persName ref="PRS8550sardaDe"/>.</floruit>
+                    <occupation type="ecclesiastic"/>
                 </person>
-                <listRelation>
-                    <relation name="snap:DaughterOf" active="PRS13536Yostena" passive="PRS7102Minas"/>
-                 
-                </listRelation>
             </listPerson>
+            <listBibl type="secondary">
+                <bibl><ptr target="bm:2008BoscTiesseIles"/><citedRange unit="chapter">II</citedRange><citedRange unit="paragraph">46</citedRange></bibl>
+            </listBibl>
         </body>
     </text>
 </TEI>
