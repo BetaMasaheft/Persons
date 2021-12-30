@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13666Absadi" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13670SadeqanAhmim" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>’Absādī</title>
+                <title>Ṣādǝqān za-ʾAḫmim</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="ES"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -36,35 +36,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <language ident="en">English</language>
                 <language ident="gez">Gǝʿǝz</language>
             </langUsage>
-            <textClass>
-                <keywords>
-                    <term key="martyr"/>
-                    <term key="saint"/>
-                </keywords>
-            </textClass>
         </profileDesc>
         <revisionDesc>
-            <change who="ES" when="2021-12-29">Created entity</change>
+            <change who="ES" when="2021-12-30">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">አብሳዲ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAbsādī</persName>
-                    <faith type="Christianity Orthodox Coptic"/>
-                    <nationality type="Egypt Coptic"></nationality>
-                    <occupation type="ecclesiastic">bishop</occupation>
-                    <death>He is commemorated on <date type="diesNatalis" ref="ethiocal:Tahsas27">27 Tāḫśāś</date></death>
-                </person>
-                <listRelation>
-                    <relation name="ecrm:P129i_is_subject_of" active="PRS13666Absadi" passive="LIT6529GadlaAbsadiAlaniqos"/>
-                    <relation name="saws:isDifferentTo" active="PRS13666Absadi" passive="PRS1301Absadio"></relation>
-                    <relation name="saws:isDifferentTo" active="PRS13666Absadi" passive="PRS1302Absadio"></relation>
-                </listRelation>
-                
-            </listPerson><!---->
+                <personGrp>
+                    <persName xml:lang="gez" xml:id="n1">ጻድቃን፡ ዘአኅሚም፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Ṣādǝqān za-ʾAḫmim</persName>
+                    <persName xml:lang="en" type="main" corresp="#n1">Martyrs of Aḫmim</persName>
+                    <faith type="Christianity"/>
+                    <occupation type="ecclesiastic"/>
+                    <death>The group of martyrs commemorated on <date type="diesNatalis" ref="ethiocal:Tahsas29">29 Tāḫśāś</date></death>
+                </personGrp>
+            </listPerson>
+            <listRelation>
+                <relation name="snap:Group" active="PRS13670SadeqanAhmim" passive="PRS13671Deyosqoros"/>
+                <relation name="snap:Group" active="PRS13670SadeqanAhmim" passive="PRS13672Seklabyos"/>                
+            </listRelation>
         </body>
     </text>
 </TEI>

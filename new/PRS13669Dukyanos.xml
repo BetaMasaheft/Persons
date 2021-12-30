@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13666Absadi" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13669Dukyanos" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>’Absādī</title>
+                <title>Dukyanos</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="ES"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -36,35 +36,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <language ident="en">English</language>
                 <language ident="gez">Gǝʿǝz</language>
             </langUsage>
-            <textClass>
-                <keywords>
-                    <term key="martyr"/>
-                    <term key="saint"/>
-                </keywords>
-            </textClass>
         </profileDesc>
         <revisionDesc>
-            <change who="ES" when="2021-12-29">Created entity</change>
+            <change who="ES" when="2021-12-30">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">አብሳዲ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAbsādī</persName>
-                    <faith type="Christianity Orthodox Coptic"/>
-                    <nationality type="Egypt Coptic"></nationality>
-                    <occupation type="ecclesiastic">bishop</occupation>
-                    <death>He is commemorated on <date type="diesNatalis" ref="ethiocal:Tahsas27">27 Tāḫśāś</date></death>
+                    <persName xml:lang="gez" xml:id="n1">ዱክያኖስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Dukyanos</persName>
+                    <faith type="Coptic"/>
+                    <occupation type="ecclesiastic">bishop of Aḫmim</occupation>
+                    <nationality type="Egypt"/>
                 </person>
-                <listRelation>
-                    <relation name="ecrm:P129i_is_subject_of" active="PRS13666Absadi" passive="LIT6529GadlaAbsadiAlaniqos"/>
-                    <relation name="saws:isDifferentTo" active="PRS13666Absadi" passive="PRS1301Absadio"></relation>
-                    <relation name="saws:isDifferentTo" active="PRS13666Absadi" passive="PRS1302Absadio"></relation>
-                </listRelation>
-                
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>
