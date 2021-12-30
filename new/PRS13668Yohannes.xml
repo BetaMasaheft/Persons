@@ -1,13 +1,13 @@
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13289Akaweh" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13668Yohannes" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ʾAkāwǝh</title>
+                <title>Yoḥannǝs</title>
                 <editor role="generalEditor" key="AB"/>
-                <editor key="MKr"/>
+                <editor key="ES"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
             <publicationStmt>
@@ -35,31 +35,30 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <langUsage>
                 <language ident="en">English</language>
                 <language ident="gez">Gǝʿǝz</language>
-                <language ident="ar">Arabic</language>
-                <language ident="cop">Coptic</language>
             </langUsage>
+            <textClass>
+                <keywords>
+                    <term key="martyr"/>
+                    <term key="saint"/>
+                </keywords>
+            </textClass>
         </profileDesc>
         <revisionDesc>
-            <change who="MKr" when="2020-12-04">Created entity</change>
-            <change when="2012-12-29" who="ES">changed dies Natalis</change>
+            <change who="ES" when="2021-12-29">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">አካውሕ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAkāwǝh</persName>
-                    <persName xml:lang="ar" corresp="#n1">كاؤو</persName>
-                    <persName xml:lang="cop" corresp="#n1">ⲕⲱⲟⲩ</persName>
+                    <persName xml:lang="gez" xml:id="n1">ዮሐንስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Yoḥannǝs</persName>
                     <faith type="Christianity"/>
-                    <nationality type="Egypt"/>
-                    <birth/>
-                    <death notBefore="0303" notAfter="0313"/>
-                    <floruit>A native of <placeName ref="LOC3066Fayyum">Fayyūm</placeName>, he
-                    was martyred during the Diocletianic persecution.</floruit>
-                    <note type="commemoration"><date type="diesNatalis" ref="ethiocal:Terr28">28 Ṭǝrr</date></note>
+                    <death>The martyr is commemorated on <date type="diesNatalis" ref="ethiocal:Yakkatit6">6 Yakkātit</date> together with his brother <persName ref="PRS13667Abuqir"/>, the three virgins, Tāwdode, Ta’awǝste and Awdoksǝyā, and their mother</death>
                 </person>
+                <listRelation>
+                    <relation name="ecrm:P129i_is_subject_of" active="PRS13668Yohannes" passive="LIT1414GadlaA"/>
+                </listRelation>
             </listPerson><!---->
         </body>
     </text>
