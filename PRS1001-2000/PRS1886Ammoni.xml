@@ -32,26 +32,36 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
+         <textClass>
+            <keywords>
+               <term key="martyr"/>
+               <term key="saint"/>
+            </keywords>
+         </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
-         <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change who="ES" when="2021-12-29">Updated entity</change>
       </revisionDesc>
    </teiHeader>
-   <text xml:base="https://betamasaheft.eu/">
+   <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Ammoni
-               </persName>
-               <occupation> hermit </occupation>
+               <persName xml:lang="gez" xml:id="n1">አሞኒ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAmoni</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAmmoni</persName>
+               <faith type="Christianity Orthodox Coptic"/>
+               <nationality type="Egypt Coptic"></nationality>
+               <occupation type="ecclesiastic">hermit from "Dabra Tona"</occupation>
+               <death>He is commemorated on <date type="diesNatalis" ref="ethiocal:Genbot20">20 Gǝnbot</date></death>
             </person>
+            <!-- Citato nel Gadla Libānos; gli è attribuito questo detto: "In 40 anni di vita tra gli uomini, niente mi ha toccato di questo mondo transeunte; nemmeno una spina mi ha toccato" -->
          </listPerson>
+            <listRelation>
+            <relation name="ecrm:P129i_is_subject_of" active="PRS1886Ammoni" passive="LIT5042MiracleBehor"/>
+               <relation name="ecrm:P129i_is_subject_of" active="PRS1886Ammoni" passive="LIT6533GadlaAmoni"/>
+         </listRelation>
       </body>
    </text>
 </TEI>
