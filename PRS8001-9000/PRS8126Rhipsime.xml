@@ -55,17 +55,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <person sex="2" sameAs="wd:Q465993">
                <persName xml:id="n1" xml:lang="gez">አርሲማ፡</persName>
                <persName corresp="#n1" xml:lang="gez" type="normalized">ʾArsimā</persName>
-               <persName>Rhipsimē</persName>
+               <persName xml:lang="en" type="main" corresp="#n1">Rhipsimē</persName>
                <persName xml:id="n2" type="alt">Rhipsima</persName>
                <persName xml:id="n3" type="alt">Hripʿsimē</persName>
               
                <floruit>One of the most venerated saints in Armenia, the account of her martyrdom is included in some recensions of
                  <ref type="work" corresp="LIT1493Gadlas">Gadla samāʿtāt</ref> and in the <ref type="work" corresp="LIT2375Synaxa">Synaxary</ref>.</floruit>
 
-               <!--Saint-->
-            </person>
+               <death when="0290">She is commemorated on <date type="diesNatalis" ref="ethiocal:Tahsas6">6 (or 7)Tāḫśāś</date></death>            </person>
          </listPerson>
-
+         <listRelation><relation name="ecrm:P129i_is_subject_of" active="PRS8126Rhipsime" passive="LIT6482GadlaArs"></relation></listRelation>
                 <listBibl type="secondary">
                 <bibl>
                 <ptr target="bm:Krawczuk2014Hripsime"/>
