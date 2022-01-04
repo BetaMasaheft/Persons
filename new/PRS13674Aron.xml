@@ -45,6 +45,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="ES" when="2021-12-30">Created entity</change>
+            <change who="ES" when="2022-01-03">Updated with Syriac</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -55,12 +56,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <persName xml:lang="en" xml:id="n2">Aron of Serugh</persName>
                     <persName xml:lang="gez" xml:id="n3"> አሮን፡ </persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n3">ʾAron</persName>
+                    <persName xml:lang="syr" corresp="#n3">ܐܗܪܘܢ </persName>
                     <faith type="Christianity"/>
-                    <death>He is commemorated on <date type="diesNatalis" ref="ethiocal:Genbot21">21 Gǝnbot</date></death>
+                    <floruit>Aaron of Serugh was a fourth-century disciple of Mar Awgin and founder of two monasteries near Melitene.</floruit>
+                    <death when="0337">He is commemorated on <date type="diesNatalis" ref="ethiocal:Genbot21">21 Gǝnbot</date></death>
                 </person>
             </listPerson>
             <listRelation>
                 <relation name="ecrm:P129i_is_subject_of" active="PRS13674Aron" passive="LIT6534Aron"/>
+                <relation name="skos:exactMatch" active="PRS13674Aron" passive="http://syriaca.org/person/1092"></relation>
                 
             </listRelation>
             <listBibl type="secondary"><bibl><ptr target="bm:Guidi1916Aron"/></bibl></listBibl>
