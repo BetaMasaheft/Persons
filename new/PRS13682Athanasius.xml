@@ -1,0 +1,73 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13682Athanasius" xml:lang="en" type="pers">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Athanasius of Clysma</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="ES"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="ES" when="2022-01-05">Created entity</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person sex="1">
+                    <persName xml:lang="en" xml:id="n1">Athanasius of Clysma</persName>
+                    <persName xml:lang="gez" xml:id="n2">አትናቴዎስ፡ ዘብሔረ፡ ቍልዝም፡ </persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n2">ʾAtnātewos za-bǝḥera Qʷǝlzǝm</persName>
+                    <faith type="Christianity"/>
+                    <nationality type="Egypt"/>
+                    <death>A third-century martyr and undoubtedly an Egyptian saint although probably not a Coptic saint. His Passion exists in Greek, Georgian, and Arabic.  </death>
+                    <floruit notBefore="0200" notAfter="0300">A third-century martyr and undoubtedly an Egyptian saint who suffered martyrdom during the time of Patriarch St. Peter. He was a friend of the saints Serge and Bacchus, and predicted their martyrdom death. 
+                        Charged by Emperor Maximian to close churches throughout Egypt and to open temples, he did the opposite. His body was brought back to Clysma by the Christians of this city, headed by Bishop Julien. 
+                        His Passion exists in Greek, Georgian, and Arabic
+                    </floruit>
+                    <note type="commemoration"><date type="diesNatalis" ref="ethiocal:Hamle18">18 (or also 13 or 17) Ḥamle</date></note>
+                </person>
+                
+                <listRelation>
+                    <relation name="ecrm:P129i_is_subject_of" active="PRS13682Athanasius" passive="LIT1797Lifeof"/>
+                    <relation name="skos:exactMatch" active="PRS13682Athanasius" passive="https://coptic-wiki.org/athanasius-of-clysma"></relation>
+                </listRelation>
+            </listPerson><!---->
+            <div type="bibliography">
+                <listBibl type="secondary">
+                    <bibl><ptr target="bm:Esbroeck1974Justinien"/></bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
