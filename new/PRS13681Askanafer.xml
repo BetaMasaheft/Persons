@@ -1,0 +1,71 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13681Askanafer" xml:lang="en" type="pers">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ʾAskanāfǝr</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="ES"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit><witness corresp="EMML1844">   EMML 1844 (XVI s.): f. 114v (19 Maggābit; menzione nel margine).
+                </witness>
+                <witness corresp="BAVet111"></witness>
+                    <witness corresp="BAVet112"></witness>
+                    <witness corresp="DW03"></witness></listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term key="saint"/>
+                    <term key="martyr"/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change who="ES" when="2022-01-05">Created entity</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person sex="1">
+                    <persName xml:lang="gez" xml:id="n1">አስከናፍር፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAskanāfǝr</persName>
+                    <faith type="Christianity"/>
+                    <floruit>The saint ʾAskanāfǝr is commemorated with his wife Mārtā and his sons ʾArqādyos and Yoḥannǝs, he is different from the judge (or chief) <persName ref="PRS2146Askanafe"/></floruit>
+                    <note type="commemoration"><date type="diesNatalis" ref="ethiocal:Maggabit19">19 Maggābit</date></note>
+                </person>
+                <listRelation>
+                    <relation name="ecrm:P129i_is_subject_of" active="PRS13681Askanafer" passive="LIT4968SenkessarSec#Magg19Askanafer"/>
+                    <relation name="syriaca:different-from" active="PRS13681Askanafer" passive="PRS2146Askanafe"></relation>
+                </listRelation>
+            </listPerson><!---->
+        </body>
+    </text>
+</TEI>
