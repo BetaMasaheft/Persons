@@ -40,6 +40,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
         </profileDesc>
         <revisionDesc>
             <change who="DN" when="2019-05-02">Created entity</change>
+            <change who="ES" when="2022-01-05">Added Ethiopic name, commemoration dates, floruit</change>
         </revisionDesc>
     </teiHeader>
     <text xml:base="https://betamasaheft.eu/">
@@ -48,11 +49,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <person sex="1" sameAs="wd:Q2696973">
                     <persName xml:lang="gez" xml:id="n1">ብሶይ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Bǝsoy</persName>
-                    <persName xml:lang="en" xml:id="n2">Pishoy</persName>
-                    <faith type="Coptic"/>
-                    <occupation type="ecclesiastic"/>
+                    <persName xml:lang="en" corresp="#n1">Pishoy</persName>
+                    <persName xml:lang="gez" xml:id="n2">እብሶይ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n2">ʾǝbsoy</persName>
+                    <persName type="alt">Bishoy Scetis</persName>
+                    <persName type="alt">Pshoi of Scetis</persName>
+                    <persName type="alt">Paisius the Great</persName>
+                    <persName><addName>Perfect man</addName></persName>
+                    <faith type="Christianity Orthodox Coptic"/>
+                    <residence>Egypt</residence>
+                    <occupation type="ecclesiastic">Egyptian desert father</occupation>
+                    <floruit notBefore="0320" notAfter="0417"></floruit>
+                    <note type="commemoration"><date type="diesNatalis" ref="ethiocal:Hamle7">7 Ḥamle</date> or <date type="diesNatalis" ref="ethiocal:Hamle8">8 Ḥamle</date>, 
+                        also <date type="translation" ref="ethiocal:Genbot3" cert="unknown">3 Gǝnbot</date>; 
+                        there are also Synaxary notes on <date ref="ethiocal:Sane19">19 Sane</date>, <date ref="ethiocal:Pagwemen1">1 Ṗagʷǝmen</date>, <date ref="ethiocal:Yakkatit5">5 Yakkatit</date> (with ʾabbā Nob)</note>
+                    <note>miniature in <ref type="mss" corresp="EMML7602">EMML 7602, f. 38v</ref></note>
                 </person>
             </listPerson>
+            <listRelation>
+                <relation name="ecrm:P129i_is_subject_of" active="PRS12651Pishoy" passive="LIT5551MiracleBesoy"/>
+                <relation name="ecrm:P129i_is_subject_of" active="PRS12652Pishoy" passive="LIT5552MiracleYouth"/>
+                <relation name="ecrm:P129i_is_subject_of" active="PRS12652Pishoy" passive="LIT6159MalkeaBesoy"/>
+            </listRelation>
         </body>
     </text>
 </TEI>
