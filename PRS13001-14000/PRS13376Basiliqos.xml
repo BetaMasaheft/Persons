@@ -49,10 +49,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPerson>
-                <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ባስሊቆስ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="n1">Bāsǝliqos</persName>
-                    <persName xml:lang="en" xml:id="n2">Basiliscus, bishop of Comana</persName>
+                <person sex="1" sameAs="wd:Q107863864">
+                    <persName xml:lang="en" xml:id="n1">Basiliscus of Comana</persName>
+                    <persName xml:lang="gez" xml:id="n2">ባስሊቆስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="n2">Bāsǝliqos</persName>
+                    <persName type="alt">Basilicus of Pontus</persName>
+                    <occupation type="ecclesiastic">bishop of Comana</occupation>
+                    <residence>Pontus</residence>
                     <faith type="Christianity"/>
                     <birth/>
                     <death notBefore="0305" notAfter="0311">305-311</death>
@@ -63,6 +66,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </person>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="PRS13376Basiliqos" passive="BNFabb179"/>
+                    <relation name="ecrm:P129i_is_subject_of" active="PRS13376Basiliqos" passive="LIT6436MartBasiliqos"></relation>
                 </listRelation>
             </listPerson><!---->
         </body>
