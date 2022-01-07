@@ -40,6 +40,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
         </profileDesc>
         <revisionDesc>
             <change who="DR" when="2018-03-29">Created entity</change>
+            <change when="2022-01-07" who="ES">added name commemoration relation</change>
         </revisionDesc>
     </teiHeader>
     <text xml:base="https://betamasaheft.eu/">
@@ -50,16 +51,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Qornolyos</persName>
                     <persName xml:lang="gez" xml:id="n2">ቆርኔሌዎስ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n2">Qornelewos</persName>
-                    <persName xml:lang="en" xml:id="n3" type="main">Cornelius <addName type="epithet">the Centurion</addName>
+                    <persName xml:lang="gez" xml:id="n3">ቀርኔልዮስ፡ </persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n3">Qarnelyos </persName>
+                    <persName xml:lang="en" xml:id="n4" type="main">Cornelius <addName type="epithet" xml:id="centurion">the Centurion</addName>
+                        
                </persName>
-                    <persName xml:lang="en" xml:id="centurion">
-                  <addName type="epithet">the Centurion</addName>
-               </persName>
+                    <residence>Egypt</residence>
+                    <note type="commemoration">Commemorated in the Synaxary on <date type="diesNatalis" ref="ethiocal:Maskaram11">11 Maskaram</date></note>
+                    <note type="commemoration">Commemorated in the Acts of Martyrs on <date type="diesNatalis" ref="ethiocal:Hedar23">23 Ḫǝdār</date></note>
                 </person>
                 <listRelation>
                     <relation name="ecrm:P129i_is_subject_of" active="PRS11980Cornelius" passive="LIT2375Synaxa"/>
-                </listRelation>
+                    <relation name="ecrm:P129i_is_subject_of" active="PRS11980Cornelius" passive="LIT6540Cornelius"></relation>
+                </listRelation>                
             </listPerson>
+            <listBibl type="secondary"><bibl><ptr target="bm:Marrassini2005Saints"/></bibl></listBibl>
         </body>
     </text>
 </TEI>
