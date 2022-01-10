@@ -50,8 +50,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       <body>
          <listPerson>
             <person sex="1">
-               <persName xml:lang="gez" xml:id="n1">በኪሞስ፡</persName>
+               <persName xml:lang="gez" xml:id="n1">በአሚን ፡</persName>
                <persName xml:lang="gez" type="normalized" corresp="#n1">Baʾamin</persName>
+               <persName xml:lang="en" xml:id="n2">Phoebammon</persName>
+               <persName corresp="#n2" type="alt">Phoibammon</persName>
+               <persName xml:lang="en" xml:id="n3" type="alt">Bifam </persName>
+               <persName type="alt">Abe-Fam</persName>
+               
                <residence>Egypt</residence>
                <residence ref="LOC1576alAsmu"></residence>
                <faith type="Christianity Coptic Orthodox"></faith>
