@@ -38,6 +38,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <keywords>
                <term key="saint"/>
                <term key="martyr"/>
+               <term key="biblical"/>
             </keywords>
          </textClass>
       </profileDesc>
@@ -58,8 +59,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                
                <persName xml:lang="en" xml:id="n1" type="main">Three Youths in the Furnace</persName>
                
-               <persName xml:lang="gez" xml:id="n2">ሰለስቱ፡ ደቂቅ፡</persName>
-               <persName xml:lang="gez" type="normalized" corresp="#n2">Salastu daqiq</persName>
+               <persName xml:lang="gez" xml:id="n2">ሠለስቱ፡ ደቂቅ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n2">Śalastu daqiq</persName>
                <persName xml:lang="en" corresp="#n2">Three Children</persName>
                
                <note type="commemoration">The three youths, Anania, Azaria, Misael, saved by the Lord from the furnace, are commemorated on <date type="diesNatalis" ref="ethiocal:Tahsas2">2 Taḫśāś</date> or also, in the Acts of Martyrs, on <date type="diesNatalis" ref="ethiocal:Genbot10">10 Gǝnbot</date></note>
@@ -73,6 +74,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                <relation name="snap:Group" active="PRS11288AnAzMi" passive="PRS11464Azaria PRS11465Anania PRS11463Misael"/>
                <relation name="ecrm:P129i_is_subject_of" active="PRS11288AnAzMi" passive="LIT1566hababa"></relation>
                <relation name="ecrm:P129i_is_subject_of" active="PRS11288AnAzMi" passive="LIT1664Homily"></relation>
+               <relation name="ecrm:P129i_is_subject_of" active="PRS11288AnAzMi" passive="LIT5656Malheq#ThreeYouth"></relation>
+               <relation name="ecrm:P129i_is_subject_of" active="PRS11288AnAzMi" passive="LIT1828Mahale#ThreeYouths2"></relation>
+               <relation name="ecrm:P129i_is_subject_of" active="PRS11288AnAzMi" passive="LIT1232Cantic"></relation>
             </listRelation>
          </listPerson>
       </body>
