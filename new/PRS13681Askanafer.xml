@@ -21,11 +21,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <listWit><witness corresp="EMML1844">   EMML 1844 (XVI s.): f. 114v (19 Maggābit; menzione nel margine).
-                </witness>
-                <witness corresp="BAVet111"></witness>
-                    <witness corresp="BAVet112"></witness>
-                    <witness corresp="DW03"></witness></listWit>
+                <p/>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -64,6 +60,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <listRelation>
                     <relation name="ecrm:P129i_is_subject_of" active="PRS13681Askanafer" passive="LIT4968SenkessarSec#Magg19Askanafer"/>
                     <relation name="syriaca:different-from" active="PRS13681Askanafer" passive="PRS2146Askanafe"></relation>
+                    <relation name="lawd:hasAttestation" active="PRS13681Askanafer" passive="EMML1844"><desc>EMML 1844 (XVI s.): f. 114v (19 Maggābit; menzione nel margine).</desc></relation>
+                    <relation name="lawd:hasAttestation" active="PRS13681Askanafer" passive="BAVet111"><desc>Commemoration note</desc></relation>
+                    <relation name="lawd:hasAttestation" active="PRS13681Askanafer" passive="BAVet112"><desc>Commemoration note</desc></relation>
+                    <relation name="lawd:hasAttestation" active="PRS13681Askanafer" passive="DW03"><desc>Commemoration note</desc></relation>
                 </listRelation>
             </listPerson><!---->
         </body>
