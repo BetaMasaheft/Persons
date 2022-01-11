@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13669Dukyanos" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13680Arwa" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Dukyanos</title>
+                <title>ʾArwā</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="ES"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -36,23 +36,30 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <language ident="en">English</language>
                 <language ident="gez">Gǝʿǝz</language>
             </langUsage>
+            <textClass>
+                <keywords>
+                    <term key="saint"/>
+                </keywords>
+            </textClass>
         </profileDesc>
         <revisionDesc>
-            <change who="ES" when="2021-12-30">Created entity</change>
+            <change who="ES" when="2022-01-05">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ዱክያኖስ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Dukyanos</persName>
-                    <faith type="Coptic"/>
-                    <note>The Ethiopic name could be a corruption of Diogenes <bibl><ptr target="bm:Graf1944GCALI"/><citedRange>533</citedRange></bibl></note>
-                    <occupation type="ecclesiastic">bishop of Aḫmim</occupation>
-                    <nationality type="Egypt"/>
+                <person sex="2">
+                    <persName xml:lang="gez" xml:id="n1">አርዋ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">ʾArwā</persName>
+                    <faith type="Judaism Christianity"/>
+                    <floruit>"Beautiful Jewish woman, who suffered much for being faithful to her husband while he was absent" <note><bibl><ptr target="bm:EMML5"/></bibl></note></floruit>
+                    <death>449, in Memphis. She is commemorated on <date type="diesNatalis" ref="ethiocal:Genbot30">30 Gǝnbot</date></death>
                 </person>
-            </listPerson>
+                <listRelation>
+                    <relation name="ecrm:P129i_is_subject_of" active="PRS13680Arwa" passive="LIT6535Arwa"/>
+                </listRelation>
+            </listPerson><!---->
         </body>
     </text>
 </TEI>

@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13674Aron" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13681Askanafer" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Aron of Serug</title>
+                <title>ʾAskanāfǝr</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="ES"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -38,36 +38,34 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
             <textClass>
                 <keywords>
-                    <term key="martyr"/>
                     <term key="saint"/>
+                    <term key="martyr"/>
                 </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc>
-            <change who="ES" when="2021-12-30">Created entity</change>
-            <change who="ES" when="2022-01-03">Updated with Syriac</change>
+            <change who="ES" when="2022-01-05">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person>
-                    <persName xml:lang="en" xml:id="n1">Aron the Syrian</persName>
-                    <persName xml:lang="en" xml:id="n2">Aron of Serugh</persName>
-                    <persName xml:lang="gez" xml:id="n3"> አሮን፡ </persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n3">ʾAron</persName>
-                    <persName xml:lang="syr" corresp="#n3">ܐܗܪܘܢ </persName>
+                <person sex="1">
+                    <persName xml:lang="gez" xml:id="n1">አስከናፍር፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAskanāfǝr</persName>
                     <faith type="Christianity"/>
-                    <floruit>Aaron of Serugh was a fourth-century disciple of Mar Awgin and founder of two monasteries near Melitene.</floruit>
-                    <death when="0337">He is commemorated on <date type="diesNatalis" ref="ethiocal:Genbot21">21 Gǝnbot</date></death>
+                    <floruit>The saint ʾAskanāfǝr is commemorated with his wife Mārtā and his sons ʾArqādyos and Yoḥannǝs, he is different from the judge (or chief) <persName ref="PRS2146Askanafe"/></floruit>
+                    <note type="commemoration"><date type="diesNatalis" ref="ethiocal:Maggabit19">19 Maggābit</date></note>
                 </person>
-            </listPerson>
-            <listRelation>
-                <relation name="ecrm:P129i_is_subject_of" active="PRS13674Aron" passive="LIT6534Aron"/>
-                <relation name="skos:exactMatch" active="PRS13674Aron" passive="http://syriaca.org/person/1092"></relation>
-                
-            </listRelation>
-            <listBibl type="secondary"><bibl><ptr target="bm:Guidi1916Aron"/></bibl></listBibl>
+                <listRelation>
+                    <relation name="ecrm:P129i_is_subject_of" active="PRS13681Askanafer" passive="LIT4968SenkessarSec#Magg19Askanafer"/>
+                    <relation name="syriaca:different-from" active="PRS13681Askanafer" passive="PRS2146Askanafe"></relation>
+                    <relation name="lawd:hasAttestation" active="PRS13681Askanafer" passive="EMML1844"><desc>EMML 1844 (XVI s.): f. 114v (19 Maggābit; menzione nel margine).</desc></relation>
+                    <relation name="lawd:hasAttestation" active="PRS13681Askanafer" passive="BAVet111"><desc>Commemoration note</desc></relation>
+                    <relation name="lawd:hasAttestation" active="PRS13681Askanafer" passive="BAVet112"><desc>Commemoration note</desc></relation>
+                    <relation name="lawd:hasAttestation" active="PRS13681Askanafer" passive="DW03"><desc>Commemoration note</desc></relation>
+                </listRelation>
+            </listPerson><!---->
         </body>
     </text>
 </TEI>

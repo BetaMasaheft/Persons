@@ -32,10 +32,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
          <textClass>
             <keywords>
                <term key="saint"/>
+               <term key="martyr"/>
             </keywords>
          </textClass>
       </profileDesc>
@@ -45,19 +46,30 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
          <change who="PL" when="2019-03-27">removed occupation containing St, Saint, bibl, biblical or prophet, added keyword. See https://github.com/BetaMasaheft/Documentation/issues/1104</change>
+         <change when="2022-01-10" who="ES">added names relation wd</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Daniel of Scetis
-               </persName>
-               <!-- St -->
+               <persName xml:id="n1" sameAs="wd:Q104904689">Daniel of Scetis</persName>
+               <persName corresp="#n1" type="alt">Daniel of Sketis</persName>
+               <persName xml:lang="gez" xml:id="n2" type="birth">ዳንኤል፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Dānǝʾel</persName>
+               <residence>Egypt</residence>
+               <faith type="Christianity Orthodox Coptic"></faith>
+               <floruit notBefore="0500" notAfter="0600">Monk and hegoumenos of Sketis; saint; born early 6th C., died after <date>576</date> in Tambok, Lower Egypt, according to Coptic tradition</floruit>
+               <occupation type="ecclesiastic">abbot (hegoumenos)</occupation>
+               <note type="commemoration"><date type="diesNatalis" ref="ethiocal:Hedar16">16 Ḫǝdār</date></note>
+               <note type="commemoration"><date ref="ethiocal:Tahsas7">7 Tāḫśāś</date></note>
             </person>
          </listPerson>
+         <listBibl type="secondary"><bibl><ptr target="bm:Vivian2008Daniel"/></bibl></listBibl>
+         <listRelation>
+            <relation name="ecrm:P129i_is_subject_of" active="PRS3339Danielo" passive="LIT4828Dersan"></relation>
+            <relation name="ecrm:P129i_is_subject_of" active="PRS3339Danielo" passive="LIT6543DanielScetis"></relation>
+         </listRelation>
       </body>
    </text>
 </TEI>
