@@ -64,18 +64,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                <faith type="Christianity Coptic"></faith>
                <death when="1317"></death>
                <floruit>Barsauma came from a high-ranking family. Around 1250 he is said to have worked as secretary to the sultana Shadshar ad-Durr, but gave up this activity and lived as an ascetic for about 
-                  20 years in an underground room of the Merkurioskirche (Abū Sayfayn) in old Cairo, then more than fifteen years on the terrace this church, naked except for a loincloth, day and night. 
+                  20 years in an underground room of the Mercurios Church (Abū Sayfayn) in old Cairo, then more than fifteen years on the terrace this church, naked except for a loincloth, day and night. 
                   During the discrimination against Christians in 1293, who at that time had to wear turbans in special colors, he was expelled from there and imprisoned. 
                   Around 1300 he retired to the Dayr Šahrān monastery south of Cairo. He died there on August 28, 1317 and was soon venerated as a saint by the faithful. </floruit>
-               <note type="commemoration"><date type="diesNatalis" ref="ethiocal:Yakkatit9">9 Yakkātit </date><date type="diesNatalis" ref="ethiocal:Pagwemen5">5 agʷmen</date></note>
-               <!-- Mark N. Swanson: The Life and the Miracles of Barsawma al-ʿUryan. In: David Thomas et al. (Hrsg.): Christian-Muslim Relations. A Bibliographical History. Bd. 5: 1350–1500. Brill, Leiden 2013, S. 114–118.
-Walter E. Crum: Barsaumâ The Naked. In: Proceedings of the Society of Biblical Archeology 29 (1907) 135–149. 187–206.
- -->
+               <note type="commemoration"><date type="diesNatalis" ref="ethiocal:Pagwemen5">5 agʷmen</date></note>
             </person>
+            
          </listPerson>
+         <listBibl type="secondary" corresp="#n2ar"><bibl><ptr target="bm:Crum1907Barsauma"/></bibl><bibl><ptr target="bm:Swanson2013Barsauma"/></bibl></listBibl>
          <listRelation>
             <relation name="ecrm:P129i_is_subject_of" active="PRS2467Barsoma" passive="LIT4826GadlaBa"/>            
             <relation name="ecrm:P129i_is_subject_of" active="PRS2467Barsoma" passive="LIT6541MirBarsoma"/>
+            <relation name="saws:isDifferentTo" active="PRS2467Barsauma" passive="PRS2465Barsoma"/>
          </listRelation>
       </body>
    </text>
