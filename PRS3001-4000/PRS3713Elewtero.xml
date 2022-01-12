@@ -32,25 +32,45 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language><language ident="grc">Greek</language></langUsage>
+         <textClass>
+            <keywords>
+               <term key="martyr"></term>
+               <term key="saint"></term>
+            </keywords>
+         </textClass>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change when="2022-01-12" who="ES">updated names, relations, floruit, etc.</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Elewtǝros
-               </persName>
-               <occupation> martyr </occupation>
+               <persName xml:lang="gez" xml:id="n1">ኤሌውትሮስ፡ </persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">ʾElewtǝros</persName>
+               <persName xml:lang="en" corresp="#n1" type="main">Eleutherius</persName>
+               <persName xml:lang="grc" corresp="#n1">Ἐλευθέριος</persName>
+               <persName xml:lang="gez" xml:id="n2">እላውትሮስ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">ʾƎlāwtǝros</persName>
+               <persName type="alt">Eleutherus</persName>
+               <persName type="alt">Eleftherios</persName>
+               <persName type="alt">Liberalis</persName>
+               <persName type="alt">Liberator</persName>
+               <residence>Rome</residence>
+               <floruit>Supposedly a bishop in Illyria, Dalmatia, with his mother, Anthia. He was a Roman, educated by Bishop Dynamius. At the age of twenty, Eleutherius himself became a bishop and was arrested for converting an imperial official. 
+                  He was clubbed to death and Anthia was beheaded.</floruit>
+               <death notAfter="0138">He was martyred during Emperor Hadrian.</death>
+               <note type="commemoration"><date type="diesNatalis" ref="ethiocal:Hedar18">18 Ḫǝdār</date></note>
             </person>
+            <listRelation><relation name="ecrm:P129i_is_subject_of" active="PRS3713Elewtero" passive="LIT3167Eleutheris"></relation>
+               <relation name="snap:SonOf" active="PRS3713Elewtero" passive="PRS3820enteya"></relation>
+               <relation name="skos:exactMatch" active="PRS3713Elewtero" passive="https://en.wikipedia.org/wiki/Eleutherius_and_Antia"></relation></listRelation>
          </listPerson>
       </body>
    </text>
