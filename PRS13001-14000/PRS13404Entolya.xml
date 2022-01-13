@@ -52,10 +52,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person sex="2">
                     <persName xml:lang="gez" xml:id="n1">እንጦልያ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="n1">ʾƎnṭolyā</persName>
-                    <persName xml:lang="en" xml:id="n2">Natalia</persName>
+                    <persName xml:lang="en" type="main" corresp="n1">Natalia</persName>
+                    <persName type="alt">Natalia of Nicomedia</persName>
                     <faith type="Christianity"/>
                     <birth/>
-                    <death>306</death>
+                    <death when="0306-03-04">306 at Nicomedia</death>
                       <note type="commemoration"><date type="diesNatalis" ref="ethiocal:Nahase25">25 Naḥāse</date></note>
                     <floruit/>
                 </person>
