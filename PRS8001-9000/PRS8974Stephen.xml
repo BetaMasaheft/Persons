@@ -46,10 +46,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       <body>
          <listPerson>
             <person sex="1" sameAs="wd:Q161775">
-               <persName xml:id="n1" xml:lang="en">St Stephen</persName>
+               <persName xml:id="n1" xml:lang="en">St Stephen the Protomartyr</persName>
                <persName xml:id="n2" xml:lang="gez"> እስጢፋኖስ</persName>
                <persName corresp="#n2" xml:lang="gez" type="normalized">ʾƎsṭifānos</persName>
-               <occupation type="ecclesiastic">Protomartyr</occupation>
+               <occupation type="ecclesiastic"></occupation>
+               <note type="commemoration">Martyrdom: <date type="diesNatalis" ref="ethiocal:Maskaram15">15 Maskaram</date></note>
+               <note type="commemoration">Translation of relics: <date type="translation" ref="ethiocal:Terr1">1 Ṭǝrr</date></note>
+               <listRelation><relation name="ecrm:P129i_is_subject_of" active="PRS8974Stephen" passive="LIT4427Stephen1"/>
+                  <relation name="ecrm:P129i_is_subject_of" active="PRS8974Stephen" passive="LIT4454Stephen2"/>
+                  <relation name="ecrm:P129i_is_subject_of" active="PRS8974Stephen" passive="LIT3156Stephen"></relation>
+                  <relation name="ecrm:P129i_is_subject_of" active="PRS8974Stephen" passive="LIT6502Relics"></relation></listRelation>
             </person>
          </listPerson>
       </body>
