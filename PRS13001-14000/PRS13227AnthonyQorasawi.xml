@@ -36,6 +36,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <language ident="en">English</language>
                 <language ident="gez">Gǝʿǝz</language>
             </langUsage>
+            <textClass>
+                <keywords>
+                    <term key="martyr"/>
+                </keywords>
+            </textClass>
         </profileDesc>
         <revisionDesc>
             <change who="MKr" when="2020-10-31">Created entity</change>
@@ -52,13 +57,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <persName xml:lang="gez" xml:id="n4">እንጦንስ፡ ቈረሳዊ፡</persName>
                     <persName xml:lang="gez" corresp="#n4">ʾƎnṭonǝs Qʷarasāwi</persName>
                     <faith type="Orthodox"/>
-                    <death>799</death>
+                    <death when="0799">799</death>
                     <floruit>According to his hagiography, he was a convert from Islam and for this he
                     was martyred under <persName ref="PRS5130Harunar">Hārūn ar-Rašīd</persName>.</floruit>
+                    <note type="commemoration"><date type="diesNatalis" ref="ethiocal:Yakkatit27">27 Yakkātit in the Acts of Martyrs</date></note>
+                    <note type="commemoration"><date type="diesNatalis" ref="ethiocal:Yakkatit25">25 Yakkātit in the Synaxary</date></note>
                 </person>
                 <listRelation>
                     <relation name="skos:exactMatch" active="PRS13227AnthonyQorasawi" passive="http://syriaca.org/person/1132"/>
                       <relation name="ecrm:P129i_is_subject_of" active="PRS13227AnthonyQorasawi" passive="LIT5162MiracleEntonesHaddis"/>
+                    <relation name="ecrm:P129i_is_subject_of" active="PRS13227AnthonyQorasawi" passive="LIT6231MartyrdomOfAnthonyQorasawi"></relation>
                 </listRelation>
             </listPerson><!---->
         </body>
