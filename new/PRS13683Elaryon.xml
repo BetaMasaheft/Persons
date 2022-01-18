@@ -38,7 +38,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
             <textClass>
                 <keywords>
-                    <term key="martyr"></term>
+                    <term key="saint"></term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -49,10 +49,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPerson>
-                <person sex="2">                    
+                <person sex="1" sameAs="wd:Q468685">                    
                     <persName xml:lang="gez" xml:id="n1">ኤላርዮን፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="n1">ʾElāryon</persName>
-                    
+                    <persName xml:lang="en" type="main">Hilarion (the Great)</persName>
+                    <floruit from="0291" to="0371">Hilarion the Great (291–371) was an anchorite who spent most of his life in the desert according to the example of Anthony the Great (c. 251–356). </floruit>
                     <note type="commemoration"><date type="diesNatalis" ref="ethiocal:Teqemt23">23 Ṭǝqǝmt</date></note>
                     
                 </person>
