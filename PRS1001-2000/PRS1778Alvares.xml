@@ -75,27 +75,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                <relation name="snap:AllianceWith" active="PRS1778Alvares" passive="PRS6229LebnaDe"/>
             </listRelation>
          </listPerson>
-         <listBibl type="editions">
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Beckingham1961Alvares"/>
+            </bibl>  
+         
             <bibl>
                <ptr target="bm:Boavida2011PaezI"/>
             </bibl>
             <bibl>
                <ptr target="bm:Boavida2011PaezII"/>
             </bibl>
-         </listBibl>
+
          <bibl>
-               <ptr target="bm:BeckHunt1961PresterJohn"/>
-            </bibl>
-         <listBibl type="secondary">
-            <bibl> 
-               <ptr target="bm:Beckingham1961Alvares"/>
-            </bibl>  
-         </listBibl>
+            <ptr target="bm:BeckHunt1961PresterJohn"/>
+         </bibl>
         
             <bibl> 
                <ptr target="bm:Kleiner2003Alvares"/>
             </bibl>  
-        
+         </listBibl>
       </body>
    </text>
 </TEI>
