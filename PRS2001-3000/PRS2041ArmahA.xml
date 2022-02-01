@@ -44,6 +44,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
          <change who="SG" when="2017-05-08">Complete record</change>
+         <change who="DR" when="2022-02-01">Added reference and corrected floruit according to review by Denis Nosnitsin</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -66,7 +67,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
                <floruit notBefore="0600" notAfter="0699">He was a king of <placeName ref="LOC1310Aksum"/>
                   known from his coins, from several of the late Gǝʿǝz king lists, and from a single
-                  appearance in a manuscript colophon.
+                  appearance in a record on the construction of several churches in <ref type="mss" corresp="AG00001"/> (see <ref target="#Getatchew2016"/>).
                   He was a king who issued the largest of all Aksumite bronze coins and the only one
                   to show a full-length seated figure. </floruit>
 
@@ -77,6 +78,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <ptr target="bm:MunroHay2003Armah"/>
 
             </bibl>
+                     <bibl xml:id="Getatchew2016"><ptr target="bm:Getatchew2016AG"/><citedRange unit="page">14-16</citedRange></bibl>
          </listBibl>
       </body>
    </text>
