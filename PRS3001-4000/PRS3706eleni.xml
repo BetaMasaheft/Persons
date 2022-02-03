@@ -15,15 +15,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <pubPlace>Hamburg</pubPlace>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
-                This file is licensed under the Creative Commons
-                Attribution-ShareAlike 4.0. </licence>
+                  This file is licensed under the Creative Commons
+                  Attribution-ShareAlike 4.0. </licence>
             </availability>
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
             <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
             <p>A TEI file converted from the ETHIO-authority
-                                                  google spreadsheet</p>
+               google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -34,12 +34,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>         
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
+            google spreadsheet </change>
          <change who="SG" when="2016-07-21">Complete record</change>
          <change who="DR" when="2022-01-26">Added wikidata</change>
       </revisionDesc>
@@ -47,24 +50,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
-            <person sex="2" sameAs="wd:Q2905074">
-
-                     <persName xml:lang="gez" xml:id="n1" type="birth">እሌኒ፡</persName>
+            <person sex="2" sameAs="wd:Q2905074">               
+               <persName xml:lang="gez" xml:id="n1" type="birth">እሌኒ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾƎleni</persName>
-                     <persName xml:lang="gez" xml:id="n2" type="regnal">አድማስ፡ ሞገሳ፡</persName>
+               <persName xml:lang="gez" xml:id="n2" type="regnal">አድማስ፡ ሞገሳ፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAdmās Mogasā</persName>
                <persName>
                   <roleName type="title">nǝgǝśt</roleName>
                </persName>
-   
-                  <occupation type="political">queen</occupation>
+               
+               <occupation type="political">queen</occupation>
                <birth>1431</birth>
-                     <floruit when="1443" evidence="internal">She was given in marriage to King <persName ref="PRS10626ZaraY">Zarʾa Yāʿqob</persName> to confirm the vassalage of the Muslim state of Hadiyya and its ruler. 
-                     She was an important female Ethiopian ruler of the early medieval period. She served four subsequent reigns and she was an acceptable figure in the court to be selected in<date>1508</date> as a regent to young  King <persName ref="PRS6229LebnaDe">Lǝbna Dǝngǝl</persName>
-                     </floruit>
+               <floruit when="1443" evidence="internal">She was given in marriage to King <persName ref="PRS10626ZaraY">Zarʾa Yāʿqob</persName> to confirm the vassalage of the Muslim state of Hadiyya and its ruler. 
+                  She was an important female Ethiopian ruler of the early medieval period. She served four subsequent reigns and she was an acceptable figure in the court to be selected in<date>1508</date> as a regent to young  King <persName ref="PRS6229LebnaDe">Lǝbna Dǝngǝl</persName>
+               </floruit>
                <death when="1522" evidence="internal">She died during the reign of King <persName ref="PRS6229LebnaDe">Lǝbna Dǝngǝl</persName>
                </death> 
-             </person>
+            </person>
             <listRelation>
                <relation name="betmas:wifeOf" active="PRS3706eleni" passive="PRS10626ZaraY"/>
                <relation name="snap:AllianceWith" active="PRS3706eleni" passive="PRS6229LebnaDe"/>
@@ -78,6 +80,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                <ptr target="bm:Chernetsov2005Eleni"/>
             </bibl>  
          </listBibl>
-         </body>
+      </body>
    </text>
 </TEI>
