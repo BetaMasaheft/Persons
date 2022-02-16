@@ -1,17 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12814Mikael" xml:lang="en" type="pers">
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13692Iraqlis" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Mikāʾel</title>
+                <title>ʾIrāqlis</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DR"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
-                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas:  Eine multimediale
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
                             Forschungsumgebung / Beta maṣāḥǝft</publisher>
                 <pubPlace>Hamburg</pubPlace>
                 <availability>
@@ -31,26 +32,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <abstract>
                 <p/>
             </abstract>
-            <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="DR" when="2019-11-07">Created entity</change>
+            <change who="DR" when="2022-02-16">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ሚካኤል፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Mikāʾel</persName>
-                    <note>A couple named Fāsikāwit/Fāsikāyǝt and Mikāʾel are attested as owners in <ref type="mss" corresp="BLorient639"/>, 
-                        <ref type="mss" corresp="BLorient674"/>, and <ref type="mss" corresp="ESqs005"/>, all datable to the
-                        seventeenth/ early eighteenth century. It seems likely that they can be identified as the same persons. </note>
+                    <persName xml:lang="gez" xml:id="n1">ኢራቅሊስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">ʾIrāqlis</persName>
+                    <persName type="alt"><roleName type="title">ʾAbbā</roleName> ʾIrāqlis</persName>
+                    <occupation type="ecclesiastic"/>
+                    <floruit notBefore="1650" notAfter="1868"/>
                 </person>
                 <listRelation>
-                    <relation name="saws:hasOwned" active="PRS12814Mikael" passive="BLorient639"/>
-                    <relation name="saws:hasOwned" active="PRS12814Mikael" passive="BLorient674"/>
-                    <relation name="saws:hasOwned" active="PRS12814Mikael" passive="ESqs005"/>
+                    <relation name="lawd:hasAttestation" active="PRS13692Iraqlis" passive="BLorient674"/>
                 </listRelation>
             </listPerson>
         </body>
