@@ -46,13 +46,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     <persName xml:lang="gez" xml:id="n2">ፋሲካይት፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Fāsikāyǝt</persName>
                     <note>A couple named Fāsikāwit/Fāsikāyǝt and Mikāʾel are attested as owners in <ref type="mss" corresp="BLorient639"/>, 
-                        <ref type="mss" corresp="BLorient674"/>, and <ref type="mss" corresp="ESqs005"/>, all datable to the
+                        <ref type="mss" corresp="BLorient674"/>, <ref type="mss" corresp="BLorient672"/>,
+                        and <ref type="mss" corresp="ESqs005"/>, all datable to the
                         seventeenth/eighteenth century. It seems likely that they can be identified as the same persons. </note>
                 </person>
                 <listRelation>
                     <relation name="saws:hasOwned" active="PRS12815Fasikawit" passive="BLorient639"/>
                     <relation name="saws:hasOwned" active="PRS12815Fasikawit" passive="BLorient674"/>
                     <relation name="saws:hasOwned" active="PRS12815Fasikawit" passive="ESqs005"/>
+                    <relation name="saws:hasOwned" active="PRS12815Fasikawit" passive="BLorient672"/>
                     <relation name="betmas:wifeOf" active="PRS12815Fasikawit" passive="PRS12814Mikael"/>
                 </listRelation>
             </listPerson>
