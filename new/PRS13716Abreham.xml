@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Abrǝhām</title>
+                <title>ʾAbrǝhām</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DN"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -46,17 +46,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPerson>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">አብርሃም፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Abrǝhām</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAbrǝhām</persName>
                     <faith type="EOTC"/>
                     <occupation type="literary"/>
-                    <birth/>
-                    <death/>
                     <floruit notBefore="1500" notAfter="1600"/>
                 </person>
                 <listRelation>
                     <relation name="dcterms:creator" active="PRS13716Abreham" passive="LIT6563HassabHeg"/>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>
