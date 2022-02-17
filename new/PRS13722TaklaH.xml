@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13719MezaraK" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13722TaklaH" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Mǝʿzāra Krǝstos</title>
+                <title>Takla Hāymānot</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DR"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -45,15 +45,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ምዕዛረ፡ ክርስቶስ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Mǝʿzāra Krǝstos</persName>
+                    <persName xml:lang="gez" xml:id="n1">ተክለ፡ ሃይማኖት፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Takla Hāymānot</persName>
                     <floruit notBefore="1700" notAfter="1749"/>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS13719MezaraK" passive="BLorient675"/>
-                    <relation name="snap:FatherOf" active="PRS13719MezaraK" passive="PRS13720LahyaD"/>
-                    <relation name="snap:FatherOf" active="PRS13719MezaraK" passive="PRS13721LebestaK"/>
-                    <relation name="snap:FatherOf" active="PRS13719MezaraK" passive="PRS13722TaklaH"/>
+                    <relation name="lawd:hasAttestation" active="PRS13722TaklaH" passive="BLorient675"/>
                 </listRelation>
             </listPerson>
         </body>
