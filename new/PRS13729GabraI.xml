@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13715Sofonyas" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13729GabraI" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Sofonyās</title>
+                <title>Gabra ʾIyasus</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DR"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -38,30 +38,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="DR" when="2022-02-17">Created entity</change>
+            <change who="DR" when="2022-02-18">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ሶፎንያስ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Sofonyās</persName>
-                    <persName xml:lang="gez" xml:id="n2">ገብረ፡ ኢየሱስ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n2">Gabra ʾIyasus</persName>
-                    <persName xml:lang="gez" xml:id="n3">ሶፎንያስ፡ ወልደ፡ ኢየሱስ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n3">Sofonyās Walda ʾIyasus</persName>
-                    <persName xml:lang="gez" xml:id="n4">ሶፎንያስ፡ ገብረ፡ ኢየሱስ፡ ወልደ፡ ኢየሱስ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n4">Sofonyās Gabra ʾIyasus Walda ʾIyasus</persName>
+                    <persName xml:lang="gez" xml:id="n1">ገብረ፡ ኢየሱስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra ʾIyasus</persName>
+                    <floruit notBefore="1800" notAfter="1950"/>
                     <note>Throughout <ref type="mss" corresp="BDLaethf30"/>, secondary supplications have been added. These 
                         are all introduced by <foreign xml:lang="gez">ለገብርከ፡</foreign>, which is followed by the names
                         Sofonyās, Gabra ʾIyasus and Walda ʾIyasus in different combinations, suggesting that each supplication refers to a single person.
-                    However, it cannot be excluded that they are three distinct persons.</note>
-                    <floruit notBefore="1800" notAfter="1950"/>
+                        However, it cannot be excluded that they are three distinct persons.</note>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS13715Sofonyas" passive="BDLaethf30">
-                        <desc>Sofonyās is mentioned in secondary supplications added throughout the manuscript.</desc>
+                    <relation name="lawd:hasAttestation" active="PRS13729GabraI" passive="BDLaethf30">
+                        <desc>Gabra ʾIyasus is mentioned in secondary supplications added throughout the manuscript.</desc>
                     </relation>
                 </listRelation>
             </listPerson>
