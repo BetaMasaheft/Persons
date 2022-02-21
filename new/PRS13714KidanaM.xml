@@ -1,0 +1,64 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13714KidanaM" xml:lang="en" type="pers">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Kidāna Māryām</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="DR"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="DR" when="2022-02-17">Created entity</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person sex="1">
+                    <persName xml:lang="gez" xml:id="n1">ኪዳነ፡ ማርያም፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Kidāna Māryām</persName>
+                    <persName xml:lang="gez" xml:id="n2">ኪዳነ፡ ማያ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Kidāna Māyā</persName>
+                    <note>Only the name Kidāna Māyā is attested in a badly written addition in <ref type="mss" corresp="BDLaethf30"/>.
+                        It can be assumed that this is a scribal error for the common name Kidāna Māryām.</note>
+                    <floruit notBefore="1800" notAfter="1950"/>
+                </person>
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="PRS13714KidanaM" passive="BDLaethf30">
+                        <desc>The name Kidāna Māyā is attested in an addition in <ref type="mss" corresp="BDLaethf30"/>.</desc>
+                    </relation>
+                </listRelation>
+            </listPerson>
+        </body>
+    </text>
+</TEI>
