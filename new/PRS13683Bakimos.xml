@@ -51,10 +51,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1" sameAs="wd:Q7193522">
-               <persName xml:lang="cop" xml:id="n1" type="normalized">Pīǧīmī</persName>
-               <persName xml:lang="en" corresp="#n1"><addName>Anba</addName> Pidjimi</persName>
-               <persName xml:lang="gez" xml:id="n2">በኪሞስ፡</persName>
-               <persName xml:lang="gez" type="normalized" corresp="#n2">Bakimos</persName>
+               <persName xml:lang="gez" xml:id="n1">በኪሞስ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Bakimos</persName>
+               
+               <persName xml:lang="cop" xml:id="n2" type="normalized">Pīǧīmī</persName>
+               <persName xml:lang="en" corresp="#n2"><addName>Anba</addName> Pidjimi</persName>
+
                <faith type="Christianity Coptic Orthodox"></faith>
                <nationality type="Egypt"></nationality>
                <residence>Wadī an-Naṭrūn</residence>
