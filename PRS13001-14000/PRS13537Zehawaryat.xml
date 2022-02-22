@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13533AmmehaG" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13537Zehawaryat" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ʾAmmǝḫā Giyorgis</title>
+                <title>Zǝḥawāryāt</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DR"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -32,22 +32,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <abstract>
                 <p/>
             </abstract>
-            <t:langUsage xmlns:t="http://www.tei-c.org/ns/1.0">
+            <langUsage>
                 <language ident="en">English</language>
                 <language ident="gez">Gǝʿǝz</language>
-            </t:langUsage>
+            </langUsage>
         </profileDesc>
         <revisionDesc>
-            <t:change xmlns:t="http://www.tei-c.org/ns/1.0" who="DR" when="2021-08-28">Created entity</t:change>
+            <change who="DR" when="2021-08-28">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">አምኃ፡ ጊዮርጊስ፡</persName>
-                    <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAmmǝḫā Giyorgis</persName>
+                    <persName xml:lang="gez" xml:id="n1">ዝሐዋርያት፡</persName>
+                    <persName xml:lang="gez" corresp="#n1" type="normalized">Zǝḥawāryāt</persName>
+                    <persName xml:lang="gez" xml:id="n2">ዘሐዋርያት፡</persName>
+                    <persName xml:lang="gez" corresp="#n2" type="normalized">Zaḥawāryāt</persName>
                 </person>
+                <listRelation>
+                    <relation name="snap:SonOf" active="PRS13537Zehawaryat" passive="PRS7102Minas"/>
+                </listRelation>
             </listPerson>
         </body>
     </text>
