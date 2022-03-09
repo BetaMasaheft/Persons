@@ -31,7 +31,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <creation/>
             <abstract>
                 <p>The third part of the name can be only assumed as it is not clearly readable
-                on the available images of the manuscript.</p>
+                on the available images of the manuscript. However, it is possibly a kind of Ethiopic translation
+                of the name <persName ref="PRS1071dAbbadi">Antoine d'Abbadie</persName>.
+            
+                 </p>
             </abstract>
             <langUsage>
                 <language ident="en">English</language>
@@ -55,6 +58,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </person>
                 <listRelation>
                     <relation name="saws:hasOwned" active="PRS13770EntonyosWaldaAbadia" passive="BNFabb122"/>
+                    <relation name="saws:isRelatedTo" active="PRS13770EntonyosWaldaAbadia" passive="PRS1071dAbbadi" cert="medium"/>
                 </listRelation>
             </listPerson><!---->
         </body>
