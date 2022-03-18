@@ -47,7 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person sex="1">
                     <persName xml:lang="en" xml:id="n1">Frederick North</persName>
                     <occupation type="political">5th Earl of Guilford</occupation>
-                    <floruit>1766-1827</floruit>
+                    <floruit notBefore="1766" notAfter="1827">1766-1827</floruit>
                 </person>
                 <listRelation>
                     <relation name="saws:hasOwned" active="PRS13736Frederick" passive="BDLaethg31">
