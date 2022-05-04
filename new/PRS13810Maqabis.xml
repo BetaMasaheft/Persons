@@ -34,6 +34,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </abstract>
             <langUsage>
                 <language ident="en">English</language>
+                <language ident="fr">French</language>
                 <language ident="gez">Gǝʿǝz</language>
             </langUsage>
         </profileDesc>
@@ -47,6 +48,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">መቃቢስ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Maqābis</persName>
+                    <persName xml:lang="gez" xml:id="n2">መቃርስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n2">Maqārǝs</persName>
+                    <persName xml:lang="en" corresp="#n1">Maccabeus</persName>
+                    <persName xml:lang="fr" corresp="#n2">Macaire</persName>
+                    <note>Commemorated on <date ref="ethiocal:Hamle7" type="diesNatalis">7 Ḥamle</date> according to <ref type="work" corresp="LIT6624Maqabis"/> and
+                        <ref type="work" corresp="LIT4035SenkessarDL"/>.</note>
                 </person>
                 <listRelation>
                     <relation name="ecrm:P129i_is_subject_of" active="PRS13810Maqabis" passive="LIT6624Maqabis"/>
