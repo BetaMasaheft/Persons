@@ -48,7 +48,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ዘመንፈስ፡ ቅዱስ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Zamanfas Qǝddus</persName>
-                    <floruit when="1735"/>
+                    <floruit notBefore="1735" notAfter="1868"/>
                 </person>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="PRS13812ZamanfasQ" passive="BLorient584"/>
