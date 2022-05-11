@@ -45,12 +45,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">የዘይቤ፡ ጌታ፡ ወልደ፡ ተክሌ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Yazayǝbe Getā walda Takle</persName>
+                    <persName xml:lang="gez" xml:id="n1">ወልደ፡ ተክሌ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walda Takle</persName>
+                    <persName><roleName type="title">የዘይቤ፡ ጌታ፡ </roleName></persName>
+                    <persName><roleName type="title">Ya-zayǝbe Getā</roleName></persName>
                     <floruit notBefore="1800" notAfter="1868"/>
+                    <residence><placeName  ref="LOC2862EndaAb"/></residence>
                 </person>
                 <listRelation>
-                    <relation name="syriaca:has-relation-to-place" active="PRS13822Yazayebe" passive="LOC2862EndaAb"/>
                     <relation name="saws:isAttributedAuthorOf" active="PRS13822Yazayebe" passive="LIT2864RepCh145"><desc>Yazayǝbe Getā
                         is described as author of <ref type="work" corresp="LIT2864RepCh145"/> in 
                     <ref type="mss" corresp="BLorient829fragments#p23"/>. It cannot be excluded that this refers to another work, now no longer 
