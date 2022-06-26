@@ -52,11 +52,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <nationality type="Ethiopia"/>
                     <birth/>
                     <death/>
-                    <floruit>1300-1400</floruit>
+                    <floruit notBefore="1300" notAfter="1400">According to the colophon in <ref type="mss" corresp="BLorient8192"/> he was the commissioner
+                    of this manuscript and the nǝbura ʾǝd of Beta Masqal in <placeName ref="LOC7360Gunaguna">Gʷǝnagʷǝna</placeName>.</floruit>
                 </person>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="PRS13835Yosef" passive="BLorient8192"/>
-                    <relation name="syriaca:has-literary-connection-to-place" active="PRS13835Yosef" passive=""/>
+                    <relation name="syriaca:has-literary-connection-to-place" active="PRS13835Yosef" passive="LOC7360Gunaguna"/>
                 </listRelation>
             </listPerson><!---->
         </body>
