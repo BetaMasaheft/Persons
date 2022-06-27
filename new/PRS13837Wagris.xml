@@ -30,7 +30,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <profileDesc>
             <creation/>
             <abstract>
-                <p>Wagris was probably a senior ecclesiastic of a church dedicated to <persName ref="PRS3249Cyriacus">Qirqos</persName>.</p>
+                <p/>
             </abstract>
             <langUsage>
                 <language ident="en">English</language>
@@ -48,12 +48,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <persName xml:lang="gez" xml:id="n1">ወግሪስ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Wagris</persName>
                     <persName type="alt"><roleName type="title">ʿaqqābe beta mazāgǝbt</roleName> Wagris</persName>
-                    <t:faith xmlns:t="http://www.tei-c.org/ns/1.0" type="EOTC"/>
+                    <faith type="EOTC"/>
                     <occupation type="ecclesiastic"/>
                     <nationality type="Ethiopia"/>
                     <birth/>
                     <death/>
                     <floruit notBefore="1700" notAfter="1799"/>
+                    <note>Wagris was probably a senior ecclesiastic of a church dedicated to <persName ref="PRS3249Cyriacus">Qirqos</persName>.</note>
                 </person>
                 <listRelation>
                     <relation name="saws:hasOwned" active="PRS13837Wagris" passive="BNFabb78"/>
