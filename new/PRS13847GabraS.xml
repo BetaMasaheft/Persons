@@ -48,9 +48,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <persName xml:lang="gez" xml:id="n1">Gabra Śǝllāse Getānah</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">ገብረ፡ ሥላሴ፡ ጌታነህ፡</persName>
                     <floruit notBefore="1649" notAfter="2006"/>
+                    <note>It is possible that Gabra Śǝllāse and Getānah are two persons, as the syntax of the note which mentions the 
+                    names is not clear.</note>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS13847GabraS" passive="BDLaethe32"/>
+                    <relation name="saws:hasOwned" active="PRS13847GabraS" passive="BDLaethe32"/>
                 </listRelation>
             </listPerson>
         </body>
