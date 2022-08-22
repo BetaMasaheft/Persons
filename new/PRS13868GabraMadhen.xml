@@ -52,11 +52,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <occupation type="ecclesiastic"/>
                     <birth/>
                     <death/>
-                    <floruit/>
+                    <floruit notBefore="1920" notAfter="1960"/>
+                    <residence>
+                  <placeName ref="INS0159QQM">Qayāhto</placeName>
+               </residence>
                 </person>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="PRS13868GabraMadhen" passive="ESmy010"/>
-                    <relation name="iha:Place_of_activity" active="PRS13868GabraMadhen" passive="INS0159QQM"/>
+
                 </listRelation>
             </listPerson><!---->
         </body>
