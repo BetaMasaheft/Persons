@@ -48,17 +48,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1" type="birth">ነቢየ፡ ልዑል፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Nabiya Lǝʿul</persName>
+                    <persName><roleName type="title">rās</roleName></persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1730" notAfter="1755"/>
+                    <note>Nabiya Lǝʿul is mentioned in a note in <ref type="mss" corresp="BLorient662"/> which also continues. following
+                        the erasure of a line, with
+                        <foreign xml:lang="gez">እኅቱ፡ ንግሥትነ፡ <persName ref="PRS2682BerhanM">ወለተ፡ ጊዮርጊስ፨</persName></foreign>, which
+                        led Wright to believe that he was <persName ref="PRS2682BerhanM"/>'s brother. Due to the erasure this cannot be said with
+                        certainty, but remains a possibility. As Nabiya Lǝʿul is mentioned together with a Walda Lǝʿul, probably to be identified with
+                        the attested brother of 
+                        <persName ref="PRS2682BerhanM"/>, <persName ref="PRS9931WaldaLe"/>, in <ref type="mss" corresp="BLorient663"/>,
+                    a relationship between these figures seems likely.</note>
                 </person>
                 <listRelation>
                     <relation name="saws:hasOwned" active="PRS12552NabiyaLeul" passive="BLorient725"/>
+                    <relation name="lawd:hasAttestation" active="PRS12552NabiyaLeul" passive="BLorient662"/>
+                    <relation name="lawd:hasAttestation" active="PRS12552NabiyaLeul" passive="BLorient663"/>
+                    <relation name="snap:FatherOf" active="PRS12552NabiyaLeul" passive="PRS12553WalataKidan"><desc>Nabiya Lǝʿul
+                        is mentioned in supplicatons throughout <ref type="mss" corresp="BLorient662"/> and <ref type="mss" corresp="BLorient663"/>
+                    as the father of Walatta Kidān.</desc></relation>
                 </listRelation>
             </listPerson>
-         <!---->
         </body>
     </text>
 </TEI>

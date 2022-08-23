@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS13683Bakimos">
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS13683Bakimos">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
@@ -50,10 +51,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       <body>
          <listPerson>
             <person sex="1" sameAs="wd:Q7193522">
-               <persName xml:lang="cop" xml:id="n1" type="normalized">Pīǧīmī</persName>
-               <persName xml:lang="en" corresp="#n1"><addName>Anba</addName> Pidjimi</persName>
-               <persName xml:lang="gez" xml:id="n2">በኪሞስ፡</persName>
-               <persName xml:lang="gez" type="normalized" corresp="#n2">Bakimos</persName>
+               <persName xml:lang="gez" xml:id="n1">በኪሞስ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Bakimos</persName>
+               
+               <persName xml:lang="cop" xml:id="n2" type="normalized">Pīǧīmī</persName>
+               <persName xml:lang="en" corresp="#n2"><addName>Anba</addName> Pidjimi</persName>
+
                <faith type="Christianity Coptic Orthodox"></faith>
                <nationality type="Egypt"></nationality>
                <residence>Wadī an-Naṭrūn</residence>

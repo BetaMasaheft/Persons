@@ -70,18 +70,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                <faith type="EOTC"/>
            
                <birth notBefore="1831" notAfter="1837"/>
-               <floruit from="1872" to="1889"/>
+               <floruit notBefore="1872" notAfter="1889"/>
                <death when="1889">He died at the battle of <placeName ref="LOC4637Matamm">Matammā</placeName>
                </death>
             </person>
             <listRelation>
                <relation name="snap:SonOf" active="PRS10378Yohanne" passive="PRS8726sellasD"/>
-               <relation name="snap:SonOf" active="PRS10378Yohanne" passive="PRS8726sellasD"/>
              
                <relation name="snap:BrotherOf" active="PRS10378Yohanne" passive="PRS4871GugsaMe"/>
 
                <relation name="snap:BrotherOf" active="PRS10378Yohanne" passive="PRS6816MaruMer"/>
-                   <relation name="rel:enemyOf" active="PRS10378Yohanne" passive="PRS9430Tewodros"/>
+                   <relation name="snap:EnmityFor" active="PRS10378Yohanne" passive="PRS9430Tewodros"/>
                <relation name="snap:SiblingOf" active="PRS10378Yohanne" passive="PRS8265Sabagadi"/>
             </listRelation>
          </listPerson>
