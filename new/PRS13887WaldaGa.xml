@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Walda Gabreel</title>
+                <title>Walda Gabrǝʾel</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="MV"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -45,13 +45,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Walda Gabreel</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ወልደ፡ ገብርኤል፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walda Gabrǝʾel</persName>
+                    <note>The name is attested in the spelling <foreign xml:lang="gez">ወልደ፡ ገርኤል፡</foreign> in the manuscript.</note>
                     <faith type="EOTC"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1900" notAfter="2006"/>
                 </person>
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="PRS13887WaldaGa" passive="BDLaethf32"/>
+                </listRelation>
             </listPerson><!---->
         </body>
     </text>

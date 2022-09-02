@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Gabra Heywat</title>
+                <title>Gabra Ḥǝywat</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="MV"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -45,15 +45,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Gabra Heywat</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ገብረ፡ ሕይወት፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra Ḥǝywat</persName>
+                    <note>The name is also attested in the spelling <foreign xml:lang="gez">ገብረ፡ ሐይወት፡</foreign> in the manuscript.</note>
                     <faith type="EOTC"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1900" notAfter="2006"/>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS13885GabraHe" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS13885GabraHe" passive="BDLaethf32"/>
                 </listRelation>
             </listPerson><!---->
         </body>

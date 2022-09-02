@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Walatta Gabreel</title>
+                <title>Walatta Gabrǝʾel</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="MV"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -45,13 +45,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="2">
-                    <persName xml:lang="gez" xml:id="n1">Walatta Gabreel</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ወለተ፡ ገብርኤል፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walatta Gabrǝʾel</persName>
                     <faith type="EOTC"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1900" notAfter="2006"/>
                 </person>
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="PRS13888WalattaGa" passive="BDLaethf32"/>
+                </listRelation>
             </listPerson><!---->
         </body>
     </text>
