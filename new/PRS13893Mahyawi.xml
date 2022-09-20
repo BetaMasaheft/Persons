@@ -52,10 +52,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <nationality type="Ethiopia"/>
                     <birth/>
                     <death/>
-                    <floruit>1350-1450</floruit>
+                    <floruit notBefore="1350" notAfter="1450">He is known from two notes in <ref type="mss" corresp="BerOrFol117"/>concerning
+                  his journey to Jerusalem. He is referred to as <q xml:lang="gez">ፈላሲ፡</q> and <q xml:lang="gez">ንቡረ፡ እድ፡</q> which
+                would suggest that he was a monk.</floruit>
                 </person>
                 <listRelation>
-               <relation name="lawd:hasAttestation" active="PRS8790Severus" passive="BerOrFol117"/>
+               <relation name="lawd:hasAttestation" active="PRS13893Mahyawi" passive="BerOrFol117"/>
                </listRelation>
             </listPerson><!---->
         </body>
