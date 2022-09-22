@@ -46,12 +46,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPerson>
                 <person sex="1">
                     <persName xml:lang="en" xml:id="n1">John of Scetis</persName>
+                    <persName xml:lang="gez" xml:id="n2">ዮሐንስ፡ ዘደብረ፡ መቃርስ፤</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Yoḥannǝs za-Dabra Maqārǝs</persName>
+                    <persName xml:lang="en" corresp="#n1">Yoḥannǝs of the Monastery of Macarius (of Egypt)</persName>
                     <faith type="Coptic"/>
                     <occupation type="ecclesiastic">monk</occupation>
                     <nationality type="Egypt"/>
                     <birth/>
-                    <death>675</death>
-                    <floruit>An Egyptian monk, hegumenos of <placeName ref="LOC6126WadinN">Scetis</placeName> from ca. 641.</floruit>
+                    <death when="0675">675</death>
+                    <floruit>An Egyptian monk, hegumenos of <placeName ref="LOC6126WadinN">Scetis</placeName> from ca. 641.</floruit><death>He is commemorated on <date type="diesNatalis" ref="ethiocal:Tahsas30">30 Tāḫśāś</date></death>
                 </person>
                 <listRelation>
                     <relation name="ecrm:P129i_is_subject_of" active="PRS13892JohnofScetis" passive="LIT6712HomJohnScet"/>
