@@ -39,17 +39,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change when="2021-06-21" who="SS">Updated name</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                 <persName xml:lang="Am" xml:id="n1">አበበ፡ ከበደ፡</persName>
-                 <persName xml:lang="Am" corresp="#n1">ʾAbbaba Kabbada</persName>
-               </persName>
-             </persName>
+                 <persName xml:lang="am" xml:id="n1">አበበ፡ ከበደ፡</persName>
+                 <persName xml:lang="am" corresp="#n1" type="normalized">ʾAbbaba Kabbada</persName>
+               
              <nationality type="Ethiopia post-Aksumite">Christian Ethiopia</nationality>
              <faith type="EOTC">EOTC</faith>
              <occupation> pol. </occupation>
