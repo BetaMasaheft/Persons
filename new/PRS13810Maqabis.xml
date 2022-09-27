@@ -1,0 +1,64 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13810Maqabis" xml:lang="en" type="pers">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Maqābis</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="DR"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="DR" when="2022-05-03">Created entity</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person sex="1">
+                    <persName xml:lang="gez" xml:id="n1">መቃቢስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Maqābis</persName>
+                    <persName xml:lang="gez" xml:id="n2">መቃርስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n2">Maqārǝs</persName>
+                    <persName xml:lang="en" corresp="#n1">Maccabeus</persName>
+                    <persName xml:lang="fr" corresp="#n2">Macaire</persName>
+                    <note>Commemorated on <date ref="ethiocal:Hamle7" type="diesNatalis">7 Ḥamle</date> according to <ref type="work" corresp="LIT6624Maqabis"/> and
+                        <ref type="work" corresp="LIT4035SenkessarDL"/>.</note>
+                </person>
+                <listRelation>
+                    <relation name="ecrm:P129i_is_subject_of" active="PRS13810Maqabis" passive="LIT6624Maqabis"/>
+                </listRelation>
+            </listPerson>
+        </body>
+    </text>
+</TEI>

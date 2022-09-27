@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS4933HabtaGi">
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS4933HabtaGi">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Habtä Giyorgis Dinagde</title>
+            <title>Habta Giyorgis Dināgde</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -39,19 +40,30 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change who="DR" when="2022-07-05">Merged with PRS12464HabtaG</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
+               <persName xml:lang="gez" xml:id="n1">ሀብተ፡ ጊዮርጊስ፡ ዲናግዴ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Habta Giyorgis Dināgde</persName>
                <persName>
-                  
-                  Habtä Giyorgis Dinagde
+                  <roleName type="title">fitāwrāri</roleName>
                </persName>
-               <occupation> fit. </occupation>
+               <faith type="EOTC"/>
+               <nationality type="Ethiopia"/>
+               <birth when="1854-05-04"/>
+               <death when="1926-12-12"/>
             </person>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl><ptr target="bm:Bahru2005HabtaG"/></bibl>
+         </listBibl>
+         <listRelation>
+            <relation name="betmas:formerlyAlsoListedAs" active="PRS4933HabtaGi" passive="PRS12464HabtaG"/>
+         </listRelation>
       </body>
    </text>
 </TEI>

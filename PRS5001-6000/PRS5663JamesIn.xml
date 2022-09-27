@@ -32,10 +32,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
          <textClass>
             <keywords>
                <term key="saint"/>
+               <term key="martyr"/>
             </keywords>
          </textClass>
       </profileDesc>
@@ -45,18 +46,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
          <change who="PL" when="2019-03-27">removed occupation containing St, Saint, bibl, biblical or prophet, added keyword. See https://github.com/BetaMasaheft/Documentation/issues/1104</change>
+         <change when="2022-09-22" who="ES">updated name wikidata basic data</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  
+            <person sex="1" sameAs="wd:Q2625267">
+               <persName xml:id="n1" xml:lang="gez">ያዕቆብ፡ ግሙድ፡ </persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Yāʿqob Gǝmmud</persName>
+               <persName xml:lang="en" type="main" corresp="#n1">
                   James Intercisus
                </persName>
-               <!-- St -->
+               <floruit>Saint James Intercisus ( Mor Yakob M'phasko Sahada ), also known as 'Saint James the Mutilated' and 'Mor Yakob M'phasko Sahada' (died in year 421) was a Syriac Christian saint born in Beth Huzaye (Syriac: ܒܝܬ ܗܘܙܝܐ) in Persia. His epithet, Intercisus, is derived from the Latin word for "cut into pieces," which refers to the manner of his martyrdom: he was slowly cut into twenty-eight pieces. His death started the Roman-Sassanid War (421-422).
+                  
+               </floruit>
+               
+               <death when="0421">He was killed in Beth Lapat (Gundishapur) in 421. The ruins of this city are near Dezful, Iran. He  is commemorated on <date type="diesNatalis" ref="ethiocal:Hedar27">27 Ḫǝdār</date></death>
             </person>
+            
          </listPerson>
       </body>
    </text>

@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS9319tatus">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Ṭaṭus</title>
+            <title>Ṭāṭus</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -32,24 +32,34 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage>
+           <language ident="en">English</language>
+           <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+         <textClass>
+           <keywords>
+             <term key="martyr"></term>
+           </keywords>
+         </textClass>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change who="MKr" when="2021-08-27">Added floruit, Ethiopic name, commemoration date</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  
-                  Ṭaṭus
-               </persName>
-               <occupation> martyr </occupation>
+            <person sex="2">
+               <persName xml:lang="gez" xml:id="n1">ጣጡስ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Ṭāṭus</persName>
+               <floruit>According to her hagiography, she was martyred "in the city Rome under king Alexander in the fourth
+                 year of his reign" (<foreign xml:lang="gez">በሀገረ፡ ሮሜ፡ ላዕለ፡ እለ፡ እስክንድሮስ፡ ንጉሥ፡ በራብዕ፡ ዓመተ፡ መንግሥቱ፡</foreign>), which
+               might lead to her identification with Tatiana of Rome.</floruit>
+               <note type="commemoration"><date type="diesNatalis" ref="ethiocal:Hedar16">16 Ḫǝdār</date></note>
             </person>
          </listPerson>
       </body>

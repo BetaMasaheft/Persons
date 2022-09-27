@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS6832Maryamaw">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Maryamawit</title>
+            <title>Māryāmāwit</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -39,20 +39,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change when="2021-07-20" who="DE">Corrected spelling, added relation.</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="2">
-               <persName>
-                  
-                  Maryamawit
+               <persName xml:id="n1" xml:lang="gez">ማርያማዊት፡
                </persName>
+               <persName corresp="#n1" xml:lang="gez" type="normalized">Māryāmāwit</persName>
             </person>
             <listRelation>
-               <relation name="motherOf">
-                  <desc> moth. Bäkäffa </desc>
+               <relation name="snap:MotherOf" active="PRS6832Maryamaw" passive="PRS2377Bakaffa">
                </relation>
             </listRelation>
          </listPerson>
