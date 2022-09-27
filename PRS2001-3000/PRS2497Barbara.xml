@@ -32,10 +32,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
          <textClass>
             <keywords>
                <term key="saint"/>
+               <term key="martyr"/>
             </keywords>
          </textClass>
       </profileDesc>
@@ -45,19 +49,40 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
          <change who="PL" when="2019-03-27">removed occupation containing St, Saint, bibl, biblical or prophet, added keyword. See https://github.com/BetaMasaheft/Documentation/issues/1104</change>
+         <change when="2022-01-06" who="ES">added content biblio relations</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
-            <person sex="2">
-               <persName>
-                  
-                  Barbara (Bärbara)
-               </persName>
-               <!-- St -->
+            <person sex="2" sameAs="https://www.syriaca.org/person/1624">
+               <persName xml:lang="gez" xml:id="n1">ባርባራ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Bārbārā</persName>               
+               <persName xml:lang="en" type="main" corresp="#n1">Barbara</persName>     
+               <persName xml:lang="gez" xml:id="n2">በርባራ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n2">Barbārā</persName>     
+               <faith type="Christianity"></faith>
+               <death when="0311"/>
+               <floruit>Barbara was the beautiful daughter of the pagan Dioscorus. He locked his daughter up in a tower. 
+                  She converted to Christianity, and her father beat her and handed her over to be martyred. Her example inspired another Christian woman, <persName ref="PRS5789Juliana">Juliana</persName>, to come to her aid. 
+                  Both women were martyred.</floruit>
+               <note type="commemoration"><date type="diesNatalis" ref="ethiocal:Tahsas8">8 Tāḫśāś</date></note>
             </person>
+            
          </listPerson>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Moreno1960BarbaraGiuliana"/>               
+            </bibl>
+         </listBibl>
+         <listRelation>
+            <relation name="ecrm:P129i_is_subject_of" active="PRS2497Barbara" passive="LIT4509GadlaBarb"/>
+            <relation name="ecrm:P129i_is_subject_of" active="PRS2497Barbara" passive="LIT3597Miracle"/>
+            <relation name="ecrm:P129i_is_subject_of" active="PRS2497Barbara" passive="LIT4035SenkessarDL#Tahs8Barbara"/>
+            <relation name="ecrm:P129i_is_subject_of" active="PRS2497Barbara" passive="LIT4035SenkessarDL#Tahs8SalBarbara"/>
+            <relation name="ecrm:P129i_is_subject_of" active="PRS2497Barbara" passive="LIT4035SenkessarDL#Mask25SalBarbara"/>
+
+         </listRelation>
       </body>
    </text>
 </TEI>

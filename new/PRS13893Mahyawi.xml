@@ -1,0 +1,65 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13893Mahyawi" xml:lang="en" type="pers">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Maḥyawi ʾƎgziʾ</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="MKr"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="MKr" when="2022-09-15">Created entity</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person sex="1">
+                    <persName xml:lang="gez" xml:id="n1">ማሕየዊ፡ እግዚእ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Maḥyawi ʾƎgziʾ</persName>
+                    <faith type="EOTC"/>
+                    <occupation type="ecclesiastic">monk</occupation>
+                    <nationality type="Ethiopia"/>
+                    <birth/>
+                    <death/>
+                    <floruit notBefore="1350" notAfter="1450">He is known from two notes in <ref type="mss" corresp="BerOrFol117"/>concerning
+                  his journey to Jerusalem. He is referred to as <q xml:lang="gez">ፈላሲ፡</q> and <q xml:lang="gez">ንቡረ፡ እድ፡</q> which
+                would suggest that he was a monk.</floruit>
+                </person>
+                <listRelation>
+               <relation name="lawd:hasAttestation" active="PRS13893Mahyawi" passive="BerOrFol117"/>
+               </listRelation>
+            </listPerson><!---->
+        </body>
+    </text>
+</TEI>

@@ -34,6 +34,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       </encodingDesc>
       <profileDesc>
          <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
+         <textClass>
+            <keywords>
+               <term key="saint"/>
+               <term key="martyr"/>
+               <term key="biblical"/>
+            </keywords>
+         </textClass>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-11-17">Created XML record from Ethio authority google spreadsheet</change>
@@ -52,12 +59,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                
                <persName xml:lang="en" xml:id="n1" type="main">Three Youths in the Furnace</persName>
                
-               <persName xml:lang="gez" xml:id="n2">ሰለስቱ፡ ደቂቅ፡</persName>
-               <persName xml:lang="gez" type="normalized" corresp="#n2">Salastu daqiq</persName>
+               <persName xml:lang="gez" xml:id="n2">ሠለስቱ፡ ደቂቅ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n2">Śalastu daqiq</persName>
                <persName xml:lang="en" corresp="#n2">Three Children</persName>
                
-               
-               <death>Anania, Azaria, Misael saved by the Lord from the furnace, commemorated on 2 Taḫśāś</death>
+               <note type="commemoration">The three youths, Anania, Azaria, Misael, saved by the Lord from the furnace, are commemorated on <date type="diesNatalis" ref="ethiocal:Tahsas2">2 Taḫśāś</date> or also, in the Acts of Martyrs, on <date type="diesNatalis" ref="ethiocal:Genbot10">10 Gǝnbot</date></note>
                <note>In the Book of Daniel, The Three Holy Children, Hananiah (Shadrach), Mishael (Meshach), and Azariah (Abednego) were all companions of the Prophet Daniel and fellow kinsmen in the tribe of Judah. 
                   During the reign of King Jechonias they were taken prisoner and led away as captives with other Jews during the Babylonian Captivity. 
                   Eventually they were taken into the court of King Nebuchadnezzar as servants, stripped of their Hebrew names, and given Babylonian names which honored pagan deities. 
@@ -66,6 +72,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             </personGrp>
             <listRelation>
                <relation name="snap:Group" active="PRS11288AnAzMi" passive="PRS11464Azaria PRS11465Anania PRS11463Misael"/>
+               <relation name="ecrm:P129i_is_subject_of" active="PRS11288AnAzMi" passive="LIT1566hababa"></relation>
+               <relation name="ecrm:P129i_is_subject_of" active="PRS11288AnAzMi" passive="LIT1664Homily"></relation>
+               <relation name="ecrm:P129i_is_subject_of" active="PRS11288AnAzMi" passive="LIT5656Malheq#ThreeYouth"></relation>
+               <relation name="ecrm:P129i_is_subject_of" active="PRS11288AnAzMi" passive="LIT1828Mahale#ThreeYouths2"></relation>
+               <relation name="ecrm:P129i_is_subject_of" active="PRS11288AnAzMi" passive="LIT1232Cantic"></relation>
             </listRelation>
          </listPerson>
       </body>

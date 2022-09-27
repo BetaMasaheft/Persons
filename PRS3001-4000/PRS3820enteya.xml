@@ -32,25 +32,35 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
+         <textClass>
+            <keywords>
+               <term key="martyr"></term>
+               <term key="saint"></term>
+            </keywords>
+         </textClass>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change when="2022-01-12" who="ES">updated names, relations, floruit, etc.</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  
-                  Ǝntǝya
-               </persName>
-               <occupation> martyr </occupation>
-            </person>
+            <person sex="2">
+               <persName xml:lang="gez" xml:id="n1">እንትያ፡ </persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">ʾƎntǝyā</persName>
+               <persName xml:lang="en" corresp="#n1" type="main">Anthia</persName>
+               <residence>Rome</residence>
+               <floruit notAfter="0138">Antia or Anthia was the mother of <persName ref="PRS3713Elewtero"></persName>, she was beheaded while her son was clubbed to death under Emperor Hadrian of Rome</floruit>               
+               <note type="commemoration"><date type="diesNatalis" ref="ethiocal:Hedar18">18 Ḫǝdār</date></note>
+            </person>            
+            <listRelation><relation name="ecrm:P129i_is_subject_of" active="PRS3820enteya" passive="LIT3167Eleutheris"></relation>
+               <relation name="snap:SonOf" active="PRS3820enteya" passive="PRS3713Elewtero"></relation></listRelation>
          </listPerson>
       </body>
    </text>

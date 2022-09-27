@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS5276Helena">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
@@ -32,25 +32,38 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage>
+           <language ident="en">English</language>
+           <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change who="MKr" when="2021-12-21"></change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
-            <person sex="2">
-               <persName>
-                  
-                  Helena
-               </persName>
-               <occupation> emp. </occupation>
+            <person sex="2" sameAs="wd:Q170164">
+               <persName xml:lang="en" xml:id="n1">Helena</persName>
+               <persName xml:lang="gez" corresp="#n1">እሌኒ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">ʾƎleni</persName>
+               <occupation type="political">empress</occupation>
+               <birth notBefore="0248" notAfter="0250">248-250</birth>
+               <death when="0328">328</death>
+               <floruit>Mother of emperor Constantine. In Ethiopian tradition she features in various texts related to
+               the finding of the <ref type="authFile" corresp="TrueCross">Holy Cross</ref>.</floruit>
             </person>
+            <listRelation>
+              <relation name="snap:MotherOf" active="PRS5276Helena" passive="PRS3175Constant"/>
+              <relation name="ecrm:P129i_is_subject_of" active="PRS5276Helena" passive="LIT6171HolyCross"/>
+              <relation name="ecrm:P129i_is_subject_of" active="PRS5276Helena" passive="LIT1650Homily"/>
+              <relation name="ecrm:P129i_is_subject_of" active="PRS5276Helena" passive="NAR0145SenHelena"/>
+            </listRelation>
          </listPerson>
       </body>
    </text>

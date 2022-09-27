@@ -32,26 +32,39 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
+         <textClass>
+            <keywords>
+               <term key="martyr"/>
+               <term key="saint"/>               
+            </keywords>
+         </textClass>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change when="2022-09-22" who="ES">updated name relation wikidata</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  
-                  Yǝsḥaq of Difra
+            <person sex="1" sameAs="wd:Q9009347">
+               <persName xml:lang="en" xml:id="n1">Isaac of Dalmatia</persName>
+               <persName xml:lang="en" xml:id="n2">Isaac of Tiphre</persName>
+               <persName xml:lang="gez" xml:id="n3">ይስሐቅ፡ ዘድፍራ፡
                </persName>
-               <occupation> monk </occupation>
+               <persName xml:lang="gez" type="normalized" corresp="#n3">Yǝsḥaq za-Difra
+               </persName>
+               <persName xml:lang="en">Isaac the Confessor</persName>
+               <floruit notBefore="0350" notAfter="0383">Saint Isaac the Confessor, also Isaacius or Isaakios (Greek: Ἰσαάκιος or Ἰσάκιος; died May 30, 383 AD), founder of the Dalmatian Monastery in Constantinople, was a Christian monk who is honored as a saint and confessor. At the end of his life, Isaac entrusted the leadership of the monastery to his closest disciple, Dalmatus, who was later himself glorified (canonized as a saint), and after whom the monastery came to be known as the Dalmatian Monastery. Isaac died in his monastery on May 30, 383, although others place his death around 396. The life of John Chrysostom includes mention of St. Isaac living into the fifth century.</floruit>
+               <death when="0383">He is commemorated on <date type="diesNatalis" ref="ethiocal:Genbot6">6 Genbot</date></death>
+
             </person>
          </listPerson>
+         <listRelation><relation name="ecrm:P129i_is_subject_of" active="PRS10358Yeshaq" passive="LIT4835Martyr"></relation></listRelation>
       </body>
    </text>
 </TEI>

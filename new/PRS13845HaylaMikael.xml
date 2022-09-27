@@ -1,0 +1,63 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13845HaylaMikael" xml:lang="en" type="pers">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ḫāyla Mikāʾel</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="DN"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <t:creation xmlns:t="http://www.tei-c.org/ns/1.0"/>
+            <t:abstract xmlns:t="http://www.tei-c.org/ns/1.0">
+                <p/>
+            </t:abstract>
+            <t:langUsage xmlns:t="http://www.tei-c.org/ns/1.0">
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </t:langUsage>
+        </profileDesc>
+        <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+            <change who="DN" when="2022-07-26">Created entity</change>
+        </t:revisionDesc>
+    </teiHeader>
+    <t:text xmlns:t="http://www.tei-c.org/ns/1.0">
+        <body>
+            <listPerson>
+                <person sex="1">
+                    <persName xml:lang="gez" xml:id="n1">ኃይለ፡ ሚካኤል፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Ḫāyla Mikāʾel</persName>
+                    <faith type="EOTC"/>
+                    <occupation type="literary"/>
+                    <t:nationality type="Ethiopia"/>
+                    <birth/>
+                    <t:death/>
+                    <floruit notBefore="1770" notAfter="1850"/>
+                </person>
+                <listRelation>
+                    <relation name="saws:isCopierOf" active="PRS13845HaylaMikael" passive="BNFabb226"/>
+                </listRelation>
+            </listPerson><!---->
+        </body>
+    </t:text>
+</TEI>
