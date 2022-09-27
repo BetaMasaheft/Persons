@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Abarrā Tadlā</title>
+            <title>ʾAbarrā Tadlā</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -39,16 +39,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change when="2021-06-23" who="SS">Updated name</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
                  <persName xml:lang="gez" xml:id="n1">አበራ፡ ተድላ፡</persName>
-                <persName xml:lang="gez" corresp="#n1">ʾAbarrā Tadlā</persName>
-               </persName>
+                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAbarrā Tadlā</persName>
+               
                <nationality type="Ethiopia post-Aksumite">Christian Ethiopia</nationality>
                <faith type="EOTC">EOTC</faith>
 
