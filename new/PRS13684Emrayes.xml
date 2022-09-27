@@ -1,0 +1,76 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13684Emrayes" xml:lang="en" type="pers">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>እምራይስ</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="ES"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term key="martyr"></term>
+                    <term key="saint"></term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change who="ES" when="2022-01-13">Created entity</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person sex="2">
+                    <persName xml:lang="gez" xml:id="n1">እምራይስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">ʾƎmrāyǝs</persName>
+                    
+                    <persName xml:lang="gez" xml:id="n2">ዕምራይስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n2">ʿƎmrāyǝs</persName>
+                    
+                    <persName xml:lang="cop" type="normalized" xml:id="n3">Herai</persName>
+                    <persName xml:lang="ar" type="normalized" xml:id="n4">Maharata</persName>
+                    <faith type="Christianity Orthodox Coptic"/>
+                    <residence>Egypt</residence>
+                    
+                    <death>A virgin beheaded by a governor Quilquilianus for refusing to leave Christianity.</death>
+                    
+                    <note type="commemoration"><date type="diesNatalis" ref="ethiocal:Terr14">14 Ṭǝrr</date></note>
+                </person>
+                <listRelation><relation name="ecrm:P129i_is_subject_of" active="PRS13684Emrayes" passive="LIT4039MartyrEmrays"></relation></listRelation>
+            </listPerson>
+            <listBibl type="secondary">
+                <bibl><ptr target="bm:Lucchesi2009Herai"/></bibl>
+            </listBibl>
+        </body>
+    </text>
+</TEI>

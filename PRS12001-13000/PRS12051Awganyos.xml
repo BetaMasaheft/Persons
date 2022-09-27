@@ -37,9 +37,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <p/>
             </abstract>
             <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
+            <textClass>
+                <keywords>
+                    <term key="saint"/>
+                    <term key="martyr"/>
+                </keywords>
+            </textClass>
         </profileDesc>
         <revisionDesc>
             <change who="DR" when="2018-05-01">Created entity</change>
+            <change when="2022-01-05" who="ES">added keywords relation commemoration</change>
         </revisionDesc>
     </teiHeader>
     <text xml:base="https://betamasaheft.eu/">
@@ -48,9 +55,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">አውጋንዮስ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAwgānyos</persName>
+                    <persName xml:lang="en" corresp="#n1">Eugenius</persName>
+                    <floruit>"from the city of Gawer"</floruit>
+                    <note type="commemoration"><date type="diesNatalis" ref="ethiocal:Tahsas8">8 Tāḫśāś</date> or <date type="diesNatalis" ref="ethiocal:Tahsas15">15 Tāḫśāś</date></note>
                 </person>
                 <listRelation>
                     <relation name="ecrm:P129i_is_subject_of" active="PRS12051Awganyos" passive="LIT2375Synaxa"/>
+                    <relation name="ecrm:P129i_is_subject_of" active="PRS12051Awganyos" passive="LIT6538Eugenius"></relation>
                 </listRelation>
             </listPerson>
         </body>

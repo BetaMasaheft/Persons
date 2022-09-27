@@ -19,39 +19,42 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
-            <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
-            <p>A TEI file converted from the ETHIO-authority
-                                                  google spreadsheet</p>
+            <p/>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
-            <xi:fallback>
-               <p>Definitions of prefixes used.</p>
-            </xi:fallback>
-         </xi:include>
+         <p>A digital born TEI file</p>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
+         <textClass>
+            <keywords>
+               <term key="martyr"/>
+               <term key="saint"/>
+            </keywords>
+         </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
-         <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change who="ES" when="2021-12-29">Updated entity</change>
       </revisionDesc>
    </teiHeader>
-   <text xml:base="https://betamasaheft.eu/">
+   <text>
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Anqiṭos
-               </persName>
-               <occupation> king</occupation>
+               <persName xml:lang="gez" xml:id="n1">አንቂጦስ</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAnqiṭos</persName>
+               <persName xml:lang="gr" corresp="#n1">Ἀνίκητος</persName>
+               <faith type="Christianity Orthodox"/>
+               <nationality type="Egypt Coptic"></nationality>
+               <occupation type="ecclesiastic">martyred under Diocletian</occupation>
+               <death notAfter="0305">He is commemorated on <date type="diesNatalis" ref="ethiocal:Tahsas12">12 Tāḫśāś</date></death>
             </person>
          </listPerson>
+         <listRelation>
+            <relation name="ecrm:P129i_is_subject_of" active="PRS1886Ammoni" passive="LIT6501Gadlu"/>
+            
+         </listRelation>
       </body>
    </text>
 </TEI>

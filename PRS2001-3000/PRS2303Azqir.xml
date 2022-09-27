@@ -32,26 +32,53 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         
+            <langUsage>
+               <language ident="en">English</language>
+               <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+            <textClass>
+               <keywords>
+                  <term key="saint"/>
+                  <term key="martyr"/>
+               </keywords>
+            </textClass>
+         
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change when="2022-01-05" who="ES">added name relation life</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Azqir
-               </persName>
-               <occupation> martyr </occupation>
+               <persName xml:lang="gez" xml:id="n1">አዝቂር፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAzqir</persName>
+               <persName xml:lang="gez" xml:id="n2">አጽቂር፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n2">ʾAṣqir</persName>
+               <residence ref="LOC4955Najran"></residence>
+               <residence ref="LOC3868Himyar"></residence>
+               <floruit>A priest named Azqir preached Christianity in <placeName ref="LOC4955Najran">Najran</placeName>, which
+                  gained him the hostility of some influential groups there. These had him placed under arrest while a message was sent to the 
+                  Himyarite king in <placeName ref="LOC6409Zafar">Zafar</placeName>, accusing him of preaching "a new religion". In due course a
+                  royal summons came for him to be sent to Zafar for trial, and he was sent there in the custody of a party of
+                  traders going that way. The king was unimpressed by Azqir's claim that the religion he preached was not
+                  new; and some räbbanat among the king's councillors advised that he should be sent back to Najran to be
+                  publicly executed there.</floruit>
+               <faith type="Christianity"></faith>
+               <note type="commemoration"><date type="diesNatalis" ref="ethiocal:Hedar24">24 Ḫedār</date></note>
             </person>
+            
+            
          </listPerson>
+         <listRelation>
+            <relation name="ecrm:P129i_is_subject_of" active="PRS2303Azqir" passive="LIT1425GadlaA"></relation>
+         </listRelation>
       </body>
    </text>
 </TEI>
