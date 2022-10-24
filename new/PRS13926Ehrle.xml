@@ -47,11 +47,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <persName xml:lang="gez" xml:id="n1">Franz Ehrle</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1"/>
                     <faith type="Catholicism"/>
-                   <occupation type="ecclesiastic">Prefect of the Vatican Library</occupation>
+                   <occupation type="ecclesiastic">Prefect of the <ref type="ins" corresp="INS0003BAV">Vatican Library</ref></occupation>
                     <birth>1845</birth>
                     <death>1934</death>
                     <floruit/>
                 </person>
+                <listRelation>
+<relation name="lawd:hasAttestation" active="PRS13926Ehrle" passive="BAVet151"/>
+                </listRelation>
             </listPerson><!---->
         </body>
     </text>
