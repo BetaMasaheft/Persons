@@ -44,8 +44,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sameAs="Q61283" sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Franz Ehrle</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:id="n1">
+                        <forename>Franz</forename> <surname>Ehrle</surname></persName>
                     <faith type="Catholicism"/>
                    <occupation type="ecclesiastic">Prefect of the <ref type="ins" corresp="INS0003BAV">Vatican Library</ref></occupation>
                     <birth>1845</birth>
