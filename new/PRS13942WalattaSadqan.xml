@@ -45,17 +45,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="2">
-                    <persName xml:lang="gez" xml:id="n1">Walatta Ṣadqan</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
-                    <faith type=""/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <persName xml:lang="gez" xml:id="n1">ወለተ ጻድቃን፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walatta Ṣadqan </persName>
+                    
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS13942WalattaSadqan" passive=""/>
+                    <relation name="snap:MotherOf" active="PRS13942WalattaSadqan" passive="PRS13936Kirubel"/>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>
