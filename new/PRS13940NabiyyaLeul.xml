@@ -48,9 +48,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ነቢየ ልዑል፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Nabiyya Lǝ ͗ul</persName>
+                    <floruit notBefore="1667" notAfter="1706"/>
                 </person>
              
                 <listRelation>
+                    <relation name="lawd:hasAttestation" active="PRS13940NabiyyaLeul" passive="CIA20024"/>
                     <relation name="snap:FatherOf" active="PRS13940NabiyyaLeul" passive="PRS13936Kirubel"/>
                 </listRelation>
             </listPerson>
