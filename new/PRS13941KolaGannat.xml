@@ -45,12 +45,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="2">
-                    <persName xml:lang="gez" xml:id="n1">Kola Gannat</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Kole Gannat </persName>
+                    <persName xml:lang="gez" xml:id="n1">ኮለ ገነት ፡ </persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Kola Gannat </persName>
+                   
+                    <floruit notBefore="1667" notAfter="1706"/>
                     
                     
                 </person>
                 <listRelation>
+                    <relation name="lawd:hasAttestation" active="PRS13941KolaGannat" passive="CIA20024"/>
                     
                     <relation name="betmas:wifeOf" active="PRS13941KolaGannat" passive="PRS13936Kirubel"/>
                 </listRelation>
