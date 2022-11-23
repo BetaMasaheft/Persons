@@ -48,6 +48,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
          <change who="PL" when="2019-03-27">removed occupation containing St, Saint, bibl, biblical or prophet, added keyword. See https://github.com/BetaMasaheft/Documentation/issues/1104</change>
+         <change who="MKr" when="2022-11-23">Added relations, floruit, date of commemoration</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -59,7 +60,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                <persName type="birth" xml:id="n3">Dilasor</persName>
                <note type="commemoration"><date type="diesNatalis" ref="ethiocal:Hamle8">8 Ḥamle</date></note>
                <floruit>He was the son of a Christian king of "Rome". He became first a hermit, then a monk. In Ethiopic texts
-               he often appears in connection with Gabra Manfas Qǝddus and Takla Hāymānot or the Egyptian desert fathers.</floruit>
+               he often appears in connection with <persName ref="PRS4306GabraMa">Gabra Manfas Qǝddus</persName> and <persName ref="PRS9162TaklaHa">Takla Hāymānot</persName> or the Egyptian desert fathers.</floruit>
                <!--St.-->
             </person>
             <listRelation>
