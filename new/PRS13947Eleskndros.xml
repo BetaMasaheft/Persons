@@ -47,15 +47,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">እሌስክንድሮስ</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">ʾƎleskǝndros</persName>
+                    <persName xml:lang="en" corresp="#n1" type="main">Alexander</persName>
                     <persName xml:lang="gez" xml:id="n2">እለ፡ እስክንድሮስ</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n2">ʾƎla ʾǝskǝndros</persName>
-                  <persName xml:lang="en" corresp="#n1" sameAs="#n2">Alexander</persName>
+                    <persName xml:lang="en" corresp="#n2" type="main">Alexander</persName>
                     <faith type="Traditional">pagan</faith>
-                    <occupation type="ruler">Ruler during the Roman Empire</occupation>
+                    <occupation type="ruler">Mentioned in the 'Gadla Qirqos' as a ruler in Cilicia (Asia Minor), during the period of the 'Big Persecutions' (303-305 AD.).</occupation>
                     <birth/>
                     <death/>
-                    <floruit>0303-0305</floruit>
-                    <note>Beginning of the 4th century; period of the 'Big Persecutions' against the Christians of the Roman Empire.</note>
+                    <floruit notBefore="0303" notAfter="0305"></floruit>
+                    <note>Beginning of the 4th century; period of the 'Big Persecutions' (303-305 AD.) against the Christians of the Roman Empire.</note>
                 </person>
                 <listRelation>
                     <relation name="ecrm:P129i_is_subject_of" active="PRS13947Eleskndros" passive="LIT1488GadlaQ"/>

@@ -46,12 +46,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPerson>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ንዋየ፡ ማርያም፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="Nǝwāya Māryām"/>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Nǝwāya Māryām</persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"></nationality>
                     <birth/>
                     <death/>
-                    <floruit>mid-14th mid 15th century</floruit>
+                    <floruit notBefore="1350" notAfter="1449">mid-14th mid 15th century</floruit>
                 </person>
                 <listRelation>
                     <relation name="saws:isCopierOf" active="PRS13944NewayaMaryam" passive="Leicester210"/>
