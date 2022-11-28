@@ -1,5 +1,5 @@
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13945Libanos" xml:lang="en" type="pers">
     <teiHeader>
@@ -45,16 +45,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Libānos ʾAbrǝhām</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                   <persName xml:lang="gez" xml:id="n1">አብርሃም፡</persName>
+                   <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAbrǝhām</persName>
+                    <persName xml:lang="gez" xml:id="n2">ሊባኖስ፡ አብርሃም፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n2">Libānos ʾAbrǝhām</persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
                     <birth/>
                     <death/>
                     <floruit>1350-1450</floruit>
+                    <note>In the colophons of <ref type="mss" target="BAVet268"/> the commissioner is labelled as
+                  either ʾAbrǝhām or Libānos ʾAbrǝhām. Since Libānos is very rarely attested as personal name, it is here
+                assumed that the name was ʾAbrǝhām.</note>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS13945Libanos" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS13945Libanos" passive="BAVet268"/>
                 </listRelation>
             </listPerson><!---->
         </body>
