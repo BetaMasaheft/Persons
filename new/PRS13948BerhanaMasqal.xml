@@ -21,33 +21,33 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <t:p xmlns:t="http://www.tei-c.org/ns/1.0"/>
+                <p/>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-            <t:p xmlns:t="http://www.tei-c.org/ns/1.0">A digital born TEI file</t:p>
+            <p>A digital born TEI file</p>
         </encodingDesc>
-        <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+      <profileDesc>
             <creation/>
-            <t:abstract>
-                <t:p/>
-            </t:abstract>
-            <t:langUsage>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
                 <language ident="en">English</language>
                 <language ident="gez">Gǝʿǝz</language>
-            </t:langUsage>
-        </t:profileDesc>
-        <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+            </langUsage>
+        </profileDesc>
+        <revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
             <change who="DN" when="2022-12-04">Created entity</change>
-        </t:revisionDesc>
+        </revisionDesc>
     </teiHeader>
-    <t:text xmlns:t="http://www.tei-c.org/ns/1.0">
+    <text>
         <body>
-            <t:listPerson>
+            <listPerson>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ብርሃነ፡ መስቀል፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Bǝrhāna Masqal</persName>
-                    <t:faith type="EOTC"/>
+                    <faith type="EOTC"/>
                     <occupation type="other"/>
                     <nationality type="Ethiopia"/>
                     <birth/>
@@ -58,7 +58,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <relation name="saws:hasOwned" active="PRS13948BerhanaMasqal" passive="SinaiEt006"/>
                     <relation name="saws:isDifferentTo" active="PRS13948BerhanaMasqal" passive="PRS10999BerhanaM" cert="medium"/>
                 </listRelation>
-            </t:listPerson><!---->
+            </listPerson><!---->
         </body>
-    </t:text>
+    </text>
 </TEI>
