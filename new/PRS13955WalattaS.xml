@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Walatta Seyon</title>
+                <title>Walatta Ṣǝyon</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="MV"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -45,17 +45,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="2">
-                    <persName xml:lang="gez" xml:id="n1">Walatta Seyon</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
-                    <faith type="EOTC"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <persName xml:lang="gez" xml:id="n1">ወለተ፡ ጽዮን፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walatta Ṣǝyon</persName>
+                    <floruit notBefore="1700" notAfter="1868"/>
+                    <nationality type="Ethiopia"/>
                 </person>
                 <listRelation>
-                    <relation name="saws:hasOwned" active="PRS13955WalattaS" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS13955WalattaS" passive="BDLaethd16"/>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>
