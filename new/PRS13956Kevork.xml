@@ -46,17 +46,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPerson>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">Hagop Kevorkian</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
-                    <faith type=""/>
                     <nationality type="USA"/>
+                    <nationality type="Armenia"/>
+                    <occupation type="academic"/>
+                    <occupation type="art"/>
                     <birth>1872</birth>
                     <death>1962</death>
                     <floruit/>
                 </person>
                 <listRelation>
-                    <relation name="saws:hasOwned" active="PRS13956Kevork" passive=""/>
+                    <relation name="saws:hasOwned" active="PRS13956Kevork" passive="BDLaethd16"/>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>
