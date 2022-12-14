@@ -32,7 +32,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage>
+           <language ident="en">English</language>
+           <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
@@ -47,6 +50,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <listPerson>
             <person sex="1">
                <persName xml:lang="en" xml:id="n1">Zacharias of Saḫā</persName>
+               <persName xml:lang="gez" xml:id="n2">ዘካርያስ፡ ኤጲስ፡ ቆጶስ፡ ዘሀገረ፡ ሳሐ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n2">Zakaryās ʾeṗṗis qoṗṗos za-hagara Sāḥa</persName>
                <occupation type="ecclesiastic">bishop</occupation>
                <faith type="Coptic"></faith>
                <nationality type="Egypt"></nationality>
