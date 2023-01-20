@@ -44,14 +44,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPerson>
-                <person sex="1">
+                <person sex="2">
                     <persName xml:lang="gez" xml:id="n1">ወለተ፡ ክርስቶስ፡ </persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Walatta Krǝstos</persName>
                     <faith type="EOTC"/>
-                    <occupation type="other"/>
-                    <birth/>
-                    <t:death xmlns:t="http://www.tei-c.org/ns/1.0"/>
-                    <floruit notBefore="1701" notAfter="1800"/>
+                    <occupation type="other"/>                  
+                      <floruit notBefore="1701" notAfter="1800"/>
                 </person>
                 <listRelation>
                     <relation name="betmas:wifeOf" active="PRS13966WalattaKrestos" passive="PRS13964KeflaMaryam" cert="medium"/>
