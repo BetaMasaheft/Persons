@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <titleStmt>
                 <title>ʿĀbagyā</title>
                 <editor role="generalEditor" key="AB"/>
-                <editor key=""/>
+                <editor key="CH"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
             <publicationStmt>
@@ -38,21 +38,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="" when="2023-01-26">Created entity</change>
+            <change who="CH" when="2023-01-26">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person>
-                    <persName xml:lang="gez" xml:id="n1">ʿĀbagyā</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
-                    <faith type=""/>
+                <person sex="2">
+                    <persName xml:lang="gez" xml:id="n1">ዓበግያ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">ʿĀbagyā</persName>
+                    <faith type="EOTC"/>
                     <birth/>
                     <death/>
-                    <floruit/>
+                    <floruit notBefore="1600" notAfter="1800">17th-18th century</floruit>
                 </person>
-            </listPerson><!---->
+            </listPerson>
+            <listRelation><relation name="saws:hasOwned" active="PRS13971Abagya" passive="BMLacq681"></relation></listRelation><!---->
         </body>
     </text>
 </TEI>
