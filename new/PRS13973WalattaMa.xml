@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Walatta Maryam</title>
+                <title>Walatta Māryām</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="MV"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -45,17 +45,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="2">
-                    <persName xml:lang="gez" xml:id="n1">Walatta Maryam</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
-                    <faith type="EOTC"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <persName xml:lang="gez" xml:id="n1">ወለተ፡ ማርያም፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walatta Māryām</persName>
+                    <faith type="EOTC"/>       
+                    <floruit notBefore="1800" notAfter="2006"/>
                 </person>
                 <listRelation>
-                    <relation name="saws:hasOwned" active="PRS13973WalattaMa" passive=""/>
+                    <relation name="saws:hasOwned" active="PRS13973WalattaMa" passive="BDLaethg38"/>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>
