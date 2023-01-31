@@ -44,15 +44,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPerson>
-                <person>
-                    <persName xml:lang="gez" xml:id="n1">Fəśśəḥa Giyorgis</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">ፍሥሐ፡ ጊዮርጊስ፡</persName>
-                    <faith type=""/>
+                <person sex="1">
+                    <persName xml:lang="gez" xml:id="n1">ፍሥሐ፡ ጊዮርጊስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Fəśśəḥa Giyorgis</persName>
                     <birth/>
                     <death/>
-                    <floruit>18th or 19th centuries</floruit>
+                    <floruit notBefore="1700" notAfter="1900">18th or 19th centuries</floruit>
                 </person>
             </listPerson><!---->
+            <listRelation><relation name="saws:hasOwned" active="PRS13971Abagya" passive="BMLacq681"></relation></listRelation>
         </body>
     </text>
 </TEI>
