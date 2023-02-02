@@ -46,12 +46,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPerson>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ባዕደ፡ ማርያም፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Bāʿda Māryām</persName>
+                    <name role="qesa gabaz">ቂሰ፡ ገበዝ፡</name>
                     <faith type="EOTC"/>
-                    <occupation type="ecclesiastic"/>
+                    <occupation type="ecclesiastic">Senior ecclesiastic (qesa gabaz) of the church of 
+                        <placeName ref="LOC5843">Tadbaba Maryam</placeName> in the time of abbot mamher 
+                        <persName ref="PRS0000Maqaryos">Maqaryos</persName>.
+                            </occupation>
                     <birth/>
                     <death/>
-                    <floruit>1728</floruit>
+                    <floruit when="1728"/>
                 </person>
             </listPerson><!---->
         </body>
