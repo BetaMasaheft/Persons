@@ -50,13 +50,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <faith type="EOTC"/>
                     <birth/>
                     <death/>
-                    <floruit notBefore="1728" notAfter="1900">18th to 19th centuries</floruit>
+                    <floruit notBefore="1600" notAfter="1800">17th-18th century</floruit>
                 </person>
-            </listPerson> 
-            <listRelation>
-                <relation name="saws:hasOwned" active="PRS13971Abagya" passive="BMLacq681"></relation>
-                <relation name="saws:hasParent" active="PRS0000" passive="#PRS13971Abagya"></relation>
-            </listRelation>
+            </listPerson>
+            <listRelation><relation name="saws:hasOwned" active="PRS13971Abagya" passive="BMLacq681"></relation></listRelation><!---->
         </body>
     </text>
 </TEI>
