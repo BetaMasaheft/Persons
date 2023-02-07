@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Owner</title>
+                <title>Gabra Zarʾa Ṣəyon</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="CH"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -39,6 +39,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="CH" when="2023-01-26">Created entity</change>
+            <change when="2023-02-07" who="CH">Updated owner relation and title</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -46,12 +47,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPerson>
                 <person>
                     <persName xml:lang="gez" xml:id="n1">ገብረ፡ ዘርአ፡ ጽዮን፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra Zarʾa Ṣyon</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra Zarʾa Ṣəyon</persName>
                     <faith type="EOTC"/>
-                    <birth/>
-                    <death/>
                     <floruit notBefore="1600" notAfter="1800">17th or 18th centuries</floruit>
                 </person>
+                <listRelation>
+                    <relation name="saws:hasOwned" active="PRS13969GabraZaraSyon" passive="BMLacq681"/>
+                </listRelation>
             </listPerson><!---->
         </body>
     </text>
