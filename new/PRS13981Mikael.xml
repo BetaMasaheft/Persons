@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Mikāʾel</title>
+                <title>Zamikāʾel</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="CH"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -39,19 +39,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="CH" when="2023-02-14">Created entity</change>
+            <change when="2023-02-15" who="CH">Updated title</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ሚካኤል</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Mikāʾel</persName>
+                    <persName xml:lang="gez" xml:id="n1">ዘሚካኤል</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Zamikāʾel</persName>
                     <floruit>19th or 20th centuries</floruit>
                 </person>
                 <listRelation>
-                    <relation name="snap:SonOf" active="#PRS13981Mikael" passive="PRS13980DamaKrestos"/>
-                    <relation name="lawd:hasAttestation" active="PRS13981Mikael" passive="BMLacq811"/>
+                    <relation name="snap:SonOf" active="#PRS13981Zamikael" passive="PRS13980DamaKrestos"/>
+                    <relation name="lawd:hasAttestation" active="PRS13981Zamikael" passive="BMLacq811"/>
                 </listRelation>
             </listPerson><!---->
         </body>
