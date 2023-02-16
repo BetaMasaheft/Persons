@@ -47,7 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ደመ፡ ክርስቶስ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Dama Krəstos</persName>
-                    <floruit>19th or 20th century</floruit>
+                    <floruit notBefore="1801" notAfter="1950">19th or 20th century</floruit>
                     <listRelation>
                         <relation name="snap:FatherOf" active="PRS13980DamaKrestos" passive="PRS13981Mikael"/>
                         <relation name="saws:hasOwned" active="PRS13980DamaKrestos" passive="BMLacq811"/>
