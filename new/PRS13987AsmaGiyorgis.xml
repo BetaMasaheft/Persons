@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13972ZawaldaMaryam" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13987AsmaGiyorgis" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Zawalda Māryām</title>
+                <title>ʾAṣma Giyorgis</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DN"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -38,27 +38,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="DN" when="2023-01-26">Created entity</change>
+            <change who="DN" when="2023-03-10">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ዘወልደ፡ ማርያም፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Zawalda Māryām</persName>
+                    <persName xml:lang="gez" xml:id="n1">አጽመ፡ ጊዮርጊስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAṣma Giyorgis</persName>
                     <faith type="EOTC"/>
-                    <occupation type="literary"/>
+                    <occupation type="other"/>
                     <birth/>
                     <death/>
-                    <floruit notBefore="1701" notAfter="1800"/>
+                    <floruit  notBefore="1700" notAfter="1799"/>
                 </person>
                 <listRelation>
-                    <relation name="saws:isCopierOf" active="PRS13972ZawaldaMaryam" passive="ESdd017"/>
-
-                    <relation name="saws:isCopierOf" active="PRS13972ZawaldaMaryam" passive="ESgbi001" cert="medium"/>
-
-                    <relation name="syriaca:different-from" active="PRS13972ZawaldaMaryam" passive="PRS12076ZawaldaMaryam"/>
+                    <relation name="saws:hasOwned" active="PRS13987AsmaGiyorgis" passive="BNFabb158"/>
                 </listRelation>
             </listPerson><!---->
         </body>
