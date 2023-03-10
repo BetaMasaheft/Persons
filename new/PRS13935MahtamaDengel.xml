@@ -1,13 +1,13 @@
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13972ZawaldaMaryam" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13935MahtamaDengel" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Zawalda Māryām</title>
+                <title>Māḫtama Dǝngǝl</title>
                 <editor role="generalEditor" key="AB"/>
-                <editor key="DN"/>
+                <editor key="AY"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
             <publicationStmt>
@@ -32,35 +32,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <abstract>
                 <p/>
             </abstract>
-            <langUsage>
+            <t:langUsage xmlns:t="http://www.tei-c.org/ns/1.0">
                 <language ident="en">English</language>
                 <language ident="gez">Gǝʿǝz</language>
-            </langUsage>
+            </t:langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="DN" when="2023-01-26">Created entity</change>
+            <change who="AY" when="2022-10-27">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ዘወልደ፡ ማርያም፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Zawalda Māryām</persName>
+                    <persName xml:lang="gez" xml:id="n1">ማኅተመ፡ ድንግል፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Māḫtama Dǝngǝl</persName>
                     <faith type="EOTC"/>
-                    <occupation type="literary"/>
-                    <birth/>
-                    <death/>
-                    <floruit notBefore="1701" notAfter="1800"/>
+                    <floruit notBefore="1800" notAfter="1899"/>
                 </person>
                 <listRelation>
-                    <relation name="saws:isCopierOf" active="PRS13972ZawaldaMaryam" passive="ESdd017"/>
-
-                    <relation name="saws:isCopierOf" active="PRS13972ZawaldaMaryam" passive="ESgbi001" cert="medium"/>
-
-                    <relation name="syriaca:different-from" active="PRS13972ZawaldaMaryam" passive="PRS12076ZawaldaMaryam"/>
+                    <relation name="lawd:hasAttestation" active="PRS13935MahtamaDengel" passive="MDDL001"/>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>
