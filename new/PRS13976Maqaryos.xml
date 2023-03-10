@@ -1,13 +1,13 @@
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13972ZawaldaMaryam" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13976Maqaryos" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Zawalda Māryām</title>
+                <title>ማቃርዮስ</title>
                 <editor role="generalEditor" key="AB"/>
-                <editor key="DN"/>
+                <editor key="CH"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
             <publicationStmt>
@@ -38,28 +38,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="DN" when="2023-01-26">Created entity</change>
+            <change who="CH" when="2023-02-02">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ዘወልደ፡ ማርያም፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Zawalda Māryām</persName>
+                    <persName xml:lang="gez" xml:id="n1">ማቃርዮስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Māqāryos</persName>
+                    <persName><roleName type="office">mamhər</roleName></persName>
                     <faith type="EOTC"/>
-                    <occupation type="literary"/>
+                    <occupation type="ecclesiastic"></occupation>
                     <birth/>
                     <death/>
-                    <floruit notBefore="1701" notAfter="1800"/>
+                    <floruit when="1728">Abbot of the church of 
+                        <placeName ref="LOC5843Tadbab">Tadbaba Māryām</placeName> in the time of metropolitan <persName ref="PRS6072Krestodo">Krəstodolos III</persName> and
+                        <persName ref="PRS2377Bakaffa">Bakāffā</persName>.
+                    </floruit>
                 </person>
-                <listRelation>
-                    <relation name="saws:isCopierOf" active="PRS13972ZawaldaMaryam" passive="ESdd017"/>
-
-                    <relation name="saws:isCopierOf" active="PRS13972ZawaldaMaryam" passive="ESgbi001" cert="medium"/>
-
-                    <relation name="syriaca:different-from" active="PRS13972ZawaldaMaryam" passive="PRS12076ZawaldaMaryam"/>
-                </listRelation>
             </listPerson><!---->
         </body>
     </text>
