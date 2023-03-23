@@ -45,11 +45,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Səmʿon</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">ስምዖን</persName>
+                    <persName xml:lang="gez" xml:id="n1">ስምዖን</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Səmʿon</persName>
                     <birth/>
                     <death/>
-                    <floruit>15th century</floruit>
+                    <floruit notBefore="1400" notAfter="1500">15th century</floruit>
                 </person>
                 <listRelation>
                     <relation name="saws:hasOwned" active="PRS13990Semon" passive="BMLor403"/>
