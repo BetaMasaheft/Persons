@@ -34,7 +34,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </abstract>
             <langUsage>
                 <language ident="en">English</language>
-                <language ident="gez">Gǝʿǝz</language>
+                <language ident="it">Italian</language>
             </langUsage>
         </profileDesc>
         <revisionDesc>
@@ -45,12 +45,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person>
-                    <persName xml:lang="gez" xml:id="n1">D. Valeriani</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="it" xml:id="n1">
+                        <addName>Prof</addName><forename>Domenico</forename><surname>Valeriani</surname>
+                    </persName>
                     <nationality type="Italy"/>
                     <birth/>
                     <death/>
-                    <floruit>19th century</floruit>
+                    <occupation type="academic"></occupation>
+                    <floruit notBefore="1830" notAfter="1837">mid-19th century in <placeName ref="LOC3096Floren"/></floruit>
                 </person>
             </listPerson><!---->
         </body>
