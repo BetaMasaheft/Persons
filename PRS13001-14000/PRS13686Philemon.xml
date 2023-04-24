@@ -1,0 +1,78 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13686Philemon" xml:lang="en" type="pers">
+    <teiHeader>
+        <fileDesc>
+
+            <titleStmt>
+                <title>Philemon</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="JG"/>
+                <funder>Work funded by the AHRC-DFG Project
+                  'Demarginalizing medieval Africa: Images, texts,
+                   and identity in early Solomonic Ethiopia (1270-1527)', grant ref. nos. AH/V002910/1 - 448410109</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+      </fileDesc>
+
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term key="NewTestament"/>
+
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change who="JG" when="2023-04-22">Created entity</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person sex="1" sameAs="wd:Q709209">
+                    <persName xml:lang="en" xml:id="n1">Philemon</persName>
+                    <persName xml:lang="gez" xml:id="n2">ፊልሞና፡</persName>
+                    <faith type="Christianity"/>
+                    <occupation>Bishop</occupation>
+
+
+                    <floruit>Philemon was an early Christian in Asia Minor who was the recipient of a private letter from Paul of Tarsus.
+                      This letter is known as Epistle to Philemon in the New Testament. He is known as a saint by several Christian churches along with his wife Apphia (or Appia).
+                      Philemon was a wealthy Christian and a minister (possibly a bishop) of the house church that met in his home.
+                    </floruit>
+
+
+                </person>
+
+
+            </listPerson><!---->
+            <div type="bibliography">
+
+            </div>
+        </body>
+    </text>
+</TEI>
