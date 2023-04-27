@@ -47,11 +47,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person>
                     <persName xml:lang="gez" xml:id="n1">ኪዳነ፡ ማርያም፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Kidāna Māryām</persName>
+                    <persName xml:lang="de" xml:id="n2"></persName>
+                    <floruit when="1868">Kidāna Māryām was an educated native of <placeName ref=""/> active in 
+                        <placeName ref="LOC3957Jerusa"/>
+                        at the time of <persName ref="PRS7812Peterman"/>'s stay there as the Prussian vice consul in <date when="1868">1868</date>. 
+                        He became
+                    Petermann's informant, supplying him with material on the study of Tigrinya and Amharic and engaging in the copying and 
+                    acquisition of manuscripts, also after Petermann's return to Europe (see).</floruit>
                 </person>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="PRS13996KidanaM" passive="PetermannIINachtrag42"/>
+                    <relation name="saws:isCopierOf" active="PRS13996KidanaM" passive="PetermannIINachtrag58"/>
+                    <relation name="saws:isCopierOf" active="PRS13996KidanaM" passive="PetermannIINachtrag59"/>
+                    <relation name="saws:isCopierOf" active="PRS13996KidanaM" passive="PetermannIINachtrag60"/>
+                    <relation name="saws:isCopierOf" active="PRS13996KidanaM" passive="PetermannIINachtrag62"/>
+                    <relation name="snap:ProfessionalRelationship" active="PRS13996KidanaM" passive="PRS7812Peterman"/>
                 </listRelation>
             </listPerson>
+            <div type="bibliography">
+                <listBibl type="secondary">
+                    <bibl><ptr target=""/><citedRange unit="page"></citedRange></bibl>
+                </listBibl>
+            </div>
         </body>
     </text>
 </TEI>
