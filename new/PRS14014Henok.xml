@@ -45,17 +45,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Henok</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
-                    <faith type="EOTC"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <persName xml:lang="gez" xml:id="n1">ሄኖክ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Henok</persName>
+                    <persName><roleName type="title">ʾAbuna</roleName></persName>
+                    <floruit notBefore="1700" notAfter="1978"/>
                 </person>
                 <listRelation>
-                    <relation name="saws:hasOwned" active="PRS14014Henok" passive=""/>
+                    <relation name="saws:hasOwned" active="PRS14014Henok" passive="BDLeu5"/>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>
