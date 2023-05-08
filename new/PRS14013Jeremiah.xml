@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Jeremiah</title>
+                <title>ʾabbā Jeremiah</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DE"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -30,7 +30,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <profileDesc>
             <creation/>
             <abstract>
-                <p/>
+                <p>
+                  ʾAbbā Jeremiah was an Egyptian monk. Several texts
+                  (amongst them, the <title ref="LIT1239Chroni">Chronicle of John of Nikiu</title>)
+                  attest his connection to the emperor
+                  <persName ref="PRS1908Anastasi">Anastasius</persName> (491-518) and to the 
+                  city of <placeName ref="LOC4764Memphi">Memphis</placeName>.
+                </p>
             </abstract>
             <t:langUsage xmlns:t="http://www.tei-c.org/ns/1.0">
                 <language ident="en">English</language>
@@ -46,13 +52,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPerson>
                 <person sex="1">
                     <persName xml:lang="en" xml:id="n1">Jeremiah</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n2"><roleName type="title">አባ፡</roleName> ኤርምያስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n2"><roleName type="title">ʾabbā</roleName>ʾErmǝyās<persName>
                     <faith type="Coptic"/>
                     <occupation type="ecclesiastic"/>
                     <nationality type="Coptic"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="450" notAfter="550">
                 </person>
             </listPerson><!---->
         </body>
