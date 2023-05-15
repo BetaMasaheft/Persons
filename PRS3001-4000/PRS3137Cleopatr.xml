@@ -35,22 +35,34 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <langUsage><language ident="en">English</language></langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
-         <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
+         <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
+         <change when="2023-05-03" who="CH">Added names.</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
-            <person sex="2">
+            <person sex="2" sameAs="wd:Q635">
                <persName>
-                  
-                  Cleopatra
+                  <persName xml:lang="en" xml:id="n1">Cleopatra</persName>
+                  <persName xml:lang="en" xml:id="n2">Cleopatra VII Philopator</persName>
+                  <persName xml:lang="grc" xml:id="n3">Κλεοπάτρα</persName>
+                  <persName xml:lang="grc" xml:id="n4">Κλεοπάτρα Φιλοπάτωρ</persName>
+                  <persName xml:lang="gez" xml:id="n5">እክላኡ፡ በጥራ፡</persName>
+                  <persName xml:lang="gez" type="normalized" corresp="#n5">ʾƎklāʾu Baṭrā</persName>
+                  <persName xml:lang="gez" xml:id="n6">አክላቡ፡ ባጥራ፡ </persName>
+                  <persName xml:lang="gez" type="normalized" corresp="#n6">ʾAklābu Bāṭrā</persName>
+                  <persName xml:lang="gez" xml:id="n7">አክላቡጥራ፡ </persName>
+                  <persName xml:lang="gez" type="normalized" corresp="#n6">ʾAklābuṭrā</persName>
                </persName>
                <nationality type="Egypt">Egypt</nationality>
                <occupation> empress </occupation>
+               <listRelation>
+                  <relation name="lawd:hasAttestation" active="PRS3137Cleopatr" passive="LIT1295Dersan#CommemorativeSane"/>
+                  <relation name="saws:hasParent" active="#PRS3137Cleopatr" passive="PRS14020Ptolemy"/>
+               </listRelation>
             </person>
          </listPerson>
       </body>
