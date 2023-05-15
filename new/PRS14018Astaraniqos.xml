@@ -32,10 +32,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <abstract>
                 <p/>
             </abstract>
-            <t:langUsage xmlns:t="http://www.tei-c.org/ns/1.0">
+            <langUsage>
                 <language ident="en">English</language>
                 <language ident="gez">Gǝʿǝz</language>
-            </t:langUsage>
+            </langUsage>
         </profileDesc>
         <revisionDesc>
             <change who="CH" when="2023-05-10">Created entity</change>
@@ -46,8 +46,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPerson>
                 <person sex="1">
                     <persName xml:lang="en" xml:id="n1">Aristarchus</persName>
-                    <persName xml:lang="gez" xml:id="n2">ʾAstarāniqos</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n2">አስተራኒቆስ፡</persName>
+                    <persName xml:lang="gez" xml:id="n2">አስተራኒቆስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n2">ʾAstarāniqos</persName>
                     <floruit>The hagiographic account places him in <placeName ref="LOC2177Cilici"/></floruit>
                 </person>
                 <listRelation>

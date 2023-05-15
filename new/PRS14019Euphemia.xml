@@ -32,10 +32,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <abstract>
                 <p/>
             </abstract>
-            <t:langUsage xmlns:t="http://www.tei-c.org/ns/1.0">
+            <langUsage>
                 <language ident="en">English</language>
                 <language ident="gez">Gǝʿǝz</language>
-            </t:langUsage>
+            </langUsage>
         </profileDesc>
         <revisionDesc>
             <change who="CH" when="2023-05-10">Created entity</change>
@@ -46,10 +46,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPerson>
                 <person sex="2">
                     <persName xml:lang="en" xml:id="n1">Euphemia</persName>
-                    <persName xml:lang="gez" xml:id="n2">ʾAfomyā</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n2">አፎምያ፡</persName>
-                    <persName xml:lang="gez" xml:id="n3">ʾAfamyā</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n3">አፈምያ፡</persName>
+                    <persName xml:lang="gez" xml:id="n2">አፎምያ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n2">ʾAfomyā</persName>
+                    <persName xml:lang="gez" xml:id="n3">አፈምያ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n3">ʾAfamyā</persName>
                     <floruit>The hagiographic account places her in <placeName ref="LOC2177Cilici"/></floruit>
                 </person>
                 <listRelation>

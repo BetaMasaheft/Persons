@@ -32,11 +32,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <abstract>
                 <p/>
             </abstract>
-            <t:langUsage xmlns:t="http://www.tei-c.org/ns/1.0">
+            <langUsage>
                 <language ident="en">English</language>
                 <language ident="gez">Gǝʿǝz</language>
                 <language ident="grc">Greek</language>
-            </t:langUsage>
+            </langUsage>
         </profileDesc>
         <revisionDesc>
             <change who="CH" when="2023-05-10">Created entity</change>
@@ -47,8 +47,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPerson>
                 <person sex="1" sameAs="wd:Q39991">
                     <persName xml:lang="en" xml:id="n1">Ptolemy XII Auletes</persName>
-                    <persName xml:lang="gez" xml:id="n2">Baṭlimos</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n2">በጥሊሞስ፡ </persName>
+                    <persName xml:lang="gez" xml:id="n2">በጥሊሞስ፡ </persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n2">Baṭlimos</persName>
                     <persName xml:lang="grc" xml:id="n3">Ptolemaios Neos Dionysos Philopatōr Philadelphos</persName>
                     <persName xml:lang="grc" type="normalized" corresp="#n2">Πτολεμαῖος Νέος Διόνυσος Φιλοπάτωρ Φιλάδελφος</persName>
                     <persName xml:lang="grc" xml:id="n4">Ptolemaios Auletes</persName>
