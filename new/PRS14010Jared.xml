@@ -6,7 +6,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <fileDesc>
 
             <titleStmt>
-                <title>Nathan the Prophet</title>
+                <title>Jared</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="JG"/>
                 <funder>Work funded by the AHRC-DFG Project
@@ -53,9 +53,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPerson>
-                <person sex="1">
+                <person sex="1" sameAs="wd:Q927410">
                     <persName xml:lang="en" xml:id="n1">Jared</persName>
                     <persName xml:lang="gez" xml:id="n2">ያሬድ</persName>
+                    <persName xml:lang="gez" corresp="#n2" type="normalized">Yāred</persName>
                     <faith type="Judaism"/>
                     <occupation>Patriarch</occupation>
 
