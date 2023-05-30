@@ -47,7 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person sex="1">
                    
                     <persName xml:lang="gez" xml:id="n1">ኤራቅሊስ</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"> Ǝrāqis</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1"> <idno>MS GG no. 00044</idno>ʿErāqis</persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
                     <birth/>
@@ -55,9 +55,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <floruit/>
                 </person>
                 <listRelation>
-                    <relation name="saws:isCopierOf" active="PRS14029Eraqlis" passive="LIT6802SobaAshafaC"/>
+                    <relation name="saws:isCopierOf" active="PRS14029Eraqlis" passive="MS GG no. 00044"/>
                 </listRelation>
-            </listPerson>  <!--Gunda Gunde-->
+            </listPerson>  
         </body>
     </text>
 </TEI>
