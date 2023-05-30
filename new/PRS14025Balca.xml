@@ -47,23 +47,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="am" xml:id="n1">ባልቻ</persName>
-                    <persName xml:lang="am" type="normalized" corresp="#n1">Bālčā</persName>
-                    <persName xml:lang="am" xml:id="n2">ባልቻ፡ ሣፎ፡</persName>
-                    <persName xml:lang="am" type="normalized" corresp="#n2">Bālčā Śāfo</persName>
-                    <persName xml:lang="am" xml:id="n3">ደጃዝማች፡ ባልቻ፡</persName>
-                    <persName xml:lang="am" type="normalized" corresp="#n3">daǧǧāzmāč Bālčā</persName>
-                    <persName xml:lang="am" xml:id="n4">ደጃዝማች፡ ባልቻ፡ ሣፎ፡</persName>
-                    <persName xml:lang="am" type="normalized" corresp="#n4">daǧǧāzmāč Bālčā Śāfo</persName>
-                    <persName xml:lang="am" xml:id="n5" type="horse">አባ፡ ነፍሶ፡</persName>
-                    <persName xml:lang="am" type="normalized" corresp="#n5">Abbā Nafso</persName>
-                    <persName xml:lang="gez" xml:id="n6" type="baptismal">ተክለ፡ ሚካኤል፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n6">Takla Mikāʾel</persName>
+                    <persName xml:lang="am" xml:id="n1"><roleName type="title">ደጃዝማች፡</roleName> ባልቻ፡</persName>
+                    <persName xml:lang="am" type="normalized" corresp="#n1"><roleName type="title">daǧǧāzmāč</roleName>Bālčā</persName>
+                    <persName xml:lang="am" xml:id="n2"><roleName type="title">ደጃዝማች፡</roleName> ባልቻ፡ ሣፎ፡</persName>
+                    <persName xml:lang="am" type="normalized" corresp="#n2"><roleName type="title">daǧǧāzmāč</roleName> Bālčā Śāfo</persName>
+                    <persName xml:lang="am" xml:id="n3" type="horse"><roleName type="title">አባ፡ </roleName>ነፍሶ፡</persName>
+                    <persName xml:lang="am" type="normalized" corresp="#n3"><roleName type="title">Abbā</roleName> Nafso</persName>
+                    <persName xml:lang="gez" xml:id="n4" type="baptismal">ተክለ፡ ሚካኤል፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n4">Takla Mikāʾel</persName>
                     <t:faith xmlns:t="http://www.tei-c.org/ns/1.0" type="EOTC"/>
                     <occupation type="military"/>
                     <t:nationality xmlns:t="http://www.tei-c.org/ns/1.0" type="Ethiopia"/>
                     <t:birth xmlns:t="http://www.tei-c.org/ns/1.0">1860</t:birth>
-                    <death>6th November 1963</death>
+                    <death>6th November 1936</death>
                     <floruit/>
                 </person>
                 <listRelation>
