@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Haile Selasse</title>
+                <title>Ḫāyla Sǝlāsse</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="AY"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -45,15 +45,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Haile Selassie</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
-                    <faith type=""/>
+                    <persName xml:lang="gez" xml:id="n1">ኃይለ ስላሴ</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Ḫāyla Sǝlāsse</persName>
+                    <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
                     <birth/>
                     <death/>
-                    <floruit/>
+                    <floruit notBefore="1900" notAfter="2000"/>
+                    <note>The persion mentioned as a scribe of the the manuscript.</note>
                 </person>
             </listPerson><!---->
         </body>
+        
+        
+        
     </text>
 </TEI>
