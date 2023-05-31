@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Fālibulā and Kāynā</title>
+                <title>Fālibunā and Kāynā</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="CH"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -46,12 +46,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <personGrp>
-                    <persName xml:lang="gez" xml:id="n1">ፋሊቡላ፡ ወካይና፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Fālibulā wa-Kāynā</persName>
-                    <persName xml:lang="gez" xml:id="n2">ፋሊቡላ፡ ወከይና፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n2">Fālibula wa-Kāynā</persName>
-                    <persName xml:lang="gez" xml:id="n3">ፋሊቡላ፡ ወኮይና፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n3">Fālibula wa-Kāynā</persName>
+                    <persName xml:lang="gez" xml:id="n1">ፋሊቡና፡ ወካይና፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Fālibunā wa-Kāynā</persName>
+                    <persName xml:lang="gez" xml:id="n2">ፋሊቡና፡ ወከይና፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n2">Fālibunā wa-Kaynā</persName>
+                    <persName xml:lang="gez" xml:id="n3">ፋሊቡና፡ ወኮይና፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n3">Fālibunā wa-Koynā</persName>
                     <persName xml:lang="la" xml:id="n4">Phalibuna et Caina</persName>
                     <birth/>
                     <death/>
@@ -60,8 +60,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="PRS14034FalibulaKayna" passive="LIT2375Synaxa"/>
                     <relation name="lawd:hasAttestation" active="PRS14034FalibulaKayna" passive="BMLacq680"/>
+                    <relation name="lawd:hasAttestation" active="PRS14034FalibulaKayna" passive="BDLbruce82"/>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>
