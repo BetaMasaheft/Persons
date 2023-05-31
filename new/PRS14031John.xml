@@ -53,12 +53,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <faith type="Coptic"/>
                     <occupation type="ecclesiastic">Bishop of Nikiu</occupation>
                     <nationality type="Egypt"/>
-                    <birth>ca. 540</birth>
-                    <death>610 to 620</death>
+                    <birth when="0540" cert="medium"/>
+                    <death atLeast="0610" atMost="0620"/>
                     <floruit/>
                 </person>
                 <listRelation>
-                    <relation name="saws:isAttributedToAuthor" active="PRS14031John" passive="LIT2375Synaxa"/>                    
+                    <relation name="saws:isAttributedAuthorOf" active="PRS14031John" passive="LIT2375Synaxa"/>                    
+                    <relation name="skos:exactMatch" active="PRS14031John" passive="https://atlas.paths-erc.eu/places/132"></relation>                    
                 </listRelation>
             </listPerson>
         </body>
