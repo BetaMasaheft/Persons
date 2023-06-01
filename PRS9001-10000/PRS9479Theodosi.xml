@@ -46,10 +46,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <listPerson>
             <person sex="1" sameAs="wd:Q46696">
                <persName>
-                  <persName xml:lang="gez" xml:id="n1">Tewodosyos</persName>
-                  <persName xml:lang="gez" type="normalized" corresp="#n1">ቴዎደስዮስ፡</persName>
-                  <persName xml:lang="en" xml:id="n2">Theodosius I</persName>
+                  <persName xml:lang="en" xml:id="n1">Theodosius I</persName>
+                  <persName xml:lang="gez" xml:id="n2">ቴዎደስዮስ፡</persName>
+                  <persName xml:lang="gez" type="normalized" corresp="#n2">Tewodosyos</persName> 
                   <persName xml:lang="grc" xml:id="n3">Θεοδόσιος</persName>
+                  <persName xml:lang="grc" corresp="#n3" type="normalized">Theodosios</persName>
                </persName>
                <listRelation>
                   <relation name="saws:hasChild" active="PRS9479Theodosi" passive="PRS2016Arcadius"/>
