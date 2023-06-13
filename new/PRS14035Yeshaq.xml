@@ -1,11 +1,11 @@
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13865Simmakos" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS14035Yeshaq" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Simmākos</title>
+                <title>Yǝsḥaq</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DN"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -32,31 +32,42 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <abstract>
                 <p/>
             </abstract>
-            <langUsage>
+            <t:langUsage xmlns:t="http://www.tei-c.org/ns/1.0">
                 <language ident="en">English</language>
                 <language ident="gez">Gǝʿǝz</language>
-            </langUsage>
+            </t:langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="DN" when="2022-08-19">Created entity</change>
+            <change who="DN" when="2023-06-11">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ሲማኮስ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Simmākos</persName>
+                    <persName xml:lang="gez" xml:id="n1">ይስሐቅ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Yǝsḥaq</persName>
                     <faith type="EOTC"/>
                     <occupation type="literary"/>
+                    <nationality type="Ethiopia"/>
                     <birth/>
                     <death/>
-                    <floruit notBefore="1400" notAfter="1500"/>
+                    <floruit notBefore="1500" notAfter="1699"/>
                 </person>
                 <listRelation>
-                    <relation name="saws:isCopierOf" active="PRS13865Simmakos" passive="BNFabb58"/>
+                    <relation name="lawd:hasAttestation" active="PRS14035Yeshaq" passive="BNFabb39"/>
+                    <relation name="dcterms:creator" active="PRS14035Yeshaq" passive="LIT4117Interpretation" cert="medium">
+                        <desc>Yǝsḥaq, the monk, is the name of the compiler (<foreign xml:lang="gez"> ዘአስተጋባእክዎ፡</foreign>) of the work <ref type="work" corresp="LIT4117Interpretation"/> 
+                            which is provided in only one of the known witnesses (<ref type="mss" corresp="BNFabb39"/>.</desc></relation>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
+            <listBibl type="secondary">
+                <bibl> 
+                    <ptr target="bm:Cowley1988Exeget"/>
+                    <citedRange unit="page">116-117</citedRange>
+                    
+                </bibl> 
+            </listBibl>
         </body>
     </text>
 </TEI>
