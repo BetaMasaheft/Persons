@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Abeto Habta Maryam</title>
+                <title>ʾAbeto Habta Māryām</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="GS"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -45,13 +45,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">አቤቶ ሀብተ ማርያም</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"> ʾAbeto Habta Māryām</persName>
+                    <persName type="alt"><roleName type="title">አቤቶ፡ </roleName> ሀብተ፡ማርያም፡</persName>
+                    <persName type="alt"><roleName type="title">ʾAbeto</roleName> Habta Māryām</persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1632" notAfter="1706"/>
                 </person>
                 <listRelation>
                     <relation name="saws:hasOwned" active="PRS14042AbetohabtaMaryam" passive="CCRG001"/>
