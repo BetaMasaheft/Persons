@@ -45,8 +45,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName type="alt"><roleName type="title">አቤቶ፡ </roleName> ሀብተ፡ማርያም፡</persName>
-                    <persName type="alt"><roleName type="title">ʾAbeto</roleName> Habta Māryām</persName>
+                    <persName xml:lang="gez" xml:id="n1" type="birth">ሀብተ፡ ማርያም፡</persName>
+                    <persName xml:lang="gez" corresp="#n1" type="normalized">Habta Māryām</persName>
+    <persName>
+                        <roleName type="title">ʾAbeto</roleName>
+                    </persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
                     <floruit notBefore="1632" notAfter="1706"/>
