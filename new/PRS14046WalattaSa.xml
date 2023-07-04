@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Walatta Sanbat</title>
+                <title>Walatta Sanbat ʾƎngwaččā</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="MV"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -45,14 +45,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="2">
-                    <persName xml:lang="gez" xml:id="n1">Walatta Sanbat</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
-                    <faith type=""/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <persName xml:lang="gez" xml:id="n1">ወለተ፡ ኪዳን፡ እንጐቻ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walatta Sanbat ʾƎngwaččā</persName>
+                    <floruit notBefore="1900" notAfter="2006"/>
                 </person>
-            </listPerson><!---->
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="PRS14046WalattaSa" passive="BDLeu10"><desc>Walatta Sanbat ʾƎngwaččā
+                        is mentioned in the supplication formulas within each text.</desc></relation>
+                </listRelation>
+            </listPerson>
         </body>
     </text>
 </TEI>
