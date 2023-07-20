@@ -30,7 +30,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <profileDesc>
             <creation/>
             <abstract>
-                <p>Wrote down the rules of the convent of the Ethiopian monastic community in Jerusalem.</p>
+                <p/>
             </abstract>
             <langUsage>
                 <language ident="en">English</language>
@@ -51,10 +51,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <occupation type="ecclesiastic"/>
                     <birth/>
                     <death/>
-                    <floruit>1320ies</floruit>
+                    <floruit notBefore="1270" notAfter="1370">1320ies</floruit>
                 </person>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="PRS14047GabraKrestos" passive="BMLor148"/>
+                    <relation name="syriaca:has-relation-to-place" active="PRS14047GabraKrestos" passive="LOC3957Jerusa"/>
                 </listRelation>
             </listPerson>
         </body>
