@@ -47,15 +47,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ወልደ፡ ጊዮርጊስ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Walda Giyorgis</persName>
-                    <faith type=""/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <persName><roleName type="title">dabtarā</roleName></persName>
+                    <floruit notBefore="1646" notAfter="1935"/>
                 </person>
                 <listRelation>
-                    <relation name="saws:hasOwned" active="PRS14063WaldaG" passive=""/>
+                    <relation name="saws:hasOwned" active="PRS14063WaldaG" passive="BAVet166"/>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>
