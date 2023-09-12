@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Yosab</title>
+            <title>ʾIyosāb</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -32,26 +32,43 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage><language ident="en">English</language>   <language ident="gez">Gǝʿǝz</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change who="DR" when="2023-09-12">Added information provided by Augustine Dickinson</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
+               <persName xml:lang="gez" xml:id="n1" type="monastic">ኢዮሳብ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">ʾIyosāb</persName>
+               <persName xml:lang="gez" xml:id="n2" type="monastic">ዮሳብ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Yosāb</persName>
                <persName>
-                  
-                  Yosab
+                  <roleName type="title">ʾabbā</roleName>
                </persName>
-               <occupation> abbot of Gundä Gunde  </occupation>
+               <occupation type="ecclesiastic">abbot</occupation>
+               <note>Commemorated on the date of his death, <date type="diesNatalis" ref="ethiocal:Hamle22">22 Ḥamle</date>,
+                  in the Synaxarium, which is also confirmed by his gadl.</note>
+               <residence>
+                  <placeName ref="LOC3653GundaG">Gunda Gunde</placeName>
+               </residence>
             </person>
          </listPerson>
+         <div type="bibliography">
+            <listBibl type="secondary">
+               <bibl> 
+                  <ptr target="bm:Mordini1953GG"/>
+                  <citedRange>59</citedRange>
+               </bibl>
+            </listBibl>
+         </div>
       </body>
    </text>
 </TEI>
