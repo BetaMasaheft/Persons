@@ -53,11 +53,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <nationality type="Ethiopia"/>
                     <birth/>
                     <death/>
-                    <floruit/>
+                    <floruit notBefore="1900" notAfter="1950" />
+                    <residence>
+                        <placeName ref="LOC4272Ledata"/>
+                    </residence>
                 </person>
                 <listRelation>
                     <relation name="saws:isCopierOf" active="PRS14127Yohannes" passive="BNFet616"/>
-                    <relation name="saws:isRelatedTo" active="PRS14127Yohannes" passive="LOC4272Ledata"/>
+                    <relation name="syriaca:has-relation-to-place" active="PRS14127Yohannes" passive="LOC4272Ledata"/>
                 </listRelation>
             </listPerson><!---->
         </body>
