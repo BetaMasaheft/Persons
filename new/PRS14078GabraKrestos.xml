@@ -27,27 +27,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <encodingDesc>
             <p>A digital born TEI file</p>
         </encodingDesc>
-        <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+        <profileDesc>
             <creation/>
-            <t:abstract>
+            <abstract>
                 <p/>
-            </t:abstract>
-            <t:langUsage>
-                <t:language ident="en">English</t:language>
-                <t:language ident="gez">Gǝʿǝz</t:language>
-            </t:langUsage>
-        </t:profileDesc>
-        <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
             <change who="CH" when="2023-09-06">Created entity</change>
-        </t:revisionDesc>
+        </revisionDesc>
     </teiHeader>
-    <t:text xmlns:t="http://www.tei-c.org/ns/1.0">
+    <text>
         <body>
-            <t:listPerson>
+            <listPerson>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ገብረ፡ ክርስቶስ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra Krəstos</persName>
-                    <persName><roleName type="title">ʾAbbā</roleName></persName>
+                    <persName><roleName type="title">ʾabbā</roleName></persName>
                     <floruit notBefore="1300" notAfter="1550"/>
                 </person>
                 <listRelation>
@@ -63,7 +63,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <relation name="dc:relation" active="PRS14078GabraKrestos" passive="PRS4279GabraKr"><desc>Possibly the same person
                         as <persName ref="PRS4279GabraKr"/>.</desc></relation>
                 </listRelation>
-            </t:listPerson><!---->
+            </listPerson><!---->
         </body>
-    </t:text>
+    </text>
 </TEI>

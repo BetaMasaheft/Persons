@@ -32,10 +32,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <abstract>
                 <p/>
             </abstract>
-            <t:langUsage xmlns:t="http://www.tei-c.org/ns/1.0">
+            <langUsage>
                 <language ident="en">English</language>
                 <language ident="gez">Gǝʿǝz</language>
-            </t:langUsage>
+            </langUsage>
         </profileDesc>
         <revisionDesc>
             <change who="CH" when="2023-10-09">Created entity</change>
@@ -44,10 +44,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPerson>
-                <t:person xmlns:t="http://www.tei-c.org/ns/1.0" sex="1">
+                <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ይስሐቅ</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Yəsḥaq</persName>
-                </t:person>
+                </person>
                 <listRelation>
                     <relation name="snap:SonOf" active="PRS14103Ishaq" passive="PRS14102Estifanos"/>
                     <relation name="lawd:hasAttestation" active="PRS14103Ishaq" passive="Tanasee1#a22"/>

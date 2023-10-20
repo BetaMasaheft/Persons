@@ -24,24 +24,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <p/>
             </sourceDesc>
         </fileDesc>
-        <t:encodingDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+        <encodingDesc>
             <p>A digital born TEI file</p>
-        </t:encodingDesc>
+        </encodingDesc>
         <profileDesc>
             <creation/>
             <abstract>
                 <p/>
             </abstract>
-            <t:langUsage xmlns:t="http://www.tei-c.org/ns/1.0">
-                <t:language ident="en">English</t:language>
-                <t:language ident="gez">Gǝʿǝz</t:language>
-            </t:langUsage>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
         </profileDesc>
-        <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+        <revisionDesc>
             <change who="CH" when="2023-10-20">Created entity</change>
-        </t:revisionDesc>
+        </revisionDesc>
     </teiHeader>
-    <t:text xmlns:t="http://www.tei-c.org/ns/1.0">
+    <text>
         <body>
             <listPerson>
                 <person sex="1">
@@ -55,5 +55,5 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </listRelation>
             </listPerson><!---->
         </body>
-    </t:text>
+    </text>
 </TEI>

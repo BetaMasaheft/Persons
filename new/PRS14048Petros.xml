@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <t:title xmlns:t="http://www.tei-c.org/ns/1.0">ጴጥሮስ</t:title>
+                <title>ጴጥሮስ</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="CH"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -27,23 +27,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <encodingDesc>
             <p>A digital born TEI file</p>
         </encodingDesc>
-        <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
-            <t:creation/>
-            <t:abstract>
+        <profileDesc>
+            <creation/>
+            <abstract>
                 <p/>
-            </t:abstract>
-            <t:langUsage>
-                <t:language ident="en">English</t:language>
-                <t:language ident="gez">Gǝʿǝz</t:language>
-            </t:langUsage>
-        </t:profileDesc>
-        <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
-            <t:change who="CH" when="2023-07-20">Created entity</t:change>
-        </t:revisionDesc>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="CH" when="2023-07-20">Created entity</change>
+        </revisionDesc>
     </teiHeader>
-    <t:text xmlns:t="http://www.tei-c.org/ns/1.0">
+    <text>
         <body>
-            <t:listPerson>
+            <listPerson>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ጴጥሮስ</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Ṗeṭros</persName>
@@ -53,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <listRelation>
                     <relation name="saws:isCopierOf" active="PRS14048Petros" passive="Tanasee1"/>
                 </listRelation>
-            </t:listPerson>
+            </listPerson>
         </body>
-    </t:text>
+    </text>
 </TEI>
