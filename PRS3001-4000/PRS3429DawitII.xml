@@ -42,6 +42,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                                                   google spreadsheet </change>
          <change who="SG" when="2016-07-20">Complete</change>
          <change who="SG" when="2017-01-31">addition to the content</change>
+         <change when="2023-10-10" who="CH">added one more regnal name</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -55,7 +56,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                </persName>
                <persName xml:lang="gez" xml:id="n2" type="regnal">ቈስጠንጢኖስ፡</persName>
                      <persName xml:lang="gez" corresp="#n2" type="normalized">Qʷasṭanṭinos</persName>
-
+               <persName xml:lang="gez" xml:id="n3" type="regnal">ቈስጠንጢኖስ፡ ሠርፀ፡ እስራኤል፡</persName>
+               <persName xml:lang="gez" corresp="#n3" type="normalized">Qʷasṭanṭinos Śarḍa ʾƎsrāʾel</persName>
                   <occupation type="ruler">Emperor</occupation>
 
                <floruit notBefore="1380" notAfter="1413">He succeeded
@@ -71,6 +73,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                <listRelation>
                   <relation name="snap:SonOf" active="PRS3429DawitII" passive="PRS8595SayfaAr"/>
                   <relation name="snap:BrotherOf" active="PRS3429DawitII" passive="PRS7559NewayaM"/>
+                  <relation name="snap:SonOf" active="PRS3429DawitII" passive="PRS14166LazabWarqa"/>
                </listRelation>
          </listPerson>
          <listBibl type="secondary">

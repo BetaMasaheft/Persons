@@ -42,6 +42,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                                                   google spreadsheet </change>
          <change who="SG" when="2016-07-19">complete the record</change>
          <change who="SG" when="2019-08-19">complete the record</change>
+         <change when="2023-07-19" who="CH">add name and relation</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -49,12 +50,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <listPerson>
             <person sex="1" sameAs="wd:Q736112">
              
-                  <persName xml:lang="gez" xml:id="n1" type="birth">ሰይፈ፡ አርዐድ፡</persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized">Sayfa ʾArʿad</persName>
+                  <persName xml:lang="gez" xml:id="n1.1" type="birth">ሰይፈ፡ አርዐድ፡</persName>
+               <persName xml:lang="gez" corresp="#n1.1" type="normalized">Sayfa ʾArʿad</persName>
                   <persName>
                   <roleName type="title">ʾaṣe</roleName>
                </persName>
-                  <persName xml:lang="gez" xml:id="n2.1" type="regnal">ንዋየ፡ ክርስቶስ፡</persName>
+               <persName xml:lang="gez" xml:id="n1.2" type="birth">ሰይፈ፡ ዐርድ፡</persName>   
+               <persName xml:lang="gez" corresp="#n1.2" type="normalized">Sayfa ʿArʾad</persName>
+               <persName xml:lang="gez" xml:id="n2.1" type="regnal">ንዋየ፡ ክርስቶስ፡</persName>
                   <persName xml:lang="gez" corresp="#n2.1" type="normalized">Nǝwāya Krǝstos</persName>
                <persName xml:lang="gez" xml:id="n2.2" type="regnal">ቈስጠንጢኖስ፡</persName>
                   <persName xml:lang="gez" corresp="#n2.2" type="normalized">Qʷasṭanṭinos</persName>
@@ -70,6 +73,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <listRelation>
                <relation name="snap:SonOf" active="PRS8595SayfaAr" passive="PRS1854Amdase"/>
                <relation name="snap:GrandsonOf" active="PRS8595SayfaAr" passive="PRS10111WedemR"/>
+               <relation name="betmas:husbandOf" active="PRS8595SayfaAr" passive="PRS14166LazabWarqa"/>
                 </listRelation>
          </listPerson>
          

@@ -1,0 +1,62 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS14102Estifanos" xml:lang="en" type="pers">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>እስጢፋኖስ</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="CH"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <t:langUsage xmlns:t="http://www.tei-c.org/ns/1.0">
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </t:langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="CH" when="2023-10-09">Created entity</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <t:person xmlns:t="http://www.tei-c.org/ns/1.0" sex="1">
+                    <persName xml:lang="gez" xml:id="n1">እስጢፋኖስ</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">ʾƎsṭifānos</persName>
+                </t:person>
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="PRS14102Estifanos" passive="Tanasee1#a22"/>
+                    <relation name="snap:FatherOf" active="PRS14102Estifanos" passive="PRS14103Ishaq"/>
+                    <relation name="dc:relation" active="PRS14102Estifanos" passive="PRS14095Estifanos"><desc>Possibly the same as 
+                        the claimed donator of church utensils mentioned above in <ref target="#e16"/>.</desc></relation>
+                    <relation name="dc:relation" active="PRS14102Estifanos" passive="PRS14094Estifanos"><desc>Possibly the same as 
+                        the claimed owner of the codex mentioned above in <ref target="#e15"/>.</desc></relation>
+                </listRelation>
+            </listPerson><!---->
+        </body>
+    </text>
+</TEI>
