@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>አቤቶ፡ ሰለባስትርዮስ፡</title>
+                <title>ሰለባስትርዮስ፡</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="CH"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -45,12 +45,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">አቤቶ፡ ሰለባስትርዮስ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Abeto Salabāstəryos</persName>
+                    <persName xml:lang="gez" xml:id="n1">ሰለባስትርዮስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Salabāstəryos</persName> 
                     <persName><roleName type="title">ʾalaqāw</roleName></persName>
+                    <persName><roleName type="title">ʾabeto</roleName></persName>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS14163AbetoSalabaster" passive="Tanasee1#a31"/>
+                    <relation name="lawd:hasAttestation" active="PRS14163AbetoSalabaster" passive="Tanasee1"/>
                 </listRelation>
             </listPerson><!---->
         </body>

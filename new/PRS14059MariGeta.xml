@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>መሪ፡ ጌታ፡ ገብረ፡ ሚካኤል፡</title>
+                <title>ገብረ፡ ሚካኤል፡</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="CH"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -45,14 +45,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person>
-                    <persName xml:lang="gez" xml:id="n1">መሪ፡ ጌታ፡ ገብረ፡ ሚካኤል፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Mari Getā Gabra Mikāʾel</persName>
+                    <persName xml:lang="gez" xml:id="n1">ገብረ፡ ሚካኤል፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra Mikāʾel</persName>
+                    <persName><roleName type="title">mari getā</roleName></persName>
                     <birth/>
                     <death/>
                     <floruit notBefore="1600" notAfter="1900"/>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS14059MariGeta" passive="Tanasee1#a7"/>
+                    <relation name="lawd:hasAttestation" active="PRS14059MariGeta" passive="Tanasee1"/>
                 </listRelation>
             </listPerson><!---->
         </body>
