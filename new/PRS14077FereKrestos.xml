@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ፍሬ፡ ክርስቶስ፡</title>
+                <title>Fəre Krəstos</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="CH"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -47,11 +47,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person>
                     <persName xml:lang="gez" xml:id="n1">ፍሬ፡ ክርስቶስ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Fəre Krəstos</persName>
-                    <persName><roleName type="title">ራቍ፡ ማስራ፡</roleName></persName>
+                    <persName xml:lang="gez" type="normalized"><roleName type="title">rāqʷ māsrā</roleName></persName>
                     <floruit notBefore="1450" notAfter="1550"/>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS14077FereKrestos" passive="Tanasee1#a8 #e21"/>
+                    <relation name="lawd:hasAttestation" active="PRS14077FereKrestos" passive="Tanasee1"/>
                     <relation name="dc:relation" active="PRS14077FereKrestos" passive="PRS11115FereKr"><desc>Possibly the same person as 
                         <persName ref="PRS11115FereKr"/>, who is attested in Egypt shortly after.</desc></relation>
                 </listRelation>
