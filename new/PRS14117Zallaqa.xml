@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ዘለቀ</title>
+                <title>Zallaqa</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="CH"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -47,10 +47,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ዘለቀ</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Zallaqa</persName>
-                    <occupation type="political">blāttā</occupation>
+                    <persName xml:lang="gez" type="normalized"><roleName type="title">blāttā</roleName></persName>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS14117Zallaqa" passive="Tanasee1#a19"/>
+                    <relation name="lawd:hasAttestation" active="PRS14117Zallaqa" passive="Tanasee1"/>
                 </listRelation>
             </listPerson><!---->
         </body>
