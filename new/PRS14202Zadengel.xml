@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS14153TaklaGabreel" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS14202Zadengel" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Takla Gabrəʾel</title>
+                <title>Zadəngəl</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="CH"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -38,21 +38,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="CH" when="2023-10-19">Created entity</change>
+            <change who="CH" when="2023-11-17">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ተክለ፡ ገብርኤል፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Takla Gabrəʾel</persName>
-                    <occupation type="ecclesiastic">raqmasrā</occupation>
-                    <occupation type="ecclesiastic">qes gabaz</occupation>
+                    <persName xml:lang="gez" xml:id="n1">ዘድንግል</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Zadəngəl</persName>
                     <floruit notBefore="1600" notAfter="1750">17th to first half of 18th century</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS14153TaklaGabreel" passive="Tanasee1"/>
+                    <relation name="lawd:hasAttestation" active="PRS14202Zadengel" passive="Tanasee1"/>
+                    <relation name="snap:SonOf" active="PRS14202Zadengel" passive="PRS14129Damye"/>
                 </listRelation>
             </listPerson><!---->
         </body>
