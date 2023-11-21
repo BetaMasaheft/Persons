@@ -47,11 +47,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ቶማስ</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Tomās</persName>
-                    <floruit notBefore="1600" notAfter="1750">17th or first half of 18th century</floruit>
                 </person>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="PRS14203Tomas" passive="Tanasee1"/>
                     <relation name="snap:BrotherOf" active="PRS14203Tomas" passive="PRS14204Zayohannes"/>
+                    <relation name="dc:relation" active="PRS14203Tomas" passive="PRS14210Tomas"><desc>Possibly the same as
+                        <ref target="PRS14210"/>, who is mentioned in another addition in the same manuscript 
+                        <ref target="#Tanasee1"/></desc></relation>
                 </listRelation>
             </listPerson><!---->
         </body>
