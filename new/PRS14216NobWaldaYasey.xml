@@ -45,16 +45,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Nob Walda Yāsəy</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
-                    <faith type=""/>
-                    <t:nationality xmlns:t="http://www.tei-c.org/ns/1.0" type="Israel/Palestine"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <persName xml:lang="gez" xml:id="n1">ኖብ፡ ወልደ፡ ያስይ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Nob Walda Yāsəy</persName>
+                    <persName xml:lang="gez" type="normalized"><roleName type="title">ʾabbā</roleName></persName>
+                    <nationality type="Israel/Palestine">Galilee</nationality>
+                    <floruit notBefore="1400" notAfter="1450">First half of 15th century</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS14216NobWaldaYasey" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS14216NobWaldaYasey" passive="Tanasee1"/>
                 </listRelation>
             </listPerson><!---->
         </body>
