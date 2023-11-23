@@ -30,7 +30,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <profileDesc>
             <creation/>
             <abstract>
-                <p/>
+                <p>Presumably a follower of Jesus.</p>
             </abstract>
             <langUsage>
                 <language ident="en">English</language>
@@ -47,9 +47,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person sex="2" corresp="Q238261 ">
                     <persName xml:lang="gez" xml:id="n1">ሳራ</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Sārā</persName>
+                    <floruit notBefore="0001" notAfter="0100">First century</floruit>
                 </person>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="PRS14218Sara" passive="BMLacq384"/>
+                    <relation name="dc:relation"><desc></desc></relation>
                 </listRelation>
             </listPerson><!---->
         </body>

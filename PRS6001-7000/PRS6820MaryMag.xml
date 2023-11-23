@@ -51,10 +51,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
-            <person sex="2">
-               <persName xml:lang="en" xml:id="n1">Mary Magdalene</persName>
-               <persName xml:lang="gez" xml:id="n2">ማርያም፡ መግደላዊት፡</persName>
-               <persName xml:lang="gez" corresp="#n2" type="normalized">Māryām Magdalāwit</persName>
+            <person sex="2" corresp="wd:Q63070">
+               <persName xml:lang="gez" xml:id="n1">ማርያም፡ መግደላዊት፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Māryām Magdalāwit</persName>
+               <persName xml:lang="en" corresp="#n1" type="main">Mary Magdalene</persName>
             </person>
          </listPerson>
       </body>
