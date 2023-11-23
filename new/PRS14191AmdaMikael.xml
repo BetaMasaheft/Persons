@@ -44,14 +44,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPerson>
-                <person>
+                <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">አምደ፡ ሚካኤል፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAmda Mikāʾel</persName>
                     <floruit notBefore="1500" notAfter="1800">16th to 18th century</floruit>
                 </person>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="PRS14191AmdaMikael" passive="Tanasee1"/>
-                    <relation name="saws:hasChild" active="PRS14191AmdaMikael" passive="PRS14190AsrataMaryam"/>
+                    <relation name="snap:FatherOf" active="PRS14191AmdaMikael" passive="PRS14190AsrataMaryam"/>
                 </listRelation>
             </listPerson><!---->
         </body>
