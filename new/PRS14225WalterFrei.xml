@@ -44,9 +44,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPerson>
-                <person sex="1">
-                    <persName xml:lang="de" xml:id="n1">Walter Frei</persName>
-                    <occupation type="academic">Professor for History of the Church and dogmas at the university of Bern</occupation>
+                <person sex="1" sameAs="wd:Q95326507">
+                    <persName><forename>Walter</forename><surname>Frei</surname></persName>
+                    <occupation type="academic">Professor for History of the Church and dogmas at the university of 
+                        <placeName ref="LOC1868Bern"/></occupation>
                     <faith type="Catholicism"/>
                     <birth>1927-03-17</birth>
                     <death>2022-04-02</death>
