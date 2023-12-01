@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS14086Qalementos" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS14210Tomas" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Qalemǝnṭos</title>
+                <title>Tomās</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="CH"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -38,19 +38,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="CH" when="2023-09-29">Created entity</change>
+            <change who="CH" when="2023-11-21">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person>
-                    <persName xml:lang="gez" xml:id="n1">ቀሌምንጦስ</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Qalemǝnṭos</persName>
+                <person sex="1">
+                    <persName xml:lang="gez" xml:id="n1">ቶማስ</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Tomās</persName>
+                    <occupation type="ecclesiastic">qes gabaz</occupation>
                     <floruit notBefore="1350" notAfter="1450">Second half of 14th or first half of 15th century</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS14086Qalementos" passive="Tanasee1"/>
+                    <relation name="lawd:hasAttestation" active="PRS14210Tomas" passive="Tanasee1"/>
+                    <relation name="dc:relation" active="PRS14210Tomas" passive="PRS14203Tomas"><desc>Possibly the same person
+                        as <ref target="PRS14203Tomas"/>, who is mentioned in another addition in the same manuscript 
+                        <ref target="#Tanasee1"/></desc></relation>
                 </listRelation>
             </listPerson><!---->
         </body>
