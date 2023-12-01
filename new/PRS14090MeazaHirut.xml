@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ምዓዘ፡ ኂሩት፡</title>
+                <title>Mǝʿāza Ḫirut</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="CH"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -46,12 +46,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPerson>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ምዓዘ፡ ኂሩት፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Məʿāza Ḫirut</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Mǝʿāza Ḫirut</persName>
                     <floruit notBefore="1400" notAfter="1500">During the time of <persName ref="PRS10626ZaraY"/></floruit>
                 </person>
                 <listRelation>
+
                     <relation name="lawd:hasAttestation" active="PRS14090MeazaHirut" passive="Tanasee1#a21"/>
-                    <relation name="betmas:husbandOf" active="#PRS14090MeazaHirut" passive="PRS14091BarbaraLaKres"/>
+                    <relation name="betmas:husbandOf" active="PRS14090MeazaHirut" passive="PRS14091BarbaraLaKres"/>
+
                 </listRelation>
             </listPerson><!---->
         </body>
