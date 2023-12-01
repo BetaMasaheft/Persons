@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Takla Gabrəʾel</title>
+                <title>Takla Gabrǝʾel</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="CH"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -46,8 +46,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPerson>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ተክለ፡ ገብርኤል፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Takla Gabrəʾel</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Takla Gabrǝʾel</persName>
                     <occupation type="ecclesiastic">raqmasrā</occupation>
+                    <occupation type="ecclesiastic">qes gabaz</occupation>
+                    <floruit notBefore="1600" notAfter="1750">17th to first half of 18th century</floruit>
                 </person>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="PRS14153TaklaGabreel" passive="Tanasee1"/>

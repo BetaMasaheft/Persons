@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ባሳ፡ ትዕግሥት፡</title>
+                <title>Bāse Tǝʿgǝśt</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="CH"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -43,16 +43,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </teiHeader>
     <text>
         <body>
-            <t:listPerson xmlns:t="http://www.tei-c.org/ns/1.0">
+            <listPerson>
                 <person>
-                    <persName xml:lang="gez" xml:id="n1">ባሳ፡ ትዕግሥት፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Bāsā Təʿgəśt</persName>
+                    <persName xml:lang="gez" xml:id="n1">ባሴ፡ ትዕግሥት፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Bāse Tǝʿgǝśt</persName>
                     <floruit notBefore="1400" notAfter="1500">During the time of <persName ref="PRS10626ZaraY"/></floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS14087BasaTegest" passive="Tanasee1#a21"/>
+                    <relation name="lawd:hasAttestation" active="PRS14087BasaTegest" passive="Tanasee1"/>
                 </listRelation>
-            </t:listPerson><!---->
+            </listPerson><!---->
         </body>
     </text>
 </TEI>
