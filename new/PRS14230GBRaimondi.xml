@@ -44,13 +44,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPerson>
-                <person sex="1">
-                    <persName>
+                <person sex="1" sameAs="Q3105122">
+                    <persName xml:id="n1">
                         <forename>Giovanni</forename>
                         <forename>Battista</forename>
                         <surname>Raimondi</surname>
                     </persName>
-                    <occupation type="academic">Scientific director of the Typographia Medicea in Rome</occupation>
+                    <persName xml:id="n2">
+                        <forename>Giambattista</forename>
+                    </persName>
+                    <occupation type="academic">Scientific director of the Typographia Medicea in <placeName ref="LOC5374Rome"/>.</occupation>
                     <nationality type="Italy"/>
                     <birth cert="medium" when="1536">1536</birth>
                     <death cert="high" when="1614">1614</death>
@@ -59,6 +62,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <relation name="saws:isAttributedToAuthor" active="PRS14230GBRaimondi" passive="BMLor321"/>
                 </listRelation>
             </listPerson><!---->
+            <listBibl type="secondary">
+                <bibl> 
+                    <ptr target="bm:Farina2018RaimondisTravel"/>
+                </bibl>
+            </listBibl>
         </body>
     </text>
 </TEI>
