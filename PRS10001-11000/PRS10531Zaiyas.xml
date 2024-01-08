@@ -42,6 +42,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
          <change who="SG" when="2016-09-20">Complete record</change>
+         <change when="2024-01-08" who="CH">Updated attestations</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -68,12 +69,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                <relation name="snap:AllianceWith" active="PRS10531Zaiyas" passive="PRS10303Yekunno"/>
                <relation name="snap:NephewOf" active="PRS10531Zaiyas" passive="PRS5633IyasusM"/>
                <relation name="ecrm:P129i_is_subject_of" active="PRS10531Zaiyas" passive="LIT4817GadlaZa"/>
+               <relation name="lawd:hasAttestation" active="PRS10531Zaiyas" passive="EMML1832"/>
             </listRelation>
          </listPerson>
          <listBibl type="secondary">
             <bibl> 
                <ptr target="bm:Taddesse1970Abbots"/>
-               <citedRange unit="page">87-117</citedRange>
+               <citedRange unit="page">91-93</citedRange>
             </bibl>  
             <bibl> 
                <ptr target="bm:Sergew1992DabraHayq"/>
