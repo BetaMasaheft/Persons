@@ -1,13 +1,13 @@
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13198Tewodros" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS14252Fiqtor" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Tewodros</title>
+                <title>Fiqṭor</title>
                 <editor role="generalEditor" key="AB"/>
-                <editor key="MKr"/>
+                <editor key="CH"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
             <publicationStmt>
@@ -38,28 +38,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MKr" when="2020-10-14">Created entity</change>
+            <change who="CH" when="2024-01-10">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ቴዎድሮስ</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Tewodros</persName>
-                    <persName xml:lang="gez"><roleName type="title">kāhǝn</roleName></persName>
+                    <persName xml:lang="gez" xml:id="n1">ፊቅጦር፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Fiqṭor</persName>
                     <faith type="EOTC"/>
-                    <occupation type="literary"/>
-                    <occupation type="ecclesiastic">manakos</occupation>
-                    <nationality type="Ethiopia"/>
-                    <floruit notBefore="1300" notAfter="1370">14th century</floruit>
-                    <residence>
-                  <placeName ref="INS0327DHE">Dabra Ḥayq ʾƎsṭifānos</placeName>
-               </residence>
+                    <occupation type="ecclesiastic">liqa diyāqonāt</occupation>
+                    <floruit notBefore="1400" notAfter="1460">15th century</floruit>
+                    <residence><placeName ref="INS0327DHE">Dabra Ḥayq ʾƎsṭifānos</placeName>.</residence>
                 </person>
                 <listRelation>
-                    <relation name="saws:isCopierOf" active="PRS13198Tewodros" passive="EMML1939"/>
-                    <relation name="lawd:hasAttestation" active="PRS13198Tewodros" passive="EMML1832"/>
+                    <relation name="lawd:hasAttestation" active="PRS14252Fiqtor" passive="EMML1832"/>
                 </listRelation>
             </listPerson><!---->
         </body>
