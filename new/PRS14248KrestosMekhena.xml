@@ -51,7 +51,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </person>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="PRS14248KrestosMekhena" passive="EMML1820"/>
-                    <relation name="dcterms:relation"><desc>Adressed as 'my father' by <persName ref="PRS13230Bakimos"/>.</desc></relation>
+                    <relation name="dcterms:relation" active="PRS14248KrestosMekhena" passive="PRS13230Bakimos"><desc>Adressed as 
+                        'my father' by <persName ref="PRS13230Bakimos"/>.</desc></relation>
                 </listRelation>
             </listPerson><!---->
         </body>
