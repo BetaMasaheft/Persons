@@ -1,0 +1,65 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS14237Lorda" xml:lang="en" type="pers">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Domingo Lorda</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="DR"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="DR" when="2024-01-05">Created entity</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person sex="1">
+                    <persName xml:id="n1"><forename>Domingo</forename> <surname>Lorda</surname></persName>
+                    <occupation type="other">Basque servant of <persName ref="PRS1071dAbbadi"/> and <persName ref="PRS1072dAbbadi"/>, whom he 
+                        accompanied to Ethiopia.</occupation>
+                    <death when="1845-01-12">Died in <placeName ref="LOC3577Gondar">Gondar</placeName> on 12 January 1845</death>
+                </person>
+                <listRelation>
+                    <relation name="snap:ProfessionalRelationship" active="PRS14237Lorda" passive="PRS1071dAbbadi"/>
+                    <relation name="snap:ProfessionalRelationship" active="PRS14237Lorda" passive="PRS1072dAbbadi"/>
+                </listRelation>
+            </listPerson>
+            <listBibl type="secondary">
+                <bibl><ptr target="bm:FischerKattner2015Spuren"/><citedRange unit="page">272-276</citedRange></bibl>
+                <bibl><ptr target="bm:Dillmann1878Verzeichnis"/><citedRange unit="page">ii</citedRange></bibl>
+                <bibl><ptr target="bm:Delpech2012Abbadia"/><citedRange unit="page">63</citedRange></bibl>
+                 <bibl><ptr target="bm:Lepsius1853Discoveries"/><citedRange unit="page">91</citedRange></bibl>
+            </listBibl>
+        </body>
+    </text>
+</TEI>
