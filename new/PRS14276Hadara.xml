@@ -45,15 +45,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Ḥadarā</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ሐደራ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Ḥadarā</persName>
                     <faith type="EOTC"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1300" notAfter="1400">14th century</floruit>
+                    <residence><placeName ref="INS0327DHE">Dabra Ḥayq ʾƎsṭifānos</placeName></residence>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS14276Hadara" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS14276Hadara" passive="EMML1832"/>
                 </listRelation>
             </listPerson><!---->
         </body>
