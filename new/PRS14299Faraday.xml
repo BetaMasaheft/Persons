@@ -52,7 +52,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <floruit notBefore="1500" notAfter="1570">First half of 16th century</floruit>
                 </person>
                 <listRelation>
-                    <relation name="snap:SonOf" active="PRS14299Faraday" passive="PRS14298ZaraAbreham"/>
+                    <relation name="dc:relation" active="PRS14299Faraday" passive="PRS14298ZaraAbreham"><desc>He is called the "son" of
+                        <persName ref="PRS1498ZaraAbreham"/>, what is probably a spiritual relationship.</desc></relation>
                     <relation name="lawd:hasAttestation" active="PRS14299Faraday" passive="EMML1832"/>
                 </listRelation>
             </listPerson><!---->

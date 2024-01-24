@@ -50,7 +50,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <floruit notBefore="1480" notAfter="1550">End of 15th century or first half of 16th century</floruit>
                 </person>
                 <listRelation>
-                    <relation name="snap:FatherOf" active="PRS14298ZaraAbreham" passive="PRS14299Faraday"/>
+                    <relation name="dc:relation" active="PRS14298ZaraAbreham" passive="PRS14299Faraday"><desc>He is called the "father"
+                        of <persName ref="PRS14299Faraday"/>, what is probably a spiritual relationship.</desc></relation>
                     <relation name="lawd:hasAttestation" active="PRS14298ZaraAbreham" passive="EMML1832"/>
                 </listRelation>
             </listPerson><!---->
