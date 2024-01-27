@@ -51,20 +51,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <nationality type="Ethiopia"/>
                     <birth/>
                     <death/>
-                    <floruit notBefore="1350" notAfter="1450">In a donation note in the manuscript Ṭānāsee 121 he is referred to as <foreign xml:lang="gez">ነጋሤ፡ ጐዛም፡</foreign>
+                    <floruit notBefore="1350" notAfter="1450">In a donation note in the manuscript <ref type="mss" corresp="Tanasee121">Ṭānāsee 121</ref> he is referred to as <foreign xml:lang="gez">ነጋሤ፡ ጐዛም፡</foreign>
                   i. e. "the ruler of <placeName ref="LOC3549Gojjam">Goğğam"</placeName>. He is probably also the same person who donated the
                 manuscript <ref type="mss" corresp="BNFabb126">BnF d'Abb. 126</ref> to the monastery of <placeName ref="LOC2422DagaEs">Dāgā ʾƎsṭifānos</placeName>.
               Since the manuscript Ṭānāsee 121 is dated to 1409, he must have lived in the late 14th-early 15th Century.</floruit>
                 </person>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="PRS14313GabraM" passive="Tanasee121"/>
+                    <relation name="lawd:hasAttestation" active="PRS14313GabraM" passive="BNFabb126"/>
                 </listRelation>
             </listPerson>
             <listBibl type="secondary">
             <bibl>
                <ptr target="bm:Six1999VOHD3"/>
                <citedRange unit="page">95</citedRange>
-            </bibl>  
+            </bibl>
           </listBibl><!---->
         </body>
     </text>
