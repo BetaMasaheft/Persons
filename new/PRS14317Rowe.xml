@@ -45,7 +45,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPerson>
                 <person>
                     <persName><forename>W. G. H. </forename><surname>Lowe</surname></persName>
-                    <floruit notBefore="1870" notAfter="1970"/>
+                    <occupation type="other">He may have been a jeweller from Canada, one of the directors of the Commercial Travellers 
+                        Association of Montreal (elected 1884) and member of the local masonic lodge.</occupation>
+                    <residence>Montreal</residence>
+                    <nationality type="Canada"/>
+                    <death when="1904-02-03">3 February 1904</death>
+                    <floruit notBefore="1884" notAfter="1904"/>
                 </person>
                 <listRelation>
                     <relation name="saws:hasOwned" active="PRS14317Rowe" passive="BLorient11601"/>
