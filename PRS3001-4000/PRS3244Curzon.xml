@@ -44,13 +44,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  <forename>Robert</forename>
-                  <surname>Curzon</surname>
-               </persName>
-               <occupation>Lord </occupation>
+            <person sex="1" sameAs="wd:Q2156804">
+               <persName xml:lang="en" xml:id="n1"><forename>Robert</forename> <surname>Curzon</surname></persName>
+               <persName xml:lang="en"><roleName type="title">The Honourable</roleName></persName>
+               <persName xml:lang="en"><roleName type="title">14th Baron Zouche</roleName></persName> 
+               <persName xml:lang="en"><roleName type="title">Lord</roleName></persName>
+               <occupation type="political">diplomat</occupation>
+               <occupation type="literary">Travel writer</occupation>
+               <nationality type="UnitedKingdom"/>
+               <birth when="1810-03-16">16 March 1810</birth>
+               <death when="1873-08-02">2 August 1873</death>
+               <floruit notBefore="1810" notAfter="1873">1860-1917</floruit>
             </person>
+            <listRelation>
+               <relation name="saws:hasOwned" active="PRS3244Curzon" passive="BLorient8822"/>
+               <relation name="snap:FatherOf" active="PRS3244Curzon" passive="PRS14320DareaCurzon"/>
+            </listRelation>
          </listPerson>
       </body>
    </text>
