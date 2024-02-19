@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS2470Bartalom">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Bärtälomewos</title>
+            <title>Bartalomewos</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -32,7 +32,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage>
+           <language ident="en">English</language>
+           <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
          <textClass>
             <keywords>
                <term key="saint"/>
@@ -51,16 +54,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Bärtälomewos
-               </persName>
-               <!-- St -->
-               <residence>
-                  Lasta
-               </residence>
+              <persName xml:lang="gez" xml:id="n1">በርተሎሜዎስ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Bartalomewos</persName>
+               <nationality type="Ethiopia"/>
+               <faith type="EOTC"/>
+               <floruit>He is credited as the founder of the <placeName ref="LOC6431Zammad">Žammadu Māryām</placeName> monastery in <placeName ref="LOC4259Lasta">Lāstā</placeName>.</floruit>
             </person>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Getachew2013Voices"/>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
