@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Wäldä Maryam Dästa</title>
+            <title>Walda Māryām Dastā</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -16,7 +16,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 This file is licensed under the Creative Commons
                 Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2016-03-21</date>
+            
          </publicationStmt>
          <sourceDesc>
             <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
@@ -45,16 +45,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Wäldä Maryam Dästa
-               </persName>
+               <persName xml:lang="gez" xml:id="n1">ወልደ፡ ማርያም፡ ደስታ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Walda Māryām Dastā</persName>
+               <occupation>aide of Klingenheben</occupation>
             </person>
-            <listRelation>
-               <relation name="dc:relation">
-                  <desc> aide of Klingenheben </desc>
-               </relation>
-            </listRelation>
+            
          </listPerson>
       </body>
    </text>
