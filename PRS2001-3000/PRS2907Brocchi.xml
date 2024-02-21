@@ -32,7 +32,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage><language ident="en">English</language>
+            <language ident="it">Italian</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
@@ -44,14 +45,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                   Giovanni Battista
-                  Brocchi da Imola
-               </persName>
-               <occupation> dipl. </occupation>
+            <person sex="1" sameAs="wd:Q16639164">
+               <persName xml:lang="it" xml:id="n1">Giovanni Battista Brocchi da Imola</persName>
+               <persName xml:lang="la" xml:id="n2">Johannes Baptista Brocchus</persName>
+               <occupation type="political">Diplomat</occupation>
+               <floruit notBefore="1481" notAfter="1493">Nobleman and diplomat who accompanied an Ethiopian delegation from <placeName ref="LOC3957Jerusa">Jerusalem</placeName>
+                  to <placeName ref="LOC5374Rome">Rome</placeName> in <date>1481–1482</date>. Often conflated with his contemporary, the similarily named messenger
+                  <persName ref="PRS14337Baptista"/> (see the literature overview provided by Krebs).
+                  Contrary to that person, Giovanni Battista Brocchi da Imola most likely never visited Ethiopia.
+               </floruit>
             </person>
+            <listRelation>
+               <relation name="syriaca:different-from" active="PRS2907Brocchi" passive="PRS14337Baptista"/>
+            </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl><ptr target="bm:Krebs2021Kingship"/><citedRange unit="page">136–139</citedRange></bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
