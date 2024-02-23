@@ -1,0 +1,65 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS14349ClaudiusJErskine" xml:lang="en" type="pers">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Claudius James Erskine</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="CH"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="CH" when="2024-02-23">Created entity</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person sameAs="Q18576002" sex="1">
+                    <persName xml:lang="en" xml:id="n1"><forename>Claudius</forename><forename>James</forename>
+                        <surname>Erskine</surname> </persName>
+                    <persName xml:lang="en" xml:id="n2"><forename>Claude</forename></persName>
+                    <persName xml:lang="en"><roleName type="title">esquire</roleName></persName>
+                    <occupation type="other">judge</occupation>
+                    <occupation type="academic">vice-chancellor of the University of Calcutta</occupation>
+                    <nationality type="UnitedKingdom"/>
+                    <birth when="1821">1821</birth>
+                    <death when="1893-06-06">6 June 1893</death>
+                    <floruit notBefore="1821" notAfter="1893"/>
+                </person>
+                <listRelation>
+                    <relation name="saws:hasOwned" active="PRS14349ClaudiusJErskine" passive="BLorient2198"/>
+                </listRelation>
+            </listPerson><!---->
+        </body>
+    </text>
+</TEI>
