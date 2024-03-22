@@ -38,7 +38,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="AY" when="2024-03-21">Created entity</change>
+            <change who="AY" when="2024-03-21">Created entity based on my field work in 2022.12.06.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -48,13 +48,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <persName xml:lang="gez" xml:id="n1">አቡሀይ</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAbbuhay</persName>
                       <faith type="EOTC"/>
-                    <occupation type="ecclesiastic"/>
+                    <occupation type="ecclesiastic">He received a church education.</occupation>
                     <occupation type="literary">He was a private professional scribe 
-                        <date from="1900" to="2000"/></occupation>
+                        <date from="1900" to="2000"/>.</occupation>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1900" notAfter="2000"/>
+                    <residence>
+                        <placeName ref="LOC1676Baata">Baʾatā Church</placeName>
+                    </residence>
                 </person>
                 <listRelation>
                     <relation name="saws:isCopierOf" active="PRS14379Abbuhay" passive="MEAG001"/>
