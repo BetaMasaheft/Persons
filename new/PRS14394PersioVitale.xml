@@ -45,10 +45,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="it" xml:id="n1">Persio Vitale</persName>
+                    <persName xml:lang="it" xml:id="n1"><forename>Persio</forename> <surname>Vitale</surname></persName>
                     <persName><roleName type="title">doctor</roleName></persName>
                     <nationality type="Italy"/>
-                    <floruit when="1618">1618</floruit>
+                    <residence><placeName ref="LOC4963Naples"/></residence>
+                    <floruit notBefore="1600" notAfter="1618">1600-1618</floruit>
                 </person>
                 <listRelation>
                     <relation name="saws:hasOwned" active="PRS14394PersioVitale" passive="BLorient13156"/>
