@@ -45,16 +45,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Marigetā Damḍa ’Ǝndālaw</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">መሪጌታ፥ደምፀ፥እንዳለው</persName>                 
+                    <persName xml:lang="gez" type="normalized" corresp="#n1" >Marigetā Damḍa ’Ǝndālaw</persName>
                     <faith type="EOTC"/>
-                    <occupation type="ecclesiastic"/>
+                    <occupation type="ecclesiastic">He got Dǝggʷā accreditation at Beta Lǝḥem <date when="1985"/>.</occupation>                    
+                    <occupation type="literary">He is a private professional scribe since
+                        <date when="1980"/>.</occupation>
                     <nationality type="Ethiopia"/>
                     <birth>1944</birth>
                     <death/>
                     <floruit/>
                 </person>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>
