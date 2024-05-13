@@ -43,9 +43,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPerson>
-                <person>
+                <person sex="1" sameAs="wd:Q125912382">
                     <persName><forename>C.</forename> <forename>L.</forename> <forename>G.</forename> 
                         <surname>Williams</surname></persName>
+                    <persName><roleName type="title">captain</roleName></persName>
+                    <occupation ref="military">He was a captain in British East Africa during the Second World War.</occupation>
                     <floruit notBefore="1900" notAfter="1990">20th century</floruit>
                 </person>
                 <listRelation>
