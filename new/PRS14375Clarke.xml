@@ -44,12 +44,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1"><forename>Leop.</forename> <forename>Stanley</forename> 
-                        <surname>Clarke</surname></persName>
+                    <persName xml:lang="gez" xml:id="n1"><forename>Charles </forename> <forename>Leopold</forename> 
+                        <forename>Stanley</forename> <surname>Clarke</surname></persName>
                     <persName><roleName type="title">reverend</roleName></persName>
                     <occupation type="ecclesiastic">reverend in Polebrook (UK) as attested in 
                         <bibl><ptr target="bm:PeterboroughStandard1926Clarke"/></bibl>.</occupation>
-                    <floruit notBefore="1850" notAfter="1950">Late 19th and early 20th century</floruit>
+                    <birth when="1817-10-06">6 October 1817</birth>
+                    <death when="1896-08-23">23 August 1896</death>
                 </person>
                 <listRelation>
                     <relation name="saws:hasOwned" active="PRS14375Clarke" passive="BLorient3715"/>
