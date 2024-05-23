@@ -45,7 +45,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ዘማርያም</persName>
+                    <persName xml:lang="gez" xml:id="n1">ዘማርያም፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Zamāryām</persName>
                     <faith type="EOTC"/>
                     <occupation type="literary"/>
@@ -54,7 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <floruit notBefore="1550" notAfter="1699"/>
                 </person>
                 <listRelation>
-                    <relation name="saws:isAttributedToAuthor" active="PRS14435ZaMaryam" passive="LIT6997AhaduZehur"/>
+                    <relation name="saws:isAttributedAuthorOf" active="PRS14435ZaMaryam" passive="LIT6997AhaduZehur"/>
                 </listRelation>
             </listPerson><!---->
         </body>
