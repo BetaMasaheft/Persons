@@ -1,0 +1,64 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS14446Douglas" xml:lang="en" type="pers">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>John Albert Douglas</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="CH"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="CH" when="2024-05-29">Created entity</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person sex="1" sameAs="wd:Q19661476">
+                    <persName xml:lang="en"><forename>Canon</forename> <forename>John</forename> <forename>Albert</forename>
+                        <surname>Douglas</surname></persName>
+                    <faith type="Anglican"/>
+                    <occupation type="ecclesiastic">He was vicar of St Michael Paternoster Royal from 1933 to 1952. He had served previously, from 
+                        1909 to 1933, at St Luke's Church, Camberwell, in the Diocese of Southwark. </occupation>
+                    <nationality type="UnitedKingdom"/>
+                    <birth when="1868-09-21">21 September 1868</birth>
+                    <death when="1956-07-03">3 July 1956</death>
+                    <floruit notBefore="1909" notAfter="1952">He was a priest of the Church of England and a major figure in Anglican–Orthodox 
+                        relations in the first half of the 20th century from 1909 to 1952.</floruit>
+                </person>
+                <listRelation>
+                    <relation name="saws:hasOwned" active="PRS14446Douglas" passive="BLorient11718A"/>
+                </listRelation>
+            </listPerson><!---->
+        </body>
+    </text>
+</TEI>

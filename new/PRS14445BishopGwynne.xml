@@ -1,0 +1,65 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS14445BishopGwynne" xml:lang="en" type="pers">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Llewellyn Gwynne</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="CH"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="am">Amharic</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="CH" when="2024-05-28">Created entity</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person sex="1" sameAs="wd:Q6662059">
+                    <persName xml:lang="en" xml:id="n1"><forename>Llewellyn</forename> <forename>Henry</forename> 
+                        <surname>Gwynne</surname></persName>
+                    <persName xml:lang="am" xml:id="n2">ጉዊን። ኦፍ፡ ከርቱም።</persName>
+                    <persName xml:lang="am" type="normalized" corresp="#n2">Guwin ʾof Kartum</persName>
+                    <faith type="Anglican"/>
+                    <occupation type="ecclesiastic">He was the first Anglican Bishop of Egypt and Sudan, serving from 1920 to 1946.</occupation>
+                    <nationality type="UnitedKingdom"/>
+                    <birth>11 June 1863</birth>
+                    <death>9 December 1957</death>
+                    <floruit notBefore="1920" notAfter="1946"/>
+                </person>
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="PRS14445BishopGwynne" passive="BLorient11718A"/>
+                </listRelation>
+            </listPerson><!---->
+        </body>
+    </text>
+</TEI>
