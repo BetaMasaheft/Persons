@@ -55,8 +55,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     <floruit notBefore="1700" notAfter="1750">18th century</floruit>
                 </person>
                 <listRelation>
-                    <relation name="saws:isCopierOf" active="PRS12076ZawaldaMaryam" passive="ESamq014 ESqsm001 ESqsm007 ESmr008 ESum042 ESmkl015 ESmkl016 BMLacq810 BMLacq306"/>
-                    <relation name="saws:hasOwned" active="PRS12076ZawaldaMaryam" passive="BMLacq810"></relation>
+                    <relation name="saws:isCopierOf" active="PRS12076ZawaldaMaryam" passive="ESqsm001 ESqsm007 ESmr008 ESmr033 ESmkl015 ESmkl016 BMLacq810 BMLacq306"/>
+                    <relation name="saws:hasOwned" active="PRS12076ZawaldaMaryam" passive="BMLacq810">
+                        <desc>A prolific scribe, the hand dissimilar from <persName ref="PRS12077ZawaldaMaryam"/> and 
+                        <persName ref="PRS14489ZawaldaMaryam"/></desc>
+                    </relation>
                 </listRelation>
             </listPerson>
          <!---->
