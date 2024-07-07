@@ -40,6 +40,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
          <change when="2020-03-11" who="DE">Corrected encoding and transliteration.</change>
+         <change when="2024-05-28" who="CH">Updated names and floruit, birth, death and relations</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -48,11 +49,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <person sex="1" sameAs="wd:Q41178">
                 <persName xml:lang="gez" xml:id="n1" type="regnal">ኃይለ፡ ሥላሴ፡</persName>
                <persName xml:lang="gez" type="normalized" corresp="#n1">Ḫāyla Śǝllāse I</persName>
-              <!-- <persName xml:lang="gez" xml:id="n2"><roleName type="title">ራስ</roleName> ተፈሪ፡ መኰንን፡</persName>
+              <persName xml:lang="gez" xml:id="n2"><roleName type="title">ራስ፡</roleName> ተፈሪ፡ መኰንን፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized"><roleName type="title">rās</roleName> Tafari Makʷannǝn</persName>
-          -->
                <occupation type="ruler">Emperor</occupation>
+               <birth when="1892-07-23">23 July 1892</birth>
+               <death when="1975-08-27">27 August 1975</death>
+               <floruit notBefore="1916" notAfter="1974">He rose to power as Regent of Ethiopia from 27 September 1916 until 2 April 1930 for
+                  Empress <persName ref="PRS10671Zawditu"/> and followed her as Emperor of Ethiopia from 2 April 1930 to 12 September 1974;
+                  He was overthrown in a military coup by the Marxist Derg. He was assassinated by Derg military officers on 27 August 1975.</floruit>
             </person>
+            <listRelation>
+               <relation name="betmas:isSuccessorOf" active="PRS5226haylase" passive="PRS10671Zawditu"/>
+               <relation name="betmas:husbandOf" active="PRS5226haylase" passive="PRS6642MananAs"/>
+               <relation name="snap:FatherOf" active="PRS5226haylase" passive="PRS2112AsfaWas"/>
+               <relation name="snap:FatherOf" active="PRS5226haylase" passive="PRS8337Sahayha"/>
+            </listRelation>
          </listPerson>
       </body>
    </text>
