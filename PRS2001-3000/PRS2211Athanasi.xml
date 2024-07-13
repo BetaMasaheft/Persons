@@ -39,15 +39,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
-         <change when="2024-07-12" who="MKr">Added relations</change>
+         <change when="2024-07-12" who="MKr">Added relations and link to Wikidata</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
-            <person sex="1">
+            <person sex="1" sameAs="wd:Q2868987">
                <persName xml:lang="en" xml:id="n1">Athanasius Gammālā</persName>
-               <occupation> eccl. </occupation>
+               <occupation type="ecclesiastic">patriarch of Antioch</occupation>
             </person>
             <listRelation>
               <relation name="saws:isAttributedAuthorOf" active="PRS2211Athanasi" passive="LIT1804Lifeof"/>
