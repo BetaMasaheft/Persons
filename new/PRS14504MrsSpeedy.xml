@@ -45,7 +45,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="2">
-                    <persName xml:lang="en" xml:id="n1"><surname>Speedy</surname></persName>
+                    <persName xml:lang="en" xml:id="n1"><forename>Cornelia</forename> <forename>Mary</forename>
+                        <surname>Speedy</surname></persName>
+                    <persName xml:id="n2" xml:lang="en" type="birth">Cotton</persName>
                     <floruit notBefore="1850" notAfter="1950">Second half of 19th and first half of 19th century</floruit>
                 </person>
                 <listRelation>
