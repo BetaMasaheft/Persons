@@ -35,6 +35,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <langUsage><language ident="en">English</language></langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2024-07-22" who="CH">Updated names, floruit and wididata.</change>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
@@ -44,14 +45,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                   Tristram Charles Sawyer
-                  Speedy
-               </persName>
-               <persName type="alt">baša Fälläqä</persName>
-               <occupation> mil. </occupation>
+            <person sex="1" sameAs="wd:Q7451655">
+               <persName xml:id="n1" xml:lang="en"><forename>Tristram</forename> <forename>Charles</forename> 
+                  <forename>Sawyer</forename> <surname>Speedy</surname></persName>
+               <persName><roleName type="rank">Captain</roleName></persName>
+               <persName xml:id="n2" xml:lang="am">Fallaqa</persName>
+               <persName corresp="#n2" xml:lang="fr" type="normalized">Félika</persName>
+               <persName><roleName type="title">bāšā</roleName></persName>
+               <occupation type="military"/>
+               <birth when="1836-11-26">26 Nov 1836</birth>
+               <death when="1910-08-09">9 Aug 1910</death>
+               <floruit notBefore="1867" notAfter="1868">Interpreter on the Staff of <persName ref="PRS7484Napier">
+                  <roleName type="title">Lord</roleName> Napier</persName> 
+                  on <placeName ref="LOC4547Maqdal">Magdala</placeName>, during the Abyssinian Expedition of 
+                  <date notBefore="1867" notAfter="1868">1867-1868</date>.</floruit>
             </person>
+            <listRelation>
+               <relation name="betmas:husbandOf" active="PRS8943Speedy" passive="PRS14504MrsSpeedy"/>
+               <relation name="lawd:hasAttestation" active="PRS8943Speedy" passive="BLorient7945"/>
+            </listRelation>
          </listPerson>
       </body>
    </text>
