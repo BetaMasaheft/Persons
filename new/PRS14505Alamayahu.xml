@@ -1,0 +1,65 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS14505Alamayahu" xml:lang="en" type="pers">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ʿAlamāyahu Tewodros</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="CH"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="CH" when="2024-07-23">Created entity</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person sex="1" sameAs="wd:Q2599107">
+                    <persName xml:lang="gez" xml:id="n1">ዓለማየሁ፡ ቴዎድሮስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">ʿAlamāyahu Tewodros</persName>
+                    <persName xml:lang="en" corresp="#n1">Alemayehu</persName>
+                    <occupation type="political">Prince</occupation>
+                    <birth when="1861-04-23">23 April 1861</birth>
+                    <death when="1879-11-14">14 November 1879</death>
+                    <floruit notBefore="1868" notAfter="1879">After the battle of Maqdalā, the young prince was taken to Britain and raised on the
+                        Isle of Wight under the tutelage of <persName ref="PRS8943Speedy"><roleName type="rank">Captain</roleName>
+                            Tristram Charles Sawyer Speedy</persName>.</floruit>
+                </person>
+                <listRelation>
+                    <relation name="snap:SonOf" active="PRS14505Alamayahu" passive="PRS9430Tewodros"/>
+                    <relation name="lawd:hasAttestation" active="PRS14505Alamayahu" passive="BLorient7947"/>
+                </listRelation>
+            </listPerson><!---->
+        </body>
+    </text>
+</TEI>
