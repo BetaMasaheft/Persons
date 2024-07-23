@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>ʿAlämayyähu Tewodros</title>
+            <title>ʿAlamāyyahu Tewodros</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -43,15 +43,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
-         <listPerson>
-            <person sex="1">
-               <persName>
-                  
-                  ʿAlämayyähu Tewodros
-               </persName>
-               <occupation> däǧǧ. </occupation>
-            </person>
-         </listPerson>
+               <listPerson>
+                  <person sex="1" sameAs="wd:Q2599107">
+                     <persName xml:lang="gez" xml:id="n1">ዓለማየሁ፡ ቴዎድሮስ፡</persName>
+                     <persName xml:lang="gez" type="normalized" corresp="#n1">ʿAlamāyyahu Tewodros</persName>
+                     <persName xml:lang="en" corresp="#n1">Alemayehu</persName>
+                     <persName><roleName type="title">daǧǧāzmāčč</roleName></persName>
+                     <occupation type="political">Prince</occupation>
+                     <birth when="1861-04-23">23 April 1861</birth>
+                     <death when="1879-11-14">14 November 1879</death>
+                     <floruit notBefore="1868" notAfter="1879">After the battle of Maqdalā, the young prince was taken to Britain and raised on the
+                        Isle of Wight under the tutelage of <persName ref="PRS8943Speedy"><roleName type="rank">Captain</roleName>
+                           Tristram Charles Sawyer Speedy</persName>.</floruit>
+                  </person>
+                  <listRelation>
+                     <relation name="snap:SonOf" active="PRS1625Alamayy" passive="PRS9430Tewodros"/>
+                     <relation name="lawd:hasAttestation" active="PRS1625Alamayy" passive="BLorient7947"/>
+                  </listRelation>
+               </listPerson>
       </body>
    </text>
 </TEI>
