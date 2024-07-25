@@ -47,9 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">በኵረ፡ ወልድ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Bakʷra Wald</persName>
-                    <birth/>
-                    <death/>
-                    <floruit>1600–1894</floruit>
+                    <floruit notBefore="1600" notAfter="1894">1600–1894</floruit>
                 </person>
                 <listRelation>
                     <relation name="saws:hasOwned" active="PRS14510BakwraWald" passive="UppEt8"/>
