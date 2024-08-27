@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Peter Brru</title>
+                <title>P̣eṭros Bǝrru</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="CH"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -45,9 +45,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="en" xml:id="n1">Peter Brru</persName>
-                    <persName xml:lang="ti" xml:id="n2">ጴጥሮስ፡ ብሩ፡</persName>
-                    <persName xml:lang="ti" type="normalized" corresp="#n2">P̣eṭros Bǝrru</persName>
+                    <persName xml:lang="ti" xml:id="n1">ጴጥሮስ፡ ብሩ፡</persName>
+                    <persName xml:lang="ti" type="normalized" corresp="#n1">P̣eṭros Bǝrru</persName>
+                    <persName xml:lang="en" xml:id="n2"><forename>Peter</forename> <surname>Bru</surname></persName>
+                    <persName xml:lang="en" xml:id="n3"><forename>Peter</forename> <surname>Brru</surname></persName>
                     <occupation type="literary">A native of Abyssinia, who, from fear of <persName ref="PRS9430Tewodros"/>, fled the country. 
                         He became a merchant and was engaged as an interpreter to the British Force sent into Abyssinia in <date when="1867"/>.</occupation>
                     <residence><placeName ref="LOC4631Massaw"/></residence>
