@@ -48,7 +48,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <person sex="1" sameAs="Q3147469">
                <persName xml:lang="gez" xml:id="n1">አቡሻክር፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾAbušākǝr</persName>
-               <persName xml:lang="ar" corresp="#n1">Abū Šākir ibn Abī l-Karam Buṭrus ibn al-Muhaḏḏib ibn al-Rāhib</persName>
+               <persName xml:lang="ar" xml:id="n2">ابو شاكر ابن ابي الكرم بطرس ابن المهذب ابن الراهب</persName>
+               <persName xml:lang="ar" corresp="#n2" type="normalized">Abū Šākir ibn Abī l-Karam Buṭrus ibn al-Muhaḏḏib ibn al-Rāhib</persName> 
                <occupation type="literary">Coptic polymath and encyclopaedist from the Golden age of Christian literature in Arabic, renowned in
                   the Ethiopian tradition for his <ref type="work" corresp="LIT1011Abusak">Kitāb al-tawārīḫ</ref> which was translated
                   to Ethiopic providing an overview on world history and a chronography.</occupation>
@@ -57,6 +58,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                <floruit notBefore="1250" notAfter="1300">1250-1300</floruit>
             </person>
          </listPerson>
+         <listRelation>
+            <relation name="betmas:formerlyAlsoListedAs" active="PRS1376Abusaker" passive="PRS1360Abusaki"/>
+         </listRelation>
       </body>
    </text>
 </TEI>
