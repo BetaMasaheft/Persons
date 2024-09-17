@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Šānqǝllā (outdated idiom)</title>
+            <title>Šānqǝllā (idiom)</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -30,7 +30,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="am">Amharic</language>
+            <language ident="om">Oromo</language>
+         </langUsage>
+         <abstract>
+            <ab>Idiom or name of unknown origin, often used as a pejorative for black people or slaves, or for military enemies, as reflected in 
+               several magic prayers using the term.</ab>
+         </abstract>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-10-18"> Created file from google
@@ -45,12 +54,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <personGrp role="ethnic">
                <persName xml:id="n1" xml:lang="gez" type="main"><orgName>ሻንቅላ፡</orgName></persName>
                <persName corresp="#n1" type="normalized" xml:lang="gez"><orgName>Šānqǝllā</orgName></persName>
-               <persName xml:id="n2" xml:lang="gez"><orgName>ሻንቀላ፡</orgName></persName>
-               <persName corresp="#n2" type="normalized" xml:lang="gez"><orgName>Šānqallā</orgName></persName>
-               <persName xml:id="n3" xml:lang="gez"><orgName>ሻንቂላ፡</orgName></persName>
-               <persName corresp="#n3" type="normalized" xml:lang="gez"><orgName>Šānqillā</orgName></persName>
-               <persName xml:id="n4" xml:lang="gez"><orgName>ሽንቅላ፡</orgName></persName>
-               <persName corresp="#n4" type="normalized" xml:lang="gez"><orgName>Šǝnqǝllā</orgName></persName>
+               <persName xml:id="n2" xml:lang="am"><orgName>ሻንቂላ፡</orgName></persName>
+               <persName corresp="#n2" type="normalized" xml:lang="am"><orgName>Šānqillā</orgName></persName>
+               <persName xml:id="n3" xml:lang="am"><orgName>ሽንቅላ፡</orgName></persName>
+               <persName corresp="#n3" type="normalized" xml:lang="am"><orgName>Šǝnqǝllā</orgName></persName>
+               <persName xml:id="n4" xml:lang="om"><orgName>ሻንቀላ፡</orgName></persName>
+               <persName corresp="#n4" type="normalized" xml:lang="om"><orgName>Šānqallā</orgName></persName>
             </personGrp>
          </listPerson>
          <listBibl type="secondary">

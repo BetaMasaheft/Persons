@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Bāryā (outdated idiom)</title>
+            <title>Bāryā (idiom)</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -30,7 +30,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="en">English</language>
+         </langUsage>
+         <abstract>
+            <ab>Idiom or a name previously used for <persName ref="ETH1946Nara"/>, later for a wider group of 'blacks', a social group, 
+               similar to <persName ref="ETH2043sanqel"/>, later perceived as pejorative - as reflected by the 
+               <ref type="authFile" corresp="Barya">name for the demonic entity</ref>. Also name of a military unit in premodern Ethiopia.</ab>
+         </abstract>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-10-18"> Created file from google
@@ -44,7 +52,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <listPerson>
             <personGrp role="ethnic">
                <persName xml:id="n1" xml:lang="gez"><orgName>ባርያ፡</orgName></persName>
-               <persName corresp="#n1" xml:lang="gez" type="normalized"><orgName>Bāryā (outdated idiom)</orgName></persName>
+               <persName corresp="#n1" xml:lang="gez" type="normalized"><orgName>Bāryā</orgName></persName>
             </personGrp>
          </listPerson>
          <listBibl type="secondary">
