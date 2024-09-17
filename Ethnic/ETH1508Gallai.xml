@@ -30,7 +30,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+         <abstract>
+            <ab>Idiom or name that was used for the <persName ref="ETH1973Oromo">Oromo people</persName> and occasionally for other ethnic in Ethiopia and Eritrea until
+               the 1970ies; later perceived in a pejorative way as reflected by the use of the name to designate 'enemies' in general i.e. in Magic prayers.</ab>
+         </abstract>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-10-18"> Created file from google
@@ -44,10 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <listPerson>
             <personGrp role="ethnic">
                <persName xml:id="n1" xml:lang="am"><orgName>ጋላ፡</orgName></persName>
-               <persName corresp="#n1" xml:lang="am" type="normalized"><orgName>Gāllā (idiom or name that was used for the 
-                  <persName ref="ETH1973Oromo">Oromo people</persName> and occasionally for other ethnic in Ethiopia and Eritrea until
-                  the 1970ies; later perceived in a pejorative way as reflected by the use of the name to designate 'enemies' in general i.e. in Magic 
-                  prayers.)</orgName></persName>
+               <persName corresp="#n1" xml:lang="am" type="normalized"><orgName>Gāllā</orgName></persName>
             </personGrp>
          </listPerson>
          <listBibl type="secondary">
