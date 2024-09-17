@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Šanqǝlla</title>
+            <title>Šānqǝllā (outdated idiom)</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -36,20 +36,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="PL" when="2016-10-18"> Created file from google
                                 spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: ethnic</change>
+         <change when="2024-09-17" who="CH">Updated name and added bibliography.</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <personGrp role="ethnic">
-               <persName xml:id="n1">
-                  <orgName>Šanqǝlla</orgName>
-               </persName>
-               <persName xml:id="n2">
-                  <orgName>Šanqalla, Šanqilla, Šǝnqǝlla</orgName>
-               </persName>
+               <persName xml:id="n1" xml:lang="gez" type="main"><orgName>ሻንቅላ፡</orgName></persName>
+               <persName corresp="#n1" type="normalized" xml:lang="gez"><orgName>Šānqǝllā</orgName></persName>
+               <persName xml:id="n2" xml:lang="gez"><orgName>ሻንቀላ፡</orgName></persName>
+               <persName corresp="#n2" type="normalized" xml:lang="gez"><orgName>Šānqallā</orgName></persName>
+               <persName xml:id="n3" xml:lang="gez"><orgName>ሻንቂላ፡</orgName></persName>
+               <persName corresp="#n3" type="normalized" xml:lang="gez"><orgName>Šānqillā</orgName></persName>
+               <persName xml:id="n4" xml:lang="gez"><orgName>ሽንቅላ፡</orgName></persName>
+               <persName corresp="#n4" type="normalized" xml:lang="gez"><orgName>Šǝnqǝllā</orgName></persName>
             </personGrp>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Smidt2010Sanqella"/>
+            </bibl>            
+         </listBibl>
       </body>
    </text>
 </TEI>
