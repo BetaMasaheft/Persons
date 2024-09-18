@@ -30,11 +30,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <profileDesc>
             <creation/>
             <abstract>
-                <p>Archbishop of Uppsala <date from="1932" to="1950">from 1932 to 1950</date>.</p>
+                <p/>
             </abstract>
             <langUsage>
                 <language ident="en">English</language>
-                <language ident="gez">Gǝʿǝz</language>
+                <language ident="sv">Swedish</language>
             </langUsage>
         </profileDesc>
         <revisionDesc>
@@ -45,13 +45,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1" sameAs="wd:Q820962">
-                    <persName xml:lang="gez" xml:id="n1">Erling Eidem</persName>
+                    <persName xml:lang="gez" xml:id="n1"><forename>Erling</forename> <surname>Eidem</surname></persName>
                     <faith type="Protestantism"/>
                     <occupation type="ecclesiastic"/>
                     <nationality type="Sweden"/>
-                    <birth>1880</birth>
-                    <death>1972</death>
-                    <floruit/>
+                    <birth when="1880">1880</birth>
+                    <death when="1972">1972</death>
+                    <floruit from="1932" to="1950">Archbishop of Uppsala <date from="1932" to="1950">from 1932 to 1950</date>.</floruit>
                 </person>
                 <listRelation>
                     <relation name="saws:hasOwned" active="PRS14565ErlingEidem" passive="UppEt20"/>
