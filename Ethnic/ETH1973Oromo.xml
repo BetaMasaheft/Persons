@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Oromo</title>
+            <title>Oromo (people)</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -15,7 +15,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is licensed under the Creative Commons
                                         Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2016-10-18T15:52:41.309+02:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>A TEI file converted from the ETHIO-authority google
@@ -36,21 +35,30 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="PL" when="2016-10-18"> Created file from google
                                 spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: ethnic</change>
+         <change when="2024-09-17" who="CH">Updated name and added bibliography.</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <personGrp role="ethnic">
-               <persName xml:id="n1">
+               <persName xml:id="n1" type="main">
                   <orgName>Oromo</orgName>
                </persName>
-               <persName xml:id="n2">
-                  <orgName>Galla</orgName>
+               <persName xml:id="n2" xml:lang="am" type="nick">
+                  <orgName>ጋላ፡</orgName>
                </persName>
-               
+               <persName corresp="#n2" type="normalized" xml:lang="am">Gāllā (outdated idiom)</persName>
             </personGrp>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Hultin2010Oromo"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Baxter2005Galla"/>
+            </bibl>            
+         </listBibl>
       </body>
    </text>
 </TEI>
