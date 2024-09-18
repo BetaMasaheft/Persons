@@ -60,7 +60,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="PRS14541PeterBrru" passive="BLorient3716b"/>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
+            <listBibl type="secondary">
+                <bibl>
+                    <ptr target="bm:Wylde1888Soudan"/><citedRange unit="page">180</citedRange>
+                </bibl>
+            </listBibl>
         </body>
     </text>
 </TEI>
