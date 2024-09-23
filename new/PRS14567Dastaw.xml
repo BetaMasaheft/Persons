@@ -50,10 +50,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <faith type=" EOTC"/>
                     <nationality type="Ethiopia"/>
                     <birth/>
-                    <death/>
-                    <floruit/>
+                  <floruit notBefore="1990" notAfter="2022">190-2022</floruit>
                 </person>
                 <listRelation>
+                    <relation name="saws:hasOwned" active="PRS14567Dastaw" passive="MD004"/>
                     <relation name="snap:SonOf" active="PRS14567Dastaw" passive="PRS14417MarigetaDamseEndalew"/>
                 </listRelation>
             </listPerson>
