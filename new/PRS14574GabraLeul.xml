@@ -1,0 +1,76 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS14574GabraLeul" xml:lang="en" type="pers">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Gabra Lǝʿul Tǝrfe</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="JK"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p>Gabra Lǝʿul Tǝrfe attended the boyschool of the Swedish Mission in the 1890s, spent a year in Italy,
+                    and later returned as an evangelist in <date from="1901" to="1902">1901–1902</date> and 
+                    <date from="1910" to="1924">1910–1924</date>. He is probably the author of a series of
+                <foreign xml:lang="gez">qəne</foreign> poems attested in <ref type="mss" corresp="UppQ1524o"/>.
+                    </p>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="JK" when="2024-09-25">Created entity</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listRelation>
+                <relation name="saws:isAttributedAuthorOf" cert="high" active="#PRS14574GabraLeul" passive=""></relation>
+                <relation name="saws:isAttributedAuthorOf" cert="high" active="#PRS14574GabraLeul" passive=""></relation>
+                <relation name="saws:isAttributedAuthorOf" cert="high" active="#PRS14574GabraLeul" passive=""></relation>
+                <relation name="snap:ProfessionalRelationship" active="#PRS14574GabraLeul" passive=""></relation>
+            </listRelation>
+            <listPerson>
+                <person sex="1">
+                    <persName xml:lang="gez" xml:id="n1">ገብረ፡ ልዑል፡ ትርፌ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra Lǝʿul Tǝrfe</persName>
+                    <floruit notBefore="1870" notAfter="1950">19th–20th century</floruit>
+                    <faith type="Protestantism"/>
+                    <occupation type="ecclesiastic"/>
+                    <birth/>
+                    <death/>
+                    <floruit>1870-1950</floruit>
+                </person>
+            </listPerson>
+            <listBibl type="secondary">
+                <bibl>
+                    <ptr target="bm:Lundstroem2011Kenisha"/>
+                    <citedRange unit="page">328, 486</citedRange>
+                </bibl>
+            </listBibl>
+        </body>
+    </text>
+</TEI>
