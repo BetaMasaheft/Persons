@@ -51,10 +51,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <nationality type="Ethiopia"/>
                     <birth/>
                     <death/>
-                    <floruit/>
+                    <floruit  notBefore="1400" notAfter="1500"></floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS14573HaraKrestos" passive="BNFabb94"/>
+                    <relation name="saws:hasWritten" active="PRS14573HaraKrestos" passive="BNFabb94"/>
                 </listRelation>
             </listPerson><!---->
         </body>
