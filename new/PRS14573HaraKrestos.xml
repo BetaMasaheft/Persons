@@ -46,7 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPerson>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ሐራ፡ ክርስቶስ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Ḥara Krǝstos</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Ḥarā Krǝstos</persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
                     <birth/>
@@ -54,7 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <floruit  notBefore="1400" notAfter="1500"></floruit>
                 </person>
                 <listRelation>
-                    <relation name="saws:hasWritten" active="PRS14573HaraKrestos" passive="BNFabb94"/>
+                    <relation name="saws:isCopierOf" active="PRS14573HaraKrestos" passive="BNFabb94#p2"/>
                 </listRelation>
             </listPerson><!---->
         </body>
