@@ -34,11 +34,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </abstract>
             <langUsage>
                 <language ident="en">English</language>
-                <language ident="gez">Gǝʿǝz</language>
+                
             </langUsage>
         </profileDesc>
         <revisionDesc>
             <change who="AWi" when="2024-10-11">Created entity</change>
+            <change when="2024-10-11" who="ES">added biographical detals</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -48,13 +49,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <persName xml:lang="en" xml:id="n1"><forename>John</forename> <surname>Winter Jones</surname></persName>
                     
                     <faith type="Anglican"/>
-                    <occupation type="academic"/>
+                    <occupation type="academic">Librarian</occupation>
                     <nationality type="UnitedKingdom"/>
-                    <birth/>
-                    <death/>
-                    <floruit notBefore="1805" notAfter="1881">Librarian of  <placeName ref="INS00001BL">British Museum</placeName> 1805-1881</floruit>
+                    <birth when="1805-06-16"/>
+                    <death when="1881-09-07"/>
+                    <floruit notBefore="1850" notAfter="1881">Assistant Keeper of Printed Books 1850-1856, Keeper 1856–1866, Principal Librarian from 1866 to 1878 of  the <placeName ref="INS00001BL">British Museum</placeName>; President of the Library Association 1877-1881</floruit>
                 </person>
-            </listPerson><!---->
+            </listPerson>
+            <listRelation>
+                <relation name="skos:exactMatch" active="PRS14577WinterJones" passive="https://en.wikipedia.org/wiki/John_Winter_Jones"></relation>
+                <relation name="lawd:hasAttestation" active="PRS14577WinterJones" passive="EMML50"></relation>
+            </listRelation>
         </body>
     </text>
 </TEI>
