@@ -40,7 +40,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     He is buried in Zazega. According to <bibl><ptr target="bm:Kahassai2023"/></bibl>,
                     he was locally known as <foreign xml:lang="ti"><roleName type="office">ቀሺ</roleName> ሜንሶን</foreign>
                     (<foreign xml:lang="ti"><roleName type="office">Qašši</roleName> Menson</foreign>),
-                    which is also the name attested in <ref type="mss" corresp="UppQ1524o"/>.</p>
+                    which is also the name attested in <ref type="mss" corresp="UppQ1524o"><locus target="#5r"/></ref>.</p>
             </abstract>
             <langUsage>
                 <language ident="en">English</language>
@@ -66,7 +66,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <death when="1928-06-04">1928</death>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS14576AndersSvensson" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS14576AndersSvensson" passive="UppQ1524o"/>
+                    <relation name="snap:ProfessionalRelationship" active="PRS14576AndersSvensson" passive="PRS14574GabraLeul"></relation>
                 </listRelation>
             </listPerson>
             <listBibl type="secondary">
