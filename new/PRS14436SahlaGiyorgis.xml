@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS14432WalGabrAdallahu" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS14436SahlaGiyorgis" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Walatta Gabrǝʾel ʾAdallāhu</title>
+                <title>Śāhla Giyorgis</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="CH"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -38,19 +38,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="CH" when="2024-05-17">Created entity</change>
+            <change who="CH" when="2024-05-23">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person sex="2">
-                    <persName xml:lang="gez" xml:id="n1">ወለተ፡ ገብርኤል፡ አደላሁ፡ </persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walatta Gabrǝʾel ʾAdallāhu</persName>
-                    <floruit notBefore="1800" notAfter="1889">19th century, but not after 1889.</floruit>
+                <person sex="1">
+                    <persName xml:lang="gez" xml:id="n1">ሣህለ፡ ጊዮርጊስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Śāhla Giyorgis</persName>
+                    <floruit notBefore="1900" to="1978">20th century</floruit>
                 </person>
                 <listRelation>
-                    <relation name="saws:hasOwned" active="PRS14432WalGabrAdallahu" passive="BLorient3716a"/>
+                    <relation name="saws:hasOwned" active="PRS14436SahlaGiyorgis" passive="BLorient13275"/>
                 </listRelation>
             </listPerson><!---->
         </body>
