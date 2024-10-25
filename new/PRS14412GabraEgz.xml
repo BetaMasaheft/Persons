@@ -47,7 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ገብረ፡ እግዚአብሔር፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra ʾƎgziʾabǝḥer</persName>
-                    <floruit>20th century</floruit>
+                    <floruit notBefore="1900" notAfter="1978">20th century, but not after 1978</floruit>
                 </person>
                 <listRelation>
                     <relation name="saws:hasOwned" active="PRS14412GabraEgz" passive="BLorient13278"/>
