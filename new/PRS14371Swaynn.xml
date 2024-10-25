@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>H. G. C. Swaynn</title>
+                <title>Harald George Carlos Swayne</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="CH"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -43,13 +43,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPerson>
-                <person sex="1">
-                    <persName xml:lang="en" xml:id="n1"><forename>H.</forename> <forename>G.</forename> 
-                        <forename>C.</forename> <surname>Swaynn</surname></persName>
+                <person sex="1" sameAs="Q15997110">
+                    <persName xml:lang="en" xml:id="n1"><forename>Harald</forename> <forename>George</forename> 
+                        <forename>Carlos</forename> <surname>Swayne</surname></persName>
                     <persName><roleName type="title">captain</roleName></persName>
-                    <occupation type="military">captain of the British Army</occupation>
+                    <occupation type="military">captain of the British Army in 1892</occupation>
+                    <occupation type="military">colonel of the British Army in WWI</occupation>
+                    <occupation type="military">honoured as Companion of the Order of St Michael and St George</occupation>
+                    <occupation type="literary">explorer with various travels i.e. to Somaliland, naturalist and hunter; frequent contributor to 
+                        publications about African wildlife</occupation>
+                    <occupation type="literary">Fellow of the Zoological Society of London</occupation>
+                    <occupation type="literary">Fellow of the Royal Geograpical Society</occupation>
                     <nationality type="UnitedKingdom"/>
-                    <floruit notBefore="1840" notAfter="1930">19th century</floruit>
+                    <birth when="1860">1860</birth>
+                    <death when="1940">1940</death>
+                    <floruit notBefore="1884" notAfter="1897">Served in the Corps of Royal Engineers in India between 1884 and 1897, during
+                        which time he made a number of expeditions to Africa to carry out exploratory surveys for the British authorities.</floruit>
                 </person>
                 <listRelation>
                     <relation name="saws:hasOwned" active="PRS14371Swaynn" passive="BLorient5368"/>
