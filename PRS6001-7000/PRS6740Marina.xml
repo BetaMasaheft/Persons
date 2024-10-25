@@ -16,7 +16,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 This file is licensed under the Creative Commons
                 Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2016-03-21</date>
+            
          </publicationStmt>
          <sourceDesc>
             <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
@@ -39,19 +39,33 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change when="2024-08-16" who="ES">updated, using for Marina the Monk</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
-            <person sex="2">
-               <persName>
-                  
-                  Marina
-               </persName>
-               <occupation> princess </occupation>
+            <person sex="2" sameAs="wd:Q543320">
+               <persName xml:lang="gez" xml:id="n1">መሪና፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Marinā</persName>
+               <persName xml:lang="en" type="main" corresp="#n1">St Marina</persName>
+               <persName xml:lang="en" xml:id="n2" type="main">Marina the Monk</persName>
+
+               <floruit>Marina probably lived in the 5th century, and the first biographical account was probably written sometime between 525 and 650. She was a Christian who wanted to be a monk and dressed as a man. Not to be confused with <persName ref="PRS6741Marina">Marinā</persName> commemorated on
+                  <date type="diesNatalis" ref="ethiocal:Hamle23">23 Ḥamle</date>.
+               </floruit>
+               <note></note>
+               <note type="commemoration">commemorated on <date ref="ethiocal:Nahase15">15 Nāḥase</date> and, together with her father Eugenius, on
+                  <date ref="ethiocal:Tahsas8">8 Tāḫśāś</date></note>
             </person>
+            <listRelation>
+               <relation name="ecrm:P129i_is_subject_of" active="PRS6740Marina" passive="LIT2375Synaxa"/>
+               <relation name="snap:DaughterOf" active="PRS6740Marina" passive="PRS12051Awganyos"> </relation>
+            </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl><ptr target="bm:Pereira1903Marina"/></bibl><bibl><ptr target="bm:Pereira1905Marina"/></bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>

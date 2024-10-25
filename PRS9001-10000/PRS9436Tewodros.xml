@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS9436Tewodros">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Tewodros of Awqiṭos </title>
+            <title>Tewodros of Awqiṭos</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -32,23 +32,40 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage>
+           <language ident="en">English</language>
+           <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+         <textClass>
+           <keywords>
+             <term key="martyr"></term>
+           </keywords>
+         </textClass>
       </profileDesc>
+
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change who="MKr" when="2021-02-20">Added additional info, provided by Alessandro Bausi</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Tewodros of Awqiṭos 
-               </persName>
+               <persName xml:lang="en" xml:id="n1">Tewodros of ʾAwqiṭos</persName>
+               <persName xml:lang="gez" xml:id="n2">ቴዎድሮስ፡</persName>
+               <nationality type="Egypt"></nationality>
+               <faith type="Christianity"></faith>
+               <floruit>According to a homily in <ref type="mss" corresp="BNFabb179"/> and <ref type="mss" corresp="EMML1824"/> he was
+               a high-ranking officer in the army of Diocletian, born of John, a saint from Upper Egypt, and the pagan ʾAwsā, daughter of an
+               officer in the Roman army. Apart from this homily, in Ethiopic tradition there is also a collection of his miracles
+             preserved in <ref type="mss" corresp="EMML1939"/>. </floruit>
+               <note>According to <bibl><ptr target="bm:EMML5"></ptr><citedRange unit="page">268</citedRange></bibl>he
+             should not be confused with <persName ref="PRS9470Theodore">Theodore the Oriental</persName>.</note>
+                <note type="commemoration"><date type="diesNatalis" ref="ethiocal:Hamle20">20 Ḥamle</date></note>
             </person>
          </listPerson>
       </body>
