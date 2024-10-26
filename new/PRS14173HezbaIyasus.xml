@@ -51,12 +51,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <t:nationality xmlns:t="http://www.tei-c.org/ns/1.0" type="Ethiopia"/>
                     <birth/>
                     <death/>
-                    <floruit/>
+                    <floruit notBefore="1300" notAfter="1400"/>
+                    <note>The name is written in a cryptic form  <foreign xml:lang="gez">ሕኢዝየ፡ ብሱስ፡</foreign> and reconstructed in  <bibl><ptr target="bm:Bausi2022Colophons"/></bibl> as 
+                        <foreign xml:lang="gez">ሕዝበ፡ ኢየሱስ፡</foreign>.</note>
                 </person>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="PRS14173HezbaIyasus" passive="EMML8509"/>
                 </listRelation>
             </listPerson><!---->
+            <listBibl type="secondary">
+                <bibl> 
+                    <ptr target="bm:Bausi2022Colophons"><citedRange unit="page">155</citedRange></ptr>
+                </bibl>  
+              </listBibl>
         </body>
     </text>
 </TEI>
