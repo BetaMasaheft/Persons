@@ -43,19 +43,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </teiHeader>
     <text>
         <body>
-            <t:listPerson xmlns:t="http://www.tei-c.org/ns/1.0">
+            <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Gabra Māryām</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ገብረ፡ ማርያም፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra Māryām</persName>
                     <faith type="EOTC"/>
-                    <birth/>
-                    <death/>
-                    <t:floruit/>
+                    <floruit notBefore="1800" notAfter="1899"/>
                 </person>
                 <listRelation>
-                    <relation name="saws:isCopierOf" active="PRS14580GabraMa" passive=""/>
+                    <relation name="saws:isCopierOf" active="PRS14580GabraMa" passive="BAVet121">
+                        <desc>Gabra Māryām is indicated as the scribe of the manuscript in the supplication formula at the end of <ref type="item" corresp="BAVet121#i1.2.1"/>.</desc>
+                    </relation>
                 </listRelation>
-            </t:listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>
