@@ -45,7 +45,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sameAs="Q770191" sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Theodorus of Tabennese</persName>
+                    <persName xml:lang="en"  xml:id="n1">Theodorus of Tabennese</persName>
+                    <persName xml:lang="gez" xml:id="n2">ቴዎድሮስ ፡ ሊቀ ፡ መነኮሳት ፡ ዘደውናሳ ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n2">Tewodros liqa manakosāt za-Dawnāsā</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1"/>
                     <faith type="Christianity"/>
                     <occupation type="ecclesiastic"/>
@@ -55,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <floruit/>
                 </person>
                 <listRelation>
-                    <relation name="ecrm:P129i_is_subject_of" active="PRS14582Theodorus" passive=""/>
+                    <relation name="ecrm:P129i_is_subject_of" active="PRS14582Theodorus" passive="LIT7133LifeTheod"/>
                 </listRelation>
             </listPerson><!---->
         </body>
