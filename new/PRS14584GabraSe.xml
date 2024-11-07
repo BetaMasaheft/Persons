@@ -45,18 +45,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Gabra Śǝllāse</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
-                    <t:faith xmlns:t="http://www.tei-c.org/ns/1.0" type="EOTC"/>
-                    <occupation type="literary"/>
-                    <t:birth xmlns:t="http://www.tei-c.org/ns/1.0"/>
-                    <death/>
-                    <floruit/>
+                    <persName xml:lang="gez" xml:id="n1">ገብረ ሥላሴ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra Śǝllāse</persName>
+                    <faith type="EOTC"/>
+                    <floruit notBefore="1889" notAfter="1913">19th-20th century</floruit>
                 </person>
                 <listRelation>
-                    <relation name="saws:isCopierOf" active="PRS14584GabraSe" passive=""/>
+                    <relation name="saws:isCopierOf" active="PRS14584GabraSe" passive="BAVet115">
+                        <desc>Gabra Śǝllāse is indicated as the scribe of <ref type="mss" corresp="BAVet115"/> in the scribal supplication on f. 137v.</desc>
+                    </relation>                   
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>
