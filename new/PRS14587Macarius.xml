@@ -46,15 +46,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPerson>
                 <person sameAs="wd:Q2743919" sex="1">
                     <persName xml:lang="en" xml:id="n1">Macarius of Alexandria</persName>
+                    <persName xml:lang="gez" xml:id="n2">መቃርስ፡ እስክንድራዊ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="n2">Maqārǝs ʾǝsqǝndǝrāwi</persName>
                      <faith type="Christianity"/>
                     <occupation type="ecclesiastic"/>
                     <nationality type="Egypt"/>
-                    <birth>297</birth>
-                    <death>395</death>
+                       <death>395</death>
                     <note type="commemoration"><date ref="ethiocal:Genbot06">6 Gǝnbot</date></note>
                     <floruit/>
                 </person>
             </listPerson><!---->
+            
+            <listRelation>
+                <relation name="ecrm:P129i_is_subject_of" active="PRS14587Macarius" passive="LIT7137Combat"/>
+            </listRelation>
+            
         </body>
     </text>
 </TEI>
