@@ -46,6 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="ES" when="2021-12-29">Created entity</change>
+            <change who="MKr"  when="2024-11-08">Added Wikidata</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -54,9 +55,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <bibl><ptr target="bm:Zanetti2011Abraham"/></bibl>
             </listBibl>
             <listPerson>
-                <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1"/>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Abraham of Scete</persName>
+                <person sex="1" sameAs="wd:Q4055990">
+                     <persName xml:lang="en" xml:id="n1">Abraham of Scete</persName>
                     <faith type="Christianity Orthodox Coptic"/>
                     <floruit >Egyptian martyr, monk at <placeName ref="LOC2604DayrAn"/></floruit>
                     <death>He is commemorated on <date type="diesNatalis" ref="ethiocal:Genbot18">18 Gǝnbot</date></death>
