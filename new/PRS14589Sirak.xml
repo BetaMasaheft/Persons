@@ -45,16 +45,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Sirāk</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ሲራክ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Sirāk</persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
                     <birth/>
                     <death/>
-                    <floruit>1500-1599</floruit>
+                    <floruit notBefore="1500" notAfter="1599">He is recorded as the scribe of a few 16th-Century manuscripts from <ref type="ins" ref="INS0327DHE">Dabra Ḥayq ʾƎsṭifānos</ref>. </floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS14589Sirak" passive=""/>
+                    <relation name="saws:isCopierOf" active="PRS14589Sirak" passive="EMML1844"/>
                 </listRelation>
             </listPerson><!---->
         </body>
