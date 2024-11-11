@@ -45,16 +45,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Mātyās</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ማትያስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Mātyās</persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
                     <birth/>
                     <death/>
-                    <floruit>1500-1599</floruit>
+                    <floruit notBefore="1500" notAfter="1599">He is recorded as the commissioner of a few 16th-Century manuscripts from <ref type="ins" corresp="INS0327DHE">Dabra Ḥayq ʾƎsṭifānos</ref>,
+                        sometimes together with "his brother" <ref type="pers" corresp="PRS14591Yeshaq">Yǝsḥaq</ref>.</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS14590Matyas" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS14590Matyas" passive="EMML1844"/>
                 </listRelation>
             </listPerson><!---->
         </body>
