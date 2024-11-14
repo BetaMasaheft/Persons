@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Life of John of Lycopolis</title>
+                <title>John of Lycopolis</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="MKr"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -44,17 +44,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPerson>
-                <person sameAs="Q2749467" sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Life of John of Lycopolis</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                <person sameAs="wd:Q2749467" sex="1">
+                    <persName xml:lang="en" xml:id="n1">John of Lycopolis</persName>
+                    <persName xml:lang="gez" xml:id="n2">ዮሐንስ ፡ ዘሊቆስ ፡ </persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n2">Yoḥannǝs za-Liqos</persName>
+                    <persName xml:lang="en" xml:id="n3">John of Egypt</persName>
                     <faith type="Christianity"/>
                     <nationality type="Egypt"/>
                     <birth/>
                     <death>394</death>
                     <floruit/>
+                    <note type="commemoration"><date ref="ethiocal:Hedar21">21 Ḫǝdār</date></note>
                 </person>
                 <listRelation>
-                    <relation name="ecrm:P129i_is_subject_of" active="PRS14592John" passive=""/>
+                    <relation name="ecrm:P129i_is_subject_of" active="PRS14592John" passive="LIT7148Life"/>
                 </listRelation>
             </listPerson><!---->
         </body>
