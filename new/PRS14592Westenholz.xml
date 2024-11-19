@@ -1,7 +1,7 @@
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS14591Yeshaq" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS14592Westenholz" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -51,19 +51,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <occupation type="academic">Private scholar</occupation>
                     <birth when="1879"/>
                     <residence>Hamburg</residence>
-                    <floruit when="1903" evidence="internal">In 1903 Albert Wilhelm von Westenholz purchased an Enoch codex in the United States for the sum of twenty-five dollars from Haussmann, the brother of <persName ref="PRS4133Flad"/>
-                        He was the commissioner of the collection of royal chronicles (a copy of daǧǧāzmāč <persName ref="PRS5222haylaMi">Ḫāylu</persName> compilation ) preserved in 
-                        <placeName ref="INS0303BNF">Bibliothèque nationale de France</placeName>
-                    </floruit>
                     <death when="1940"/>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS14591Yeshaq" passive="EMML1844"/>
-                    <relation name="lawd:hasAttestation" active="PRS14590Matyas" passive="EMML1840"
-                    />
+                    <relation name="saws:hasOwned" active="PRS14592Westenholz" passive="SHOr271a"/>
                 </listRelation>
             </listPerson>
-            <!---->
         </body>
     </text>
 </TEI>
+
