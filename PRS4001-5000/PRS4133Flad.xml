@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS4133Flad">
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS4133Flad">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
@@ -9,49 +10,74 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
-            <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+               Forschungsumgebung / Beta maṣāḥǝft</publisher>
             <pubPlace>Hamburg</pubPlace>
             <availability>
-               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
-                This file is licensed under the Creative Commons
-                Attribution-ShareAlike 4.0. </licence>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                  licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
             </availability>
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
             <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
-            <p>A TEI file converted from the ETHIO-authority
-                                                  google spreadsheet</p>
+            <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+            href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
             <xi:fallback>
                <p>Definitions of prefixes used.</p>
             </xi:fallback>
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
-         <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
+         <change who="PL" when="2016-04-28">batch updated according to requirements and
+            issues.</change>
+         <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change who="NV" when="2024-11-19">Added information about Flad, added bibl.</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                   Johann Martin
-                  Flad
-               </persName>
-               <occupation> miss. </occupation>
+            <person sex="1" sameAs="Q93086916">
+               <persName>Johann Martin Flad </persName>
+               <occupation type="ecclesiastic"> missionary</occupation>
+               <faith type="Protestantism"/>
+               <birth when="1831"/>
+               <floruit notBefore="1855" notAfter="1894">
+                  <persName ref="#PRS4133Flad"/> was one of the most prominent Protestant
+                  missionaries to Ethiopia in the nineteenth century, making numerous trips there
+                  between 1855 and 1894 and being among the captives at <placeName
+                     ref="LOC4547Maqdal">Magdala</placeName> freed by the <persName
+                     ref="PRS7484Napier"> Napier</persName> expedition. He was active in Bible work,
+                  promotion of Christianity among <persName ref="ETH1274Betaes">Beta
+                     ʾƎsrāʾel</persName> and, occassionally, purchase of manuscripts. </floruit>
+               <death when="1915"/>
+
             </person>
+            <listRelation>
+               <relation name="betmas:husbandOf" active="PRS4132Flad" passive="PRS4134Flad"></relation>
+               <relation name="snap:ProfessionalRelationship" active="PRS4132Flad" passive="PRS6064Krapf"></relation>
+               <relation name="snap:ProfessionalRelationship" active="PRS4132Flad" passive="PRS4722Gobat"></relation>
+               
+               <relation name="snap:FriendshipFor" active="PRS4132Flad" passive="PRS7081Mikael"><desc> Mikāʾel ʾAragāwi was Flad´s first adopted son.</desc>
+               </relation>
+            </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Flad2005Flad"/>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
