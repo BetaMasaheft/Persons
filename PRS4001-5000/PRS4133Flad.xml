@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Flad</title>
+            <title>Flad, Johann Martin</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -49,12 +49,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPerson>
             <person sex="1" sameAs="Q93086916">
-               <persName>Johann Martin Flad </persName>
-               <occupation type="ecclesiastic"> missionary</occupation>
+               <persName>
+                  <forename>Johann Martin</forename>
+                  <surname> Flad </surname>
+               </persName>
+               <occupation type="ecclesiastic">missionary</occupation>
                <faith type="Protestantism"/>
                <birth when="1831"/>
                <floruit notBefore="1855" notAfter="1894">
-                  <persName ref="#PRS4133Flad"/> was one of the most prominent Protestant
+                  He was one of the most prominent Protestant
                   missionaries to Ethiopia in the nineteenth century, making numerous trips there
                   between 1855 and 1894 and being among the captives at <placeName
                      ref="LOC4547Maqdal"/> freed by the <persName
