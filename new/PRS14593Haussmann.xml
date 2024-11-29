@@ -43,24 +43,35 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPerson>
-                <person  sex="1">
+                <person sex="1">
                     <persName>
-                        <forename>C.F.</forename>
+                        <forename>C.</forename><forename>F.</forename>
                         <surname>Haussmann</surname>
                     </persName>
-                        <floruit notBefore="1863">
-                            He was  one of the  Protestant
-                            missionaries to <placeName ref="LOC3010Ethiop">Ethiopia</placeName> in the nineteenth century.</floruit>
+                    <floruit notBefore="1863"> He was one of the Protestant missionaries to
+                            <placeName ref="LOC3010Ethiop">Ethiopia</placeName> in the nineteenth
+                        century.</floruit>
                     <occupation type="ecclesiastic">missionary</occupation>
                     <faith type="Protestantism"/>
                 </person>
                 <listRelation>
                     <relation name="saws:hasOwned" active="PRS14593Haussmann" passive="SHOr271a"/>
-                    <relation name="snap:ProfessionalRelationship" active="#PRS14593Haussmann" passive="PRS4133Flad"></relation>
-                    <relation name="snap:ProfessionalRelationship" active="#PRS14593Haussmann" passive="PRS6064Krapf"></relation>
+                    <relation name="snap:ProfessionalRelationship" active="PRS14593Haussmann"
+                        passive="PRS4133Flad"/>
+                    <relation name="snap:ProfessionalRelationship" active="PRS14593Haussmann"
+                        passive="PRS6064Krapf"/>
                 </listRelation>
             </listPerson>
+            <listBibl type="secondary">
+                <bibl>
+                    <ptr target="bm:KrapfHaussmann1864Bericht"/>
+                </bibl>
+                <bibl>
+                    <ptr target="bm:Haussmann1864Bericht"/>
+                </bibl>
+
+            </listBibl>
+
         </body>
     </text>
 </TEI>
-
