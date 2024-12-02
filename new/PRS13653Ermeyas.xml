@@ -47,7 +47,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ኤርምያስ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">ʾErmǝyās</persName>
+                    <floruit notBefore="1650" notAfter="1868"/>
                 </person>
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="PRS13653Ermeyas" passive="BLorient674"/>
+                </listRelation>
             </listPerson>
         </body>
     </text>
