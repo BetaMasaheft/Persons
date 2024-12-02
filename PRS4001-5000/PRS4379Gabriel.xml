@@ -19,7 +19,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
-            <p>Prosopography of Ethiopian Written tradition</p>
+            <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
             <p>A TEI file converted from the ETHIO-authority
                                                   google spreadsheet</p>
          </sourceDesc>
@@ -45,10 +45,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Gabriel V
-               </persName>
+                  <persName xml:id="n1">Gabriel V</persName>
+                  <persName xml:lang="gez" xml:id="n2">ገብርኤል</persName>
+                  <persName xml:lang="gez" type="normalized" corresp="#n2">Gabrəʾel</persName>
+                  <floruit notBefore="1409" notAfter="1427">1409 to 1427</floruit>
                 <occupation type="ecclesiastic">Patriarch</occupation>
             </person>
          </listPerson>

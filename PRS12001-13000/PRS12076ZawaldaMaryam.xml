@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12076ZawaldaMaryam" xml:lang="en" type="pers">
     <teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             </titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
-                <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas:  Eine multimediale
                             Forschungsumgebung / Beta maṣāḥǝft</publisher>
                 <pubPlace>Hamburg</pubPlace>
                 <availability>
@@ -55,7 +55,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     <floruit notBefore="1700" notAfter="1750">18th century</floruit>
                 </person>
                 <listRelation>
-                    <relation name="saws:isCopierOf" active="PRS12076ZawaldaMaryam" passive="ESamq014 ESqsm001 ESqsm007 ESmr008 ESum042 ESmkl015 ESmkl016"/>
+                    <relation name="saws:isCopierOf" active="PRS12076ZawaldaMaryam" passive="ESqsm001"/>
+                    <relation name="saws:isCopierOf" active="PRS12076ZawaldaMaryam" passive="ESqsm007"/>
+                    <relation name="saws:isCopierOf" active="PRS12076ZawaldaMaryam" passive="ESmr008"/>
+                    <relation name="saws:isCopierOf" active="PRS12076ZawaldaMaryam" passive="ESmr033"/>
+                    <relation name="saws:isCopierOf" active="PRS12076ZawaldaMaryam" passive="ESmkl015"/>
+                    <relation name="saws:isCopierOf" active="PRS12076ZawaldaMaryam" passive="ESmkl016"/>
+                    <relation name="saws:isCopierOf" active="PRS12076ZawaldaMaryam" passive="BMLacq810"/>
+                    <relation name="saws:isCopierOf" active="PRS12076ZawaldaMaryam" passive="BMLacq306"/>
+                    <relation name="saws:hasOwned" active="PRS12076ZawaldaMaryam" passive="BMLacq810">
+                        <desc>A prolific scribe, with the hand dissimilar from <persName ref="PRS12077ZawaldaMaryam"/> and 
+                        <persName ref="PRS14489ZawaldaMaryam"/></desc>
+                    </relation>
                 </listRelation>
             </listPerson>
          <!---->

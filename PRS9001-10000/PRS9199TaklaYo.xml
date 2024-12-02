@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Täklä Yoḥannǝs</title>
+            <title>Takla Yoḥannǝs</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -19,7 +19,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
-            <p>Prosopography of Ethiopian Written tradition</p>
+            <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
             <p>A TEI file converted from the ETHIO-authority
                                                   google spreadsheet</p>
          </sourceDesc>
@@ -35,6 +35,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <langUsage><language ident="en">English</language></langUsage>
       </profileDesc>
       <revisionDesc>
+         <change who="CH" when="2023-01-09">Updated names and attestations.</change>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
@@ -45,12 +46,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Täklä Yoḥannǝs
-               </persName>
-               <occupation> mähari </occupation>
+               <persName xml:lang="gez" xml:id="n1">ተክለ፡ ዮሐንስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Takla Yoḥannǝs</persName>
+               <occupation type="ecclesiastic">mahari </occupation>
             </person>
+            <listRelation>
+               <relation name="lawd:hasAttestation" active="PRS9199TaklaYo" passive="EMML1832"/>
+            </listRelation>
          </listPerson>
       </body>
    </text>

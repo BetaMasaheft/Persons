@@ -1,0 +1,69 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13881Irenaeus" xml:lang="en" type="pers">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Irenaeus of Sirmium</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="MKr"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+            <textClass>
+              <keywords>
+                <term key="martyr"></term>
+              </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change who="MKr" when="2022-08-28">Created entity</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person sameAs="wd:Q240598" sex="1">
+                    <persName xml:lang="en" xml:id="n1">Irenaeus of Sirmium</persName>
+                    <persName xml:lang="gez" xml:id="n2">ሄሬኔዎስ፡ ጳጳስ፡ ዘሶርም፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n2">Herenewos ṗāṗās za-Sorǝm</persName>
+                    <faith type="Christianity"/>
+                    <occupation type="ecclesiastic"/>
+                    <birth/>
+                    <death>304</death>
+                    <floruit>Bishop of Sirmium in Pannonia (present-day Serbia), martyred during the Diocletianic persecution.</floruit>
+                    <note>Both in the <ref type="work" corresp="LIT1493Gadlas">Gadla samāʿtāt</ref> and in the <ref type="work" corresp="LIT2375Synaxa">Synaxary</ref> he isommemorated on <date type="diesNatalis" ref="ethiocal:Nahase29">29 Naḥāse</date></note>
+                </person>
+                <listRelation>
+                    <relation name="ecrm:P129i_is_subject_of" active="PRS13881Irenaeus" passive="LIT1896Martyr"/>
+                </listRelation>
+            </listPerson><!---->
+        </body>
+    </text>
+</TEI>

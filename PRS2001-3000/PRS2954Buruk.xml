@@ -19,7 +19,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
-            <p>Prosopography of Ethiopian Written tradition</p>
+            <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
             <p>A TEI file converted from the ETHIO-authority
                                                   google spreadsheet</p>
          </sourceDesc>
@@ -35,6 +35,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <langUsage><language ident="en">English</language></langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2024-01-08" who="CH">Updated attestations</change>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
@@ -46,14 +47,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <listPerson>
             <person sex="1">
                <persName>
-                  
-                  Buruk
+                  <persName xml:lang="gez" xml:id="n1" type="birth">ቡሩክ፡</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Buruk</persName> 
                </persName>
             </person>
             <listRelation>
-               <relation name="sonOf">
-                  <desc> son Zäʾiyäsus </desc>
-               </relation>
+               <relation name="snap:SonOf" active="PRS2954Buruk" passive="PRS10531Zaiyas"/>
+               <relation name="lawd:hasAttestation" active="PRS2954Buruk" passive="EMML1832"/>
             </listRelation>
          </listPerson>
       </body>

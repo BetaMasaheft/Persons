@@ -19,7 +19,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
-            <p>Prosopography of Ethiopian Written tradition</p>
+            <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
             <p>A TEI file converted from the ETHIO-authority
                                                   google spreadsheet</p>
          </sourceDesc>
@@ -49,10 +49,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                    Theophil
                   Waldmeier
                </persName>
-               <persName type="alt">Wäldä Mayyär</persName>
-               <occupation type="ecclesiastic"> miss. </occupation>
+               <persName xml:lang="gez" xml:id="n2" type="alt">ወልደ፡ ማርያም፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Walda Māryām</persName>
+               <occupation type="ecclesiastic">Protestant missionary </occupation>
             </person>
-         </listPerson>
+         </listPerson>         
       </body>
    </text>
 </TEI>

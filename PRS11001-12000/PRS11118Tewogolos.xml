@@ -19,7 +19,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <p>Prosopography of Ethiopian Written tradition</p>
+            <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
             <p>A TEI file converted from the ETHIO-authority
                                     google spreadsheet</p>
          </sourceDesc>
@@ -46,12 +46,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                   <forename/>
                   <surname>Tewogolos</surname>
                </persName>
-               <floruit>1508</floruit>
+               <floruit>1508 in Jerusalem</floruit>
                <!--From Time field, to be changed into DEATH, BIRTH, or whatever is actually relevant!-->
                <occupation>scribe</occupation>
             </person>
             <listRelation>
-               <relation name="syriaca:has-relation-to-place" active="PRS11118Tewogolos">Jerusalem</relation>
+               <relation name="syriaca:has-relation-to-place" active="PRS11118Tewogolos" passive="LOC3957Jerusa"></relation>
                <relation name="lawd:hasAttestation" active="PRS11118Tewogolos" passive="BNFet80"><!--Please fix the relation of this item with BNFet80--></relation>
             </listRelation>
          </listPerson>

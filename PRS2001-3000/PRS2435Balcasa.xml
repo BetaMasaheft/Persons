@@ -16,10 +16,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 This file is licensed under the Creative Commons
                 Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2016-03-21</date>
+            
          </publicationStmt>
          <sourceDesc>
-            <p>Prosopography of Ethiopian Written tradition</p>
+            <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
             <p>A TEI file converted from the ETHIO-authority
                                                   google spreadsheet</p>
          </sourceDesc>
@@ -32,9 +32,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <abstract>
+            <p>Important military commander, royal treasurer and provincial governor. He participated in the battle of ʿAdwa and was killed
+               by Italian forces during the Italian occupation in 1936.</p>
+         </abstract>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="am">Amharic</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change who="CH" when="2023-05-25">Updated names and created abstract</change> 
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
@@ -45,12 +54,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Balča Śafo
-               </persName>
-               <occupation> däǧǧ. </occupation>
+               <persName xml:lang="am" xml:id="n1"><roleName type="title">ደጃዝማች፡</roleName> ባልቻ፡</persName>
+               <persName xml:lang="am" type="normalized" corresp="#n1"><roleName type="title">daǧǧāzmāč</roleName>Bālčā</persName>
+               <persName xml:lang="am" xml:id="n2"><roleName type="title">ደጃዝማች፡</roleName> ባልቻ፡ ሣፎ፡</persName>
+               <persName xml:lang="am" type="normalized" corresp="#n2"><roleName type="title">daǧǧāzmāč</roleName> Bālčā Śāfo</persName>
+               <persName xml:lang="am" xml:id="n3" type="horse"><roleName type="title">አባ፡ </roleName>ነፍሶ፡</persName>
+               <persName xml:lang="am" type="normalized" corresp="#n3"><roleName type="title">Abbā</roleName> Nafso</persName>
+               <persName xml:lang="gez" xml:id="n4" type="baptismal">ተክለ፡ ሚካኤል፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n4">Takla Mikāʾel</persName>
+               <faith type="EOTC"/>
+               <occupation type="military">Daǧǧazmač</occupation>
+               <nationality type="Ethiopia"/>
+               <birth when="1860"/>
+               <death when="1936">6th November 1936</death>
+               <floruit/>
             </person>
+            <listRelation>
+               <relation name="saws:hasOwned" active="PRS2435Balcasa" passive="BMLacq680"/>
+            </listRelation>
          </listPerson>
       </body>
    </text>

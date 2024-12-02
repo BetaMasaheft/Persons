@@ -1,0 +1,64 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS14474JohnHills" xml:lang="en" type="pers">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>James Hills-Johnes</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="CH"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="CH" when="2024-06-14">Created entity</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person sex="1" sameAs="Q76312996">
+                    <persName xml:lang="gez" xml:id="n1"><forename>James</forename> <forename>John</forename> 
+                        <surname>Hills-Johnes</surname></persName>
+                    <persName><roleName type="title">Sir</roleName></persName>
+                    <persName><roleName type="title">Knight Commander of the Order of the Bath</roleName></persName>
+                    <occupation type="military">British Indian army officer, participated in the campaign to Abyssinia of 1868.</occupation>
+                    <nationality type="UnitedKingdom"/>
+                    <birth>1833</birth>
+                    <death>1919</death>
+                    <floruit notBefore="1853" notAfter="1888">Years of service 1853-1888</floruit>
+                </person>
+                <listRelation>
+                    <relation name="saws:hasOwned" active="PRS14474JohnHills" passive="BLorient8192"/>
+                    <relation name="snap:BrotherOf" active="PRS14474JohnHills" passive="PRS14475VeronicaHills"/>
+                </listRelation>
+            </listPerson><!---->
+        </body>
+    </text>
+</TEI>

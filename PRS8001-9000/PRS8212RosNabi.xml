@@ -21,7 +21,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
-            <p>Prosopography of Ethiopian Written tradition</p>
+            <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
             <p>A TEI file converted from the ETHIO-authority
                                                   google spreadsheet</p>
          </sourceDesc>
@@ -93,12 +93,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                <listRelation>
                   
                   <relation name="snap:AllianceWith" active="PRS8212RosNabi" passive="PRS6229LebnaDe"/>
-                  <relation name="rel:enemyOf" active="PRS8212RosNabi" passive="PRS1500Ahmad"/>
+                  <relation name="snap:EnmityFor" active="PRS8212RosNabi" passive="PRS1500Ahmad"/>
                   
                   
                </listRelation>
          </listPerson>
-         <listBibl type="editions">
+         <listBibl type="secondary">
             <bibl>
                <ptr target="bm:Basset1882Chronicle"/>
             </bibl>
@@ -106,7 +106,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </listBibl>
          <listBibl type="secondary">
             <bibl> 
-               <ptr target="bm:Nosnistin2010RosNabiyat"/>
+               <ptr target="bm:Nosnitsin2010RosNabiyat"/>
             </bibl>
             
          </listBibl>

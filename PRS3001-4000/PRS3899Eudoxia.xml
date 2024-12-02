@@ -16,10 +16,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 This file is licensed under the Creative Commons
                 Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2016-03-21</date>
+            
          </publicationStmt>
          <sourceDesc>
-            <p>Prosopography of Ethiopian Written tradition</p>
+            <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
             <p>A TEI file converted from the ETHIO-authority
                                                   google spreadsheet</p>
          </sourceDesc>
@@ -32,7 +32,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language><language ident="grc">Greek</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
@@ -44,11 +44,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
-            <person sex="2">
+            <person sex="2" sameAs="wd:Q232981">
                <persName>
-                  
-                  Eudoxia
+                  <persName xml:lang="gez" xml:id="n1">ʾAwdoksyā</persName>
+                  <persName xml:lang="gez" type="normalized" corresp="#n1">አውዶክስያ፡</persName>
+                  <persName xml:lang="en" xml:id="n2">Eudoxia</persName>
+                  <persName xml:lang="grc" xml:id="n3">Εὐδοξία</persName>
                </persName>
+               <listRelation>
+                  <relation name="betmas:wifeOf" active="PRS3899Eudoxia" passive="PRS2016Arcadius"/>
+                  <relation name="lawd:hasAttestation" active="PRS3899Eudoxia" passive="LIT3963Homily"/>
+               </listRelation>
                <occupation> empress </occupation>
             </person>
          </listPerson>

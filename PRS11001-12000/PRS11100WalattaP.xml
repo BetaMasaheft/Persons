@@ -19,7 +19,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <p>Prosopography of Ethiopian Written tradition</p>
+            <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
             <p>A TEI file converted from the ETHIO-authority
                                     google spreadsheet</p>
          </sourceDesc>
@@ -49,7 +49,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                <occupation>owner</occupation>
             </person>
             <listRelation>
-               <relation>wife of PRS11099Giyorgis</relation>
+               <relation name="betmas:wifeOf" active="PRS11100WalattaP" passive="PRS11099Giyorgis"></relation>
                <relation name="lawd:hasAttestation" active="PRS11100WalattaP" passive="BNFet71"><!--Please fix the relation of this item with BNFet71--></relation>
             </listRelation>
          </listPerson>

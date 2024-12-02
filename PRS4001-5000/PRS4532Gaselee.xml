@@ -19,7 +19,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
-            <p>Prosopography of Ethiopian Written tradition</p>
+            <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
             <p>A TEI file converted from the ETHIO-authority
                                                   google spreadsheet</p>
          </sourceDesc>
@@ -39,17 +39,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change when="2024-06-06" who="CH">Updated names, occupation, birth, death and wikidata</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                   Stephen
-                  Gaselee
-               </persName>
-               <occupation> sch. </occupation>
+            <person sex="1" sameAs="wd:Q7609298">
+               <persName><forename>Stephen</forename> <surname>Gaselee</surname></persName>
+               <persName><roleName type="title">Sir</roleName></persName>
+               <occupation type="academic">scholar, writer and librarian</occupation>
+               <occupation type="political">diplomat</occupation>
+               <nationality type="UnitedKingdom">British</nationality>
+               <birth when="1882-11-09">9 November 1882</birth>
+               <death when="1943">1943</death>
             </person>
          </listPerson>
       </body>

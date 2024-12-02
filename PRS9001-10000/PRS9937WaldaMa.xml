@@ -19,7 +19,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
-            <p>Prosopography of Ethiopian Written tradition</p>
+            <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
             <p>A TEI file converted from the ETHIO-authority
                                                   google spreadsheet</p>
          </sourceDesc>
@@ -45,13 +45,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Wäldä Maryam
-               </persName>
+               <persName xml:lang="gez" xml:id="n1">ወልደ፡ ማርያም፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Walda Māryām</persName>
             </person>
             <listRelation>
-               <relation name="snap:FatherOf">
+               <relation name="snap:FatherOf" active="PRS9937WaldaMa" passive="PRS6768Marqorew">
                   <desc> fath. Märqorewos </desc>
                </relation>
             </listRelation>

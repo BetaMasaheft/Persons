@@ -16,10 +16,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 This file is licensed under the Creative Commons
                 Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2016-03-21</date>
+            
          </publicationStmt>
          <sourceDesc>
-            <p>Prosopography of Ethiopian Written tradition</p>
+            <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
             <p>A TEI file converted from the ETHIO-authority
                                                   google spreadsheet</p>
          </sourceDesc>
@@ -32,7 +32,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language><language ident="grc">Greek</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
@@ -44,12 +44,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
-            <person sex="1">
+            <person sex="1" sameAs="wd:Q46696">
                <persName>
-                  
-                  Theodosius I
+                  <persName xml:lang="en" xml:id="n1">Theodosius I</persName>
+                  <persName xml:lang="gez" xml:id="n2">ቴዎደስዮስ፡</persName>
+                  <persName xml:lang="gez" type="normalized" corresp="#n2">Tewodosyos</persName> 
+                  <persName xml:lang="grc" xml:id="n3">Θεοδόσιος</persName>
+                  <persName xml:lang="grc" corresp="#n3" type="normalized">Theodosios</persName>
                </persName>
-               <occupation> emp. </occupation>
+               <listRelation>
+                  <relation name="snap:FatherOf" active="PRS9479Theodosi" passive="PRS2016Arcadius"/>
+                  <relation name="lawd:hasAttestation" active="PRS9479Theodosi" passive="LIT3963Homily"/>
+               </listRelation>
+               <occupation type="ruler"> emperor </occupation>
             </person>
          </listPerson>
       </body>

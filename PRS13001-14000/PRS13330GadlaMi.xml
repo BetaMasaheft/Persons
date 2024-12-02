@@ -1,0 +1,68 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13330GadlaMi" xml:lang="en" type="pers">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Gadla Mikāʾel</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="MV"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="MV" when="2021-01-19">Created entity</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person sex="1">
+                    <persName xml:lang="gez" xml:id="n1">ገድለ፡ ሚካኤል፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Gadla Mikāʾel</persName>
+                    <faith type="EOTC"/>              
+                    <floruit notBefore="1700" notAfter="1900"/>
+                </person>
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="PRS13330GadlaMi" passive="BGV009">
+                        <desc>Gadla Mikāʾel is mentioned in numerous supplication formulas throughout the manuscript. Besides, he is indicated as the one who commissioned the manuscript in 
+                            <ref target="BGV009#a1"/> and on <locus target="BGV009#74va"/>.</desc>
+                    </relation>
+                    <relation name="betmas:husbandOf" active="PRS13330GadlaMi" passive="PRS13333WalattaMa"/>
+                    <relation name="snap:SonOf" active="PRS13330GadlaMi" passive="PRS13331TaklaMi"/>
+                    <relation name="snap:SonOf" active="PRS13330GadlaMi" passive="PRS13332Arwa"/>
+                    <relation name="snap:FatherOf" active="PRS13330GadlaMi" passive="PRS13334GabraAm"/>
+                    <relation name="snap:FatherOf" active="PRS13330GadlaMi" passive="PRS13335WaldaAm"/>
+                    <relation name="snap:FatherOf" active="PRS13330GadlaMi" passive="PRS13336SebhatLaab"/>
+                </listRelation>
+            </listPerson>
+        </body>
+    </text>
+</TEI>

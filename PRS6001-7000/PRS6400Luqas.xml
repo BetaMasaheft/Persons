@@ -19,7 +19,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
-            <p>Prosopography of Ethiopian Written tradition</p>
+            <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
             <p>A TEI file converted from the ETHIO-authority
                                                   google spreadsheet</p>
          </sourceDesc>
@@ -35,6 +35,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <langUsage><language ident="en">English</language></langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2024-01-23" who="CH">Updated names, floruit and relation.</change>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
@@ -45,13 +46,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Luqas
-               </persName>
-               <occupation> afä ʿaqqabe säʿat </occupation>
+                  <persName xml:lang="gez" xml:id="n1">ሉቃስ፡</persName>
+                  <persName xml:lang="gez" type="normalized" corresp="#n1">Luqās</persName>
+               <occupation type="ecclesiastic">ʾafa ʿaqqābe saʿat</occupation>
+               <floruit notBefore="1500" notAfter="1550">First half of 16th century</floruit>
             </person>
          </listPerson>
+         <listRelation>
+            <relation name="lawd:hasAttestation" active="PRS14297KefleYohannes" passive="EMML1832"/>
+         </listRelation>
       </body>
    </text>
 </TEI>

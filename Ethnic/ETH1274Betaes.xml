@@ -37,25 +37,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                                 spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: ethnic</change>
          <change who="SG" when="2018-10-24">additions</change>
+         <change when="2024-09-17" who="CH">Updated name and added bibliography.</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <personGrp role="ethnic">
-               <persName xml:id="n1">
-                  <orgName>ቤተ፡ እስራኤል፡</orgName>
+               <persName xml:id="n1" type="main" xml:lang="gez">
+                 ቤተ፡ እስራኤል፡
                </persName>
-               <persName corresp="#n1" type="normalized">
-                  <orgName>Beta ʾƎsrāʾel</orgName>
+               <persName corresp="#n1" type="normalized" xml:lang="gez">
+                  Beta ʾƎsrāʾel
                </persName>
                
                
-               <persName xml:id="n2">
-                  <orgName>ፈላሻ፡</orgName>
+               <persName xml:id="n2" type="nick" xml:lang="gez">
+                  ፈላሻ፡
                </persName>
-               <persName corresp="#n2" type="normalized">
-                  <orgName>Falāšā</orgName>
+               <persName corresp="#n2" type="normalized" xml:lang="gez">
+                  Falāšā (outdated idiom)
                </persName>
                
             </personGrp>
@@ -65,8 +66,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <bibl>
                <ptr target="bm:Pereira1892Susenyos"/>
             </bibl>
-         </listBibl>
-         <listBibl type="translation">
+
             <bibl>
                <ptr target="bm:Pereira1900Susenyos"/>
             </bibl>
@@ -77,11 +77,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                <ptr target="bm:Boavida2011PaezII"/>
                <citedRange unit="page">206-259</citedRange>
             </bibl>
-            
-            
-            
-            
-            
+            <bibl> 
+               <ptr target="bm:Kaplan2003BeteEsrael"/>
+            </bibl>
          </listBibl>
       </body>
    </text>
