@@ -47,7 +47,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ተክለ፡ ጊዮርጊስ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Takla Giyorgis</persName>
+                    <floruit notBefore="1700" notAfter="2004"/>
                 </person>
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="PRS13624TaklaG" passive="BDLaethg34"/>
+                </listRelation>
             </listPerson>
         </body>
     </text>
