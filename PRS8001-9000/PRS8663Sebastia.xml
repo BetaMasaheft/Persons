@@ -32,9 +32,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
          <textClass>
             <keywords>
+               <term key="martyr"/>
                <term key="saint"/>
             </keywords>
          </textClass>
@@ -45,18 +49,29 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
          <change who="PL" when="2019-03-27">removed occupation containing St, Saint, bibl, biblical or prophet, added keyword. See https://github.com/BetaMasaheft/Documentation/issues/1104</change>
+         <change who="MKr" when="2024-12-03">Added relations, link to Wikidata, commemoration date</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  
-                  Sebastian
-               </persName>
-               <!-- St -->
-            </person>
+            <person sex="1" sameAs="wd:Q183332">
+               <persName xml:lang="en" xml:id="n1">Sebastian</persName>
+               <persName xml:lang="gez" xml:id="n2">ስብስትያኖስ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n2">Sǝbǝstyānos</persName>
+               <persName xml:lang="gez" xml:id="n3">ስበስጥያኖስ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n3">Sǝbasṭyānos</persName>
+               
+               <note type="commemoration"><date ref="ethiocal:Terr25">25 Ṭǝrr</date></note>
+              </person>
+            <listRelation>
+               <relation name="ecrm:P129i_is_subject_of" active="PRS8663Sebastia" passive="LIT1499GadlaS"/>
+               <relation name="ecrm:P129i_is_subject_of" active="PRS8663Sebastia" passive="LIT6659SalSebSamata"/>
+               <relation name="ecrm:P129i_is_subject_of" active="PRS8663Sebastia" passive="LIT3075RepCh355"/>
+               <relation name="ecrm:P129i_is_subject_of" active="PRS8663Sebastia" passive="LIT4279Salam"/>
+               <relation name="ecrm:P129i_is_subject_of" active="PRS8663Sebastia" passive="LIT2771RepCh55"/>
+               <relation name="ecrm:P129i_is_subject_of" active="PRS8663Sebastia" passive="LIT2887RepCh168"/>
+            </listRelation> 
          </listPerson>
       </body>
    </text>
