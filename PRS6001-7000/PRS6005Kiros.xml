@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Kiros</title>
+            <title>Cyrus the Anchorite</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -16,7 +16,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 This file is licensed under the Creative Commons
                 Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2016-03-21</date>
+            
          </publicationStmt>
          <sourceDesc>
             <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
@@ -44,12 +44,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  
-                  Kiros
+            <person sex="1" sameAs="wd:Q12191209">
+               <persName xml:id="n1" xml:lang="gez"> ኪሮስ፡</persName>
+               <persName corresp="#n1" type="normalized"  xml:lang="gez">Kiros
                </persName>
-               <occupation> hermit </occupation>
+               <persName corresp="#n1" type="main"  xml:lang="en">Cyrus the Anchorite
+               </persName>
+               <persName xml:id="n2">Anba Karas</persName>
+               <occupation>Coptic hermit </occupation>
             </person>
          </listPerson>
       </body>
