@@ -32,10 +32,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <abstract>
                 <p/>
             </abstract>
-            <t:langUsage xmlns:t="http://www.tei-c.org/ns/1.0">
+            <langUsage>
                 <language ident="en">English</language>
                 <language ident="gez">Gǝʿǝz</language>
-            </t:langUsage>
+            </langUsage>
         </profileDesc>
         <revisionDesc>
             <change who="MV" when="2024-12-10">Created entity</change>
@@ -45,17 +45,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Maqoyi</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
-                    <faith type=""/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <persName xml:lang="gez" xml:id="n1">መቆዪ</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Maqoyi</persName>
+                    <persName><roleName type="title">ʾalaqā</roleName></persName>
+                    <floruit when="1913"/>
                 </person>
                 <listRelation>
-                    <relation name="saws:isCopierOf" active="PRS14615Maqoyi" passive=""/>
+                    <relation name="saws:isCopierOf" active="PRS14615Maqoyi" passive="BAVet122">
+                        <desc>Gabra Māryām is mentioned as the scribe in the colophon of <ref type="mss" corresp="BAVet122"/> on f. 149v.</desc>
+                    </relation>
                 </listRelation>
-            </listPerson><!---->
-        </body>
+            </listPerson>
+        </body>    
     </text>
 </TEI>
