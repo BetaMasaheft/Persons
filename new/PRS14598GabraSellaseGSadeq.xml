@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>GabraSellaseGSadeq</title>
+                <title>Gabra Śǝllāse Gabra Ṣādǝq</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DN"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -47,18 +47,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ገብረ፡ ሥላሴ፡ ገብረ፡ ጻድቅ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra Śǝllāse Gabra Ṣādǝq</persName>
-                    <persName type="alt"><roleName type="title">abbā</roleName>Gabra Śǝllāse Gabra Ṣādǝq</persName>
+                    <persName type="alt"><roleName type="title">abbā</roleName> Gabra Śǝllāse Gabra Ṣādǝq</persName>
                     <faith type="EOTC"/>
-                    <occupation type="ecclesiastic">monk, in charge of the storehouse of the monastery of<placeName ref="INS0105DD"/></occupation>
+                    <occupation type="ecclesiastic">monk, in charge of the storehouse of the monastery of <placeName ref="INS0105DD"/></occupation>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
+                    <residence ref="INS0105DD"/>
                     <floruit notBefore="1880" notAfter="1980"/>
                 </person>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="PRS14598GabraSellaseGSadeq" passive="ESdd009"/>
                                     </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>

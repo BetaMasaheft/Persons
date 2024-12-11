@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>GabraMaryam</title>
+                <title>Gabra Māryām</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DN"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -47,14 +47,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ገብረ፡ ማርያም፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra Māryām</persName>
-                    <persName type="alt"><roleName type="title">qesa gabaz</roleName>Gabra Māryām</persName>
+                    <persName type="alt"><roleName type="title">qesa gabaz</roleName> Gabra Māryām</persName>
                     <faith type="EOTC"/>
                     <occupation type="ecclesiastic">monk</occupation>
-   
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <residence ref="INS0105DD"/>
+                    <floruit notBefore="1880" notAfter="1980"/>
                 </person>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="PRS14599GabraMaryam" passive="ESdd009"/>
