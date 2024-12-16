@@ -45,16 +45,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1"></persName>
+                    <persName xml:lang="gez" xml:id="n1">ተክለ፡ ማርያም</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Takla Māryām</persName>
                     <floruit notBefore="1600" notAfter="1699"/>
                 </person>
                 <listRelation>
-                    <relation name="saws:hasOwned" active="" passive="BAVet129">
+                    <relation name="saws:hasOwned" active="PRS14619TaklaMa" passive="BAVet129">
                         <desc>Takla Māryām is mentioned in <ref type="mss" corresp="BAVet129"/> throughout the text. According to <bibl>
                             <ptr target="bm:GrebTiss1935Codices"/>
                             <citedRange unit="page">521</citedRange>
-                        </bibl>, he was the first owner of the manuscript.
+                        </bibl>, he was the original owner of the manuscript.
                         </desc>
                     </relation>
                 </listRelation>
