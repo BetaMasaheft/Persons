@@ -45,18 +45,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Śǝna Krǝstos</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
-                    <faith type=""/>
-                    <occupation type="literary"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <persName xml:lang="gez" xml:id="n1"></persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1"></persName>
+                    <floruit notBefore="1600" notAfter="1699"/>
                 </person>
                 <listRelation>
-                    <relation name="saws:isCopierOf" active="PRS14618SenaKr" passive=""/>
+                    <relation name="saws:hasOwned" active="" passive="BAVet129">
+                        <desc> is mentioned in <ref type="mss" corresp="BAVet129"/> throughout the text.</desc>
+                    </relation>
                 </listRelation>
-            </listPerson><!---->
-        </body>
+            </listPerson>
+        </body>    
     </text>
 </TEI>

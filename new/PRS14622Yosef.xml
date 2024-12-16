@@ -45,17 +45,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Yosef</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
-                    <faith type=""/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <persName xml:lang="gez" xml:id="n1">ዮሴፍ</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Yosef</persName>
+                    <floruit notBefore="1600"/>
                 </person>
                 <listRelation>
-                    <relation name="saws:hasOwned" active="PRS14622Yosef" passive=""/>
+                    <relation name="saws:hasOwned" active="PRS14622Yosef" passive="BAVet129">
+                        <desc>Yosef is mentioned in <ref type="mss" corresp="BAVet129"/> throughout the text.
+                            According to <bibl>
+                                <ptr target="bm:GrebTiss1935Codices"/>
+                                <citedRange unit="page">521</citedRange>
+                            </bibl>, he was one of the secondary owners of the manuscript.
+                        </desc>
+                    </relation>
                 </listRelation>
-            </listPerson><!---->
-        </body>
+            </listPerson>
+        </body>    
     </text>
 </TEI>

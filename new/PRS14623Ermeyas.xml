@@ -45,17 +45,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ʾErmǝyās</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
-                    <faith type=""/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <persName xml:lang="gez" xml:id="n1">ኤርምያስ</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">ʾErmǝyās</persName>
+                    <floruit notBefore="1600"/>
                 </person>
                 <listRelation>
-                    <relation name="saws:hasOwned" active="PRS14623Ermeyas" passive=""/>
+                    <relation name="saws:hasOwned" active="PRS14623Ermeyas" passive="BAVet129">
+                        <desc>
+                            ʾErmǝyās is mentioned in <ref type="mss" corresp="BAVet129"/> in several supplication formulas, e.g. on f. 128r, and in the ownership note on f. 131v.
+                        </desc>
+                    </relation>
                 </listRelation>
-            </listPerson><!---->
-        </body>
+            </listPerson>
+        </body>    
     </text>
 </TEI>

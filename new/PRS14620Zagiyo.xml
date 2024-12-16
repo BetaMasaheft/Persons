@@ -45,17 +45,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Zagiyorgis</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
-                    <faith type=""/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <persName xml:lang="gez" xml:id="n1">ዘጊዮርጊስ</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Zagiyorgis</persName>
+                    <floruit notBefore="1600"/>
                 </person>
                 <listRelation>
-                    <relation name="saws:hasOwned" active="PRS14620Zagiyo" passive=""/>
+                    <relation name="saws:hasOwned" active="PRS14620Zagiyo" passive="BAVet129">
+                        <desc>Zagiyorgis is mentioned in <ref type="mss" corresp="BAVet129"/> throughout the text, e.g. on ff. 62v, 94v.</desc>
+                    </relation>
                 </listRelation>
-            </listPerson><!---->
-        </body>
+            </listPerson>
+        </body>    
     </text>
 </TEI>
