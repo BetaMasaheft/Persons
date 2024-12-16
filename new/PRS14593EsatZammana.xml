@@ -44,15 +44,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <t:text xmlns:t="http://www.tei-c.org/ns/1.0">
         <body>
             <listPerson>
-                <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ʾƎšat Zammana</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                <person sex="1">                
+                  <persName xml:lang="gez" xml:id="n1">እሸት ዘመነ፡</persName>     
+                   <persName xml:lang="gez" type="normalized" corresp="#n1">Ǝšat Zammana</persName>
+                    <persName><roleName type="title">qasis</roleName></persName>
                     <t:faith type="EOTC"/>
                     <t:occupation type="literary"/>
                     <t:nationality type="Ethiopia"/>
-                    <birth/>
-                    <t:death/>
-                    <t:floruit/>
+                    <birth when="1975 " evidence="internal"/>
+                    
                 </person>
             </listPerson>
         </body>
