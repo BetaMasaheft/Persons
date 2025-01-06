@@ -32,9 +32,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2024-12-24" who="CH">Updated names and wikidata</change>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
@@ -44,12 +45,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  
-                  Aristotle
-               </persName>
-               <occupation> philos. </occupation>
+            <person sex="1" sameAs="Q868">
+               <persName xml:id="n1" xml:lang="en">Aristotle</persName>
+               <persName xml:id="n2" xml:lang="en">Aristoteles</persName>
+               <persName xml:id="n3" xml:lang="gr">Ἀριστοτέλης</persName>
+               <persName xml:id="n4" xml:lang="gez"> አርስጣጣሊስ፡</persName>
+               <persName corresp="#n4" xml:lang="gez" type="normalized">ʾArisṭāṭālis</persName>
+               <occupation type="literary">Classical Greek philosopher and polymath</occupation>
+               <birth when="-0384">384 BC</birth>
+               <death when="-0322">322 BC</death>
             </person>
          </listPerson>
       </body>
