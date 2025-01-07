@@ -45,12 +45,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person>
-                    <persName xml:lang="gez" xml:id="n1">ኪዳነ፡ ማርያም፡</persName>
+                    <persName xml:lang="gez" xml:id="n1" type="baptismal">ኪዳነ፡ ማርያም፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Kidāna Māryām</persName>
-                    <floruit notBefore="" notAfter=""/>
+                    <persName xml:lang="gez" xml:id="n2">ዳብር፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n2">Dābǝr</persName>
+                    <persName xml:id="n3" xml:lang="gez">ዳበረ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n3">Dābbara</persName>
+                    <note>The name is written in the <ref type="mss" corresp="SACEth003"/> in an untrained hand in apparently different spellings.</note>
+                    <floruit notBefore="1700" notAfter="1974"/>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS14631KidanaM" passive="SACEth003"/>
+                    <relation name="saws:hasOwned" active="PRS14631KidanaM" passive="SACEth003"/>
                 </listRelation>
             </listPerson>
         </body>
