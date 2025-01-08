@@ -49,17 +49,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <person sex="1">
           
                   <persName xml:lang="gez" xml:id="n1" type="birth">ይስሐቅ፡</persName>
-                  
-                  
                   <persName xml:lang="gez" type="normalized" corresp="#n1">Yǝsḥaq</persName>
-                
-                     <persName xml:lang="gez" xml:id="n2" type="birth">ይስሐቅ፡ እዙም፡</persName>
-                     
-                     
-               <persName xml:lang="gez" type="normalized" corresp="#n2">Yǝsḥaq Walda ʾƎzum</persName>
                      <persName>
                         
-                        <roleName type="title">baḥǝr nagāš, ʾazmāč</roleName>
+                        <roleName type="title">bāḥǝr nagāš, ʾazmāč</roleName>
                   </persName>
                <occupation type="political">ruler</occupation>
                <death> He died on <date>26 December 1578</date> at <placeName ref="LOC1191AddiQo">ʿĀddi Qorro</placeName></death>
@@ -67,6 +60,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                </person>
          
                <listRelation>
+                  <relation name="lawd:hasAttestation" active="PRS10343Yeshaq" passive="LIT3531Sarsa"/>
                   <relation name="dc:relation" active="PRS12037Yeshaq" passive="PRS9038Susenyos"/>
                   <relation name="lawd:hasAttestation" active="PRS12037Yeshaq" passive="LIT3951ChronSusenyos"/>
                </listRelation>
