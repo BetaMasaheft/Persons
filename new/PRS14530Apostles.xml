@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS10643Zarufa">
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS14530Apostles">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Zärufaʾel</title>
-            <author/>
+            <title>The 12 Apostles</title>
+            <editor key="ES"/>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
@@ -13,15 +13,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <pubPlace>Hamburg</pubPlace>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
-                This file is licensed under the Creative Commons
-                Attribution-ShareAlike 4.0. </licence>
+                  This file is licensed under the Creative Commons
+                  Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2016-03-21</date>
+            
          </publicationStmt>
          <sourceDesc>
             <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
-            <p>A TEI file converted from the ETHIO-authority
-                                                  google spreadsheet</p>
+            
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -35,25 +34,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <langUsage><language ident="en">English</language></langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
-         <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: person</change>
+
+         <change who="ES" when="2025-01-04">created</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
-            <person sex="1">
-               <persName xml:lang="gez">ዘሩፋኤል፡</persName>
-               <persName xml:lang="gez" type="normalized">Zarufāʾel</persName>
-               <persName xml:lang="en">Zarufāʾel</persName>
-            </person>
-            <listRelation>
-               <relation name="dc:relation">
-                  <desc> disc. Samuʾel of Waldǝbba </desc>
-               </relation>
-            </listRelation>
+            <personGrp>
+               
+               
+               
+               <persName xml:lang="gez">ዐሠርቱ፡ ወክልኤቱ፡ ሐዋርያት፡</persName>
+               <persName xml:lang="gez" type="normalized">ʿAśśartu wa-Kəlʾettu Ḥawārəyāt</persName>
+               <persName xml:lang="en">The Twelve Apostles</persName>
+               
+               
+            </personGrp>
+            
+            
+            
+            
+            
          </listPerson>
       </body>
    </text>

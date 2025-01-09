@@ -1,23 +1,22 @@
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS14320DareaCurzon" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13970Estifanos" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Darea Curzon</title>
-                <editor role="generalEditor" key="AB"/>
-                <editor key="CH"/>
+                <title>ʾƎsṭifānos za-Gunda Gunde</title>
+                <editor role="generalEditor" key="AB"/>                
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
-                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
-                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine
+                    multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
                 <pubPlace>Hamburg</pubPlace>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
-                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                        licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -35,25 +34,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="CH" when="2024-02-05">Created entity</change>
+            <change who="ES" when="2025-01-07">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person sex="2">
-                    <persName xml:lang="en" xml:id="n1"><forename>Darea</forename> <surname>Curzon</surname></persName>
-                    <persName><roleName type="title">16th Baroness Zouche</roleName></persName>
-                    <nationality type="UnitedKingdom"/>
-                    <birth when="1860">1860</birth>
-                    <death when="1917">1917</death>
-                    <floruit notBefore="1860" notAfter="1917">1860-1917</floruit>
+                <person sex="1">
+                    <persName xml:lang="gez">እስጢፋኖስ፡ ዘጉንደ፡ ጉንዴ፡</persName>
+                    <persName xml:lang="gez" type="normalized">ʾƎsṭifānos za-Gunda Gunde</persName>
+                    <persName xml:lang="en">ʾƎsṭifānos of Gunda Gunde</persName>
+                                
                 </person>
-                <listRelation>
-                    <relation name="snap:DaughterOf" active="PRS14320DareaCurzon" passive="PRS3244Curzon"/>
-                    <relation name="saws:hasOwned" active="PRS14320DareaCurzon" passive="BLorient8822"/>
-                </listRelation>
             </listPerson>
+            <!---->
         </body>
     </text>
 </TEI>
