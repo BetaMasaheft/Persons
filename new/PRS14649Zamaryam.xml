@@ -1,0 +1,63 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS14649Zamaryam" xml:lang="en" type="pers">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Zamāryām</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="DR"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="DR" when="2025-01-13">Created entity. I distance myself from the norm ISO 5218:2004, used here for legacy reasons.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person sex="1">
+                    <persName xml:lang="gez" xml:id="n1">ዘማርያም፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Zamāryām</persName>
+                    <note>The name is written in the manuscript as <foreign xml:lang="gez">ዘማያም፡</foreign>.</note>
+                    <floruit notBefore="1650" notAfter="1974"/>
+                </person>
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="PRS14649Zamaryam" passive="SACEth001">
+                        <desc>A pen trial in the manuscript states qualifies this person as its scribe. It seems more likely that 
+                        this refers to the pen trial than the manuscript.</desc>
+                    </relation>
+                    <relation name="snap:FatherOf" active="PRS14649Zamaryam" passive="PRS14650WaldaM"/>
+                </listRelation>
+            </listPerson>
+        </body>
+    </text>
+</TEI>
