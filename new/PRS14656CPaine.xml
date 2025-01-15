@@ -45,10 +45,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person>
-                    <persName><surname>Paine</surname></persName>
-                    <persName><roleName type="rank">It is not clear whether the abbreviation 'C.' refers to the title 'Captain' or to the first name
-                        of the bearer.</roleName></persName>
-                    <floruit notBefore="1900" notAfter="1999">20th century</floruit>
+                    <persName><forename>C.</forename> <surname>Paine</surname></persName>
+                    <floruit notBefore="1866" notAfter="1999">Probably late 19th and 20th century, possibly Cornelius Charles Paine (born 1866), 
+                        whose grandfather with Cornelius Paine (1809-1890) was a known collector.</floruit>
                 </person>
                 <listRelation>
                     <relation name="saws:hasOwned" active="PRS14656CPaine" passive="BLorient11804"/>
