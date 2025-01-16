@@ -45,19 +45,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Ḍaggā Laʾǝgziʾabǝḥer</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ፀጋ፡ ለእግዚአብሔር፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Ḍaggā Laʾǝgziʾabǝḥer</persName>
                     <faith type="EOTC"/>
-                    <occupation type="ecclesiastic"/>
+                    <occupation type="ecclesiastic">scribe</occupation>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
                     <floruit/>
                 </person>
                 <listRelation>
-                    <relation name="saws:isCopierOf" active="PRS14662TsaggaLaEgziabeher" passive=""/>
+                    <relation name="saws:isCopierOf" active="PRS14662TsaggaLaEgziabeher" passive="ESdd034"/>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>
