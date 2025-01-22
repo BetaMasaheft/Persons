@@ -1,12 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="pers"
-     xml:lang="en"
-     xml:id="PRS3202Cosmas">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS3202Cosmas">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
@@ -25,14 +19,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
-            <p>Prosopography of Ethiopian Written tradition</p>
-            <p>A TEI file converted from the ETHIO-authority
-                                                  google spreadsheet</p>
+            <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
+            
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
             <xi:fallback>
                <p>Definitions of prefixes used.</p>
             </xi:fallback>
@@ -41,28 +33,43 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
-            <language ident="ar">Arabic</language>
-            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
+         <textClass>
+            <keywords>
+               <term key="saint"/>
+               <term key="martyr"/>
+            </keywords>
+         </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
-         <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="ES" when="2022-01-05">filled stub record</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Cosmas
-               </persName>
-               <occupation> martyr </occupation>
+               <persName xml:lang="gez" xml:id="n1">ቆዝሞስ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Qozmos</persName>
+               <persName xml:lang="en" type="main" corresp="#n1">Cosmas</persName>
+               <residence>Arabia</residence>               
+               <faith type="Christianity Orthodox"></faith>
+               <floruit notBefore="0200" notAfter="0303">Cosmas suffered martyrdom with his brother <persName ref="PRS3315Damian">Damain</persName> in Syria during the persecution of the Emperor Diocletian. 
+                  According to Christian traditions, the twin brothers were born in Arabia and became skilled doctors.</floruit>
+               <death notBefore="0287" notAfter="0303"></death>
+               <note type="commemoration"><date type="diesNatalis" ref="ethiocal:Hedar22">22 Ḫǝdār</date> or <date type="diesNatalis" ref="ethiocal:Hedar25">25 Ḫǝdār</date></note>
+               
             </person>
+            <listRelation>               
+               <relation name="ecrm:P129i_is_subject_of" active="PRS3202Cosmas" passive="LIT3169Cosmas"/>
+               <relation name="ecrm:P129i_is_subject_of" active="PRS3202Cosmas" passive="NAR0023Qozmos"></relation>
+               <relation name="ecrm:P129i_is_subject_of" active="PRS3202Cosmas" passive="LIT2746RepCh30"/>
+               <relation name="ecrm:P129i_is_subject_of" active="PRS3202Cosmas" passive="LIT5656Malheq#DamianCosmas"/>
+               <relation name="ecrm:P129i_is_subject_of" active="PRS3202Cosmas" passive="LIT2746RepCh110"/> 
+               <relation name="snap:BrotherOf" active="PRS3202Cosmas" passive="PRS3315Damian"></relation>              
+               
+            </listRelation>
          </listPerson>
       </body>
    </text>

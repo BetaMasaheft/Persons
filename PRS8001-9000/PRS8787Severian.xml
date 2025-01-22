@@ -1,12 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="pers"
-     xml:lang="en"
-     xml:id="PRS8787Severian">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS8787Severian">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
@@ -25,33 +19,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
-            <p>Prosopography of Ethiopian Written tradition</p>
+            <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
             <p>A TEI file converted from the ETHIO-authority
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
             <xi:fallback>
                <p>Definitions of prefixes used.</p>
             </xi:fallback>
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage>
-            <language ident="en">English</language>
-            <language ident="ar">Arabic</language>
-            <language ident="it">Italian</language>
-            <language ident="gez">Gǝʿǝz</language>
-         </langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="ES" when="2016-02-09">CREATED: person</change>
          <change who="DR" when="2018-02-22">Updated</change>
+         <change who="MKr" when="2021-03-15">Added dates and floruit</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -61,9 +50,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="en" xml:id="n1">Severianus of Gabala</persName>
                <persName xml:lang="gez" xml:id="n2">ሳዊርያኖስ፡</persName>
                <persName xml:lang="gez" corresp="#n2">Sāwiryānos</persName>
+               <persName xml:lang="gez" xml:id="n3">ሳዊሮስ፡ ኤጲስ፡ ቆጶስ፡ ዘሀገረ፡ ገብልህ፡</persName>
+               <persName xml:lang="gez" corresp="#n3">Sāwiros ʾeṗṗis qoṗos za-hagara Gablǝh</persName>
                <occupation type="ecclesiastic">Bishop</occupation>
+               <birth notAfter="0380"/>
+               <death notBefore="0408" notAfter="0425"/>
+               <floruit>He was a preacher in <ref type="place" corresp="LOC2196Consta">Constantinople</ref>. In the Ethiopian tradition homilies attributed to him are attested
+               i. a. as part of <ref type="work" corresp="LIT3309Qerellos">Qerǝllos</ref>, <ref type="work" corresp="LIT1544Gebrah">Gǝbra Ḥǝmāmāt</ref>
+               and <ref type="work" corresp="LIT1586Hayman">Hāymānota ʾabaw</ref>.
+             </floruit>
             </person>
          </listPerson>
       </body>
-   </text>
+     </text>
 </TEI>

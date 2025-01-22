@@ -1,0 +1,58 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13611Sahlu" xml:lang="en" type="pers">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Śāhlu</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="DR"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <t:language xmlns:t="http://www.tei-c.org/ns/1.0" ident="en">English</t:language>
+                <t:language xmlns:t="http://www.tei-c.org/ns/1.0" ident="gez">Gǝʿǝz</t:language>
+            </langUsage>
+        </profileDesc>
+        <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+            <t:change who="DR" when="2021-11-04">Created entity</t:change>
+        </t:revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person sex="1">
+                    <persName xml:lang="gez" xml:id="n1">ሣህሉ፡</persName>
+                    <persName xml:lang="gez" corresp="#n1" type="normalized">Śāhlu</persName>
+                    <floruit notBefore="1832" to="1855"/>
+                </person>
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="PRS13611Sahlu" passive="BLorient667"/>
+                </listRelation>
+            </listPerson>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,77 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13684Ethan" xml:lang="en" type="pers">
+    <teiHeader>
+        <fileDesc>
+
+            <titleStmt>
+                <title>Ethan the Ezrahite</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="JG"/>
+                <funder>Work funded by the AHRC-DFG Project
+                  'Demarginalizing medieval Africa: Images, texts,
+                   and identity in early Solomonic Ethiopia (1270-1527)', grant ref. nos. AH/V002910/1 - 448410109</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+      </fileDesc>
+
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term key="OldTestament"/>
+
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change who="JG" when="2023-04-22">Created entity</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person sex="1" sameAs="wd:Q1370913">
+                    <persName xml:lang="en" xml:id="n1">Ethan the Ezrahite</persName>
+                    <persName xml:lang="gez" xml:id="n2">ኤታን፡</persName>
+                    <faith type="Judaism"/>
+
+
+                    <floruit> Ethan the Ezrahite,
+                      is mentioned in the Hebrew Bible. Ethan was a boy at King David's
+                      court well known for his wisdom. He authored Psalms 89.
+                    </floruit>
+
+
+                </person>
+
+
+            </listPerson><!---->
+            <div type="bibliography">
+
+            </div>
+        </body>
+    </text>
+</TEI>

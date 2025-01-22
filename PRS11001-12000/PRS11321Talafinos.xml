@@ -1,12 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="pers"
-     xml:lang="en"
-     xml:id="PRS11321Talafinos">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS11321Talafinos">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
@@ -25,26 +19,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <p>Prosopography of Ethiopian Written tradition</p>
+            <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
             <p>A TEI file converted from the ETHIO-authority
                                     google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
             <xi:fallback>
                <p>Definitions of prefixes used.</p>
             </xi:fallback>
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage>
-            <language ident="en">English</language>
-            <language ident="ar">Arabic</language>
-            <language ident="it">Italian</language>
-            <language ident="gez">Gǝʿǝz</language>
-         </langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-11-17">Created XML record from Ethio authority google spreadsheet</change>
@@ -56,6 +44,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person sex="1">
                   <persName xml:lang="gez" xml:id="n1">ተላፊኖስ</persName>
                   <persName xml:lang="gez" type="normalized" corresp="#n1">Talāfinos</persName>
+                  <persName xml:lang="gez" xml:id="n2">ተላሶን</persName>
+                  <persName xml:lang="gez" type="normalized" corresp="#n2">Talāson</persName>
                   <faith type="Christianity"/>
                   <occupation type="other"/>
                   <birth/>
@@ -63,8 +53,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <floruit/>
             </person>
             <listRelation>
-              <relation name="ecrm:P129i_is_subject_of" active="PRS11321Talafinos" passive="LIT1295Dersan"/>
-           <relation name="lawd:hasAttestation" active="PRS11321Talafinos" passive="RNBdorn616"/>
+               <relation name="ecrm:P129i_is_subject_of" active="PRS11321Talafinos" passive="LIT1295Dersan#CommemorativeSane"/>
+               <relation name="ecrm:P129i_is_subject_of" active="PRS11321Talafinos" passive="LIT1295Dersan#HomilyHamle"/>
+               <relation name="ecrm:P129i_is_subject_of" active="PRS11321Talafinos" passive="LIT3959Homily"/>
+               <relation name="lawd:hasAttestation" active="PRS11321Talafinos" passive="RNBdorn616"/>
+               <relation name="lawd:hasAttestation" active="PRS11321Talafinos" passive="BMLacq776"/>
             </listRelation>
          </listPerson>
       </body>

@@ -1,12 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="pers"
-     xml:lang="en"
-     xml:id="PRS1269Abraham">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS1269Abraham">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
@@ -25,46 +19,62 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
-            <p>Prosopography of Ethiopian Written tradition</p>
+            <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
             <p>A TEI file converted from the ETHIO-authority
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
             <xi:fallback>
                <p>Definitions of prefixes used.</p>
             </xi:fallback>
          </xi:include>
       </encodingDesc>
+
       <profileDesc>
-         <langUsage>
-            <language ident="en">English</language>
-            <language ident="ar">Arabic</language>
-            <language ident="it">Italian</language>
-            <language ident="gez">Gǝʿǝz</language>
-         </langUsage>
+         <textClass>
+            <keywords>
+               <term key="biblical"/>
+            </keywords>
+         </textClass>
+         <langUsage><language ident="en">English</language>
+            <language ident="gez">Gǝʿǝz</language><language ident="he">Hebrew</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change who="DR" when="2020-07-06">Added wikidata, name and keyword</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  
-                  Abraham
-               </persName>
-               <persName type="alt">Abrǝham</persName>
-               <occupation>Prophet</occupation>
+            <person sex="1" sameAs="wd:Q9181">
+               <persName xml:id="n1" xml:lang="gez">አብርሃም፡</persName>
+               <persName corresp="#n1" xml:lang="gez" type="main">ʾAbrǝhām</persName>
+               <persName corresp="#n1" type="main" xml:lang="en">Abraham</persName>
+               <persName corresp="#n1" xml:lang="he">אַבְרָהָם</persName>
+               <persName xml:id="n2"  xml:lang="en">Abram</persName>
+               <floruit>Abraham is the patriarch of the Abrahamic religions, including Judaism, Christianity, and Islam.</floruit>
             </person>
          </listPerson>
+         <listRelation><relation name="ecrm:P129i_is_subject_of" active="PRS1269Abraham" passive="LIT4415Abraham"/>
+            <relation name="ecrm:P129i_is_subject_of" active="PRS1269Abraham" passive="LIT4494Abraham"/>
+            <relation name="ecrm:P129i_is_subject_of" active="PRS1269Abraham" passive="LIT2904RepCh185"/>
+            <relation name="ecrm:P129i_is_subject_of" active="PRS1269Abraham" passive="LIT2901RepCh182"/>
+            <relation name="ecrm:P129i_is_subject_of" active="PRS1269Abraham" passive="LIT2910RepCh191"/>
+            <relation name="ecrm:P129i_is_subject_of" active="PRS1269Abraham" passive="LIT1412GadlaA"/>
+            <relation name="ecrm:P129i_is_subject_of" active="PRS1269Abraham" passive="LIT1180Baenta"/>
+            <relation name="ecrm:P129i_is_subject_of" active="PRS1269Abraham" passive="LIT6599DersanAbreham"/>
+            <relation name="ecrm:P129i_is_subject_of" active="PRS1269Abraham" passive="LIT1621Homily"/>
+
+            <relation name="ecrm:P129i_is_subject_of" active="PRS1269Abraham" passive="LIT1180Baenta"/>
+            <relation name="betmas:fatherInLawOf" active="PRS1269Abraham" passive="PRS5578Isaac"/>
+
+         </listRelation>
       </body>
    </text>
 </TEI>

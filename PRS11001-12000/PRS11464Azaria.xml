@@ -1,12 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="pers"
-     xml:lang="en"
-     xml:id="PRS11464Azaria">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS11464Azaria">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
@@ -26,24 +20,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
-            <p>Prosopography of Ethiopian Written tradition</p>
+            <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
             <p>A TEI file converted from the ETHIO-authority
                google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
             <xi:fallback>
                <p>Definitions of prefixes used.</p>
             </xi:fallback>
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage>
-            <language ident="en">English</language>
-            <language ident="gez">Gǝʿǝz</language>
-         </langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="ES" when="2017-02-24">Created record</change>
@@ -55,18 +45,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <person>
                <persName xml:lang="en">Azaria</persName>
                <persName xml:lang="gez">ኣዛርያ</persName>
+               <note type="commemoration">The three youths, Anania, Azaria, Misael, saved by the Lord from the furnace, are commemorated on 
+                  <date type="diesNatalis" ref="ethiocal:Tahsas2">2 Taḫśāś</date> or also, in the Acts of Martyrs, on <date type="diesNatalis" ref="ethiocal:Genbot10">10 Gǝnbot</date></note>
             </person>
             
             <listRelation>
-               <relation name="snap:SiblingOf"
-                         active="PRS11464Azaria"
-                         passive="PRS11465Anania"/>
-               <relation name="snap:SiblingOf"
-                         active="PRS11464Azaria"
-                         passive="PRS11463Misael"/>
-               <relation name="saws:isMemberOf"
-                         active="PRS11464Azaria"
-                         passive="PRS11288AnAzMi"/>
+               <relation name="snap:SiblingOf" active="PRS11464Azaria" passive="PRS11465Anania"/>
+               <relation name="snap:SiblingOf" active="PRS11464Azaria" passive="PRS11463Misael"/>
+               <relation name="foaf:member" active="PRS11464Azaria" passive="PRS11288AnAzMi"/>
             </listRelation>
             
             

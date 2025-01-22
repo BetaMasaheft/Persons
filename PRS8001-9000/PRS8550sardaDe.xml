@@ -1,12 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="pers"
-     xml:lang="en"
-     xml:id="PRS8550sardaDe">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS8550sardaDe">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
@@ -27,24 +21,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
-            <p>Prosopography of Ethiopian Written tradition</p>
+            <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
             <p>A TEI file converted from the ETHIO-authority
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
             <xi:fallback>
                <p>Definitions of prefixes used.</p>
             </xi:fallback>
          </xi:include>
       </encodingDesc> 
       <profileDesc>
-         <langUsage>
-            <language ident="en">English</language>
-
-         </langUsage>
+         <langUsage><language ident="en">English</language></langUsage>
       </profileDesc>
       <revisionDesc>
         
@@ -66,16 +56,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
               
                <persName xml:lang="gez" xml:id="n1">ሠርፀ፡ ድንግል፡ </persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized">Śarḍa Dǝngǝl</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Śarḍa Dǝngǝl</persName><!--
                <persName>
                   <roleName type="title">ʾaṣe</roleName>
-               </persName>
+               </persName>-->
                
                <persName xml:lang="gez" type="regnal" xml:id="n2">መለክ፡ ሰገድ፡ </persName>
                <persName corresp="#n2">Malak Sagad</persName>
                <occupation type="ruler">Emperor</occupation>
                <birth when="1550"/> 
-               <floruit from="1563" to="1597">Śarḍa Dǝngǝl succeeded
+               <floruit notBefore="1563" notAfter="1597">Śarḍa Dǝngǝl succeeded
                   his father king <persName ref="PRS7102Minas">Minās</persName> in <date>1563</date>.</floruit>
                <death when="1597" evidence="internal">He died of fish poisoning.</death>
                   </person>  
@@ -83,12 +73,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <listRelation>
                <relation name="snap:SonOf" active="PRS8550sardaDe" passive="PRS7102Minas"/>
                   <relation name="snap:SonOf" active="PRS8550sardaDe" passive="PRS1429AdmasMo"/>
-               <relation name="snap:NephewOf"
-                         active="PRS8550sardaDe"
-                         passive="PRS4428Galawdew"/>
-                  <relation name="ecrm:P129i_is_subject_of"
-                         active="PRS8550sardaDe"
-                         passive="LIT3531Sarsa"/>
+               <relation name="snap:NephewOf" active="PRS8550sardaDe" passive="PRS4428Galawdew"/>
+                  <relation name="ecrm:P129i_is_subject_of" active="PRS8550sardaDe" passive="LIT3531Sarsa"/>
             </listRelation>
          </listPerson>
          

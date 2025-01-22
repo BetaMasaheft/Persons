@@ -1,0 +1,78 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13688Nicodemus" xml:lang="en" type="pers">
+    <teiHeader>
+        <fileDesc>
+
+            
+            <titleStmt>
+                <title>Nicodemus</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="JG"/>
+                <funder>Work funded by the AHRC-DFG Project
+                  'Demarginalizing medieval Africa: Images, texts,
+                   and identity in early Solomonic Ethiopia (1270-1527)', grant ref. nos. AH/V002910/1 - 448410109</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+      </fileDesc>
+
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term key="NewTestament"/>
+
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change who="JG" when="2023-04-22">Created entity</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person sex="1" sameAs="wd:Q295084">
+                    <persName xml:lang="en" xml:id="n1">Nicodemus</persName>
+                    <persName xml:lang="gez" xml:id="n2">ኒቆዲሞስ፡</persName>
+                    <faith type="Christianity"/>
+                    <occupation>Disciple</occupation>
+
+
+                    <floruit>Nicodemus appears after Jesus' crucifixion to provide the customary
+                      embalming spices, and assists Joseph of Arimathea in preparing the body of Jesus for burial.
+                    </floruit>
+
+
+                </person>
+
+
+            </listPerson><!---->
+            <div type="bibliography">
+
+            </div>
+        </body>
+    </text>
+</TEI>

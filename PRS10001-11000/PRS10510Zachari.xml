@@ -1,12 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="pers"
-     xml:lang="en"
-     xml:id="PRS10510Zachari">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS10510Zachari">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
@@ -25,14 +19,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
-            <p>Prosopography of Ethiopian Written tradition</p>
+            <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
             <p>A TEI file converted from the ETHIO-authority
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
             <xi:fallback>
                <p>Definitions of prefixes used.</p>
             </xi:fallback>
@@ -40,30 +33,38 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language ident="en">English</language>
-            <language ident="ar">Arabic</language>
-            <language ident="it">Italian</language>
-            <language ident="gez">Gǝʿǝz</language>
+           <language ident="en">English</language>
+           <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change who="MKr" when="2022-12-14">Added info from Graf</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Zacharias of Saḫā
-               </persName>
-               <occupation> bishop </occupation>
+               <persName xml:lang="en" xml:id="n1">Zacharias of Saḫā</persName>
+               <persName xml:lang="gez" xml:id="n2">ዘካርያስ፡ ኤጲስ፡ ቆጶስ፡ ዘሀገረ፡ ሳሐ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n2">Zakaryās ʾeṗṗis qoṗṗos za-hagara Sāḥa</persName>
+               <occupation type="ecclesiastic">bishop</occupation>
+               <faith type="Coptic"></faith>
+               <nationality type="Egypt"></nationality>
+               <death notBefore="0723" notAfter="0730"></death>
+               <floruit>Bishop of Saḫā in the Nile Delta. He is known as an author of a homily on the flight of the Holy Family to Egypt,
+                 preserved in Gǝʿǝz e. g. in <ref type="mss" corresp="EMML543"></ref>.</floruit>
             </person>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Graf1944GCALI"/><citedRange unit="page">472</citedRange>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>

@@ -1,0 +1,62 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13001KidanaMaryam" xml:lang="en" type="pers">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Kidāna Māryām</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="ES"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="ES" when="2022-05-12">Created entity</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person sex="1">
+                    <persName xml:lang="gez" xml:id="n1" type="normalized"><roleName type="title">Mamhǝr</roleName> Kidāna Māryām</persName>
+                    
+                    <faith type="EOTC"/>
+                    <nationality type="Ethiopia"/>
+                    
+                    <death when="2007"></death>
+                    <floruit>Abba Kidane Maryam was a celebrated scholar of andemta who used to teach in Debre Marqos. He was born in Gonj, a small village in East Gojjam, where the lay bet andemta was believed to be first estblished before its extension to Motta. He started collecting manuscripts since he was a student. Abba Kidane Maryam served in different churches in the region as an instructor and priest in charge. He died in 2007 but his manuscripts are archived in the Church he used to serve as a priest in charge. The Librarian revealed in 2011 that the scholars had a lot of manuscripts but most of which are taken by different members of his families when he  died and only the three copied materials are documented in the church's library. </floruit>
+                </person>
+                <listRelation>
+                    <relation name="saws:isRelatedTo" active="PRS13001KidanaMaryam" passive="INS0646ASM"></relation>
+                </listRelation>
+            </listPerson><!---->
+        </body>
+    </text>
+</TEI>

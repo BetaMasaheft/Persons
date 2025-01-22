@@ -1,21 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="pers"
-     xml:lang="en"
-     xml:id="PRS3261Cyrilof">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS3261Cyrilof">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Cyril of Jerusalem</title>
             <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
-            
-            <author/>
-         </titleStmt>
+             </titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
@@ -28,87 +20,67 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
-            <p>Prosopography of Ethiopian Written tradition</p>
+            <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
             <p>A TEI file converted from the ETHIO-authority
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
             <xi:fallback>
                <p>Definitions of prefixes used.</p>
             </xi:fallback>
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage>
-            <language ident="en">English</language>
-            <language ident="ar">Arabic</language>
-            <language ident="it">Italian</language>
-            <language ident="gez">Gǝʿǝz</language>
-         </langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="ES" when="2016-02-09">CREATED: person</change>
          <change who="SG" when="2017-05-08">Complete record</change>
+         <change who="MKr" when="2022-03-20">Added n3, link to Wikidata</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
-            <person sex="1">
-              
+            <person sex="1" sameAs="wd:Q298654">
+
                <persName xml:lang="gez" xml:id="n1" type="birth">ቂርሎስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Qerǝllos</persName>
                <persName xml:lang="gez" xml:id="n2" type="alt">ጌርሎስ</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">Gerǝllos</persName>
-                  
-          
+               <persName xml:lang="en" xml:id="n3">Cyril of Jerusalem</persName>
+
                   <nationality type="Israel/Palestine"/>
                   <faith type="Orthodox"/>
                <occupation type="ecclesiastic">bishop</occupation>
                <birth when="0315"/>
-              
-                  
+
+
                <floruit notBefore="0348" notAfter="0387">He was a bishop of <placeName ref="wd:Q1218"/> from <date>348</date> onwards.
                   He is venerated as a saint in both Orthodox and Catholic Churches. He was the author of some religious writings.</floruit>
                   <death when="0387"/>
                </person>
                <listRelation>
-                  <relation name="saws:isAttributedAuthorOf"
-                         active="PRS3261Cyrilof"
-                         passive="LIT1777Letter"/>
-                  
-                  <relation name="saws:isAttributedAuthorOf"
-                         active="PRS3261Cyrilof"
-                         passive="LIT1235Cathed"/>
-                  <relation name="saws:isAttributedAuthorOf"
-                         active="PRS3261Cyrilof"
-                         passive="LIT1661Homily"/>
-                  <relation name="saws:isAttributedAuthorOf"
-                         active="PRS3261Cyrilof"
-                         passive="LIT1662Homily"/>
-                  <relation name="saws:isAttributedAuthorOf"
-                         active="PRS3261Cyrilof"
-                         passive="LIT1639Homily"/>
-                  
-                  <relation name="saws:isAttributedAuthorOf"
-                         active="PRS3261Cyrilof"
-                         passive="LIT1654Homily"/>
-                  
-                  
+                  <relation name="saws:isAttributedAuthorOf" active="PRS3261Cyrilof" passive="LIT1777Letter"/>
+                  <relation name="saws:isAttributedAuthorOf" active="PRS3261Cyrilof" passive="LIT1235Cathed"/>
+                  <relation name="saws:isAttributedAuthorOf" active="PRS3261Cyrilof" passive="LIT4975Dersan"/>
+                  <relation name="saws:isAttributedAuthorOf" active="PRS3261Cyrilof" passive="LIT1662Homily"/>
+                  <relation name="saws:isAttributedAuthorOf" active="PRS3261Cyrilof" passive="LIT1639Homily"/>
+                  <relation name="saws:isAttributedAuthorOf" active="PRS3261Cyrilof" passive="LIT1654Homily"/>
+                  <relation name="saws:isAttributedAuthorOf" active="PRS3261Cyrilof" passive="LIT4975Dersan"/>
                </listRelation>
          </listPerson>
-         
+
          <listBibl type="secondary">
             <bibl>
                <ptr target="bm:Witakowski2003CyrilofJer"/>
             </bibl>
          </listBibl>
       </body>
-   </text>   
+   </text>
 </TEI>

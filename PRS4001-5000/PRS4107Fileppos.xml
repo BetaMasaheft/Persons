@@ -1,12 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="pers"
-     xml:lang="en"
-     xml:id="PRS4107Fileppos">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS4107Fileppos">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
@@ -27,32 +21,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
-            <p>Prosopography of Ethiopian Written tradition</p>
+            <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
             <p>A TEI file converted from the ETHIO-authority
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
             <xi:fallback>
                <p>Definitions of prefixes used.</p>
             </xi:fallback>
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage>
-            <language ident="en">English</language>
-            <language ident="ar">Arabic</language>
-            <language ident="it">Italian</language>
-            <language ident="gez">Gǝʿǝz</language>
-         </langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="ES" when="2016-02-09">CREATED: person</change>
          <change who="SG" when="2016-10-26">Complete record</change>
       </revisionDesc>
    </teiHeader>
@@ -63,7 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" xml:id="n1" type="birth">ፊልጶስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Filǝṗṗos</persName>
                   <persName>
-                  <roleName type="title">ʾabbā</roleName>
+                  <roleName type="title">ʾAbbā</roleName>
                </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
@@ -74,7 +62,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <persName ref="PRS11207Ewostateans">ʾEwosṭāteans</persName>
                   who lived in the 14th and 15th century. He was the spiritual son of <persName ref="PRS2385Bakimos">
                      Bakimos of Dabra Ṣarābi</persName>, 
-                  who was the pupil of <persName ref="PRS3932Ewostate">ʾEwosṭātewos</persName>. 
+                  who was the pupil of <persName ref="PRS3934Ewostate">ʾEwosṭātewos</persName>. 
                   He was the founder of the monastery of 
                   <placeName ref="LOC2251DabraB">Dabra Bizan</placeName> in <date>1373/74</date>, the strong hold of 
                   <persName ref="PRS11207Ewostateans">ʾEwosṭāteans</persName>.
@@ -84,7 +72,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   two Sabbaths, he was imprisoned in <placeName ref="INS0327DHE">Dabra Ḥayq ʾƎsṭifānos</placeName> and set free in <date>1403/04</date>. 
                   He was succeeded by
                   <persName ref="PRS10371Yohanne"> 
-                     <roleName type="title">ʾabbā</roleName> Yoḥannǝs</persName>, 
+               ʾabbā Yoḥannǝs</persName>, 
                   the second abbot of <placeName ref="LOC2251DabraB">Dabra Bizan</placeName>.</floruit>
                   <death when="1406">He died at the age of 84.</death>
                </person>  
@@ -92,26 +80,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <relation name="snap:SonOf" active="PRS4107Fileppos" passive="PRS10331Yerdea"/>
                  
                  
-                  <relation name="snap:AllianceWith"
-                         active="PRS4107Fileppos"
-                         passive="PRS10371Yohanne"/>
+                  <relation name="snap:AllianceWith" active="PRS4107Fileppos" passive="PRS10371Yohanne"/>
                   
-                  <relation name="snap:AllianceWith"
-                         active="PRS4107Fileppos"
-                         passive="PRS2469Bartalom"/>
-                  <relation name="snap:AllianceWith"
-                         active="PRS4107Fileppos"
-                         passive="PRS10342Yeshaq"/>
-                  <relation name="snap:AllianceWith"
-                         active="PRS4107Fileppos"
-                         passive="PRS8537saraqaB"/>
-                  <relation name="ecrm:P129i_is_subject_of"
-                         active="PRS4107Fileppos"
-                         passive="LIT1444GadlaF"/>
+                  <relation name="snap:AllianceWith" active="PRS4107Fileppos" passive="PRS2469Bartalom"/>
+                  <relation name="snap:AllianceWith" active="PRS4107Fileppos" passive="PRS10342Yeshaq"/>
+                  <relation name="snap:AllianceWith" active="PRS4107Fileppos" passive="PRS8537saraqaB"/>
+                  <relation name="ecrm:P129i_is_subject_of" active="PRS4107Fileppos" passive="LIT1444GadlaF"/>
                </listRelation>
          </listPerson>
          
-         <listBibl type="editions">
+         <listBibl type="secondary">
             <bibl>
                <ptr target="bm:ContiRossini1901FilposYohannes"/>
             </bibl>

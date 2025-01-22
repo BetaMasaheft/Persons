@@ -1,12 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="PRS12248Anestasya"
-     xml:lang="en"
-     type="pers">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12248Anestasya" xml:lang="en" type="pers">
     <teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt>
@@ -17,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
-                <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas:  Eine multimediale
                             Forschungsumgebung / Beta maṣāḥǝft</publisher>
                 <pubPlace>Hamburg</pubPlace>
                 <availability>
@@ -31,8 +25,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </fileDesc>
         <encodingDesc>
             <p>A digital born TEI file</p>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
             <xi:fallback>
                <p>Definitions of prefixes used.</p>
             </xi:fallback>
@@ -45,27 +38,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </abstract>
             <langUsage>
                 <language ident="en">English</language>
-                <language ident="ar">Arabic</language>
-                <language ident="it">Italian</language>
-                <language ident="am">Amharic</language>
                 <language ident="gez">Gǝʿǝz</language>
+                <language ident="grc">Greek</language>
             </langUsage>
         </profileDesc>
         <revisionDesc>
             <change who="DR" when="2018-08-09">Created entity</change>
+            <change when="2023-05-25" who="CH">Updated names and Wikidata</change>
         </revisionDesc>
     </teiHeader>
     <text xml:base="https://betamasaheft.eu/">
         <body>
             <listPerson>
-                <person sex="2">
-                    <persName xml:lang="gez" xml:id="n1">አንስጣስያ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAnǝsṭāsyā</persName>
+                <person sex="2" sameAs="wd:Q232975">
+                    <persName xml:lang="en" xml:id="n1">Anastasia of Sirmium</persName>
+                    <persName xml:lang="grc" xml:id="n2">Ἀναστασία ἡ Φαρμακολύτρια</persName>
+                    <persName xml:lang="grc" type="normalized" corresp="#n2">Anastasía hē Pharmakolýtria</persName>
+                    <persName xml:lang="gez" xml:id="n3">አንስጣስያ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n3">ʾAnǝsṭāsyā</persName>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation"
-                         active="PRS12248Anestasya"
-                         passive="BLorient644"/>
+                    <relation name="lawd:hasAttestation" active="PRS12248Anestasya" passive="BLorient644"/>
+                    <relation name="lawd:hasAttestation" active="PRS12248Anestasya" passive="BMLacq680"/>
                 </listRelation>
             </listPerson>
         </body>

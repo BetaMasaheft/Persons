@@ -1,12 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="pers"
-     xml:lang="en"
-     xml:id="PRS8943Speedy">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS8943Speedy">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
@@ -25,45 +19,53 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
-            <p>Prosopography of Ethiopian Written tradition</p>
+            <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
             <p>A TEI file converted from the ETHIO-authority
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
             <xi:fallback>
                <p>Definitions of prefixes used.</p>
             </xi:fallback>
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage>
-            <language ident="en">English</language>
-            <language ident="ar">Arabic</language>
-            <language ident="it">Italian</language>
-            <language ident="gez">Gǝʿǝz</language>
-         </langUsage>
+         <langUsage><language ident="en">English</language></langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2024-07-22" who="CH">Updated names, floruit and wididata.</change>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="ES" when="2016-02-09">CREATED: person</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                   Tristram Charles Sawyer
-                  Speedy
-               </persName>
-               <persName type="alt">baša Fälläqä</persName>
-               <occupation> mil. </occupation>
+            <person sex="1" sameAs="wd:Q7451655">
+               <persName xml:id="n1" xml:lang="en"><forename>Tristram</forename> <forename>Charles</forename> 
+                  <forename>Sawyer</forename> <surname>Speedy</surname></persName>
+               <persName><roleName type="rank">Captain</roleName></persName>
+               <persName xml:id="n2" xml:lang="am">Fallaqa</persName>
+               <persName corresp="#n2" xml:lang="fr" type="normalized">Félika</persName>
+               <persName><roleName type="title">bāšā</roleName></persName>
+               <occupation type="military"/>
+               <birth when="1836-11-26">26 Nov 1836</birth>
+               <death when="1910-08-09">9 Aug 1910</death>
+               <floruit notBefore="1867" notAfter="1868">Interpreter on the Staff of <persName ref="PRS7484Napier">
+                  <roleName type="title">Lord</roleName> Napier</persName> 
+                  on <placeName ref="LOC4547Maqdal">Magdala</placeName>, during the Abyssinian Expedition of 
+                  <date notBefore="1867" notAfter="1868">1867-1868</date>.</floruit>
             </person>
+            <listRelation>
+               <relation name="betmas:husbandOf" active="PRS8943Speedy" passive="PRS14504MrsSpeedy"/>
+               <relation name="saws:hasWritten" active="PRS8943Speedy" passive="BLorient7945"/>
+               <relation name="saws:hasWritten" active="PRS8943Speedy" passive="BLorient7946"/>
+               <relation name="saws:hasWritten" active="PRS8943Speedy" passive="BLorient7947"/>
+            </listRelation>
          </listPerson>
       </body>
    </text>

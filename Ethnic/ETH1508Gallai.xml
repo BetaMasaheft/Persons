@@ -1,13 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ETH1508Gallai" type="pers">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ETH1508Gallai" type="pers">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Galla, idiom</title>
+            <title>Gāllā (idiom)</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -26,8 +23,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
             <xi:fallback>
                <p>Definitions of prefixes used.</p>
             </xi:fallback>
@@ -38,22 +34,31 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="en">English</language>
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
+         <abstract>
+            <ab>Idiom or name that was used for the <persName ref="ETH1973Oromo">Oromo people</persName> and occasionally for other ethnic in Ethiopia and Eritrea until
+               the 1970ies; later perceived in a pejorative way as reflected by the use of the name to designate 'enemies' in general i.e. in Magic prayers.</ab>
+         </abstract>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-10-18"> Created file from google
                                 spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: ethnic</change>
+         <change when="2024-09-17" who="CH">Updated name and added bibliography.</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <personGrp role="ethnic">
-               <persName xml:id="n1">
-                  <orgName>Galla, idiom</orgName>
-               </persName>
+               <persName xml:id="n1" xml:lang="am"><orgName>ጋላ፡</orgName></persName>
+               <persName corresp="#n1" xml:lang="am" type="normalized"><orgName>Gāllā</orgName></persName>
             </personGrp>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Baxter2005Galla"/>
+            </bibl>            
+         </listBibl>
       </body>
    </text>
 </TEI>

@@ -1,0 +1,68 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS14578KeflaYohannes" xml:lang="en" type="pers">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Kəfla Yoḥannəs</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="JK"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p>According to 
+                    <bibl><ptr target="bm:Afawarq1984Yageezqeneyat"></ptr><citedRange unit="page">230-231</citedRange></bibl>,
+                    he was a composer of <foreign xml:lang="gez">qəne</foreign> in the time of <persName corresp="PRS3430DawitII"/>.
+                </p>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="JK" when="2024-10-15">Created entity</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person sex="1">
+                    <persName xml:lang="gez" xml:id="n1">ክፍለ፡ ዮሐንስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Kəfla Yoḥannəs</persName>
+                    <occupation type="literary"/>
+                    <floruit notBefore="1716" notAfter="1721">1716–1721</floruit>
+                </person>
+                <listRelation>
+                    <relation name="saws:isAttributedToAuthor" active="PRS14578KeflaYohannes" passive="LIT7102QeneYom"/>
+                </listRelation>
+            </listPerson>
+            <listBibl type="secondary">
+                <bibl>
+                    <ptr target="bm:Afawarq1984Yageezqeneyat"></ptr>
+                    <citedRange unit="page">230-231</citedRange>
+                </bibl>
+            </listBibl>
+        </body>
+    </text>
+</TEI>

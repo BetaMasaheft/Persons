@@ -1,12 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="pers"
-     xml:lang="en"
-     xml:id="PRS1093Abbeyye">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS1093Abbeyye">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
@@ -27,33 +21,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
-            <p>Prosopography of Ethiopian Written tradition</p>
+            <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
             <p>A TEI file converted from the ETHIO-authority
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
             <xi:fallback>
                <p>Definitions of prefixes used.</p>
             </xi:fallback>
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage>
-            <language ident="en">English</language>
-            <language ident="ar">Arabic</language>
-            <language ident="it">Italian</language>
-            <language ident="gez">Gǝʿǝz</language>
-         </langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="ES" when="2016-02-09">CREATED: person</change>
          <change who="SG" when="2016-11-21">complete record</change>
+         <change when="2021-06-21" who="SS">Updated name</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -67,37 +56,35 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <persName xml:lang="gez" xml:id="n3" type="alt">ቀዳሜ፡</persName>
                <persName xml:lang="gez" corresp="#n3" type="normalized">Qadāme</persName>
                <persName>
-                  <roleName type="title">marǝd ʾazmāč</roleName>
+                  <roleName type="title">marʿǝd ʾazmāč</roleName>
                </persName>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                   <occupation type="political">ruler</occupation>
-                
-               <floruit notBefore="1719" notAfter="1743">He was the third ruler of the kingdom of 
+
+               <floruit notBefore="1719" notAfter="1743">He was the third ruler of the kingdom of
                   <placeName ref="LOC5597Sawa">
                   Šawā </placeName> from about <date>1719</date> to <date>1743</date>,
-                  a period of  territorial expansion and administrative consolidation. 
-                  Like his predecessors, in alliance with the walasma rulers, 
-                  he continued a campaign against the <persName ref="ETH1973Oromo">Oromo</persName> 
-                  of Karrayyu and pushed the border of the principality. 
+                  a period of  territorial expansion and administrative consolidation.
+                  Like his predecessors, in alliance with the walasma rulers,
+                  he continued a campaign against the <persName ref="ETH1973Oromo">Oromo</persName>
+                  of Karrayyu and pushed the border of the principality.
                   It was during his rule  that the typical land tenure system of  <placeName ref="LOC5597Sawa">
-                     Šawā </placeName> was developed. He was succeeded by 
+                     Šawā </placeName> was developed. He was succeeded by
                   <persName ref="PRS1878AmmehaI">
-                     <roleName type="title">marǝd ʾazmāč</roleName>
-                        ʾAmmǝḫā ʾIyasus</persName>
+                     <roleName type="title">marʿǝd ʾazmāč</roleName>
+                        ʾAmmǝḫā ʾIyyasus</persName>
                </floruit>
-                  
-                 
+
+
                </person>
                <listRelation>
                <relation name="snap:SonOf" active="PRS1093Abbeyye" passive="PRS8666Sebestya"/>
-                  <relation name="snap:GrandsonOf"
-                         active="PRS1093Abbeyye"
-                         passive="PRS7467NagasiK"/>
-             
-             
-                  
-                  
+                  <relation name="snap:GrandsonOf" active="PRS1093Abbeyye" passive="PRS7467NagasiK"/>
+
+
+
+
                </listRelation>
          </listPerson>
          <listBibl type="secondary">
@@ -110,8 +97,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <bibl>
                <ptr target="bm:Nosnitsin2010Sawa"/>
             </bibl>
-            
+
          </listBibl>
       </body>
-   </text>   
+   </text>
 </TEI>

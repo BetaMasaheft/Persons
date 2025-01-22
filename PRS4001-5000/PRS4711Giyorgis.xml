@@ -1,16 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="pers"
-     xml:lang="en"
-     xml:id="PRS4711Giyorgis">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS4711Giyorgis">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Giyorgis Walda ʿAmid</title>
+            <title>Giyorgis Walda ʾAmid</title>
             <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             <author/>
@@ -27,70 +21,72 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
-            <p>Prosopography of Ethiopian Written tradition</p>
+            <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
             <p>A TEI file converted from the ETHIO-authority
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
             <xi:fallback>
                <p>Definitions of prefixes used.</p>
             </xi:fallback>
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage>
-            <language ident="en">English</language>
-            <language ident="ar">Arabic</language>
-            <language ident="it">Italian</language>
-            <language ident="gez">Gǝʿǝz</language>
-         </langUsage>
+         <langUsage><language ident="en">English</language><language ident="ar">Arabic</language><language ident="gez">Gǝʿǝz</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="ES" when="2016-02-09">CREATED: person</change>
          <change who="SG" when="2016-09-01">Complete record</change>
          <change who="SG" when="2017-02-13">addition</change>
          <change who="DR" when="2017-10-11">Added Arabic name</change>
+         <change when="2024-09-02" who="CH">Updated titles and dates</change>
+         <change when="2024-11-08" who="CH">Add wikidata</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
-            <person sex="1">
-               <persName xml:lang="gez" xml:id="n1" type="birth">ጊዮርጊስ፡ ወልደ፡ ዓሚድ፡</persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized">Giyorgis Walda ʿAmid</persName>
-               <persName xml:lang="gez" xml:id="n2" type="alt">ጊርጊስ፡ አልመኪን፡</persName>
-               <persName xml:lang="gez" corresp="#n2" type="normalized">Ǧirǧis al-Makīn</persName>
-               <persName xml:lang="ar" xml:id="n3" type="alt">جرجس المكين بن العميد</persName>
-               <persName xml:lang="ar" corresp="#n3" type="normalized">Ǧirǧis al-Makīn b. al-ʿAmīd</persName>
-               
+            <person sameAs="wd:Q1243803" sex="1">
+               <persName xml:lang="gez" xml:id="n1" type="birth">ጊዮርጊስ፡ ወልደ፡ አሚድ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Giyorgis Walda ʾAmid</persName>
+               <persName xml:lang="gez" xml:id="n2" type="alt">ጊዮርጊስ፡ ግብፃዊ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Giyorgis Gǝbḍāwi</persName>
+               <persName xml:lang="gez" xml:id="n3" type="alt">ጊርጊስ፡ አልመኪን፡</persName>
+               <persName xml:lang="gez" corresp="#n3" type="normalized">Girgis al-Makīn</persName>
+               <persName xml:lang="ar" xml:id="n4" type="alt">جرجس المكين ابن العميد</persName>
+               <persName xml:lang="ar" corresp="#n4" type="normalized">Ǧirǧis al-Makīn ibn al-ʿAmīd</persName>
+               <occupation type="political">Served in the military administration and was a member of the Dīwān al-ǧayš of various Ayyubid 
+                  and Mamluk sultans</occupation>
                <occupation type="literary">historian</occupation>
                <nationality type="Egypt"/>
                <faith type="Coptic"/>
                <birth when="1206">He was born in <date>1206</date> at <placeName ref="wd:Q85">Cairo</placeName>.</birth>
-               <floruit notBefore="1206" notAfter="1273">He was a Christian Arab historian whose works were incorporated into Ethiopian tradition. 
-                  He wrote the  book <ref type="work" corresp="LIT4723TarikaWaldaAmid">al-Maǧmaʿ al-mubārak</ref> in <date> between 1262-1268 </date>
-                  which was translated during the reign of  
-                  <persName ref="PRS6229LebnaDe">
-                     <roleName type="title">ʾaṣe</roleName>  Lǝbna Dǝngǝl</persName>
-
-                  as <foreign xml:lang="gez">ታሪከ፡ ወልደ፡ ዓሚድ</foreign>. 
-                  
+               <floruit notBefore="1206" notAfter="1293">He was a Christian Arab historian whose work was translated and incorporated into 
+                  Ethiopian tradition. 
+                  He wrote his <ref type="work" corresp="LIT4723TarikaWaldaAmid">Tārīḫ</ref> in <date> between 1262-1268</date>,
+                  which was translated twice during the reign of 
+                  <persName ref="PRS10626ZaraY"><roleName type="title">ʾaṣe</roleName> Zarʾa Yāʿqob</persName> and 
+                  <persName ref="PRS6229LebnaDe"><roleName type="title">ʾaṣe</roleName>  Lǝbna Dǝngǝl</persName>
+                  as <foreign xml:lang="gez">ታሪከ፡ ወልደ፡ አሚድ</foreign>. 
               </floruit>
-               <death when="1273"/>
-               
+               <death notBefore="1273" notAfter="1293">He died either in 1273 or in 1293 CE.</death>
             </person>
          </listPerson>
          <listBibl type="secondary">
             <bibl>
                <ptr target="bm:Pietruschka2005WaldaAmid"/>
             </bibl>  
-            
+            <bibl>
+               <ptr target="bm:Diez2024Amid"/><citedRange>1-39</citedRange>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Hoffmann2021Amid"/><citedRange>1-11</citedRange>
+            </bibl>
          </listBibl>
       </body>
    </text>

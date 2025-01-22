@@ -1,0 +1,72 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS14230GBRaimondi" xml:lang="en" type="pers">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Giovanni Battista Raimondi</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="CH"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="CH" when="2023-12-18">Created entity</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person sex="1" sameAs="Q3105122">
+                    <persName xml:id="n1">
+                        <forename>Giovanni</forename>
+                        <forename>Battista</forename>
+                        <surname>Raimondi</surname>
+                    </persName>
+                    <persName xml:id="n2">
+                        <forename>Giambattista</forename>
+                    </persName>
+                    <occupation type="academic">Scientific director of the Typographia Medicea in <placeName ref="LOC5374Rome"/>.</occupation>
+                    <nationality type="Italy"/>
+                    <birth cert="medium" when="1536">1536</birth>
+                    <death cert="high" when="1614">1614</death>
+                </person>
+                <listRelation>
+                    <relation name="saws:isCopierOf" active="PRS14230GBRaimondi" passive="BMLor321"/>
+                </listRelation>
+            </listPerson><!---->
+            <listBibl type="secondary">
+                <bibl> 
+                    <ptr target="bm:Farina2018RaimondisTravel"/>
+                </bibl>
+            </listBibl>
+        </body>
+    </text>
+</TEI>
