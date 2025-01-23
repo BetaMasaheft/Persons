@@ -1,6 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12810Demetros" xml:lang="en" type="pers">
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12810Demetros" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -11,12 +12,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             </titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
-                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas:  Eine multimediale
-                    Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
                 <pubPlace>Hamburg</pubPlace>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
-                        licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -31,7 +32,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <abstract>
                 <p/>
             </abstract>
-            <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ar">Arabic</language>
+                <language ident="it">Italian</language>
+                <language ident="am">Amharic</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
         </profileDesc>
         <revisionDesc>
             <change who="SG" when="2019-11-07">Created entity</change>
@@ -41,10 +48,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ድሜጥሮስ፡</persName>
+                    <persName xml:lang="gez" xml:id="n1"> ድሜጥሮስ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Dǝmeṭros</persName>
-                    <persName><roleName type="title">ṣaḥāfe tǝʾǝzāz</roleName></persName>
-                    
+                    <persName><roleName type="title">ṣaḥafe tǝʾǝzāz</roleName></persName>
+             
                     <occupation type="literary"/>
                     <nationality type="Ethiopia"/>
                     <birth/>

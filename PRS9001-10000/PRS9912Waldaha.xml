@@ -38,18 +38,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2019-10-24">transcription</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Wäldä Ḥawaryat
-               </persName>
-               <occupation> mäm. </occupation>
+               <persName  xml:lang="gez" xml:id="n1" type="birth">ወልደ፡ ሐዋርያት፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Walda Ḥawāryāt</persName>
+               <occupation type="literary">mamhǝr</occupation>
             </person>
          </listPerson>
       </body>
