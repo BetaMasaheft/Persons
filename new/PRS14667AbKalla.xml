@@ -45,17 +45,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="2">
-                    <persName xml:lang="gez" xml:id="n1">ʾAb Kallalā</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
-                    <faith type=""/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <persName xml:lang="gez" xml:id="n1">አብ፡ ከለላ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAb Kallalā</persName>
+                    <floruit notBefore="1800" notAfter="1899">19th century</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS14667AbKalla" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS14667AbKalla" passive="BAVet201">
+                        <desc>ʾAb Kallalā is mentioned in the scribal supplication of <ref type="mss" corresp="BAVet201"/> on fol. 36v, where she is indicated as
+                            <foreign xml:lang="gez">አመትከ</foreign>, "your maid". 
+                            She possibly was one of the owners of the manuscript or one of his/her relatives.
+                        </desc>
+                    </relation>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>

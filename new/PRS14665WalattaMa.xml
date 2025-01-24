@@ -45,17 +45,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="2">
-                    <persName xml:lang="gez" xml:id="n1">Walatta Māryām</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
-                    <faith type=""/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <persName xml:lang="gez" xml:id="n1">ወለተ፡ ማርያም፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walatta Māryām</persName>
+                    <floruit notBefore="1800" notAfter="1899">19th century</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS14665WalattaMa" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS14665WalattaMa" passive="BAVet201">
+                        <desc>Walatta Māryām is mentioned in a secondary hand in the supplication formula on fol. 31r, where she is indicated as
+                            <foreign xml:lang="gez">አመትከ</foreign>, "your maid".         
+                            She possibly was a later owner of <ref type="mss" corresp="BAVet201"/>.
+                        </desc>
+                    </relation>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>
