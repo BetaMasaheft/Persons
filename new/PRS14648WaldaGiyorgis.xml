@@ -32,29 +32,29 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <abstract>
                 <p/>
             </abstract>
-            <t:langUsage xmlns:t="http://www.tei-c.org/ns/1.0">
+            <langUsage xmlns:t="http://www.tei-c.org/ns/1.0">
                 <language ident="en">English</language>
                 <language ident="gez">Gǝʿǝz</language>
-            </t:langUsage>
+            </langUsage>
         </profileDesc>
         <revisionDesc>
             <t:change xmlns:t="http://www.tei-c.org/ns/1.0" who="MK" when="2025-01-13">Created entity</t:change>
         </revisionDesc>
     </teiHeader>
-    <t:text xmlns:t="http://www.tei-c.org/ns/1.0">
+    <text xmlns:t="http://www.tei-c.org/ns/1.0">
         <body>
-            <t:listPerson>
-                <t:person sex="1">
+            <listPerson>
+                <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ወልደ፡ ጊዮርጊስ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Walda Giyorgis</persName>
                     <faith type="EOTC"/>
-                    <t:occupation type="other"/>
+                    <occupation type="other"/>
                     <floruit notBefore="1600" notAfter="1800"/>
-                </t:person>
+                </person>
                 <listRelation>
                     <relation name="saws:hasOwned" active="PRS14648WaldaGiyorgis" passive="ESdd029"/>
                 </listRelation>
-            </t:listPerson>
+            </listPerson>
         </body>
-    </t:text>
+    </text>
 </TEI>
