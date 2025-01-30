@@ -45,14 +45,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Ḥaddis</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
-                    <faith type=""/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <persName xml:lang="gez" xml:id="n1">አለቃ፡ ሐዲስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Ḥaddis</persName>
+                    <persName type="alt"><roleName type="title">ʾalaqā</roleName> Ḥaddis</persName>
+                    <floruit notBefore="1800" notAfter="1899">19th century</floruit>
                 </person>
-            </listPerson><!---->
+                <listRelation>
+                    <relation name="saws:hasOwned" active="PRS14674AHaddis" passive="BAVet207">
+                        <desc>ʾAlaqā Ḥaddis is indicated as the owner of the manuscript in the ownership note on fol. 24r.
+                            He possibly was the owner of the manuscript.
+                        </desc>
+                    </relation>
+                </listRelation>
+            </listPerson>
         </body>
     </text>
 </TEI>
