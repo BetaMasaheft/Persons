@@ -30,13 +30,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <profileDesc>
             <creation/>
             <abstract>
-                <p>According to <bibl><ptr target="bm:Lundstroem2011Kenisha"/>
-                    <citedRange unit="page">488</citedRange></bibl>, Kidāna Māryām was originally an 
-                    Orthodox <foreign xml:lang="gez">dabtarā</foreign>. As of <date when="1895"/>, he supported the
-                    Evangelicals and was active as an evangelist in
-                    <placeName ref="LOC4012Karnas"/> from <date when="1895"/> to <date when="1910"/>.
-                    From <date when="1911"/> to <date when="1912"/>, he was active in <placeName ref="LOC6569Tegray"/>.
-                    He is possibly the author of an eulogistic composition attested in <ref type="mss" corresp="UppQ1524o"/>.</p>
+                <p/>
             </abstract>
             <langUsage>
                 <language ident="en">English</language>
@@ -55,14 +49,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Kidāna Māryām</persName>
                     <faith xmlns:t="http://www.tei-c.org/ns/1.0" type="EOTC Protestantism"/>
                     <occupation type="ecclesiastic"/>
-                    <floruit notBefore="1850" notAfter="1950">Second half of 19th and first half of 20th century.</floruit>
+                    <floruit notBefore="1850" notAfter="1950">Second half of 19th and first half of 20th century.
+                        According to <ref target="#Lundstroem2011Kenisha"/>, Kidāna Māryām was originally an 
+                        Orthodox <foreign xml:lang="gez">dabtarā</foreign>. As of <date when="1895"/>, he supported the
+                        Evangelicals and was active as an evangelist in
+                        <placeName ref="LOC4012Karnas"/> from <date when="1895"/> to <date when="1910"/>.
+                        From <date when="1911"/> to <date when="1912"/>, he was active in <placeName ref="LOC6569Tegray"/>.
+                        He is possibly the author of an eulogistic composition attested in <ref type="mss" corresp="UppQ1524o"/>.</floruit>
                 </person>
                 <listRelation>
                     <relation name="dcterms:creator" active="PRS14575KidanaMaryam" passive="LIT7092QeneMamer" cert="medium"/>
                 </listRelation>
             </listPerson>
             <listBibl type="secondary">
-                <bibl>
+                <bibl xml:id="Lundstroem2011Kenisha">
                     <ptr target="bm:Lundstroem2011Kenisha"/>
                     <citedRange unit="page">488</citedRange>
                 </bibl>
