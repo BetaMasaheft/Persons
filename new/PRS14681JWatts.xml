@@ -45,10 +45,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPerson>
                 <person sex="1">
                     <persName><forename>John</forename> <surname>Watts</surname></persName>
-                    <occupation type="military">Colonel</occupation>
+                    <persName><roleName type="rank">Colonel</roleName></persName>
+                    <persName><roleName type="rank">Captain</roleName></persName>
+                    <occupation type="military">Deputy-Assistant-Quarter-master-General in the Second Division of the British expedition to Abyssinia 
+                        in 1868.</occupation>
                     <nationality type="UnitedKingdom">From Gunville, Dorset (UK).</nationality>
                     <residence type="India">Garrisoned in Bombay.</residence>
-                    <floruit notBefore="1850" notAfter="1900">Second half of 19th century, participant in the British expedition to Abyssinia in 1868.</floruit>
+                    <floruit notBefore="1850" notAfter="1900">Second half of 19th century</floruit>
                 </person>
                 <listRelation>
                     <relation name="saws:hasOwned" active="PRS14681JWatts" passive="BLorient12025"/>
