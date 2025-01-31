@@ -1,0 +1,95 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS14576AndersSvensson" xml:lang="en" type="pers">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Anders Svensson</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="JK"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+                <language ident="ti">Tigrinya</language>
+                <language ident="sv">Swedish</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="JK" when="2024-10-04">Created entity</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person sameAs="Q115903389" sex="1">
+                    <persName xml:lang="sv" xml:id="n1"><forename>Anders</forename> <surname>Svensson</surname></persName>
+                    <persName xml:lang="ti" xml:id="n2"><roleName type="office">ቀሺ</roleName> ሜንሶን</persName>
+                    <faith type="Protestantism"/>
+                    <occupation type="ecclesiastic"/>
+                    <nationality type="Sweden"/>
+                    <birth when="1894-04-07">7 April 1849</birth>
+                    <floruit>
+                        Anders Svensson, born in Nävlinge socken in <date when="1849">1849</date>, was ordained a 
+                        priest in Lund in <date when="1874">1874</date>, and became a missionary for
+                        Swedish Evangelical Mission in Eritrea in <date when="1877">1877</date>. He was a teacher at the school outside
+                        <ref type="place" corresp="LOC2852Emkull">Imkullo</ref>. From 1885 to 1897, he was the head of the school, 
+                        which from 1890 was located in <ref type="place" corresp="LOC5393Saazza">Zazega</ref>. 
+                        As the chairman of the missionary conference (<foreign xml:lang="sv">missionskonferens</foreign>)
+                        from 1886 to 1913, he travelled through the entire area where the SEM was active, ordaining priests and
+                        consecrating churches and graveyards.
+                        He is buried in Zazega. According to <ref target="#Kahassai2023"></ref>,
+                        he was locally known as <foreign xml:lang="ti"><roleName type="office">ቀሺ</roleName> ሜንሶን</foreign>
+                        (<foreign xml:lang="ti"><roleName type="office">Qašši</roleName> Menson</foreign>),
+                        which is the name attested in <ref type="mss" corresp="UppQ1524o"><locus target="#5r"/></ref>.
+                    </floruit>
+                    <death when="1928-06-04">4 June 1928</death>
+                    <residence>
+                        <placeName ref="LOC2852Emkull"/>
+                        <placeName ref="LOC5393Saazza"/>
+                    </residence>
+                </person>
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="PRS14576AndersSvensson" passive="UppQ1524o"/>
+                    <relation name="snap:ProfessionalRelationship" active="PRS14576AndersSvensson" passive="PRS14574GabraLeul"></relation>
+                </listRelation>
+            </listPerson>
+            <listBibl type="secondary">
+                <bibl>
+                    <ptr target="bm:Lundstroem2011Kenisha"/>
+                    <citedRange unit="page">481</citedRange>
+                </bibl>
+                <bibl>
+                    <ptr target="bm:Julen1954Svensson"/>
+                </bibl>
+                <bibl xml:id="Kahassai2023">
+                    <ptr target="bm:Kahassai2023"/>
+                </bibl>
+            </listBibl>
+        </body>
+    </text>
+</TEI>
