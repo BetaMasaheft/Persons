@@ -44,12 +44,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  
-                  Gabriel VIII
-               </persName>
-                <occupation type="ecclesiastic">Patriarch</occupation>
+            <person sex="1" sameAs="wd:Q4118033">
+               <persName>Gabriel VIII</persName>
+               <persName xml:lang="gez" xml:id="n1">ገብርኤል፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Gabrǝʾel</persName>
+                <occupation type="ecclesiastic">The 97th Patriarch of the Coptic Church</occupation>
+               <floruit notBefore="1587" notAfter="1603"/>
+               <death>14 May 1603</death>
             </person>
          </listPerson>
       </body>
