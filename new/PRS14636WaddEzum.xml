@@ -43,18 +43,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </teiHeader>
     <text>
         <body>
-            <t:listPerson xmlns:t="http://www.tei-c.org/ns/1.0">
+            <listPerson>
                 <person sex="1">
                     <persName>
                     <persName xml:lang="ti" xml:id="n1">ወድ፡ እዙም፡</persName>
-                    <persName xml:lang="ti" type="normalized" corresp="#n1">Wadd ʾƎzum</persName>
-                    
+                    <persName xml:lang="ti" type="normalized" corresp="#n1">Wadd ʾƎzum</persName>                    
                     <persName xml:lang="gez" xml:id="n2">ወልደ፡ እዙም፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n2">Walda ʾƎzum</persName>
-                        
+                    <persName xml:lang="gez" type="normalized" corresp="#n2">Walda ʾƎzum</persName>                        
                     <roleName type="title">bāḥǝr nagāš</roleName>
-                    </persName>
-                    
+                    </persName>                    
                     <faith type="EOTC"/>
                     <occupation type="ruler"/>
                     <nationality type="Ethiopia"/>
@@ -62,7 +59,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <death when="1590">Killed in battle by Śarṣa Dǝngǝl.</death>
                     <floruit notBefore="1500" notAfter="1590"/>
                 </person>
-            </t:listPerson>
+            </listPerson>
         </body>
     </text>
 </TEI>
