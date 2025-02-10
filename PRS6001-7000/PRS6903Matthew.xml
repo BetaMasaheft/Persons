@@ -40,6 +40,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
          <change who="DR" when="2018-11-14">Updated name, added wikidata</change>
+         <change who="MKr" when="2025-02-08">Added floruit, bibliography</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -50,8 +51,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                <persName xml:lang="gez" corresp="#n1" type="normalized">Mātewos I</persName>
                <persName xml:lang="en" corresp="#n1">Matthew I</persName>
                <occupation type="ecclesiastic">Patriarch </occupation>
+               <death when="1408">1408</death>
+               <faith type="Coptic"></faith>
+               <floruit>He was a patriarch of Alexandria from 1378 until his death and a contemporary of ʾaḍe <persName ref="PRS3429DawitII">Dāwit</persName> and 
+                  <persName ref="PRS8387SalamaI"> ʾabbā Salāmā</persName> with whom he maintained relations.  There is a depiction of him in the church 
+                  of <placeName ref="LOC2298DabraM">Dabra Maʿār</placeName> as well as a hagiographic composition in his honour presereved in 
+                  the manuscript <ref type="mss" corresp="EMML8071">EMML 8071</ref>.</floruit>
             </person>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:Getatchew2016Pages"/>
+            </bibl>  
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
