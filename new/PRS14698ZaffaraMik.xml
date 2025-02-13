@@ -48,12 +48,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <persName xml:lang="gez" xml:id="n1">ዘፈረ፡ ሚካኤል፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Zaffara Mikāʾel</persName>
                     <persName><roleName type="title">mamhǝr</roleName></persName>
+                    <persName><roleName type="title">ʾafa mamhǝr</roleName></persName>
                     <faith type="EOTC"/>
                     <occupation type="ecclesiastic">mamhǝr in <placeName ref="INS1004TanaQirqos"/></occupation>
                     <floruit notBefore="1750" notAfter="1799">Second half of the 18th century</floruit>
                 </person>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="PRS14698ZaffaraMik" passive="BNFabb68"/>
+                    <relation name="dc:relation" active="PRS14698ZaffaraMik" passive="PRS14697Zaffaru"><desc>Possibly the same person as 
+                        <persName ref="PRS14697Zaffaru"/>.</desc></relation>
                 </listRelation>
             </listPerson>
         </body>
