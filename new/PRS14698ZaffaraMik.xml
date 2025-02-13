@@ -47,6 +47,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ዘፈረ፡ ሚካኤል፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Zaffara Mikāʾel</persName>
+                    <persName xml:lang="gez" xml:id="n2">ዘፈሩ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n2">Zaffaru</persName>
                     <persName><roleName type="title">mamhǝr</roleName></persName>
                     <persName><roleName type="title">ʾafa mamhǝr</roleName></persName>
                     <faith type="EOTC"/>
@@ -55,8 +57,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </person>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="PRS14698ZaffaraMik" passive="BNFabb68"/>
-                    <relation name="dc:relation" active="PRS14698ZaffaraMik" passive="PRS14697Zaffaru"><desc>Possibly the same person as 
-                        <persName ref="PRS14697Zaffaru"/>.</desc></relation>
                 </listRelation>
             </listPerson>
         </body>
