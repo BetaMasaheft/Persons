@@ -45,9 +45,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:id="n1" xml:lang="gez">ሀብተ፡ ገብርኤል፡</persName>
+                    <persName xml:id="n1" xml:lang="gez"> ሀብተ፡ ገብርኤል፡</persName>
+                    <persName><roleName type="title">አቡነ፡</roleName></persName>
                     <persName xml:lang="gez" corresp="#n1" type="normalized">Habta
                         Gabrǝʾel</persName>
+                    <persName><roleName type="title">ʾabuna</roleName></persName>
                     <floruit notBefore="1400" notAfter="1500">He is said to have commisioned <ref
                             type="mss" corresp="BNFabb89"/> datable to the 15th cent.</floruit>
                 </person>
