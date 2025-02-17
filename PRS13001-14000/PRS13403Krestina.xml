@@ -49,18 +49,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPerson>
-                <person sex="2">
-                    <persName xml:lang="gez" xml:id="n1">ክርስጢና፡</persName>
+                <person sameAs="wd:Q237882" sex="2">
+                     <persName xml:lang="gez" xml:id="n1">ክርስጢና፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Krǝsṭinā</persName>
                     <persName xml:lang="en" corresp="n2">Christine</persName>
                     <persName xml:lang="gez" xml:id="n3">ክርስጢና፡ ወለተ፡ ርባኖስ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n3">Krǝsṭinā walatta Rǝbānos</persName>
+                    <persName xml:lang="en" xml:id="n4">St Christina of Bolsena</persName>
                     <faith type="Christianity"/>
                     <birth/>
                     <death/>
                     <note type="commemoration"><date type="diesNatalis" ref="ethiocal:Nahase15">15 Naḥāse</date></note>
                     <floruit/>
                 </person>
+                <listRelation>
+                    <relation name="saws:hasOwned" active="PRS13390NegestMaryam" passive="ESmy017"/>
+                </listRelation>
             </listPerson><!---->
         </body>
     </text>
