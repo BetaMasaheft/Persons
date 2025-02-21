@@ -38,29 +38,35 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
 <textClass>
 <keywords>
+   <term key="saint"/>
 <term key="martyr"/>
 </keywords>
 </textClass>
         </profileDesc>
         <revisionDesc>
             <change who="MKr" when="2021-04-17">Created entity</change>
+            <change who="MKr" when="2025-02-17">Added relation, link to Wikidata</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person sex="2">
-                    <persName xml:lang="gez" xml:id="n1">ክርስጢና፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Krǝsṭinā</persName>
-                    <persName xml:lang="en" corresp="n2">Christine</persName>
-                    <persName xml:lang="gez" xml:id="n3">ክርስጢና፡ ወለተ፡ ርባኖስ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n3">Krǝsṭinā walatta Rǝbānos</persName>
+                <person sameAs="wd:Q237882" sex="2">
+                    <persName xml:lang="en" xml:id="n1">St Christina of Bolsena</persName>
+                    <persName xml:lang="gez" xml:id="n2">ክርስጢና፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n2">Krǝsṭinā</persName>
+                    <persName xml:lang="gez" xml:id="n3">Christine</persName>
+                    <persName xml:lang="gez" xml:id="n4">ክርስጢና፡ ወለተ፡ ርባኖስ፡</persName>
+                    <persName xml:lang="gez"  type="normalized" corresp="#n4">Krǝsṭinā walatta Rǝbānos</persName>
                     <faith type="Christianity"/>
                     <birth/>
                     <death/>
-                    <note type="commemoration"><date type="diesNatalis" ref="ethiocal:Nahase15">15 Naḥāse</date></note>
+                    <note type="commemoration"><date ref="ethiocal:Nahase15">15 Naḥāse</date></note>
                     <floruit/>
                 </person>
+                <listRelation>
+                    <relation name="ecrm:P129i_is_subject_of" active="PRS13403Krestina" passive="LIT6437MartKrestina"/>
+                </listRelation>
             </listPerson><!---->
         </body>
     </text>
