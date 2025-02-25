@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Walda ʿAbiya ʾƎgziʾ</title>
+                <title>Walda ʿĀbiya ʾƎgziʾ</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="MK"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -45,19 +45,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Walda ʿAbiya ʾƎgziʾ</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ወልደ፡ ዓቢየ፡ እግዚእ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walda ʿĀbiya ʾƎgziʾ</persName>
                     <faith type="EOTC"/>
-                    <occupation type="other"/>
                     <nationality type="Ethiopia"/>
                     <birth/>
                     <death/>
-                    <floruit/>
+                    <floruit notBefore="1820" notAfter="1980"/>
                 </person>
                 <listRelation>
-                    <relation name="saws:hasOwned" active="PRS14714WaldaAbiya" passive=""/>
+                    <relation name="saws:hasOwned" active="PRS14714WaldaAbiya" passive="ESdd005"/>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>
