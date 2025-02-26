@@ -45,14 +45,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="SG" when="2017-03-27">Complete record</change>
          <change who="SG" when="2017-05-03">Correction</change>
          <change who="SG" when="2018-08-20">addition</change>
+         <change who="MK" when="2025-02-26">changed displayed name, rewording of the content</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1" sameAs="wd:Q752011">
-               <persName xml:lang="gez" xml:id="n1" type="main">ሚካኤል፡ ዓሊ፡</persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized">Mikāʾel ʿAli</persName>
+               <persName xml:lang="gez" corresp="#n1" type="main" >Mikāʾel ʿĀli</persName>
+               
+               <persName xml:lang="gez" xml:id="n1" type="alt">ሚካኤል፡ ዓሊ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized" >Mikāʾel ʿĀli</persName>
                
                <persName xml:lang="gez" corresp="#n2" type="alt">ሚካኤል፡ አሊ፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">Mikāʾel ʾAli</persName>
@@ -66,7 +69,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                   <persName xml:lang="gez" xml:id="n5" type="baptismal">ሚካኤል፡</persName>
                <persName xml:lang="gez" corresp="#n5" type="normalized">Mikāʾel</persName>
                <persName>
-                  <roleName type="title">imām</roleName>
+                  <roleName type="title">ʾimām</roleName>
                </persName>
                <persName>
                   <roleName type="title">nǝguś</roleName>
@@ -82,7 +85,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                   <placeName ref="LOC6242WarraH"/> between<date>1847–1850</date>.</birth>
                <floruit notBefore="1870" notAfter="1916">He was an important ruler of <placeName ref="LOC6185Wallo"/> and 
                   the entire northern Ethiopia. 
-                  He was born Muslim and later converted to Christianity after the council of <placeName ref="LOC1980BoruMe"/> in <date>1878</date> and adopted the baptismal name Mikaʾel. 
+                  He was born Muslim and later converted to Christianity after the council of <placeName ref="LOC1980BoruMe"/> in <date>1878</date>, adopting the baptismal name Mikaʾel. 
                   He maintained an alliance with <persName ref="PRS10378Yohanne"/> until the emperor’s death in <date>1889</date> at the battle of 
                   <placeName ref="LOC4637Matamm"/>. 
                   After <persName ref="PRS10378Yohanne">Yoḥannǝs’s</persName> death
