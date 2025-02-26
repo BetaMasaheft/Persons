@@ -51,20 +51,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       <body>
          <listPerson>
             <person sex="1" sameAs="wd:Q752011">
-               <persName xml:lang="gez" xml:id="n1" type="main">ሚካኤል፡ ዓሊ፡</persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized">Mikāʾel ʿAli</persName>
                
-               <persName xml:lang="gez" corresp="#n2" type="alt">ሚካኤል፡ አሊ፡</persName>
-               <persName xml:lang="gez" corresp="#n2" type="normalized">Mikāʾel ʾAli</persName>
-               
-               <persName xml:lang="gez" xml:id="n3" type="birth">መሐመድ፡ አሊ፡</persName>
-               <persName xml:lang="gez" corresp="#n3" type="normalized">Maḥammad ʾAli</persName>
-               
-                  <persName xml:lang="gez" xml:id="n4" type="horse">አባ፡ ሻንቆ፡</persName>
-               <persName xml:lang="gez" corresp="#n4" type="normalized">ʾAbbā Šānqo</persName>
+                  <persName xml:lang="gez" xml:id="n1" type="birth">መሐመድ አሊ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Maḥammad ʾAli</persName>
+                  <persName xml:lang="gez" xml:id="n2" type="horse">አባ፡ ሻንቆ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">ʾAbbā Šānqo</persName>
 
-                  <persName xml:lang="gez" xml:id="n5" type="baptismal">ሚካኤል፡</persName>
-               <persName xml:lang="gez" corresp="#n5" type="normalized">Mikāʾel</persName>
+                  <persName xml:lang="gez" xml:id="n3" type="baptismal">ሚካኤል፡</persName>
+
+               <persName xml:lang="gez" corresp="#n3" type="normalized">Mikāʾel</persName>
                <persName>
                   <roleName type="title">imām</roleName>
                </persName>
@@ -72,22 +67,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                   <roleName type="title">nǝguś</roleName>
                </persName>
                   
-                  <occupation type="ruler">king</occupation>
+                  <occupation type="ruler">King</occupation>
                   <nationality type="Ethiopia"/>
                   <faith type="EOTC"/>
                <residence>
                   <placeName ref="LOC2575Dase"/>
                </residence>
                <birth notBefore="1847" notAfter="1850">He was born at 
-                  <placeName ref="LOC6242WarraH"/> between<date>1847–1850</date>.</birth>
+                  <placeName ref="LOC6242WarraH"/> between<date>1847-1850</date>.</birth>
                <floruit notBefore="1870" notAfter="1916">He was an important ruler of <placeName ref="LOC6185Wallo"/> and 
                   the entire northern Ethiopia. 
-                  He was born Muslim and later converted to Christianity after the council of <placeName ref="LOC1980BoruMe"/> in <date>1878</date> and adopted the baptismal name Mikaʾel. 
-                  He maintained an alliance with <persName ref="PRS10378Yohanne"/> until the emperor’s death in <date>1889</date> at the battle of 
+                  He was born Muslim and later converted to Christianity in <date>1878</date>, at the council of <placeName ref="LOC1980BoruMe"/> and assumed the baptismal name Mikaʾel. 
+                  He was in alliance with <persName ref="PRS10378Yohanne"/> until his death in <date>1889</date> at the battle of 
                   <placeName ref="LOC4637Matamm"/>. 
-                  After <persName ref="PRS10378Yohanne">Yoḥannǝs’s</persName> death
+                  However, after the  death of <persName ref="PRS10378Yohanne"/>, 
                   he declared his submission to <persName ref="PRS7006Menilek"/>
-                  to whom he was loyal till the end of his reign. He was one of the military commanders at the 
+                  to whom he was loyal till the end of his rule. He was one of the military commanders of the 
                   battle of <placeName ref="LOC1263Adwa"/>
                </floruit>
                <death when="1916">He was killed at the battle of <placeName ref="LOC5446Sagale"/> in <date>1916</date>. </death>
