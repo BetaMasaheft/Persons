@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13524Marqos" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS13395WalattaMaryam" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Mārqos</title>
+                <title>Walatta Maryām</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DN"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -30,7 +30,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <profileDesc>
             <creation/>
             <abstract>
-                <p></p>
+                <p/>
             </abstract>
             <langUsage>
                 <language ident="en">English</language>
@@ -38,28 +38,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="DN" when="2021-08-12">Created entity</change>
+            <change who="DN" when="2025-03-03">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person sex="1">
-                  <persName xml:lang="gez" xml:id="n1">ማርቆስ</persName>
-             <persName xml:lang="gez" type="normalized" corresp="#n1">Mārqos</persName>
-             <persName type="alt"><roleName type="title">ʾabbā</roleName> Mārqos</persName>
-                    <faith type="EOTC" cert="medium"/>
-                    <occupation type="literary">He is supposed to have played a role in the
-                    translation of <ref type="work" corresp="LIT4841Discourse"/>, as it is mentioned in
-                    the subscription to the work in at least some manuscripts of <ref type="work" corresp="LIT1461Gadlah"/>.
-                    The translation is said to have been completed at <placeName ref="LOC7359DabraSebra"/>.</occupation>
-                    <nationality type="Ethiopia" cert="medium"/>
+                <person sex="2">
+                    <persName xml:lang="gez" xml:id="n1">ወለተ፡ ማርያም፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walatta Maryām</persName>
+                    <faith type="EOTC"/>
+                    <occupation type="other"/>
+                    <nationality type="Ethiopia"/>
                     <birth/>
                     <death/>
-                    <floruit notBefore="1350" notAfter="1550"/>
+                    <floruit notBefore="1900" notAfter="1999"/>
                 </person>
                 <listRelation>
-                    <relation name="betmas:isAuthorOfEthiopicTranslation" active="PRS13524Marqos" passive="LIT4841Discourse"/>
+                    <relation name="lawd:hasAttestation" active="PRS13395WalattaMaryam" passive="ESmy017"/>
                 </listRelation>
             </listPerson><!---->
         </body>
