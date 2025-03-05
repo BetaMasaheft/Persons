@@ -49,6 +49,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
          <change who="PL" when="2019-03-27">removed occupation containing St, Saint, bibl, biblical or prophet, added keyword. See https://github.com/BetaMasaheft/Documentation/issues/1104</change>
+         <change when="2025-03-05" who="CH">Update relations and disambiguation to PRS14587Macarius.</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -65,11 +66,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                <death when="0391">391</death>
                <floruit>Alongside <persName ref="PRS1962Anthony">Anthony</persName> and <persName ref="PRS7696Pachomiu">Pachomius</persName>, he ranks among the most illustrious Egyptian desert fathers.
                In Ethiopian tradition he is featured in various translated monastic collections such as <ref type="work" corresp="LIT2611Zenaab"/> or <ref type="work" corresp="LIT4838CollectioM"/> and in the so-called
-               monastic genealogies. He is also venerated as saint and mentioned in the <ref type="work" corresp="LIT2375Synaxa">Synaxary</ref>
+               monastic genealogies. He is also venerated as saint and mentioned in the <ref type="work" corresp="LIT2375Synaxa">Synaxary</ref>.
+                  Not to be confused with his contemporary <persName ref="PRS14587Macarius">Macarius of Alexandria</persName>.
                </floruit>
 <note type="commemoration"><date type="diesNatalis" ref="ethiocal:Magabit27">27 Maggābit</date></note>
             </person>
          </listPerson>
+         <listRelation>
+            <relation name="ecrm:P129i_is_subject_of" active="PRS6427Macarius" passive="LIT7135Life"/>
+         </listRelation>
       </body>
    </text>
 </TEI>
