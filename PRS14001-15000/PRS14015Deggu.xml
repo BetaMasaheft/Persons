@@ -45,8 +45,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" type="normalized" xml:id="n1"><roleName type="title">Mamhǝr</roleName> Dǝggu</persName>
-                    <persName xml:lang="gez"  corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1" >ድጉ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Dǝggu</persName>
+                    <persName><roleName type="title">Mamhǝr</roleName> Dǝggu</persName>
                     <faith type="EOTC"/>
                     <occupation type="academic"/>
 
