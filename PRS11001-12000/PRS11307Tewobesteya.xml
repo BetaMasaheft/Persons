@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title xml:id="t1">Tewobǝstǝyā</title>
+            <title>Tewobǝstǝyā</title>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
@@ -43,13 +43,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <listPerson>
             <person sex="2">
                <persName>
-                  <forename/>
-                  <surname>Tewobǝstǝyā</surname>
+                  Tewobǝstǝyā
                </persName>
                <occupation type="ruler">Protagonist of the homily for 12 Tāhśās,from the Dǝrsāna Mikāʾel.</occupation>
             </person>
             <listRelation>
-              <relation name="lawd:hasAttestation" active="PRS11307Tewobesteya" passive="LIT1295Dersan#HomilyTahsas"/>
+               <relation name="lawd:hasAttestation" active="PRS11307Tewobesteya" passive="LIT3958Homily"/>
+               <relation name="lawd:hasAttestation" active="PRS11307Tewobesteya" passive="LIT1295Dersan#HomilyDeratewos"/>
+               <relation name="betmas:wifeOf" active="PRS11307Tewobesteya" passive="PRS11306Deratewos"></relation>
                <relation name="lawd:hasAttestation" active="PRS11307Tewobesteya" passive="RNBdorn616"/>
             </listRelation>
          </listPerson>
