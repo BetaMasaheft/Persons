@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS14616MalkeaKrestos" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS14717SegeHaymanot" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Malkǝʿa Krǝstos</title>
+                <title>Ṣǝge Hāymānot</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="MK"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -27,35 +27,35 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <encodingDesc>
             <p>A digital born TEI file</p>
         </encodingDesc>
-        <profileDesc>           
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
             <langUsage>
                 <language ident="en">English</language>
                 <language ident="gez">Gǝʿǝz</language>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MK" when="2024-12-10">Created entity</change>
+            <change who="MK" when="2025-03-03">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">መልክዓ፡ ክርስቶስ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Malkǝʿa Krǝstos</persName>
+                    <persName xml:lang="gez" xml:id="n1">ጽጌ፡ ሃይማኖት፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Ṣǝge Hāymānot</persName>
                     <faith type="EOTC"/>
-                    <occupation type="literary">Scribe</occupation>
                     <nationality type="Ethiopia"/>
                     <floruit notBefore="1550" notAfter="1650">Sometime between 1550 and 1650.</floruit>
                 </person>
                 <listRelation>
-                    <relation name="saws:isCopierOf" active="PRS14616MalkeaKrestos" passive="ESdd041"/>
-                    <relation name="snap:FriendshipFor" active="PRS14616MalkeaKrestos" passive="PRS14717SegeHaymanot">
-                        <desc>Ṣege Hāymānot is mentioned in a colophon <ref type="mss" corresp="ESdd007"/> as “associate” of Malkǝʾa Krǝstos.</desc></relation>
-                    <relation name="snap:ProfessionalRelationship" active="PRS14616MalkeaKrestos" passive="PRS14617Zakrestos">
-                        <desc>Malkǝʿa Krǝstos used to be commissioned by ʾabbā Zakrǝstos to copy <ref type="mss" corresp="ESdd007"/> and <ref type="mss" corresp="ESdd041"/>.</desc>
-                    </relation>
-                </listRelation>
+                    <relation name="lawd:hasAttestation" active="PRS14717SegeHaymanot" passive="ESdd007"/>
+                    <relation name="snap:FriendshipFor" active="PRS14717SegeHaymanot" passive="PRS14616MalkeaKrestos">
+                        <desc>Ṣege Hāymānot is mentioned in the colophon of <ref type="mss" corresp="ESdd007"/> as “associate” of Malkǝʾa Krǝstos.</desc>
+                    </relation></listRelation>
             </listPerson>
         </body>
     </text>
