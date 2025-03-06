@@ -45,16 +45,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">መርቀርዮስ፡</persName>
+                    <persName xml:lang="gez" xml:id="n1">መርቆርዮስ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Marqoryos</persName>
                     <occupation type="ecclesiastic">qis gabaz</occupation>
                     <floruit notBefore="1450" notAfter="1530">Late 15th century to early 16th century</floruit>
                 </person>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="PRS14234Marqoryos" passive="EMML1832"/>
-                    <relation name="dc:relation" active="PRS14234Marqoryos" passive="PRS0000000000000000000"><desc>Possibly the same 
-                        person as <persName ref="PRS000000000000000">Marqoryos (a3)</persName> who is mentioned in another note in 
-                        <ref type="mss" corresp="EMML1832"/>.</desc></relation>
                 </listRelation>
             </listPerson><!---->
         </body>
