@@ -50,8 +50,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </person>
                 <listRelation>
                     <relation name="saws:isCopierOf" active="PRS14616MalkeaKrestos" passive="ESdd041"/>
-                    <relation name="snap:FriendshipFor" ref="PRS14717SegeHaymanot"/>
-                    <relation name="snap:ProfessionalRelationship" ref="PRS14617Zakrestos"/>
+                    <relation name="snap:FriendshipFor" active="PRS14616MalkeaKrestos" passive="PRS14717SegeHaymanot">
+                        <desc>Ṣege Hāymānot is mentioned in a colophon <ref type="mss" corresp="ESdd007"/> as “associate” of Malkǝʾa Krǝstos.</desc></relation>
+                    <relation name="snap:ProfessionalRelationship" active="PRS14616MalkeaKrestos" passive="PRS14617Zakrestos">
+                        <desc>Malkǝʿa Krǝstos used to be commissioned by ʾabbā Zakrǝstos to copy <ref type="mss" corresp="ESdd007"/> and <ref type="mss" corresp="ESdd041"/>.</desc>
+                    </relation>
                 </listRelation>
             </listPerson>
         </body>
