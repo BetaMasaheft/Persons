@@ -32,10 +32,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <abstract>
                 <p/>
             </abstract>
-            <t:langUsage xmlns:t="http://www.tei-c.org/ns/1.0">
+            <langUsage>
                 <language ident="en">English</language>
                 <language ident="gez">Gǝʿǝz</language>
-            </t:langUsage>
+            </langUsage>
         </profileDesc>
         <revisionDesc>
             <change who="CH" when="2024-05-22">Created entity</change>
@@ -47,12 +47,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ገብረ፡ ሥላሴ፡ ትዛዙ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra Śǝllāse Tǝzāzu</persName>
-                    <floruit notBefore="1800" notAfter="1900">19th century</floruit>
+                    <floruit notBefore="1800" notAfter="1899">19th century</floruit>
                 </person>
                 <listRelation>
                     <relation name="saws:hasOwned" active="PRS14434GabraSellaseTez" passive="BLorient4716"/>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>
