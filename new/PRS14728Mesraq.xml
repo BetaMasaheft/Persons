@@ -45,14 +45,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="2">
-                    <persName xml:lang="gez" xml:id="n1">Mesraq</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
-                    <faith type=""/>
+                    <persName xml:lang="gez" type="normalized" xml:id="n1">Mesraq</persName>
                     <birth/>
                     <death>1950</death>
-                    <floruit/>
+                    <floruit>Friend of <persName ref="PRS5782JuelJen"/></floruit>
                 </person>
-            </listPerson><!---->
+            </listPerson>
+            <listRelation>
+                <relation name="snap:ProfessionalRelationship" active="PRS14728Mesraq" passive="PRS5782JuelJen"/>
+            </listRelation>
         </body>
     </text>
 </TEI>
