@@ -47,7 +47,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ተስፋ፡ ማርያም፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Tasfā Māryām</persName>
-                    <floruit notBefore="1443"/>
+                    <floruit notBefore="1440">Mentioned in a commemorative note
+                        in <ref type="mss" corresp="ANLcr5"/> as ‘son’ of
+                        <persName ref="PRS14725Zakkaryas"/>, whose death is dated in it to
+                        <date notBefore="1440" notAfter="1441">1440/41</date>.
+                    </floruit>
                 </person>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="PRS14726TasfaM" passive="ANLcr5"/>

@@ -47,9 +47,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ዛካርያስ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Zakkāryās</persName>
-                    <death notBefore="1440" notAfter="1441"/>
+                    <persName><roleName type="title">qasis</roleName></persName>
+                    <death notBefore="1440" notAfter="1441">1440/41</death>
                     <note type="commemoration">
                         <date type="diesNatalis" ref="ethiocal:Sane19">19 Sane</date></note>
+                    <note><bibl><ptr target="bm:Uhlig1988Palaographie"/>
+                        <citedRange unit="page">351</citedRange><citedRange unit="note">74</citedRange></bibl>
+                        suggests that the <roleName type="title">qasis</roleName> Zakkāryās mentioned in a 
+                        commemorative note in <ref type="mss" corresp="ANLcr5"/> is identical
+                        to <persName ref="PRS10539Zakarya"><roleName type="title">qasis ḥaṣ́āy</roleName> Zakkāryās</persName>
+                        attested at the time of <persName ref="PRS10626ZaraY"/>.</note>
                 </person>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="PRS14725Zakkaryas" passive="ANLcr5"/>

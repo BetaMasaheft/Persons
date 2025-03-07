@@ -48,7 +48,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <persName xml:lang="gez" xml:id="n1">ጊዮርጊስ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Giyorgis</persName>
                     <note type="commemoration"><date type="diesNatalis" ref="ethiocal:Miyazya6">6 Miyāzyā</date></note>
-                    <floruit notBefore="1443"/>
+                    <floruit notBefore="1443">Mentioned in a commemorative note in 
+                        <ref type="mss" corresp="ANLcr5"/> (the internal production date
+                        of this manuscript has been interpreted as
+                        <date notBefore="1443" notAfter="1444">1443/44</date> or
+                        <date notBefore="1459" notAfter="1460">1459/60</date>).</floruit>
                 </person>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="PRS14723Giyorgis" passive="ANLcr5"/>
