@@ -44,16 +44,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  
-                  Eleazer
-               </persName>
+            <person sex="1" sameAs="wd:Q159443">
+               <persName xml:lang="gez" xml:id="n1">አልዓዛር፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAlʿāzār</persName>
+               <persName xml:lang="en" type="main" corresp="#n1">Eleazar</persName>
             </person>
             <listRelation>
                <relation name="snap:SonOf">
                   <desc> son Aaron </desc>
                </relation>
+               <relation name="betmas:formerlyAlsoListedAs" active="PRS3704Eleazer" passive="PRS5637Eleazar"></relation>
             </listRelation>
          </listPerson>
       </body>
