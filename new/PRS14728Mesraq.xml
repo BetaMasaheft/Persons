@@ -46,13 +46,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPerson>
                 <person sex="2">
                     <persName xml:lang="gez" type="normalized" xml:id="n1">Mesraq</persName>
-                    <birth/>
-                    <death>1950</death>
-                    <floruit>Friend of <persName ref="PRS5782JuelJen"/></floruit>
+                    <death when="1950">1950</death>
+                    <floruit from="1850" to="1950">Friend of <persName ref="PRS5782JuelJen"/></floruit>
                 </person>
             </listPerson>
             <listRelation>
                 <relation name="snap:ProfessionalRelationship" active="PRS14728Mesraq" passive="PRS5782JuelJen"/>
+                <relation name="lawd:hasAttestation" active="PRS14728Mesraq" passive="BDLaethg36"></relation>
             </listRelation>
         </body>
     </text>
