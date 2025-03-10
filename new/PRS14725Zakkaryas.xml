@@ -1,0 +1,71 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS14725Zakkaryas" xml:lang="en" type="pers">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Zakkāryās</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="DR"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="DR" when="2025-03-06">Created entity. I distance myself from the norm ISO 5218:2004, used here for legacy reasons.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person sex="1">
+                    <persName xml:lang="gez" xml:id="n1">ዘካርያስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Zakkāryās</persName>
+                    <persName><roleName type="title">qasis</roleName></persName>
+                    <death notBefore="1440" notAfter="1441">1440/41</death>
+                    <note type="commemoration">
+                        <date type="diesNatalis" ref="ethiocal:Sane19">19 Sane</date></note>
+                    <note><bibl><ptr target="bm:Uhlig1988Palaographie"/>
+                        <citedRange unit="page">351</citedRange><citedRange unit="note">74</citedRange></bibl>
+                        suggests that the <roleName type="title">qasis</roleName> Zakkāryās mentioned in a 
+                        commemorative note in <ref type="mss" corresp="ANLcr5"/> is identical
+                        to <persName ref="PRS10539Zakarya"><roleName type="title">qasis ḥaṣ́āy</roleName> Zakkāryās</persName>
+                        attested at the time of <persName ref="PRS10626ZaraY"/>.</note>
+                </person>
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="PRS14725Zakkaryas" passive="ANLcr5"/>
+                    <relation name="snap:FatherOf" active="PRS14725Zakkaryas" passive="PRS14726TasfaM">
+                        <desc>It is not certain whether a biological or spiritual relationship is meant, although
+                        the latter seems more likely.</desc>
+                    </relation>
+                </listRelation>
+            </listPerson>
+        </body>
+    </text>
+</TEI>
