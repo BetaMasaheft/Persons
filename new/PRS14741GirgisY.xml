@@ -1,0 +1,70 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS14741GirgisY" xml:lang="en" type="pers">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ǧirǧis al-Makīn ibn al-ʿAmīd (the Younger)</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="CH"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="CH" when="2025-03-11">Created entity</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person sex="1">
+                    <persName xml:lang="ar" xml:id="n1" type="alt">جرجس المكين ابن العميد</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Ǧirǧis al-Makīn ibn al-ʿAmīd (the Younger)</persName>
+                    <faith type="Coptic"/>
+                    <occupation type="military">member of the dīwān al-ǧayš (military administration)</occupation>
+                    <occupation type="literary">theologian and author of the <ref type="work" corresp="LIT1933Mashaf"/>, which is attributed
+                        to a person with the name 'George, disciple of Antony the Syrian'  in the Ethiopic version.</occupation>
+                    <occupation type="ecclesiastic">hermit in the monastery of Dayr al-Qusayr in the Ṭura south of Cairo.</occupation>
+                    <nationality type="Egypt"/>
+                    <death notBefore="1399" notAfter="1415">He died sometime after the completion of his work <ref type="work" corresp="LIT1933Mashaf"/>,
+                        autograph of which is dated to <date notBefore="1398" notAfter="1399">1398/1399</date>.</death>
+                    <floruit notBefore="1300" notAfter="1415">14th century and possibly early 15th century</floruit>
+                </person>
+                <listRelation>
+                    <relation name="saws:isAttributedToAuthor" active="PRS14741GirgisY" passive="LIT1933Mashaf"><desc>Author of the 
+                        <ref type="work" corresp="LIT1933Mashaf"/>, which is attributed to a person with the name 'George, disciple of Antony the 
+                        Syrian'  in the Ethiopic version.</desc></relation>
+                    <relation name="saws:isAttributedToAuthor" active="PRS14741GirgisY" passive="LIT2192Profit"><desc>Author of the
+                        <ref type="work" corresp="LIT2192Profit"/>, where he is called the "profitable compiler".</desc></relation>
+                </listRelation>
+            </listPerson><!---->
+        </body>
+    </text>
+</TEI>
