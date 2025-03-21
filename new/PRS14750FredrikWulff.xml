@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>FredrikWulff</title>
+                <title>Fredrik Wulff</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="JK"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -44,20 +44,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPerson>
-                <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">FredrikWulff</persName>
+                <person sex="1" sameAs="wd:Q530423">
+                    <persName xml:lang="gez" xml:id="n1"><forename>Fredrik</forename> <surname>Wulff</surname></persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1"/>
-                    <faith type=""/>
-                    <t:occupation xmlns:t="http://www.tei-c.org/ns/1.0" type="academic"/>
-                    <t:nationality xmlns:t="http://www.tei-c.org/ns/1.0" type="Sweden"/>
-                    <birth>1845</birth>
-                    <death>1930</death>
-                    <floruit/>
+                    <faith type="Protestantism"/>
+                    <occupation type="academic"/>
+                    <nationality type="Sweden"/>
+                    <birth when="1845">1845</birth>
+                    <death when="1930">1930</death>
+                    <floruit>Phonetician, philologist, translator, professor of Romance languages at the University of Lund.</floruit>
                 </person>
+                
                 <listRelation>
                     <relation name="saws:hasOwned" active="PRS14750FredrikWulff" passive=""/>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>
