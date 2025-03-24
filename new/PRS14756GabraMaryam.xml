@@ -45,19 +45,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Gabra Māryām</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ገብረ፡ ማርያም፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra Māryām</persName>
                     <faith type="EOTC"/>
-                    <occupation type="other"/>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1850" notAfter="1980">Sometime between 1850 and 1980.</floruit>
                 </person>
                 <listRelation>
-                    <relation name="saws:hasOwned" active="PRS14756GabraMaryam" passive=""/>
+                    <relation name="saws:hasOwned" active="PRS14756GabraMaryam" passive="ESdd013"/>
+                    <relation name="snap:SonOf" active="PRS14756GabraMaryam" passive="PRS14753WaldaGiyorgis"/>
+                    <relation name="snap:SonOf" active="PRS14756GabraMaryam" passive="PRS14754RomanaWarq"/>
+                    <relation name="snap:BrotherOf" active="PRS14756GabraMaryam" passive="PRS14756GabraMaryam"/>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>
