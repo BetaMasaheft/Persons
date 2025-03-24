@@ -45,19 +45,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Takla Mikāʾel</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1"></persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Takla Mikāʾel</persName>
                     <faith type="EOTC"/>
-                    <occupation type="other"/>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1850">Sometime after 1850.</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS14758TaklaMikael" passive=""/>
+                    <relation name="saws:hasOwned" active="PRS14758TaklaMikael" passive="ESdd013">
+                        <desc>He is not the first owner of the manuscript: his name is written over the erased name of the original owner <persName ref="RS14753WaldaGiyorgis"/>.</desc></relation>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>
