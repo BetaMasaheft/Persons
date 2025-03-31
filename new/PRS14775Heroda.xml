@@ -32,10 +32,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <abstract>
                 <p/>
             </abstract>
-            <t:langUsage xmlns:t="http://www.tei-c.org/ns/1.0">
+            <langUsage>
                 <language ident="en">English</language>
                 <language ident="gez">Gǝʿǝz</language>
-            </t:langUsage>
+            </langUsage>
             <textClass>
                 <keywords>
                     <term key="martyr"></term>
@@ -54,10 +54,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Herodā</persName>
                     <faith type="Christianity"/>
                     <nationality type="Egypt"/>
-                    <birth/>
-                    <death/>
-                    <floruit>According to his hagiography, he was martyred during the Diocletianic persecution.</floruit>
-                    <note type="commemoration"><date type="diesNatalis" ref="ethiocal:Genbot25">25 Gǝnbot</date></note>
+                    <death  notBefore="0250" notAfter="0303">3rd and beginning of 4th century, but not after 303</death>
+                    <floruit>According to his hagiography, he was martyred during the Diocletianic persecution (303 AD).</floruit>
+                    <note type="commemoration"><date  ref="ethiocal:Genbot25">25 Gǝnbot</date></note>
                 </person>
                 <listRelation>
                     <relation name="ecrm:P129i_is_subject_of" active="PRS14775Heroda" passive="LIT1462GadlaH"/>
