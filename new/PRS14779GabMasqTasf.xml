@@ -7,7 +7,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <fileDesc>
             <titleStmt>
                 <title>Gabra Masqal Tasfāyye</title>
-                <editor role="generalEditor" key="AB"/>
                 <editor key="NV"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
@@ -44,20 +43,30 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Gabra Masqal Tasfāyye</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ገብረ፡ መስቀል፡ ተስፋዬ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra Masqal Tasfāyye</persName>
                     <faith type="EOTC"/>
                     <occupation type="literary"/>
                     <nationality type="Ethiopia"/>
                     <birth>1932</birth>
                     <death/>
-                    <floruit/>
-                </person>
+                    <floruit notBefore="1939"/> 
+                    <residence>
+                        <placeName ref="LOC2839Emakin">In 1961 he became a mamhǝr of Gannata Māryām and then a church annalist.</placeName>
+                        <placeName ref="LOC1216AddisA">At a later moment he moved to ʾAddis ʾAbabā, where he presumably passed away.</placeName>
+                    </residence>
+                      </person>
                 <listRelation>
-                    <relation name="saws:hasOwned" active="PRS14779GabMasqTasf" passive=""/>
+                    <relation name="saws:hasOwned" active="PRS14779GabMasqTasf" passive="EMML1614"/>
+                    <relation name="saws:hasWritten" active="RS14779GabMasqTasf" passive="LIT7339HistLasta"/>
                 </listRelation>
             </listPerson>
-            <!--  -->
+            <bibl>
+                <ptr target="bm:Derat2016DL"/>
+            </bibl>
+            <bibl>
+                <ptr target="bm:Valieva2021GL"/>
+            </bibl>
         </body>
     </text>
 </TEI>
