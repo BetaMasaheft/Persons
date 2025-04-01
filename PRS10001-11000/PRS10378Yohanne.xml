@@ -43,6 +43,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="ES" when="2016-02-09">CREATED: person</change>
          <change who="SG" when="2016-11-11">Complete record</change>
          <change who="ES" when="2018-03-27">updated names</change>
+         <change when="2025-04-01" who="MK">correction of the title</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -51,10 +52,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <person sameAs="wd:Q315659" sex="1">
                
                
-               <persName xml:lang="gez" xml:id="n1" type="regnal">
-                  <roleName type="title">ዓፄ፡</roleName> ዮሐንስ፡</persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized">
-                  <roleName type="title">ʾaṣe</roleName> Yoḥannǝs <addName>IV</addName>
+               <persName xml:lang="gez" xml:id="n1" type="regnal">ዮሐንስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Yoḥannǝs <addName>IV</addName>
                </persName>
                
                <persName xml:lang="gez" xml:id="n2" type="birth">ካሣ፡ ምርጫ፡</persName>
@@ -63,6 +62,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                <persName xml:lang="gez" corresp="#n3" type="normalized">ʾAbbā Bazbbǝz</persName>
                <persName xml:lang="gez" xml:id="n4" type="horse">ወርሳው፡</persName>
                <persName xml:lang="gez" corresp="#n4" type="normalized">Warrǝsāw</persName>
+               <persName>
+                  <roleName type="title">ʾaṣe</roleName>
+               </persName>
 
                
                <occupation type="ruler">Emperor</occupation>
