@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Bessarion</title>
+            <title>Bessarion of Egypt</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -39,19 +39,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change who="CH" when="2025-04-02">Updated names, added Wikidata, floruit and relation.</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                   Basil
-                  Bessarion
-               </persName>
-               <occupation> archbishop </occupation>
+            <person sex="1" sameAs="wd:Q830080">
+               <persName>Bessarion of Egypt</persName>
+               <persName>Bessarion the Great</persName>
+               <persName>Bessarion of Scetis</persName>
+               <occupation type="ecclesiastic">monk, wandering in the Nitrian Desert of Egypt. Venerated as one of the "Desert Fathers" in the
+                  Orthodox and in the Roman Catholic Church.</occupation>
+               <residence>Scetes or Nitria in Egypt</residence>
+               <floruit notBefore="0300" notAfter="0499">4th/5th century</floruit>
             </person>
          </listPerson>
+         <listRelation>
+            <relation name="syriaca:different-from" active="PRS2746Bessario" passive="PRS2544BasilBe"/>
+         </listRelation>
       </body>
    </text>
 </TEI>
