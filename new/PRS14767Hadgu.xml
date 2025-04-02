@@ -13,10 +13,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
-                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine
+                    multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
                 <pubPlace>Hamburg</pubPlace>
                 <availability>
-                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                        licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -33,7 +35,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </abstract>
             <langUsage>
                 <language ident="en">English</language>
-                <language ident="gez">Gǝʿǝz</language>
             </langUsage>
         </profileDesc>
         <revisionDesc>
@@ -45,18 +46,29 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPerson>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">Ḥadgu</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
-                    <t:faith xmlns:t="http://www.tei-c.org/ns/1.0" type="EOTC"/>
-                    <birth/>
-                    <death/>
-                    <t:floruit xmlns:t="http://www.tei-c.org/ns/1.0">1845</t:floruit>
+                    <persName type="alt"><roleName type="title">dabtarā</roleName> Ḥadgu</persName>
+                    <faith type="EOTC"/>
+                    <occupation type="literary">scribe</occupation>
+                    <floruit when="1845">According to <persName ref="PRS1071dAbbadi"/>, Dabtarā Ḥadgu<cit>
+                            <quote> was considered the best scribe in Ethiopia, although he wrote
+                                with his left hand.</quote>
+                        </cit>(<cit>
+                            <quote xml:lang="fr">passait pour le meilleur écrivain d'Éthiopie, bien
+                                qu'il écrivît de la main gauche.</quote>
+                        </cit>)</floruit>
                 </person>
                 <listRelation>
-                    <relation name="saws:isCopierOf" active="PRS14767Hadgu" passive=""/>
+                    <relation name="saws:isCopierOf" active="PRS14767Hadgu" passive="BNFabb100"/>
+                    <relation name="snap:ProfessionalRelationship" active="PRS14767Hadgu"
+                        passive="PRS1071dAbbadi"/>
                 </listRelation>
             </listPerson>
-            <!--  -->
+            <listBibl type="secondary">
+                <bibl>
+                    <ptr target="bm:Abbadie1859Cat"/>
+                    <citedRange unit="page">110-111</citedRange>
+                </bibl>
+            </listBibl>
         </body>
     </text>
 </TEI>
-
