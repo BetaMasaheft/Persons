@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Basil Bessarion </title>
+            <title>Basil Bessarion</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -32,25 +32,33 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage><language ident="en">English</language><language ident="grc">Greek</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change when="2025-04-02" who="CH">Update title, floruit; add wikidata and delete doublet.</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  
-                  Basil Bessarion 
-               </persName>
+            <person sex="1" sameAs="wd:Q299446">
+               <persName type="baptismal">Basil</persName><persName type="monastic">Bessarion</persName>
+               <persName type="baptismal" xml:lang="grc">Βασίλειος</persName><persName type="monastic" xml:lang="grc">Βησσαρίων</persName>
+               <occupation type="ecclesiastic">titular Latin Patriarch of Constantinople from 1463 to 1472</occupation>
+               <occupation type="literary">theologian and Byzantine Greek Renaissance humanist</occupation>
+               <faith type="Catholicism">Catholic</faith>
+               <birth notBefore="1389" notAfter="1403">The year of his birth in Trebizond at the Black Sea has been given with 1389, 1395 or 1403.</birth>
+               <death when="1472-11-18">18 November 1472</death>
+               <floruit notBefore="1403" to="1472">15th century, but not after 1472.</floruit>
             </person>
          </listPerson>
+         <listRelation>
+            <relation name="betmas:formerlyAlsoListedAs" active="PRS2544BasilBe" passive="PRS2746Bessario"/>
+         </listRelation>
       </body>
    </text>
 </TEI>
