@@ -47,11 +47,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ተንሥእ፡ ክርስቶስ</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Tanśǝʾa Krǝstos</persName>
-                    <occupation type="ecclesiastic">Abbot of <placeName ref="INS0354DB"/></occupation>
+                    <occupation type="ecclesiastic">Abbot of <placeName ref="INS0354DB"/>.</occupation>
                     <death when="1539"/>
                 </person>
             </listPerson>
             <div type="bibliography">
+                <listRelation>
+                    <relation name="syriaca:has-relation-to-place" active="PRS14784TanseaK"
+                        passive="INS0354DB"/>
+                    <relation name="betmas:isSuccessorOf" active="PRS14784TanseaK" passive="PRS13864GabraM"/>
+                </listRelation>
                 <listBibl type="secondary">
                     <bibl><ptr target="bm:Schneider1978Filpos"/><citedRange unit="page">139</citedRange></bibl>
                 </listBibl>
