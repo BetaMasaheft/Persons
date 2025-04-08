@@ -41,19 +41,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="ES" when="2016-02-09">CREATED: person</change>
          <change who="SG" when="2018-06-28">Complete record</change>
          <change who="DR" when="2020-03-18">Linguistic edits</change>
+         <change when="2025-04-08" who="MK">change the name serving as the title</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1" sameAs="wd:Q244748">
-               <persName xml:lang="gez" xml:id="n1" type="birth">ምኒልክ፡</persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized">Mǝnilǝk</persName>
-               <persName xml:lang="gez" xml:id="n2" type="baptismal">ሣህለ፡ ማርያም፡</persName>
-               <persName xml:lang="gez" corresp="#n2" type="normalized">Śahla Māryām</persName>
-               <persName xml:lang="gez" xml:id="n3" type="regnal">ዳግማዊ ምኒልክ፡</persName>
-               <persName xml:lang="gez" corresp="#n3" type="normalized">Dāgmāwi Mǝnilǝk</persName>
-               <persName xml:lang="en" corresp="#n3" type="normalized">Mǝnilǝk II</persName>
+               <persName xml:lang="gez" xml:id="n1" type="regnal">ምኒልክ፡</persName>
+               <persName xml:lang="en" corresp="#n1" type="normalized">Mǝnilǝk <addName>II</addName></persName>
+               <persName xml:lang="gez" xml:id="n2" type="alt">ዳግማዊ ምኒልክ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Dāgmāwi Mǝnilǝk</persName>
+               <persName xml:lang="gez" xml:id="n3" type="birth">ምኒልክ፡</persName>
+               <persName xml:lang="gez" corresp="#n3" type="normalized">Mǝnilǝk</persName>
+               <persName xml:lang="gez" xml:id="n4" type="baptismal">ሣህለ፡ ማርያም፡</persName>
+               <persName xml:lang="gez" corresp="#n4" type="normalized">Śahla Māryām</persName>
+               
                <persName>
                   <roleName type="title">ʾaṣe</roleName>
                </persName>
@@ -63,17 +66,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                
                <occupation type="ruler">Emperor</occupation>
                
-               <birth when="1844">He was born at <placeName ref="LOC1465Ankoba"/> in <date>1844</date>. </birth>
+               <birth when="1844">He was born at <placeName ref="LOC1465Ankoba"/> in <date when="1844">1844</date>. </birth>
                <floruit notBefore="1889" notAfter="1913">Mǝnilǝk is regarded as the founder of the modern Ethiopian state. 
-                  After the death of his father king <persName ref="PRS5205haylaMa"/>,   
-                  in the course of the proclamation of king <persName ref="PRS9430Tewodros"/> in <date>1855</date>, Mǝnilǝk, then aged 11, 
+                  After the death of his father King <persName ref="PRS5205haylaMa"/>,   
+                  in the course of the proclamation of King <persName ref="PRS9430Tewodros"/> in <date when="1855">1855</date>, Mǝnilǝk, then aged 11, 
                   was taken into captivity to the imperial court at <placeName ref="LOC4547Maqdal"/>. There, he was treated with much respect, 
                   and married
-                  to <persName ref="PRS9430Tewodros"/>'s daughter <persName ref="PRS1771AltasTe"/>. In <date>1865</date>, as the 
-                  emperor's power waned, 
+                  to <persName ref="PRS9430Tewodros"/>’s daughter <persName ref="PRS1771AltasTe"/>. In <date when="1865">1865</date>, as the 
+                  emperor’s power waned, 
                   Mǝnilǝk escaped from <placeName ref="LOC4547Maqdal"/> and was received 
                   with joy in <placeName ref="LOC5597Sawa"/> as its rightful king. 
-                  During the period from <date>1878</date> until <date>1889</date>, Mǝnilǝk 
+                  During the period from <date from="1878" to="1889">1878  until 1889</date>, Mǝnilǝk 
                   was a quasi independent ruler of  <placeName ref="LOC5597Sawa"/>, 
                   where he laid the foundation of his subsequent rule as emperor. 
                </floruit>
