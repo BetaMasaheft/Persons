@@ -1,0 +1,73 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS14786Talam" xml:lang="en" type="pers">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Talamonto</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="DR"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="DR" when="2025-04-08">Created entity</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person>
+                    <persName xml:lang="it" xml:id="n1">Talamonto</persName>
+                    <persName xml:lang="it" xml:id="n2">
+                        <forename>Luigi</forename>
+                        <surname>Talamonti</surname>
+                    </persName>
+                    <floruit when="1925">1925</floruit>
+                    <note>According to a note by <persName ref="PRS3182ContiRo">Carlo Conti Rossini</persName> in
+                        <ref type="mss" corresp="ANLcr9"/>, he received this manuscript from
+                        ‘Talamonto, Asmara’ in
+                    1925. It might speculated whether this person might be identified with Luigi
+                    Talamonti, attested elsewhere as cooperating with Conti Rossini in the
+                    acquisition of manuscript copies, e.g.
+                        <bibl><ptr target="bm:Oudenrijn1946Eveque"/><citedRange
+                            unit="page">10</citedRange></bibl>.</note>  
+                </person>
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="PRS14786Talam" passive="ANLcr9"/>
+                    <relation name="snap:ProfessionalRelationship" active="PRS14786Talam"
+                        passive="PRS3182ContiRo" cert="low"/>
+                    <relation name="syriaca:has-relation-to-place" active="PRS14786Talam"
+                        passive="LOC1579Asmara"/>
+                </listRelation>
+            </listPerson>
+        </body>
+    </text>
+</TEI>
