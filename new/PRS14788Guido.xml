@@ -36,6 +36,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <language ident="en">English</language>
                 <language ident="gez">Gǝʿǝz</language>
                 <language ident="it">Italian</language>
+                <language ident="am">Amharic</language>
             </langUsage>
         </profileDesc>
         <revisionDesc>
@@ -47,7 +48,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPerson>
                 <person>
                     <persName xml:lang="it" xml:id="n1">Guido</persName>
+                    <persName xml:lang="am" xml:id="n2">ጕኢዶ</persName>
+                    <persName xml:lang="am" corresp="#n2" type="normalized">Gʷǝʾido</persName>
                     <floruit when="1908">1908</floruit>
+                    <note>One of the persons who gave <ref type="mss" corresp="ANLcr8"/> to <persName
+                        ref="PRS3182ContiRo"/> as a wedding gift in 1908.</note>
                 </person>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="PRS14788Guido" passive="ANLcr8"/>

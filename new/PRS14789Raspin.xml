@@ -36,6 +36,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <language ident="en">English</language>
                 <language ident="gez">Gǝʿǝz</language>
                 <language ident="it">Italian</language>
+                <language ident="am">Amharic</language>
             </langUsage>
         </profileDesc>
         <revisionDesc>
@@ -46,15 +47,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person>
-                    <persName xml:lang="gez" xml:id="n1">Raspin</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
-                    <faith type=""/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <persName xml:lang="it" xml:id="n1">Raspin</persName>
+                    <persName xml:lang="am" xml:id="n2">ራስፒን</persName>
+                    <persName xml:lang="am" corresp="#n2" type="normalized">Rāspin</persName>
+                    <persName xml:lang="am"><roleName type="title">የሰራየ፡ ምስለኔ፡</roleName></persName>
+                    <floruit when="1908">1908</floruit>
+                    <note>One of the persons who gave <ref type="mss" corresp="ANLcr8"/> to <persName
+                        ref="PRS3182ContiRo"/> as a wedding gift in 1908.</note>
+                    <occupation type="political">Vice governor of <placeName ref="LOC5575Saraye"/></occupation>
                 </person>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="PRS14789Raspin" passive="ANLcr8"/>
+                    <relation name="syriaca:has-relation-to-place" active="PRS14789Raspin"
+                        passive="LOC5575Saraye"/>
                 </listRelation>
             </listPerson>
         </body>
