@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS14785EhetaMaryam" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS14791Sefani" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ʾƎḫəta Māryām</title>
+                <title>Səfāni</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="JK"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -38,28 +38,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="JK" when="2025-04-04">Created entity</change>
+            <change who="JK" when="2025-04-09">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person sex="2">
-                    <persName xml:lang="gez" xml:id="n1">እኅተ፡ ማርያም፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">ʾƎḫəta Māryām</persName>
-                    <persName><roleName type="title">wayzaro</roleName></persName>
+                <person sex="1">
+                    <persName xml:lang="gez" xml:id="n1">ስፋኒ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Səfāni</persName>
+                    <persName><roleName type="title">mamhǝr</roleName></persName>
                     <faith type="EOTC"/>
-                    <occupation type="political"/>
+                    <occupation type="ecclesiastic"/>
                     <nationality type="Ethiopia"/>
-                    <floruit from="1650" to="1799">1650–1799</floruit>
+                    <floruit from="1700" to="1799">1700–1799</floruit>
                 </person>
                 <listRelation>
-                    <relation name="saws:hasOwned" active="PRS14785EhetaMaryam" passive="BDLaethd23"/>
-                    <relation name="snap:DaughterOf" active="PRS14785EhetaMaryam" passive="PRS2682BerhanM"/>
-                    <relation name="snap:SisterOf" active="PRS14785EhetaMaryam" passive="PRS5617IyasuII"/>
-                    <relation name="snap:SisterOf" active="PRS14785EhetaMaryam" passive="PRS9827Walatta"/>
+                    <relation name="lawd:hasAttestation" active="PRS14791Sefani" passive="BDLaethd23#a4"/>
                 </listRelation>
-            </listPerson>
+            </listPerson><!---->
         </body>
     </text>
 </TEI>
