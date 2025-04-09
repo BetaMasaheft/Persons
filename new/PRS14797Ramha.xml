@@ -1,0 +1,63 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS14797Ramha" xml:lang="en" type="pers">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ramḥa</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="JK"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+                <language ident="am">Amharic</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="JK" when="2025-04-09">Created entity</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person sex="1">
+                    <persName xml:lang="gez" xml:id="n1">ረምሐ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Ramḥa</persName>
+                    <persName><roleName type="title">qes</roleName></persName>
+                    <faith type="EOTC"/>
+                    <occupation type="ecclesiastic"/>
+                    <floruit>1800–1950. During his period of office (<foreign xml:lang="am">gabazənnat</foreign>),
+                    a land purchase took place.</floruit>
+                </person>
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="PRS14797Ramha" passive="BDLaethd23#a5"/>
+                </listRelation>
+            </listPerson>
+        </body>
+    </text>
+</TEI>
