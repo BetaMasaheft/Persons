@@ -36,6 +36,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <language ident="en">English</language>
                 <language ident="gez">Gǝʿǝz</language>
             </langUsage>
+            <textClass>
+                <keywords>
+                    <term key="martyr"></term>
+                </keywords>
+            </textClass>
         </profileDesc>
         <revisionDesc>
             <change who="MKr" when="2025-04-24">Created entity</change>
@@ -43,19 +48,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </teiHeader>
     <text>
         <body>
-            <t:listPerson xmlns:t="http://www.tei-c.org/ns/1.0">
-                <t:person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Isidore of Antioch</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+            <listPerson xmlns:t="http://www.tei-c.org/ns/1.0">
+                <person sex="1">
+                    <persName xml:lang="en" xml:id="n1">Isidore of Antioch</persName>
+                    <persName xml:lang="gez" xml:id="n2">ኤስድሮስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n2">ʾEsdros</persName>
+                    <death when="0303">According to his hagiography, he was martyred during the Diocletianic persecution (303 AD).</death>
+                    <note type="commemoration"><date  ref="ethiocal:Genbot19">19 Gǝnbot</date></note>
                     <faith type="Christianity"/>
                     <birth/>
                     <death/>
                     <floruit/>
-                </t:person>
+                </person>
                 <listRelation>
-                    <relation name="ecrm:P129i_is_subject_of" active="PRS14801Isidore" passive=""/>
+                    <relation name="ecrm:P129i_is_subject_of" active="PRS14801Isidore" passive="LIT7377GadlaEsdros"/>
                 </listRelation>
-            </t:listPerson><!---->
+            </listPerson><!---->
         </body>
     </text>
 </TEI>
