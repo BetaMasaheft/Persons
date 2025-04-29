@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Gäbrǝʾel wäldä Bäträk </title>
+            <title>Gabrǝʾel walda Batrak </title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -45,10 +45,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Gäbrǝʾel wäldä Bäträk 
-               </persName>
+               <persName xml:lang="gez" xml:id="n1" type="main">ገብርኤል፡ ወልደ፡ በትረክ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Gabrǝʾel walda Batrak</persName>
+               <occupation type="ecclesiastic">monk</occupation>
+               <nationality type="Egypt"/>
+               <faith type="Coptic"/>
             </person>
          </listPerson>
       </body>
