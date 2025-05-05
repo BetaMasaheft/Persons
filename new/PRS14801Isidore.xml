@@ -48,7 +48,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </teiHeader>
     <text>
         <body>
-            <listPerson xmlns:t="http://www.tei-c.org/ns/1.0">
+            <listPerson>
                 <person sex="1">
                     <persName xml:lang="en" xml:id="n1">Isidore of Antioch</persName>
                     <persName xml:lang="gez" xml:id="n2">ኤስድሮስ፡</persName>
@@ -63,7 +63,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <listRelation>
                     <relation name="ecrm:P129i_is_subject_of" active="PRS14801Isidore" passive="LIT7377GadlaEsdros"/>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>
