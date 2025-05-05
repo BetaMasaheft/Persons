@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <t:title xmlns:t="http://www.tei-c.org/ns/1.0">Walda Giyorgis</t:title>
+                <title>Walda Giyorgis</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DR"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -13,11 +13,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
                 <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
-                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                    Forschungsumgebung / Beta maṣāḥǝft</publisher>
                 <pubPlace>Hamburg</pubPlace>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
-                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                        licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -27,35 +27,31 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <encodingDesc>
             <p>A digital born TEI file</p>
         </encodingDesc>
-        <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+        <profileDesc>
             <creation/>
-            <t:abstract>
-                <p/>
-            </t:abstract>
-            <t:langUsage>
-                <t:language ident="en">English</t:language>
-                <t:language ident="gez">Gǝʿǝz</t:language>
-            </t:langUsage>
-        </t:profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
         <revisionDesc>
-            <t:change xmlns:t="http://www.tei-c.org/ns/1.0" who="DR" when="2025-05-04">Created stub</t:change>
+            <change who="DR" when="2025-05-04">Created stub. I distance myself from the norm ISO
+                5218:2004, used here for legacy reasons.</change>
         </revisionDesc>
     </teiHeader>
-    <t:text xmlns:t="http://www.tei-c.org/ns/1.0">
+    <text>
         <body>
-            <t:listPerson>
+            <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Walda Giyorgis</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
-                    <t:faith type=""/>
-                    <birth/>
-                    <t:death/>
-                    <floruit/>
+                    <persName xml:lang="gez" xml:id="n1">ወልደ፡ ጊዮርጊስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walda Giyorgis</persName>
+                    <persName><roleName type="title">Dabtarā</roleName></persName>
+                    <floruit notBefore="1800" notAfter="1949">1800–1949</floruit>
                 </person>
                 <listRelation>
-                    <relation name="saws:hasOwned" active="PRS14809WaldaG" passive=""/>
+                    <relation name="saws:hasOwned" active="PRS14809WaldaG" passive="ANLcr15"/>
                 </listRelation>
-            </t:listPerson><!---->
+            </listPerson>
         </body>
-    </t:text>
+    </text>
 </TEI>
