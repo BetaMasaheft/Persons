@@ -45,19 +45,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Gabra Māryām</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ገብረ፡ ማርያም፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra Māryām</persName>
                     <faith type="EOTC"/>
-                    <occupation type="ecclesiastic"/>
+                    <occupation type="ecclesiastic">mamḥǝr (abbot) of <placeName ref="INS0105DD"/></occupation>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1900" notAfter="1960">He is mentioned in a reconciliation note dated to <date>1927 year of mercy (=1934/35 CE).</date></floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS14814GabraMar" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS14814GabraMar" passive="ESdd015"/>
+                    <relation name="snap:ProfessionalRelationship" active="PRS14814GabraMar" passive="PRS14812GabraMad">
+                        <desc>Gabra Madḫǝn is also mentioned as mamḥǝr of <placeName ref="INS0105DD"/>; he was earlier in his tenure than Gabra Māryām.</desc></relation>
+                    <relation name="snap:ProfessionalRelationship" active="PRS14814GabraMar" passive="PRS14813Zayohannes"><desc>Zayoḥannǝs is also mentioned as mamḥǝr of <placeName ref="INS0105DD"/>; 
+                        he was later in his tenure than Gabra Māryām.</desc></relation>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>

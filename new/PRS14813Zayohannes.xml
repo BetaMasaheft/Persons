@@ -45,19 +45,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Zayoḥannǝs</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ዘዮሐንስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Zayoḥannǝs</persName>
                     <faith type="EOTC"/>
-                    <occupation type="ecclesiastic"/>
+                    <occupation type="ecclesiastic">mamḥǝr (abbot) of <placeName ref="INS0105DD"/></occupation>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1750" notAfter="1850"/>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS14813Zayohannes" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS14813Zayohannes" passive="ESdd015"/>
+                    <relation name="snap:ProfessionalRelationship" active="PRS14813Zayohannes" passive="PRS14812GabraMad">
+                        <desc>Gabra Madḫǝn is also mentioned as mamḥǝr of <placeName ref="INS0105DD"/>; he was likely earlier in his tenure than Zayoḥannǝs.</desc></relation>
+                    <relation name="snap:ProfessionalRelationship" active="PRS14813Zayohannes" passive="PRS14814GabraMar"><desc>Gabra Māryām is also mentioned as mamḥǝr of <placeName ref="INS0105DD"/>; 
+                        he was later in his tenure than Zayoḥannǝs.</desc></relation>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>
