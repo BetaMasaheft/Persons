@@ -38,7 +38,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="CH" when="2025-05-07">Created entity</change>
-            <change when="2025-05-08" who="CH">Corrections after reviews by Dorothea Reule and Nafisa Valieva</change>
+            <change when="2025-05-08" who="CH">Added bibl after reviews by Dorothea Reule and Nafisa Valieva</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -59,6 +59,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <relation name="saws:hasOwned" active="PRS14815Dauglish" passive="BLorient11339"/>
                 </listRelation>
             </listPerson>
+            <listBibl type="secondary">
+                <bibl> 
+                    <ptr target="bm:wikipedia2021Dauglish"/>
+                </bibl>
+            </listBibl>
         </body>
     </text>
 </TEI>
