@@ -40,6 +40,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
          <change when="2019-11-20" who="ES">added summary to disambiguate</change>
+         <change when="2025-05-13" who="CH">Added relations</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -53,6 +54,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                <occupation type="literary">writer </occupation>
                <floruit notBefore="0450" notAfter="0550">Christian theologian and philosopher of the late 5th to early 6th century</floruit>
             </person>
+            <listRelation>
+               <relation name="saws:isAttributedAuthorOf" active="PRS7973PseudoD" passive="LIT7427VitaSua"/>
+               <relation name="saws:isAttributedAuthorOf" active="PRS7973PseudoD" passive="LIT5812OntheC"/>
+            </listRelation>
          </listPerson>
       </body>
    </text>
