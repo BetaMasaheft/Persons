@@ -38,25 +38,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="NV" when="2025-05-15">Created stub</change>
+            <change who="NV" when="2025-05-15">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Mazgaba Śǝllāse</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">መዝገበ፡ ሥላሴ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Mazgaba Śǝllāse</persName>
+                    <floruit notBefore="1750" notAfter="1900">His name is mentioned in the supplication of <ref type="mss" corresp="BNFabb101"/></floruit>
                     <faith type="EOTC"/>
-                    <nationality type="post-Aksumite"/>
                     <birth/>
                     <death/>
                     <floruit/>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS14827MazgabaS" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS14827MazgabaS" passive="BNFabb101"/>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>
