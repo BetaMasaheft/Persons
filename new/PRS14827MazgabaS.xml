@@ -39,6 +39,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="NV" when="2025-05-15">Created entity</change>
+            <change when="2025-05-15" who="NV">Corrected information in floruit based on Carsten Hoffmann´s review.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -47,11 +48,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">መዝገበ፡ ሥላሴ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Mazgaba Śǝllāse</persName>
-                    <floruit notBefore="1750" notAfter="1900">His name is mentioned in the supplication of <ref type="mss" corresp="BNFabb101"/></floruit>
+                    <floruit notBefore="1750" notAfter="1900">Second half of 18th century to 19th century. His name is mentioned in the supplication of <ref type="mss" corresp="BNFabb101"/>, of which he was probably an owner or a commissioner.</floruit>
                     <faith type="EOTC"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
                 </person>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="PRS14827MazgabaS" passive="BNFabb101"/>
