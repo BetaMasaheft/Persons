@@ -45,16 +45,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Walda Tǝnśāʾe</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ወልደ፡ ትንሣኤ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walda Tǝnśāʾe</persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
+                    <occupation type="ecclesiastic">qasis</occupation>
                     <birth/>
                     <death/>
-                    <floruit>1900-1950</floruit>
+                    <floruit notBefore="1900" notAfter="1950">He is recorded as the commissioner of the manuscript <ref type="mss" corresp="EMML6694">EMML 6694</ref> from <ref type="place" ref="LOC2297DabraL">Dabra Libānos</ref>.
+                        He is referred to as <foreign xml:lang="gez">ቀሲስ፡ </foreign>.</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS14842WaldaTensae" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS14842WaldaTensae" passive="EMML6694"/>
                 </listRelation>
             </listPerson><!---->
         </body>
