@@ -40,6 +40,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <revisionDesc>
             <change who="DR" when="2025-05-16">Created entity. I distance myself from the norm ISO
                 5218:2004, used here for legacy reasons.</change>
+            <change who="DR" when="2025-05-19">Added floruit.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -50,7 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Walda Yoḥannǝs</persName>
                     <note>The second part of the name of this person mentioned in supplications
                         in <ref type="mss" corresp="ONBAeth32"/> has been erased throughout the manuscript.</note>
-                    <floruit/>
+                    <floruit notBefore="1600" notAfter="1799">Seventeenth–eighteenth century</floruit>
                 </person>
                 <listRelation>
                     <relation name="saws:hasOwned" active="PRS14829WaldaY" passive="ONBAeth32"/>

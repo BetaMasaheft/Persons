@@ -40,6 +40,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <revisionDesc>
             <change who="DR" when="2025-05-16">Created entity. I distance myself from the norm ISO
                 5218:2004, used here for legacy reasons.</change>
+            <change who="DR" when="2025-05-19">Added floruit.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -48,7 +49,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ወልደ፡ ያሬድ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Walda Yāred</persName>
-                    <floruit/>
+                    <floruit notBefore="1600">Not earlier than the seventeenth century</floruit>
                 </person>
                 <listRelation>
                     <relation name="saws:hasOwned" active="PRS14829WaldaY" passive="ONBAeth32"/>
