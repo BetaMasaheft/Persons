@@ -46,15 +46,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPerson>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">Walda Yoḥannǝs</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">ወልደ፡ ዮሐንስ፡</persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
-                    <birth/>
+                     <birth/>
                     <death/>
-                    <floruit/>
+                    <floruit notBefore="1900" notAfter="1950">He is recorded as the scribe of the manuscript <ref type="mss" corresp="EMML6694">EMML 6694</ref> from <ref type="place" corresp="LOC2297DabraL">Dabra Libānos</ref>.
+                        </floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS14843WaldaYohannes" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS14843WaldaYohannes" passive="EMML6694"/>
                 </listRelation>
             </listPerson><!---->
         </body>
