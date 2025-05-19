@@ -1,0 +1,64 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS14824YalfenM" xml:lang="en" type="pers">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Yalfǝññ Mušǝrrā</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="CH"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="CH" when="2025-05-15">Created record</change>
+            <change when="2025-05-18" who="CH">Correction of transcription and title after reviews of Magdalena Krzyżanowska and 
+                Jonas Karlsson</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person>
+                    <persName xml:lang="gez" xml:id="n2">የልፍኝ፡ ሙሽራ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n2">Yalfǝññ Mušǝrrā</persName> 
+                    <persName xml:lang="gez" xml:id="n1">የልፍኝ፡ ሙሺራ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Yalfǝññ Muširrā</persName> 
+                    <persName xml:lang="gez" xml:id="n3">የልፍኝ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n3">Yalfǝññ</persName>
+                    <floruit notBefore="1800" notAfter="1999">19th/20th century</floruit>
+                </person>
+                <listRelation>
+                    <relation name="saws:hasOwned" active="PRS14824YalfenM" passive="EMIPms00486"/>
+                </listRelation>
+            </listPerson>
+        </body>
+    </text>
+</TEI>
