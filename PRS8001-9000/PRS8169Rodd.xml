@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Rodd</title>
+            <title>Rennell Rodd</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -39,19 +39,35 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change when="2025-05-20" who="CH">Updated with info from wikipedia and relation ownership BLorient12034</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  Rennell 
-                  Rodd
-               </persName>
-               <occupation>Sir</occupation>
+            <person sex="1" sameAs="wd:Q334511">
+               <persName><forename>James</forename> <surname>Rennell Rodd</surname></persName>
+               <persName><roleName type="title">Sir</roleName></persName>
+               <persName><roleName type="title">1st Baron Rennell</roleName></persName>
+               <persName><roleName type="title">Lord</roleName></persName>
+               <occupation type="political">diplomat and politician</occupation>
+               <occupation type="literary">poet</occupation>
+               <birth when="1858-11-09">9 November 1858</birth>
+               <death when="1941-07-26">26 July 1941</death>
+               <floruit notBefore="1894" notAfter="1941">From 1894 to 1902, he worked under the Consul-General of Egypt, Lord Cromer and played an
+                  important part in negotiating the Anglo-Ethiopian Treaty of 1897 with Emperor <persName ref="PRS7006Menilek"/>. 
+                  Later, he served as British Ambassador to Italy during the First World War.</floruit>
+               <nationality type="UnitedKingdom"/>
             </person>
          </listPerson>
+         <listRelation>
+            <relation name="saws:hasOwned" active="PRS14870GabraHanna" passive="BLorient12034"/>
+         </listRelation>
+         <listBibl type="secondary">
+            <bibl> 
+               <ptr target="bm:wikipedia2025RennellRodd"/>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
