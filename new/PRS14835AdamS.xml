@@ -38,17 +38,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="NV" when="2025-05-16">Created stub</change>
+            <change who="NV" when="2025-05-16">Created entity</change>
+            <change when="2025-05-20" who="NV">Added relationships</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person sex="1">
+                <person sex="2">
                     <persName xml:lang="gez" xml:id="n1">አዳም፡ ስና፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAdām Sǝnnā</persName>
                     <faith type="EOTC"/>
                 </person>
+                <listRelation>
+                    <relation name="snap:SisterOf" active="PRS14835AdamS" passive="PRS14837HadaraK"/>
+                    <relation name="snap:SisterOf" active="PRS14835AdamS" passive="PRS14833Zawangel"/>
+                    <relation name="snap:SisterOf" active="PRS14835AdamS" passive="RS14836SablaW"/>
+                    <relation name="saws:isRelatedTo" active="PRS14835AdamS" passive="BNFabb103"/>
+                </listRelation>
             </listPerson>
         </body>
     </text>
