@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Ḫadarā Krǝstos</title>
+                <title>Ḫādarā Krǝstos</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="NV"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -40,6 +40,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <revisionDesc>
             <change who="NV" when="2025-05-16">Created entity</change>
             <change when="2025-05-20" who="NV">Added relationships</change>
+            <change when="2025-05-20" who="NV">Corrected the encoding based on Dorothea Reule's review</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -47,14 +48,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPerson>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ኃደራ፡ ክርስቶስ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Ḫadarā Krǝstos</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Ḫādarā Krǝstos</persName>
                     <faith type="EOTC"/>
                 </person>
                 <listRelation>
                     <relation name="snap:BrotherOf" active="PRS14837HadaraK" passive="RS14836SablaW"/>
                     <relation name="snap:BrotherOf" active="PRS14837HadaraK" passive="PRS14833Zawangel"/>
                     <relation name="snap:BrotherOf" active="PRS14837HadaraK" passive="PRS14835AdamS"/>
-                    <relation name="saws:isRelatedTo" active="PRS14837HadaraK" passive="BNFabb103"/>
+                    <relation name="lawd:hasAttestation" active="PRS14837HadaraK" passive="BNFabb103"/>
                 </listRelation>
             </listPerson>
         </body>

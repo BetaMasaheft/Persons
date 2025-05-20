@@ -40,6 +40,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <revisionDesc>
             <change who="NV" when="2025-05-16">Created entity</change>
             <change when="2025-05-20" who="NV">Added relationships</change>
+            <change when="2025-05-20" who="NV">Corrected the encoding based on Dorothea Reule's review</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -55,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <relation name="snap:SisterOf" active="RS14836SablaW" passive="PRS14837HadaraK"/>
                     <relation name="snap:SisterOf" active="RS14836SablaW" passive="PRS14833Zawangel"/>
                     <relation name="snap:SisterOf" active="RS14836SablaW" passive="PRS14835AdamS"/>
-                    <relation name="saws:isRelatedTo" active="RS14836SablaW" passive="BNFabb103"/>
+                    <relation name="lawd:hasAttestation" active="RS14836SablaW" passive="BNFabb103"/>
                 </listRelation>
             </listPerson>
         </body>

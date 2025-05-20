@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ʾAdām Sǝnnā</title>
+                <title>ʾAddām Sǝnnā</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="NV"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -40,6 +40,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <revisionDesc>
             <change who="NV" when="2025-05-16">Created entity</change>
             <change when="2025-05-20" who="NV">Added relationships</change>
+            <change when="2025-05-20" who="NV">Corrected the encoding based on Dorothea Reule's review</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -47,14 +48,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPerson>
                 <person sex="2">
                     <persName xml:lang="gez" xml:id="n1">አዳም፡ ስና፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAdām Sǝnnā</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAddām Sǝnnā</persName>
                     <faith type="EOTC"/>
                 </person>
                 <listRelation>
                     <relation name="snap:SisterOf" active="PRS14835AdamS" passive="PRS14837HadaraK"/>
                     <relation name="snap:SisterOf" active="PRS14835AdamS" passive="PRS14833Zawangel"/>
                     <relation name="snap:SisterOf" active="PRS14835AdamS" passive="RS14836SablaW"/>
-                    <relation name="saws:isRelatedTo" active="PRS14835AdamS" passive="BNFabb103"/>
+                    <relation name="lawd:hasAttestation" active="PRS14835AdamS" passive="BNFabb103"/>
                 </listRelation>
             </listPerson>
         </body>
