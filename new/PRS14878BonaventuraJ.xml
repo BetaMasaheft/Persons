@@ -47,9 +47,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPerson>
                 <person sex="1">
                     <persName><forename>Jacobus</forename> <surname>Bonaventura</surname></persName>
+                    <floruit notBefore="1513">After 1513.</floruit>
                 </person>
                 <listRelation>
                     <relation name="saws:hasOwned" active="PRS14878BonaventuraJ" passive="ANLcr12"/>
+                    <relation name="snap:FamilyOf" active="PRS14878BonaventuraJ"
+                        passive="PRS14877BonaventuraR" cert="high"><desc><persName
+                            ref="PRS14878BonaventuraJ"/>
+                            and <persName ref="PRS14877BonaventuraR"/> are mentioned together as
+                            owners of <ref type="mss" corresp="ANLcr12"/>.</desc></relation>
                 </listRelation>
             </listPerson>
         </body>
