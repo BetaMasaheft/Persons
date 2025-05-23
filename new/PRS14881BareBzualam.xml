@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Marigetā Malāʾka Ganat Bare Bzuʿālam </title>
+                <title>Marigetā Malāʾka Ganat Bare Bəzuʿālam </title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="AY"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -45,16 +45,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Marigetā Malāʾka Ganat Bare Bzuʿālam </persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
-                    <faith type="EOTC"/>
-                    <occupation type="literary"/>
+                    <persName xml:lang="gez" xml:id="n1">በሬ፡ ብዙዓለም፡</persName> 
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Bare Bəzuʿālam</persName>
+                    <persName><roleName type="title">Marigetā</roleName></persName>
+                    <persName><roleName type="title">Malāʾka Ganat</roleName></persName>                    
+                    <faith type="EOTC"/>                    
+                    <occupation type="ecclesiastic">Learned Nəbāb and Zemā from Geṭe Bāyahu at Moydar Mikāʿel and served as a deacon
+                    </occupation>
+                    <occupation type="ecclesiastic">He learned the scribal profession from Qes Yətāyaw Yaḫalā  and 
+                        <persName xml:id="PRS14593EsatZammana"/></occupation>                        
+                    <occupation type="literary">He is a private professional scribe since <date calendar="ethiopian" when-custom="1996" notBefore="2003" notAfter="2004">1996 EC</date>
+                        </occupation>                
                     <nationality type="Ethiopia"/>
-                    <birth>1976 </birth>
-                    <death/>
-                    <floruit/>
+                    <birth when="1976" evidence="internal"/>               
                 </person>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>
