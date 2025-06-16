@@ -16,7 +16,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 This file is licensed under the Creative Commons
                 Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2016-03-21</date>
+            
          </publicationStmt>
          <sourceDesc>
             <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
@@ -47,7 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <listPerson>
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">ሳሙኤል፡</persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized">Sāmuʾel</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Sāmuʾel of Saqurt</persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <occupation type="ecclesiastic">monk</occupation>
@@ -55,6 +55,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             </person>  
             <listRelation>
                <relation name="ecrm:P129i_is_subject_of" active="PRS8490Samuel" passive="LIT4791GadlaS"/>
+               <relation name="saws:isDifferentTo" active="PRS8490Samuel" passive="PRS8484Samuel"></relation>
             </listRelation>
          </listPerson>
          <listBibl type="secondary">
