@@ -45,16 +45,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Habta ʾIyasus</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ሀብተ፡ ኢየሱስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Habta ʾIyasus</persName>
+                    <persName>
+                        <roleName type="title">ʾabba</roleName>
+                    </persName>
+                    <persName>
+                        <roleName type="office">raqmaʾāsarā</roleName>
+                    </persName>
                     <faith type="EOTC"/>
+                    <occupation>monk</occupation>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1500" notAfter="1599">16th century</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS14901HabtaIyas" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS14901HabtaIyas" passive="ESdd006"/>
+                    <relation name="lawd:hasAttestation" active="#PRS14901HabtaIyas" passive="PRS6229LebnaDe"><desc>ʾAbba Gabra Krǝstos’s tenure overlapped with that of Lǝbna Dǝngǝl.</desc></relation> 
+                    <relation name="lawd:hasAttestation" active="#PRS14901HabtaIyas" passive="PRS14899Samuel"><desc>ʾAbba Gabra Krǝstos’s tenure overlapped with that of nǝbura ʾǝd ʾAbba Sāmuʾel.</desc></relation>
+                    <relation name="lawd:hasAttestation" active="#PRS14901HabtaIyas" passive="PRS14902Pawlos"><desc>ʾAbba Gabra Krǝstos’s tenure overlapped with that of qǝntān ʾAbbā Ṗāwlos.</desc></relation>
+                    <relation name="lawd:hasAttestation" active="#PRS14901HabtaIyas" passive="PRS14900GabraKrest"><desc>ʾAbba Gabra Krǝstos’s tenure overlapped with that of qas gabaz ʾAbbā Gabra Krǝstos.</desc></relation>
+                    <relation name="lawd:hasAttestation" active="#PRS14901HabtaIyas" passive="PRS14905Tarbinos"><desc>ʾAbba Gabra Krǝstos’s tenure overlapped with that of mamhǝr ʾAbuna Tarbinos.</desc></relation>
                 </listRelation>
             </listPerson><!---->
         </body>

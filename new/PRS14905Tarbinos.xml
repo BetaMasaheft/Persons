@@ -38,26 +38,36 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MK" when="2025-06-18">Created stub</change>
+            <change who="MK" when="2025-06-18">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Tarbinos</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ተርቢኖስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Tarbinos</persName>
+                    <persName>
+                        <roleName type="title">ʾabuna</roleName>
+                    </persName>
+                    <persName>
+                        <roleName type="office">mamhǝr</roleName>
+                    </persName>
+
                     <faith type="EOTC"/>
                     <occupation type="ecclesiastic"/>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1500" notAfter="1599">16th century</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS14905Tarbinos" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS14905Tarbinos" passive="ESdd006"/>
+                    <relation name="lawd:hasAttestation" active="#PRS14905Tarbinos" passive="PRS6229LebnaDe"><desc>ʾAbuna Tarbinos’s tenure overlapped with that of Lǝbna Dǝngǝl.</desc></relation> 
+                    <relation name="lawd:hasAttestation" active="#PRS14905Tarbinos" passive="PRS14899Samuel"><desc>ʾAbuna Tarbinos’s tenure overlapped with that of nǝbura ʾǝd ʾAbba Sāmuʾel.</desc></relation>
+                    <relation name="lawd:hasAttestation" active="#PRS14905Tarbinos" passive="PRS14902Pawlos"><desc>ʾAbuna Tarbinos’s tenure overlapped with that of qǝntān ʾAbbā Ṗāwlos.</desc></relation>
+                    <relation name="lawd:hasAttestation" active="#PRS14905Tarbinos" passive="PRS14900GabraKrest"><desc>ʾAbuna Tarbinos’s tenure overlapped with that of qas gabaz ʾAbbā Gabra Krǝstos.</desc></relation>
+                    <relation name="lawd:hasAttestation" active="#PRS14905Tarbinos" passive="PRS14901HabtaIyas"><desc>ʾAbuna Tarbinos’s tenure overlapped with that of raqmaʾāsarā ʾAbbā Habta ʾIyasus.</desc></relation>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>

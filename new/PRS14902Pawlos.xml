@@ -38,23 +38,33 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MK" when="2025-06-18">Created stub</change>
+            <change who="MK" when="2025-06-18">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Ṗāwlos</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ጳውሎስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Ṗāwlos</persName>
+                    <persName>
+                        <roleName type="title">ʾabba</roleName>
+                    </persName>
+                    <persName>
+                        <roleName type="office">qǝntān</roleName>
+                    </persName>
                     <faith type="EOTC"/>
+                    <occupation>monk</occupation>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1500" notAfter="1599">16th century</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS14902Pawlos" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS14902Pawlos" passive="ESdd006"/>
+                    <relation name="lawd:hasAttestation" active="#PRS14902Pawlos" passive="PRS6229LebnaDe"><desc>ʾAbba Ṗāwlos’s tenure overlapped with that of Lǝbna Dǝngǝl.</desc></relation> 
+                    <relation name="lawd:hasAttestation" active="#PRS14902Pawlos" passive="PRS14899Samuel"><desc>ʾAbba Ṗāwlos’s tenure overlapped with that of nǝbura ʾǝd ʾAbba Sāmuʾel.</desc></relation>
+                    <relation name="lawd:hasAttestation" active="#PRS14902Pawlos" passive="PRS14901HabtaIyas"><desc>ʾAbba Ṗāwlos’s tenure overlapped with that of raqmaʾāsarā ʾAbbā Habta ʾIyasus.</desc></relation>
+                    <relation name="lawd:hasAttestation" active="#PRS14902Pawlos" passive="PRS14900GabraKrest"><desc>ʾAbba Ṗāwlos’s tenure overlapped with that of qas gabaz ʾAbbā Gabra Krǝstos.</desc></relation>
+                    <relation name="lawd:hasAttestation" active="#PRS14902Pawlos" passive="PRS14905Tarbinos"><desc>ʾAbba Ṗāwlos’s tenure overlapped with that of mamhǝr ʾAbuna Tarbinos.</desc></relation>
                 </listRelation>
             </listPerson><!---->
         </body>
