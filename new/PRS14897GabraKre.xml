@@ -38,25 +38,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MK" when="2025-06-18">Created stub</change>
+            <change who="MK" when="2025-06-18">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Gabra Krǝstos</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ገብረ፡ ክርስቶስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra Krǝstos</persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1500" notAfter="1599">16th century</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS14897GabraKre" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS14897GabraKre" passive="ESdd006"/>
+                    <relation name="snap:FatherOf" active="#PRS14897GabraKre" passive="PRS14896GabraMQ"/>
+                    <relation name="betmas:husbandOf" active="#PRS14897GabraKre" passive="PRS14898AsrataMar"></relation>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>
