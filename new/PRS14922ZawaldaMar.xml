@@ -24,40 +24,42 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <p/>
             </sourceDesc>
         </fileDesc>
-        <t:encodingDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+        <encodingDesc xmlns:t="http://www.tei-c.org/ns/1.0">
             <p>A digital born TEI file</p>
-        </t:encodingDesc>
-        <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+        </encodingDesc>
+        <profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
             <creation/>
-            <t:abstract>
+            <abstract>
                 <p/>
-            </t:abstract>
-            <t:langUsage>
-                <t:language ident="en">English</t:language>
-                <t:language ident="gez">Gǝʿǝz</t:language>
-            </t:langUsage>
-        </t:profileDesc>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
         <revisionDesc>
-            <t:change xmlns:t="http://www.tei-c.org/ns/1.0" who="MK" when="2025-06-24">Created stub</t:change>
+            <change xmlns:t="http://www.tei-c.org/ns/1.0" who="MK" when="2025-06-24">Created entity</change>
         </revisionDesc>
     </teiHeader>
-    <t:text xmlns:t="http://www.tei-c.org/ns/1.0">
+    <text xmlns:t="http://www.tei-c.org/ns/1.0">
         <body>
-            <t:listPerson>
+            <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Zawalda Māryām</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
-                    <t:faith type="EOTC"/>
-                    <t:occupation type="ecclesiastic"/>
-                    <t:nationality type="Ethiopia"/>
-                    <t:birth/>
-                    <t:death/>
-                    <floruit/>
+                    <persName xml:lang="gez" xml:id="n1">ዘወልደ፡ ማርያም፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Zawalda Māryām</persName>
+                    <faith type="EOTC"/>
+                    <occupation type="ecclesiastic">scribe</occupation>
+                    <nationality type="Ethiopia"/>
+                    <floruit notBefore="1700" notAfter="1799">18th century</floruit>
                 </person>
                 <listRelation>
-                    <relation name="saws:isCopierOf" active="PRS14922ZawaldaMar" passive=""/>
+                    <relation name="saws:isCopierOf" active="PRS14922ZawaldaMar" passive="ESdd017"/>
+                    <relation name="snap:ProfessionalRelationship" active="PRS14922ZawaldaMar" passive="PRS14923BaedaMar"><desc>They copied together the manuscript ESdd017.</desc></relation>
+                    <relation name="snap:ProfessionalRelationship" active="PRS14922ZawaldaMar" passive="PRS14924Zamaryam"><desc>They copied together the manuscript ESdd017.</desc></relation>
+                    <relation name="snap:ProfessionalRelationship" active="PRS14922ZawaldaMar" passive="PRS14925TensaeKre"><desc>They copied together the manuscript ESdd017.</desc></relation>
+                    <relation name="syriaca:different-from" active="PRS14922ZawaldaMar" passive="PRS12076ZawaldaMaryam"/>
                 </listRelation>
-            </t:listPerson><!---->
+            </listPerson>
         </body>
-    </t:text>
+    </text>
 </TEI>
