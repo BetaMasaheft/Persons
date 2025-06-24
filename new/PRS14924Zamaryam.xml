@@ -38,24 +38,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MK" when="2025-06-24">Created stub</change>
+            <change who="MK" when="2025-06-24">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Zamāryām</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ዘማርያም፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Zamāryām</persName>
                     <faith type="EOTC"/>
-                    <occupation type="ecclesiastic"/>
+                    <occupation type="ecclesiastic">scribe</occupation>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1700" notAfter="1799">18th century</floruit>
                 </person>
                 <listRelation>
-                    <relation name="saws:isCopierOf" active="PRS14924Zamaryam" passive=""/>
+                    <relation name="saws:isCopierOf" active="PRS14924Zamaryam" passive="ESdd017"/>
+                    <relation name="snap:ProfessionalRelationship" active="PRS14924Zamaryam" passive="PRS14923BaedaMar"><desc>They copied together the manuscript ESdd017.</desc></relation>
+                    <relation name="snap:ProfessionalRelationship" active="PRS14924Zamaryam" passive="PRS14924Zamaryam"><desc>They copied together the manuscript ESdd017.</desc></relation>
+                    <relation name="snap:ProfessionalRelationship" active="PRS14924Zamaryam" passive="PRS14925TensaeKre"><desc>They copied together the manuscript ESdd017.</desc></relation>
+                    <relation name="snap:ProfessionalRelationship" active="PRS14924Zamaryam" passive="PRS14935TasfaMik"><desc>They copied together the manuscript ESdd017.</desc></relation>
                 </listRelation>
             </listPerson><!---->
         </body>
