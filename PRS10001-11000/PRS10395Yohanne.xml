@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Yoḥannǝs</title>
+            <title>Yoḥannəs of Dabra Dāgā</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -16,7 +16,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 This file is licensed under the Creative Commons
                 Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2016-03-21</date>
+            
          </publicationStmt>
          <sourceDesc>
             <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
@@ -32,7 +32,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
+         <textClass><keywords><term key="saint"></term></keywords></textClass>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
@@ -45,17 +46,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Yoḥannǝs
-               </persName>
+               <persName xml:lang="gez" xml:id="n1">ዮሐንስ፡ ዘደብረ፡ ዳጋ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Yoḥannəs za-Dabra Dāgā</persName>
+               <persName xml:lang="en" corresp="#n1">Yoḥannəs of Dabra Dāgā</persName>
              <occupation type="ecclesiastic">monk</occupation>
             </person>
-            <listRelation>
-               <relation name="snap:BrotherOf">
-                  <desc> br. ʿƎbnä Sänbät </desc>
-               </relation>
-            </listRelation>
+            
          </listPerson>
       </body>
    </text>

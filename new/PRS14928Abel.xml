@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS14908Demiana">
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS14928Abel">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Demiana</title>
+            <title>ʾAbel of Ḥǝṣi</title>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
@@ -40,17 +40,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       </profileDesc>
       <revisionDesc>
 
-         <change who="ES" when="2025-06-23">CREATED: person</change>
+         <change who="ES" when="2025-06-24">CREATED: person</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
-            <person sex="2" sameAs="wd:Q5255341">
-               <persName xml:id="n1">Demiana</persName>
-               <persName xml:lang="gez" xml:id="n2">ድምያና፡</persName>
-               <persName xml:lang="gez" type="normalized" corresp="#n2">Dəmyānā</persName>
-               
+            <person sex="1">
+
+               <persName xml:lang="gez" xml:id="n1">አቤል፡ ዘሕጺ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAbel za-Ḥǝṣi</persName>
+               <persName xml:lang="en" corresp="#n1">ʾAbel of Ḥǝṣi</persName>
             </person>
          </listPerson>
          

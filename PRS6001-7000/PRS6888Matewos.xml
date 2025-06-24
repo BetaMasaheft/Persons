@@ -4,8 +4,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Matewos of Bärbäre</title>
-            <author/>
+            <title>Matewos of Dabra Barbare</title>
+            
          </titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
@@ -16,7 +16,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 This file is licensed under the Creative Commons
                 Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2016-03-21</date>
+            
          </publicationStmt>
          <sourceDesc>
             <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
@@ -33,6 +33,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       </encodingDesc>
       <profileDesc>
          <langUsage><language ident="en">English</language></langUsage>
+         <textClass><keywords><term key="saint"></term></keywords></textClass>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
@@ -45,10 +46,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Matewos of Bärbäre
-               </persName>
+               <persName xml:lang="gez" xml:id="n1">መቴዎስ፡ ዘደብረ፡ በርበሬ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Matewos za-Dabra Barbare</persName>
+               <persName xml:lang="en" corresp="#n1">Matewos of Dabra Barbare</persName>
                <occupation> monk </occupation>
             </person>
          </listPerson>
