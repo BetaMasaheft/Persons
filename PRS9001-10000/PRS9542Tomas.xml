@@ -16,7 +16,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 This file is licensed under the Creative Commons
                 Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2016-03-21</date>
+            
          </publicationStmt>
          <sourceDesc>
             <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
@@ -54,9 +54,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1">ቶማስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Tomās</persName>
+               <persName xml:lang="en" corresp="#n1" type="main">Tomās of Dimā Giyorgis</persName>
+               <persName xml:lang="gez" xml:id="n2">ቶማስ፡ ዘደብረ፡ ድማሕ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n2">Tomās za-Dabra Dəmāḥ</persName>
+               <persName xml:lang="en" corresp="#n2">Tomās of Dabra Dəmāḥ</persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
-               <occupation type="ecclesiastic">abbot</occupation>
+               <occupation type="ecclesiastic">abbot of Dima Giyorgis</occupation>
                <!--Saint-->
                <birth/>
                <floruit/>
