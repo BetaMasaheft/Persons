@@ -39,17 +39,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="DE" when="2021-12-14">Created entity</change>
+            <change when="2025-07-01" who="MK">Added n1 in Geez</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1"></persName>
+                    <persName xml:lang="gez" xml:id="n1">ተክለ፡ ጊዮርጊስ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Takla Giyorgis</persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
-                    <floruit notBefore="1400" notAfter="1500"></floruit>
+                    <floruit notBefore="1400" notAfter="1499"/>
                 </person>
                 <listRelation>
                     <relation name="snap:SonOf" active="PRS13654TaklaG" passive="PRS13653TawaldaM"/>
