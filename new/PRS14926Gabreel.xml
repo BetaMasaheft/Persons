@@ -38,25 +38,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MK" when="2025-06-24">Created stub</change>
+            <change who="MK" when="2025-06-24">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1"> Gabrǝʾel</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ገብርኤል፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Gabrǝʾel</persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1700" notAfter="1799">18th century</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS14926Gabreel" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS14926Gabreel" passive="ESdd017"><desc>He is mentioned as the commissioner of the mansucript in the concluding supplication formulas.</desc></relation>
+                    <relation name="snap:FamilyOf" active="PRS14926Gabreel" passive="PRS14931Zasellase"><desc>The two are most likely members of the same family: Gabrǝʾel commissioned a manuscript in which the main supplicant is Zaśǝllāse.</desc></relation>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>
