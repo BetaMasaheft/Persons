@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Täklä Giyorgis II</title>
+            <title>Takla Giyorgis II</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -45,13 +45,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       <body>
          <listPerson>
             <person sameAs="wd:Q59761" sex="1">
-               <persName>
-                  
-                  Täklä Giyorgis II
-               </persName>
-               <persName type="alt">Abba Gahid</persName>
-               <persName type="alt">Gobäze Gäbrä Mädḫǝn</persName>
-               <occupation> aṣe </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="regnal">ተክለ፡ ጊዮርጊስ፡</persName>
+               <persName xml:lang="en" corresp="#n1" type="normalized">Takla Giyorgis<addName>II</addName></persName>
+               <persName xml:lang="gez" xml:id="n2" type="alt">ጎበዜ፡ ገብረ፡ መድኅን፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Gobaze Gabra Madḫǝn</persName>
+               <persName xml:lang="gez" xml:id="n3" type="horse">አባ፡ ገሂድ፡</persName>
+               <persName xml:lang="gez" corresp="#n3" type="normalized">ʾAbba Gahid</persName>
+               <persName><roleName type="title">ʾaṣe</roleName></persName>
+                  <faith type="EOTC"/>
+                  <occupation type="ruler">emperor</occupation>
+               <birth><date when="1836">1836</date></birth>
+               <floruit>reign <date notBefore="1869" notAfter="1871">1836‒1871</date></floruit>
+               <death><date when="1873">ca. October 1873</date></death>
             </person>
          </listPerson>
       </body>
