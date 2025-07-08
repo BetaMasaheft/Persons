@@ -46,7 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <listPerson>
             <person sameAs="wd:Q59761" sex="1">
                <persName xml:lang="gez" xml:id="n1" type="regnal">ተክለ፡ ጊዮርጊስ፡</persName>
-               <persName xml:lang="en" corresp="#n1" type="normalized">Takla Giyorgis<addName>II</addName></persName>
+               <persName xml:lang="en" corresp="#n1" type="normalized">Takla Giyorgis <addName>II</addName></persName>
                <persName xml:lang="gez" xml:id="n2" type="alt">ጎበዜ፡ ገብረ፡ መድኅን፡</persName>
                <persName xml:lang="gez" corresp="#n2" type="normalized">Gobaze Gabra Madḫǝn</persName>
                <persName xml:lang="gez" xml:id="n3" type="horse">አባ፡ ገሂድ፡</persName>
@@ -56,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                <occupation type="ruler">emperor</occupation>
                <birth><date when="1836">1836</date></birth>
                <floruit>reign <date notBefore="1869" notAfter="1871">1836‒1871</date></floruit>
-               <death><date when="1873">ca. October 1873</date></death>
+               <death>ca. October <date when="1873">1873</date></death>
             </person>
          </listPerson>
       </body>
