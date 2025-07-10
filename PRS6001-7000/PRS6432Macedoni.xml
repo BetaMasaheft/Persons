@@ -32,7 +32,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language><language ident="grc">Greek</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change when="2023-05-26" who="CH">Updated names and added Wikidata</change>
@@ -45,13 +45,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       <body>
          <listPerson>
             <person sex="1" sameAs="wd:Q1263119">
-               <persName>
+               
                   <persName xml:lang="en" xml:id="n1">Macedonius I of Constantinople</persName>
                   <persName xml:lang="gez" xml:id="n2">መቅዶንዮስ፡</persName>
                   <persName xml:lang="gez" type="normalized" corresp="#n2">Maqdonyos</persName> 
                   <persName xml:lang="grc" xml:id="n3">Μακεδόνιος</persName>
                   <persName xml:lang="grc" corresp="#n3" type="normalized">Makedonios</persName>
-               </persName>
+               
                <occupation> bishop </occupation>
             </person>
          </listPerson>

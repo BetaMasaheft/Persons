@@ -16,7 +16,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 This file is licensed under the Creative Commons
                 Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2016-03-21</date>
+            
          </publicationStmt>
          <sourceDesc>
             <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
@@ -46,8 +46,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       <body>
          <listPerson>
             <person sex="1">
-               <persName xml:lang="gez" type="normalized">Bakʷǝra Dǝngǝl
-               </persName>
+               
+                  <persName xml:lang="gez" xml:id="n1">በኵረ፡ ድንግል፡ ዘደብረ፡ ምዕዋን፡</persName>
+                  <persName xml:lang="gez" type="normalized" corresp="#n1">Bakʷǝra Dǝngǝl za-Dabra Mǝʿǝwān</persName>
+                  <persName xml:lang="en" corresp="#n1">Bakʷǝra Dǝngǝl of Dabra Mǝʿǝwān</persName>
                <occupation> abba </occupation>
             </person>
          </listPerson>

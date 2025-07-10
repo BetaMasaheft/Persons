@@ -33,6 +33,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       </encodingDesc>
       <profileDesc>
          <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
+         <textClass><keywords><term key="saint"></term></keywords></textClass>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
@@ -48,9 +49,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <person sex="1">
                <persName xml:lang="gez" xml:id="n1" type="birth">እስትንፋሰ፡ ክርስቶስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">ʾƎstǝnfāsa Krǝstos</persName>
+               <persName xml:lang="gez" xml:id="n2">እስትንፋሰ፡ ክርስቶስ፡ ዘደብረ፡ አስጋጅ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n2">ʾƎstǝnfāsa Krǝstos za-Dabra ʾAsgāǧ</persName>
+               <persName xml:lang="en" corresp="#n2">ʾƎstǝnfāsa Krǝstos of Dabra ʾAsgāǧ</persName>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
-               <occupation type="ecclesiastic">monk</occupation>
+               <occupation type="ecclesiastic">monk of Dabra ʾAsgāǧ</occupation>
             </person>
             <listRelation>
                <relation name="ecrm:P129i_is_subject_of" active="PRS3886estanfas" passive="LIT4747GadlaEs"/>

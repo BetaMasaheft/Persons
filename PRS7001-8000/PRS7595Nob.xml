@@ -16,7 +16,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 This file is licensed under the Creative Commons
                 Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2016-03-21</date>
+            
          </publicationStmt>
          <sourceDesc>
             <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
@@ -39,6 +39,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <textClass>
             <keywords>
                <term key="saint"/>
+               <term key="martyr"></term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -48,6 +49,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
          <change who="PL" when="2019-03-27">removed occupation containing St, Saint, bibl, biblical or prophet, added keyword. See https://github.com/BetaMasaheft/Documentation/issues/1104</change>
+         <change when="2024-01-25" who="CH">Updated name and added fidal</change>
          <change who="MKr" when="2025-03-31">Added commemoration date</change>
       </revisionDesc>
    </teiHeader>
@@ -55,11 +57,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+               
                   <persName xml:lang="gez" xml:id="n1">ኖብ፡</persName>
                   <persName xml:lang="gez" type="normalized" corresp="#n1">Nob</persName>
-                  <roleName type="title">martyr</roleName>
-               </persName>
+                  
+               
                <nationality type="Egypt">Egypt</nationality>
                <faith type="Coptic">Coptic Church</faith>
                <occupation type="ecclesiastic">ʾabbā</occupation>

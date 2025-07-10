@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ETH2327BalawKalaw" type="pers">
+   <teiHeader xml:base="https://betamasaheft.eu/">
+      <fileDesc>
+         <titleStmt>
+            <title>Balaw Kalaw</title>
+            <author/>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is licensed under the Creative Commons
+                                        Attribution-ShareAlike 4.0. </licence>
+            </availability>
+            <date>2016-10-18T15:52:41.309+02:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file converted from the ETHIO-authority google
+                                    spreadsheet</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ti">Tigrinya</language>
+            <language ident="en">English</language>
+         </langUsage>
+         <abstract>
+            <ab></ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>         
+         <change who="DN" when="2025-06-02">created record</change>         
+      </revisionDesc>
+   </teiHeader>
+   <text xml:base="https://betamasaheft.eu/">
+      <body>
+         <listPerson>
+            <personGrp role="ethnic">
+               <persName xml:id="n1" xml:lang="ti">በለው፡ ከለው፡</persName>
+               <persName corresp="#n1" xml:lang="ti" type="normalized">Balaw Kalaw</persName>
+               <persName xml:id="n2" xml:lang="ti">ከለው፡ በለው፡ </persName>
+               <persName corresp="#n2" xml:lang="ti" type="normalized">Kalaw Balaw</persName>
+               <persName xml:id="n3" xml:lang="ti">በለውን፡ ከለውን፡</persName>
+               <persName corresp="#n3" xml:lang="ti" type="normalized">Balaw Kalaw</persName>
+               <note>Balaw Kalaw is a legendary ancestral people (most probably
+                  related to the historical ethnic group <persName ref="ETH1194Balaw"/>) believed to have populated, in a very remote time,
+                  in particular the vicinity of <placeName ref="LOC4639Matara">Maṭarā</placeName>, which is sometimes also 
+                  referred to as Balaw Kalaw. The traditions about Balaw Kalaw have been circulating especially in 
+                  <placeName ref="LOC3764Hamase"/>, <placeName ref="LOC5575Saraye"/> and <placeName ref="LOC1298Akkala"/>.</note>
+            </personGrp>
+         </listPerson>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:ContiRossini1942Proverbi"/>
+               <citedRange unit="page">155, 176</citedRange>
+            </bibl>          
+            <bibl>
+               <ptr target="bm:ContiRossini1928StoriadEtiopia"/>
+               <citedRange unit="page">277</citedRange>
+            </bibl>   
+            <bibl>
+               <ptr target="bm:Kolmodin1912TraditionsT"/>
+               <citedRange unit="page">7</citedRange>
+            </bibl>  
+         </listBibl>
+      </body>
+   </text>
+</TEI>

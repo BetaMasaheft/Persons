@@ -32,7 +32,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change when="2024-01-08" who="CH">Updated attestations</change>
@@ -46,10 +46,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+              
                   <persName xml:lang="gez" xml:id="n1" type="birth">ቡሩክ፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Buruk</persName> 
-               </persName>
+               
             </person>
             <listRelation>
                <relation name="snap:SonOf" active="PRS2954Buruk" passive="PRS10531Zaiyas"/>

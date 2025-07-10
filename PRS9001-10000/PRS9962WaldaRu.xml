@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Wäldä Rufaʾel</title>
+            <title>Walda Rufāʾel</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -16,7 +16,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 This file is licensed under the Creative Commons
                 Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2016-03-21</date>
+            
          </publicationStmt>
          <sourceDesc>
             <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
@@ -45,11 +45,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Wäldä Rufaʾel
-               </persName>
-               <occupation> aläqa </occupation>
+               <persName xml:lang="gez" xml:id="n1">ወልደ፡ ሩፋኤል፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Walda Rufāʾel</persName>
+               
+               <occupation> saint, righteous </occupation>
             </person>
          </listPerson>
       </body>

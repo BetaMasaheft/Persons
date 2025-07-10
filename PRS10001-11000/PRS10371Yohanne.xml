@@ -18,7 +18,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 This file is licensed under the Creative Commons
                 Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2016-03-21</date>
+            
          </publicationStmt>
          <sourceDesc>
             <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
@@ -35,6 +35,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       </encodingDesc>
       <profileDesc>
          <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
+         <textClass><keywords><term key="saint"></term></keywords></textClass>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
@@ -48,8 +49,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       <body>
          <listPerson>
             <person sex="1">
-               <persName xml:lang="gez" xml:id="n1" type="birth">ዮሐንስ፡</persName>
-               <persName xml:lang="gez" corresp="#n1" type="normalized">Yoḥannǝs</persName>
+               <persName xml:lang="gez" xml:id="n1">ዮሐንስ፡ ዘደብረ፡ ቢዘን፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Yoḥannǝs za-Dabra Bizan</persName>
                   <persName>
                   <roleName type="title">ʾabbā</roleName>
                </persName>
