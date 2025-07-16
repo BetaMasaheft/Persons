@@ -47,13 +47,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ብእሴ፡ እግዚአብሔር፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Bǝʾse ʾƎgziʾabǝḥer</persName>
+                    <persName> <roleName type="title">ʾabuna</roleName>
+                    </persName>
                     <faith type="EOTC"/>
+                    <occupation type="ecclesiastic">monk</occupation>
                     <nationality type="Ethiopia"/>
-                    <floruit notBefore="1700" notAfter="1799">18th century</floruit>
+                    <floruit notBefore="1600" notAfter="1699">17th century</floruit>
                 </person>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="PRS14932BeseEgzi" passive="ESdd017"><desc>He is mentioned in supplication formulas for Ṭǝqǝmt.</desc></relation>
-                    <relation name="snap:FamilyOf" active="PRS14932BeseEgzi" passive="PRS14926Gabreel"><desc>The two are likely members of the same family: Gabrǝʾel commissioned a manuscript in which Bǝʾse ʾƎgziʾabǝḥer is a supplicant.</desc></relation>
+                    <relation name="snap:FatherOf" active="PRS14932BeseEgzi" passive="PRS14926Gabreel"><desc>Bǝʾse ʾƎgziʾabǝḥer is most likely a spiritual father of Gabrǝʾel.</desc></relation>
+                    <relation name="lawd:hasAttestation" active="PRS14932BeseEgzi" passive="ESdd037"><desc>He is mentioned in supplication formulas throughout the manuscript.</desc></relation>
                 </listRelation>
             </listPerson>
         </body>
