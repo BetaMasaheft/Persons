@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ʾAbbā Walda Kǝrǝstos</title>
+                <title>ʾAbbā Walda Krǝstos</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="GS"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -47,16 +47,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">አባ፡ ወልደ፡
                         ክርስቶስ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAbbā Walda Kǝrǝstos</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walda Krǝstos</persName>
+                    <persName><roleName type="title">ʾabbā</roleName></persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
                     <occupation>poet</occupation>
+                    <occupation type="literary">writer</occupation>
                     <floruit notBefore="1600" notAfter="1700">
-                        The name Walda Kǝrǝstos appears at the end of each stanza of the hymn 
+                        The name Walda Krǝstos appears at the end of each stanza of the hymn 
                     ʾO-ʾƎgzǝʾǝtǝya Māryām stanzas. A similar name, 
-                     ʾAbbā Walda Kǝrǝstos, is explicitly credited as the author of a malkǝʿ hymn dedicated to 
+                     ʾAbbā Walda Krǝstos, is explicitly credited as the author of a malkǝʿ hymn dedicated to 
                         ʾAbbā Nob. This strengthens the view that he was indeed a poet-monk 
                         responsible for composing hymns, including both ʾO-ʾƎgzǝʾǝtǝya Māryām and 
                         malkǝʿā ʾAbbā Nob.
@@ -64,6 +64,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </person>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="PRS14890Waldakirstos" passive="EMML8920"/>
+                    <relation name="saws:isAttributedAuthorOf" active="PRS2036Arkasel" passive="LIT2001Mazmur"/>
+                    LIT0210Malke
                 </listRelation>
              </listPerson>
         </body>
