@@ -47,14 +47,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ዘሥላሴ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Zaśǝllāse</persName>
+                    <persName> <roleName type="title">ʾabbā</roleName></persName>
+                    <persName> <roleName type="title">mamhǝr</roleName></persName>
                     <faith type="EOTC"/>
+                    <occupation type="ecclesiastic">monk</occupation>
                     <nationality type="Ethiopia"/>
                     <floruit notBefore="1600" notAfter="1699">17th century</floruit>
                 </person>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="PRS14931Zasellase" passive="ESdd017"><desc>He is mentioned in the supplication formulas throughout the manuscript.</desc></relation>
-                    <relation name="snap:FamilyOf" active="PRS14931Zasellase" passive="PRS14926Gabreel"><desc>The two are most likely members of the same family: Gabrǝʾel commissioned a manuscript in which the main supplicant is Zaśǝllāse.</desc></relation>
                     <relation name="lawd:hasAttestation" active="PRS14931Zasellase" passive="ESdd037"><desc>He is mentioned in the supplication formulas throughout the manuscript.</desc></relation>
+                    <relation name="iha:Place_of_activity" active="PRS14931Zasellase" passive="NS0105DD"><desc>In Additio 12 of <ref type="mss" corresp="#ESdd037"/>, there is a note commemorating him as the head of Dabra Dāmmo.</desc></relation>
                 </listRelation>
             </listPerson>
         </body>
