@@ -1,0 +1,56 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS14980Qeddus" xml:lang="en" type="pers">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Qǝddus Yared</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="ES"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <editionStmt><p>Recorded within the framework of the project Documenting an Ancient Education System in Africa: ʾAbǝnnat Tǝmhǝrt in Ethiopia 
+                (Universität Hamburg, HLCEES, funded by the Gerda Henkel Stiftung, 2021-2023)</p></editionStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine
+                    multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                        licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="ES" when="2025-07-16">Created stub</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person sex="1">
+                    <persName xml:lang="gez" xml:id="n1">ቅዱስ፡ ያሬድ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Qǝddus Yared</persName>
+                    <faith type="EOTC"/>
+                    <birth notBefore="1980" notAfter="1985"></birth>
+                    <occupation type="ecclesiastic">Məggābe Məsṭir Mamhər (teacher of Qəne) in <ref type="authFile" corresp="QeneBet"></ref> in <placeName ref="INS0980BahrDarSA">Salām ʾArgiw Dabra Ṣǝyon Qǝddǝst Māryām</placeName>.</occupation>                    
+                    <floruit>Active in 2022. See <ref target="https://doi.org/10.25592/uhhfdm.17721">Qǝne teaching class by Qǝddus Yāred registered on 3 November 2022</ref>.</floruit>
+                </person>                
+            </listPerson>            
+        </body>
+    </text>
+</TEI>
