@@ -38,26 +38,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MK" when="2025-07-16">Created stub</change>
+            <change who="MK" when="2025-07-16">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Ṣaggā Krǝstos</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ጸጋ፡ ክርስቶስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Ṣaggā Krǝstos</persName>
                     <faith type="EOTC"/>
-                    <occupation type="literary"/>
+                    <occupation type="literary">scribe</occupation>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1600" notAfter="1699">17th century</floruit>
                 </person>
                 <listRelation>
-                    <relation name="saws:isCopierOf" active="PRS14961SaggaKre" passive=""/>
+                    <relation name="saws:isCopierOf" active="PRS14961SaggaKre" passive="ESdd037"/>
+                    <relation name="snap:ProfessionalRelationship" active="PRS14961SaggaKre" passive="PRS14958Zakrestos"><desc>They copied together the manuscript ESdd037.</desc></relation>
+                    <relation name="snap:ProfessionalRelationship" active="PRS14961SaggaKre" passive="PRS14959SarsaMika"><desc>They copied together the manuscript ESdd037.</desc></relation>
+                    <relation name="snap:ProfessionalRelationship" active="PRS14961SaggaKre" passive="PRS14960YamanaKre"><desc>They copied together the manuscript ESdd037.</desc></relation>
+                    <relation name="snap:ProfessionalRelationship" active="PRS14961SaggaKre" passive="PRS14922ZawaldaMar"><desc>They copied together the manuscript ESdd037.</desc></relation>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>
