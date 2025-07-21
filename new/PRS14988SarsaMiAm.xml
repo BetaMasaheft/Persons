@@ -38,26 +38,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MK" when="2025-07-21">Created stub</change>
+            <change who="MK" when="2025-07-21">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Sarṣa Mikāʾel ʾAmenṗe</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ሰርጸ፡ ሚካኤል፡᎓አሜንጴ፡ </persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Sarṣa Mikāʾel ʾAmenṗe</persName>
                     <faith type="EOTC"/>
-                    <occupation type="literary"/>
+                    <occupation type="literary">scribe</occupation>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1600" notAfter="1699">17th century</floruit>
                 </person>
                 <listRelation>
-                    <relation name="saws:isCopierOf" active="PRS14988SarsaMiAm" passive=""/>
+                    <relation name="saws:isCopierOf" active="PRS14988SarsaMiAm" passive="ESdd037"><desc>He appears as a scribe in Additio 1.</desc></relation>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>
