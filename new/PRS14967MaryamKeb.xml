@@ -38,24 +38,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MK" when="2025-07-16">Created stub</change>
+            <change who="MK" when="2025-07-16">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="2">
-                    <persName xml:lang="gez" xml:id="n1">Māryām Kǝbra</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ማርያም፡ ክብራ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Māryām Kǝbrā</persName>
+                    <persName> <roleName type="title">queen</roleName></persName>
                     <faith type="EOTC"/>
                     <occupation type="political"/>
                     <nationality type="Ethiopia"/>
                     <birth/>
                     <death/>
-                    <floruit/>
+                    <floruit notBefore="1450" notAfter="1550">Between 1450 and 1550. She was the wife of King Nāʿod (r. 1494–1508).</floruit>
                 </person>
                 <listRelation>
-                    <relation name="betmas:wifeOf" active="PRS14967MaryamKeb" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS14967MaryamKeb" passive="ESdd037"><desc>The manuscript contains a commemorative note devoted to her, in Additio 9.</desc></relation>
+                    <relation name="betmas:wifeOf" active="PRS14967MaryamKeb" passive="PRS7481NaodA"/>
                 </listRelation>
             </listPerson><!---->
         </body>

@@ -38,26 +38,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MK" when="2025-07-16">Created stub</change>
+            <change who="MK" when="2025-07-16">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Tawalda Madḫǝn</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ተወልደ፡ መድኅን፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Tawalda Madḫǝn</persName>
+                    <persName> <roleName type="title">ʾabbā</roleName></persName>
                     <faith type="EOTC"/>
-                    <occupation type="ecclesiastic"/>
+                    <occupation type="ecclesiastic">hermit, monk</occupation>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS14964TawaldaMedh" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS14964TawaldaMedh" passive="ESdd037"><desc>The manuscript contains a commemorative note devoted to him, in Additio 7.</desc></relation>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>

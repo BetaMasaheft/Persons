@@ -38,23 +38,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MK" when="2025-07-16">Created stub</change>
+            <change who="MK" when="2025-07-16">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Zawalda Māryām</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ዘወልደ፡ ማርያም፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Zawalda Māryām</persName>
+                    <persName> <roleName type="title">ʾabuna</roleName></persName>
                     <faith type="EOTC"/>
-                    <occupation type="ecclesiastic"/>
+                    <occupation type="ecclesiastic">monk of Dabra Dāmmo</occupation>
                     <birth/>
                     <death/>
                     <floruit/>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS14965ZawaldaMar" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS14965ZawaldaMar" passive="ESdd037"><desc>The manuscript contains a commemorative note devoted to him, in Additio 11, and a salām-hymn in Additio 22.</desc></relation>
                 </listRelation>
             </listPerson><!---->
         </body>
