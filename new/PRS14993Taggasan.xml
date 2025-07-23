@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Ta ʿāggasan</title>
+                <title>Taʿāggasan</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="NV"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -38,24 +38,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="NV" when="2025-07-23">Created stub</change>
+            <change who="NV" when="2025-07-23">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Ta ʿāggasan</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
-                    <faith type=""/>
-                    <birth/>
-                    <t:death xmlns:t="http://www.tei-c.org/ns/1.0"/>
-                    <floruit/>
+                    <persName xml:lang="gez" xml:id="n1"></persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Taʿāggasan</persName>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS14993Taggasan" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS14993Taggasan" passive="BNFabb107"><desc>He is mentioned in the supplication formulas throughout the text from f. 1r to 10v. From the manuscript the name entered the edition, <bibl><ptr target="bm:Aescoly1951Recueil"/>
+                        <citedRange unit="page">198–199</citedRange></bibl>.</desc></relation>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>

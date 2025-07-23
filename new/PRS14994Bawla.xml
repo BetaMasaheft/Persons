@@ -38,24 +38,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="NV" when="2025-07-23">Created stub</change>
+            <change who="NV" when="2025-07-23">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Bāwlā</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
-                    <faith type=""/>
-                    <birth/>
-                    <t:death xmlns:t="http://www.tei-c.org/ns/1.0"/>
-                    <floruit/>
+                    <persName xml:lang="gez" xml:id="n1">ባውላ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Bāwlā</persName>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS14994Bawla" passive=""/>
-                </listRelation>
-            </listPerson><!---->
+                    <relation name="lawd:hasAttestation" active="PRS14994Bawla" passive="BNFabb107"><desc>He is mentioned in the supplication formulas throughout the text from f. 33r to 50v. From the manuscript the name entered the edition, <bibl><ptr target="bm:Aescoly1951Recueil"/>
+                        <citedRange unit="page">96–149, 170–175</citedRange></bibl>.</desc></relation>                </listRelation>
+            </listPerson>
         </body>
     </text>
 </TEI>
