@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Ṭäbdän Dǝngǝl</title>
+            <title>Ṭabdan Dǝngǝl</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -32,25 +32,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change when="2025-07-31" who="CH">Updated transcription</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Ṭäbdän Dǝngǝl
-               </persName>
-               <persName type="alt">Ṭäbdä Krǝstos</persName>
-               <occupation> abbot</occupation>
+               <persName xml:id="n1" xml:lang="gez">ጠብደን፡ ድንግል፡</persName>
+               <persName corresp="#n1" type="normalized" xml:lang="gez">Ṭabdan Dǝngǝl</persName>
+               <persName xml:id="n2" xml:lang="gez">ጠብደ፡ ክርስቶስ፡</persName>
+               <persName corresp="#n2" type="normalized" xml:lang="gez">Ṭabda Krǝstos</persName>
+               <occupation>abbot</occupation>
                <residence>
                   Gonǧ
                </residence>

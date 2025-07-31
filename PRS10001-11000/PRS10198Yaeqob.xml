@@ -45,6 +45,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="SG" when="2017-02-08">Addition to the content</change>
          <change who="SG" when="2017-10-21">Corrections</change>
          <change who="DR" when="2018-01-08">Added relation</change>
+         <change when="2025-07-31" who="CH">Updated roleName, relations and n2</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -52,11 +53,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <listPerson>
             <person sex="1" sameAs="wd:Q725222">
                <persName xml:lang="gez" xml:id="n1" type="birth">ያዕቆብ፡</persName>
-                     <persName xml:lang="gez" type="normalized" corresp="#n1">
-                  <roleName type="title">ʾaṣe</roleName> Yāʿqob</persName>
+                     <persName xml:lang="gez" type="normalized" corresp="#n1">Yāʿqob</persName>
+               <persName><roleName type="title">ʾaṣe</roleName></persName>
                      <persName xml:lang="en" corresp="#n1">Jacob</persName>
-                  <persName xml:lang="gez" type="regnal" xml:id="n2">መልክአ፡ ሰገድ፡</persName>
-                  <persName xml:lang="gez" type="normalized" corresp="#n2">Malkǝʾa Sagad</persName>
+                  <persName xml:lang="gez" type="regnal" xml:id="n2">መለክ፡ ሰገድ፡</persName>
+                  <persName xml:lang="gez" type="normalized" corresp="#n2">Malak Sagad</persName>
 
 
                <occupation type="ruler">Emperor</occupation>
@@ -73,9 +74,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             </person>
             <listRelation>
                <relation name="snap:SonOf" active="PRS10198Yaeqob" passive="PRS8550sardaDe"/>
-               <relation name="snap:SonOf" active="PRS10198Yaeqob" passive="PRS6829Maryams"/>
+               <relation name="snap:SonOf" active="PRS10198Yaeqob" passive="PRS6829Maryams"><desc>According to 
+                  <bibl><ptr target="bm:Budge1928History"/><citedRange unit="page">375-383</citedRange></bibl>, his mother was 
+                  Empress <persName ref="PRS6829Maryams"/>, but other sources suggest, that she was <persName ref="PRS5105Harago"/>
+                  of the Beta ʾƎsrāʾel.</desc></relation>
                <relation name="snap:GrandfatherOf" active="PRS10198Yaeqob" passive="PRS7102Minas"/>
                <relation name="ecrm:P129i_is_subject_of" active="PRS10198Yaeqob" passive="LIT4861ChronicleYaqob"/>
+               <relation name="betmas:isSuccessorOf" active="PRS10198Yaeqob" passive="PRS8550sardaDe"/>
+               <relation name="betmas:isPredecessorOf" active="PRS10198Yaeqob" passive="PRS9038Susenyos"/>
+               <relation name="snap:CousinOf" active="PRS10198Yaeqob" passive="PRS9038Susenyos"/>
             </listRelation>
            </listPerson>
          <listBibl type="secondary">
