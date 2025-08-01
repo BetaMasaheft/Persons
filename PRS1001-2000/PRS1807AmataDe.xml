@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Amätä Dǝngǝl</title>
+            <title>ʾAmata Dǝngǝl</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -32,27 +32,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change when="2025-07-31" who="CH">Updated transcription</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="2">
-               <persName>
-                  
-                  Amätä Dǝngǝl
-               </persName>
+               <persName xml:id="n1" xml:lang="gez">አመተ፡ ድንግል፡</persName>
+               <persName corresp="#n1" type="normalized" xml:lang="gez">ʾAmata Dǝngǝl</persName>
             </person>
             <listRelation>
                <relation name="snap:SisterOf">
-                  <desc> sis. Lǝbnä Dǝngǝl </desc>
+                  <desc>sis. Lǝbna Dǝngǝl</desc>
                </relation>
             </listRelation>
          </listPerson>
