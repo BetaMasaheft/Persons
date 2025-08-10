@@ -38,24 +38,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="DR" when="2025-08-10">Created stub</change>
+            <change who="DR" when="2025-08-10">Created entity. I distance myself from the norm ISO
+                5218:2004, used here for legacy reasons.</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="2">
-                    <persName xml:lang="gez" xml:id="n1">Walatta Kidān</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
-                    <faith type=""/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <persName xml:lang="gez" xml:id="n1">ወለተ፡ ኪዳን፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walatta Kidān</persName>
+                    <floruit notBefore="1700" notAfter="1899"/>
                 </person>
                 <listRelation>
-                    <relation name="saws:hasOwned" active="PRS15003WalattaK" passive=""/>
+                    <relation name="saws:hasOwned" active="PRS15003WalattaK" passive="ANLcr32"/>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>
