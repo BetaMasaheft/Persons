@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Qalemǝnṭos</title>
+                <title>Qalemanṭos</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DN"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -39,26 +39,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="DN" when="2022-12-05">Created entity</change>
+            <change who="DN" when="2025-08-10">Revisions (relations, name spelling)</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ቀሌምንጦስ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Qalemǝnṭos</persName>
+                    <persName xml:lang="gez" xml:id="n1">ቀሌመንጦስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Qalemanṭos</persName>
                     <faith type="EOTC"/>
                     <occupation type="other"/>
                     <nationality type="Ethiopia"/>
                     <birth/>
                     <death/>
-                    <floruit notBefore="1350" notAfter="1450"/>
+                    <floruit notBefore="1300" notAfter="1450"/>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS13949Qalamentos" passive="SinaiEt006"/>
-                      <relation name="lawd:hasAttestation" active="PRS13949Qalamentos" passive="SinaiEt004"/>
+                    <relation name="lawd:hasAttestation" active="PRS13949Qalamentos" passive="SinaiEt005"/>
+                      
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>
