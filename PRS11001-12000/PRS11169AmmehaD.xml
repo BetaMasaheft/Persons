@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title xml:id="t1">Ammǝḥā Dǝngǝl</title>
+            <title xml:id="t1">ʾAmmǝḥā Dǝngǝl</title>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
@@ -32,24 +32,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-11-17">Created XML record from Ethio authority google spreadsheet</change>
+         <change when="2025-07-31" who="CH">Updated transcription and relation, deleted occupation</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  <forename/>
-                  <surname>Ammǝḥā Dǝngǝl</surname>
-               </persName>
-               <occupation>owner</occupation>
+                  <persName xml:id="n1" xml:lang="gez">አምኃ፡ ድንግል፡</persName>
+                  <persName corresp="#n1" type="normalized" xml:lang="gez">ʾAmmǝḥā Dǝngǝl</persName>
             </person>
             <listRelation>
-               <relation name="lawd:hasAttestation" active="PRS11169AmmehaD" passive="BNFet107"><!--Please fix the relation of this item with BNFet107--></relation>
+               <relation name="saws:hasOwned" active="PRS11169AmmehaD" passive="BNFet107"/>
             </listRelation>
          </listPerson>
       </body>

@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Wäldä Śǝllase Bäräka</title>
+            <title>Walda Śǝllāse Barakā</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -32,24 +32,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change when="2025-07-31" who="CH">Updated transcription</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Wäldä Śǝllase Bäräka
-               </persName>
-               <occupation> mil. </occupation>
+               <persName xml:id="n1" xml:lang="gez">ወልደ፡ ሥላሴ፡ በረካ፡</persName>
+               <persName corresp="#n1" type="normalized" xml:lang="gez">Walda Śǝllāse Barakā</persName>
+               <occupation type="military">mil.</occupation>
             </person>
          </listPerson>
       </body>
