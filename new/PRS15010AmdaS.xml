@@ -32,30 +32,36 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <abstract>
                 <p/>
             </abstract>
-            <t:langUsage xmlns:t="http://www.tei-c.org/ns/1.0">
+            <langUsage>
                 <language ident="en">English</language>
                 <language ident="gez">Gǝʿǝz</language>
-            </t:langUsage>
+            </langUsage>
         </profileDesc>
-        <revisionDesc>
-            <change who="DR" when="2025-08-14">Created stub</change>
+        <revisionDesc> 
+            <change who="DR" when="2025-08-14">Created entity. I distance myself from the norm ISO
+                5218:2004, used here for legacy reasons.</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ʾAmda Śǝllāse</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
-                    <faith type=""/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <persName xml:lang="gez" xml:id="n1">አምደ፡ ሥላሴ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAmda Śǝllāse</persName>
+                    <persName xml:lang="gez" xml:id="n2">አሞጸ፡ ሥላሴ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n2">ʾAmoṣa Śǝllāse</persName>
+                    <note>The name of this person is rendered in      <bibl>
+                        <ptr target="bm:Strelcyn1976Catalogue"/>
+                        <citedRange unit="page">112</citedRange> as ‘ʾAmoṣa Śǝllāse’. It seems most
+                        likely that this is a misreading.
+                    </bibl></note>
+                    <floruit notBefore="1800" notAfter="1949"/>
                 </person>
                 <listRelation>
-                    <relation name="saws:hasOwned" active="PRS15010AmdaS" passive=""/>
+                    <relation name="saws:hasOwned" active="PRS15010AmdaS" passive="ANLcr35"/>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
+    
 </TEI>
