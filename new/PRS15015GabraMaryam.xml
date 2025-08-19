@@ -38,24 +38,29 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="NV" when="2025-08-19">Created stub</change>
+            <change who="NV" when="2025-08-19">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Gabra Māryām</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
-                    <faith type=""/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <persName xml:lang="gez" xml:id="n1">ገብረ፡ ማርያም፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra Māryām</persName>
+                    <note>Gabra Māryām is described in the colophon of <ref type="mss" corresp="BNFabb200"/> as <foreign xml:lang="gez">ደብተራ፡ ገብረ፡ ማርያም፡ ቤተልሔማዊ።</foreign>
+                        </note>
+                    <floruit notBefore="1800" notAfter="1900"/>
                 </person>
                 <listRelation>
-                    <relation name="saws:isCopierOf" active="PRS15015GabraMaryam" passive=""/>
+                    <relation name="saws:isCopierOf" active="PRS15015GabraMaryam" passive="BNFabb200"/>
+                    <relation name="saws:isCopierOf" active="PRS15015GabraMaryam" passive="BNFabb211"/>
+                    <relation name="saws:isCopierOf" active="PRS15015GabraMaryam" passive="BNFabb215"/>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
+            <listBibl type="secondary">
+                <bibl>                                         <ptr target="bm:Wion2013Hatata1"/>
+                        </bibl>
+            </listBibl>
         </body>
     </text>
 </TEI>
