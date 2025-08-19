@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Wǝbe Aṭnaf Sägäd</title>
+            <title>Wǝbe ʾAṭnāf Sagad</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -46,13 +46,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <listPerson>
             <person sex="1">
                <persName>
-                  
-                  Wǝbe Aṭnaf Sägäd
+                  <persName xml:lang="gez" xml:id="n1">ውቤ፡ አጥናፍ፡ ሰገድ፡</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Wǝbe ʾAṭnāf Sagad</persName>
+                  <persName type="alt" xml:lang="gez" xml:id="n2">ውቤ፡</persName>
+                  <persName xml:lang="gez" corresp="#n2" type="normalized">Wǝbe</persName>
                </persName>
-               <persName type="alt">Abba Tadäg</persName>
-               <occupation> däǧǧ. </occupation>
+               <persName type="alt">ʾAbbā Tādag</persName>
+               <persName>
+                  <roleName type="rank">daǧǧāzmāč</roleName>
+               </persName>
+               <occupation type="military">warrior</occupation>
+               <death notBefore="1912" notAfter="1913"/>
+               <floruit notBefore="1850">He was a significant warrior of the time of Emperor <persName ref="PRS7006Menilek"/> 
+                  and a third husband of Emperor’s daughter <persName ref="PRS10671Zawditu"/>. After he was divorced by his wife he was granted the governorship of Golā near <placeName ref="LOC1465Ankoba"/>.
+               </floruit>
             </person>
          </listPerson>
+         <bibl>
+            <ptr target="bm:Rubinkowska2010Webe"></ptr>
+         </bibl>
       </body>
    </text>
 </TEI>
