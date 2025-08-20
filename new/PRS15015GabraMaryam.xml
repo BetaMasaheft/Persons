@@ -39,6 +39,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="NV" when="2025-08-19">Created entity</change>
+            <change who="NV" when="2025-08-20">Elaborated the encoding based on Dorothea Reule´s review</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -47,7 +48,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ገብረ፡ ማርያም፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra Māryām</persName>
-                    <note>Gabra Māryām copied several manuscripts for <persName ref="PRS9683Urbino"/>
+                    <occupation type="ecclesiastic">dabtarā</occupation>
+                    <note>Gabra Māryām copied several manuscripts for <persName ref="PRS9683Urbino"/>,
                         in the colophon of <ref type="mss" corresp="BNFabb200"/>  he is described as <foreign xml:lang="gez">ደብተራ፡ ገብረ፡ ማርያም፡ ቤተልሔማዊ።</foreign>
                         </note>
                     <floruit notBefore="1800" notAfter="1900"/>
