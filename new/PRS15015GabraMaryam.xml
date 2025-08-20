@@ -1,0 +1,70 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS15015GabraMaryam" xml:lang="en" type="pers">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Gabra Māryām</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="NV"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="NV" when="2025-08-19">Created entity</change>
+            <change who="NV" when="2025-08-20">Elaborated the encoding based on Dorothea Reule´s review</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person sex="1">
+                    <persName xml:lang="gez" xml:id="n1">ገብረ፡ ማርያም፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra Māryām</persName>
+                    <occupation type="ecclesiastic">dabtarā</occupation>
+                    <note>Gabra Māryām copied several manuscripts for <persName ref="PRS9683Urbino"/>,
+                        in the colophon of <ref type="mss" corresp="BNFabb200"/>  he is described as <foreign xml:lang="gez">ደብተራ፡ ገብረ፡ ማርያም፡ ቤተልሔማዊ።</foreign>
+                        </note>
+                    <floruit notBefore="1800" notAfter="1900"/>
+                </person>
+                <listRelation>
+                    <relation name="saws:isCopierOf" active="PRS15015GabraMaryam" passive="BNFabb200"/>
+                    <relation name="saws:isCopierOf" active="PRS15015GabraMaryam" passive="BNFabb211"/>
+                    <relation name="saws:isCopierOf" active="PRS15015GabraMaryam" passive="BNFabb214"/>
+                    <relation name="saws:isCopierOf" active="PRS15015GabraMaryam" passive="BNFabb215"/>
+                </listRelation>
+            </listPerson>
+            <listBibl type="secondary">
+                <bibl>                                         <ptr target="bm:Wion2013Hatata1"/>
+                        </bibl>
+            </listBibl>
+        </body>
+    </text>
+</TEI>
