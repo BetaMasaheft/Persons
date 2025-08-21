@@ -38,7 +38,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="DR" when="2025-08-20">Created stub</change>
+            <change who="DR" when="2025-08-20">Created entity. I distance myself from the norm ISO
+                5218:2004, used here for legacy reasons.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -46,7 +47,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPerson>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ኃይለማርያም፡ ገብረ፡ ማርያም፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Ḫāyla Māryām Gabra Māryām</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Ḫāylamāryām Gabra Māryām</persName>
+                    <persName xml:lang="gez" xml:id="n2">ኃይለ፡ ማርያም፡ ገብረ፡ ማርያም፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n2">Ḫāyla Māryām Gabra Māryām</persName>
+                    <note>The name is attested in the manuscript in the spelling <foreign
+                        xml:lang="gez">ኃይለማርያም፡</foreign>.</note>
                     <persName><roleName type="title">ḫalaqā</roleName></persName>
                     <floruit when="1934">1934</floruit>
                 </person>
