@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Wǝbe Ḫaylä Maryam</title>
+            <title>Wǝbe Ḫayla Māryām</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -45,12 +45,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Wǝbe Ḫaylä Maryam
-               </persName>
-               <persName type="alt">Abba Mare</persName>
-               <occupation> däǧǧ. </occupation>
+               <persName xml:lang="gez" xml:id="n1">ውቤ፡ ኀይለ፡ ማርያም፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Wǝbe Ḫayla Māryām</persName>
+               <persName type="baptismal" xml:lang="gez" xml:id="n2">ኪዳነ፡ ማርያም፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Kidāna Māryām</persName>
+               <persName xml:lang="gez" xml:id="n3" type="horse">አባ፡ ማሬ፡</persName>
+               <persName xml:lang="gez" corresp="#n3" type="normalized">ʾAbbā Māre</persName>
+               <persName><roleName type="rank">daǧǧāzmāč</roleName></persName>
+               <occupation>landlord</occupation>
+               <birth when="1799">ca. 1799</birth>
+               <death when="1867">He died as a prisoner in <date>1867</date> at <placeName ref="LOC4547Maqdal">Maqdalā</placeName>. 
+               </death>
+               <floruit>He was one of the most important political and military figures during the second phase of the Zamana Masāfǝnt.</floruit>
+               
             </person>
          </listPerson>
       </body>

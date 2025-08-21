@@ -45,16 +45,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
+               
                   <persName xml:lang="gez" xml:id="n1">ውቤ፡ አጥናፍ፡ ሰገድ፡</persName>
                   <persName xml:lang="gez" corresp="#n1" type="normalized">Wǝbe ʾAṭnāf Sagad</persName>
                   <persName type="alt" xml:lang="gez" xml:id="n2">ውቤ፡</persName>
                   <persName xml:lang="gez" corresp="#n2" type="normalized">Wǝbe</persName>
-               </persName>
-               <persName type="alt">ʾAbbā Tādag</persName>
-               <persName>
-                  <roleName type="rank">daǧǧāzmāč</roleName>
-               </persName>
+                  <persName xml:lang="gez" xml:id="n3" type="horse">አባ፡ ታደግ፡</persName>
+                  <persName xml:lang="gez" corresp="#n3" type="normalized">ʾAbbā Tādag</persName>
+               <persName><roleName type="rank">daǧǧāzmāč</roleName></persName>
+                 
                <occupation type="military">warrior</occupation>
                <death notBefore="1912" notAfter="1913"/>
                <floruit notBefore="1850">He was a significant warrior of the time of Emperor <persName ref="PRS7006Menilek"/> 
