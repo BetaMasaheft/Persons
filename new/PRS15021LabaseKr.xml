@@ -38,7 +38,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MK" when="2025-08-20">Created stub</change>
+            <change who="MK" when="2025-08-20">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -49,14 +49,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <persName xml:lang="gez" type="normalized" corresp="#n1"/>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1730" notAfter="1830">Between 1730 and 1830</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15021LabaseKr" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS15021LabaseKr" passive="ESdd020"/>
+                    <relation name="snap:FatherOf" active="#PRS15021LabaseKr" passive="PRS15020GermaSey"></relation>
+                    <relation name=""></relation>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
+            
+            
         </body>
     </text>
 </TEI>
