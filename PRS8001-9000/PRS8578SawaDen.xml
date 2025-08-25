@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Säwa Dǝngǝl</title>
+            <title>Sawā Dǝngǝl</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -32,24 +32,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change when="2025-07-31" who="CH">Updated transcription</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Säwa Dǝngǝl
-               </persName>
-               <occupation> trav. </occupation>
+               <persName xml:lang="gez" xml:id="n1">ሰዋ፡ ድንግል፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Sawā Dǝngǝl</persName>
+               <occupation>trav.</occupation>
             </person>
          </listPerson>
       </body>
