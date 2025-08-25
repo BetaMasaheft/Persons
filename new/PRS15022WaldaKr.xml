@@ -49,10 +49,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Walda Krǝstos</persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
-                    <floruit/>
+                    <floruit notBefore="1750" notAfter="1850">Between 1750 and 1850</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15022WaldaKr" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS15022WaldaKr" passive="ESdd020"/>
+                    <relation name="snap:KinOf" active="PRS15022WaldaKr" passive="PRS15020GermaSey"><desc>Walda Krǝstos appears in supplication formulas. He is likely a relative of the commissioner ʾAbbā Gǝrmā Ṣǝyon.</desc></relation>
                 </listRelation>
             </listPerson><!---->
         </body>
