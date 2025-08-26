@@ -45,8 +45,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">መልዓከ፡ ምሕረት፡ ያሬድ፡ ግርማዬ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Malʿāka Mǝḥrat Yāred Gǝrmāye</persName>
+                    <persName xml:lang="gez" xml:id="n1">ያሬድ፡ ግርማዬ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Yāred Gǝrmāye</persName>
+                    <persName xml:lang="gez" xml:id="n2"><roleName type="title">መልዓከ፡ ምሕረት፡</roleName></persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n2"><roleName type="title">Malʿāka Mǝḥrat</roleName></persName>
                     <faith type="EOTC"/>
                     <occupation type="ecclesiastic">deacon</occupation>
                     <occupation type="ecclesiastic">Administrator of Č̣alaqot Śǝllāse</occupation>
