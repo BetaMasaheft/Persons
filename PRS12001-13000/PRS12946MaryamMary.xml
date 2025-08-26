@@ -45,8 +45,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="2">
-                    <persName xml:lang="en" xml:id="n1">Cicely Mary Maples</persName>
-                    <persName xml:lang="en" corresp="#n1" type="given">Mary Juel-Jensen</persName>   
+                    <persName xml:lang="en" xml:id="n1" type="main">Mary Juel-Jensen</persName>
+                    <persName xml:lang="en" xml:id="n2">Cicely Mary Maples</persName>   
                     <persName xml:lang="gez" corresp="#n1">ማርያም፡</persName>   
                     <persName xml:lang="gez" corresp="#n1" type="normalized">Māryām</persName>   
                     <birth notBefore="1924" notAfter="1925"/>
