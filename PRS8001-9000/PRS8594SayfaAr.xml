@@ -16,7 +16,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 This file is licensed under the Creative Commons
                 Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2016-03-21</date>
+            
          </publicationStmt>
          <sourceDesc>
             <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
@@ -45,12 +45,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
-            <person sex="1" sameAs="wd:Q60558896">
+            <person sex="1">
 
                <persName xml:lang="gez" xml:id="n1" type="birth">ሰይፈ፡ አርዐድ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Sayfa ʾArʿad</persName>
                <persName type="alt">Tazer</persName>
-               <occupation type="ruler"> Aksumite king </occupation>
+               <occupation type="ruler"> Aksumite king, probably the same as <persName ref="PRS7688Ousanas"></persName> </occupation>
                <residence>
                   <placeName ref="LOC1310Aksum"/>
                </residence>

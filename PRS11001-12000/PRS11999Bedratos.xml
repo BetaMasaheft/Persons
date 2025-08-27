@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
     <teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt>
-                <title>Bǝdrāṭos</title>
+                <title>Quadratus of Athens</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DR"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -40,14 +40,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
         </profileDesc>
         <revisionDesc>
             <change who="DR" when="2018-04-14">Created entity</change>
+            <change when="2025-08-27" who="ES">corrected wikidata ID, added main name</change>
         </revisionDesc>
     </teiHeader>
     <text xml:base="https://betamasaheft.eu/">
         <body>
             <listPerson>
-                <person sex="1" sameAs="wd:Q29170933">
+                <person sex="1" sameAs="wd:Q445029">
                     <persName xml:lang="gez" xml:id="n1">ብድራጦስ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Bǝdrāṭos</persName>
+                    <persName xml:lang="en" type="main" corresp="#n1">Quadratus of Athens</persName>
+                    <floruit>early Christian apologist, traditionally regarded as a disciple of the Apostles and one of the Seventy Apostles; d. c. 130, commemorated on 21 September</floruit>
                 </person>
                 <listRelation>
                     <relation name="ecrm:P129i_is_subject_of" active="PRS11999Bedratos" passive="LIT2375Synaxa"/>
