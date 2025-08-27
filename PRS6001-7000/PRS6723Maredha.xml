@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Märǝd Ḫaylu</title>
+            <title>Marǝd Ḫāylu</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -32,25 +32,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change who="DR" when="2025-08-27">Updated name</change> 
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Märǝd Ḫaylu
-               </persName>
-               <persName type="alt">Märʿed Ḫaylu</persName>
-               <occupation> ras </occupation>
+               <persName xml:lang="gez" xml:id="n1">መርድ፡ ኃይሉ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Marǝd Ḫāylu</persName>
+               <persName xml:lang="gez" xml:id="n2">መርዔድ፡ ኃይሉ፡</persName>
+               <persName xml:lang="gez" corresp="#n2" type="normalized">Marʿed Ḫāylu</persName>
+               <occupation type="political">rās</occupation>
             </person>
          </listPerson>
       </body>
