@@ -48,14 +48,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="JG" when="2023-04-22">Created entity</change>
+            <change who="DR" when="2025-08-27">Updated name</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1" sameAs="wd:Q709209">
-                    <persName xml:lang="en" xml:id="n1">Philemon</persName>
-                    <persName xml:lang="gez" xml:id="n2">ፊልሞና፡</persName>
+                    <persName xml:lang="gez" xml:id="n1">ፊልሞና፡</persName>
+                    <persName xml:lang="gez" corresp="#n1" type="normalized">Filmonā</persName>
+                    <persName xml:lang="en" xml:id="n2" type="main">Philemon</persName>
                     <faith type="Christianity"/>
                     <occupation>Bishop</occupation>
 
