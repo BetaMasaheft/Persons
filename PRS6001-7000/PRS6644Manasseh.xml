@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Manasseh (Manasse</title>
+            <title>Manasseh</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -45,17 +45,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
          <change who="PL" when="2019-03-27">removed occupation containing St, Saint, bibl, biblical or prophet, added keyword. See https://github.com/BetaMasaheft/Documentation/issues/1104</change>
+         <change who="DR" when="2025-08-27">Updated name</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Manasseh (Manasse
-               </persName>
-               <persName type="alt">Manasses</persName>
+               <persName xml:id="n1">Manasseh</persName>
+               <persName xml:id="n2" type="alt">Manasse</persName>
+               <persName type="alt" xml:id="n3">Manasses</persName>
                <!-- prophet -->
             </person>
          </listPerson>
