@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Baryaʾu Gäbrä Ṣadǝq</title>
+            <title>Bāryāʾu Gabra Ṣādǝq</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -32,26 +32,33 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="am">Amharic</language>
+         </langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change when="2025-09-13" who="CH">Updated names, added bibliography</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Baryaʾu Gäbrä Ṣadǝq
-               </persName>
-               <occupation> ras </occupation>
+               <persName xml:id="n1" xml:lang="gez">ባርያኡ፡ ገብረ፡ ጻድቅ፡</persName>
+               <persName corresp="#n1" xml:lang="gez" type="normalized">Bāryāʾu Gabra Ṣādǝq</persName>
+               <persName><roleName type="title">rās</roleName></persName>
             </person>
          </listPerson>
+         <div type="bibliography">
+            <bibl>
+               <ptr target="bm:Bairu2014WaldaMi"/><citedRange unit="page">1106b</citedRange>
+            </bibl>
+         </div>
       </body>
    </text>
 </TEI>
