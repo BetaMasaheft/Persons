@@ -39,7 +39,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
-         <change when="2025-09-12" who="CH">Added wikidata and floruit, updated names and occupations</change>
+         <change when="2025-09-12" who="CH">Added wikidata and floruit, updated names and occupations based on information in wikipedia and EAe</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -51,16 +51,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                <persName xml:id="n2" xml:lang="am">ጎርዶን፡ ባሻ፡</persName>
                <persName xml:lang="am" type="normalized" corresp="#n2">Gordon Bāšā</persName>
                <persName xml:lang="en" corresp="#n2">Gordon Pasha</persName>
-               <persName><roleName type="rank">Major-General</roleName></persName>
+               <persName><roleName type="rank">major-general</roleName></persName>
                <occupation type="political"></occupation>
                <occupation type="military">British army officer and commander during the British-Ethiopian conflict over 
                   <placeName ref="LOC1945Bogos"/> in 1875.</occupation>
                <occupation type="other">engineer</occupation>
                <birth when="1833-01-28">28 January 1833</birth>
                <death when="1885-01-26">26 January 1885 in a siege of Khartoum</death>
-               <floruit notBefore="1873" notAfter="1885-01-26">Governor-General of the Sudan from 1873 until his death</floruit>
+               <floruit notBefore="1873" notAfter="1885-01-26">governor-general of the Sudan from 1873 until his death</floruit>
             </person>
          </listPerson>
+         <div type="bibliography">
+            <bibl><ptr target="bm:Haggai2006Gordon"/></bibl>
+            <bibl><ptr target="bm:wikipedia2025Gordon"/></bibl>
+         </div>
       </body>
    </text>
 </TEI>
