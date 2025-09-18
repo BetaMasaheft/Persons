@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Marqos</title>
+            <title>Mārqos</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -32,29 +32,31 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change when="2025-09-18" who="CH">Updated names, occupation, floruit; added bibliography</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Marqos
-               </persName>
-               <occupation> bishop (Goǧǧam) </occupation>
-               <residence>
-                  Gojjam
-               </residence>
+               <persName xml:lang="gez" xml:id="n1" type="monastic">ማርቆስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Mārqos</persName>
+               <occupation type="ecclesiastic">bishop of <placeName ref="LOC3549Gojjam"/></occupation>
+               <residence ref="LOC2310DabraM"/>
+               <faith type="EOTC"/>
+               <floruit notBefore="1900" notAfter="1999">20th century</floruit>
             </person>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl><ptr target="bm:Nosnitsin2005Eppisqoppos"/><citedRange unit="page">344a</citedRange></bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
