@@ -38,7 +38,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="CH" when="2025-09-17">Created record</change>
-            <!-- Add change note after review-->
+            <change who="CH" when="2025-09-17">Reviewed and approved by Dorothea Reule</change>
+            <change when="2025-09-17" who="CH">Add type Switzerland to nationality</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -49,7 +50,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <birth when="1852-03">March 1852</birth>
                     <death when="1922-12-10">10 December 1922</death>
                     <occupation type="academic">naturalist and zoologist</occupation>
-                    <nationality type="notSpecified">Switzerland</nationality>
+                    <nationality type="Switzerland"/>
                     <nationality type="UnitedKingdom"/>
                     <floruit notBefore="1895" notAfter="1915">He travelled around Ethiopia at the turn of the century.</floruit>
                 </person>
