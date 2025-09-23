@@ -36,6 +36,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       </profileDesc>
       <revisionDesc>
          <change who="MV" when="2017-06-01">Created record</change>
+         <change when="2025-09-23" who="CH">Identified PRS11674WaldaIy as scribe for PRS7006Menilek, who copied BLorient13308;
+            added floruit and added explicit information on occupation</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -45,10 +47,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                <persName xml:id="n1" xml:lang="gez">ወልደ፡ ኢየሱስ፡</persName>
                <persName xml:lang="gez" type="normalized" corresp="#n1">Walda ʾIyasus</persName>
                <faith type="EOTC"/>
-               <occupation type="other"/>
+               <occupation type="other">scribe</occupation>
+               <floruit notBefore="1890" notAfter="1920">End of 19th century and beginning of 20th century</floruit>
             </person>
             <listRelation>
                <relation name="saws:isCopierOf" active="PRS11674WaldaIy" passive="BAVet95"/>
+               <relation name="saws:isCopierOf" active="PRS11674WaldaIy" passive="BLorient13308"/>
             </listRelation>
          </listPerson>
       </body>
