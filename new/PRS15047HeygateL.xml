@@ -39,7 +39,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <revisionDesc>
             <change who="CH" when="2025-09-29">Created record with information from https://www.bansteadhistory.com/houses_az.html 
                 and BLorient13309</change>
-            <!-- Add change note after review -->
+            <change when="2025-09-29" who="CH">Reviewed and approved by Dorothea Reule</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -50,9 +50,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <surname>Heygate Lambert</surname></persName>
                     <floruit notBefore="1870" notAfter="1930">Late 19th century to first half of 20th century</floruit>
                     <nationality type="UnitedKingdom"/>
-                    <residence>Banstead near Manchester</residence>
+                    <residence>Banstead in Surrey</residence>
                 </person>
             </listPerson>
+            <listBibl type="secondary">
+                <bibl><ptr target="bm:Banstead2022Garratts"/></bibl>
+            </listBibl>
         </body>
     </text>
 </TEI>
