@@ -27,36 +27,34 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <encodingDesc>
             <p>A digital born TEI file</p>
         </encodingDesc>
-        <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+        <profileDesc>
             <creation/>
             <abstract>
                 <p/>
             </abstract>
-            <t:langUsage>
-                <t:language ident="en">English</t:language>
-                <t:language ident="gez">Gǝʿǝz</t:language>
-            </t:langUsage>
-        </t:profileDesc>
-        <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
-            <t:change who="MK" when="2025-10-08">Created stub</t:change>
-        </t:revisionDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="MK" when="2025-10-08">Created record</change>
+        </revisionDesc>
     </teiHeader>
-    <t:text xmlns:t="http://www.tei-c.org/ns/1.0">
+    <text>
         <body>
-            <t:listPerson>
-                <t:person sex="2">
-                    <persName xml:lang="gez" xml:id="n1">ʾƎlleni</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
-                    <t:faith type="EOTC"/>
-                    <t:nationality type="Ethiopia"/>
-                    <birth/>
-                    <t:death/>
-                    <floruit/>
-                </t:person>
+            <listPerson>
+                <person sex="2">
+                    <persName xml:lang="gez" xml:id="n1">እሌኒ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">ʾƎlleni</persName>
+                    <faith type="EOTC"/>
+                    <nationality type="Ethiopia"/>
+                    <floruit notBefore="1800" notAfter="1899" cert="medium">Likely in the 19th century</floruit>
+                </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15054Elleni" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS15054Elleni" passive="ESdd001"><desc>Her name appears in the supplication formulas.</desc></relation>
                 </listRelation>
-            </t:listPerson><!---->
+            </listPerson><!---->
         </body>
-    </t:text>
+    </text>
 </TEI>
