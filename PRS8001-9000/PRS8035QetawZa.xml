@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Qǝṭaw Zämanuʾel</title>
+            <title>Qǝṭāw Zamānuʾel</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -32,26 +32,34 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change when="2025-10-16" who="CH">Updated record according to information from EAe</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Qǝṭaw Zämanuʾel
-               </persName>
-               <occupation> bal. </occupation>
+               <persName xml:id="n1" xml:lang="gez">ቅጣው፡ ዘማኑኤል፡</persName>
+               <persName corresp="#n1" xml:lang="gez" type="normalized">Qǝṭāw Zamānuʾel</persName>
+               <persName><roleName type="title">balambaras</roleName></persName>
+               <nationality type="Ethiopia"/>
+               <occupation type="academic">He was sent for studies to French Switzerland in 1894 together with 
+                  <persName ref="PRS4868GugsaDa"/> and <persName ref="PRS1451Afawarq"/>.</occupation>
+               <occupation type="political">He was president of the Special court for foreign trade relations in 1930.</occupation>
+               <floruit notBefore="1885" notAfter="1950">End of 19th and first half of 20th century</floruit>
             </person>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl><ptr target="bm:Scholler2010SpecialCourt"/></bibl>
+            <bibl><ptr target="bm:Rouaud2005GugsaDarge"/></bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
