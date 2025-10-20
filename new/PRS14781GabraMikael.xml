@@ -49,11 +49,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra Mikāʾel</persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
-                    <floruit notBefore="1800" notAfter="1950"/>
+                    <floruit notBefore="1800" notAfter="1950">1800–1950</floruit>
                 </person>
                 <listRelation>
                     <relation name="saws:hasOwned" active="PRS14781GabraMikael" passive="ESdd025"/>
-                    <relation name="snap:KinOf" active="PRS14781GabraMikael" passive="PRS14782TawaldaMadhen"/>
+                    <relation name="dc:relation" active="PRS14781GabraMikael" passive="PRS14782TawaldaMadhen"/>
+                    <relation name="dc:relation" active="PRS14781GabraMikael" passive="PRS15070WalattaTHay"/>
                 </listRelation>
             </listPerson>
         </body>
