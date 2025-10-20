@@ -39,6 +39,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="MK" when="2025-04-04">Created entity</change>
+            <change who="MK" when="2025-10-20">Added fl. and relations</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -49,11 +50,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Tawalda Madḫǝn</persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
-                    <floruit notBefore="1800" notAfter="1950"/>
+                    <floruit notBefore="1800" notAfter="1950">1800–1950</floruit>
                 </person>
                 <listRelation>
-                    <relation name="saws:hasOwned" active="PRS14782TawaldaMadhen" passive="ESdd025"/>
-                    <relation name="snap:KinOf" active="PRS14782TawaldaMadhen" passive="PRS14781GabraMikael"/>
+                    <relation name="lawd:hasAttestation" active="PRS14782TawaldaMadhen" passive="ESdd025"/>
+                    <relation name="dc:relation" active="PRS14782TawaldaMadhen" passive="PRS14781GabraMikael"/>
                 </listRelation>
             </listPerson>
         </body>
