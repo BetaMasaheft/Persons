@@ -39,7 +39,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="CH" when="2025-10-22">Created record</change>
-            <!-- Add change note after review -->
+            <change when="2025-10-22" who="CH">Updates after review by Eugenia Sokolinski</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -48,13 +48,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">መድኅን፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Madḫǝn</persName>
-                    <persName xml:lang="gez" xml:id="n2">መድኃነ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n2">Madḫāna</persName>
-                    <persName xml:lang="gez" xml:id="n3" type="baptismal">ገብረ፡ መድኅን፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n3">Gabra Madḫǝn</persName>
-                    <persName xml:lang="gez" xml:id="n4" type="baptismal">ገብረ፡ መድኅ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n4">Gabra Madḫ</persName>
-                    <note>The forms ‘Madḫāna’ and ‘Gabra Madḫ’ are probably scribal errors.</note>
+                    <persName xml:lang="gez" xml:id="n2" type="baptismal">ገብረ፡ መድኅን፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n2">Gabra Madḫǝn</persName>
                     <persName><roleName type="title">ʾato</roleName></persName>
                     <floruit notBefore="1800" notAfter="1910">19th or early 20th century</floruit>
                     <residence ref="LOC7479AdKasu">As he donated a codex to the 
@@ -63,7 +58,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </person>
                 <listRelation>
                     <relation name="betmas:husbandOf" active="PRS15072Madhen" passive="PRS15075ManaEsrael"/>
-                    <relation name="betmas:sonInLawOf" active="PRS15072Madhen" passive="PRS15076WalattaMik"/><!--daughter's husband-->
+                    <relation name="betmas:sonInLawOf" active="PRS15072Madhen" passive="PRS15076WalattaMik"/>
                     <relation name="snap:SonOf" active="PRS15072Madhen" passive="PRS15073HaylaSel"/>
                     <relation name="snap:SonOf" active="PRS15072Madhen" passive="PRS15074WalattaSan"/>
                     <relation name="saws:hasOwned" active="PRS15072Madhen" passive="ANLcr71"/>
