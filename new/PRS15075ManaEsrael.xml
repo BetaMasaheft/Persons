@@ -1,0 +1,65 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS15075ManaEsrael" xml:lang="en" type="pers">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Manā ʾƎsrāʾel</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="CH"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="CH" when="2025-10-22">Created record</change>
+            <change when="2025-10-22" who="CH">Reviewed and approved by Eugenia Sokolinski</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person sex="2">
+                    <persName xml:lang="gez" xml:id="n1">መና፡ እስራኤል፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Manā ʾƎsrāʾel</persName>
+                    <floruit notBefore="1800" notAfter="1910">19th or early 20th century</floruit>
+                    <residence ref="LOC7479AdKasu">As her husband <persName ref="PRS15072Madhen"/> donated a codex to the 
+                        <placeName ref="LOC7480QMikael">Church of St Michael</placeName> in <placeName ref="LOC7479AdKasu"/>, 
+                        they were possibly inhabitants of this village.</residence>
+                </person>
+                <listRelation>
+                    <relation name="betmas:wifeOf" active="PRS15075ManaEsrael" passive="PRS15072Madhen"/>
+                    <relation name="betmas:daugtherInLawOf" active="PRS15075ManaEsrael" passive="PRS15073HaylaSel"/>
+                    <relation name="betmas:daugtherInLawOf" active="PRS15075ManaEsrael" passive="PRS15074WalattaSan"/>
+                    <relation name="snap:DaughterOf" active="PRS15075ManaEsrael" passive="PRS15076WalattaMik"/>
+                </listRelation>
+            </listPerson><!---->
+        </body>
+    </text>
+</TEI>
