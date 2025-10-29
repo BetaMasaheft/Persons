@@ -39,18 +39,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="CH" when="2025-10-28">Created record</change>
-            <!-- Add change note after review -->
+            <change when="2025-10-29" who="CH">Updates after review of Magdalena Krzyżanowska</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person>
+                <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">በኵረ፡ ድንግል፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Bakʷǝra Dǝngǝl</persName>
-                    <floruit notBefore="1800" notAfter="1941">He or she was mentioned in a 20th-century manuscript 
-                        (<ref type="mss" corresp="ANLcr76"/>) as the person, for whom a text of the Miracles of Mary have was copied. Therefore,
-                        he or she was possibly alive at the beginning of the 20th or at the beginning or towards the end of the 19th century.</floruit>
+                    <floruit notBefore="1800" notAfter="1941">He was mentioned in a 20th-century manuscript 
+                        (<ref type="mss" corresp="ANLcr76"/>) as the person for whom a text of the Miracles of Mary was copied. Therefore,
+                        he was possibly alive at the beginning of the 20th or at the beginning or towards the end of the 19th century.</floruit>
                 </person>
             </listPerson>
         </body>

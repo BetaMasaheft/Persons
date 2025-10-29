@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Taḵla Waldamāryām</title>
+                <title>Takla Walda Māryām</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="CH"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -39,20 +39,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="CH" when="2025-10-28">Created record</change>
-            <!-- Add change note after review -->
+            <change when="2025-10-29" who="CH">Updates after reviews by Magdalena Krzyżanowska and Denis Nosnitsin</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="ti" xml:id="n1">ተኽለ፡ ወልደማርያም፡</persName><!-- As quoted in catalogue description of ANLcr76 -->
-                    <persName xml:lang="ti" type="normalized" corresp="#n1">Taḵla Waldamāryām</persName>
-                    <persName xml:lang="gez" xml:id="n2">ተክለ፡ ወልደ፡ ማርያም፡</persName><!-- Geez for convenience -->
-                    <persName xml:lang="gez" type="normalized" corresp="#n2">Takla Walda Māryām</persName>
-                    <persName><roleName type="title">Referred to with the Tigrinya title 'fitawrār' in <ref type="mss" corresp="ANLcr76"/>,
-                        being equivalent to 'fitāwrāri' in Gǝʿǝz.</roleName></persName><!-- Deviation probably due to Tigrinya orthography -->
-                    <persName><roleName type="office">šum bāšā</roleName></persName><!-- Office or Title? -->
+                    <persName xml:lang="gez" xml:id="n1">ተክለ፡ ወልደ፡ ማርያም፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Takla Walda Māryām</persName>
+                    <persName xml:lang="ti" xml:id="n2">ተኽለ፡ ወልደማርያም፡</persName>
+                    <persName xml:lang="ti" type="normalized" corresp="#n2">Taḵla Waldamāryām</persName>
+                    <persName><roleName type="rank">fitāwrāri' (variant: 'fitawrār')</roleName></persName>
+                    <persName><roleName type="title">šum bāšā</roleName></persName><!-- Office or Title? -->
                     <death when="1941">1941</death>
                     <floruit notBefore="1900" notAfter="1941">20th century, but not after 1941</floruit>
                 </person>
