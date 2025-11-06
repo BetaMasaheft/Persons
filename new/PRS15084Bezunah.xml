@@ -46,8 +46,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="am" xml:id="n1">ልጅ፡ ብዙነህ፡</persName>
-                    <persName xml:lang="am" type="normalized" corresp="#n1"><roleName type="title">lǝǧ</roleName> Bǝzunah</persName>    
+                    <persName xml:lang="am" xml:id="n1">ብዙነህ፡</persName>
+                    <persName xml:lang="am" type="normalized" corresp="#n1">Bǝzunah</persName>    
+                    <persName><roleName type="title">lǝǧ</roleName></persName>
                     <nationality type="Ethiopia"/>
                     <listRelation>
                         <relation name="lawd:hasAttestation" active="PRS15084Bezunah" passive="BAVet156">
