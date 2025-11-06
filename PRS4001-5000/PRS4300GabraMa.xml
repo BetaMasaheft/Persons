@@ -4,8 +4,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Gäbrä Mädḫǝn Gäbrä Muse s. Jérôme</title>
-            <author/>
+            <title>Jérôme Gabra Madḫǝn Gabra Muse</title>
+            <editor role="generalEditor" key="AB"/>
+            <editor key="MV"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
@@ -32,24 +34,31 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="ti">Tigrinya</language>
+            <language ident="fr">French</language>
+         </langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
-         <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
+         <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change who="MV" when="2025-11-06">Fixed title and biographical information</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Gäbrä Mädḫǝn Gäbrä Muse s. Jérôme
-               </persName>
+               <persName xml:lang="ti" xml:id="n1">ገብረ፡ መድኅን፡ ገብረ፡ ሙሴ፡</persName>
+               <persName xml:lang="ti" type="normalized" corresp="#n1">Gabra Madḫǝn Gabra Muse</persName>                    
+               <persName xml:lang="fr" xml:id="n2">Jérôme</persName>           
+               <persName xml:lang="gez" type="normalized" corresp="#n2">ጀሮም፡</persName>                            
+               <faith type="Catholicism"/>
                <occupation type="ecclesiastic">ʾabbā</occupation>
+               <birth when="1881"/>
+               <death when="1983"/>
             </person>
          </listPerson>
       </body>
