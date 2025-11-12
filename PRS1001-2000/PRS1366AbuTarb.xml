@@ -16,7 +16,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 This file is licensed under the Creative Commons
                 Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2016-03-21</date>
+            
          </publicationStmt>
          <sourceDesc>
             <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
@@ -51,11 +51,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Abū Tarbū
-               </persName>
-               <!-- St -->
+               <persName xml:id="n1">Abū Tarbū </persName>
+               <persName xml:id="n2">Abū Tarabu</persName>
+               <persName xml:id="n3">Tarbu</persName>
+               <floruit>This saint lived reportedly during the days of Emperor Diocletian, who tortured him severely, before finally throwing him in prison, where the saint remained until the Emperor died. Miracle:                 
+                  It happened one day that as Abo Terbo was walking, a ferocious dog with rabies drew near the saint as if to attack him. The saint prayed fervently to be saved from the dog, and so hearing his prayers, the Lord sent His angel to rescue him. The angel ordered him to stretch out his rod upon the dog, and so doing, the dog died immediately. The Lord then granted Abo Terbo the gift of healing people who have been attacked or bitten by dogs infected with rabies. In Ethiopia, a short hagiography is known. In Coptic, he is the subject of magic prayers (see CE V, 1507)</floruit>
+        
             </person>
          </listPerson>
       </body>
