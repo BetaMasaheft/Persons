@@ -35,12 +35,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <langUsage>
                 <language ident="en">English</language>
                 <language ident="gez">Gǝʿǝz</language>
-                <language ident="am">Amharic</language>
             </langUsage>
         </profileDesc>
         <revisionDesc>
             <change who="CH" when="2025-11-11">Created record</change>
-            <change when="2025-11-14" who="CH">Update names and occupation according to review by Magdalena Krzyżanowska.</change>
+            <change when="2025-11-14" who="CH">Update names and occupation according to review by Magdalena Krzyżanowska</change>
+            <change when="2025-11-14" who="CH">Updated names according to request of Magdalena Krzyżanowska</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -48,15 +48,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPerson>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ሙንጠዝ፡ ደለለ፡ የሺታ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Munṭaz Dallala Yašitā</persName>
-                    <persName xml:lang="am" xml:id="n2">ሙንጣዝ፡ ደላላ፡ የሺታ፡</persName>
-                    <persName xml:lang="am" type="normalized" corresp="#n2">Munṭāz Dallālā Yašitā</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Munṭaz Dallala ya-šittā</persName>
+                    <persName xml:lang="gez" xml:id="n2">ሙንጣዝ፡ ደለለ፡ የሺታ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n2">Munṭāz Dallala ya-šittā</persName>
                     <floruit notBefore="1900" notAfter="1950">First half of 20th century</floruit>
-                    <occupation type="other">He was possibly a trader (<foreign xml:lang="gez">ደላላ፡</foreign>) of perfume 
-                        (<foreign xml:lang="gez">ሺታ፡</foreign>).</occupation>
                     <residence ref="LOC3549Gojjam">The person is indicated as <foreign xml:lang="am">ዘብሔረ፡ ጐጃም፡ ሙንጣዝ፡ ደለለ፡ የሺታ፡</foreign>
-                        in <ref type="mss" corresp="ANLcr85"/>, so he is probably from <placeName ref="LOC3549Gojjam"/>.</residence>
-                </person>
+                        in manuscript Rome, Biblioteca dell’Accademia Nazionale dei Lincei, Conti Rossini 85, so he is probably from <placeName ref="LOC3549Gojjam"/>.</residence>
+                </person><!-- Add reference to ANLcr85 -->
                 <listRelation>
                     <relation name="saws:isCopierOf" active="PRS15086MuntazDS" passive="ANLcr83"/>
                     <!-- Copier of ANLcr85 -->
