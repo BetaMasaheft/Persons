@@ -40,22 +40,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="CH" when="2025-11-11">Created record</change>
-            <!-- Add change record after review -->
+            <change when="2025-11-14" who="CH">Update names and occupation according to review by Magdalena Krzyżanowska.</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person>
-                    <persName xml:lang="gez" xml:id="n1">ሙንጠዝ፡ ደለለ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Munṭaz Dallala</persName>
-                    <persName xml:lang="am" xml:id="n2">ሙንጠዝ፡ ደለለ፡ የሺታ፡</persName>
-                    <persName xml:lang="am" type="normalized" corresp="#n2">Munṭaz Dallala of Šitā</persName>
+                <person sex="1">
+                    <persName xml:lang="gez" xml:id="n1">ሙንጠዝ፡ ደለለ፡ የሺታ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Munṭaz Dallala Yašitā</persName>
+                    <persName xml:lang="am" xml:id="n2">ሙንጣዝ፡ ደላላ፡ የሺታ፡</persName>
+                    <persName xml:lang="am" type="normalized" corresp="#n2">Munṭāz Dallālā Yašitā</persName>
                     <floruit notBefore="1900" notAfter="1950">First half of 20th century</floruit>
-                    <residence>The person is indicated as <foreign xml:lang="am">ሙንጠዝ፡ ደለለ፡ የሺታ፡</foreign>, so he or she is 
-                        probably a member of the <persName ref="ETH2081sita"/> dwelling in the Eastern borderlands to the Sudan.</residence>
-                    <residence ref="LOC3549Gojjam">The person is indicated as <foreign xml:lang="am">ዘብሔረ ጐጃም፡ ሙንጠዝ፡ ደለለ፡ የሺታ፡</foreign>
-                        in <ref type="mss" corresp="ANLcr85"/>, so he or she is probably from <placeName ref="LOC3549Gojjam"/>.</residence>
+                    <occupation type="other">He was possibly a trader (<foreign xml:lang="gez">ደላላ፡</foreign>) of perfume 
+                        (<foreign xml:lang="gez">ሺታ፡</foreign>).</occupation>
+                    <residence ref="LOC3549Gojjam">The person is indicated as <foreign xml:lang="am">ዘብሔረ፡ ጐጃም፡ ሙንጣዝ፡ ደለለ፡ የሺታ፡</foreign>
+                        in <ref type="mss" corresp="ANLcr85"/>, so he is probably from <placeName ref="LOC3549Gojjam"/>.</residence>
                 </person>
                 <listRelation>
                     <relation name="saws:isCopierOf" active="PRS15086MuntazDS" passive="ANLcr83"/>
