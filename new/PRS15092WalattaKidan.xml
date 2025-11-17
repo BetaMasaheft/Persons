@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS15089Sehin" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS15092WalattaKidan" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Sǝhin</title>
+                <title>Walatta Kidān</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="MK"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -38,24 +38,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MK" when="2025-11-14">Created stub</change>
+            <change who="MK" when="2025-11-17">Created stub</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="2">
-                    <persName xml:lang="gez" xml:id="n1">ስሂን፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Sǝhin</persName>
-                    <persName><roleName type="title">wayzaro</roleName></persName>
+                    <persName xml:lang="gez" xml:id="n1">ወለተ፡ ኪዳን፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walatta Kidān</persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
-                    <floruit/>
+                    <floruit>Beginning of the 20th century.</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15089Sehin" passive="ESdd004"/>
-                    <relation name="betmas:wifeOf" active="PRS15089Sehin" passive="PRS12642WaleWarrababbo">
-                        <desc>Most likely she was the wife of  daǧǧāzmāč Wale with whom she appears on a miniature <ref type="mss" corresp="ESdd004#d30"/>.</desc></relation>
+                    <relation name="lawd:hasAttestation" active="PRS15092WalattaKidan" passive="ESdd004"><desc>Her name appears in supplication formulas.</desc></relation>
                 </listRelation>
             </listPerson><!---->
         </body>
