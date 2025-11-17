@@ -45,14 +45,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Takla Hāymānot</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ተክለ፡ ሃይማኖት፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Takla Hāymānot</persName>
                     <faith type="EOTC"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1867" notAfter="1870">Second half of the 19th century.</floruit>
                 </person>
-            </listPerson><!---->
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="PRS15101TaklaHa" passive="BAVet159">
+                        <desc>His name appears in an additional note on f. 33r.</desc></relation>
+                    <relation name="snap:BrotherOf" active="PRS15101TaklaHa" passive="PRS15095WaldaMi"/>
+                </listRelation>
+            </listPerson>
         </body>
     </text>
 </TEI>

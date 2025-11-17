@@ -45,14 +45,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="2">
-                    <persName xml:lang="gez" xml:id="n1">ʾAqlesyā</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">አቅሌስያ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAqlesyā</persName>
                     <faith type="EOTC"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1867" notAfter="1870">Second half of the 19th century.</floruit>
                 </person>
-            </listPerson><!---->
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="PRS15102Aqlesya" passive="BAVet159">
+                        <desc>His name appears in an additional note on f. 33r.</desc></relation>
+                    <relation name="snap:SisterOf" active="PRS15102Aqlesya" passive="PRS15095WaldaMi"/>
+                </listRelation>
+            </listPerson>
         </body>
     </text>
 </TEI>
