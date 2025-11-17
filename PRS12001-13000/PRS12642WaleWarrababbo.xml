@@ -50,8 +50,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Wale</persName>
                     <persName xml:lang="gez" xml:id="n2" type="alt">ወሊ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n2">Wali</persName>
-                    <persName type="baptismal" xml:id="n3">Walda Mikāʾel</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n3">ወልደ፡ ሚካኤል፡</persName>
+                    <persName type="baptismal" xml:id="n3">ወልደ፡ ሚካኤል፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n3">Walda Mikāʾel</persName>
                     <persName>
                         <roleName type="office">daǧǧāzmāč</roleName></persName>
                     <persName> <roleName type="office">daǧǧāč</roleName>
@@ -61,7 +61,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     <nationality type="Ethiopia"/>
                     <birth/>
                     <death notBefore="1910"/>
-                    <floruit>1900–1910</floruit>
+                    <floruit notBefore="1900" notAfter="1910">1900–1910</floruit>
                 </person>
                 <listRelation>
                     <relation name="saws:hasOwned" active="PRS12642WaleWarrababbo" passive="ESdd004"/>

@@ -38,7 +38,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MK" when="2025-11-14">Created stub</change>
+            <change who="MK" when="2025-11-14">Created record</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -50,12 +50,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <persName><roleName type="title">wayzaro</roleName></persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
-                    <floruit/>
+                    <floruit notBefore="1900" notAfter="1910">Beginning of the 20th century.</floruit>
                 </person>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="PRS15089Sehin" passive="ESdd004"/>
                     <relation name="betmas:wifeOf" active="PRS15089Sehin" passive="PRS12642WaleWarrababbo">
-                        <desc>Most likely she was the wife of daǧǧāzmāč Wale with whom she appears on a miniature <ref type="mss" corresp="ESdd004#d30"/>.</desc></relation>
+                        <desc>Most likely she was the wife of daǧǧāzmāč Wale with whom she appears in a miniature (<ref type="mss" corresp="ESdd004#d30"/>).</desc></relation>
                 </listRelation>
             </listPerson><!---->
         </body>
