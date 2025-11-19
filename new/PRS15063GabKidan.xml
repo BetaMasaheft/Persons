@@ -45,16 +45,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Gabra Kidān</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ገብረ፡ ኪዳን፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra Kidān</persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
-                    <t:birth xmlns:t="http://www.tei-c.org/ns/1.0"/>
-                    <t:death xmlns:t="http://www.tei-c.org/ns/1.0"/>
-                    <t:floruit xmlns:t="http://www.tei-c.org/ns/1.0"/>
+                    <floruit/>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15063GabKidan" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS15063GabKidan" passive="ESsm011"/>
                 </listRelation>
             </listPerson><!---->
         </body>
