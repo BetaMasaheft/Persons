@@ -28,7 +28,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>A digital born TEI file</p>
         </encodingDesc>
         <profileDesc>
-            <t:creation xmlns:t="http://www.tei-c.org/ns/1.0"/>
+            <creation/>
             <abstract>
                 <p/>
             </abstract>
@@ -38,7 +38,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MK" when="2025-10-15">Created stub</change>
+            <change who="MK" when="2025-10-15">Created record</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -52,9 +52,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <floruit/>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15063GabKidan" passive="ESsm011"/>
+                    <relation name="lawd:hasAttestation" active="PRS15063GabKidan" passive="ESsm011"><desc>His name appears in Additio 5.</desc></relation>
+                    <relation name="snap:KinOf" active="RS15063GabKidan" passive="PRS15061GabMar"></relation>
+                    <relation name="snap:KinOf" active="RS15063GabKidan" passive="PRS15062WalMar"></relation>
+                    <relation name="snap:KinOf" active="RS15063GabKidan" passive="PRS15064WaldaSel"></relation>
+                    <relation name="snap:KinOf" active="RS15063GabKidan" passive="PRS15065TaklaGiyor"></relation>
+                    <relation name="snap:KinOf" active="RS15063GabKidan" passive="PRS15066WalattaMuse"></relation>
+                    <relation name="snap:KinOf" active="RS15063GabKidan" passive=" PRS15067WalattaGior"></relation>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>
