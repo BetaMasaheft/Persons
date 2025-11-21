@@ -28,7 +28,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>A digital born TEI file</p>
         </encodingDesc>
         <profileDesc>
-            <t:creation xmlns:t="http://www.tei-c.org/ns/1.0"/>
+            <creation/>
             <abstract>
                 <p/>
             </abstract>
@@ -38,7 +38,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MK" when="2025-10-15">Created stub</change>
+            <change who="MK" when="2025-10-15">Created record</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -49,14 +49,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Walatta Māryām</persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
-                    <t:birth xmlns:t="http://www.tei-c.org/ns/1.0"/>
-                    <t:death xmlns:t="http://www.tei-c.org/ns/1.0"/>
-                    <t:floruit xmlns:t="http://www.tei-c.org/ns/1.0"/>
+                    <floruit notBefore="1800">Sometime after 1800</floruit>
                 </person>
                 <listRelation>
-                    <relation name="saws:hasOwned" active="PRS15062WalMar" passive="ESsm011"/>
+                    <relation name="saws:hasOwned" active="PRS15062WalMar" passive="ESsm011"><desc>Her name appears in Additio 4.</desc></relation>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>
