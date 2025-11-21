@@ -39,7 +39,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="CH" when="2025-11-20">Created record</change>
-            <!-- Add change note after review -->
+            <change when="2025-11-21" who="CH">Reviewed and approved by Magdalena Krzyżanowska</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -48,8 +48,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ጸምረ፡ ቃል፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Ṣamra Qāl</persName>
-                    <!-- The name seems to be very unusual. It is possibly a typographical error by bm:Strelcyn1976Catalogue (p. 326) for Śamra Qāl -->
-                    <!-- floruit 1600 to 1910 is a too long time span to be encoded -->
+                    <!-- possible floruit 1600 to 1910 is a too long time span to be encoded -->
                 </person>
                 <listRelation>
                     <relation name="saws:hasOwned" active="PRS15111SamraQal" passive="ANLcr133"/>
