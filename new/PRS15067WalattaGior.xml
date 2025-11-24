@@ -39,7 +39,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="MK" when="2025-10-15">Created stub</change>
-            <change who="MK" when="2025-10-15">Created draft</change>
+            <change who="MK" when="2025-10-15">Created record</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -50,10 +50,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Walatta Giyorgis</persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
-                    <floruit/>
+                    <floruit notBefore="1800">Sometime after 1800</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15067WalattaGior" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS15067WalattaGior" passive="ESsm011"><desc>Her name appears in Additio 5.</desc></relation>
+                    <relation name="snap:KinOf" active="PRS15067WalattaGior" passive="PRS15061GabMar"></relation>
+                    <relation name="snap:KinOf" active="PRS15067WalattaGior" passive="PRS15062WalMar"></relation>
+                    <relation name="snap:KinOf" active="PRS15067WalattaGior" passive="PRS15063GabKidan"></relation>
+                    <relation name="snap:KinOf" active="PRS15067WalattaGior" passive="PRS15064WaldaSel"></relation>
+                    <relation name="snap:KinOf" active="PRS15067WalattaGior" passive="PRS15065TaklaGiyor"></relation>
+                    <relation name="snap:KinOf" active="PRS15067WalattaGior" passive="PRS15066WalattaMuse"></relation>
                 </listRelation>
             </listPerson><!---->
         </body>

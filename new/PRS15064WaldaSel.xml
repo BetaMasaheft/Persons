@@ -38,24 +38,29 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MK" when="2025-10-15">Created stub</change>
+            <change who="MK" when="2025-10-15">Created record</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Walda Śǝllāse</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ወልደ፡ ሥላሴ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walda Śǝllāse</persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1800">Sometime after 1800</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15064WaldaSel" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS15064WaldaSel" passive="ESsm011"><desc>His name appears in Additio 5.</desc></relation>
+                    <relation name="snap:KinOf" active="PRS15064WaldaSel" passive="PRS15061GabMar"></relation>
+                    <relation name="snap:KinOf" active="PRS15064WaldaSel" passive="PRS15062WalMar"></relation>
+                    <relation name="snap:KinOf" active="PRS15064WaldaSel" passive="PRS15063GabKidan"></relation>
+                    <relation name="snap:KinOf" active="PRS15064WaldaSel" passive="PRS15065TaklaGiyor"></relation>
+                    <relation name="snap:KinOf" active="PRS15064WaldaSel" passive="PRS15066WalattaMuse"></relation>
+                    <relation name="snap:KinOf" active="PRS15064WaldaSel" passive="PRS15067WalattaGior"></relation>
                 </listRelation>
+                
             </listPerson><!---->
         </body>
     </text>

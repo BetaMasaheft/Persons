@@ -53,7 +53,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </person>
                 <listRelation>
                     <relation name="saws:hasOwned" active="PRS15062WalMar" passive="ESsm011"><desc>Her name appears in Additiones 4 and 5.</desc></relation>
-                    <relation name="betmas:wifeOf" active="RS15062WalMar" passive="PRS15061GabMar"/>
+                    <relation name="betmas:wifeOf" active="PRS15062WalMar" passive="PRS15061GabMar"/>
+                    <relation name="snap:KinOf" active="PRS15062WalMar" passive="PRS15063GabKidan"></relation>
+                    <relation name="snap:KinOf" active="PRS15062WalMar" passive="PRS15064WaldaSel"></relation>
+                    <relation name="snap:KinOf" active="PRS15062WalMar" passive="PRS15065TaklaGiyor"></relation>
+                    <relation name="snap:KinOf" active="PRS15062WalMar" passive="PRS15066WalattaMuse"></relation>
+                    <relation name="snap:KinOf" active="PRS15062WalMar" passive="PRS15067WalattaGior"></relation>
                 </listRelation>
             </listPerson>
         </body>
