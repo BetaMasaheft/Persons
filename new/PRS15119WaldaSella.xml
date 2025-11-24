@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS15062WalMar" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS15119WaldaSella" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Walatta Māryām</title>
+                <title>Walda Śǝllāse</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="MK"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -38,28 +38,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MK" when="2025-10-15">Created record</change>
+            <change who="MK" when="2025-11-24">Created record</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person sex="2">
-                    <persName xml:lang="gez" xml:id="n1" type="baptismal">ወለተ፡ ማርያም፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walatta Māryām</persName>
+                <person sex="1">
+                    <persName xml:lang="gez" xml:id="n1" type="baptismal">ወልደ፡ ሥላሴ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walda Śǝllāse</persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
                     <floruit notBefore="1800">Sometime after 1800</floruit>
                 </person>
                 <listRelation>
-                    <relation name="saws:hasOwned" active="PRS15062WalMar" passive="ESsm011"><desc>Her name appears in Additions 4 and 5.</desc></relation>
-                    <relation name="betmas:wifeOf" active="PRS15062WalMar" passive="PRS15061GabMar"/>
-                    <relation name="snap:KinOf" active="PRS15062WalMar" passive="PRS15063GabKidan"></relation>
-                    <relation name="snap:KinOf" active="PRS15062WalMar" passive="PRS15064WaldaSel"></relation>
-                    <relation name="snap:KinOf" active="PRS15062WalMar" passive="PRS15065TaklaGiyor"></relation>
-                    <relation name="snap:KinOf" active="PRS15062WalMar" passive="PRS15066WalattaMuse"></relation>
-                    <relation name="snap:KinOf" active="PRS15062WalMar" passive="PRS15067WalattaGior"></relation>
-                    <relation name="snap:KinOf" active="PRS15062WalMar" passive="PRS15060WaldaAbEgz"></relation>
+                    <relation name="lawd:hasAttestation" active="PRS15119WaldaSella" passive="ESsm011"><desc>His name appears in Addition 10.</desc></relation>
                 </listRelation>
             </listPerson>
         </body>
