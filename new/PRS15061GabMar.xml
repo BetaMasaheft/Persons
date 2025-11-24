@@ -46,7 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ገብረ፡ ማርያም፡</persName>
+                    <persName xml:lang="gez" xml:id="n1" type="baptismal">ገብረ፡ ማርያም፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra Māryām</persName>
                     <persName><roleName type="function">qes</roleName></persName>
                     <faith type="EOTC"/>
@@ -54,13 +54,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <floruit notBefore="1800">Sometime after 1800</floruit>
                 </person>
                 <listRelation>
-                    <relation name="saws:hasOwned" active="PRS15061GabMar" passive="ESsm011"><desc>His name appears in Additio 4.</desc></relation>
+                    <relation name="saws:hasOwned" active="PRS15061GabMar" passive="ESsm011"><desc>His name appears in Additiones 4 and 6.</desc></relation>
                     <relation name="betmas:husbandOf" active="PRS15061GabMar" passive="PRS15062WalMar"/>
                     <relation name="snap:KinOf" active="PRS15061GabMar" passive="PRS15063GabKidan"></relation>
                     <relation name="snap:KinOf" active="PRS15061GabMar" passive="PRS15064WaldaSel"></relation>
                     <relation name="snap:KinOf" active="PRS15061GabMar" passive="PRS15065TaklaGiyor"></relation>
                     <relation name="snap:KinOf" active="PRS15061GabMar" passive="PRS15066WalattaMuse"></relation>
                     <relation name="snap:KinOf" active="PRS15061GabMar" passive="PRS15067WalattaGior"></relation>
+                    <relation name="snap:KinOf" active="PRS15061GabMar" passive="PRS15060WaldaAbEgz"></relation>
                 </listRelation>
             </listPerson>
         </body>

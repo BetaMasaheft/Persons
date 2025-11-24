@@ -46,7 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="2">
-                    <persName xml:lang="gez" xml:id="n1">ወለተ፡ ጊዮርጊስ፡</persName>
+                    <persName xml:lang="gez" xml:id="n1" type="baptismal">ወለተ፡ ጊዮርጊስ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Walatta Giyorgis</persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
@@ -60,6 +60,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <relation name="snap:KinOf" active="PRS15067WalattaGior" passive="PRS15064WaldaSel"></relation>
                     <relation name="snap:KinOf" active="PRS15067WalattaGior" passive="PRS15065TaklaGiyor"></relation>
                     <relation name="snap:KinOf" active="PRS15067WalattaGior" passive="PRS15066WalattaMuse"></relation>
+                    <relation name="snap:KinOf" active="PRS15067WalattaGior" passive="PRS15060WaldaAbEgz"></relation>
                 </listRelation>
             </listPerson><!---->
         </body>
