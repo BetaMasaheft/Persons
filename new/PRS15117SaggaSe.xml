@@ -38,21 +38,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MV" when="2025-11-24">Created stub</change>
+            <change who="MV" when="2025-11-24">Created record</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Ṣaggā Śǝllāse</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ጸጋ፡ ሥላሴ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Ṣaggā Śǝllāse</persName>            
                     <faith type="EOTC"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1800" notAfter="1899">1800–1899</floruit>
                 </person>
-            </listPerson><!---->
+                <listRelation>
+                    <relation name="snap:BrotherOf" active="PRS15117SaggaSe" passive="PRS15113TaklaSe"/>
+                    <relation name="lawd:hasAttestation" active="PRS15117SaggaSe" passive="BAVet160">
+                        <desc>His name is mentioned in a scribal note on f. 128r.</desc>
+                    </relation>
+                </listRelation>
+            </listPerson>
         </body>
     </text>
 </TEI>

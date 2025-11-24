@@ -38,24 +38,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MV" when="2025-11-24">Created stub</change>
+            <change who="MV" when="2025-11-24">Created record</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Takla Śǝllāse</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1"></persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Takla Śǝllāse</persName>
                     <faith type="EOTC"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1800" notAfter="1899">1800–1899</floruit>
                 </person>
                 <listRelation>
-                    <relation name="saws:hasOwned" active="PRS15113TaklaSe" passive=""/>
+                    <relation name="saws:hasOwned" active="PRS15113TaklaSe" passive="BAVet160">
+                        <desc>His name appears in a scribal note on f. 128r.</desc></relation>
+                    <relation name="snap:SonOf" active="PRS15113TaklaSe" passive="PRS15114HaylaSe"/>
+                    <relation name="snap:SonOf" active="PRS15113TaklaSe" passive="PRS15115WalattaIy"/>
+                    <relation name="snap:FatherOf" active="PRS15113TaklaSe" passive="PRS15116MannaSe"/>
+                    <relation name="snap:BrotherOf" active="PRS15113TaklaSe" passive="PRS15117SaggaSe"/>          
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>
