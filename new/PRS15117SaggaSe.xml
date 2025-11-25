@@ -51,10 +51,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <floruit notBefore="1800" notAfter="1899">1800–1899</floruit>
                 </person>
                 <listRelation>
-                    <relation name="snap:BrotherOf" active="PRS15117SaggaSe" passive="PRS15113TaklaSe"/>
                     <relation name="lawd:hasAttestation" active="PRS15117SaggaSe" passive="BAVet160">
                         <desc>His name is mentioned in a scribal note on f. 128r.</desc>
                     </relation>
+                    <relation name="snap:BrotherOf" active="PRS15117SaggaSe" passive="PRS15113TaklaSe">
+                        <desc>According to a less likely interpretation of the scribal note on f. 128r, he was <persName ref="PRS15113TaklaSe">Takla Śǝllāse</persName>’s son and 
+                            <persName ref="PRS15116MannaSe">Mannā Śǝllāse</persName>’s brother. </desc>
+                    </relation>                 
                 </listRelation>
             </listPerson>
         </body>
