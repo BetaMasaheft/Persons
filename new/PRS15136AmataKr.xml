@@ -49,11 +49,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAmata Krǝstos</persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
-                    <floruit/>
+                    <floruit notBefore="1700" notAfter="1780">Sometime between 1700 and 1780.</floruit>
                 </person>
                 <listRelation>
-                    <relation name="betmas:wifeOf" active="PRS15136AmataKr" passive="ESdd010"></relation>
-                    <relation name="betmas:wifeOf" active="PRS15136AmataKr" passive=""></relation>
+                    <relation name="lawd:hasAttestation" active="PRS15136AmataKr" passive="ESdd010"><desc>Her name appears in supplication formulas.</desc></relation>
+                    <relation name="betmas:wifeOf" active="PRS15136AmataKr" passive="PRS15135ZawaldaMa"></relation>
+                    <relation name="snap:MotherOf" active="PRS15136AmataKr" passive="PRS15133WaldaArag"></relation>
                 </listRelation>
             </listPerson><!---->
         </body>

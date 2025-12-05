@@ -45,15 +45,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ዘወልደ፡ ማርያም፡</persName>
+                    <persName xml:lang="gez" xml:id="n1" type="baptismal">ዘወልደ፡ ማርያም፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Zawalda Māryām</persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
                     <floruit notBefore="1700" notAfter="1780">Sometime between 1700 and 1780.</floruit>
                 </person>
                 <listRelation>
-                    <relation name="snap:FatherOf" active="PRS15135ZawaldaMa" passive="ESdd010"><desc>His name appears in supplication formulas.</desc></relation>
-                    
+                    <relation name="lawd:hasAttestation" active="PRS15135ZawaldaMa" passive="ESdd010"><desc>His name appears in supplication formulas.</desc></relation>
+                    <relation name="snap:FatherOf" active="PRS15135ZawaldaMa" passive="PRS15133WaldaArag"/>
+                    <relation name="betmas:husbandOf" active="RS15135ZawaldaMa" passive="PRS15136AmataKr"/>
                 </listRelation>
             </listPerson><!---->
         </body>
