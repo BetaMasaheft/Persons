@@ -38,23 +38,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MK" when="2025-12-04">Created stub</change>
+            <change who="MK" when="2025-12-04">Created record</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Walda ʾAragāwi</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1" type="baptismal">ወልደ፡ አረጋዊ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walda ʾAragāwi</persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1750" notAfter="1799">He was active during the reign of <persName ref="PRS9153TaklaHa"/> (r. <date>1769–1777</date>).</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15133WaldaArag" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS15133WaldaArag" passive="ESdd010"><desc>He appears as a donor in Addition 3 and as a supplicant.</desc></relation>
+                    <relation name="snap:FriendshipFor" active="PRS15133WaldaArag" passive="PRS15134Matyas"><desc>Walda ʾAragāwi is called a disciple of ʾAbuna Mātyās.</desc></relation>
+                    <relation name="snap:SonOf" active="PRS15133WaldaArag" passive="PRS15135ZawaldaMa"/>
+                    <relation name="snap:SonOf" active="PRS15133WaldaArag" passive="PRS15136AmataKr"/>
                 </listRelation>
             </listPerson><!---->
         </body>

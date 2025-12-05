@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Zawalda Māryām </title>
+                <title>Zawalda Māryām</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="MK"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -38,23 +38,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MK" when="2025-12-04">Created stub</change>
+            <change who="MK" when="2025-12-04">Created record</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Zawalda Māryām </persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ዘወልደ፡ ማርያም፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Zawalda Māryām</persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1700" notAfter="1780">Sometime between 1700 and 1780.</floruit>
                 </person>
                 <listRelation>
-                    <relation name="snap:FatherOf" active="PRS15135ZawaldaMa" passive=""/>
+                    <relation name="snap:FatherOf" active="PRS15135ZawaldaMa" passive="ESdd010"><desc>His name appears in supplication formulas.</desc></relation>
+                    
                 </listRelation>
             </listPerson><!---->
         </body>

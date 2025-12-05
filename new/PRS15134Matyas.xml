@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title> Mātyās</title>
+                <title>Mātyās</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="MK"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -38,23 +38,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MK" when="2025-12-04">Created stub</change>
+            <change who="MK" when="2025-12-04">Created record</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1"> Mātyās</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ማትያስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Mātyās</persName>
+                    <persName><roleName type="title">ʾabuna</roleName></persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <occupation>monk</occupation>
+                    <floruit notBefore="1750" notAfter="1799">He was active during the reign of <persName ref="PRS9153TaklaHa"/> (r. <date>1769–1777</date>).</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15134Matyas" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS15134Matyas" passive="ESdd010"/>
+                    <relation name="snap:FriendshipFor" active="PRS15134Matyas" passive="PRS15133WaldaArag"><desc>Walda ʾAragāwi is called a disciple of ʾAbuna Mātyās.</desc></relation>
                 </listRelation>
             </listPerson><!---->
         </body>
