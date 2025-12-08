@@ -51,10 +51,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
                     <occupation>monk</occupation>
-                    <floruit notBefore="1750" notAfter="1799">He was active during the reign of <persName ref="PRS9153TaklaHa"/> (r. <date>1769–1777</date>).</floruit>
+                    <floruit notBefore="1750" notAfter="1772">He had already died by 1772.</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15134Matyas" passive="ESdd010"/>
+                    <relation name="lawd:hasAttestation" active="PRS15134Matyas" passive="ESdd010"><desc>His name appears in numerous supplication formulas, often preceded by the word ‘soul’, indicating that he was already 
+                        deceased at the time the supplication was composed.</desc></relation>
                     <relation name="snap:FriendshipFor" active="PRS15134Matyas" passive="PRS15133WaldaArag"><desc>Walda ʾAragāwi is called a disciple of ʾAbuna Mātyās.</desc></relation>
                 </listRelation>
             </listPerson><!---->
