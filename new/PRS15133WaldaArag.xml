@@ -1,0 +1,63 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS15133WaldaArag" xml:lang="en" type="pers">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Walda ʾAragāwi</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="MK"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="MK" when="2025-12-04">Created record</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person sex="1">
+                    <persName xml:lang="gez" xml:id="n1" type="baptismal">ወልደ፡ አረጋዊ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walda ʾAragāwi</persName>
+                    <faith type="EOTC"/>
+                    <nationality type="Ethiopia"/>
+                    <floruit notBefore="1750" notAfter="1799">He was active during the reign of <persName ref="PRS9153TaklaHa"/>.</floruit>
+                </person>
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="PRS15133WaldaArag" passive="ESdd010"><desc>He appears as a donor in Addition 3 and as a supplicant.</desc></relation>
+                    <relation name="snap:FriendshipFor" active="PRS15133WaldaArag" passive="PRS15134Matyas"><desc>Walda ʾAragāwi is called a disciple of ʾAbuna Mātyās.</desc></relation>
+                    <relation name="snap:SonOf" active="PRS15133WaldaArag" passive="PRS15135ZawaldaMa"/>
+                    <relation name="snap:SonOf" active="PRS15133WaldaArag" passive="PRS15136AmataKr"/>
+                </listRelation>
+            </listPerson><!---->
+        </body>
+    </text>
+</TEI>
