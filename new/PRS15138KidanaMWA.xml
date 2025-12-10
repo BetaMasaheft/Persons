@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Kidāna Māryām Walda ʿĀb</title>
+                <title>Kidāna Māryām Walda ʾAb</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="CH"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -39,15 +39,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="CH" when="2025-12-10">Created record</change>
-            <!-- Add change note after review -->
+            <change when="2025-12-10" who="CH">Update after review by Magdalena Krzyżanowska</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ኪዳነ፡ ማርያም፡ ወልደ፡ ዓብ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Kidāna Māryām Walda ʿĀb</persName>
+                    <persName xml:lang="gez" xml:id="n1">ኪዳነ፡ ማርያም፡ ወልደ፡ አብ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Kidāna Māryām Walda ʾAb</persName>
+                    <persName xml:lang="gez" xml:id="n2">ኪዳነ፡ ማርያም፡ ወልደ፡ ዓብ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n2">Kidāna Māryām Walda ʿĀb</persName>
                     <faith type="EOTC"/>
                     <death when="1939">1939</death>
                     <floruit notBefore="1900" notAfter="1939">20th century, but not after 1939</floruit>
