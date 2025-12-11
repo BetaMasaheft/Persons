@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Maru</title>
+            <title>Māru</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -39,20 +39,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change when="2025-12-11" who="CH">Updated transcription and title, added fidal, relation, bibliography and information from EAe</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Maru
-               </persName>
-               <occupation> däǧǧ. </occupation>
-               <death>d. 1827</death>
+               <persName xml:id="n1" xml:lang="gez">ማሩ፡</persName>                  
+               <persName corresp="#n1" xml:lang="gez" type="normalized">Māru</persName>
+               <persName><roleName type="title">daǧǧāzmāč</roleName></persName>
+               <occupation type="ruler">Ruler of <placeName ref="LOC2481Dambey"/></occupation>
+               <death when="1827">1827</death>
+               <floruit notBefore="1800" notAfter="1827">He was a leading figure in the politics of central Ethiopia in the early 19th century 
+                  until his death on the battlefield.</floruit>
             </person>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl><ptr target="bm:Crummey2007Maru"/></bibl>
+         </listBibl>
+         <listRelation>
+            <relation name="snap:NephewOf" active="PRS6815Maru" passive="PRS5822Kabte"/>
+         </listRelation>
       </body>
    </text>
 </TEI>
