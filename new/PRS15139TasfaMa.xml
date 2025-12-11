@@ -39,7 +39,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="CH" when="2025-12-10">Created record</change>
-            <!-- Add change note after review -->
+            <change who="CH" when="2025-12-11">Added relation to PRS11532TasfaM after review by Magdalena Krzyżanowska</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -52,6 +52,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <floruit notBefore="1885" notAfter="1915">Late 19th or early 20th century</floruit>
                 </person>
             </listPerson>
+            <listRelation><relation name="dc:relation" active="PRS15139TasfaMa" passive="PRS11532TasfaM"><desc>Possibly the same
+                person as <persName ref="PRS11532TasfaM"/>.</desc></relation></listRelation>
         </body>
     </text>
 </TEI>
