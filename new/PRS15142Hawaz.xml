@@ -39,7 +39,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="CH" when="2025-12-10">Created record</change>
-            <!-- Add change note after review -->
+            <change when="2025-12-11" who="CH">Added residence after review by Magdalena Krzyżanowska</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -48,8 +48,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ሐዋዝ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Ḥawāz</persName>
-                    <floruit notBefore="1940" notAfter="1982">He was the head of <placeName ref="LOC3407GemjaB"/> 
-                        from 1933 AM (1940/1941 AD) to 1974 AM (1982 AD).</floruit>
+                    <floruit notBefore="1940" notAfter="1982">He was the head of <placeName ref="LOC3407GemjaB"/> in 
+                        <placeName ref="LOC3577Gondar"/> from 1933 AM (1940/1941 AD) to 1974 AM (1982 AD).</floruit>
+                    <residence ref="LOC3577Gondar"/>
                 </person>
             </listPerson>
             <listBibl type="secondary">
