@@ -38,23 +38,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MK" when="2025-12-12">Created stub</change>
+            <change who="MK" when="2025-12-12">Created record</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Walda Giyorgis</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ወልደ፡ ጊዮርጊስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walda Giyorgis</persName>
+                    <persName>
+                        <roleName type="title">nǝbura ʾǝd</roleName>
+                    </persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1850" notAfter="1900">He was active during the reign of King <persName ref="PRS10378Yohanne">Yoḥannǝs IV</persName> (r. 1872–1889).</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15156WaldaGiyorgis" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS15156WaldaGiyorgis" passive="ESdd044"><desc>He appears is Addition 5 in connection with a land transaction.</desc></relation>
+                    <relation name="snap:ProfessionalRelationship" active="PRS15156WaldaGiyorgis" passive="PRS15155GadluEndreyas"></relation>
+                    <relation name="snap:ProfessionalRelationship" active="RS15156WaldaGiyorgis" passive="PRS15154Abbay"></relation>
                 </listRelation>
             </listPerson><!---->
         </body>

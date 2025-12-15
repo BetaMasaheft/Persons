@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title> ʾAbbāy </title>
+                <title>ʾAbbāy</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="MK"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -38,23 +38,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MK" when="2025-12-12">Created stub</change>
+            <change who="MK" when="2025-12-12">Created record</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1"> ʾAbbāy </persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">አባይ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAbbāy</persName>
+                    <persName>
+                        <roleName type="title">lǝǧ</roleName>
+                    </persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1850" notAfter="1900">He was active during the reign of King <persName ref="PRS10378Yohanne">Yoḥannǝs IV</persName> (r. 1872–1889).</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15154Abbay" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS15154Abbay" passive="ESdd044"><desc>He appears in a land transaction, in Addition 5.</desc></relation>
                 </listRelation>
             </listPerson><!---->
         </body>

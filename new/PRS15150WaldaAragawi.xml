@@ -38,23 +38,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MK" when="2025-12-12">Created stub</change>
+            <change who="MK" when="2025-12-12">Created record</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <t:person xmlns:t="http://www.tei-c.org/ns/1.0" sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Walda ʾAragāwi</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
-                    <t:faith type="EOTC"/>
+                <person sex="1">
+                    <persName xml:lang="gez" xml:id="n1">ወልደ፡ አረጋዊ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walda ʾAragāwi</persName>
+                    <persName>
+                        <roleName type="office">mamhǝr</roleName>
+                    </persName>
+                    <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <t:death/>
-                    <floruit/>
-                </t:person>
+                    <residence><placeName ref="LOC2254DabraD"/></residence>
+                    <floruit notBefore="1800" notAfter="1899">Sometime in the 19th century. He was the abbot of <placeName ref="INS0105DD"/> prior to <persName ref="PRS15149QalaAb"/>.</floruit>
+                </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15150WaldaAragawi" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS15150WaldaAragawi" passive="ESdd044"><desc>His name appears in Addition 3.</desc></relation>
                 </listRelation>
             </listPerson><!---->
         </body>

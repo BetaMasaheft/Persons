@@ -38,23 +38,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MK" when="2025-12-12">Created stub</change>
+            <change who="MK" when="2025-12-12">Created record</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <t:person xmlns:t="http://www.tei-c.org/ns/1.0" sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Qāla ʾAb</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
-                    <t:faith type="EOTC"/>
+                <person sex="1">
+                    <persName xml:lang="gez" xml:id="n1" type="monastic">ቃለ፡ አብ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Qāla ʾAb</persName>
+                    <persName>
+                        <roleName type="office">mamhǝr</roleName>
+                    </persName>
+                    <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <t:death/>
-                    <floruit/>
-                </t:person>
+                    <residence><placeName ref="LOC2254DabraD"/></residence>
+                    <floruit notBefore="1800" notAfter="1899">Sometime in the 19th century.</floruit>
+                </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15149QalaAb" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS15149QalaAb" passive="ESdd044"><desc>His name appears in Addition 3.</desc></relation>
                 </listRelation>
             </listPerson><!---->
         </body>
