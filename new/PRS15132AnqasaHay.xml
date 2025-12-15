@@ -48,11 +48,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <persName xml:lang="gez" xml:id="n1" type="monastic">አንቀጸ፡ ሃይማኖት፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAnqaṣa Hāymānot</persName>
                     <persName>
-                        <roleName type="office">qes gabaz</roleName>
+                        <roleName type="function">qes gabaz</roleName>
                     </persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
-                    <floruit notBefore="1750" notAfter="1799">He was active during the reign of <persName ref="PRS9153TaklaHa"/>.</floruit>
+                    <occupation type="ecclesiastic">monk</occupation>
+                    <residence><placeName ref="LOC2254DabraD"/></residence>
+                    <floruit notBefore="1750" notAfter="1799">He was active during the reign of <persName ref="PRS9153TaklaHa"/> (r. 1769–1777).</floruit>
                 </person>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="PRS15132AnqasaHay" passive="ESdd010"><desc>His name appears in the colophon.</desc></relation>
