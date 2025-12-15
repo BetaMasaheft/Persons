@@ -1,0 +1,65 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS15160TaklaGiyorgis" xml:lang="en" type="pers">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Takla Giyorgis</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="MK"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="MK" when="2025-12-15">Created record</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person sex="1">
+                    <persName xml:lang="gez" xml:id="n1" type="monastic">ተክለ፡ ጊዮርጊስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Takla Giyorgis</persName>
+                    <persName><roleName type="title">mamhǝr</roleName> </persName>
+                    <faith type="EOTC"/>
+                    <nationality type="Ethiopia"/>
+                    <occupation type="ecclesiastic">monk; head of the <placeName ref="INS0105DD">Dabra Dāmmo monastery</placeName>.</occupation>
+                    <residence><placeName ref="LOC2254DabraD"/></residence>
+                    <floruit notBefore="1872" notAfter="1889">Sometime during the reign of King <persName ref="PRS10378Yohanne">Yoḥannǝs IV</persName> (r. 1872–1889).</floruit>
+                </person>
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="PRS15160TaklaGiyorgis" passive="ESdd044"><desc>His name appears in Additions 6 and 8.</desc></relation>
+                    <relation name="snap:ProfessionalRelationship" active="PRS15160TaklaGiyorgis" passive="PRS15162GabraArag"/>
+                    <relation name="snap:ProfessionalRelationship" active="PRS15160TaklaGiyorgis" passive="PRS15161WaldaAlfa"/>
+                </listRelation>
+            </listPerson><!---->
+        </body>
+    </text>
+</TEI>
