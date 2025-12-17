@@ -1,0 +1,64 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS15175DeRossi" xml:lang="en" type="pers">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>De Rossi</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="CH"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="it">Italian</language>
+                <language ident="ti">Tigrinya</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="CH" when="2025-12-17">Created record</change>
+            <!-- Add change note after review -->
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person sex="1">
+                    <persName xml:id="n1" xml:lang="it"><surname>De Rossi</surname></persName>
+                    <persName corresp="#n1" xml:lang="ti">ደሮሲ፡</persName>
+                    <persName><roleName type="rank">commissario</roleName></persName>
+                    <persName><roleName type="rank">ኮሚሰርያቶ፡</roleName></persName>
+                    <floruit>He is mentioned in a fragment in <ref type="mss" corresp="ANLcr125#p26_i2"/> from the first half of the 20th century,
+                        so he probably lived around that time.</floruit>
+                </person>
+            </listPerson>
+            <listRelation>
+                <relation name="skos:exactMatch" active="PRS15175DeRossi" passive="PRS3457DeRossi"><desc>Possibly the same person as
+                    <persName ref="PRS3457DeRossi"/>.</desc></relation>
+            </listRelation>
+        </body>
+    </text>
+</TEI>
