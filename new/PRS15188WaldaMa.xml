@@ -38,21 +38,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MV" when="2025-12-18">Created stub</change>
+            <change who="MV" when="2025-12-18">Created record</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Walda Māryām</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ወልደ፡ ማርያም፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walda Māryām</persName>            
                     <faith type="EOTC"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1889" notAfter="1899">1800–1899</floruit>
                 </person>
-            </listPerson><!---->
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="PRS15188WaldaMa" passive="BAVet187">
+                        <desc>His name is mentioned in the scribal supplications on ff. 31r and 40r.</desc>
+                    </relation>
+                </listRelation>
+            </listPerson>
         </body>
-    </text>
+     </text>
 </TEI>
