@@ -45,16 +45,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Walda Māryām</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ወልደ፡ ማርያም፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walda Māryām</persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
                     <birth/>
                     <death/>
-                    <floruit/>
+                    <floruit notBefore="1800" notAfter="1899">19th Century</floruit>
                 </person>
                 <listRelation>
-                    <relation name="saws:hasOwned" active="PRS15191WaldaMaryam" passive=""/>
+                    <relation name="saws:hasOwned" active="PRS15191WaldaMaryam" passive="BAVet139"><desc>He is recorded as the owner of  <ref type="mss" corresp="BAVet139"/> in the initial benediction formula on f. 3r.</desc></relation>
                 </listRelation>
             </listPerson><!---->
         </body>
