@@ -40,6 +40,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
          <change when="2025-12-17" who="CH">Updated transcription and occupation, added fidal, floruit and bibliography</change>
+         <change when="2025-12-17" who="CH">Repaired zotero tag at request of Magdalena Krzyżanowska</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -53,7 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             </person>
          </listPerson>
          <listBibl type="secondary">
-            <bibl><ptr target="bm:bm:Fekade2003Berhanenna"/><citedRange>536b–537a</citedRange></bibl>
+            <bibl><ptr target="bm:Fekade2003Berhanenna"/><citedRange>536b–537a</citedRange></bibl>
          </listBibl>
       </body>
    </text>
