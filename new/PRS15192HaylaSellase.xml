@@ -45,16 +45,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Ḫāyla Śǝllāse</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ኀይለ፡ ሥላሴ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Ḫāyla Śǝllāse</persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
                     <birth/>
                     <death/>
-                    <floruit/>
+                    <floruit notBefore="1800" notAfter="1899">19th Century</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15192HaylaSellase" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS15192HaylaSellase" passive="BAVet139"><desc>He is recorded as the scribe of <ref type="mss" corresp="BAVet139"/> in a subscription on f. 71v.</desc></relation>
                 </listRelation>
             </listPerson><!---->
         </body>
