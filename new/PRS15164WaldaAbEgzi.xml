@@ -49,14 +49,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Walda ʿAbiy ʾƎgziʾ</persName>
                     <persName xml:lang="gez" xml:id="n2">ወልደ፡ ዓቢየ፡ እግዚእ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n2">Walda ʿAbiya ʾƎgziʾ</persName>
+                    <persName><roleName type="office">mamhǝr</roleName></persName>
                     <faith type="EOTC"/>
                     <occupation type="ecclesiastic">monk; head of the <placeName ref="INS0105DD">Dabra Dāmmo monastery</placeName></occupation>
                     <residence><placeName ref="LOC2254DabraD"/></residence>
                     <nationality type="Ethiopia"/>
-                    <floruit/>
+                    <floruit notBefore="1872" notAfter="1889">Sometime between 1872 and 1889.</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15164WaldaAbEgzi" passive="ESdd044"/>
+                    <relation name="lawd:hasAttestation" active="PRS15164WaldaAbEgzi" passive="ESdd044"><desc>His name appears in Addition 9.</desc></relation>
+                    <relation name="snap:ProfessionalRelationship" active="PRS15164WaldaAbEgzi" passive="PRS15165GabraIyasus"></relation>
+                    <relation name="snap:ProfessionalRelationship" active="PRS15164WaldaAbEgzi" passive="PRS15166WaldaAbiyaEgzi"></relation>
                 </listRelation>
             </listPerson><!---->
         </body>

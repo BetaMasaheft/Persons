@@ -45,17 +45,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Kidāna Qāl</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1" type="monastic">ኪዳነ፡ ቃል፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Kidāna Qāl</persName>
+                    <persName><roleName type="office">mamhǝr</roleName></persName>
                     <faith type="EOTC"/>
-                    <occupation type="ecclesiastic"/>
+                    <occupation type="ecclesiastic">monk; head of the <placeName ref="INS0105DD">Dabra Dāmmo monastery</placeName></occupation>
+                    <residence><placeName ref="LOC2254DabraD"/></residence>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1872" notAfter="1889">Sometime between 1872 and 1889.</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15167KidanaQal" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS15167KidanaQal" passive="ESdd044"><desc>His name appears in Addition 12.</desc></relation>
                 </listRelation>
             </listPerson><!---->
         </body>

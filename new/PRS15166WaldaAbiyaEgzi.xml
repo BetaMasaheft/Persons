@@ -45,17 +45,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Walda ʿAbiy ʾƎgziʾ</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1" type="monastic">ወልደ፡ ዓቢይ፡ እግዚእ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walda ʿAbiy ʾƎgziʾ</persName>
+                    <persName xml:lang="gez" xml:id="n2">ወልደ፡ ዓቢየ፡ እግዚእ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n2">Walda ʿAbiya ʾƎgziʾ</persName>
+                    <persName><roleName type="function">Qesa Gabaz</roleName></persName>
                     <faith type="EOTC"/>
-                    <occupation type="ecclesiastic"/>
+                    <occupation type="ecclesiastic">monk</occupation>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1872" notAfter="1889">Sometime between 1872 and 1889.</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15166WaldaAbiyaEgzi" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS15166WaldaAbiyaEgzi" passive="ESdd044"><desc>His name appears in Addition 9.</desc></relation>
                 </listRelation>
             </listPerson><!---->
         </body>

@@ -45,17 +45,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Sǝbḥāt LaʾAb</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1" type="monastic">ስብሐት፡ ለአብ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Sǝbḥāt LaʾAb</persName>
+                    <persName><roleName type="office">mamhǝr</roleName></persName>
                     <faith type="EOTC"/>
-                    <occupation type="ecclesiastic"/>
+                    <occupation type="ecclesiastic">monk; head of the <placeName ref="INS0105DD">Dabra Dāmmo monastery</placeName></occupation>
+                    <residence><placeName ref="LOC2254DabraD"/></residence>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1872" notAfter="1889">He was active the reign of King <persName ref="PRS10378Yohanne">Yoḥannǝs IV</persName> (r. 1872–1889).</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15168SabhatLaAb" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS15168SabhatLaAb" passive="ESdd044"><desc>His name appears in Addition 13.</desc></relation>
+                    <relation name="snap:ProfessionalRelationship" active="PRS15168SabhatLaAb" passive="PRS15169NassaraAb"></relation>
+                    <relation name="snap:ProfessionalRelationship" active="PRS15168SabhatLaAb" passive="PRS15170WaldaHeyat"></relation>
                 </listRelation>
             </listPerson><!---->
         </body>

@@ -45,17 +45,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Walda Ḥǝyāt</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1" type="monastic">ወልደ፡ ሕያት፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walda Ḥǝyāt</persName>
+                    <persName><roleName type="title">ʾabbā</roleName></persName>
                     <faith type="EOTC"/>
-                    <occupation type="ecclesiastic"/>
+                    <occupation type="ecclesiastic">monk</occupation>
+                    <residence><placeName ref="LOC2254DabraD"/></residence>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1872" notAfter="1889">He was active the reign of King <persName ref="PRS10378Yohanne">Yoḥannǝs IV</persName> (r. 1872–1889).</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15170WaldaHeyat" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS15170WaldaHeyat" passive="ESdd044"><desc>His name appears in Addition 13.</desc></relation>
                 </listRelation>
             </listPerson><!---->
         </body>
