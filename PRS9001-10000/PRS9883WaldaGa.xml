@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Wäldä Gäbrǝʾel</title>
+            <title>Walda Gabrǝʾel</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -45,12 +45,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Wäldä Gäbrǝʾel
-               </persName>
-               <occupation> däǧǧ. </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ወልደ፡ ገብርኤል፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Walda Gabrǝʾel </persName>
+               <persName><roleName type="rank">daǧǧāzmāč</roleName></persName>
+               <occupation type="political">governor</occupation>
+               <death when="1788">He died in a battle with <roleName type="rank">Rās</roleName> <persName ref="PRS1719AliGwan">ʾAli Gʷāngul</persName> in 1788.</death>
+               <floruit>He was the son and successor of <roleName type="rank">Rās</roleName> <persName ref="PRS7091Mikael"/>. 
+                  He ordered the construction of the church <placeName ref="LOC2891EndaGa">ʾƎndā Gabrǝʾel</placeName>.</floruit>
             </person>
+            <listRelation>
+               <relation name="snap:SonOf" active="PRS9883WaldaGa" passive="PRS7091Mikael"/>
+               <relation name="lawd:hasAttestation" active="PRS9883WaldaGa" passive="ESdd044"><desc>His name appears in Addition 10.</desc></relation>
+            </listRelation>
          </listPerson>
       </body>
    </text>
