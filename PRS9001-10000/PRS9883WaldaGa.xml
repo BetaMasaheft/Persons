@@ -49,14 +49,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                <persName xml:lang="gez" corresp="#n1" type="normalized">Walda Gabrǝʾel</persName>
                <persName><roleName type="rank">daǧǧāzmāč</roleName></persName>
                <occupation type="political">governor</occupation>
+               <note> He ordered the construction of the church <placeName ref="LOC2891EndaGa">ʾƎndā Gabrǝʾel</placeName>.</note>
                <death when="1788">He died in a battle with <roleName type="rank">Rās</roleName> <persName ref="PRS1719AliGwan">ʾAli Gʷāngul</persName> in 1788.</death>
-               <floruit>Walda Gabrǝʾel was the son and successor of <roleName type="rank">Rās</roleName> <persName ref="PRS7091Mikael"/>. 
-                  He ordered the construction of the church <placeName ref="LOC2891EndaGa">ʾƎndā Gabrǝʾel</placeName>.</floruit>
+               <floruit notBefore="1700" notAfter="1788"></floruit>
             </person>
             <listRelation>
-               <relation name="snap:SonOf" active="PRS9883WaldaGa" passive="PRS7091Mikael"/>
+               <relation name="snap:SonOf" active="PRS9883WaldaGa" passive="PRS7091Mikael"><desc>He was the son and successor of Rās Mikāʾel Sǝḥul.</desc></relation>
                <relation name="lawd:hasAttestation" active="PRS9883WaldaGa" passive="ESdd044"><desc>His name appears in Addition 10.</desc></relation>
-               <relation name="lawd:hasAttestation" active="PRS9883WaldaGa" passive="BLorient784"><desc>His name appears in a record on fol. 209va , in which King Takla Giyorgis grants him a gʷǝlt .</desc></relation>
+               <relation name="lawd:hasAttestation" active="PRS9883WaldaGa" passive="BLorient784"><desc>His name appears in a record on folium 209va , in which King Takla Giyorgis grants him a gʷǝlt .</desc></relation>
             </listRelation>
          </listPerson>
          <listBibl type="secondary">
