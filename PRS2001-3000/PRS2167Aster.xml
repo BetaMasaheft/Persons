@@ -43,6 +43,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="ES" when="2016-02-09">CREATED: person</change>
          <change who="SG" when="2016-12-05">Complete record</change>
          <change who="SG" when="2017-03-10">Correction</change>
+         <change when="2025-12-12" who="MK">Added info about her marriage to Mikael Sehul.</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -63,7 +64,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                  
                   <persName ref="PRS5621Iyasu">  
                      <roleName type="title">grāzmāč</roleName> ʾIyāsu</persName>. 
-                  She was a prominent member of the Gondarine aristocracy.
+                  She was a prominent member of the Gondarine aristocracy. 
+                  She was reportedly the second wife of <persName ref="PRS7091Mikael">Mikāʾel Sǝḥul</persName>, to whom she was married in 1768. 
            </floruit>
             
             </person>
@@ -76,8 +78,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                <relation name="betmas:wifeOf" active="PRS2167Aster" passive="PRS10236Yamarya"/>
                <relation name="betmas:wifeOf" active="PRS2167Aster" passive="PRS7091Mikael"/>
                <relation name="snap:FriendshipFor" active="PRS2167Aster" passive="PRS2916Bruce"/>
-               
-            </listRelation>
+                 </listRelation>
          </listPerson>
          
          <listBibl type="secondary">
@@ -92,8 +93,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <bibl> 
                <ptr target="bm:Crummey2003Aster"/>
             </bibl>  
+            <bibl> 
+               <ptr target="bm:Abbink2007MikaelSehul"/>
+            </bibl>  
          </listBibl>
-         
          
          
       </body>

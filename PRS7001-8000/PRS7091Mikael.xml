@@ -42,6 +42,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
          <change who="SG" when="2016-08-09">Complete record</change>
+         <change when="2025-12-12" who="MK">Added info about the date of his death.</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -50,8 +51,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <person sex="1" sameAs="wd:Q720057">
             
              
-               <persName xml:lang="gez" xml:id="n1" type="birth">ሚካኤል፡ ስሑል፡</persName>
-                  <persName xml:lang="gez" corresp="#n1" type="normalized">Mikāʾel Sǝḥul</persName>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ሚካኤል፡ ሕዝቅያስ፡ ወልደ፡ ሐዋርያት፡</persName>
+                  <persName xml:lang="gez" corresp="#n1" type="normalized">Mikāʾel Ḥǝzqǝyās Walda Ḥawāryāt</persName>
+               <persName xml:lang="gez" xml:id="n2" type="main">ሚካኤል፡ ስሑል፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Mikāʾel Sǝḥul</persName>
                <persName>
                   <roleName type="title">rās</roleName>
                </persName>
@@ -70,12 +73,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                   <persName ref="PRS5636IyoasI">ʾIyoʾās I</persName> in <date> 1769</date>. 
                   He was responsible for a long time of political insecurity and lack of central government during the period of Zamana masāfǝnt.
                 </floruit>
-               <death when="1777" evidence="internal"/>
+               <death when="1777" evidence="internal">The date of his death is uncertain. According to some sources, he died after 1778, a point supported by information in <ref type="mss" corresp="ESdd044"/>. 
+                  The manuscript was commissioned in 1780 by Mikāʾel’s wife, known by her baptismal name <persName ref="PRS15145WalattaGiy">Walatta Giyorgis</persName>, four months before Mikāʾel’s death.</death>
             </person>   
             <listRelation>
                <relation name="snap:EnmityFor" active="PRS7091Mikael" passive="PRS5636IyoasI"/>
              
                <relation name="betmas:husbandOf" active="PRS7091Mikael" passive="PRS2167Aster"/>
+               <relation name="betmas:husbandOf" active="PRS7091Mikael" passive="PRS15145WalattaGiy"/>
                <relation name="snap:AllianceWith" active="PRS7091Mikael" passive="PRS2682BerhanM"/>
                <relation name="snap:FriendshipFor" active="PRS7091Mikael" passive="PRS2916Bruce"/>
             </listRelation>
