@@ -51,11 +51,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <nationality type="Ethiopia"/>
                     <birth/>
                     <death/>
-                    <floruit/>
+                    <floruit notBefore="1600">She is recorded as the owner of <ref type="mss" corresp="BAVet146"/> together with her son <persName ref="PRS15198WaldaSadeq">Walda Ṣādǝq</persName>.</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15199AmataMaryam" passive=""/>
-                    <relation name="snap:FatherOf" active="PRS15199AmataMaryam" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS15199AmataMaryam" passive="BAVet146"/>
+                    <relation name="snap:MotherOf" active="PRS15199AmataMaryam" passive="PRS15198WaldaSadeq"/>
                 </listRelation>
             </listPerson><!---->
         </body>
