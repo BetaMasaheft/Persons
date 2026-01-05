@@ -40,6 +40,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <revisionDesc>
             <change who="CH" when="2025-12-17">Created record</change>
             <change when="2025-12-18" who="CH">Updates after review by Magdalena Krzyżanowska</change>
+            <change when="2026-01-05" who="CH">Added n2 and references to ANLcr55</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -48,15 +49,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ዮሐንስ፡ ተክሉ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Yoḥannǝs Taklu</persName>
+                    <persName xml:lang="gez" xml:id="n2">ዮሐንስ፡ አክሱማዊ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n2">Yoḥannǝs ʾAksumāwi</persName>
                     <persName><roleName type="title">ʾalaqā</roleName></persName>
                     <floruit notBefore="1900" notAfter="1949">First half of the 20th century</floruit>
                     <residence ref="LOC1310Aksum">ʾAksum</residence>
                 </person>
                 <listRelation>
-                    <relation name="snap:ProfessionalRelationship" active="PRS15177YohannesT" passive="PRS14839Carbone"><desc>At the 
-                    request of <persName ref="PRS14839Carbone"/>, he copied a manuscript<!-- asap: "the manuscript ANLcr55 -->.</desc></relation>
+                    <relation name="snap:ProfessionalRelationship" active="PRS15177YohannesT" passive="PRS14839Carbone">
+                        <desc>He copied <ref type="mss" corresp="ANLcr55"/> at the request of <persName ref="PRS14839Carbone"/>
+                            as indicated in a receipt <ref type="mss" corresp="ANLcr125#31_i1"/>.</desc>
+                    </relation>
+                    <relation name="saws:isCopierOf" active="PRS15177YohannesT" passive="ANLcr55"></relation>
                 </listRelation>
-                <!-- saws:isCopierOf ANLcr55 (as indicated in a receipt being ANLcr125#31_i1-->
             </listPerson>
         </body>
     </text>
