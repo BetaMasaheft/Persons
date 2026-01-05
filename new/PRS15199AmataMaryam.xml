@@ -38,7 +38,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MKr" when="2026-01-05">Created stub</change>
+            <change who="MKr" when="2026-01-05">Created record</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -54,7 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <floruit notBefore="1600">She is recorded as the owner of <ref type="mss" corresp="BAVet146"/> together with her son <persName ref="PRS15198WaldaSadeq">Walda Ṣādǝq</persName>.</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15199AmataMaryam" passive="BAVet146"/>
+                    <relation name="saws:hasOwned" active="PRS15199AmataMaryam" passive="BAVet146"/>
                     <relation name="snap:MotherOf" active="PRS15199AmataMaryam" passive="PRS15198WaldaSadeq"/>
                 </listRelation>
             </listPerson><!---->
