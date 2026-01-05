@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Walda ʿAbiy ʾƎgziʾ</title>
+                <title>Walda ʿAbiya ʾƎgziʾ</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="MK"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -45,10 +45,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1" type="monastic">ወልደ፡ ዓቢይ፡ እግዚእ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walda ʿAbiy ʾƎgziʾ</persName>
-                    <persName xml:lang="gez" xml:id="n2">ወልደ፡ ዓቢየ፡ እግዚእ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n2">Walda ʿAbiya ʾƎgziʾ</persName>
+                    <persName xml:lang="gez" xml:id="n1" type="monastic">ወልደ፡ ዓቢየ፡ እግዚእ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walda ʿAbiya ʾƎgziʾ</persName>
                     <persName><roleName type="office">mamhǝr</roleName></persName>
                     <faith type="EOTC"/>
                     <occupation type="ecclesiastic">monk; head of the <placeName ref="INS0105DD">Dabra Dāmmo monastery</placeName></occupation>
@@ -57,7 +55,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <floruit notBefore="1872" notAfter="1889">Sometime between 1872 and 1889.</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15164WaldaAbEgzi" passive="ESdd044"><desc>His name appears in Addition 9.</desc></relation>
+                    <relation name="lawd:hasAttestation" active="PRS15164WaldaAbEgzi" passive="ESdd044#a9"><desc>His name appears in Addition 9.</desc></relation>
                     <relation name="snap:ProfessionalRelationship" active="PRS15164WaldaAbEgzi" passive="PRS15165GabraIyasus"></relation>
                     <relation name="snap:ProfessionalRelationship" active="PRS15164WaldaAbEgzi" passive="PRS15166WaldaAbiyaEgzi"></relation>
                 </listRelation>
