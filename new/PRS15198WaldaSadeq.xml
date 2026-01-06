@@ -1,13 +1,13 @@
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS15147SebhatZaab" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS15198WaldaSadeq" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Sǝbḥat Zaʾab</title>
+                <title>Walda Ṣādǝq</title>
                 <editor role="generalEditor" key="AB"/>
-                <editor key="MK"/>
+                <editor key="MKr"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
             <publicationStmt>
@@ -28,7 +28,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>A digital born TEI file</p>
         </encodingDesc>
         <profileDesc>
-            <t:creation xmlns:t="http://www.tei-c.org/ns/1.0"/>
+            <creation/>
             <abstract>
                 <p/>
             </abstract>
@@ -38,32 +38,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MK" when="2025-12-12">Created record</change>
+            <change who="MKr" when="2026-01-05">Created record</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ስብሐት፡ ዘአብ፡ </persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Sǝbḥat Zaʾab Walda ʾAbiya ʾAṭqu Gabra Mikāʾel</persName>
-                    <persName xml:lang="gez" xml:id="n2"><genName>ወልደ፡ አቢየ፡ አጥቁ፡ ገበረ፡ ሚካኤል፡</genName></persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n2">Walda ʾAbiya ʾAṭqu Gabra Mikāʾel</persName>
-                    <persName>
-                        <roleName type="title">mamhǝr</roleName>
-                    </persName>
+                    <persName xml:lang="gez" xml:id="n1">ወልደ፡ ጻድቅ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walda Ṣādǝq</persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
-                    <occupation type="ecclesiastic"/>
-                    <floruit notBefore="1800" notAfter="1899">Sometime in the 19th century.</floruit>
+                    <birth/>
+                    <death/>
+                    <floruit notBefore="1600">He is recorded as the owner of <ref type="mss" corresp="BAVet146"/> together with  his mother <persName ref="PRS15199AmataMaryam">ʾAmata Māryām</persName>.</floruit>
                 </person>
                 <listRelation>
-<<<<<<< Magda_DD-044_persons_part_2
-                    <relation name="lawd:hasAttestation" active="PRS15147SebhatZaab" passive="ESdd044#a1"><desc>His name appears in Addition 1.</desc></relation>
-=======
-                    <relation name="lawd:hasAttestation" active="PRS15147SebhatZaab" passive="ESdd044"><desc>His name appears in Addition 1.</desc></relation>
->>>>>>> master
-                    <relation name="snap:ProfessionalRelationship" active="PRS15147SebhatZaab" passive="PRS15148GabraMed"/>
+                    <relation name="saws:hasOwned" active="PRS15198WaldaSadeq" passive="BAVet146"/>
+                    <relation name="snap:SonOf" active="PRS15198WaldaSadeq" passive="PRS15199AmataMaryam"/>
                 </listRelation>
             </listPerson><!---->
         </body>

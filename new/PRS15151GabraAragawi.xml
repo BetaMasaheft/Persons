@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS15147SebhatZaab" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS15151GabraAragawi" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Sǝbḥat Zaʾab</title>
+                <title>Gabra ʾAragāwi</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="MK"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -45,27 +45,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ስብሐት፡ ዘአብ፡ </persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Sǝbḥat Zaʾab Walda ʾAbiya ʾAṭqu Gabra Mikāʾel</persName>
-                    <persName xml:lang="gez" xml:id="n2"><genName>ወልደ፡ አቢየ፡ አጥቁ፡ ገበረ፡ ሚካኤል፡</genName></persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n2">Walda ʾAbiya ʾAṭqu Gabra Mikāʾel</persName>
+                    <persName xml:lang="gez" xml:id="n1" type="monastic">ገብረ፡ አረጋዊ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra ʾAragāwi</persName>
                     <persName>
                         <roleName type="title">mamhǝr</roleName>
                     </persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
-                    <occupation type="ecclesiastic"/>
+                    <occupation type="ecclesiastic">monk; head of the <placeName ref="INS0105DD">Dabra Dāmmo monastery</placeName>.</occupation>
+                    <residence><placeName ref="LOC2254DabraD"/></residence>
                     <floruit notBefore="1800" notAfter="1899">Sometime in the 19th century.</floruit>
                 </person>
                 <listRelation>
-<<<<<<< Magda_DD-044_persons_part_2
-                    <relation name="lawd:hasAttestation" active="PRS15147SebhatZaab" passive="ESdd044#a1"><desc>His name appears in Addition 1.</desc></relation>
-=======
-                    <relation name="lawd:hasAttestation" active="PRS15147SebhatZaab" passive="ESdd044"><desc>His name appears in Addition 1.</desc></relation>
->>>>>>> master
-                    <relation name="snap:ProfessionalRelationship" active="PRS15147SebhatZaab" passive="PRS15148GabraMed"/>
+                    <relation name="lawd:hasAttestation" active="PRS15151GabraAragawi" passive="ESdd044"><desc>His name appears in Addition 4.</desc></relation>
+                    <relation name="snap:ProfessionalRelationship" active="PRS15151GabraAragawi" passive="PRS15153GabraMaryam"/>
+                    <relation name="snap:ProfessionalRelationship" active="PRS15151GabraAragawi" passive="PRS15152TasfaSellase"/>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>
