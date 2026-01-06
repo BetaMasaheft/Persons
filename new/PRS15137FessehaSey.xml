@@ -53,10 +53,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
                     <occupation type="ecclesiastic">monk</occupation>
-                    <floruit notBefore="1750" notAfter="1799">He was active during the reign of <persName ref="PRS9153TaklaHa"/>.</floruit>
+                    <note>According to a record in <ref type="mss" corresp="ESdd044#a10"/>, he, together with <persName ref="PRS15129Zagiyorgis"/>, <persName ref="PRS15132AnqasaHay"/>, <persName ref="PRS15130FessehaS"/> 
+                        and other monks, initiated the restoration of the monastery after it was destroyed by an earthquake in 1784.</note>
+                    <residence><placeName ref="LOC2254DabraD"/></residence>
+                    <floruit notBefore="1750" notAfter="1788">He was active sometime during the reign of <persName ref="PRS9153TaklaHa"/> (r. 1769–1777) up to <persName ref="PRS5618IyasuII">ʾIyāsu III</persName> (r. 1784 –1788). 
+                       </floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15137FessehaSey" passive="ESdd010"><desc>His name appears in the colophon.</desc></relation>
+                    <relation name="lawd:hasAttestation" active="PRS15137FessehaSey" passive="ESdd010#coloph1"><desc>His name appears in the colophon.</desc></relation>
+                    <relation name="lawd:hasAttestation" active="PRS15137FessehaSey" passive="ESdd044#a10"><desc>His name appears in Addition 10.</desc></relation>
                     <relation name="dc:relation" active="PRS15137FessehaSey" passive="PRS15130FessehaS"><desc>Fǝśśǝḥa Ṣǝyon was a monk at the time that ʾAbbā Fǝśśǝḥā Ṣǝyon was ʾafa mamhǝr of Dabra Dāmmo.</desc></relation>
                     <relation name="dc:relation" active="PRS15137FessehaSey" passive="PRS15129Zagiyorgis"><desc>Fǝśśǝḥa Ṣǝyon was a monk at the time that ʾAbuna Zagiyorgis was mamhǝr (abbot) of Dabra Dāmmo.</desc></relation>
                     <relation name="dc:relation" active="PRS15137FessehaSey" passive="PRS15132AnqasaHay"><desc>Fǝśśǝḥa Ṣǝyon was a monk at the time that ʾAnqaṣa Hāymānot was qes gabaz in Dabra Dāmmo.</desc></relation>

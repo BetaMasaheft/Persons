@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS15131GebIyesus" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS15169NassaraAb" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Gabra ʾIyasus</title>
+                <title>Naṣṣara ʾAb</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="MK"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -38,28 +38,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MK" when="2025-12-04">Created record</change>
+            <change who="MK" when="2025-12-15">Created record</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1" type="monastic">ገብረ፡ ኢየሱስ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra ʾIyasus</persName>
-                    <persName>
-                        <roleName type="title">ʾabuna</roleName>
-                    </persName>
+                    <persName xml:lang="gez" xml:id="n1" type="monastic">Naṣṣara ʾAb</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">ነጸረ፡ አብ፡</persName>
+                    <persName><roleName type="title">ʾabbā</roleName></persName>
                     <faith type="EOTC"/>
-                    <nationality type="Ethiopia"/>
                     <occupation type="ecclesiastic">monk</occupation>
                     <residence><placeName ref="LOC2254DabraD"/></residence>
-                    <floruit notBefore="1730" notAfter="1799">He was most likely active immediately before the reign of <persName ref="PRS9153TaklaHa"/> (r. 1769–1777).</floruit>
+                    <nationality type="Ethiopia"/>
+                    <floruit notBefore="1872" notAfter="1889">He was active the reign of King <persName ref="PRS10378Yohanne">Yoḥannǝs IV</persName> (r. 1872–1889).</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15131GebIyesus" passive="Esdd010"><desc>His name appears in the colophon.</desc></relation>
-                    <relation name="snap:FriendshipFor" active="PRS15131GebIyesus" passive="PRS15129Zagiyorgis"><desc>ʾAbuna Gabra ʾIyasus was a (spiritual) father of ʾAbuna Zagiyorgis.</desc></relation>
-                    <relation name="snap:FriendshipFor" active="PRS15131GebIyesus" passive="PRS15130FessehaS"><desc>ʾAbuna Gabra ʾIyasus was a (spiritual) father of ʾAbbā Fǝśśǝḥā Ṣǝyon.</desc></relation>
+                    <relation name="lawd:hasAttestation" active="PRS15169NassaraAb" passive="ESdd044#a13"><desc>His name appears in Addition 13.</desc></relation>
+                    <relation name="snap:ProfessionalRelationship" active="PRS15169NassaraAb" passive="PRS15168SabhatLaAb"></relation>
+                    <relation name="snap:ProfessionalRelationship" active="PRS15169NassaraAb" passive="PRS15170WaldaHeyat"></relation>
+                    
                 </listRelation>
             </listPerson><!---->
         </body>

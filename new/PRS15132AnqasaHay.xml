@@ -48,14 +48,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <persName xml:lang="gez" xml:id="n1" type="monastic">አንቀጸ፡ ሃይማኖት፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAnqaṣa Hāymānot</persName>
                     <persName>
-                        <roleName type="office">qes gabaz</roleName>
+                        <roleName type="function">qes gabaz</roleName>
                     </persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
-                    <floruit notBefore="1750" notAfter="1799">He was active during the reign of <persName ref="PRS9153TaklaHa"/>.</floruit>
+                    <occupation type="ecclesiastic">monk</occupation>
+                    <note>According to a record in <ref type="mss" corresp="ESdd044#a10"/>, he, together with <persName ref="PRS15129Zagiyorgis"/>, <persName ref="PRS15130FessehaS"/>, <persName ref="PRS15137FessehaSey"/> 
+                        and other monks, initiated the restoration of the monastery after it was destroyed by an earthquake in 1784.</note>
+                    <residence><placeName ref="LOC2254DabraD"/></residence>
+                    <floruit notBefore="1750" notAfter="1788">He was active sometime during the reign of <persName ref="PRS9153TaklaHa"/> (r. 1769–1777) up to <persName ref="PRS5618IyasuII">ʾIyāsu III</persName> (r. 1784 –1788). 
+                        </floruit>
                 </person>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="PRS15132AnqasaHay" passive="ESdd010"><desc>His name appears in the colophon.</desc></relation>
+                    <relation name="lawd:hasAttestation" active="PRS15132AnqasaHay" passive="ESdd044#a10"><desc>His name appears in Addition 10.</desc></relation>
                     <relation name="dc:relation" active="PRS15132AnqasaHay" passive="PRS15130FessehaS"><desc>ʾAnqaṣa Hāymānot held his position at the same time that ʾAbbā Fǝśśǝḥā Ṣǝyon was ʾafa mamhǝr of Dabra Dāmmo.</desc></relation>
                     <relation name="dc:relation" active="PRS15132AnqasaHay" passive="PRS15129Zagiyorgis"><desc>ʾAnqaṣa Hāymānot held his position at the same time that ʾAbuna Zagiyorgis was mamhǝr (abbot) of Dabra Dāmmo.</desc></relation>
                 </listRelation>
