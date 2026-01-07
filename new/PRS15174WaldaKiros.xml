@@ -32,13 +32,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <abstract>
                 <p/>
             </abstract>
-            <t:langUsage xmlns:t="http://www.tei-c.org/ns/1.0">
+            <langUsage>
                 <language ident="en">English</language>
                 <language ident="gez">Gǝʿǝz</language>
-            </t:langUsage>
+            </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="JK" when="2025-12-16">Created stub</change>
+            <change who="JK" when="2025-12-16">Created entity</change>
+            <change who="JK" when="2026-01-07">Updated based on comments by Dorothea Reule and Massimo Villa</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -50,7 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <floruit notBefore="1850" notAfter="1950">1850–1950</floruit>
                     </person>
                     <listRelation>
-                        <relation name="snap:SonOf" active="PRS15174WaldaKiros" passive="#PRS15173AmdaMikael"></relation>
+                        <relation name="snap:SonOf" active="PRS15174WaldaKiros" passive="PRS15173AmdaMikael"></relation>
                         <relation name="lawd:hasAttestation" active="PRS15174WaldaKiros" passive="BDLaethf30">
                         </relation>
                     </listRelation>
