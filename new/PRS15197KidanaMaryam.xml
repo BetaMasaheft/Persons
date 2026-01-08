@@ -47,13 +47,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ኪዳነ፡ ማርያም፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Kidāna Māryām</persName>
+                    <persName>
+                        <roleName type="title">ʾabbā</roleName>
+                    </persName>
                     <faith type="EOTC"/>
-                    <occupation type="ecclesiastic"/>
+                    <occupation type="ecclesiastic">monk</occupation>
                     <nationality type="Ethiopia"/>
-                    <floruit/>
+                    <birth>He came from Māy Bāhrā (possibly <placeName ref="LOC4601Maryam">Māryām Bāḥǝrā</placeName>).</birth>
+                    <floruit notBefore="1800" notAfter="1950">Sometime between 1800 and 1950.</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15197KidanaMaryam" passive="ESdd050"/>
+                    <relation name="lawd:hasAttestation" active="PRS15197KidanaMaryam" passive="ESdd050#a1"><desc>His name appears in Additions 1 and 5.</desc></relation>
                 </listRelation>
             </listPerson><!---->
         </body>
