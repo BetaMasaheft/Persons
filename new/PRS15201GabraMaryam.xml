@@ -38,24 +38,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MK" when="2026-01-08">Created stub</change>
+            <change who="MK" when="2026-01-08">Created record</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Gabra Māryām</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1" type="monastic">ገብረ፡ ማርያም፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra Māryām</persName>
+                    <persName>
+                        <roleName type="title">ʾabbā</roleName>
+                    </persName>
                     <faith type="EOTC"/>
-                    <occupation type="ecclesiastic"/>
+                    <occupation type="ecclesiastic">monk</occupation>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <residence>most likely <placeName ref="LOC2254DabraD"/></residence>
+                    <floruit notBefore="1800" notAfter="1950">Sometime between 1800 and 1950.</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15201GabraMaryam" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS15201GabraMaryam" passive="ESdd050#a7"><desc>His name appears in Additio 7.</desc></relation>
                 </listRelation>
             </listPerson><!---->
         </body>

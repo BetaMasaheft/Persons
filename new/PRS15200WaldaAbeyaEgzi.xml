@@ -38,23 +38,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MK" when="2026-01-08">Created stub</change>
+            <change who="MK" when="2026-01-08">Created record</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Walda ʾAbǝya ʾƎgziʾ</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1" type="baptismal">ወልደ፡ አብየ፡ እግዚ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walda ʾAbǝya ʾƎgziʾ</persName>
+                    <persName xml:lang="gez" xml:id="n2" type="alt">ወልደ፡ አቢ፡ እግዚ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n2">Walda ʾAbiya ʾƎgziʾ</persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1800" notAfter="1950">Sometime between 1800 and 1950.</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15200WaldaAbeyaEgzi" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS15200WaldaAbeyaEgzi" passive="ESdd050#a4"><desc>His name appears in <ref target="#a4"/>.</desc></relation>
                 </listRelation>
             </listPerson><!---->
         </body>
