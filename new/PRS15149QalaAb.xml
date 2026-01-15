@@ -39,6 +39,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="MK" when="2025-12-12">Created record</change>
+            <change who="MK" when="2026-01-15">Correction of the encoding in the relation section.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -57,7 +58,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <floruit notBefore="1800" notAfter="1899">Sometime in the 19th century.</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15149QalaAb" passive="ESdd044"><desc>His name appears in Addition 3.</desc></relation>
+                    <relation name="lawd:hasAttestation" active="PRS15149QalaAb" passive="ESdd044"><desc>His name appears in <ref type="mss" corresp="ESdd044#a3">Addition 3 of Ms. Ethio-SPaRe DD-044</ref>.</desc></relation>
                 </listRelation>
             </listPerson><!---->
         </body>

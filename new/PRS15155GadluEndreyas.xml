@@ -39,6 +39,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="MK" when="2025-12-12">Created record</change>
+            <change who="MK" when="2026-01-15">Correction of the encoding in the relation section.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -53,7 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <floruit notBefore="1872" notAfter="1889">He was active during the reign of King <persName ref="PRS10378Yohanne">Yoḥannǝs IV</persName> (r. 1872–1889).</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15155GadluEndreyas" passive="ESdd044"><desc>He appears in a land transaction, in Addition 5.</desc></relation>
+                    <relation name="lawd:hasAttestation" active="PRS15155GadluEndreyas" passive="ESdd044"><desc>He appears in a land transaction, in <ref type="mss" corresp="ESdd044#a5">Addition 5 of Ms. Ethio-SPaRe DD-044</ref>.</desc></relation>
                     <relation name="snap:ProfessionalRelationship" active="PRS15155GadluEndreyas" passive="PRS15154Abbay"></relation>
                 </listRelation>
             </listPerson>
