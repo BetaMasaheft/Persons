@@ -46,6 +46,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <revisionDesc>
             <change who="MV" when="2018-04-23">Created entity</change>
             <change who="SH" when="2021-01-07">Updated record</change>
+            <change who="MK" when="2026-01-15">Correction of the encoding in the relation section.</change>
+            
         </revisionDesc>
     </teiHeader>
     <text xml:base="https://betamasaheft.eu/">
@@ -59,8 +61,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <occupation type="literary">scribe</occupation>
                 </person>
                 <listRelation>
-                    <relation name="saws:isCopierOf" active="PRS12028WaldaAr" passive="MNC007#ms_i1"><desc>Walda ʾAragāwi is mentioned as scribe on <locus target="#16v"/>.</desc></relation>
-                    <relation name="lawd:hasAttestation" active="PRS12028WaldaAr" passive="MNC007#ms_i2"><desc>Walda ʾAragāwi appears as ‘servant’ on <locus target="#41v"/>.</desc></relation>
+                    <relation name="saws:isCopierOf" active="PRS12028WaldaAr" passive="MNC007"><desc>Walda ʾAragāwi is mentioned as scribe in <ref type="mss" corresp="ESdd044#ms_i1"/> on <locus target="#16v"/>.</desc></relation>
+                    <relation name="lawd:hasAttestation" active="PRS12028WaldaAr" passive="MNC007"><desc>Walda ʾAragāwi appears as ‘servant’ <ref type="mss" corresp="ESdd044#ms_i2"/> on <locus target="#41v"/>.</desc></relation>
                 </listRelation>
             </listPerson>
         </body>
