@@ -38,23 +38,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MKr" when="2026-01-16">Created stub</change>
+            <change who="MKr" when="2026-01-16">Created record</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Nǝzḫata Dam</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ንዝኀተ፡ ደም፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Nǝzḫata Dam</persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
                     <birth/>
                     <death/>
-                    <floruit/>
+                    <floruit notBefore="1700" />
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15223NezhataDam" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS15223NezhataDam" passive="BAVet147">
+                   </relation>
                 </listRelation>
             </listPerson><!---->
         </body>
