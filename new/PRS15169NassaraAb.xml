@@ -39,20 +39,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="MK" when="2025-12-15">Created record</change>
+            <change who="MK" when="2026-01-15">Correction of the encoding in the relation section.</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1" type="monastic">Naṣṣara ʾAb</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">ነጸረ፡ አብ፡</persName>
+                    <persName xml:lang="gez" xml:id="n1" type="monastic">ነጸረ፡ አብ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Naṣṣara ʾAb</persName>
                     <persName><roleName type="title">ʾabbā</roleName></persName>
                     <faith type="EOTC"/>
                     <occupation type="ecclesiastic">monk</occupation>
                     <residence><placeName ref="LOC2254DabraD"/></residence>
                     <nationality type="Ethiopia"/>
-                    <floruit notBefore="1872" notAfter="1889">He was active the reign of King <persName ref="PRS10378Yohanne">Yoḥannǝs IV</persName> (r. 1872–1889).</floruit>
+                    <floruit notBefore="1872" notAfter="1889">He was active during the reign of King <persName ref="PRS10378Yohanne">Yoḥannǝs IV</persName> (r. 1872–1889).</floruit>
                 </person>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="PRS15169NassaraAb" passive="ESdd044"><desc>His name appears in <ref type="mss" corresp="ESdd044#a13">Addition 13 of ms Ethio-SPaRe DD-044</ref>.</desc></relation>
