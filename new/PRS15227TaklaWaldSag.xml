@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Takla Wald Ṣaggāy</title>
+                <title>Takla Wald Ḍaggāy</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="MK"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -38,24 +38,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MK" when="2026-01-20">Created stub</change>
+            <change who="MK" when="2026-01-20">Created record</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Takla Wald Ṣaggāy</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ተክለ፡ ወልድ፡ ፀጋይ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Takla Wald Ḍaggāy</persName>
+                    <persName>
+                        <roleName type="function">qes</roleName>
+                    </persName>
                     <faith type="EOTC"/>
-                    <occupation type="ecclesiastic"/>
+                    <occupation type="ecclesiastic">priest</occupation>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <residence><placeName ref="INS0105DD">Dabra Dāmmo</placeName></residence>
+                    <floruit notBefore="1800" notAfter="1950">Sometime between 1800 and 1950.</floruit>
                 </person>
                 <listRelation>
-                    <relation name="saws:hasOwned" active="PRS15227TaklaWaldSag" passive=""/>
+                    <relation name="saws:hasOwned" active="PRS15227TaklaWaldSag" passive="ESdd024"><desc>He appears as a donor in <ref type="mss" corresp="ESdd024#a1">Addition 1</ref>.</desc></relation>
+                    <relation name="snap:SonOf" active="RS15227TaklaWaldSag" passive="PRS15228SaggaZaab"/>
                 </listRelation>
             </listPerson><!---->
         </body>

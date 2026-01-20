@@ -38,24 +38,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MK" when="2026-01-20">Created stub</change>
+            <change who="MK" when="2026-01-20">Created record</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Gabra Ṣǝsāmā</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ገብረ፡ ጽሳማ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra Ṣǝsāmā</persName>
+                    <persName>
+                        <roleName type="rank">ʾalaqā</roleName>
+                    </persName>
                     <faith type="EOTC"/>
-                    <occupation type="ecclesiastic"/>
+                    <occupation type="ecclesiastic">priest</occupation>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <residence><placeName ref="INS0105DD">Dabra Dāmmo</placeName></residence>
+                    <floruit notBefore="1800" notAfter="1950">Sometime between 1800 and 1950.</floruit>
                 </person>
                 <listRelation>
-                    <relation name="saws:hasOwned" active="PRS15231GabraSesama" passive=""/>
+                    <relation name="saws:hasOwned" active="PRS15231GabraSesama" passive="ESdd024"><desc>He appears as an owner in <ref type="mss" corresp="ESdd024#a2">Addition 2</ref>.</desc></relation>
                 </listRelation>
             </listPerson><!---->
         </body>

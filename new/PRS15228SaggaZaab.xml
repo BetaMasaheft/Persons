@@ -38,23 +38,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MK" when="2026-01-20">Created stub</change>
+            <change who="MK" when="2026-01-20">Created record</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Ṣaggā Zaʾab</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1" type="baptismal">ፀጋ፡ ዘአብ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Ṣaggā Zaʾab</persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1800" notAfter="1950">Sometime between 1800 and 1950.</floruit>
                 </person>
                 <listRelation>
-                    <relation name="snap:FatherOf" active="PRS15228SaggaZaab" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS15228SaggaZaab" passive="ESdd024"><desc>His name appears in <ref type="mss" corresp="ESdd024#a1">Addition 1</ref>.</desc></relation>
+                    <relation name="snap:FatherOf" active="PRS15228SaggaZaab" passive="PRS15227TaklaWaldSag"/>
+                    <relation name="betmas:husbandOf" active="RS15228SaggaZaab" passive="PRS15229WalattaSell"/>
                 </listRelation>
             </listPerson><!---->
         </body>
