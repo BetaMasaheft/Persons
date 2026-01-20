@@ -51,7 +51,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                    <floruit>Second half of the 19th century.</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15234WalattaSellase" passive="ESky040"/>
+                    <relation name="lawd:hasAttestation" active="PRS15234WalattaSellase" passive="ESky040"><desc>His name appears in a donation note, written in a secondary hand.</desc></relation>
+                    <relation name="saws:hasChild" active="RS15234WalattaSellase" passive="PRS15237WalattaKid"/>
                 </listRelation>
             </listPerson>
         </body>
