@@ -47,8 +47,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">አደራጆ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAdarāğo</persName>
-                    <persName xml:lang="gez" xml:id="n2">ገብረ፡ ኢየሱስ፡</persName>
-                    <persName xml:lang="gez" type="baptismal" corresp="#n2">Gabra ʾIyasus</persName>
+                    <persName xml:lang="gez" xml:id="n2" type="baptismal">ገብረ፡ ኢየሱስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n2">Gabra ʾIyasus</persName>
                     <persName><roleName type="title">lǝğ</roleName></persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
@@ -56,9 +56,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </person>
                 <listRelation>
                     <relation name="saws:hasOwned" active="RS15215LegAdarago" passive="ESky040"/>
-                    <relation name="lawd:hasAttestation" active="RS15215LegAdarago" passive="ESky040"><desc>His name appears in a donation note in  <ref type="mss" corresp="ESdd024#a1">Additio 1</ref> and <ref type="mss" corresp="ESdd024#a4">Additio 4</ref>.</desc></relation>
+                    <relation name="lawd:hasAttestation" active="RS15215LegAdarago" passive="ESky040"><desc>His name appears in a donation note in  <ref type="mss" corresp="ESky040#a1">Additio 1</ref> and <ref type="mss" corresp="ESky040#a4">Additio 4</ref>.</desc></relation>
                     <relation name="saws:isChildOf" active="RS15215LegAdarago" passive="PRS15236WalattaSelTakla"/>
                     <relation name="saws:isSiblingOf" active="RS15215LegAdarago" passive="15234WalattaSellase"/>
+                    <relation name="betmas:husbandOf" active="RS15215LegAdarago" passive="PRS15244WalattaTakla"/>
                 </listRelation>
             </listPerson>
         </body>
