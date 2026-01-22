@@ -42,16 +42,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </revisionDesc>
     </teiHeader>
     <text>
-        <body>
+        <body>.
             <listPerson>
                 <person sex="2">
-                    <persName xml:lang="gez" xml:id="n1">ወለተ፡ ኪዳን፡</persName>
-                    <persName xml:lang="gez" type="baptismal" corresp="#n1">Walatta Kidān</persName>
+                    <persName xml:lang="gez" xml:id="n1" type="baptismal">ወለተ፡ ኪዳን፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walatta Kidān</persName>
                     <faith type="EOTC"/>
                       <floruit>Second half of the 19th century.</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15237WalattaKid" passive="ESky040"><desc>Her name appears in a donation note in <ref type="mss" corresp="ESdd024#a4">Additio 4</ref>.</desc></relation>
+                    <relation name="lawd:hasAttestation" active="PRS15237WalattaKid" passive="ESky040"><desc>Her name appears in a donation note in <ref type="mss" corresp="ESky040#a4">Additio 4</ref>.</desc></relation>
                     <relation name="snap:DaughterOf" active="RS15237WalattaKid" passive="PRS15234WalattaSellase"/>
                 </listRelation>
             </listPerson>
