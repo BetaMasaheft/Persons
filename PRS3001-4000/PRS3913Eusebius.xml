@@ -45,11 +45,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Eusebius of Herakleia
-               </persName>
-               <persName type="alt">Ewsebyos</persName>
+               <persName xml:id="n1" xml:lang="gez">አውሳብዮስ፡ </persName>
+               <persName type="normalized" corresp="#n1">ʾAwsābyos</persName>
+               <persName type="main" corresp="#n1" xml:lang="en">Eusebius [of Herakleia]</persName>
+               <persName xml:id="n2" xml:lang="gez">አውስብዮስ፡ </persName>
+               <persName type="normalized" corresp="#n2">ʾAwsǝbyos</persName>
                <occupation> bishop</occupation>
             </person>
          </listPerson>

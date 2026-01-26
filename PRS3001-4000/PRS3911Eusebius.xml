@@ -45,12 +45,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Eusebius
-               </persName>
-               <persName type="alt">Awsǝbyos</persName>
-               <occupation> martyr </occupation>
+               <persName xml:id="n1" xml:lang="gez">አውሳብዮስ፡ </persName>
+               <persName type="normalized" corresp="#n1">ʾAwsābyos</persName>
+               <persName type="main" corresp="#n1" xml:lang="en">Eusebius </persName>
+               <persName xml:id="n2" xml:lang="gez">አውስብዮስ፡ </persName>
+               <persName type="normalized" corresp="#n2">ʾAwsǝbyos</persName>
+               <occupation> martyr, son of Basilides, commemorated on 23 Yakkātit</occupation>
             </person>
          </listPerson>
       </body>
