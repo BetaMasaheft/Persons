@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12034Awsabyos" xml:lang="en" type="pers">
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS12037Eusebios" xml:lang="en" type="pers">
     <teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt>
                 <title>ʾAwsābyos</title>
                 <editor role="generalEditor" key="AB"/>
-                <editor key="DR"/>
+                <editor key="ES"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
             <publicationStmt>
@@ -39,7 +39,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="DR" when="2018-04-24">Created entity</change>
+            <change who="ES" when="2026-01-26">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text xml:base="https://betamasaheft.eu/">
@@ -49,11 +49,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     <persName xml:lang="gez" xml:id="n1">አውሳብዮስ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAwsābyos</persName>
                     <persName xml:lang="en" type="main" corresp="#n1">Eusebius</persName>
-                    <floruit>a martyr Eusebius companion of <persName ref="PRS12033Andyanos"></persName>, commemorated on <date type="diesNatalis">9 Maggabit</date></floruit>
+                    <floruit>a priest, commemorated in the Synaxarion on <date type="diesNatalis">3 Gǝnbot</date></floruit>
                 </person>
-                <listRelation>
-                    <relation name="ecrm:P129i_is_subject_of" active="PRS12034Awsabyos" passive="LIT2375Synaxa"/>
-                </listRelation>
+                
             </listPerson>
         </body>
     </text>
