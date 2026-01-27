@@ -32,28 +32,29 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change when="2026-01-27" who="CH">Updated names and relation</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Zechariah
-               </persName>
+               <persName xml:lang="gez" xml:id="n1">ዘካርያስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Zakkāryās</persName>
+               <persName xml:lang="en" xml:id="n2" type="main">Zechariah</persName>
+               <persName xml:lang="en" xml:id="n3">Zachary</persName>
+               <occupation type="ecclesiastic">Jewish priest</occupation>
+               <floruit notBefore="-0099" notAfter="0015">1st century BC or early 1st century AD</floruit>
             </person>
             <listRelation>
-               <relation name="snap:FatherOf">
-                  <desc> fath. John the Baptist s. Zachary</desc>
-               </relation>
+               <relation name="snap:FatherOf" active="PRS10691Zechari" passive="PRS5741Johnthe"/>            
             </listRelation>
          </listPerson>
       </body>
