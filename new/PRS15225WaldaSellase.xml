@@ -49,12 +49,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Walda Śǝllāse</persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
                     <floruit notBefore="1700" />
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15225WaldaSellase" passive="BAVet147"/>
+                    <relation name="lawd:hasAttestation" active="PRS15225WaldaSellase" passive="BAVet147">
+                    <desc>He possibly was a later owner of the manuscript.</desc></relation>
                 </listRelation>
             </listPerson><!---->
         </body>
