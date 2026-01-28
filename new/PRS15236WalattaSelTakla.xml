@@ -51,7 +51,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <floruit>Second half of the 19th century.</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15236WalattaSelTakla" passive="ESky040"><desc>Her unusual name appears in a donation note in <ref type="mss" corresp="ESky040#a4">Additio 4</ref>. It is not clear whether her name does consist of two parts or one of them is a name of her daughter-in-law.</desc></relation>
+                    <relation name="lawd:hasAttestation" active="PRS15236WalattaSelTakla" passive="ESky040">
+                        <desc>Her unusual name appears in a donation note in <ref type="mss" corresp="ESky040#a4">Additio 4</ref>. 
+                            </desc></relation>
+                    <relation name="betmas:motherInLawOf" active="RS15236WalattaSelTakla" passive="PRS15238AmataMaryam"/>
+                    <relation name="saws:hasChild" active="RS15236WalattaSelTakla" passive="RS15234WalattaSellase">
+                        <desc>It is not clear whether her unusual name does consist of two parts or one of them is a name of her daughter written twice by mistake. </desc></relation>
                      </listRelation>
             </listPerson>
         </body>
