@@ -1,0 +1,65 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS15216EngedaW" xml:lang="en" type="pers">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ʾƎngǝdā Warq</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="MV"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="MV" when="2026-01-16">Created record</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person sex="1">
+                    <persName xml:lang="gez" xml:id="n1">እንግዳ፡ ወርቅ፡</persName>             
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">ʾƎngǝdā Warq</persName>            
+                    <faith type="EOTC"/>
+                    <floruit notBefore="1800"/>
+                </person>
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="PRS15216EngedaW" passive="BAVet197">
+                        <desc>His name is written in a secondary hand in the scribal supplication on f. 53v.</desc>
+                    </relation>
+                    <relation name="syriaca:possibly-identical" active="PRS15216EngedaW" passive="PRS3808engedaW">
+                        <desc>It is unclear if the title <foreign xml:lang="gez">አለቃ፡</foreign> refers to <persName ref="PRS15216EngedaW">ʾƎngǝdā Warq</persName>.
+                            If so, he might be the same as <persName ref="PRS3808engedaW"/>.</desc>
+                    </relation>
+                </listRelation>
+            </listPerson>
+        </body>
+    </text>
+</TEI>
