@@ -32,7 +32,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
@@ -45,15 +48,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       <body>
          <listPerson>
             <person sex="2">
-               <persName>
-                  
-                  Dǝl Mängǝśa
-               </persName>
+               <persName xml:lang="gez" xml:id="n1">ድል፡ መንጋሣ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Dǝl Mangǝśā</persName>
+               <persName xml:lang="gez" xml:id="n2">Dǝlma Nǝgśā</persName>
+               <persName xml:lang="gez" type="baptismal" xml:id="n3">በትረ፡ አሮን፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n3">Batra ʾAron</persName>
             </person>
             <listRelation>
-               <relation name="snap:DaughterOf">
-                  <desc> daugh. Dawit </desc>
-               </relation>
+               <relation name="snap:DaughterOf" active="PRS3478DelMang" passive="PRS3429DawitII"/>
             </listRelation>
          </listPerson>
       </body>
