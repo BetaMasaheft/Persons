@@ -16,7 +16,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 This file is licensed under the Creative Commons
                 Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2016-03-21</date>
+            
          </publicationStmt>
          <sourceDesc>
             <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
@@ -45,11 +45,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Ammǝḫa Giyorgis
-               </persName>
-               <occupation> abbot </occupation>
+               <persName xml:lang="gez" xml:id="n1">አምኃ፡ ጊዮርጊስ፡ ዘደብረ፡ መጒና፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAmmǝḫā Giyorgis za-Dabra Magʷinā</persName>
+               <persName xml:lang="en" corresp="#n1">ʾAmmǝḫā Giyorgis of Dabra Magʷinā</persName>
+               <occupation> abbot of <placeName ref="LOC4417Magwin">Dabra Magʷinā</placeName></occupation>
             </person>
          </listPerson>
       </body>

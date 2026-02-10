@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS3669edaKres">
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS3509Danel">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>ʾƎda Krǝstos</title>
+            <title>Dānǝʾel za-Waqen</title>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
@@ -32,24 +32,32 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       </encodingDesc>
       <profileDesc>
          <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
+         <textClass>
+            <keywords>
+               <term key="saint"></term>
+            </keywords>
+         </textClass>
       </profileDesc>
       <revisionDesc>
-         <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
-         <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: person</change>
+
+         <change who="ES" when="2026-02-09">CREATED: person</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
-               <persName xml:lang="gez" xml:id="n1">እደ፡ ክርስቶስ፡</persName>
-               <persName xml:lang="gez" type="normalized" corresp="#n1">ʾƎda Krǝstos </persName>
-               <persName xml:lang="en" corresp="#n1">ʾƎda Krǝstos</persName>
-               <occupation type="ecclesiastic">abbot of <placeName ref="LOC4417Magwin">Dabra Magʷinā</placeName></occupation>
+               <persName xml:lang="gez" xml:id="n1">ዳንኤል፡ ዘወቄን፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Dānǝʾel za-Waqen</persName>
+               <persName xml:lang="en" corresp="#n1">Dānǝʾel of Waqen</persName>
             </person>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:KRZ"/>
+               <citedRange unit="page">68</citedRange> <citedRange unit="item">37</citedRange>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>

@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Iyosyas</title>
+            <title>ʾIyosyās</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -16,7 +16,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 This file is licensed under the Creative Commons
                 Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2016-03-21</date>
+            
          </publicationStmt>
          <sourceDesc>
             <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
@@ -32,7 +32,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
@@ -45,11 +45,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Iyosyas
-               </persName>
-               <occupation> abba </occupation>
+               <persName xml:lang="gez" xml:id="n1">ኢዮስያስ፡ ዘደብረ፡ ስብሐት፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">ʾIyosyās za-Dabra Sǝbḥat</persName>
+               <persName xml:lang="en" corresp="#n1">ʾIyosyās of Dabra Sǝbḥat</persName>
+               <occupation> abba; righteous </occupation>
             </person>
          </listPerson>
       </body>

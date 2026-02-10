@@ -16,7 +16,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 This file is licensed under the Creative Commons
                 Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2016-03-21</date>
+            
          </publicationStmt>
          <sourceDesc>
             <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
@@ -32,7 +32,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
@@ -45,14 +45,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Minas
-               </persName>
-               <occupation> abbot</occupation>
-               <residence>
-                  Däbrä Abräntant 
-               </residence>
+               <persName xml:lang="gez">ሚናስ፡ ዘዋልድባ፡</persName>
+               <persName xml:lang="gez" type="normalized">Minās za-Wāldǝbbā</persName>
+               <persName xml:lang="en">Minās of Wāldǝbbā</persName>
+               <occupation> abbot of <placeName ref="LOC2229DabraA">Dabra Abrantānt</placeName></occupation>
+               
             </person>
          </listPerson>
       </body>

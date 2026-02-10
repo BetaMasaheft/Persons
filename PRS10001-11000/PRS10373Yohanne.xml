@@ -16,7 +16,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 This file is licensed under the Creative Commons
                 Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2016-03-21</date>
+            
          </publicationStmt>
          <sourceDesc>
             <p>Prosopography of the Ethiopian and Eritrean written tradition</p>
@@ -32,24 +32,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
+            google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change who="ES" when="2026-02-09">updated person</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Yoḥannǝs
-               </persName>
-               <occupation> abbot of Zäge </occupation>
+               <persName xml:lang="gez" xml:id="n1">ዮሐንስ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Yoḥannǝs </persName>
+               <persName xml:lang="gez" xml:id="n2">ዮሐንስ፡ ዘውራ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n2">Yoḥannǝs za-Wǝrrā</persName>
+               <occupation type="ecclesiastic"> abbot and founder of several monasteries on the Zage peninsula, including Wǝrrā ʾIyasus, <placeName ref="LOC6307WerraK "/> and <placeName ref="LOC1587AswaMa"/></occupation>
             </person>
          </listPerson>
       </body>
