@@ -32,28 +32,39 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change who="MKr" when="2026-06-02">Added alternative names, floruit, deleted doublettes (PRS3491DelmaNe and PRS14168Delmangasa)</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="2">
-               <persName>
-                  
-                  Dǝl Mängǝśa
-               </persName>
+               <persName xml:lang="gez" xml:id="n1">ድል፡ መንግሣ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Dǝl Mangǝśā</persName>
+               <persName xml:lang="gez" xml:id="n2">ድልመ፡ ንግሣ፡</persName>
+               <persName xml:lang="gez" type="normalized"  corresp="#n2">Dǝlma Nǝgśā</persName>
+               <persName xml:lang="gez" xml:id="n3">ድልመንገሣ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n3">Dǝlmangaśā</persName>
+               <persName xml:lang="gez" type="baptismal" xml:id="n4">በትረ፡ አሮን፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n4">Batra ʾAron</persName>
+               <nationality type="Ethiopia"></nationality>
+               <faith type="EOTC"></faith>
+               <floruit  notBefore="1330" notAfter="1450">She was the daughter of  ʾaṣe <persName ref="PRS3429DawitII">Dāwit II</persName> and a ruler of  <placeName ref="LOC1713Bagemd">Bagemdǝr</placeName>.</floruit>
             </person>
             <listRelation>
-               <relation name="snap:DaughterOf">
-                  <desc> daugh. Dawit </desc>
-               </relation>
+               <relation name="snap:DaughterOf" active="PRS3478DelMang" passive="PRS3429DawitII"/>
+               <relation name="betmas:formerlyAlsoListedAs" active="PRS3478DelMang" passive="PRS3491DelmaNe"/>
+               <relation name="betmas:formerlyAlsoListedAs" active="PRS3478DelMang" passive="PRS14168Delmangasa"/>
             </listRelation>
          </listPerson>
       </body>
