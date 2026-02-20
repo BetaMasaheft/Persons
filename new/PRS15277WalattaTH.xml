@@ -39,22 +39,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="CH" when="2026-02-19">Created record</change>
-            <!--  -->
+            <change when="2026-02-19" who="CH">Updated after review by Magdalena Krzyżanowska</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="2">
-                    <persName xml:lang="gez" xml:id="n1">ወለተ፡ ተክለ፡ ሃይማኖት፡</persName>
+                    <persName xml:lang="gez" xml:id="n1" type="baptismal">ወለተ፡ ተክለ፡ ሃይማኖት፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Walatta Takla Hāymānot</persName>
                     <floruit notBefore="1700" notAfter="1799" cert="medium">Probably 18th century</floruit>
                 </person>
                 <listRelation>
                     <relation name="snap:DaughterOf" active="PRS15277WalattaTH" passive="PRS15273Kelala"/>
                     <relation name="snap:SisterOf" active="PRS15277WalattaTH" passive="PRS15278WaldaKidan"/>
-                    <relation name="saws:hasOwned" active="PRS15277WalattaTH" passive="ESeth005"><desc>She was mentioned as 
-                        commissioner of the manuscript next to her mother <persName ref="PRS15273Kelala"/>.</desc></relation>
+                    <relation name="saws:hasOwned" active="PRS15277WalattaTH" passive="ESeth005"><desc>She is mentioned as 
+                        commissioner of the manuscript alongside her mother <persName ref="PRS15273Kelala"/>.</desc></relation>
                 </listRelation>
             </listPerson>
         </body>
