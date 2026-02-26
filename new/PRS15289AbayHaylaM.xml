@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ʿAbāy Ḫāyla Māryām </title>
+                <title>ʿAbāy Ḫāyla Māryām</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="MK"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -38,23 +38,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MK" when="2026-02-26">Created stub</change>
+            <change who="MK" when="2026-02-26">Created record</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ʿAbāy Ḫāyla Māryām </persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ዓባይ፡ ወልደ፡ ማርያም፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">ʿAbāy Ḫāyla Māryām</persName>
+                    <persName>
+                        <roleName type="title">daǧǧāzmāč</roleName>
+                    </persName>
                     <faith type="EOTC"/>
                     <occupation type="military"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1900" notAfter="1920">1900–1920</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15289AbayHaylaM" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS15289AbayHaylaM" passive="ESmakm075"><desc>His name appears in a note on bequeathing the land and the rank to his son in 
+                       <ref type="mss" corresp="ESmkam075#a9">Additio 9</ref>.</desc></relation>
+                    <relation name="snap:FatherOf" active="PRS15289AbayHaylaM" passive="PRS15288Balay"/>
                 </listRelation>
             </listPerson><!---->
         </body>

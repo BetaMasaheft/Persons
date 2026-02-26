@@ -38,25 +38,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MK" when="2026-02-26">Created stub</change>
+            <change who="MK" when="2026-02-26">Created record</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Balāy</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">በላይ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Balāy</persName>
+                    <persName>
+                        <roleName type="title">daǧǧāzmāč</roleName>
+                    </persName>
                     <faith type="EOTC"/>
                     <occupation type="military"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1900" notAfter="1950">Sometime in the first half of the 20th century.</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15288Balay" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS15288Balay" passive="ESmakm075"><desc>His name appears in land transaction in <ref type="mss" corresp="ESmakm075#a5">Additio 5</ref>.</desc></relation>
+                    <relation name="saws:isChildOf" active="PRS15288Balay" passive="PRS15289AbayHaylaM"></relation>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>
