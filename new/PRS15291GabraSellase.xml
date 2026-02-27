@@ -38,23 +38,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MK" when="2026-02-26">Created stub</change>
+            <change who="MK" when="2026-02-26">Created record</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Gabra Śǝllāse</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1" type="monastic">ገብረ፡ ሥላሴ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra Śǝllāse</persName>
+                    <persName>
+                        <roleName type="title">ʾabuna</roleName>
+                    </persName>
                     <faith type="EOTC"/>
-                    <occupation type="ecclesiastic"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <occupation type="ecclesiastic">monk, abbot of the monastery <placeName ref="INS0174MAKM">Māy ʾAnbasā</placeName></occupation>
+                    <floruit notBefore="1900" notAfter="1950">First half of the 20th century.</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15291GabraSellase" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS15291GabraSellase" passive="ESmakm075"><desc>His name appears in an inventory in <ref type="mss" corresp="ESmkam075#a10">Additio 10</ref>.</desc></relation>
                 </listRelation>
             </listPerson><!---->
         </body>

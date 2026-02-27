@@ -38,24 +38,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MK" when="2026-02-26">Created stub</change>
+            <change who="MK" when="2026-02-26">Created record</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Walda Giyorgis</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1" type="monastic">ወልደ፡ ጊዮርጊስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walda Giyorgis</persName>
+                    <persName>
+                        <roleName type="title">ʾabuna</roleName>
+                    </persName>
                     <faith type="EOTC"/>
-                    <occupation type="ecclesiastic"/>
+                    <occupation type="ecclesiastic">monk, abbot of the monastery <placeName ref="INS0174MAKM">Māy ʾAnbasā</placeName></occupation>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1900" notAfter="1950">First half of the 20th century.</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15292WaldaGiyor" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS15292WaldaGiyor" passive="ESmakm075"><desc>His name appears in in an inventory in <ref type="mss" corresp="ESmkam075#a11">Additio 11</ref>.</desc></relation>
                 </listRelation>
             </listPerson><!---->
         </body>
