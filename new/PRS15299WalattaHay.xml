@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS15278WaldaKidan" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS15299WalattaHay" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Walda Kidān</title>
+                <title>Walatta Hāymānot</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="CH"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -38,22 +38,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="CH" when="2026-02-19">Created record</change>
-            <change when="2026-02-19" who="CH">Updated after review by Magdalena Krzyżanowska</change>
-            <change when="2026-03-02" who="CH">Corrected relation snap:BrotherOf</change>
+            <change who="CH" when="2026-03-02">Created record</change>
+            <change when="2026-03-02" who="MK">Reviewed and approved by Magdalena Krzyżanowska and Elizaveta Shvarts</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1" type="baptismal">ወልደ፡ ኪዳን፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walda Kidān</persName>
+                <person sex="2">
+                    <persName xml:lang="gez" xml:id="n1">ወለተ፡ ሃይማኖት፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walatta Hāymānot</persName>
                     <floruit notBefore="1700" notAfter="1799" cert="medium">Probably 18th century</floruit>
                 </person>
-                <listRelation>
-                    <relation name="snap:BrotherOf" active="PRS15278WaldaKidan" passive="PRS15273Kelala"/>
-                </listRelation>
+                    <listRelation>
+                        <relation name="snap:SisterOf" active="PRS15299WalattaHay" passive="PRS15273Kelala"/>
+                    </listRelation>
             </listPerson>
         </body>
     </text>
