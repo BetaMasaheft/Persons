@@ -38,23 +38,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MK" when="2026-02-26">Created stub</change>
+            <change who="MK" when="2026-02-26">Created record</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="2">
-                    <persName xml:lang="gez" xml:id="n1">Walatta Rufāʾel</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1" type="baptismal">ወለተ፡ ሩፋኤል፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walatta Rufāʾel</persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1900" notAfter="1950">Sometime in the first half of the 20th century.</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15296WalattaRuf" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS15296WalattaRuf" passive="ESmakm075"><desc>Her name appears in a supplication written by a secondary hand.</desc></relation>
                 </listRelation>
             </listPerson><!---->
         </body>

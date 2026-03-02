@@ -38,23 +38,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MK" when="2026-03-02">Created stub</change>
+            <change who="MK" when="2026-03-02">Created record</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="2">
-                    <persName xml:lang="gez" xml:id="n1">Tābota Māryām</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1" type="baptismal">ታቦተ፡ ማርያም፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Tābota Māryām</persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1900" notAfter="1950">Sometime in the first half of the 20th century.</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15300TabotaMaryam" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS15300TabotaMaryam" passive="ESmakm075"><desc>Her name appears in a donation note in <ref type="mss" corresp="#a9">Additio 9</ref>.</desc></relation>
+                    <relation name="snap:MotherOf" active="PRS15300TabotaMaryam" passive="PRS15301Sellas"/>
+                    <relation name="betmas:wifeOf" active="PRS15300TabotaMaryam" passive="PRS15293DamdaMalakot"></relation>
                 </listRelation>
             </listPerson><!---->
         </body>
