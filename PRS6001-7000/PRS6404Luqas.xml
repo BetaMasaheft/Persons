@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Luqas</title>
+            <title>Luqās</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -32,25 +32,33 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change when="2026-03-04" who="CH">Updated persName</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Luqas
-               </persName>
-               <occupation> metr. </occupation>
+               <persName xml:lang="gez" xml:id="n1" type="birth">ሉቃስ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Luqās</persName>
+               <occupation type="ecclesiastic">bishop</occupation>
+               <floruit notBefore="1881">He was the bishop in <placeName ref="LOC1713Bagemd"/> and 
+                  <placeName ref="LOC5671Semen"/>, consecrated by <persName ref="PRS3259CyrilV"/> on request of 
+                  <persName ref="PRS10378Yohanne"/>.</floruit>
             </person>
+            <listRelation>
+               <relation name="betmas:ordainedBy" active="PRS6404Luqas" passive="PRS3259CyrilV"/>
+               <relation name="snap:AllianceWith" active="PRS6404Luqas" passive="PRS10378Yohanne"/>
+               <relation name="snap:FriendshipFor" active="PRS6404Luqas" passive="PRS6876Matewos"/>
+               <relation name="snap:FriendshipFor" active="PRS6404Luqas" passive="PRS7830Petros"/>
+            </listRelation>
          </listPerson>
       </body>
    </text>
