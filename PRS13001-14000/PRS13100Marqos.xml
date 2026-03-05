@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Marqos</title>
+                <title>Mārqos</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="RL"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -39,6 +39,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="RL" when="2020-07-20">Created entity</change>
+            <change when="2026-03-05" who="CH">Add relation formerlyListedAs, update transcription</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -46,7 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPerson>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ማርቆስ፡</persName>
-                    <persName xml:lang="gez" corresp="#n1" type="normalized">Marqos</persName>
+                    <persName xml:lang="gez" corresp="#n1" type="normalized">Mārqos</persName>
                     <persName>
                       <roleName type="title">ʾabuna</roleName>
                     </persName>
@@ -67,7 +68,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <relation name="snap:FriendshipFor" active="PRS13100Marqos" passive="PRS6404Luqas"/>
    <relation name="snap:FriendshipFor" active="PRS13100Marqos" passive="PRS7830Petros"/>
    <relation name="snap:FriendshipFor" active="PRS13100Marqos" passive="PRS6876Matewos"/>
-
+    <relation name="betmas:formerlyAlsoListedAs" active="PRS13100Marqos" passive="PRS11150Marqos"/>
 
 </listRelation>
 
