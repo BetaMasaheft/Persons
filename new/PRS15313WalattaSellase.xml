@@ -38,23 +38,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MK" when="2026-03-06">Created stub</change>
+            <change who="MK" when="2026-03-06">Created record</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="2">
-                    <persName xml:lang="gez" xml:id="n1">Walatta Śǝllāse</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1" type="baptismal">ወለተ፡ ሥላሴ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walatta Śǝllāse</persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1800" notAfter="1899">Sometime in the 19th century.</floruit>
                 </person>
                 <listRelation>
-                    <relation name="betmas:wifeOf" active="PRS15313WalattaSellase" passive=""/>
+                    <relation name="betmas:wifeOf" active="PRS15313WalattaSellase" passive="PRS15312KenfaGab"/>
+                    <relation name="snap:MotherOf" active="PRS15313WalattaSellase" passive="PRS15304GabraEgzi"/>
+                    <relation name="snap:MotherOf" active="PRS15312KenfaGab" passive="PRS15314GabraIyasus"></relation>
+                    <relation name="snap:MotherOf" active="PRS15312KenfaGab" passive="PRS15315WaldaTakHay"></relation>
+                    <relation name="snap:MotherOf" active="PRS15312KenfaGab" passive="PRS15316WalattaKidan"></relation>
+                    <relation name="snap:MotherOf" active="PRS15312KenfaGab" passive="PRS15317WalattaEgzi"></relation>
+                    <relation name="snap:MotherOf" active="PRS15312KenfaGab" passive="PRS15318AmataSeyon"></relation>
                 </listRelation>
             </listPerson><!---->
         </body>

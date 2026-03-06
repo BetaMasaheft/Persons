@@ -38,21 +38,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MK" when="2026-03-06">Created stub</change>
+            <change who="MK" when="2026-03-06">Created record</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="2">
-                    <persName xml:lang="gez" xml:id="n1">Walatta ʾƎgziʾ</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1" type="baptismal">ወለተ፡ እግዚእ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walatta ʾƎgziʾ</persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1800" notAfter="1899">Sometime in the 19th century.</floruit>
                 </person>
+                <listRelation>
+                    <relation name="snap:DaughterOf" active="PRS15317WalattaEgzi" passive="PRS15312KenfaGab"></relation>
+                    <relation name="snap:DaughterOf" active="PRS15317WalattaEgzi" passive="PRS15313WalattaSellase"></relation>
+                    <relation name="snap:SisterOf" active="PRS15317WalattaEgzi" passive="PRS15304GabraEgzi"></relation>
+                </listRelation>
             </listPerson><!---->
         </body>
     </text>
