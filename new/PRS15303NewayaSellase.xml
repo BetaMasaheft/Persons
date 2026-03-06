@@ -38,24 +38,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MK" when="2026-03-06">Created stub</change>
+            <change who="MK" when="2026-03-06">Created record</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Nǝwāya Śǝllāse</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
-                    <t:faith xmlns:t="http://www.tei-c.org/ns/1.0" type="EOTC"/>
-                    <occupation type="ecclesiastic"/>
+                    <persName xml:lang="gez" xml:id="n1" type="monastic">ንዋየ፡ ሥላሴ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Nǝwāya Śǝllāse</persName>
+                    <persName><roleName type="title">ʾabuna</roleName></persName>
+                    <faith type="EOTC"/>
+                    <occupation type="ecclesiastic">monk</occupation>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1800" notAfter="1899">Sometime in the 19th century.</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15303NewayaSellase" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS15303NewayaSellase" passive="ESmakm002"><desc>His name, partly erased, appears in supplications; he was the original supplicant.</desc></relation>
                 </listRelation>
             </listPerson><!---->
         </body>
