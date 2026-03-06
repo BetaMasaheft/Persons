@@ -45,6 +45,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="SG" when="2016-09-15">Complete record</change>
          <change who="SG" when="2016-12-08">Correction to transliteration</change>
          <change who="SG" when="2017-02-23">some corrections</change>
+         <change when="2026-03-04" who="CH">Corrected to PRS3259CyrilV, Adjustments to TEI</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -54,26 +55,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                <persName xml:lang="gez" xml:id="n1" type="birth">ጴጥሮስ፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Ṗeṭros IV</persName>
                <persName>
-                  <roleName type="title">ʾAbuna</roleName>
+                  <roleName type="title">ʾabuna</roleName>
                </persName>
                <occupation type="ecclesiastic">metropolitan</occupation>
                <nationality type="Egypt"/>
                <faith type="Coptic"/>
           
                <residence>
-                  <placeName ref="LOC1114AddiAb">ʾAddi ʾAbun</placeName> 
+                  <placeName ref="LOC1114AddiAb"/> 
                </residence>
                <floruit notBefore="1882" notAfter="1917">He was the metropolitan of the Ethiopian Orthodox Church,
-                  consecrated by <persName ref="PRS3258CyrilIV">Cyril IV</persName>  
-                  in <date>1882</date> together with the other three bishops: <persName ref="PRS6876Matewos">Mātewos</persName>, <persName ref="PRS6404Luqas">Luqās</persName> and 
-                  <persName ref="PRS13100Marqos">Mārqos</persName>. 
-                  He was the successor of ʾabuna <persName ref="PRS2225Atnatewo">ʾAtnātewos</persName> four years after the death of the later.
+                  consecrated by <persName ref="PRS3259CyrilV"/>  
+                  in <date when="1882">1882</date> together with the other three bishops: <persName ref="PRS6876Matewos"/>, <persName ref="PRS6404Luqas"/> and 
+                  <persName ref="PRS13100Marqos"/>. 
+                  He was the successor of ʾabuna <persName ref="PRS2225Atnatewo"/>.
           </floruit>
-               <death when="1917"> He died on <date> 20 October 1917</date>
-               </death>
+               <death when="1917-10-20">20 October 1917</death>
             </person>
             <listRelation>
-               <relation name="betmas:ordainedBy" active="PRS7830Petros" passive="PRS3258CyrilIV"/>
+               <relation name="betmas:ordainedBy" active="PRS7830Petros" passive="PRS3259CyrilV"/>
                <relation name="snap:AllianceWith" active="PRS7830Petros" passive="PRS10378Yohanne"/>
                <relation name="snap:FriendshipFor" active="PRS7830Petros" passive="PRS6404Luqas"/>
                <relation name="snap:FriendshipFor" active="PRS7830Petros" passive="PRS6876Matewos"/>

@@ -43,6 +43,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="SG" when="2016-09-15">Complete record</change>
          <change when="2020-07-20" who="RL">Corrected reference to Abuna Marqos corresponding to new person file</change>
          <change when="2026-02-11" who="CH">Updated floruit</change>
+         <change when="2026-03-04" who="CH">Corrected PRS3259CyrilV, Adjustments to TEI</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -54,31 +55,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                <persName>
                   <roleName type="title">ʾabuna</roleName>
                </persName>
+               <occupation type="ecclesiastic">bishop in <placeName ref="LOC5597Sawa"/></occupation>
                <occupation type="ecclesiastic">metropolitan</occupation>
                <nationality type="Egypt"/>
                <faith type="Coptic"/>
                <birth when="1843"/>
                <death when="1926-10-20">20 October 1926</death>
-               <floruit when="1889">He was the metropolitan of the Ethiopian Orthodox Church,
-                  consecrated by <persName ref="PRS3258CyrilIV">Cyril IV</persName>
-                  in <date>1889</date>. He arrived to Ethiopia in <date>1881</date>
+               <floruit notBefore="1881" notAfter="1926">He arrived to Ethiopia in <date when="1881">1881</date>
                   together with three other bishops: <persName ref="PRS13100Marqos"/>,
                   <persName ref="PRS6404Luqas"/> and <persName ref="PRS7830Petros"/> requested by
                   Emperor <persName ref="PRS10378Yohanne"/>.
                   He was a bishop of <placeName ref="LOC5597Sawa"/> <date notBefore="1881" notAfter="1889">from 1881 to 1889</date>.
                   Following the death of Emperor <persName ref="PRS10378Yohanne"/> and the enthronement of 
                   <persName ref="PRS7006Menilek"/> in 1889, he received permission from Coptic Patriarch
-                  <persName ref="PRS3258CyrilIV"/> to replace  ʾabuna <persName ref="PRS7830Petros"/> as metropolitan.
+                  <persName ref="PRS3259CyrilV"/> to replace  ʾabuna <persName ref="PRS7830Petros"/> as metropolitan.
                </floruit>
             </person>
             <listRelation>
-               <relation name="betmas:ordainedBy" active="PRS6876Matewos" passive="PRS3258CyrilIV"/>
+               <relation name="betmas:ordainedBy" active="PRS6876Matewos" passive="PRS3259CyrilV"/>
                <relation name="snap:AllianceWith" active="PRS6876Matewos" passive="PRS10378Yohanne"/>
                <relation name="snap:FriendshipFor" active="PRS6876Matewos" passive="PRS6404Luqas"/>
                <relation name="snap:FriendshipFor" active="PRS6876Matewos" passive="PRS7830Petros"/>
                <relation name="snap:AllianceWith" active="PRS6876Matewos" passive="PRS7006Menilek"/>
-
-
             </listRelation>
          </listPerson>
          <listBibl type="secondary">
