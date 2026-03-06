@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title> Gabra ʾƎgziʾ</title>
+                <title>Gabra ʾƎgziʾ</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="MK"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -38,23 +38,30 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MK" when="2026-03-06">Created stub</change>
+            <change who="MK" when="2026-03-06">Created record</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1"> Gabra ʾƎgziʾ</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
-                    <t:faith xmlns:t="http://www.tei-c.org/ns/1.0" type="EOTC"/>
+                    <persName xml:lang="gez" xml:id="n1" type="monastic">ገብረ፡ እግዚእ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra ʾƎgziʾ</persName>
+                    <persName><roleName type="title">ʾabuna</roleName></persName>
+                    <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <occupation type="ecclesiastic">Most likely a monk of the <placeName ref="INS0174MAKM">Māy ʾAnbasā</placeName> monastery.</occupation>
+                    <floruit notBefore="1800" notAfter="1899">Sometime in the 19th century.</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15304GabraEgzi" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS15304GabraEgzi" passive="ESmakm002"><desc>His name as a supplicant appears in supplication formulas written by a secondary hand.</desc></relation>
+                    <relation name="snap:SonOf" active="PRS15304GabraEgzi" passive="PRS15312KenfaGab"></relation>
+                    <relation name="snap:SonOf" active="PRS15304GabraEgzi" passive="PRS15313WalattaSellase"></relation>
+                    <relation name="snap:BrotherOf" active="PRS15304GabraEgzi" passive="PRS15314GabraIyasus"></relation>
+                    <relation name="snap:BrotherOf" active="PRS15304GabraEgzi" passive="PRS15315WaldaTakHay"></relation>
+                    <relation name="snap:BrotherOf" active="PRS15304GabraEgzi" passive="PRS15316WalattaKidan"></relation>
+                    <relation name="snap:BrotherOf" active="PRS15304GabraEgzi" passive="PRS15317WalattaEgzi"></relation>
+                    <relation name="snap:BrotherOf" active="PRS15304GabraEgzi" passive="PRS15318AmataSeyon"></relation>
                 </listRelation>
             </listPerson><!---->
         </body>
