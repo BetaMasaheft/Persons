@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS14648WaldaGiyorgis" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS15320ArkaSellus" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Walda Giyorgis</title>
+                <title>ʾArka Śǝllus</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="MK"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -32,32 +32,31 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <abstract>
                 <p/>
             </abstract>
-            <langUsage xmlns:t="http://www.tei-c.org/ns/1.0">
+            <langUsage>
                 <language ident="en">English</language>
                 <language ident="gez">Gǝʿǝz</language>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <t:change xmlns:t="http://www.tei-c.org/ns/1.0" who="MK" when="2025-01-13">Created entity</t:change>
+            <change who="MK" when="2026-03-11">Created record</change>
         </revisionDesc>
     </teiHeader>
-    <text xmlns:t="http://www.tei-c.org/ns/1.0">
+    <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1" type="baptismal">ወልደ፡ ጊዮርጊስ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walda Giyorgis</persName>
+                    <persName xml:lang="gez" xml:id="n1">አርከ፡ ሥሉስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">ʾArka Śǝllus</persName>
                     <faith type="EOTC"/>
-                    <occupation type="other"/>
+                    <nationality type="Ethiopia"/>
                     <floruit notBefore="1800" notAfter="1899">Sometime in the 19th century.</floruit>
                 </person>
                 <listRelation>
-                    <relation name="saws:hasOwned" active="PRS14648WaldaGiyorgis" passive="ESdd029"><desc>He appears as an owner in <ref type="mss" corresp="ESdd029#a1"> Ms. DD-029, Additio 1</ref>.</desc></relation>
-                    <relation name="betmas:husbandOf" active="PRS14648WaldaGiyorgis" passive="PRS15319NashaDengel" />
-                    <relation name="snap:FatherOf" active="PRS14648WaldaGiyorgis" passive="PRS15320ArkaSellus"/>
-                    <relation name="snap:FatherOf" active="PRS14648WaldaGiyorgis" passive="PRS15321AblaSellus"/>
+                    <relation name="snap:SonOf" active="PRS15320ArkaSellus" passive="PRS14648WaldaGiyorgis"/>
+                    <relation name="snap:SonOf" active="PRS15320ArkaSellus" passive="PRS15319NashaDengel"/>
+                    <relation name="snap:BrotherOf" active="PRS15320ArkaSellus" passive="PRS15321AblaSellus"/>
                 </listRelation>
-            </listPerson>
+            </listPerson><!---->
         </body>
     </text>
 </TEI>
