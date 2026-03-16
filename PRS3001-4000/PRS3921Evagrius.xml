@@ -45,16 +45,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Evagrius
-               </persName>
-               <persName type="alt">Evagrius Ponticus</persName>
-               <persName type="alt">Wägris</persName>
-               <persName type="alt">Awgaryos; Agwaris</persName>
-               <occupation> theol. </occupation>
+               <persName xml:lang="en" xml:id="n1">Evagrius</persName>
+               <persName xml:lang="en"  xml:id="n2" type="alt">Evagrius Ponticus</persName>
+               <persName xml:lang="gez" xml:id="n3" type="alt">ወግሪስ፡</persName>
+               <persName xml:lang="gez" corresp="#n3" type="normalized">Wagris</persName>
+               <persName xml:lang="gez" xml:id="n4" type="alt">አውጋርዮስ፡</persName>
+               <persName xml:lang="gez" corresp="#n4" type="normalized">Awgaryos</persName>
+               <persName xml:lang="gez" xml:id="n5" type="alt">አግዋሪስ፡</persName>
+               <persName xml:lang="gez" corresp="#n5" type="normalized">Agwaris</persName>
+               <persName xml:lang="gez" xml:id="n6" type="alt">ወቅሪስ፡</persName>
+               <persName xml:lang="gez" corresp="#n6" type="normalized">Waqris</persName>
+               <persName> <roleName type="title">ʾabbā</roleName></persName>
+               <occupation>monk, monastic theologian, ascetic writer</occupation>
+               <birth>ca. 325</birth>
+               <death>ca. 399</death>
             </person>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Bausi2005Evagrius"/>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
