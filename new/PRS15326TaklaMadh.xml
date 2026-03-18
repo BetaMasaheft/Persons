@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Takla Madḫen</title>
+                <title>Takla Madḫǝn</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="CH"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -39,16 +39,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="CH" when="2026-03-17">Created record</change>
-            <!--  -->
+            <change when="2026-03-18" who="CH">Updated name and added floruit after review by Magdalena Krzyżanowska</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person>
-                    <persName xml:lang="gez" xml:id="n1">ተክለ፡ መድኄን፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Takla Madḫen</persName>
-                    <floruit/>
+                    <persName xml:lang="gez" xml:id="n1">ተክለ፡ መድኅን፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Takla Madḫǝn</persName>
+                    <floruit notBefore="1800" notAfter="1899">19th century</floruit>
                 </person>
                 <listRelation>
                     <relation name="saws:hasOwned" active="PRS15326TaklaMadh" passive="ANLcr47"/>

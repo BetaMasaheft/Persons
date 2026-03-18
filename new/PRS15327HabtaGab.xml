@@ -39,7 +39,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="CH" when="2026-03-18">Created record</change>
-            <!--  -->
+            <change when="2026-03-18" who="CH">Added dc:relation after review by Magdalena Krzyżanowska</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -52,7 +52,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </person>
                 <listRelation>
                     <relation name="saws:hasOwned" active="PRS15327HabtaGab" passive="ANLcr47"/>
-                    <!-- Possibly the same person as PRS14805HabtaG, who commissioned ANLcr15 -->
+                    <relation name="dc:relation" active="PRS15327HabtaGab" passive="PRS14805HabtaG"><desc>Possibly the same person as 
+                        <persName ref="PRS14805HabtaG"/>, who commissioned <ref type="mss" corresp="ANLcr15"/>.</desc></relation>
                  </listRelation>
             </listPerson>
         </body>
