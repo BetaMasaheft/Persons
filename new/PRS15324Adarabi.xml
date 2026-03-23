@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ʾAdarābi</title>
+                <title>ʾAdarrābi</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="ESh"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -38,7 +38,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="ESh" when="2026-03-16">Created stub</change>
+            <change who="ESh" when="2026-03-16">Created record</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -46,14 +46,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPerson>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">አደራቢ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAdarābi</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAdarrābi</persName>
                     <faith type="EOTC"/>
-                    <birth/>
-                    <death/>
+                  >
                     <floruit notBefore="1950" notAfter="1965" evidence="external">Between 1950s and 1965</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15324Adarabi" passive="CBD908"><desc>His name appears in a supplication note and as a signature.</desc></relation>
+                    <relation name="lawd:hasAttestation" active="PRS15324Adarabi" passive="CBD908"><desc>His name appears in a supplication formula and as a signature.</desc></relation>
                 </listRelation>
             </listPerson><!---->
         </body>
