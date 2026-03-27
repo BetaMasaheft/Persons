@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Fasulo</title>
+                <title>Giuseppe Fasulo</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="CH"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -32,28 +32,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <abstract>
                 <p/>
             </abstract>
-            <t:langUsage xmlns:t="http://www.tei-c.org/ns/1.0">
-                <t:language ident="en">English</t:language>
-                <t:language ident="gez">Gǝʿǝz</t:language>
-            </t:langUsage>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="it">Italian</language>
+            </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="CH" when="2026-03-25">Created stub</change>
+            <change who="CH" when="2026-03-25">Created record</change>
+            <!--  -->
         </revisionDesc>
     </teiHeader>
-    <t:text xmlns:t="http://www.tei-c.org/ns/1.0">
+    <text>
         <body>
-            <t:listPerson>
+            <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Fasulo</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
-                    <t:faith type=""/>
-                    <t:occupation type="military"/>
-                    <birth/>
-                    <t:death/>
-                    <t:floruit/>
+                    <persName xml:lang="it"><forename>Giuseppe</forename> <surname>Fasulo</surname></persName>
+                    <occupation type="military">Colonello</occupation>
+                    <floruit when="1937">1937</floruit>
                 </person>
-            </t:listPerson><!---->
+            </listPerson>
         </body>
-    </t:text>
+    </text>
 </TEI>
