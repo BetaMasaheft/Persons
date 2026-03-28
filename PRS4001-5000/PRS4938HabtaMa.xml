@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Habtä Maryam Gäbrä Ǝgziʿabǝḥer</title>
+            <title>Hambissa Kumsaa</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -32,7 +32,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="am">Amharic</language>
+            <language ident="om">Oromo</language>
+         </langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
@@ -45,13 +49,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Habtä Maryam Gäbrä Ǝgziʿabǝḥer
-               </persName>
-               <occupation> däǧǧ. </occupation>
+               <persName xml:id="n1" xml:lang="om"><forename>Hambissa</forename> <surname>Kumsaa</surname></persName>
+               <persName xml:id="n2" xml:lang="am" type="baptismal">ሃብተ፡ ማርያም፡</persName>
+               <persName corresp="#n2" xml:lang="am" type="normalized">Hābta Māryām</persName>
+               <persName xml:id="n3" xml:lang="am">ሃብተ፡ ማርያም፡ ገብረ፡ እግዚአብሔር፡</persName>
+               <persName corresp="#n3" xml:lang="am" type="normalized">Hābta Māryām Gabra ʾƎgziʾabǝḥer</persName>
+               <persName><roleName type="title">daǧǧāzmāč</roleName></persName>
+               <occupation type="political">Oromo leader</occupation>
+               <residence ref="LOC4964Naqamt"/>
+               <birth when="1910-06">June 1910</birth>
+               <death when="1937-01">January 1937</death>
+               <floruit notBefore="1930" notAfter="1937">First half of 20th century</floruit>
             </person>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Triulzi2006Orality"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Triulzi2005HabtaMaryamGE"/>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
