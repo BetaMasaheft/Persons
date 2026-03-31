@@ -1,0 +1,64 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS15336WaldaKi" xml:lang="en" type="pers">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Walda Kidān Yǝmanu</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="MV"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+                <language ident="am">Amharic</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="MV" when="2026-03-30">Created record</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person sex="1">
+                    <persName xml:lang="gez" xml:id="n1">ወልደ፡ ኪዳን፡ ይመኑ፡</persName>             
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walda Kidān Yǝmanu</persName>     
+                    <persName xml:lang="gez" xml:id="n2">ይመኑ፡ ወልደ፡ ኪዳን፡</persName>
+                    <persName xml:lang="gez" corresp="#n2" type="normalized">Yǝmanu Walda Kidān</persName>
+                    <faith type="EOTC"/>
+                    <floruit notBefore="1800" notAfter="1899"/>
+                </person>
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="PRS15336WaldaKi" passive="BAVet213">
+                        <desc>His name is written in several scribal supplications. He was probably the owner of the manuscript.</desc>
+                    </relation>
+                </listRelation>
+            </listPerson>
+        </body>
+    </text>
+</TEI>
