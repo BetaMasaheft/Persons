@@ -38,7 +38,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="CH" when="2026-03-30">Created record</change>
-            <!--  -->
+            <change when="2026-03-31" who="CH">Updated according requests by Eugenia Sokolinski and Magdalena Krzyżanowska</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -48,14 +48,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <persName><forename>Luigi</forename> <surname>Bonomi</surname></persName>
                     <persName><roleName type="title">padre</roleName></persName>
                     <persName><roleName type="title">reverendus pater</roleName></persName>
-                    <floruit notBefore="1850" notAfter="1900">Second half of 19th century</floruit>
+                    <occupation type="ecclesiastic">monk</occupation>
+                    <faith type="Catholicism"/>
+                    <nationality type="Italy"/>
+                    <residence ref="LOC1579Asmara">Asmara</residence>
+                    <birth when="1841">1841 in Verona (Italy)</birth>
+                    <death when="1927-02-02">2 February 1927 in Asmara (Eritrea)</death>
+                    <floruit notBefore="1887" notAfter="1927">A companion of <persName ref="PRS3168Comboni"/>, who was put in prison by 
+                        the Mahdis, managed to escape and was sent to <placeName ref="LOC2991Eritre"/> in <date when="1887"/>. He invited the
+                        Comboni sisters to come in Eritrea in <date when="1914"/>.</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15335Bonomi" passive="ANLcr49#e2"><desc>He is mentioned as the 
-                        the one, who has hass linguistic material and grammatical sketches of the Kunama language by 
+                    <relation name="lawd:hasAttestation" active="PRS15335Bonomi" passive="ANLcr49#e2"><desc>He is mentioned as the one,
+                        who has passed linguistic material and grammatical sketches of the Kunama language collected by 
                         <persName ref="PRS15334Henriot"/> to <persName ref="PRS3182ContiRo"/>.</desc></relation>
                 </listRelation>
             </listPerson>
+            <listBibl type="secondary">
+                <bibl><ptr target="bm:ComboniWebsite"/></bibl>
+                <bibl><ptr target="bm:GaigaComboniBonomi"/></bibl>
+                <bibl><ptr target="bm:GaigaComboniDonLuigiB"/></bibl>
+            </listBibl>
         </body>
     </text>
 </TEI>
