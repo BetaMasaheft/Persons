@@ -32,10 +32,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <abstract>
                 <p/>
             </abstract>
-            <t:langUsage xmlns:t="http://www.tei-c.org/ns/1.0">
+            <langUsage>
                 <language ident="en">English</language>
                 <language ident="gez">Gǝʿǝz</language>
-            </t:langUsage>
+                <language ident="am">Amharic</language>
+            </langUsage>
         </profileDesc>
         <revisionDesc>
             <change who="MV" when="2026-03-30">Created record</change>
@@ -46,7 +47,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPerson>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ወልደ፡ ኪዳን፡ ይመኑ፡</persName>             
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walda Kidān Yǝmanu</persName>            
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walda Kidān Yǝmanu</persName>     
+                    <persName xml:lang="gez" xml:id="n2">ይመኑ፡ ወልደ፡ ኪዳን፡</persName>
+                    <persName xml:lang="gez" corresp="#n2" type="normalized">Yǝmanu Walda Kidān</persName>
                     <faith type="EOTC"/>
                     <floruit notBefore="1800" notAfter="1899"/>
                 </person>
