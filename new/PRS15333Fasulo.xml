@@ -39,7 +39,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="CH" when="2026-03-25">Created record</change>
-            <!--  -->
+            <change when="2026-03-28" who="CH">Updated after reviews by Eugenia Sokolinski and Magdalena Krzyżanowska</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -47,10 +47,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPerson>
                 <person sex="1">
                     <persName xml:lang="it"><forename>Giuseppe</forename> <surname>Fasulo</surname></persName>
-                    <occupation type="military">colonello</occupation>
+                    <persName><roleName type="rank">colonello</roleName></persName>
+                    <occupation type="military">commanding officer of the Italian East Africa military administration in 
+                        <placeName ref="LOC4964Naqamt"/>.</occupation>
                     <floruit when="1937">1937</floruit>
                 </person>
             </listPerson>
+            <listBibl type="secondary">
+                <bibl><ptr target="bm:Triulzi2006Orality"/></bibl>
+            </listBibl>
         </body>
     </text>
 </TEI>
