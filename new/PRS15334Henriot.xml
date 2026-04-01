@@ -38,7 +38,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="CH" when="2026-03-30">Created record</change>
-            <!-- -->
+            <change when="2026-04-01" who="CH">Updated after reviews by Eugenia Sokolinski and Magdalena Krzyżanowska</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -50,10 +50,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <persName><roleName type="title">padre</roleName></persName>
                     <occupation type="ecclesiastic">monk</occupation>
                     <faith type="Catholicism"/>
+                    <residence ref="LOC4631Massaw">Massawa</residence>
                     <birth when="1847-04-07">7 April 1847 in Morville-sur-Nied (France)</birth>
                     <death when="1894-07-09">9 July 1894 in <placeName ref="LOC1579Asmara"/></death>
-                    <floruit when="1894">He was sent to <placeName ref="LOC2991Eritre"/> in 1894 to study the language of the 
-                        <persName ref="ETH1792Kunama"/>. He died in Asmara shortly after in the same year.</floruit>
+                    <floruit when="1894">He was sent to <placeName ref="LOC2991Eritre"/> in 1894 to convert the 
+                        <persName ref="ETH1792Kunama"/> to the Christian belief. He died in Asmara shortly after in the same year.</floruit>
                 </person>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="PRS15334Henriot" passive="ANLcr49#e2"><desc>He is mentioned as the 
