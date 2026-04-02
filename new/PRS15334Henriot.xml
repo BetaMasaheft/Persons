@@ -1,0 +1,78 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS15334Henriot" xml:lang="en" type="pers">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Leon Hanriot</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="CH"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="CH" when="2026-03-30">Created record</change>
+            <change when="2026-04-01" who="CH">Updated after reviews by Eugenia Sokolinski and Magdalena Krzyżanowska</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person sex="1">
+                    <persName><forename>Leon</forename> <surname>Hanriot</surname></persName>
+                    <persName><forename>Léon</forename> <surname>Henriot</surname></persName>
+                    <persName><roleName type="title">padre</roleName></persName>
+                    <occupation type="ecclesiastic">monk</occupation>
+                    <faith type="Catholicism"/>
+                    <residence ref="LOC4631Massaw">Massawa</residence>
+                    <birth when="1847-04-07">7 April 1847 in Morville-sur-Nied (France)</birth>
+                    <death when="1894-07-09">9 July 1894 in <placeName ref="LOC1579Asmara"/></death>
+                    <floruit notBefore="1874" notAfter="1894">he became a monk in <placeName ref="LOC2085Cairo"/> in 
+                        <date when="1878">1878</date> during a pilgrimage to <placeName ref="LOC5068Palest"/>. He was sent to 
+                        <placeName ref="LOC2991Eritre"/> and stayed in <placeName ref="LOC4631Massaw">Massawa</placeName> 
+                        to work as a missionary among the <persName ref="ETH1792Kunama"/>.</floruit>
+                </person>
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="PRS15334Henriot" passive="ANLcr49#e2"><desc>He is mentioned as the 
+                        collector of the material and author of grammatical sketches of the Kunama language in <ref type="mss" corresp="ANLcr49"/>
+                        in a note by <persName ref="PRS3182ContiRo"/>.</desc></relation>
+                </listRelation>
+            </listPerson>
+            <listBibl type="secondary">
+                <bibl><ptr target="bm:ComboniWebsite"/></bibl>
+                <bibl><ptr target="bm:ComboniHanriot"/></bibl>
+                <bibl>
+                    <ptr target="bm:ContiRossini1903Cunama"/>
+                    <citedRange>187–188</citedRange>
+                    <citedRange unit="note">1</citedRange>
+                </bibl>
+            </listBibl>
+        </body>
+    </text>
+</TEI>

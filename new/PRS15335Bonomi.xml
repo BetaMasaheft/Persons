@@ -1,0 +1,78 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS15335Bonomi" xml:lang="en" type="pers">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Luigi Bonomi</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="CH"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="CH" when="2026-03-30">Created record</change>
+            <change when="2026-03-31" who="CH">Updated according requests by Eugenia Sokolinski and Magdalena Krzyżanowska</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person sex="1">
+                    <persName><forename>Luigi</forename> <surname>Bonomi</surname></persName>
+                    <persName><roleName type="title">padre</roleName></persName>
+                    <persName><roleName type="title">reverendus pater</roleName></persName>
+                    <occupation type="ecclesiastic">chaplain of the Italian troops in Italian East Africa and then of the hospital in Asmara</occupation>
+                    <faith type="Catholicism"/>
+                    <nationality type="Italy"/>
+                    <residence ref="LOC1579Asmara">Asmara</residence>
+                    <birth when="1841">1841 in Verona (Italy)</birth>
+                    <death when="1927-02-02">2 February 1927 in Asmara (Eritrea)</death>
+                    <floruit notBefore="1874" notAfter="1927">A companion of <persName ref="PRS3168Comboni"/>, who was active in 
+                        <placeName ref="LOC5068Palest"/> and in the Sudan. He was put in prison 
+                        by the Mahdists, managed to escape and was sent to <placeName ref="LOC2991Eritre"/> in <date when="1887"/>. 
+                        He invited the Comboni sisters to come in Eritrea in <date when="1914"/>.</floruit>
+                </person>
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="PRS15335Bonomi" passive="ANLcr49#e2"/>
+                </listRelation>
+            </listPerson>
+            <listBibl type="secondary">
+                <bibl><ptr target="bm:ComboniWebsite"/></bibl>
+                <bibl><ptr target="bm:GaigaComboniBonomi"/></bibl>
+                <bibl><ptr target="bm:GaigaComboniDonLuigiB"/></bibl>
+                <bibl>
+                    <ptr target="bm:ContiRossini1903Cunama"/>
+                    <citedRange>187–188</citedRange>
+                    <citedRange unit="note">1</citedRange>
+                </bibl>
+            </listBibl>
+        </body>
+    </text>
+</TEI>
