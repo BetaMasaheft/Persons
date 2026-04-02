@@ -53,9 +53,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <residence ref="LOC4631Massaw">Massawa</residence>
                     <birth when="1847-04-07">7 April 1847 in Morville-sur-Nied (France)</birth>
                     <death when="1894-07-09">9 July 1894 in <placeName ref="LOC1579Asmara"/></death>
-                    <floruit when="1894">He was sent to <placeName ref="LOC2991Eritre"/> and stayed in 
-                        <placeName ref="LOC4631Massaw">Massawa</placeName> in 1894 to work as a missionary among the
-                        <persName ref="ETH1792Kunama"/>. He died in Asmara shortly after in the same year.</floruit>
+                    <floruit notBefore="1874" notAfter="1894">he became a monk in <placeName ref="LOC2085Cairo"/> in 
+                        <date when="1878">1878</date> during a pilgrimage to <placeName ref="LOC5068Palest"/>. He was sent to 
+                        <placeName ref="LOC2991Eritre"/> and stayed in <placeName ref="LOC4631Massaw">Massawa</placeName> 
+                        to work as a missionary among the <persName ref="ETH1792Kunama"/>.</floruit>
                 </person>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="PRS15334Henriot" passive="ANLcr49#e2"><desc>He is mentioned as the 
