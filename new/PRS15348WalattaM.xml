@@ -38,22 +38,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="ESh" when="2026-04-07">Created stub</change>
+            <change who="ESh" when="2026-04-07">Created record</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="2">
-                    <persName xml:lang="gez" xml:id="n1">Walatta Māryām</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1" type="baptismal">ወለተ፡ ማርያም፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walatta Māryām</persName>
                     <faith type="EOTC"/>
-                    <birth/>
-                    <death/>
-                    <floruit>19th century</floruit>
+                  
+                    <floruit>18th century</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15348WalattaM" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS15348WalattaM" passive="CBD916"><desc>Her name appears in a supplication formula once.</desc></relation>
+                    <relation name="snap:DaughterOf" active="PRS15348WalattaM" passive="PRS15347HirutaI"/>
+                    <relation name="saws:isInSameFamilyAs" active="PRS15348WalattaM" passive="PRS15346HIyasus"/>
                 </listRelation>
             </listPerson><!---->
         </body>
