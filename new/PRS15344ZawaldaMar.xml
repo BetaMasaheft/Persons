@@ -45,7 +45,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ዘወልደ፡ ማርያም፡</persName>
+                    <persName xml:lang="gez" xml:id="n1" type="baptismal">ዘወልደ፡ ማርያም፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Zawalda Māryām</persName>
                     <faith type="EOTC"/>
                     <occupation type="literary"/>
@@ -55,7 +55,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <floruit/>
                 </person>
                 <listRelation>
-                    <relation name="saws:isCopierOf" active="PRS15344ZawaldaMar" passive="ESdd033"><desc>He is mentioned as a scribe of <ref type="mss" corresp="ESdd033#a2">Additio 2 of Ms. Ethio-SPaRe DD-033</ref>.</desc></relation>
+                    <relation name="saws:isCopierOf" active="PRS15344ZawaldaMar" passive="ESdd033"><desc>He is mentioned as the scribe of <ref type="mss" corresp="ESdd033#a2">Additio 2 of Ms. C3-IV-273</ref>.</desc></relation>
                 </listRelation>
             </listPerson><!---->
         </body>
