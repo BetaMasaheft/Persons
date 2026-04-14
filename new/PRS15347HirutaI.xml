@@ -49,11 +49,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Ḫiruta ʾIyasus</persName>
                     <faith type="EOTC"/>
                     
-                    <floruit>18th century</floruit>
+                    <floruit notBefore="1700" notAfter="1799">18th century</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15347HirutaI" passive="CBD916"><desc>Her name appeares once in a supplication formula.</desc></relation>
-                    <relation name="saws:isInSameFamilyAs" active="PRS15347HirutaI" passive="PPRS15346HIyasus"/>
+                    <relation name="lawd:hasAttestation" active="PRS15347HirutaI" passive="CBD916"><desc>Her name appeares in a supplication formula.</desc></relation>
+                    <relation name="snap:FamilyOf" active="PRS15347HirutaI" passive="PPRS15346HIyasus"/>
                 </listRelation>
             </listPerson><!---->
         </body>

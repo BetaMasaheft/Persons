@@ -49,12 +49,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Walatta Māryām</persName>
                     <faith type="EOTC"/>
                   
-                    <floruit>18th century</floruit>
+                    <floruit notBefore="1700" notAfter="1799">18th century</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15348WalattaM" passive="CBD916"><desc>Her name appears in a supplication formula once.</desc></relation>
+                    <relation name="lawd:hasAttestation" active="PRS15348WalattaM" passive="CBD916"><desc>Her name appears in a supplication formula.</desc></relation>
                     <relation name="snap:DaughterOf" active="PRS15348WalattaM" passive="PRS15347HirutaI"/>
-                    <relation name="saws:isInSameFamilyAs" active="PRS15348WalattaM" passive="PRS15346HIyasus"/>
+                    <relation name="snap:FamilyOf" active="PRS15348WalattaM" passive="PRS15346HIyasus"/>
                 </listRelation>
             </listPerson><!---->
         </body>
