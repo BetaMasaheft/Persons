@@ -39,18 +39,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change when="2026-04-23" who="ESh">added wiki-reference, birth and death dates, and her residence</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
-            <person sex="2">
+            <person sex="2" sameAs="wd:Q1435770">
                <persName>
                   Valerie Susan
                   Meux
                </persName>
                <occupation> collectionist </occupation>
                <occupation>Lady</occupation>
+               <residence>Theobald's Park, Waltham Cross, Essex, United Kingdom.</residence>
+               <birth>1852</birth>
+               <death >1910</death>
             </person>
          </listPerson>
       </body>
