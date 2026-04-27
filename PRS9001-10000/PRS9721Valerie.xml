@@ -46,16 +46,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       <body>
          <listPerson>
             <person sex="2" sameAs="wd:Q1435770">
-               <persName>
-                  Valerie Susan
-                  Meux
+               <persName xml:lang="en"><forename>Valerie Susan</forename> <surname>Meux</surname>
                </persName>
+               <persName><roleName type="title">Lady</roleName></persName>
                <occupation> collectionist </occupation>
-               <occupation>Lady</occupation>
-               <residence>Theobald's Park, Waltham Cross, Essex, United Kingdom.</residence>
-               <birth>1852</birth>
-               <death >1910</death>
+               
+               <residence>Theobald's Park, Waltham Cross, Essex,  <placeName ref="wd:Q145">United Kingdom</placeName>.</residence>
+               <birth when="1852"/>
+               <birth type="alt"  when="1847"/>
+               <death when="1910"/>
             </person>
+            <listRelation>
+               <relation name="saws:hasOwned" active="PRS9721Valerie" passive="CBD914"/>
+            </listRelation>
          </listPerson>
       </body>
    </text>
