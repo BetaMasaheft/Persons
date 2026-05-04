@@ -52,8 +52,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <floruit notBefore="1900" notAfter="1930">Beginning of the 20th century</floruit>
                 </person>
             </listPerson>
-            <!-- He appears on a sheet of paper accompanying PULgarrettEth043. He is possibly the same person as PRS15362GabraIy, who was
-                mentioned as scribe of this manuscript. -->
+            <listRelation>
+                <relation name="skos:broadMatch" active="PRS15360GabraIyas" passive="PRS15362GabraIy">
+                    <desc>His name is written on a piece of paper enclosed with the manuscript. He may the same person, who copied the 
+                        manuscript (<persName ref="PRS15362GabraIy"/>).</desc>
+                </relation>
+            </listRelation>
         </body>
     </text>
 </TEI>
