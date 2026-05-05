@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Rodén</title>
+            <title>Gustaf Rodén</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -39,19 +39,31 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change when="2026-05-05" who="CH">Updated name, birth, death, floruit, occupation, residence, listBibl, Wikidata</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                   Karl Gustav
-                  Rodén
-               </persName>
-               <occupation> miss. </occupation>
+            <person sex="1" sameAs="wd:Q111426601">
+               <persName xml:lang="sv" xml:id="n1"><forename>Karl</forename> <forename>Gustaf</forename> <surname>Rodén</surname></persName>
+               <persName xml:lang="sv" xml:id="n2"><forename>Karl</forename> <forename>Gustav</forename> <surname>Rodén</surname></persName>
+               <occupation type="ecclesiastic">missionary of the Swedish Evangelical Mission</occupation>
+               <occupation type="academic">scholar</occupation>
+               <birth when="1860-08-27">27 August 1860</birth>
+               <death when="1943-11-23">23 November 1923</death>
+               <residence ref="LOC2852Emkull" when="1885"/>
+               <residence ref="LOC3851Hergig" when="1887"/>
+               <residence ref="LOC3197Galab" notBefore="1890" notAfter="1920"/>
+               <residence ref="LOC1579Asmara" notBefore="1901" notAfter="1902"/>
+               <floruit notBefore="1885" notAfter="1923"/>
             </person>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:EzraGebrem2014Roden"/>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
