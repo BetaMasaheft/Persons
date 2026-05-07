@@ -1,0 +1,75 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS15366TaklaHaym" xml:lang="en" type="pers">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Takla Hāymānot</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="MK"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="MK" when="2026-05-07">Created record</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person sex="1">
+                    <persName xml:lang="gez" xml:id="n1" type="baptismal">ተክለ፡ ሃይማኖት፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Takla Hāymānot</persName>
+                    <faith type="EOTC"/>
+                    <nationality type="Ethiopia"/>
+                    <floruit notBefore="1800" notAfter="1950">Sometime between 1800 and 1950.</floruit>
+                </person>
+                <listRelation>
+                    <relation name="saws:hasOwned" active="PRS15366TaklaHaym" passive="ESmakm008"><desc>His appears as the owner in <ref type="mss" corresp="ESmakm008#a1">Additio 1 of Ms. C4-IV-55</ref> as well as in many supplication formulas.</desc></relation>
+                    <relation name="snap:KinOf" active="PRS15366TaklaHaym" passive="PRS15367GabraGiyorg"></relation>
+                    <relation name="snap:KinOf" active="PRS15366TaklaHaym" passive="PRS15368TaklaEgzi"></relation>
+                    <relation name="snap:KinOf" active="PRS15366TaklaHaym" passive="PRS15369WalattaAbiyaE"></relation>
+                    <relation name="snap:KinOf" active="PRS15366TaklaHaym" passive="PRS15370WaldaSellase"></relation>
+                    <relation name="snap:KinOf" active="PRS15366TaklaHaym" passive="PRS15371GabraMika"></relation>
+                    <relation name="snap:KinOf" active="PRS15366TaklaHaym" passive="PRS15372WaldaGabrel"></relation>
+                    <relation name="snap:KinOf" active="PRS15366TaklaHaym" passive="PRS15373WalattaGabr"></relation>
+                    <relation name="snap:KinOf" active="PRS15366TaklaHaym" passive="PRS15374WalattaSell"></relation>
+                    <relation name="snap:KinOf" active="PRS15366TaklaHaym" passive="PRS15375AmdaMaryam"></relation>
+                    <relation name="snap:KinOf" active="PRS15366TaklaHaym" passive="PRS15376WalattaIyasus"></relation>
+                    <relation name="snap:KinOf" active="PRS15366TaklaHaym" passive="PRS15377ZamadaMaryam"></relation>
+                    <relation name="snap:KinOf" active="PRS15366TaklaHaym" passive="PRS15378GabraMasqal"></relation>           
+                    <relation name="snap:KinOf" active="PRS15366TaklaHaym" passive="PRS15379AqbaMikael"></relation>
+                    <relation name="snap:KinOf" active="PRS15366TaklaHaym" passive="PRS15380FeqertaMika"></relation>
+                    
+                </listRelation>
+            </listPerson><!---->
+        </body>
+    </text>
+</TEI>
