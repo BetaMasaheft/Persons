@@ -39,17 +39,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="CH" when="2026-05-13">Created record</change>
-            <!--  -->
+            <change when="2026-05-13" who="CH">Updated after review of Magdalena Krzyżanowska</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person>
+                <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ንዋየ፡ ማርያም፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Nǝwāya Māryām</persName>
-                    <floruit notBefore="1875" notAfter="1949" cert="medium">He or she owned <ref type="mss" corresp="ANLcr52"/>, 
-                        therefore he or she was probably active by the end of the nineteenth or in the first half of the twentieth century.</floruit>
+                    <floruit notBefore="1875" notAfter="1949" cert="medium">He owned <ref type="mss" corresp="ANLcr52"/>, 
+                        therefore he was probably active in the late nineteenth or in the first half of the twentieth century.</floruit>
                 </person>
                 <listRelation>
                     <relation name="saws:hasOwned" active="PRS15383NewayaMa" passive="ANLcr52"/>
