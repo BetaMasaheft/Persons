@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS15399Walda" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS15400GabraDengel" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Walda</title>
+                <title>Gabra Dǝngǝl</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="MK"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -45,17 +45,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1" type="monastic">ወልደ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walda</persName>
-                    <persName>
-                        <roleName type="title">ʾabbā</roleName>
-                    </persName>
+                    <persName xml:lang="gez" xml:id="n1" type="baptismal">ገብረ፡ ድንግል፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra Dǝngǝl</persName>
                     <faith type="EOTC"/>
-                    <occupation type="ecclesiastic">monk</occupation>
-                    <floruit notBefore="1800">Sometime after 1800.</floruit>
+                    <occupation type="literary">scribe</occupation>
+                    <nationality type="Ethiopia"/>
+                    <residence><placeName ref="INS0327DHE">Vicinities of Dabra Ḥayq ʾƎsṭifānos</placeName></residence>
+                    <floruit when="1664">Sometime around the year 1664.</floruit>
                 </person>
                 <listRelation>
-                    <relation name="saws:hasOwned" active="PRS15399Walda" passive="ESmakm091"><desc>His name is incomplete. He appears in a brief, carelessly written ownership note in <ref type="mss" corresp="Esmakm#a5">Additio 5 of Ms. MAKM-091</ref>.</desc></relation>
+                    <relation name="saws:isCopierOf" active="PRS15400GabraDengel" passive="ESmakm091"/>
                 </listRelation>
             </listPerson><!---->
         </body>

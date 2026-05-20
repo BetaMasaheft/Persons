@@ -38,25 +38,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MK" when="2026-05-20">Created stub</change>
+            <change who="MK" when="2026-05-20">Created record</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Śarṣa Yoḥannǝs</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1" type="baptismal">ሠርጸ፡ ዮሐንስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Śarṣa Yoḥannǝs</persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15398SarsaYoh" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS15398SarsaYoh" passive="ESmakm091"><desc>His name appears in a supplication, written by a secondary hand.</desc></relation>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>
