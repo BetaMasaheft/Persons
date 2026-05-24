@@ -38,22 +38,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="ESh" when="2026-05-24">Created stub</change>
+            <change who="ESh" when="2026-05-24">Created record</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Kidāna Wald</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1" type="baptismal">ኪዳነ፡ ወልድ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Kidāna Wald</persName>
                     <faith type="EOTC"/>
-                    <birth/>
-                    <death/>
-                    <floruit>19th century</floruit>
+                   
+                  
+                    <floruit notBefore="1800" notAfter="1899">19th century</floruit>
                 </person>
                 <listRelation>
-                    <relation name="saws:isCopierOf" active="PRS15408KidanaWald" passive=""/>
+                    <relation name="saws:isCopierOf" active="PRS15408KidanaWald" passive="CBD931"><desc>He is mentioned as a copier in the manuscript.</desc></relation>
                 </listRelation>
             </listPerson><!---->
         </body>
