@@ -1,0 +1,65 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS15430Kabbad" xml:lang="en" type="pers">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Kabbada</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="CH"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="CH" when="2026-06-04">Created record</change>
+            <!--  -->
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person sex="1">
+                    <persName xml:lang="gez" xml:id="n1">ከበደ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Kabbada</persName>
+                    <persName><roleName type="title">fitāwrāri</roleName></persName>
+                    <floruit notBefore="1883" notAfter="1899">He was mentioned in a ownership note in a manuscript from 1883 A.D., 
+                        so he was probably active by the end of the nineteenth century.</floruit>
+                </person>
+                <listRelation>
+                    <relation name="saws:hasOwned" active="PRS15430Kabbad" passive="ANLcr59"/>
+                    <relation name="skos:broadMatch" active="PRS15430Kabbad" passive="PRS15427Kabbada"><desc>He was mentioned
+                        in an ownership note by a secondary hand in <ref type="mss" corresp="ANLcr59"/>, the same manuscript which carries also
+                        a mention of the same name, but with the title ‘Bālāmbārās’ in a purchase note. It can therefore not excluded, that both notes
+                        refer to the same person.</desc></relation>
+                </listRelation>
+            </listPerson>
+        </body>
+    </text>
+</TEI>
