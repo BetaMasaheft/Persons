@@ -39,22 +39,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="CH" when="2026-06-04">Created record</change>
-            <!--  -->
+            <change when="2026-06-05" who="CH">Updated after reviews by Magdalena Krzyżanowska and Elizaveta Shvarts</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ግሹ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Gǝššu</persName>
+                    <persName xml:lang="gez" xml:id="n1">ጎሹ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Goššu</persName>
+                    <persName xml:lang="gez" xml:id="n2">ጐሱ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n2">Gʷassu</persName>
+                    <persName xml:lang="gez" xml:id="n3">ግሹ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n3">Gǝššu</persName>
                     <persName><roleName type="title">ʾato</roleName></persName>
                     <occupation type="other">dāññā</occupation>
-                    <floruit notBefore="1850" notAfter="1899">He was mentioned in a purchase note in a manuscript from 1883 A.D., 
+                    <floruit notBefore="1850" notAfter="1899">He is mentioned in a purchase note in a manuscript from 1883 A.D., 
                         so he was probably active during the second half of the nineteenth century.</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15428Geshu" passive="ANLcr59"><desc>He mentioned in a purchase
+                    <relation name="lawd:hasAttestation" active="PRS15428Geshu" passive="ANLcr59"><desc>He is mentioned in a purchase
                         note in <ref type="mss" corresp="ANLcr59"/>.</desc></relation>
                 </listRelation>
             </listPerson>

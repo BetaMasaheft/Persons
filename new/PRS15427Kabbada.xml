@@ -39,7 +39,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="CH" when="2026-06-04">Created record</change>
-            <!--  -->
+            <change when="2026-06-05" who="CH">Updated after reviews by Magdalena Krzyżanowska and Elizaveta Shvarts</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -49,14 +49,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <persName xml:lang="gez" xml:id="n1">ከበደ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Kabbada</persName>
                     <persName><roleName type="title">bālāmbārās</roleName></persName>
-                    <floruit notBefore="1850" notAfter="1899">He was mentioned in a purchase note in a manuscript from 1883 A.D., 
+                    <floruit notBefore="1850" notAfter="1899">He is mentioned in a purchase note in a manuscript from 1883 A.D., 
                         so he was probably active during the second half of the nineteenth century.</floruit>
                 </person>
             </listPerson>
             <listRelation>
                 <relation name="skos:broadMatch" active="PRS15427Kabbada" passive="PRS13656Kabbada"><desc>Possibly the same 
                     person as <persName ref="PRS13656Kabbada"/>.</desc></relation>
-                <relation name="lawd:hasAttestation" active="PRS15427Kabbada" passive="ANLcr59"><desc>He mentioned in a purchase
+                <relation name="lawd:hasAttestation" active="PRS15427Kabbada" passive="ANLcr59"><desc>He is mentioned in a purchase
                     note in <ref type="mss" corresp="ANLcr59"/>.</desc></relation>
             </listRelation>
         </body>
