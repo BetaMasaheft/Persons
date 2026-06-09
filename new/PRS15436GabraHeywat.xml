@@ -38,23 +38,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MK" when="2026-06-09">Created stub</change>
+            <change who="MK" when="2026-06-09">Created record</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Gabra Ḥǝywat</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1" type="monastic">ገብረ፡ ሕይወት፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra Ḥǝywat</persName>
+                    <persName><roleName type="title">ʾabuna</roleName></persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <occupation>monk</occupation>
+                    <floruit when="1930">Around the year 1930.</floruit>
                 </person>
                 <listRelation>
-                    <relation name="saws:hasOwned" active="PRS15436GabraHeywat" passive=""/>
+                    <relation name="saws:hasOwned" active="PRS15436GabraHeywat" passive="ESmakm025"><desc>His appears as the owner of the manuscript, which he donated to <placeName ref="INS0174MAKM">May ʾAnbasā</placeName>.</desc></relation>
                 </listRelation>
             </listPerson><!---->
         </body>
