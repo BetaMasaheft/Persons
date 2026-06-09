@@ -1,0 +1,61 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS15442GabraSTK" xml:lang="en" type="pers">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Gabra Śǝllāse Tašāla Kāsā</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="CH"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="CH" when="2026-06-09">Created record</change>
+            <!--  -->
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person sex="1">
+                    <persName xml:lang="gez" xml:id="n1">ገብረ፡ ሥላሴ፡ ተሻለ፡ ካሳ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra Śǝllāse Tašāla Kāsā</persName>
+                    <floruit notBefore="1929" to="1949">He copied the largest part of <ref type="mss" corresp="ANLcr61"/> between 1929 and
+                        1949.</floruit>
+                </person>
+                <listRelation>
+                    <relation name="saws:isCopierOf" active="PRS15442GabraSTK" passive="ANLcr61"><desc>He copied the largest part of 
+                        <ref type="mss" corresp="ANLcr61"/> from fol. 13r to the end.</desc></relation>
+                </listRelation>
+            </listPerson>
+        </body>
+    </text>
+</TEI>
