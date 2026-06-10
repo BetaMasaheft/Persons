@@ -47,15 +47,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1" type="monastic">መዝሙረ፡ ድንግል፡ ሲራክ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Mazmura Dǝngǝl Sirāk</persName>
-                    <persName>
-                        <roleName type="title">ʾabuna</roleName>
-                    </persName>
+               
                     <occupation type="ecclesiastic">monk</occupation>
                     <faith type="EOTC"/>
                     <floruit notBefore="1700">Not earlier than 18th century</floruit>
                 </person>
                 <listRelation>
                     <relation name="saws:hasOwned" active="RS15444MazmuraDeng" passive="CBD926"/>
+                    <relation name="snap:FriendshipFor" active="RS15444MazmuraDeng" passive="PRS15433Zagiyorgis">
+                        <desc>He is mentioned as <persName ref="PRS15433Zagiyorgis"/>’s spiritual father in an ownership note.</desc></relation>
                 </listRelation>
             </listPerson><!---->
         </body>

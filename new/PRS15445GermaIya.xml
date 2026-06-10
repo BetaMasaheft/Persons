@@ -45,7 +45,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ግርማ፡ ኢየሱስ፡</persName>
+                    <persName xml:lang="gez" xml:id="n1" type="monastic">ግርማ፡ ኢየሱስ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Gǝrmā ʾIyasus</persName>
                     <occupation type="ecclesiastic">monk</occupation>
                     <faith type="EOTC"/>
@@ -54,7 +54,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </person>
                 <listRelation>
                     <relation name="saws:hasOwned" active="RS15445GermaIya" passive="CBD926"/>
-                    <relation name="snap:ProfessionalRelationship" active="RS15445GermaIya" passive="PRS15433Zagiyorgis"><desc>He was in the same monastery as <persName ref="PRS15433Zagiyorgis"/>.</desc></relation>
+                    <relation name="snap:ProfessionalRelationship" active="RS15445GermaIya" passive="PRS15433Zagiyorgis">
+                        <desc>He was in the same monastery as <persName ref="PRS15433Zagiyorgis"/>.</desc></relation>
                 </listRelation>
             </listPerson><!---->
         </body>
