@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ʾƎdašāw</title>
+                <title>ʾƎndašāw</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="CH"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -40,14 +40,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <revisionDesc>
             <change who="CH" when="2026-05-26">Created record</change>
             <change when="2026-05-26" who="ESh">Reviewed and approved</change>
+            <change when="2026-06-11" who="CH">Added standard name variant as n1</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">እደሻው፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">ʾƎdašāw</persName>
+                    <persName xml:lang="gez" xml:id="n1">እንደሻው፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">ʾƎndašāw</persName>
+                    <persName xml:lang="gez" xml:id="n2">እደሻው፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n2">ʾƎdašāw</persName>
                     <occupation type="ecclesiastic">dabtarā</occupation>
                     <floruit notBefore="1800" notAfter="1899">Nineteenth century</floruit>
                 </person>
