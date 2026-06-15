@@ -45,17 +45,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1" type="baptismal"></persName>
+                    <persName xml:lang="gez" xml:id="n1" type="baptismal">ጸጋ፡ ዘአብ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Ṣagā Zaʾab</persName>
                     <faith type="EOTC"/>
-                   
-                    <floruit notBefore="1600">Not earlier than 17th century</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15446SagaZaab" passive="CBD921"><desc>His name appears in a first-person note.</desc></relation>
-                    <relation name="saws:isCopierOf" active="RS15446SagaZaab" passive="CBD921" cert="medium">
-                        <desc>Since the first-person note he was mentioned in was written by the same hand as <ref  type="mspart" corresp="CBD921#ms_i3"/> and <ref  type="mspart" corresp="CBD921#a1"/>, 
-                            he was likely the copier of these parts.</desc></relation>
+                    <relation name="lawd:hasAttestation" active="PRS15446SagaZaab" passive="CBD921"><desc>His name appears in a supplication formula.</desc></relation>
+              
                    
                 </listRelation>
             </listPerson><!---->
