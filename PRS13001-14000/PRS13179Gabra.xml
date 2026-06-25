@@ -39,6 +39,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="AD" when="2020-10-07">Created entity</change>
+            <change who="MV" when="2026-06-25">Added biographical information</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -47,17 +48,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ገብረ፡ ጊዮርጊስ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra Giyorgis</persName>
-                    <faith type="EOTC"/>
-                    <birth/>
-                    <death/>
-                    <floruit notBefore="1600"/>
+                    <persName><roleName type="title">ʾabbā</roleName></persName>
+                    <faith type="EOTC"/>                 
+                    <nationality type="Ethiopia"/>      
+                    <residence>
+                        <placeName ref="LOC3199Galaba">Galabbadā</placeName>
+                    </residence>
+                    <floruit notAfter="1845">
+                        He was originally from <placeName ref="LOC3199Galaba">Galabbadā</placeName>, in Tamben. 
+                        He travelled to Egypt and Jerusalem, and converted to Catholicism while he was in Lebanon. 
+                        In <date>1806</date>, he was invited to Rome by the Sacra Congregatio de Propaganda Fide to study at the Collegio Urbano. 
+                        He served as rector of Santo Stefano dei Mori until his death.
+                    </floruit>
+                    <death when="1845"/>
                 </person>
-
                 <listRelation>
                   <relation name="saws:hasWritten" active="PRS13179Gabra" passive="BAVborget9#a3"></relation>
                   <relation name="saws:hasWritten" active="PRS13179Gabra" passive="BAVborget9#a5"></relation>
+                    <relation name="saws:hasOwned" active="PRS13179Gabra" passive="BAVborget13">
+                        <desc>He indicates himself as the owner of the manuscript on fol. 48v.</desc>
+                    </relation>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>
