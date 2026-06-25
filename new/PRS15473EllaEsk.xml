@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Ella Eskenderos</title>
+                <title>ʾƎlla ʾƎskǝndǝros</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="MV"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -45,17 +45,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Ella Eskenderos</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1" type="baptismal">እለ፡ እስክንድሮስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">ʾƎlla ʾƎskǝndǝros</persName>
                     <faith type="EOTC"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <occupation type="literary">scribe</occupation>
+                    <nationality type="Ethiopia"/>                    
+                    <floruit notBefore="1600" notAfter="1699">17th century</floruit>
                 </person>
                 <listRelation>
-                    <relation name="saws:isCopierOf" active="PRS15473EllaEsk" passive=""/>
+                    <relation name="saws:isCopierOf" active="PRS15473EllaEsk" passive="BAVborget13">
+                        <desc>He is mentioned as the scribe on fol. 48r.</desc>
+                    </relation>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>
