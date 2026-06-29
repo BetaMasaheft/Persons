@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Gugsa Arʾaya</title>
+            <title>Gugsā ʾArʾayā</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -39,19 +39,35 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change when="2026-06-29" who="MK">added details</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Gugsa Arʾaya
-               </persName>
-               <occupation> lǝʿul ras </occupation>
+               <persName xml:lang="gez" xml:id="n1">ጉግሳ፡ አርአያ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Gugsā ʾArʾayā</persName>
+               <occupation type="military">lǝʿul rās</occupation>
+               <birth when="1882">1882</birth>
+               <death when="1933-04-26">26th April 1933</death>
+               <floruit notBefore="1910" notAfter="1933">He was a Tǝgrean nobleman who administrated <placeName ref="LOC6569Tegray">Tǝgrāy</placeName> together with his cousin <persName ref="PRS8802seyyumM">Śǝyyum Mangašā</persName>. 
+                  In the struggle for the throne between <persName ref="PRS5620IyasuV">Lǝǧ ʾIyāsu</persName> and <persName ref="PRS5226haylase">Tafari Makʷannǝn</persName> he supported the latter. 
+                  Later, during the coronation of <persName ref="PRS5226haylase">Tafari Makʷannǝn</persName> in <date when="1930">1930</date>, he was promoted from the title of rās (given to him by the Šawān elite) to lǝʿul rās. Occasionally he favoured the Italians who hoped for his support
+                  the event of an open conflict with Ethiopia. Their hopes were never fulfilled, since Gugsā ʾArʾayā died of pneumonia in the meantime.
+               </floruit>
             </person>
+            <listRelation>
+               <relation name="snap:SonOf" active="PRS4867GugsaAr" passive="PRS2012Arayas"/>
+               <relation name="snap:GrandchildOf" active="PRS4867GugsaAr" passive="PRS10378Yoh"></relation>
+            </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Erlich2005HSGugsa"/>
+            </bibl>
+         </listBibl>
+         
       </body>
    </text>
 </TEI>
