@@ -53,7 +53,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                <birth when="1900">1900</birth>
                <death when="1974">1974</death>
                <floruit notBefore="1930" notAfter="1946">He was a nobleman whom Emperor <persName ref="PRS5226haylase">Ḫāyla Śǝllāse I</persName> 
-                  appointed governor of eastern <placeName ref="LOC6569Tegray">Tǝgrāy</placeName> in 1934. During the war, he collaborated with the Italians, who promoted him to the rank of rās. 
+                  appointed governor of eastern <placeName ref="LOC6569Tegray">Tǝgrāy</placeName> in 1934. 
+                  Earlier, in 1932, he married <persName ref="PRS10605Zannaba">Zannaba Warq</persName>, the younger daughter of
+                  <persName ref="PRS5226haylase">Ḫāyla Śǝllāse I</persName>. During the war, he collaborated with the Italians, who promoted him to the rank of rās. 
                   From 1941 on, he continued to render services to the British administration, hoping that they would enable him and his supporters in eastern 
                   Tǝgrāy to gain independence from the Ethiopian Empire. After the war, he was put on trial in Addis Ababā and sentenced to death, later commuted to a life sentence.
                </floruit>
@@ -62,6 +64,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <listRelation>
             <relation name="snap:SonOf" active="PRS5227haylase" passive="PRS4867GugsaAr"/>
             <relation name="snap:GrandchildOf" active="PRS5227haylase" passive="PRS2012Arayas"></relation>
+            <relation name="betmas:husbandOf" active="PRS5227haylase" passive="PRS10605Zannaba"></relation>
          </listRelation>
          </listPerson>
          <listBibl type="secondary">
