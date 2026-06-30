@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Dudyanos</title>
+            <title>Dodyānos</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -45,13 +45,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Dudyanos
-               </persName>
-               <occupation> king </occupation>
+               <persName xml:lang="gez" xml:id="n1">ዶድያኖስ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Dodyānos</persName>
+               <persName xml:lang="gez" xml:id="n2" type="alt">ዱድያኖስ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n2">Dudyānos</persName>
+               <persName xml:lang="gez" xml:id="n3" type="alt">ዳድያኖስ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n3">Dādyānos</persName>
+               <occupation type="ruler">king</occupation>
+               <floruit notBefore="0200" notAfter="0350"> It is unclear whether he was a real or fictional person. He is said to have lived sometime between the 3rd century and the beginning of the 4th century. 
+                  He appears in <title ref="LIT1455GadlaG"/> as the king who persecuted <persName ref="PRS4585Georgeo">Saint George</persName> and subjected him to many tortures.</floruit>
             </person>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Budge1930George"/>
+               <citedRange unit="page"></citedRange>
+            </bibl>
+            
+         </listBibl>
       </body>
+      
    </text>
 </TEI>
