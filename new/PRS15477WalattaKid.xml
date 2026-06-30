@@ -39,19 +39,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="CH" when="2026-06-29">Created record</change>
-            <!--  -->
+            <change who="CH" when="2026-06-30">Updated after review of Magdalena Krzyżanowska</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="2">
-                    <persName xml:lang="gez" xml:id="n1">ወለተ፡ ኪዳን፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walatta Kidān </persName>
+                    <persName xml:lang="gez" xml:id="n1" type="baptismal">ወለተ፡ ኪዳን፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walatta Kidān</persName>
                     <floruit notBefore="1800" notAfter="1899">Nineteenth century</floruit>
                 </person>
                 <listRelation>
-                    <relation name="saws:hasOwned" active="PRS15477WalattaKid" passive="ANLcr67"><desc>Named as original owner.</desc></relation>
+                    <relation name="saws:hasOwned" active="PRS15477WalattaKid" passive="ANLcr67"><desc>Named as the original owner.</desc></relation>
                 </listRelation>
             </listPerson>
         </body>

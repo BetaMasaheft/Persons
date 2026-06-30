@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Walatta Masqal Lāqač</title>
+                <title>Walatta Masqal Lāqačč</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="CH"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -39,7 +39,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="CH" when="2026-06-29">Created record</change>
-            <!--  -->
+            <change who="CH" when="2026-06-30">Updated after review of Magdalena Krzyżanowska</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -47,16 +47,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPerson>
                 <person sex="2">
                     <persName xml:lang="gez" xml:id="n1">ወለተ፡ መስቀል፡ ላቀች፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walatta Masqal Lāqač</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walatta Masqal Lāqačč</persName>
                     <floruit notBefore="1800" notAfter="1949">Nineteenth or first half of the twentieth century</floruit>
                 </person>
                 <listRelation>
                     <relation name="saws:hasOwned" active="PRS15476Laqac" passive="ANLcr67"><desc>The name of the original owner was
-                        replaced various times with her name.</desc></relation>
-                    <!-- Possibly the same person as Lāqač, 'Queen of Goğğām' who owned EMDA321; Wayzaro Laqac who owned EMML504 or
-                       Wäyzäro Laqäč, who owned EMIP00138.While Lāqač is a common Ethiopian and Eritrean name, it is not certain, whether 
-                       these four mentions refer to the same persons even though all of them are are indicated as personalities either from the
-                       nineteenth or twentieth century.-->
+                        replaced in various places with her name.</desc></relation>
                 </listRelation>
             </listPerson>
         </body>
