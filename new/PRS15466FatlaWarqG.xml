@@ -38,23 +38,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MK" when="2026-06-25">Created stub</change>
+            <change who="MK" when="2026-06-25">Created record</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="2">
-                    <persName xml:lang="gez" xml:id="n1">Fatla Warq Gugsā</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ፈትለ፡ ወርቅ፡ ጉግሳ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Fatla Warq Gugsā</persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit when="1933">Around 1933.</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15466FatlaWarqG" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS15466FatlaWarqG" passive="ESmakm060"><desc>She is depicted in  <ref type="mss" corresp="ESmakm060#d10">miniature 10 of Ms. C4-IV-1</ref>. Her name appears in the legend.</desc></relation>
+                    <relation name="snap:FamilyOf" active="PRS15466FatlaWarqG" passive="PRS4867GugsaAr"></relation>
                 </listRelation>
             </listPerson><!---->
         </body>
