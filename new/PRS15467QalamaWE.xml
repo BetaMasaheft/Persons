@@ -47,13 +47,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ቀለመ፡ ወርቅ፡ እሸቱ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Qalama Warq ʾEšatu</persName>
+                    <persName><roleName type="rank">ʾalaqā</roleName></persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
-                    <residence>He was born in Bāri Dagʷalāy Giyorgis, ʾƎdāmohoni.</residence>
+                    <occupation type="art">miniature painter</occupation>
+                    <residence>He was born in Bāri Dagʷalāy Giyorgis, <placeName ref="LOC2911EndaMa">ʾƎdāmohoni</placeName>.</residence>
                     <floruit when="1933">Around 1933.</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15467QalamaWE" passive="ESmakm060"><desc>His name appears in the legend of <ref type="mss" corresp="ESmakm060#d7">miniature 9 of Ms. C4-IV-1</ref>.</desc></relation>
+                    <relation name="lawd:hasAttestation" active="PRS15467QalamaWE" passive="ESmakm060"><desc>His name and personal details appears in the legend of <ref type="mss" corresp="ESmakm060#d7">miniature 9 of Ms. C4-IV-1</ref>.</desc></relation>
                 </listRelation>
             </listPerson><!---->
         </body>
