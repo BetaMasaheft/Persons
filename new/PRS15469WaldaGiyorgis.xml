@@ -38,23 +38,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MK" when="2026-06-25">Created stub</change>
+            <change who="MK" when="2026-06-25">Created record</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Walda Giyorgis</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1" type="baptismal">ወልደ፡ ጊዮርጊስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walda Giyorgis</persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit when="1933">Around 1933.</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15469WaldaGiyorgis" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS15469WaldaGiyorgis" passive="ESmakm060"><desc>His name appears in a supplication formula among the “children” of <persName ref="PRS10378Yoh"/>.</desc></relation>
                 </listRelation>
             </listPerson><!---->
         </body>
