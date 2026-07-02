@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS15465Gazzachen" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS15484MadhenAraya" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Gazzāččǝn Gabra Ḥǝywat</title>
+                <title> Madḫǝn ʾArʾāyā</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="MK"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -38,28 +38,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MK" when="2026-06-25">Created record</change>
+            <change who="MK" when="2026-07-02">Created record</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="2">
-                    <persName xml:lang="gez" xml:id="n1">ገዛችን፡ ገብረ፡ ሕይወት፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Gazzāččǝn Gabra Ḥǝywat</persName>
-                    <persName xml:lang="gez" xml:id="n2" type="baptismal">ወለተ፡ ማርያም፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n2">Walatta Māryām</persName>
-                    <persName><roleName type="title">wayzaro</roleName></persName>
+                    <persName xml:lang="gez" xml:id="n1" type="monastic">መድኅን፡ አርአያ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Madḫǝn ʾArʾāyā</persName>
+                    <persName><roleName type="title">ʾǝmmāhoy</roleName></persName>
                     <faith type="EOTC"/>
-                    <nationality type="Ethiopia"/>
-                    <floruit when="1933">Around 1933.</floruit>
+                    <occupation type="ecclesiastic">nun</occupation>
+                    <floruit notBefore="1900" notAfter="1949">First half of the 20th century</floruit>
                 </person>
                 <listRelation>
-                    <relation name="saws:hasOwned" active="PRS15465Gazzachen" passive="ESmakm060"><desc>She appears as the donor in <ref type="mss" corresp="ESmakm060#coloph1">the colophon of Ms. C4-IV-1</ref>.</desc></relation>
-                    <relation name="snap:KinOf" active="PRS15465Gazzachen" passive="PRS5227haylase"><desc>Likely she belonged to the relatives of Ḫāyla Śǝllāse Gugsā.</desc></relation>
-                    <relation name="snap:DaughterOf" active="PRS15465Gazzachen" passive="PRS15483GabraHeywat"><desc>Most likely she was the daughter of Fitāwrāri Gabra Madhǝn.</desc></relation>
+                    <relation name="lawd:hasAttestation" active="PRS15484MadhenAraya" passive="ESmakm060"><desc>She is depicted in  <ref type="mss" corresp="ESmakm060#d20">miniature 20 of Ms. C4-IV-1</ref>. Her name appears in the legend.</desc></relation>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>
