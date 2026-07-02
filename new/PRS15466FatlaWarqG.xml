@@ -49,10 +49,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Fatla Warq Gugsā</persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
-                    <floruit when="1933">Around 1933.</floruit>
+                    <floruit notBefore="1900" notAfter="1949">First half of the 20th century.</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15466FatlaWarqG" passive="ESmakm060"><desc>She is depicted in <ref type="mss" corresp="ESmakm060#d10">miniature 10 of Ms. C4-IV-1</ref>. Her name appears in the legend.</desc></relation>
+                    <relation name="lawd:hasAttestation" active="PRS15466FatlaWarqG" passive="ESmakm060">
+                        <desc>She is depicted in <ref type="mss" corresp="ESmakm060#d10">miniature 10 of Ms. C4-IV-1</ref>. Her name appears in the legend.</desc></relation>
                     <relation name="snap:FamilyOf" active="PRS15466FatlaWarqG" passive="PRS4867GugsaAr"></relation>
                 </listRelation>
             </listPerson><!---->
