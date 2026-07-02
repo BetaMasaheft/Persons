@@ -38,24 +38,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MK" when="2026-07-02">Created stub</change>
+            <change who="MK" when="2026-07-02">Created record</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ʾAbarrā</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">አበራ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAbarrā</persName>
+                    <persName><roleName type="function">mamhǝr</roleName></persName>
                     <faith type="EOTC"/>
-                    <occupation type="ecclesiastic"/>
+                    <occupation type="ecclesiastic">priest, teacher</occupation>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1900" notAfter="1949">First half of the 20th century</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15487Abarra" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS15487Abarra" passive="ESmakm060">
+                        <desc>He is depicted in <ref type="mss" corresp="ESmakm060#d25">miniature 25 of Ms. C4-IV-1</ref>. His name appears in the legend.</desc>
+                    </relation>
                 </listRelation>
             </listPerson><!---->
         </body>

@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title> Gabra ʾƎgziʾ</title>
+                <title>Gabra ʾƎgziʾ</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="MK"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -38,24 +38,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MK" when="2026-07-02">Created stub</change>
+            <change who="MK" when="2026-07-02">Created record</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1"> Gabra ʾƎgziʾ</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ገብረ፡ እግዚእ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Gabra ʾƎgziʾ</persName>
+                    <persName><roleName type="function">mamhǝr</roleName></persName>
                     <faith type="EOTC"/>
-                    <occupation type="ecclesiastic"/>
+                    <occupation type="ecclesiastic">priest, teacher</occupation>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1900" notAfter="1949">First half of the 20th century</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15485GabraEgzi" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS15485GabraEgzi" passive="Esmakm060">
+                        <desc>He is depicted in <ref type="mss" corresp="ESmakm060#d24">miniature 24 of Ms. C4-IV-1</ref>. His name appears in the legend.</desc></relation>
                 </listRelation>
             </listPerson><!---->
         </body>
