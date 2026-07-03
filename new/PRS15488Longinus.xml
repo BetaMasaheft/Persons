@@ -53,14 +53,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sameAs="Q319947" sex="1">
-                    <persName xml:lang="gez" xml:id="n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ለንጊኖስ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">
                         <addName>Qǝddus</addName> Langinos</persName>
                     <persName xml:lang="en">Longinus</persName>
 <faith type="Christianity"/>
                     <nationality type="Greece">Roman</nationality>
                     <occupation type="military">soldier</occupation>
-                    <floruit>1st century</floruit>
+                    <floruit notBefore="0001" notAfter="0099">1st century</floruit>
                 </person>
             </listPerson>
             <!---->
