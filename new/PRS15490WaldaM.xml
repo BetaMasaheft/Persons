@@ -39,16 +39,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="CH" when="2026-07-08">Created record</change>
-            <!--  -->
+            <change when="2026-07-08" who="CH">Updated after reviews of Magdalena Krzyżanowska and Elizaveta Shvarts</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">ወልደ፡ ማርያም፡</persName>
+                    <persName xml:lang="gez" xml:id="n1" type="baptismal">ወልደ፡ ማርያም፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Walda Māryām</persName>
-                    <floruit notBefore="1875" notAfter="1950">End of nineteenth and first half of twentieth century.</floruit>
+                    <floruit notBefore="1875" notAfter="1950">End of the nineteenth and first half of the twentieth century.</floruit>
                     <residence>Žabgʷado</residence><!-- Add LOC ID, cf. Issue #3363 -->
                 </person>
                 <listRelation>
