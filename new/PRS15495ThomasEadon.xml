@@ -45,8 +45,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="en" xml:id="n1">Thomas Eadon</persName>
-                    <occupation type="military">military engineer, served in 10th Company, Royal Engineers</occupation>
+                    <persName xml:lang="en" xml:id="n1"><forename>Thomas</forename> <surname>Eadon</surname></persName>
+                    <occupation type="military">sapper, 10th Company, Royal Engineers</occupation>
+                    <occupation type="military">military photographer, 10th Company, Royal Engineers</occupation>
                     <nationality type="UnitedKingdom"/>
              
                     <floruit notBefore="1867" notAfter="1868">1867–1868</floruit>
