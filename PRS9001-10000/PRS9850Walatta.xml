@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Wälättä Qǝddusan</title>
+            <title>Walatta Qǝddusān</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -32,30 +32,33 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change when="2027-07-27" who="CH">Updated according to EAe</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
-            <person sex="2">
-               <persName>
-                  
-                  Wälättä Qǝddusan
-               </persName>
+            <person sex="2" sameAs="wd:Q140723416">
+               <persName xml:id="n1" xml:lang="gez">ወለተ፡ ቅዱሳን፡</persName>
+               <persName corresp="#n1" xml:lang="gez" type="normalized">Walatta Qǝddusān</persName>
             </person>
             <listRelation>
-               <relation name="snap:DaughterOf">
-                  <desc> daugh. Lǝbnä Dǝngǝl</desc>
-               </relation>
+               <relation name="snap:DaughterOf" active="PRS9850Walatta" passive="PRS6229LebnaDe"/>
+               <relation name="snap:SisterOf" active="PRS9850Walatta" passive="PRS4428Galawdew"/>
             </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Kleiner2007Lebna"/><citedRange unit="page">536b</citedRange>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
