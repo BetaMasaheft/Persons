@@ -43,6 +43,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="ES" when="2016-02-09">CREATED: person</change>
          <change who="SG" when="2016-09-19">Complete record</change>
          <change who="SG" when="2017-10-05">Corrections</change>
+         <change when="2026-07-28" who="CH">Add bm:Derat2006Royal to listBibl</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -73,7 +74,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <listRelation>
                <relation name="snap:AllianceWith" active="PRS1881Ammehas" passive="PRS10626ZaraY"/>
                <relation name="snap:AllianceWith" active="PRS1881Ammehas" passive="PRS2334BaedaM"/>
-          
+               
      
             </listRelation>
          </listPerson>
@@ -87,6 +88,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <bibl> 
                <ptr target="bm:Derat2003AmmehaSeyon"/>
             </bibl>  
+            <bibl>
+               <ptr target="bm:Derat2006Royal"/>
+            </bibl>
          </listBibl>
       </body>
    </text>
