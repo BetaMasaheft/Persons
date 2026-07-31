@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS15497ZawaldaMar" xml:lang="en" type="pers">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS15510WalattaMar" xml:lang="en" type="pers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Zawalda Māryām Ḥǝzqǝyās</title>
+                <title>Walatta Māryām</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="ESh"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -38,22 +38,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="ESh" when="2026-07-15">Created record</change>
+            <change who="ESh" when="2026-07-16">Created record</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1" type="baptismal">ዘወልደ፡ ማርያም፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Zawalda Māryām</persName>
-                    <persName xml:lang="gez" xml:id="n2" type="birth">ሕዝቅያስ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n2">Ḥǝzqǝyās</persName>
+                <person sex="2">
+                    <persName xml:lang="gez" xml:id="n1" type="baptismal">ወለተ፡ ማርያም፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walatta Māryām</persName>
                     <faith type="EOTC"/>
                     <floruit notBefore="1700" notAfter="1799">18th century</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15497ZawaldaMar" passive="CBD948"><desc>His name appears in several supplication formulas. In one of them, he is mentioned as a comissioner.</desc></relation>
+                    <relation name="lawd:hasAttestation" active="PRS15510WalattaMar" passive="CBD948"><desc>Her name appears in a supplication formula along with her relatives.</desc></relation>
                 </listRelation>
             </listPerson><!---->
         </body>
