@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Baʿǝda Māryām</title>
+                <title>Baʾǝda Māryām</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="ESh"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -46,14 +46,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPerson>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1" type="baptismal">በእደ፡ ማርያም፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Baʿǝda Māryām</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Baʾǝda Māryām</persName>
                     <faith type="EOTC"/>
                     <floruit notBefore="1700" notAfter="1799">18th century</floruit>
                 </person>
                 <listRelation>
                     <relation name="snap:FatherOf" active="PRS15507BaedaMaryam" passive="PRS15497ZawaldaMar"/>
-                    <relation name="saws:hasChild" active="PRS15507BaedaMaryam" passive="PRS15510WalattaMar"/>
-                    <relation name="saws:hasChild" active="PRS15507BaedaMaryam" passive="PRS15509WalattaIyasus"/>
+                    <relation name="snap:FatherOf" active="PRS15507BaedaMaryam" passive="PRS15510WalattaMar"/>
+                    <relation name="snap:FatherOf" active="PRS15507BaedaMaryam" passive="PRS15509WalattaIyasus"/>
                 </listRelation>
             </listPerson><!---->
         </body>
