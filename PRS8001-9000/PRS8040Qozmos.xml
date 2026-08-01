@@ -32,26 +32,29 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change who="CH" when="2027-08-01">Updated according to EAe</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Qozmos
-               </persName>
-               <occupation> martyr </occupation>
+               <persName xml:id="n1" xml:lang="gez">ቆዝሞስ፡</persName>
+               <persName corresp="#n1" xml:lang="gez" type="normalized">Qozmos</persName>
+               <floruit notBefore="0260" notAfter="0305">martyr of the late third and early fourth century</floruit>
             </person>
          </listPerson>
+         <listBibl>
+            <bibl><ptr target="bm:Bausi2005GS"/><citedRange unit="page">645a</citedRange></bibl>
+         </listBibl>      
+         <!-- relation to LIT1493Gadlas? -->
       </body>
    </text>
 </TEI>
