@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Qozmos of Däbrä Bäggǝʿ</title>
+            <title>Qozmos of Dabra Baggǝʿ</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -32,29 +32,30 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change who="CH" when="2026-08-01">Update according to EAe</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Qozmos of Däbrä Bäggǝʿ
-               </persName>
-               <occupation> monk </occupation>
-               <residence>
-                  Däbrä Bäggǝʿ
-               </residence>
+               <persName xml:id="n1" xml:lang="gez">ቆዝሞስ፡</persName>
+               <persName corresp="#n1" xml:lang="gez" type="normalized">Qozmos</persName>
+               <persName xml:id="n2" xml:lang="en" type="main">Qozmos of Dabra Baggǝʿ</persName>
+               <occupation type="ecclesiastic">monk</occupation>
+               <residence ref="LOC2238DabraB">Dabra Baggǝʿ</residence>
             </person>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl><ptr target="bm:Fiaccadori2005Ewostateans"/><citedRange unit="page">264b, 266b</citedRange></bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
