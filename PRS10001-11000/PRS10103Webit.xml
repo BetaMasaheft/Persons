@@ -50,7 +50,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
-            <person sex="2">
+            <person sex="2" sameAs="Q140930291">
                <persName xml:lang="gez" xml:id="n1" type="birth">ውቢት፡</persName>
                <persName xml:lang="gez" corresp="#n1" type="normalized">Wǝbit</persName>
                
@@ -72,6 +72,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="betmas:wifeOf" active="RS10103Webit" passive="PRS5617IyasuII"/>
                <relation name="betmas:daugtherInLawOf" active="RS10103Webit"
                   passive="PRS2682BerhanM"/>
+               <relation name="betmas:formerlyAlsoListedAs" active="RS10103Webit" passive="PRS9824Walatta"/>
             </listRelation>
          </listPerson>
          <listBibl type="secondary">
