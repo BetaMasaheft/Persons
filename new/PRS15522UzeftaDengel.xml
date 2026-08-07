@@ -1,0 +1,72 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS15522UzeftaDengel" xml:lang="en" type="pers">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ʿUzǝfta Dǝngǝl</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="ESh"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="ESh" when="2026-08-07">Created record</change>
+            <change who="ESh" when="2026-08-07">Changed according to the suggestion of Magdalena Krzyżanowska</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person sex="1">
+                    <persName xml:lang="gez" xml:id="n1" type="baptismal">ዑዝፍተ፡ ድንግል፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">ʿUzǝfta Dǝngǝl</persName>
+                    <persName xml:lang="gez" xml:id="n2" type="alt">ዕረፍተ፡ ድንግል</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n2">ʿƎrafta Dǝngǝl</persName>
+                    <note><ref target="#n1"/> corresponds to the catalogue description (<bibl>
+                        <ptr target="bm:Cerulli1965ChesterBeatty"/>
+                        <citedRange unit="page">319</citedRange>
+                    </bibl>), but is most probably a misspelling.</note>
+                    <faith type="EOTC"/>
+                <floruit notBefore="1700" notAfter="1799">18th century</floruit>
+                   
+                </person>
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="PRS15522UzeftaDengel" passive="CBD953"/>
+                    <relation name="snap:FatherOf" active="PRS15522UzeftaDengel" passive="PRS15523WaldaRufael"/>
+                </listRelation>
+            </listPerson>
+            <listBibl type="secondary"><bibl>
+                <ptr target="bm:Cerulli1965ChesterBeatty"/>
+                <citedRange unit="page">319</citedRange>
+            </bibl></listBibl><!---->
+        </body>
+    </text>
+</TEI>
