@@ -39,6 +39,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="ESh" when="2026-08-07">Created record</change>
+            <change who="ESh" when="2026-08-07">Changed according to the suggestion of Magdalena Krzyżanowska</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -47,14 +48,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1" type="baptismal">ዑዝፍተ፡ ድንግል፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">ʿUzǝfta Dǝngǝl</persName>
+                    <persName xml:lang="gez" xml:id="n2" type="alt">ዕረፍተ፡ ድንግል</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n2">ʿƎrafta Dǝngǝl</persName>
+                    <note><ref target="#n1"/> corresponds to the catalogue description (<bibl>
+                        <ptr target="bm:Cerulli1965ChesterBeatty"/>
+                        <citedRange unit="page">319</citedRange>
+                    </bibl>), but is most probably a misspelling.</note>
                     <faith type="EOTC"/>
                 <floruit notBefore="1700" notAfter="1799">18th century</floruit>
+                   
                 </person>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="PRS15522UzeftaDengel" passive="CBD953"/>
                     <relation name="snap:FatherOf" active="PRS15522UzeftaDengel" passive="PRS15523WaldaRufael"/>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
+            <listBibl type="secondary"><bibl>
+                <ptr target="bm:Cerulli1965ChesterBeatty"/>
+                <citedRange unit="page">319</citedRange>
+            </bibl></listBibl><!---->
         </body>
     </text>
 </TEI>
