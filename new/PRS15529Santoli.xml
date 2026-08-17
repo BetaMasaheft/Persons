@@ -34,21 +34,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </abstract>
             <langUsage>
                 <language ident="en">English</language>
-                <language ident="gez">Gǝʿǝz</language>
-                <language ident="it">Italian</language>
             </langUsage>
         </profileDesc>
         <revisionDesc>
             <change who="CH" when="2026-08-13">Created record</change>
-            <!--  -->
+            <change when="2026-08-17" who="CH">Updated record after review by Elizaveta Shvarts and Magdalena Krzyżanowska</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1" sameAs="wd:Q3927953">
-                    <persName xml:lang="gez" xml:id="n1">Quinto Santoli</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName><forename>Quinto</forename> <surname>Santoli</surname></persName>
                     <occupation type="literary">Librarian and historian</occupation>
                     <nationality type="Italy"/>
                     <birth when="1875-07-10">10 July 1875</birth>
