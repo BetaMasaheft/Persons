@@ -34,27 +34,32 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </abstract>
             <langUsage>
                 <language ident="en">English</language>
+                <language ident="it">Italian</language>
             </langUsage>
         </profileDesc>
         <revisionDesc>
             <change who="CH" when="2026-08-18">Created record</change>
-            <!--  -->
+            <change when="2026-08-18" who="CH">Updated after review by Eugenia Sokolinski and Eliza Shvarts</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName><surname>Teodorani</surname></persName>
+                    <persName><forename>Paolo</forename> <surname>Teodorani</surname></persName>
                     <persName><roleName type="rank">commissario commendatore</roleName></persName>
-                    <occupation type="military">He hold office in Italian Eritrea</occupation>
+                    <occupation type="military">He was a prominent Italian colonial official and administrator in Eritrea.</occupation>
                     <nationality type="Italy"/>
-                    <floruit notBefore="1900" notAfter="1925">Around 1914</floruit>
-                </person>
-                <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15532Teodorani" passive="ANLcr84#p2"/>
-                </listRelation>
+                    <birth when="1895">1895</birth>
+                    <floruit notBefore="1895" notAfter="1921">He held office in Italian Eritrea from 1895 to 1921.</floruit>
+                </person>           
             </listPerson>
+            <listRelation>
+                <relation name="lawd:hasAttestation" active="PRS15532Teodorani" passive="ANLcr84#p2"/>
+            </listRelation>
+            <listBibl type="secondary">
+                <bibl><ptr target="bm:Giorgi2012Africa"/><citedRange unit="page">116, 117, 139, 140</citedRange></bibl>
+            </listBibl>
         </body>
     </text>
 </TEI>

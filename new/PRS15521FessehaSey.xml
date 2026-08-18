@@ -39,7 +39,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="CH" when="2026-08-06">Created record</change>
-            <!--  -->
+            <change when="2026-08-18" who="CH">Updated after review by Eugenia Sokolinski and Eliza Shvarts</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -49,7 +49,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <persName xml:lang="gez" xml:id="n1">ፍሥሐ፡ ጽዮን፡ ሀብተ፡ አብ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Fǝśśeḥa Ṣǝyon Habta ʾAb</persName>
                     <occupation type="ecclesiastic">prester</occupation>
-                    <floruit>Beginning of the 20th century</floruit>
+                    <faith type="Catholicism"/>
+                    <floruit notBefore="1900" notAfter="1925">Beginning of the twentieth century</floruit>
                 </person>
             </listPerson>
             <listRelation>
