@@ -1,0 +1,91 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS0098IHA">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="ar">جوهر بن حيدر بن علي الشنكي</title>
+            <editor key="AG"/>
+            <funder>IslHornAfr: Islam in the Horn of Africa, A Comparative Literary Approach. European Research Council (Advanced Grant no. 322849)</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <pubPlace>Hamburg</pubPlace>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
+        Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed
+      under the Creative Commons Attribution-ShareAlike 4.0.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file converted from the IslHornAfr database tables XML export</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Encoded according to TEI P5 Guidelines.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="ar">Arabic</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change xmlns:t="http://www.tei-c.org/ns/1.0" who="PL" when="2019-03-27"> Created file from XML export sent by Michele Petrone</change>
+         <change xmlns:t="http://www.tei-c.org/ns/1.0" who="AG" when="2015-04-20"> Created record in IslHornAfr</change>
+         <change xmlns:t="http://www.tei-c.org/ns/1.0" who="AG" when="2018-06-12"> Last update to this record in IslHornAfr</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person sex="1">
+               <persName xml:id="n1" xml:lang="ar">جوهر بن حيدر بن علي الشنكي</persName>
+               <persName corresp="#n1" type="transliterated">Ǧawhar b. Ḥaydar b. ʻAlī al-Šonkī</persName>
+               <persName type="alt" xml:id="n2" xml:lang="ar">الجوهر بن المرحوم علي حيدر بن علي</persName>
+               <persName corresp="#n2" type="transliterated">al-Ǧawhar b. al-Marḥūm ʻAlī Ḥaydar b. ʻAlī</persName>
+               <persName>
+                  <roleName type="title">šayḫ</roleName>
+               </persName>
+               <persName>
+                  <roleName type="title">al-Ḥāǧǧ</roleName>
+               </persName>
+               <floruit>14th / 20th century (d. 1935)<note>He was initiated into the Sammāniyya by Ḥusayn, a grandson of Aḥmad al-Ṭayyib wad al-Bašīr</note>
+               </floruit>
+               <death evidence="internal" calendar="gregorian" when="1937-02-28">1937-02-28 </death>
+               <death evidence="internal" calendar="hijri" when-custom="1355-12-17">1355-12-17 </death>
+               <note>
+                  
+                     Place of activity
+                  : <placeName ref="LOC0037IHA"/>
+                  
+                  
+                     Place of activity
+                  : <placeName ref="LOC0242IHA"/>
+                  
+                  
+                     Area
+                  : <placeName ref="LOC0107IHA"/>
+               </note>
+            </person>
+         </listPerson>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:IHAArticle6"/>
+               <citedRange unit="page">47-56</citedRange>
+            </bibl>
+            <bibl>
+               <ptr target="bm:IHABook9"/>
+               <citedRange unit="page">52</citedRange>
+            </bibl>
+            <bibl>
+               <ptr target="bm:IHABook244"/>
+               <citedRange unit="page">260-266</citedRange>
+            </bibl>
+         </listBibl>
+      </body>
+   </text>
+</TEI>

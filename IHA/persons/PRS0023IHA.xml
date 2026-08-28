@@ -1,0 +1,81 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS0023IHA">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="ar">ابو شجاع احمد بن حسن/حسين بن احمد</title>
+            <editor key="AG"/>
+            <funder>IslHornAfr: Islam in the Horn of Africa, A Comparative Literary Approach. European Research Council (Advanced Grant no. 322849)</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <pubPlace>Hamburg</pubPlace>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
+        Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed
+      under the Creative Commons Attribution-ShareAlike 4.0.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file converted from the IslHornAfr database tables XML export</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Encoded according to TEI P5 Guidelines.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="ar">Arabic</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change xmlns:t="http://www.tei-c.org/ns/1.0" who="PL" when="2019-03-27"> Created file from XML export sent by Michele Petrone</change>
+         <change xmlns:t="http://www.tei-c.org/ns/1.0" who="AG" when="2015-02-11"> Created record in IslHornAfr</change>
+         <change xmlns:t="http://www.tei-c.org/ns/1.0" who="AG" when="2018-02-28"> Last update to this record in IslHornAfr</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person sex="1">
+               <persName xml:id="n1" xml:lang="ar">ابو شجاع احمد بن حسن/حسين بن احمد</persName>
+               <persName corresp="#n1" type="transliterated">Abū Šuǧāʻ, Aḥmad b. Ḥasan/Ḥusayn b. Aḥmad </persName>
+               <persName type="alt" xml:id="n2" xml:lang="ar">تقي الدين احمد بن الحسين الاصفهاني </persName>
+               <persName corresp="#n2" type="transliterated"> Taqī al-Dīn Aḥmad b. al-Ḥusayn al-Iṣfahānī</persName>
+               <persName>
+                  <roleName type="title">Qāḍī</roleName>
+               </persName>
+               <floruit>5th/11th-6th/12th centuries<note>Famous šāfi‘ī jurisconsult. His family came from Iṣfahān, his father was born in ʿAbbādān.  He taught Šāfiʿī law for more than 40 years in Basra. He was alive in 500/1106-7, but the date of his death is not known. At some time, he was a qāḍī .He is the author of a short compendium of Shāfiʿī law and this became the starting-point of one of the great literary traditions of the Šāfiʿī school and acquired, from the 7th/13th to the 13th/19th century, a considerable number of commentaries and glosses, many of which have been printed.</note>
+               </floruit>
+               <birth evidence="internal" calendar="hijri" when-custom="0434">0434 </birth>
+               <note>Floruit:<date evidence="internal" calendar="hijri" when-custom="0500">0500 </date>
+               </note>
+               <note>
+                  
+                     Place of activity
+                  : <placeName ref="LOC0036IHA"/>
+               </note>
+            </person>
+         </listPerson>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:IHABook2"/>
+               <citedRange unit="page">392</citedRange>
+            </bibl>
+            <bibl>
+               <ptr target="bm:IHABook4"/>
+               <citedRange unit="page">676</citedRange>
+            </bibl>
+            <bibl>
+               <ptr target="bm:IHABook54"/>
+               <citedRange unit="page"> &lt;http://referenceworks.brillonline.com/entries/encyclopaedia-of-islam-2/abu-shudja-SIM_0253&gt;</citedRange>
+            </bibl>
+         </listBibl>
+      </body>
+   </text>
+</TEI>

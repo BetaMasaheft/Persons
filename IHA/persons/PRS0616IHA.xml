@@ -1,0 +1,113 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS0616IHA">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="ar">البكري ,مصطفى بن كمال الدين بن علي </title>
+            <editor key="AG"/>
+            <funder>IslHornAfr: Islam in the Horn of Africa, A Comparative Literary Approach. European Research Council (Advanced Grant no. 322849)</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <pubPlace>Hamburg</pubPlace>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
+        Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed
+      under the Creative Commons Attribution-ShareAlike 4.0.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file converted from the IslHornAfr database tables XML export</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Encoded according to TEI P5 Guidelines.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="ar">Arabic</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change xmlns:t="http://www.tei-c.org/ns/1.0" who="PL" when="2019-03-27"> Created file from XML export sent by Michele Petrone</change>
+         <change xmlns:t="http://www.tei-c.org/ns/1.0" who="AG" when="2015-10-09"> Created record in IslHornAfr</change>
+         <change xmlns:t="http://www.tei-c.org/ns/1.0" who="AG" when="2018-03-13"> Last update to this record in IslHornAfr</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person sex="1" sameAs="http://viaf.org/viaf/90063884">
+               <persName xml:id="n1" xml:lang="ar">البكري ,مصطفى بن كمال الدين بن علي </persName>
+               <persName corresp="#n1" type="transliterated">al-Bakrī, Muṣṭafā b. Kamāl al-Dīn b. ʻAlī </persName>
+               <persName type="alt" xml:id="n2" xml:lang="ar">الصديقي الحنفي الخلوتي</persName>
+               <persName corresp="#n2" type="transliterated">al-Ṣiddīqī al-Ḥanafī al-Ḫalwatī </persName>
+               <persName type="alt" xml:id="n3" xml:lang="ar">محيي الدين</persName>
+               <persName corresp="#n3" type="transliterated">Muḥyī al-Dīn</persName>
+               <persName>
+                  <roleName type="title">Šayḫ</roleName>
+               </persName>
+               <persName>
+                  <roleName type="title">Quṭb</roleName>
+               </persName>
+               <birth evidence="internal" calendar="hijri" when-custom="1099-11">1099-11 </birth>
+               <death evidence="internal" calendar="hijri" when-custom="1162-04-18">1162-04-18 </death>
+               <birth evidence="internal" calendar="gregorian" when="1688">1688 </birth>
+               <death evidence="internal" calendar="gregorian" when="1749">1749 </death>
+               <note>
+                  
+                     Master of
+                  : <persName ref="PRS0862IHA"/>
+                  
+                  
+                     Place of activity
+                  : <placeName ref="LOC0275IHA"/>
+                  
+                  
+                     Place of birth
+                  : <placeName ref="LOC0020IHA"/>
+                  
+                  
+                     Master of
+                  : <persName ref="PRS0075IHA"/>
+               </note>
+            </person>
+         </listPerson>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:IHABook3"/>
+               <citedRange unit="page">348-51</citedRange>
+            </bibl>
+            <bibl>
+               <ptr target="bm:IHABook5"/>
+               <citedRange unit="page">477-78</citedRange>
+            </bibl>
+            <bibl>
+               <ptr target="bm:IHABook26"/>
+               <citedRange unit="page">I, 965-66</citedRange>
+            </bibl>
+            <bibl>
+               <ptr target="bm:IHABook7"/>
+               <citedRange unit="page">3713-17</citedRange>
+            </bibl>
+            <bibl>
+               <ptr target="bm:IHABook54"/>
+               <citedRange unit="page">&lt;http://dx.doi.org/10.1163/1573-3912_islam_SIM_1114&gt;</citedRange>
+            </bibl>
+            <bibl>
+               <ptr target="bm:IHABook57"/>
+               <citedRange unit="page">III: 876 (Nr 17039)</citedRange>
+            </bibl>
+            <bibl>
+               <ptr target="bm:IHABook520"/>
+               <citedRange unit="page">http://dx.doi.org/10.1163/1573-3912_ei3_COM_25173</citedRange>
+            </bibl>
+         </listBibl>
+      </body>
+   </text>
+</TEI>

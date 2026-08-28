@@ -1,0 +1,76 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS0061IHA">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="ar">الجويني, ابو المعالي عبد الملك بن ابي محمد عبد الله بن يوسف</title>
+            <editor key="AG"/>
+            <funder>IslHornAfr: Islam in the Horn of Africa, A Comparative Literary Approach. European Research Council (Advanced Grant no. 322849)</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <pubPlace>Hamburg</pubPlace>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
+        Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed
+      under the Creative Commons Attribution-ShareAlike 4.0.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file converted from the IslHornAfr database tables XML export</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Encoded according to TEI P5 Guidelines.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="ar">Arabic</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change xmlns:t="http://www.tei-c.org/ns/1.0" who="PL" when="2019-03-27"> Created file from XML export sent by Michele Petrone</change>
+         <change xmlns:t="http://www.tei-c.org/ns/1.0" who="AG" when="2015-04-10"> Created record in IslHornAfr</change>
+         <change xmlns:t="http://www.tei-c.org/ns/1.0" who="AG" when="2018-02-27"> Last update to this record in IslHornAfr</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person sex="1">
+               <persName xml:id="n1" xml:lang="ar">الجويني, ابو المعالي عبد الملك بن ابي محمد عبد الله بن يوسف</persName>
+               <persName corresp="#n1" type="transliterated">al-Ǧuwaynī, Abū al-Maʻālī ʻAbd al-Malik b. Abī Muḥammad ʻAbd Allāh b. Yūsuf</persName>
+               <persName>
+                  <roleName type="title">Imām al-Ḥaramayn</roleName>
+               </persName>
+               <floruit>5th / 9th century (d. 478 / 1085)<note>He was connected with the school of ʿilm al-kalām inaugurated by Abū al-Ḥasan al-Ašʿarī at the beginning of the 4th/10th century. But ʿAmīd al-Mulk al-Kundurī, vizier of the Salǧūq Tuġrul Beg, declared himself against this “innovation”, and had the Ašʿarīs, as well as the Rawāfiḍ, denounced from the pulpits. Al-Ǧuwaynī, like Abū al-Qāsim al-Qušayrī, immediately left his country and went to Baġdād; then, in 450/1058, he reached the Ḥiǧāz where he taught at Mecca and at Medina for four years: hence his honorary name of “Imām of the two holy Cities”. But when the vizier Niẓām al-Mulk came to power in the Salǧūq empire, he favoured the Ašʿarīs and invited the emigrants to return home.</note>
+               </floruit>
+               <birth evidence="internal" calendar="hijri" when-custom="0419-01-18">0419-01-18 </birth>
+               <death evidence="internal" calendar="hijri" when-custom="0478-04-25">0478-04-25 </death>
+               <birth evidence="internal" calendar="gregorian" when="1028-02-17">1028-02-17 </birth>
+               <death evidence="internal" calendar="gregorian" when="1085-08-20">1085-08-20 The date of death in the article of the Encyclopaedia of Islam does not coincide.</death>
+               <note>
+                  
+                     Teacher of
+                  : <persName ref="PRS0051IHA"/>
+               </note>
+            </person>
+         </listPerson>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:IHABook2"/>
+               <citedRange unit="page">388-389</citedRange>
+            </bibl>
+            <bibl>
+               <ptr target="bm:IHABook54"/>
+               <citedRange unit="page">&lt;http://referenceworks.brillonline.com/entries/encyclopaedia-of-islam-2/al-djuwayni-SIM_2130&gt;</citedRange>
+            </bibl>
+         </listBibl>
+      </body>
+   </text>
+</TEI>

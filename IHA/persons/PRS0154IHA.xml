@@ -1,0 +1,70 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS0154IHA">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="ar">البخاري, محمد بن اسماعيل بن ابراهيم بن المغيرة بن بردزبه ابو عبد الله الجعفي</title>
+            <editor key="AG"/>
+            <funder>IslHornAfr: Islam in the Horn of Africa, A Comparative Literary Approach. European Research Council (Advanced Grant no. 322849)</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <pubPlace>Hamburg</pubPlace>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
+        Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed
+      under the Creative Commons Attribution-ShareAlike 4.0.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file converted from the IslHornAfr database tables XML export</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Encoded according to TEI P5 Guidelines.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="ar">Arabic</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change xmlns:t="http://www.tei-c.org/ns/1.0" who="PL" when="2019-03-27"> Created file from XML export sent by Michele Petrone</change>
+         <change xmlns:t="http://www.tei-c.org/ns/1.0" who="AG" when="2015-05-04"> Created record in IslHornAfr</change>
+         <change xmlns:t="http://www.tei-c.org/ns/1.0" who="AG" when="2018-02-27"> Last update to this record in IslHornAfr</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person sex="1">
+               <persName xml:id="n1" xml:lang="ar">البخاري, محمد بن اسماعيل بن ابراهيم بن المغيرة بن بردزبه ابو عبد الله الجعفي</persName>
+               <persName corresp="#n1" type="transliterated">al-Buḫārī, Muḥammad b. Ismāʻīl b. Ibrāhīm b. al-Muġīra b. Bardizbah Abū ʻAbd Allāh al-Ǧuʻfī</persName>
+               <floruit>3rd/9th century (b. 194/810, d. 256/870)<note>One of the most important traditionists and author of one of the 6 canonical compilations of ḥadīṯ. He began to learn traditions by heart at the age of ten. He had a remarkable memory, and companions of his are said to have corrected traditions they had written down from what he recited by heart. At the age of sixteen he made the Pilgrimage to Mecca with his mother and his brother, and when they returned he remained for a time in the Ḥiǧāz. He travelled widely in search of traditions, visiting the main centres from Ḫurāsān to Egypt, and claimed to have heard traditions from over 1000 šayḫs.</note>
+               </floruit>
+               <birth evidence="internal" calendar="hijri" when-custom="0194">0194 </birth>
+               <death evidence="internal" calendar="gregorian" when="0256">0256 </death>
+            </person>
+         </listPerson>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:IHABook4"/>
+               <citedRange unit="page">260-265</citedRange>
+            </bibl>
+            <bibl>
+               <ptr target="bm:IHABook2"/>
+               <citedRange unit="page">157-160</citedRange>
+            </bibl>
+            <bibl>
+               <ptr target="bm:IHABook54"/>
+               <citedRange unit="page">&lt;http://referenceworks.brillonline.com/entries/encyclopaedia-of-islam-2/al-bukhari-muhammad-b-ismail-SIM_1510&gt;</citedRange>
+            </bibl>
+         </listBibl>
+      </body>
+   </text>
+</TEI>

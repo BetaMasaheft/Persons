@@ -1,0 +1,95 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS1133IHA">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="ar">عبد القادر بن حاج حمزة بن محمود بن كبير حمزة</title>
+            <editor key="AG"/>
+            <funder>IslHornAfr: Islam in the Horn of Africa, A Comparative Literary Approach. European Research Council (Advanced Grant no. 322849)</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <pubPlace>Hamburg</pubPlace>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
+        Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed
+      under the Creative Commons Attribution-ShareAlike 4.0.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file converted from the IslHornAfr database tables XML export</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Encoded according to TEI P5 Guidelines.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="ar">Arabic</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change xmlns:t="http://www.tei-c.org/ns/1.0" who="PL" when="2019-03-27"> Created file from XML export sent by Michele Petrone</change>
+         <change xmlns:t="http://www.tei-c.org/ns/1.0" who="AG" when="2016-09-16"> Created record in IslHornAfr</change>
+         <change xmlns:t="http://www.tei-c.org/ns/1.0" who="AG" when="2018-06-14"> Last update to this record in IslHornAfr</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person sex="1">
+               <persName xml:id="n1" xml:lang="ar">عبد القادر بن حاج حمزة بن محمود بن كبير حمزة</persName>
+               <persName corresp="#n1" type="transliterated">ʻAbd al-Qādir b. Ḥāǧǧ Ḥamza b. Maḥmūd b. Kabīr Ḥamza</persName>
+               <persName>
+                  <roleName type="title">Kabīr </roleName>
+               </persName>
+               <death evidence="internal" calendar="hijri" when-custom="1344-03-06">1344-03-06 Ms DJBL00004, f. 2r; AFHZ00004, f. 137v (23 Muḥarram).
+The exact date of death is the one reported in his hagiography, DJBL00039, f. 63r.</death>
+               <note>Floruit:<date evidence="internal" calendar="hijri" when-custom="1326">1326 He made his ḥaǧǧ, according to DJBL00039, f. 63.</date>
+               </note>
+               <note>
+                  
+                     Son of
+                  : <persName ref="PRS1130IHA"/>
+                  
+                  
+                     Father of
+                  : <persName ref="PRS1148IHA"/>
+                  
+                  
+                     Ṣuḥba
+                  : <persName ref="PRS1877IHA"/>
+                  
+                  
+                     Place of activity
+                  : <placeName ref="LOC0247IHA"/>
+                  
+                  
+                     Master of
+                  : <persName ref="PRS1478IHA"/>
+                  
+                  
+                     
+                  : <placeName ref="LOC0246IHA"/>
+                  
+                     Place of activity
+                  : <placeName ref="LOC0245IHA"/>
+                  
+                  
+                     Place of activity
+                  : <placeName ref="LOC0242IHA"/>
+                  
+                  
+                     Area
+                  : <placeName ref="LOC0351IHA"/>
+               </note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

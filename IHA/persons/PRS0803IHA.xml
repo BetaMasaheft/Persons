@@ -1,0 +1,74 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS0803IHA">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="ar">الجرجاني٬ علي بن محمد بن علي الشريف الحسيني</title>
+            <editor key="AG"/>
+            <funder>IslHornAfr: Islam in the Horn of Africa, A Comparative Literary Approach. European Research Council (Advanced Grant no. 322849)</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <pubPlace>Hamburg</pubPlace>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
+        Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed
+      under the Creative Commons Attribution-ShareAlike 4.0.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file converted from the IslHornAfr database tables XML export</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Encoded according to TEI P5 Guidelines.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="ar">Arabic</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change xmlns:t="http://www.tei-c.org/ns/1.0" who="PL" when="2019-03-27"> Created file from XML export sent by Michele Petrone</change>
+         <change xmlns:t="http://www.tei-c.org/ns/1.0" who="AG" when="2016-05-09"> Created record in IslHornAfr</change>
+         <change xmlns:t="http://www.tei-c.org/ns/1.0" who="AG" when="2017-11-18"> Last update to this record in IslHornAfr</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person sex="1">
+               <persName xml:id="n1" xml:lang="ar">الجرجاني٬ علي بن محمد بن علي الشريف الحسيني</persName>
+               <persName corresp="#n1" type="transliterated">al-Ǧurǧānī, ʻAlī b. Muḥammad b. ʻAlī Šarīf al-Ḥusaynī</persName>
+               <persName type="alt" xml:id="n2" xml:lang="ar">السيد الشريف</persName>
+               <persName corresp="#n2" type="transliterated">al-Sayyid al-Šarīf</persName>
+               <birth evidence="internal" calendar="hijri" when-custom="0740">0740 </birth>
+               <death evidence="internal" calendar="hijri" when-custom="0816">0816 </death>
+            </person>
+         </listPerson>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:IHABook7"/>
+               <citedRange unit="page">2191, n. 5847</citedRange>
+            </bibl>
+            <bibl>
+               <ptr target="bm:IHABook26"/>
+               <citedRange unit="page">II, 602-603</citedRange>
+            </bibl>
+            <bibl>
+               <ptr target="bm:IHABook3"/>
+               <citedRange unit="page">216</citedRange>
+            </bibl>
+            <bibl>
+               <ptr target="bm:IHABook5"/>
+               <citedRange unit="page">305</citedRange>
+            </bibl>
+         </listBibl>
+      </body>
+   </text>
+</TEI>
