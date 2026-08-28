@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Mäšäša Säyfu</title>
+            <title>Mašašā Sayfu</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -32,9 +32,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage><language ident="en">English</language>
+         <language ident="gez"></language></langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2026-08-28" who="ESh">updated spelling, added dates and bibliography</change>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
@@ -45,13 +47,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Mäšäša Säyfu
-               </persName>
-               <occupation> däǧǧ. </occupation>
+               <persName xml:lang="gez" xml:id="n1">መሸሻ፡ ሰይፉ፡</persName>
+               <persName xml:lang="gez" type="normalized" corresp="#n1">Mašašā Sayfu</persName>
+              
+               <faith type="EOTC"/>
+               <occupation type="military">daǧǧāzmāč</occupation>
+               <occupation type="political">ruler of <placeName ref="LOC4578Marhab"/></occupation>
+               <birth when="1847" cert="unknown">1847 (?)</birth>
+               <death when="1887"/>
+               <residence>
+                  <placeName ref="LOC4578Marhab"/>
+               </residence>
             </person>
+            <listRelation>
+               <relation name="snap:SonOf" active="PRS6837MasasaS" passive="PRS8602Sayfusa"/>
+               <relation name="snap:CousinOf" active="PRS6837MasasaS" passive="PRS7006Menilek"/>
+            </listRelation>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl><ptr target="bm:Pedersen2007Masasa"/></bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
