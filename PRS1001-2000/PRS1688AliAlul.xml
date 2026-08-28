@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Ali Alula </title>
+            <title>ʾAli ʾAlulā</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -39,22 +39,34 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change when="2026-08-29" who="CH">Added fidal, floruit, listRelation and listBibl</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Ali Alula 
-               </persName>
-               <persName type="alt">Ali II</persName>
-               <persName type="alt">Ali Tannaš</persName>
-               <persName type="alt">Ali Tǝkku</persName>
-               <occupation type="ruler">rās</occupation>
+               <persName xml:lang="gez" xml:id="n1">አሊ፡ አሉላ፡</persName>
+               <persName xml:lang="gez" corresp="#n1">ʾAli ʾAlulā</persName>
+               <persName xml:lang="gez" xml:id="n2">አሊ፡ ታናሽ፡</persName>
+               <persName xml:lang="gez" corresp="#n2">ʾAli Tānnāš</persName>
+               <persName xml:lang="gez" xml:id="n3">አሊ፡ ትኩ፡</persName>
+               <persName xml:lang="gez" corresp="#n3">ʾAli Tǝkku</persName>
+               <persName xml:lang="en" xml:id="n4">Ali II</persName>
+               <persName><roleName type="title">rās</roleName></persName>
+               <residence ref="LOC2385DabraT">Dabra Tābor</residence>
+               <floruit notBefore="1830" notAfter="1853">He ruled central Ethiopia from 1830 to 1853 as the last of the Yaǧǧu-dynasty of 
+                  <persName ref="ETH1973Oromo"/> chiefs.</floruit>
             </person>
          </listPerson>
+         <listRelation>
+            <relation name="snap:SonOf" active="PRS1688AliAlul" passive="PRS6643MananLi"/>
+         </listRelation>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Rubenson2003AliAlula"/>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>

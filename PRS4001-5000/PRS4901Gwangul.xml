@@ -32,27 +32,32 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change when="2026-08-29" who="CH">Added fidal, updated occupations, added floruit and death according to EAe</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Gwangul Bǝrru
-               </persName>
+               <persName xml:lang="gez" xml:id="n1">ጓንጉል፡ ብሩ፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Gʷāngul Bǝrru</persName>
                  <occupation type="military">daǧǧāzmāč</occupation>
-               <occupation> wag šum </occupation>
+               <occupation type="ruler" notBefore="1895">wāg šum</occupation>
+               <occupation type="political" notAfter="1895">governor of <placeName ref="LOC6945Ambassal"/></occupation>
+               <death when="1905">1905</death>
+               <floruit notBefore="1889" notAfter="1905">Late nineteenth and early twentieth century</floruit>
             </person>
          </listPerson>
+         <listRelation>
+            <relation name="snap:SonOf" active="PRS4901Gwangul" passive="PRS2724BerruGa"/>
+         </listRelation>
       </body>
    </text>
 </TEI>
