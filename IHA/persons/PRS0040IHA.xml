@@ -1,0 +1,72 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS0040IHA">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="ar">الاشي علي بن عثمان  بن محمد سراج الدين الفرغاني </title>
+            <editor key="AG"/>
+            <funder>IslHornAfr: Islam in the Horn of Africa, A Comparative Literary Approach. European Research Council (Advanced Grant no. 322849)</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <pubPlace>Hamburg</pubPlace>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
+        Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed
+      under the Creative Commons Attribution-ShareAlike 4.0.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file converted from the IslHornAfr database tables XML export</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Encoded according to TEI P5 Guidelines.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="ar">Arabic</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change xmlns:t="http://www.tei-c.org/ns/1.0" who="PL" when="2019-03-27"> Created file from XML export sent by Michele Petrone</change>
+         <change xmlns:t="http://www.tei-c.org/ns/1.0" who="AG" when="2015-03-19"> Created record in IslHornAfr</change>
+         <change xmlns:t="http://www.tei-c.org/ns/1.0" who="AG" when="2018-02-27"> Last update to this record in IslHornAfr</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person sex="1">
+               <persName xml:id="n1" xml:lang="ar">الاشي علي بن عثمان  بن محمد سراج الدين الفرغاني </persName>
+               <persName corresp="#n1" type="transliterated">al-Ūšī, ʻAlī b. ʻUṯmān b. Muḥammad b. Sulaymān Sirāǧ al-Dīn al-Taymī al-Farġānī</persName>
+               <persName>
+                  <roleName type="title">Imām al-Ḥaramayn</roleName>
+               </persName>
+               <floruit>6th/12th century<note>Ḥanafī scholar from Ūš in Farġāna of the 6th/12th century. Nothing is known about his life. He is known specially for his lāmiyya, a theological poem of 66 or 68 lines also called Badʾ al-amālī and Qaṣīdat Yaqūlu al-'Abd . It contains a simple creed in the Ḥanafī tradition close to Māturīdī doctrine and seems influenced by the ʿAqāʾid of Abū Ḥafṣ al-Nasafī. The Muʿtazila are explicitly condemned, while criticism of Ašʿarī doctrine is muted. The reality of miracles worked by Ṣūfī saints is upheld, but prophets are ranked in excellence above saints. Among the numerous commentaries written on the poem, that of ʿAlī al-Qārī al-Harawī (d. 1014/1605) is the mostpopular.</note>
+               </floruit>
+               <death evidence="internal" calendar="hijri" when-custom="0575">0575 </death>
+            </person>
+         </listPerson>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:IHABook4"/>
+               <citedRange unit="page">764-765</citedRange>
+            </bibl>
+            <bibl>
+               <ptr target="bm:IHABook2"/>
+               <citedRange unit="page">429-430</citedRange>
+            </bibl>
+            <bibl>
+               <ptr target="bm:IHABook54"/>
+               <citedRange unit="page">http://referenceworks.brillonline.com/entries/encyclopaedia-of-islam-2/al-ushi-SIM_7744</citedRange>
+            </bibl>
+         </listBibl>
+      </body>
+   </text>
+</TEI>

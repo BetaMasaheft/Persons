@@ -1,0 +1,82 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS3167IHA">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="ar">هاشم بن علي بن داود</title>
+            <editor key="AG"/>
+            <funder>IslHornAfr: Islam in the Horn of Africa, A Comparative Literary Approach. European Research Council (Advanced Grant no. 322849)</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <pubPlace>Hamburg</pubPlace>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
+        Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed
+      under the Creative Commons Attribution-ShareAlike 4.0.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file converted from the IslHornAfr database tables XML export</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Encoded according to TEI P5 Guidelines.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="ar">Arabic</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change xmlns:t="http://www.tei-c.org/ns/1.0" who="PL" when="2019-03-27"> Created file from XML export sent by Michele Petrone</change>
+         <change xmlns:t="http://www.tei-c.org/ns/1.0" who="AG" when="2018-06-19"> Created record in IslHornAfr</change>
+         <change xmlns:t="http://www.tei-c.org/ns/1.0" who="AG" when="2018-08-13"> Last update to this record in IslHornAfr</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person sex="1">
+               <persName xml:id="n1" xml:lang="ar">هاشم بن علي بن داود</persName>
+               <persName corresp="#n1" type="transliterated">Hāšim b. ʻAlī b. Dā'ūd</persName>
+               <persName>
+                  <roleName type="title">Amīr</roleName>
+               </persName>
+               <note>Reign:<date evidence="internal" calendar="gregorian" notBefore="1662" notAfter="1671">1662 1671</date>
+               </note>
+               <death evidence="internal" calendar="hijri" when-custom="1081-09-30">1081-09-30 </death>
+               <death evidence="internal" calendar="gregorian" when="1671-02-10">1671-02-10 </death>
+               <note>
+                  
+                     Grandfather of
+                  : <persName ref="PRS0584IHA"/>
+                  
+                  
+                     Uncle of
+                  : <persName ref="PRS0920IHA"/>
+                  
+                  
+                     Son of
+                  : <persName ref="PRS0738IHA"/>
+               </note>
+            </person>
+         </listPerson>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:IHABookSection17"/>
+               <citedRange unit="page">488-489</citedRange>
+            </bibl>
+            <bibl>
+               <ptr target="bm:IHABook22"/>
+               <citedRange unit="page">1018, 1044</citedRange>
+            </bibl>
+         </listBibl>
+      </body>
+   </text>
+</TEI>

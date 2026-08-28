@@ -1,0 +1,75 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS0560IHA">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="ar">احمد التجاني٬ ابو العباس بن محمد بن المختار</title>
+            <editor key="AG"/>
+            <funder>IslHornAfr: Islam in the Horn of Africa, A Comparative Literary Approach. European Research Council (Advanced Grant no. 322849)</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <pubPlace>Hamburg</pubPlace>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
+        Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed
+      under the Creative Commons Attribution-ShareAlike 4.0.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file converted from the IslHornAfr database tables XML export</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Encoded according to TEI P5 Guidelines.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="ar">Arabic</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change xmlns:t="http://www.tei-c.org/ns/1.0" who="PL" when="2019-03-27"> Created file from XML export sent by Michele Petrone</change>
+         <change xmlns:t="http://www.tei-c.org/ns/1.0" who="AG" when="2015-09-02"> Created record in IslHornAfr</change>
+         <change xmlns:t="http://www.tei-c.org/ns/1.0" who="AG" when="2018-03-07"> Last update to this record in IslHornAfr</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person sex="1">
+               <persName xml:id="n1" xml:lang="ar">احمد التجاني٬ ابو العباس بن محمد بن المختار</persName>
+               <persName corresp="#n1" type="transliterated">Aḥmad al-Tiǧānī, Abū al-ʻAbbās b. Muḥammad b. al-Muḫtār</persName>
+               <persName type="alt" xml:id="n2" xml:lang="ar">أبى العباس</persName>
+               <persName corresp="#n2" type="transliterated">Abā al-ʻAbbās</persName>
+               <persName>
+                  <roleName type="title">sīdī; mawlā; šayḫ; </roleName>
+               </persName>
+               <birth evidence="internal" calendar="hijri" when-custom="1150-02-12">1150-02-12 </birth>
+               <death evidence="internal" calendar="hijri" when-custom="1230-10-15">1230-10-15 </death>
+               <death calendar="gregorian" when="1815-09-21">1815-09-21 </death>
+               <note>
+                  
+                     Place of activity
+                  : <placeName ref="LOC0033IHA"/>
+               </note>
+            </person>
+         </listPerson>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:IHABook26"/>
+               <citedRange unit="page">X, 463-464</citedRange>
+            </bibl>
+            <bibl>
+               <ptr target="bm:IHABook54"/>
+               <citedRange unit="page">&lt;http://dx.doi.org/10.1163/1573-3912_islam_SIM_7536&gt;</citedRange>
+            </bibl>
+         </listBibl>
+      </body>
+   </text>
+</TEI>

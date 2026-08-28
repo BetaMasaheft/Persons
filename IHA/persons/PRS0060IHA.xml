@@ -1,0 +1,86 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS0060IHA">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="ar">محمد بن محمد بن عبد الرحمان ابن امام الكاملية</title>
+            <editor key="AG"/>
+            <funder>IslHornAfr: Islam in the Horn of Africa, A Comparative Literary Approach. European Research Council (Advanced Grant no. 322849)</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <pubPlace>Hamburg</pubPlace>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
+        Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed
+      under the Creative Commons Attribution-ShareAlike 4.0.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file converted from the IslHornAfr database tables XML export</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Encoded according to TEI P5 Guidelines.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="ar">Arabic</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change xmlns:t="http://www.tei-c.org/ns/1.0" who="PL" when="2019-03-27"> Created file from XML export sent by Michele Petrone</change>
+         <change xmlns:t="http://www.tei-c.org/ns/1.0" who="AG" when="2015-04-10"> Created record in IslHornAfr</change>
+         <change xmlns:t="http://www.tei-c.org/ns/1.0" who="AG" when="2017-11-25"> Last update to this record in IslHornAfr</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person sex="1">
+               <persName xml:id="n1" xml:lang="ar">محمد بن محمد بن عبد الرحمان ابن امام الكاملية</persName>
+               <persName corresp="#n1" type="transliterated">Muḥammad b. Muḥammad b. ‘Abd al-Raḥmān b. Imām al-Kāmiliyya</persName>
+               <persName type="alt" xml:id="n2" xml:lang="ar">محمد بن محمد بن عبد الرحمان القاهري امام الكاملية كمال الدين</persName>
+               <persName corresp="#n2" type="transliterated">Muḥammad b. Muḥammad al-Qāhirī Imām al-Kāmiliyya Kamāl al-Dīn</persName>
+               <persName>
+                  <roleName type="title">Imām al-Kāmiliyya</roleName>
+               </persName>
+               <floruit>9th / 15th century (d. 874 / 1469)<note/>
+               </floruit>
+               <birth evidence="internal" calendar="gregorian" when="1406-04-09">1406-04-09 </birth>
+               <death evidence="internal" calendar="gregorian" when="1469-10-18">1469-10-18 </death>
+               <birth evidence="internal" calendar="hijri" when-custom="0808-10-18">0808-10-18 </birth>
+               <death evidence="internal" calendar="hijri" when-custom="0874">0874 </death>
+               <note>
+                  
+                     Place of birth
+                  : <placeName ref="LOC0011IHA"/>
+               </note>
+            </person>
+         </listPerson>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:IHABook2"/>
+               <citedRange unit="page">389</citedRange>
+            </bibl>
+            <bibl>
+               <ptr target="bm:IHABook5"/>
+               <citedRange unit="page">85.19</citedRange>
+            </bibl>
+            <bibl>
+               <ptr target="bm:IHABook4"/>
+               <citedRange unit="page">672.13, 680</citedRange>
+            </bibl>
+            <bibl>
+               <ptr target="bm:IHABook3"/>
+               <citedRange unit="page">77</citedRange>
+            </bibl>
+         </listBibl>
+      </body>
+   </text>
+</TEI>

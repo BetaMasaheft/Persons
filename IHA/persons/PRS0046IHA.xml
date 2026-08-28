@@ -1,0 +1,97 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS0046IHA">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="ar">الرملي, محمد بن احمد بن حمزة المنوفي المصري الانصاري شمس الدين</title>
+            <editor key="AG"/>
+            <funder>IslHornAfr: Islam in the Horn of Africa, A Comparative Literary Approach. European Research Council (Advanced Grant no. 322849)</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <pubPlace>Hamburg</pubPlace>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
+        Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed
+      under the Creative Commons Attribution-ShareAlike 4.0.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file converted from the IslHornAfr database tables XML export</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Encoded according to TEI P5 Guidelines.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="ar">Arabic</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change xmlns:t="http://www.tei-c.org/ns/1.0" who="PL" when="2019-03-27"> Created file from XML export sent by Michele Petrone</change>
+         <change xmlns:t="http://www.tei-c.org/ns/1.0" who="AG" when="2015-03-19"> Created record in IslHornAfr</change>
+         <change xmlns:t="http://www.tei-c.org/ns/1.0" who="AG" when="2018-02-28"> Last update to this record in IslHornAfr</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person sex="1">
+               <persName xml:id="n1" xml:lang="ar">الرملي, محمد بن احمد بن حمزة المنوفي المصري الانصاري شمس الدين</persName>
+               <persName corresp="#n1" type="transliterated">al-Ramlī, Muḥammad b. Aḥmad b. Ḥamza al-Manūfī al-Miṣrī al-Anṣārī Šams al-Dīn</persName>
+               <persName type="alt" xml:id="n2" xml:lang="ar">ابو العباس</persName>
+               <persName corresp="#n2" type="transliterated">Abū al-'Abbās</persName>
+               <floruit>10th / 16th century (d. 1595)<note>Prominent Šāfiʿī jurist. He was favourably disposed toward the Ṣūfīs. He was on familiar terms with the famous Egyptian Ṣūfī ʿAbd al-Wahhāb al-Šaʿrānī (d. 973/1565). Al-Ramlī's son-in-law Abū al-Mawāhib (d. 1037/1628) was a son of the Ṣūfī leader and poet Muḥammad al-Bakrī (d. 994/1586)</note>
+               </floruit>
+               <birth evidence="internal" calendar="hijri" when-custom="0917-05-30">0917-05-30 </birth>
+               <death evidence="internal" calendar="hijri" when-custom="1004-05-13">1004-05-13 </death>
+               <note>
+                  
+                     Place of birth
+                  : <placeName ref="LOC0011IHA"/>
+                  
+                  
+                     Ṣuḥba
+                  : <persName ref="PRS0167IHA"/>
+                  
+                  
+                     Kinship
+                  : <persName ref="PRS0115IHA"/>
+                  
+                  
+                     Place of death
+                  : <placeName ref="LOC0011IHA"/>
+               </note>
+            </person>
+         </listPerson>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:IHABook2"/>
+               <citedRange unit="page">395</citedRange>
+            </bibl>
+            <bibl>
+               <ptr target="bm:IHABook3"/>
+               <citedRange unit="page">95, 321</citedRange>
+            </bibl>
+            <bibl>
+               <ptr target="bm:IHABook4"/>
+               <citedRange unit="page">681</citedRange>
+            </bibl>
+            <bibl>
+               <ptr target="bm:IHABook5"/>
+               <citedRange unit="page">112, 442.13, 965.13</citedRange>
+            </bibl>
+            <bibl>
+               <ptr target="bm:IHABook54"/>
+               <citedRange unit="page"> &lt;http://referenceworks.brillonline.com/entries/encyclopaedia-of-islam-2/al-ramli-SIM_6216&gt;</citedRange>
+            </bibl>
+         </listBibl>
+      </body>
+   </text>
+</TEI>

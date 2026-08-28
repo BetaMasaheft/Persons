@@ -1,0 +1,94 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS0007IHA">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="ar">زكرياء الانصاري ابو يحيى بن محمد بن زكرياء زين الدين  السنيكي الشافعي     </title>
+            <editor key="AG"/>
+            <funder>IslHornAfr: Islam in the Horn of Africa, A Comparative Literary Approach. European Research Council (Advanced Grant no. 322849)</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <pubPlace>Hamburg</pubPlace>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
+        Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed
+      under the Creative Commons Attribution-ShareAlike 4.0.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file converted from the IslHornAfr database tables XML export</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Encoded according to TEI P5 Guidelines.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="ar">Arabic</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change xmlns:t="http://www.tei-c.org/ns/1.0" who="PL" when="2019-03-27"> Created file from XML export sent by Michele Petrone</change>
+         <change xmlns:t="http://www.tei-c.org/ns/1.0" who="AG" when="2015-02-04"> Created record in IslHornAfr</change>
+         <change xmlns:t="http://www.tei-c.org/ns/1.0" who="AG" when="2018-02-28"> Last update to this record in IslHornAfr</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person sex="1">
+               <persName xml:id="n1" xml:lang="ar">زكرياء الانصاري ابو يحيى بن محمد بن زكرياء زين الدين  السنيكي الشافعي     </persName>
+               <persName corresp="#n1" type="transliterated">Zakariyyā' al-Anṣārī, Abū Yaḥyā b. Muḥammad b. Zakariyyā’ Zayn al-Dīn al-Sunaykī al-Šāfiʻī</persName>
+               <persName>
+                  <roleName type="title">Šayḫ al-Islām</roleName>
+               </persName>
+               <floruit>15th century<note>Egyptian scholar and Ṣūfī. In his role as scholar ( ʿālim ), he excelled in particular in Šāfiʿī law, for which he composed commentaries which soon became part of the courses in the madrasa</note>
+               </floruit>
+               <birth evidence="internal" calendar="hijri" when-custom="0823">0823 </birth>
+               <death evidence="internal" calendar="hijri" when-custom="0926">0926 </death>
+               <note>
+                  
+                     Pupil of
+                  : <persName ref="PRS0146IHA"/>
+                  
+                  
+                     Teacher of
+                  : <persName ref="PRS0167IHA"/>
+               </note>
+            </person>
+         </listPerson>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:IHABook2"/>
+               <citedRange unit="page">103, 159, 181, 248, 269, 296, 298, 305, 312, 359, 363, 395-396, 417, 428, 432, 452, 465</citedRange>
+            </bibl>
+            <bibl>
+               <ptr target="bm:IHABook3"/>
+               <citedRange unit="page">89, 92, 99-100, 125-126, 191, 202, 214</citedRange>
+            </bibl>
+            <bibl>
+               <ptr target="bm:IHABook4"/>
+               <citedRange unit="page">263. 468, 474, 519, 522, 536, 544-545, 612, 676, 679, 681-683, 739, 771, 811, 842-5</citedRange>
+            </bibl>
+            <bibl>
+               <ptr target="bm:IHABook5"/>
+               <citedRange unit="page">19, 105-106, 108, 117-118, 155, 254, 276, </citedRange>
+            </bibl>
+            <bibl>
+               <ptr target="bm:IHABook54"/>
+               <citedRange unit="page">http://referenceworks.brillonline.com/entries/encyclopaedia-of-islam-2/zakariyya-al-ansari-SIM_8094</citedRange>
+            </bibl>
+            <bibl>
+               <ptr target="bm:IHABook7"/>
+               <citedRange unit="page">1146, n. 3102</citedRange>
+            </bibl>
+         </listBibl>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,84 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="pers" xml:lang="en" xml:id="PRS0099IHA">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="ar">ابن قتيبة, ابو محمد عبد الله بن مسلم الدينوري</title>
+            <editor key="AG"/>
+            <funder>IslHornAfr: Islam in the Horn of Africa, A Comparative Literary Approach. European Research Council (Advanced Grant no. 322849)</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <pubPlace>Hamburg</pubPlace>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
+        Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed
+      under the Creative Commons Attribution-ShareAlike 4.0.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file converted from the IslHornAfr database tables XML export</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Encoded according to TEI P5 Guidelines.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="ar">Arabic</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez">Gǝʿǝz</language>
+            
+            <language ident="x-oh">Old harari</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change xmlns:t="http://www.tei-c.org/ns/1.0" who="PL" when="2019-03-27"> Created file from XML export sent by Michele Petrone</change>
+         <change xmlns:t="http://www.tei-c.org/ns/1.0" who="AG" when="2015-04-20"> Created record in IslHornAfr</change>
+         <change xmlns:t="http://www.tei-c.org/ns/1.0" who="AG" when="2018-02-27"> Last update to this record in IslHornAfr</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person sex="1">
+               <persName xml:id="n1" xml:lang="ar">ابن قتيبة, ابو محمد عبد الله بن مسلم الدينوري</persName>
+               <persName corresp="#n1" type="transliterated">Ibn Qutayba, Abū Muḥammad ʻAbd Allāh b. Muslim al-Dīnawarī</persName>
+               <floruit>3rd / 9th century (d. 885)<note>One of the great Sunnī polygraphs of the 3rd/9th century, theologian and  writer of adab. Although his theodicy is  clearly “Ḥanbalī”, his attitude on qadar has nevertheless some strange nuances; although his attitude concerning the Qurʾān is orthodox, he is much less categorical on the problem of lafẓ [q.v.], which he states does not prevent membership of the Sunnī community; although his attitude concerning the Companions is that which remained in later times the touchstone of the Sunna, he nevertheless retained a deep and reverent respect for the family and descendants of the Prophet, so far as they were politically neutral.
+His methodology certainly seems steadfastly to despise the rational or intellectual criteria held for example among the Šāfiʿīs and the Ḥanafīs. The Qurʾān and the Sunna remain for him the two fundamental bases of doctrine; the third is iǧmāʿ, of which his conception is perhaps nearer to that of Mālik than of Ibn Ḥanbal. The Ḥanafī raʾy and the Šāfiʿī qiyās are fiercely demolished in the Muḫtalif , as are all their equivalents ( naẓar , ʿaql , istiḥsān , etc.).</note>
+               </floruit>
+               <birth evidence="internal" calendar="hijri" when-custom="0213">0213 </birth>
+               <death evidence="internal" calendar="hijri" when-custom="0276">0276 </death>
+               <note>
+                  
+                     Place of birth
+                  : <placeName ref="LOC0039IHA"/>
+                  
+                  
+                     Place of activity
+                  : <placeName ref="LOC0014IHA"/>
+               </note>
+            </person>
+         </listPerson>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:IHABook2"/>
+               <citedRange unit="page">120-123</citedRange>
+            </bibl>
+            <bibl>
+               <ptr target="bm:IHABook4"/>
+               <citedRange unit="page">184-7</citedRange>
+            </bibl>
+            <bibl>
+               <ptr target="bm:IHABook54"/>
+               <citedRange unit="page">&lt;http://referenceworks.brillonline.com/entries/encyclopaedia-of-islam-2/ibn-kutayba-COM_0333&gt;</citedRange>
+            </bibl>
+         </listBibl>
+      </body>
+   </text>
+</TEI>
