@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Ali Bǝrru</title>
+            <title>ʿĀli Bǝrru</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -32,27 +32,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change when="2026-08-29" who="CH">Added fidal, added n2, updated encoding roleName, added floruit, added LOC6341Yajju to residence</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Ali Bǝrru
-               </persName>
-               <occupation> ras  </occupation>
-               <residence>
-                  Yäǧǧu
-               </residence>
+               <persName xml:id="n1" xml:lang="gez">ዓሊ፡ ብሩ፡</persName>
+               <persName corresp="#n1" xml:lang="gez" type="transliterated">ʿĀli Bǝrru</persName>
+               <persName xml:id="n2" xml:lang="en">Ali III Berru</persName>
+               <persName><roleName type="title">rās</roleName></persName>
+               <residence ref="LOC6341Yajju">Yaǧǧu</residence>
+               <floruit notBefore="1850" notAfter="1899">Second half of the nineteenth century</floruit>
             </person>
          </listPerson>
       </body>
