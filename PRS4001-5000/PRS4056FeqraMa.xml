@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Fǝqrä Maryam Gämmäčču</title>
+            <title>Fǝqra Māryām Gammačču</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -32,26 +32,32 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change when="2026-08-29" who="CH">Added fidal, floruit, faith, birth, death and listBibl; updated occupation</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Fǝqrä Maryam Gämmäčču
-               </persName>
-               <occupation> bishop </occupation>
+               <persName xml:id="n1" xml:lang="gez">ፍቅረ፡ ማርያም፡ ገመቹ፡</persName>
+               <persName corresp="#n1" xml:lang="gez" type="normalized">Fǝqra Māryām Gammačču</persName>
+               <faith type="Catholicism"/>
+               <occupation type="ecclesiastic">He became the first Oromo Roman Catholic bishop in 1986</occupation>
+               <birth when="1926">1926 in <placeName ref="LOC6178Wallag">Wallagā</placeName>.</birth>
+               <death when="1994-03-08">8 March 1994 in Konč̣i</death>
+               <floruit notBefore="1926" notAfter="1994">1926–1994</floruit>
             </person>
          </listPerson>
+         <listBibl type="secondary">
+            <bibl><ptr target="bm:Tedros2005EAEFeqraMG"/></bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
