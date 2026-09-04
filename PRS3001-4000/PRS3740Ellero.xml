@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Ellero</title>
+            <title>Giovanni Battista Ellero</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -35,6 +35,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <langUsage><language ident="en">English</language></langUsage>
       </profileDesc>
       <revisionDesc>
+         <change who="CH" when="2026-09-03">Updated persName and title; added birth, death, floruit, listRelation, listBibl</change>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
@@ -44,14 +45,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                   Giovanni Battista
-                  Ellero
+            <person sex="1" sameAs="wd:Q3767165">
+               <persName><forename>Giovanni</forename> <forename>Battista</forename> <surname>Ellero</surname>
                </persName>
-               <occupation> sch. </occupation>
+               <occupation type="literary">He was a scholar focusing primarily on customary law, traditional land right and land resources,
+                  genealogies, and pastoral taxonomy. He was in assiduous correspondence with <persName ref="PRS3182ContiRo"/>, who 
+                  published several articles based on his research.</occupation>
+               <birth when="1910-07-17">17 July 1910</birth>
+               <death when="1942">In June 1942, he was made war prisoner by the British troops and sent to South Africa. He died as the ship
+                  that transported him was sunk by the German navy.</death>
+               <floruit notBefore="1936" notAfter="1942">He was colonial officer of the Italian East Africa serving in several posts in 
+                  <placeName ref="LOC5932Tegray"/>.</floruit>
             </person>
          </listPerson>
+         <listRelation>
+            <relation name="snap:ProfessionalRelationship" active="PRS3740Ellero" passive="PRS3182ContiRo"/>
+         </listRelation>
+         <listBibl type="secondary">
+            <bibl><ptr target="bm:Martinez2005EAeEllero"/></bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
