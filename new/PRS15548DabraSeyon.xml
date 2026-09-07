@@ -38,24 +38,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MK" when="2026-09-07">Created stub</change>
+            <change who="MK" when="2026-09-07">Created record</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Dabra Ṣǝyon</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
-                    <t:faith xmlns:t="http://www.tei-c.org/ns/1.0" type="EOTC"/>
-                    <occupation type="ecclesiastic"/>
+                    <persName xml:lang="gez" xml:id="n1" type="monastic">ደብረ፡ ጽዮን፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Dabra Ṣǝyon</persName>
+                    <persName><roleName type="title">ʾabbā</roleName></persName>
+                    <faith type="EOTC"/>
+                    <occupation type="ecclesiastic">monk</occupation>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1930" notAfter="1980">Sometime between 1930 and 1980.</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15548DabraSeyon" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS15548DabraSeyon" passive="ESmr045"><desc>He appears as the commissioner in <ref type="mss" corresp="ESmr045#coloph1">a colophon of Ms. Ethio-SPaRe MR-045</ref>.</desc></relation>
+                    <relation name="snap:SonOf" active="PRS15548DabraSeyon" passive="PRS15549WaldaAnanya"></relation>
+                    <relation name="snap:SonOf" active="PRS15548DabraSeyon" passive="PRS15550WalattaGiyorgis"></relation>
                 </listRelation>
             </listPerson><!---->
         </body>

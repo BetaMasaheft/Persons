@@ -38,26 +38,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MK" when="2026-09-07">Created stub</change>
+            <change who="MK" when="2026-09-07">Created record</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Yoḥannǝs</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
-                    <t:faith xmlns:t="http://www.tei-c.org/ns/1.0" type="EOTC"/>
-                    <occupation type="ecclesiastic"/>
+                    <persName xml:lang="gez" xml:id="n1" type="monastic">ዮሐንስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Yoḥannǝs</persName>
+                    <persName><roleName type="title">ʾabbā</roleName></persName>
+                    <persName><roleName type="rank">ṗaṗās, bishop</roleName></persName>
+                    <faith type="EOTC"/>
+                    <occupation type="ecclesiastic">monk</occupation>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1930" notAfter="1970">Sometime between 1930 and 1970.</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15545Yohannes" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS15545Yohannes" passive="ESmr045"><desc>His name appears in <ref type="mss" corresp="ESmr045#coloph1">a colophon of Ms. Ethio-SPaRe MR-045</ref>.</desc></relation>
                 </listRelation>
-            </listPerson><!---->
+            </listPerson>
         </body>
     </text>
 </TEI>

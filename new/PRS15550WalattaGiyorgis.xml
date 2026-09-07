@@ -38,23 +38,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MK" when="2026-09-07">Created stub</change>
+            <change who="MK" when="2026-09-07">Created record</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="2">
-                    <persName xml:lang="gez" xml:id="n1">Walatta Giyorgis</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
-                    <t:faith xmlns:t="http://www.tei-c.org/ns/1.0" type="EOTC"/>
+                    <persName xml:lang="gez" xml:id="n1" type="baptismal">ወለተ፡ ጊዮርጊስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walatta Giyorgis</persName>
+                    <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1920" notAfter="1970">Sometime between 1920 and 1970.</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15550WalattaGiyorgis" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS15550WalattaGiyorgis" passive="ESmr045"><desc>Her name appears in <ref type="mss" corresp="ESmr045#coloph1">a colophon of Ms. Ethio-SPaRe MR-045</ref>.</desc></relation>
+                    <relation name="snap:MotherOf" active="PRS15550WalattaGiyorgis" passive="PRS15548DabraSeyon"/>
                 </listRelation>
             </listPerson><!---->
         </body>

@@ -38,24 +38,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MK" when="2026-09-07">Created stub</change>
+            <change who="MK" when="2026-09-07">Created record</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Walda ʾIyasus</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
-                    <t:faith xmlns:t="http://www.tei-c.org/ns/1.0" type="EOTC"/>
-                    <occupation type="ecclesiastic"/>
+                    <persName xml:lang="gez" xml:id="n1" type="monastic">ወልደ፡ ኢየሱስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walda ʾIyasus</persName>
+                    <persName><roleName type="function">nǝbura ʾǝd</roleName></persName>
+                    <faith type="EOTC"/>
+                    <occupation type="ecclesiastic">monk</occupation>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1930" notAfter="1970">Sometime between 1930 and 1970.</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15546WaldaIyasus" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS15546WaldaIyasus" passive="ESmr045"><desc>His name appears in <ref type="mss" corresp="ESmr045#coloph1">a colophon of Ms. Ethio-SPaRe MR-045</ref>.</desc></relation>
                 </listRelation>
             </listPerson><!---->
         </body>
