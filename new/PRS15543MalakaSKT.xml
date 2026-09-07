@@ -34,24 +34,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </abstract>
             <langUsage>
                 <language ident="en">English</language>
-                <language ident="gez">Gǝʿǝz</language>
+                <language ident="ti">Tigrinya</language>
             </langUsage>
         </profileDesc>
         <revisionDesc>
             <change who="CH" when="2026-09-02">Created record</change>
-            <!--  -->
+            <change when="2026-09-07" who="CH">Updated after reviews by Magdalena Krzyżanowska and Elizaveta Shvarts</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">መልአከ፡ ስብሐት፡ ካሕሣይ፡ ተስፋይ፡</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1">Malʾaka Sǝbḥat Kāḥśāy Tasfāy</persName>
-                    <floruit notBefore="1900" notAfter="1949">First half of twentieth century</floruit>
+                    <persName xml:lang="ti" xml:id="n1">መልአከ፡ ስብሐት፡ ካሕሣይ፡ ተስፋይ፡</persName>
+                    <persName xml:lang="ti" type="normalized" corresp="#n1">Malʾaka Sǝbḥat Kāḥśāy Tasfāy</persName>
+                    <floruit notBefore="1900" notAfter="1949">First half of the twentieth century</floruit>
                 </person>
                 <listRelation>
-                    <relation name="saws:isCopierOf" active="PRS15543MalakaSKT" passive="ANLcr88#ms_i1"/>
+                    <relation name="saws:isCopierOf" active="PRS15543MalakaSKT" passive="ANLcr88"><desc>Copier of the first part of 
+                        <ref type="mss" corresp="ANLcr88"/> on fols 1 to 52. </desc></relation>
                 </listRelation>
             </listPerson>
         </body>

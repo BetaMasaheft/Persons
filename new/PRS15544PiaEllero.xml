@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Pia Ellero</title>
+                <title>Pia Maria Pezzoli</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="CH"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -38,21 +38,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="CH" when="2026-09-04">Created record</change>
-            <!--  -->
+            <change when="2026-09-07" who="CH">Updated after reviews by Magdalena Krzyżanowska and Elizaveta Shvarts</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="2">
-                    <persName><forename>Pia</forename> <surname>Ellero</surname></persName>
-                    <floruit notBefore="1900" notAfter="1999">Twentieth century</floruit>
+                    <persName><forename>Pia</forename> <forename>Maria</forename> <surname>Pezzoli</surname></persName>
+                    <birth when="1905">1905 in Bologna</birth>
+                    <death when="1995">1995 in Bologna</death>
+                    <floruit notBefore="1905" notAfter="1995">1905–1995</floruit>
                 </person>
-                <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15544PiaEllero" passive="ANLcr88"/>
-                    <relation name="betmas:wifeOf" active="PRS15544PiaEllero" passive="PRS3740Ellero"/>
-                </listRelation>
             </listPerson>
+            <listRelation>
+                <relation name="lawd:hasAttestation" active="PRS15544PiaEllero" passive="ANLcr88"/>
+                <relation name="betmas:wifeOf" active="PRS15544PiaEllero" passive="PRS3740Ellero"/>
+            </listRelation>
+            <listBibl type="secondary">
+                <bibl><ptr target="bm:Bollini2023Fondi"/></bibl>
+                <bibl><ptr target="bm:ElleroBlogUfficiale"/></bibl>
+            </listBibl>
         </body>
     </text>
 </TEI>
