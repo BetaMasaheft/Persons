@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Wǝdǝm Säfär</title>
+            <title>Wǝdǝm Safar</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -39,19 +39,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change when="2026-09-10" who="CH">Updated transcription, added floruit, relation and bibl ref according to information from EAe</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
             <person sex="1">
-               <persName>
-                  
-                  Wǝdǝm Säfär
-               </persName>
-               <occupation> lord </occupation>
+               <persName xml:id="n1" xml:lang="gez">ውድም፡ ሰፈር፡</persName>
+               <persName corresp="#n1" xml:lang="gez" type="normalized">Wǝdǝm Safar</persName>
+               <persName corresp="#n1" xml:lang="gez" type="normalized">Wǝddǝm Safar</persName>
+               <occupation type="political">lord</occupation>
+               <floruit notBefore="1380" notAfter="1450">Late 14th century or the first half of the 15th century</floruit>
             </person>
          </listPerson>
+         <listRelation>
+            <relation name="snap:UncleOf" active="PRS10110WedemS" passive="PRS10342Yeshaq"><desc>He was the paternal uncle of 
+               <persName ref="PRS10342Yeshaq"/>.</desc></relation>
+         </listRelation>
+         <listBibl type="secondary">
+            <bibl><ptr target="bm:Bausi2007Libanos"/><citedRange unit="page">560a</citedRange></bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
