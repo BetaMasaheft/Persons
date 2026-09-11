@@ -1,0 +1,65 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PRS15532Teodorani" xml:lang="en" type="pers">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Teodorani</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="CH"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="it">Italian</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="CH" when="2026-08-18">Created record</change>
+            <change when="2026-08-18" who="CH">Updated after review by Eugenia Sokolinski and Eliza Shvarts</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person sex="1">
+                    <persName><forename>Paolo</forename> <surname>Teodorani</surname></persName>
+                    <persName><roleName type="rank">commissario commendatore</roleName></persName>
+                    <occupation type="military">He was a prominent Italian colonial official and administrator in Eritrea.</occupation>
+                    <nationality type="Italy"/>
+                    <birth when="1895">1895</birth>
+                    <floruit notBefore="1895" notAfter="1921">He held office in Italian Eritrea from 1895 to 1921.</floruit>
+                </person>           
+            </listPerson>
+            <listRelation>
+                <relation name="lawd:hasAttestation" active="PRS15532Teodorani" passive="ANLcr84#p2"/>
+            </listRelation>
+            <listBibl type="secondary">
+                <bibl><ptr target="bm:Giorgi2012Africa"/><citedRange unit="page">116, 117, 139, 140</citedRange></bibl>
+            </listBibl>
+        </body>
+    </text>
+</TEI>
