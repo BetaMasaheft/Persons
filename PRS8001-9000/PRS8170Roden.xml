@@ -40,6 +40,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
          <change when="2026-05-05" who="CH">Updated name, birth, death, floruit, occupation, residence, listBibl, Wikidata</change>
+         <change when="2026-09-16" who="CH">Delete listBibl</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -59,11 +60,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                <floruit notBefore="1885" notAfter="1923"/>
             </person>
          </listPerson>
-         <listBibl type="secondary">
-            <bibl>
-               <ptr target="bm:EzraGebrem2014Roden"/>
-            </bibl>
-         </listBibl>
       </body>
    </text>
 </TEI>
