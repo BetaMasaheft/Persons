@@ -39,7 +39,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="CH" when="2026-09-18">Created record</change>
-            <!--  -->
+            <change when="2026-09-21" who="CH">Updated after review by Magdalena Krzyżanowska</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -50,6 +50,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Mikāʾel Habaš</persName>
                 </person>
             </listPerson>
+            <listRelation>
+                <relation name="lawd:hasAttestation" active="PRS15554MikaelH" passive="ANLcr95"><desc>He is mentioned as the person who 
+                    wrote several notes in <ref type="mss" corresp="ANLcr95"/> on <locus target="#147r"/>.</desc></relation>
+            </listRelation>
         </body>
     </text>
 </TEI>
