@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Talamonto</title>
+                <title>Luigi Talamonti</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DR"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -34,31 +34,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </abstract>
             <langUsage>
                 <language ident="en">English</language>
-                <language ident="gez">Gǝʿǝz</language>
+                <language ident="it">Italian</language>
             </langUsage>
         </profileDesc>
         <revisionDesc>
             <change who="DR" when="2025-04-08">Created entity</change>
+            <change when="2026-09-23" who="CH">Swapped n1 and n2 and updated note</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person>
-                    <persName xml:lang="it" xml:id="n1">Talamonto</persName>
-                    <persName xml:lang="it" xml:id="n2">
+                    <persName xml:lang="it" xml:id="n1">
                         <forename>Luigi</forename>
                         <surname>Talamonti</surname>
                     </persName>
+                    <persName xml:lang="it" xml:id="n2">Talamonto</persName>
                     <floruit when="1925">1925</floruit>
-                    <note>According to a note by <persName ref="PRS3182ContiRo">Carlo Conti Rossini</persName> in
-                        <ref type="mss" corresp="ANLcr9"/>, he received this manuscript from
-                        ‘Talamonto, Asmara’ in
-                    1925. It might speculated whether this person might be identified with Luigi
-                    Talamonti, attested elsewhere as cooperating with Conti Rossini in the
-                    acquisition of manuscript copies, e.g.
-                        <bibl><ptr target="bm:Oudenrijn1946Eveque"/><citedRange
-                            unit="page">10</citedRange></bibl>.</note>  
+                    <note>Luigi Talamonti is attested as cooperating with Conti Rossini in the acquisition of manuscript copies, e.g.
+                        <bibl><ptr target="bm:Oudenrijn1946Eveque"/><citedRange unit="page">10</citedRange></bibl>. 
+                        Possibly the same person as ‘Talamonto, Asmara’, who was mentioned in a note 
+                        by <persName ref="PRS3182ContiRo"/> in <ref type="mss" corresp="ANLcr9"/>.</note>  
                 </person>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="PRS14786Talam" passive="ANLcr9"/>
@@ -68,6 +65,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         passive="LOC1579Asmara"/>
                 </listRelation>
             </listPerson>
+            <listBibl type="secondary">
+                <bibl><ptr target="bm:Oudenrijn1946Eveque"/><citedRange unit="page">10</citedRange></bibl>
+            </listBibl>
         </body>
     </text>
 </TEI>
