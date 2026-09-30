@@ -32,10 +32,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <abstract>
                 <p/>
             </abstract>
-            <t:langUsage xmlns:t="http://www.tei-c.org/ns/1.0">
+            <langUsage>
                 <language ident="en">English</language>
                 <language ident="gez">Gǝʿǝz</language>
-            </t:langUsage>
+            </langUsage>
         </profileDesc>
         <revisionDesc>
             <change who="CH" when="2026-09-30">Created record</change>
@@ -48,7 +48,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ዘመለኮት፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Zamalakot</persName>
-                    <persName><roleName>liqe</roleName></persName><!-- In BFmartini, fol. 33rb, he is called ሊቄ፡ ዘመለኮት፡ -->
+                    <persName><roleName>liqe</roleName></persName>
                     <floruit notBefore="1600" notAfter="1605">Beginning of the seventeenth century</floruit>
                 </person>
             </listPerson>
