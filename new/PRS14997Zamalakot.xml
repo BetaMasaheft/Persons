@@ -40,6 +40,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <revisionDesc>
             <change who="DR" when="2025-08-05">Created entity. I distance myself from the norm ISO
                 5218:2004, used here for legacy reasons.</change>
+            <change who="CH" when="2026-09-30">Updated floruit and note, deleted relation.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -48,15 +49,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person sex="1">
                     <persName xml:lang="gez" xml:id="n1">ዘመለኮት፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Zamalakot</persName>
-                    <note>Zamalakot is described in the colophon of <ref type="mss" corresp="ANLcr25"/> as
-                        ‘son of the
+                    <persName><roleName type="title">liqe</roleName></persName>
+                    <note>Zamalakot is described in <ref type="work" corresp="LIT2419Tarikz"/> as ‘son of the
                         children of Marqorewos, head of
-                        the scribes and ṣaḥafe tǝʾǝzāz of <persName ref="PRS10626ZaraY"/>’.</note>
-                    <floruit when="1902"/>
+                        the scribes and ṣaḥafe tǝʾǝzāz of Zarʾa Yāʿqob (who is possibly <persName ref="PRS10626ZaraY"/>)’.</note>
+                    <floruit notBefore="1600" notAfter="1605">Beginning of the seventeenth century during the reign of 
+                        <persName ref="PRS10513Zadenge"/>.</floruit>
                 </person>
-                <listRelation>
-                    <relation name="saws:isCopierOf" active="PRS14997Zamalakot" passive="ANLcr25"/>
-                </listRelation>
             </listPerson>
         </body>
     </text>
