@@ -45,16 +45,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Gabra Giyorgis</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">አባይ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">ʾAbbāy</persName>
+                    <persName xml:lang="gez" xml:id="n2" type="baptismal">ገብረ፡ ጊዎርጊስ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n2">Gabra Giyorgis</persName>
+                    <persName><roleName type="rank">ḥalaqā</roleName></persName>
                     <faith type="EOTC"/>
+                    <occupation type="ecclesiastic">priest</occupation>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <floruit notBefore="1800" notAfter="1899">Sometime in the 19th century</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15583GabraGiyorgis" passive=""/>
+                    <relation name="snap:BrotherOf" active="PRS15583GabraGiyorgis" passive="PRS15568Tasfaya"/>
                 </listRelation>
             </listPerson><!---->
         </body>

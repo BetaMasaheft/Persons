@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Sǝmrata Śǝllāse</title>
+                <title>Sǝmrata Sǝllāse</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="MK"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -38,23 +38,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MK" when="2026-10-06">Created stub</change>
+            <change who="MK" when="2026-10-06">Created record</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Sǝmrata Śǝllāse</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1" type="baptismal">ስምረተ፡ ስላሴ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Sǝmrata Sǝllāse</persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <residence><placeName ref="LOC7206Koholo">Kʷakʷalo</placeName></residence>
+                    <floruit notBefore="1800" notAfter="1899">Sometime in the 19th century</floruit>
                 </person>
                 <listRelation>
-                    <relation name="snap:SonOf" active="PRS15578SemrataSellase" passive=""/>
+                    <relation name="snap:SonOf" active="PRS15578SemrataSellase" passive="PRS15568Tasfaya"/>
                 </listRelation>
             </listPerson><!---->
         </body>
