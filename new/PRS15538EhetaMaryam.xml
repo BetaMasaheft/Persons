@@ -39,6 +39,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="ESh" when="2026-08-19">Created record</change>
+            <change who="ESh" when="2026-10-10">Added the second name</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -47,6 +48,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <person sex="2">
                     <persName xml:lang="gez" xml:id="n1" type="baptismal">ʾƎḫǝta Māryām</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">እኅተ፡ ማርያም፡</persName>
+                    <persName xml:lang="gez" xml:id="n2">Tǝrǝngo</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n2">ትርንጎ፡</persName>
+                    <persName><roleName type="title">wayzaro</roleName></persName>
                     <faith type="EOTC"/>
                                         <floruit notBefore="1800">Not earlier than 19th century</floruit>
                 </person>
