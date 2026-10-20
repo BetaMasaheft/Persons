@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Wälättä Ǝsraʾel Śǝyyum</title>
+            <title>Walatta ʾƎsrāʾel Śǝyyum</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -32,9 +32,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2026-10-20" who="ESh">fixed spelling, added wikidata id</change>
          <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
@@ -44,13 +45,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
-            <person sex="2">
-               <persName>
-                  
-                  Wälättä Ǝsraʾel Śǝyyum
+            <person sex="2" sameAs="wd:Q8029754">
+               <persName xml:lang="gez" xml:id="n1" type="birth">ወለተ፡ እስራኤል፡ ሥዩም፡</persName>
+               <persName xml:lang="gez" corresp="#n1" type="normalized">Walatta ʾƎsrāʾel Śǝyyum
                </persName>
-               <occupation> wäyz.  </occupation>
+               <persName>
+                  <roleName type="title">wayzaro</roleName>
+               </persName>
+               <birth when="1907"/>
+               <death when="1989"/>
             </person>
+            
+            <listRelation>
+               <relation name="betmas:wifeOf" active="PRS9828Walatta" passive="PRS2112AsfaWas"/></listRelation>
          </listPerson>
       </body>
    </text>
