@@ -39,17 +39,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change who="MK" when="2026-10-23">Added details</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPerson>
-            <person sex="1">
-               <persName>
-                  
-                  Matthew (Matewos) IV
-               </persName>
-                <occupation type="ecclesiastic">Patriarch</occupation>
+               <person sex="1" sameAs="wd:Q4117917">
+                  <persName xml:lang="en" xml:id="n1" type="main">Matthew IV</persName>
+                  <persName xml:lang="gez" xml:id="n2">ማቴዎስ፡</persName>
+                  <persName  xml:lang="gez" corresp="#n2" type="normalized">Mātewos</persName>
+                  <persName xml:lang="en" xml:id="n3" type="birth">George</persName>
+                  <occupation type="ecclesiastic">102nd Patriarch of Alexandria</occupation>
+                  <floruit notBefore="1660-12-06" notAfter="1675-08-15">06.12.1660–15.08.1675</floruit>
+                  <death when="1675-08-15">15.08.1675</death>
             </person>
          </listPerson>
       </body>
