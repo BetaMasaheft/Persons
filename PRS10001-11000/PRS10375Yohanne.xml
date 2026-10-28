@@ -42,6 +42,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="SG" when="2016-08-03">Complete record</change>
          <change who="SG" when="2017-05-17">Correction</change>
          <change who="SG" when="2019-08-19">update to floruit</change>
+         <change when="2026-10-27" who="MK">Minor changes</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -58,20 +59,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                <persName xml:lang="gez" xml:id="n3" type="regnal">አእላፍ፡ ሰገድ፡</persName>
                <persName xml:lang="gez" corresp="#n3" type="normalized">ʾAʾlāf Sagad</persName>
 
-               <occupation type="ruler">Emperor</occupation>
+               <occupation type="ruler">emperor</occupation>
                <nationality type="Ethiopia"/>
                <faith type="EOTC"/>
                <residence>
                   <placeName ref="LOC3577Gondar">Gondar</placeName>
                </residence>
                <birth when="1603"/>
-               <floruit notBefore="1667" notAfter="1682">He succeeded his father King <persName ref="PRS4015Fasilada">Fāsiladas</persName> in <date> 1667</date>.
+               <floruit notBefore="1667" notAfter="1682">He succeeded his father King <persName ref="PRS4015Fasilada">Fāsiladas</persName> in <date when="1667"> 1667</date>.
                   His reign was marked by religious strife and almost constant warfare.
-                  Indeed, he was devoted to religious deeds so that he was often called Ṣādqu, "the righteous".
+                  Because of his devotion to religious works, he was often called Ṣādqu, ‘the righteous’.
                </floruit>
-               <death when="1682" evidence="internal">
-                  <date>19 July 1682</date>
-               </death>
+               <death when="1682-07-19" evidence="internal">19 July 1682</death>
             </person>
             <listRelation>
                <relation name="snap:SonOf" active="PRS10375Yohanne" passive="PRS4015Fasilada"/>

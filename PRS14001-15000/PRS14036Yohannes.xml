@@ -39,6 +39,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="AY" when="2023-06-14">Created entity</change>
+            <change when="2026-10-27" who="MK">Minor changes</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -48,8 +49,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <persName xml:lang="gez" xml:id="n1">ዮሐንስ</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Yoḥannǝs</persName>
                     <faith type="EOTC"/>
-                    <occupation type="ecclesiastic">He became the Patriarch of Tǝgrāy in 1955/56 </occupation>
+                    <occupation type="ecclesiastic">bishop</occupation>
                     <nationality type="Ethiopia"/>
+                    <floruit notBefore="1955">He became the bishop of Tǝgrāy in 1955/56.</floruit>
                     <birth notBefore="1894" notAfter="1895"/>
                     <death notBefore="1990" notAfter="1991"/>
                       </person>
@@ -58,7 +60,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </listRelation>
                </listPerson>
             <listBibl type="secondary">
-                <bibl><ptr target="bm:Mersha2004Patriarchs"/><citedRange unit="page">168-175</citedRange>
+                <bibl><ptr target="bm:Mersha2004Patriarchs"/><citedRange unit="page">168–175</citedRange>
                 </bibl></listBibl>
                 </body>
     </text>
