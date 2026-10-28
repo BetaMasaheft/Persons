@@ -13,11 +13,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
                 <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
-                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                    Forschungsumgebung / Beta maṣāḥǝft</publisher>
                 <pubPlace>Hamburg</pubPlace>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
-                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                        licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -38,24 +38,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="CH" when="2026-10-27">Created stub</change>
+            <change who="CH" when="2026-10-27">Created record</change>
+            <change when="2026-10-28" who="CH">Updated after review by Magdalena Krzyżanowska</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Zawalda Māryām</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
-                    <faith type=""/>
-                    <birth/>
-                    <death/>
-                    <floruit/>
+                    <persName xml:lang="gez" xml:id="n1">ዘወልደ፡ ማርያም፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Zawalda Māryām</persName>
+                    <floruit notBefore="1650" notAfter="1699">Second half of the seventeenth century</floruit>
                 </person>
-                <listRelation>
-                    <relation name="saws:isCopierOf" active="PRS15599ZawaldaMar" passive=""/>
-                </listRelation>
-            </listPerson><!---->
+            </listPerson>
+            <listRelation>
+                <relation name="saws:isCopierOf" active="PRS15599ZawaldaMar" passive="ANLcr103"/>
+            </listRelation>
         </body>
     </text>
 </TEI>
