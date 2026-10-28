@@ -39,7 +39,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="CH" when="2026-10-27">Created record</change>
-            <change when="2026-10-28" who="MK">Reviewed and approved</change>
+            <change when="2026-10-28" who="CH">Updated after review by Magdalena Krzyżanowska</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -52,7 +52,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </person>
             </listPerson>
             <listRelation>
-                <relation name="saws:hasOwned" active="PRS15602SabanaGiyo" passive="ANLcr103"/>
+                <relation name="lawd:hasAttestation" active="PRS15602SabanaGiyo" passive="ANLcr103"><desc>She is mentioned as a 
+                    supplicant.</desc></relation>
             </listRelation>
         </body>
     </text>

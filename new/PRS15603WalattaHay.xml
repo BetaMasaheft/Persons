@@ -39,7 +39,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="CH" when="2026-10-27">Created record</change>
-            <change when="2026-10-28" who="MK">Reviewed and approved</change>
+            <change when="2026-10-28" who="CH">Updated after review by Magdalena Krzyżanowska</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -51,7 +51,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <floruit notBefore="1650" notAfter="1699">Second half of the seventeenth century</floruit>
                 </person>
                 <listRelation>
-                    <relation name="saws:hasOwned" active="PRS15603WalattaHay" passive="ANLcr103"/>
+                    <relation name="lawd:hasAttestation" active="PRS15603WalattaHay" passive="ANLcr103"><desc>She is mentioned as a 
+                        supplicant.</desc></relation>
                 </listRelation>
             </listPerson>
         </body>
