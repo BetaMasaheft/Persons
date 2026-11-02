@@ -45,16 +45,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPerson>
-                <person sex="2">
+                <person>
                     <persName xml:lang="gez" xml:id="n1">ሰበነ፡ ጊዮርጊስ፡</persName>
                     <persName xml:lang="gez" type="normalized" corresp="#n1">Sabana Giyorgis</persName>
                     <floruit notBefore="1650" notAfter="1699">Second half of the seventeenth century</floruit>
                 </person>
             </listPerson>
             <listRelation>
-                <relation name="lawd:hasAttestation" active="PRS15602SabanaGiyo" passive="ANLcr103"><desc>She is mentioned as a 
-                    supplicant.</desc></relation>
+                <relation name="lawd:hasAttestation" active="PRS15602SabanaGiyo" passive="ANLcr103"><desc>This person is mentioned as a 
+                    supplicant. The name is typically given to a male child, but this person is indicate to be female in 
+                    <bibl><ptr target="bm:Strelcyn1976Catalogue"/><citedRange unit="page">263</citedRange></bibl>.</desc></relation>
             </listRelation>
+            <listBibl type="secondary">
+                <bibl>
+                    <ptr target="bm:Strelcyn1976Catalogue"/>
+                    <citedRange unit="item">103</citedRange>
+                    <citedRange unit="page">261–264</citedRange>
+                </bibl>
+            </listBibl>
         </body>
     </text>
 </TEI>
