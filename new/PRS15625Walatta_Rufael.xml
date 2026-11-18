@@ -38,23 +38,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MK" when="2026-11-18">Created stub</change>
+            <change who="MK" when="2026-11-18">Created record</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="2">
-                    <persName xml:lang="gez" xml:id="n1">Walatta Rufāʾel</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1" type="baptismal">ወለተ፡ ሩፋኤል፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walatta Rufāʾel</persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <t:death xmlns:t="http://www.tei-c.org/ns/1.0"/>
-                    <floruit/>
+                    <floruit notBefore="1900" notAfter="1950">Sometime in the first half of the 20th century</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15625Walatta_Rufael" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS15625WalattaRufael" passive="ESgbi013">
+                        <desc>She appears as a donor in <ref type="mss" corresp="ESgbi013#2"> Additio 2 of the MS. Ethio-SPaRe GBI-013</ref>, written in a secondary hand.</desc>
+                    </relation>
+                    
                 </listRelation>
             </listPerson><!---->
         </body>

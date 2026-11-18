@@ -38,23 +38,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="MK" when="2026-11-18">Created stub</change>
+            <change who="MK" when="2026-11-18">Created record</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
                 <person sex="1">
-                    <persName xml:lang="gez" xml:id="n1">Walda ʿAbiya ʾƎgziʿ</persName>
-                    <persName xml:lang="gez" type="normalized" corresp="#n1"/>
+                    <persName xml:lang="gez" xml:id="n1">ወልደ፡ ዐቢየ፡ እግዚእ፡</persName>
+                    <persName xml:lang="gez" type="normalized" corresp="#n1">Walda ʿAbiya ʾƎgziʿ</persName>
+                    <persName><roleName type="function">mamhǝr</roleName></persName>
                     <faith type="EOTC"/>
                     <nationality type="Ethiopia"/>
-                    <birth/>
-                    <t:death xmlns:t="http://www.tei-c.org/ns/1.0"/>
-                    <floruit/>
+                    <floruit when="1900">Around the year 1900</floruit>
                 </person>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="PRS15627WaldaAbEgzi" passive=""/>
+                    <relation name="lawd:hasAttestation" active="PRS15627WaldaAbEgzi" passive="ESgbi013">
+                        <desc>He appears in a donation note, written in a secondary hand, in <ref type="mss" corresp="ESgbi013#3"> Additio 3 of the Ms. Ethio-SPaRe GBI-013</ref>.</desc></relation>
+                    <relation name="snap:ProfessionalRelationship" active="PRS15627WaldaAbEgzi" passive="PRS15628Asrat"></relation>
                 </listRelation>
             </listPerson><!---->
         </body>
